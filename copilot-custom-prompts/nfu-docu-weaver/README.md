@@ -221,6 +221,34 @@ python generate_docs.py batch ./data ./template.docx ./output --continue-on-erro
 - 数据格式仅支持 YAML（JSON/CSV 支持计划在未来版本）
 - 测试覆盖率约 70-75%（目标 >80%）
 
+## 📁 项目结构
+
+```
+nfu-docu-weaver/
+├── schemas/              # 📋 数据契约层 - Schema 定义
+│   └── lesson_data_schema.yml  # 课程教案数据结构规范
+├── template/             # 📄 文档模板层
+│   └── template.docx     # Word 模板文件
+├── test_data/           # 📊 测试数据层
+│   └── lesson*.yml      # 示例数据文件
+├── output/              # 📁 输出文档层
+├── tests/               # 🧪 测试套件
+├── docs/                # 📚 项目文档
+└── generate_docs.py     # 🔧 核心生成引擎
+```
+
+### 🆕 Schema-Driven Architecture (v1.4.0+)
+
+从 v1.4.0 开始，Docu-Weaver 采用 **Schema-Driven Architecture**（模式驱动架构），`schemas/` 目录中的数据契约文件成为整个系统的架构基石：
+
+- **作用 1**: 为 AI Agent 提供精确的数据生成指令
+- **作用 2**: 为数据验证提供标准规范
+- **作用 3**: 为文档生成提供字段映射参考
+
+详见 [Schema 使用指南](schemas/README.md)
+
+---
+
 ## 📝 项目文档
 
 ### 核心文档
@@ -241,17 +269,17 @@ python generate_docs.py batch ./data ./template.docx ./output --continue-on-erro
 
 ## 🚀 未来改进 (路线图)
 
-### V1.4.0 - 测试与性能优化 (计划中)
-- **测试覆盖率提升**: 从 70% 提升到 >80%
-- **性能基准测试**: 大规模文件（1000+）性能验证
-- **CI/CD 集成**: GitHub Actions 自动测试
-- **错误日志增强**: 详细的错误日志和调试信息
+### V1.4.0 - Schema-Driven Architecture 🔥 (开发中)
+- **Schema 集成**: 基于 schema 的自动验证
+- **架构重构**: 规范化目录结构（schemas/, templates/, data_source/）
+- **向后兼容**: 保持与 v1.3.0 的完全兼容
+- **文档完善**: Schema 使用指南和最佳实践
 
-### V2.0.0 - Agent 交互式工作流
+### V2.0.0 - AI Agent 工作流 (规划中)
+- **AI 指令系统**: 基于 Schema 的 AI 数据生成
 - **交互式确认**: 生成前确认工作计划
 - **增量交付**: 一次一份的生成和审查流程
-- **智能验证**: AI 辅助的数据完整性检查
-- **LLM 集成**: 与大语言模型深度集成
+- **LLM 深度集成**: 完整的 AI Agent 工作流
 
 ### V3.0.0 - 扩展支持
 - **支持更多数据格式**: JSON, CSV, Excel 等

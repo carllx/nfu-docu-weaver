@@ -15,9 +15,10 @@
 | Sprint 1 | MVP 核心功能 | ✅ Done | 100% | 2025-10-03 | 2025-10-04 |
 | Sprint 2 | 批量处理基础 | ✅ Done | 100% | 2025-10-04 | 2025-10-04 |
 | Sprint 3 | UX与质量提升 | ✅ Done | 100% | 2025-10-04 | 2025-10-04 |
-| Sprint 4 | Agent 工作流 | 📅 Planned | 0% | TBD | TBD |
+| Sprint 4 | Schema-Driven 架构 | 🔥 In Progress | 20% | 2025-10-04 | 2025-10-08 |
+| Sprint 5 | AI Agent 工作流 | 📅 Planned | 0% | TBD | TBD |
 
-**Overall Progress**: `████████████████████████░░░ 80%`
+**Overall Progress**: `█████████████████████████░░ 85%`
 
 ---
 
@@ -211,17 +212,97 @@ $ python generate_docs.py analyze ./test_data --recursive
 
 ---
 
+## 📋 Epic 2.5: Schema-Driven Architecture 🔥
+
+**Epic Goal**: 引入 Schema-Driven Architecture，将数据契约提升为系统第一级架构组件
+
+**Status**: 🔥 In Progress  
+**Target Version**: v1.4.0  
+**Sprint**: Sprint 4
+
+---
+
+### Story 2.6: Schema 基础设施建设 🔥
+**Status**: 🔥 In Progress  
+**Points**: 5  
+**Completed**: 2025-10-04 (部分)
+
+**Acceptance Criteria**:
+- [x] 创建 schemas/ 目录
+- [x] 定义 lesson_data_schema.yml v2
+- [x] 创建 schemas/README.md 使用指南
+- [x] 更新项目文档反映架构变更
+- [ ] 将 schemas/ 纳入版本控制
+- [ ] 创建 Schema 示例和模板
+
+**Delivered** (Phase 1):
+- ✅ schemas/ 目录结构
+- ✅ lesson_data_schema.yml v2 完整定义
+- ✅ Schema 使用指南文档
+- ✅ 架构文档更新（新增第6章）
+- ✅ README.md 更新
+- ✅ CHANGELOG.md 更新
+
+**Time Spent**: ~2h (文档阶段)
+
+---
+
+### Story 2.7: Schema 验证器集成 📅
+**Status**: Planned  
+**Points**: 8  
+**Target**: Sprint 4
+
+**Acceptance Criteria**:
+- [ ] 实现 SchemaValidator 类
+- [ ] 从 Schema 文件加载验证规则
+- [ ] 支持嵌套结构验证
+- [ ] 支持类型检查（string, int, list, object）
+- [ ] 支持必需字段 vs 可选字段
+- [ ] validate 命令自动使用 Schema
+- [ ] 完整的单元测试覆盖
+
+**Technical Design**:
+```python
+class SchemaValidator:
+    def load_schema(self, schema_path: Path) -> dict
+    def extract_rules(self, schema: dict) -> ValidationRules
+    def validate_against_schema(self, data: dict) -> ValidationResult
+```
+
+**Estimated Time**: 4-5h
+
+---
+
+### Story 2.8: 目录结构规范化 📅
+**Status**: Planned  
+**Points**: 3  
+**Target**: Sprint 4 (可选)
+
+**Acceptance Criteria**:
+- [ ] 重命名 template/ → templates/
+- [ ] 重命名 test_data/ → data_source/
+- [ ] 更新所有路径引用
+- [ ] 保持向后兼容（旧路径支持）
+- [ ] 更新文档和示例
+- [ ] 迁移脚本（如需要）
+
+**Estimated Time**: 2-3h
+
+---
+
 ## 📋 Epic 3: Agent 交互式工作流 (Future)
 
 **Epic Goal**: 实现 LLM Agent 交互式工作流，提供增量交付和交互式确认
 
 **Status**: Planned  
-**Target Version**: v2.0.0
+**Target Version**: v2.0.0  
+**Sprint**: Sprint 5
 
 ### Planned Stories:
 - Story 3.1: 任务启动与输入接收
 - Story 3.2: 数据解析与生成计划确认
 - Story 3.3: 增量生成与交互式审查
+- Story 3.4: AI Prompt 工程与 Schema 集成
 
 ---
 
@@ -244,6 +325,12 @@ $ python generate_docs.py analyze ./test_data --recursive
 - **Completed Points**: 13
 - **Velocity**: 13 points
 - **Accuracy**: 100%
+
+### Sprint 4 Velocity (In Progress)
+- **Planned Points**: 16 (Story 2.6-2.8)
+- **Completed Points**: 3 (Story 2.6 文档部分)
+- **Velocity**: TBD
+- **Progress**: 20%
 
 ### Quality Metrics
 | Metric | Sprint 1 | Sprint 2 | Sprint 3 | Target |

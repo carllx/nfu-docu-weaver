@@ -361,17 +361,50 @@ $ python generate_docs.py validate --batch ./data template.docx
 
 ## [Unreleased]
 
-### Planned for v1.3.0
-- [ ] 进度条显示（tqdm 库集成）
-- [ ] 数据验证功能
-- [ ] 递归批量处理
-- [ ] 单元测试套件
+### v1.4.0 - Schema-Driven Architecture (开发中)
+
+**Theme**: 模式驱动架构升级
+
+#### 🏗️ BUILD - 架构变更
+
+**新增: Schema 数据契约层** 🆕
+- 创建 `schemas/` 目录作为数据契约层
+- 添加 `lesson_data_schema.yml` v2 - 课程教案数据结构规范
+- Schema 成为系统架构的第一级组件
+
+**Schema v2 特性**:
+- ✅ 完整的教案数据结构定义
+- ✅ 详细的字段说明和注释
+- ✅ 支持嵌套结构（如 `class_hours.total`）
+- ✅ 支持列表数据（如 `supported_course_objectives`）
+- ✅ 新增 `segment_type` 字段用于环节类型标识
+- ✅ 新增 `signature_info` 页脚签名信息
+
+**Schema 的三大作用**:
+1. **AI Agent 指令核心**: 为 AI 提供精确的数据生成指令
+2. **数据验证标准**: 为数据验证提供标准规范
+3. **文档生成参考**: 为字段映射提供参考文档
+
+#### 📚 Documentation
+
+- 新增 `schemas/README.md` - Schema 使用指南
+- 新增 `docs/architecture/6-schema-driven-architecture.md` - 架构文档
+- 更新 `README.md` - 添加 Schema-Driven Architecture 说明
+- 更新架构文档索引
+
+---
+
+### Planned for v1.4.0
+- [ ] 实现 SchemaValidator 类（基于 schema 的验证）
+- [ ] 集成 Schema 到 validate 命令
+- [ ] 目录结构规范化（template → templates, test_data → data_source）
+- [ ] 向后兼容性保证
 
 ### Planned for v2.0.0
-- [ ] LLM Agent 交互式工作流
+- [ ] AI Agent 工作流（prompts/ 目录）
+- [ ] Schema-based AI 数据生成
 - [ ] 交互式确认和审查
 - [ ] 增量交付模式
-- [ ] 配置文件支持
 
 ---
 
@@ -379,6 +412,7 @@ $ python generate_docs.py validate --batch ./data template.docx
 
 | Version | Date | Key Features |
 |---------|------|--------------|
+| 1.4.0 | TBD | 🏗️ Schema-Driven Architecture (架构升级) |
 | 1.3.0 | 2025-10-04 | ✨ 进度条显示 + 数据验证 + 测试框架 (Sprint 3 完成) |
 | 1.2.0 | 2025-10-04 | 🎯 批量处理功能（analyze + batch 命令） |
 | 1.1.0 | 2025-10-04 | 🔥 修复中文字体显示问题（eastAsia 属性） |

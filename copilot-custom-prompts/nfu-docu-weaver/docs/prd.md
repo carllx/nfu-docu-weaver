@@ -22,6 +22,7 @@
 |   |   |   |   |
 |---|---|---|---|
 |**Date**|**Version**|**Description**|**Author**|
+|2025-10-04|2.1|添加 Schema-Driven Architecture 需求|PO|
 |2025-10-04|2.0|升级为通用文档生成项目|PM (John)|
 |2025-10-03|1.0|初始文档创建|PM (John)|
 
@@ -36,6 +37,13 @@
 - **FR3: 内容映射**: Agent 必须能够识别模板文件中的占位符，并将其与数据文件中的键（key）进行准确映射。
     
 - **FR4: 生成文档**: Agent 必须为数据目录中的每一个数据文件生成一份独立的、内容已填充的最终文档。
+
+- **FR4.5: Schema-Driven Validation** 🆕 (v1.4.0+): Agent 必须基于 Schema 契约进行数据验证：
+    
+    - **FR4.5.1: Schema 加载**: 系统能够加载并解析 Schema 定义文件
+    - **FR4.5.2: 规则提取**: 从 Schema 中自动提取验证规则（必需字段、类型、结构）
+    - **FR4.5.3: 自动验证**: 在文档生成前自动验证数据完整性
+    - **FR4.5.4: 详细报告**: 提供清晰的验证报告（通过/失败/警告）
     
 - **FR5: 交互式工作流**: Agent 必须遵循一个交互式工作流程：
     
@@ -160,6 +168,82 @@ so that 我可以确保每一份文档的质量都符合要求，并能随时对
     
 2. 生成的文档内容必须准确地将数据源内容映射到模板的各个部分。
     
-3. 在呈现文档后，Agent 必须主动询问用户是否满意，并请求下一步指令（例如，“请您审阅。是否继续生成下一份？”）。
+3. 在呈现文档后，Agent 必须主动询问用户是否满意，并请求下一步指令（例如，"请您审阅。是否继续生成下一份？"）。
     
-4. Agent 必须能够重复此“生成-审查”循环，直到所有指定的文档都生成并获得用户确认。
+4. Agent 必须能够重复此"生成-审查"循环，直到所有指定的文档都生成并获得用户确认。
+
+---
+
+## 6. Epic 2.5: Schema-Driven Architecture 🆕
+
+**Epic Goal**: 引入 Schema-Driven Architecture（模式驱动架构），将数据契约提升为系统的第一级架构组件，确保从 AI 数据生成、数据验证到文档合成的全流程一致性。
+
+**Target Version**: v1.4.0  
+**Priority**: High  
+**Status**: In Progress
+
+---
+
+### Story 2.6: Schema 基础设施建设
+
+As a **系统架构师**,  
+I want **建立 Schema 数据契约层作为系统架构基石**,  
+so that **整个系统有统一的数据结构规范，AI 生成、数据验证和文档生成都基于同一标准**。
+
+#### Acceptance Criteria (验收标准)
+
+1. 创建 `schemas/` 目录作为独立的架构层。
+2. 定义完整的数据 Schema 文件（如 `lesson_data_schema.yml`），包含：
+   - 所有数据字段的定义和说明
+   - 字段类型、格式和约束
+   - 嵌套结构和列表数据的定义
+   - 必需字段 vs 可选字段标识
+3. Schema 文件包含详细的注释和示例数据。
+4. 创建 Schema 使用指南文档（`schemas/README.md`）。
+5. 更新项目架构文档反映 Schema-Driven 设计。
+6. Schema 纳入版本控制。
+
+**Status**: ✅ 80% Complete (文档部分完成)
+
+---
+
+### Story 2.7: Schema 验证器集成
+
+As a **开发者**,  
+I want **实现基于 Schema 的自动验证器**,  
+so that **在文档生成前能自动检查数据完整性，快速发现问题**。
+
+#### Acceptance Criteria (验收标准)
+
+1. 实现 `SchemaValidator` 类，支持：
+   - 从 Schema 文件加载验证规则
+   - YAML 语法验证
+   - 必需字段存在性检查
+   - 数据类型验证（string, int, list, object）
+   - 嵌套结构完整性验证
+2. `validate` 命令自动使用 Schema 进行验证。
+3. 验证失败时提供详细的错误信息和位置。
+4. 支持批量验证模式。
+5. 完整的单元测试覆盖（>85%）。
+
+**Status**: 📅 Planned
+
+---
+
+### Story 2.8: 目录结构规范化 (可选)
+
+As a **项目维护者**,  
+I want **规范化项目目录结构**,  
+so that **项目组织更清晰，符合 Schema-Driven 架构的分层理念**。
+
+#### Acceptance Criteria (验收标准)
+
+1. 重命名目录以反映架构分层：
+   - `template/` → `templates/`（表现层）
+   - `test_data/` → `data_source/`（数据层）
+2. 更新所有代码和文档中的路径引用。
+3. 保持向后兼容（旧路径仍然支持，但显示 deprecated 警告）。
+4. 提供迁移指南和脚本（如需要）。
+5. 更新所有示例和测试。
+
+**Status**: 📅 Planned (Optional)

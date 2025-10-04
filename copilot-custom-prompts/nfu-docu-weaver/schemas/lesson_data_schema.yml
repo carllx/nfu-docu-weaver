@@ -1,0 +1,110 @@
+# ===================================================================
+#           课程教案结构化数据契约与模板 (YAML Schema v2)
+#      Structure Data Schema & Template for Lesson Plan (Version 2)
+# ===================================================================
+#
+# 说明 (Instructions):
+# v2 版本补充了文档页脚的签名信息，并优化了教学环节的结构，使其更加健壮。
+# ... (原有说明保持不变) ...
+
+# --- 课程与课次基本信息 (Basic Course and Lesson Information) ---
+# ... (此部分无变化) ...
+lesson_number: 1
+lesson_title: "第一次课教案"
+course_name: "字体艺术"
+
+# --- 课次核心内容定义 (Core Lesson Content Definition) ---
+# ... (此部分无变化) ...
+chapter_info: "第一章 字体设计概述（上）"
+lesson_content: "1.1 字体设计的概念；1.2 字体的源流；"
+class_schedule: "第 1 周，星期 四 ，第 12-15 节"
+class_hours:
+  total: "4学时"
+  breakdown: "（理论3，实践1）"
+supported_course_objectives:
+  - description: "掌握字体设计的基本概念与功能，理解字体在视觉传达、品牌识别与文化传播中的作用。"
+    supports: "支撑课程知识目标（1），对应毕业要求2、3。"
+  - description: "了解汉字与西文字体的历史源流，能够比较不同文字体系的演变特征，认识文字发展与社会文化变迁之间的关系。"
+    supports: "支撑课程知识目标（3），对应毕业要求5、8。"
+teaching_aims:
+  knowledge_aim: "掌握字体设计的基本概念与功能，了解汉字与西文字体的源流。"
+  ability_aim: "能够分析字体的形态特征和应用场景，具备小组合作收集与整理字体案例的能力。"
+  quality_aim: "树立文化自信，增强对文字文化的理解与尊重；培养合作精神、责任意识与设计理观念。"
+  process_and_method_aim: "1.学生在教师讲授中建立字体概念框架；2.通过案例分析理解字体演变规律；..."
+key_and_difficult_points:
+  key_points: "字体设计的概念与功能；汉字和西文字体的历史源流。"
+  difficult_points: "在比较中理解中西文字体的差异及其文化背景。"
+pre_class_preparation:
+  required_reading:
+    - "[1] 周峰：《字体设计》[M]. 中国美术学院出版社，2024年，第1章字体设计概述之1.1节、1.2节（第3–31页）。"
+  optional_reading:
+    - "[2] 无（第一周课程为开篇基础，教材内容已充分涵盖核心知识点，暂不指定选读材料。)"
+  thinking_questions:
+    - "我们日常生活中随处可见字体设计的身影，字体设计究竟在何种意义上影响着信息传达？"
+    - "汉字作为传承几千年的文字，其发展演变过程中体现了怎样的文化精神？相比之下，西文字母的发展有何不同？"
+  other_preparations: "无特殊要求。"
+teaching_methods: "讲授法+案例分析法+多媒体教学法+小组讨论法"
+
+# --- 主要教学环节设计 (Main Teaching Segments Design) ---
+
+# 特征: 对象列表 (List of Objects)
+# 对应: “主要教学环节设计” 表格
+# 格式: ... (原有说明保持不变) ...
+# v2 优化: 新增 segment_type 字段，用于标识环节类型，方便程序进行逻辑判断。
+# (v2 Update: Added 'segment_type' for logical processing.)
+main_teaching_segments:
+  - segment_title: "课程导入"
+    # 新增字段 (New Field)
+    segment_type: "introduction" # 可选值: introduction, review, lecture, discussion, practice, summary, other
+    process_description: "教师展示一组广告、包装、数字界面中的典型字体案例..."
+    design_details:
+      organization: "教师展示案例与视频，提出启发问题；学生观察、回答并交流。"
+      methods: "情境引入 + 案例演示 + 提问互动。"
+      time_arrangement: "10分钟"
+      in_class_thinking: "“同一句话换不同字体，会带来怎样不同的气质与情绪？”"
+      ideological_integration: "强调文字在文明传承中的价值，培养学生尊重文字文化与民族自豪感。"
+
+  - segment_title: "上次课复习"
+    # 新增字段 (New Field) - 第一次课的特殊情况
+    segment_type: "review_special_case" # 特殊类型，用于标识“名为复习，实为介绍”的场景
+    process_description: "因课程为首次授课，无复习环节。教师改为介绍课程整体架构与学习方式..."
+    design_details:
+      organization: "教师介绍课程结构与考核要求，学生记录要点并表达个人期待。"
+      methods: "讲解 + 问答。"
+      time_arrangement: "10分钟"
+      in_class_thinking: "“你希望通过本课程获得哪些方面的成长？”"
+      ideological_integration: "强调学习与职业发展的联系，引导学生形成诚信学习与终身学习的意识。"
+
+  # ... 其他环节也应补充 segment_type 字段 ...
+
+  - segment_title: "课堂小结"
+    # 新增字段 (New Field)
+    segment_type: "summary"
+    process_description: "教师回顾本节重点内容..."
+    design_details:
+      organization: "教师总结，学生记录要点。"
+      methods: "要点归纳 + 提问答疑。"
+      time_arrangement: "10分钟"
+      in_class_thinking: "“今天学习的哪一点最能帮助你理解字体设计的意义？”"
+      ideological_integration: "鼓励学生养成总结反思习惯，培养终身学习意识。"
+
+
+# --- 课后作业 (After-class Assignments) ---
+# ... (此部分无变化) ...
+after_class_assignments:
+  - "字体设计案例收集与学习日志。各学习小组需在课后协作完成不少于50组字体设计案例的收集与分类整理..."
+  - "预习第1章1.3、1.4，整理3个易混概念并准备分享。"
+
+
+# --- 页脚签名信息 (Footer Signature Information) ---
+# v2 新增部分 (v2 New Section)
+
+# 特征: 对象 (Object)
+# 对应: 文档末尾的签名区域
+# 格式: 每个子项均为单行文本，无换行，无序号。
+signature_info:
+  author_name: "王加号" # 填表人
+  author_date: "2025年09月08日" # 填表日期
+  approver_name: "张三" # 专业负责人/教研室主任
+  approver_date: "2025年09月09日" # 审批日期
+
