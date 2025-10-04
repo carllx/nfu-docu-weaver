@@ -1,0 +1,8 @@
+lesson_title: "第九次课教案"
+course_name: "Machine Learning Fundamentals"
+chapter_title: "第二章 Supervised Learning"
+lesson_content: "2.1 线性回归；\n2.2 逻辑回归；"
+class_period: "第 2 周，星期 一  ，第 3-6　节；"
+total_class_hours: "4学时（理论3，实践1）"
+learning_objectives: "- Understand linear regression.\n\n- Apply logistic regression to classification problems."
+
