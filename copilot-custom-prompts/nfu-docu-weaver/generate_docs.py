@@ -8,6 +8,7 @@ from docx.shared import RGBColor
 from docx.enum.text import WD_COLOR_INDEX
 import argparse
 from pathlib import Path
+from tqdm import tqdm
 
 class DocumentGenerator:
     def __init__(self):
@@ -380,8 +381,18 @@ class DocumentGenerator:
                 "error": str(e)
             }
     
-    def batch_generate(self, data_dir, template_path, output_dir, continue_on_error=False, debug=False):
-        """批量生成文档"""
+    def batch_generate(self, data_dir, template_path, output_dir, continue_on_error=False, debug=False, quiet=False, verbose=False):
+        """批量生成文档
+        
+        Args:
+            data_dir: 数据文件目录
+            template_path: 模板文件路径
+            output_dir: 输出目录
+            continue_on_error: 遇错继续
+            debug: 调试模式
+            quiet: 安静模式（仅显示错误）
+            verbose: 详细模式（显示详细日志）
+        """
         self.debug = debug
         
         # 确保输出目录存在
@@ -405,15 +416,31 @@ class DocumentGenerator:
         succeeded = 0
         failed = 0
         
-        print(f"开始批量生成文档...")
-        print(f"总共发现 {len(yaml_files)} 个数据文件")
-        print("-" * 60)
+        # 进度条设置
+        use_progress_bar = not quiet and not verbose
         
-        for idx, data_file in enumerate(yaml_files, 1):
+        if not quiet:
+            print(f"开始批量生成文档...")
+            print(f"总共发现 {len(yaml_files)} 个数据文件")
+            if not use_progress_bar:
+                print("-" * 60)
+        
+        # 使用 tqdm 进度条或普通循环
+        if use_progress_bar:
+            pbar = tqdm(yaml_files, desc="批量生成文档", unit="file")
+            iterator = pbar
+        else:
+            iterator = yaml_files
+            pbar = None
+        
+        for idx, data_file in enumerate(iterator, 1):
             file_name = data_file.stem
             output_path = os.path.join(output_dir, f"{file_name}.docx")
             
-            print(f"\n[{idx}/{len(yaml_files)}] 处理: {data_file.name}")
+            if verbose and not use_progress_bar:
+                print(f"\n[{idx}/{len(yaml_files)}] 处理: {data_file.name}")
+            elif not use_progress_bar and not quiet:
+                print(f"\n[{idx}/{len(yaml_files)}] 处理: {data_file.name}")
             
             try:
                 success = self.generate_document(
@@ -430,6 +457,9 @@ class DocumentGenerator:
                         "status": "success",
                         "output": output_path
                     })
+                    # Only show success message in verbose mode without progress bar
+                    if verbose and not use_progress_bar:
+                        print(f"  ✅ 成功: {output_path}")
                 else:
                     failed += 1
                     results.append({
@@ -437,13 +467,16 @@ class DocumentGenerator:
                         "status": "failed",
                         "error": "生成失败"
                     })
+                    if not quiet:
+                        print(f"  ❌ 失败: {data_file.name}")
                     if not continue_on_error:
                         break
                         
             except Exception as e:
                 failed += 1
                 error_msg = str(e)
-                print(f"  ❌ 错误: {error_msg}")
+                if not quiet:
+                    print(f"  ❌ 错误: {error_msg}")
                 results.append({
                     "file": data_file.name,
                     "status": "failed",
@@ -454,12 +487,13 @@ class DocumentGenerator:
                     break
         
         # 生成汇总报告
-        print("\n" + "=" * 60)
-        print("批量生成完成!")
-        print(f"  ✅ 成功: {succeeded}")
-        print(f"  ❌ 失败: {failed}")
-        print(f"  📊 总计: {len(yaml_files)}")
-        print("=" * 60)
+        if not quiet:
+            print("\n" + "=" * 60)
+            print("批量生成完成!")
+            print(f"  ✅ 成功: {succeeded}")
+            print(f"  ❌ 失败: {failed}")
+            print(f"  📊 总计: {len(yaml_files)}")
+            print("=" * 60)
         
         return {
             "success": failed == 0,
@@ -512,8 +546,6 @@ class DocumentGenerator:
                 print(f"文档已成功生成: {output_path}")
                 print(f"  - 处理段落: {processed_count}")
                 print(f"  - 处理表格单元格: {table_cell_count}")
-            else:
-                print(f"  ✅ 成功: {output_path}")
             
             return True
             
@@ -554,6 +586,12 @@ def cmd_generate(args):
         debug=args.debug
     )
     
+    # 输出结果（非debug模式）
+    if success and not args.debug:
+        print(f"文档已成功生成: {output_path}")
+    elif not success:
+        print(f"文档生成失败")
+    
     # 输出JSON格式结果
     result = {
         "success": success,
@@ -573,13 +611,16 @@ def cmd_batch(args):
         args.template,
         args.output_dir,
         continue_on_error=args.continue_on_error,
-        debug=args.debug
+        debug=args.debug,
+        quiet=args.quiet,
+        verbose=args.verbose
     )
     
     # 输出JSON格式的详细结果
-    print("\n" + "=" * 60)
-    print("详细结果 (JSON):")
-    print(json.dumps(result, ensure_ascii=False, indent=2))
+    if not args.quiet:
+        print("\n" + "=" * 60)
+        print("详细结果 (JSON):")
+        print(json.dumps(result, ensure_ascii=False, indent=2))
     
     return 0 if result['success'] else 1
 
@@ -634,6 +675,10 @@ def main():
     parser_batch.add_argument('--continue-on-error', action='store_true',
                              help='遇到错误时继续处理其他文件')
     parser_batch.add_argument('--debug', action='store_true', help='启用调试模式')
+    parser_batch.add_argument('-q', '--quiet', action='store_true', 
+                             help='安静模式（仅显示错误）')
+    parser_batch.add_argument('-v', '--verbose', action='store_true', 
+                             help='详细模式（显示所有处理信息）')
     parser_batch.set_defaults(func=cmd_batch)
     
     # 解析参数
