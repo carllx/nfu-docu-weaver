@@ -1,0 +1,145 @@
+---
+globs: *.js
+description: JavaScript for Automation (JXA) standards for Alfred workflows
+---
+
+# JavaScript for Automation (JXA) Standards
+
+## Script Structure
+```javascript
+#!/usr/bin/env osascript -l JavaScript
+
+/**
+ * Script description
+ * Usage: Called from Alfred workflow
+ */
+
+function run(argv) {
+    try {
+        // Main implementation
+        return processWorkflow(argv);
+    } catch (error) {
+        console.log(`Error: ${error.message}`);
+        return 'Error: Operation failed';
+    }
+}
+
+function processWorkflow(argv) {
+    // Implementation details
+}
+
+// Helper functions
+function helperFunction() {
+    // Helper implementation
+}
+```
+
+## Browser Integration Patterns
+```javascript
+// Browser detection and access
+const browsers = [
+    'Google Chrome',
+    '豆包',
+    'Microsoft Edge', 
+    'Safari',
+    'Brave Browser',
+    'Arc',
+    'Firefox'
+];
+
+for (const browserName of browsers) {
+    try {
+        const browser = Application(browserName);
+        
+        if (browser.running() && browser.windows && browser.windows.length > 0) {
+            // Process browser tabs
+            const result = processBrowserTabs(browser, browserName);
+            if (result) return result;
+        }
+    } catch (browserError) {
+        console.log(`${browserName} error: ${browserError.message}`);
+        continue;
+    }
+}
+```
+
+## Error Handling
+- Always wrap browser operations in try-catch blocks
+- Check if applications are running before accessing
+- Provide fallback behavior for missing applications
+- Log errors using `console.log()` for Alfred debugging
+
+## Data Processing
+```javascript
+// Site configuration management
+class SiteManager {
+    constructor() {
+        this.siteConfigs = {
+            'youtube': { 
+                domains: ['youtube.com', 'youtu.be'], 
+                icon: '📹', 
+                titleSuffixes: ['- YouTube'] 
+            },
+            // More site configurations...
+        };
+    }
+    
+    identifySite(url) {
+        // Site identification logic
+    }
+    
+    cleanTitle(title, siteId) {
+        // Title cleaning logic
+    }
+}
+```
+
+## Alfred Integration
+- Return strings directly for Alfred consumption
+- Use meaningful error messages that Alfred can display
+- Support argument passing through `argv` parameter
+- Handle empty or invalid inputs gracefully
+
+## URL Processing
+- Validate URLs before processing: `url.startsWith('http')`
+- Extract domains safely using string methods
+- Handle special characters in URLs
+- Support both HTTP and HTTPS protocols
+
+## Output Formatting
+```javascript
+// Markdown link generation
+function generateMarkdownLink(title, url, icon, siteId) {
+    const cleanedTitle = cleanTitle(title, siteId);
+    return `[ ${icon} ${siteId} ${cleanedTitle}](@${url})`;
+}
+```
+
+## Performance Considerations
+- Cache expensive operations when possible
+- Limit browser window/tab iteration
+- Use early returns to avoid unnecessary processing
+- Minimize DOM access in browser automation
+
+## Debugging
+- Use `console.log()` for debug output (visible in Alfred debugger)
+- Include context in error messages
+- Log processing steps for troubleshooting
+- Handle edge cases gracefully
+
+## AppleScript Integration
+When mixing with AppleScript functionality:
+```javascript
+// Access AppleScript objects
+const systemEvents = Application('System Events');
+const finder = Application('Finder');
+
+// Handle AppleScript errors
+try {
+    const result = systemEvents.doSomething();
+    return result;
+} catch (error) {
+    console.log(`AppleScript error: ${error.message}`);
+    return null;
+}
+```

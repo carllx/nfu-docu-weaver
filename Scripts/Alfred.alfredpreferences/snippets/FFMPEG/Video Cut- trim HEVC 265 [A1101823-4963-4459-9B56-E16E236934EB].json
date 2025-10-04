@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "dir_vid='{clipboard}'\nstarts=(\"00:22:59\" \"43:12\" \"1:05:07\")\nends=(\"00:34:34\" \"48:32\" \"1:12:27\")\npath_video=$(basename \"$dir_vid\")\nname_video=\"${path_video%.mp4}\"\ndir_org=$(dirname \"$dir_vid\")\ndir_tmp=\"${dir_org}\/${name_video}_tmp\"\ndir_concat=\"${dir_tmp}\/concat.txt\"\nmkdir -p \"$dir_tmp\"\n\nstart_length=${#starts[@]}\n\nfor ((i=0; i<start_length; i++)); do\n    start=${starts[$i+1]}\n    end=${ends[$i+1]}\n    output=\"${dir_tmp}\/${name_video}_trim_${i}.mp4\"\n    ffmpeg -i \"$dir_vid\" -codec copy -ss \"$start\" -to \"$end\" \"$output\"\n    echo \"file '$output'\" >> \"$dir_concat\"\ndone\n\nffmpeg -f concat -safe 0 -i \"$dir_concat\" -codec copy \"${dir_org}\/${name_video}_trim_all.mp4\"",
+    "uid" : "A1101823-4963-4459-9B56-E16E236934EB",
+    "name" : "Video Cut- trim HEVC 265",
+    "keyword" : "trimHEVC"
+  }
+}

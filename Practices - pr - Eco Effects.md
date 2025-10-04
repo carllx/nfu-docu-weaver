@@ -1,0 +1,4 @@
+
+![|200](https://i.ytimg.com/vi/Z4EYuUDIgj0/hqdefault.jpg)
+![bg fit left:50% vertical](https://i.imgur.com/DQXpBLy.webp)
+(Source:  [youtube.com: How to Create Smooth Motion Trail Video ECHO EFFECTS in Adobe Premiere Pro (CC Tutorial)](https://youtu.be/Z4EYuUDIgj0?t=113)[youtube playlist](https://www.youtube.comhttps://www.youtube.com/redirect?event=infocard&redir_token=QUFFLUhqa0Vrd0lQN2RHLThWc0pHVHM0SkQ0NFdNOExEZ3xBQ3Jtc0ttREFZUDBhYXN2eEduQ0U2YUJndE1nX19xV3FHVjVLdUZYOWVWcmNYTVY2LWlRUzQyelA3ZUJwTWlzel9PejBqcGNBS3ZhNHY4SElMc1FodkhWOFFrZ21Pa3Y4c2JOQkFudUVmbmNqc1pOUl9PV2JHdw&q=http%3A%2F%2Fjustinodisho.com%2Fshop))

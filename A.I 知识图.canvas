@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"eeac8b816dd2ad9d","x":1360,"y":-960,"width":963,"height":548,"type":"group","label":"Untitled group"},
+		{"id":"948a58606d79565a","type":"text","text":"A.I ","x":-441,"y":-98,"width":250,"height":138},
+		{"id":"95e5672cdbfca508","type":"file","file":"Rule Engine (规则引擎).md","x":-868,"y":-966,"width":552,"height":459},
+		{"id":"430dee10e6572b7c","type":"file","file":"A.I 发展史.md","x":-27,"y":-811,"width":515,"height":262},
+		{"id":"e01c93255840cbdd","type":"file","file":"A.I.艺术 - 计算机创造力 - Artistic Intelligence.md","x":-27,"y":472,"width":515,"height":262},
+		{"id":"577e5e0d2543c260","x":-27,"y":-507,"width":515,"height":274,"type":"text","text":"## AI应用领域\n### 计算机视觉\n- 图像识别、对象检测、图像分割等\n\n### [[NLP(自然语言处理)]]\n- 机器翻译、语音识别、文本生成等\n\n---\n\n### 机器人技术\n- 自动化、机器人控制、智能机器人\n\n### 数据挖掘\n- 发现数据模式、市场分析、科学研究\n\n### 医疗影像分析\n- 疾病诊断、治疗规划、影像解读\n\n### 金融技术\n- 风险评估、欺诈检测、自动交易\n\n### 无人驾驶汽车\n- 自动导航、环境感知、决策制定\n\n### 增强现实和虚拟现实\n- 交互设计、环境模拟、内容生成\n\n### 情感计算\n- 情感识别、情绪分析、人机交互"},
+		{"id":"055a0b4483d3df63","type":"text","text":"# 机器学习系统主要构成\n\n数据：机器学习系统的核心是数据。数据是机器学习系统学习和改进的基础。机器学习系统需要大量的数据来训练模型，并根据新的输入数据来更新模型。\n\n算法：算法是机器学习系统的另一个核心部分。算法是机器学习系统如何从数据中学习的规则。不同的算法适用于不同的任务。\n\n模型：模型是机器学习系统的学习结果。模型是机器学习系统根据数据学习到的知识。模型可以用于预测未来的输出，或做出决策。\n\n评估：评估是机器学习系统的重要组成部分。评估用于衡量机器学习系统的性能。评估可以用于调整算法和模型，以提高机器学习系统的性能。","x":1371,"y":-1413,"width":713,"height":366},
+		{"id":"ff6d72859abf5b42","type":"text","text":"## 深度学习\n\n- [[CNNs(卷积神经网络)]]\n- [[RNNs(递归神经网络)]]\n- [[GANs(生成对抗网络)]]\n- [[自动编码器(Autoencoders)]]\n- [[迁移学习(Transfer Learning)]]","x":1784,"y":-940,"width":519,"height":239},
+		{"id":"f3b03cf04e2d2665","x":1784,"y":-691,"width":519,"height":259,"type":"text","text":"## 非深度学习\n- [[SVMs(支持向量机)]]\n- [[决策树(Decision Trees)]]\n- [[随机森林(Random Forests)]]\n- [[逻辑回归(Logistic Regression)]]\n- [[主成分分析(PCA)]]\n- [[贝叶斯网络(Bayesian Networks)]]"},
+		{"id":"9f64e408c2ef7d90","type":"text","text":"## 学习深度分类","x":1380,"y":-731,"width":250,"height":60},
+		{"id":"fab5a22180b79e0b","x":1371,"y":12,"width":250,"height":60,"type":"text","text":"## 监督程度分类"},
+		{"id":"a332a0e30cca40fb","type":"text","text":"## 半监督学习\n- [[RNNs(递归神经网络)]]\n- [[GANs(生成对抗网络)]]\n- [[自动编码器(Autoencoders)]]\n","x":1775,"y":205,"width":519,"height":166},
+		{"id":"8a4613cf45110bcd","type":"text","text":"## 非监督学习\n- [[自动编码器(Autoencoders)]]\n- [[PCA(主成分分析)]]\n- [[贝叶斯网络]]\n","x":1775,"y":-17,"width":519,"height":186},
+		{"id":"1dfa58ad641e13bb","type":"text","text":"## 监督学习\n- [[CNNs(卷积神经网络)]]\n- [[RNNs(递归神经网络)]]\n- [[SVMs(支持向量机)]]\n- [[决策树]]\n- [[随机森林]]\n- [[逻辑回归]]","x":1775,"y":-317,"width":519,"height":280},
+		{"id":"7b16efae080b9564","type":"text","text":"A.I 技术","x":-27,"y":-142,"width":515,"height":113},
+		{"id":"51128fee723cf842","type":"file","file":"A.I Training ChatGPT 2.0.md","x":2680,"y":-1807,"width":882,"height":412},
+		{"id":"4e2431eaf01d1285","type":"file","file":"BERT.md","x":2680,"y":-1327,"width":963,"height":280},
+		{"id":"3da99926f79a8c8b","type":"text","text":"# Tranning","x":2084,"y":-1636,"width":332,"height":71},
+		{"id":"c81543613d06c407","type":"text","text":"## 强化学习(Reinforcement Learning)\n这是一种让机器通过试错来学习特定任务的技术。它在游戏、机器人导航、自动驾驶汽车等领域特别有用。\n\n强化学习并不属于非监督学习。\n\n强化学习是机器学习的一种方法，它允许计算机通过试错来学习如何执行任务。在强化学习中，计算机通过与环境进行交互来学习。在每个交互中，计算机都会采取一个行动，并获得一个奖励。计算机会根据奖励来调整其行为，以提高未来获得奖励的可能性。\n\n强化学习与非监督学习的主要区别在于，强化学习需要环境提供奖励，而非监督学习不需要。在非监督学习中，计算机仅使用数据本身来学习。\n\n以下是强化学习与非监督学习的一些关键区别：\n|特征|强化学习|非监督学习|\n|---|---|---|\n|奖励|需要|不需要|\n|环境|需要|不需要|\n|应用场景|游戏、机器人控制、金融投资等|聚类、降维、特征学习等|\n","x":1380,"y":520,"width":620,"height":560},
+		{"id":"dc3fbc2d82a859f9","type":"text","text":"## Machine learning (ML, 机器学习)\n机器学习是一种人工智能技术，它使用算法和数据来让计算机学习如何完成某项任务，而不需要人类编写明确的指令。机器学习算法可以自动找出数据集中隐藏的规律，并在未来预测新数据的结果。    \n","x":580,"y":-169,"width":515,"height":168}
+	],
+	"edges":[
+		{"id":"811eabb264203672","fromNode":"948a58606d79565a","fromSide":"right","toNode":"7b16efae080b9564","toSide":"left"},
+		{"id":"16634b5ff2734bb2","fromNode":"948a58606d79565a","fromSide":"right","toNode":"e01c93255840cbdd","toSide":"left"},
+		{"id":"5f722000d2381cf5","fromNode":"948a58606d79565a","fromSide":"right","toNode":"430dee10e6572b7c","toSide":"left"},
+		{"id":"2ca1e6d476273ce7","fromNode":"dc3fbc2d82a859f9","fromSide":"right","toNode":"055a0b4483d3df63","toSide":"left"},
+		{"id":"031dfda3fa9c2f9e","fromNode":"9f64e408c2ef7d90","fromSide":"right","toNode":"ff6d72859abf5b42","toSide":"left"},
+		{"id":"33725747f4b2b6af","fromNode":"fab5a22180b79e0b","fromSide":"right","toNode":"1dfa58ad641e13bb","toSide":"left"},
+		{"id":"f40bde4197f028ff","fromNode":"fab5a22180b79e0b","fromSide":"right","toNode":"8a4613cf45110bcd","toSide":"left"},
+		{"id":"90f4144c30fb7d8c","fromNode":"fab5a22180b79e0b","fromSide":"right","toNode":"a332a0e30cca40fb","toSide":"left"},
+		{"id":"7063715e293df29a","fromNode":"dc3fbc2d82a859f9","fromSide":"right","toNode":"c81543613d06c407","toSide":"left"},
+		{"id":"cf1b29380ff961c1","fromNode":"3da99926f79a8c8b","fromSide":"right","toNode":"51128fee723cf842","toSide":"left"},
+		{"id":"feecef3454ba3bd8","fromNode":"3da99926f79a8c8b","fromSide":"right","toNode":"4e2431eaf01d1285","toSide":"left"},
+		{"id":"322d74b3ebf7ac28","fromNode":"9f64e408c2ef7d90","fromSide":"right","toNode":"f3b03cf04e2d2665","toSide":"left"},
+		{"id":"d89850ac3924d691","fromNode":"dc3fbc2d82a859f9","fromSide":"right","toNode":"fab5a22180b79e0b","toSide":"left"},
+		{"id":"aaa86d1f14bb1982","fromNode":"9f64e408c2ef7d90","fromSide":"left","toNode":"dc3fbc2d82a859f9","toSide":"right"},
+		{"id":"c9ba9e211d57d668","fromNode":"7b16efae080b9564","fromSide":"right","toNode":"dc3fbc2d82a859f9","toSide":"left"}
+	]
+}

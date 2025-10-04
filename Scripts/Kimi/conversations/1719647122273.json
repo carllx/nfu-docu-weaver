@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cpvrn50nsmmnaet3ijv0",
+    "attachments": [
+        {
+            "date": 2010,
+            "title": "Creativity and art: Three roads to surprise",
+            "fileID": "cpq4e64dvon4ts5tb7mg",
+            "itemID": 601,
+            "citation": "Boden, M. A. (2010). Creativity and art: Three roads to surprise. Oxford University Press.\n",
+            "citationShort": "Boden, 2010",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题：列出所有的论点以及每个论点支持该论点中论据所涉及的人物以, 地点, 著作.\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Creativity and art: Three roads to surprise, was published on 2010. (It can be cite this paper as Boden, 2010 on your answer). \n\n",
+    "response": "### 论点及支持论据\n\n1. **论点：** 计算机艺术（Computer Art）是创造性的，并且能够产生新颖、惊奇和有价值的作品。\n   - **人物：** Margaret A. Boden\n   - **地点：** 不适用\n   - **著作：** 《Creativity and Art: Three Roads to Surprise》（Boden, 2010）\n\n2. **论点：** 计算机艺术与传统艺术一样，能够探索和扩展艺术的边界。\n   - **人物：** Harold Cohen（AARON程序的开发者）\n   - **地点：** 不适用\n   - **著作：** Cohen (1981, 1995, 2002) 中提到了AARON程序，旨在阐明他自己的创造力。\n\n3. **论点：** 计算机艺术中的创造性可以是组合性的（Combinational）、探索性的（Exploratory）和变革性的（Transformational）。\n   - **人物：** 不适用\n   - **地点：** 不适用\n   - **著作：** Boden (2010) 在第二章 “Creativity in a Nutshell” 中简要概述了这一理论方法。\n\n4. **论点：** 计算机艺术可能面临身份和价值的质疑，但这种质疑并不仅限于计算机艺术。\n   - **人物：** Anthony O’Hear\n   - **地点：** 不适用\n   - **著作：** O’Hear (1995) 认为艺术涉及人与人之间的沟通，计算机艺术因此不能被视为真正的艺术。\n\n5. **论点：** 计算机艺术作品的价值和接受度随文化和个人偏好而变化。\n   - **人物：** 不适用\n   - **地点：** 不适用\n   - **著作：** Boden (2010) 在书中讨论了计算机艺术在不同文化和个人中的价值和接受度。\n\n6. **论点：** 计算机艺术可以被视为一种探索生命和自然现象的媒介。\n   - **人物：** Langton, C. G. (关于人工生命的定义和研究)\n   - **地点：** 不适用\n   - **著作：** Langton (1989/96) 在《Artificial Life》中探讨了计算机模型和数学在定义生命一般原则方面的应用。\n\n7. **论点：** 计算机艺术中的互动艺术（Interactive Art）扩展了艺术的边界，使观众成为参与者。\n   - **人物：** 不适用\n   - **地点：** 不适用\n   - **著作：** Boden (2010) 在第十一章 “Aesthetics and Interactive Art” 中讨论了互动艺术的美学问题。\n\n8. **论点：** 计算机艺术的创作可能涉及使用人工智能代理（AI Agents），这些代理具有一定的独立性。\n   - **人物：** 不适用\n   - **地点：** 不适用\n   - **著作：** Boden (2010) 在第八章 “Agents and Creativity” 中讨论了AI代理在艺术创作中的作用。\n\n9. **论点：** 计算机艺术的接受度和价值可能受到其是否被视为具有创造性的影响。\n   - **人物：** 不适用\n   - **地点：** 不适用\n   - **著作：** Boden (2010) 在书中讨论了计算机艺术的创造性及其对艺术价值的影响。\n\n10. **论点：** 计算机艺术的创作和接受是跨学科的，涉及艺术、哲学、教育和科学等多个领域。\n    - **人物：** 不适用\n    - **地点：** 不适用\n    - **著作：** Boden (2010) 在书中引用了多个领域的文献，显示了计算机艺术的跨学科性质。\n\n以上是根据Boden (2010) 《Creativity and Art: Three Roads to Surprise》中提及的论点和支持这些论点的证据。",
+    "refs": [
+        "cpq4e64dvon4ts5tb7mg"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpvrn50nsmmnaet3ik2g",
+    "req_id": "cpvrn50nsmmnaet3ik30",
+    "resp_id": "cpvrn50nsmmnaet3ik3g",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题：列出所有的论点以及每个论点支持该论点中论据所涉及的人物以, 地点, 著作."
+}

@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cq8mcro04rj1qntvomng",
+    "attachments": [
+        {
+            "date": 2002,
+            "title": "Visuospatial memory and phonological loop in learning from multimedia",
+            "fileID": "cq8mc2q34pe37md2leeg",
+            "itemID": 1720,
+            "citation": "Gyselinck, V., Cornoldi, C., Dubois, V., De Beni, R., & Ehrlich, M. (2002). Visuospatial memory and phonological loop in learning from multimedia. Applied Cognitive Psychology, 16(6), 665–685. https://doi.org/10.1002/acp.823\n",
+            "citationShort": "Gyselinck et al., 2002",
+            "tags": [
+                "*non-fatal error",
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Visuospatial memory and phonological loop in learning from multimedia, was published on 2002. (It can be cite this paper as Gyselinck et al., 2002 on your answer). \n\n",
+    "response": "### 文章核心主题\n\n本文的核心主题是探讨在学习多媒体材料时，视觉空间记忆（visuospatial memory）和语音循环（phonological loop）在处理科学文本和插图中的作用。文章通过实验研究的方法，分析了这两种工作记忆的子系统如何影响个体从计算机屏幕上呈现的文本和插图中学习的效果。\n\n### 关键论点/故事线\n\n- **视觉空间记忆与语音循环的角色**：作者通过实验1和实验2，分别探讨了这两种工作记忆子系统在理解科学文本和插图时的特定作用。\n- **双任务范式**：文章使用了双任务范式来揭示视觉空间记忆和语音循环在多媒体学习中的具体参与情况。\n\n### 特定段落或部分\n\n- **实验设计**：文章中对实验1和实验2的方法部分进行了详细描述，这些部分包含了实验的参与者、材料、程序和设计，是理解研究如何进行的关键。\n- **结果分析**：文章中的结果部分提供了实验数据和分析，这些数据支持了作者关于视觉空间记忆和语音循环在多媒体学习中作用的论点。\n\n### 语言特点/写作风格\n\n- **学术性**：文章使用了专业的心理学术语，体现了学术性写作的特点。\n- **逻辑性**：作者通过清晰的逻辑结构，从问题提出到实验设计、结果分析，再到讨论，逐步展开论点。\n\n### 阅读时需带的问题\n\n1. **论点构建**：作者如何通过实验数据来构建他的论点？\n2. **与多媒体和艺术领域的联系**：这些论点如何与数字媒体以及艺术领域相联系，特别是在设计多媒体学习材料时如何应用这些发现？\n\n### 文章引用格式\n\n在回答中引用该论文时，请使用以下格式：Gyselinck et al., 2002。\n\n---\n\n以上是对所提供文章的导读，希望这能帮助学生更高效地吸收和理解文章内容。在阅读过程中，学生应特别注意作者的实验设计和结果分析，以及如何将研究发现应用于实际的多媒体学习材料设计中。",
+    "refs": [
+        "cq8mc2q34pe37md2leeg"
+    ],
+    "title": "\n\nNow, Listen to me:\n导读\n作为一个引导",
+    "group_id": "cq8mcrpmqu0ega03b2sg",
+    "req_id": "cq8mcrpmqu0ega03b2t0",
+    "resp_id": "cq8mcrpmqu0ega03b2tg",
+    "quection": "导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。"
+}

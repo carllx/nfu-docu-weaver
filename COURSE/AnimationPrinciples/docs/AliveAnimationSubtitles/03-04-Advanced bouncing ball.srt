@@ -1,0 +1,1466 @@
+﻿1
+00:00:00,790 --> 00:00:03,410
+- [Instructor] Now that we
+understand the very basic
+
+2
+00:00:03,410 --> 00:00:05,160
+of using an armature,
+
+3
+00:00:05,160 --> 00:00:08,250
+let's do a new bouncing ball animation
+
+4
+00:00:08,250 --> 00:00:10,910
+but with some more advanced mechanic.
+
+5
+00:00:10,910 --> 00:00:12,200
+For this animation,
+
+6
+00:00:12,200 --> 00:00:15,660
+we will be exclusively
+working from a side view.
+
+7
+00:00:15,660 --> 00:00:19,150
+It's like working on a
+2D animation in a way.
+
+8
+00:00:19,150 --> 00:00:23,530
+So I will create a new action
+by duplicating our keying set
+
+9
+00:00:23,530 --> 00:00:25,510
+and I need bouncing ball.
+
+10
+00:00:25,510 --> 00:00:29,110
+It means that this action
+will keep the keying set
+
+11
+00:00:29,110 --> 00:00:30,340
+we have created before
+
+12
+00:00:30,340 --> 00:00:33,380
+or the keyframe we have inserted before.
+
+13
+00:00:33,380 --> 00:00:37,040
+And I've enabled the only
+active keying set option
+
+14
+00:00:37,040 --> 00:00:38,260
+in the auto keying
+
+15
+00:00:38,260 --> 00:00:41,940
+and enabled the filter available.
+
+16
+00:00:41,940 --> 00:00:45,790
+On frame zero, I will
+position my bouncing ball
+
+17
+00:00:45,790 --> 00:00:49,280
+at about nine meters on the z-axis,
+
+18
+00:00:49,280 --> 00:00:51,660
+using the root controller.
+
+19
+00:00:51,660 --> 00:00:53,410
+This controller will allow us
+
+20
+00:00:53,410 --> 00:00:55,180
+to move the ball in space,
+
+21
+00:00:55,180 --> 00:00:57,200
+while the other will be used
+
+22
+00:00:57,200 --> 00:01:00,358
+for secondary motion
+like squash and stretch
+
+23
+00:01:00,358 --> 00:01:03,520
+and rotation or revolution of the ball.
+
+24
+00:01:03,520 --> 00:01:05,820
+We can plan our animation
+
+25
+00:01:05,820 --> 00:01:09,020
+by directly drawing on the screen.
+
+26
+00:01:09,020 --> 00:01:10,530
+I'm holding the D key
+
+27
+00:01:10,530 --> 00:01:13,611
+while left clicking and
+dragging on my screen
+
+28
+00:01:13,611 --> 00:01:16,430
+to use the grease pencil notes.
+
+29
+00:01:16,430 --> 00:01:19,260
+Here I've made a beautiful drawing
+
+30
+00:01:19,260 --> 00:01:21,153
+of the path of the ball
+
+31
+00:01:21,153 --> 00:01:23,400
+that we are going to animate.
+
+32
+00:01:23,400 --> 00:01:26,440
+The idea is to bring a
+bit of physics into it
+
+33
+00:01:26,440 --> 00:01:28,770
+so that it looks more believable
+
+34
+00:01:28,770 --> 00:01:32,930
+and input a bit of damping
+until the ball stop.
+
+35
+00:01:32,930 --> 00:01:36,360
+You can access your
+annotation in the view panel
+
+36
+00:01:36,360 --> 00:01:39,470
+under Annotation and
+click the minus button
+
+37
+00:01:39,470 --> 00:01:41,270
+if you want to remove it.
+
+38
+00:01:41,270 --> 00:01:43,790
+As soon as you make a new drawing,
+
+39
+00:01:43,790 --> 00:01:46,040
+a new annotation will appear.
+
+40
+00:01:46,040 --> 00:01:47,540
+You can change the color
+
+41
+00:01:47,540 --> 00:01:51,520
+by clicking the little
+vignette next to its name.
+
+42
+00:01:51,520 --> 00:01:53,160
+These annotation are in 3D,
+
+43
+00:01:53,160 --> 00:01:55,190
+so you can rotate around them
+
+44
+00:01:55,190 --> 00:01:58,080
+and you can create new annotation layers
+
+45
+00:01:58,080 --> 00:02:01,430
+or new annotation slot by
+clicking the plus button.
+
+46
+00:02:01,430 --> 00:02:03,630
+If you make multiple drawing
+
+47
+00:02:03,630 --> 00:02:05,654
+on multiple keyframe,
+
+48
+00:02:05,654 --> 00:02:09,190
+a new drawing will be
+created on each frame,
+
+49
+00:02:09,190 --> 00:02:11,970
+allowing you to do awesome animation
+
+50
+00:02:11,970 --> 00:02:13,140
+with the annotation
+
+51
+00:02:13,140 --> 00:02:15,410
+or a crappy drawing like this one.
+
+52
+00:02:15,410 --> 00:02:16,710
+All joke apart,
+
+53
+00:02:16,710 --> 00:02:18,930
+it's very handy whenever you want
+
+54
+00:02:18,930 --> 00:02:21,050
+to review your animation
+
+55
+00:02:21,050 --> 00:02:23,540
+or plan the next move.
+
+56
+00:02:23,540 --> 00:02:26,100
+Let's start animating our bouncing ball.
+
+57
+00:02:26,100 --> 00:02:28,430
+I will select all the existing key,
+
+58
+00:02:28,430 --> 00:02:31,300
+press T and set them to constant
+
+59
+00:02:31,300 --> 00:02:34,400
+so that we can start our new animation
+
+60
+00:02:34,400 --> 00:02:37,350
+as we did before by the blocking stage.
+
+61
+00:02:37,350 --> 00:02:40,840
+We will be animating in pose to pose
+
+62
+00:02:40,840 --> 00:02:45,250
+by first setting our main
+keyframe on golden keys.
+
+63
+00:02:45,250 --> 00:02:47,330
+Then create some in between
+
+64
+00:02:47,330 --> 00:02:49,290
+and then start polishing.
+
+65
+00:02:49,290 --> 00:02:53,800
+So I'm currently trying to match
+the different extreme poses
+
+66
+00:02:53,800 --> 00:02:54,950
+of the ball.
+
+67
+00:02:54,950 --> 00:02:58,160
+The different poses when it hit the ground
+
+68
+00:02:58,160 --> 00:03:01,910
+and the different poses when
+it is at its highest point
+
+69
+00:03:01,910 --> 00:03:02,800
+in the air.
+
+70
+00:03:02,800 --> 00:03:06,570
+Seeing that I don't have a
+green line between the keys
+
+71
+00:03:06,570 --> 00:03:08,500
+on my action editor,
+
+72
+00:03:08,500 --> 00:03:11,680
+I figured there was
+still busy interpolation.
+
+73
+00:03:11,680 --> 00:03:13,520
+So I've pressed T
+
+74
+00:03:13,520 --> 00:03:16,630
+and reset to constant all the keyframe.
+
+75
+00:03:16,630 --> 00:03:18,650
+As I've erased my annotation,
+
+76
+00:03:18,650 --> 00:03:22,570
+I have a hard time figuring
+out the position of my ball.
+
+77
+00:03:22,570 --> 00:03:25,030
+But there is tools that could help me
+
+78
+00:03:25,030 --> 00:03:27,110
+and that we have already used.
+
+79
+00:03:27,110 --> 00:03:29,050
+It's the motion path.
+
+80
+00:03:29,050 --> 00:03:32,550
+So while I'm trying to
+figure out the spacing
+
+81
+00:03:32,550 --> 00:03:35,550
+of the ball from one frame to the other,
+
+82
+00:03:35,550 --> 00:03:38,650
+it would be easier if I add an ID
+
+83
+00:03:38,650 --> 00:03:41,190
+of the previous position of the ball.
+
+84
+00:03:41,190 --> 00:03:42,770
+So instead of fighting
+
+85
+00:03:42,770 --> 00:03:45,160
+with my animation and my brain,
+
+86
+00:03:45,160 --> 00:03:47,640
+trying to figure out or remember
+
+87
+00:03:47,640 --> 00:03:50,700
+where the ball was in the previous frame,
+
+88
+00:03:50,700 --> 00:03:54,800
+I will simply add up to
+the armature properties,
+
+89
+00:03:54,800 --> 00:03:56,990
+not the object properties.
+
+90
+00:03:56,990 --> 00:04:01,340
+And here I will find exactly
+the same motion path menu
+
+91
+00:04:01,340 --> 00:04:03,290
+that we have seen previously
+
+92
+00:04:03,290 --> 00:04:07,100
+but this time, we are using
+it at the armature level,
+
+93
+00:04:07,100 --> 00:04:10,830
+meaning that I'm currently
+tracking my root ball.
+
+94
+00:04:10,830 --> 00:04:13,390
+And I can track any of
+the bounce of the ball
+
+95
+00:04:13,390 --> 00:04:16,000
+or even multiple bounce at once.
+
+96
+00:04:16,000 --> 00:04:18,280
+I've previously set a couple
+
+97
+00:04:18,280 --> 00:04:22,190
+of quick favorite I can
+access pressing the Q key.
+
+98
+00:04:22,190 --> 00:04:24,230
+You can create your quick favorite
+
+99
+00:04:24,230 --> 00:04:26,510
+or assign your own shortcut
+
+100
+00:04:26,510 --> 00:04:29,130
+to any tool in the window
+
+101
+00:04:29,130 --> 00:04:30,710
+by right clicking on it.
+
+102
+00:04:30,710 --> 00:04:34,170
+From there, it's way
+easier to position the ball
+
+103
+00:04:34,170 --> 00:04:36,160
+from one key to the other.
+
+104
+00:04:36,160 --> 00:04:39,650
+I'm creating a new
+keyframe every five frame.
+
+105
+00:04:39,650 --> 00:04:41,510
+This is pretty arbitrary.
+
+106
+00:04:41,510 --> 00:04:44,560
+You could use every 10 frame or whatever.
+
+107
+00:04:44,560 --> 00:04:47,200
+I'm used to use every five frame.
+
+108
+00:04:47,200 --> 00:04:50,330
+And when all my golden keys will be done,
+
+109
+00:04:50,330 --> 00:04:54,070
+I will then go into a slight timing path
+
+110
+00:04:54,070 --> 00:04:57,350
+where I will move all those
+keyframe left to right
+
+111
+00:04:57,350 --> 00:05:00,470
+to revise the timing of the animation.
+
+112
+00:05:00,470 --> 00:05:02,970
+Here I'm writing the ultimate pose
+
+113
+00:05:02,970 --> 00:05:05,590
+and then I will play my animation
+
+114
+00:05:05,590 --> 00:05:07,543
+or scrub through the timeline
+
+115
+00:05:07,543 --> 00:05:09,680
+to fill the motion.
+
+116
+00:05:09,680 --> 00:05:11,220
+See if the up and down
+
+117
+00:05:11,220 --> 00:05:15,010
+and forward motion feels natural.
+
+118
+00:05:15,010 --> 00:05:17,330
+And this is something
+you have to train about.
+
+119
+00:05:17,330 --> 00:05:20,670
+You have to train your eye about this.
+
+120
+00:05:20,670 --> 00:05:22,683
+And this require experience.
+
+121
+00:05:22,683 --> 00:05:25,210
+And you will get experience only
+
+122
+00:05:25,210 --> 00:05:28,530
+by animating, not watching videos.
+
+123
+00:05:28,530 --> 00:05:31,720
+So even if you are a
+more advanced animator,
+
+124
+00:05:31,720 --> 00:05:34,423
+I advise you to do this exercise.
+
+125
+00:05:34,423 --> 00:05:38,180
+And if you are a
+beginner, embrace failure.
+
+126
+00:05:38,180 --> 00:05:40,500
+Failing is an important step
+
+127
+00:05:40,500 --> 00:05:41,990
+in the learning path.
+
+128
+00:05:41,990 --> 00:05:44,510
+The sooner you accept failure,
+
+129
+00:05:44,510 --> 00:05:46,420
+the faster you will learn.
+
+130
+00:05:46,420 --> 00:05:48,100
+And being a good artist
+
+131
+00:05:48,100 --> 00:05:50,570
+is not really about your success
+
+132
+00:05:50,570 --> 00:05:53,570
+but the way you bounce
+back after a failure
+
+133
+00:05:53,570 --> 00:05:56,060
+and the way you learn from it.
+
+134
+00:05:56,060 --> 00:05:59,690
+All right, let's stop our
+philosophical discussion here
+
+135
+00:05:59,690 --> 00:06:02,110
+and let's go with animation.
+
+136
+00:06:02,110 --> 00:06:03,730
+In my action editor,
+
+137
+00:06:03,730 --> 00:06:06,420
+I'm moving all the keyframe of the ball
+
+138
+00:06:06,420 --> 00:06:07,650
+on the timeline.
+
+139
+00:06:07,650 --> 00:06:09,310
+The smaller the bounce,
+
+140
+00:06:09,310 --> 00:06:13,520
+the fewer the frame I will
+have between two keyframes.
+
+141
+00:06:13,520 --> 00:06:18,200
+And then I'm moving the latest
+pose pretty further away
+
+142
+00:06:18,200 --> 00:06:21,730
+because the ball will be
+slowing down before it stops.
+
+143
+00:06:21,730 --> 00:06:24,110
+So it will take some time to get there.
+
+144
+00:06:24,110 --> 00:06:26,250
+To quickly manipulate the key,
+
+145
+00:06:26,250 --> 00:06:29,230
+you can box select them
+as we have seen before
+
+146
+00:06:29,230 --> 00:06:30,876
+or click the summary
+
+147
+00:06:30,876 --> 00:06:33,410
+so that you will get all
+the keyframe underneath.
+
+148
+00:06:33,410 --> 00:06:36,220
+You can watch my timing on the timeline
+
+149
+00:06:36,220 --> 00:06:37,360
+but don't feel wrong
+
+150
+00:06:37,360 --> 00:06:39,810
+if your timing is not the same as mine
+
+151
+00:06:39,810 --> 00:06:43,000
+because it depend on the
+height of your bounce.
+
+152
+00:06:43,000 --> 00:06:45,690
+And we will certainly revise the timing
+
+153
+00:06:45,690 --> 00:06:47,240
+during the animation.
+
+154
+00:06:47,240 --> 00:06:50,690
+But try to make it feel
+as natural as possible
+
+155
+00:06:50,690 --> 00:06:52,787
+as soon as possible.
+
+156
+00:06:52,787 --> 00:06:57,060
+We will now start detailing
+this blocking path,
+
+157
+00:06:57,060 --> 00:07:00,062
+meaning that we will
+add a few more keyframe
+
+158
+00:07:00,062 --> 00:07:03,150
+and input a bit of squash and stretch,
+
+159
+00:07:03,150 --> 00:07:07,000
+using the upper and
+lower green controllers.
+
+160
+00:07:07,000 --> 00:07:09,790
+I will start by adding those stretching
+
+161
+00:07:09,790 --> 00:07:11,760
+and squashing information
+
+162
+00:07:11,760 --> 00:07:14,560
+on top of the existing keyframes.
+
+163
+00:07:14,560 --> 00:07:16,560
+As explained in the previous chapter,
+
+164
+00:07:16,560 --> 00:07:18,910
+when the ball is contacting the ground,
+
+165
+00:07:18,910 --> 00:07:21,380
+it reaches it at full speed.
+
+166
+00:07:21,380 --> 00:07:23,670
+So it is full stretched.
+
+167
+00:07:23,670 --> 00:07:26,050
+And since the first pose is the one
+
+168
+00:07:26,050 --> 00:07:28,820
+where our ball has the maximum speed,
+
+169
+00:07:28,820 --> 00:07:32,520
+it is the pose where it
+will be the most stretched.
+
+170
+00:07:32,520 --> 00:07:34,610
+You can use the stretching controller
+
+171
+00:07:34,610 --> 00:07:38,520
+to orient the ball toward
+its previous frame.
+
+172
+00:07:38,520 --> 00:07:41,610
+Just translate it a little backward.
+
+173
+00:07:41,610 --> 00:07:43,750
+This controller only allow you
+
+174
+00:07:43,750 --> 00:07:47,070
+to move it using its
+location, not its rotation.
+
+175
+00:07:47,070 --> 00:07:49,600
+The ball will automatically stretch
+
+176
+00:07:49,600 --> 00:07:51,780
+toward the green controllers.
+
+177
+00:07:51,780 --> 00:07:55,150
+I will then scrub through the next frame
+
+178
+00:07:55,150 --> 00:07:58,020
+and with my green
+controller still selected,
+
+179
+00:07:58,020 --> 00:08:00,160
+I will press Alt + G
+
+180
+00:08:00,160 --> 00:08:02,980
+to cancel any location transformed on it.
+
+181
+00:08:02,980 --> 00:08:05,540
+I will take the lower squash controller
+
+182
+00:08:05,540 --> 00:08:08,690
+and I will push it up just a little touch
+
+183
+00:08:08,690 --> 00:08:10,000
+to make the ball squash
+
+184
+00:08:10,000 --> 00:08:12,250
+when it slow down in the air.
+
+185
+00:08:12,250 --> 00:08:14,480
+I can see that I have
+a little interpolation
+
+186
+00:08:14,480 --> 00:08:15,660
+between my keyframe,
+
+187
+00:08:15,660 --> 00:08:17,530
+so I will select them all, press T
+
+188
+00:08:17,530 --> 00:08:19,640
+and reset them to constant.
+
+189
+00:08:19,640 --> 00:08:21,470
+This happen sometime when you try
+
+190
+00:08:21,470 --> 00:08:23,600
+to add the constant interpolation
+
+191
+00:08:23,600 --> 00:08:25,330
+on a single keyframe.
+
+192
+00:08:25,330 --> 00:08:26,930
+So I will go ahead
+
+193
+00:08:26,930 --> 00:08:28,820
+and input a bit of stretching
+
+194
+00:08:28,820 --> 00:08:31,880
+and orientation to the ball on each frame
+
+195
+00:08:31,880 --> 00:08:33,500
+and as I go along,
+
+196
+00:08:33,500 --> 00:08:36,040
+I will reduce the stretching strength
+
+197
+00:08:36,040 --> 00:08:38,400
+on each consecutive bounce
+
+198
+00:08:38,400 --> 00:08:40,790
+because the ball is losing energy.
+
+199
+00:08:40,790 --> 00:08:45,100
+Each time, I slightly translate
+the upper green controller
+
+200
+00:08:45,100 --> 00:08:47,090
+toward the previous frame
+
+201
+00:08:47,090 --> 00:08:48,810
+and when it's up in the air,
+
+202
+00:08:48,810 --> 00:08:52,060
+I'm slightly moving the
+lower controller up.
+
+203
+00:08:52,060 --> 00:08:54,790
+I have forgotten to insert a keyframe
+
+204
+00:08:54,790 --> 00:08:56,560
+on each channels.
+
+205
+00:08:56,560 --> 00:08:59,080
+So in the action editor,
+
+206
+00:08:59,080 --> 00:09:00,680
+I will go on each keyframe,
+
+207
+00:09:00,680 --> 00:09:03,815
+press I and choose all channels.
+
+208
+00:09:03,815 --> 00:09:06,650
+I can now add some breakdowns
+
+209
+00:09:06,650 --> 00:09:09,243
+or in between to my animation.
+
+210
+00:09:09,243 --> 00:09:12,780
+This will really help
+me reading the animation
+
+211
+00:09:12,780 --> 00:09:14,400
+in the blocking stage.
+
+212
+00:09:14,400 --> 00:09:16,640
+So what we are going to do now
+
+213
+00:09:16,640 --> 00:09:21,380
+is add the squash just
+after landing of the ball.
+
+214
+00:09:21,380 --> 00:09:24,070
+Be very cautious with
+the squash and stretch
+
+215
+00:09:24,070 --> 00:09:27,510
+because it translate the
+softness of the ball.
+
+216
+00:09:27,510 --> 00:09:28,960
+If you're going to extreme,
+
+217
+00:09:28,960 --> 00:09:32,000
+your ball will look like a water balloon.
+
+218
+00:09:32,000 --> 00:09:34,600
+As impact occur on frame eight,
+
+219
+00:09:34,600 --> 00:09:38,190
+on frame nine, I will
+slightly squash the ball.
+
+220
+00:09:38,190 --> 00:09:42,580
+Then on frame 10, before the
+ball is leaving the ground,
+
+221
+00:09:42,580 --> 00:09:46,950
+I will stretch it a bit
+toward the next position.
+
+222
+00:09:46,950 --> 00:09:50,270
+To do so, again select
+the upper controller
+
+223
+00:09:50,270 --> 00:09:54,420
+and press G to move it
+towards the frame 13.
+
+224
+00:09:54,420 --> 00:09:57,310
+See how after the bounce I'm stretching
+
+225
+00:09:57,310 --> 00:09:59,570
+the ball less than before?
+
+226
+00:09:59,570 --> 00:10:01,810
+Because as it touch the ground,
+
+227
+00:10:01,810 --> 00:10:02,990
+it's losing energy,
+
+228
+00:10:02,990 --> 00:10:05,130
+so I can't make it stretch
+
+229
+00:10:05,130 --> 00:10:08,330
+as much as when it was
+going to touch the ground.
+
+230
+00:10:08,330 --> 00:10:11,140
+Again, I did a little
+mistake along the way.
+
+231
+00:10:11,140 --> 00:10:12,960
+If you check frame 18,
+
+232
+00:10:12,960 --> 00:10:14,950
+we can see that our bouncing ball
+
+233
+00:10:14,950 --> 00:10:16,900
+is not touching the ground
+
+234
+00:10:16,900 --> 00:10:19,400
+and I'm offsetting its root controller
+
+235
+00:10:19,400 --> 00:10:20,730
+to fix the problem
+
+236
+00:10:20,730 --> 00:10:25,110
+but the issue doesn't come from
+the root controller position
+
+237
+00:10:25,110 --> 00:10:28,560
+but from the second squash
+and stretch controller.
+
+238
+00:10:28,560 --> 00:10:29,880
+The lower one.
+
+239
+00:10:29,880 --> 00:10:31,840
+When I inserted the keyframe
+
+240
+00:10:31,840 --> 00:10:34,700
+on all the controller previously,
+
+241
+00:10:34,700 --> 00:10:38,072
+I've forgotten to reset its position
+
+242
+00:10:38,072 --> 00:10:40,880
+when the ball was touching the ground.
+
+243
+00:10:40,880 --> 00:10:43,045
+So currently, this controller
+
+244
+00:10:43,045 --> 00:10:46,280
+is still in its squash position
+
+245
+00:10:46,280 --> 00:10:51,100
+as when the ball is in the air
+position on frame 22 and 13.
+
+246
+00:10:51,100 --> 00:10:54,340
+And this is why the blocking
+stage is so important
+
+247
+00:10:54,340 --> 00:10:57,603
+because if I was already
+splining my animation,
+
+248
+00:10:57,603 --> 00:11:00,840
+I would have a hard time to stop this
+
+249
+00:11:00,840 --> 00:11:04,300
+and I will be fighting this
+deformation with my curves.
+
+250
+00:11:04,300 --> 00:11:07,040
+So with the lower green
+controller selected,
+
+251
+00:11:07,040 --> 00:11:09,180
+I will go over all the keyframe
+
+252
+00:11:09,180 --> 00:11:10,710
+and press Alt + G
+
+253
+00:11:10,710 --> 00:11:12,754
+and you can see the ball getting back
+
+254
+00:11:12,754 --> 00:11:15,250
+into its original shape.
+
+255
+00:11:15,250 --> 00:11:17,960
+And now I can fix the root position
+
+256
+00:11:17,960 --> 00:11:19,270
+on each of those frames.
+
+257
+00:11:19,270 --> 00:11:22,260
+Now, to make my action
+editor a bit cleaner
+
+258
+00:11:22,260 --> 00:11:25,610
+and more readable, I will
+collapse all the panel
+
+259
+00:11:25,610 --> 00:11:28,150
+because I don't need
+to see all the channels
+
+260
+00:11:28,150 --> 00:11:30,766
+and starting with the
+root bounce controller,
+
+261
+00:11:30,766 --> 00:11:33,640
+I will duplicate the frame 18
+
+262
+00:11:33,640 --> 00:11:35,280
+and move it on frame 20
+
+263
+00:11:35,280 --> 00:11:37,890
+and get rid of frame 19.
+
+264
+00:11:37,890 --> 00:11:40,620
+Since the ball position doesn't change
+
+265
+00:11:40,620 --> 00:11:42,210
+between those two frames,
+
+266
+00:11:42,210 --> 00:11:45,210
+I don't need to have
+a keyframe in between.
+
+267
+00:11:45,210 --> 00:11:48,584
+And duplicating frame 18 on frame 20
+
+268
+00:11:48,584 --> 00:11:51,400
+will ensure I have consistency
+
+269
+00:11:51,400 --> 00:11:55,440
+into my animation or at
+least onto the position
+
+270
+00:11:55,440 --> 00:11:58,050
+of my ball when it's on the ground.
+
+271
+00:11:58,050 --> 00:12:02,120
+I will also duplicate frame 26 on frame 27
+
+272
+00:12:02,120 --> 00:12:04,300
+because the ball is still on the ground
+
+273
+00:12:04,300 --> 00:12:05,490
+on this frame.
+
+274
+00:12:05,490 --> 00:12:07,730
+Then I'm checking each frame
+
+275
+00:12:07,730 --> 00:12:11,080
+and I see that I need to
+revise a bit the squashing
+
+276
+00:12:11,080 --> 00:12:12,780
+with the lower controller
+
+277
+00:12:12,780 --> 00:12:16,030
+because it's still very
+strong on frame 29.
+
+278
+00:12:16,030 --> 00:12:18,540
+So I press Alt + G to cancel it
+
+279
+00:12:18,540 --> 00:12:21,400
+and then press G and Alt + Shift
+
+280
+00:12:21,400 --> 00:12:24,940
+to move it on the z-axis very subtly.
+
+281
+00:12:24,940 --> 00:12:28,550
+From there, I will play
+my animation several time
+
+282
+00:12:28,550 --> 00:12:30,410
+to fill the timing.
+
+283
+00:12:30,410 --> 00:12:33,020
+So I can see that on the first bounce,
+
+284
+00:12:33,020 --> 00:12:34,970
+there is something a bit off.
+
+285
+00:12:34,970 --> 00:12:38,610
+Having the first upper
+position on frame 13
+
+286
+00:12:38,610 --> 00:12:40,780
+is a bit too soon
+
+287
+00:12:40,780 --> 00:12:43,250
+and we configure this in the timeline,
+
+288
+00:12:43,250 --> 00:12:45,770
+the upper pose is on frame 13
+
+289
+00:12:45,770 --> 00:12:48,700
+and the contact pose on frame 18.
+
+290
+00:12:48,700 --> 00:12:53,010
+So I only have three
+frame to get up in the air
+
+291
+00:12:53,010 --> 00:12:54,760
+and five to fall down.
+
+292
+00:12:54,760 --> 00:12:57,900
+So I will offset all the
+keyframe from frame 13
+
+293
+00:12:57,900 --> 00:12:59,270
+by one frame
+
+294
+00:12:59,270 --> 00:13:04,130
+and then I will move all the
+keyframe from frame 18 or 19
+
+295
+00:13:04,130 --> 00:13:05,830
+by one frame back
+
+296
+00:13:05,830 --> 00:13:08,240
+so that I get an even spacing
+
+297
+00:13:08,240 --> 00:13:11,160
+between the upper pose and the lower pose.
+
+298
+00:13:11,160 --> 00:13:15,060
+The first bounce uses
+eight frame to complete.
+
+299
+00:13:15,060 --> 00:13:17,490
+So I guess we can use six frame
+
+300
+00:13:17,490 --> 00:13:19,610
+to complete the second bounce.
+
+301
+00:13:19,610 --> 00:13:22,160
+So frame 20 will be the contact post.
+
+302
+00:13:22,160 --> 00:13:23,980
+23, the upper pose,
+
+303
+00:13:23,980 --> 00:13:25,656
+26, the next contact.
+
+304
+00:13:25,656 --> 00:13:30,470
+And the final bounce
+could use one frame less.
+
+305
+00:13:30,470 --> 00:13:33,740
+So our bouncing ball
+timing is quite logical.
+
+306
+00:13:33,740 --> 00:13:35,650
+I start with an eight-frame bounce,
+
+307
+00:13:35,650 --> 00:13:37,350
+then a six-frame bounce
+
+308
+00:13:37,350 --> 00:13:40,540
+and finally, a four-frame bounce.
+
+309
+00:13:40,540 --> 00:13:43,610
+It's totally fine if
+your timing is different.
+
+310
+00:13:43,610 --> 00:13:48,610
+The important thing is to
+get this logical pattern
+
+311
+00:13:48,820 --> 00:13:51,640
+between the first bounce
+and the last bounce
+
+312
+00:13:51,640 --> 00:13:53,790
+with a decreasing number of frame
+
+313
+00:13:53,790 --> 00:13:55,470
+between each bounce.
+
+314
+00:13:55,470 --> 00:13:57,850
+This logical approach of motion
+
+315
+00:13:57,850 --> 00:14:02,340
+will help us solve some
+animation problem later on.
+
+316
+00:14:02,340 --> 00:14:04,030
+It's not a rule of thumb though
+
+317
+00:14:04,030 --> 00:14:08,190
+because animation is also
+a matter of randomness.
+
+318
+00:14:08,190 --> 00:14:13,070
+Our ball could be bouncing on
+an uneven ground, for example,
+
+319
+00:14:13,070 --> 00:14:16,700
+so it will make the timing
+a bit off at some point.
+
+320
+00:14:16,700 --> 00:14:18,250
+But in your learning path,
+
+321
+00:14:18,250 --> 00:14:21,920
+it's important to understand
+the logic of motion.
+
+322
+00:14:21,920 --> 00:14:23,460
+In this specific case,
+
+323
+00:14:23,460 --> 00:14:26,020
+the fact that the ball is losing energy
+
+324
+00:14:26,020 --> 00:14:28,280
+on each bounce so the timing
+
+325
+00:14:28,280 --> 00:14:31,430
+between each contact pose will be shorter,
+
+326
+00:14:31,430 --> 00:14:34,140
+in the next video, we
+will polish the animation
+
+327
+00:14:34,140 --> 00:14:35,570
+using the graph editor.
+
+328
+00:14:35,570 --> 00:14:37,260
+To summarize, we have seen
+
+329
+00:14:37,260 --> 00:14:40,620
+that we can use the
+grease pencil annotation
+
+330
+00:14:40,620 --> 00:14:42,880
+to plan our animation.
+
+331
+00:14:42,880 --> 00:14:46,610
+Using the motion path display is important
+
+332
+00:14:46,610 --> 00:14:48,840
+even at the blocking stage
+
+333
+00:14:48,840 --> 00:14:52,760
+as it really help us figuring
+out the motion of the ball.
+
+334
+00:14:52,760 --> 00:14:56,470
+We have to be careful when
+using squash and stretch
+
+335
+00:14:56,470 --> 00:14:59,500
+because it does communicate the softness
+
+336
+00:14:59,500 --> 00:15:02,010
+or the material of our ball.
+
+337
+00:15:02,010 --> 00:15:05,900
+So ask yourself what kind
+of ball am I animating?
+
+338
+00:15:05,900 --> 00:15:08,670
+We can tackle our animation timing
+
+339
+00:15:08,670 --> 00:15:10,800
+with a logical approach.
+
+340
+00:15:10,800 --> 00:15:13,080
+Our bouncing ball will lose energy
+
+341
+00:15:13,080 --> 00:15:17,363
+on each bounce so there will
+be smaller and smaller until.
+

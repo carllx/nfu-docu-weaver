@@ -1,0 +1,855 @@
+1
+00:00:01,940 --> 00:00:06,850
+​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​​​‌​​‌‌​​‌‌​​‌‌‌​​‌‌‌​‌​​‌‌‌‌​‌​​​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌​​‌‌‌‌​‌​‌‌‌‌‌​‌‌‌‌‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌​​​‌​​‌‌​​‌‌‌‌​‌‌​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌​‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌‌‌‌​​​‌‌‌​‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌​​‌‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌​​‌‌‌​‌‌​​‌​​‌‌​​‌‌​​‌‌​‌​‌​​‌‌​​‌‌‌‌​‌​‌‌‌​​‌‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌​​‌‌​​‌‌​‌​‌​​‌‌​​​‌​​‌‌‌​​‌​​‌‌‌​‌‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌​‌‌‌‌‌​‌​‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌‌​​​‌‌‌​‌‌‌‌​‌‌​​‌​​‌‌​‌​‌‌‌​‌​​‌‌​​‌‌​‌‌‌‌‌​‌​‌​‌​​‌‌​‌​‌​​‌‌​‌​‌‌‌​‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​​‌​​‌‌‌‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌​‌‌‌‌‌​‌​​‌‌​​‌‌​​‌‌‌‌​‌​‌‌​​​‌‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌‌​​​‌‌‌‌​‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌​​‌‌‌‌‌​​​‌‌‌‌‌​​​‌‌‌​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌​​‌​​‌‌​‌​‌‌‌​‌​‌‌‌​​‌‌​‌‌​​​‌‌‌‌​‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌​‌​​‌‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌‌‌​‌​‌‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌‌‌​​‌‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌​​‌‌‌​​‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌Hello and welcome to our third illustration here from Natalia Angeli scroa
+
+2
+00:00:07,670 --> 00:00:10,280
+And he had a very different style
+
+3
+00:00:10,290 --> 00:00:13,390
+I'm going to show here the style that she had
+
+4
+00:00:13,610 --> 00:00:15,160
+Her illustration was like this
+
+5
+00:00:15,280 --> 00:00:19,160
+and I really loved how this illustration had so many little details
+
+6
+00:00:19,160 --> 00:00:21,210
+like all these dots to generate shadows
+
+7
+00:00:21,860 --> 00:00:24,050
+I love the colors of the illustration
+
+8
+00:00:24,050 --> 00:00:25,860
+how graphical the character is
+
+9
+00:00:25,910 --> 00:00:26,490
+but of course
+
+10
+00:00:26,490 --> 00:00:27,390
+it was a big challenge
+
+11
+00:00:27,500 --> 00:00:27,720
+You know
+
+12
+00:00:27,760 --> 00:00:28,790
+at the beginning we were thinking
+
+13
+00:00:28,800 --> 00:00:32,380
+are we going to translate like these outlines in the illustration
+
+14
+00:00:32,380 --> 00:00:33,170
+And we tried
+
+15
+00:00:33,180 --> 00:00:35,630
+we tried different things and this is the final result
+
+16
+00:00:35,940 --> 00:00:36,360
+Yeah
+
+17
+00:00:36,360 --> 00:00:39,050
+I really like the position as well this character is in
+
+18
+00:00:39,050 --> 00:00:41,910
+It's kind of interesting translating that position into 3D
+
+19
+00:00:41,940 --> 00:00:42,200
+I think
+
+20
+00:00:42,550 --> 00:00:48,550
+because the proportions of the face is slightly different from how a realistic face would be
+
+21
+00:00:48,550 --> 00:00:48,700
+You know
+
+22
+00:00:48,700 --> 00:00:51,700
+the positioning of the mouth and the one cheek being slightly bigger than another
+
+23
+00:00:51,860 --> 00:00:54,940
+And I think it's interesting to see that translation so directly
+
+24
+00:00:55,090 --> 00:00:55,610
+Yeah
+
+25
+00:00:55,620 --> 00:00:56,310
+to be honest
+
+26
+00:00:56,320 --> 00:00:59,330
+this illustration works very well if you rotate it even here
+
+27
+00:00:59,330 --> 00:01:01,210
+But if you start going this way
+
+28
+00:01:01,220 --> 00:01:02,060
+starts breaking
+
+29
+00:01:02,060 --> 00:01:03,930
+you see around this area
+
+30
+00:01:03,940 --> 00:01:05,630
+just like it doesn't look good
+
+31
+00:01:06,110 --> 00:01:08,970
+Like I think up to from here to here is looking quite good
+
+32
+00:01:08,980 --> 00:01:09,750
+And I like that
+
+33
+00:01:09,760 --> 00:01:13,040
+I like that allows for some level of movement around
+
+34
+00:01:13,130 --> 00:01:15,590
+but in the moment it what it breaks
+
+35
+00:01:15,590 --> 00:01:16,120
+it just breaks
+
+36
+00:01:16,630 --> 00:01:17,100
+Okay
+
+37
+00:01:17,120 --> 00:01:19,050
+let's look at some of the things we did
+
+38
+00:01:19,060 --> 00:01:20,450
+This animates a bit
+
+39
+00:01:20,460 --> 00:01:25,000
+We have some animation here for the text that's appearing saying hello
+
+40
+00:01:25,170 --> 00:01:27,850
+And also we have some animation happening in the cable
+
+41
+00:01:27,860 --> 00:01:30,140
+And I love that we also have some animation happening
+
+42
+00:01:30,140 --> 00:01:33,940
+some boiling happening on the on these hat that looks like a
+
+43
+00:01:35,450 --> 00:01:36,480
+is this an apple
+
+44
+00:01:36,710 --> 00:01:39,640
+I thought maybe as well could be a Toto
+
+45
+00:01:39,700 --> 00:01:40,170
+I don't know
+
+46
+00:01:40,450 --> 00:01:41,820
+it's some fruit
+
+47
+00:01:43,070 --> 00:01:48,460
+But like we are having this illustration with a lot of boiling effects happening
+
+48
+00:01:48,950 --> 00:01:55,300
+But the main thing how everything started with with modeling and the way to do it with modeling was just I went into a front view
+
+49
+00:01:55,300 --> 00:01:59,720
+I started with a cube and I slowly started extruding using the techniques we use
+
+50
+00:02:00,740 --> 00:02:02,080
+Everything started from my cube
+
+51
+00:02:02,090 --> 00:02:05,480
+And then in the moment where I was comfortable with how it was looking
+
+52
+00:02:05,480 --> 00:02:06,610
+but it was not perfect
+
+53
+00:02:06,720 --> 00:02:09,750
+I just applied all the subdivisions of the cube
+
+54
+00:02:10,020 --> 00:02:11,599
+and then I went into sculpting
+
+55
+00:02:11,599 --> 00:02:13,574
+And then when we arrived into sculpting
+
+56
+00:02:13,574 --> 00:02:14,166
+I started
+
+57
+00:02:14,166 --> 00:02:17,326
+I only used cree-english bit of this elastic deformation grab
+
+58
+00:02:17,326 --> 00:02:19,103
+and then I used a lot of inflate
+
+59
+00:02:19,103 --> 00:02:20,880
+So I started doing for the breast
+
+60
+00:02:20,880 --> 00:02:26,580
+I started doing a bit of inflation and pinching it to just have all the modifications I wanted
+
+61
+00:02:26,620 --> 00:02:28,000
+And then for this neck
+
+62
+00:02:28,000 --> 00:02:28,530
+for example
+
+63
+00:02:28,530 --> 00:02:35,510
+I just started from a cylinder and I extruded some of the corners of the cylinder to generate this flower effect and the same for the head
+
+64
+00:02:35,510 --> 00:02:35,960
+You know
+
+65
+00:02:35,970 --> 00:02:37,710
+you see that this is exactly the same
+
+66
+00:02:37,710 --> 00:02:39,300
+There's a bit of inflation here
+
+67
+00:02:39,310 --> 00:02:41,880
+a bit of Cree inflation here
+
+68
+00:02:41,940 --> 00:02:43,400
+The nose started from a cube
+
+69
+00:02:43,460 --> 00:02:45,970
+I just want you to know that there were no tricks here
+
+70
+00:02:45,980 --> 00:02:49,790
+This is only just going bit by bit sculpting all the elements
+
+71
+00:02:49,790 --> 00:02:53,200
+I was about to say that it sounds not real
+
+72
+00:02:53,200 --> 00:02:55,160
+it sounds like there must be some kind of hidden trick somewhere
+
+73
+00:02:55,380 --> 00:02:56,910
+but that's exactly how it was made
+
+74
+00:02:56,910 --> 00:02:59,950
+And I think that can be quite a nice thing for people to realize as well
+
+75
+00:03:00,140 --> 00:03:06,020
+The more that you practice and the more that you understand looking at 3D objects in the real world as well
+
+76
+00:03:06,030 --> 00:03:08,240
+the better you can understand modeling
+
+77
+00:03:08,470 --> 00:03:10,170
+And you're wondering
+
+78
+00:03:10,180 --> 00:03:14,460
+how is grease pencil useful in this
+
+79
+00:03:14,460 --> 00:03:16,280
+Project is useful in many ways
+
+80
+00:03:16,280 --> 00:03:17,020
+One of them is that
+
+81
+00:03:17,350 --> 00:03:18,120
+for example
+
+82
+00:03:18,120 --> 00:03:19,990
+you can have this boiling in this cable
+
+83
+00:03:20,000 --> 00:03:22,360
+This is was drawn in completely flat way
+
+84
+00:03:22,370 --> 00:03:24,630
+And then because of how a grosbeak
+
+85
+00:03:25,620 --> 00:03:27,770
+you can then go into sculpt mode
+
+86
+00:03:27,930 --> 00:03:29,230
+do your grab mode
+
+87
+00:03:29,240 --> 00:03:33,290
+and start kind of bending the cable and putting it behind the hand
+
+88
+00:03:33,290 --> 00:03:34,110
+And I love that
+
+89
+00:03:34,110 --> 00:03:37,060
+I love that grease pencil allows for these 3D
+
+90
+00:03:37,670 --> 00:03:40,030
+it's last to the movement of the objects
+
+91
+00:03:40,660 --> 00:03:47,210
+AlsoI love that you can have these shadows that are just little dots that I have sputter around here and they boil
+
+92
+00:03:47,370 --> 00:03:48,020
+and that effect
+
+93
+00:03:48,360 --> 00:03:51,280
+I think is beautiful and a 3D illustration I've never seen before
+
+94
+00:03:51,280 --> 00:03:51,620
+to be honest
+
+95
+00:03:51,850 --> 00:03:53,340
+I've never seen something like that
+
+96
+00:03:53,530 --> 00:03:54,200
+Same here
+
+97
+00:03:54,370 --> 00:03:55,210
+this you see
+
+98
+00:03:55,210 --> 00:03:57,330
+you can have all of these effects that are applying
+
+99
+00:03:57,330 --> 00:03:58,510
+they're just applying a noise
+
+100
+00:03:59,060 --> 00:04:02,680
+but then I have have all the things if I go to my final render mode
+
+101
+00:04:03,220 --> 00:04:11,830
+and I have I have it here and that should be look like that I'm gonna deactivate my scene like in a scene world because I just want to use the automatic lighting
+
+102
+00:04:13,200 --> 00:04:14,030
+I can apply
+
+103
+00:04:14,040 --> 00:04:20,140
+Do you see that there is this double layer that it looks yellow and it looks red on the front and it goes with the animation
+
+104
+00:04:20,140 --> 00:04:27,740
+it works completely fine that is coming from this original illustration and it's so easy to do so the only thing you need to do is
+
+105
+00:04:27,750 --> 00:04:29,780
+and remember that in order to see those effects
+
+106
+00:04:29,780 --> 00:04:31,410
+you need to be viewport shading mode
+
+107
+00:04:31,670 --> 00:04:33,580
+But if I select it here
+
+108
+00:04:33,740 --> 00:04:35,840
+one of the effects that I have is called shadow
+
+109
+00:04:35,840 --> 00:04:37,500
+but a shadow can be any color
+
+110
+00:04:37,620 --> 00:04:40,750
+so it's just a creative way of using the shadow you made the black
+
+111
+00:04:40,760 --> 00:04:42,600
+it's just a shadow that you have for the effect
+
+112
+00:04:42,850 --> 00:04:45,980
+But if you make your shadow that low color
+
+113
+00:04:45,990 --> 00:04:49,870
+subtlyyou're having the look that the original illustration had
+
+114
+00:04:50,150 --> 00:04:51,960
+and I love that type of flexibility
+
+115
+00:04:51,970 --> 00:05:09,760
+I'm still discovering how to use the kind of mill option that grease stencil has because look at all these effects for sure at some point it's going to be useful to have this pixelate effect that is going to pixelate our entire illustration know like different effects can be used in different situations
+
+116
+00:05:09,800 --> 00:05:16,570
+And I think that what I like is just looking at them and then discovering slowly when are they useful or when I'm gon Na use them
+
+117
+00:05:17,280 --> 00:05:18,510
+YeahI think that's really interesting too
+
+118
+00:05:18,510 --> 00:05:22,050
+and sometimes you might accidentally come across something like that pixelate
+
+119
+00:05:22,050 --> 00:05:23,540
+and then at some point you'll think
+
+120
+00:05:23,550 --> 00:05:23,840
+ohyeah
+
+121
+00:05:23,840 --> 00:05:26,410
+I remember that all exactly
+
+122
+00:05:26,420 --> 00:05:35,160
+If you're wondering why didn't use this effect like wrist pencil for the eyes is because so far it doesn't work well with transparency
+
+123
+00:05:35,170 --> 00:05:36,720
+So when I drew it
+
+124
+00:05:36,720 --> 00:05:39,250
+then I couldn't see a bit of the eyes through the transparency
+
+125
+00:05:39,310 --> 00:05:41,140
+I wanted to be able to see it there
+
+126
+00:05:41,150 --> 00:05:42,590
+So I did it with a normal
+
+127
+00:05:42,600 --> 00:05:43,720
+painting it with a brush
+
+128
+00:05:43,820 --> 00:05:45,930
+I just UV unwrapped the entire head
+
+129
+00:05:45,940 --> 00:05:47,290
+and then I painted bit by bit
+
+130
+00:05:47,810 --> 00:05:51,770
+And the same he things here for the for my banana
+
+131
+00:05:51,780 --> 00:05:52,780
+I did the same
+
+132
+00:05:52,830 --> 00:05:53,890
+And then for my hand
+
+133
+00:05:53,900 --> 00:05:55,170
+I simply made the same effect
+
+134
+00:05:55,170 --> 00:05:58,610
+I just made some bones and I can just show here with transparency
+
+135
+00:05:58,650 --> 00:05:59,900
+And I just made some bones
+
+136
+00:05:59,900 --> 00:06:02,420
+and then I parented them with automatic weights
+
+137
+00:06:02,430 --> 00:06:05,670
+And then I have suddenly this hand that it's actually raked
+
+138
+00:06:05,670 --> 00:06:07,940
+which it's not something that we are
+
+139
+00:06:07,950 --> 00:06:08,140
+you know
+
+140
+00:06:08,140 --> 00:06:10,150
+like we're showing off much
+
+141
+00:06:10,160 --> 00:06:11,160
+But in reality
+
+142
+00:06:11,170 --> 00:06:15,700
+you could just rotate these fingers and they can rotate with the illustration
+
+143
+00:06:15,700 --> 00:06:15,880
+You know
+
+144
+00:06:15,880 --> 00:06:16,810
+like we could Riga
+
+145
+00:06:16,820 --> 00:06:18,880
+make our our animation
+
+146
+00:06:18,880 --> 00:06:20,320
+a little animation with the character
+
+147
+00:06:20,320 --> 00:06:23,510
+Maybe it's kind of coming to grab the phone or doing whatever
+
+148
+00:06:25,180 --> 00:06:26,150
+Besides that
+
+149
+00:06:26,160 --> 00:06:26,900
+this illustration
+
+150
+00:06:26,900 --> 00:06:29,190
+I think is quite simple in the way was animated
+
+151
+00:06:29,690 --> 00:06:37,580
+The only thing that maybe some people are going struggle with is just doing this frame by frame animation in which I transform this speech bubble into a circle
+
+152
+00:06:37,580 --> 00:06:39,570
+But that's just done in frame by frame
+
+153
+00:06:39,580 --> 00:06:46,220
+Maybe at some point we're gonna talk a bit more about different effects to animated transitions or fire or effects in frame by frame
+
+154
+00:06:46,440 --> 00:06:51,350
+But there are so many references on the internet that you can find out your favorite style of animation
+
+155
+00:06:51,380 --> 00:06:54,400
+I recommend looking at them frame by frame
+
+156
+00:06:54,880 --> 00:06:57,740
+You can download them and go frame by frame and check how it was made
+
+157
+00:06:57,740 --> 00:06:59,210
+Great idea
+
+158
+00:07:00,090 --> 00:07:00,950
+Besides that
+
+159
+00:07:00,960 --> 00:07:02,970
+do you have any other questions about this one
+
+160
+00:07:03,320 --> 00:07:10,360
+I was wondering how you chose the level of detail to add on to the 3D character because there are some extra details in the 2D
+
+161
+00:07:11,170 --> 00:07:13,340
+say on the banana or in the hair there
+
+162
+00:07:13,380 --> 00:07:15,780
+and how did you choose how much to put in 3D
+
+163
+00:07:16,290 --> 00:07:20,320
+This is about your personal choice
+
+164
+00:07:20,320 --> 00:07:21,220
+Would you like
+
+165
+00:07:21,230 --> 00:07:23,130
+would you think that is gonna work
+
+166
+00:07:23,600 --> 00:07:26,150
+I don't have an answer for that
+
+167
+00:07:26,160 --> 00:07:31,810
+but I do agree at some point when we started putting some of those lines in the hair
+
+168
+00:07:31,890 --> 00:07:33,870
+it started feeling 2 BC 2 crowded
+
+169
+00:07:33,950 --> 00:07:34,330
+you know
+
+170
+00:07:34,380 --> 00:07:36,660
+3D and 2D don't work the same way
+
+171
+00:07:36,670 --> 00:07:37,840
+So it's a personal choice
+
+172
+00:07:38,180 --> 00:07:39,580
+The same thing with
+
+173
+00:07:39,630 --> 00:07:39,910
+you know
+
+174
+00:07:39,910 --> 00:07:41,520
+the shadows here are not painted
+
+175
+00:07:41,520 --> 00:07:44,570
+are the natural shadows that occur with the ambient occlusion
+
+176
+00:07:44,570 --> 00:07:50,240
+but the shadows in here are painted and they are boiling and that's just a decision
+
+177
+00:07:50,240 --> 00:07:52,320
+it's an artistic decision that might be different
+
+178
+00:07:52,330 --> 00:07:52,710
+You know
+
+179
+00:07:52,720 --> 00:07:56,770
+if Natalia starts making this illustration in 3D herself
+
+180
+00:07:56,780 --> 00:07:58,740
+she might have different decisions
+
+181
+00:07:59,250 --> 00:08:04,630
+YeahI think it's interesting for people to start actually thinking of the 3D illustration
+
+182
+00:08:05,040 --> 00:08:07,480
+how it translates from the 2D illustration
+
+183
+00:08:07,500 --> 00:08:11,740
+what the differences and similarities are and how you're keeping the same spirit
+
+184
+00:08:11,750 --> 00:08:14,620
+that's sort of what we wanted to cover a lot in this course as well
+
+185
+00:08:14,660 --> 00:08:19,680
+not only the technical aspects of how you model certain things and how you use the grease pencil
+
+186
+00:08:19,680 --> 00:08:23,680
+but also what you're actually deciding to translate and how you're doing that
+
+187
+00:08:23,690 --> 00:08:33,290
+YeahI think a lot of people think that the technical bit is the most relevant one or that there is some secret button or something that turns things into 3D that's not the case
+
+188
+00:08:33,290 --> 00:08:33,490
+You know
+
+189
+00:08:33,490 --> 00:08:39,100
+we go case by case and that's why the illustrations look unique and special and they end up
+
+190
+00:08:39,110 --> 00:08:39,450
+you know
+
+191
+00:08:39,460 --> 00:08:39,910
+if this
+
+192
+00:08:39,920 --> 00:08:42,230
+even if they started been made by Natalia
+
+193
+00:08:42,700 --> 00:08:48,850
+it has in the end a bit of a cabeza patata look because we transformed it and I think that that's an important thing
+
+194
+00:08:48,860 --> 00:08:51,880
+the more you improve as a 3D artist
+
+195
+00:08:52,030 --> 00:08:55,820
+the more you're going to be able to put your personal touch on everything you make
+
+196
+00:08:55,830 --> 00:08:58,010
+even if you're translating someone else's illustration
+
+197
+00:08:58,010 --> 00:09:00,270
+you're going to be able to put to a little detail
+
+198
+00:09:00,270 --> 00:09:06,600
+probably we went more pastel with this colors than in the original illustration from Natalie because of how we like these pastel colors
+
+199
+00:09:06,620 --> 00:09:14,660
+the color palette kind of gets slowly shifted and moved towards what you like and I really want people to start exploring 3D in that way
+
+200
+00:09:14,670 --> 00:09:14,940
+you know
+
+201
+00:09:14,950 --> 00:09:27,090
+remember 3D is not something that touch from the rest of the art if you like something you can apply it to 3D I completely agree and with that thank you so much for following up here
+
+202
+00:09:27,570 --> 00:09:30,510
+this was so nice to have this illustration from Natalia
+
+203
+00:09:30,520 --> 00:09:33,940
+thank you so much for sending it and well done everyone
+
+204
+00:09:34,380 --> 00:09:39,160
+thank you for following along with the course and please share your results and even share your 2D illustrations
+
+205
+00:09:39,160 --> 00:09:46,450
+if you have any questions for us or for any of the other students about recommendations for how you might transform it into 3D
+
+206
+00:09:46,460 --> 00:09:47,130
+just let us know
+
+207
+00:09:47,190 --> 00:09:49,540
+yeahand please continue sharing your work
+
+208
+00:09:50,310 --> 00:09:51,940
+It's just how we learn
+
+209
+00:09:51,950 --> 00:09:57,280
+What people want is how we discover if actually people understood what was happening
+
+210
+00:09:57,310 --> 00:09:59,630
+And we love seeing translations like this
+
+211
+00:10:00,010 --> 00:10:02,050
+love to see everyone's do the illustrations
+
+212
+00:10:02,050 --> 00:10:04,220
+transforming 3D using grease pencil
+
+213
+00:10:04,280 --> 00:10:05,240
+Thanks everyone
+
+214
+00:10:05,250 --> 00:10:05,980
+bye

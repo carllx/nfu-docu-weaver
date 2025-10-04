@@ -1,0 +1,39 @@
+{
+    "conversation_id": "cq7ee89mqu00dmg4k7v0",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review",
+            "fileID": "cpg9jb3df0jc3ksj2s9g",
+            "itemID": 2528,
+            "citation": "Queiroz, M. M., Ivanov, D., Dolgui, A., & Fosso Wamba, S. (2022). Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review. Annals of Operations Research, 319(1), 1159–1196. https://doi.org/10.1007/s10479-020-03685-7\n",
+            "citationShort": "Queiroz et al., 2022",
+            "tags": [
+                "#kimi",
+                "Adaptation",
+                "COVID-19",
+                "Digitalization",
+                "Epidemic outbreaks",
+                "Influenza",
+                "Pandemic",
+                "Preparedness",
+                "Recovery",
+                "Resilience",
+                "Ripple effect",
+                "Structured literature review",
+                "Supply chain",
+                "Sustainability"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者是如何根据研究主题设计收集文献的关键词?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review, was published on 2022. (It can be cite this paper as Queiroz et al., 2022 on your answer). \n\n",
+    "response": "在Queiroz等人的2022年的研究中，作者们为了系统地分析流行病爆发对供应链的影响，并在COVID-19大流行期间制定研究议程，他们采用了结构化的文献综述方法来设计收集文献的关键词。具体来说，他们的关键词设计如下：\n\n1. **研究范围的确定**：首先，作者们定义了研究的范围，考虑到其跨学科的性质，并设计了一个研究协议，以确保整个研究过程的客观性和可靠性。\n\n2. **关键词的选取**：在研究的第二阶段，为了识别相关的论文，作者们根据研究协议的标准，考虑了符合完整研究协议标准的文件。在搜索时，他们特别关注了商业供应链和物流，而不是人道主义物流，并专注于明显和具体的物流、生产和供应链背景。\n\n3. **搜索字段和术语**：他们使用了以下搜索字段和术语：\n   - 研究数据库：Scopus数据库、ScienceDirect (Elsevier)、Emeraldinsight (Emerald)、Wiley Online Library (Wiley)、Taylor & Francis Online (Taylor & Francis)、Springer Link (Springer)、Inderscience和Informs PubsOnline。\n   - 出版物类型：同行评审期刊（Scopus索引）。\n   - 语言：只考虑用英语撰写的论文。\n   - 日期范围：2003年至2020年3月22日。\n   - 搜索字段：标题、摘要和关键词。\n   - 搜索术语：在Scopus数据库中应用于标题，在其他数据库中应用于标题、摘要和关键词（\"outbreak*\" OR \"pandemic*\" OR \"epidemic*\" OR \"disease*\" AND \"humanitarian operati*\" OR \"humanitarian relief*\" OR \"suppl* Chain*\" OR \"logistic*\"）。\n\n4. **数据提取和分析**：使用R工具软件Bibliometrix和定性软件MAXQDA进行数据提取和探索，并采用内容分析方法。\n\n通过上述方法，作者们能够系统地收集和分析与流行病爆发对供应链影响相关的文献，为进一步的研究提供了坚实的基础。在文献综述的过程中，他们识别了流感是报道最多的流行病爆发，资源分配和分配优化是最受欢迎的研究主题，并提出了新的研究张力和分类/分类方法。最终，他们提出了一个框架，用于在COVID-19大流行期间指导操作和供应链管理，涵盖了适应性、数字化、准备性、恢复力、连锁效应和可持续性六个方面。此外，他们还提出了一系列开放性研究问题，为学者和实践者在这一新兴研究领域提供了研究方向。",
+    "refs": [
+        "cpg9jb3df0jc3ksj2s9g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq7ee8lvbf6jao0a5r5g",
+    "req_id": "cq7ee8lvbf6jao0a5r60",
+    "resp_id": "cq7ee8lvbf6jao0a5r6g",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者是如何根据研究主题设计收集文献的关键词?"
+}

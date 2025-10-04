@@ -1,0 +1,456 @@
+﻿1
+00:00:00,000 --> 00:00:02,170
+- With the layered approach,
+
+2
+00:00:02,170 --> 00:00:06,700
+we focus on building the
+motion channel by channel
+
+3
+00:00:06,700 --> 00:00:10,420
+The idea is not to go
+through a blocking stage
+
+4
+00:00:10,420 --> 00:00:14,500
+then detailed blocking,
+spinning, and polishing.
+
+5
+00:00:14,500 --> 00:00:16,090
+We will directly work
+
+6
+00:00:16,090 --> 00:00:20,770
+in the graph editor on specific
+parts of the character.
+
+7
+00:00:20,770 --> 00:00:23,810
+We will start from the
+root of the character
+
+8
+00:00:23,810 --> 00:00:27,340
+and in reaction, we will animate the legs.
+
+9
+00:00:27,340 --> 00:00:31,200
+This is the whole concept
+about the layered approach.
+
+10
+00:00:31,200 --> 00:00:34,970
+We will first work on
+the up and down motion
+
+11
+00:00:34,970 --> 00:00:38,894
+of the root of the torso
+and in reaction the legs
+
+12
+00:00:38,894 --> 00:00:43,140
+and then the left to
+right motion of the torso.
+
+13
+00:00:43,140 --> 00:00:46,500
+With the file opened and
+the King set selected,
+
+14
+00:00:46,500 --> 00:00:48,510
+I've duplicated the action
+
+15
+00:00:48,510 --> 00:00:51,200
+and then will rename it: walk.
+
+16
+00:00:51,200 --> 00:00:53,100
+Will activate the fix user
+
+17
+00:00:53,100 --> 00:00:55,270
+to make sure we don't
+lose what we are doing
+
+18
+00:00:55,270 --> 00:00:58,150
+and activate the auto key framing.
+
+19
+00:00:58,150 --> 00:01:01,660
+First controller will walk
+with is the tussle route.
+
+20
+00:01:01,660 --> 00:01:03,240
+As for this scleral character,
+
+21
+00:01:03,240 --> 00:01:06,138
+it's the main controller of the torso.
+
+22
+00:01:06,138 --> 00:01:08,110
+So we start with selecting
+the property's bone
+
+23
+00:01:08,110 --> 00:01:11,250
+and set to zero, the
+follow arm properties.
+
+24
+00:01:11,250 --> 00:01:13,960
+This might be something we
+will change along the way,
+
+25
+00:01:13,960 --> 00:01:18,210
+reset it to one or to zero,
+depending on our needs.
+
+26
+00:01:18,210 --> 00:01:19,790
+First motion we will work on
+
+27
+00:01:19,790 --> 00:01:23,410
+is the up and down motion of the torso.
+
+28
+00:01:23,410 --> 00:01:26,840
+And we will work on
+the Z location channel.
+
+29
+00:01:26,840 --> 00:01:30,550
+The goal is to focus on
+one channel at a time.
+
+30
+00:01:30,550 --> 00:01:34,690
+So selecting the visibility
+bone, I will hide everything
+
+31
+00:01:34,690 --> 00:01:37,141
+but the torso so that we can really focus
+
+32
+00:01:37,141 --> 00:01:39,950
+on the motion of the torso.
+
+33
+00:01:39,950 --> 00:01:41,042
+For this animation
+
+34
+00:01:41,042 --> 00:01:46,042
+I will work with a frame
+rate of 30 frame per seconds.
+
+35
+00:01:46,580 --> 00:01:49,840
+You can stick to the 24
+frame per second rhythm,
+
+36
+00:01:49,840 --> 00:01:51,090
+if you want.
+
+37
+00:01:51,090 --> 00:01:54,030
+It's a matter of personal preferences.
+
+38
+00:01:54,030 --> 00:01:57,490
+So normally like to work
+at 30 frames per second
+
+39
+00:01:57,490 --> 00:02:00,560
+because I'm used to animate for games.
+
+40
+00:02:00,560 --> 00:02:02,941
+And a lot of movies are now set to 25
+
+41
+00:02:02,941 --> 00:02:05,850
+to 30 frame per seconds.
+
+42
+00:02:05,850 --> 00:02:09,260
+But we will cycle range of 30 frame,
+
+43
+00:02:09,260 --> 00:02:12,600
+in the end I've used a 36 frame
+
+44
+00:02:12,600 --> 00:02:15,398
+cycle for the up and down motion,
+
+45
+00:02:15,398 --> 00:02:19,810
+but you can choose to
+do it faster or slower.
+
+46
+00:02:19,810 --> 00:02:24,810
+Here I want to create a very
+slow pace and heavy walk cycle.
+
+47
+00:02:26,190 --> 00:02:30,000
+But you could do a run
+cycle with the same method.
+
+48
+00:02:30,000 --> 00:02:31,684
+With my roots torso selected,
+
+49
+00:02:31,684 --> 00:02:34,910
+I will directly jump
+into the graph editor.
+
+50
+00:02:34,910 --> 00:02:37,630
+The controller is aligned with world space
+
+51
+00:02:37,630 --> 00:02:41,611
+so we can work directly on the Z location.
+
+52
+00:02:41,611 --> 00:02:43,460
+I have an up and down motion
+
+53
+00:02:43,460 --> 00:02:46,640
+for both the left step and the right step.
+
+54
+00:02:46,640 --> 00:02:49,630
+So on the one whole work cycle,
+
+55
+00:02:49,630 --> 00:02:52,710
+the up and down motion will repeat twice.
+
+56
+00:02:52,710 --> 00:02:54,440
+I will arbitrary go to
+
+57
+00:02:54,440 --> 00:02:56,960
+frame five and raise about here.
+
+58
+00:02:56,960 --> 00:02:58,820
+The idea here is just to get
+
+59
+00:02:58,820 --> 00:03:01,780
+an extra key frame on our torso.
+
+60
+00:03:01,780 --> 00:03:04,290
+The motion will be pretty simple.
+
+61
+00:03:04,290 --> 00:03:06,789
+If we want to make our character heavy,
+
+62
+00:03:06,789 --> 00:03:10,420
+we need to make it raise pretty slowly
+
+63
+00:03:10,420 --> 00:03:13,200
+because it has to push a lot of weight
+
+64
+00:03:13,200 --> 00:03:15,511
+and whenever the torso is getting down
+
+65
+00:03:15,511 --> 00:03:19,280
+it will kind of fall pretty fast.
+
+66
+00:03:19,280 --> 00:03:22,260
+And we can build a pretty
+strong overshoot to
+
+67
+00:03:22,260 --> 00:03:24,560
+communicate this weight.
+
+68
+00:03:24,560 --> 00:03:26,050
+And as I said, tall
+
+69
+00:03:26,050 --> 00:03:29,603
+I've inputted a very
+slight up-and-down motion
+
+70
+00:03:29,603 --> 00:03:33,381
+on the few frame to create
+some kind of vibration
+
+71
+00:03:33,381 --> 00:03:38,381
+or bones of the whole torso
+as if the body was bouncing as
+
+72
+00:03:38,682 --> 00:03:42,310
+it touched its lowest position.
+
+73
+00:03:42,310 --> 00:03:46,050
+This will bring a pretty
+clunky or robotic motion.
+
+74
+00:03:46,050 --> 00:03:48,970
+I will keep on showing
+the Z location curve
+
+75
+00:03:48,970 --> 00:03:50,370
+so that you have a reference.
+
+76
+00:03:50,370 --> 00:03:52,045
+As any animation process,
+
+77
+00:03:52,045 --> 00:03:53,491
+it's a creative process,
+
+78
+00:03:53,491 --> 00:03:58,491
+so I wasn't planning on doing
+this on 36 frame at first.
+
+79
+00:03:59,840 --> 00:04:02,460
+To be perfectly honest,
+I wasn't knowing all
+
+80
+00:04:02,460 --> 00:04:06,400
+mini frame would take
+an up-and-down motion.
+
+81
+00:04:06,400 --> 00:04:10,063
+It's just about playing the
+animation, making sounds
+
+82
+00:04:10,063 --> 00:04:14,170
+with my mouse to feel the
+weight of the character.
+
+83
+00:04:14,170 --> 00:04:18,610
+And in the end, a little
+more than one second per step
+
+84
+00:04:18,610 --> 00:04:22,070
+looks slow enough to
+communicate the weight
+
+85
+00:04:22,070 --> 00:04:23,660
+of the robot character.
+
+86
+00:04:23,660 --> 00:04:27,130
+A couples of details
+regarding the curve shape.
+
+87
+00:04:27,130 --> 00:04:30,230
+At first, the character
+is raising pretty fast
+
+88
+00:04:30,230 --> 00:04:33,510
+and when it's reaching its top position
+
+89
+00:04:33,510 --> 00:04:35,730
+it's slightly slowing down.
+
+90
+00:04:35,730 --> 00:04:38,600
+Then we have some kind of
+plateau shape on the curve.
+
+91
+00:04:38,600 --> 00:04:42,530
+This will make the robot
+hold a bit in the up position
+
+92
+00:04:42,530 --> 00:04:45,560
+for a few frames, and
+it will kind of serve
+
+93
+00:04:45,560 --> 00:04:48,090
+as an anticipation before the fall.
+
+94
+00:04:48,090 --> 00:04:52,200
+Note that the curve is
+not perfectly flat here.
+
+95
+00:04:52,200 --> 00:04:54,650
+I've slightly rotated the handle,
+
+96
+00:04:54,650 --> 00:04:58,670
+so that even if you took
+still, it's still moving a bit.
+
+97
+00:04:58,670 --> 00:05:00,630
+This is a moving hold.
+
+98
+00:05:00,630 --> 00:05:03,070
+If you have a perfectly flat curve here
+
+99
+00:05:03,070 --> 00:05:04,690
+it won't look natural.
+
+100
+00:05:04,690 --> 00:05:07,660
+As your character will stop moving.
+
+101
+00:05:07,660 --> 00:05:11,560
+Here is my up and down
+motion of the torso root.
+
+102
+00:05:11,560 --> 00:05:14,863
+In the next video, we
+will add the foot motion.
+

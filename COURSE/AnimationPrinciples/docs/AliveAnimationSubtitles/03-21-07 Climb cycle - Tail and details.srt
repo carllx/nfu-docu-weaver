@@ -1,0 +1,707 @@
+﻿1
+00:00:00,828 --> 00:00:02,060
+- [Instructor] This is the final video
+
+2
+00:00:02,060 --> 00:00:04,400
+of this climbing animation.
+
+3
+00:00:04,400 --> 00:00:07,560
+It is now time to polish our tail motion,
+
+4
+00:00:07,560 --> 00:00:10,530
+so I will start with the root of the tail.
+
+5
+00:00:10,530 --> 00:00:13,230
+There are a couple things
+you have to think of.
+
+6
+00:00:13,230 --> 00:00:17,300
+First of all, our character
+is climbing vertically.
+
+7
+00:00:17,300 --> 00:00:18,920
+It's the tail has weight,
+
+8
+00:00:18,920 --> 00:00:21,690
+it should be hanging a bit downward.
+
+9
+00:00:21,690 --> 00:00:25,850
+Plus, since our character
+has a vertical momentum.
+
+10
+00:00:25,850 --> 00:00:29,410
+The tail should also drag
+in the opposite direction.
+
+11
+00:00:29,410 --> 00:00:33,590
+As usual, I'm starting to
+work on the X rotation curve.
+
+12
+00:00:33,590 --> 00:00:37,090
+The idea is to avoid
+any big flapping motion
+
+13
+00:00:37,090 --> 00:00:40,330
+because of the twin formation
+we have seen before.
+
+14
+00:00:40,330 --> 00:00:43,340
+The root of the tail is moving in reaction
+
+15
+00:00:43,340 --> 00:00:45,070
+of the hips motion.
+
+16
+00:00:45,070 --> 00:00:47,680
+As the hips are raising from frame zero to
+
+17
+00:00:47,680 --> 00:00:51,430
+frame five to tail is going
+the opposite direction
+
+18
+00:00:51,430 --> 00:00:53,680
+with one frame of delay.
+
+19
+00:00:53,680 --> 00:00:56,100
+From there I just need
+to polish the curve,
+
+20
+00:00:56,100 --> 00:00:59,580
+make sure that the frame
+10 and zero on the same
+
+21
+00:00:59,580 --> 00:01:02,310
+and that I get a smooth transition
+
+22
+00:01:02,310 --> 00:01:05,490
+between frame eight to frame 10.
+
+23
+00:01:05,490 --> 00:01:08,160
+This nice change in the curve shape
+
+24
+00:01:08,160 --> 00:01:10,820
+from frame one to frame three,
+
+25
+00:01:10,820 --> 00:01:14,220
+supports the drastic
+change in the hips pose
+
+26
+00:01:14,220 --> 00:01:16,890
+while the character is pushing.
+
+27
+00:01:16,890 --> 00:01:20,000
+From there I will work on the next joint
+
+28
+00:01:20,000 --> 00:01:23,070
+in reaction from the first joint.
+
+29
+00:01:23,070 --> 00:01:26,000
+So you can see that my
+curve is pretty noisy
+
+30
+00:01:26,000 --> 00:01:29,100
+because I've tried to make this animation
+
+31
+00:01:29,100 --> 00:01:31,190
+during the blocking stage.
+
+32
+00:01:31,190 --> 00:01:33,490
+So don't be afraid to destroy everything
+
+33
+00:01:33,490 --> 00:01:35,610
+and reshape the motion.
+
+34
+00:01:35,610 --> 00:01:38,550
+In the end the curve of the second joint
+
+35
+00:01:38,550 --> 00:01:42,420
+will look like the curve
+of the first joint.
+
+36
+00:01:42,420 --> 00:01:45,310
+But with a bit of delay maybe one frame
+
+37
+00:01:45,310 --> 00:01:47,070
+and a smoother shape.
+
+38
+00:01:47,070 --> 00:01:50,730
+Cause the further we get
+from the roots of the tail,
+
+39
+00:01:50,730 --> 00:01:54,890
+the more absorption of the
+heaps motion we will add.
+
+40
+00:01:54,890 --> 00:01:57,950
+Since we are rebuilding
+the whole tail motion,
+
+41
+00:01:57,950 --> 00:02:02,030
+I can get treated off any
+of the next joint motion
+
+42
+00:02:02,030 --> 00:02:04,300
+because they are currently disturbing.
+
+43
+00:02:04,300 --> 00:02:07,360
+I can get treated of the
+intermediate key frame
+
+44
+00:02:07,360 --> 00:02:10,470
+for the two controllers
+or the tip of the tail.
+
+45
+00:02:10,470 --> 00:02:12,230
+So that it stays straight
+
+46
+00:02:12,230 --> 00:02:14,160
+and I have less difficulties
+
+47
+00:02:14,160 --> 00:02:16,340
+reading the motion of the tail.
+
+48
+00:02:16,340 --> 00:02:18,680
+As soon as I get a satisfying motion,
+
+49
+00:02:18,680 --> 00:02:22,780
+I make sure that the cycle
+is transitioning properly
+
+50
+00:02:22,780 --> 00:02:25,710
+and I can jump on the next joint.
+
+51
+00:02:25,710 --> 00:02:29,500
+Can now rework the
+motion of the next joint
+
+52
+00:02:29,500 --> 00:02:32,840
+by simply duplicating the first key frame
+
+53
+00:02:32,840 --> 00:02:35,430
+and reshaping the curve at will
+
+54
+00:02:35,430 --> 00:02:38,410
+based on the motion of the previous joint.
+
+55
+00:02:38,410 --> 00:02:40,230
+It's pretty straightforward.
+
+56
+00:02:40,230 --> 00:02:45,210
+The idea is to create a slight
+waviness in the tail motion.
+
+57
+00:02:45,210 --> 00:02:48,080
+So if you want to create
+a nice tail motion
+
+58
+00:02:48,080 --> 00:02:49,500
+for this animation,
+
+59
+00:02:49,500 --> 00:02:53,200
+make sure that the root of
+the tail is moving properly.
+
+60
+00:02:53,200 --> 00:02:56,640
+And then you just create
+this animation fall off
+
+61
+00:02:56,640 --> 00:02:57,583
+along the way.
+
+62
+00:02:59,800 --> 00:03:02,290
+From there we can start
+working on this Z axis
+
+63
+00:03:02,290 --> 00:03:04,660
+for the left to right motion of the tail.
+
+64
+00:03:04,660 --> 00:03:08,030
+It's the same process as
+for the previous motion
+
+65
+00:03:08,030 --> 00:03:11,160
+but we'll keep it a little
+more subtle this time.
+
+66
+00:03:11,160 --> 00:03:13,540
+Since I'm rebuilding this motion,
+
+67
+00:03:13,540 --> 00:03:16,780
+I will get rid of all
+the existing key frames
+
+68
+00:03:16,780 --> 00:03:20,040
+and will start by
+duplicating the first key
+
+69
+00:03:20,040 --> 00:03:22,530
+Based on the hips motion of the character
+
+70
+00:03:22,530 --> 00:03:23,980
+I will create the follow-through
+
+71
+00:03:23,980 --> 00:03:26,050
+when the hips are going right
+
+72
+00:03:26,050 --> 00:03:28,530
+I will decide to rotate
+the tail to the left
+
+73
+00:03:28,530 --> 00:03:31,680
+to create the dragging
+motion of follow through.
+
+74
+00:03:31,680 --> 00:03:34,580
+Usually I make sure that
+frame zero and frame 10
+
+75
+00:03:34,580 --> 00:03:37,450
+are the same and that they are align
+
+76
+00:03:37,450 --> 00:03:41,230
+are transitioning smoothly
+with the next key frames.
+
+77
+00:03:41,230 --> 00:03:44,290
+I will then repeat the
+process on the other joints.
+
+78
+00:03:44,290 --> 00:03:47,230
+As usual, you can see the full process
+
+79
+00:03:47,230 --> 00:03:49,173
+in the time-lapse video.
+
+80
+00:03:50,850 --> 00:03:53,750
+So the finer parts of this animation is
+
+81
+00:03:53,750 --> 00:03:56,830
+to work on all the secondary details
+
+82
+00:03:56,830 --> 00:03:59,950
+like the ears, eyes and nose tip.
+
+83
+00:03:59,950 --> 00:04:02,133
+I will use the straightforward method
+
+84
+00:04:02,133 --> 00:04:05,470
+meaning that I will be
+animating along the way.
+
+85
+00:04:05,470 --> 00:04:07,750
+With both ears controllers selected,
+
+86
+00:04:07,750 --> 00:04:10,060
+I will get rid all the key frames
+
+87
+00:04:10,060 --> 00:04:12,500
+between frame zero and frame 10
+
+88
+00:04:12,500 --> 00:04:14,210
+Two thing we have to think of.
+
+89
+00:04:14,210 --> 00:04:16,640
+The first one is to avoid twinning.
+
+90
+00:04:16,640 --> 00:04:20,520
+That's why I pulled the
+bit back the right ear
+
+91
+00:04:20,520 --> 00:04:21,840
+from the side view,
+
+92
+00:04:21,840 --> 00:04:25,180
+so that when we read the
+silhouette our character.
+
+93
+00:04:25,180 --> 00:04:27,440
+We can see both ears.
+
+94
+00:04:27,440 --> 00:04:32,440
+And the second thing is to
+keep the ears a little back
+
+95
+00:04:32,480 --> 00:04:35,750
+since our character is coming verticality
+
+96
+00:04:35,750 --> 00:04:37,940
+the ears of a bit of weight.
+
+97
+00:04:37,940 --> 00:04:40,140
+So they are pointing downward
+
+98
+00:04:40,140 --> 00:04:44,460
+and the momentum make them
+also drag a bit backwards.
+
+99
+00:04:44,460 --> 00:04:47,150
+So when you enter the follow-through path
+
+100
+00:04:47,150 --> 00:04:49,030
+whenever the car car is contacting
+
+101
+00:04:49,030 --> 00:04:53,140
+with the ground and the
+ears are moving forward.
+
+102
+00:04:53,140 --> 00:04:55,760
+Don't push them too far forward.
+
+103
+00:04:55,760 --> 00:04:58,550
+On some with those base poses,
+
+104
+00:04:58,550 --> 00:05:00,530
+I can slightly polish the curve.
+
+105
+00:05:00,530 --> 00:05:03,630
+Don't forget that you
+are working on the cycle.
+
+106
+00:05:03,630 --> 00:05:07,410
+So you need the curve
+to transition properly
+
+107
+00:05:07,410 --> 00:05:09,263
+from one cycle to the other.
+
+108
+00:05:10,500 --> 00:05:13,110
+This is why I was missing the keys.
+
+109
+00:05:13,110 --> 00:05:17,300
+I will also offset the motion
+of the ears by one key frame
+
+110
+00:05:17,300 --> 00:05:21,300
+by duplicating the first
+key frame onto frame one.
+
+111
+00:05:21,300 --> 00:05:24,210
+And then I rework my transition,
+
+112
+00:05:24,210 --> 00:05:26,380
+rotate my keys, duplicate them.
+
+113
+00:05:26,380 --> 00:05:29,293
+So that frame zero one
+frame 10 are the same.
+
+114
+00:05:30,260 --> 00:05:33,390
+Do the same on the Z
+rotation and Y rotation
+
+115
+00:05:33,390 --> 00:05:36,910
+even if the interference is very subtle.
+
+116
+00:05:36,910 --> 00:05:40,370
+I want to avoid any
+glitches in the motion.
+
+117
+00:05:40,370 --> 00:05:44,483
+We need smooth transition
+from one cycle to the other.
+
+118
+00:05:47,440 --> 00:05:49,853
+Then I worked on the eyes.
+
+119
+00:05:51,120 --> 00:05:53,780
+The idea is not to create an eye blink
+
+120
+00:05:53,780 --> 00:05:55,130
+as explained before.
+
+121
+00:05:55,130 --> 00:05:57,850
+You should not make your characters blink
+
+122
+00:05:57,850 --> 00:06:02,210
+during a cycle, because it
+will look super repetitive.
+
+123
+00:06:02,210 --> 00:06:05,360
+It is to add subtle
+follow through animation
+
+124
+00:06:05,360 --> 00:06:09,630
+by slightly closing the eyes
+while the head is going up.
+
+125
+00:06:09,630 --> 00:06:13,390
+Here I don't care about
+twinning since both eye I
+
+126
+00:06:13,390 --> 00:06:16,530
+will barely be seen at the same time.
+
+127
+00:06:16,530 --> 00:06:19,493
+So I can work on both
+curve at the same time.
+
+128
+00:06:20,799 --> 00:06:24,649
+To tackle the nose motion
+as I did for the ears.
+
+129
+00:06:24,649 --> 00:06:28,100
+Animating with with the
+straightforward method.
+
+130
+00:06:28,100 --> 00:06:32,340
+Making it drag based on the
+head motion, then make sure
+
+131
+00:06:32,340 --> 00:06:36,630
+that the curve transition
+properly during the cycle.
+
+132
+00:06:36,630 --> 00:06:38,460
+And this is the final touch
+
+133
+00:06:38,460 --> 00:06:40,843
+to this climbing cycle animation.
+
+134
+00:06:43,390 --> 00:06:47,130
+To make sure that our
+cycle is properly made.
+
+135
+00:06:47,130 --> 00:06:50,210
+I will display all the controllers curve
+
+136
+00:06:50,210 --> 00:06:53,520
+with the show hidden filter enabled.
+
+137
+00:06:53,520 --> 00:06:55,570
+Don't forget to press Alt+H
+
+138
+00:06:55,570 --> 00:06:59,600
+on top of this to make sure
+that you unhide every curves.
+
+139
+00:06:59,600 --> 00:07:03,380
+Then I make sure that the
+root channels are disabled
+
+140
+00:07:03,380 --> 00:07:07,070
+because they are not
+using a cycle modifier,
+
+141
+00:07:07,070 --> 00:07:09,503
+but linear extrapolation.
+
+142
+00:07:10,860 --> 00:07:14,480
+Then they will select all
+the keys on frame zero,
+
+143
+00:07:14,480 --> 00:07:18,680
+press V and switch the
+Handle Type to free.
+
+144
+00:07:18,680 --> 00:07:21,500
+As explained before with this Handle Type
+
+145
+00:07:21,500 --> 00:07:24,420
+the current key frames
+are no longer influenced
+
+146
+00:07:24,420 --> 00:07:27,550
+by the next or previous key frame.
+
+147
+00:07:27,550 --> 00:07:32,010
+So from there I can duplicate
+them and move them on Frame 10
+
+148
+00:07:32,010 --> 00:07:36,510
+and I'm sure that the handle
+orientation won't be changed.
+
+149
+00:07:36,510 --> 00:07:38,830
+This is a guarantee that your animation
+
+150
+00:07:38,830 --> 00:07:40,940
+will cycle perfectly.
+
+151
+00:07:40,940 --> 00:07:43,800
+This is the last animation
+we have to create
+
+152
+00:07:43,800 --> 00:07:45,080
+of this character.
+
+153
+00:07:45,080 --> 00:07:47,280
+Congratulation if you got so far,
+
+154
+00:07:47,280 --> 00:07:50,670
+if not don't give up and
+rework your animation.
+
+155
+00:07:50,670 --> 00:07:52,730
+The next video will be a time-lapse
+
+156
+00:07:52,730 --> 00:07:54,840
+of what we have just seen.
+
+157
+00:07:54,840 --> 00:07:57,700
+And then I will show
+you all we can combine
+
+158
+00:07:57,700 --> 00:08:01,760
+all the action we have
+created with our character
+
+159
+00:08:01,760 --> 00:08:04,257
+into the NLA editor.
+

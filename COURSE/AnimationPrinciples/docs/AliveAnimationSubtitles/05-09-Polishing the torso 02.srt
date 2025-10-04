@@ -1,0 +1,661 @@
+﻿1
+00:00:01,000 --> 00:00:03,450
+- In this video, we
+are going to polish the
+
+2
+00:00:03,450 --> 00:00:06,110
+chest controller, the neck, and the head.
+
+3
+00:00:06,110 --> 00:00:07,320
+Regarding the chest,
+
+4
+00:00:07,320 --> 00:00:10,750
+I will start with the
+X Quaternion rotation.
+
+5
+00:00:10,750 --> 00:00:13,810
+In this case, it controls the tilt forward
+
+6
+00:00:13,810 --> 00:00:15,490
+and backward of the chest.
+
+7
+00:00:15,490 --> 00:00:19,486
+And the method here is to
+emphasize the motion we add
+
+8
+00:00:19,486 --> 00:00:22,540
+in the root of the torso.
+
+9
+00:00:22,540 --> 00:00:24,780
+So when the character is pushing up,
+
+10
+00:00:24,780 --> 00:00:28,070
+the chest will be pushing down.
+
+11
+00:00:28,070 --> 00:00:30,470
+And when the character is falling,
+
+12
+00:00:30,470 --> 00:00:32,640
+the chest will rise a bit.
+
+13
+00:00:32,640 --> 00:00:37,050
+So it's very close to the
+motion we add on the torso root,
+
+14
+00:00:37,050 --> 00:00:39,750
+but we've a one frame delay.
+
+15
+00:00:39,750 --> 00:00:42,280
+Contact frame is on frame two,
+
+16
+00:00:42,280 --> 00:00:44,700
+and between frame four and frame six,
+
+17
+00:00:44,700 --> 00:00:48,090
+we have the fastest move downward
+
+18
+00:00:48,090 --> 00:00:51,760
+as the chest is reacting to
+the impact on the ground.
+
+19
+00:00:51,760 --> 00:00:55,243
+Then the chest is raising
+in a smoother fashion.
+
+20
+00:00:56,320 --> 00:00:59,120
+Regarding the twisting
+of the torso using the
+
+21
+00:00:59,120 --> 00:01:03,670
+Z Quaternion rotation seen in
+the beginning of the chapter,
+
+22
+00:01:03,670 --> 00:01:08,460
+during a fast run, arms and
+shoulders are leading the motion
+
+23
+00:01:08,460 --> 00:01:11,160
+because they are pulling the body up.
+
+24
+00:01:11,160 --> 00:01:15,430
+And their motion is directly
+linked to the torso twisting.
+
+25
+00:01:15,430 --> 00:01:19,730
+So you can see here, I'm
+highlighting the current chest
+
+26
+00:01:19,730 --> 00:01:21,536
+Z Quaternion rotation,
+
+27
+00:01:21,536 --> 00:01:24,110
+and in slight transparency,
+
+28
+00:01:24,110 --> 00:01:26,590
+we can see the Z Quaternion rotation
+
+29
+00:01:26,590 --> 00:01:29,060
+of the torso root controller.
+
+30
+00:01:29,060 --> 00:01:33,000
+And we can see that the torso
+root is slightly delayed
+
+31
+00:01:33,000 --> 00:01:34,760
+compared to the chest
+
+32
+00:01:34,760 --> 00:01:39,340
+because the chest twist is
+leading the torso twist.
+
+33
+00:01:39,340 --> 00:01:42,940
+Then you will find our usual mechanism.
+
+34
+00:01:42,940 --> 00:01:46,750
+The twist is going fast
+during the passing pose
+
+35
+00:01:46,750 --> 00:01:49,760
+and kind of hold during the air pose.
+
+36
+00:01:49,760 --> 00:01:51,610
+With our chest polished,
+
+37
+00:01:51,610 --> 00:01:54,203
+we can now jump onto the neck and head.
+
+38
+00:01:57,110 --> 00:01:59,190
+The head and neck should not be something
+
+39
+00:01:59,190 --> 00:02:02,230
+that complicated to
+animate during a run cycle,
+
+40
+00:02:02,230 --> 00:02:03,680
+but I did a mistake,
+
+41
+00:02:03,680 --> 00:02:06,760
+and I don't want you to
+get into this pitfall.
+
+42
+00:02:06,760 --> 00:02:09,790
+When you're running, your
+head is pretty stable,
+
+43
+00:02:09,790 --> 00:02:12,540
+meaning that it doesn't
+move that much up and down,
+
+44
+00:02:12,540 --> 00:02:13,790
+left to right, etc.
+
+45
+00:02:13,790 --> 00:02:16,351
+So that you can focus on your target,
+
+46
+00:02:16,351 --> 00:02:18,340
+where you're going.
+
+47
+00:02:18,340 --> 00:02:22,230
+So your neck is currently
+compensating the movement of the
+
+48
+00:02:22,230 --> 00:02:24,040
+chest and torso.
+
+49
+00:02:24,040 --> 00:02:26,370
+The mistake I did was trying to animate
+
+50
+00:02:26,370 --> 00:02:31,070
+the neck and head with the
+neck folder still enabled.
+
+51
+00:02:31,070 --> 00:02:33,797
+And see that right now, my
+head is moving a lot and
+
+52
+00:02:33,797 --> 00:02:38,390
+our character looks more like
+a chicken than a human being.
+
+53
+00:02:38,390 --> 00:02:39,840
+Probably in the same case.
+
+54
+00:02:39,840 --> 00:02:43,860
+To fix this easily select the X key bone,
+
+55
+00:02:43,860 --> 00:02:47,620
+which is the properties
+bone, and hide every channel,
+
+56
+00:02:47,620 --> 00:02:49,790
+but the neck follow channel.
+
+57
+00:02:49,790 --> 00:02:53,110
+On there on frame zero
+set the value of the
+
+58
+00:02:53,110 --> 00:02:55,640
+neck follow property to zero.
+
+59
+00:02:55,640 --> 00:02:59,740
+And now duplicate the key on frame 24.
+
+60
+00:02:59,740 --> 00:03:03,632
+So now our property value
+is zero all the way,
+
+61
+00:03:03,632 --> 00:03:06,890
+and the neck is no longer
+following the torso.
+
+62
+00:03:06,890 --> 00:03:10,110
+It means that the neck
+is no longer aligned
+
+63
+00:03:10,110 --> 00:03:13,610
+with the torso either,
+which looks pretty painful.
+
+64
+00:03:13,610 --> 00:03:16,930
+The neck controller selected
+in the graph editor,
+
+65
+00:03:16,930 --> 00:03:21,147
+I've hidden all the channels,
+but the X Quaternion rotation,
+
+66
+00:03:21,147 --> 00:03:24,620
+which is the tilting forward and backward.
+
+67
+00:03:24,620 --> 00:03:28,530
+And what I will do is that I
+will offset the whole curve
+
+68
+00:03:28,530 --> 00:03:30,823
+on the y-axis in the graph editor
+
+69
+00:03:30,823 --> 00:03:33,260
+until the neck is aligned.
+
+70
+00:03:33,260 --> 00:03:36,220
+Due to the master neck
+controller behavior,
+
+71
+00:03:36,220 --> 00:03:39,530
+we can see that the neck is
+slightly bending forward,
+
+72
+00:03:39,530 --> 00:03:41,480
+which doesn't looks pretty good,
+
+73
+00:03:41,480 --> 00:03:45,950
+but we can easily fix it by
+selecting the first tweaker bone
+
+74
+00:03:45,950 --> 00:03:49,470
+of the neck, or forward kinematic bone,
+
+75
+00:03:49,470 --> 00:03:52,680
+and reposition it in the 3D view.
+
+76
+00:03:52,680 --> 00:03:54,160
+Once you're done with this controller,
+
+77
+00:03:54,160 --> 00:03:57,940
+you can select the second
+tweaker bone of the neck,
+
+78
+00:03:57,940 --> 00:04:00,220
+and rotate it the opposite way,
+
+79
+00:04:00,220 --> 00:04:03,710
+so that we get a more
+natural shape for the neck.
+
+80
+00:04:03,710 --> 00:04:06,970
+From there, we can
+select both controllers,
+
+81
+00:04:06,970 --> 00:04:09,490
+get rid of all the other keys,
+
+82
+00:04:09,490 --> 00:04:11,964
+but the one we've just created.
+
+83
+00:04:11,964 --> 00:04:16,220
+So basically all the keys,
+but keys on frame zero,
+
+84
+00:04:16,220 --> 00:04:20,010
+and duplicate the keys on
+frame zero to frame 24.
+
+85
+00:04:20,010 --> 00:04:22,340
+With our neck shapes corrected,
+
+86
+00:04:22,340 --> 00:04:25,760
+we can now get back to the neck controller
+
+87
+00:04:25,760 --> 00:04:27,710
+and work on its motion.
+
+88
+00:04:27,710 --> 00:04:30,596
+Since the neck rotation is now isolated
+
+89
+00:04:30,596 --> 00:04:35,158
+from the rest of the chain,
+the torso root, and the chest,
+
+90
+00:04:35,158 --> 00:04:39,100
+the head wobbles way less than before.
+
+91
+00:04:39,100 --> 00:04:42,660
+And we can now animate
+the head X rotation,
+
+92
+00:04:42,660 --> 00:04:46,370
+a bit as we did for the chest X rotation.
+
+93
+00:04:46,370 --> 00:04:49,720
+As the character falls,
+the head is dragging a bit.
+
+94
+00:04:49,720 --> 00:04:51,330
+So it's raising.
+
+95
+00:04:51,330 --> 00:04:53,992
+After the impact of the contact frame,
+
+96
+00:04:53,992 --> 00:04:57,866
+the neck bends forward
+as the head is falling.
+
+97
+00:04:57,866 --> 00:05:00,150
+Do need to bring a bit of
+
+98
+00:05:00,150 --> 00:05:03,480
+up and down motion to the
+neck with the X rotation
+
+99
+00:05:03,480 --> 00:05:07,460
+because the head has
+weight, but not too much.
+
+100
+00:05:07,460 --> 00:05:10,500
+Then I've used the Y
+Quaternion rotation and
+
+101
+00:05:10,500 --> 00:05:15,500
+Z Quaternion rotation to
+stabilize the head in space.
+
+102
+00:05:15,590 --> 00:05:17,950
+Since my Y curve was messy,
+
+103
+00:05:17,950 --> 00:05:20,880
+I've decided to remove
+all the keys between
+
+104
+00:05:20,880 --> 00:05:22,710
+frame zero and frame 24.
+
+105
+00:05:22,710 --> 00:05:27,436
+Then I reset the value to
+zero by moving the whole curve
+
+106
+00:05:27,436 --> 00:05:31,390
+and switch back the
+end goals to auto clap.
+
+107
+00:05:31,390 --> 00:05:34,448
+Now we have a clean
+curve we can work with.
+
+108
+00:05:34,448 --> 00:05:38,900
+Go on to animate the head
+position and stabilize a bit
+
+109
+00:05:38,900 --> 00:05:40,439
+the head in space.
+
+110
+00:05:40,439 --> 00:05:44,080
+When I feel that the head
+is moving to the right,
+
+111
+00:05:44,080 --> 00:05:45,600
+I move it to the left
+
+112
+00:05:45,600 --> 00:05:49,298
+using the Y Quaternion
+rotation curve of the neck.
+
+113
+00:05:49,298 --> 00:05:53,780
+We don't want the head to
+have no left to right motion,
+
+114
+00:05:53,780 --> 00:05:55,546
+but we do want to reduce it
+
+115
+00:05:55,546 --> 00:06:00,490
+so that the run looks more
+controlled by the character.
+
+116
+00:06:00,490 --> 00:06:04,196
+As usual, you can double check
+the curve as a reference,
+
+117
+00:06:04,196 --> 00:06:07,540
+but don't forget that if you
+don't have the same timing
+
+118
+00:06:07,540 --> 00:06:11,860
+in your run cycle, my curve may not fit.
+
+119
+00:06:11,860 --> 00:06:14,053
+You need to understand the principles.
+
+120
+00:06:15,210 --> 00:06:17,823
+Then worked on the Z Quaternion curve
+
+121
+00:06:17,823 --> 00:06:19,810
+with the same goal in mind,
+
+122
+00:06:19,810 --> 00:06:22,410
+kind of stabilized a bit the head.
+
+123
+00:06:22,410 --> 00:06:25,140
+I didn't work the Z curve that much.
+
+124
+00:06:25,140 --> 00:06:28,000
+I've kept the values very subtle.
+
+125
+00:06:28,000 --> 00:06:31,875
+It was just to fix a bit the
+head position frame by frame.
+
+126
+00:06:31,875 --> 00:06:36,280
+So I don't have that much to
+add to this since it's pretty
+
+127
+00:06:36,280 --> 00:06:40,595
+close to the process I was
+applying to the Y rotation curve.
+
+128
+00:06:40,595 --> 00:06:42,610
+Just looking at the head,
+
+129
+00:06:42,610 --> 00:06:45,983
+trying to stabilize its position in space,
+
+130
+00:06:45,983 --> 00:06:49,600
+but I keep a bit of side to side motion.
+
+131
+00:06:49,600 --> 00:06:50,433
+In the lee,
+
+132
+00:06:50,433 --> 00:06:53,000
+I didn't pose the head that
+much during the blocking,
+
+133
+00:06:53,000 --> 00:06:56,140
+so all my rotation curves are flat,
+
+134
+00:06:56,140 --> 00:07:01,140
+and I will only work on the
+X Quaternion rotation curve.
+
+135
+00:07:01,200 --> 00:07:03,150
+As usual, we want to bring motion,
+
+136
+00:07:03,150 --> 00:07:05,238
+but as explained before,
+
+137
+00:07:05,238 --> 00:07:08,810
+I don't want to feel like
+the head is wobbling in
+
+138
+00:07:08,810 --> 00:07:12,370
+all directions and my
+character can't support
+
+139
+00:07:12,370 --> 00:07:14,310
+the weight of his head,
+
+140
+00:07:14,310 --> 00:07:16,560
+but we want to make the drag a bit,
+
+141
+00:07:16,560 --> 00:07:18,270
+but not that much.
+
+142
+00:07:18,270 --> 00:07:21,494
+To do so, the tip is to track whether the
+
+143
+00:07:21,494 --> 00:07:24,500
+chin or the nose of your character.
+
+144
+00:07:24,500 --> 00:07:26,350
+When the head is raising,
+
+145
+00:07:26,350 --> 00:07:29,520
+the chin will drag a bit down,
+
+146
+00:07:29,520 --> 00:07:32,520
+and when the head is going down,
+
+147
+00:07:32,520 --> 00:07:34,960
+the chin will slightly rise.
+
+148
+00:07:34,960 --> 00:07:37,320
+And we are finally done with polishing
+
+149
+00:07:37,320 --> 00:07:39,423
+the whole torso of our character.
+

@@ -1,0 +1,848 @@
+﻿1
+00:00:00,810 --> 00:00:01,740
+- [Instructor] In this video,
+
+2
+00:00:01,740 --> 00:00:04,330
+we will polish the moment our character
+
+3
+00:00:04,330 --> 00:00:07,970
+is making his head turn and smell the air.
+
+4
+00:00:07,970 --> 00:00:09,820
+He's sniffing the air.
+
+5
+00:00:09,820 --> 00:00:14,410
+For this one, the body controller
+motion is quite subtle,
+
+6
+00:00:14,410 --> 00:00:16,700
+because in the end our character
+
+7
+00:00:16,700 --> 00:00:19,820
+is not really changing stance.
+
+8
+00:00:19,820 --> 00:00:22,480
+He's rotating a bit and raising a bit.
+
+9
+00:00:22,480 --> 00:00:25,370
+So as usual, I'm trying to make a nice arc
+
+10
+00:00:25,370 --> 00:00:28,160
+when I'm doing this kind of motion.
+
+11
+00:00:28,160 --> 00:00:31,270
+This time, the arc is
+more subtle than usual
+
+12
+00:00:31,270 --> 00:00:33,450
+because the motion is subtle.
+
+13
+00:00:33,450 --> 00:00:36,870
+As the character is shifting to its left
+
+14
+00:00:36,870 --> 00:00:39,130
+and rotating to its left,
+
+15
+00:00:39,130 --> 00:00:43,650
+I'm first slightly lowering the whole body
+
+16
+00:00:43,650 --> 00:00:44,990
+and then raising it.
+
+17
+00:00:44,990 --> 00:00:46,960
+It will create this arc.
+
+18
+00:00:46,960 --> 00:00:51,640
+This lower stance can be used
+as some kind of anticipation.
+
+19
+00:00:51,640 --> 00:00:54,880
+One thing I should have
+done and you should do
+
+20
+00:00:54,880 --> 00:00:58,960
+is that just before the
+character smells the air
+
+21
+00:00:58,960 --> 00:01:02,430
+as he push his body a little upper
+
+22
+00:01:02,430 --> 00:01:07,290
+you could add a micro anticipation
+on frame 60 for example,
+
+23
+00:01:07,290 --> 00:01:11,483
+just lowering the body attached
+before raising it even more.
+
+24
+00:01:12,320 --> 00:01:14,560
+This is something I've explained before
+
+25
+00:01:14,560 --> 00:01:17,330
+when we have done the walk cycle
+
+26
+00:01:17,330 --> 00:01:22,090
+something I like to update
+early on or polish early on
+
+27
+00:01:22,090 --> 00:01:24,190
+are the contacting controllers.
+
+28
+00:01:24,190 --> 00:01:27,790
+So as our character's shifting
+his weight onto his left
+
+29
+00:01:27,790 --> 00:01:30,940
+I want to move his foot controller too.
+
+30
+00:01:30,940 --> 00:01:32,750
+As the body was polished,
+
+31
+00:01:32,750 --> 00:01:36,410
+I have reworked the
+spacing of the footstep
+
+32
+00:01:36,410 --> 00:01:38,620
+making it a little faster
+
+33
+00:01:38,620 --> 00:01:41,540
+and then I've changed it's timing
+
+34
+00:01:41,540 --> 00:01:46,460
+so that it starts just after
+the body start rotating
+
+35
+00:01:46,460 --> 00:01:51,460
+but it lands before the
+body hit it's extreme pose.
+
+36
+00:01:51,580 --> 00:01:55,290
+Motion-wise it's pretty
+simple for the location.
+
+37
+00:01:55,290 --> 00:02:00,020
+The X and Y axis are using vector handles
+
+38
+00:02:00,020 --> 00:02:02,810
+so is that I have a linear interpolation.
+
+39
+00:02:02,810 --> 00:02:06,400
+As for the other foot contact
+animation we have done before
+
+40
+00:02:06,400 --> 00:02:08,200
+for the Z location,
+
+41
+00:02:08,200 --> 00:02:11,470
+the contacting frame 49 and 53
+
+42
+00:02:11,470 --> 00:02:13,290
+are using vector handles
+
+43
+00:02:13,290 --> 00:02:17,490
+and on frame 51 I've created
+a slight bump on the curve.
+
+44
+00:02:17,490 --> 00:02:20,250
+Keep it subtle, don't
+forget that we are lazy
+
+45
+00:02:20,250 --> 00:02:22,950
+and we won't be raising
+the foot that much.
+
+46
+00:02:22,950 --> 00:02:25,140
+What will really improve this footstep
+
+47
+00:02:25,140 --> 00:02:26,850
+is the rotation in the foot,
+
+48
+00:02:26,850 --> 00:02:28,490
+this is very important.
+
+49
+00:02:28,490 --> 00:02:30,570
+It's a very subtle motion
+
+50
+00:02:30,570 --> 00:02:32,790
+I don't say that I'm doing it perfectly
+
+51
+00:02:32,790 --> 00:02:36,720
+but what I'm sure is
+that animators will look
+
+52
+00:02:36,720 --> 00:02:38,420
+at these kind of details.
+
+53
+00:02:38,420 --> 00:02:40,670
+When the foot raise it's dragging
+
+54
+00:02:40,670 --> 00:02:44,650
+so the outer part of the
+foot is pointing down.
+
+55
+00:02:44,650 --> 00:02:48,290
+Then it's raising so
+that the ball of the foot
+
+56
+00:02:48,290 --> 00:02:50,220
+is facing the ground.
+
+57
+00:02:50,220 --> 00:02:53,730
+On the contact frame the
+foot is still rotated
+
+58
+00:02:53,730 --> 00:02:55,160
+and on the next frame,
+
+59
+00:02:55,160 --> 00:02:57,050
+I will make the foot flat
+
+60
+00:02:57,050 --> 00:03:00,790
+so that I have this slap
+motion on the ground.
+
+61
+00:03:00,790 --> 00:03:01,760
+From the side view,
+
+62
+00:03:01,760 --> 00:03:04,800
+it's even more obvious the foot's raised,
+
+63
+00:03:04,800 --> 00:03:07,500
+the tip of the foot is dragging.
+
+64
+00:03:07,500 --> 00:03:09,480
+Then just before the contact frame
+
+65
+00:03:09,480 --> 00:03:11,910
+the tip of the foot is raising
+
+66
+00:03:11,910 --> 00:03:15,190
+on the contact post the tip
+of the foot is still raised
+
+67
+00:03:15,190 --> 00:03:17,960
+and on the next post it's flattened
+
+68
+00:03:17,960 --> 00:03:21,600
+to get the snap effect on the ground.
+
+69
+00:03:23,127 --> 00:03:27,280
+The chest motion is here to
+support the head rotation.
+
+70
+00:03:27,280 --> 00:03:29,210
+The head is leading the animation
+
+71
+00:03:29,210 --> 00:03:32,270
+meaning that the chest
+will be slightly delayed
+
+72
+00:03:32,270 --> 00:03:33,670
+compared to the head.
+
+73
+00:03:33,670 --> 00:03:36,970
+In the end they arrived
+almost at the same time
+
+74
+00:03:36,970 --> 00:03:38,260
+on their extreme pose.
+
+75
+00:03:38,260 --> 00:03:42,710
+The little extra information
+regarding the chest controller
+
+76
+00:03:42,710 --> 00:03:46,030
+is that I've been using the location
+
+77
+00:03:46,030 --> 00:03:49,160
+to emphasize the smelling motion.
+
+78
+00:03:49,160 --> 00:03:52,280
+I've used it to pull the character up
+
+79
+00:03:52,280 --> 00:03:55,810
+and then I've added a
+slight bump on the curve
+
+80
+00:03:55,810 --> 00:03:58,090
+to create the smelling motion.
+
+81
+00:03:58,090 --> 00:04:01,540
+It adds an extra up and
+down motion to the chest
+
+82
+00:04:01,540 --> 00:04:03,277
+which is connected to the head
+
+83
+00:04:03,277 --> 00:04:05,810
+and the head will be rotating
+
+84
+00:04:05,810 --> 00:04:08,530
+or moving this up-and-down motion
+
+85
+00:04:08,530 --> 00:04:11,893
+that translate our
+character smelling the air.
+
+86
+00:04:12,890 --> 00:04:16,050
+As usual, when I'm
+polishing the head rotation
+
+87
+00:04:16,050 --> 00:04:18,900
+I'm tracking the motion path of the nose.
+
+88
+00:04:18,900 --> 00:04:20,880
+To create the smelling motion
+
+89
+00:04:20,880 --> 00:04:25,880
+I've just added a couple of
+bump on the X rotation curve
+
+90
+00:04:26,100 --> 00:04:27,670
+of the head controller.
+
+91
+00:04:27,670 --> 00:04:31,080
+Keep it subtle, you don't
+need the head to nod that much
+
+92
+00:04:31,080 --> 00:04:32,650
+and test different spacing.
+
+93
+00:04:32,650 --> 00:04:37,000
+In my case, having the
+first bump on frame 66
+
+94
+00:04:37,000 --> 00:04:41,370
+and the second on frame
+73 was the good call.
+
+95
+00:04:41,370 --> 00:04:45,250
+After I finished polishing
+the head rotation,
+
+96
+00:04:45,250 --> 00:04:48,540
+I've added a bit of
+extra motion on the nose
+
+97
+00:04:48,540 --> 00:04:50,450
+playing with its Y curve.
+
+98
+00:04:50,450 --> 00:04:53,580
+The idea wasn't to make the nose dragging
+
+99
+00:04:53,580 --> 00:04:56,320
+but instead moving forward and inward
+
+100
+00:04:56,320 --> 00:05:00,110
+so that we can feel the
+breathing of our character
+
+101
+00:05:00,110 --> 00:05:01,980
+while he's smelling the air.
+
+102
+00:05:01,980 --> 00:05:06,080
+This is why the Y curve was
+working great for this one.
+
+103
+00:05:06,080 --> 00:05:07,660
+You can pause the nose by hand
+
+104
+00:05:07,660 --> 00:05:10,000
+if you're not comfortable with the curve
+
+105
+00:05:10,000 --> 00:05:11,830
+and try different timing.
+
+106
+00:05:11,830 --> 00:05:14,560
+Another detail I wanted
+to add on top of this
+
+107
+00:05:14,560 --> 00:05:16,850
+are the eyes slightly closing
+
+108
+00:05:16,850 --> 00:05:19,620
+while our character is smelling the air.
+
+109
+00:05:19,620 --> 00:05:22,610
+That's a pretty common
+thing when you are focusing
+
+110
+00:05:22,610 --> 00:05:25,130
+on when you are smelling something good,
+
+111
+00:05:25,130 --> 00:05:27,550
+you tend to close your eyes
+
+112
+00:05:27,550 --> 00:05:32,550
+to focus on the sense that is
+used to focus on your smell.
+
+113
+00:05:32,770 --> 00:05:35,890
+There's only the Z curve that
+controlled the eyeopening
+
+114
+00:05:35,890 --> 00:05:38,690
+so editing this curve is very simple.
+
+115
+00:05:38,690 --> 00:05:41,070
+The ears are also pretty important
+
+116
+00:05:41,070 --> 00:05:44,620
+to support this specific animation.
+
+117
+00:05:44,620 --> 00:05:47,950
+If you watch the spacing
+between the head rotation
+
+118
+00:05:47,950 --> 00:05:50,870
+tracking the eyes and the ear rotation,
+
+119
+00:05:50,870 --> 00:05:53,330
+we can see that the
+spacing is more important
+
+120
+00:05:53,330 --> 00:05:55,040
+on the left ear
+
+121
+00:05:55,040 --> 00:05:59,700
+and this is because I wanted
+the ear to lead the animation.
+
+122
+00:05:59,700 --> 00:06:04,580
+The character rotate the
+ears towards his next move
+
+123
+00:06:04,580 --> 00:06:09,260
+because the ears communicate
+his center of attention
+
+124
+00:06:09,260 --> 00:06:11,860
+and as he's going to smell the air,
+
+125
+00:06:11,860 --> 00:06:14,800
+the ears, the eyes, everything is pointing
+
+126
+00:06:14,800 --> 00:06:16,660
+in the same direction
+
+127
+00:06:16,660 --> 00:06:19,680
+because he's focusing on smelling the air
+
+128
+00:06:19,680 --> 00:06:22,240
+in this very direction.
+
+129
+00:06:22,240 --> 00:06:23,910
+For this part of the animation
+
+130
+00:06:23,910 --> 00:06:27,470
+I've also softened the hips rotation.
+
+131
+00:06:27,470 --> 00:06:28,660
+So they are still there.
+
+132
+00:06:28,660 --> 00:06:31,310
+There is still a little twisting
+
+133
+00:06:31,310 --> 00:06:35,070
+as the character is pulling his left leg
+
+134
+00:06:35,070 --> 00:06:37,040
+toward the contact point.
+
+135
+00:06:37,040 --> 00:06:39,360
+This is why I spent a lot of time
+
+136
+00:06:39,360 --> 00:06:42,030
+on the Z quaternions rotation curve.
+
+137
+00:06:42,030 --> 00:06:44,980
+Between frame 52 and 56
+
+138
+00:06:44,980 --> 00:06:48,820
+the leg is getting pulled and on frame 58,
+
+139
+00:06:48,820 --> 00:06:50,090
+the pose settle.
+
+140
+00:06:50,090 --> 00:06:53,240
+So we can see the curve
+changing direction.
+
+141
+00:06:53,240 --> 00:06:56,410
+It's getting down between frame 52 and 55,
+
+142
+00:06:56,410 --> 00:06:59,920
+and after that it's getting
+up ever so slightly.
+
+143
+00:06:59,920 --> 00:07:01,680
+The next thing I have polished
+
+144
+00:07:01,680 --> 00:07:05,180
+on this segment of the
+animation were the arms.
+
+145
+00:07:05,180 --> 00:07:08,240
+Since they are not
+contacting with anything
+
+146
+00:07:08,240 --> 00:07:12,090
+try to draw nice arcs
+with your arm motion.
+
+147
+00:07:12,090 --> 00:07:14,320
+The second thing we have pointed out
+
+148
+00:07:14,320 --> 00:07:18,470
+during the blocking
+stage was using the arm
+
+149
+00:07:18,470 --> 00:07:21,920
+as a counterweight to keep
+our character balanced.
+
+150
+00:07:21,920 --> 00:07:23,800
+So as the body is raising
+
+151
+00:07:23,800 --> 00:07:26,660
+for the smelling segment of the animation,
+
+152
+00:07:26,660 --> 00:07:28,610
+the right arm is dropping.
+
+153
+00:07:28,610 --> 00:07:32,290
+It lowers the center of
+gravity of our character
+
+154
+00:07:32,290 --> 00:07:34,300
+and it's also a nice contrast
+
+155
+00:07:34,300 --> 00:07:36,600
+with the left arm that is raised.
+
+156
+00:07:36,600 --> 00:07:40,160
+In the time-lapse you will
+also see me a bit fighting
+
+157
+00:07:40,160 --> 00:07:42,640
+with the right tail board character
+
+158
+00:07:42,640 --> 00:07:45,180
+because there was a bit of intersection
+
+159
+00:07:45,180 --> 00:07:47,670
+and wobbling in the right arm.
+
+160
+00:07:47,670 --> 00:07:50,120
+This is the kind of problem and limitation
+
+161
+00:07:50,120 --> 00:07:52,810
+you can get when using inverse kinematic
+
+162
+00:07:52,810 --> 00:07:56,290
+without a pole target
+as we are for the legs.
+
+163
+00:07:56,290 --> 00:08:00,370
+There is a little technique
+to fix it using constraint
+
+164
+00:08:00,370 --> 00:08:04,070
+but this is something that we
+will see in the next chapter
+
+165
+00:08:04,070 --> 00:08:07,330
+where I will introduce
+you to space switching.
+
+166
+00:08:07,330 --> 00:08:10,530
+On the time being I'm a bit
+fighting with the curve,
+
+167
+00:08:10,530 --> 00:08:12,820
+that's not a big deal, honestly.
+
+168
+00:08:12,820 --> 00:08:15,520
+And if you have the same kind of problem
+
+169
+00:08:15,520 --> 00:08:19,643
+just try to fix it but don't
+waste too much time on to it.
+
+170
+00:08:21,200 --> 00:08:24,630
+Regarding the time motion, there
+are two things to consider.
+
+171
+00:08:24,630 --> 00:08:28,530
+The little wiping animation a bit nervous,
+
+172
+00:08:28,530 --> 00:08:32,540
+again, to translate the
+character of the squirrel,
+
+173
+00:08:32,540 --> 00:08:35,140
+the root of the tail
+doesn't move that much,
+
+174
+00:08:35,140 --> 00:08:39,130
+there is just the middle and
+mostly the tip of the tail
+
+175
+00:08:39,130 --> 00:08:40,390
+that are moving.
+
+176
+00:08:40,390 --> 00:08:42,380
+Again, this is not a big motion
+
+177
+00:08:42,380 --> 00:08:46,410
+as during the run cycle or
+to recover from the jump.
+
+178
+00:08:46,410 --> 00:08:48,170
+It's just a little something
+
+179
+00:08:48,170 --> 00:08:51,180
+to give personality to our character
+
+180
+00:08:51,180 --> 00:08:53,950
+and to transition into the next pose,
+
+181
+00:08:53,950 --> 00:08:55,440
+which is very important.
+
+182
+00:08:55,440 --> 00:08:58,770
+If we watch the silhouette
+of our character
+
+183
+00:08:58,770 --> 00:09:00,010
+we can clearly see
+
+184
+00:09:00,010 --> 00:09:05,010
+that he seems to be slightly
+bending or leaning forward.
+
+185
+00:09:05,670 --> 00:09:08,720
+This is the pose where
+he's smelling the air
+
+186
+00:09:08,720 --> 00:09:10,140
+surrounding him.
+
+187
+00:09:10,140 --> 00:09:14,540
+So he's trying to reach as
+high and as far as possible.
+
+188
+00:09:14,540 --> 00:09:18,400
+And it seems that he's
+going to fall forward.
+
+189
+00:09:18,400 --> 00:09:19,630
+So in this case,
+
+190
+00:09:19,630 --> 00:09:22,440
+the final pose of the
+time is very important
+
+191
+00:09:22,440 --> 00:09:25,610
+because it serves as a counterweight.
+
+192
+00:09:25,610 --> 00:09:28,820
+So those are all the
+details you need to look for
+
+193
+00:09:28,820 --> 00:09:32,653
+when you are going to polish
+the segment of the animation.
+

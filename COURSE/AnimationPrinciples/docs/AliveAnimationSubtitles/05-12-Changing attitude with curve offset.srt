@@ -1,0 +1,187 @@
+﻿1
+00:00:00,250 --> 00:00:02,240
+- [Instructor] I'd like
+to finish this chapter
+
+2
+00:00:02,240 --> 00:00:04,370
+with a little tip video.
+
+3
+00:00:04,370 --> 00:00:06,590
+We have seen in the previous chapters
+
+4
+00:00:06,590 --> 00:00:09,470
+that we can use the NLA editor
+
+5
+00:00:09,470 --> 00:00:11,850
+to layer different animations
+
+6
+00:00:11,850 --> 00:00:13,860
+and modify the current one.
+
+7
+00:00:13,860 --> 00:00:16,100
+To create an ad term, for example,
+
+8
+00:00:16,100 --> 00:00:19,940
+or to transition between
+two different animations.
+
+9
+00:00:19,940 --> 00:00:23,950
+But what you can do to
+rapidly modify your run cycle
+
+10
+00:00:23,950 --> 00:00:28,340
+and create iterations is to
+simply offset different curves
+
+11
+00:00:28,340 --> 00:00:30,360
+on your main controllers.
+
+12
+00:00:30,360 --> 00:00:34,670
+For example, here, I've offset
+the X quaternion rotation
+
+13
+00:00:34,670 --> 00:00:35,920
+of the torso.
+
+14
+00:00:35,920 --> 00:00:39,640
+Now, I'm doing the same
+with the neck controller.
+
+15
+00:00:39,640 --> 00:00:43,110
+I will do the same with
+the hips, with the chest,
+
+16
+00:00:43,110 --> 00:00:45,400
+and this is very easy to push those curves
+
+17
+00:00:45,400 --> 00:00:49,890
+to get a totally new
+attitude for our character.
+
+18
+00:00:49,890 --> 00:00:51,830
+On a locomotion cycle,
+
+19
+00:00:51,830 --> 00:00:54,780
+you will generally favorize the rotation
+
+20
+00:00:54,780 --> 00:00:58,350
+around the x-axis of the
+different torso controller.
+
+21
+00:00:58,350 --> 00:01:02,730
+But you can also move the Y
+location of the torso root,
+
+22
+00:01:02,730 --> 00:01:06,050
+and get a more cartoony,
+afraid-like run cycle.
+
+23
+00:01:06,050 --> 00:01:08,950
+Or in the other end,
+push everything forward
+
+24
+00:01:08,950 --> 00:01:13,950
+so that you get a way more
+accelerated, dynamical run cycle.
+
+25
+00:01:15,090 --> 00:01:17,320
+This is a very good and fast technique
+
+26
+00:01:17,320 --> 00:01:20,820
+to explore different
+versions of your cycle.
+
+27
+00:01:20,820 --> 00:01:24,480
+And that can be very useful
+in a studio environment
+
+28
+00:01:24,480 --> 00:01:27,690
+to explore different
+moods for your run cycle.
+
+29
+00:01:27,690 --> 00:01:30,510
+You can play with all the
+different controllers.
+
+30
+00:01:30,510 --> 00:01:34,340
+You can offset the Y location
+of the foot, for example,
+
+31
+00:01:34,340 --> 00:01:37,830
+so that they will be
+offset forward or backward
+
+32
+00:01:37,830 --> 00:01:39,480
+during the run cycle.
+
+33
+00:01:39,480 --> 00:01:42,360
+You may want to fix the neck orientation
+
+34
+00:01:42,360 --> 00:01:44,990
+using the secondary controllers.
+
+35
+00:01:44,990 --> 00:01:48,200
+In one word, have fun with your animation!
+
+36
+00:01:48,200 --> 00:01:51,680
+And make additional
+use of the work you did
+
+37
+00:01:51,680 --> 00:01:53,350
+on this run cycle.
+
+38
+00:01:53,350 --> 00:01:56,520
+It will sure need a pass of polish
+
+39
+00:01:56,520 --> 00:02:00,040
+once you've totally changed
+the pose of your character,
+
+40
+00:02:00,040 --> 00:02:04,660
+but it's a very fast and painless
+way to explore new poses,
+
+41
+00:02:04,660 --> 00:02:08,033
+new attitude, and bring
+life to your character.
+

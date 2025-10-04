@@ -1,0 +1,283 @@
+﻿1
+00:00:00,450 --> 00:00:01,600
+- [Man] The previous video,
+
+2
+00:00:01,600 --> 00:00:03,800
+we have seen that object transform
+
+3
+00:00:03,800 --> 00:00:06,720
+is based on its pivot point.
+
+4
+00:00:06,720 --> 00:00:10,220
+Now let's see what we are
+currently transforming.
+
+5
+00:00:10,220 --> 00:00:13,020
+As a Blender user and a 3D artist,
+
+6
+00:00:13,020 --> 00:00:18,020
+you know that in space we are
+using the x-, y-, and z-axis
+
+7
+00:00:18,680 --> 00:00:20,720
+to move our objects.
+
+8
+00:00:20,720 --> 00:00:24,810
+We can find the representation
+of those axes on the grid
+
+9
+00:00:24,810 --> 00:00:29,810
+with the x- and y-axes being
+those red and green lines.
+
+10
+00:00:29,960 --> 00:00:33,970
+And also on the view widget
+on the top right corner,
+
+11
+00:00:33,970 --> 00:00:37,110
+that allow us to switch
+to the different views.
+
+12
+00:00:37,110 --> 00:00:39,750
+When an object is not transformed,
+
+13
+00:00:39,750 --> 00:00:43,090
+its position is aligned
+with the world origin.
+
+14
+00:00:43,090 --> 00:00:47,950
+As soon as we input some
+values into its x-coordinate,
+
+15
+00:00:47,950 --> 00:00:52,950
+for example, it will slide,
+moving along the x-ward axis,
+
+16
+00:00:53,700 --> 00:00:55,740
+and it will behave the same whether
+
+17
+00:00:55,740 --> 00:00:58,900
+we are playing with the y or z value.
+
+18
+00:00:58,900 --> 00:01:01,500
+There is no limitation to those value,
+
+19
+00:01:01,500 --> 00:01:04,090
+they can be positive or negative,
+
+20
+00:01:04,090 --> 00:01:07,870
+and our object will move
+left, right, up, and down,
+
+21
+00:01:07,870 --> 00:01:10,790
+or front and back, depending on those.
+
+22
+00:01:10,790 --> 00:01:15,060
+If I enter a value of
+one and one on x and z,
+
+23
+00:01:15,060 --> 00:01:20,060
+we can see our object offset
+from the center of our scene.
+
+24
+00:01:20,320 --> 00:01:22,730
+When it comes to rotation,
+
+25
+00:01:22,730 --> 00:01:26,820
+we don't rotate along an
+axis, but around an axis.
+
+26
+00:01:26,820 --> 00:01:29,960
+If I rotate around the x-axis,
+
+27
+00:01:29,960 --> 00:01:32,860
+I can see my x rotation value changing,
+
+28
+00:01:32,860 --> 00:01:37,860
+and my object is currently
+rotating around the red arrow.
+
+29
+00:01:38,050 --> 00:01:41,340
+And as always, the origin of the object
+
+30
+00:01:41,340 --> 00:01:45,300
+is used as the origin of the rotation.
+
+31
+00:01:45,300 --> 00:01:47,266
+If you have difficulties understanding
+
+32
+00:01:47,266 --> 00:01:50,620
+on which axis you are going to rotate,
+
+33
+00:01:50,620 --> 00:01:53,470
+you can activate the rotation gizmo
+
+34
+00:01:53,470 --> 00:01:55,680
+that make it more obvious.
+
+35
+00:01:55,680 --> 00:01:59,240
+If I now perform a scanning pressing S
+
+36
+00:01:59,240 --> 00:02:03,430
+and concentrate it on
+the x-axis pressing x,
+
+37
+00:02:03,430 --> 00:02:06,400
+you can see that I'm scaling my object
+
+38
+00:02:06,400 --> 00:02:08,500
+along the selected axis.
+
+39
+00:02:08,500 --> 00:02:12,190
+The same on the y-axis
+here or on the z-axis.
+
+40
+00:02:12,190 --> 00:02:16,230
+So, scaling is along the object axis.
+
+41
+00:02:16,230 --> 00:02:20,330
+One last option that
+is available for object
+
+42
+00:02:20,330 --> 00:02:22,050
+is delta transform.
+
+43
+00:02:22,050 --> 00:02:24,830
+When I go into the object properties,
+
+44
+00:02:24,830 --> 00:02:28,160
+I can see this delta transform panel
+
+45
+00:02:28,160 --> 00:02:31,110
+that looks like the
+classic transform panel.
+
+46
+00:02:31,110 --> 00:02:35,470
+Delta transforms behave
+the same way as transform,
+
+47
+00:02:35,470 --> 00:02:39,800
+but they are added on top
+of your transformation.
+
+48
+00:02:39,800 --> 00:02:43,470
+So you can see here, when
+I add the delta transform
+
+49
+00:02:43,470 --> 00:02:48,410
+of one and one on top of my
+one and one classic transform,
+
+50
+00:02:48,410 --> 00:02:53,410
+my object is offset to the
+position two on x and two on z.
+
+51
+00:02:54,690 --> 00:02:59,420
+To be honest, I almost never
+use the delta transform,
+
+52
+00:02:59,420 --> 00:03:03,690
+and I don't think we will be
+using it during this course.
+
+53
+00:03:03,690 --> 00:03:06,670
+It can be useful whenever
+you want to offset
+
+54
+00:03:06,670 --> 00:03:10,930
+an existing object animation, for example.
+
+55
+00:03:10,930 --> 00:03:14,000
+Let's say you have animate
+an up and down motion
+
+56
+00:03:14,000 --> 00:03:17,740
+and you want to easily
+offset it on the side.
+
+57
+00:03:17,740 --> 00:03:21,160
+Using the delta transform
+will make your life easier.
+
+58
+00:03:21,160 --> 00:03:23,270
+But there are other way to do it,
+
+59
+00:03:23,270 --> 00:03:26,040
+and we will see that during the course.
+
+60
+00:03:26,040 --> 00:03:29,540
+To summarize, we have seen
+that location, transformation,
+
+61
+00:03:29,540 --> 00:03:32,780
+and scaling are done along the axis,
+
+62
+00:03:32,780 --> 00:03:37,030
+while rotation is done around the axis,
+
+63
+00:03:37,030 --> 00:03:41,503
+and we can offset an animation
+using delta transform.
+

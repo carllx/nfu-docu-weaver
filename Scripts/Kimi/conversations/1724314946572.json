@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cr3fbuiflk114duevvi0",
+    "attachments": [
+        {
+            "date": 2015,
+            "title": "Video Art Theory: A Comparative Approach",
+            "fileID": "cr3ej8j3vddu5mthd79g",
+            "itemID": 3846,
+            "citation": "Westgeest, H. (2015). Video Art Theory: A Comparative Approach (1st edition). Wiley-Blackwell.\n",
+            "citationShort": "Westgeest, 2015",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Video Art Theory: A Comparative Approach, was published on 2015. (It can be cite this paper as Westgeest, 2015 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 第一章 视频艺术与电视、表演艺术和家庭视频的关系：即时性与记忆\n1.1 视频艺术的关键特征\n    - 即时性与记忆的对比\n    - 视频艺术与电视、表演艺术和家庭视频的关联\n\n1.2 Gillian Wearing的《创伤》(2000)与Joan Jonas的《垂直滚动》(1972)的对比分析\n    - 两种艺术作品中即时性与记忆的呈现\n\n1.3 视频艺术处理音像电子媒体的不断运动\n    - 视频在表演艺术中的即时性和电视的社会文化方面\n\n1.4 视频艺术与记忆的关联\n    - 视频的助记能力与激进视频和家庭视频的关系\n\n## 第二章 非物质性与三维性：视频艺术作为雕塑、装置艺术、投影和虚拟媒介\n2.1 Lynn Hershman的《Tillie the Telerobotic Doll》(1995)与Andy Warhol的《外与内空间》(1965)的对比\n    - 两种艺术作品中电视作为对象的探讨\n\n2.2 电视作为雕塑或建筑的一部分\n    - 视频艺术在空间装置中的角色\n\n2.3 空间视频装置与参观者空间的关系\n    - 视频投影在空间定位屏幕上的互动\n\n2.4 非物质投影干扰暗场场所并沉浸观众\n    - 物理与数字空间的交互\n\n## 第三章 移动图像作为沉思图像：视频对摄影、绘画和绘画的挑战\n3.1 Kudzanai Chiurai的《Iyeza》(2012)与Thierry Kuntzel的《Eté – 双视》(1988)的对比\n    - 视频艺术与摄影的关系\n\n3.2 视频艺术与绘画\n    - 视频艺术作品中的绘画元素\n\n3.3 视频艺术与绘画\n    - 视频艺术与绘画的交互影响\n\n## 第四章 叙事中的重复与碎片化：视频对经典电影的挪用与颠覆\n4.1 Candice Breitz的《母亲+父亲》(2005)与Rodney Graham的《烦恼岛》(1997)及Keren Cytter的《更正》(2013)的对比\n    - 视频艺术对好莱坞电影叙事的反应\n\n4.2 视频艺术中的叙事元素\n    - 视频艺术对好莱坞电影和重复强迫性的看法\n\n4.3 图像与语言文字的张力\n    - 对话、旁白、画外音或文本在视频艺术中的应用\n\n## 结论\n- 视频艺术理论的总结性思考\n\n## 参考文献\n- 相关文献的汇编与引用\n\n请注意，以上大纲目录是根据提供的文本内容制作的，可能需要根据实际书籍内容进行调整和补充。在撰写时，请以Westgeest, 2015作为引用来源。",
+    "refs": [
+        "cr3ej8j3vddu5mthd79g"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "cr3fbuusdv13auknqnbg",
+    "req_id": "cr3fbuusdv13auknqnc0",
+    "resp_id": "cr3fbuusdv13auknqncg",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

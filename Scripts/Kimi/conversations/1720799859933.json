@@ -1,0 +1,28 @@
+{
+    "conversation_id": "cq8l4tb3vddv20gi0h50",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Project Starline: A high-fidelity telepresence system",
+            "fileID": "cq8l28ubi7s0p448a9b0",
+            "itemID": 1043,
+            "citation": "Joseph, Desloge, G., Fortes, T., Gomez, E. M., Häberling, S., Hoppe, H., Andy, Huibers, RICARDOMARTIN-BRUALLA, Andrew, Russell, I., Seitz, S., & Tong, K. K. (2021). Project Starline: A high-fidelity telepresence system. https://www.semanticscholar.org/paper/Project-Starline%3A-A-high-fidelity-telepresence-Joseph-Desloge/34db8aa914149bba1500c57b2f4633e925a6f6c1\n",
+            "citationShort": "Joseph et al., 2021",
+            "tags": [
+                "#Compression Techniques",
+                "#kimi",
+                "#Semantic Enrichment"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者用什么统计方法获得用户视觉记忆的有效结论?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Project Starline: A high-fidelity telepresence system, was published on 2021. (It can be cite this paper as Joseph et al., 2021 on your answer). \n\n",
+    "response": "在Joseph等人(2021)的研究中，为了获得用户视觉记忆的有效结论，作者采用了以下统计方法：\n\n1. **用户研究和调查问卷**：作者进行了小规模部署的用户研究，让117名参与者在跨越3个地点的工作会议上使用该系统，并在每次会议后发送了调查问卷，以衡量参与者对于系统相对于他们通常使用的2D视频会议的感受。调查问卷共收到296份回应。\n\n2. **配对样本的符号秩检验（Wilcoxon-Pratt Signed Rank Test）**：在控制条件下的实验中，每个参与者在Starline系统和传统视频会议条件下都进行了5分钟的半结构化对话。对话后，参与者完成了Likert风格的自报量表，并进行了记忆回忆任务。作者使用Wilcoxon-Pratt符号秩检验来确定配对样本之间的差异是否对称地分布在零周围，这种非参数检验还考虑了平局的情况。\n\n3. **记忆回忆测试**：在对话的每个条件下，参与者被要求写下尽可能多的与会者分享的关于自己的信息。研究者通过计算所写单词的数量作为他们能够记忆会议内容多少的代理。\n\n4. **非言语行为分析**：研究者还收集了参与者的视频录像，用于分析非言语行为，如手势、点头和眉毛动作。通过分析这些行为的频率，研究者能够评估系统对于促进非言语交流的效果。\n\n5. **量化误差度量**：在评估视觉保真度时，作者添加了一个位于中心位置并校准的\"见证\"相机，在会话期间记录真实的照片，并将其与生成的渲染图像进行比较，以评估捕获和渲染流程的准确性。\n\n通过上述方法，研究者得出结论，Starline系统在促进用户的视觉记忆方面，相较于传统视频会议，有显著的改善。参与者在使用Starline系统后，报告了更好的存在感、注意力集中、个人联系、反应判断能力，并且回忆会议内容的能力也有所提高。此外，参与者在使用该系统时展示出更多的非言语行为，这被认为是积极会议动态的关键指标。",
+    "refs": [
+        "cq8l28ubi7s0p448a9b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq8l4t817fmb7a3f2ru0",
+    "req_id": "cq8l4t817fmb7a3f2rug",
+    "resp_id": "cq8l4t817fmb7a3f2rv0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者用什么统计方法获得用户视觉记忆的有效结论?"
+}

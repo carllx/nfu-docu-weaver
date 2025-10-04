@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cr3jm4a34pefgd15m09g",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "Adobe audition CC 经典教程（第2版）",
+            "fileID": "cqo3a9m9e5jhdcrea0mg",
+            "itemID": 3597,
+            "citation": "马克西姆·亚戈, Maxim, & Jago. (2020). Adobe audition CC 经典教程（第2版）. 人民邮电出版社. https://product.dangdang.com/28524032.html\n",
+            "citationShort": "马克西姆·亚戈 et al., 2020",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何获得声音的空间感?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe audition CC 经典教程（第2版）, was published on 2020. (It can be cite this paper as 马克西姆·亚戈 et al., 2020 on your answer). \n\n",
+    "response": "在《Adobe Audition CC 经典教程（第2版）》中，关于如何获得声音的空间感，书中提到了几种不同的方法和工具。以下是根据书中内容提取的几种方法：\n\n1. **混响效果**：使用混响效果可以给声音添加一种在特定空间中传播的特性，如室内、音乐厅、车库等。书中提到了两种混响处理方式：“卷积混响”和“算法混响”。其中，“卷积混响”通过加载一个特定声学空间特性的脉冲信号，然后进行卷积运算，将声学空间特性加载到音频中[马克西姆·亚戈 et al., 2020]。\n\n2. **立体声声像效果**：书中介绍了几种用于调节立体声声像的效果，包括“中置声道提取器”和“立体声扩展器”。通过调整这些效果，可以改变声音在立体声场中的定位，从而获得空间感。\n\n3. **延迟效果**：延迟效果通过在音频信号中加入时间延迟，可以创造出声音的空间感。书中提到了“延迟”、“模拟延迟”和“回声”这三种延迟效果，它们各自有不同的特点和应用场景。\n\n4. **调制效果**：调制效果如“和声”和“镶边”可以通过引入轻微的调制或延迟，增加声音的丰富性和空间感。\n\n5. **特殊效果**：书中还提到了“多普勒换挡器”效果，它可以模拟声音在空间中移动的效果，从而增强声音的空间感。\n\n6. **均衡器**：使用均衡器调整音频的频率响应，可以突出或减弱某些频率成分，进而影响声音的空间感。\n\n7. **自动音调更正**：虽然这一效果主要用于修正人声的音高，但适当使用也能改善声音的空间特性。\n\n通过上述方法，可以有效地增强或改变声音的空间感，使音频作品更加丰富和立体。在实际操作中，这些方法可以单独使用，也可以结合使用以达到最佳效果。",
+    "refs": [
+        "cqo3a9m9e5jhdcrea0mg"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cr3jm48dh3n9lghoi330",
+    "req_id": "cr3jm48dh3n9lghoi33g",
+    "resp_id": "cr3jm48dh3n9lghoi340",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何获得声音的空间感?"
+}

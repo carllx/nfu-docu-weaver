@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cqmg3emsdv10c8ctif00",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Adobe Premiere Pro CC For Dummies",
+            "fileID": "cqmfdn9ivtd4195rk24g",
+            "itemID": 3558,
+            "citation": "Carucci, J. (2022). Adobe Premiere Pro CC For Dummies (1st edition). For Dummies.\n",
+            "citationShort": "Carucci, 2022",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：设计 18 周的课程大纲,每周 3 学时\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe Premiere Pro CC For Dummies, was published on 2022. (It can be cite this paper as Carucci, 2022 on your answer). \n\n",
+    "response": "### 课程大纲：Adobe Premiere Pro CC 视频编辑基础与进阶\n\n#### 课程名称：Adobe Premiere Pro CC 视频编辑基础与进阶\n#### 课程时长：18 周\n#### 每周学时：3 学时\n\n---\n\n##### 第一周：课程介绍与 Premiere Pro 概述\n- 课程目标与要求\n- 《Adobe Premiere Pro CC For Dummies》书籍介绍（Carucci, 2022）\n- Premiere Pro 界面与工作区初步了解\n\n##### 第二周：熟悉 Premiere Pro 工作空间\n- 工作区布局与自定义\n- 面板、工具栏与工具的介绍\n\n##### 第三周：项目设置与工作站要求\n- 项目创建与管理\n- 工作站硬件需求分析\n\n##### 第四周：导入媒体与素材管理\n- 导入不同类型的媒体素材\n- 素材的组织与初步编辑\n\n##### 第五周：视频制作基础\n- 数字视频定义与基本原理\n- 捕捉与编辑高质量视频的技巧\n\n##### 第六周：序列创建与项目设置\n- 序列的创建与自定义\n- 项目设置的深入调整\n\n##### 第七周：视频剪辑基础\n- 剪辑工作流程\n- 剪辑技巧与时间线管理\n\n##### 第八周：高级剪辑技巧\n- 高级剪辑技术\n- 时间线特效与动画\n\n##### 第九周：视频转场与特效应用\n- 转场的选择与应用\n- 视频特效的创意使用\n\n##### 第十周：视频色彩校正与调整\n- 色彩理论基础\n- 使用 Lumetri Color 进行色彩校正\n\n##### 第十一周：视频合成技术\n- 理解合成技术\n- 特殊效果的合成应用\n\n##### 第十二周：音频编辑与处理\n- 音频需求分析\n- 音频录制与编辑技巧\n\n##### 第十三周：标题、图形与动画\n- 标题与图形的创建\n- 动画效果的添加与调整\n\n##### 第十四周：项目最终化与质量控制\n- 项目审查与质量控制\n- 时间线的最终调整\n\n##### 第十五周：视频导出与格式选择\n- 视频导出设置\n- 选择合适的文件格式\n\n##### 第十六周：视频分享与社交媒体整合\n- 视频分享策略\n- 社交媒体平台的视频发布\n\n##### 第十七周：电影全球发布\n- 利用全球最大的放映室\n- 传统与现代的电影分享方式\n\n##### 第十八周：课程总结与作品展示\n- 课程内容回顾\n- 学生作品展示与评价\n\n---\n\n**备注：**\n- 每周课程结束后，学生需完成相应的练习任务，并准备下一节课的素材。\n- 课程中将结合实际操作与理论讲解，确保学生能够熟练掌握 Premiere Pro 的使用。\n- 课程最终目标是让学生能够独立完成从拍摄到编辑的整个视频制作流程，并能够创作出具有个人风格的视频作品。",
+    "refs": [
+        "cqmfdn9ivtd4195rk24g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqmg3eiul729sht5mfd0",
+    "req_id": "cqmg3eiul729sht5mfdg",
+    "resp_id": "cqmg3eiul729sht5mfe0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：设计 18 周的课程大纲,每周 3 学时"
+}

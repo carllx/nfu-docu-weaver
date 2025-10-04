@@ -1,0 +1,663 @@
+﻿1
+00:00:00,900 --> 00:00:04,630
+- [Instructor] Before we start
+animating our query character
+
+2
+00:00:04,630 --> 00:00:06,740
+we need to understand the difference
+
+3
+00:00:06,740 --> 00:00:10,180
+between world space and local space.
+
+4
+00:00:10,180 --> 00:00:12,760
+If we have a look at this world object,
+
+5
+00:00:12,760 --> 00:00:16,150
+as soon as I will change
+its value on the x-axis,
+
+6
+00:00:16,150 --> 00:00:18,300
+it will move on the x-axis.
+
+7
+00:00:18,300 --> 00:00:20,320
+If I change the Y the Z,
+
+8
+00:00:20,320 --> 00:00:25,320
+it will follow the global
+axis, also known as world axis.
+
+9
+00:00:25,970 --> 00:00:30,850
+So our sphere is currently
+moving following world space.
+
+10
+00:00:30,850 --> 00:00:34,490
+If I now rotate my planet on the X axis,
+
+11
+00:00:34,490 --> 00:00:38,260
+we can see that it's Y
+axis is no longer aligned
+
+12
+00:00:38,260 --> 00:00:42,660
+with our seen axis also
+known as world axis.
+
+13
+00:00:42,660 --> 00:00:45,740
+But if I change it's Y value,
+
+14
+00:00:45,740 --> 00:00:50,740
+it will still slide along the
+Y axis of our world space.
+
+15
+00:00:50,920 --> 00:00:53,850
+And this is because on any object,
+
+16
+00:00:53,850 --> 00:00:57,250
+transform channel are read in hierarchy.
+
+17
+00:00:57,250 --> 00:01:00,420
+The first transformed
+channel read are location,
+
+18
+00:01:00,420 --> 00:01:03,600
+then rotation, and finally scale.
+
+19
+00:01:03,600 --> 00:01:06,020
+That's why the rotation doesn't affect
+
+20
+00:01:06,020 --> 00:01:08,460
+the location transform of the planet.
+
+21
+00:01:08,460 --> 00:01:12,180
+It will be such a pain to
+animate or to read curve.
+
+22
+00:01:12,180 --> 00:01:17,180
+But since scaling is read or
+is performed after rotation,
+
+23
+00:01:18,200 --> 00:01:22,230
+we can see that when I
+scale on the Y, X or Z,
+
+24
+00:01:22,230 --> 00:01:26,740
+it does follow the local
+space of the planet.
+
+25
+00:01:26,740 --> 00:01:29,740
+To better illustrate what is local space
+
+26
+00:01:29,740 --> 00:01:32,420
+let's display the Bob collection.
+
+27
+00:01:32,420 --> 00:01:34,550
+This is Bob, and as you can see,
+
+28
+00:01:34,550 --> 00:01:37,150
+he's aligned with world space.
+
+29
+00:01:37,150 --> 00:01:40,850
+His head is pointing
+upward along the Z axis.
+
+30
+00:01:40,850 --> 00:01:43,730
+His origin point is slightly offset
+
+31
+00:01:43,730 --> 00:01:46,520
+from the center of our scene.
+
+32
+00:01:46,520 --> 00:01:50,220
+And we can see this in
+its location coordinates.
+
+33
+00:01:50,220 --> 00:01:55,090
+So what I will do now is to
+place Bob on our planet earth.
+
+34
+00:01:55,090 --> 00:01:57,780
+So we can see that Bob has no rotation
+
+35
+00:01:57,780 --> 00:02:00,930
+and is slightly offset from the Z axis.
+
+36
+00:02:00,930 --> 00:02:03,370
+I will now parent Bob to the planet.
+
+37
+00:02:03,370 --> 00:02:05,480
+So I will first select Bob,
+
+38
+00:02:05,480 --> 00:02:09,200
+then the planet and
+press control P objects.
+
+39
+00:02:09,200 --> 00:02:13,310
+Now, Bob is a parent of our planet object.
+
+40
+00:02:13,310 --> 00:02:17,990
+And as soon as our planet
+object move or rotate,
+
+41
+00:02:17,990 --> 00:02:19,580
+Bob will follow.
+
+42
+00:02:19,580 --> 00:02:22,750
+When rotating the planet on the Y axis,
+
+43
+00:02:22,750 --> 00:02:26,400
+we can see the coordinates
+in the rotation channel.
+
+44
+00:02:26,400 --> 00:02:29,130
+And if I display my planet axis,
+
+45
+00:02:29,130 --> 00:02:32,150
+we can see that they're
+aligned with Bob axis.
+
+46
+00:02:32,150 --> 00:02:36,340
+So Bob has been rotated
+in world space his Z axis
+
+47
+00:02:36,340 --> 00:02:38,550
+is no longer pointing up.
+
+48
+00:02:38,550 --> 00:02:41,770
+But if we have a look at
+his rotation coordinate,
+
+49
+00:02:41,770 --> 00:02:44,540
+we can see that they are still to zero.
+
+50
+00:02:44,540 --> 00:02:47,790
+Because while the word has been rotated,
+
+51
+00:02:47,790 --> 00:02:51,650
+Bob, hasn't rotated, he
+hasn't moved off an inch.
+
+52
+00:02:51,650 --> 00:02:55,480
+He has visually rotated in world space
+
+53
+00:02:55,480 --> 00:02:59,510
+but in its local space, he hasn't rotated.
+
+54
+00:02:59,510 --> 00:03:02,130
+It's like when you are driving a car,
+
+55
+00:03:02,130 --> 00:03:05,610
+you are moving in world space
+because the car is moving,
+
+56
+00:03:05,610 --> 00:03:10,230
+but you you're not moving,
+you're still sit in the car.
+
+57
+00:03:10,230 --> 00:03:12,330
+You are a child of the car.
+
+58
+00:03:12,330 --> 00:03:16,230
+So if I now edit the z location of Bob,
+
+59
+00:03:16,230 --> 00:03:21,230
+we can see that he's moving
+along its own Z axis,
+
+60
+00:03:21,280 --> 00:03:24,160
+also known as local space.
+
+61
+00:03:24,160 --> 00:03:29,160
+So world space correspond
+to the axis in our scene
+
+62
+00:03:29,400 --> 00:03:33,055
+while Bob local space
+correspond to the axis
+
+63
+00:03:33,055 --> 00:03:35,880
+that are displayed on top of his head.
+
+64
+00:03:35,880 --> 00:03:39,220
+So if we now have look
+to the graph editor,
+
+65
+00:03:39,220 --> 00:03:44,130
+whenever I will move the X
+curve of my planet, it will
+
+66
+00:03:44,130 --> 00:03:48,520
+follow the world space as
+our bouncing ball previously.
+
+67
+00:03:48,520 --> 00:03:50,850
+But if I now do the same with Bob,
+
+68
+00:03:50,850 --> 00:03:55,820
+I will see that will be
+offset on its own X location,
+
+69
+00:03:55,820 --> 00:03:57,400
+on its local space.
+
+70
+00:03:57,400 --> 00:03:59,740
+And this is a very important concept
+
+71
+00:03:59,740 --> 00:04:02,180
+when we will start animating characters.
+
+72
+00:04:02,180 --> 00:04:05,460
+Think of the hand parented to the arm,
+
+73
+00:04:05,460 --> 00:04:09,300
+we will need to animate
+it in its local space.
+
+74
+00:04:09,300 --> 00:04:12,270
+As the hand will be the child of the arm.
+
+75
+00:04:12,270 --> 00:04:16,270
+On top of this, we still
+have our channel sequence,
+
+76
+00:04:16,270 --> 00:04:20,090
+meaning that the rotation
+occur before the scale
+
+77
+00:04:20,090 --> 00:04:21,650
+and after the location.
+
+78
+00:04:21,650 --> 00:04:25,760
+So I can still rotate the
+character in its local space
+
+79
+00:04:25,760 --> 00:04:27,680
+and then scale it afterward.
+
+80
+00:04:27,680 --> 00:04:32,430
+And both rotation and scaling
+will follow its local axis.
+
+81
+00:04:32,430 --> 00:04:35,780
+So, basically you are always animating
+
+82
+00:04:35,780 --> 00:04:40,150
+in the local space of your
+character, object, whatever.
+
+83
+00:04:40,150 --> 00:04:45,150
+But by default it's local axes
+are aligned with world space.
+
+84
+00:04:45,740 --> 00:04:49,450
+But as soon as you have a
+parent and child relationship,
+
+85
+00:04:49,450 --> 00:04:51,800
+there are great changes that they're
+
+86
+00:04:51,800 --> 00:04:53,820
+no longer aligned with space.
+
+87
+00:04:53,820 --> 00:04:56,360
+If you are using the gizmo
+from your transformation,
+
+88
+00:04:56,360 --> 00:04:59,660
+you can switch it to local space.
+
+89
+00:04:59,660 --> 00:05:03,770
+And a lot of animators
+uses the gizmo to animate
+
+90
+00:05:03,770 --> 00:05:06,660
+and uses them with a local space.
+
+91
+00:05:06,660 --> 00:05:08,330
+As I've rotated the planet
+
+92
+00:05:08,330 --> 00:05:10,890
+and Bob is still a child of the planet,
+
+93
+00:05:10,890 --> 00:05:13,210
+it's local space has been rotated,
+
+94
+00:05:13,210 --> 00:05:16,750
+and we can see that the
+axis of the manipulator
+
+95
+00:05:16,750 --> 00:05:18,890
+or gizmo are aligned.
+
+96
+00:05:18,890 --> 00:05:23,890
+So when I use the manipulator
+to move Bob on its Z axis,
+
+97
+00:05:24,060 --> 00:05:27,290
+I can see his Z coordinate changing.
+
+98
+00:05:27,290 --> 00:05:30,650
+So the gizmo give us
+a great representation
+
+99
+00:05:30,650 --> 00:05:33,000
+of the local space of our character.
+
+100
+00:05:33,000 --> 00:05:36,720
+And it does also work well
+whenever I'm performing
+
+101
+00:05:36,720 --> 00:05:38,670
+a rotation around the nexus.
+
+102
+00:05:38,670 --> 00:05:42,441
+And we also have a
+rotation and scaling gizmo
+
+103
+00:05:42,441 --> 00:05:44,190
+at our disposal.
+
+104
+00:05:44,190 --> 00:05:47,180
+But you have to be cautious
+with those manipulator
+
+105
+00:05:47,180 --> 00:05:49,160
+because they can be misleading.
+
+106
+00:05:49,160 --> 00:05:53,390
+It's totally fine to use them
+to manipulate your character,
+
+107
+00:05:53,390 --> 00:05:57,770
+but don't rely on them too much
+when it comes to figure out
+
+108
+00:05:57,770 --> 00:06:00,480
+what is the local space of your character.
+
+109
+00:06:00,480 --> 00:06:03,250
+Because if I do rotate my character
+
+110
+00:06:03,250 --> 00:06:06,440
+and then try to perform a translation,
+
+111
+00:06:06,440 --> 00:06:09,510
+the manipulator will be visually aligned
+
+112
+00:06:09,510 --> 00:06:11,740
+with the local space of my character.
+
+113
+00:06:11,740 --> 00:06:14,550
+But the location
+coordinates of my character
+
+114
+00:06:14,550 --> 00:06:16,330
+wont be aligned anymore.
+
+115
+00:06:16,330 --> 00:06:21,330
+Because the rotation is
+performed after the translation.
+
+116
+00:06:21,550 --> 00:06:25,370
+So when I will be editing
+my curve, I will be editing
+
+117
+00:06:25,370 --> 00:06:29,800
+the current Y movement I
+see on the screen right now.
+
+118
+00:06:29,800 --> 00:06:34,100
+Because the curve's output
+has the value of the location,
+
+119
+00:06:34,100 --> 00:06:37,810
+rotation and scale that we can
+see in the transform channel.
+
+120
+00:06:37,810 --> 00:06:40,540
+And it's not the case of the manipulator.
+
+121
+00:06:40,540 --> 00:06:43,340
+So if I really want to
+align the manipulator
+
+122
+00:06:43,340 --> 00:06:45,340
+with the local space of my character,
+
+123
+00:06:45,340 --> 00:06:49,010
+I need to reset any
+rotation on my character.
+
+124
+00:06:49,010 --> 00:06:50,610
+And now they are aligned.
+
+125
+00:06:50,610 --> 00:06:52,590
+If my character is rotating,
+
+126
+00:06:52,590 --> 00:06:57,010
+moving it using the
+manipulator in local space,
+
+127
+00:06:57,010 --> 00:07:00,850
+will currently edit
+different location values.
+
+128
+00:07:00,850 --> 00:07:04,200
+I know it can be a bit
+confusing, but don't worry.
+
+129
+00:07:04,200 --> 00:07:06,850
+It will make sense
+whenever we are animating.
+
+130
+00:07:06,850 --> 00:07:09,330
+And you won't have to
+take all those things
+
+131
+00:07:09,330 --> 00:07:13,120
+in consideration, but it's
+important for you to learn them
+
+132
+00:07:13,120 --> 00:07:16,600
+to better understand
+animation in 3D space.
+
+133
+00:07:16,600 --> 00:07:20,850
+When editing your curve with
+a bit of trial and error,
+
+134
+00:07:20,850 --> 00:07:23,010
+their behavior will make sense,
+
+135
+00:07:23,010 --> 00:07:25,740
+even in local space, don't worry.
+
+136
+00:07:25,740 --> 00:07:30,380
+To summarize, we have seen
+that by default an object space
+
+137
+00:07:30,380 --> 00:07:31,930
+is world space.
+
+138
+00:07:31,930 --> 00:07:34,720
+In a parent to child relationship,
+
+139
+00:07:34,720 --> 00:07:38,630
+the child will follow any
+transformation of his parent,
+
+140
+00:07:38,630 --> 00:07:41,710
+but it's transform
+channel won't be modified.
+
+141
+00:07:41,710 --> 00:07:44,430
+And this is because transform channels
+
+142
+00:07:44,430 --> 00:07:48,200
+output the local space
+coordinate of an object.
+
+143
+00:07:48,200 --> 00:07:51,720
+Transform channel are read in sequence
+
+144
+00:07:51,720 --> 00:07:55,480
+with location first, then
+rotation, and finally scale.
+
+145
+00:07:55,480 --> 00:07:58,650
+You can use the gizmo in local space
+
+146
+00:07:58,650 --> 00:08:01,410
+to make your manipulation easier,
+
+147
+00:08:01,410 --> 00:08:05,460
+but don't rely on them to
+figure out the orientation
+
+148
+00:08:05,460 --> 00:08:06,487
+of your object.
+

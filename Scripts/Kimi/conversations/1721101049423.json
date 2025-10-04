@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cqauluj3vddog9cphkug",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "#kimi",
+                "anatomy education",
+                "augmented reality",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "mixed reality",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education",
+                "virtual reality"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 为什么说VR/AR技术的学生与传统教学方法相比，知识得分的平均差异不显著。 作者如何得出这个结论？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "### 为什么说VR/AR技术的学生与传统教学方法相比，知识得分的平均差异不显著\n\n根据Moro等人在2021年发布的系统评审和元分析[^1]，得出VR/AR技术与传统教学方法相比，在学生的知识得分上平均差异不显著的结论，是基于以下几个关键点：\n\n1. **广泛的文献搜索和研究选择**：研究者们遵循了系统评审的标准流程，从多个数据库进行了广泛的文献搜索，包括PubMed、Embase、ERIC等，并且对找到的文献进行了严格的筛选和审查。\n\n2. **综合分析**：对符合条件的研究进行了全文审查，最终纳入了8项研究进行元分析。这些研究涉及了626名参与者，涵盖了VR和AR技术在医学和科学学生学习前临床生理学和解剖学知识获取方面的应用。\n\n3. **统计数据的汇总**：通过对这些研究的汇总分析，发现使用VR/AR技术的学生与传统教学方法相比，在知识得分上的综合差异是2.9个百分点，但这个差异在统计上不显著（95% CI[-2.9;8.6]）。\n\n4. **分组比较**：进一步的分组分析显示，对于比较VR与传统教学的4项研究，综合治疗效果差异为5.8个百分点（95% CI[-4.1;15.7]），对于比较AR与传统教学的5项研究，综合治疗效果差异为0.07（95% CI[-7.0;7.2]），这些差异同样没有统计学意义。\n\n5. **异质性考量**：研究中发现，不同研究结果之间存在高度异质性（I² = 72%），这可能与评估方法、学习材料、学生背景等多种因素有关。通过敏感性分析，排除了具有高风险偏倚的研究后，结果的异质性有所降低，但差异仍然不显著。\n\n6. **测试方法的局限性**：研究中使用的测试方法可能更侧重于传统的2D结构记忆，而不是空间连接和结构的组合，这可能限制了评估VR/AR技术在空间理解方面潜在优势的能力。\n\n7. **教育技术研究的更广泛视角**：Reeves和Lin（2020）提出，教育技术研究应该关注更广泛的问题，而不是特定技术的效果。这表明，虽然VR/AR技术可能在某些方面提供了新的学习机会，但它们对学习成果的影响可能不如预期的那样显著。\n\n### 结论\n\n综上所述，Moro等人的研究得出了VR/AR技术与传统教学方法在学生知识得分上平均差异不显著的结论，这主要是基于对现有文献的系统评审和元分析，以及对研究结果异质性的考量。同时，测试方法的局限性和对教育技术研究更广泛视角的呼吁也是支持这一结论的重要因素。\n\n[^1]: Moro C, Birt J, Stromberga Z, Phelps C, Clark J, Glasziou P, Scott AM. Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 2021. DOI: 10.1002/ase.2049.",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqauluuaofombdqte9k0",
+    "req_id": "cqauluuaofombdqte9kg",
+    "resp_id": "cqauluuaofombdqte9l0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 为什么说VR/AR技术的学生与传统教学方法相比，知识得分的平均差异不显著。 作者如何得出这个结论？"
+}

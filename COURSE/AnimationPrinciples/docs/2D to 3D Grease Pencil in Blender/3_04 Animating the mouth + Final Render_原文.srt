@@ -1,0 +1,1127 @@
+1
+00:00:04,000 --> 00:00:05,130
+So should we do the mouth
+
+2
+00:00:05,310 --> 00:00:06,840
+Yeahlet's see how we're gonna do this
+
+3
+00:00:06,850 --> 00:00:07,130
+Yeah
+
+4
+00:00:07,140 --> 00:00:08,120
+so for the mouth
+
+5
+00:00:08,120 --> 00:00:09,320
+it's gonna be very simple
+
+6
+00:00:10,030 --> 00:00:11,630
+We are basically doing the same
+
+7
+00:00:11,640 --> 00:00:13,260
+we are making a blank frame
+
+8
+00:00:13,260 --> 00:00:18,930
+we are on the black grease pencil frame and we are going to be in frame 1
+
+9
+00:00:19,160 --> 00:00:22,320
+and I'm gonna call this mouth and let's see how we can make it
+
+10
+00:00:22,450 --> 00:00:24,020
+We are going go to my front view
+
+11
+00:00:24,030 --> 00:00:32,570
+so I'm making sure that I'm drawing in the correct place and we can activate where are you reference you are hidden
+
+12
+00:00:32,600 --> 00:00:35,110
+I think it's because we have all of this movie activated
+
+13
+00:00:35,540 --> 00:00:38,070
+okayI can see now how my mouth is
+
+14
+00:00:38,080 --> 00:00:44,220
+so I'm going to be selecting my mouth and I'm going to just try to put it in a similar position
+
+15
+00:00:44,220 --> 00:00:47,210
+I'm going to select my then
+
+16
+00:00:47,220 --> 00:00:48,840
+and I'm going to first draw here in the air
+
+17
+00:00:48,860 --> 00:00:51,030
+and then I'm going to move it in the correct position
+
+18
+00:00:51,140 --> 00:00:53,290
+I'm going to draw it a few times until I like it
+
+19
+00:00:53,330 --> 00:00:53,920
+that's good
+
+20
+00:00:54,170 --> 00:00:57,950
+and now that I have that there I'm going to go to my object mode
+
+21
+00:00:58,500 --> 00:01:02,560
+change my origins because I want it to be staying there
+
+22
+00:01:02,970 --> 00:01:04,900
+And for now I'm not gonna rotate it
+
+23
+00:01:04,900 --> 00:01:05,890
+I can rotate it later
+
+24
+00:01:05,890 --> 00:01:08,460
+but for my drawing when I'm still drawing for me
+
+25
+00:01:08,460 --> 00:01:13,150
+I like it just keeping it flat and in reality it works well like that
+
+26
+00:01:13,150 --> 00:01:17,000
+so I'm going to just keep that there and put my mouth there
+
+27
+00:01:17,180 --> 00:01:18,500
+and that's looking adorable
+
+28
+00:01:18,500 --> 00:01:20,160
+My dog is getting a lot of personality
+
+29
+00:01:20,160 --> 00:01:20,660
+the kid
+
+30
+00:01:21,170 --> 00:01:25,360
+so let's see how we can just animate this mouth in a simple way
+
+31
+00:01:25,370 --> 00:01:28,240
+One of the things that we could do is make the mouth appear and disappear
+
+32
+00:01:28,290 --> 00:01:29,730
+so we can just
+
+33
+00:01:30,150 --> 00:01:33,130
+let's say we are starting in frame time
+
+34
+00:01:33,130 --> 00:01:34,270
+we want to have the entire mouth
+
+35
+00:01:34,280 --> 00:01:37,100
+I'm going to be in drawing mode and I'm maybe on frame 8
+
+36
+00:01:37,490 --> 00:01:39,350
+I'm going to go in drum mode
+
+37
+00:01:39,430 --> 00:01:43,120
+I'm going to have my mouth starting to disappear
+
+38
+00:01:43,840 --> 00:01:44,970
+frame 6
+
+39
+00:01:44,980 --> 00:01:48,140
+my mouth is there and frame 4
+
+40
+00:01:48,450 --> 00:01:49,460
+my mouth is a little dot
+
+41
+00:01:49,540 --> 00:01:56,900
+so I'm having this animation of the mouth and so we kind of hold the mouth until frame 50
+
+42
+00:01:57,780 --> 00:01:59,380
+I'm copying and pasting this
+
+43
+00:02:00,130 --> 00:02:04,340
+and now I'm going to make my mouse disappear and my mouse appear left to right
+
+44
+00:02:04,350 --> 00:02:09,310
+and maybe now it's going to be the opposite ISS going to start disappearing like that
+
+45
+00:02:09,800 --> 00:02:10,810
+So up here there
+
+46
+00:02:11,420 --> 00:02:12,780
+now it gets at the beginning
+
+47
+00:02:12,780 --> 00:02:14,700
+I like it not that much variation
+
+48
+00:02:14,960 --> 00:02:16,560
+and then I get a lot of speed
+
+49
+00:02:18,520 --> 00:02:19,450
+That's a way of drawing
+
+50
+00:02:19,550 --> 00:02:25,050
+which I'm imitating the style of the curve that we would do if we were doing an easy in and out
+
+51
+00:02:25,050 --> 00:02:25,250
+You know
+
+52
+00:02:25,250 --> 00:02:26,500
+it gets faster
+
+53
+00:02:26,600 --> 00:02:27,300
+it's lower
+
+54
+00:02:27,680 --> 00:02:28,880
+it's a bit more fluid
+
+55
+00:02:29,160 --> 00:02:30,510
+that's a nice personality there
+
+56
+00:02:30,680 --> 00:02:31,410
+Okay
+
+57
+00:02:31,420 --> 00:02:33,850
+so now we are gonna call this layer
+
+58
+00:02:33,860 --> 00:02:35,580
+we can call it here mouth
+
+59
+00:02:35,970 --> 00:02:37,630
+if I change the layer here
+
+60
+00:02:37,640 --> 00:02:39,070
+when we go here to our layers
+
+61
+00:02:39,420 --> 00:02:42,050
+we are changing it here as it's just a different place to change
+
+62
+00:02:42,050 --> 00:02:44,880
+it's going to add a new layer and I'm going to call this tongue
+
+63
+00:02:45,290 --> 00:02:47,980
+And I know that tank was not in the original illustration
+
+64
+00:02:48,410 --> 00:02:50,820
+but it was in the animation that we made because we thought
+
+65
+00:02:50,830 --> 00:02:54,840
+ohit would be so pretty to have a tongue kind of moving left to right
+
+66
+00:02:54,930 --> 00:02:56,940
+So I'm going to deactivate
+
+67
+00:02:56,950 --> 00:02:57,500
+Oh no
+
+68
+00:02:57,530 --> 00:02:59,960
+Ithis is the material I'm using for the mouth
+
+69
+00:02:59,970 --> 00:03:01,430
+I need to make a new material
+
+70
+00:03:01,710 --> 00:03:04,060
+So I'm going to make this new material and I'm going to make it fill
+
+71
+00:03:04,440 --> 00:03:09,270
+and I'm going to make this pink material that we can use for my tongue
+
+72
+00:03:09,750 --> 00:03:10,530
+That's looking good
+
+73
+00:03:11,250 --> 00:03:14,770
+And now I'm going to just start drawing my tongue
+
+74
+00:03:15,310 --> 00:03:17,440
+Probably it starts after the entire month appeared
+
+75
+00:03:17,450 --> 00:03:20,680
+So maybe on frame 15 is the first frame of it
+
+76
+00:03:21,240 --> 00:03:23,680
+and we are now going to start drawing it
+
+77
+00:03:23,690 --> 00:03:24,670
+So at the beginning
+
+78
+00:03:24,730 --> 00:03:26,750
+we only have a tiny bit of time appearing
+
+79
+00:03:26,880 --> 00:03:28,490
+I can not see it very well
+
+80
+00:03:28,500 --> 00:03:31,090
+so I'm gon na make this color a bit more saturated
+
+81
+00:03:31,110 --> 00:03:32,150
+Okaythat's more pretty
+
+82
+00:03:32,700 --> 00:03:33,430
+And now we
+
+83
+00:03:33,440 --> 00:03:35,020
+because we have this mode activated
+
+84
+00:03:35,030 --> 00:03:38,700
+auto kinging is going to be quite easy now to start drawing a bit more
+
+85
+00:03:38,710 --> 00:03:41,780
+so I'm going to do the second position of my tongue
+
+86
+00:03:41,870 --> 00:03:46,550
+actually I can make a tiny bit bigger there
+
+87
+00:03:47,320 --> 00:03:48,920
+so my tongue appear there
+
+88
+00:03:49,170 --> 00:03:50,850
+and now for my third position
+
+89
+00:03:50,890 --> 00:03:53,540
+I like the tongue to kind of stay a lot behind
+
+90
+00:03:53,540 --> 00:03:54,290
+It's just
+
+91
+00:03:54,740 --> 00:03:55,170
+you know
+
+92
+00:03:55,180 --> 00:03:56,230
+it's getting bigger
+
+93
+00:03:56,270 --> 00:03:59,050
+but it's kind of licking the side of the mouth
+
+94
+00:03:59,250 --> 00:04:00,130
+I think it's so cute
+
+95
+00:04:00,140 --> 00:04:04,560
+I love these additions that you can make in 3D like you're saying it's not in the 2D
+
+96
+00:04:04,590 --> 00:04:05,850
+even if you could make a 2D animation
+
+97
+00:04:07,010 --> 00:04:08,790
+once you've got going with your model
+
+98
+00:04:08,790 --> 00:04:10,510
+you can have so much extra fun with it
+
+99
+00:04:10,580 --> 00:04:11,070
+Yeah
+
+100
+00:04:11,080 --> 00:04:12,940
+and I really would like to see
+
+101
+00:04:12,940 --> 00:04:13,140
+you know
+
+102
+00:04:13,140 --> 00:04:15,540
+if people are making their car or their hamster
+
+103
+00:04:15,550 --> 00:04:17,400
+what are they going to put here
+
+104
+00:04:17,570 --> 00:04:20,360
+Yeahbecause maybe you can do something that's really specific to you
+
+105
+00:04:20,370 --> 00:04:23,220
+I think that our dog Mickey glicks his mouth quite a lot actually
+
+106
+00:04:23,670 --> 00:04:24,710
+Yeahalways hungry
+
+107
+00:04:24,710 --> 00:04:27,000
+Soso that's good
+
+108
+00:04:27,310 --> 00:04:28,150
+It goes there
+
+109
+00:04:28,300 --> 00:04:30,570
+And now when we have that there
+
+110
+00:04:30,570 --> 00:04:32,760
+probably we're gon na have to be coming in
+
+111
+00:04:32,870 --> 00:04:34,480
+If I had a graphics tablet
+
+112
+00:04:34,480 --> 00:04:36,290
+I could be drawing a more detailed one
+
+113
+00:04:36,290 --> 00:04:37,870
+but I think I like it
+
+114
+00:04:37,910 --> 00:04:39,870
+and now that goes there and then I'm gon na
+
+115
+00:04:40,080 --> 00:04:46,100
+just copy that last frame or I can just click of it to create a frame
+
+116
+00:04:46,110 --> 00:04:47,390
+and then I delete whatever I need
+
+117
+00:04:47,530 --> 00:04:48,350
+So up
+
+118
+00:04:49,130 --> 00:04:51,260
+make sure that if I try to delete
+
+119
+00:04:51,400 --> 00:04:53,040
+we can block the other layer
+
+120
+00:04:53,140 --> 00:04:58,910
+So we can block the mount layer and when I delete and make sure that I'm only deleting my tongue layer
+
+121
+00:04:59,640 --> 00:05:03,640
+okayso I think it's that animation is working well there
+
+122
+00:05:04,960 --> 00:05:07,330
+And I'm gon na go to this mode so I can see what's happening
+
+123
+00:05:07,790 --> 00:05:09,980
+And now I can see that my animation is there
+
+124
+00:05:10,030 --> 00:05:11,330
+and then it returns
+
+125
+00:05:11,340 --> 00:05:13,290
+But I think once it gets smaller
+
+126
+00:05:13,300 --> 00:05:14,220
+it should start again
+
+127
+00:05:14,220 --> 00:05:15,190
+So in frame 60
+
+128
+00:05:15,190 --> 00:05:16,240
+I think we should start again
+
+129
+00:05:16,630 --> 00:05:18,270
+so we're going to go now to this mode
+
+130
+00:05:18,300 --> 00:05:23,180
+add modifier time of set custom range 0 to 60
+
+131
+00:05:23,550 --> 00:05:26,200
+And now my animation plays forever
+
+132
+00:05:26,870 --> 00:05:27,500
+I have my
+
+133
+00:05:27,510 --> 00:05:29,460
+and I really like as well
+
+134
+00:05:29,460 --> 00:05:30,490
+by the way
+
+135
+00:05:30,540 --> 00:05:32,280
+because my ranges are different
+
+136
+00:05:32,280 --> 00:05:36,000
+one goes from 0 to 60 and my eyes are from 0 to 70
+
+137
+00:05:36,210 --> 00:05:37,680
+As we repeat more and more
+
+138
+00:05:37,690 --> 00:05:38,970
+they are out of sync
+
+139
+00:05:39,010 --> 00:05:41,930
+so it feels a bit more alive because the mouth
+
+140
+00:05:41,990 --> 00:05:44,510
+sometimes it's moving when the eyes are looking at one place
+
+141
+00:05:44,520 --> 00:05:47,490
+and sometimes it's moving when the eyes are looking at another place
+
+142
+00:05:47,750 --> 00:05:51,700
+We're adding more and more variation with all of these combinations of things
+
+143
+00:05:51,800 --> 00:05:54,850
+The only thing now before just rendering our entire thing
+
+144
+00:05:54,850 --> 00:06:05,970
+the only thing I would recommend is that we can simply go and put a bit of the noise that we were using before
+
+145
+00:06:05,980 --> 00:06:07,720
+And also I can align this mouth
+
+146
+00:06:07,730 --> 00:06:09,280
+So to align this mouth in object mode
+
+147
+00:06:09,280 --> 00:06:10,870
+I can just put it there and rotate it
+
+148
+00:06:12,040 --> 00:06:16,680
+But the only thing I would do now is just add in my modifiers
+
+149
+00:06:16,700 --> 00:06:21,490
+I would put this noise where you are the noise and do the same we did before
+
+150
+00:06:21,500 --> 00:06:21,740
+You know
+
+151
+00:06:21,740 --> 00:06:27,820
+like we can change the noise scale so we can make the noise scale quite high and the position quite soft
+
+152
+00:06:27,830 --> 00:06:30,920
+So it's just adding a tiny bit of that
+
+153
+00:06:30,940 --> 00:06:32,800
+Yeaha bit more of the hand drawn feeling
+
+154
+00:06:33,150 --> 00:06:35,400
+And because the steps are every 4
+
+155
+00:06:35,410 --> 00:06:40,600
+we are having this kind of thing that is changing all the time and it's adding a really nice effect
+
+156
+00:06:40,720 --> 00:06:44,260
+If we have an effect that we like and we want to copy to another place
+
+157
+00:06:44,380 --> 00:06:45,280
+it's really easy
+
+158
+00:06:45,380 --> 00:06:47,820
+The thing you need to do is select all the objects
+
+159
+00:06:47,990 --> 00:06:48,770
+So for example
+
+160
+00:06:48,780 --> 00:06:52,040
+select this plant and this plant and this plant
+
+161
+00:06:52,070 --> 00:06:53,710
+and maybe the mouth as well
+
+162
+00:06:53,760 --> 00:06:54,200
+and then
+
+163
+00:06:54,510 --> 00:06:59,930
+and then select continue doing shift and select the object in which you have the effect that you like
+
+164
+00:06:59,940 --> 00:07:00,400
+For example
+
+165
+00:07:00,400 --> 00:07:01,180
+here on the eye
+
+166
+00:07:01,320 --> 00:07:02,750
+that needs to be the last one
+
+167
+00:07:02,810 --> 00:07:06,030
+And now we go to noise here and we say copy to select it
+
+168
+00:07:06,620 --> 00:07:11,580
+I now automatically my program has copied that noise to every single of my layers
+
+169
+00:07:11,710 --> 00:07:14,680
+so now all my layers are having that noise applied
+
+170
+00:07:14,900 --> 00:07:16,210
+I need my beta in the mouth
+
+171
+00:07:16,240 --> 00:07:16,730
+To be honest
+
+172
+00:07:17,090 --> 00:07:18,970
+I would do the noise a bit softer
+
+173
+00:07:19,000 --> 00:07:21,900
+so we just can select the mouth and modified
+
+174
+00:07:21,910 --> 00:07:22,340
+no worries
+
+175
+00:07:22,340 --> 00:07:23,150
+they are not connected
+
+176
+00:07:23,160 --> 00:07:24,100
+it simply in position
+
+177
+00:07:24,100 --> 00:07:27,460
+we're gon na make it a tiny bit smaller because I think it was a bit too much for the mouth
+
+178
+00:07:28,850 --> 00:07:30,940
+so that's starting to look really good
+
+179
+00:07:32,510 --> 00:07:34,980
+very lovely by the way
+
+180
+00:07:35,160 --> 00:07:37,680
+some people are going to think
+
+181
+00:07:37,690 --> 00:07:38,970
+is there another way of drawing
+
+182
+00:07:38,970 --> 00:07:44,080
+like can you draw on a surface and it is possible I'm going to show you just as a final extra thing
+
+183
+00:07:44,130 --> 00:07:46,680
+I'm going to show you that if we add a grease pencil
+
+184
+00:07:47,650 --> 00:07:51,850
+there is one mode in drawing that instead of drawing on my origin
+
+185
+00:07:51,850 --> 00:07:54,260
+you can draw on a surface and it's possible to draw
+
+186
+00:07:54,270 --> 00:07:59,670
+I'm going to just make sure that I am in the correct position
+
+187
+00:08:00,010 --> 00:08:00,870
+do draw
+
+188
+00:08:00,890 --> 00:08:04,990
+and I probably was in some random layer 392
+
+189
+00:08:05,000 --> 00:08:05,490
+My goodness
+
+190
+00:08:05,760 --> 00:08:07,200
+let's go to frame 1
+
+191
+00:08:07,210 --> 00:08:09,540
+not to this crazy one
+
+192
+00:08:09,910 --> 00:08:10,680
+okay
+
+193
+00:08:11,220 --> 00:08:12,590
+And let's draw in there
+
+194
+00:08:12,600 --> 00:08:15,830
+So we are now selecting the drone mode and I'm gonna draw in there
+
+195
+00:08:15,840 --> 00:08:17,300
+And it looks like I'm drawing flat
+
+196
+00:08:17,310 --> 00:08:18,610
+but because we are drawing in surface
+
+197
+00:08:18,610 --> 00:08:19,430
+look what happened
+
+198
+00:08:19,680 --> 00:08:23,030
+I was drawing on top of my object
+
+199
+00:08:23,110 --> 00:08:26,610
+but it's quite separated and the separation is defined by this
+
+200
+00:08:26,610 --> 00:08:28,480
+It's defined by this offset
+
+201
+00:08:28,680 --> 00:08:34,160
+So the offset happens because a lot of times when you're drawing this and by mistake
+
+202
+00:08:34,160 --> 00:08:35,670
+it intersects the geometry
+
+203
+00:08:35,960 --> 00:08:41,530
+So usually you want to put something quite small to look as if you are completely drawing on top of the object
+
+204
+00:08:41,660 --> 00:08:42,460
+And when I do that
+
+205
+00:08:42,570 --> 00:08:44,780
+now for real I'm drawing on top
+
+206
+00:08:44,840 --> 00:08:46,410
+And this can be very useful
+
+207
+00:08:46,410 --> 00:08:46,540
+You know
+
+208
+00:08:46,590 --> 00:08:50,400
+you could have done the post there using this mode
+
+209
+00:08:50,550 --> 00:08:53,730
+but it can lead to problems because it's quite difficult to control
+
+210
+00:08:53,740 --> 00:08:55,390
+You don't really know what you're doing
+
+211
+00:08:55,400 --> 00:08:58,320
+It's not super intuitive to be drawing so much in 3D
+
+212
+00:08:58,730 --> 00:09:00,180
+so for now
+
+213
+00:09:00,190 --> 00:09:03,380
+I only recommend doing it when it's really necessary to do so
+
+214
+00:09:03,390 --> 00:09:06,700
+And you can see that for this type of 2D animation on top
+
+215
+00:09:06,720 --> 00:09:08,280
+it's not completely necessary
+
+216
+00:09:08,400 --> 00:09:12,670
+so we're going to have to be a bit clever about the usage of this mode
+
+217
+00:09:12,700 --> 00:09:15,310
+But we are then going to be looking
+
+218
+00:09:15,310 --> 00:09:15,480
+you know
+
+219
+00:09:15,560 --> 00:09:17,650
+the content on the school
+
+220
+00:09:17,690 --> 00:09:19,300
+He's expanding more on grease pencil
+
+221
+00:09:19,300 --> 00:09:24,040
+We are doing all the projects with all the people's illustrations and showing how they can be adapted
+
+222
+00:09:24,290 --> 00:09:26,340
+and sometimes that mode will be used
+
+223
+00:09:26,350 --> 00:09:27,790
+So it's not that we are against it
+
+224
+00:09:27,960 --> 00:09:31,400
+it's only that we are just being a bit careful when to use it
+
+225
+00:09:31,790 --> 00:09:32,220
+Makes sense
+
+226
+00:09:32,230 --> 00:09:34,820
+Only use something complicated if it's really necessary
+
+227
+00:09:34,820 --> 00:09:35,260
+Yes
+
+228
+00:09:36,250 --> 00:09:37,530
+and oh
+
+229
+00:09:37,540 --> 00:09:38,250
+a final
+
+230
+00:09:38,540 --> 00:09:41,930
+final little thing is that when we are rendering
+
+231
+00:09:41,930 --> 00:09:43,250
+because we are not using any
+
+232
+00:09:43,640 --> 00:09:45,220
+single light or the world
+
+233
+00:09:45,230 --> 00:09:46,860
+if you want to render this animation
+
+234
+00:09:46,860 --> 00:09:48,560
+when you do render animation
+
+235
+00:09:48,570 --> 00:09:52,780
+So far I haven't found a way in which I can render this animation
+
+236
+00:09:52,850 --> 00:09:54,820
+And it doesn't go to this ugly mode
+
+237
+00:09:54,880 --> 00:09:55,440
+You know
+
+238
+00:09:55,450 --> 00:09:57,550
+I know that I need to position the camera and everything
+
+239
+00:09:57,560 --> 00:09:59,950
+Let's do that so people understand what I mean
+
+240
+00:10:02,700 --> 00:10:03,580
+I'm going to go there
+
+241
+00:10:03,780 --> 00:10:05,680
+And now when I do render animation
+
+242
+00:10:05,690 --> 00:10:08,210
+you see that it's rendering with the original light from my scene
+
+243
+00:10:08,450 --> 00:10:11,360
+And it's doing it even if I delete the lights from my scene
+
+244
+00:10:11,600 --> 00:10:17,390
+I'm going to delete that and you'll to go render render animation and still applying the original light
+
+245
+00:10:17,400 --> 00:10:24,090
+That's because we deactivated the lights and we wanted to use this kind of Hdri that comes with Blender So far
+
+246
+00:10:24,090 --> 00:10:25,030
+maybe someone can tell us
+
+247
+00:10:25,300 --> 00:10:25,840
+So far
+
+248
+00:10:25,840 --> 00:10:29,730
+we haven't discovered exactly how to do to render with this light
+
+249
+00:10:29,940 --> 00:10:32,420
+But there's like everything in life
+
+250
+00:10:32,420 --> 00:10:33,310
+There is a little trick
+
+251
+00:10:33,320 --> 00:10:35,610
+and it is this trick is quite useful as well if you
+
+252
+00:10:35,610 --> 00:10:36,050
+for example
+
+253
+00:10:36,050 --> 00:10:37,520
+want to render this mode
+
+254
+00:10:37,810 --> 00:10:39,420
+but you want to talk to your friends
+
+255
+00:10:39,430 --> 00:10:45,020
+all of these kind of lines that are appearing and you want them to see how cool is the look of the program
+
+256
+00:10:45,020 --> 00:10:46,380
+So if you want to do that
+
+257
+00:10:46,410 --> 00:10:49,350
+you simply have to go to here to inside
+
+258
+00:10:49,360 --> 00:10:50,810
+I think it's inside
+
+259
+00:10:50,820 --> 00:10:51,460
+let me see
+
+260
+00:10:51,460 --> 00:10:55,270
+Now I started talking and now I'm not going to know where it is so
+
+261
+00:11:00,040 --> 00:11:01,450
+In view here
+
+262
+00:11:01,460 --> 00:11:02,480
+in any of the modes
+
+263
+00:11:02,500 --> 00:11:03,950
+when we go to view
+
+264
+00:11:04,000 --> 00:11:08,070
+we can go and do viewport render animation
+
+265
+00:11:08,130 --> 00:11:11,260
+We first need to select where we are rendering our animation like we always do
+
+266
+00:11:11,620 --> 00:11:13,780
+And now when we do viewport render animation
+
+267
+00:11:13,780 --> 00:11:17,260
+we render the viewport for the animation range of this scene
+
+268
+00:11:17,310 --> 00:11:18,290
+So when I click there
+
+269
+00:11:18,920 --> 00:11:20,340
+it's rendering this mo​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​‌​‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌‌‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​‌‌‌‌‌​‌‌‌‌‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌​​​‌​​‌‌​​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌‌‌‌​​​‌‌‌​‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌​​‌‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌​​‌‌‌‌​‌‌​​‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌​​​‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​​‌​​‌‌​​​‌​​‌‌‌​​‌​​‌‌‌​‌‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​‌‌‌‌​‌​‌​‌​​‌‌‌​‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌‌​​​‌‌‌​‌‌‌‌​‌​‌‌​​​‌‌​‌​‌‌‌​‌‌‌‌‌​​‌‌​‌‌‌‌‌​‌​‌​‌​​‌‌​‌​‌​​‌‌​‌​‌‌‌​‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​​‌​​‌‌‌‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌​‌‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​‌‌‌‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌​​‌‌‌​​‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌‌‌‌​​​‌‌‌‌‌​​​‌‌‌​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌​​‌​​‌‌​‌​‌‌‌​‌​‌‌‌​​‌‌​‌‌​​​‌‌‌‌​‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌​‌​​‌‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌‌‌​‌​‌‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌‌‌​​‌‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌​​‌‌‌​​‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌de
+
+270
+00:11:20,350 --> 00:11:25,350
+And this is very useful because we love showing like work in progress to our friends
+
+271
+00:11:25,380 --> 00:11:28,880
+We love showing how it works and it solves the problem here
+
+272
+00:11:28,880 --> 00:11:32,250
+So we do view render report animation
+
+273
+00:11:32,260 --> 00:11:33,410
+Now we are rendering that
+
+274
+00:11:33,420 --> 00:11:34,270
+of course
+
+275
+00:11:34,350 --> 00:11:37,650
+we need to make sure that we don't have that empty layer there
+
+276
+00:11:37,660 --> 00:11:47,740
+So and let me make sure that I'm zoom in enough and now I do view is a behavior there view for render animation
+
+277
+00:11:47,740 --> 00:11:48,847
+And here I am
+
+278
+00:11:48,847 --> 00:11:54,940
+I'm rendering my animation with the look and the Hdri that comes in Blender lately
+
+279
+00:11:55,910 --> 00:11:57,100
+I know that's a little extra
+
+280
+00:11:57,100 --> 00:11:58,910
+but it's good to know because sometimes people say
+
+281
+00:11:58,930 --> 00:12:00,560
+how do you do to finish the render
+
+282
+00:12:00,850 --> 00:12:02,050
+And that's how you do it perfect

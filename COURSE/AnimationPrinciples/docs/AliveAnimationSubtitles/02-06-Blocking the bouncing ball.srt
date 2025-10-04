@@ -1,0 +1,697 @@
+﻿1
+00:00:00,000 --> 00:00:02,970
+- Let's start blocking animation
+
+2
+00:00:02,970 --> 00:00:04,440
+of the bouncing ball.
+
+3
+00:00:04,440 --> 00:00:07,890
+Here, I still have my basic interpolation.
+
+4
+00:00:07,890 --> 00:00:09,980
+So with all the key frames selected,
+
+5
+00:00:09,980 --> 00:00:14,250
+I will press T and switch
+to constant interpolation.
+
+6
+00:00:14,250 --> 00:00:16,050
+This way our ball will snap
+
+7
+00:00:16,050 --> 00:00:19,310
+on the different position
+we have previously set.
+
+8
+00:00:19,310 --> 00:00:23,930
+The idea is not to get
+disturbed by any interpolation
+
+9
+00:00:23,930 --> 00:00:27,000
+and focus on the timing and shapes
+
+10
+00:00:27,000 --> 00:00:28,380
+of our ball.
+
+11
+00:00:28,380 --> 00:00:33,010
+Since our animation will
+be cycling upon 24 frame,
+
+12
+00:00:33,010 --> 00:00:36,740
+the frames zero and the frame
+24 will be exactly the same.
+
+13
+00:00:36,740 --> 00:00:40,420
+So my timing will be a bit
+off if I read both frame zero
+
+14
+00:00:40,420 --> 00:00:41,790
+and the frame 24.
+
+15
+00:00:41,790 --> 00:00:44,087
+So I will reduce the
+length of my animation
+
+16
+00:00:44,087 --> 00:00:47,070
+from frame zero to frame 23,
+
+17
+00:00:47,070 --> 00:00:48,280
+talking about Shape.
+
+18
+00:00:48,280 --> 00:00:52,380
+We will here now look at
+the squash and stretch.
+
+19
+00:00:52,380 --> 00:00:53,970
+If you're into animation,
+
+20
+00:00:53,970 --> 00:00:56,510
+I'm sure you already have heard about it.
+
+21
+00:00:56,510 --> 00:00:59,030
+If you look for squash and
+stretch ball on YouTube,
+
+22
+00:00:59,030 --> 00:01:00,430
+you may find this video.
+
+23
+00:01:00,430 --> 00:01:02,800
+I put the link in the documentation .
+
+24
+00:01:02,800 --> 00:01:05,960
+When the ball gets thrown at
+high speed on the surface,
+
+25
+00:01:05,960 --> 00:01:08,000
+and it touches it, it squashes.
+
+26
+00:01:08,000 --> 00:01:10,894
+With the power of the
+impact, the ball get tighter,
+
+27
+00:01:10,894 --> 00:01:13,530
+but it's volume has to be preserved.
+
+28
+00:01:13,530 --> 00:01:15,760
+So it also gets larger.
+
+29
+00:01:15,760 --> 00:01:16,800
+But in this case,
+
+30
+00:01:16,800 --> 00:01:20,420
+squashing will bring
+to us two information.
+
+31
+00:01:20,420 --> 00:01:23,550
+The power of the impact, and the softness
+
+32
+00:01:23,550 --> 00:01:26,070
+of the material of the ball.
+
+33
+00:01:26,070 --> 00:01:27,795
+Regarding our animation,
+
+34
+00:01:27,795 --> 00:01:31,010
+if we consider our frame
+zero to be the frame,
+
+35
+00:01:31,010 --> 00:01:34,060
+where our object will touch the ground,
+
+36
+00:01:34,060 --> 00:01:37,270
+we can go like one or two frame forward
+
+37
+00:01:37,270 --> 00:01:40,510
+and start squashing the ball by scaling it
+
+38
+00:01:40,510 --> 00:01:42,610
+on the Z axis down,
+
+39
+00:01:42,610 --> 00:01:46,950
+but also scaling it on the X and Y axis.
+
+40
+00:01:46,950 --> 00:01:50,890
+This way we will have some
+all volume preservation.
+
+41
+00:01:50,890 --> 00:01:52,850
+You can see here that the key frame,
+
+42
+00:01:52,850 --> 00:01:53,770
+hasn't been written,
+
+43
+00:01:53,770 --> 00:01:56,460
+as I need to enable the auto recording.
+
+44
+00:01:56,460 --> 00:02:00,640
+Since I haven't written any
+scaling key frame previously,
+
+45
+00:02:00,640 --> 00:02:03,040
+you can see that the ball remained flat.
+
+46
+00:02:03,040 --> 00:02:06,400
+I will just press ALT
++ S to reset the scale
+
+47
+00:02:06,400 --> 00:02:09,540
+on the first frame and
+on all the other frames.
+
+48
+00:02:09,540 --> 00:02:13,033
+As we have just created
+the scaling key frames,
+
+49
+00:02:13,033 --> 00:02:16,550
+they have just been
+added to our animation.
+
+50
+00:02:16,550 --> 00:02:21,140
+And so by default Lendo will
+switch their interpolation
+
+51
+00:02:21,140 --> 00:02:22,110
+to basic.
+
+52
+00:02:22,110 --> 00:02:25,020
+So we can see that our location is still
+
+53
+00:02:25,020 --> 00:02:28,210
+in step mode, but we have
+a scaling interpolation.
+
+54
+00:02:28,210 --> 00:02:30,960
+So I will select all the key frame press T
+
+55
+00:02:30,960 --> 00:02:32,680
+and set them to constant.
+
+56
+00:02:32,680 --> 00:02:36,090
+From there, we can work on
+the stretching of our ball.
+
+57
+00:02:36,090 --> 00:02:39,430
+Stretching is physically
+less obvious when we
+
+58
+00:02:39,430 --> 00:02:41,752
+are watching the tennis ball bouncing,
+
+59
+00:02:41,752 --> 00:02:44,550
+but it's yet still here.
+
+60
+00:02:44,550 --> 00:02:48,930
+So we can use stretching to
+input physical information
+
+61
+00:02:48,930 --> 00:02:50,034
+to our bouncing ball,
+
+62
+00:02:50,034 --> 00:02:54,750
+but we can also use it to
+input speed information.
+
+63
+00:02:54,750 --> 00:02:56,580
+If we look at the very beginning
+
+64
+00:02:56,580 --> 00:02:57,413
+of the video,
+
+65
+00:02:57,413 --> 00:03:00,380
+we can see that the ball is blurry
+
+66
+00:03:00,380 --> 00:03:05,320
+and it immediately translate
+to us some speed information.
+
+67
+00:03:05,320 --> 00:03:06,280
+So why the ball
+
+68
+00:03:06,280 --> 00:03:08,860
+is probably currently perfectly round,
+
+69
+00:03:08,860 --> 00:03:12,450
+the way the camera is
+capturing it forms some kind
+
+70
+00:03:12,450 --> 00:03:13,663
+of elliptic shapes.
+
+71
+00:03:13,663 --> 00:03:17,260
+And we have the same feeling
+whenever we are watching
+
+72
+00:03:17,260 --> 00:03:18,950
+something that goes fast.
+
+73
+00:03:18,950 --> 00:03:20,600
+And if we watched a right hand
+
+74
+00:03:20,600 --> 00:03:21,550
+of the scientist,
+
+75
+00:03:21,550 --> 00:03:24,034
+we can see that his
+fingers are also blurred
+
+76
+00:03:24,034 --> 00:03:26,840
+because his hand was moving very fast.
+
+77
+00:03:26,840 --> 00:03:29,580
+It makes his finger looks a little larger
+
+78
+00:03:29,580 --> 00:03:31,370
+and longer due to speed.
+
+79
+00:03:31,370 --> 00:03:33,070
+When an object is falling
+
+80
+00:03:33,070 --> 00:03:34,280
+and hitting the ground,
+
+81
+00:03:34,280 --> 00:03:39,000
+it is at its maximum speed
+just before it hit the ground.
+
+82
+00:03:39,000 --> 00:03:40,260
+On the frame zero,
+
+83
+00:03:40,260 --> 00:03:44,560
+we can input stretching
+information by scaling the ball up
+
+84
+00:03:44,560 --> 00:03:47,480
+and reducing it's scale on X and Y
+
+85
+00:03:47,480 --> 00:03:48,943
+to preserve its volume.
+
+86
+00:03:48,943 --> 00:03:51,670
+When the ball will leave the ground,
+
+87
+00:03:51,670 --> 00:03:54,500
+it will also be it's highest speed.
+
+88
+00:03:54,500 --> 00:03:57,670
+So I can duplicate frame zero and move it
+
+89
+00:03:57,670 --> 00:03:59,910
+on frame three or frame four.
+
+90
+00:03:59,910 --> 00:04:03,154
+The ball stretch, hit the ground, squash,
+
+91
+00:04:03,154 --> 00:04:06,290
+and stretch again when leaving the ground.
+
+92
+00:04:06,290 --> 00:04:08,445
+Just by looking those few frames,
+
+93
+00:04:08,445 --> 00:04:11,870
+we start to have the
+feeling of the animation
+
+94
+00:04:11,870 --> 00:04:12,790
+of the ball.
+
+95
+00:04:12,790 --> 00:04:15,260
+And this is a very important input
+
+96
+00:04:15,260 --> 00:04:18,150
+whenever we will be
+using the blocking method
+
+97
+00:04:18,150 --> 00:04:20,653
+is that you have to feel your animation
+
+98
+00:04:20,653 --> 00:04:23,360
+just through those poses.
+
+99
+00:04:23,360 --> 00:04:24,270
+As told before,
+
+100
+00:04:24,270 --> 00:04:27,630
+frame zero and frame 24 are
+supposed to be the same.
+
+101
+00:04:27,630 --> 00:04:29,030
+So I will select frame zero,
+
+102
+00:04:29,030 --> 00:04:33,110
+press Shift + D to duplicate
+it and move it on frame 20.
+
+103
+00:04:33,110 --> 00:04:35,850
+From frame zero to frame four the ball is
+
+104
+00:04:35,850 --> 00:04:36,683
+on the ground
+
+105
+00:04:36,683 --> 00:04:39,440
+and then it's leaving the
+ground from frame four
+
+106
+00:04:39,440 --> 00:04:40,940
+to frame 24.
+
+107
+00:04:40,940 --> 00:04:43,960
+Timing wise, the ball should travel upward
+
+108
+00:04:43,960 --> 00:04:46,350
+and downward almost evenly.
+
+109
+00:04:46,350 --> 00:04:47,670
+So I can offset the
+
+110
+00:04:47,670 --> 00:04:50,230
+up position to frame 14.
+
+111
+00:04:50,230 --> 00:04:53,210
+This way, we have 10
+frame and moving upward
+
+112
+00:04:53,210 --> 00:04:55,570
+and 10 frame moving downward.
+
+113
+00:04:55,570 --> 00:04:57,910
+As a more subtle detailed pass,
+
+114
+00:04:57,910 --> 00:05:01,560
+what we can do is slightly squash the ball
+
+115
+00:05:01,560 --> 00:05:05,130
+whenever it reaches its top position.
+
+116
+00:05:05,130 --> 00:05:08,660
+This slight modification
+will translate the inertia
+
+117
+00:05:08,660 --> 00:05:10,890
+of the ball whenever it's slowing down
+
+118
+00:05:10,890 --> 00:05:12,370
+to its stop position.
+
+119
+00:05:12,370 --> 00:05:14,730
+Currently our blocking is bringing
+
+120
+00:05:14,730 --> 00:05:16,890
+the minimum information we need
+
+121
+00:05:16,890 --> 00:05:19,100
+to go to the next step.
+
+122
+00:05:19,100 --> 00:05:21,998
+All the extreme poses
+of the ball are keyed
+
+123
+00:05:21,998 --> 00:05:24,110
+and we have a rough timing.
+
+124
+00:05:24,110 --> 00:05:26,666
+For this very specific exercise,
+
+125
+00:05:26,666 --> 00:05:30,550
+it could be enough for
+me to go into spline
+
+126
+00:05:30,550 --> 00:05:32,260
+to go into the next step
+
+127
+00:05:32,260 --> 00:05:33,890
+of the animation process
+
+128
+00:05:33,890 --> 00:05:36,900
+but we can also input some more details
+
+129
+00:05:36,900 --> 00:05:38,570
+into the blocking stage
+
+130
+00:05:38,570 --> 00:05:43,430
+by inputting some intermediate
+poses or in-between.
+
+131
+00:05:43,430 --> 00:05:47,700
+The in-between will help
+us figuring out the spacing
+
+132
+00:05:47,700 --> 00:05:50,420
+of our ball whenever it's in the air.
+
+133
+00:05:50,420 --> 00:05:53,960
+Our ball is making a
+eight meter high jump,
+
+134
+00:05:53,960 --> 00:05:56,870
+so I will move it in
+between two, four meter
+
+135
+00:05:56,870 --> 00:05:58,660
+and I will clear the scaling.
+
+136
+00:05:58,660 --> 00:06:01,570
+Now, depending on where I will move
+
+137
+00:06:01,570 --> 00:06:02,540
+this key frame,
+
+138
+00:06:02,540 --> 00:06:05,830
+it will change the
+spacing of the animation.
+
+139
+00:06:05,830 --> 00:06:08,620
+If I move this key frame
+closer up to frame four
+
+140
+00:06:08,620 --> 00:06:12,060
+where it takes off, our
+spacing will be larger
+
+141
+00:06:12,060 --> 00:06:15,250
+in the beginning of the jump than it is
+
+142
+00:06:15,250 --> 00:06:17,810
+whenever it's reaching the highest point
+
+143
+00:06:17,810 --> 00:06:19,770
+meaning that on frame seven,
+
+144
+00:06:19,770 --> 00:06:22,610
+the ball will go faster than on frame 10,
+
+145
+00:06:22,610 --> 00:06:24,850
+which is what we want because the ball
+
+146
+00:06:24,850 --> 00:06:27,360
+is leaving the ground at full speed.
+
+147
+00:06:27,360 --> 00:06:32,240
+So it will reach its mid-air
+position before frame nine.
+
+148
+00:06:32,240 --> 00:06:37,000
+And when falling down it will
+be at full speed on frame 24.
+
+149
+00:06:37,000 --> 00:06:40,960
+So it should be mid-air,
+closer to frame 24,
+
+150
+00:06:40,960 --> 00:06:42,420
+than frame 14.
+
+151
+00:06:42,420 --> 00:06:45,730
+I know spacing can be a
+bit complicated when you
+
+152
+00:06:45,730 --> 00:06:47,120
+are on the blocking stage
+
+153
+00:06:47,120 --> 00:06:49,227
+and it will be way more obvious
+
+154
+00:06:49,227 --> 00:06:50,830
+in the next video.
+
+155
+00:06:50,830 --> 00:06:53,340
+To summarize, during the blocking stage,
+
+156
+00:06:53,340 --> 00:06:56,270
+we key frame the extreme poses,
+
+157
+00:06:56,270 --> 00:06:58,210
+we make a rough timing paths,
+
+158
+00:06:58,210 --> 00:06:59,667
+we can use breakdowns and
+
+159
+00:06:59,667 --> 00:07:04,667
+in-between to input more
+spacing and timing informations.
+
+160
+00:07:05,060 --> 00:07:09,330
+We can use squash and
+stretch to input speed
+
+161
+00:07:09,330 --> 00:07:11,153
+and physical information.
+

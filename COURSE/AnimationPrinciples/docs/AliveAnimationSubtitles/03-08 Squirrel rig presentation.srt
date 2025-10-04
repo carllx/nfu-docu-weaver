@@ -1,0 +1,412 @@
+﻿1
+00:00:00,800 --> 00:00:02,470
+- [Instructor] Let's have a quick overview
+
+2
+00:00:02,470 --> 00:00:04,390
+of the squirrel rig.
+
+3
+00:00:04,390 --> 00:00:06,300
+When opening the Blender file,
+
+4
+00:00:06,300 --> 00:00:08,140
+you will find two object,
+
+5
+00:00:08,140 --> 00:00:12,090
+our squirrel Armature
+and the squirrel object
+
+6
+00:00:12,090 --> 00:00:14,720
+that is using an Armature modifier.
+
+7
+00:00:14,720 --> 00:00:16,590
+The object is called a squirrel.
+
+8
+00:00:16,590 --> 00:00:19,170
+And it has as all material.
+
+9
+00:00:19,170 --> 00:00:22,940
+By default, you should
+have the Text Editor opened
+
+10
+00:00:22,940 --> 00:00:26,570
+with this squirrel rig
+UI text file opened.
+
+11
+00:00:26,570 --> 00:00:29,150
+When my rig is selected and in pause mode
+
+12
+00:00:29,150 --> 00:00:34,110
+if I press the play button,
+it will execute the script
+
+13
+00:00:34,110 --> 00:00:37,540
+and generate a little
+UI that will allow us
+
+14
+00:00:37,540 --> 00:00:41,230
+to hide or display the
+bones of our character.
+
+15
+00:00:41,230 --> 00:00:43,690
+The script doesn't run automatically,
+
+16
+00:00:43,690 --> 00:00:45,210
+you will have to run it
+
+17
+00:00:45,210 --> 00:00:47,780
+each time you will open your blender file.
+
+18
+00:00:47,780 --> 00:00:49,590
+What if your script is not open
+
+19
+00:00:49,590 --> 00:00:52,630
+because you don't have
+the Text Editor opened?
+
+20
+00:00:52,630 --> 00:00:55,060
+you just go to the editors panels,
+
+21
+00:00:55,060 --> 00:00:58,220
+select the Text Editor and in the Library
+
+22
+00:00:58,220 --> 00:01:00,750
+you will select the squirrel rig UI
+
+23
+00:01:00,750 --> 00:01:03,300
+and then just press the Play button.
+
+24
+00:01:03,300 --> 00:01:06,380
+You can then close this editor area.
+
+25
+00:01:06,380 --> 00:01:08,320
+The rig is pretty straightforward.
+
+26
+00:01:08,320 --> 00:01:12,380
+The root bone allow us to
+move the entire character,
+
+27
+00:01:12,380 --> 00:01:15,580
+the dorsal roots allow
+us to move the whole body
+
+28
+00:01:15,580 --> 00:01:17,560
+and give it its orientation.
+
+29
+00:01:17,560 --> 00:01:19,500
+But the legs won't follow.
+
+30
+00:01:19,500 --> 00:01:22,760
+You will find a chest and a hip controller
+
+31
+00:01:22,760 --> 00:01:26,350
+that can be moved, rotated and scape.
+
+32
+00:01:26,350 --> 00:01:29,180
+The neck and head can also be controlled
+
+33
+00:01:29,180 --> 00:01:32,040
+by one single bone that
+will behave the same
+
+34
+00:01:32,040 --> 00:01:34,110
+as the chest and hips bone.
+
+35
+00:01:34,110 --> 00:01:37,760
+You can then find some tweaker
+bone that will allow us
+
+36
+00:01:37,760 --> 00:01:42,620
+to only rotate the neck
+or only rotate the head.
+
+37
+00:01:42,620 --> 00:01:46,310
+Smaller controller
+bones are also available
+
+38
+00:01:46,310 --> 00:01:48,770
+to be able to squash and stretch the head.
+
+39
+00:01:48,770 --> 00:01:50,710
+Move the ears at will,
+
+40
+00:01:50,710 --> 00:01:53,850
+close the eyes or move
+the tip of the nose.
+
+41
+00:01:53,850 --> 00:01:57,040
+All the bone transform
+channels are already locked
+
+42
+00:01:57,040 --> 00:01:59,360
+when they are not to be used
+
+43
+00:01:59,360 --> 00:02:02,767
+making our keying set
+step a little faster.
+
+44
+00:02:02,767 --> 00:02:03,600
+(whoosh)
+
+45
+00:02:03,600 --> 00:02:06,850
+The legs are using inverse
+kinematic controllers,
+
+46
+00:02:06,850 --> 00:02:11,040
+meaning that we are controlling
+the whole arm or leg
+
+47
+00:02:11,040 --> 00:02:15,150
+by simply moving the end of
+the foot of our character.
+
+48
+00:02:15,150 --> 00:02:18,020
+While the motion should
+come from the shoulder,
+
+49
+00:02:18,020 --> 00:02:20,610
+then the arm, then the forearm to the end
+
+50
+00:02:20,610 --> 00:02:21,970
+it's inversed.
+
+51
+00:02:21,970 --> 00:02:25,000
+The arm controller is just here to be able
+
+52
+00:02:25,000 --> 00:02:27,130
+to give an orientation to the elbow.
+
+53
+00:02:27,130 --> 00:02:28,210
+On the back leg,
+
+54
+00:02:28,210 --> 00:02:30,700
+we will also find an inverse kinematic
+
+55
+00:02:30,700 --> 00:02:32,450
+from the foot controller,
+
+56
+00:02:32,450 --> 00:02:34,810
+but the heel and knee orientation
+
+57
+00:02:34,810 --> 00:02:37,180
+will be using a pole target.
+
+58
+00:02:37,180 --> 00:02:40,030
+It's a bone that can move freely in space
+
+59
+00:02:40,030 --> 00:02:42,783
+and the knee or heel of our character
+
+60
+00:02:42,783 --> 00:02:45,060
+will be pointing at it.
+
+61
+00:02:45,060 --> 00:02:49,530
+The tail use a simple
+forward kinematic bone chain.
+
+62
+00:02:49,530 --> 00:02:51,560
+So it basically rotates
+
+63
+00:02:51,560 --> 00:02:56,120
+or is being controlled
+from its root to its tip.
+
+64
+00:02:56,120 --> 00:02:59,510
+We will then find a lot
+of secondary controllers
+
+65
+00:02:59,510 --> 00:03:03,440
+that will allow us to move
+each joint of the character.
+
+66
+00:03:03,440 --> 00:03:07,230
+They will mainly be used
+to fix some deformation
+
+67
+00:03:07,230 --> 00:03:10,140
+or to add subtle motion to the character.
+
+68
+00:03:10,140 --> 00:03:13,460
+The rig also comes with
+some custom property
+
+69
+00:03:13,460 --> 00:03:16,040
+that we can access by using these bones.
+
+70
+00:03:16,040 --> 00:03:17,510
+When the bone is selected
+
+71
+00:03:17,510 --> 00:03:21,130
+we can find those custom
+properties in the item panel.
+
+72
+00:03:21,130 --> 00:03:23,080
+Those properties will allow us
+
+73
+00:03:23,080 --> 00:03:25,580
+to hide the legs of the character
+
+74
+00:03:25,580 --> 00:03:27,300
+or the tail of the character.
+
+75
+00:03:27,300 --> 00:03:30,990
+This will be really
+useful to isolate the body
+
+76
+00:03:30,990 --> 00:03:33,240
+and clearly read it's motion.
+
+77
+00:03:33,240 --> 00:03:35,770
+The tail follow option allow us
+
+78
+00:03:35,770 --> 00:03:39,990
+to whether isolate on not
+the rotation of the tail.
+
+79
+00:03:39,990 --> 00:03:42,810
+By default, the tail of our character
+
+80
+00:03:42,810 --> 00:03:45,340
+is following the rotation of the hips
+
+81
+00:03:45,340 --> 00:03:46,870
+and is aligned with it.
+
+82
+00:03:46,870 --> 00:03:49,300
+But if we select the property boon
+
+83
+00:03:49,300 --> 00:03:51,960
+and set this tail follow to zero,
+
+84
+00:03:51,960 --> 00:03:55,140
+the tail is not rotating
+with the hips anymore.
+
+85
+00:03:55,140 --> 00:03:57,730
+This will make our life way easier
+
+86
+00:03:57,730 --> 00:04:00,150
+when it comes to animating the tail.
+
+87
+00:04:00,150 --> 00:04:02,610
+So before we jump into animation,
+
+88
+00:04:02,610 --> 00:04:06,620
+I will just create the
+keying set for our character
+
+89
+00:04:06,620 --> 00:04:09,280
+by inserting a key frame on the channels
+
+90
+00:04:09,280 --> 00:04:10,770
+that are going to be used
+
+91
+00:04:10,770 --> 00:04:13,290
+and remove those that are locked.
+
+92
+00:04:13,290 --> 00:04:15,020
+Nothing really interesting here.
+
+93
+00:04:15,020 --> 00:04:17,802
+So I will switch to a time-lapse
+till the end of this video.
+
+94
+00:04:17,802 --> 00:04:19,885
+(whoosh)
+
+95
+00:04:21,083 --> 00:04:24,000
+(slow piano music)
+

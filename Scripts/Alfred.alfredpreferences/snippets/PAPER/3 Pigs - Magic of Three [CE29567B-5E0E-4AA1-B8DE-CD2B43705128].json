@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Given the broad topic of \"{clipboard},\" use the \"Magic of Three\" method to identify three main points that encapsulate the essence of the subject. Then, synthesize these points to craft a concise thesis statement that reflects a clear position on the topic.\nIdentify Main Points:\n\nConsider the broad implications of the topic.\nReflect on the most significant aspects that are both impactful and manageable to discuss within the scope of a five-paragraph essay.\nNarrow down to three main points that are interconnected yet distinct, providing a comprehensive overview of the topic.\nFormulate Thesis Statement:\n\nCombine the identified main points to articulate your unique perspective on the topic.\nEnsure that the thesis statement is assertive and encapsulates your argument or stance on the topic.\nThe thesis should serve as a roadmap for the essay, clearly indicating what the reader can expect in the subsequent paragraphs.\nExample:\n\nTopic: The Role of Technology in Education\nMain Points:\nAccess to Information: Technology provides unprecedented access to vast educational resources.\nPersonalized Learning: Adaptive learning technologies offer personalized educational experiences to students.\nDigital Literacy: Proficiency with technology is becoming as essential as traditional literacy in the modern educational landscape.\nThesis Statement:\n\"In the realm of education, technology is pivotal in enhancing access to information, enabling personalized learning experiences, and fostering digital literacy, which are essential components for equipping students for the future.\"",
+    "uid" : "CE29567B-5E0E-4AA1-B8DE-CD2B43705128",
+    "name" : "3 Pigs - Magic of Three",
+    "keyword" : "3pigs"
+  }
+}

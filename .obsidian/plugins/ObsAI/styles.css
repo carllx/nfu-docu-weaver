@@ -1,0 +1,747 @@
+.ai-input-panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: var(--size-2-3);
+    padding: var(--size-2-3);
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-m);
+}
+
+.ai-input-textarea {
+    width: 100%;
+    height: 8rem;
+    padding: var(--size-2-3);
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-s);
+    resize: none;
+    font-size: var(--font-ui-medium);
+    line-height: var(--line-height-normal);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ai-input-textarea:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+}
+
+.ai-input-textarea::-moz-placeholder {
+    color: var(--text-faint);
+}
+
+.ai-input-textarea::placeholder {
+    color: var(--text-faint);
+}
+
+.ai-input-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--size-2-2);
+    padding: var(--size-2-2);
+}
+
+.ai-input-controls button {
+    padding: var(--size-2-2) var(--size-2-3);
+    background-color: var(--interactive-normal);
+    color: var(--text-normal);
+    border: none;
+    border-radius: var(--radius-s);
+    font-size: var(--font-ui-small);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.ai-input-controls button:hover {
+    background-color: var(--interactive-hover);
+}
+
+.ai-input-controls button.primary {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.ai-input-controls button.primary:hover {
+    background-color: var(--interactive-accent-hover);
+}
+/* Input styles */
+.obsai-input {
+    background-color: var(--background-primary);
+    color: var(--obsai-text-color);
+    border: 1px solid var(--obsai-border-color);
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+}
+
+.obsai-input:focus {
+    border-color: var(--obsai-accent-color);
+    outline: none;
+}
+
+/* Suggestions styles */
+.obsai-suggestions {
+    position: absolute;
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 200px;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+
+.obsai-suggestion-item {
+    padding: 4px 8px;
+    cursor: pointer;
+    line-height: 1.4;
+    color: var(--text-normal);
+}
+
+.obsai-suggestion-item:hover,
+.obsai-suggestion-item.selected {
+    background-color: var(--background-modifier-hover);
+}
+
+/* Container styles */
+.obsai-ask-input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.obsai-editable-container {
+    position: relative;
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 8px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-primary);
+}
+
+/* Editable area styles */
+.obsai-editable-area {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: var(--text-normal);
+    white-space: pre-wrap;
+    word-break: break-word;
+    outline: none;
+    position: relative;
+    cursor: text;
+}
+
+.obsai-editable-area:empty::before {
+    content: attr(data-placeholder);
+    color: var(--text-muted);
+    pointer-events: none;
+    position: absolute;
+}
+
+.obsai-editable-area:focus {
+    border-color: var(--interactive-accent);
+}
+
+/* Reference styles */
+.obsai-reference {
+    display: inline-block;
+    padding: 0 4px;
+    margin: 0 2px;
+    background-color: var(--interactive-accent);
+    border-radius: 4px;
+    color: var(--text-on-accent);
+    font-size: 0.9em;
+    line-height: 1.4;
+    white-space: nowrap;
+    -webkit-user-select: all;
+       -moz-user-select: all;
+            user-select: all;
+    cursor: default;
+}
+
+.obsai-editable-area .obsai-reference {
+    position: relative;
+    z-index: 2;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+.obsai-editable-area .obsai-reference * {
+    pointer-events: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    cursor: default;
+}
+
+.obsai-editable-area .obsai-reference::before,
+.obsai-editable-area .obsai-reference::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    pointer-events: none;
+}
+
+.obsai-editable-area .obsai-reference::before {
+    left: -1px;
+}
+
+.obsai-editable-area .obsai-reference::after {
+    right: -1px;
+}
+
+
+/* 添加新规则处理 span 的父容器 */
+.obsai-editable-area span.obsai-reference {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: middle;
+    pointer-events: none;    /* 防止内部编辑 */
+}
+
+/* 确保引用标签在编辑区域中的行为 */
+.obsai-editable-area {
+    position: relative;
+    cursor: text;
+}
+
+/* 防止光标进入引用标签内部 */
+.obsai-editable-area .obsai-reference::before,
+.obsai-editable-area .obsai-reference::after {
+    content: '\200B';  /* 零宽空格 */
+    display: inline;
+    pointer-events: none;
+}
+
+.obsai-editable-area {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: var(--text-normal);
+    white-space: pre-wrap;
+    word-break: break-word;
+    outline: none;
+    /* 添加以下属性 */
+    cursor: text;            /* 确保文本区域显示文本光标 */
+}
+
+/* 添加新规则处理 span 的父容器 */
+.obsai-editable-area span {
+    display: inline-block;   /* 使 span 作为一个整体 */
+    vertical-align: middle;  /* 垂直对齐 */
+}
+
+/* 添加新规则确保引用可以被整体选中和删除 */
+.obsai-editable-area .obsai-reference {
+    position: relative;      /* 相对定位 */
+    z-index: 1;             /* 确保在正确的层级 */
+}
+.obsai-editable-container {
+    position: relative;
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 8px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-primary);
+}
+.obsai-editable-area {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: var(--text-normal);
+    white-space: pre-wrap;
+    word-break: break-word;
+    outline: none;
+}
+.obsai-editable-area:empty::before {
+    content: attr(data-placeholder);
+    color: var(--text-muted);
+    pointer-events: none;
+    position: absolute;
+}
+.obsai-editable-area:focus {
+    border-color: var(--interactive-accent);
+}
+.obsai-note-reference {
+    display: inline-block;
+    padding: 2px 4px;
+    margin: 0 2px;
+    background-color: var(--background-modifier-success);
+    border-radius: 4px;
+    color: var(--text-on-accent);
+    font-size: 0.9em;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.obsai-button-group {
+    display: flex;
+    gap: var(--size-2-2);
+    padding-bottom: var(--size-4-2);
+    border-bottom: 1px solid var(--background-modifier-border);
+    margin-bottom: var(--size-4-2);
+}
+
+.split-button-container {
+    padding: var(--size-2-2) var(--size-4-2);
+    border-radius: var(--radius-s);
+    font-size: var(--font-ui-small);
+    font-weight: var(--font-medium);
+    background-color: var(--interactive-normal);
+    color: var(--text-normal);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.split-button-container:hover {
+    background-color: var(--interactive-hover);
+}
+
+.split-button-container.active {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.split-button-container.active:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.static-templates{
+    background-color: var(--bg3) !important
+}
+
+/* .active-templates{
+    background-color: var(--bg1) !important
+} */
+.obsai-hover-hint-container {
+    background-color: transparent;
+    position: absolute;
+    z-index: 1000;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    transform: translateY(-100%); /* 确保按钮显示在文本上方 */
+}
+
+.hint-chat {
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
+    padding: var(--size-2-2) var(--size-2-3);
+    border-radius: var(--radius-s);
+    display: flex;
+    align-items: center;
+    gap: var(--size-2-2);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px; /* 增加与文本的距离 */
+}
+
+.hint-chat:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.hint-chat-icon {
+    width: var(--icon-s);
+    height: var(--icon-s);
+}
+
+.hint-chat-label {
+    flex: 1;
+}
+
+.hint-chat-shortcut {
+    opacity: 0.6;
+    font-size: var(--font-ui-smaller);
+}
+
+/* 添加动画效果 */
+.obsai-hover-hint-container {
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-90%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-100%);
+    }
+}
+.obsai-material-collector {
+    display: flex;
+    align-items: center;
+    padding: var(--size-4-2);
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-s);
+}
+
+button.obsai-collect-button {
+    display: flex;
+    align-items: center;
+    gap: var(--size-4-2);
+    /* padding: var(--size-4-3) var(--size-4-4); */
+    /* background-color: var(--interactive-accent) !important; */
+    /* color: var(--text-on-accent); */
+    border-radius: var(--radius-s);
+    border: none;
+    cursor: pointer;
+    font-size: var(--font-ui-smaller);
+    transition: background-color 0.2s ease;
+}
+
+.obsai-collect-button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.obsai-collect-button i {
+    font-size: var(--font-ui-medium);
+}
+
+.obsai-icon {
+    width: var(--icon-s);
+    height: var(--icon-s);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collecting .obsai-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.obsai-material-list {
+    padding: var(--size-4-4);
+    margin-bottom: var(--size-4-4);
+    background-color: var(--background-primary);
+    border-radius: var(--radius-m);
+}
+
+.material-list-header {
+    font-size: var(--text-normal);
+    margin-bottom: var(--size-2-1);
+    color: var(--text-normal);
+}
+
+.material-list-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-4-2);
+}
+
+.material-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--size-4-3);
+    background-color: var(--background-primary);
+    border-radius: var(--radius-s);
+    box-shadow: var(--shadow-s);
+}
+
+.material-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-name {
+    font-weight: var(--font-ui-smaller);
+    color: var(--text-normal);
+    font-size: var(--font-ui-smaller);
+}
+
+.material-type {
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+}
+
+.material-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--icon-l);
+    height: var(--icon-l);
+    padding: var(--size-2-2);
+    color: var(--text-muted);
+    border-radius: 50%;
+    background-color: var(--background-secondary);
+    transition: all 0.2s ease;
+}
+
+.material-delete:hover {
+    color: var(--text-error);
+    background-color: var(--background-modifier-hover);
+    transform: scale(1.1);
+}
+
+.material-delete-icon {
+    width: var(--icon-s);
+    height: var(--icon-s);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 深色模式 */
+@media (prefers-color-scheme: dark) {
+    .obsai-material-list {
+        background-color: var(--background-primary)
+    }
+
+    .material-list-header {
+        color: #d1d5db;
+    }
+
+    .material-item {
+        background-color: #374151;
+    }
+
+    .material-name {
+        color: #e5e7eb;
+    }
+
+    .material-type {
+        color: #9ca3af;
+    }
+
+    .material-delete {
+        color: #9ca3af;
+    }
+
+    .material-delete:hover {
+        color: #f87171;
+    }
+}
+.new-chat {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-2-3);
+    padding: var(--size-2-3);
+}
+
+.new-chat-header {
+    font-size: var(--font-ui-large);
+    font-weight: var(--font-semibold);
+}
+
+.new-chat-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-2-2);
+}
+
+.new-chat-input {
+    width: 100%;
+    padding: var(--size-2-2);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-s);
+}
+
+.new-chat-input:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+}
+
+.obsai-conversation-id {
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+    opacity: 0.8;
+}
+
+
+.retry-notice-container {
+    
+    padding: 0.6rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.retry-notice .retry-button:hover {
+    background-color: var(--interactive-accent-hover);
+} 
+
+.notice-icon {
+    width: 16px;
+    height: 16px;
+    color: var(--text-error);
+    margin-right: .5rem;
+}
+
+
+.obsai-view {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.obsai-view-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--size-2-3);
+}
+
+.obsai-view-footer {
+    border-top: 1px solid var(--background-modifier-border);
+    padding: var(--size-2-3);
+}
+
+.obsai-view-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-muted);
+}
+
+.obsai-hover-hint-container {
+    z-index: 50;
+    transition: opacity 0.2s ease;
+    opacity: 1;
+}
+
+.obsai-hover-hint-container.obsai-simple-style {
+    background-color: var(--background-primary);
+    border-radius: var(--radius-m);
+    box-shadow: var(--shadow-s);
+    border: 1px solid var(--background-modifier-border);
+}
+.settings-panel {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-2-3);
+    padding: var(--size-2-3);
+}
+
+.settings-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-2-2);
+}
+
+.settings-section-header {
+    font-size: var(--font-ui-large);
+    font-weight: var(--font-semibold);
+}
+
+.settings-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--size-2-2);
+    border-radius: var(--radius-s);
+    transition: background-color 0.2s ease;
+}
+
+.settings-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.settings-item-label {
+    font-size: var(--font-ui-small);
+    font-weight: var(--font-medium);
+}
+
+.settings-item-description {
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+}
+/* 组件样式导入 - 必须放在最前面 */
+/* @import './components/ObsAIView.css';
+@import './components/MaterialCollector.css';
+@import './components/MaterialList.css'; */
+
+/* Tailwind 指令 */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Global styles and Obsidian theme integration */
+:root {
+  --obsai-accent-color: var(--interactive-accent);
+  --obsai-text-color: var(--text-normal);
+  --obsai-background-color: var(--background-primary);
+  --obsai-border-color: var(--background-modifier-border);
+  --obsai-font-family: var(--font-text);
+  --obsai-font-size: var(--font-text-size);
+  --obsai-primary-color: var(--interactive-accent);
+}
+
+/* RTL Support */
+.mod-rtl .obsai-view {
+  direction: rtl;
+}
+
+/* Base styles */
+.obsai-view {
+  font-family: var(--obsai-font-family);
+  font-size: var(--obsai-font-size);
+  color: var(--obsai-text-color);
+  background-color: var(--obsai-background-color);
+}
+
+/* Button styles */
+.obsai-button {
+  background-color: var(--obsai-accent-color);
+  color: var(--background-primary);
+  border: 1px solid var(--obsai-border-color);
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.obsai-button:hover {
+  background-color: var(--interactive-accent-hover);
+}
+
+/* Input styles */
+.obsai-input {
+  background-color: var(--background-primary);
+  color: var(--obsai-text-color);
+  border: 1px solid var(--obsai-border-color);
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+}
+
+.obsai-input:focus {
+  border-color: var(--obsai-accent-color);
+  outline: none;
+}

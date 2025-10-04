@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"700949c7504383a8","type":"text","text":"\n\n[[Spatial Imagery|Spatial Imagery]]\n[[Spatial Data]]\n[[Visuospatial ability]]\n[[Depth perception]]\n[[Attention Network theory]]\n[[Binocular Vision]]\n","x":-380,"y":-460,"width":729,"height":407},
+		{"id":"16c44efebf474a91","x":-1088,"y":-675,"width":468,"height":155,"type":"text","text":"occipito-parietal network(枕顶网络) 充当了将视觉信息分配到更高处理区域的桥梁。"},
+		{"id":"45f3524ae4bd419b","x":-400,"y":-920,"width":729,"height":340,"type":"file","file":"视觉空间过程相关概念.md"}
+	],
+	"edges":[]
+}

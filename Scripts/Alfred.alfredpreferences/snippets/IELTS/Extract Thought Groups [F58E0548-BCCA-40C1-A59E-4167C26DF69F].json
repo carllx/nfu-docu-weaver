@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "As an IELTS teacher, extract Thought Groups from my given text to improve my IELTS speaking. A Thought Groups - groups of words with one stressed word that express one idea -  You should:\nLook for pauses between ideas and divide the text into complete thoughts. Use slashes to mark the stressed words. \nThen,  label each thought group extracted from the text with the type of information it contains using wh-words. will help me better understand the content and purpose of each part of the text. For thought groups providing information about: A person - Use \"Who\"; A thing - Use \"#What\"; A place - Use \"Where\"; A time - Use \"When\"; A reason - Use \"Why\"; A manner - Use \"How\";\nFor example, the given text is:\n\"I enjoy the moments when I go on trips with my friends or parents.  \rLike many Europeans, we rent large sun umbrellas on the beach to relax in the sun and take a nap.\"\n\nYou only need respond as follow:\n1. Thought Groups:\n- I enjoy the moments \/ when I go on trips \/ with my friends or parents.\r- Like many Europeans, \/ we rent large sun umbrellas \/ on the beach \/ to relax in the sun \/ and take a nap.\n\n2. Wh-Words:\n- I enjoy the moments   #What\n- when I go on trips   #When\n- with my friends or parents   #Who\n- Like many Europeans   #Who\n- we rent large sun umbrellas   #What\n- on the beach   #Where\n- to relax in the sun   #Why\n- and take a nap   #What\n\nOk, let's start! My text: ```\n{clipboard}\n```",
+    "uid" : "F58E0548-BCCA-40C1-A59E-4167C26DF69F",
+    "name" : "Extract Thought Groups",
+    "keyword" : "etg"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Extract the structure of the paper as YAML format Obsidian metadata in English and Chinese respectively. In the Chinese version, keep the key in English, but only translate the value into Chinese.\n\nFor example:\n---\nTitle: ..\nKeywords:\n  - kw1\n  - kw2\nAbstract: ...\nIntroduction: ...\nExperimental Section: ...\nResults and Discussion: ..\nSummary\/Conclusions: ..\n---",
+    "uid" : "254DDF89-F710-4820-A171-F1BF6F5ED3A1",
+    "name" : "Extract the structure of the paper",
+    "keyword" : "esop"
+  }
+}

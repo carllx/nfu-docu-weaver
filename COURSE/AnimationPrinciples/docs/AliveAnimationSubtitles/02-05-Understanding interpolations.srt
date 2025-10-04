@@ -1,0 +1,477 @@
+﻿1
+00:00:00,290 --> 00:00:03,220
+- Before we start animating
+our bouncing ball,
+
+2
+00:00:03,220 --> 00:00:07,240
+one of the most important
+thing you have to understand
+
+3
+00:00:07,240 --> 00:00:10,710
+is interpolation, timing and spacing.
+
+4
+00:00:10,710 --> 00:00:12,950
+Timing and spacing are two
+
+5
+00:00:12,950 --> 00:00:16,240
+of the 12 principles of animation.
+
+6
+00:00:16,240 --> 00:00:20,070
+Interpolation is quite new
+since it's the computer
+
+7
+00:00:20,070 --> 00:00:23,310
+that is doing the interpolation
+between two key frame
+
+8
+00:00:23,310 --> 00:00:26,810
+while in the past, they
+used to animate everything
+
+9
+00:00:26,810 --> 00:00:29,440
+by and adding drawings and drawings.
+
+10
+00:00:29,440 --> 00:00:31,310
+Timing is the pace.
+
+11
+00:00:31,310 --> 00:00:34,660
+It's the moment when the
+ball leave the ground,
+
+12
+00:00:34,660 --> 00:00:38,240
+is up in the sky and
+then hit back the ground.
+
+13
+00:00:38,240 --> 00:00:42,580
+It is defined by the key
+moment of the animation
+
+14
+00:00:42,580 --> 00:00:44,200
+or in the extreme,
+
+15
+00:00:44,200 --> 00:00:48,080
+the extreme high position
+and the extreme low position
+
+16
+00:00:48,080 --> 00:00:49,110
+in this case.
+
+17
+00:00:49,110 --> 00:00:53,860
+We have a timing of 12 frame
+to get to the highest position
+
+18
+00:00:53,860 --> 00:00:56,500
+and 12 frame to get back on the ground.
+
+19
+00:00:56,500 --> 00:01:00,750
+Spacing is the different
+of position of our sphere
+
+20
+00:01:00,750 --> 00:01:03,100
+from one frame to the other.
+
+21
+00:01:03,100 --> 00:01:06,070
+We can easily display the spacing
+
+22
+00:01:06,070 --> 00:01:09,090
+by going into the object
+option, motion path,
+
+23
+00:01:09,090 --> 00:01:14,090
+set the frame from zero
+to 24 and click calculate.
+
+24
+00:01:14,110 --> 00:01:16,360
+Then there we create a curve
+
+25
+00:01:16,360 --> 00:01:18,800
+that go through different point
+
+26
+00:01:18,800 --> 00:01:23,270
+that mark the position of
+the origin of our sphere
+
+27
+00:01:23,270 --> 00:01:24,720
+on each key frame.
+
+28
+00:01:24,720 --> 00:01:28,980
+The distance between those
+points is our spacing
+
+29
+00:01:28,980 --> 00:01:33,980
+and this spacing is based on
+the timing of our animation
+
+30
+00:01:34,230 --> 00:01:37,840
+and the interpolation
+between two key frames.
+
+31
+00:01:37,840 --> 00:01:42,490
+By default, blender
+interpolation is set to bezier.
+
+32
+00:01:42,490 --> 00:01:46,050
+What it does is that it
+creates an acceleration
+
+33
+00:01:46,050 --> 00:01:49,560
+when the object is moving from a key frame
+
+34
+00:01:49,560 --> 00:01:54,220
+and a deceleration when it's
+arriving on the next key frame.
+
+35
+00:01:54,220 --> 00:01:59,220
+These are known as easing out
+and easing in meaning that
+
+36
+00:01:59,910 --> 00:02:03,440
+you are easing out of
+the key frame leaving it
+
+37
+00:02:03,440 --> 00:02:05,220
+for an acceleration
+
+38
+00:02:05,220 --> 00:02:09,730
+and you are easing into the
+next key frame slowing down
+
+39
+00:02:09,730 --> 00:02:12,690
+before reaching or hitting its position.
+
+40
+00:02:12,690 --> 00:02:16,940
+So basically with that
+we've a very slow motion
+
+41
+00:02:16,940 --> 00:02:20,050
+and it accelerate along the way.
+
+42
+00:02:20,050 --> 00:02:24,090
+On frame 12, it will
+reach its maximum speed.
+
+43
+00:02:24,090 --> 00:02:26,890
+So the spacing will be the biggest.
+
+44
+00:02:26,890 --> 00:02:30,570
+And when it will come close to frame 24,
+
+45
+00:02:30,570 --> 00:02:32,340
+it will slow down.
+
+46
+00:02:32,340 --> 00:02:37,250
+This is what the bezier
+interpolation does by default.
+
+47
+00:02:37,250 --> 00:02:39,620
+You can change the interpolation mode
+
+48
+00:02:39,620 --> 00:02:42,560
+by selecting all the key frame with A
+
+49
+00:02:42,560 --> 00:02:44,280
+and pressing the T key.
+
+50
+00:02:44,280 --> 00:02:47,420
+It will open the interpolation panel
+
+51
+00:02:47,420 --> 00:02:51,250
+where we can choose which
+interpolation our key frame
+
+52
+00:02:51,250 --> 00:02:52,480
+will be using.
+
+53
+00:02:52,480 --> 00:02:56,760
+There are a lot of different
+pre-made interpolation
+
+54
+00:02:56,760 --> 00:03:00,630
+but we only need to
+focus on very first one.
+
+55
+00:03:00,630 --> 00:03:02,170
+To be perfectly honest,
+
+56
+00:03:02,170 --> 00:03:04,560
+I never used all the others,
+
+57
+00:03:04,560 --> 00:03:06,870
+but they can be very useful
+
+58
+00:03:06,870 --> 00:03:09,270
+if you want to build fast motion
+
+59
+00:03:09,270 --> 00:03:11,740
+for motion design, for example.
+
+60
+00:03:11,740 --> 00:03:14,740
+But in our case, we will be mostly working
+
+61
+00:03:14,740 --> 00:03:17,040
+using those three during the course.
+
+62
+00:03:17,040 --> 00:03:20,430
+Let's select the linear interpolation.
+
+63
+00:03:20,430 --> 00:03:22,500
+As soon as I will select it,
+
+64
+00:03:22,500 --> 00:03:24,870
+the behavior of the ball will change
+
+65
+00:03:24,870 --> 00:03:28,460
+and we will get a more robotic movement.
+
+66
+00:03:28,460 --> 00:03:30,280
+In the motion path tab,
+
+67
+00:03:30,280 --> 00:03:32,600
+I will click the update path
+
+68
+00:03:32,600 --> 00:03:35,400
+and now we can see that the spacing
+
+69
+00:03:35,400 --> 00:03:39,300
+between the different
+frames is always the same.
+
+70
+00:03:39,300 --> 00:03:40,570
+The spacing is even.
+
+71
+00:03:40,570 --> 00:03:44,810
+If we know compare and linear
+and bezier interpolation,
+
+72
+00:03:44,810 --> 00:03:47,290
+we can see that the timing is the same.
+
+73
+00:03:47,290 --> 00:03:51,390
+They reach the lowest and
+highest point at the same time
+
+74
+00:03:51,390 --> 00:03:55,970
+but on the bezier, we have
+a variation of the spacing.
+
+75
+00:03:55,970 --> 00:03:59,510
+So we have a variation
+of the speed of the ball
+
+76
+00:03:59,510 --> 00:04:02,770
+while in linear it's constant.
+
+77
+00:04:02,770 --> 00:04:07,770
+The linear interpolation is
+very useful for robotic moves
+
+78
+00:04:08,090 --> 00:04:11,010
+or for wall cycles for example
+
+79
+00:04:11,010 --> 00:04:12,960
+when the foot is on the ground.
+
+80
+00:04:12,960 --> 00:04:14,370
+Back to our motion,
+
+81
+00:04:14,370 --> 00:04:15,830
+I will select all the key,
+
+82
+00:04:15,830 --> 00:04:19,630
+press the T shortcut
+and set it to constant.
+
+83
+00:04:19,630 --> 00:04:22,910
+I will update the path
+and now we can see that
+
+84
+00:04:22,910 --> 00:04:25,970
+the ball is changing position only
+
+85
+00:04:25,970 --> 00:04:29,280
+when it reaches the next key frame.
+
+86
+00:04:29,280 --> 00:04:31,310
+So it's considered a
+constant interpolation
+
+87
+00:04:33,256 --> 00:04:35,140
+or no interpolation
+
+88
+00:04:35,140 --> 00:04:39,613
+and it's perfect to focus on
+the timing of your animation.
+
+89
+00:04:39,613 --> 00:04:42,320
+This is the kind of interpolation we use
+
+90
+00:04:42,320 --> 00:04:44,580
+when we are blocking the animation.
+
+91
+00:04:44,580 --> 00:04:48,800
+In most animation,
+blocking is the first stage
+
+92
+00:04:48,800 --> 00:04:50,710
+and it's very important.
+
+93
+00:04:50,710 --> 00:04:54,310
+And we will start blocking
+our bouncing ball animation
+
+94
+00:04:54,310 --> 00:04:55,930
+in the next video.
+
+95
+00:04:55,930 --> 00:04:59,100
+Stepped interpolation
+can also be very useful
+
+96
+00:04:59,100 --> 00:05:02,350
+whenever you want to give
+the stop motion style
+
+97
+00:05:02,350 --> 00:05:04,973
+to your animation like on this example.
+
+98
+00:05:05,950 --> 00:05:09,660
+To summarize, we have seen
+that interpolation occur
+
+99
+00:05:09,660 --> 00:05:11,600
+between two key frames,
+
+100
+00:05:11,600 --> 00:05:14,430
+that we can change the interpolation mode
+
+101
+00:05:14,430 --> 00:05:15,950
+using the T key,
+
+102
+00:05:15,950 --> 00:05:18,735
+that the bezier interpolation
+
+103
+00:05:18,735 --> 00:05:21,390
+allow acceleration and deceleration
+
+104
+00:05:21,390 --> 00:05:23,900
+or easing in an easing out,
+
+105
+00:05:23,900 --> 00:05:27,810
+that the linear interpolation
+has a constant speed
+
+106
+00:05:27,810 --> 00:05:30,790
+while the constant interpolation
+
+107
+00:05:30,790 --> 00:05:32,970
+doesn't show any interpolation
+
+108
+00:05:32,970 --> 00:05:35,813
+and is good to check out your timing.
+

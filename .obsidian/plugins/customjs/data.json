@@ -1,0 +1,11 @@
+{
+  "jsFiles": "",
+  "jsFolder": "Scripts/obs_customjs/",
+  "startupScriptNames": [],
+  "registeredInvocableScriptNames": [
+    "ExportWordbyPandoc",
+    "GPT",
+    "MarkdownReferenceFormatter"
+  ],
+  "rerunStartupScriptsOnFileChange": false
+}

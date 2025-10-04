@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "#popclip\nname: Alfred Speaker\nicon: iconify:iconoir:sound-min\nurl: alfred:\/\/runtrigger\/TTS\/z+selected+speak\/?argument=***\n\n\n#popclip\nname: Translator\nicon: iconify:iconoir:sound-min\nalfred:\/\/runtrigger\/TTS\/z+translate\/?argument=***\n\n\n\n",
+    "uid" : "E943EAC5-E94D-46DB-933A-B7F4B1AB3192",
+    "name" : "add  action",
+    "keyword" : ""
+  }
+}

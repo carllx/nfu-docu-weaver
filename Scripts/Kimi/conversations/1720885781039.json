@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cq9a4b4ubms3ao47p3cg",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "#kimi",
+                "anatomy education",
+                "augmented reality",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "mixed reality",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education",
+                "virtual reality"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "### 核心主题\n本文的核心主题是探讨虚拟现实（VR）和增强现实（AR）技术在医学和科学学生学习生理学和解剖学过程中对测试表现的影响。通过系统综述和元分析的方法，作者评估了这些技术作为教学工具的有效性。\n\n### 关键论点/故事线\n- **技术应用的背景**：医学教育中对解剖学和生理学的传统教学方法正在经历技术革新，VR和AR技术提供了新的学习模式。\n- **研究目的**：系统评估VR和AR技术对医学前临床生理学和解剖学学生知识获取的影响。\n- **研究方法**：通过多个数据库进行文献检索，筛选符合条件的研究，并进行元分析。\n- **结果分析**：综合分析了8项研究，发现VR和AR技术与传统教学方法相比，在知识得分上没有显著差异。\n\n### 特定段落或部分\n- **研究方法**：在“Materials and Methods”部分，作者详细描述了研究的协议、包含的研究类型、搜索策略和数据提取方法，为研究的系统性和可靠性提供了支持。\n- **风险评估**：在“Risk of bias”部分，作者通过Cochrane Collaboration的工具对纳入研究的偏倚风险进行了评估，增强了研究结果的可信度。\n- **统计分析**：在“Statistical analysis”部分，作者使用了Review Manager软件进行了元分析，并通过I²统计量来衡量异质性，为结果的解释提供了数据支持。\n\n### 语言特点/写作风格\n- 作者使用了严谨的学术语言，确保了论文的权威性和专业性。\n- 在描述研究方法和结果时，作者采用了清晰的逻辑结构，便于读者理解和跟进。\n- 在讨论部分，作者不仅呈现了数据分析的结果，还对可能的解释和未来研究方向进行了深入探讨，显示了批判性思维。\n\n### 阅读时的问题引导\n1. 作者如何构建他的论点？是否提供了充分的证据支持？\n2. 这些论点如何与数字媒体以及艺术领域相联系？例如，VR和AR技术在艺术和设计教育中的应用是否可以借鉴本文的研究成果？\n3. 文章中提到的技术在医学教育中的具体应用有哪些？这些应用如何影响学生的学习体验和知识掌握？\n\n### 引用格式\n在回答中引用本文时，请使用以下格式：Moro et al., 2021。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n导读\n作为一个引导",
+    "group_id": "cq9a4b03qfff93tchhc0",
+    "req_id": "cq9a4b03qfff93tchhcg",
+    "resp_id": "cq9a4b03qfff93tchhd0",
+    "quection": "导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。"
+}

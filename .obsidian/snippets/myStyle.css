@@ -1,0 +1,78 @@
+.theme-dark .cm-s-obsidian span.cm-hashtag {
+    background-color: rgb(73 54 153 / 58%);
+    color: rgb(179 189 204);
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-left: none;
+    border-right: none;
+    cursor: text;
+}
+.theme-dark .cm-s-obsidian span.cm-hashtag {
+    /* background-color: var(--tag-background-color-d); */
+    /* color: var(--tag-font-color-d);
+    font-size: var(--font-adaptive-small);
+    font-family: var(--font-ui); */
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-left: none;
+    border-right: none;
+    cursor: text;
+}
+.markdown-source-view.mod-cm6 .cm-line > * {
+    text-indent: 0;
+}
+
+span.cm-hashtag.cm-hashtag-end {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-left: none;
+    padding-right: 8px;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+span.cm-hashtag.cm-hashtag-begin {
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    padding-left: 8px;
+    border-right: none;
+    border-left: 1px solid var(--background-modifier-border);
+}
+
+
+.cm-strikethrough {
+    text-decoration: line-through;
+    /* color: aqua; */
+    text-decoration-color: #4836998a;
+    text-decoration-thickness: 0.2rem;
+}
+
+/* differentiate search highlighting vs normal highlighting */
+.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+    background-color: rgb(175 121 197 / 60%);
+    color: #c3c3c3;
+}
+/* Graph 空Notes */
+.graph-view.color-fill-unresolved {
+    color: rgba(247, 67, 217, 0.867);
+    opacity: 0.4;
+    /* color: var(--text-muted);
+    opacity: 0.4; */
+  }
+
+  /* Graph 的 Tag 标签 */
+  .theme-dark .graph-view.color-fill-tag {
+    color: #592190;
+  }
+
+/*Page Header 不够明显, 弄成紫色*/
+  .view-header{
+    background-color: #483699;
+  }

@@ -1,0 +1,1483 @@
+1
+00:00:01,690 --> 00:00:05,240
+So after the time lapse in which we do all those plants
+
+2
+00:00:05,240 --> 00:00:07,320
+let's really organiz​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​‌​‌​​‌‌​​‌‌​​‌‌‌‌‌​​​‌‌​​‌‌‌‌​‌​​​‌​​‌‌‌​‌‌‌‌​‌​‌​‌‌‌​‌​​‌‌‌‌​‌​‌‌‌‌‌​‌‌‌‌‌​​‌‌​‌‌‌​​‌‌​‌​‌​​‌‌‌‌‌‌​​‌‌​​​‌​​‌‌​​‌‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌​‌‌‌​​‌‌‌​​‌‌‌​‌‌‌‌​​​‌‌‌​‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌​‌‌​​‌‌‌​‌‌​​‌‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌​​‌‌‌‌​‌‌​​‌​​‌‌​‌​‌​​‌‌​‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌‌‌​​‌‌‌​‌‌​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​‌‌​​‌‌​​​‌​​‌‌‌​​‌​​‌‌​​‌‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌​‌‌‌​​‌‌​‌​‌​​‌‌‌​‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌‌​​​‌‌‌​‌‌‌‌​‌‌‌​‌‌‌​‌​‌​‌‌‌​‌​‌‌‌‌‌​‌​‌‌‌‌‌​‌​‌​‌​​‌‌​‌​‌​​‌‌​‌​‌‌‌​‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​​‌​​‌‌‌‌​‌​​‌‌​‌‌​​​‌‌‌‌​‌​​‌‌​‌‌‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌​‌​‌​​‌‌​​‌‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​‌​​‌‌‌​​‌​​‌‌​​‌‌​​‌‌‌‌​‌​​‌‌‌‌​‌​​‌‌​​‌‌‌‌​‌‌‌‌​​​‌‌‌‌‌​​​‌‌‌​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌​​‌​​‌‌​‌​‌‌‌​‌​‌‌‌​​‌‌​‌‌​​​‌‌‌‌​‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌​‌​​‌‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌‌‌​‌​‌‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌‌‌​​‌‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌​​‌‌‌​​‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌e them
+
+3
+00:00:07,320 --> 00:00:10,240
+And this lesson is going to be about how to animate not only those plants
+
+4
+00:00:10,240 --> 00:00:14,520
+but also the eyes and the mouth of our Carter believe
+
+5
+00:00:14,790 --> 00:00:17,580
+So I'm gonna select these plants and some of them
+
+6
+00:00:17,620 --> 00:00:19,500
+the anchor point is gonna be in the correct position
+
+7
+00:00:19,510 --> 00:00:20,120
+but this one
+
+8
+00:00:20,120 --> 00:00:20,490
+for example
+
+9
+00:00:20,490 --> 00:00:21,500
+needs to be a bit more up
+
+10
+00:00:21,900 --> 00:00:22,440
+Other ones
+
+11
+00:00:22,440 --> 00:00:23,120
+for example
+
+12
+00:00:23,130 --> 00:00:24,990
+the anchor point is in the incorrect position
+
+13
+00:00:25,060 --> 00:00:29,070
+So we just affect only origins and we put this at the very beginning angle
+
+14
+00:00:29,550 --> 00:00:30,330
+as simple as that
+
+15
+00:00:30,350 --> 00:00:33,050
+So with the new exclusive of animation
+
+16
+00:00:33,230 --> 00:00:33,850
+I guess
+
+17
+00:00:34,440 --> 00:00:37,390
+we are actually not going to animate using that mode
+
+18
+00:00:37,400 --> 00:00:37,680
+It could
+
+19
+00:00:37,830 --> 00:00:39,850
+it's possible completely to animate like that
+
+20
+00:00:39,950 --> 00:00:43,270
+So we could animate a bit of rotation doing this
+
+21
+00:00:43,300 --> 00:00:46,740
+So we would be moving all the objects at the same time
+
+22
+00:00:46,860 --> 00:00:48,810
+but we want something a tiny bit more complex
+
+23
+00:00:48,860 --> 00:00:51,310
+so that's not really giving us what we wanted
+
+24
+00:00:51,740 --> 00:00:52,610
+Okay
+
+25
+00:00:52,620 --> 00:00:53,530
+that's good there
+
+26
+00:00:53,570 --> 00:00:54,360
+and I think this plant
+
+27
+00:00:54,370 --> 00:00:54,850
+oh no
+
+28
+00:00:55,090 --> 00:00:56,040
+this one needs to be there
+
+29
+00:00:56,110 --> 00:00:59,150
+So all the plants now have the anchor points where they should
+
+30
+00:00:59,190 --> 00:01:08,790
+So now we are going to activate my reference image and let's see where the elements were in the reference image so we can see that this plant was here
+
+31
+00:01:09,260 --> 00:01:11,530
+we can see that this one
+
+32
+00:01:11,600 --> 00:01:14,570
+oh I'm going to move it up so it's not intersecting there
+
+33
+00:01:14,810 --> 00:01:18,490
+This one was a bit behind the Carter
+
+34
+00:01:19,320 --> 00:01:22,270
+this one was a bit like that
+
+35
+00:01:22,280 --> 00:01:23,880
+That's looking good there
+
+36
+00:01:23,930 --> 00:01:25,490
+and now it doesn't need to be exact
+
+37
+00:01:25,510 --> 00:01:28,880
+but it's good to kind of start putting everything in position
+
+38
+00:01:28,940 --> 00:01:32,160
+so it looks pretty okay and this one
+
+39
+00:01:32,170 --> 00:01:33,310
+Ohthis 1 I forgot
+
+40
+00:01:33,330 --> 00:01:34,150
+I know it's good
+
+41
+00:01:34,690 --> 00:01:35,770
+this one goes down
+
+42
+00:01:35,930 --> 00:01:37,500
+okaythat's looking good
+
+43
+00:01:37,720 --> 00:01:40,050
+that's having enough plants surrounding my car
+
+44
+00:01:40,140 --> 00:01:42,360
+The only 1 I would put this one a bit on front
+
+45
+00:01:42,370 --> 00:01:44,150
+I like that it was covering a bit of leg
+
+46
+00:01:45,050 --> 00:01:51,820
+it's nice to have the surrounding of the character because as well in that if we do that people are really going to see how this all was in 3D
+
+47
+00:01:52,090 --> 00:01:53,140
+especially when they move
+
+48
+00:01:53,140 --> 00:01:54,500
+that's going to be very lovely
+
+49
+00:01:54,600 --> 00:01:55,220
+Okay
+
+50
+00:01:55,230 --> 00:02:03,340
+so I'm already seeing one little problem is that I have some keyframes that are on the 0．62
+
+51
+00:02:03,350 --> 00:02:07,960
+that's because I was drawing on the layer 62 and that's very typical
+
+52
+00:02:07,960 --> 00:02:10,300
+no worries if that happens we're gon na solve that
+
+53
+00:02:10,310 --> 00:02:11,810
+but it's something that I've done wrong
+
+54
+00:02:11,850 --> 00:02:14,720
+I think the first plant probably was drawn on the frame one
+
+55
+00:02:15,070 --> 00:02:17,170
+but these ones were drawn not second
+
+56
+00:02:17,170 --> 00:02:19,390
+but frame 62 accidentally
+
+57
+00:02:19,400 --> 00:02:21,080
+so we're gon na solve that in a second
+
+58
+00:02:21,800 --> 00:02:26,070
+so should we start kind of checking how animation works
+
+59
+00:02:26,070 --> 00:02:26,390
+Yeah
+
+60
+00:02:26,390 --> 00:02:27,200
+let's find out
+
+61
+00:02:27,210 --> 00:02:29,560
+okaywe're gon na go here to 2D animation
+
+62
+00:02:29,560 --> 00:02:31,950
+that's the way we're going to modify and as I was saying
+
+63
+00:02:31,950 --> 00:02:34,450
+we don't need 250 frames of animation
+
+64
+00:02:34,480 --> 00:02:36,910
+Probably something like 100 is going to be enough
+
+65
+00:02:36,960 --> 00:02:38,280
+And now 100
+
+66
+00:02:38,280 --> 00:02:39,930
+we can zoom in a tiny bit there
+
+67
+00:02:39,940 --> 00:02:42,860
+So we go from one to 100 and now I'm gon na
+
+68
+00:02:42,860 --> 00:02:43,750
+go to frame 1
+
+69
+00:02:43,760 --> 00:02:46,160
+I'm going to try to move everything I can
+
+70
+00:02:46,180 --> 00:02:48,470
+I'm gonna select everything in that shape
+
+71
+00:02:48,660 --> 00:02:49,790
+move it to frame 1
+
+72
+00:02:49,800 --> 00:02:52,680
+You see that those shapes disappeared because there was nothing on that frame
+
+73
+00:02:52,780 --> 00:02:56,360
+So that's why it's important to go now to plan for
+
+74
+00:02:56,370 --> 00:02:57,920
+I'm going to move it to frame 1
+
+75
+00:02:58,160 --> 00:03:00,900
+Okayso these are all the ones accidentally
+
+76
+00:03:01,700 --> 00:03:03,330
+okaynice to know you can fix that easily
+
+77
+00:03:03,340 --> 00:03:04,740
+Yesand it's good
+
+78
+00:03:04,750 --> 00:03:06,200
+sometimes it can be confusing that
+
+79
+00:03:06,210 --> 00:03:09,220
+And it's normal because sometimes we are testing the animation and we forget that
+
+80
+00:03:09,230 --> 00:03:11,040
+So now all my plants are in frame 1
+
+81
+00:03:11,240 --> 00:03:12,660
+and let's see how we can do animation
+
+82
+00:03:12,730 --> 00:03:15,370
+So we have a few different ways of animating in grease pencil
+
+83
+00:03:15,370 --> 00:03:17,110
+One of them is frame by frame animation
+
+84
+00:03:17,110 --> 00:03:18,960
+so we draw something on the first frame
+
+85
+00:03:18,960 --> 00:03:21,730
+then we draw on the next one and go frame by frame
+
+86
+00:03:22,240 --> 00:03:23,420
+So a bit like we would do
+
+87
+00:03:23,420 --> 00:03:24,100
+for example
+
+88
+00:03:24,110 --> 00:03:27,060
+in programs like Photoshop or Procreate or Animate
+
+89
+00:03:28,010 --> 00:03:37,730
+Another way in which we could do it is we could just have two positions and then tell the program to interpolate between them a bit more what we do when we are animating in 3D or for example
+
+90
+00:03:37,850 --> 00:03:39,600
+how we would do it in After Effects
+
+91
+00:03:39,880 --> 00:03:43,210
+So we're going to be looking at those both ways of doing it
+
+92
+00:03:43,540 --> 00:03:44,710
+Now we're going to deactivate
+
+93
+00:03:46,540 --> 00:03:47,850
+I'm gonna hide everything
+
+94
+00:03:47,860 --> 00:03:49,600
+I'm gonna go to my frontal view
+
+95
+00:03:49,940 --> 00:03:51,190
+put a new grease pencil
+
+96
+00:03:51,200 --> 00:03:51,980
+and I put it here
+
+97
+00:03:51,990 --> 00:03:52,870
+a blank grease pencil
+
+98
+00:03:52,870 --> 00:03:54,770
+and let's start understanding how it works
+
+99
+00:03:54,850 --> 00:03:56,100
+You see here we have the timeline
+
+100
+00:03:56,430 --> 00:03:58,410
+Make sure you are in this timeline
+
+101
+00:03:58,420 --> 00:03:59,380
+Exactly this one
+
+102
+00:03:59,380 --> 00:04:14,080
+That is the one that appears when we have the 2D animation and we have grease pencil selected because it happened to me in the past that I have the normal timeline in layout and that timeline you can not copy and paste grease pencil keyframes
+
+103
+00:04:14,270 --> 00:04:14,440
+Okay
+
+104
+00:04:14,520 --> 00:04:15,750
+We want to make sure we're in 2D animation
+
+105
+00:04:16,220 --> 00:04:19,430
+exactly draw something
+
+106
+00:04:19,440 --> 00:04:20,710
+I'm going to draw this shape
+
+107
+00:04:21,020 --> 00:04:22,850
+And if it's not very visible
+
+108
+00:04:23,130 --> 00:04:27,920
+let's maybe make it so the material of the line of the stroke is white
+
+109
+00:04:28,040 --> 00:04:29,710
+So I'm going to draw this line
+
+110
+00:04:29,960 --> 00:04:32,420
+and now I'm going to go to a different frame
+
+111
+00:04:32,960 --> 00:04:34,780
+And here we have activated
+
+112
+00:04:34,780 --> 00:04:39,240
+I have activated this because it's convenient to activate my auto key if you don't have it activated
+
+113
+00:04:39,250 --> 00:04:41,130
+If I draw here now
+
+114
+00:04:41,140 --> 00:04:43,440
+my drawing got added to the first keyframe
+
+115
+00:04:43,440 --> 00:04:47,170
+The program is deducing that because I didn't create new keyframes
+
+116
+00:04:47,390 --> 00:04:51,600
+I just wanted my drawing to be added only to the first one
+
+117
+00:04:52,030 --> 00:04:59,310
+Actuallythe keyframe get added when I created the grease pencil that twice before I was in frame 60 and it got added to the frame 60
+
+118
+00:04:59,400 --> 00:04:59,940
+Oh yeah
+
+119
+00:05:00,070 --> 00:05:04,040
+but now what we're going to do when we have it in this auto key mode
+
+120
+00:05:04,100 --> 00:05:06,340
+when I go to another frame and I draw the line
+
+121
+00:05:06,340 --> 00:05:06,790
+for example
+
+122
+00:05:06,800 --> 00:05:08,520
+I can draw the line here
+
+123
+00:05:09,190 --> 00:05:14,060
+Now the previous line disappear and there is this connection between the two keyframes
+
+124
+00:05:14,060 --> 00:05:16,140
+And you see now I go from one to another
+
+125
+00:05:16,790 --> 00:05:20,270
+So now I could go later and I could make my line to go there
+
+126
+00:05:20,670 --> 00:05:23,560
+and I could go later and make my line to move there
+
+127
+00:05:23,830 --> 00:05:24,920
+And now let's see what's happening
+
+128
+00:05:25,500 --> 00:05:27,820
+Now's starting to generate this animation
+
+129
+00:05:28,320 --> 00:05:28,840
+Do you see that
+
+130
+00:05:28,870 --> 00:05:32,150
+Right now I don't have any reference on where my previous line was
+
+131
+00:05:32,160 --> 00:05:32,490
+If I go
+
+132
+00:05:32,700 --> 00:05:33,860
+I think another of the modes
+
+133
+00:05:33,870 --> 00:05:36,000
+if you go here to this viewport shading
+
+134
+00:05:36,200 --> 00:05:40,010
+you see that we have in green the previous line and in purple
+
+135
+00:05:40,150 --> 00:05:41,150
+the next line
+
+136
+00:05:41,160 --> 00:05:42,150
+That is really
+
+137
+00:05:42,150 --> 00:05:45,280
+really useful because that's going to allow us to know what's happening
+
+138
+00:05:45,340 --> 00:05:48,890
+And if you want to modify that in audio scaling
+
+139
+00:05:48,890 --> 00:05:50,890
+here you see that we have the mode keyframes
+
+140
+00:05:50,890 --> 00:05:53,330
+You can change the opacity of how those lines appears
+
+141
+00:05:53,340 --> 00:05:56,120
+And you can say how many frames before and after appear
+
+142
+00:05:56,120 --> 00:05:56,700
+So right now
+
+143
+00:05:56,700 --> 00:05:59,220
+we only have one frame before and one frame after
+
+144
+00:05:59,290 --> 00:05:59,940
+but we can do two
+
+145
+00:06:00,500 --> 00:06:02,920
+So now I actually don't have any more after
+
+146
+00:06:02,920 --> 00:06:03,550
+I only have one
+
+147
+00:06:03,670 --> 00:06:06,530
+but now we're getting two levels of green and one of purple
+
+148
+00:06:06,700 --> 00:06:07,170
+That's great
+
+149
+00:06:07,180 --> 00:06:10,010
+and anyone who knows about 2D animation will find that super useful
+
+150
+00:06:10,020 --> 00:06:10,410
+Yeah
+
+151
+00:06:10,420 --> 00:06:13,750
+we'll be having more courses in 2D animation in the school
+
+152
+00:06:14,140 --> 00:06:15,090
+but for now
+
+153
+00:06:15,100 --> 00:06:21,110
+we want you to understand that this is the way in which you would do frame by frame animation inside this program keyframes
+
+154
+00:06:21,110 --> 00:06:21,620
+by the way
+
+155
+00:06:21,620 --> 00:06:23,000
+if you don't want them to delay that
+
+156
+00:06:23,000 --> 00:06:25,660
+you could also copy the keyframe
+
+157
+00:06:25,800 --> 00:06:28,290
+go here to 26 and paste it
+
+158
+00:06:28,360 --> 00:06:28,970
+Let me see
+
+159
+00:06:28,980 --> 00:06:29,820
+copypaste
+
+160
+00:06:29,830 --> 00:06:33,970
+And now what I did is I went from one keyframe and I copied it in another one
+
+161
+00:06:34,420 --> 00:06:36,770
+but the keyframe once it's there
+
+162
+00:06:36,780 --> 00:06:37,640
+we can go to
+
+163
+00:06:37,640 --> 00:06:38,160
+for example
+
+164
+00:06:38,210 --> 00:06:40,240
+sculpt mode sculpted
+
+165
+00:06:41,340 --> 00:06:45,780
+and now what I'm doing is I'm having that keyframe and now it's changing when I have it there
+
+166
+00:06:46,200 --> 00:06:48,250
+Okayso you can have a very smooth change like that
+
+167
+00:06:48,310 --> 00:06:50,990
+Yeahand it means that you don't need to draw again
+
+168
+00:06:51,000 --> 00:06:52,680
+I can just copy this
+
+169
+00:06:52,740 --> 00:06:53,600
+paste it
+
+170
+00:06:53,700 --> 00:06:55,180
+copypaste up
+
+171
+00:06:55,340 --> 00:06:56,250
+copy paste
+
+172
+00:06:56,300 --> 00:06:57,390
+and now modified
+
+173
+00:06:57,400 --> 00:06:59,210
+and you can see where the previous one was
+
+174
+00:06:59,260 --> 00:07:01,170
+and you can animate with the sculpting
+
+175
+00:07:01,170 --> 00:07:01,650
+You know
+
+176
+00:07:01,660 --> 00:07:03,720
+it's a way of animating just with the scope
+
+177
+00:07:04,040 --> 00:07:05,090
+That's a nice way of doing it
+
+178
+00:07:05,270 --> 00:07:05,900
+Yeah
+
+179
+00:07:06,370 --> 00:07:08,340
+and this is exactly what we're going to do for the plants
+
+180
+00:07:08,820 --> 00:07:14,330
+so we're just going to use a scoped mode to generate a bit of a gentle rotation
+
+181
+00:07:14,630 --> 00:07:19,310
+and then we're going to see how the program can interpolate between these positions
+
+182
+00:07:20,120 --> 00:07:22,050
+And before we move
+
+183
+00:07:22,160 --> 00:07:26,020
+let's explain what I mean with interpolate V between these positions
+
+184
+00:07:26,060 --> 00:07:28,510
+So you see that we have this shape there
+
+185
+00:07:28,520 --> 00:07:32,310
+and I'm going to copy and paste it because I think people are going to understand it much better like that
+
+186
+00:07:32,380 --> 00:07:33,530
+and I'm going to put that there
+
+187
+00:07:33,530 --> 00:07:37,070
+and I'm going to make a new position of this shape I'm gonna put that there
+
+188
+00:07:37,470 --> 00:07:39,750
+And for interpolation to work well
+
+189
+00:07:39,750 --> 00:07:41,420
+we need shapes that are similar
+
+190
+00:07:41,420 --> 00:07:42,730
+So because I'm doing a sculpting
+
+191
+00:07:42,730 --> 00:07:44,940
+the number of points on the shape are going to be the same
+
+192
+00:07:44,990 --> 00:07:46,790
+So I have one shape that starts here
+
+193
+00:07:46,800 --> 00:07:51,440
+another shape that continues there if you want to interpolate between them right now there is none
+
+194
+00:07:51,820 --> 00:07:54,580
+no interpolation we're going to have to be either
+
+195
+00:07:54,580 --> 00:07:57,880
+I think it's in way paint mode or in edit mode works as well
+
+196
+00:07:57,920 --> 00:07:59,950
+But if we not way paint
+
+197
+00:08:00,020 --> 00:08:01,250
+if I say we paint
+
+198
+00:08:01,510 --> 00:08:03,830
+I think is in the draw mode
+
+199
+00:08:03,860 --> 00:08:05,080
+sorryin Dr mode
+
+200
+00:08:05,360 --> 00:08:06,320
+So in draw mode
+
+201
+00:08:06,330 --> 00:08:08,840
+when we go here to draw animation
+
+202
+00:08:08,840 --> 00:08:11,120
+you see that here we have different types of animation
+
+203
+00:08:11,120 --> 00:08:13,250
+but also we have interpolated sequence
+
+204
+00:08:13,720 --> 00:08:16,030
+So we need to be in between the two keyframes
+
+205
+00:08:16,600 --> 00:08:17,540
+It's a bit confusing
+
+206
+00:08:17,540 --> 00:08:19,050
+You need to be between the two curve frames
+
+207
+00:08:19,050 --> 00:08:21,130
+We go to draw interpolate sequence
+
+208
+00:08:21,140 --> 00:08:22,900
+and now we have here a menu
+
+209
+00:08:22,910 --> 00:08:25,570
+and you see automatically generated all these keyframes
+
+210
+00:08:25,730 --> 00:08:26,500
+If you move
+
+211
+00:08:26,510 --> 00:08:27,820
+you're not going to be able to modify
+
+212
+00:08:27,870 --> 00:08:28,750
+but if you go here
+
+213
+00:08:28,760 --> 00:08:29,580
+you can say step
+
+214
+00:08:29,590 --> 00:08:33,090
+So you can say only add keyframes every two or 3 keyframes
+
+215
+00:08:33,550 --> 00:08:35,120
+And now you can do different modes
+
+216
+00:08:35,140 --> 00:08:37,320
+So you can have linear
+
+217
+00:08:37,450 --> 00:08:38,470
+you can have cube
+
+218
+00:08:38,480 --> 00:08:39,600
+Quantic can take
+
+219
+00:08:39,610 --> 00:08:40,180
+by the way
+
+220
+00:08:40,190 --> 00:08:41,500
+if you're finding this confusing
+
+221
+00:08:41,510 --> 00:08:43,350
+if you just put your mouse and keep it there
+
+222
+00:08:43,360 --> 00:08:45,856
+it tells you this is weakest transition
+
+223
+00:08:45,856 --> 00:08:46,722
+almost linear
+
+224
+00:08:46,722 --> 00:08:48,455
+but with a slight curvature
+
+225
+00:08:48,455 --> 00:08:49,754
+If you go to quintet
+
+226
+00:08:49,754 --> 00:08:51,054
+it says quinty kissing
+
+227
+00:08:51,054 --> 00:08:52,786
+That one is not expressing much
+
+228
+00:08:52,786 --> 00:08:53,220
+much more
+
+229
+00:08:53,370 --> 00:08:54,000
+For example
+
+230
+00:08:54,000 --> 00:08:54,530
+in back
+
+231
+00:08:54,540 --> 00:09:00,600
+it tells you touby kissing with overshoot and settle bounce is telling you exponentially the came parable bounce
+
+232
+00:09:00,620 --> 00:09:02,280
+like when objects collide
+
+233
+00:09:02,290 --> 00:09:04,440
+so it's telling that use this one if you have
+
+234
+00:09:04,440 --> 00:09:04,860
+for example
+
+235
+00:09:04,860 --> 00:09:05,810
+a ball bouncing
+
+236
+00:09:05,810 --> 00:09:09,550
+sure and you can see the little line on the side gives you quite an indication to yes
+
+237
+00:09:09,560 --> 00:09:11,780
+and when I selected it modifies it there
+
+238
+00:09:11,790 --> 00:09:16,020
+And now there is a transition between the two lines created by the program
+
+239
+00:09:16,400 --> 00:09:17,780
+This is not like an after effect
+
+240
+00:09:17,780 --> 00:09:20,410
+you can modify it live
+
+241
+00:09:20,420 --> 00:09:21,870
+you know if it's done it done
+
+242
+00:09:21,880 --> 00:09:22,980
+if you want to do it again
+
+243
+00:09:22,980 --> 00:09:27,000
+you just delete those keyframes that are blue because those are in between keyframes
+
+244
+00:09:27,290 --> 00:09:28,210
+And now we do it again
+
+245
+00:09:28,210 --> 00:09:30,490
+And we do interplay sequence
+
+246
+00:09:30,600 --> 00:09:30,930
+And we
+
+247
+00:09:30,940 --> 00:09:31,350
+for example
+
+248
+00:09:31,360 --> 00:09:32,160
+put more steps
+
+249
+00:09:32,470 --> 00:09:33,260
+So I can put
+
+250
+00:09:33,280 --> 00:09:33,740
+ohsorry
+
+251
+00:09:33,750 --> 00:09:34,390
+less steps
+
+252
+00:09:34,480 --> 00:09:35,440
+So we put one
+
+253
+00:09:35,450 --> 00:09:38,760
+and now it's much more smooth because it goes from one shape to a number
+
+254
+00:09:39,640 --> 00:09:41,210
+Okaythat's really nice
+
+255
+00:09:41,330 --> 00:09:41,890
+perfect
+
+256
+00:09:41,900 --> 00:09:47,600
+So with that in mind I'm gonna delete this one and I'm going to go and I'm going to activate the first of my plants
+
+257
+00:09:47,850 --> 00:09:49,520
+Let's one for example
+
+258
+00:09:49,520 --> 00:09:50,090
+this one
+
+259
+00:09:50,390 --> 00:09:53,380
+And what I'm going to do is I'm going to make sure selecting the plant
+
+260
+00:09:53,430 --> 00:10:01,530
+I have a keyframe there and this animation is going to loop only on is going to reach frame 20 and then in frame 4 is going to go back again
+
+261
+00:10:01,530 --> 00:10:04,560
+And I know that our entire sequence is 100 frame
+
+262
+00:10:04,560 --> 00:10:06,730
+So I'm going to show you how to look that forever and ever
+
+263
+00:10:07,050 --> 00:10:09,730
+So I'm going to go to my frame 1
+
+264
+00:10:09,740 --> 00:10:14,580
+I'm going to copy Ctrl C and paste in frame 20 my animation
+
+265
+00:10:15,790 --> 00:10:19,300
+So now that we have there I'm gonna do it again
+
+266
+00:10:19,870 --> 00:10:22,210
+Ctrl C and in frame 40 is going to be the animation
+
+267
+00:10:22,310 --> 00:10:24,820
+Right now we have the animation three times the same
+
+268
+00:10:24,940 --> 00:10:28,960
+but now we're going to go into the one in the middle and we're going to see how we're going to modify
+
+269
+00:10:28,960 --> 00:10:32,930
+So I'm going to go to my sculpt mode and for doing that gender rotation
+
+270
+00:10:32,930 --> 00:10:34,540
+you see that we have this twist there
+
+271
+00:10:34,580 --> 00:10:35,970
+And I'm going to make it a bit big
+
+272
+00:10:36,050 --> 00:10:37,610
+and I'm going to start doing that
+
+273
+00:10:38,260 --> 00:10:40,320
+So I'm rotating my shape
+
+274
+00:10:40,390 --> 00:10:42,690
+and now I'm going to grab it with a big one
+
+275
+00:10:43,020 --> 00:10:44,450
+I'm going to start grabbing it
+
+276
+00:10:44,520 --> 00:10:48,220
+so I'm going to rotate it and grab it
+
+277
+00:10:48,710 --> 00:10:49,840
+okayjust like you were doing
+
+278
+00:10:49,840 --> 00:10:51,490
+practicing with the line before
+
+279
+00:10:51,500 --> 00:10:52,620
+but you can do now with your plant
+
+280
+00:10:53,070 --> 00:10:54,930
+And we have a problem here
+
+281
+00:10:54,940 --> 00:10:59,020
+It looks like I'm going to now make the act deactivate that
+
+282
+00:10:59,580 --> 00:11:03,460
+It looks like we have a problem and is that we didn't copy the two layers
+
+283
+00:11:03,460 --> 00:11:04,730
+we only copied one of them
+
+284
+00:11:04,760 --> 00:11:08,830
+You see that that is because we have the layer Co one MDP layer
+
+285
+00:11:08,840 --> 00:11:11,040
+that's my fault for not naming the layers
+
+286
+00:11:11,110 --> 00:11:13,360
+So I'm going to delete those layers
+
+287
+00:11:13,410 --> 00:11:17,520
+It's good for people to see the mistakes that come and I need to make sure that I select both layers
+
+288
+00:11:17,520 --> 00:11:19,480
+both the stroke and the main layer
+
+289
+00:11:19,720 --> 00:11:24,500
+So I'm going to I'm going to have to go back because I made many mistakes
+
+290
+00:11:24,910 --> 00:11:25,550
+okay
+
+291
+00:11:25,630 --> 00:11:27,050
+I'm going to delete all of that
+
+292
+00:11:27,060 --> 00:11:27,880
+delete the keyframes
+
+293
+00:11:27,880 --> 00:11:31,760
+We're gon na go to the first layer and copy both of them to frame 20
+
+294
+00:11:31,990 --> 00:11:33,920
+I think I need to copy them 1 by one
+
+295
+00:11:33,970 --> 00:11:36,260
+Let me see Ctrl CC plus V
+
+296
+00:11:36,260 --> 00:11:36,550
+ctrl C
+
+297
+00:11:36,550 --> 00:11:37,350
+ctrl V
+
+298
+00:11:37,630 --> 00:11:38,530
+and now I'm gon na
+
+299
+00:11:38,530 --> 00:11:39,750
+do control B
+
+300
+00:11:39,750 --> 00:11:41,560
+ctrl C Ctrl and ctrl C Ctrl
+
+301
+00:11:42,000 --> 00:11:44,100
+and now it's to Na be in the region in the middle
+
+302
+00:11:44,110 --> 00:11:44,630
+And now
+
+303
+00:11:44,640 --> 00:11:49,630
+yesI need to make sure that when I do this rotation I'm affecting both layers at the same time
+
+304
+00:11:49,880 --> 00:11:53,290
+It's looking much better and now I'm going to be pinching them
+
+305
+00:11:53,300 --> 00:11:54,430
+I'm moving them there
+
+306
+00:11:54,550 --> 00:11:55,060
+you know
+
+307
+00:11:55,070 --> 00:11:56,420
+now I'm going quite fast
+
+308
+00:11:56,430 --> 00:11:58,670
+but when I did it in the original animation
+
+309
+00:11:58,680 --> 00:11:59,750
+I took my time
+
+310
+00:12:00,010 --> 00:12:04,670
+taking your time means that you can make it quite gentle and with a lot of love
+
+311
+00:12:04,680 --> 00:12:06,490
+but I want to go a bit faster there
+
+312
+00:12:06,530 --> 00:12:15,870
+And now what I'm going to do is here I'm going to be in draw mode and I'm going to go to draw interpolate sequence and I'm gon na do steps of three
+
+313
+00:12:15,880 --> 00:12:17,210
+so it doesn't go that many
+
+314
+00:12:17,210 --> 00:12:19,920
+and for now I like the sinusoidal 1
+
+315
+00:12:20,030 --> 00:12:21,490
+It's just going to go there
+
+316
+00:12:22,370 --> 00:12:27,990
+and I'm going to do draw interplace sequence and the singles soid all is happening again
+
+317
+00:12:28,690 --> 00:12:30,900
+The only thing that we need is the other shape
+
+318
+00:12:30,920 --> 00:12:32,160
+we're going to select layer 1
+
+319
+00:12:32,260 --> 00:12:38,610
+because it's the stroke draw interplay sequence and draw interpolate sequence
+
+320
+00:12:38,650 --> 00:12:44,930
+So now both the stroke and the main part are just having that animation
+
+321
+00:12:45,230 --> 00:12:47,480
+So now someone might be wondering
+
+322
+00:12:47,480 --> 00:12:50,650
+how do I do this so it repeats again and again forever
+
+323
+00:12:51,020 --> 00:12:51,990
+So in order to do that
+
+324
+00:12:52,000 --> 00:12:53,790
+we're going to add a modifier to this plant
+
+325
+00:12:54,280 --> 00:12:57,870
+And I'm going to go here to the time offset modifier
+
+326
+00:12:57,880 --> 00:13:00,740
+And the time offset modifier is really simple
+
+327
+00:13:00,750 --> 00:13:04,400
+The only thing we are doing is telling the program how many frames of set
+
+328
+00:13:04,400 --> 00:13:08,070
+That means like where do we start the animation with my offset
+
+329
+00:13:08,120 --> 00:13:09,310
+But here in the custom range
+
+330
+00:13:09,310 --> 00:13:11,160
+I can say I can
+
+331
+00:13:11,200 --> 00:13:16,560
+I'm going to repeat my animation from frame 0 to frame 40
+
+332
+00:13:16,560 --> 00:13:19,580
+So from frame one actually to frame 40
+
+333
+00:13:20,070 --> 00:13:22,910
+and I want to put it is in the mode it is going to be
+
+334
+00:13:22,910 --> 00:13:23,780
+has a different ones
+
+335
+00:13:23,780 --> 00:13:26,150
+I think regular is the one that repeats forever
+
+336
+00:13:26,550 --> 00:13:26,920
+We could do
+
+337
+00:13:27,130 --> 00:13:27,550
+for example
+
+338
+00:13:27,550 --> 00:13:28,030
+ping pong
+
+339
+00:13:28,030 --> 00:13:30,520
+And what it does is that when it reaches one
+
+340
+00:13:30,560 --> 00:13:32,890
+it goes the other way or reverse
+
+341
+00:13:32,900 --> 00:13:35,790
+It kind of applies to in reverse animation direction
+
+342
+00:13:35,830 --> 00:13:38,530
+but the regular one just repeats our animation forever
+
+343
+00:13:38,530 --> 00:13:40,020
+So now when I have that there
+
+344
+00:13:40,570 --> 00:13:43,190
+my plant is just animating all the time
+
+345
+00:13:43,560 --> 00:13:43,730
+okay
+
+346
+00:13:43,730 --> 00:13:45,290
+So it doesn't add any new keyframes
+
+347
+00:13:45,290 --> 00:13:47,910
+it just it just knows and repeats forever
+
+348
+00:13:47,930 --> 00:13:49,890
+I can make my animation even longer now
+
+349
+00:13:49,900 --> 00:13:50,830
+800 frames
+
+350
+00:13:50,840 --> 00:13:52,310
+and it's just continue forever
+
+351
+00:13:52,320 --> 00:13:55,090
+And you're adding the modifier to the Creese pedestal
+
+352
+00:13:55,580 --> 00:13:57,240
+I'm adding the modifier to the grease pencil
+
+353
+00:13:57,290 --> 00:14:00,498
+that means that I can have different loop speeds in different moment
+
+354
+00:14:00,498 --> 00:14:01,495
+And by the way
+
+355
+00:14:01,495 --> 00:14:03,987
+if you are finding that this animation
+
+356
+00:14:03,987 --> 00:14:07,226
+it might be that right-hind is going a bit too fast
+
+357
+00:14:07,226 --> 00:14:07,974
+Too too fast
+
+358
+00:14:07,974 --> 00:14:13,470
+Yeahso we could modify the keyframes by selecting them all and just putting them
+
+359
+00:14:13,500 --> 00:14:14,550
+I think it's possible
+
+360
+00:14:14,550 --> 00:14:14,980
+by the way
+
+361
+00:14:14,990 --> 00:14:16,940
+just to get the keyframes and scaling them
+
+362
+00:14:16,940 --> 00:14:17,450
+you see
+
+363
+00:14:17,460 --> 00:14:20,580
+So if we start from 0 and now we do scaling
+
+364
+00:14:20,590 --> 00:14:22,830
+I think it's scale into animation
+
+365
+00:14:22,830 --> 00:14:25,430
+The only problem we do that now is my animation is 70 frames
+
+366
+00:14:25,780 --> 00:14:32,420
+So remember to do that on your time of so now we're having a way slow animation that's easier
+
+367
+00:14:32,530 --> 00:14:33,440
+And how did you do the scaling
+
+368
+00:14:33,940 --> 00:14:36,450
+Just pressing S as simple as that
+
+369
+00:14:39,490 --> 00:14:43,940
+So what I'm going to do now is I'm going to go plant by plant
+
+370
+00:14:43,950 --> 00:14:46,880
+and I'm going to be animating them all
+
+371
+00:14:46,890 --> 00:14:48,070
+And so I'll see you in a second

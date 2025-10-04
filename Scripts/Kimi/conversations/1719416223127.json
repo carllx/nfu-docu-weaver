@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cpu3b92kg1a8lq0coh00",
+    "attachments": [
+        {
+            "date": 1997,
+            "title": "Art as inquiry: Toward new collaborations between art, science, and technology",
+            "fileID": "co3s1iecp7f2cai0hdpg",
+            "itemID": 2306,
+            "citation": "Bijvoet, M. (1997). Art as inquiry: Toward new collaborations between art, science, and technology. Peter Lang Inc., International Academic Publishers.\n",
+            "citationShort": "Bijvoet, 1997",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n介绍 第11章 Bill viola 的有关论点与分论点\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Art as inquiry: Toward new collaborations between art, science, and technology, was published on 1997. (It can be cite this paper as Bijvoet, 1997 on your answer). \n\n",
+    "response": "### 第11章 Bill Viola：现实深处的审视\n\n#### 视频艺术的先驱\nBill Viola 是首批将视频媒介作为其艺术生涯核心的艺术家之一。生于1951年的纽约，Viola 早期与当代音乐的接触使他得以遇见许多“新音乐”的作曲家，这些作曲家对他的视频作品产生了持续的影响。\n\n#### 超越屏幕框架\nViola 的艺术实践始终围绕着探索视频媒介固有的技术特性，如实时性、反馈、闭路循环等。他试图通过电子系统工作，将视频信号视为可以操作的材料，从而超越了传统图像的概念。\n\n#### 感知层面\nViola 的作品关注人类感知的本质，以及我们如何记忆和理解历史与时间。他广泛研究了心理学、人类学、控制论、哲学等领域，以期将视频的内在通信方面与更广泛的跨学科通信领域相联系。\n\n#### 时间-空间连续体\n在访问所罗门群岛并记录美拉尼西亚部落的传统音乐、歌曲和舞蹈后，Viola 的作品开始转向跨文化意义的探索。他利用视频技术的时间-空间连续体，创作了一系列反映生命循环的作品。\n\n#### 存在的层次\nViola 的作品试图连接自然界不同层次的存在，从矿物到植物、动物乃至人类。他认为，我们对这些存在层次的感知和理解，是我们作为人类的一部分。\n\n#### 记忆与感知的水平\n通过作品，Viola 探索了记忆与感知的不同层次，以及它们如何影响我们对历史的理解。他利用视频技术创造出一种时间的循环性，使观众能够在播放和倒带中体验时间的循环性。\n\n#### 生命的循环\n在《The Reflecting Pool》系列作品中，Viola 通过五个相互关联的作品，探讨了生命、成长、死亡和重生的主题，展现了生命的连续性和周期性。\n\n#### 存在的本性\nViola 的作品也反映了他对自然界循环和存在根源的持续关注。在作品《I Do Not Know What it Is I Am Like》中，他通过深入动物世界的心理层面，探索了人类本性中的动物意识。\n\n#### 心灵-身体连续体\nViola 的90年代作品维持了对人类经验的层次性和复杂性的关注，尤其将出生和死亡这两个终极体验放在了更突出的位置。\n\n#### 记忆的剧场\n在《The Theater of Memory》中，Viola 进一步探索了记忆作为大脑功能的不同层次，以及它如何创造一种感知体验，这种体验在不同的方向上移动。\n\n#### 结论\nBill Viola 的艺术实践不仅在艺术领域内扩展了视频技术的边界，而且对艺术的定义也产生了深远的影响。他的视频作品不仅为公共电视领域创作，而且其视频装置通常在博物馆/艺术领域展出。对他来说，视频技术是当今唯一相关的手段，用于表达他全面关注的问题，因为它的通信原理主导了全球的信息网络世界。[Bijvoet, 1997]",
+    "refs": [
+        "co3s1iecp7f2cai0hdpg"
+    ],
+    "title": "\n\nNow, Listen to me:\n介绍 第11章 B",
+    "group_id": "cpu3b99hmfr58a9tp850",
+    "req_id": "cpu3b99hmfr58a9tp85g",
+    "resp_id": "cpu3b99hmfr58a9tp860",
+    "quection": "介绍 第11章 Bill viola 的有关论点与分论点"
+}

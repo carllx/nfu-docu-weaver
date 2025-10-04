@@ -1,0 +1,146 @@
+﻿1
+00:00:00,120 --> 00:00:01,440
+- [Instructor] A very common issue
+
+2
+00:00:01,440 --> 00:00:04,250
+when animating with a 3D character rig
+
+3
+00:00:04,250 --> 00:00:07,150
+is what we call knee pop and elbow pop.
+
+4
+00:00:07,150 --> 00:00:10,910
+I won't try to explain why this happened
+
+5
+00:00:10,910 --> 00:00:14,050
+but whenever you are
+extending the arm or the leg
+
+6
+00:00:14,050 --> 00:00:17,250
+using inverse kinematic, it can happen
+
+7
+00:00:17,250 --> 00:00:21,460
+that the knee accelerate
+to one full extension.
+
+8
+00:00:21,460 --> 00:00:25,830
+It creates a visual glitch
+that we will need to fix.
+
+9
+00:00:25,830 --> 00:00:28,950
+The first thing to do is
+to select the knee tweaker
+
+10
+00:00:28,950 --> 00:00:31,170
+and calculate its motion path.
+
+11
+00:00:31,170 --> 00:00:34,680
+As usual, I'm using my quick
+favorite, pressing the Q key.
+
+12
+00:00:34,680 --> 00:00:37,470
+Once that we see the trajectory
+of the knee over time,
+
+13
+00:00:37,470 --> 00:00:42,050
+it's pretty obvious where this
+pop or this break happens.
+
+14
+00:00:42,050 --> 00:00:46,350
+My technique to fix this is
+simply to reposition the knee
+
+15
+00:00:46,350 --> 00:00:49,780
+using the knee tweaker
+along the few frames
+
+16
+00:00:49,780 --> 00:00:51,630
+where it's currently popping.
+
+17
+00:00:51,630 --> 00:00:55,620
+What I advise you is not
+trying to fix this issue
+
+18
+00:00:55,620 --> 00:00:57,120
+on one frame only,
+
+19
+00:00:57,120 --> 00:01:01,340
+but instead try to smooth
+the motion path of the knee
+
+20
+00:01:01,340 --> 00:01:03,040
+over several frames.
+
+21
+00:01:03,040 --> 00:01:06,530
+Because if you try to fix
+it over one frame only,
+
+22
+00:01:06,530 --> 00:01:09,520
+you may push the controller
+into a weird pose
+
+23
+00:01:09,520 --> 00:01:11,530
+and you will generate a new problem
+
+24
+00:01:11,530 --> 00:01:13,970
+while trying to fix an existing one.
+
+25
+00:01:13,970 --> 00:01:16,620
+As you may have understood already,
+
+26
+00:01:16,620 --> 00:01:20,930
+the method is simply to rebuild
+the position of the knee
+
+27
+00:01:20,930 --> 00:01:23,700
+using the knee tweaker controller.
+
+28
+00:01:23,700 --> 00:01:25,660
+I first do it from the camera view,
+
+29
+00:01:25,660 --> 00:01:29,000
+but then don't forget to
+turn around your character
+
+30
+00:01:29,000 --> 00:01:32,990
+and check that the motion path
+look clean from every angle.
+
+31
+00:01:32,990 --> 00:01:37,710
+We do favourise camera
+view, but for this exercise,
+
+32
+00:01:37,710 --> 00:01:41,523
+I'd like our animation to
+be clean from any angle.
+

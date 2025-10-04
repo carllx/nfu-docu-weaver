@@ -1,0 +1,559 @@
+﻿1
+00:00:00,310 --> 00:00:02,540
+- Now that we have our base pose,
+
+2
+00:00:02,540 --> 00:00:05,910
+it's time for us to push this pose
+
+3
+00:00:05,910 --> 00:00:08,600
+to make it more dynamic and appealing.
+
+4
+00:00:08,600 --> 00:00:11,100
+We have learned before the fundamentals
+
+5
+00:00:11,100 --> 00:00:14,140
+by identifying the line of action
+
+6
+00:00:14,140 --> 00:00:18,160
+and studying the basics of
+creating a nice silhouette.
+
+7
+00:00:18,160 --> 00:00:20,540
+Now it's time to apply those fundamental
+
+8
+00:00:20,540 --> 00:00:22,540
+and exaggerate them.
+
+9
+00:00:22,540 --> 00:00:24,410
+The first thing I'm going to do
+
+10
+00:00:24,410 --> 00:00:28,990
+is duplicate our current
+key frames onto frame two.
+
+11
+00:00:28,990 --> 00:00:31,460
+This way we can compare both poses
+
+12
+00:00:31,460 --> 00:00:34,017
+by hitting the up and down arrows.
+
+13
+00:00:34,017 --> 00:00:35,670
+The first thing we can do
+
+14
+00:00:35,670 --> 00:00:39,380
+is to push the directionality
+of the line of action.
+
+15
+00:00:39,380 --> 00:00:40,990
+While on our basic pose
+
+16
+00:00:40,990 --> 00:00:43,930
+our line affection create a nice curve,
+
+17
+00:00:43,930 --> 00:00:45,740
+I will straighten the line of action
+
+18
+00:00:45,740 --> 00:00:47,740
+to give it more directionality.
+
+19
+00:00:47,740 --> 00:00:50,040
+The first thing to do is to lower
+
+20
+00:00:50,040 --> 00:00:52,400
+the center of gravity of our character
+
+21
+00:00:52,400 --> 00:00:55,730
+and push it to the side
+on the supporting leg.
+
+22
+00:00:55,730 --> 00:00:57,860
+Then we need to increase the contrast
+
+23
+00:00:57,860 --> 00:01:00,167
+between the right leg and the left leg,
+
+24
+00:01:00,167 --> 00:01:04,540
+meaning that I will try
+to make the right leg
+
+25
+00:01:04,540 --> 00:01:06,430
+as straight as possible.
+
+26
+00:01:06,430 --> 00:01:08,980
+First, with the different
+controller in this case
+
+27
+00:01:08,980 --> 00:01:11,090
+I will slightly move the pole target
+
+28
+00:01:11,090 --> 00:01:14,052
+and I will also use the tweaker controller
+
+29
+00:01:14,052 --> 00:01:18,020
+to align the knee with
+the ankle and the hips.
+
+30
+00:01:18,020 --> 00:01:21,910
+Then I will slightly open
+the stance of our character,
+
+31
+00:01:21,910 --> 00:01:24,410
+pushing the left foot a bit backwards
+
+32
+00:01:24,410 --> 00:01:27,020
+so that it's not out of balance
+
+33
+00:01:27,020 --> 00:01:28,580
+and indirectly,
+
+34
+00:01:28,580 --> 00:01:32,400
+contrasting the open
+stance of our character.
+
+35
+00:01:32,400 --> 00:01:35,210
+As usual, this is not a linear work,
+
+36
+00:01:35,210 --> 00:01:39,297
+so I may make the character
+leaning forward too much,
+
+37
+00:01:39,297 --> 00:01:40,808
+then leaning backward,
+
+38
+00:01:40,808 --> 00:01:45,808
+then trying different poses
+that looks more dynamical.
+
+39
+00:01:46,240 --> 00:01:48,780
+In the end, I've chosen to rotate
+
+40
+00:01:48,780 --> 00:01:51,143
+the center of gravity more forward
+
+41
+00:01:51,143 --> 00:01:53,940
+so that that it reduces a bit
+
+42
+00:01:53,940 --> 00:01:55,750
+the profile of the torso
+
+43
+00:01:55,750 --> 00:02:00,210
+and makes it more aligned
+with the line of action.
+
+44
+00:02:00,210 --> 00:02:02,770
+Then we need to tweak
+the position of the hips,
+
+45
+00:02:02,770 --> 00:02:05,170
+of the torso, of the head also,
+
+46
+00:02:05,170 --> 00:02:07,120
+tilting it a bit forward,
+
+47
+00:02:07,120 --> 00:02:08,374
+more into the pose.
+
+48
+00:02:08,374 --> 00:02:11,370
+And then we can start shaping the arms.
+
+49
+00:02:11,370 --> 00:02:13,090
+As for the line of action,
+
+50
+00:02:13,090 --> 00:02:14,677
+where I have a smooth curve.
+
+51
+00:02:14,677 --> 00:02:18,610
+I've decided to increase
+the tension in the arms,
+
+52
+00:02:18,610 --> 00:02:20,540
+making the right arm straight
+
+53
+00:02:20,540 --> 00:02:23,010
+and supporting the line with the left arm
+
+54
+00:02:23,010 --> 00:02:24,640
+by opening it a bit.
+
+55
+00:02:24,640 --> 00:02:28,600
+But I was really hesitating
+and still hesitating
+
+56
+00:02:28,600 --> 00:02:31,390
+to pose it more into an angled way.
+
+57
+00:02:31,390 --> 00:02:33,420
+I think this pose works too
+
+58
+00:02:33,420 --> 00:02:35,290
+and is also very strong.
+
+59
+00:02:35,290 --> 00:02:37,240
+I've straightened what was straight
+
+60
+00:02:37,240 --> 00:02:41,090
+and I've created another
+angle where it was angled.
+
+61
+00:02:41,090 --> 00:02:43,440
+But they feel like there
+is more readability
+
+62
+00:02:43,440 --> 00:02:46,510
+in the hand of my initial pose,
+
+63
+00:02:46,510 --> 00:02:47,870
+so we will stick to it.
+
+64
+00:02:47,870 --> 00:02:49,950
+So I will raise the shoulders,
+
+65
+00:02:49,950 --> 00:02:51,280
+I will open the hand,
+
+66
+00:02:51,280 --> 00:02:54,420
+I will slightly rotate it toward the sky
+
+67
+00:02:54,420 --> 00:02:57,763
+and make sure that the
+palm is more open too,
+
+68
+00:02:57,763 --> 00:02:59,740
+more to the side.
+
+69
+00:02:59,740 --> 00:03:01,698
+To keep the directionality,
+
+70
+00:03:01,698 --> 00:03:04,490
+when we open the forearm,
+
+71
+00:03:04,490 --> 00:03:07,950
+we need to raise the arm
+and raise the shoulder.
+
+72
+00:03:07,950 --> 00:03:10,550
+I will do the same with the left arm,
+
+73
+00:03:10,550 --> 00:03:13,235
+I will make sure that
+it's in the continuity
+
+74
+00:03:13,235 --> 00:03:15,368
+of the current line of action
+
+75
+00:03:15,368 --> 00:03:17,880
+and I will slightly open the hand
+
+76
+00:03:17,880 --> 00:03:20,737
+so that we can clearly see the fingers
+
+77
+00:03:20,737 --> 00:03:23,330
+on the silhouette of the character
+
+78
+00:03:23,330 --> 00:03:25,700
+which wasn't the case previously.
+
+79
+00:03:25,700 --> 00:03:27,977
+While it might not look super natural,
+
+80
+00:03:27,977 --> 00:03:30,970
+I like to curl the fingers forwards.
+
+81
+00:03:30,970 --> 00:03:32,910
+It brings a lot of tension
+
+82
+00:03:32,910 --> 00:03:36,200
+as if our character was pushing the air.
+
+83
+00:03:36,200 --> 00:03:37,740
+During the whole process,
+
+84
+00:03:37,740 --> 00:03:41,280
+I will repeat the same
+steps again and again.
+
+85
+00:03:41,280 --> 00:03:46,214
+Because it's very odd to push
+a controller to its maximum
+
+86
+00:03:46,214 --> 00:03:48,971
+without comparing it to the other one.
+
+87
+00:03:48,971 --> 00:03:53,090
+Because the pose is to be read as a whole,
+
+88
+00:03:53,090 --> 00:03:55,290
+it's a relationship between the legs,
+
+89
+00:03:55,290 --> 00:03:57,810
+the torso, the arms, etc.
+
+90
+00:03:57,810 --> 00:03:59,775
+So whenever you're pushing the torso,
+
+91
+00:03:59,775 --> 00:04:04,280
+then you are rebalancing your
+character by moving the feet
+
+92
+00:04:04,280 --> 00:04:06,780
+and it changes the pose.
+
+93
+00:04:06,780 --> 00:04:10,630
+But then maybe you want to
+push this pose even further.
+
+94
+00:04:10,630 --> 00:04:13,320
+What I'm trying to explain here is that
+
+95
+00:04:13,320 --> 00:04:18,320
+you may need to repeat
+the process several time
+
+96
+00:04:18,320 --> 00:04:21,230
+before you hit the right pose
+
+97
+00:04:21,230 --> 00:04:26,230
+or you hit the most extreme
+pose or exaggerated pose
+
+98
+00:04:27,090 --> 00:04:29,350
+that still feels right.
+
+99
+00:04:29,350 --> 00:04:32,710
+As explained before in
+the previous videos,
+
+100
+00:04:32,710 --> 00:04:34,810
+we are sculpting the pose.
+
+101
+00:04:34,810 --> 00:04:36,440
+And when you are sculpting,
+
+102
+00:04:36,440 --> 00:04:40,460
+you don't sculpt the details
+of one hand or of the face
+
+103
+00:04:40,460 --> 00:04:43,892
+without looking at the whole
+body of your character.
+
+104
+00:04:43,892 --> 00:04:46,340
+You generally already start looking
+
+105
+00:04:46,340 --> 00:04:49,690
+and then you refine each part one by one
+
+106
+00:04:49,690 --> 00:04:53,320
+and you refine them
+depending on the other one.
+
+107
+00:04:53,320 --> 00:04:57,500
+You refine the proportion of
+the head based on the chest
+
+108
+00:04:57,500 --> 00:05:01,510
+or the proportion of the
+legs based on the arm, etc.
+
+109
+00:05:01,510 --> 00:05:03,735
+And don't fool yourself,
+
+110
+00:05:03,735 --> 00:05:06,140
+animation as an art form
+
+111
+00:05:06,140 --> 00:05:09,680
+is really comparable to
+drawing or sculpting.
+
+112
+00:05:09,680 --> 00:05:12,566
+Because we are shaping
+our whole character,
+
+113
+00:05:12,566 --> 00:05:16,320
+working on the relationship
+between the shoulder,
+
+114
+00:05:16,320 --> 00:05:17,810
+the arms, the forearms,
+
+115
+00:05:17,810 --> 00:05:21,130
+the hands, the chest, the hips, etc.
+
+116
+00:05:21,130 --> 00:05:25,020
+So if you have fundamentals
+into sculpting or drawing,
+
+117
+00:05:25,020 --> 00:05:27,060
+make sure you also apply them
+
+118
+00:05:27,060 --> 00:05:30,213
+whenever you are posing your
+character for animation.
+
+119
+00:05:30,213 --> 00:05:33,060
+And if you don't have any fundamentals
+
+120
+00:05:33,060 --> 00:05:34,640
+in sculpting of drawing,
+
+121
+00:05:34,640 --> 00:05:38,290
+don't be afraid to study drawing
+and sculpting techniques.
+
+122
+00:05:38,290 --> 00:05:41,300
+I'm not meaning that you
+need to draw every day
+
+123
+00:05:41,300 --> 00:05:42,750
+or sculpt every day,
+
+124
+00:05:42,750 --> 00:05:46,340
+but at least read some
+book about figure drawing
+
+125
+00:05:46,340 --> 00:05:49,018
+because you will see that
+a lot of the vocabulary
+
+126
+00:05:49,018 --> 00:05:50,802
+we are using in this course,
+
+127
+00:05:50,802 --> 00:05:54,564
+or a lot of the fundamentals
+we are using in this course
+
+128
+00:05:54,564 --> 00:05:58,570
+are applied in drawing and sculpting also.
+
+129
+00:05:58,570 --> 00:06:02,743
+So let's jump into the next
+video and work on more poses.
+

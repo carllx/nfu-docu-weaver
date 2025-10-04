@@ -1,0 +1,1176 @@
+﻿1
+00:00:00,860 --> 00:00:03,300
+- [Presenter] Let's have a
+deeper look to the graph editor.
+
+2
+00:00:03,300 --> 00:00:04,370
+In the previous video,
+
+3
+00:00:04,370 --> 00:00:05,913
+we have seen that those curve
+
+4
+00:00:05,913 --> 00:00:08,980
+are just a value evolving over time,
+
+5
+00:00:08,980 --> 00:00:12,330
+and those controller point
+are the keyframe values.
+
+6
+00:00:12,330 --> 00:00:15,600
+Each of those controllers have two handles
+
+7
+00:00:15,600 --> 00:00:18,520
+that can be used to change the way
+
+8
+00:00:18,520 --> 00:00:20,960
+the interpolation is set.
+
+9
+00:00:20,960 --> 00:00:23,177
+And they work exactly as handles
+
+10
+00:00:23,177 --> 00:00:27,850
+will do whenever you are editing
+a 3D curve in the 3D view.
+
+11
+00:00:27,850 --> 00:00:32,490
+Those vector handles has
+different pre-set behavior.
+
+12
+00:00:32,490 --> 00:00:34,930
+We can access them by pressing the V key
+
+13
+00:00:34,930 --> 00:00:37,910
+or going into the Key option of the editor
+
+14
+00:00:37,910 --> 00:00:39,480
+of the graph editor.
+
+15
+00:00:39,480 --> 00:00:43,098
+By default, all the keys
+are set to auto clamp.
+
+16
+00:00:43,098 --> 00:00:47,170
+You can see the handle type
+of the selected keyframe
+
+17
+00:00:47,170 --> 00:00:49,440
+in the F-curve panel.
+
+18
+00:00:49,440 --> 00:00:52,043
+When the keyframe is set to auto clamp,
+
+19
+00:00:52,043 --> 00:00:54,380
+Blender will try to interpolate
+
+20
+00:00:54,380 --> 00:00:57,730
+from one key to the other
+in the smoothest fashion.
+
+21
+00:00:57,730 --> 00:01:02,170
+But as soon as I try to move
+this key beyond the previews
+
+22
+00:01:02,170 --> 00:01:05,910
+of the next frame, the
+handles will become flat.
+
+23
+00:01:05,910 --> 00:01:09,080
+So, it's clamping the value of the curve
+
+24
+00:01:09,080 --> 00:01:12,580
+to the current keyframe,
+avoiding any overshoot.
+
+25
+00:01:12,580 --> 00:01:14,530
+If we swtich to automatic,
+
+26
+00:01:14,530 --> 00:01:17,300
+we will have kind of the same behavior,
+
+27
+00:01:17,300 --> 00:01:20,090
+Blender will try to keep
+as much interpolation
+
+28
+00:01:20,090 --> 00:01:22,770
+between the previews and next frame,
+
+29
+00:01:22,770 --> 00:01:26,690
+but in this case, it
+won't avoid the overshoot.
+
+30
+00:01:26,690 --> 00:01:28,990
+Curve wise, an overshoot is a bump
+
+31
+00:01:28,990 --> 00:01:30,330
+in the shape of the curve,
+
+32
+00:01:30,330 --> 00:01:33,850
+making the value jumping
+up or jumping down.
+
+33
+00:01:33,850 --> 00:01:35,870
+This is not a handle type I use that much
+
+34
+00:01:35,870 --> 00:01:38,110
+because sometime I feel like it's behavior
+
+35
+00:01:38,110 --> 00:01:39,620
+is a bit unexpected.
+
+36
+00:01:39,620 --> 00:01:40,880
+As explained before,
+
+37
+00:01:40,880 --> 00:01:43,640
+handle type are set to
+auto clamp by default,
+
+38
+00:01:43,640 --> 00:01:47,620
+but as soon as I try to scale
+the handle or rotate them,
+
+39
+00:01:47,620 --> 00:01:50,270
+you can see that it switched to aligned.
+
+40
+00:01:50,270 --> 00:01:52,458
+The orientation in scale of the handle
+
+41
+00:01:52,458 --> 00:01:56,560
+are no longer controlled by
+Blender, but by yourself,
+
+42
+00:01:56,560 --> 00:01:58,700
+but Blender will keep the previews
+
+43
+00:01:58,700 --> 00:02:01,532
+and next handle aligned
+one with the other.
+
+44
+00:02:01,532 --> 00:02:05,180
+This allows you to keep a
+smoothest curve interpolation,
+
+45
+00:02:05,180 --> 00:02:07,790
+but if I switch the handle type to free,
+
+46
+00:02:07,790 --> 00:02:11,045
+then each handle can be manipulated freely
+
+47
+00:02:11,045 --> 00:02:14,340
+without caring about the
+previews of next handle,
+
+48
+00:02:14,340 --> 00:02:16,420
+allowing us to break the curve
+
+49
+00:02:16,420 --> 00:02:19,300
+which in a lot of case can be very handy.
+
+50
+00:02:19,300 --> 00:02:21,327
+The final handle type we have to see
+
+51
+00:02:21,327 --> 00:02:23,600
+is the vector handle type.
+
+52
+00:02:23,600 --> 00:02:25,040
+As soon as we select it,
+
+53
+00:02:25,040 --> 00:02:28,260
+the curve will break into a odd angle.
+
+54
+00:02:28,260 --> 00:02:30,770
+Each angle will point individually
+
+55
+00:02:30,770 --> 00:02:33,010
+to the previews on next keyframe
+
+56
+00:02:33,010 --> 00:02:36,370
+and as soon as I try to
+manipulate one of the handle,
+
+57
+00:02:36,370 --> 00:02:38,600
+it will switch to free mode.
+
+58
+00:02:38,600 --> 00:02:40,940
+It's a very useful type of handle
+
+59
+00:02:40,940 --> 00:02:44,700
+whenever you want to rapidly
+create a linear interpolation.
+
+60
+00:02:44,700 --> 00:02:47,220
+Setting to consecutive keyframe to vector
+
+61
+00:02:47,220 --> 00:02:49,725
+will create a linear interpolation
+
+62
+00:02:49,725 --> 00:02:52,160
+and then, the cool thing
+about vector handles
+
+63
+00:02:52,160 --> 00:02:54,647
+is that whenever we are
+moving the keyframe,
+
+64
+00:02:54,647 --> 00:02:58,259
+they will always be
+pointing one at the other.
+
+65
+00:02:58,259 --> 00:03:02,820
+I use this type of handle
+a lot for impact frame.
+
+66
+00:03:02,820 --> 00:03:06,240
+If we change the interpolation
+mode of our curve
+
+67
+00:03:06,240 --> 00:03:08,010
+to constant or linear,
+
+68
+00:03:08,010 --> 00:03:10,940
+we won't get any access to the handles,
+
+69
+00:03:10,940 --> 00:03:13,860
+because the interpolation is pre-made.
+
+70
+00:03:13,860 --> 00:03:17,470
+It's where there no
+interpolation or a linear one.
+
+71
+00:03:17,470 --> 00:03:20,590
+Adding handles doesn't
+make sense in this case.
+
+72
+00:03:20,590 --> 00:03:22,580
+In the previous video we have seen that
+
+73
+00:03:22,580 --> 00:03:26,130
+we can double click onto a
+channel to select the curve,
+
+74
+00:03:26,130 --> 00:03:27,914
+we can box select, press A,
+
+75
+00:03:27,914 --> 00:03:32,150
+press control shift and click
+before on after a keyframe
+
+76
+00:03:32,150 --> 00:03:35,650
+to select all the
+previews on next keyframe.
+
+77
+00:03:35,650 --> 00:03:37,290
+If we click the little checkbox,
+
+78
+00:03:37,290 --> 00:03:39,810
+it will deactivate the current channel.
+
+79
+00:03:39,810 --> 00:03:42,710
+Now you can see that the Z
+location on the character
+
+80
+00:03:42,710 --> 00:03:46,010
+is no longer animated and
+is not jumping anymore,
+
+81
+00:03:46,010 --> 00:03:47,580
+which is kind of fun.
+
+82
+00:03:47,580 --> 00:03:50,210
+The wrench icon allows us to activate
+
+83
+00:03:50,210 --> 00:03:52,640
+or deactivate curve modifier.
+
+84
+00:03:52,640 --> 00:03:54,520
+To add the modifier to a curve
+
+85
+00:03:54,520 --> 00:03:58,130
+you just need to select one
+control point of the curve,
+
+86
+00:03:58,130 --> 00:04:02,550
+then go into the end panel
+and switch to modifiers.
+
+87
+00:04:02,550 --> 00:04:04,730
+There are a lot of different modifier,
+
+88
+00:04:04,730 --> 00:04:08,480
+let's just add a noise modifier
+to understand what they do.
+
+89
+00:04:08,480 --> 00:04:10,140
+As the modeling modifier,
+
+90
+00:04:10,140 --> 00:04:12,559
+you can use them to procedurally generate
+
+91
+00:04:12,559 --> 00:04:15,200
+new behavior for your item.
+
+92
+00:04:15,200 --> 00:04:18,870
+The noise modifier is super
+cool to create camera shake
+
+93
+00:04:18,870 --> 00:04:21,290
+or to bring texture to your animation.
+
+94
+00:04:21,290 --> 00:04:25,060
+The lock icon will allow you
+to lock the current channel,
+
+95
+00:04:25,060 --> 00:04:28,420
+making any further modification impossible
+
+96
+00:04:28,420 --> 00:04:29,943
+until you disable it.
+
+97
+00:04:31,150 --> 00:04:34,400
+The magnifying glass on the
+top left will allow you to
+
+98
+00:04:34,400 --> 00:04:36,440
+search for specific channels.
+
+99
+00:04:36,440 --> 00:04:39,800
+It's very handy whenever you
+want to isolate a channel
+
+100
+00:04:39,800 --> 00:04:43,170
+like the location channel
+without having to hide
+
+101
+00:04:43,170 --> 00:04:45,380
+everything else then un-hide everything.
+
+102
+00:04:45,380 --> 00:04:47,524
+Just type what you want to work on,
+
+103
+00:04:47,524 --> 00:04:49,573
+then everything else will disappear.
+
+104
+00:04:49,573 --> 00:04:52,610
+All the previous navigation
+showed that we have seen
+
+105
+00:04:52,610 --> 00:04:55,110
+when we have studied the
+timeline of the same,
+
+106
+00:04:55,110 --> 00:04:57,456
+the home key will frame everything,
+
+107
+00:04:57,456 --> 00:05:01,830
+the dot key on the notepad
+will zoom into the selection
+
+108
+00:05:01,830 --> 00:05:05,940
+and you can use the P key
+to set a temporary preview
+
+109
+00:05:05,940 --> 00:05:07,743
+range into your animation.
+
+110
+00:05:07,743 --> 00:05:09,203
+Alt and P will clear.
+
+111
+00:05:10,750 --> 00:05:13,930
+When working with curve,
+we are working with values,
+
+112
+00:05:13,930 --> 00:05:16,700
+and fortunately those
+values can vary a lot.
+
+113
+00:05:16,700 --> 00:05:19,680
+Some curve will have a
+small arrange of value,
+
+114
+00:05:19,680 --> 00:05:23,040
+while other curve might
+have a big range of value.
+
+115
+00:05:23,040 --> 00:05:25,310
+And in this case, you
+can see me struggling,
+
+116
+00:05:25,310 --> 00:05:28,660
+going back and forth to
+select into different values.
+
+117
+00:05:28,660 --> 00:05:31,149
+The normalize option allow us to convert
+
+118
+00:05:31,149 --> 00:05:33,150
+to this big range of value
+
+119
+00:05:33,150 --> 00:05:36,010
+to a range that goes
+from minus one to one.
+
+120
+00:05:36,010 --> 00:05:38,580
+So it doesn't change
+the value of the curve,
+
+121
+00:05:38,580 --> 00:05:42,030
+it changed the way the value is displayed.
+
+122
+00:05:42,030 --> 00:05:45,008
+It makes it a bit handier to work on
+
+123
+00:05:45,008 --> 00:05:47,280
+the higher range of values.
+
+124
+00:05:47,280 --> 00:05:49,490
+If I disable the auto update,
+
+125
+00:05:49,490 --> 00:05:52,730
+I can move any value beyond the threshold
+
+126
+00:05:52,730 --> 00:05:54,540
+of minus one and plus one.
+
+127
+00:05:54,540 --> 00:05:57,050
+Then I will add the vision
+of the modified curve,
+
+128
+00:05:57,050 --> 00:06:01,340
+but if I enable it, as soon
+as I move beyond minus one,
+
+129
+00:06:01,340 --> 00:06:04,580
+the curve is not canceling the move,
+
+130
+00:06:04,580 --> 00:06:07,180
+but it's re-updating it's position
+
+131
+00:06:07,180 --> 00:06:10,266
+into a minus one to plus one range.
+
+132
+00:06:10,266 --> 00:06:13,888
+So as you can see, when I
+move the extreme position,
+
+133
+00:06:13,888 --> 00:06:18,660
+it does quite change the shape
+of the curve in the inside.
+
+134
+00:06:18,660 --> 00:06:19,910
+I don't use it that much,
+
+135
+00:06:19,910 --> 00:06:23,181
+but it will make more
+sense if you manipulate it.
+
+136
+00:06:23,181 --> 00:06:27,153
+By default you will see the
+curve of the transform channel
+
+137
+00:06:27,153 --> 00:06:30,260
+of the displayed animated object,
+
+138
+00:06:30,260 --> 00:06:33,140
+in this case, the
+controller of my character.
+
+139
+00:06:33,140 --> 00:06:36,300
+If I hide everything but
+those few controllers,
+
+140
+00:06:36,300 --> 00:06:41,300
+you can see that I only have
+those listed in my graph edit.
+
+141
+00:06:41,510 --> 00:06:44,080
+When activated, the selection filter,
+
+142
+00:06:44,080 --> 00:06:48,200
+only selected object will
+show their animation curve.
+
+143
+00:06:48,200 --> 00:06:50,320
+When enabling to show hidden,
+
+144
+00:06:50,320 --> 00:06:54,750
+it will show absolutely every
+control channels available,
+
+145
+00:06:54,750 --> 00:06:57,230
+whether you hide those controller or not,
+
+146
+00:06:57,230 --> 00:06:59,910
+the curves will still be displayed.
+
+147
+00:06:59,910 --> 00:07:03,680
+The only show arrows
+options will show you curves
+
+148
+00:07:03,680 --> 00:07:07,530
+or keyframes that are no
+longer assigned to anything.
+
+149
+00:07:07,530 --> 00:07:10,630
+Can happen sometime during
+whenever you delete a bone
+
+150
+00:07:10,630 --> 00:07:14,710
+in edit mode and you didn't
+clean the animation later on.
+
+151
+00:07:14,710 --> 00:07:17,510
+It's very specific and we
+don't really need to know
+
+152
+00:07:17,510 --> 00:07:19,490
+more about this right now.
+
+153
+00:07:19,490 --> 00:07:23,560
+The ghost curve option will
+display you the previous
+
+154
+00:07:23,560 --> 00:07:25,843
+unedited shape of the curve.
+
+155
+00:07:25,843 --> 00:07:29,020
+This is something I never
+use, to be really honest,
+
+156
+00:07:29,020 --> 00:07:33,070
+but it can be useful for you
+if you find any interest in it.
+
+157
+00:07:33,070 --> 00:07:36,510
+Click back on the crossed
+button to get rid of it.
+
+158
+00:07:36,510 --> 00:07:39,610
+I won't go through the
+whole effect of menus
+
+159
+00:07:39,610 --> 00:07:43,350
+since there are a lot of options
+that are self explanatory.
+
+160
+00:07:43,350 --> 00:07:46,560
+I believe this is cool if
+you are working on multiple
+
+161
+00:07:46,560 --> 00:07:50,360
+object at once for motion
+design, for example,
+
+162
+00:07:50,360 --> 00:07:52,620
+and you want to clean your selection.
+
+163
+00:07:52,620 --> 00:07:54,734
+They are different ways you can snap
+
+164
+00:07:54,734 --> 00:07:57,360
+your different keys on the grid.
+
+165
+00:07:57,360 --> 00:08:00,083
+By default, it's set to nearest frame,
+
+166
+00:08:00,083 --> 00:08:05,083
+meaning that whenever you're
+moving your key on the X axis,
+
+167
+00:08:05,183 --> 00:08:08,620
+it will snap right onto a frame.
+
+168
+00:08:08,620 --> 00:08:12,020
+This is the option I use 99% of the time.
+
+169
+00:08:12,020 --> 00:08:16,400
+If I use the second step, it
+will snap on every second.
+
+170
+00:08:16,400 --> 00:08:19,420
+So, in our case, every 30 frames.
+
+171
+00:08:19,420 --> 00:08:24,030
+In the view option in the header,
+I can enable show seconds.
+
+172
+00:08:24,030 --> 00:08:28,270
+Since my document is based
+to 30 frame per second,
+
+173
+00:08:28,270 --> 00:08:30,370
+whenever I try to move the key,
+
+174
+00:08:30,370 --> 00:08:32,967
+you can see that it's not to frame 30.
+
+175
+00:08:32,967 --> 00:08:35,640
+You have seen previously that pressing M,
+
+176
+00:08:35,640 --> 00:08:38,120
+we can add a marker on the timeline.
+
+177
+00:08:38,120 --> 00:08:40,650
+You can add them also in the graph editor
+
+178
+00:08:40,650 --> 00:08:44,200
+because the graph editor
+is just another version,
+
+179
+00:08:44,200 --> 00:08:46,070
+in a way, of the timeline.
+
+180
+00:08:46,070 --> 00:08:49,950
+And if I then switch to
+snapped to nearest marker
+
+181
+00:08:49,950 --> 00:08:52,380
+as soon as I will move my key,
+
+182
+00:08:52,380 --> 00:08:54,360
+it will snap on the nearest marker.
+
+183
+00:08:54,360 --> 00:08:57,380
+Finally, you can get rid of the auto snap
+
+184
+00:08:57,380 --> 00:08:59,470
+switching to no auto snap.
+
+185
+00:08:59,470 --> 00:09:02,610
+It can be useful in
+certain case when you are,
+
+186
+00:09:02,610 --> 00:09:05,550
+for example, scaling a wall animation
+
+187
+00:09:05,550 --> 00:09:07,740
+and you don't want every keyframe
+
+188
+00:09:07,740 --> 00:09:09,820
+to snap to the nearest frame,
+
+189
+00:09:09,820 --> 00:09:13,240
+but don't forget that
+Blender will read the value
+
+190
+00:09:13,240 --> 00:09:16,060
+on one frame, not reading between.
+
+191
+00:09:16,060 --> 00:09:19,830
+Be cautious with it because
+the value read by Blender
+
+192
+00:09:19,830 --> 00:09:22,450
+might not be the one on your key,
+
+193
+00:09:22,450 --> 00:09:24,123
+this can be a bit confusing.
+
+194
+00:09:24,980 --> 00:09:26,390
+As in the 3D veiwport,
+
+195
+00:09:26,390 --> 00:09:29,040
+you can use different kind of pivot point
+
+196
+00:09:29,040 --> 00:09:30,620
+to edit your curve.
+
+197
+00:09:30,620 --> 00:09:34,790
+The bounding box center
+will take the most extreme
+
+198
+00:09:34,790 --> 00:09:36,380
+keys you have selected
+
+199
+00:09:36,380 --> 00:09:39,930
+and it will set the pivot
+point right in the middle.
+
+200
+00:09:39,930 --> 00:09:40,970
+As in the 3D view,
+
+201
+00:09:40,970 --> 00:09:42,960
+you can see this dotted line showing
+
+202
+00:09:42,960 --> 00:09:47,370
+where is the pivot point
+compared to your mouse cursor.
+
+203
+00:09:47,370 --> 00:09:50,610
+The 2D cursor, as act the 3D cursor,
+
+204
+00:09:50,610 --> 00:09:54,640
+you can place it by shift
+right clicking on the grid
+
+205
+00:09:54,640 --> 00:09:58,320
+and it's position is defined
+by those two blue lines,
+
+206
+00:09:58,320 --> 00:10:00,763
+the play at and a given value.
+
+207
+00:10:01,830 --> 00:10:03,320
+With my key selected,
+
+208
+00:10:03,320 --> 00:10:07,520
+if I press S and Y to scale on the Y axis,
+
+209
+00:10:07,520 --> 00:10:10,551
+you can see my keys are pointing toward
+
+210
+00:10:10,551 --> 00:10:12,960
+the horizontal blue line.
+
+211
+00:10:12,960 --> 00:10:15,730
+This is a good way to set the same value
+
+212
+00:10:15,730 --> 00:10:18,590
+to several keyframes at once.
+
+213
+00:10:18,590 --> 00:10:22,960
+The individual origin pivot
+point is the one I use the most.
+
+214
+00:10:22,960 --> 00:10:25,910
+Each keyframe becomes independent
+
+215
+00:10:25,910 --> 00:10:28,236
+and whenever your scaling or rotating,
+
+216
+00:10:28,236 --> 00:10:32,390
+it's manipulating each
+keyframe handles separately,
+
+217
+00:10:32,390 --> 00:10:35,260
+allowing you to scale
+them and manipulate them
+
+218
+00:10:35,260 --> 00:10:38,550
+without moving them onto the timeline.
+
+219
+00:10:38,550 --> 00:10:41,440
+Rotating the keys with
+the bonding box option
+
+220
+00:10:41,440 --> 00:10:43,870
+also move them on the timeline.
+
+221
+00:10:43,870 --> 00:10:45,450
+As in mesh edit mode,
+
+222
+00:10:45,450 --> 00:10:48,393
+you can activate a proportional editing.
+
+223
+00:10:48,393 --> 00:10:50,800
+As soon as I edit one of my keyframe
+
+224
+00:10:50,800 --> 00:10:54,000
+I can see the aerial
+(indistinct) of the falloff
+
+225
+00:10:54,000 --> 00:10:55,370
+and using the mouse wheel,
+
+226
+00:10:55,370 --> 00:10:58,310
+I can increase or decrease the size
+
+227
+00:10:58,310 --> 00:10:59,730
+of the area of the effect.
+
+228
+00:10:59,730 --> 00:11:01,210
+I don't use it that much,
+
+229
+00:11:01,210 --> 00:11:04,168
+but it can be very handy
+whenever you are dealing with
+
+230
+00:11:04,168 --> 00:11:08,443
+high density keyframed
+curve like baked animation
+
+231
+00:11:08,443 --> 00:11:10,070
+or motion capture.
+
+232
+00:11:10,070 --> 00:11:11,770
+As the mesh editing falloff,
+
+233
+00:11:11,770 --> 00:11:14,490
+it comes with different
+curves that will behave
+
+234
+00:11:14,490 --> 00:11:18,370
+in a different manner whenever
+you are moving your point.
+
+235
+00:11:18,370 --> 00:11:21,833
+You can access new display
+option in the view panel.
+
+236
+00:11:21,833 --> 00:11:24,900
+Whether you want to
+show or not the sidebar
+
+237
+00:11:24,900 --> 00:11:27,110
+you can access it by pressing N.
+
+238
+00:11:27,110 --> 00:11:30,890
+You can enable the operator
+box that is available
+
+239
+00:11:30,890 --> 00:11:32,600
+in the 3D veiwport too,
+
+240
+00:11:32,600 --> 00:11:35,910
+but I don't think it's that
+useful on the graph edit.
+
+241
+00:11:35,910 --> 00:11:38,047
+The show cursor option will hide
+
+242
+00:11:38,047 --> 00:11:42,020
+or unhide the original
+line of the 2D cursor.
+
+243
+00:11:42,020 --> 00:11:44,770
+You can activate the show sliders option
+
+244
+00:11:44,770 --> 00:11:47,561
+if you want to access
+the value of the keyframe
+
+245
+00:11:47,561 --> 00:11:49,960
+directly in the channels panel.
+
+246
+00:11:49,960 --> 00:11:53,050
+I never use it, but it definitely is handy
+
+247
+00:11:53,050 --> 00:11:55,430
+if you want to fine tweak your values.
+
+248
+00:11:55,430 --> 00:11:57,470
+You will find other option to display
+
+249
+00:11:57,470 --> 00:11:59,820
+or not the handles of the keyframe,
+
+250
+00:11:59,820 --> 00:12:02,630
+but I do recommend you
+to keep them displayed
+
+251
+00:12:02,630 --> 00:12:06,761
+and I also advise you to only
+display the selected keyframe
+
+252
+00:12:06,761 --> 00:12:10,590
+in those or your graph editor
+will rapidly become a mess.
+
+253
+00:12:10,590 --> 00:12:13,690
+To summarize, we have
+seen that we can change
+
+254
+00:12:13,690 --> 00:12:17,960
+the handle type of our
+curve using the V key.
+
+255
+00:12:17,960 --> 00:12:22,570
+We can use the normalize
+option to display a broad range
+
+256
+00:12:22,570 --> 00:12:27,570
+of curved values into a minus
+one to one range curve value.
+
+257
+00:12:28,440 --> 00:12:31,600
+We can see that through the
+graph editor we can hide
+
+258
+00:12:31,600 --> 00:12:34,700
+or unhide curve, deactivate them,
+
+259
+00:12:34,700 --> 00:12:37,820
+lock them or even add the modifiers.
+
+260
+00:12:37,820 --> 00:12:41,520
+As in the 3D viewport, we
+can use different pivot point
+
+261
+00:12:41,520 --> 00:12:43,330
+and constraint axis.
+
+262
+00:12:43,330 --> 00:12:45,180
+We can use selection filter
+
+263
+00:12:45,180 --> 00:12:48,590
+or quick search to make
+our selection easier.
+
+264
+00:12:48,590 --> 00:12:50,730
+We can use proportional editing
+
+265
+00:12:50,730 --> 00:12:53,310
+to edit multiple keys at once.
+

@@ -1,0 +1,687 @@
+﻿1
+00:00:01,150 --> 00:00:04,310
+- [Pierre] In this video, we
+will start animating the feet
+
+2
+00:00:04,310 --> 00:00:07,730
+based on the root of the torso motion.
+
+3
+00:00:07,730 --> 00:00:08,740
+The first thing to do
+
+4
+00:00:08,740 --> 00:00:13,450
+is to double the length of
+the motion we just created.
+
+5
+00:00:13,450 --> 00:00:16,520
+And we need to repeat
+this up and down cycle.
+
+6
+00:00:16,520 --> 00:00:19,160
+With all my curve controllers selected,
+
+7
+00:00:19,160 --> 00:00:20,570
+I will duplicate them.
+
+8
+00:00:20,570 --> 00:00:23,600
+But first, make sure that
+the very first controller
+
+9
+00:00:23,600 --> 00:00:26,120
+and the very last are exactly the same.
+
+10
+00:00:26,120 --> 00:00:27,860
+Then press Shift + D to duplicate
+
+11
+00:00:27,860 --> 00:00:30,800
+and offset by the length
+of your animation.
+
+12
+00:00:30,800 --> 00:00:33,350
+In my case, 36 frames.
+
+13
+00:00:33,350 --> 00:00:38,110
+So that my whole cycle
+run through 72 frames.
+
+14
+00:00:38,110 --> 00:00:42,030
+Again, this is the rhythm I
+have chosen for this animation.
+
+15
+00:00:42,030 --> 00:00:45,240
+Your animation can be faster or slower.
+
+16
+00:00:45,240 --> 00:00:49,060
+From there, I will press Alt
++ H to un-hide my controller,
+
+17
+00:00:49,060 --> 00:00:51,880
+select the visibility property bone
+
+18
+00:00:51,880 --> 00:00:54,480
+and they will re-enable the legs.
+
+19
+00:00:54,480 --> 00:00:58,500
+Since the legs are using an
+inverse kinematic mechanism,
+
+20
+00:00:58,500 --> 00:01:01,740
+we will just have to
+animate the foot controller.
+
+21
+00:01:01,740 --> 00:01:04,000
+The cool thing with this animation method
+
+22
+00:01:04,000 --> 00:01:08,050
+is that it's easy to tweak
+the position of any controller
+
+23
+00:01:08,050 --> 00:01:10,440
+by slightly offsetting the curves.
+
+24
+00:01:10,440 --> 00:01:13,890
+If I want to raise the up and
+down motion of the character,
+
+25
+00:01:13,890 --> 00:01:16,770
+I just need to select the root controller
+
+26
+00:01:16,770 --> 00:01:18,820
+and offset the whole curve
+
+27
+00:01:18,820 --> 00:01:21,370
+on the y-axis in the graph editor.
+
+28
+00:01:21,370 --> 00:01:23,940
+The up and down motion will occur higher,
+
+29
+00:01:23,940 --> 00:01:26,830
+giving more space for the foot motion.
+
+30
+00:01:26,830 --> 00:01:30,030
+But it doesn't matter, even
+if it doesn't look good
+
+31
+00:01:30,030 --> 00:01:32,730
+I will be able to get back onto this curve
+
+32
+00:01:32,730 --> 00:01:34,653
+and offset it at will.
+
+33
+00:01:36,240 --> 00:01:38,120
+The first thing to do from there
+
+34
+00:01:38,120 --> 00:01:42,950
+is to position our feet based
+on the motion of the torso.
+
+35
+00:01:42,950 --> 00:01:45,160
+Generally, the up pose,
+
+36
+00:01:45,160 --> 00:01:49,490
+the moment where the torso
+is at its highest point
+
+37
+00:01:49,490 --> 00:01:51,970
+is close to the passing pose.
+
+38
+00:01:51,970 --> 00:01:54,350
+It is generally slightly delayed.
+
+39
+00:01:54,350 --> 00:01:57,600
+When the foot contacts the
+ground, the torso goes down.
+
+40
+00:01:57,600 --> 00:02:02,480
+And when the foot is pulling
+back, the torso is raising.
+
+41
+00:02:02,480 --> 00:02:07,270
+Since the torso is almost at
+its highest point on frame 20,
+
+42
+00:02:07,270 --> 00:02:11,750
+I will slightly move the
+foot back on this frame.
+
+43
+00:02:11,750 --> 00:02:13,430
+And on frame zero,
+
+44
+00:02:13,430 --> 00:02:17,030
+whenever the torso is at its lowest point,
+
+45
+00:02:17,030 --> 00:02:19,420
+I will push the foot forward.
+
+46
+00:02:19,420 --> 00:02:22,410
+The idea is not to get 100% accurate
+
+47
+00:02:22,410 --> 00:02:24,370
+but just create a few landmark
+
+48
+00:02:24,370 --> 00:02:27,690
+before we use the curve
+and adjust the rhythm.
+
+49
+00:02:27,690 --> 00:02:31,550
+Finally, the foot will be
+third or away on the back
+
+50
+00:02:31,550 --> 00:02:35,550
+whenever we have just hit the down pose.
+
+51
+00:02:35,550 --> 00:02:39,340
+And then when the character
+is pushing on the other leg,
+
+52
+00:02:39,340 --> 00:02:41,790
+the current foot will be raising.
+
+53
+00:02:41,790 --> 00:02:44,880
+The idea here is to work only on one axis
+
+54
+00:02:44,880 --> 00:02:47,100
+as we did for the torso,
+
+55
+00:02:47,100 --> 00:02:49,080
+setting the position of the foot
+
+56
+00:02:49,080 --> 00:02:51,700
+just before it leaves the ground.
+
+57
+00:02:51,700 --> 00:02:54,130
+Finally, I need to find the moment
+
+58
+00:02:54,130 --> 00:02:57,260
+where this foot will get back forward,
+
+59
+00:02:57,260 --> 00:03:01,810
+and this should have happen
+just before the body is falling.
+
+60
+00:03:01,810 --> 00:03:03,610
+The foot contact the ground
+
+61
+00:03:03,610 --> 00:03:07,420
+and then we have the
+down pose of the torso.
+
+62
+00:03:07,420 --> 00:03:10,170
+Our animation doesn't look pretty at all
+
+63
+00:03:10,170 --> 00:03:13,110
+but at least we have the main landmarks.
+
+64
+00:03:13,110 --> 00:03:17,070
+Since the forward motion of
+the foot will be mostly linear,
+
+65
+00:03:17,070 --> 00:03:20,800
+I will select all the
+key frames of the foot,
+
+66
+00:03:20,800 --> 00:03:25,090
+press V and change the
+handle type to vector.
+
+67
+00:03:25,090 --> 00:03:28,150
+As we did before with
+our squirrel character,
+
+68
+00:03:28,150 --> 00:03:31,150
+we will consider the cycle to be linear,
+
+69
+00:03:31,150 --> 00:03:35,440
+meaning that the character is
+moving at a constant speed.
+
+70
+00:03:35,440 --> 00:03:40,440
+Hence, I can remove the
+key frame prior to key 33,
+
+71
+00:03:40,690 --> 00:03:42,960
+because we just need to key frame,
+
+72
+00:03:42,960 --> 00:03:45,860
+one starting point and one and point
+
+73
+00:03:45,860 --> 00:03:48,560
+to create this linear motion.
+
+74
+00:03:48,560 --> 00:03:50,330
+Let's switch to the graph editor.
+
+75
+00:03:50,330 --> 00:03:54,830
+To get the right pace of
+the foot when on the ground,
+
+76
+00:03:54,830 --> 00:03:59,830
+I need to interpolate from
+frame 60 back to frame 33
+
+77
+00:04:01,030 --> 00:04:03,000
+through the whole cycle.
+
+78
+00:04:03,000 --> 00:04:07,680
+Because frame 59 or 60 mark the moment
+
+79
+00:04:07,680 --> 00:04:10,870
+our character is
+contacting with the ground,
+
+80
+00:04:10,870 --> 00:04:15,720
+while frame 33 is the moment
+the foot is leaving the ground.
+
+81
+00:04:15,720 --> 00:04:18,020
+So this plateau is not correct
+
+82
+00:04:18,020 --> 00:04:22,680
+nor the interpolation between
+frame zero and frame 33.
+
+83
+00:04:22,680 --> 00:04:25,260
+But what I can do or what I should do,
+
+84
+00:04:25,260 --> 00:04:27,610
+because I've made a slight mistake,
+
+85
+00:04:27,610 --> 00:04:32,610
+is to duplicate the key
+from frame 34 on frame 105,
+
+86
+00:04:34,950 --> 00:04:39,390
+which stand for frame
+72, the end of the cycle,
+
+87
+00:04:39,390 --> 00:04:41,440
+plus frame 33.
+
+88
+00:04:41,440 --> 00:04:45,660
+This way, between frame 60 and frame 105,
+
+89
+00:04:45,660 --> 00:04:50,660
+I have the whole motion of the
+foot sticking to the ground
+
+90
+00:04:50,750 --> 00:04:52,870
+with the right interpolation.
+
+91
+00:04:52,870 --> 00:04:57,490
+From there, I can go on frame
+72, the end of the cycle,
+
+92
+00:04:57,490 --> 00:05:00,070
+and insert a key frame on this channel.
+
+93
+00:05:00,070 --> 00:05:02,960
+I can now duplicate to this key frame
+
+94
+00:05:02,960 --> 00:05:05,400
+and move it on frame zero
+
+95
+00:05:05,400 --> 00:05:08,850
+and set both to free or to vector.
+
+96
+00:05:08,850 --> 00:05:12,980
+Now, both the first and
+last key frame are the same
+
+97
+00:05:12,980 --> 00:05:16,038
+and they have the right interpolation
+
+98
+00:05:16,038 --> 00:05:20,270
+and the foot is moving at the
+right speed on the ground.
+
+99
+00:05:20,270 --> 00:05:24,490
+Now I just need to work
+on the up and down motion
+
+100
+00:05:24,490 --> 00:05:28,140
+between frame 33 and frame 60.
+
+101
+00:05:28,140 --> 00:05:30,510
+We can also adjust the moment
+
+102
+00:05:30,510 --> 00:05:32,140
+the foot is leaving the ground,
+
+103
+00:05:32,140 --> 00:05:35,480
+I think it could happen a little later.
+
+104
+00:05:35,480 --> 00:05:39,240
+Now that we know how to
+fix the interpolation
+
+105
+00:05:39,240 --> 00:05:41,850
+between the beginning and
+the end of the motion,
+
+106
+00:05:41,850 --> 00:05:43,530
+that's perfectly fine.
+
+107
+00:05:43,530 --> 00:05:45,310
+The other thing to consider
+
+108
+00:05:45,310 --> 00:05:48,980
+is that while the foot has
+linear or motion on the ground,
+
+109
+00:05:48,980 --> 00:05:52,320
+it won't have linear motion in the air.
+
+110
+00:05:52,320 --> 00:05:54,040
+By rotating this handle,
+
+111
+00:05:54,040 --> 00:05:57,000
+I will create a slight overshoot backward
+
+112
+00:05:57,000 --> 00:06:00,500
+as if the foot was projected the backward
+
+113
+00:06:00,500 --> 00:06:04,380
+because of its inertia
+when leaving the ground.
+
+114
+00:06:04,380 --> 00:06:06,280
+With this row editing done,
+
+115
+00:06:06,280 --> 00:06:09,090
+I will switch to the Z location curve
+
+116
+00:06:09,090 --> 00:06:12,440
+and they will simply add a new key frame
+
+117
+00:06:12,440 --> 00:06:16,130
+between the landing pose,
+between the contacting pose
+
+118
+00:06:16,130 --> 00:06:18,750
+and the pose where the
+foot is leaving the ground.
+
+119
+00:06:18,750 --> 00:06:21,530
+As usual, you can see here the final curve
+
+120
+00:06:21,530 --> 00:06:24,480
+for both the Y and Z axis.
+
+121
+00:06:24,480 --> 00:06:29,480
+As I did for the torso, to get
+a satisfying sense of weight,
+
+122
+00:06:29,900 --> 00:06:33,940
+I will make a slight
+plateau or moving halt
+
+123
+00:06:33,940 --> 00:06:36,890
+just before the foot hit the ground,
+
+124
+00:06:36,890 --> 00:06:41,760
+so that it will have some
+kind of a hard time to raise.
+
+125
+00:06:41,760 --> 00:06:46,070
+It will stay up before
+landing very quickly
+
+126
+00:06:46,070 --> 00:06:48,140
+because it's very heavy
+
+127
+00:06:48,140 --> 00:06:52,000
+and the robot is kind
+of releasing the foot.
+
+128
+00:06:52,000 --> 00:06:56,580
+So it creates some kind of
+nice contrast on the curve
+
+129
+00:06:56,580 --> 00:07:00,280
+that currently translates
+on the animation.
+
+130
+00:07:00,280 --> 00:07:02,830
+The tricky thing about this method
+
+131
+00:07:02,830 --> 00:07:06,370
+is to focus on one motion at a time.
+
+132
+00:07:06,370 --> 00:07:10,140
+And here, you may find out
+the motion looks a bit weird
+
+133
+00:07:10,140 --> 00:07:12,910
+because there is no rotation in the foot.
+
+134
+00:07:12,910 --> 00:07:15,660
+But we will input some
+rotation in the foot
+
+135
+00:07:15,660 --> 00:07:17,610
+slightly later on.
+
+136
+00:07:17,610 --> 00:07:20,220
+Just focus on one channel at a time,
+
+137
+00:07:20,220 --> 00:07:22,280
+one controller at a time.
+
+138
+00:07:22,280 --> 00:07:26,780
+And even focus on the motion
+of the controller itself.
+
+139
+00:07:26,780 --> 00:07:30,570
+Not necessarily the
+motion of the whole robot.
+
+140
+00:07:30,570 --> 00:07:32,700
+As any other animation technique,
+
+141
+00:07:32,700 --> 00:07:35,940
+it will take you a bit
+of time to get used to it
+
+142
+00:07:35,940 --> 00:07:39,440
+but it's very handy for
+this kind of animation.
+
+143
+00:07:39,440 --> 00:07:43,100
+Before we call the base
+motion of the foot down,
+
+144
+00:07:43,100 --> 00:07:46,880
+I want to slightly push forward the foot
+
+145
+00:07:46,880 --> 00:07:48,630
+just before it lands.
+
+146
+00:07:48,630 --> 00:07:51,260
+To do so, I've slightly rotated the handle
+
+147
+00:07:51,260 --> 00:07:53,090
+just before the contacting pose,
+
+148
+00:07:53,090 --> 00:07:56,790
+so that the foot gets
+a little more forward
+
+149
+00:07:56,790 --> 00:07:58,890
+before it hits the ground.
+
+150
+00:07:58,890 --> 00:08:02,720
+From there, I can adjust
+the up motion of the foot.
+
+151
+00:08:02,720 --> 00:08:06,740
+Don't hesitate to track
+the arcs of your animation
+
+152
+00:08:06,740 --> 00:08:11,340
+using the motion path we have
+seen in the previous chapter.
+
+153
+00:08:11,340 --> 00:08:12,870
+In the next video,
+
+154
+00:08:12,870 --> 00:08:15,800
+we will use the foot roll controller
+
+155
+00:08:15,800 --> 00:08:20,373
+to add a bit of rotation on the
+ankle and on the whole foot.
+

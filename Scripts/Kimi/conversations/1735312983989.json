@@ -1,0 +1,37 @@
+{
+    "conversation_id": "ctncd1npfahffpte5to0",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC)",
+            "fileID": "cnt8m9817fm92pgfl76g",
+            "itemID": 1031,
+            "citation": "Graziosi, D. B., Nakagami, O., Kuma, S., Zaghetto, A., Suzuki, T., & Tabatabai, A. (2020). An overview of ongoing point cloud compression standardization activities: Video-based (V-PCC) and geometry-based (G-PCC). APSIPA Transactions on Signal and Information Processing, 9(1). https://doi.org/10.1017/atsip.2020.12\n",
+            "citationShort": "Graziosi et al., 2020",
+            "tags": [
+                "#3D Reconstruction",
+                "#Compression Techniques",
+                "Point cloud compression",
+                "G-PCC",
+                "Geometry-based point cloud compression",
+                "Immersive media",
+                "ISO/IEC 23090-5",
+                "ISO/IEC 23090-9",
+                "MPEG-I",
+                "V-PCC",
+                "Video-based point cloud compression",
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：什么是内预测? \n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC), was published on 2020. (It can be cite this paper as Graziosi et al., 2020 on your answer). \n\n",
+    "response": "### 什么是内预测？\n\n内预测（Intra Prediction）是视频编码和点云压缩中的一个概念，指的是仅利用单个帧内部的信息来预测像素或点云数据的方法，而不依赖于其他帧的信息。在点云压缩的上下文中，内预测特别适用于独立编码和解码点云数据，而不涉及时间维度上的相关性。\n\n在Graziosi等人（2020）的研究中，提到了几何基点云压缩（G-PCC）目前仅定义了内预测，即不使用任何时间预测工具。具体来说，G-PCC中的内预测涉及到以下几个方面：\n\n1. **几何表示**：G-PCC可以直接在3D空间中编码内容，利用数据结构（如八叉树）描述点云中点的位置。\n   \n   > “Another key concept for G-PCC is the definition of tiles and slices to allow parallel coding functionality [53].”\n\n2. **八叉树编码**：点云通过八叉树结构进行无损表示，其中每个八叉树节点表示一个体积块是否被占据。\n\n   > “The voxelized point cloud is represented using an octree structure [56] in a lossless manner.”\n\n3. **表面近似**：通过“三角形汤”（trisoup）方法近似表示点云的表面，这是一种没有连接信息的三角形集合。\n\n   > “Alternatively, the geometry may be represented by a pruned octree, constructed from the root to an arbitrary level where the leaves represent occupied sub-blocks that are larger than a voxel. The object surface is approximated by a series of triangles, and since there is no connectivity information that relates the multiple triangles, the technique is called ‘triangle soup’ (or trisoup) [59].”\n\n4. **属性编码**：G-PCC支持三种属性编码方法，包括区域自适应分层变换（RAHT）、预测变换和提升变换，这些变换都是基于点云的几何结构进行的。\n\n   > “In G-PCC, there are three methods for attribute coding, which are: (a) RAHT [57]; (b) Predicting Transform [60]; and (c) Lifting Transform [61].”\n\n内预测在G-PCC中是基础性的，因为它允许在没有时间信息的情况下对点云数据进行有效压缩，这对于静态点云或独立于时间序列的点云数据尤为重要。",
+    "refs": [
+        "cnt8m9817fm92pgfl76g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "ctncd1iebk469e4t5gcg",
+    "req_id": "ctncd1iebk469e4t5gd0",
+    "resp_id": "ctncd1iebk469e4t5gdg",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：什么是内预测? "
+}

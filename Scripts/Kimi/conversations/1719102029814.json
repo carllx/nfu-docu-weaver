@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cprmkk0967u2kr14phf0",
+    "attachments": [
+        {
+            "date": 2019,
+            "title": "中国高等院校美术教育面临的当代艺术问题",
+            "fileID": "cpr6bmbdf0jdsf47kpbg",
+            "itemID": 2747,
+            "citation": "刘白芊. (2019). 中国高等院校美术教育面临的当代艺术问题. 艺术教育, 41–42.\n",
+            "citationShort": "刘白芊, 2019",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n故事版本\nImagine you are a writer and poet, the sun of world youth literature, because you inspire young people's curiosity with creative stories. You can describe dry academic concepts in a vivid and imaginative way, making them easy and fun. You can give life to inanimate things. For example, even when you explain complex concepts like quantum mechanics, you can compare them to different game rules or various phenomena in life. Your goal is to make the theory relevant and attractive, like a wonderful fable.\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 中国高等院校美术教育面临的当代艺术问题, was published on 2019. (It can be cite this paper as 刘白芊, 2019 on your answer). \n\n",
+    "response": "## 故事版：当代艺术与美术教育的奇幻之旅\n\n在一个遥远的国度里，有一个名叫美术的古老学院，它坐落在一片充满魔法的土地上。这个学院里，有着悠久的传统和丰富的艺术宝藏。然而，随着时间的流逝，世界发生了翻天覆地的变化，一股名为“当代艺术”的新风潮，开始在这片土地上蔓延开来。\n\n学院里的学者们，面对这股新风潮，感到既兴奋又困惑。他们开始思考：如何将这股新风潮融入到自己的教育之中，让学生们能够理解并掌握它呢？\n\n#### 第一章：传统与现代的碰撞\n\n在美术学院的深处，有三位智者，他们分别是张敢、朱青生和梁玖。张敢，这位智者，提出了一个大胆的想法：“我们应该让传统更传统，当代更当代。”他主张在保持传统的同时，也要接纳和理解当代艺术的精髓。\n\n朱青生，这位历史学者，观察到学院对当代艺术的态度经历了从排斥到接受的转变。他认为，学院的领导者应该亲自参与创作，将当代艺术的观念引入教学之中。\n\n梁玖，这位艺术与传媒的教授，指出了学院教育中一个严重的问题：当代艺术观念、课程和教学的缺失。他警告说，这种缺失会导致学生们的艺术观念变得保守，视野变得狭窄。\n\n#### 第二章：新媒体艺术的魔法\n\n在这个奇幻的国度里，新媒体艺术就像是一股强大的魔法力量。中国美术学院，作为这个国度的先锋，早在2003年就建立了新媒体艺术系。艺术家张培力，作为这个系的创立者，他认为新媒体艺术应该是民主的、开放的、多元的。他鼓励学生们在这个实验平台上发挥他们的实验性和创造性。\n\n#### 第三章：实验艺术的探索\n\n实验艺术，在这个国度里，是一种突破传统的思想和工作方法。它强调艺术应该更接近生活现实，而不仅仅是一种审美的客体。随着教学体系的改革，实验艺术课程开始在各个艺术院校中开设，为学生们提供了一个探索未知领域的平台。\n\n#### 第四章：现当代艺术史的桥梁\n\n然而，在这个国度里，还有一个问题亟待解决：学生们对现当代艺术史的了解严重不足。他们的认知往往停留在古典艺术至印象派时期。沈语冰教授指出，艺术史教学应该涵盖现当代艺术的发展逻辑，帮助学生们建立起对当代艺术的全面理解。\n\n#### 第五章：艺术观念与制度的革新\n\n在美术学院的教育中，艺术观念的差异和艺术制度的僵化成为了两个主要的难题。学院需要更新自身的职能，用新的观念来看待和处理与当代艺术之间的关系。同时，招生制度也需要改革，以真正选拔出具有创新精神和艺术才华的学生。\n\n#### 结语：美术教育的理想国\n\n最终，美术学院的学者们达成了一个共识：美术教育应该成为一个培养自由思维的理想国，一个鼓励思想火花迸发的实验场。他们决心站在中国的立场，具备世界的眼光，将当代艺术融入到教育之中，让学生们能够在这片充满魔法的土地上，自由地探索、创造和成长。\n\n---\n\n*本文参考了刘白芊（2019）的研究，探讨了中国高等院校美术教育面临的当代艺术问题，以及如何将这些问题转化为教育的机遇和挑战。*",
+    "refs": [
+        "cpr6bmbdf0jdsf47kpbg"
+    ],
+    "title": "\n\nNow, Listen to me:\n故事版本\nImag",
+    "group_id": "cprmkk35cfuo97797k0g",
+    "req_id": "cprmkk35cfuo97797k10",
+    "resp_id": "cprmkk35cfuo97797k1g",
+    "quection": "故事版本\nImagine you are a writer and poet, the sun of world youth literature, because you inspire young people's curiosity with creative stories. You can describe dry academic concepts in a vivid and imaginative way, making them easy and fun. You can give life to inanimate things. For example, even when you explain complex concepts like quantum mechanics, you can compare them to different game rules or various phenomena in life. Your goal is to make the theory relevant and attractive, like a wonderful fable."
+}

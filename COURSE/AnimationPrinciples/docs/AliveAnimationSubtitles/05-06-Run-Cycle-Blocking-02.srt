@@ -1,0 +1,977 @@
+﻿1
+00:00:01,020 --> 00:00:04,530
+- Let's go ahead with the
+blocking stage of our run cycle.
+
+2
+00:00:04,530 --> 00:00:09,530
+We will now work on the down
+pose also called passing pose
+
+3
+00:00:09,800 --> 00:00:13,310
+where the contacting foot
+is more or less aligned
+
+4
+00:00:13,310 --> 00:00:16,387
+with the center of
+gravity of our character
+
+5
+00:00:16,387 --> 00:00:18,550
+and the opposite foot is passing,
+
+6
+00:00:18,550 --> 00:00:22,800
+almost passing the center of
+gravity depending on the kind
+
+7
+00:00:22,800 --> 00:00:24,080
+of run you're doing.
+
+8
+00:00:24,080 --> 00:00:26,480
+Note that the torsal route has a bit
+
+9
+00:00:26,480 --> 00:00:28,930
+of left to right motion,
+
+10
+00:00:28,930 --> 00:00:32,730
+where the weight is shifting
+toward the contacting foot.
+
+11
+00:00:32,730 --> 00:00:36,950
+But this left to right
+motion need to be more subtle
+
+12
+00:00:36,950 --> 00:00:39,120
+than on the work cycle
+
+13
+00:00:39,120 --> 00:00:42,160
+or your character will feel very heavy.
+
+14
+00:00:42,160 --> 00:00:45,060
+Next pose, I'm not
+thinking about the timing.
+
+15
+00:00:45,060 --> 00:00:48,050
+We have four poses on 12 frames,
+
+16
+00:00:48,050 --> 00:00:50,770
+I will key every free frames.
+
+17
+00:00:50,770 --> 00:00:53,030
+So I will jump on frame free
+
+18
+00:00:53,030 --> 00:00:55,074
+and key all the controllers.
+
+19
+00:00:55,074 --> 00:00:58,836
+As in the action editor
+and choose all channels.
+
+20
+00:00:58,836 --> 00:01:00,510
+During the blocking stage,
+
+21
+00:01:00,510 --> 00:01:05,110
+it's important to key the whole
+character on each main poses
+
+22
+00:01:05,110 --> 00:01:09,180
+to avoid any foot sliding
+or weird interpolation
+
+23
+00:01:09,180 --> 00:01:11,100
+of the different controllers
+
+24
+00:01:11,100 --> 00:01:12,939
+or the right foot to the ground level,
+
+25
+00:01:12,939 --> 00:01:16,780
+cancel the rotation on the foot role
+
+26
+00:01:16,780 --> 00:01:20,110
+and place it under the
+root of the character.
+
+27
+00:01:20,110 --> 00:01:22,230
+You, what I told you
+in the previous video,
+
+28
+00:01:22,230 --> 00:01:26,040
+in this case, I need to
+slightly raise my character
+
+29
+00:01:26,040 --> 00:01:29,580
+on the first poofs
+because on the down pose,
+
+30
+00:01:29,580 --> 00:01:33,840
+I feel like he's too low
+compared to the previous one.
+
+31
+00:01:33,840 --> 00:01:36,340
+So I will push the character up,
+
+32
+00:01:36,340 --> 00:01:40,700
+selecting both the feet and
+the torso root controller.
+
+33
+00:01:40,700 --> 00:01:43,360
+As he is pushing on his right leg,
+
+34
+00:01:43,360 --> 00:01:46,370
+his hips will raise on the right side
+
+35
+00:01:46,370 --> 00:01:49,640
+and the hips should not
+be twisted that much
+
+36
+00:01:49,640 --> 00:01:51,570
+since we are in the passing pose
+
+37
+00:01:51,570 --> 00:01:55,300
+and the shoulders and hips
+will be kind of aligned
+
+38
+00:01:55,300 --> 00:01:56,330
+with the feet.
+
+39
+00:01:56,330 --> 00:02:00,300
+Here is one of the most
+important tip of this video,
+
+40
+00:02:00,300 --> 00:02:02,230
+whenever I'm building a new pose
+
+41
+00:02:02,230 --> 00:02:05,610
+if I can't get a good result right away,
+
+42
+00:02:05,610 --> 00:02:10,610
+I will cancel the rotation of
+the torso root and repose it.
+
+43
+00:02:11,180 --> 00:02:14,670
+Press Alt + R to cancel
+rotation on the hips
+
+44
+00:02:14,670 --> 00:02:16,380
+and the torso routes
+
+45
+00:02:16,380 --> 00:02:18,650
+and then rebuild the pose.
+
+46
+00:02:18,650 --> 00:02:22,520
+It's better to do so than
+trying to match the pose
+
+47
+00:02:22,520 --> 00:02:24,340
+from the previous one.
+
+48
+00:02:24,340 --> 00:02:28,180
+If we have made some
+transformation that doesn't fit.
+
+49
+00:02:28,180 --> 00:02:30,270
+You will be fighting with your ring
+
+50
+00:02:30,270 --> 00:02:32,100
+and at the end of the blocking,
+
+51
+00:02:32,100 --> 00:02:35,350
+you will have lots of weird pose
+
+52
+00:02:35,350 --> 00:02:37,310
+in your different controller
+
+53
+00:02:37,310 --> 00:02:40,310
+while it may look kind of, okay,
+
+54
+00:02:40,310 --> 00:02:42,980
+your rig will be kind of broken.
+
+55
+00:02:42,980 --> 00:02:44,150
+So trust me,
+
+56
+00:02:44,150 --> 00:02:46,910
+you may take a little more time blocking
+
+57
+00:02:46,910 --> 00:02:48,730
+your poses this way,
+
+58
+00:02:48,730 --> 00:02:53,120
+but whenever you feel like the
+character is not responding,
+
+59
+00:02:53,120 --> 00:02:56,070
+or the rig is not responding properly,
+
+60
+00:02:56,070 --> 00:02:58,700
+just cancel the rotation
+and rebuild the pose
+
+61
+00:02:58,700 --> 00:03:00,910
+from scratch.
+
+62
+00:03:00,910 --> 00:03:04,800
+You will save them a lot of
+time during the polishing.
+
+63
+00:03:04,800 --> 00:03:06,250
+Back to our pose,
+
+64
+00:03:06,250 --> 00:03:09,980
+don't forget that the
+feet have a slight right
+
+65
+00:03:09,980 --> 00:03:12,460
+to left movement while in air.
+
+66
+00:03:12,460 --> 00:03:15,510
+Position of the foot depend on the people
+
+67
+00:03:15,510 --> 00:03:18,280
+and on the speed at which you are running.
+
+68
+00:03:18,280 --> 00:03:22,509
+Some people will have their
+feet going on the outside during
+
+69
+00:03:22,509 --> 00:03:26,060
+the passing pose other on the inside.
+
+70
+00:03:26,060 --> 00:03:28,560
+Since we are blocking
+the pose don't forget
+
+71
+00:03:28,560 --> 00:03:30,480
+to select all your keys and set them
+
+72
+00:03:30,480 --> 00:03:32,636
+to constant interpolation.
+
+73
+00:03:32,636 --> 00:03:35,690
+Regarding the global arm position.
+
+74
+00:03:35,690 --> 00:03:38,960
+You will generally keep your
+arms close to your body,
+
+75
+00:03:38,960 --> 00:03:40,490
+the faster you run.
+
+76
+00:03:40,490 --> 00:03:44,170
+So basically what you have
+to think about when working
+
+77
+00:03:44,170 --> 00:03:47,980
+on your poses is the
+faster, the straighter.
+
+78
+00:03:47,980 --> 00:03:50,360
+since you've matched your video reference
+
+79
+00:03:50,360 --> 00:03:52,410
+or the reference provided,
+
+80
+00:03:52,410 --> 00:03:56,259
+don't hesitate to fine
+tweak the first pose.
+
+81
+00:03:56,259 --> 00:03:57,092
+Then the second pose,
+
+82
+00:03:57,092 --> 00:04:00,400
+maybe lean a bit more
+forward the character
+
+83
+00:04:00,400 --> 00:04:03,720
+to make him look like
+a little more dynamical
+
+84
+00:04:03,720 --> 00:04:06,350
+that will surely refine those poses
+
+85
+00:04:06,350 --> 00:04:09,008
+when we will be working on the curves.
+
+86
+00:04:09,008 --> 00:04:12,410
+Let's now jump on to the push pose.
+
+87
+00:04:12,410 --> 00:04:14,670
+This is one of the most beautiful
+
+88
+00:04:14,670 --> 00:04:18,400
+and iconic extreme of
+a run cycle it's where
+
+89
+00:04:19,368 --> 00:04:21,900
+the contacting leg is straight back
+
+90
+00:04:21,900 --> 00:04:26,010
+and the leading arm is
+at its maximum speed.
+
+91
+00:04:26,010 --> 00:04:29,350
+As the arm and the shoulder up pulling
+
+92
+00:04:30,319 --> 00:04:33,110
+the body upward in the first video,
+
+93
+00:04:33,110 --> 00:04:36,930
+the leading arm and shoulder
+will hit their extremes
+
+94
+00:04:36,930 --> 00:04:38,580
+before the feet.
+
+95
+00:04:38,580 --> 00:04:43,440
+The fist generally don't have
+a big side to side motion.
+
+96
+00:04:43,440 --> 00:04:45,880
+It can be tempting to cross
+
+97
+00:04:45,880 --> 00:04:49,480
+the right hand toward the left shoulder,
+
+98
+00:04:49,480 --> 00:04:51,810
+but that's kind of a mistake.
+
+99
+00:04:51,810 --> 00:04:56,790
+You will get a cool pose,
+but less realistic run cycle.
+
+100
+00:04:56,790 --> 00:04:58,770
+In the case of this exercise,
+
+101
+00:04:58,770 --> 00:05:02,750
+even if we do a slightly
+stylized run cycle,
+
+102
+00:05:02,750 --> 00:05:05,600
+try to match something pretty realistic.
+
+103
+00:05:05,600 --> 00:05:09,310
+You can make then some badass run cycle,
+
+104
+00:05:09,310 --> 00:05:13,330
+once you master the run cycle principles.
+
+105
+00:05:13,330 --> 00:05:15,740
+So I will go on frame six.
+
+106
+00:05:15,740 --> 00:05:18,930
+I will raise the heel
+of the contacting leg
+
+107
+00:05:18,930 --> 00:05:22,150
+and cancel any rotation on the toes.
+
+108
+00:05:22,150 --> 00:05:24,480
+Then I will move the leg backward
+
+109
+00:05:24,480 --> 00:05:27,000
+and slightly raise the torso.
+
+110
+00:05:27,000 --> 00:05:30,760
+I gain advise you to use
+the foot roll controller,
+
+111
+00:05:30,760 --> 00:05:32,490
+to orientate the foot
+
+112
+00:05:32,490 --> 00:05:36,020
+and make the toes slightly
+dragging backwards.
+
+113
+00:05:36,020 --> 00:05:38,460
+As usual for this kind of cycle,
+
+114
+00:05:38,460 --> 00:05:43,320
+the hips will be twisting
+toward the forward leg
+
+115
+00:05:43,320 --> 00:05:45,720
+and the torso root and chest controller
+
+116
+00:05:45,720 --> 00:05:48,290
+will be twisting the opposite direction.
+
+117
+00:05:48,290 --> 00:05:51,570
+The left shoulder need to be raised back
+
+118
+00:05:51,570 --> 00:05:56,390
+and the left elbow is
+almost at its highest point.
+
+119
+00:05:56,390 --> 00:06:00,368
+I've slightly the left
+forearm and left hand forward
+
+120
+00:06:00,368 --> 00:06:02,770
+to make them drag a bit.
+
+121
+00:06:02,770 --> 00:06:07,290
+I will then raise the right
+shoulder and push it forward
+
+122
+00:06:07,290 --> 00:06:09,410
+and I will raise the right right arm,
+
+123
+00:06:09,410 --> 00:06:12,640
+twisted it so that I keep the face clear
+
+124
+00:06:12,640 --> 00:06:14,750
+from the right hand.
+
+125
+00:06:14,750 --> 00:06:17,990
+The final touch is to make the legs feet
+
+126
+00:06:17,990 --> 00:06:20,660
+and knees a little straighten,
+
+127
+00:06:20,660 --> 00:06:23,260
+so that we get a good aerodynamics
+
+128
+00:06:23,260 --> 00:06:25,083
+and the pose that tells you,
+
+129
+00:06:25,083 --> 00:06:27,210
+hey, I'm going forward.
+
+130
+00:06:27,210 --> 00:06:30,260
+This relies a lot on lines of action,
+
+131
+00:06:30,260 --> 00:06:33,720
+but we will deal with
+this animation principle
+
+132
+00:06:33,720 --> 00:06:36,430
+a little later in this course.
+
+133
+00:06:36,430 --> 00:06:40,720
+For the time being, just look
+at all the silhouette tells us
+
+134
+00:06:40,720 --> 00:06:44,063
+that the character is
+pushing up and forward.
+
+135
+00:06:45,800 --> 00:06:50,038
+The last pose we will have
+two bird is the up pose.
+
+136
+00:06:50,038 --> 00:06:52,700
+This is going to be
+pretty straight forward
+
+137
+00:06:52,700 --> 00:06:57,230
+since this is when most
+of our controllers hits
+
+138
+00:06:57,230 --> 00:06:59,290
+their extreme poses.
+
+139
+00:06:59,290 --> 00:07:02,500
+Make sure you're twisting
+the chest and the hips
+
+140
+00:07:02,500 --> 00:07:03,880
+to the maximum,
+
+141
+00:07:03,880 --> 00:07:06,730
+the left shoulder and left elbow
+
+142
+00:07:06,730 --> 00:07:09,550
+are at their highest point.
+
+143
+00:07:09,550 --> 00:07:13,460
+So does the right shoulder
+and the right hand
+
+144
+00:07:13,460 --> 00:07:16,700
+and then pose the feet
+according to the reference,
+
+145
+00:07:16,700 --> 00:07:21,070
+making sure that the
+right leg is dragging back
+
+146
+00:07:21,070 --> 00:07:23,350
+with the toes also dragging
+
+147
+00:07:23,350 --> 00:07:26,690
+to get a nice arrow shape of the leg
+
+148
+00:07:26,690 --> 00:07:29,910
+that points toward the previous position
+
+149
+00:07:29,910 --> 00:07:32,190
+of the foot in space.
+
+150
+00:07:32,190 --> 00:07:34,520
+And then as usual don't hesitate
+
+151
+00:07:34,520 --> 00:07:36,865
+to rework each controller
+to get a better pose.
+
+152
+00:07:36,865 --> 00:07:41,055
+Don't forget to double
+check the video reference.
+
+153
+00:07:41,055 --> 00:07:46,055
+As you may get some more
+details like the left elbow.
+
+154
+00:07:46,640 --> 00:07:49,740
+is getting higher and the left forearm
+
+155
+00:07:49,740 --> 00:07:52,030
+is slightly bending inward.
+
+156
+00:07:52,030 --> 00:07:54,070
+Don't target to slightly twist the arm
+
+157
+00:07:54,070 --> 00:07:55,880
+to keep the head clear
+
+158
+00:07:55,880 --> 00:08:00,170
+and finally you should
+scrub through your animation
+
+159
+00:08:00,170 --> 00:08:02,090
+as often as possible.
+
+160
+00:08:02,090 --> 00:08:05,870
+So that you can fine
+tweak the previous poses
+
+161
+00:08:05,870 --> 00:08:08,320
+so that the flow looks great.
+
+162
+00:08:08,320 --> 00:08:09,810
+Once I'm done with that,
+
+163
+00:08:09,810 --> 00:08:13,150
+I will make sure I add a
+key frame on all the channel
+
+164
+00:08:13,150 --> 00:08:14,370
+of this key.
+
+165
+00:08:14,370 --> 00:08:15,931
+And then I will,
+
+166
+00:08:15,931 --> 00:08:20,650
+then I will go back on frame
+zero in the 3d viewport.
+
+167
+00:08:20,650 --> 00:08:22,232
+Select all the controllers,
+
+168
+00:08:22,232 --> 00:08:27,202
+press Ctrl + C to copy the
+pose and then go to frame 12
+
+169
+00:08:27,202 --> 00:08:29,172
+and in the 3d viewport
+press control Shift + V
+
+170
+00:08:29,172 --> 00:08:30,839
+to mirror the pause.
+
+171
+00:08:33,000 --> 00:08:35,470
+Then I just have to repeat the process,
+
+172
+00:08:35,470 --> 00:08:37,660
+go on frame free copy the pause
+
+173
+00:08:37,660 --> 00:08:41,890
+then go 12 frames later on frame 15
+
+174
+00:08:41,890 --> 00:08:45,670
+and paste the mirrored pause
+and repeat the process.
+
+175
+00:08:45,670 --> 00:08:48,830
+Finally, I will just have to duplicate
+
+176
+00:08:48,830 --> 00:08:52,924
+all the keys from frame
+zero onto frame 24.
+
+177
+00:08:52,924 --> 00:08:54,450
+Once I'm done
+
+178
+00:08:54,450 --> 00:08:57,170
+and it seems that the cycles work,
+
+179
+00:08:57,170 --> 00:09:01,240
+I will insert a key frame
+on every single keys
+
+180
+00:09:01,240 --> 00:09:02,930
+I have created
+
+181
+00:09:02,930 --> 00:09:05,700
+so that all my controllers are keyed
+
+182
+00:09:05,700 --> 00:09:08,340
+and we have our linear, our cycle.
+
+183
+00:09:08,340 --> 00:09:11,540
+As we can finally see our whole cycle.
+
+184
+00:09:11,540 --> 00:09:15,190
+We can finally check what's
+working and what's not.
+
+185
+00:09:15,190 --> 00:09:16,050
+In my case,
+
+186
+00:09:16,050 --> 00:09:19,232
+I feel like the animation lack of dynamism
+
+187
+00:09:19,232 --> 00:09:21,800
+to get more dynamic run cycle,
+
+188
+00:09:21,800 --> 00:09:24,083
+you can push the torso route forward
+
+189
+00:09:24,083 --> 00:09:28,320
+and lean your character
+forward too a little more.
+
+190
+00:09:28,320 --> 00:09:30,430
+When birding a run cycle,
+
+191
+00:09:30,430 --> 00:09:34,690
+the more horizontal you get the
+more dynamism you will have.
+
+192
+00:09:34,690 --> 00:09:39,480
+If you think about the
+stereotypical anime ninja run cycle
+
+193
+00:09:39,480 --> 00:09:41,040
+like in our route.
+
+194
+00:09:41,040 --> 00:09:44,370
+So legs are generally pushed
+to back while the torso
+
+195
+00:09:44,370 --> 00:09:48,090
+is pushed forward and
+is almost horizontal.
+
+196
+00:09:48,090 --> 00:09:51,035
+Once you've tweaked all your pose.
+
+197
+00:09:51,035 --> 00:09:55,040
+Don't forget to again to again
+mirror them on each keys.
+
+198
+00:09:55,040 --> 00:09:59,420
+Here is the result I got
+from our blocking stitch.
+
+199
+00:09:59,420 --> 00:10:02,950
+The run cycle looks pretty
+cool, pretty natural
+
+200
+00:10:02,950 --> 00:10:05,891
+not too dynamic, not too stylized
+
+201
+00:10:05,891 --> 00:10:09,200
+which is perfect to learn our fundamental.
+
+202
+00:10:09,200 --> 00:10:12,250
+Since we've been keying every free frame
+
+203
+00:10:12,250 --> 00:10:14,970
+in some kind of thinning our fashion,
+
+204
+00:10:14,970 --> 00:10:17,290
+the run cycle works.
+
+205
+00:10:17,290 --> 00:10:18,480
+What we can do now,
+
+206
+00:10:18,480 --> 00:10:21,270
+is offset some of the key poses
+
+207
+00:10:21,270 --> 00:10:24,050
+to slightly stylized our run cycle.
+
+208
+00:10:24,050 --> 00:10:27,740
+For a light skilled and agile character.
+
+209
+00:10:27,740 --> 00:10:30,730
+We want to favorize the airborne pause.
+
+210
+00:10:30,730 --> 00:10:35,200
+The idea is to hold the
+up pose a little longer
+
+211
+00:10:35,200 --> 00:10:39,860
+and switch from the
+straight pose down pose
+
+212
+00:10:39,860 --> 00:10:42,310
+and pushing pose a little faster,
+
+213
+00:10:42,310 --> 00:10:45,580
+the process in itself
+is not super complicated
+
+214
+00:10:45,580 --> 00:10:47,030
+and not super interesting.
+
+215
+00:10:47,030 --> 00:10:51,700
+I'm just moving some keys until
+I get to the right timing.
+
+216
+00:10:51,700 --> 00:10:54,130
+So in the end I've set the down
+
+217
+00:10:54,130 --> 00:10:58,130
+or passing pose on frame free and 15.
+
+218
+00:10:58,130 --> 00:11:02,220
+The pushing pose on frame five and 17,
+
+219
+00:11:02,220 --> 00:11:04,460
+so that we have only two frame between
+
+220
+00:11:04,460 --> 00:11:06,482
+the down and pushing pose.
+
+221
+00:11:06,482 --> 00:11:09,690
+So that the foot is rapidly
+sliding on the ground
+
+222
+00:11:09,690 --> 00:11:11,676
+before we get back into the air
+
+223
+00:11:11,676 --> 00:11:15,583
+with the up pose on frame eight and 20.
+

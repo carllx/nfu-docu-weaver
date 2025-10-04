@@ -1,0 +1,1190 @@
+﻿1
+00:00:00,220 --> 00:00:02,230
+- [Instructor] As our torso controller
+
+2
+00:00:02,230 --> 00:00:04,500
+is now polished or at least improved,
+
+3
+00:00:04,500 --> 00:00:06,680
+we can work on the chest.
+
+4
+00:00:06,680 --> 00:00:08,820
+There is a bit of location variation
+
+5
+00:00:08,820 --> 00:00:10,760
+in the motion of the chest,
+
+6
+00:00:10,760 --> 00:00:14,760
+but the main motion are
+led by the rotation.
+
+7
+00:00:14,760 --> 00:00:18,310
+So we will work on the
+rotation, our goal is again,
+
+8
+00:00:18,310 --> 00:00:20,550
+to bring as much contrast as possible
+
+9
+00:00:20,550 --> 00:00:22,570
+to the animation of the character,
+
+10
+00:00:22,570 --> 00:00:25,095
+to better communicate the
+impact of the punches.
+
+11
+00:00:25,095 --> 00:00:27,850
+As the center of gravity is dropping down,
+
+12
+00:00:27,850 --> 00:00:29,590
+I'm raising a bit the chest,
+
+13
+00:00:29,590 --> 00:00:32,310
+with the X quaternion rotation curve.
+
+14
+00:00:32,310 --> 00:00:33,850
+Pushing the curve a bit down,
+
+15
+00:00:33,850 --> 00:00:37,990
+we'll make the chest to drag
+while the character is falling.
+
+16
+00:00:37,990 --> 00:00:40,190
+Then as the character push forward,
+
+17
+00:00:40,190 --> 00:00:45,190
+I will make him lean a bit
+down, pushing the X curve up.
+
+18
+00:00:45,870 --> 00:00:47,420
+Now working on the Z curve,
+
+19
+00:00:47,420 --> 00:00:49,600
+I'm removing a bit of the noise,
+
+20
+00:00:49,600 --> 00:00:51,200
+and I'm twisting the character
+
+21
+00:00:51,200 --> 00:00:54,640
+so that he opens a bit
+before the jab and then
+
+22
+00:00:54,640 --> 00:00:57,690
+twist his body toward his left arm
+
+23
+00:00:57,690 --> 00:01:00,090
+to input more power into the jab.
+
+24
+00:01:00,090 --> 00:01:02,860
+Then, as we did with the
+torso root controller,
+
+25
+00:01:02,860 --> 00:01:07,860
+I will open him a bit more
+when he start twisting to throw
+
+26
+00:01:08,140 --> 00:01:11,520
+the right cross, and as he throw hit,
+
+27
+00:01:11,520 --> 00:01:14,820
+I will accelerate the twisting motion
+
+28
+00:01:14,820 --> 00:01:19,260
+by shortening the spacing
+on the Z rotation curve
+
+29
+00:01:19,260 --> 00:01:21,780
+meaning that the changes of value
+
+30
+00:01:21,780 --> 00:01:25,660
+on the Z rotation curve will
+be faster or more brutal.
+
+31
+00:01:25,660 --> 00:01:27,680
+And then we get a slight overshoot
+
+32
+00:01:27,680 --> 00:01:31,350
+as our character has put a
+lot of energy to the punch
+
+33
+00:01:31,350 --> 00:01:34,080
+so his body continued twisting a bit
+
+34
+00:01:34,080 --> 00:01:35,800
+over a couple of frames.
+
+35
+00:01:35,800 --> 00:01:39,490
+Now, I'm chasing any pops
+into the rotation curve
+
+36
+00:01:39,490 --> 00:01:43,400
+and see what they are doing,
+see if they make sense.
+
+37
+00:01:43,400 --> 00:01:46,080
+And as you can see, I'm
+trying to smooth out
+
+38
+00:01:46,080 --> 00:01:46,980
+a bit the curve.
+
+39
+00:01:46,980 --> 00:01:49,980
+What I mean by that is that I first input
+
+40
+00:01:49,980 --> 00:01:51,840
+the deep contrast into my curve
+
+41
+00:01:51,840 --> 00:01:55,638
+then I watch frame by frame
+and I check if my character
+
+42
+00:01:55,638 --> 00:01:58,160
+is zigzagging or doing some,
+
+43
+00:01:58,160 --> 00:02:00,830
+weird left to right motion at some point,
+
+44
+00:02:00,830 --> 00:02:03,170
+and I try to get rid of those.
+
+45
+00:02:03,170 --> 00:02:06,490
+But I won't be breaking the
+main contrast that we have
+
+46
+00:02:06,490 --> 00:02:08,722
+in the Z curve for example.
+
+47
+00:02:08,722 --> 00:02:11,520
+With those few improvement on the curve,
+
+48
+00:02:11,520 --> 00:02:14,710
+we have already changed
+a lot about the animation
+
+49
+00:02:14,710 --> 00:02:16,610
+and the impact of the punching.
+
+50
+00:02:16,610 --> 00:02:18,480
+From there, I will make a quick pass
+
+51
+00:02:18,480 --> 00:02:21,280
+on the rotation curves of the hips.
+
+52
+00:02:21,280 --> 00:02:23,380
+When it comes to polishing the hips,
+
+53
+00:02:23,380 --> 00:02:27,620
+I generally fix issues
+more than I'm trying
+
+54
+00:02:27,620 --> 00:02:32,160
+to create posies or push
+the motion of the hips.
+
+55
+00:02:32,160 --> 00:02:35,540
+For example, here the
+character is getting down,
+
+56
+00:02:35,540 --> 00:02:38,820
+so his hips should be
+tilting a bit forward.
+
+57
+00:02:38,820 --> 00:02:42,977
+I'm fixing this, now he's getting
+more weight onto the right
+
+58
+00:02:42,977 --> 00:02:45,980
+leg here, so using the Y rotation curve,
+
+59
+00:02:45,980 --> 00:02:50,980
+I will slightly make the hips
+tilting towards the right leg.
+
+60
+00:02:51,120 --> 00:02:53,440
+Then we'll tilt up to the right.
+
+61
+00:02:53,440 --> 00:02:55,310
+Governing the Y rotation curves
+
+62
+00:02:55,310 --> 00:02:59,100
+that drives the tilt to
+the left and the right.
+
+63
+00:02:59,100 --> 00:03:03,210
+Think of which leg is
+currently pushing the more
+
+64
+00:03:03,210 --> 00:03:06,400
+onto the hips and favorize the curve
+
+65
+00:03:06,400 --> 00:03:08,770
+toward the current leg.
+
+66
+00:03:08,770 --> 00:03:13,090
+Remember that the hips
+should not be dragging
+
+67
+00:03:13,090 --> 00:03:17,010
+compared to the feet,
+because the hips are used
+
+68
+00:03:17,010 --> 00:03:19,070
+to currently drive the legs.
+
+69
+00:03:19,070 --> 00:03:22,921
+The Z rotation curve will
+allow us to twist the hips.
+
+70
+00:03:22,921 --> 00:03:27,350
+Your key is to keep them
+aligned with the feet position,
+
+71
+00:03:27,350 --> 00:03:30,580
+and whenever we are punching,
+we will drag for example,
+
+72
+00:03:30,580 --> 00:03:33,310
+here the right foot using the hips,
+
+73
+00:03:33,310 --> 00:03:38,280
+so there will be a lot of Z
+rotation, toward the right
+
+74
+00:03:38,280 --> 00:03:40,420
+to pull the right leg.
+
+75
+00:03:40,420 --> 00:03:41,920
+But what we can do now,
+
+76
+00:03:41,920 --> 00:03:44,510
+to input a bit of dragging into the hips
+
+77
+00:03:44,510 --> 00:03:47,710
+and create a more impactful animation,
+
+78
+00:03:47,710 --> 00:03:50,610
+is to use the location
+curve and slightly delay
+
+79
+00:03:50,610 --> 00:03:54,230
+the position of the hips
+by pulling them backward
+
+80
+00:03:54,230 --> 00:03:57,710
+in the beginning of the
+punch, and a couple of frames
+
+81
+00:03:57,710 --> 00:04:02,170
+after the hit, pull them forward
+so that they will compress
+
+82
+00:04:02,170 --> 00:04:06,420
+with the chest, and it feels
+like the hips of the character,
+
+83
+00:04:06,420 --> 00:04:09,600
+have a lot of momentum
+and have a lot of weight,
+
+84
+00:04:09,600 --> 00:04:13,073
+and so they are projected
+forward during the punch.
+
+85
+00:04:13,073 --> 00:04:15,600
+This is something we've
+been doing with the head
+
+86
+00:04:15,600 --> 00:04:18,230
+of the squirrel character
+in chapter three.
+
+87
+00:04:18,230 --> 00:04:20,030
+And once I'm done with the hips,
+
+88
+00:04:20,030 --> 00:04:21,890
+I will do the same with the chest,
+
+89
+00:04:21,890 --> 00:04:24,960
+as the body of the
+character is moving forward,
+
+90
+00:04:24,960 --> 00:04:27,850
+the chest is slightly pulled backward,
+
+91
+00:04:27,850 --> 00:04:31,810
+compressed toward the hips,
+and just after the hit,
+
+92
+00:04:31,810 --> 00:04:36,340
+the chest is projected forward,
+so you can see on frame 17,
+
+93
+00:04:36,340 --> 00:04:39,340
+the curve is pulling down the compression,
+
+94
+00:04:39,340 --> 00:04:42,450
+then it's projected for
+a couple of frame forward
+
+95
+00:04:42,450 --> 00:04:47,450
+on frame 18 and 19, and
+then the chest will recover
+
+96
+00:04:47,550 --> 00:04:50,680
+with a slight overshoot, and
+then the curve will slowly,
+
+97
+00:04:50,680 --> 00:04:54,440
+he's to zero in the
+rest pose of the chest.
+
+98
+00:04:54,440 --> 00:04:58,130
+This means that the chest
+has absorbed it's momentum.
+
+99
+00:04:58,130 --> 00:05:01,800
+Remember that your audience is
+going to see your animation,
+
+100
+00:05:01,800 --> 00:05:04,522
+through the camera view, while
+we are trying to make our
+
+101
+00:05:04,522 --> 00:05:08,740
+animation looks good from
+every angle as an exercise,
+
+102
+00:05:08,740 --> 00:05:12,800
+you need to often check your
+animation for the camera view.
+
+103
+00:05:12,800 --> 00:05:16,980
+And we may input more details
+into the animation later on,
+
+104
+00:05:16,980 --> 00:05:18,960
+to favorize this camera view.
+
+105
+00:05:18,960 --> 00:05:20,960
+What I wanted to show you here is that
+
+106
+00:05:20,960 --> 00:05:23,610
+you can use the tweaker bone of the chest
+
+107
+00:05:23,610 --> 00:05:26,900
+on the base of the neck
+and the base of the hips,
+
+108
+00:05:26,900 --> 00:05:28,850
+and calculate their motion path,
+
+109
+00:05:28,850 --> 00:05:31,640
+to see how it looks in the camera view.
+
+110
+00:05:31,640 --> 00:05:34,430
+And here we can see we have two nice arcs,
+
+111
+00:05:34,430 --> 00:05:37,580
+we've an ease in and
+ease out during the step,
+
+112
+00:05:37,580 --> 00:05:38,470
+and the punch.
+
+113
+00:05:38,470 --> 00:05:42,900
+Another useful trick you can
+use is to create trackers,
+
+114
+00:05:42,900 --> 00:05:46,760
+so I will add the simple sphere
+and I will scale it down.
+
+115
+00:05:46,760 --> 00:05:50,980
+Then in the properties panel,
+we can create a new material.
+
+116
+00:05:50,980 --> 00:05:54,300
+We will call this tracker
+and we don't need to play
+
+117
+00:05:54,300 --> 00:05:55,840
+with the material properties,
+
+118
+00:05:55,840 --> 00:05:59,180
+but only the viewport visibility setting.
+
+119
+00:05:59,180 --> 00:06:01,750
+And I will give it a yellowish color.
+
+120
+00:06:01,750 --> 00:06:04,010
+Then I will create another bone,
+
+121
+00:06:04,010 --> 00:06:06,360
+I will duplicate the material,
+
+122
+00:06:06,360 --> 00:06:10,650
+give it another color and
+repeat the process a third time.
+
+123
+00:06:10,650 --> 00:06:14,520
+From there, what we can
+do is add a constraint
+
+124
+00:06:14,520 --> 00:06:18,110
+to the sphere so that they
+will copy the location
+
+125
+00:06:18,110 --> 00:06:19,150
+of the chosen bone.
+
+126
+00:06:19,150 --> 00:06:22,780
+With the yellow sphere
+selected, I will add up
+
+127
+00:06:22,780 --> 00:06:26,590
+to the constraint panel,
+add it a copy location,
+
+128
+00:06:26,590 --> 00:06:30,320
+then I will source the trident armature,
+
+129
+00:06:30,320 --> 00:06:32,858
+and in the bone section,
+I will start typing chest,
+
+130
+00:06:32,858 --> 00:06:36,080
+and then search for the chest to tweaker.
+
+131
+00:06:36,080 --> 00:06:39,500
+Now, the sphere has snapped
+onto the tweaker controller,
+
+132
+00:06:39,500 --> 00:06:43,070
+but we can't see it because
+it clips with the character.
+
+133
+00:06:43,070 --> 00:06:45,600
+So we can go into the object properties,
+
+134
+00:06:45,600 --> 00:06:49,290
+and in the viewport
+displays, set it to infant,
+
+135
+00:06:49,290 --> 00:06:52,660
+so that it will be shown
+over our character.
+
+136
+00:06:52,660 --> 00:06:55,890
+So from there, you can
+duplicate the sphere,
+
+137
+00:06:55,890 --> 00:06:57,940
+as many times as you want,
+
+138
+00:06:57,940 --> 00:07:02,150
+and change its constraints so
+that it will snap to the head,
+
+139
+00:07:02,150 --> 00:07:04,620
+for example, and the hips.
+
+140
+00:07:04,620 --> 00:07:07,620
+I will then do the same with
+the blue and red sphere,
+
+141
+00:07:07,620 --> 00:07:09,977
+and I will snap them onto the elbows,
+
+142
+00:07:09,977 --> 00:07:13,850
+the fist, the feet, and the knees.
+
+143
+00:07:13,850 --> 00:07:16,570
+Whenever you are searching
+for a bone to target,
+
+144
+00:07:16,570 --> 00:07:19,040
+just search for knee, elbow,
+
+145
+00:07:19,040 --> 00:07:23,320
+and choose wherever you
+want the .L or .R bone,
+
+146
+00:07:23,320 --> 00:07:26,060
+that mean left or right bone.
+
+147
+00:07:26,060 --> 00:07:30,690
+I advise you to wherever
+snap to the DEF bone,
+
+148
+00:07:30,690 --> 00:07:34,150
+that means deformation,
+those are the bones
+
+149
+00:07:34,150 --> 00:07:37,210
+that are currently making
+our character move,
+
+150
+00:07:37,210 --> 00:07:41,390
+or the tweaker bone, that are
+pretty low into the hierarchy,
+
+151
+00:07:41,390 --> 00:07:44,810
+so whatever kind of
+mechanism you are using,
+
+152
+00:07:44,810 --> 00:07:48,170
+like forward kinematic
+or inverse kinematic,
+
+153
+00:07:48,170 --> 00:07:51,810
+they will always move and
+follow your character.
+
+154
+00:07:51,810 --> 00:07:55,401
+From there, you can freely
+scale those trackers
+
+155
+00:07:55,401 --> 00:07:58,350
+that it better fits the
+shape of your character.
+
+156
+00:07:58,350 --> 00:08:01,020
+Then you can select them
+all, and in the 3D view,
+
+157
+00:08:01,020 --> 00:08:04,830
+press M, to move them
+into a new collection.
+
+158
+00:08:04,830 --> 00:08:07,500
+I've created a collection called tracker,
+
+159
+00:08:07,500 --> 00:08:11,160
+and so from there, I can
+easily hide my character
+
+160
+00:08:11,160 --> 00:08:14,930
+if I want to, and only
+see those bone moving.
+
+161
+00:08:14,930 --> 00:08:19,610
+This will help you to spot
+any glitches in your motion,
+
+162
+00:08:19,610 --> 00:08:23,330
+or to have a different
+view over your animation.
+
+163
+00:08:23,330 --> 00:08:25,200
+I'm not saying this is necessary,
+
+164
+00:08:25,200 --> 00:08:27,376
+but the fact that you have
+a different view of all your
+
+165
+00:08:27,376 --> 00:08:31,960
+animation, will help you to
+spot the problem or to focus on
+
+166
+00:08:31,960 --> 00:08:35,400
+the important part,
+like the arcs of the end
+
+167
+00:08:35,400 --> 00:08:37,423
+on the cross, for example.
+
+168
+00:08:38,270 --> 00:08:41,390
+So let's now get back to
+our actual characters.
+
+169
+00:08:41,390 --> 00:08:44,720
+Since we are going to unmake
+the neck and the head,
+
+170
+00:08:44,720 --> 00:08:47,120
+we don't need to see the hops.
+
+171
+00:08:47,120 --> 00:08:49,160
+So I will simply hide them.
+
+172
+00:08:49,160 --> 00:08:52,650
+Our goal is going to add
+some overlapping motion
+
+173
+00:08:52,650 --> 00:08:56,610
+and dragging to the head, by
+first playing with the rotation
+
+174
+00:08:56,610 --> 00:08:59,930
+of the neck, and then
+work with the rotation
+
+175
+00:08:59,930 --> 00:09:01,810
+and location of the head.
+
+176
+00:09:01,810 --> 00:09:04,460
+I've isolated the rotation
+channel of the neck,
+
+177
+00:09:04,460 --> 00:09:06,720
+and we will start the X rotation,
+
+178
+00:09:06,720 --> 00:09:09,840
+which is the up and down rotation.
+
+179
+00:09:09,840 --> 00:09:14,180
+As the body is going down,
+the neck is raising a bit.
+
+180
+00:09:14,180 --> 00:09:18,510
+I will hold for a couple of
+frame, and then as our character
+
+181
+00:09:18,510 --> 00:09:22,650
+is pushing forward, we will
+transition and make the neck
+
+182
+00:09:22,650 --> 00:09:24,230
+dive a bit forward.
+
+183
+00:09:24,230 --> 00:09:27,100
+Those overlapping motion
+are going to support
+
+184
+00:09:27,100 --> 00:09:28,990
+the current animation.
+
+185
+00:09:28,990 --> 00:09:32,530
+But since they are further
+away from the initial rotation
+
+186
+00:09:32,530 --> 00:09:36,280
+point, which is the center
+of gravity of our character,
+
+187
+00:09:36,280 --> 00:09:39,530
+the curve will be slightly
+smoother than the center
+
+188
+00:09:39,530 --> 00:09:42,780
+of gravity or the chest.
+
+189
+00:09:42,780 --> 00:09:46,910
+The further away from your
+region of the rotation you are,
+
+190
+00:09:46,910 --> 00:09:48,620
+the smoother will be your curve,
+
+191
+00:09:48,620 --> 00:09:51,610
+and the smoother will be
+the overlapping motion.
+
+192
+00:09:51,610 --> 00:09:56,000
+When working on the neck, first
+work on the X curve as I did
+
+193
+00:09:56,000 --> 00:09:58,120
+so when the character is going down,
+
+194
+00:09:58,120 --> 00:10:01,960
+the neck goes up a bit, and
+when the character change
+
+195
+00:10:01,960 --> 00:10:05,070
+direction and goes up, the neck drops.
+
+196
+00:10:05,070 --> 00:10:08,010
+But don't exaggerate
+too much those dragging,
+
+197
+00:10:08,010 --> 00:10:11,964
+or it will feel like your
+character is unable to hold
+
+198
+00:10:11,964 --> 00:10:14,900
+his own head, and it will look weird.
+
+199
+00:10:14,900 --> 00:10:17,430
+I will now repeat the
+process with the head.
+
+200
+00:10:17,430 --> 00:10:20,210
+I will start with the X rotational curve,
+
+201
+00:10:20,210 --> 00:10:22,370
+and as the character goes down,
+
+202
+00:10:22,370 --> 00:10:24,300
+I will slightly raise the head,
+
+203
+00:10:24,300 --> 00:10:27,010
+raise the chin of the character.
+
+204
+00:10:27,010 --> 00:10:29,670
+And then when he start to come forward,
+
+205
+00:10:29,670 --> 00:10:33,440
+I will slightly make the
+head dive into the punch.
+
+206
+00:10:33,440 --> 00:10:35,430
+When pushing the curve down,
+
+207
+00:10:35,430 --> 00:10:39,110
+the head is racing, when
+pushing the curve up,
+
+208
+00:10:39,110 --> 00:10:41,430
+the head is leaning forward.
+
+209
+00:10:41,430 --> 00:10:45,240
+So when the chest of the character
+is diving into the punch,
+
+210
+00:10:45,240 --> 00:10:47,370
+I'm raising the head a bit.
+
+211
+00:10:47,370 --> 00:10:52,080
+And once he's coming back,
+I'm pushing the head forward,
+
+212
+00:10:52,080 --> 00:10:54,350
+rotating toward the ground.
+
+213
+00:10:54,350 --> 00:10:57,500
+Then to tweak the head, tilt and twist,
+
+214
+00:10:57,500 --> 00:10:59,670
+I will switch to the front view.
+
+215
+00:10:59,670 --> 00:11:02,060
+And I will play with the Z rotation curve,
+
+216
+00:11:02,060 --> 00:11:03,760
+and the Y rotation curve.
+
+217
+00:11:03,760 --> 00:11:07,720
+Between frame 10 and 12, you
+can see I have a big head pop.
+
+218
+00:11:07,720 --> 00:11:11,120
+And since my current head
+curve are pretty smooth,
+
+219
+00:11:11,120 --> 00:11:14,340
+it means that the problem
+comes from a controller
+
+220
+00:11:14,340 --> 00:11:16,570
+previous in the chain.
+
+221
+00:11:16,570 --> 00:11:19,400
+So it's currently the torso controller.
+
+222
+00:11:19,400 --> 00:11:21,130
+When you have this kind of problem,
+
+223
+00:11:21,130 --> 00:11:24,960
+just to double check the
+previous controllers in the chain
+
+224
+00:11:24,960 --> 00:11:27,900
+until you find the ones that is big.
+
+225
+00:11:27,900 --> 00:11:30,990
+So here we can see that
+on the Z quaternion curve
+
+226
+00:11:30,990 --> 00:11:34,370
+of the torso controller,
+we have a big change.
+
+227
+00:11:34,370 --> 00:11:37,790
+I will just smooth it a bit,
+and now it looks better.
+
+228
+00:11:37,790 --> 00:11:40,410
+So from there, I can go back onto the head
+
+229
+00:11:40,410 --> 00:11:43,390
+and make sure that the heads drags a bit
+
+230
+00:11:43,390 --> 00:11:45,310
+whenever it's rotating to the left,
+
+231
+00:11:45,310 --> 00:11:47,800
+to the right up and down.
+
+232
+00:11:47,800 --> 00:11:51,330
+The idea is not to make
+the head wobbling around,
+
+233
+00:11:51,330 --> 00:11:54,220
+but just give it a slight dragging motion.
+
+234
+00:11:54,220 --> 00:11:57,460
+From there, we can play a
+bit with the head location.
+
+235
+00:11:57,460 --> 00:12:01,150
+I will only be using the head Y location,
+
+236
+00:12:01,150 --> 00:12:03,930
+and when the body of the
+character will be moving
+
+237
+00:12:03,930 --> 00:12:08,110
+very rapidly forward, I
+will slightly push the head
+
+238
+00:12:08,110 --> 00:12:11,280
+inward toward the shoulders.
+
+239
+00:12:11,280 --> 00:12:14,400
+And as the second punch is done,
+
+240
+00:12:14,400 --> 00:12:16,320
+I will pull the head toward the back.
+
+241
+00:12:16,320 --> 00:12:19,890
+The head is projected forward and backward
+
+242
+00:12:19,890 --> 00:12:22,910
+based on its weight and its momentum.
+
+243
+00:12:22,910 --> 00:12:25,670
+And as a micro detail, you can play
+
+244
+00:12:25,670 --> 00:12:29,370
+with the head tweaker bone
+on the top of the head,
+
+245
+00:12:29,370 --> 00:12:32,560
+and stretch a bit the head
+when it's pulling back
+
+246
+00:12:32,560 --> 00:12:34,980
+just a touch, and as it stopped,
+
+247
+00:12:34,980 --> 00:12:37,260
+you can squash it a little bit.
+
+248
+00:12:37,260 --> 00:12:39,130
+Those are super subtle smiles,
+
+249
+00:12:39,130 --> 00:12:41,460
+but they will improve
+a bit your animation.
+
+250
+00:12:41,460 --> 00:12:43,693
+From there, I will double
+check the animation
+
+251
+00:12:43,693 --> 00:12:45,360
+from the camera view.
+
+252
+00:12:45,360 --> 00:12:48,610
+And then I will fine tweak
+the rotation of the head.
+
+253
+00:12:48,610 --> 00:12:52,430
+I'm trying to spot the moments
+where I could be showing
+
+254
+00:12:52,430 --> 00:12:54,230
+both eyes of the character.
+
+255
+00:12:54,230 --> 00:12:58,280
+This will help your audience
+to connect with the character.
+
+256
+00:12:58,280 --> 00:13:01,760
+So whenever he's throwing
+or preparing to throw
+
+257
+00:13:01,760 --> 00:13:04,550
+the jab hold the right cross.
+
+258
+00:13:04,550 --> 00:13:07,520
+You can see that by simply
+pushing a bit down the
+
+259
+00:13:07,520 --> 00:13:11,010
+the Z quartanion curve, I
+can slightly twist the head
+
+260
+00:13:11,010 --> 00:13:13,970
+toward the camera and
+you'll see both eyes.
+
+261
+00:13:13,970 --> 00:13:16,500
+That's subtle, that's just a detail,
+
+262
+00:13:16,500 --> 00:13:19,560
+but it may or might do the difference
+
+263
+00:13:19,560 --> 00:13:21,833
+between the good and a great animation.
+

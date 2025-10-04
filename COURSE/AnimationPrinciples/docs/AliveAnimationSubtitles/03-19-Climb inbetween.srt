@@ -1,0 +1,897 @@
+﻿1
+00:00:00,000 --> 00:00:02,810
+- [Instructor] Since it's
+a pretty complex animation,
+
+2
+00:00:02,810 --> 00:00:06,560
+we do need more poses
+in the blocking stage
+
+3
+00:00:06,560 --> 00:00:08,720
+so let's add some in-betweens.
+
+4
+00:00:08,720 --> 00:00:12,880
+The first pose I've been
+working on was the pushing pose,
+
+5
+00:00:12,880 --> 00:00:16,220
+the character is getting
+almost fully extended
+
+6
+00:00:16,220 --> 00:00:21,220
+the front legs or hands are
+just about to leave the trunk,
+
+7
+00:00:21,380 --> 00:00:24,050
+the back legs are not extended yet,
+
+8
+00:00:24,050 --> 00:00:26,790
+pressing Shift S I've snapped the cursor
+
+9
+00:00:26,790 --> 00:00:28,960
+to the leg of my character,
+
+10
+00:00:28,960 --> 00:00:31,620
+now I can push the foot backward
+
+11
+00:00:31,620 --> 00:00:34,930
+and then move to root bone forward
+
+12
+00:00:34,930 --> 00:00:38,944
+or upward since our
+character is rotated to match
+
+13
+00:00:38,944 --> 00:00:41,550
+the previous position of the foot
+
+14
+00:00:41,550 --> 00:00:45,950
+so that we don't have this
+sliding contact effect.
+
+15
+00:00:45,950 --> 00:00:49,070
+The trick here is that I input the value
+
+16
+00:00:49,070 --> 00:00:54,070
+of the movement with the keyboard
+pressing G then Z to move
+
+17
+00:00:54,710 --> 00:00:56,780
+along the global Z axis
+
+18
+00:00:56,780 --> 00:01:01,420
+and press 0.08 to move
+by eight centimeters,
+
+19
+00:01:01,420 --> 00:01:05,710
+this way, I do know how
+much I have moved the foot
+
+20
+00:01:05,710 --> 00:01:08,100
+and I will offset the root bone,
+
+21
+00:01:08,100 --> 00:01:12,880
+but also the hands of the
+character by the same value
+
+22
+00:01:12,880 --> 00:01:16,960
+this way I'm sure that I will
+have corresponding motion
+
+23
+00:01:16,960 --> 00:01:19,440
+for all the parts of the characters.
+
+24
+00:01:19,440 --> 00:01:23,480
+It's a good way to do this
+because it's very accurate
+
+25
+00:01:23,480 --> 00:01:24,962
+but it's also a bad way
+
+26
+00:01:24,962 --> 00:01:29,962
+because it's a very constraint
+way to do this thing,
+
+27
+00:01:30,230 --> 00:01:34,210
+this is why I advised you
+not to use any root motion
+
+28
+00:01:34,210 --> 00:01:37,130
+for the blocking of this
+animation in the previous video
+
+29
+00:01:37,130 --> 00:01:39,590
+but to show doing so that's not bad
+
+30
+00:01:39,590 --> 00:01:42,830
+because this is something
+we will have to do later on,
+
+31
+00:01:42,830 --> 00:01:46,830
+so it gives us a base to work on,
+
+32
+00:01:46,830 --> 00:01:50,809
+doing it the hard way
+here might not be the most
+
+33
+00:01:50,809 --> 00:01:53,460
+intuitive way to do it
+
+34
+00:01:53,460 --> 00:01:55,430
+that's what I'm meaning
+
+35
+00:01:55,430 --> 00:02:00,220
+but I will have a solid base
+to go into polishing them.
+
+36
+00:02:00,220 --> 00:02:02,127
+Dispose is the one where the head
+
+37
+00:02:02,127 --> 00:02:04,390
+has the biggest spacing compared
+
+38
+00:02:04,390 --> 00:02:05,550
+to the previous pose,
+
+39
+00:02:05,550 --> 00:02:07,210
+it's one of the first pose
+
+40
+00:02:07,210 --> 00:02:09,370
+where the character is pushing forward,
+
+41
+00:02:09,370 --> 00:02:12,830
+so I will extend the neck of
+the character quite a bit,
+
+42
+00:02:12,830 --> 00:02:17,770
+it feels like the front
+legs are a bit too extended
+
+43
+00:02:17,770 --> 00:02:19,570
+and on the reference we can see
+
+44
+00:02:19,570 --> 00:02:22,810
+that the front legs are not
+touching the trunk anymore
+
+45
+00:02:22,810 --> 00:02:24,710
+so I will put them into a pose
+
+46
+00:02:24,710 --> 00:02:27,760
+where they just took off the tree trunk.
+
+47
+00:02:27,760 --> 00:02:30,610
+Since this in-between
+is starting to define
+
+48
+00:02:30,610 --> 00:02:32,390
+the emotion of the character
+
+49
+00:02:32,390 --> 00:02:36,020
+because we have the extreme
+poses and this is an in-between
+
+50
+00:02:36,020 --> 00:02:39,420
+so it makes the transition
+between those two poses,
+
+51
+00:02:39,420 --> 00:02:41,447
+this is why I'm playing the animation
+
+52
+00:02:41,447 --> 00:02:44,680
+of curbing through the frames a lot
+
+53
+00:02:44,680 --> 00:02:47,430
+beyond matching the reference pose
+
+54
+00:02:47,430 --> 00:02:50,210
+I'm trying to feel the
+emotion of the character.
+
+55
+00:02:50,210 --> 00:02:52,520
+Try to fix the orientation of the arms
+
+56
+00:02:52,520 --> 00:02:55,180
+I'm facing some kind of
+issues with the rings,
+
+57
+00:02:55,180 --> 00:02:57,890
+some limitations, this is pretty usual
+
+58
+00:02:57,890 --> 00:03:00,970
+with this kind of inverse
+kinematic controllers
+
+59
+00:03:00,970 --> 00:03:02,420
+so I reset the rotation
+
+60
+00:03:02,420 --> 00:03:05,600
+and instead I'm using
+those tweaker controllers
+
+61
+00:03:05,600 --> 00:03:08,020
+to give a better shape to the arms,
+
+62
+00:03:08,020 --> 00:03:09,600
+so I advise you to deal
+
+63
+00:03:09,600 --> 00:03:12,220
+with the shape of the arms
+using those controller
+
+64
+00:03:12,220 --> 00:03:14,113
+for this specific animation.
+
+65
+00:03:15,850 --> 00:03:18,690
+The next critical pose for me is the one
+
+66
+00:03:18,690 --> 00:03:21,803
+whenever the character is contacting
+
+67
+00:03:21,803 --> 00:03:24,300
+with the surface of the tree trunk,
+
+68
+00:03:24,300 --> 00:03:28,475
+this contact frame is occurring
+between frame 15 and 20
+
+69
+00:03:28,475 --> 00:03:31,000
+so I will set it up from 18
+
+70
+00:03:31,000 --> 00:03:34,170
+for example, it really doesn't
+matter from the time being
+
+71
+00:03:34,170 --> 00:03:36,320
+we are just breeding the different poses
+
+72
+00:03:36,320 --> 00:03:38,050
+and then at the end of the video
+
+73
+00:03:38,050 --> 00:03:41,150
+we will do a rapid timing paths.
+
+74
+00:03:41,150 --> 00:03:43,030
+The first thing I do to switch
+
+75
+00:03:43,030 --> 00:03:45,980
+to this new pose is to move the root bone
+
+76
+00:03:45,980 --> 00:03:49,400
+so I've been trying to move
+it using the same technique
+
+77
+00:03:49,400 --> 00:03:51,330
+as for the previous pose
+
+78
+00:03:51,330 --> 00:03:54,250
+meaning that I'm moving the root bone
+
+79
+00:03:54,250 --> 00:03:57,890
+entering a proper value with the keyboard,
+
+80
+00:03:57,890 --> 00:04:01,840
+but since my character has no
+contact with the tree trunk
+
+81
+00:04:01,840 --> 00:04:05,660
+it doesn't really matter if
+shall not really accurate
+
+82
+00:04:05,660 --> 00:04:07,560
+with the position of the root bone
+
+83
+00:04:07,560 --> 00:04:10,820
+right now, there won't be
+that much of the problem
+
+84
+00:04:10,820 --> 00:04:13,360
+we will be able to
+offset a bit the position
+
+85
+00:04:13,360 --> 00:04:16,430
+of the root bone during
+the polishing stage.
+
+86
+00:04:16,430 --> 00:04:18,490
+What's important here is that
+
+87
+00:04:18,490 --> 00:04:21,120
+since there is no contacting frame,
+
+88
+00:04:21,120 --> 00:04:23,740
+no part of the character contacting
+
+89
+00:04:23,740 --> 00:04:26,850
+with the tree trunk or with the ground
+
+90
+00:04:26,850 --> 00:04:31,060
+for example, the fact
+that the root bone motion
+
+91
+00:04:31,060 --> 00:04:33,640
+is not perfect, doesn't matter,
+
+92
+00:04:33,640 --> 00:04:37,630
+we won't have any sliding foot effect here
+
+93
+00:04:37,630 --> 00:04:40,480
+because there is no
+contact with the ground.
+
+94
+00:04:40,480 --> 00:04:43,170
+So in the end, because of this foot motion
+
+95
+00:04:43,170 --> 00:04:46,540
+and the squeal to have
+everything perfectly aligned
+
+96
+00:04:46,540 --> 00:04:49,050
+and to try, I spent
+most of the time trying
+
+97
+00:04:49,050 --> 00:04:52,464
+to figure out a way to
+position the hands properly
+
+98
+00:04:52,464 --> 00:04:54,790
+while it wasn't important,
+
+99
+00:04:54,790 --> 00:04:57,740
+the only thing important is
+to make sure that the position
+
+100
+00:04:57,740 --> 00:05:01,734
+of the hands are correct
+compared to frame 20
+
+101
+00:05:01,734 --> 00:05:05,180
+and even if there is a bit of a challenge
+
+102
+00:05:05,180 --> 00:05:07,269
+a bit of a difference this is something
+
+103
+00:05:07,269 --> 00:05:10,498
+we'll be able to fix when we are polishing
+
+104
+00:05:10,498 --> 00:05:14,090
+by moving the curve or
+duplicating the curves,
+
+105
+00:05:14,090 --> 00:05:17,490
+what's matter here is really
+the pose of the character,
+
+106
+00:05:17,490 --> 00:05:21,120
+so the front legs are
+almost fully extended,
+
+107
+00:05:21,120 --> 00:05:23,510
+the back legs are catching up pointing
+
+108
+00:05:23,510 --> 00:05:27,360
+toward their landing pose.
+
+109
+00:05:27,360 --> 00:05:31,070
+And finally, we have
+still the hip sat down
+
+110
+00:05:31,070 --> 00:05:34,279
+dragging a bit, but they
+are slowly catching up,
+
+111
+00:05:34,279 --> 00:05:37,830
+while the chest and head
+are getting very close
+
+112
+00:05:37,830 --> 00:05:42,540
+to their final pose or to
+the pose we have on frame 20,
+
+113
+00:05:42,540 --> 00:05:44,730
+so you can see on the reference
+
+114
+00:05:44,730 --> 00:05:46,700
+that the curvature of the body
+
+115
+00:05:46,700 --> 00:05:51,700
+of our character is slowly
+getting back into it's S shape.
+
+116
+00:05:53,180 --> 00:05:56,050
+The next pose is more of a breakdown
+
+117
+00:05:56,050 --> 00:05:58,581
+that in in-between onto this breakdown
+
+118
+00:05:58,581 --> 00:06:01,760
+between frame zero and
+five, because on frame five
+
+119
+00:06:01,760 --> 00:06:06,500
+our character ends a normal
+angle contacting the tree trunk
+
+120
+00:06:06,500 --> 00:06:09,160
+with all my read controller selected,
+
+121
+00:06:09,160 --> 00:06:11,120
+I'm pressing a Shift E,
+
+122
+00:06:11,120 --> 00:06:14,120
+then when I moved the mouse left to right
+
+123
+00:06:14,120 --> 00:06:16,900
+I changed the value of the breakdown,
+
+124
+00:06:16,900 --> 00:06:19,250
+I will set it to 50%,
+
+125
+00:06:19,250 --> 00:06:22,180
+then they will left click to confirm
+
+126
+00:06:22,180 --> 00:06:24,850
+this way blender has
+automatically interpolated
+
+127
+00:06:25,850 --> 00:06:29,230
+all the controller of my character by 50%
+
+128
+00:06:29,230 --> 00:06:31,890
+between frame zero and frame five,
+
+129
+00:06:31,890 --> 00:06:35,760
+now I don't want to move
+the hand controllers,
+
+130
+00:06:35,760 --> 00:06:39,550
+so I go back on frame zero
+select one of the hand controller
+
+131
+00:06:39,550 --> 00:06:42,970
+press Shift S snap the cursor to it,
+
+132
+00:06:42,970 --> 00:06:46,560
+then I go back onto frame
+two my break down pose
+
+133
+00:06:46,560 --> 00:06:50,390
+and press Shift S selection to cursor
+
+134
+00:06:50,390 --> 00:06:54,610
+the hand will be snapped
+on to the same position
+
+135
+00:06:54,610 --> 00:06:56,860
+as on frame zero,
+
+136
+00:06:56,860 --> 00:07:01,145
+I will repeat the process for
+the other hand and this way
+
+137
+00:07:01,145 --> 00:07:06,145
+my whole character body
+and root has moved by 50%,
+
+138
+00:07:06,450 --> 00:07:11,450
+and I can work on this pose
+and the feet position is fixed,
+
+139
+00:07:12,700 --> 00:07:15,270
+thanks to this little manipulation.
+
+140
+00:07:15,270 --> 00:07:20,270
+So now I can work on the torso
+controller to refine the pose
+
+141
+00:07:20,760 --> 00:07:22,780
+and offset the different element
+
+142
+00:07:22,780 --> 00:07:27,650
+because if everything
+is interpolated by 50%
+
+143
+00:07:27,650 --> 00:07:31,380
+I will have a very robotic
+motion of my character.
+
+144
+00:07:31,380 --> 00:07:34,040
+So here, as we have explained before
+
+145
+00:07:34,040 --> 00:07:36,570
+during the reference analysis
+
+146
+00:07:36,570 --> 00:07:40,900
+I'm pushing a lot the neck
+and chest of my character
+
+147
+00:07:40,900 --> 00:07:43,570
+while the hips are dragging a bit back,
+
+148
+00:07:43,570 --> 00:07:46,700
+from there what I did is that I have taken
+
+149
+00:07:46,700 --> 00:07:48,944
+all the key frame of each pose
+
+150
+00:07:48,944 --> 00:07:52,460
+and I have set them every two frames,
+
+151
+00:07:52,460 --> 00:07:54,870
+so one on frame zero one on frame two,
+
+152
+00:07:54,870 --> 00:07:57,730
+four, six, eight, 10, and 12.
+
+153
+00:07:57,730 --> 00:08:02,490
+I feel like this cycle
+should be 12 frame long
+
+154
+00:08:02,490 --> 00:08:06,610
+so I'm just kind of distributing
+the different posts evenly
+
+155
+00:08:06,610 --> 00:08:08,905
+for the time being because I'm not working
+
+156
+00:08:08,905 --> 00:08:12,270
+on the timing of the animation right now
+
+157
+00:08:12,270 --> 00:08:14,863
+but it does help reading the animation.
+
+158
+00:08:16,810 --> 00:08:19,585
+The last pose I wanted
+to create is the one
+
+159
+00:08:19,585 --> 00:08:23,100
+where the back legs are
+contacting with the tree trunk
+
+160
+00:08:24,110 --> 00:08:28,000
+as explained why we were
+locking the idle animation
+
+161
+00:08:28,000 --> 00:08:31,980
+you should create a
+bring down pose each time
+
+162
+00:08:31,980 --> 00:08:35,830
+there is a drastic change in
+the pose of your character
+
+163
+00:08:35,830 --> 00:08:39,410
+meaning that here the back feet are abohm
+
+164
+00:08:39,410 --> 00:08:42,240
+and then they are
+contacting with the surface
+
+165
+00:08:42,240 --> 00:08:45,460
+in this regard, their mechanical function
+
+166
+00:08:45,460 --> 00:08:49,620
+and the way they move is changing a lot
+
+167
+00:08:49,620 --> 00:08:52,210
+because when they are floating in the air
+
+168
+00:08:52,210 --> 00:08:54,730
+you should be looking for arcs
+
+169
+00:08:54,730 --> 00:08:58,280
+while when they are impacting
+with the tree trunk,
+
+170
+00:08:58,280 --> 00:09:00,740
+you're not looking anymore for arcs
+
+171
+00:09:00,740 --> 00:09:03,000
+but mostly for a linear interpolation
+
+172
+00:09:04,090 --> 00:09:06,940
+as the foot is sliding along the surface.
+
+173
+00:09:06,940 --> 00:09:09,290
+So it's better to add a breakdown
+
+174
+00:09:09,290 --> 00:09:12,090
+to this pose than trying
+to figure this out
+
+175
+00:09:12,090 --> 00:09:13,760
+during the polishing stage,
+
+176
+00:09:13,760 --> 00:09:15,910
+this pose was pretty quick to achieve
+
+177
+00:09:15,910 --> 00:09:18,210
+because we have already depends
+
+178
+00:09:18,210 --> 00:09:21,710
+on the front legs already
+contacting the tree trunks
+
+179
+00:09:21,710 --> 00:09:23,850
+and the only thing we
+had to do is to make sure
+
+180
+00:09:23,850 --> 00:09:28,030
+that the back legs are
+contacting and the hips catch,
+
+181
+00:09:28,030 --> 00:09:32,039
+I've made a quick timing paths
+here, but I will show you
+
+182
+00:09:32,039 --> 00:09:35,383
+how to get a better timing
+paths in the next video.
+
+183
+00:09:37,012 --> 00:09:41,530
+Lastly, I couldn't help
+polishing a bit to tail motion
+
+184
+00:09:41,530 --> 00:09:46,530
+but honestly, at this stage
+it's mostly a waste of time,
+
+185
+00:09:47,250 --> 00:09:52,250
+don't work the tail for the
+time being since it's ending
+
+186
+00:09:52,380 --> 00:09:55,610
+and following the body, we will work on it
+
+187
+00:09:55,610 --> 00:09:58,580
+during the polishing stage
+once we have finished
+
+188
+00:09:58,580 --> 00:10:00,430
+the whole motion of the body.
+
+189
+00:10:00,430 --> 00:10:04,570
+What was a little more
+important here is to rotate
+
+190
+00:10:04,570 --> 00:10:07,237
+around your character,
+check out all the poses
+
+191
+00:10:07,237 --> 00:10:11,193
+and then fix a bit the pole
+target to give a better
+
+192
+00:10:11,193 --> 00:10:15,450
+orientation to the knees and also check
+
+193
+00:10:15,450 --> 00:10:18,290
+out the elbow tweaker bones,
+
+194
+00:10:18,290 --> 00:10:21,450
+you can see that my elbows
+are pointing in word
+
+195
+00:10:21,450 --> 00:10:23,920
+and it doesn't look super natural,
+
+196
+00:10:23,920 --> 00:10:27,900
+so double check each poses
+and check that the silhouette
+
+197
+00:10:27,900 --> 00:10:30,940
+show character, the shape
+of the arms of the legs
+
+198
+00:10:30,940 --> 00:10:34,900
+et cetera, looks good
+from every point of view.
+
+199
+00:10:34,900 --> 00:10:37,030
+In the next video, we will revise
+
+200
+00:10:37,030 --> 00:10:39,480
+the timing of this animation is still
+
+201
+00:10:39,480 --> 00:10:42,453
+in step mode before jumping into spline.
+

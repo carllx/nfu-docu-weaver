@@ -1,0 +1,580 @@
+﻿1
+00:00:00,450 --> 00:00:02,600
+- [Instructor] Before we
+start animating the squirrel,
+
+2
+00:00:02,600 --> 00:00:04,740
+we need to talk about overlapping,
+
+3
+00:00:04,740 --> 00:00:07,170
+follow through and overshoot.
+
+4
+00:00:07,170 --> 00:00:09,620
+We talk about overlapping motion
+
+5
+00:00:09,620 --> 00:00:12,390
+when a part of a moving object
+
+6
+00:00:12,390 --> 00:00:15,500
+is delayed compared to
+the rest of the object.
+
+7
+00:00:15,500 --> 00:00:18,100
+So when we have a look
+at the current animation,
+
+8
+00:00:18,100 --> 00:00:21,950
+we can see that the ball
+is leading the motion
+
+9
+00:00:21,950 --> 00:00:24,570
+while the tail is trained to follow.
+
+10
+00:00:24,570 --> 00:00:26,640
+If we track the tip of the tail,
+
+11
+00:00:26,640 --> 00:00:29,460
+we can see that its position is offset
+
+12
+00:00:29,460 --> 00:00:32,320
+compared to the position of the ball.
+
+13
+00:00:32,320 --> 00:00:36,620
+This is something we will
+use a lot for tails, clothes,
+
+14
+00:00:36,620 --> 00:00:39,680
+whatever is hanging on our character,
+
+15
+00:00:39,680 --> 00:00:42,580
+but it can be used on
+any part of the body,
+
+16
+00:00:42,580 --> 00:00:45,560
+a relaxed arm on a walk cycle
+
+17
+00:00:45,560 --> 00:00:47,908
+or even on this crab character,
+
+18
+00:00:47,908 --> 00:00:51,530
+the eyes and the crab claws
+are currently following
+
+19
+00:00:51,530 --> 00:00:53,930
+the body motion with a slight delay
+
+20
+00:00:53,930 --> 00:00:56,750
+so it's also an overlapping motion.
+
+21
+00:00:56,750 --> 00:00:59,980
+We can also say that
+those parts are dragging
+
+22
+00:00:59,980 --> 00:01:02,100
+behind the body motion.
+
+23
+00:01:02,100 --> 00:01:05,762
+A very important thing is
+those overlapping motion
+
+24
+00:01:05,762 --> 00:01:09,470
+will communicate weight and
+stiffness of the material
+
+25
+00:01:09,470 --> 00:01:11,420
+or the character you are animating.
+
+26
+00:01:11,420 --> 00:01:13,790
+The more overlapping motion you will have,
+
+27
+00:01:13,790 --> 00:01:15,650
+the heavier it will feel.
+
+28
+00:01:15,650 --> 00:01:17,660
+The more overlapping motion you have,
+
+29
+00:01:17,660 --> 00:01:20,200
+the smoother it will feel also.
+
+30
+00:01:20,200 --> 00:01:22,160
+So it can also communicate
+
+31
+00:01:22,160 --> 00:01:25,400
+if your character is relaxed or stressed.
+
+32
+00:01:25,400 --> 00:01:28,930
+Follow through is a bit
+like overlapping motion.
+
+33
+00:01:28,930 --> 00:01:33,230
+It defines the fact that
+some parts of our character
+
+34
+00:01:33,230 --> 00:01:36,040
+are still moving after
+the character stops,
+
+35
+00:01:36,040 --> 00:01:40,080
+so their motion is offset
+compared to the character.
+
+36
+00:01:40,080 --> 00:01:42,700
+So basically an overlapping motion
+
+37
+00:01:42,700 --> 00:01:44,250
+generates a follow through.
+
+38
+00:01:44,250 --> 00:01:47,460
+And as explained before,
+it will communicate
+
+39
+00:01:47,460 --> 00:01:50,770
+the weight and stiffness
+of your character.
+
+40
+00:01:50,770 --> 00:01:53,607
+We generally use overshoot when a motion
+
+41
+00:01:53,607 --> 00:01:56,723
+has a dramatical change in its orientation
+
+42
+00:01:56,723 --> 00:01:58,890
+or when it's stopping.
+
+43
+00:01:58,890 --> 00:02:03,120
+It's accelerating until
+it reaches its destination
+
+44
+00:02:03,120 --> 00:02:05,720
+and we can see that it's
+going a little beyond
+
+45
+00:02:05,720 --> 00:02:08,720
+its final position and get back.
+
+46
+00:02:08,720 --> 00:02:11,360
+And this is what we call an overshoot.
+
+47
+00:02:11,360 --> 00:02:14,070
+Curve wise, it's pretty easy to identify
+
+48
+00:02:14,070 --> 00:02:15,270
+in the graph editor.
+
+49
+00:02:15,270 --> 00:02:18,490
+We have those two key frames
+that have the same value
+
+50
+00:02:18,490 --> 00:02:20,960
+so they are aligned on the y-axis
+
+51
+00:02:20,960 --> 00:02:22,650
+and we have an additional key frame
+
+52
+00:02:22,650 --> 00:02:25,800
+that goes a little beyond this threshold
+
+53
+00:02:25,800 --> 00:02:28,490
+and create the overshoot motion.
+
+54
+00:02:28,490 --> 00:02:30,747
+This is something we
+are going to use a lot
+
+55
+00:02:30,747 --> 00:02:35,747
+because it convey weight, but
+also speed, impact, balance,
+
+56
+00:02:35,968 --> 00:02:37,740
+a lot of things.
+
+57
+00:02:37,740 --> 00:02:41,090
+It can be very interesting
+for a punch, for example,
+
+58
+00:02:41,090 --> 00:02:44,740
+or to give extra appeal to a fast motion.
+
+59
+00:02:44,740 --> 00:02:48,140
+And when you combine overshoot
+with overlapping motion
+
+60
+00:02:48,140 --> 00:02:52,200
+or follow through, you can get
+very interesting animations.
+
+61
+00:02:52,200 --> 00:02:55,720
+In this case, there is an
+overshoot on the first punch
+
+62
+00:02:55,720 --> 00:02:59,320
+and some overlapping
+motion as the claws jiggle.
+
+63
+00:02:59,320 --> 00:03:01,930
+Here, I just want to
+show you a quick example
+
+64
+00:03:01,930 --> 00:03:03,520
+on how you can build
+
+65
+00:03:03,520 --> 00:03:06,630
+convincing overlapping motion very fast.
+
+66
+00:03:06,630 --> 00:03:08,310
+When opening the blender file,
+
+67
+00:03:08,310 --> 00:03:12,350
+you will be directly on the
+action to do this exercise.
+
+68
+00:03:12,350 --> 00:03:14,640
+With the first bone of the tail selected,
+
+69
+00:03:14,640 --> 00:03:16,790
+I will try to spot the frame
+
+70
+00:03:16,790 --> 00:03:19,840
+where the ball is currently
+moving the fastest
+
+71
+00:03:19,840 --> 00:03:21,670
+and it's frame 10.
+
+72
+00:03:21,670 --> 00:03:25,360
+I will select the x
+rotation curve of the tail,
+
+73
+00:03:25,360 --> 00:03:28,970
+duplicate the frame and
+switch them to auto cleanse
+
+74
+00:03:28,970 --> 00:03:30,250
+so that it's clean,
+
+75
+00:03:30,250 --> 00:03:32,100
+and move the key value up
+
+76
+00:03:32,100 --> 00:03:34,680
+so that the tail is dragging back.
+
+77
+00:03:34,680 --> 00:03:37,870
+Since the animation is
+looping on 40 frame,
+
+78
+00:03:37,870 --> 00:03:40,370
+there are great chance that on frame 30
+
+79
+00:03:40,370 --> 00:03:44,200
+I get the fastest motion
+of the ball the other way.
+
+80
+00:03:44,200 --> 00:03:46,350
+So I will duplicate my current frame
+
+81
+00:03:46,350 --> 00:03:48,400
+and move it on the negative side
+
+82
+00:03:48,400 --> 00:03:51,070
+so that the tail is
+dragging the other way.
+
+83
+00:03:51,070 --> 00:03:53,750
+Then as we are walking on a cycle,
+
+84
+00:03:53,750 --> 00:03:56,720
+the first and the last key
+frame must be the same,
+
+85
+00:03:56,720 --> 00:03:59,110
+so I would press shift D it to duplicate
+
+86
+00:03:59,110 --> 00:04:01,020
+and to make a proper blending,
+
+87
+00:04:01,020 --> 00:04:03,290
+I need to rotate to those two key frame
+
+88
+00:04:03,290 --> 00:04:05,270
+using individual origin
+
+89
+00:04:05,270 --> 00:04:07,600
+to align the starting and ending point
+
+90
+00:04:07,600 --> 00:04:09,940
+with the current shape of the curve.
+
+91
+00:04:09,940 --> 00:04:12,990
+Now to make it a little more
+stylish and interesting,
+
+92
+00:04:12,990 --> 00:04:16,640
+I will select those two extreme
+and scale them up a bit.
+
+93
+00:04:16,640 --> 00:04:19,840
+Since the overlapping motion is an offset
+
+94
+00:04:19,840 --> 00:04:21,290
+of the current motion,
+
+95
+00:04:21,290 --> 00:04:23,640
+I can select all the point of the curve
+
+96
+00:04:23,640 --> 00:04:26,040
+and press control C to copy them.
+
+97
+00:04:26,040 --> 00:04:29,610
+Then I will select the next
+tailbone in the hierarchy,
+
+98
+00:04:29,610 --> 00:04:34,290
+make sure I only have the
+x rotation curve selected
+
+99
+00:04:34,290 --> 00:04:37,500
+and I will press control
+V to paste the curve.
+
+100
+00:04:37,500 --> 00:04:40,230
+Then to slightly offset the motion,
+
+101
+00:04:40,230 --> 00:04:43,380
+I will press shift D to
+duplicate the whole curve
+
+102
+00:04:43,380 --> 00:04:46,290
+and move it before the frame zero.
+
+103
+00:04:46,290 --> 00:04:49,550
+This way I have twice
+exactly the same motion.
+
+104
+00:04:49,550 --> 00:04:52,430
+And if I now move the whole curve
+
+105
+00:04:52,430 --> 00:04:57,430
+by one or two frames to the
+right so I'm delaying it,
+
+106
+00:04:57,760 --> 00:05:00,710
+I will get a dragging motion for free.
+
+107
+00:05:00,710 --> 00:05:03,070
+From there, I can copy this curve,
+
+108
+00:05:03,070 --> 00:05:08,070
+select the next joint or the
+next bone in the tail hierarchy
+
+109
+00:05:08,270 --> 00:05:10,180
+and repeat the process.
+
+110
+00:05:10,180 --> 00:05:14,620
+Select the X curve, press
+control V to paste the curve,
+
+111
+00:05:14,620 --> 00:05:17,660
+I will align it with its original shape
+
+112
+00:05:17,660 --> 00:05:20,820
+and then offset it a bit by three frames.
+
+113
+00:05:20,820 --> 00:05:24,690
+So the idea is to use the
+same curve for each joint
+
+114
+00:05:24,690 --> 00:05:29,690
+but offset it in time by one
+or two additional frames.
+
+115
+00:05:30,272 --> 00:05:33,520
+Then you can play with
+the shape of the tail
+
+116
+00:05:33,520 --> 00:05:35,850
+by changing the shape of the curve.
+
+117
+00:05:35,850 --> 00:05:39,286
+Since I have a symmetrical motion
+
+118
+00:05:39,286 --> 00:05:43,191
+I can use the 2d cursor as a pivot point.
+
+119
+00:05:43,191 --> 00:05:47,329
+Its position is represented
+by the crossing blue lines
+
+120
+00:05:47,329 --> 00:05:49,770
+and as seen in the previous chapter,
+
+121
+00:05:49,770 --> 00:05:53,510
+you can place it wherever you
+want by shift right clicking,
+
+122
+00:05:53,510 --> 00:05:58,510
+or going into the view option
+and set its value, here zero.
+
+123
+00:05:58,610 --> 00:06:03,080
+Now I can press S and Y with
+all my key frames selected
+
+124
+00:06:03,080 --> 00:06:05,740
+to increase the amplitude of the curve
+
+125
+00:06:05,740 --> 00:06:09,503
+because I'm scaling the
+curve only on the Y axis
+
+126
+00:06:09,503 --> 00:06:13,460
+so we will have a broader
+motion of the tail
+
+127
+00:06:13,460 --> 00:06:16,820
+making it look more relaxed or heavier.
+
+128
+00:06:16,820 --> 00:06:19,810
+This is a fast, easy and cheap way
+
+129
+00:06:19,810 --> 00:06:23,100
+to get this kind of
+overlapping motion done.
+
+130
+00:06:23,100 --> 00:06:26,760
+It will sure be a little more
+complex on full characters
+
+131
+00:06:26,760 --> 00:06:28,143
+but that's a good tip.
+

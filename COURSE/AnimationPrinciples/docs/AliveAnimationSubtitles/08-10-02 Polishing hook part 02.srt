@@ -1,0 +1,546 @@
+﻿1
+00:00:00,200 --> 00:00:02,080
+- [Instructor] As in the previous videos,
+
+2
+00:00:02,080 --> 00:00:05,480
+after I polished the torso
+on the center of gravity
+
+3
+00:00:05,480 --> 00:00:08,880
+of my character, I like
+to work on the feet.
+
+4
+00:00:08,880 --> 00:00:13,400
+This will help us to figure
+out how to polish the hips
+
+5
+00:00:13,400 --> 00:00:15,740
+and, later on, the upper chest.
+
+6
+00:00:15,740 --> 00:00:18,200
+As our character is pulling his right leg,
+
+7
+00:00:18,200 --> 00:00:20,900
+I want to slightly raise
+the foot from the ground.
+
+8
+00:00:20,900 --> 00:00:24,080
+So I will duplicate one
+of the keys of the Z curve
+
+9
+00:00:24,080 --> 00:00:25,880
+and then slightly push it up.
+
+10
+00:00:25,880 --> 00:00:28,930
+From there, I will move
+the newly created keys
+
+11
+00:00:28,930 --> 00:00:32,570
+around frame 21 when the foot
+gets pulled from the ground.
+
+12
+00:00:32,570 --> 00:00:35,370
+Then I will convert the contacting frame.
+
+13
+00:00:35,370 --> 00:00:38,550
+The key to vectors is
+that we have a hard hit
+
+14
+00:00:38,550 --> 00:00:39,900
+of the foot on the ground.
+
+15
+00:00:39,900 --> 00:00:42,440
+This is generally my go-to when it comes
+
+16
+00:00:42,440 --> 00:00:46,340
+to the Z location curve of the
+foot when it hits the ground.
+
+17
+00:00:46,340 --> 00:00:48,770
+This will ensure that
+the food is accelerating
+
+18
+00:00:48,770 --> 00:00:50,600
+before it touch the ground.
+
+19
+00:00:50,600 --> 00:00:52,760
+I'm not saying that you should do this
+
+20
+00:00:52,760 --> 00:00:55,270
+every time your foot is going down,
+
+21
+00:00:55,270 --> 00:00:57,140
+but most of the time, this is true
+
+22
+00:00:57,140 --> 00:00:59,540
+so I generally just switch to vector
+
+23
+00:00:59,540 --> 00:01:03,080
+and then if I have to
+revise, I revise later on.
+
+24
+00:01:03,080 --> 00:01:06,030
+From there, I will revise a
+bit the rotation of the foot
+
+25
+00:01:06,030 --> 00:01:09,890
+so that the ankle gets
+more aligned with the knee
+
+26
+00:01:09,890 --> 00:01:13,310
+and the foot does drag a
+bit while it is pulled.
+
+27
+00:01:13,310 --> 00:01:17,060
+Basically, I want the foot
+to lean toward its next pose.
+
+28
+00:01:17,060 --> 00:01:20,720
+From there, I will just
+slightly tweak the heel motion
+
+29
+00:01:20,720 --> 00:01:23,600
+so that it hits the ground a little harder
+
+30
+00:01:23,600 --> 00:01:25,730
+when the character is shifting his weight
+
+31
+00:01:25,730 --> 00:01:27,260
+on top of the right foot.
+
+32
+00:01:27,260 --> 00:01:29,800
+I will raise it, touch
+the heel before the hit,
+
+33
+00:01:29,800 --> 00:01:33,670
+and on the hit frame, I will
+convert the curve to vector.
+
+34
+00:01:33,670 --> 00:01:35,680
+Finally, as an extra detail,
+
+35
+00:01:35,680 --> 00:01:39,060
+I will work a bit on the
+toes of the right foot.
+
+36
+00:01:39,060 --> 00:01:42,980
+I will simply make them
+drag by rotating them down
+
+37
+00:01:42,980 --> 00:01:45,120
+while the foot is getting up
+
+38
+00:01:45,120 --> 00:01:49,430
+and rotating them a bit up
+while the foot is getting down.
+
+39
+00:01:49,430 --> 00:01:52,170
+And then I will slap them on the ground
+
+40
+00:01:52,170 --> 00:01:53,740
+a couple of frames later
+
+41
+00:01:53,740 --> 00:01:56,000
+by switching the handle to vector.
+
+42
+00:01:56,000 --> 00:01:58,130
+From there, remember what I've said
+
+43
+00:01:58,130 --> 00:02:00,520
+during the blocking stage that the feet
+
+44
+00:02:00,520 --> 00:02:02,860
+are always moving while on the ground?
+
+45
+00:02:02,860 --> 00:02:05,390
+As the leg is pulling onto the right foot,
+
+46
+00:02:05,390 --> 00:02:08,070
+I will slightly rotate it toward the hips.
+
+47
+00:02:08,070 --> 00:02:10,200
+As I'm reviewing the leg motion,
+
+48
+00:02:10,200 --> 00:02:13,400
+I can see that there is a little
+glitch or pop on the knee.
+
+49
+00:02:13,400 --> 00:02:15,960
+Since the leg doesn't get fully extended,
+
+50
+00:02:15,960 --> 00:02:18,320
+this is not a problem due to the rig
+
+51
+00:02:18,320 --> 00:02:20,630
+or to the inverse kinematic mechanisms.
+
+52
+00:02:20,630 --> 00:02:23,370
+So I will just double check my pull target
+
+53
+00:02:23,370 --> 00:02:26,900
+as there must be a very
+quick change in its position.
+
+54
+00:02:26,900 --> 00:02:28,200
+And this is the case.
+
+55
+00:02:28,200 --> 00:02:30,710
+I have a couple of keys
+close one to the other,
+
+56
+00:02:30,710 --> 00:02:32,850
+with different position
+for the pull target.
+
+57
+00:02:32,850 --> 00:02:35,130
+To fix the issue, I will simply get rid
+
+58
+00:02:35,130 --> 00:02:37,790
+of the in-between keys so that Brendan
+
+59
+00:02:37,790 --> 00:02:42,460
+will automatically interpolate
+from frame 32 to frame 36.
+
+60
+00:02:42,460 --> 00:02:45,600
+And this will smooth the
+knee motion for free.
+
+61
+00:02:45,600 --> 00:02:48,070
+During the hook, the right foot get pulled
+
+62
+00:02:48,070 --> 00:02:50,530
+but it feels like it's hitting the wall
+
+63
+00:02:50,530 --> 00:02:53,370
+whenever it's getting to its final pose.
+
+64
+00:02:53,370 --> 00:02:56,310
+Has a hard stop and I'd
+like to smooth this a bit
+
+65
+00:02:56,310 --> 00:02:58,880
+so that I get a bit of
+feeling as if the foot
+
+66
+00:02:58,880 --> 00:03:00,190
+was sliding on the ground.
+
+67
+00:03:00,190 --> 00:03:02,960
+To do so, I will simply offset the keys
+
+68
+00:03:02,960 --> 00:03:07,430
+from frame 45 to 47 and
+then I will push the values
+
+69
+00:03:07,430 --> 00:03:09,660
+of the keys on frame 44.
+
+70
+00:03:09,660 --> 00:03:13,920
+This way, the value of the
+curves on frame 44 and 47
+
+71
+00:03:13,920 --> 00:03:16,760
+are almost the same, but not the same.
+
+72
+00:03:16,760 --> 00:03:19,910
+This way it will a feel
+like the foot is stopping,
+
+73
+00:03:19,910 --> 00:03:22,050
+but it will still move a little bit
+
+74
+00:03:22,050 --> 00:03:24,650
+as if it was sliding a bit on the ground.
+
+75
+00:03:24,650 --> 00:03:26,610
+Then I revised the rotation curve
+
+76
+00:03:26,610 --> 00:03:30,444
+to make the food drag toward
+its previous position.
+
+77
+00:03:30,444 --> 00:03:33,310
+So basically I'm rotating the foot
+
+78
+00:03:33,310 --> 00:03:36,235
+toward its previous
+position based on the speed.
+
+79
+00:03:36,235 --> 00:03:38,670
+The faster it moves forward,
+
+80
+00:03:38,670 --> 00:03:40,840
+the more it's rotating backwards.
+
+81
+00:03:40,840 --> 00:03:43,060
+And as the leg is pulling the foot,
+
+82
+00:03:43,060 --> 00:03:45,470
+I'm slightly raising the hip.
+
+83
+00:03:45,470 --> 00:03:48,330
+As explained when we were
+polishing the torso root
+
+84
+00:03:48,330 --> 00:03:50,670
+of our character, we need his weight
+
+85
+00:03:50,670 --> 00:03:52,920
+to be supporting on one leg to be able
+
+86
+00:03:52,920 --> 00:03:54,910
+to easily raise the other leg.
+
+87
+00:03:54,910 --> 00:03:58,580
+And on frame 26, it feels like
+the weight of the character
+
+88
+00:03:58,580 --> 00:04:00,610
+is centered between the two feet.
+
+89
+00:04:00,610 --> 00:04:03,890
+So I will offset the
+movement of the left foot
+
+90
+00:04:03,890 --> 00:04:06,090
+by one frame so that the foot
+
+91
+00:04:06,090 --> 00:04:08,410
+start leaving its current position
+
+92
+00:04:08,410 --> 00:04:11,840
+once the weight is more on the right foot.
+
+93
+00:04:11,840 --> 00:04:14,310
+Then I want the foot to
+move fast in the beginning
+
+94
+00:04:14,310 --> 00:04:16,620
+and then ease into its final position,
+
+95
+00:04:16,620 --> 00:04:18,120
+so I will scale the curve.
+
+96
+00:04:18,120 --> 00:04:20,480
+And then, as we did for the right foot,
+
+97
+00:04:20,480 --> 00:04:25,060
+I will input a new Q frame
+in between the two position
+
+98
+00:04:25,060 --> 00:04:27,530
+and push a bit the Z location up,
+
+99
+00:04:27,530 --> 00:04:29,870
+so that it feels like the foot is raising
+
+100
+00:04:29,870 --> 00:04:31,550
+before it hits the ground.
+
+101
+00:04:31,550 --> 00:04:33,500
+Then, using the heel controller
+
+102
+00:04:33,500 --> 00:04:35,860
+and the foot rotation controller,
+
+103
+00:04:35,860 --> 00:04:38,410
+I will make sure that the foot opens
+
+104
+00:04:38,410 --> 00:04:43,180
+toward the next position,
+meaning that I will make it slide
+
+105
+00:04:43,180 --> 00:04:45,360
+onto its inner edge.
+
+106
+00:04:45,360 --> 00:04:48,210
+And after it hits its contact pose,
+
+107
+00:04:48,210 --> 00:04:50,491
+I will make it tilt to the outside
+
+108
+00:04:50,491 --> 00:04:52,550
+so that it flatten on the ground.
+
+109
+00:04:52,550 --> 00:04:55,050
+From there, as we did for the right foot,
+
+110
+00:04:55,050 --> 00:04:57,550
+I will work a bit on the
+toes to make them drag
+
+111
+00:04:57,550 --> 00:05:01,790
+so whenever the character is
+moving his leg to his left,
+
+112
+00:05:01,790 --> 00:05:04,321
+the toes will slightly drag to the right.
+
+113
+00:05:04,321 --> 00:05:06,590
+If you are beginning in animation,
+
+114
+00:05:06,590 --> 00:05:09,635
+and this is the first time
+you do this kind of exercise,
+
+115
+00:05:09,635 --> 00:05:13,460
+note that those details
+are not that important.
+
+116
+00:05:13,460 --> 00:05:16,290
+They will sure bring some
+interesting information
+
+117
+00:05:16,290 --> 00:05:19,560
+to your animation, but
+you should always focus
+
+118
+00:05:19,560 --> 00:05:23,100
+on the broad motion on
+the center of gravity,
+
+119
+00:05:23,100 --> 00:05:25,260
+the chest, the position of the foot,
+
+120
+00:05:25,260 --> 00:05:26,910
+the position of the hands.
+
+121
+00:05:26,910 --> 00:05:30,880
+Works on those little details
+only at the very last moment.
+
+122
+00:05:30,880 --> 00:05:34,640
+Basically always work from
+the root of the motion,
+
+123
+00:05:34,640 --> 00:05:39,190
+in this case, the center
+gravity, to the tip of the chain,
+
+124
+00:05:39,190 --> 00:05:42,363
+the tip of the feet, the tip of the hands.
+

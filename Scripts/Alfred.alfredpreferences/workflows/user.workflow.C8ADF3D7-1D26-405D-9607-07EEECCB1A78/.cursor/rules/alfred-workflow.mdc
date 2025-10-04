@@ -1,0 +1,107 @@
+---
+alwaysApply: true
+description: Alfred Workflow Development Rules and Best Practices
+---
+
+# Alfred Workflow Development Guide
+
+This is an Alfred workflow project for automation and productivity tools. The project includes image uploading, URL extraction, and markdown conversion utilities.
+
+## Project Structure
+
+The main entry points are:
+- [info.plist](mdc:info.plist) - Alfred workflow configuration file
+- [src/cli/](mdc:src/cli/) - Command-line interface scripts
+- [src/core/](mdc:src/core/) - Core functionality modules
+- [src/utils/](mdc:src/utils/) - Utility functions
+
+Key components:
+- [alfred_browser_extractor.sh](mdc:alfred_browser_extractor.sh) - Main browser tab extraction script
+- [src/core/url_extractor/alfred_browser_tabs.js](mdc:src/core/url_extractor/alfred_browser_tabs.js) - Browser tab processing logic
+- [src/core/imgur_uploader.py](mdc:src/core/imgur_uploader.py) - Image upload functionality
+
+## Alfred Workflow Development Standards
+
+### Script Structure
+- All shell scripts must start with `#!/bin/bash` or `#!/bin/zsh --no-rcs`
+- Use `"${alfred_workflow_directory}"` for relative paths within workflows
+- Always `cd "${alfred_workflow_directory}"` before executing relative scripts
+- Use proper error handling with `set -e` for critical operations
+
+### Environment Variables
+Alfred provides these essential environment variables:
+- `alfred_workflow_directory` - Current workflow directory
+- `alfred_workflow_bundleid` - Workflow bundle identifier
+- `alfred_workflow_cache` - Recommended cache directory
+- `alfred_workflow_data` - Recommended data storage directory
+- `alfred_debug` - Set to "1" when debugging is active
+
+### JavaScript for Automation (JXA)
+- Use `#!/usr/bin/env osascript -l JavaScript` shebang
+- Always wrap browser operations in try-catch blocks
+- Check if browser is running before accessing: `browser.running()`
+- Use `console.log()` for debugging output
+- Return strings directly for Alfred consumption
+
+### Script Filter JSON Output
+When creating Script Filter outputs, use this structure:
+```json
+{
+  "items": [
+    {
+      "uid": "unique-identifier",
+      "title": "Display Title",
+      "subtitle": "Subtitle text",
+      "arg": "argument-to-pass",
+      "icon": {
+        "path": "./icon.png"
+      },
+      "valid": true,
+      "autocomplete": "autocomplete-text"
+    }
+  ]
+}
+```
+
+### File Organization
+- CLI scripts in `src/cli/` directory
+- Core logic in `src/core/` directory  
+- Utility functions in `src/utils/` directory
+- Legacy code preserved in `legacy/` directory
+- Test scripts at project root with `test_` prefix
+
+### Error Handling
+- Always provide meaningful error messages
+- Use `|| { echo "Error message"; exit 1; }` for critical operations
+- Log errors to stderr: `echo "Error" >&2`
+- Return appropriate exit codes (0 for success, 1+ for errors)
+
+### Path Management
+- Use absolute paths when calling external scripts
+- Prefer `"$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"` for script directory detection
+- Always quote variable expansions: `"$variable"`
+- Use `${variable:-default}` for default values
+
+### Workflow Configuration
+- Bundle ID format: `com.username.workflowname`
+- Version using semantic versioning: `major.minor.patch`
+- Always include meaningful description and keywords
+- Use UUID for object identifiers in info.plist
+
+### Browser Integration
+- Support multiple browsers in priority order: Chrome, 豆包, Edge, Safari, Brave, Arc, Firefox
+- Implement graceful fallback when browsers are unavailable
+- Clean website titles by removing common suffixes
+- Use appropriate emoji icons for different domains
+
+### Image Processing
+- Support common formats: PNG, JPG, JPEG, GIF, WebP
+- Implement proper MIME type detection
+- Handle clipboard image data appropriately
+- Provide progress feedback for long operations
+
+### Markdown Output
+- Use consistent link format: `[title](url)` or `[@url](url)` for references
+- Include emoji icons for visual identification
+- Clean titles by removing site-specific suffixes
+- Support both inline and reference-style links

@@ -1,0 +1,1190 @@
+﻿1
+00:00:00,130 --> 00:00:02,450
+- [Instructor] We will
+start polishing the torso
+
+2
+00:00:02,450 --> 00:00:04,570
+with the hips controller.
+
+3
+00:00:04,570 --> 00:00:06,560
+As mentioned in the previous video,
+
+4
+00:00:06,560 --> 00:00:09,420
+you should always start
+polishing the controllers
+
+5
+00:00:09,420 --> 00:00:13,660
+that have the most influence
+or that move the most.
+
+6
+00:00:13,660 --> 00:00:15,730
+In the case of the hips controller,
+
+7
+00:00:15,730 --> 00:00:20,020
+it's gonna be the tilting
+motion and twisting motion.
+
+8
+00:00:20,020 --> 00:00:22,320
+And those are driven by the rotation,
+
+9
+00:00:22,320 --> 00:00:24,510
+I've hidden all the other key.
+
+10
+00:00:24,510 --> 00:00:26,310
+Now I'm testing each curve
+
+11
+00:00:26,310 --> 00:00:29,050
+to check what channel does what.
+
+12
+00:00:29,050 --> 00:00:32,220
+The Z curve twist, the Y curve tilt.
+
+13
+00:00:32,220 --> 00:00:34,830
+So I will start with the Y curve.
+
+14
+00:00:34,830 --> 00:00:38,100
+I can now hide all the other curves.
+
+15
+00:00:38,100 --> 00:00:41,780
+The hips motion is pretty
+critical on the walk cycle.
+
+16
+00:00:41,780 --> 00:00:44,290
+If it's off, it won't be convincing.
+
+17
+00:00:44,290 --> 00:00:47,800
+If you add too much motion,
+it will look too feminine.
+
+18
+00:00:47,800 --> 00:00:50,330
+If you don't add enough motion,
+
+19
+00:00:50,330 --> 00:00:53,380
+it won't look realistic or convincing.
+
+20
+00:00:53,380 --> 00:00:55,110
+But there are some common rules
+
+21
+00:00:55,110 --> 00:00:56,440
+whatever the weight
+
+22
+00:00:56,440 --> 00:01:00,030
+or whether your character
+is a male or a female.
+
+23
+00:01:00,030 --> 00:01:02,010
+The hips will rapidly tilt
+
+24
+00:01:02,010 --> 00:01:04,690
+as soon as the leg is
+supporting the weight.
+
+25
+00:01:04,690 --> 00:01:08,130
+So basically, one frame
+after the contact pose,
+
+26
+00:01:08,130 --> 00:01:11,850
+you will have a drastic
+change in your curve shape.
+
+27
+00:01:11,850 --> 00:01:15,460
+And as soon as you get
+over the passing pose,
+
+28
+00:01:15,460 --> 00:01:18,630
+it will slightly rotate the other way.
+
+29
+00:01:18,630 --> 00:01:21,839
+A bit like the side to side motion we add
+
+30
+00:01:21,839 --> 00:01:24,120
+with the center of gravity.
+
+31
+00:01:24,120 --> 00:01:28,330
+So this is what I'm working
+on, onto the curve right now.
+
+32
+00:01:28,330 --> 00:01:30,840
+I'm getting a fast change in the motion
+
+33
+00:01:30,840 --> 00:01:32,550
+over a couple of frame
+
+34
+00:01:32,550 --> 00:01:36,080
+before transitioning
+into a slight plateau.
+
+35
+00:01:36,080 --> 00:01:38,870
+So I'm done with the
+first half of the cycle.
+
+36
+00:01:38,870 --> 00:01:42,127
+I will remove all the keys after frame 16.
+
+37
+00:01:42,127 --> 00:01:44,160
+I will then select all the keys
+
+38
+00:01:44,160 --> 00:01:47,430
+from frame 0 to 16 and duplicate them
+
+39
+00:01:47,430 --> 00:01:51,140
+and offset them between frame 16 and 32.
+
+40
+00:01:51,140 --> 00:01:55,620
+My 2D cursor is already
+aligned with the zero value.
+
+41
+00:01:55,620 --> 00:01:59,330
+I can switch the pivot point to 2D cursor
+
+42
+00:01:59,330 --> 00:02:03,390
+and then scale the keys from 16 to 32
+
+43
+00:02:03,390 --> 00:02:07,410
+by minus 1 onto the Y axis.
+
+44
+00:02:07,410 --> 00:02:11,830
+Then I will duplicate
+frame 0 onto frame 32,
+
+45
+00:02:11,830 --> 00:02:13,790
+and I will clean my curve.
+
+46
+00:02:13,790 --> 00:02:17,370
+This way I have a perfectly
+mirror motion of the hips.
+
+47
+00:02:17,370 --> 00:02:20,380
+Then you can scale this
+curve on the Y axis
+
+48
+00:02:20,380 --> 00:02:24,410
+to whether increase or
+decrease the tilting motion.
+
+49
+00:02:24,410 --> 00:02:25,790
+Don't forget this is something
+
+50
+00:02:25,790 --> 00:02:28,330
+we will be able to edit later on
+
+51
+00:02:28,330 --> 00:02:31,500
+as we also work on the
+twisting of the hips.
+
+52
+00:02:31,500 --> 00:02:36,490
+So I'm considering this as a
+decent polish of the Y curve
+
+53
+00:02:36,490 --> 00:02:38,393
+and I will jump on the Z curve.
+
+54
+00:02:39,940 --> 00:02:43,430
+As a switch to the Z
+quaternion rotation curve
+
+55
+00:02:43,430 --> 00:02:44,580
+of my hips,
+
+56
+00:02:44,580 --> 00:02:47,590
+we must admit that this
+is quite a surprise
+
+57
+00:02:47,590 --> 00:02:50,250
+that the curve already looks pretty cool.
+
+58
+00:02:50,250 --> 00:02:53,350
+I think I've nailed the
+twisting motion of the hips
+
+59
+00:02:53,350 --> 00:02:55,380
+during the blocking stage.
+
+60
+00:02:55,380 --> 00:02:57,460
+Since I don't really know what to do,
+
+61
+00:02:57,460 --> 00:02:59,410
+I've doubled check the reference.
+
+62
+00:02:59,410 --> 00:03:00,690
+If we have a closer look,
+
+63
+00:03:00,690 --> 00:03:05,260
+we can see that the hips
+twist has a slight delay
+
+64
+00:03:05,260 --> 00:03:07,530
+compared to the foot contact.
+
+65
+00:03:07,530 --> 00:03:11,690
+As the character on the
+left reach its contact pose,
+
+66
+00:03:11,690 --> 00:03:14,310
+we can see the hips twisting forward
+
+67
+00:03:14,310 --> 00:03:16,560
+for a couple of frames.
+
+68
+00:03:16,560 --> 00:03:20,460
+So what I will do is simply
+offset the whole curve
+
+69
+00:03:20,460 --> 00:03:22,270
+for a couple of frame
+
+70
+00:03:22,270 --> 00:03:26,040
+and insert a keyframe on frame 32
+
+71
+00:03:26,040 --> 00:03:27,780
+and then set it to 3
+
+72
+00:03:27,780 --> 00:03:30,370
+and duplicate it on frame 0.
+
+73
+00:03:30,370 --> 00:03:34,060
+I will then get rid of
+the keyframe on frame 34,
+
+74
+00:03:34,060 --> 00:03:38,200
+and I will call the Z quaternion
+rotation polishing done.
+
+75
+00:03:38,200 --> 00:03:41,150
+The X rotation is super subtle.
+
+76
+00:03:41,150 --> 00:03:45,910
+I will just push the key on
+frame 8 a little downward,
+
+77
+00:03:45,910 --> 00:03:47,500
+back foot is pushing,
+
+78
+00:03:47,500 --> 00:03:50,650
+it pushes a bit the hips forward
+
+79
+00:03:50,650 --> 00:03:52,600
+and then it goes the other way.
+
+80
+00:03:52,600 --> 00:03:55,640
+The X rotation motion is super subtle.
+
+81
+00:03:55,640 --> 00:03:58,510
+Just duplicate this revised frame 8,
+
+82
+00:03:58,510 --> 00:04:01,450
+16 frame later on frame 24
+
+83
+00:04:01,450 --> 00:04:04,083
+and I will call the X rotation curve done.
+
+84
+00:04:05,030 --> 00:04:07,640
+We can now jump onto the chest controller
+
+85
+00:04:07,640 --> 00:04:10,180
+and work on its rotation.
+
+86
+00:04:10,180 --> 00:04:14,460
+I will start by working on both
+Y and Z quaternion rotation
+
+87
+00:04:14,460 --> 00:04:16,320
+at the same time.
+
+88
+00:04:16,320 --> 00:04:19,160
+The Y rotation will drive the tilt
+
+89
+00:04:19,160 --> 00:04:21,320
+while the Z will drive the twist.
+
+90
+00:04:21,320 --> 00:04:25,350
+My goal is to build a bit
+of contrast on the motion
+
+91
+00:04:25,350 --> 00:04:29,090
+and slightly delay the motion of the chest
+
+92
+00:04:29,090 --> 00:04:32,430
+compared to what we have
+done during the blocking.
+
+93
+00:04:32,430 --> 00:04:35,470
+It's about one frame or half the frame.
+
+94
+00:04:35,470 --> 00:04:38,360
+Meaning that will push up a bit the key
+
+95
+00:04:38,360 --> 00:04:40,660
+where the curve is starting to get down
+
+96
+00:04:40,660 --> 00:04:42,380
+like on frame 8.
+
+97
+00:04:42,380 --> 00:04:45,190
+And I will push a bit down the keys
+
+98
+00:04:45,190 --> 00:04:47,560
+where the curve is starting to raise
+
+99
+00:04:47,560 --> 00:04:49,550
+like on frame 24.
+
+100
+00:04:49,550 --> 00:04:51,450
+Have a look to both polished curve,
+
+101
+00:04:51,450 --> 00:04:53,810
+we can see that they are pretty smooth,
+
+102
+00:04:53,810 --> 00:04:57,980
+meaning that they are going
+from one extreme to the other
+
+103
+00:04:57,980 --> 00:04:59,520
+in a smooth fashion,
+
+104
+00:04:59,520 --> 00:05:02,710
+without big changes in their shape.
+
+105
+00:05:02,710 --> 00:05:06,540
+But we still recognize our usual pattern
+
+106
+00:05:06,540 --> 00:05:11,350
+when we try to bring contrast
+between two extremes,
+
+107
+00:05:11,350 --> 00:05:14,720
+with a slight plateau
+between those two extreme,
+
+108
+00:05:14,720 --> 00:05:19,720
+and then the value of the
+curve changing a little faster
+
+109
+00:05:19,890 --> 00:05:23,100
+during the passing or
+during the transitions.
+
+110
+00:05:23,100 --> 00:05:25,020
+The fact that we get this plateau
+
+111
+00:05:25,020 --> 00:05:28,980
+make the shoulder easing into the extreme
+
+112
+00:05:28,980 --> 00:05:31,530
+as if there was some kind of momentum
+
+113
+00:05:31,530 --> 00:05:34,023
+during the swinging of the shoulders.
+
+114
+00:05:34,940 --> 00:05:38,110
+And the result is pretty
+close to what we have blocked.
+
+115
+00:05:38,110 --> 00:05:40,300
+Just trying to get linear curve
+
+116
+00:05:40,300 --> 00:05:42,350
+with a bit more contrast.
+
+117
+00:05:42,350 --> 00:05:43,930
+Swing a bit with the timing,
+
+118
+00:05:43,930 --> 00:05:47,620
+whenever the shoulder should
+raise or twist forward.
+
+119
+00:05:47,620 --> 00:05:51,230
+Just double check the
+reference frame by frame,
+
+120
+00:05:51,230 --> 00:05:54,260
+and you should find the right timing.
+
+121
+00:05:54,260 --> 00:05:57,200
+Then regarding the shape of the curve,
+
+122
+00:05:57,200 --> 00:05:59,840
+been following all the lessons so far,
+
+123
+00:05:59,840 --> 00:06:02,170
+you should be a little more comfortable
+
+124
+00:06:02,170 --> 00:06:04,440
+with editing those curve
+
+125
+00:06:04,440 --> 00:06:08,140
+and those S shape with a slight plateau
+
+126
+00:06:08,140 --> 00:06:12,070
+will be read as for the
+Z quaternion rotation
+
+127
+00:06:12,070 --> 00:06:14,960
+and hold forward and backward
+
+128
+00:06:14,960 --> 00:06:16,630
+during the twisting,
+
+129
+00:06:16,630 --> 00:06:19,270
+and for the Y quaternion rotation
+
+130
+00:06:19,270 --> 00:06:23,750
+and hold upward or downward
+during those extremes.
+
+131
+00:06:23,750 --> 00:06:27,220
+Once I was done with the Z
+and Y quaternion rotation,
+
+132
+00:06:27,220 --> 00:06:30,510
+I switched to the X quaternion rotation
+
+133
+00:06:30,510 --> 00:06:31,990
+to be super subtle,
+
+134
+00:06:31,990 --> 00:06:34,490
+because if you go extreme on this,
+
+135
+00:06:34,490 --> 00:06:37,660
+your character will look
+drunk or unbalanced.
+
+136
+00:06:37,660 --> 00:06:39,830
+And we will input more up and down
+
+137
+00:06:39,830 --> 00:06:43,070
+using the Z location of this controller.
+
+138
+00:06:43,070 --> 00:06:46,030
+In the end, I'm just
+taking the whole curve
+
+139
+00:06:46,030 --> 00:06:48,300
+and offsetting it by two frame.
+
+140
+00:06:48,300 --> 00:06:53,290
+But the character bend a bit
+forward just after the impact.
+
+141
+00:06:53,290 --> 00:06:55,570
+And as it's pushing,
+
+142
+00:06:55,570 --> 00:07:00,300
+then it will start bending
+backward after the up pose.
+
+143
+00:07:00,300 --> 00:07:04,460
+And the bend backward will
+be pushed as it fall down
+
+144
+00:07:04,460 --> 00:07:07,500
+as his body is getting lower and lower.
+
+145
+00:07:07,500 --> 00:07:10,290
+So, there is not that
+much editing on that curve
+
+146
+00:07:10,290 --> 00:07:14,220
+but just offsetting it
+in time on the X axis
+
+147
+00:07:14,220 --> 00:07:16,560
+by two or three frame.
+
+148
+00:07:16,560 --> 00:07:20,850
+Then I will duplicate
+frame 32, set it to 3,
+
+149
+00:07:20,850 --> 00:07:22,560
+move it on frame 0
+
+150
+00:07:22,560 --> 00:07:25,100
+and then get rid of any keys
+
+151
+00:07:25,100 --> 00:07:28,133
+that goes beyond the
+frame 0 and the frame 32.
+
+152
+00:07:29,340 --> 00:07:33,060
+Explain before, one extra
+detail I'd like to add
+
+153
+00:07:33,060 --> 00:07:36,770
+is the up and down motion
+of the chest controller.
+
+154
+00:07:36,770 --> 00:07:40,150
+It is currently driven
+by the Z location curve
+
+155
+00:07:40,150 --> 00:07:41,780
+of the chest controller.
+
+156
+00:07:41,780 --> 00:07:43,840
+The curve is currently flat
+
+157
+00:07:43,840 --> 00:07:46,650
+because I haven't posed any location
+
+158
+00:07:46,650 --> 00:07:48,320
+during the blocking stage.
+
+159
+00:07:48,320 --> 00:07:52,260
+The idea is to animate
+the Z location curve
+
+160
+00:07:52,260 --> 00:07:55,220
+based on the motion of the torso root.
+
+161
+00:07:55,220 --> 00:07:58,290
+So I'm tracking the motion
+path of the torso root
+
+162
+00:07:58,290 --> 00:08:02,200
+to double check whenever
+it's accelerating down,
+
+163
+00:08:02,200 --> 00:08:04,680
+but you don't really need to do it.
+
+164
+00:08:04,680 --> 00:08:07,080
+By simply going frame by frame,
+
+165
+00:08:07,080 --> 00:08:10,520
+you will feel the moment the
+body's accelerating down,
+
+166
+00:08:10,520 --> 00:08:13,310
+and the moment the body
+is accelerating up.
+
+167
+00:08:13,310 --> 00:08:17,420
+The idea is to create an
+overlapping motion of the chest
+
+168
+00:08:17,420 --> 00:08:20,840
+whenever the body hits its lower pose,
+
+169
+00:08:20,840 --> 00:08:23,080
+we will then, one frame later,
+
+170
+00:08:23,080 --> 00:08:27,310
+or two frame later, push the chest down.
+
+171
+00:08:27,310 --> 00:08:30,100
+We will hold a bit this
+pose for a couple of frame
+
+172
+00:08:30,100 --> 00:08:32,140
+as the body is raising.
+
+173
+00:08:32,140 --> 00:08:34,890
+And then just after the up pose,
+
+174
+00:08:34,890 --> 00:08:37,720
+when the body is falling down,
+
+175
+00:08:37,720 --> 00:08:39,630
+we will raise the chest.
+
+176
+00:08:39,630 --> 00:08:41,470
+As the chest is dragging,
+
+177
+00:08:41,470 --> 00:08:44,180
+it's falling, but with a bit of delay.
+
+178
+00:08:44,180 --> 00:08:49,180
+I've mainly work the curve
+between frame 14 and frame 22,
+
+179
+00:08:49,260 --> 00:08:52,220
+because this is the time
+where we have a big change
+
+180
+00:08:52,220 --> 00:08:54,150
+in the cock position.
+
+181
+00:08:54,150 --> 00:08:57,170
+And this is your to work on this segment
+
+182
+00:08:57,170 --> 00:09:01,800
+and then duplicate the
+keys around frame 0 and 32
+
+183
+00:09:01,800 --> 00:09:05,920
+then working the transition
+from frame 32 to 0.
+
+184
+00:09:05,920 --> 00:09:10,260
+In the end, this bouncing
+motion will occur twice
+
+185
+00:09:10,260 --> 00:09:12,410
+during our walk cycle.
+
+186
+00:09:12,410 --> 00:09:17,410
+So once I've polished the one
+between frame 14 and frame 22,
+
+187
+00:09:18,340 --> 00:09:23,340
+I can duplicate my keys so
+that it repeats 16 frame later.
+
+188
+00:09:23,480 --> 00:09:24,810
+It's a very subtle bounce
+
+189
+00:09:24,810 --> 00:09:28,020
+but it brings a bit of
+texture to our motion.
+
+190
+00:09:28,020 --> 00:09:30,370
+While we need to bring a bit of motion
+
+191
+00:09:30,370 --> 00:09:31,920
+in the neck and head,
+
+192
+00:09:31,920 --> 00:09:34,800
+we will keep it as subtle as possible
+
+193
+00:09:34,800 --> 00:09:38,290
+unless you want to
+build a goofy walk cycle
+
+194
+00:09:38,290 --> 00:09:41,840
+that could fit a drunk
+guy or even the babies
+
+195
+00:09:41,840 --> 00:09:46,460
+that has a lot of trouble to
+hold his head in position.
+
+196
+00:09:46,460 --> 00:09:49,750
+You don't want to move the
+head and the neck too much
+
+197
+00:09:49,750 --> 00:09:51,070
+during your walk cycle
+
+198
+00:09:51,070 --> 00:09:53,720
+or your character will
+look like a chicken.
+
+199
+00:09:53,720 --> 00:09:54,760
+So for the neck,
+
+200
+00:09:54,760 --> 00:09:58,660
+I will only work on the
+X quaternion rotation.
+
+201
+00:09:58,660 --> 00:10:01,550
+When the character is moving up,
+
+202
+00:10:01,550 --> 00:10:05,300
+clean a bit forward to
+make the head dragging.
+
+203
+00:10:05,300 --> 00:10:08,460
+And when the body will be falling forward,
+
+204
+00:10:08,460 --> 00:10:10,760
+the neck will move backward.
+
+205
+00:10:10,760 --> 00:10:13,830
+And I will apply the same
+principle for the head.
+
+206
+00:10:13,830 --> 00:10:15,670
+Right now I'm just making sure
+
+207
+00:10:15,670 --> 00:10:19,720
+that my cycle is repeating
+over my whole curve.
+
+208
+00:10:19,720 --> 00:10:21,910
+Though each time I find a spot
+
+209
+00:10:21,910 --> 00:10:24,270
+where I feel like my animation is right,
+
+210
+00:10:24,270 --> 00:10:29,270
+I can duplicate the keys
+and move them by 16 frame.
+
+211
+00:10:29,410 --> 00:10:32,300
+This way I'm sure I get a consistent cycle
+
+212
+00:10:32,300 --> 00:10:33,590
+that look right.
+
+213
+00:10:33,590 --> 00:10:36,190
+Then I will do exactly the same thing,
+
+214
+00:10:36,190 --> 00:10:38,660
+but this time with the head controller.
+
+215
+00:10:38,660 --> 00:10:40,720
+Just track the tip of the nose
+
+216
+00:10:40,720 --> 00:10:42,780
+or the chin of your character
+
+217
+00:10:42,780 --> 00:10:44,570
+as a point of reference.
+
+218
+00:10:44,570 --> 00:10:48,620
+And again, keep this motion
+as subtle as possible.
+
+219
+00:10:48,620 --> 00:10:51,090
+You may not see it, just feel it,
+
+220
+00:10:51,090 --> 00:10:55,360
+like the head is a bit
+wobbling but very subtly
+
+221
+00:10:55,360 --> 00:10:58,520
+so that we feel like the
+character is in control.
+
+222
+00:10:58,520 --> 00:11:00,340
+If you feel comfortable enough,
+
+223
+00:11:00,340 --> 00:11:03,497
+you can add a bit of Z quaternion rotation
+
+224
+00:11:03,497 --> 00:11:06,340
+to create a bit of side to side delay
+
+225
+00:11:06,340 --> 00:11:08,070
+in the rotation of the head
+
+226
+00:11:08,070 --> 00:11:10,400
+but it has to be super subtle.
+
+227
+00:11:10,400 --> 00:11:14,160
+Even more subtle than
+this X rotation curve.
+
+228
+00:11:14,160 --> 00:11:15,090
+So in the end,
+
+229
+00:11:15,090 --> 00:11:16,950
+if you don't animate the other channel,
+
+230
+00:11:16,950 --> 00:11:19,000
+that's perfectly fine.
+
+231
+00:11:19,000 --> 00:11:20,650
+The torso polishing done.
+
+232
+00:11:20,650 --> 00:11:24,140
+I'd like to add extra bit of details
+
+233
+00:11:24,140 --> 00:11:25,410
+and to add a bit of bouncing
+
+234
+00:11:25,410 --> 00:11:27,820
+on the pectoral muscle of the character.
+
+235
+00:11:27,820 --> 00:11:31,760
+If you display the torso
+tweak layer of bones,
+
+236
+00:11:31,760 --> 00:11:35,450
+you will find a controller
+for pectoral muscle.
+
+237
+00:11:35,450 --> 00:11:38,450
+The idea is that we will be
+only animating one of them
+
+238
+00:11:38,450 --> 00:11:40,360
+on its Z location,
+
+239
+00:11:40,360 --> 00:11:43,030
+and then we will copy and paste its curve
+
+240
+00:11:43,030 --> 00:11:44,590
+onto the other one.
+
+241
+00:11:44,590 --> 00:11:48,220
+I will only animate direction
+of the pectoral muscle
+
+242
+00:11:48,220 --> 00:11:49,310
+on the impact.
+
+243
+00:11:49,310 --> 00:11:51,810
+If it was a female character,
+
+244
+00:11:51,810 --> 00:11:53,600
+there will be a lot of motion,
+
+245
+00:11:53,600 --> 00:11:55,590
+whether up and down, side to side,
+
+246
+00:11:55,590 --> 00:11:58,860
+because women breast
+is mainly made of fat.
+
+247
+00:11:58,860 --> 00:12:00,320
+In the case of our character,
+
+248
+00:12:00,320 --> 00:12:02,340
+I only want to create motion
+
+249
+00:12:02,340 --> 00:12:04,730
+whenever we are reaching the impact frame.
+
+250
+00:12:04,730 --> 00:12:07,830
+So as the torso travels fast down
+
+251
+00:12:07,830 --> 00:12:09,720
+before the contact frame,
+
+252
+00:12:09,720 --> 00:12:12,720
+I will slightly raise the Z curve
+
+253
+00:12:12,720 --> 00:12:15,680
+to push the pectoral muscle up,
+
+254
+00:12:15,680 --> 00:12:16,970
+hold for a couple of frame,
+
+255
+00:12:16,970 --> 00:12:19,970
+and then I will push it down super fast.
+
+256
+00:12:19,970 --> 00:12:23,453
+We create a slight S curves
+that goes up and down
+
+257
+00:12:23,453 --> 00:12:25,890
+with a smaller and smaller amplitude
+
+258
+00:12:25,890 --> 00:12:29,520
+will create a slight bouncing effect
+
+259
+00:12:29,520 --> 00:12:32,530
+that is losing strength over time.
+
+260
+00:12:32,530 --> 00:12:34,950
+I was happy with this first bounce,
+
+261
+00:12:34,950 --> 00:12:38,200
+as usual, I've duplicated all the keys
+
+262
+00:12:38,200 --> 00:12:41,340
+and moved them back by 16 frame.
+
+263
+00:12:41,340 --> 00:12:43,440
+From there, I can copy the curve,
+
+264
+00:12:43,440 --> 00:12:45,600
+select the other controller,
+
+265
+00:12:45,600 --> 00:12:48,720
+then double-click its Z location channel,
+
+266
+00:12:48,720 --> 00:12:50,590
+get rid of all the key
+
+267
+00:12:50,590 --> 00:12:52,650
+but the first and the last,
+
+268
+00:12:52,650 --> 00:12:56,210
+and just press Control
++ V to paste the motion.
+
+269
+00:12:56,210 --> 00:13:00,730
+Now both pectoral muscle
+move with the same bounce.
+
+270
+00:13:00,730 --> 00:13:03,740
+If you want to push a bit your walk cycle,
+
+271
+00:13:03,740 --> 00:13:05,620
+you can apply the same effect
+
+272
+00:13:05,620 --> 00:13:07,570
+on the butt of the character.
+
+273
+00:13:07,570 --> 00:13:10,040
+But I will call the torso polishing done,
+
+274
+00:13:10,040 --> 00:13:13,137
+and now we need to polish
+the shoulders and the arms.
+

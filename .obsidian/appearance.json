@@ -1,0 +1,14 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "myStyle-v2"
+  ],
+  "baseFontSizeAction": false,
+  "accentColor": "",
+  "showViewHeader": true,
+  "textFontFamily": "Inter,Noto Sans SC,Noto Serif SC",
+  "theme": "system",
+  "translucency": true,
+  "interfaceFontFamily": "Inter"
+}

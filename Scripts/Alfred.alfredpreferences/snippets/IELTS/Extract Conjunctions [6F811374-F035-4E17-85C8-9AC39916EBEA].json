@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Identify and extract the Sentence Connectors(conjunctions and connecting words) and filler words from the given passage.\nPassage:\n```\n{clipboard}\n```",
+    "uid" : "6F811374-F035-4E17-85C8-9AC39916EBEA",
+    "name" : "Extract Conjunctions",
+    "keyword" : "ecj"
+  }
+}

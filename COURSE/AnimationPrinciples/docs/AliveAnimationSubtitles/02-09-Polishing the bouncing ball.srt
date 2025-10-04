@@ -1,0 +1,900 @@
+﻿1
+00:00:00,850 --> 00:00:03,430
+- The time has come to
+give the final touch
+
+2
+00:00:03,430 --> 00:00:05,730
+to our bouncing ball animation.
+
+3
+00:00:05,730 --> 00:00:08,690
+To clearly understand
+what we need to modify,
+
+4
+00:00:08,690 --> 00:00:11,470
+I will change the frame
+rate of the animation
+
+5
+00:00:11,470 --> 00:00:14,870
+by going into the document
+option frame rate.
+
+6
+00:00:14,870 --> 00:00:17,420
+Here, we can find a bunch of preset
+
+7
+00:00:17,420 --> 00:00:20,320
+that will set the pace of our animation.
+
+8
+00:00:20,320 --> 00:00:24,540
+We are currently using the
+classic 24 frames per second,
+
+9
+00:00:24,540 --> 00:00:27,510
+but they generally use
+30 frames per seconds.
+
+10
+00:00:27,510 --> 00:00:30,520
+Here, I will select a custom frame rate
+
+11
+00:00:30,520 --> 00:00:34,230
+and I will set it to
+five frames per second.
+
+12
+00:00:34,230 --> 00:00:37,070
+Now, when I play my animation,
+
+13
+00:00:37,070 --> 00:00:39,630
+it kind of play in slow motion.
+
+14
+00:00:39,630 --> 00:00:43,070
+It's a good way to identify
+the different position
+
+15
+00:00:43,070 --> 00:00:44,400
+of the bouncing ball,
+
+16
+00:00:44,400 --> 00:00:48,050
+and it can be a method
+to spot spacing troubles.
+
+17
+00:00:48,050 --> 00:00:50,620
+Switching back to 24 frames per second,
+
+18
+00:00:50,620 --> 00:00:52,387
+I will select the object
+
+19
+00:00:52,387 --> 00:00:55,310
+and go into the motion path panel.
+
+20
+00:00:55,310 --> 00:00:57,100
+I will set the animation range
+
+21
+00:00:57,100 --> 00:00:59,820
+from zero to 24 frames per second.
+
+22
+00:00:59,820 --> 00:01:02,420
+And since this is a function I use a lot,
+
+23
+00:01:02,420 --> 00:01:05,150
+I will right click on the calculate button
+
+24
+00:01:05,150 --> 00:01:07,460
+and add it to my quick favorite.
+
+25
+00:01:07,460 --> 00:01:10,210
+This way, when I press the cue key,
+
+26
+00:01:10,210 --> 00:01:13,570
+I can access the calculate
+function anywhere
+
+27
+00:01:13,570 --> 00:01:14,853
+in the 3D viewport.
+
+28
+00:01:15,950 --> 00:01:18,330
+You can now see our spacing
+
+29
+00:01:18,330 --> 00:01:21,880
+and try to see what's
+wrong with our animation.
+
+30
+00:01:21,880 --> 00:01:24,260
+When an object is falling in space,
+
+31
+00:01:24,260 --> 00:01:27,660
+it's accelerating until
+it touches the ground.
+
+32
+00:01:27,660 --> 00:01:30,800
+The speed of an object might stabilize
+
+33
+00:01:30,800 --> 00:01:32,900
+due to air friction.
+
+34
+00:01:32,900 --> 00:01:36,480
+But unless there is a
+force pulling our ball up,
+
+35
+00:01:36,480 --> 00:01:40,270
+it is simple to accelerate
+until it touches the ground.
+
+36
+00:01:40,270 --> 00:01:43,370
+So the spacing should be increasing
+
+37
+00:01:43,370 --> 00:01:47,140
+from one frame to the
+other while it's falling.
+
+38
+00:01:47,140 --> 00:01:50,500
+And we can see this is what's
+happening on those frames.
+
+39
+00:01:50,500 --> 00:01:54,130
+Each frames forward, the
+spacing is getting bigger.
+
+40
+00:01:54,130 --> 00:01:57,840
+On the last frame, the
+spacing is getting smaller.
+
+41
+00:01:57,840 --> 00:02:00,320
+It means that the ball is slowing down
+
+42
+00:02:00,320 --> 00:02:03,800
+before hitting the ground
+and this is incorrect.
+
+43
+00:02:03,800 --> 00:02:07,000
+And this is something that
+we can read on the curve.
+
+44
+00:02:07,000 --> 00:02:08,750
+As explained previously,
+
+45
+00:02:08,750 --> 00:02:11,980
+the curve should get
+more and more vertical
+
+46
+00:02:11,980 --> 00:02:14,330
+as it get closer to the value zero,
+
+47
+00:02:14,330 --> 00:02:16,310
+which is our ground value.
+
+48
+00:02:16,310 --> 00:02:20,063
+While here we can see
+that it has this S shape
+
+49
+00:02:20,063 --> 00:02:24,570
+that makes the ball slowing
+down before touching the ground.
+
+50
+00:02:24,570 --> 00:02:28,880
+The curve is easing out toward the ground.
+
+51
+00:02:28,880 --> 00:02:32,710
+But since we have made a good
+blocking of our animation,
+
+52
+00:02:32,710 --> 00:02:34,170
+it doesn't look that bad.
+
+53
+00:02:34,170 --> 00:02:37,200
+Those two breakdowns
+are currently helping us
+
+54
+00:02:37,200 --> 00:02:39,030
+getting a better result.
+
+55
+00:02:39,030 --> 00:02:41,900
+This is why blocking
+can be pretty important.
+
+56
+00:02:41,900 --> 00:02:44,050
+To fix the ground key frames,
+
+57
+00:02:44,050 --> 00:02:48,080
+we just need to switch the
+handle pressing V to vector.
+
+58
+00:02:48,080 --> 00:02:52,170
+Now I no longer have
+this S shape on my curve.
+
+59
+00:02:52,170 --> 00:02:54,010
+To make things even clearer,
+
+60
+00:02:54,010 --> 00:02:57,450
+let's get rid of our two
+break down key frames
+
+61
+00:02:57,450 --> 00:03:00,410
+by selecting them and pressing the X key.
+
+62
+00:03:00,410 --> 00:03:03,860
+I've also switched back
+to basic ball handles.
+
+63
+00:03:03,860 --> 00:03:05,450
+When I play the animation,
+
+64
+00:03:05,450 --> 00:03:09,160
+you will better feel this
+ease in and ease out.
+
+65
+00:03:09,160 --> 00:03:11,520
+You can see the ball accelerating
+
+66
+00:03:11,520 --> 00:03:15,000
+when it's leaving the ground
+and before it hits the ground.
+
+67
+00:03:15,000 --> 00:03:17,800
+While if I switch both handles to vector,
+
+68
+00:03:17,800 --> 00:03:20,850
+now we can feel that the ball is bouncing.
+
+69
+00:03:20,850 --> 00:03:22,930
+To get even a better feeling,
+
+70
+00:03:22,930 --> 00:03:26,210
+I will also slightly raise the curve
+
+71
+00:03:26,210 --> 00:03:30,220
+by moving both vector
+handles towards the outside.
+
+72
+00:03:30,220 --> 00:03:32,040
+And by scaling the upper key,
+
+73
+00:03:32,040 --> 00:03:34,570
+I will make the ball raising faster
+
+74
+00:03:34,570 --> 00:03:36,820
+and holding a bit more in the air.
+
+75
+00:03:36,820 --> 00:03:40,270
+I have bring more
+contrast into my animation
+
+76
+00:03:40,270 --> 00:03:42,420
+by changing the shape of the curve,
+
+77
+00:03:42,420 --> 00:03:44,900
+and now it's more stylized.
+
+78
+00:03:44,900 --> 00:03:46,610
+A little touch we can add
+
+79
+00:03:46,610 --> 00:03:48,410
+to make it even more appealing,
+
+80
+00:03:48,410 --> 00:03:52,750
+is to slightly offset the
+upper key of one frame.
+
+81
+00:03:52,750 --> 00:03:55,250
+This way we don't have the same timing
+
+82
+00:03:55,250 --> 00:03:59,030
+when the ball is rising
+than when it's falling down.
+
+83
+00:03:59,030 --> 00:04:02,970
+We can recalculate the
+motion path of our animation
+
+84
+00:04:02,970 --> 00:04:05,450
+by clicking the update path button.
+
+85
+00:04:05,450 --> 00:04:07,990
+And instead of the in range option,
+
+86
+00:04:07,990 --> 00:04:10,310
+I've switched to around frame.
+
+87
+00:04:10,310 --> 00:04:13,010
+From there I can choose how many frame
+
+88
+00:04:13,010 --> 00:04:15,460
+I want to see on my motion path
+
+89
+00:04:15,460 --> 00:04:18,350
+before and after the current
+position of the ball.
+
+90
+00:04:18,350 --> 00:04:21,000
+Now, when I look at
+the spacing of my ball,
+
+91
+00:04:21,000 --> 00:04:23,470
+we can see that when
+it's leaving the ground,
+
+92
+00:04:23,470 --> 00:04:25,830
+it has the biggest spacing.
+
+93
+00:04:25,830 --> 00:04:28,850
+And it's slowing down when
+reaching the highest position,
+
+94
+00:04:28,850 --> 00:04:30,790
+which is correct.
+
+95
+00:04:30,790 --> 00:04:32,320
+When the ball is falling down,
+
+96
+00:04:32,320 --> 00:04:34,910
+we also get the proper spacing.
+
+97
+00:04:34,910 --> 00:04:36,640
+It's getting bigger and bigger
+
+98
+00:04:36,640 --> 00:04:39,424
+as we approach the contacting key frame.
+
+99
+00:04:39,424 --> 00:04:42,880
+We now have a pretty cool bouncing rhythm,
+
+100
+00:04:42,880 --> 00:04:46,350
+so let's work a bit on
+the scaling of our ball
+
+101
+00:04:46,350 --> 00:04:49,890
+or more precisely on it's
+squashing and stretching.
+
+102
+00:04:49,890 --> 00:04:52,050
+Pressing Alt+H in the graph editor
+
+103
+00:04:52,050 --> 00:04:53,520
+will reveal all the curve.
+
+104
+00:04:53,520 --> 00:04:55,900
+I can hide the Z location curve,
+
+105
+00:04:55,900 --> 00:04:58,860
+so that we focus on the scale curve.
+
+106
+00:04:58,860 --> 00:05:01,950
+Since our balls squashing
+is pretty brutal,
+
+107
+00:05:01,950 --> 00:05:04,960
+we can switch those key frames to vector.
+
+108
+00:05:04,960 --> 00:05:07,033
+If we have a very slow squashing,
+
+109
+00:05:07,033 --> 00:05:09,710
+we will have kept them as it is,
+
+110
+00:05:09,710 --> 00:05:12,830
+as the ball would be
+progressively absorbing
+
+111
+00:05:12,830 --> 00:05:15,120
+the impact for its squash.
+
+112
+00:05:15,120 --> 00:05:16,670
+Pardon for the animation,
+
+113
+00:05:16,670 --> 00:05:19,630
+I'm trying to get a feeling
+of the motion of the ball.
+
+114
+00:05:19,630 --> 00:05:21,200
+When the ball squash,
+
+115
+00:05:21,200 --> 00:05:25,210
+we can imagine it's a
+continuity of its fall.
+
+116
+00:05:25,210 --> 00:05:28,820
+And since we are working
+on the cycling animation,
+
+117
+00:05:28,820 --> 00:05:31,480
+the latest frame is the same as the first.
+
+118
+00:05:31,480 --> 00:05:34,460
+So if I check the frame before the latest,
+
+119
+00:05:34,460 --> 00:05:36,890
+I can see that I have a big spacing
+
+120
+00:05:36,890 --> 00:05:39,750
+between the base of my
+ball and the ground.
+
+121
+00:05:39,750 --> 00:05:42,941
+So it will be better
+if I kept this thinner
+
+122
+00:05:42,941 --> 00:05:45,700
+for the spacing of the squashing.
+
+123
+00:05:45,700 --> 00:05:48,740
+Meaning that I will offset the squash pose
+
+124
+00:05:48,740 --> 00:05:50,720
+of frame two on frame one.
+
+125
+00:05:50,720 --> 00:05:54,150
+And we will have a very
+stretched pose on frame zero
+
+126
+00:05:54,150 --> 00:05:56,660
+and a very squashed one on frame one.
+
+127
+00:05:56,660 --> 00:05:59,890
+And so it will transition
+with the full better.
+
+128
+00:05:59,890 --> 00:06:03,800
+We are now getting a
+more impactful squashing
+
+129
+00:06:03,800 --> 00:06:06,080
+if we compare with previous version.
+
+130
+00:06:06,080 --> 00:06:10,320
+But since we have offset
+one frame for the squashing,
+
+131
+00:06:10,320 --> 00:06:12,730
+we should do the same for the stretching.
+
+132
+00:06:12,730 --> 00:06:14,270
+As you can see my spacing
+
+133
+00:06:14,270 --> 00:06:17,060
+between frame three
+and four is very small.
+
+134
+00:06:17,060 --> 00:06:19,060
+So I want a faster animation.
+
+135
+00:06:19,060 --> 00:06:21,880
+I will offset the keys one frame before,
+
+136
+00:06:21,880 --> 00:06:24,890
+and I will also switch them to vector.
+
+137
+00:06:24,890 --> 00:06:26,990
+Next is the air squashing.
+
+138
+00:06:26,990 --> 00:06:29,540
+I offset the key frame
+where the ball recover
+
+139
+00:06:29,540 --> 00:06:33,360
+its round shape and then
+it's getting squashed again
+
+140
+00:06:33,360 --> 00:06:36,450
+with the inner star when it's
+reached the highest point.
+
+141
+00:06:36,450 --> 00:06:39,100
+Since the highest point is on frame 15,
+
+142
+00:06:39,100 --> 00:06:41,570
+I will make it squash on frame 15.
+
+143
+00:06:41,570 --> 00:06:44,400
+I'd like to slightly delay the squashing,
+
+144
+00:06:44,400 --> 00:06:47,820
+so what I will do is that I
+will duplicate all the keys
+
+145
+00:06:47,820 --> 00:06:52,490
+on frame eight and offset
+them onto frame 10 or 11.
+
+146
+00:06:52,490 --> 00:06:55,410
+It makes all the skate
+curve becoming flat,
+
+147
+00:06:55,410 --> 00:06:58,540
+which means that from
+frame eight to frame 11,
+
+148
+00:06:58,540 --> 00:07:00,480
+the ball is perfectly round.
+
+149
+00:07:00,480 --> 00:07:02,990
+And as the ball will be accelerating
+
+150
+00:07:02,990 --> 00:07:04,870
+to get back to the ground.
+
+151
+00:07:04,870 --> 00:07:07,020
+I'd like to slightly offset the time
+
+152
+00:07:07,020 --> 00:07:09,820
+it's starts to stretch by two frames
+
+153
+00:07:09,820 --> 00:07:13,430
+because the ball is falling
+faster than it is raising.
+
+154
+00:07:13,430 --> 00:07:17,404
+So making it stretching a
+little sooner does make sense.
+
+155
+00:07:17,404 --> 00:07:20,290
+Animating is not a linear art,
+
+156
+00:07:20,290 --> 00:07:23,360
+you will need to go back
+and forth a lot of time.
+
+157
+00:07:23,360 --> 00:07:25,910
+And while the animation
+gets more appealing,
+
+158
+00:07:25,910 --> 00:07:28,480
+I feel like there is
+something a little off
+
+159
+00:07:28,480 --> 00:07:31,550
+and since we've been
+offsetting a lot of curve,
+
+160
+00:07:31,550 --> 00:07:33,400
+the ball is starting to relax
+
+161
+00:07:33,400 --> 00:07:35,430
+while it hasn't left the ground.
+
+162
+00:07:35,430 --> 00:07:38,680
+Meaning that the ball should
+be in air on frame four.
+
+163
+00:07:38,680 --> 00:07:42,960
+So I just need to re-edit
+the curve for the Z location
+
+164
+00:07:42,960 --> 00:07:45,870
+and offset the stopping
+point by one frame.
+
+165
+00:07:45,870 --> 00:07:48,820
+And now when they play again my animation,
+
+166
+00:07:48,820 --> 00:07:51,320
+I feel like there is something a bit off
+
+167
+00:07:51,320 --> 00:07:52,620
+on the air squashing.
+
+168
+00:07:52,620 --> 00:07:56,440
+The ball slows and then
+it starts squashing.
+
+169
+00:07:56,440 --> 00:08:00,020
+And if we double check the
+spacing of the base of the ball,
+
+170
+00:08:00,020 --> 00:08:03,140
+we can see that as soon
+as it starts squashing,
+
+171
+00:08:03,140 --> 00:08:06,060
+the easing gets stronger
+and that's better.
+
+172
+00:08:06,060 --> 00:08:09,740
+The yellow arrows are getting
+smaller progressively,
+
+173
+00:08:09,740 --> 00:08:12,830
+while there is a big difference
+between the two red arrows.
+
+174
+00:08:12,830 --> 00:08:14,780
+So even if it's very subtle,
+
+175
+00:08:14,780 --> 00:08:17,440
+it makes the animation a bit weird.
+
+176
+00:08:17,440 --> 00:08:19,430
+So again I can fix this
+
+177
+00:08:19,430 --> 00:08:23,440
+by simply offsetting the
+squashing key frames,
+
+178
+00:08:23,440 --> 00:08:27,610
+the plateau we have created
+before just by one frame.
+
+179
+00:08:27,610 --> 00:08:29,780
+Making it happening a little sooner,
+
+180
+00:08:29,780 --> 00:08:33,253
+so that it will better
+blend while it's raising.
+
+181
+00:08:34,710 --> 00:08:37,760
+I guess you may ask
+yourself how do I get rid
+
+182
+00:08:37,760 --> 00:08:40,460
+of the grid of the motion path,
+
+183
+00:08:40,460 --> 00:08:41,910
+et cetera my fried issue.
+
+184
+00:08:41,910 --> 00:08:44,800
+It's by deactivating the overlay here.
+
+185
+00:08:44,800 --> 00:08:47,580
+And since this is something
+I do all the time,
+
+186
+00:08:47,580 --> 00:08:51,440
+what I did is that I set a
+shortcut onto the overlay.
+
+187
+00:08:51,440 --> 00:08:54,310
+You can assign the shortcut to any tool
+
+188
+00:08:54,310 --> 00:08:56,710
+or option in blender by simply
+
+189
+00:08:56,710 --> 00:09:00,610
+right clicking on it and
+selecting assign shortcuts.
+
+190
+00:09:00,610 --> 00:09:04,220
+I've personally used
+the shortcut power two
+
+191
+00:09:04,220 --> 00:09:09,040
+which is just upon the tab
+key on my French keyboard.
+
+192
+00:09:09,040 --> 00:09:11,590
+I'm pretty happy with this
+bouncing ball animation.
+
+193
+00:09:12,540 --> 00:09:15,280
+And in summary we have
+seen that curve editing
+
+194
+00:09:15,280 --> 00:09:18,100
+can dramatically change our animation.
+
+195
+00:09:18,100 --> 00:09:21,150
+Good blocking makes your
+animation a little better
+
+196
+00:09:21,150 --> 00:09:22,870
+when you switch to spline.
+
+197
+00:09:22,870 --> 00:09:26,330
+It's important not to be
+afraid to break the curve
+
+198
+00:09:26,330 --> 00:09:28,480
+using vector handles.
+
+199
+00:09:28,480 --> 00:09:31,230
+Offsetting the key by one frame
+
+200
+00:09:31,230 --> 00:09:34,340
+can really change your animation
+and make it look better
+
+201
+00:09:34,340 --> 00:09:35,173
+on its troy.
+
+202
+00:09:35,173 --> 00:09:37,753
+Don't forget that the
+devil is in the details.
+

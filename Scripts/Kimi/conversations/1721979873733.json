@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cqhl7qubi7s6md7mo650",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "作为探究的艺术--迈向艺术科学与技术的新合作/边界计划雕塑与公共艺术",
+            "fileID": "cqhl2q2j2gp1vg0tle8g",
+            "itemID": 2312,
+            "citation": "马尔哈·毕吉特. (2022). 作为探究的艺术—迈向艺术科学与技术的新合作/边界计划雕塑与公共艺术 (standard edition). 中国美术学院出版社.\n",
+            "citationShort": "马尔哈·毕吉特, 2022",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：提取所有本书涉及的艺术家并按照作者的逻辑对这些艺术家进行分类\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 作为探究的艺术--迈向艺术科学与技术的新合作/边界计划雕塑与公共艺术, was published on 2022. (It can be cite this paper as 马尔哈·毕吉特, 2022 on your answer). \n\n",
+    "response": "根据您提供的文件内容，以下是根据马尔哈·毕吉特在《作为探究的艺术：迈向艺术、科学与技术的新合作》一书中提及的艺术家，按照作者的逻辑进行的分类：\n\n### 艺术家分类\n\n#### 1. 跨学科合作的艺术家\n- **杰克·伯纳姆** (Jack Burnham)：组织了“艺术与技术项目”。\n- **克莱斯·劳森伯格** (Claes Oldenburg)：以其创新的公共艺术作品而知名。\n\n#### 2. 公共空间艺术与新媒介艺术的探索者\n- **汉斯·哈克** (Hans Haacke)：以其互动和参与性艺术作品探索社会与政治议题。\n- **罗伯特·史密森** (Robert Smithson)：大地艺术家，以其对环境的干预和场域特定艺术而著名。\n- **詹姆斯·特瑞尔** (James Turrell)：以其光与空间的探索而知名。\n- **罗伯特·欧文** (Robert Irwin)：以其对感知的探索和环境艺术作品而闻名。\n\n#### 3. 环境艺术与大地艺术的实践者\n- **艾伦·桑菲斯特** (Alan Sonfist)：以其自然主题的雕塑作品而知名。\n- **哈里森夫妇** (Harrison夫妇)：共同创作，关注环境与生态议题。\n\n#### 4. 技术与艺术结合的先驱\n- **白南准** (Nam June Paik)：以其在视频艺术和多媒体装置方面的贡献而知名。\n- **比尔·维奥拉** (Bill Viola)：视频艺术家，探索人类情感与精神主题。\n- **保罗·瑞安** (Paul Ryan)：以其结合技术与艺术的作品而知名。\n\n#### 5. 录像艺术与现象学的探索者\n- **瓦苏尔卡夫妇** (Vasulkas)：以其在录像艺术领域的实验性作品而知名。\n\n#### 6. 其他提及的艺术家\n- **艺术与技术项目**：一个涉及多位艺术家和技术专家的合作项目。\n\n### 引用格式\n在回答中，您可以按照以下格式引用上述文献：\n马尔哈·毕吉特 (2022) 提到了多位艺术家，他们通过跨学科合作，探索了艺术、科学与技术的新领域。\n\n请注意，这个分类是基于文件内容的理解和总结，可能并不完全反映作者在书中的所有分类细节。如果需要更详尽的分类或对特定艺术家的深入分析，建议直接查阅马尔哈·毕吉特 (2022) 的原著。",
+    "refs": [
+        "cqhl2q2j2gp1vg0tle8g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqhl7qugi3pp5dqru010",
+    "req_id": "cqhl7qugi3pp5dqru01g",
+    "resp_id": "cqhl7qugi3pp5dqru020",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：提取所有本书涉及的艺术家并按照作者的逻辑对这些艺术家进行分类"
+}

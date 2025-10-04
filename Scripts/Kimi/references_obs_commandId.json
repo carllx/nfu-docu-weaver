@@ -1,0 +1,1661 @@
+[
+    {
+        "id": "editor:save-file",
+        "name": "Save current file",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "S"
+            }
+        ]
+    },
+    {
+        "id": "workspace:toggle-pin",
+        "name": "Toggle pin",
+        "icon": "lucide-pin"
+    },
+    {
+        "id": "workspace:split-vertical",
+        "name": "Split right",
+        "icon": "lucide-separator-vertical"
+    },
+    {
+        "id": "workspace:split-horizontal",
+        "name": "Split down",
+        "icon": "lucide-separator-horizontal"
+    },
+    {
+        "id": "workspace:toggle-stacked-tabs",
+        "name": "Toggle stacked tabs",
+        "icon": "lucide-layers"
+    },
+    {
+        "id": "workspace:edit-file-title",
+        "name": "Rename file",
+        "icon": "lucide-edit-3",
+        "hotkeys": [
+            {
+                "modifiers": [],
+                "key": "F2"
+            }
+        ]
+    },
+    {
+        "id": "workspace:copy-path",
+        "name": "Copy file path",
+        "icon": "lucide-copy"
+    },
+    {
+        "id": "workspace:copy-url",
+        "name": "Copy Obsidian URL",
+        "icon": "lucide-copy"
+    },
+    {
+        "id": "workspace:undo-close-pane",
+        "name": "Undo close tab",
+        "icon": "lucide-undo-2",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod",
+                    "Shift"
+                ],
+                "key": "T"
+            }
+        ]
+    },
+    {
+        "id": "workspace:export-pdf",
+        "name": "Export to PDF..."
+    },
+    {
+        "id": "workspace:open-in-new-window",
+        "name": "Open current tab in new window",
+        "icon": "lucide-maximize"
+    },
+    {
+        "id": "workspace:move-to-new-window",
+        "name": "Move current tab to new window",
+        "icon": "lucide-maximize"
+    },
+    {
+        "id": "workspace:next-tab",
+        "name": "Go to next tab",
+        "icon": "lucide-arrow-right",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Ctrl"
+                ],
+                "key": "Tab"
+            },
+            {
+                "modifiers": [
+                    "Meta",
+                    "Shift"
+                ],
+                "key": "]"
+            }
+        ]
+    },
+    {
+        "id": "workspace:goto-tab-1",
+        "name": "Go to tab #1",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "1"
+            }
+        ]
+    },
+    {
+        "id": "workspace:goto-tab-2",
+        "name": "Go to tab #2",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "2"
+            }
+        ]
+    },
+    {
+        "id": "workspace:goto-tab-3",
+        "name": "Go to tab #3",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "3"
+            }
+        ]
+    },
+    {
+        "id": "workspace:goto-tab-4",
+        "name": "Go to tab #4",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "4"
+            }
+        ]
+    },
+    {
+        "id": "workspace:goto-tab-5",
+        "name": "Go to tab #5",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "5"
+            }
+        ]
+    },
+    {
+        "id": "workspace:goto-tab-6",
+        "name": "Go to tab #6",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "6"
+            }
+        ]
+    },
+    {
+        "id": "workspace:goto-last-tab",
+        "name": "Go to last tab",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "9"
+            }
+        ]
+    },
+    {
+        "id": "workspace:previous-tab",
+        "name": "Go to previous tab",
+        "icon": "lucide-arrow-left",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Ctrl",
+                    "Shift"
+                ],
+                "key": "Tab"
+            },
+            {
+                "modifiers": [
+                    "Meta",
+                    "Shift"
+                ],
+                "key": "["
+            }
+        ]
+    },
+    {
+        "id": "workspace:new-tab",
+        "name": "New tab",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "T"
+            }
+        ]
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-asciidoc",
+        "name": "Pandoc Plugin: Export as AsciiDoc (adoc)"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-docx",
+        "name": "Pandoc Plugin: Export as Word Document (docx)"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-markdown",
+        "name": "Pandoc Plugin: Export as Pandoc Markdown"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-html",
+        "name": "Pandoc Plugin: Export as HTML (without Pandoc)"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-latex",
+        "name": "Pandoc Plugin: Export as LaTeX"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-odt",
+        "name": "Pandoc Plugin: Export as OpenDocument (odt)"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-pptx",
+        "name": "Pandoc Plugin: Export as PowerPoint (pptx)"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-epub",
+        "name": "Pandoc Plugin: Export as ePub"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-pdf",
+        "name": "Pandoc Plugin: Export as PDF (via LaTeX)"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-revealjs",
+        "name": "Pandoc Plugin: Export as Reveal.js Slides"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-beamer",
+        "name": "Pandoc Plugin: Export as Beamer Slides"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-rst",
+        "name": "Pandoc Plugin: Export as reStructured Text (RST)"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-dokuwiki",
+        "name": "Pandoc Plugin: Export as DokuWiki"
+    },
+    {
+        "id": "obsidian-pandoc:pandoc-export-mediawiki",
+        "name": "Pandoc Plugin: Export as MediaWiki"
+    },
+    {
+        "id": "obsidian-citation-plugin:open-literature-note",
+        "name": "Citations: Open literature note",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Ctrl",
+                    "Shift"
+                ],
+                "key": "o"
+            }
+        ]
+    },
+    {
+        "id": "obsidian-citation-plugin:update-bib-data",
+        "name": "Citations: Refresh citation database",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Ctrl",
+                    "Shift"
+                ],
+                "key": "r"
+            }
+        ]
+    },
+    {
+        "id": "obsidian-citation-plugin:insert-citation",
+        "name": "Citations: Insert literature note link",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Ctrl",
+                    "Shift"
+                ],
+                "key": "e"
+            }
+        ]
+    },
+    {
+        "id": "obsidian-citation-plugin:insert-literature-note-content",
+        "name": "Citations: Insert literature note content in the current pane"
+    },
+    {
+        "id": "obsidian-citation-plugin:insert-markdown-citation",
+        "name": "Citations: Insert Markdown citation"
+    },
+    {
+        "id": "dataview:dataview-force-refresh-views",
+        "name": "Dataview: Force Refresh All Views and Blocks"
+    },
+    {
+        "id": "dataview:dataview-drop-cache",
+        "name": "Dataview: Drop All Cached File Metadata"
+    },
+    {
+        "id": "calendar:open-weekly-note",
+        "name": "Calendar: Open Weekly Note"
+    },
+    {
+        "id": "calendar:reveal-active-note",
+        "name": "Calendar: Reveal active note"
+    },
+    {
+        "id": "find-unlinked-files:find-unlinked-files",
+        "name": "Find orphaned files and broken links: Find orphaned files"
+    },
+    {
+        "id": "find-unlinked-files:find-unresolved-link",
+        "name": "Find orphaned files and broken links: Find broken links"
+    },
+    {
+        "id": "find-unlinked-files:delete-unlinked-files",
+        "name": "Find orphaned files and broken links: Delete orphaned files with certain extension. See README"
+    },
+    {
+        "id": "find-unlinked-files:create-files-of-broken-links",
+        "name": "Find orphaned files and broken links: Create files of broken links"
+    },
+    {
+        "id": "find-unlinked-files:find-files-without-tags",
+        "name": "Find orphaned files and broken links: Find files without tags"
+    },
+    {
+        "id": "find-unlinked-files:find-empty-files",
+        "name": "Find orphaned files and broken links: Find empty files"
+    },
+    {
+        "id": "find-unlinked-files:delete-empty-files",
+        "name": "Find orphaned files and broken links: Delete empty files"
+    },
+    {
+        "id": "zoteronotes:z-extended-notes",
+        "name": "zoteronotes: Z Extended Notes"
+    },
+    {
+        "id": "zoteronotes:download-from-Zotero",
+        "name": "zoteronotes: Z download from Zotero"
+    },
+    {
+        "id": "zoteronotes:upload-to-Zotero",
+        "name": "zoteronotes: Z update to Zotero"
+    },
+    {
+        "id": "obsidian-to-notion:share-to-notion",
+        "name": "Obsidian shared to Notion: share to notion"
+    },
+    {
+        "id": "open-vscode:open-vscode",
+        "name": "Open vault in VSCode: Open as Visual Studio Code workspace"
+    },
+    {
+        "id": "open-vscode:open-vscode-via-url",
+        "name": "Open vault in VSCode: Open as Visual Studio Code workspace using a vscode:// URL"
+    },
+    {
+        "id": "obsidian-weread-plugin:sync-weread-notes-command",
+        "name": "Weread Plugin: 同步微信读书笔记"
+    },
+    {
+        "id": "obsidian-weread-plugin:Force-sync-weread-notes-command",
+        "name": "Weread Plugin: 强制同步微信读书笔记"
+    },
+    {
+        "id": "obsidian-weread-plugin:open-weread-reading-view",
+        "name": "Weread Plugin: 在新窗口打开微信读书"
+    },
+    {
+        "id": "obsidian-git:edit-gitignore",
+        "name": "Obsidian Git: Edit .gitignore"
+    },
+    {
+        "id": "obsidian-git:open-git-view",
+        "name": "Obsidian Git: Open source control view"
+    },
+    {
+        "id": "obsidian-git:open-history-view",
+        "name": "Obsidian Git: Open history view"
+    },
+    {
+        "id": "obsidian-git:open-diff-view",
+        "name": "Obsidian Git: Open diff view"
+    },
+    {
+        "id": "obsidian-git:view-file-on-github",
+        "name": "Obsidian Git: Open file on GitHub"
+    },
+    {
+        "id": "obsidian-git:view-history-on-github",
+        "name": "Obsidian Git: Open file history on GitHub"
+    },
+    {
+        "id": "obsidian-git:pull",
+        "name": "Obsidian Git: Pull"
+    },
+    {
+        "id": "obsidian-git:fetch",
+        "name": "Obsidian Git: fetch"
+    },
+    {
+        "id": "obsidian-git:switch-to-remote-branch",
+        "name": "Obsidian Git: Switch to remote branch"
+    },
+    {
+        "id": "obsidian-git:add-to-gitignore",
+        "name": "Obsidian Git: Add file to gitignore"
+    },
+    {
+        "id": "obsidian-git:push",
+        "name": "Obsidian Git: Create backup"
+    },
+    {
+        "id": "obsidian-git:backup-and-close",
+        "name": "Obsidian Git: Create backup and close"
+    },
+    {
+        "id": "obsidian-git:commit-push-specified-message",
+        "name": "Obsidian Git: Create backup with specific message"
+    },
+    {
+        "id": "obsidian-git:commit",
+        "name": "Obsidian Git: Commit all changes"
+    },
+    {
+        "id": "obsidian-git:commit-specified-message",
+        "name": "Obsidian Git: Commit all changes with specific message"
+    },
+    {
+        "id": "obsidian-git:commit-staged",
+        "name": "Obsidian Git: Commit staged"
+    },
+    {
+        "id": "obsidian-git:commit-staged-specified-message",
+        "name": "Obsidian Git: Commit staged with specific message"
+    },
+    {
+        "id": "obsidian-git:push2",
+        "name": "Obsidian Git: Push"
+    },
+    {
+        "id": "obsidian-git:stage-current-file",
+        "name": "Obsidian Git: Stage current file"
+    },
+    {
+        "id": "obsidian-git:unstage-current-file",
+        "name": "Obsidian Git: Unstage current file"
+    },
+    {
+        "id": "obsidian-git:edit-remotes",
+        "name": "Obsidian Git: Edit remotes"
+    },
+    {
+        "id": "obsidian-git:remove-remote",
+        "name": "Obsidian Git: Remove remote"
+    },
+    {
+        "id": "obsidian-git:delete-repo",
+        "name": "Obsidian Git: CAUTION: Delete repository"
+    },
+    {
+        "id": "obsidian-git:init-repo",
+        "name": "Obsidian Git: Initialize a new repo"
+    },
+    {
+        "id": "obsidian-git:clone-repo",
+        "name": "Obsidian Git: Clone an existing remote repo"
+    },
+    {
+        "id": "obsidian-git:list-changed-files",
+        "name": "Obsidian Git: List changed files"
+    },
+    {
+        "id": "obsidian-git:switch-branch",
+        "name": "Obsidian Git: Switch branch"
+    },
+    {
+        "id": "obsidian-git:create-branch",
+        "name": "Obsidian Git: Create new branch"
+    },
+    {
+        "id": "obsidian-git:delete-branch",
+        "name": "Obsidian Git: Delete branch"
+    },
+    {
+        "id": "obsidian-git:discard-all",
+        "name": "Obsidian Git: CAUTION: Discard all changes"
+    },
+    {
+        "id": "obsidian-git:toggle-line-author-info",
+        "name": "Obsidian Git: Toggle line author information"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-publish-svg-check",
+        "name": "Excalidraw: Obsidian Publish: Find SVG and PNG exports that are out of date"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-disable-autosave",
+        "name": "Excalidraw: Disable autosave until next time Obsidian starts (only set this if you know what you are doing)"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-download-lib",
+        "name": "Excalidraw: Export stencil library as an *.excalidrawlib file"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-open",
+        "name": "Excalidraw: Open existing drawing - IN A NEW PANE"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-open-on-current",
+        "name": "Excalidraw: Open existing drawing - IN THE CURRENT ACTIVE PANE"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-insert-transclusion",
+        "name": "Excalidraw: Embed a drawing"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-autocreate",
+        "name": "Excalidraw: Create new drawing - IN AN ADJACENT WINDOW"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab",
+        "name": "Excalidraw: Create new drawing - IN A NEW TAB"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-on-current",
+        "name": "Excalidraw: Create new drawing - IN THE CURRENT ACTIVE WINDOW"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-popout",
+        "name": "Excalidraw: Create new drawing - IN A POPOUT WINDOW"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed",
+        "name": "Excalidraw: Create new drawing - IN AN ADJACENT WINDOW - and embed into active document"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
+        "name": "Excalidraw: Create new drawing - IN A NEW TAB - and embed into active document"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-on-current",
+        "name": "Excalidraw: Create new drawing - IN THE CURRENT ACTIVE WINDOW - and embed into active document"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout",
+        "name": "Excalidraw: Create new drawing - IN A POPOUT WINDOW - and embed into active document"
+    },
+    {
+        "id": "obsidian-tasks-plugin:edit-task",
+        "name": "Tasks: Create or edit task",
+        "icon": "pencil"
+    },
+    {
+        "id": "obsidian-tasks-plugin:toggle-done",
+        "name": "Tasks: Toggle task done",
+        "icon": "check-in-circle"
+    },
+    {
+        "id": "obsidian-zotero-desktop-connector:zdc-Format #1",
+        "name": "Zotero Integration: Format #1"
+    },
+    {
+        "id": "obsidian-zotero-desktop-connector:zdc-exp-Import #1",
+        "name": "Zotero Integration: Import #1"
+    },
+    {
+        "id": "obsidian-zotero-desktop-connector:zdc-insert-notes",
+        "name": "Zotero Integration: Insert notes into current document"
+    },
+    {
+        "id": "obsidian-zotero-desktop-connector:zdc-import-notes",
+        "name": "Zotero Integration: Import notes"
+    },
+    {
+        "id": "obsidian-zotero-desktop-connector:show-zotero-debug-view",
+        "name": "Zotero Integration: Data explorer"
+    },
+    {
+        "id": "obsidian-raindrop-highlights:raindrop-sync",
+        "name": "Raindrop Highlights: Sync highlights"
+    },
+    {
+        "id": "obsidian-raindrop-highlights:raindrop-show-last-sync-time",
+        "name": "Raindrop Highlights: Show last sync time"
+    },
+    {
+        "id": "obsidian-raindrop-highlights:raindrop-open-link",
+        "name": "Raindrop Highlights: Open link in Raindrop"
+    },
+    {
+        "id": "obsidian-raindrop-highlights:raindrop-manage-collection",
+        "name": "Raindrop Highlights: Manage collections to be synced"
+    },
+    {
+        "id": "obsidian-markmind:Create New MindMap",
+        "name": "obsidian markmind: Create new mindmap"
+    },
+    {
+        "id": "obsidian-markmind:Create New outline",
+        "name": "obsidian markmind: Create new outline"
+    },
+    {
+        "id": "obsidian-markmind:Generate mind maps by chatGTP",
+        "name": "obsidian markmind: Generate mind maps by chatGTP (outline)",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Generate mind maps by Q&A of chatGTP ",
+        "name": "obsidian markmind: Generate mind maps by chatGPT (Q&A)",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Toggle to markdown or mindmap",
+        "name": "obsidian markmind: Toggle markdown/mindmap mode",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Change basic to table mode",
+        "name": "obsidian markmind: Change basic mindmap to table mode"
+    },
+    {
+        "id": "obsidian-markmind:Change basic to outline mode",
+        "name": "obsidian markmind: Change basic to outline mode"
+    },
+    {
+        "id": "obsidian-markmind:Copy Node",
+        "name": "obsidian markmind: Copy"
+    },
+    {
+        "id": "obsidian-markmind:Paste Node",
+        "name": "obsidian markmind: Paste"
+    },
+    {
+        "id": "obsidian-markmind:Cover Node",
+        "name": "obsidian markmind: Cover node text"
+    },
+    {
+        "id": "obsidian-markmind:Cancel Cover Node",
+        "name": "obsidian markmind: Cancel cover node text"
+    },
+    {
+        "id": "obsidian-markmind:Change layout to mindmap",
+        "name": "obsidian markmind: Change layout to mindmap"
+    },
+    {
+        "id": "obsidian-markmind:Change layout to right",
+        "name": "obsidian markmind: Change layout to right"
+    },
+    {
+        "id": "obsidian-markmind:Change layout to left",
+        "name": "obsidian markmind: Change layout to left"
+    },
+    {
+        "id": "obsidian-markmind:Change layout to tree",
+        "name": "obsidian markmind: Change layout to tree"
+    },
+    {
+        "id": "obsidian-markmind:Change layout to fishRight",
+        "name": "obsidian markmind: Change layout to right fish"
+    },
+    {
+        "id": "obsidian-markmind:Change layout to fishLeft",
+        "name": "obsidian markmind: Change layout to left fish"
+    },
+    {
+        "id": "obsidian-markmind:Get vault path",
+        "name": "obsidian markmind: Get base path of vault",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Set pdf js plugin folder path",
+        "name": "obsidian markmind: Set up pdf js plugin path",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Change basic mode to rich mode",
+        "name": "obsidian markmind: Change basic mode to rich mode",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Change rich mode to basic mode",
+        "name": "obsidian markmind: Change rich mode to basic mode",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Export to html",
+        "name": "obsidian markmind: Export to html"
+    },
+    {
+        "id": "obsidian-markmind:Export mindmap to pdf",
+        "name": "obsidian markmind: Export mindmap as a pdf file"
+    },
+    {
+        "id": "obsidian-markmind:Export mindmap to pdf (old version)",
+        "name": "obsidian markmind: Export mindmap to pdf (v0.15.9)"
+    },
+    {
+        "id": "obsidian-markmind:Export mindmap to xmind zen",
+        "name": "obsidian markmind: Export mindmap to xmind zen file"
+    },
+    {
+        "id": "obsidian-markmind:Use new version of pdfjs",
+        "name": "obsidian markmind: Toggle to new version of pdfjs",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Use old version of pdfjs",
+        "name": "obsidian markmind: Toggle to old version of pdfjs",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Expand to node level 1",
+        "name": "obsidian markmind: Expand to first node level",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Expand to node level 2",
+        "name": "obsidian markmind: Expand to second node level",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Expand to node level 3",
+        "name": "obsidian markmind: Expand to third node level",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Expand to node level 4",
+        "name": "obsidian markmind: Expand to fourth node level",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Expand to node level 5",
+        "name": "obsidian markmind: Expand to fifth node level",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Expand to node level all",
+        "name": "obsidian markmind: Expand to all node level",
+        "mobileOnly": false
+    },
+    {
+        "id": "obsidian-markmind:Theme change",
+        "name": "obsidian markmind: Open change theme box"
+    },
+    {
+        "id": "obsidian-markmind:Close theme change",
+        "name": "obsidian markmind: Close change theme box"
+    },
+    {
+        "id": "obsidian-markmind:Copy node link",
+        "name": "obsidian markmind: Copy node link"
+    },
+    {
+        "id": "obsidian-markmind:Add child node",
+        "name": "obsidian markmind: Add child node"
+    },
+    {
+        "id": "obsidian-markmind:Add brother node",
+        "name": "obsidian markmind: Add brother node"
+    },
+    {
+        "id": "obsidian-markmind:Edit node",
+        "name": "obsidian markmind: Edit node"
+    },
+    {
+        "id": "obsidian-markmind:Cancel edit node",
+        "name": "obsidian markmind: Cancel edit node"
+    },
+    {
+        "id": "obsidian-markmind:Delete node",
+        "name": "obsidian markmind: Delete node"
+    },
+    {
+        "id": "obsidian-markmind:Undo",
+        "name": "obsidian markmind: Undo"
+    },
+    {
+        "id": "obsidian-markmind:Redo",
+        "name": "obsidian markmind: Redo"
+    },
+    {
+        "id": "metadata-menu:field_options",
+        "name": "Metadata Menu: Fields options",
+        "icon": "gear"
+    },
+    {
+        "id": "metadata-menu:insert_field_at_cursor",
+        "name": "Metadata Menu: Choose a field to insert at cursor",
+        "icon": "list-plus"
+    },
+    {
+        "id": "metadata-menu:field_at_cursor_options",
+        "name": "Metadata Menu: Manage field at cursor",
+        "icon": "text-cursor-input"
+    },
+    {
+        "id": "metadata-menu:insert_missing_fields",
+        "name": "Metadata Menu: Bulk insert missing fields",
+        "icon": "battery-full"
+    },
+    {
+        "id": "metadata-menu:open_fields_modal",
+        "name": "Metadata Menu: Open this note's fields modal",
+        "icon": "clipboard-list"
+    },
+    {
+        "id": "metadata-menu:update_file_lookups",
+        "name": "Metadata Menu: Update active file lookups fields",
+        "icon": "file-search"
+    },
+    {
+        "id": "metadata-menu:update_file_formulas",
+        "name": "Metadata Menu: Update active file formulas fields",
+        "icon": "function-square"
+    },
+    {
+        "id": "metadata-menu:open_fileclass_view",
+        "name": "Metadata Menu: Open fileClass view",
+        "icon": "package"
+    },
+    {
+        "id": "metadata-menu:add_fileclass_to_file",
+        "name": "Metadata Menu: Add fileClass to file",
+        "icon": "package-plus"
+    },
+    {
+        "id": "metadata-menu:update_all_lookups",
+        "name": "Metadata Menu: Update all lookups and formulas",
+        "icon": "file-search"
+    },
+    {
+        "name": "Commander: Open Commander Settings",
+        "id": "cmdr:open-commander-settings"
+    },
+    {
+        "id": "customjs:invokeScript",
+        "name": "CustomJS: Invoke Script"
+    },
+    {
+        "id": "customjs:invoke-obTranslate",
+        "name": "CustomJS: obTranslate"
+    },
+    {
+        "id": "customjs:invoke-GPT",
+        "name": "CustomJS: GPT"
+    },
+    {
+        "id": "customjs:invoke-ExportWordbyPandoc",
+        "name": "CustomJS: ExportWordbyPandoc"
+    },
+    {
+        "id": "obsidian-advanced-uri:copy-uri-current-file",
+        "name": "Advanced URI: copy URI for file with options"
+    },
+    {
+        "id": "obsidian-advanced-uri:copy-uri-current-file-simple",
+        "name": "Advanced URI: copy URI for current file"
+    },
+    {
+        "id": "obsidian-advanced-uri:copy-uri-daily",
+        "name": "Advanced URI: copy URI for daily note"
+    },
+    {
+        "id": "obsidian-advanced-uri:copy-uri-search-and-replace",
+        "name": "Advanced URI: copy URI for search and replace"
+    },
+    {
+        "id": "obsidian-advanced-uri:copy-uri-command",
+        "name": "Advanced URI: copy URI for command"
+    },
+    {
+        "id": "obsidian-advanced-uri:copy-uri-block",
+        "name": "Advanced URI: copy URI for current block"
+    },
+    {
+        "id": "obsidian-pandoc-reference-list:focus-reference-list-view",
+        "name": "Pandoc Reference List: Show reference list"
+    },
+    {
+        "id": "app:go-back",
+        "name": "Navigate back",
+        "icon": "lucide-arrow-left",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod",
+                    "Alt"
+                ],
+                "key": "ArrowLeft"
+            }
+        ]
+    },
+    {
+        "id": "app:go-forward",
+        "name": "Navigate forward",
+        "icon": "lucide-arrow-right",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod",
+                    "Alt"
+                ],
+                "key": "ArrowRight"
+            }
+        ]
+    },
+    {
+        "id": "app:open-vault",
+        "name": "Open another vault",
+        "icon": "vault"
+    },
+    {
+        "id": "theme:use-dark",
+        "name": "Use dark mode"
+    },
+    {
+        "id": "theme:use-light",
+        "name": "Use light mode"
+    },
+    {
+        "id": "theme:switch",
+        "name": "Change theme"
+    },
+    {
+        "id": "app:open-settings",
+        "name": "Open settings",
+        "icon": "lucide-wrench",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": ","
+            }
+        ]
+    },
+    {
+        "id": "app:show-release-notes",
+        "name": "Show release notes"
+    },
+    {
+        "id": "markdown:toggle-preview",
+        "name": "Toggle reading view",
+        "icon": "lucide-book-open",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "E"
+            }
+        ]
+    },
+    {
+        "id": "markdown:add-metadata-property",
+        "name": "Add file property",
+        "icon": "lucide-plus-circle",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": ";"
+            }
+        ]
+    },
+    {
+        "id": "markdown:clear-metadata-properties",
+        "name": "Clear file properties",
+        "icon": "lucide-package-x"
+    },
+    {
+        "id": "workspace:close",
+        "name": "Close current tab",
+        "icon": "lucide-x",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "W"
+            }
+        ]
+    },
+    {
+        "id": "workspace:close-window",
+        "name": "Close window",
+        "icon": "lucide-x",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod",
+                    "Shift"
+                ],
+                "key": "W"
+            }
+        ]
+    },
+    {
+        "id": "workspace:close-others",
+        "name": "Close all other tabs",
+        "icon": "lucide-x"
+    },
+    {
+        "id": "workspace:close-tab-group",
+        "name": "Close this tab group",
+        "icon": "lucide-x"
+    },
+    {
+        "id": "workspace:close-others-tab-group",
+        "name": "Close others in tab group",
+        "icon": "lucide-x"
+    },
+    {
+        "id": "app:delete-file",
+        "name": "Delete current file",
+        "icon": "lucide-trash-2"
+    },
+    {
+        "id": "app:toggle-left-sidebar",
+        "name": "Toggle left sidebar"
+    },
+    {
+        "id": "app:toggle-right-sidebar",
+        "name": "Toggle right sidebar"
+    },
+    {
+        "id": "app:toggle-default-new-pane-mode",
+        "name": "Toggle default mode for new tabs"
+    },
+    {
+        "id": "app:open-help",
+        "name": "Open help",
+        "icon": "question-mark-glyph",
+        "hotkeys": [
+            {
+                "modifiers": [],
+                "key": "F1"
+            }
+        ]
+    },
+    {
+        "id": "app:reload",
+        "name": "Reload app without saving",
+        "icon": "lucide-rotate-ccw"
+    },
+    {
+        "id": "app:show-debug-info",
+        "name": "Show debug info"
+    },
+    {
+        "id": "app:open-sandbox-vault",
+        "name": "Open sandbox vault"
+    },
+    {
+        "id": "window:zoom-in",
+        "name": "Zoom in"
+    },
+    {
+        "id": "window:zoom-out",
+        "name": "Zoom out"
+    },
+    {
+        "id": "window:reset-zoom",
+        "name": "Reset zoom"
+    },
+    {
+        "id": "file-explorer:new-file",
+        "name": "Create new note",
+        "icon": "lucide-file-plus",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "N"
+            }
+        ]
+    },
+    {
+        "id": "file-explorer:new-file-in-current-tab",
+        "name": "Create new note in current tab",
+        "icon": "lucide-file-plus"
+    },
+    {
+        "id": "file-explorer:new-file-in-new-pane",
+        "name": "Create note to the right",
+        "icon": "lucide-file-plus",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod",
+                    "Shift"
+                ],
+                "key": "N"
+            }
+        ]
+    },
+    {
+        "id": "open-with-default-app:open",
+        "name": "Open in default app",
+        "icon": "lucide-arrow-up-right"
+    },
+    {
+        "id": "file-explorer:move-file",
+        "name": "Move current file to another folder",
+        "icon": "lucide-folder-tree"
+    },
+    {
+        "id": "file-explorer:duplicate-file",
+        "name": "Make a copy of the current file",
+        "icon": "lucide-files"
+    },
+    {
+        "id": "open-with-default-app:show",
+        "name": "Reveal in Finder",
+        "icon": "lucide-files"
+    },
+    {
+        "id": "editor:toggle-source",
+        "name": "Toggle Live Preview/Source mode",
+        "icon": "lucide-code-2"
+    },
+    {
+        "id": "editor:open-search",
+        "name": "Search current file",
+        "icon": "lucide-search",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "F"
+            }
+        ]
+    },
+    {
+        "id": "editor:open-search-replace",
+        "name": "Search & replace in current file",
+        "icon": "lucide-search",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod",
+                    "Alt"
+                ],
+                "key": "F"
+            }
+        ]
+    },
+    {
+        "id": "editor:focus",
+        "name": "Focus on last note"
+    },
+    {
+        "id": "editor:toggle-fold-properties",
+        "name": "Toggle fold properties in current file",
+        "icon": "lucide-diff"
+    },
+    {
+        "id": "editor:fold-all",
+        "name": "Fold all headings and lists",
+        "icon": "lucide-minimize-2",
+        "allowPreview": true,
+        "allowProperties": true
+    },
+    {
+        "id": "editor:unfold-all",
+        "name": "Unfold all headings and lists",
+        "icon": "lucide-maximize-2",
+        "allowPreview": true,
+        "allowProperties": true
+    },
+    {
+        "id": "editor:fold-less",
+        "name": "Fold less",
+        "icon": "lucide-unfold-vertical"
+    },
+    {
+        "id": "editor:fold-more",
+        "name": "Fold more",
+        "icon": "lucide-fold-vertical"
+    },
+    {
+        "id": "editor:insert-wikilink",
+        "name": "Add internal link",
+        "icon": "bracket-glyph"
+    },
+    {
+        "id": "editor:insert-embed",
+        "name": "Add embed",
+        "icon": "lucide-sticky-note"
+    },
+    {
+        "id": "editor:insert-link",
+        "name": "Insert Markdown link",
+        "icon": "lucide-link",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "K"
+            }
+        ]
+    },
+    {
+        "id": "editor:insert-tag",
+        "name": "Add tag",
+        "icon": "lucide-tag"
+    },
+    {
+        "id": "editor:set-heading",
+        "name": "Toggle heading",
+        "icon": "heading-glyph"
+    },
+    {
+        "id": "editor:set-heading-0",
+        "name": "Remove heading",
+        "icon": "heading-glyph"
+    },
+    {
+        "id": "editor:set-heading-1",
+        "name": "Set as heading 1",
+        "icon": "heading-glyph"
+    },
+    {
+        "id": "editor:set-heading-2",
+        "name": "Set as heading 2",
+        "icon": "heading-glyph"
+    },
+    {
+        "id": "editor:set-heading-3",
+        "name": "Set as heading 3",
+        "icon": "heading-glyph"
+    },
+    {
+        "id": "editor:set-heading-4",
+        "name": "Set as heading 4",
+        "icon": "heading-glyph"
+    },
+    {
+        "id": "editor:set-heading-5",
+        "name": "Set as heading 5",
+        "icon": "heading-glyph"
+    },
+    {
+        "id": "editor:set-heading-6",
+        "name": "Set as heading 6",
+        "icon": "heading-glyph"
+    },
+    {
+        "id": "editor:toggle-bold",
+        "name": "Toggle bold",
+        "icon": "lucide-bold",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "B"
+            }
+        ]
+    },
+    {
+        "id": "editor:toggle-italics",
+        "name": "Toggle italic",
+        "icon": "lucide-italic",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "I"
+            }
+        ]
+    },
+    {
+        "id": "editor:toggle-strikethrough",
+        "name": "Toggle strikethrough",
+        "icon": "lucide-strikethrough"
+    },
+    {
+        "id": "editor:toggle-highlight",
+        "name": "Toggle highlight",
+        "icon": "lucide-highlighter"
+    },
+    {
+        "id": "editor:toggle-code",
+        "name": "Toggle code",
+        "icon": "lucide-code-2"
+    },
+    {
+        "id": "editor:toggle-inline-math",
+        "name": "Toggle inline math",
+        "icon": "lucide-sigma"
+    },
+    {
+        "id": "editor:toggle-blockquote",
+        "name": "Toggle blockquote",
+        "icon": "lucide-quote"
+    },
+    {
+        "id": "editor:toggle-comments",
+        "name": "Toggle comment",
+        "icon": "lucide-percent",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "/"
+            }
+        ]
+    },
+    {
+        "id": "editor:toggle-bullet-list",
+        "name": "Toggle bullet list",
+        "icon": "lucide-list"
+    },
+    {
+        "id": "editor:toggle-numbered-list",
+        "name": "Toggle numbered list",
+        "icon": "lucide-list-ordered"
+    },
+    {
+        "id": "editor:toggle-checklist-status",
+        "name": "Toggle checkbox status",
+        "icon": "lucide-check-square",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "l"
+            }
+        ]
+    },
+    {
+        "id": "editor:cycle-list-checklist",
+        "name": "Cycle bullet/checkbox",
+        "icon": "lucide-check-square"
+    },
+    {
+        "id": "editor:insert-callout",
+        "name": "Insert callout",
+        "icon": "lucide-quote"
+    },
+    {
+        "id": "editor:insert-codeblock",
+        "name": "Insert code block",
+        "icon": "lucide-code"
+    },
+    {
+        "id": "editor:insert-horizontal-rule",
+        "name": "Insert horizontal rule",
+        "icon": "lucide-minus"
+    },
+    {
+        "id": "editor:insert-mathblock",
+        "name": "Insert math block",
+        "icon": "lucide-sigma-square"
+    },
+    {
+        "id": "editor:insert-table",
+        "name": "Insert table",
+        "icon": "lucide-table"
+    },
+    {
+        "id": "editor:swap-line-up",
+        "name": "Move line up",
+        "icon": "lucide-corner-right-up",
+        "repeatable": true
+    },
+    {
+        "id": "editor:swap-line-down",
+        "name": "Move line down",
+        "icon": "lucide-corner-right-down",
+        "repeatable": true
+    },
+    {
+        "id": "editor:attach-file",
+        "name": "Insert attachment",
+        "icon": "lucide-paperclip"
+    },
+    {
+        "id": "editor:delete-paragraph",
+        "name": "Delete paragraph",
+        "icon": "lucide-scissors",
+        "repeatable": true,
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "D"
+            }
+        ]
+    },
+    {
+        "id": "editor:add-cursor-below",
+        "name": "Add cursor below",
+        "icon": "lucide-mouse-pointer-click",
+        "repeatable": true
+    },
+    {
+        "id": "editor:add-cursor-above",
+        "name": "Add cursor above",
+        "icon": "lucide-mouse-pointer-click",
+        "repeatable": true
+    },
+    {
+        "id": "editor:toggle-spellcheck",
+        "name": "Toggle spellcheck"
+    },
+    {
+        "id": "editor:context-menu",
+        "name": "Show context menu under cursor",
+        "icon": "lucide-menu"
+    },
+    {
+        "id": "file-explorer:open",
+        "name": "Files: Show file explorer",
+        "icon": "lucide-files"
+    },
+    {
+        "id": "file-explorer:reveal-active-file",
+        "name": "Files: Reveal current file in navigation",
+        "icon": "lucide-navigation"
+    },
+    {
+        "id": "global-search:open",
+        "name": "Search: Search in all files",
+        "icon": "lucide-search",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod",
+                    "Shift"
+                ],
+                "key": "F"
+            }
+        ]
+    },
+    {
+        "id": "switcher:open",
+        "name": "Quick switcher: Open quick switcher",
+        "icon": "lucide-navigation",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "O"
+            }
+        ]
+    },
+    {
+        "id": "graph:open",
+        "name": "Graph view: Open graph view",
+        "icon": "lucide-git-fork",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "G"
+            }
+        ]
+    },
+    {
+        "id": "graph:open-local",
+        "name": "Graph view: Open local graph",
+        "icon": "lucide-git-fork"
+    },
+    {
+        "id": "backlink:open",
+        "name": "Backlinks: Show backlinks",
+        "icon": "lucide-link"
+    },
+    {
+        "id": "backlink:open-backlinks",
+        "name": "Backlinks: Open backlinks for the current note",
+        "icon": "lucide-link"
+    },
+    {
+        "id": "backlink:toggle-backlinks-in-document",
+        "name": "Backlinks: Toggle backlinks in document",
+        "icon": "lucide-link"
+    },
+    {
+        "id": "canvas:new-file",
+        "name": "Canvas: Create new canvas",
+        "icon": "lucide-layout-dashboard"
+    },
+    {
+        "id": "outgoing-links:open",
+        "name": "Outgoing links: Show outgoing links",
+        "icon": "lucide-link"
+    },
+    {
+        "id": "outgoing-links:open-for-current",
+        "name": "Outgoing links: Open outgoing links for the current file",
+        "icon": "lucide-link"
+    },
+    {
+        "id": "tag-pane:open",
+        "name": "Tags view: Show tags",
+        "icon": "lucide-tag"
+    },
+    {
+        "id": "properties:open",
+        "name": "Properties view: Show all properties",
+        "icon": "lucide-archive"
+    },
+    {
+        "id": "properties:open-local",
+        "name": "Properties view: Show file properties",
+        "icon": "lucide-info"
+    },
+    {
+        "id": "insert-template",
+        "name": "Templates: Insert template",
+        "icon": "lucide-copy"
+    },
+    {
+        "id": "insert-current-date",
+        "name": "Templates: Insert current date",
+        "icon": "lucide-calendar-days"
+    },
+    {
+        "id": "insert-current-time",
+        "name": "Templates: Insert current time",
+        "icon": "lucide-clock"
+    },
+    {
+        "id": "note-composer:merge-file",
+        "name": "Note composer: Merge current file with another file...",
+        "icon": "lucide-git-merge"
+    },
+    {
+        "id": "command-palette:open",
+        "name": "Command palette: Open command palette",
+        "icon": "lucide-terminal-square",
+        "hotkeys": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "P"
+            }
+        ],
+        "showOnMobileToolbar": true
+    },
+    {
+        "id": "bookmarks:open",
+        "name": "Bookmarks: Show bookmarks",
+        "icon": "lucide-bookmark"
+    },
+    {
+        "id": "bookmarks:bookmark-current-view",
+        "name": "Bookmarks: Bookmark...",
+        "icon": "lucide-bookmark-plus"
+    },
+    {
+        "id": "bookmarks:bookmark-current-search",
+        "name": "Bookmarks: Bookmark current search...",
+        "icon": "lucide-search"
+    },
+    {
+        "id": "bookmarks:bookmark-current-section",
+        "name": "Bookmarks: Bookmark block under cursor...",
+        "icon": "lucide-bookmark-plus"
+    },
+    {
+        "id": "bookmarks:bookmark-current-heading",
+        "name": "Bookmarks: Bookmark heading under cursor...",
+        "icon": "lucide-bookmark-plus"
+    },
+    {
+        "id": "bookmarks:bookmark-all-tabs",
+        "name": "Bookmarks: Bookmark all tabs...",
+        "icon": "lucide-bookmark-plus"
+    },
+    {
+        "id": "markdown-importer:open",
+        "name": "Format converter: Open format converter",
+        "icon": "lucide-download"
+    },
+    {
+        "id": "outline:open",
+        "name": "Outline: Show outline",
+        "icon": "lucide-list"
+    },
+    {
+        "id": "outline:open-for-current",
+        "name": "Outline: Open outline of the current file",
+        "icon": "lucide-list"
+    },
+    {
+        "id": "slides:start",
+        "name": "Slides: Start presentation",
+        "icon": "lucide-monitor"
+    },
+    {
+        "id": "file-recovery:open",
+        "name": "File recovery: Open saved snapshots",
+        "icon": "lucide-rotate-ccw"
+    },
+    {
+        "id": "obsidian-admonition:collapse-admonitions",
+        "name": "Admonition: Collapse Admonitions in Note"
+    },
+    {
+        "id": "obsidian-admonition:open-admonitions",
+        "name": "Admonition: Open Admonitions in Note"
+    },
+    {
+        "id": "obsidian-admonition:insert-admonition",
+        "name": "Admonition: Insert Admonition"
+    },
+    {
+        "id": "obsidian-admonition:insert-callout",
+        "name": "Admonition: Insert Callout"
+    }
+]

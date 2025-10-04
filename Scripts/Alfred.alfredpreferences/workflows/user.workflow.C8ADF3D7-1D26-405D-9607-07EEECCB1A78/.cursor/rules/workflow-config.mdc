@@ -1,0 +1,197 @@
+---
+description: Alfred workflow configuration and info.plist standards
+---
+
+# Alfred Workflow Configuration Standards
+
+## info.plist Structure
+The [info.plist](mdc:info.plist) file is the core configuration for Alfred workflows.
+
+### Essential Properties
+```xml
+<key>bundleid</key>
+<string>com.username.workflowname</string>
+
+<key>name</key>
+<string>Workflow Display Name</string>
+
+<key>description</key>
+<string>Brief description of workflow functionality</string>
+
+<key>version</key>
+<string>1.0.0</string>
+
+<key>createdby</key>
+<string>Author Name</string>
+```
+
+### Workflow Variables
+```xml
+<key>variables</key>
+<dict>
+    <key>alfred_workflow_directory</key>
+    <string>/path/to/workflow</string>
+    <key>custom_variable</key>
+    <string>custom_value</string>
+</dict>
+```
+
+## Object Configuration Patterns
+
+### Keyword Input
+```xml
+<dict>
+    <key>config</key>
+    <dict>
+        <key>argumenttype</key>
+        <integer>2</integer>  <!-- 0=required, 1=optional, 2=no argument -->
+        <key>keyword</key>
+        <string>keyword_trigger</string>
+        <key>subtext</key>
+        <string>Description shown below keyword</string>
+        <key>text</key>
+        <string>Main title text</string>
+        <key>withspace</key>
+        <false/>  <!-- Whether space is required after keyword -->
+    </dict>
+    <key>type</key>
+    <string>alfred.workflow.input.keyword</string>
+    <key>uid</key>
+    <string>UNIQUE-UUID-HERE</string>
+</dict>
+```
+
+### Script Action
+```xml
+<dict>
+    <key>config</key>
+    <dict>
+        <key>concurrently</key>
+        <false/>  <!-- Run concurrently with other actions -->
+        <key>escaping</key>
+        <integer>102</integer>  <!-- Escaping type -->
+        <key>script</key>
+        <string>cd "${alfred_workflow_directory}" && ./script.sh</string>
+        <key>scriptargtype</key>
+        <integer>1</integer>  <!-- Argument type -->
+        <key>type</key>
+        <integer>0</integer>  <!-- Script type: 0=bash -->
+    </dict>
+    <key>type</key>
+    <string>alfred.workflow.action.script</string>
+    <key>uid</key>
+    <string>UNIQUE-UUID-HERE</string>
+</dict>
+```
+
+### Copy to Clipboard Output
+```xml
+<dict>
+    <key>config</key>
+    <dict>
+        <key>autopaste</key>
+        <false/>  <!-- Automatically paste after copying -->
+        <key>clipboardtext</key>
+        <string>{query}</string>  <!-- Text to copy -->
+        <key>transient</key>
+        <false/>  <!-- Whether to keep in clipboard history -->
+    </dict>
+    <key>type</key>
+    <string>alfred.workflow.output.clipboard</string>
+    <key>uid</key>
+    <string>UNIQUE-UUID-HERE</string>
+</dict>
+```
+
+## Connection Configuration
+```xml
+<key>connections</key>
+<dict>
+    <key>SOURCE-UUID</key>
+    <array>
+        <dict>
+            <key>destinationuid</key>
+            <string>DESTINATION-UUID</string>
+            <key>modifiers</key>
+            <integer>0</integer>  <!-- Modifier keys -->
+            <key>modifiersubtext</key>
+            <string></string>
+            <key>vitoclose</key>
+            <false/>  <!-- Keep Alfred open -->
+        </dict>
+    </array>
+</dict>
+```
+
+## UI Data (Object Positioning)
+```xml
+<key>uidata</key>
+<dict>
+    <key>OBJECT-UUID</key>
+    <dict>
+        <key>xpos</key>
+        <real>100</real>
+        <key>ypos</key>
+        <real>200</real>
+        <key>note</key>
+        <string>Optional note for object</string>
+    </dict>
+</dict>
+```
+
+## Script Types Reference
+- `0` - bash/shell script
+- `1` - zsh script  
+- `2` - fish script
+- `3` - AppleScript
+- `4` - Python
+- `5` - Ruby
+- `6` - Perl
+- `7` - PHP
+- `8` - Swift
+- `9` - Python (alternative)
+
+## Escaping Types
+- `0` - No escaping
+- `36` - Backquotes
+- `68` - Double quotes
+- `100` - Single quotes
+- `102` - Mixed escaping (recommended for most scripts)
+
+## Argument Types
+- `0` - No argument
+- `1` - Argument required
+- `2` - Argument optional
+
+## Best Practices
+
+### UUID Generation
+- Use consistent UUID format: `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`
+- Generate unique UUIDs for each object
+- Keep UUIDs consistent across workflow versions
+
+### Script Paths
+- Always use `cd "${alfred_workflow_directory}"` before relative paths
+- Use `./` prefix for executable scripts: `./script.sh`
+- Escape special characters in paths
+
+### Variable Usage
+- Use `{query}` for user input
+- Use `{var:variable_name}` for workflow variables
+- Reference environment variables: `${alfred_workflow_directory}`
+
+### Error Handling
+- Configure appropriate escaping for script content
+- Handle missing dependencies gracefully
+- Provide meaningful error messages
+
+### Performance
+- Set `concurrently` to `true` for independent actions
+- Use appropriate script types for performance
+- Minimize heavy operations in frequently-used workflows
+
+### Workflow Distribution
+- Include all necessary files in workflow bundle
+- Test on clean systems without dependencies
+- Document installation requirements
+- Use relative paths for portability

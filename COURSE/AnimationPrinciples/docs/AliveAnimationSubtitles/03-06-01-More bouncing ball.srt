@@ -1,0 +1,282 @@
+﻿1
+00:00:00,960 --> 00:00:01,870
+- [Instructor] This is video
+
+2
+00:00:01,870 --> 00:00:05,560
+is an exercise video or assignment video.
+
+3
+00:00:05,560 --> 00:00:09,300
+I invite you to create two new animation
+
+4
+00:00:09,300 --> 00:00:13,660
+using the bouncing ball
+and this parkour object.
+
+5
+00:00:13,660 --> 00:00:17,100
+The idea is to launch the
+bouncing ball onto the surface.
+
+6
+00:00:17,100 --> 00:00:19,840
+I've made two version of the animation,
+
+7
+00:00:19,840 --> 00:00:23,000
+one with a very heavy bouncing ball,
+
+8
+00:00:23,000 --> 00:00:24,220
+like a bowling ball
+
+9
+00:00:24,220 --> 00:00:26,190
+that will strike the surface
+
+10
+00:00:26,190 --> 00:00:29,540
+and almost stop and then will be rolling.
+
+11
+00:00:29,540 --> 00:00:30,860
+And the second animation
+
+12
+00:00:30,860 --> 00:00:34,810
+with a more squashy
+and light bouncing ball
+
+13
+00:00:34,810 --> 00:00:36,970
+that will just bounce until it stops.
+
+14
+00:00:36,970 --> 00:00:38,870
+You can find those two animation
+
+15
+00:00:38,870 --> 00:00:40,670
+in the action library.
+
+16
+00:00:40,670 --> 00:00:44,080
+I will explain you right
+now the key component
+
+17
+00:00:44,080 --> 00:00:45,720
+of those animation
+
+18
+00:00:45,720 --> 00:00:48,150
+and the next video will be a time lapse
+
+19
+00:00:48,150 --> 00:00:51,350
+of me creating those two animations.
+
+20
+00:00:51,350 --> 00:00:53,720
+It's exactly the same workflow
+
+21
+00:00:53,720 --> 00:00:55,710
+as on the previous animation.
+
+22
+00:00:55,710 --> 00:00:57,580
+And I will just double the speed
+
+23
+00:00:57,580 --> 00:01:00,920
+of the video so that
+you can use VLC Player,
+
+24
+00:01:00,920 --> 00:01:03,700
+for example, to slow down the video
+
+25
+00:01:03,700 --> 00:01:07,500
+by 50% and get it real time if you need.
+
+26
+00:01:07,500 --> 00:01:10,224
+On the squashy bouncing ball animation,
+
+27
+00:01:10,224 --> 00:01:13,630
+instead of moving the screen controller
+
+28
+00:01:13,630 --> 00:01:15,930
+to give an orientation to the ball,
+
+29
+00:01:15,930 --> 00:01:18,575
+you can also rotate its root controller
+
+30
+00:01:18,575 --> 00:01:21,987
+and use the squash and
+stretch controller only
+
+31
+00:01:21,987 --> 00:01:24,910
+to squash and stretch the ball currently.
+
+32
+00:01:24,910 --> 00:01:27,310
+So only on their z-axis.
+
+33
+00:01:27,310 --> 00:01:29,720
+The thing you will have to check out
+
+34
+00:01:29,720 --> 00:01:32,350
+during your polishing is the amplitude
+
+35
+00:01:32,350 --> 00:01:34,770
+of the squash and stretch curve.
+
+36
+00:01:34,770 --> 00:01:36,400
+As you go down the parkour,
+
+37
+00:01:36,400 --> 00:01:38,180
+the ball will lose energy
+
+38
+00:01:38,180 --> 00:01:41,780
+and so the squash and
+stretch will get more subtle
+
+39
+00:01:41,780 --> 00:01:45,960
+and more subtle as you reach
+the end of the animation.
+
+40
+00:01:45,960 --> 00:01:49,220
+So your curve must lose amplitude.
+
+41
+00:01:49,220 --> 00:01:51,931
+For the heavy ball animation,
+
+42
+00:01:51,931 --> 00:01:55,230
+I haven't used squash and stretch at all.
+
+43
+00:01:55,230 --> 00:01:57,240
+To make the ball feels heavy,
+
+44
+00:01:57,240 --> 00:02:00,000
+I've used very subtle bouncing
+
+45
+00:02:00,000 --> 00:02:01,910
+and very short bouncing.
+
+46
+00:02:01,910 --> 00:02:05,870
+The key point here is to
+remove the squash and stretch
+
+47
+00:02:05,870 --> 00:02:08,040
+or make it very subtle
+
+48
+00:02:08,040 --> 00:02:09,870
+and make the bounce very small
+
+49
+00:02:09,870 --> 00:02:13,420
+and you will get this feel
+of weight in the ball.
+
+50
+00:02:13,420 --> 00:02:15,410
+The second very important thing
+
+51
+00:02:15,410 --> 00:02:19,690
+to watch out on this animation
+is the spacing of the ball.
+
+52
+00:02:19,690 --> 00:02:21,490
+It gets bigger and bigger
+
+53
+00:02:21,490 --> 00:02:24,570
+as the ball is falling
+toward the first surface.
+
+54
+00:02:24,570 --> 00:02:27,900
+Due to its weight, the ball almost stop
+
+55
+00:02:27,900 --> 00:02:30,160
+when it hits the surface
+
+56
+00:02:30,160 --> 00:02:33,020
+as we are close to 90-degree angle
+
+57
+00:02:33,020 --> 00:02:36,930
+and then the ball is accelerating
+until it touch the ground
+
+58
+00:02:36,930 --> 00:02:39,960
+and then it will slowly lose speed
+
+59
+00:02:39,960 --> 00:02:44,400
+as soon as the animation
+go ahead until it stops.
+
+60
+00:02:44,400 --> 00:02:47,220
+The longer time it takes to stop,
+
+61
+00:02:47,220 --> 00:02:49,170
+the heavier it will feel.
+
+62
+00:02:49,170 --> 00:02:51,770
+You now have all the instruction
+
+63
+00:02:51,770 --> 00:02:53,520
+to create those animation.
+
+64
+00:02:53,520 --> 00:02:55,710
+The next video is the time lapse
+
+65
+00:02:55,710 --> 00:02:58,140
+of me creating those two animations
+
+66
+00:02:58,140 --> 00:03:00,010
+and then we will start working
+
+67
+00:03:00,010 --> 00:03:02,983
+on our first character animation.
+

@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cr1d20pivtd5ft6sdkvg",
+    "attachments": [
+        {
+            "date": 2012,
+            "title": "超越聲音藝術: 前衛主義、聲音機器、聽覺現代性",
+            "fileID": "cqdu4v2vk6g7cnumt45g",
+            "itemID": 3315,
+            "citation": "林其蔚. (2012). 超越聲音藝術: 前衛主義、聲音機器、聽覺現代性. 藝術家出版社.\n",
+            "citationShort": "林其蔚, 2012",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：介绍 John Cage 的主动听觉\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 超越聲音藝術: 前衛主義、聲音機器、聽覺現代性, was published on 2012. (It can be cite this paper as 林其蔚, 2012 on your answer). \n\n",
+    "response": "关于John Cage的主动听觉理论，我们可以从林其蔚所著的《超越声音艺术：前卫主义、声音机器、听觉现代性》一书中提取相关信息。在书中，John Cage的主动听觉是一种对声音的全新认识和探索方式，其核心思想是将所有声音都视为音乐的一部分，从而拓宽了传统音乐的界限。\n\nJohn Cage提出，我们应该以一种开放的态度去聆听周围环境中的一切声音，无论是自然声响还是人造噪声。他鼓励人们认识到声音本身并无高低贵贱之分，每一种声音都有其独特的价值和美感。Cage的这种思想挑战了传统音乐中对和谐与不和谐、乐音与噪音的划分，提倡一种更为包容和开放的声音观念。\n\n在《超越声音艺术》一书中，作者林其蔚提到了John Cage的一些具体实践，例如他在作品《4'33\"》中，通过在舞台上静坐四分三十三秒，不进行任何演奏，让听众意识到并聆听到环境中的自然声音。这一行为艺术作品展示了Cage关于主动听觉的理念，即音乐不仅限于传统乐器演奏出的旋律和节奏，而是可以包括任何声音的存在。\n\n此外，Cage还通过使用各种非传统乐器和声音制作手段，如预制钢琴（prepared piano），以及其他各种日常物品作为声音来源，进一步扩展了音乐的表现力和可能性。他的这些实验和探索，不仅对音乐领域产生了深远影响，也为后来的声音艺术和声音装置创作提供了灵感和方法。\n\n总的来说，John Cage的主动听觉理论为我们提供了一种重新认识和评价声音的视角，鼓励我们超越传统的审美观念，去发现和欣赏周围环境中的声音美学。通过这种理念，我们可以更加开放地探索声音艺术的各种可能性，从而丰富我们的听觉体验和艺术表达。",
+    "refs": [
+        "cqdu4v2vk6g7cnumt45g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cr1d20pmqu0bbl0ahdh0",
+    "req_id": "cr1d20pmqu0bbl0ahdi0",
+    "resp_id": "cr1d20pmqu0bbl0ahdig",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：介绍 John Cage 的主动听觉"
+}

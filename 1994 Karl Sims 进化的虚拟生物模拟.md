@@ -1,0 +1,3 @@
+Or in another case, the entire creation is driven by people who are engineers by profession, such as the simulated creatures produced by engineer and visual effects developer Karl Sims, which are exhibited as works of art while winning the Prix Ars Electronica media art award in
+或者在另一种情况下，整个创作是由专业工程师驱动的，例如工程师和视觉效果开发人员 Karl Sims 制作的模拟生物，在获得 Prix Ars Electronica 媒体艺术奖的同时作为艺术品1991 年和 1992 年展出
+[youtube 1994 Karl Sims 进化的虚拟生物模拟，](https://www.youtube.com/watch?v=JBgG_VSP7f8) [[Artificial life - ALife  人工生命 人造生命]]

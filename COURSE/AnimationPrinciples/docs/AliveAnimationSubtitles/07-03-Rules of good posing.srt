@@ -1,0 +1,891 @@
+﻿1
+00:00:00,380 --> 00:00:03,730
+- Since animation is a sequence of poses.
+
+2
+00:00:03,730 --> 00:00:07,360
+Creating good poses is a must have skill.
+
+3
+00:00:07,360 --> 00:00:10,880
+So let's study the different
+features that make a oppose
+
+4
+00:00:10,880 --> 00:00:12,040
+a good pose.
+
+5
+00:00:12,040 --> 00:00:15,450
+In the previous video, we
+have seen the line of action.
+
+6
+00:00:15,450 --> 00:00:19,760
+So clearly it's super important
+that your line of action
+
+7
+00:00:19,760 --> 00:00:23,220
+are clearly defined on all your poses.
+
+8
+00:00:23,220 --> 00:00:26,000
+It will help to read your poses.
+
+9
+00:00:26,000 --> 00:00:29,930
+It will help to read the
+flow of your animation.
+
+10
+00:00:29,930 --> 00:00:34,100
+So this is definitely the first
+thing you have to look after
+
+11
+00:00:34,100 --> 00:00:35,870
+when building your pose.
+
+12
+00:00:35,870 --> 00:00:38,760
+Senior, or the evolution
+of the line of action
+
+13
+00:00:38,760 --> 00:00:42,210
+clearly communicates
+the flow of the motion
+
+14
+00:00:42,210 --> 00:00:43,043
+and the emotion.
+
+15
+00:00:44,180 --> 00:00:47,220
+Second thing you have
+to look for, is balance.
+
+16
+00:00:47,220 --> 00:00:50,690
+Characters that look off
+balance will look weird
+
+17
+00:00:50,690 --> 00:00:52,830
+even to a non-animator.
+
+18
+00:00:52,830 --> 00:00:56,190
+You as an animator should know how to fix
+
+19
+00:00:56,190 --> 00:00:59,840
+enough balance pose or
+enough balance character
+
+20
+00:00:59,840 --> 00:01:01,270
+or a static pose.
+
+21
+00:01:01,270 --> 00:01:04,150
+A good technique is to draw a box
+
+22
+00:01:04,150 --> 00:01:07,040
+around the main feature of the body.
+
+23
+00:01:07,040 --> 00:01:09,280
+The ones that wait the more.
+
+24
+00:01:09,280 --> 00:01:12,910
+Since the main goal of
+balance is to fight gravity,
+
+25
+00:01:12,910 --> 00:01:16,730
+draw a straight vertical line
+in the middle of this box.
+
+26
+00:01:16,730 --> 00:01:19,880
+This line should basically come across
+
+27
+00:01:19,880 --> 00:01:21,510
+your center of gravity.
+
+28
+00:01:21,510 --> 00:01:26,510
+If you don't have at least one
+contact point or better two
+
+29
+00:01:26,540 --> 00:01:29,470
+or three contact point under this line,
+
+30
+00:01:29,470 --> 00:01:32,240
+your character will look off balance.
+
+31
+00:01:32,240 --> 00:01:35,870
+In the case of three
+contact point or more,
+
+32
+00:01:35,870 --> 00:01:39,180
+the center of gravity, just has to be bind
+
+33
+00:01:39,180 --> 00:01:43,600
+to the triangle shape formed
+by those contact points.
+
+34
+00:01:43,600 --> 00:01:47,820
+When you have only two points
+of contact with the ground,
+
+35
+00:01:47,820 --> 00:01:51,690
+the center of gravity
+should come across the line
+
+36
+00:01:51,690 --> 00:01:54,480
+drawn by those two contact points.
+
+37
+00:01:54,480 --> 00:01:57,250
+Finally, when you have
+only one contact point
+
+38
+00:01:57,250 --> 00:02:00,220
+with the ground, your center of gravity
+
+39
+00:02:00,220 --> 00:02:03,910
+must be vertically aligned
+with this contact point.
+
+40
+00:02:03,910 --> 00:02:07,600
+Note that your center of
+gravity is not always centered
+
+41
+00:02:07,600 --> 00:02:09,030
+around your hips.
+
+42
+00:02:09,030 --> 00:02:12,150
+You have to take in account
+the weight of your legs,
+
+43
+00:02:12,150 --> 00:02:15,750
+of your arms whenever you're
+trying to balance yourself
+
+44
+00:02:15,750 --> 00:02:18,030
+by spreading your arms on the side
+
+45
+00:02:18,030 --> 00:02:21,123
+or whatever piece of
+equipment you are wearing.
+
+46
+00:02:22,540 --> 00:02:25,450
+The next important thing
+whenever you are building
+
+47
+00:02:25,450 --> 00:02:27,640
+a strong pose is silhouette.
+
+48
+00:02:27,640 --> 00:02:31,560
+It's the main feature
+that's gonna be identifiable
+
+49
+00:02:31,560 --> 00:02:33,560
+on your character pose.
+
+50
+00:02:33,560 --> 00:02:37,490
+While the inner shapes of your
+character might need other
+
+51
+00:02:37,490 --> 00:02:41,400
+to notice or to identify like
+the head of the character
+
+52
+00:02:41,400 --> 00:02:42,390
+on this pose.
+
+53
+00:02:42,390 --> 00:02:46,610
+Reading inner shapes will
+greatly depend on the quality of
+
+54
+00:02:46,610 --> 00:02:50,200
+the character design and its contrast.
+
+55
+00:02:50,200 --> 00:02:52,780
+A good practice is to have a dedicated
+
+56
+00:02:52,780 --> 00:02:57,780
+window in blender with a 3D
+view set to flat shading.
+
+57
+00:02:58,270 --> 00:03:00,250
+If you're animating to camera,
+
+58
+00:03:00,250 --> 00:03:02,250
+these should be the camera view.
+
+59
+00:03:02,250 --> 00:03:05,010
+This way you will always have a sneak peek
+
+60
+00:03:05,010 --> 00:03:07,087
+to the silhouette of your character.
+
+61
+00:03:07,087 --> 00:03:09,900
+Now that we know how to
+display our silhouette,
+
+62
+00:03:09,900 --> 00:03:11,920
+what makes a good silhouette?
+
+63
+00:03:11,920 --> 00:03:14,520
+The most important thing is readability.
+
+64
+00:03:14,520 --> 00:03:17,210
+The trident is currently a good example,
+
+65
+00:03:17,210 --> 00:03:22,120
+showing the three teeth or
+three points of the tridents,
+
+66
+00:03:22,120 --> 00:03:24,740
+make it clear on the silhouette view.
+
+67
+00:03:24,740 --> 00:03:29,120
+While if I rotate it by a few
+degrees and show its profile,
+
+68
+00:03:29,120 --> 00:03:31,470
+it doesn't read well anymore.
+
+69
+00:03:31,470 --> 00:03:35,620
+We no longer identify a
+trident, but simple spear.
+
+70
+00:03:35,620 --> 00:03:37,800
+If we scrub through the animation,
+
+71
+00:03:37,800 --> 00:03:41,400
+most of the poses are clear
+on this one, the legs,
+
+72
+00:03:41,400 --> 00:03:45,320
+the arms and the sword
+are clearly identifiable.
+
+73
+00:03:45,320 --> 00:03:47,310
+The same will apply to this pose
+
+74
+00:03:47,310 --> 00:03:49,900
+where we can clearly
+see that the character
+
+75
+00:03:49,900 --> 00:03:52,720
+is handling this weapon with two hands
+
+76
+00:03:52,720 --> 00:03:55,730
+or even this pose where through camera,
+
+77
+00:03:55,730 --> 00:03:59,300
+I slightly offset the
+position of the sword
+
+78
+00:03:59,300 --> 00:04:02,270
+so that it appear in the
+back of the character.
+
+79
+00:04:02,270 --> 00:04:05,770
+While I did the mistake
+on the specific pose
+
+80
+00:04:05,770 --> 00:04:07,450
+to not have a clear silhouette.
+
+81
+00:04:07,450 --> 00:04:10,860
+And I received this as a
+critique a lot of time.
+
+82
+00:04:10,860 --> 00:04:13,680
+And that's a bummer because
+this is one of the strongest
+
+83
+00:04:13,680 --> 00:04:15,560
+moment in the animation.
+
+84
+00:04:15,560 --> 00:04:18,730
+This could have been
+improved by slightly rotating
+
+85
+00:04:18,730 --> 00:04:22,080
+the whole character so
+that we can see more
+
+86
+00:04:22,080 --> 00:04:26,260
+of a profile of the character
+distinguishing both feet
+
+87
+00:04:26,260 --> 00:04:28,000
+and a bit of the arms.
+
+88
+00:04:28,000 --> 00:04:30,540
+Another principle that will help you build
+
+89
+00:04:30,540 --> 00:04:34,770
+a solid silhouette is
+simplicity versus complexity.
+
+90
+00:04:34,770 --> 00:04:37,170
+If we have a look to
+those different poses,
+
+91
+00:04:37,170 --> 00:04:41,140
+we can clearly see that
+one side of the character
+
+92
+00:04:41,140 --> 00:04:46,090
+has almost a straight
+line or a smooth curve.
+
+93
+00:04:46,090 --> 00:04:48,530
+While the opposite side of the character
+
+94
+00:04:48,530 --> 00:04:50,650
+is generally more detailed.
+
+95
+00:04:50,650 --> 00:04:53,700
+This will improve the
+appeal of your poses.
+
+96
+00:04:53,700 --> 00:04:57,090
+It will also improve their readability
+
+97
+00:04:57,090 --> 00:04:59,680
+by giving them an orientation
+
+98
+00:04:59,680 --> 00:05:02,800
+or at least giving them contrast.
+
+99
+00:05:02,800 --> 00:05:07,090
+We did talk a lot about
+contrast in our motion
+
+100
+00:05:07,090 --> 00:05:11,080
+whenever we have an odd
+and a fast transition
+
+101
+00:05:11,080 --> 00:05:13,760
+That's the same regarding posing,
+
+102
+00:05:13,760 --> 00:05:18,180
+simplicity versus
+complexity brings contrast.
+
+103
+00:05:18,180 --> 00:05:22,483
+And so it brings more
+interest into the pose.
+
+104
+00:05:24,030 --> 00:05:26,840
+Another important point
+regarding silhouette
+
+105
+00:05:26,840 --> 00:05:28,580
+is negative space.
+
+106
+00:05:28,580 --> 00:05:31,320
+Negative spaces are the
+holes in the silhouette
+
+107
+00:05:31,320 --> 00:05:32,480
+of the character.
+
+108
+00:05:32,480 --> 00:05:35,910
+When you have overlapping
+features like the arm crossing
+
+109
+00:05:35,910 --> 00:05:38,280
+the body of the character in this case,
+
+110
+00:05:38,280 --> 00:05:42,910
+make sure that you use those
+negative space to show the
+
+111
+00:05:42,910 --> 00:05:47,120
+different features that will
+help the viewer to identify the
+
+112
+00:05:47,120 --> 00:05:48,830
+different parts of the character.
+
+113
+00:05:48,830 --> 00:05:52,490
+Like the same here of the
+silhouette of the biceps
+
+114
+00:05:52,490 --> 00:05:55,880
+that allow us to clearly identify the hand
+
+115
+00:05:55,880 --> 00:05:57,170
+or the arm of the character.
+
+116
+00:05:57,170 --> 00:06:00,090
+You should also try to avoid tangent
+
+117
+00:06:00,090 --> 00:06:02,450
+on your character or on your silhouette.
+
+118
+00:06:02,450 --> 00:06:05,830
+On this specific pose, the leg get tangent
+
+119
+00:06:05,830 --> 00:06:07,820
+with the end of the spear
+
+120
+00:06:07,820 --> 00:06:10,290
+and why it's not the end of the world
+
+121
+00:06:10,290 --> 00:06:14,240
+that could be improved if
+the character was moved a bit
+
+122
+00:06:14,240 --> 00:06:18,380
+to one side or the other
+so that we have no tangent
+
+123
+00:06:18,380 --> 00:06:20,787
+between the leg and the spear
+
+124
+00:06:20,787 --> 00:06:24,270
+and we can clearly identify both features.
+
+125
+00:06:24,270 --> 00:06:26,520
+There is another pose that look decent,
+
+126
+00:06:26,520 --> 00:06:29,950
+but that will read better
+and it will be more appealing
+
+127
+00:06:29,950 --> 00:06:33,720
+if we were to separate a bit
+the silhouette of the legs
+
+128
+00:06:33,720 --> 00:06:37,640
+and break the tangent in the
+arms by showing the wrist
+
+129
+00:06:37,640 --> 00:06:39,560
+or an elbow, for example.
+
+130
+00:06:39,560 --> 00:06:42,040
+Avoid twinning in your poses.
+
+131
+00:06:42,040 --> 00:06:45,960
+Twinning occurs whenever you
+have two features of the body,
+
+132
+00:06:45,960 --> 00:06:49,250
+like the hands or the
+feet that have exactly
+
+133
+00:06:49,250 --> 00:06:50,460
+the same pose.
+
+134
+00:06:50,460 --> 00:06:54,151
+While it can be something
+you voluntarily create
+
+135
+00:06:54,151 --> 00:06:57,030
+to bring strengths to a pose
+
+136
+00:06:57,030 --> 00:06:59,640
+or to bring control into a pose
+
+137
+00:06:59,640 --> 00:07:01,900
+like on the beginning of this jump,
+
+138
+00:07:01,900 --> 00:07:05,421
+where everything about
+the body of our character
+
+139
+00:07:05,421 --> 00:07:06,570
+is symmetrical.
+
+140
+00:07:06,570 --> 00:07:08,860
+This is something you should live out.
+
+141
+00:07:08,860 --> 00:07:11,020
+For example on this pose,
+
+142
+00:07:11,020 --> 00:07:14,920
+both feet have a slight different of pose.
+
+143
+00:07:14,920 --> 00:07:17,780
+If I make them having the same pose,
+
+144
+00:07:17,780 --> 00:07:21,050
+it won't look as appealing
+as the previous one.
+
+145
+00:07:21,050 --> 00:07:23,130
+Twinning will bring a lot of stability
+
+146
+00:07:23,130 --> 00:07:26,910
+and so it will kind of break the momentum
+
+147
+00:07:26,910 --> 00:07:28,680
+or the contrast in the pose.
+
+148
+00:07:28,680 --> 00:07:31,990
+Twinning can also occur in timing.
+
+149
+00:07:31,990 --> 00:07:34,870
+For example here, my character is catching
+
+150
+00:07:34,870 --> 00:07:37,300
+both sword at the same time,
+
+151
+00:07:37,300 --> 00:07:40,950
+and this is a personal choice
+because I want to show that
+
+152
+00:07:40,950 --> 00:07:43,600
+he's perfectly knowing what he's doing
+
+153
+00:07:43,600 --> 00:07:46,120
+and mastering his art.
+
+154
+00:07:46,120 --> 00:07:49,600
+So twinning both in timing
+and in the pose can show
+
+155
+00:07:49,600 --> 00:07:52,040
+strength and stability.
+
+156
+00:07:52,040 --> 00:07:54,590
+But in the case of this jump for example,
+
+157
+00:07:54,590 --> 00:07:59,030
+if I was to make both feet
+arrive at the same time,
+
+158
+00:07:59,030 --> 00:08:02,420
+that will make the animation
+a bit less appealing
+
+159
+00:08:02,420 --> 00:08:03,640
+and interesting.
+
+160
+00:08:03,640 --> 00:08:07,163
+In the end twinning bring
+a sense of perfection.
+
+161
+00:08:09,270 --> 00:08:11,750
+And whenever you're achieving art,
+
+162
+00:08:11,750 --> 00:08:14,570
+what you want to avoid is perfection.
+
+163
+00:08:14,570 --> 00:08:16,960
+There is a lot of randomness in life,
+
+164
+00:08:16,960 --> 00:08:19,630
+and she's what we want to represent.
+
+165
+00:08:19,630 --> 00:08:23,863
+We want to make it alive, not
+to make something perfect,
+
+166
+00:08:25,385 --> 00:08:26,218
+something CG.
+
+167
+00:08:26,218 --> 00:08:28,993
+Another thing you should
+avoid are perpendicular lines.
+
+168
+00:08:29,991 --> 00:08:31,260
+If I take these pose that is decent
+
+169
+00:08:31,260 --> 00:08:34,270
+and I now make the arm
+perpendicular to the spear
+
+170
+00:08:36,764 --> 00:08:38,066
+by straightening the elbow,
+
+171
+00:08:38,066 --> 00:08:40,090
+making this pure vertical,
+that will look super stiff.
+
+172
+00:08:40,090 --> 00:08:44,340
+And if I even exaggerate
+despite straightening
+
+173
+00:08:44,340 --> 00:08:47,630
+the whole torso, the neck, the head,
+
+174
+00:08:47,630 --> 00:08:50,853
+or even the other arm
+that will look really bad.
+
+175
+00:08:53,110 --> 00:08:55,320
+And my last advice,
+
+176
+00:08:55,320 --> 00:08:58,820
+try not to hide any
+part of your character.
+
+177
+00:08:58,820 --> 00:09:02,450
+There will be many times where
+it's gonna be impossible,
+
+178
+00:09:02,450 --> 00:09:05,650
+but when you have the
+choice like on this pose,
+
+179
+00:09:05,650 --> 00:09:08,241
+make sure that we see
+a bit of the fingers.
+
+180
+00:09:08,241 --> 00:09:11,380
+Don't hide them into the silhouette.
+
+181
+00:09:11,380 --> 00:09:14,890
+Or on this other pose,
+the pose looks great.
+
+182
+00:09:14,890 --> 00:09:17,670
+But if I twist a little more the hand,
+
+183
+00:09:17,670 --> 00:09:20,120
+I won't be seeing the thumb anymore.
+
+184
+00:09:20,120 --> 00:09:23,650
+So the end will be harder to identify.
+
+185
+00:09:23,650 --> 00:09:27,570
+That's a little detail, but
+it will make the difference.
+
+186
+00:09:27,570 --> 00:09:30,580
+So whenever you are
+pausing your character,
+
+187
+00:09:30,580 --> 00:09:33,903
+make sure you hit all
+the notes in this video.
+
+188
+00:09:35,218 --> 00:09:37,480
+Watch full line of action
+that we have explained
+
+189
+00:09:37,480 --> 00:09:38,633
+in the previous video.
+
+190
+00:09:39,922 --> 00:09:41,510
+Watch for balance, make
+sure that your character
+
+191
+00:09:41,510 --> 00:09:44,720
+is not falling, especially
+if he's turning.
+
+192
+00:09:44,720 --> 00:09:48,840
+Be very aware of the
+importance of the silhouette.
+
+193
+00:09:48,840 --> 00:09:51,290
+Watch for readability of the silhouette.
+
+194
+00:09:51,290 --> 00:09:55,380
+Watch for simplicity versus
+complexity in your silhouette.
+
+195
+00:09:55,380 --> 00:09:58,990
+Use negative space, avoid the tangent.
+
+196
+00:09:58,990 --> 00:10:02,360
+Break twinning by angling
+a bit your character.
+
+197
+00:10:02,360 --> 00:10:04,710
+Break perpendicular lines,
+
+198
+00:10:04,710 --> 00:10:07,180
+avoid hiding part of your character.
+
+199
+00:10:07,180 --> 00:10:11,073
+In the next video, we will
+start building our first poses.
+

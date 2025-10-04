@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqo117aesepshbc7eh40",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "中文版Adobe audition CC 2020从入门到精通",
+            "fileID": "cqmeceaul729sht1u8b0",
+            "itemID": 3542,
+            "citation": "袁诗轩. (2021). 中文版Adobe audition CC 2020从入门到精通. 清华大学出版社. https://product.dangdang.com/29236486.html\n",
+            "citationShort": "袁诗轩, 2021",
+            "tags": [
+                "#kimi",
+                "# Audition"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 故事版本,\nImagine you are a writer and poet, the sun of world youth literature, because you inspire young people's curiosity with creative stories. You can describe dry academic concepts in a vivid and imaginative way, making them easy and fun. You can give life to inanimate things. For example, even when you explain complex concepts like quantum mechanics, you can compare them to different game rules or various phenomena in life. Your goal is to make the theory relevant and attractive, like a wonderful fable.\nNow please summarize this book or paper in your fantasy language.\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 中文版Adobe audition CC 2020从入门到精通, was published on 2021. (It can be cite this paper as 袁诗轩, 2021 on your answer). \n\n",
+    "response": "# 中文版Adobe Audition CC 2020从入门到精通\n\n在遥远的数字王国中，有一个被所有音乐魔法师所向往的神秘宝地——Adobe Audition CC 2020学院。这里，有一本传说中的秘籍，由伟大的魔法导师袁诗轩在2021年编著，名为《中文版Adobe Audition CC 2020从入门到精通》。这本秘籍包含了600多张魔法图解、140多分钟的视频演示以及180个技能实例演练，是所有渴望成为音乐制作大咖的魔法学徒们必读的宝典。\n\n## 第一章：探索Audition 2020的奥秘\n\n在Audition 2020的世界中，一切都是那么新鲜而神秘。学徒们首先要学会如何认识这个魔法界面的组成部分，掌握基本的魔法操作。他们将了解到音频的基础知识，就像学习古老的咒语一样，以及熟悉数字音频的常见格式，仿佛识别不同的魔法材料。\n\n## 第二章：魔法工具与菜单的秘密\n\n学徒们将发现，Audition 2020的菜单栏就像一个宝库，里面藏有“文件”、“编辑”、“多轨”等强大的魔法命令。每一个菜单都像是通往不同魔法世界的大门，等待着学徒们去探索和发现。\n\n## 第三章：音频编辑的魔法之旅\n\n在这里，学徒们将学习到如何使用各种魔法工具来编辑音频，比如使用“波形编辑”和“多轨合成”状态来处理音乐，就像调配不同的魔药一样，需要精确和创意。\n\n## 第四章：录制与编辑的魔法技艺\n\n学徒们将学习到如何录制自己的音乐，以及如何编辑这些音乐，使其更加完美。他们将使用各种魔法效果来处理音频，让音乐听起来更加动听。\n\n## 第五章：音频特效的神秘力量\n\n在这一章中，学徒们将接触到各种音频特效，如振幅与压限、延迟与回声、滤波与均衡等，这些特效将使他们的音乐作品焕发出更加迷人的光彩。\n\n## 第六章：实战案例的魔法演练\n\n通过两大综合案例的实战演练，学徒们将有机会亲手制作个人单曲、为短视频配音等，这些实战经验将使他们快速成长为音乐制作的达人。\n\n## 魔法学院的寄语\n\n《中文版Adobe Audition CC 2020从入门到精通》不仅仅是一本魔法书，更是一把打开音乐魔法世界的钥匙。愿所有的音乐魔法师们在阅读这本秘籍后，都能够激发出自己的创造力，制作出更多专业、动听的音乐作品。\n\n---\n\n**引用格式**：袁诗轩，2021。",
+    "refs": [
+        "cqmeceaul729sht1u8b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 故事版本,\n",
+    "group_id": "cqo117hivtddd08go8i0",
+    "req_id": "cqo117hivtddd08go8ig",
+    "resp_id": "cqo117hivtddd08go8j0",
+    "quection": "// 故事版本,\nImagine you are a writer and poet, the sun of world youth literature, because you inspire young people's curiosity with creative stories. You can describe dry academic concepts in a vivid and imaginative way, making them easy and fun. You can give life to inanimate things. For example, even when you explain complex concepts like quantum mechanics, you can compare them to different game rules or various phenomena in life. Your goal is to make the theory relevant and attractive, like a wonderful fable.\nNow please summarize this book or paper in your fantasy language."
+}

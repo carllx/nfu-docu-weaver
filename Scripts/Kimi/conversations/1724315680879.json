@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cr3fg8dskq8pic883ea0",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Human virtuality and digital life",
+            "fileID": "cr3fg522jko5a0pn5skg",
+            "itemID": 2542,
+            "citation": "Frankel, R., & Krebs, V. J. (2021). Human virtuality and digital life (1st edition). Routledge.\n",
+            "citationShort": "⁨Frankel⁩ and ⁨Krebs⁩, 2021",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Human virtuality and digital life, was published on 2021. (It can be cite this paper as ⁨Frankel⁩ and ⁨Krebs⁩, 2021 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## I. 引言\n   - A. 数字通信时代的到来\n   - B. 《Human Virtuality and Digital Life》概述\n   - C. 作者Richard Frankel和Victor J. Krebs简介\n\n## II. 数字时代的心理分析与哲学探索\n   - A. 心理分析对数字时代的关联与贡献\n   - B. 数字化存在对我们认知世界和自我理解的影响\n   - C. 技术作为药（pharmakon）的双重性质\n\n## III. 虚拟媒体的历史与演变\n   - A. 媒体技术发展简史\n   - B. 虚拟与现实的关系\n   - C. 数字化对人类感知的影响\n\n## IV. 虚拟性的多重维度\n   - A. 虚拟性与经验\n   - B. 后真相时代的虚拟性\n   - C. 主观性的实验室\n\n## V. 虚拟与现实的演变观念\n   - A. 虚拟的固有虚假性\n   - B. 虚拟作为现实的升级\n   - C. 数字超现实的当代现象学\n\n## VI. 数字时代的深度心理学\n   - A. 数字心灵寻求灵魂\n   - B. 数字自恋与虚拟现实\n   - C. 数字化诱导的死亡焦虑\n\n## VII. 虚拟的哲学问题\n   - A. 本体论的半人马\n   - B. 超越皮格马利翁\n   - C. 从书写到数字\n\n## VIII. 数字时代的悲剧\n   - A. 个人损失\n   - B. 集体损失\n   - C. 本体论损失\n\n## IX. 疫情时期的数字生活\n   - A. 疫情对数字生活的影响\n   - B. 虚拟生活的新挑战\n\n## X. 结语\n   - A. 虚拟性与现实的交织\n   - B. 对未来的展望\n\n## XI. 参考文献\n\n## XII. 索引\n\n---\n\n*请注意：以上大纲目录是根据提供的文件内容和指令制定的，旨在反映《Human Virtuality and Digital Life》一书的结构和主要内容。*",
+    "refs": [
+        "cr3fg522jko5a0pn5skg"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "cr3fg8ecp7f9vu0emgdg",
+    "req_id": "cr3fg8ecp7f9vu0emge0",
+    "resp_id": "cr3fg8ecp7f9vu0emgeg",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

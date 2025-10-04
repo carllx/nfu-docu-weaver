@@ -1,0 +1,29 @@
+{
+    "conversation_id": "cu4jb73ua3dc8baknjg0",
+    "attachments": [
+        {
+            "date": 2011,
+            "title": "Essentials of WMS-IV assessment",
+            "fileID": "co0j126aofotvpcib180",
+            "itemID": 1920,
+            "citation": "Drozdick, L. W., Holdnack, J. A., & Hilsabeck, R. C. (2011). Essentials of WMS-IV assessment. John Wiley & Sons.\n",
+            "citationShort": "Drozdick et al., 2011",
+            "tags": [
+                "#kimi",
+                "#Classical",
+                "Psychology / Assessment, Testing & Measurement",
+                "Psychology / General"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：采用了什么策略来评估视觉记忆\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Essentials of WMS-IV assessment, was published on 2011. This paper serves as the dominant theoretical frameworks for all subsequent papers included in the appendix. (It can be cite this paper as Drozdick et al., 2011 on your answer). \n\n",
+    "response": "在《Essentials of WMS-IV Assessment》（Drozdick et al., 2011）一书中，采用了多种策略来评估视觉记忆，具体如下：\n\n### 1. 视觉记忆相关子测试\n- **Visual Reproduction（视觉再生）**：这一子测试要求被试者在短暂呈现一系列设计图案后，立即回忆并绘制这些图案。其评估了被试者对视觉细节和空间关系的即时记忆能力。例如，被试者需要在10秒内观察五个设计图案，然后立即绘制出来，这考察了他们对图案细节的快速编码和回忆能力。\n- **Designs（设计）**：该子测试通过呈现包含多个设计图案的网格，要求被试者在短暂观察后，立即回忆并放置正确的卡片到网格中，以重现之前看到的图案布局。这不仅考察了视觉细节记忆，还涉及空间位置记忆。例如，被试者需要记住每个设计图案在网格中的具体位置，并在回忆时准确放置卡片。\n\n### 2. 延迟回忆条件\n- **Visual Reproduction II（视觉再生II）**：在Visual Reproduction I的基础上，增加了延迟回忆条件。被试者在完成立即回忆后，需要等待20-30分钟，再进行延迟回忆。这评估了被试者将视觉信息从短期记忆转移到长期记忆，并在延迟后回忆这些信息的能力。例如，被试者在延迟后需要再次绘制之前看到的图案，考察他们对视觉细节的长期保持和回忆能力。\n- **Designs II（设计II）**：同样设置了延迟回忆条件，被试者在延迟后需要再次回忆并放置卡片到网格中，重现之前看到的图案布局。这进一步考察了视觉空间信息在长期记忆中的保持和回忆情况。\n\n### 3. 认知过程评分\n- **Visual Reproduction的评分**：除了对被试者是否回忆出图案进行评分外，还对回忆图案的细节准确性、图案之间的空间关系等进行评分。例如，如果被试者回忆出的图案中包含了正确的元素，但位置或细节有偏差，也会根据偏差程度进行相应的评分，从而更全面地评估视觉记忆的准确性。\n- **Designs的评分**：对被试者回忆的图案内容（Content）、空间位置（Spatial）以及额外的奖励分数（Bonus）进行分别评分。内容评分关注被试者是否回忆出了正确的图案细节；空间评分考察被试者是否将图案放置在了正确的位置；奖励分数则对同时正确回忆内容和位置的图案给予额外加分，从而更细致地评估视觉记忆的不同方面。\n\n### 4. 对比评分\n- **Visual Reproduction的对比评分**：通过对比被试者在立即回忆和延迟回忆条件下的表现，评估视觉记忆的保持和遗忘情况。例如，如果被试者在延迟回忆中的表现显著低于立即回忆，可能表明其视觉记忆的保持能力较弱。\n- **Designs的对比评分**：同样对比被试者在立即回忆和延迟回忆条件下的表现，以及在内容和空间方面的表现差异，从而更深入地了解视觉记忆在不同方面的特点和问题。",
+    "refs": [
+        "co0j126aofotvpcib180"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cu4jb70l3dc5rpnut050",
+    "req_id": "cu4jb70l3dc5rpnut05g",
+    "resp_id": "cu4jb70l3dc5rpnut060",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：采用了什么策略来评估视觉记忆"
+}

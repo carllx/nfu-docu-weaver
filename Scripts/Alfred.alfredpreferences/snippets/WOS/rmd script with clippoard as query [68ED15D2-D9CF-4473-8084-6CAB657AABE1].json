@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Rscript -e \"\nquery <- '{clipboard}'\npath_topic <- '\/Users\/yamlam\/Documents\/obsdiannote\/🧪 Script Labs\/Thematic\/'\npath_src <- '\/Users\/yamlam\/Documents\/obsdiannote\/🧪 Script Labs\/wos_biliometriex\/Dev\/src'\noptions(repos = c(CRAN='https:\/\/cran.rstudio.com\/'))\nSys.setenv(LANG = 'en')\nrmarkdown::render(\n  file.path(path_src,'Report.Rmd'),\n  params=list(\n    query=query,\n    path_topic=path_topic\n    ),\n  output_format='md_document',\n  output_dir=paste(path_topic, query,sep=''),\n  output_file='Report_{clipboard}.md'\n)\"",
+    "uid" : "68ED15D2-D9CF-4473-8084-6CAB657AABE1",
+    "name" : "rmd script with clippoard as query",
+    "keyword" : "rmd"
+  }
+}

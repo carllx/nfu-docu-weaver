@@ -1,0 +1,605 @@
+﻿1
+00:00:00,180 --> 00:00:02,030
+- [Instructor] In the
+beginning of this chapter,
+
+2
+00:00:02,030 --> 00:00:04,870
+we've been talking about exaggeration
+
+3
+00:00:04,870 --> 00:00:06,060
+and line of action.
+
+4
+00:00:06,060 --> 00:00:10,160
+Exaggeration can be
+used to amplify feeling.
+
+5
+00:00:10,160 --> 00:00:12,140
+If you want to communicate anger,
+
+6
+00:00:12,140 --> 00:00:14,510
+just make your character mad, for example.
+
+7
+00:00:14,510 --> 00:00:18,420
+But we have also seen that
+we can use exaggeration
+
+8
+00:00:18,420 --> 00:00:22,760
+to give whether more impact
+or more freely to the motion.
+
+9
+00:00:22,760 --> 00:00:27,180
+Look at all, the Trident
+here is completely bent,
+
+10
+00:00:27,180 --> 00:00:29,370
+helping to read the arc of motion.
+
+11
+00:00:29,370 --> 00:00:32,110
+Next frame, all the limbs are reshaped
+
+12
+00:00:32,110 --> 00:00:34,890
+to exaggerate this pinning
+motion of the character
+
+13
+00:00:35,910 --> 00:00:37,350
+or on this landing pose.
+
+14
+00:00:37,350 --> 00:00:40,427
+The character is stretched
+toward the ground
+
+15
+00:00:40,427 --> 00:00:43,120
+clearly supporting the line of action
+
+16
+00:00:43,120 --> 00:00:45,230
+and the directionality of the jump.
+
+17
+00:00:45,230 --> 00:00:48,680
+And if you did your homework,
+this should remind you,
+
+18
+00:00:48,680 --> 00:00:51,320
+this should remind you
+something, right there.
+
+19
+00:00:51,320 --> 00:00:53,410
+Whenever we are stretching the ball,
+
+20
+00:00:53,410 --> 00:00:55,200
+we create some kind of smear
+
+21
+00:00:55,200 --> 00:00:57,650
+and we are exaggerating its motion
+
+22
+00:00:57,650 --> 00:00:58,847
+and the same occur
+
+23
+00:00:58,847 --> 00:01:01,340
+whenever we are squashing
+the ball on the ground.
+
+24
+00:01:01,340 --> 00:01:05,690
+It's another exaggeration
+that better sell the impact.
+
+25
+00:01:05,690 --> 00:01:09,160
+So how can we apply those
+principles to our character?
+
+26
+00:01:09,160 --> 00:01:12,450
+When we are first in the
+light the reference pose
+
+27
+00:01:12,450 --> 00:01:15,440
+output the different line
+of action of the pose
+
+28
+00:01:15,440 --> 00:01:17,610
+using the red and orange line.
+
+29
+00:01:17,610 --> 00:01:20,010
+So now what if we push those lines?
+
+30
+00:01:20,010 --> 00:01:21,990
+What if we exaggerate them?
+
+31
+00:01:21,990 --> 00:01:26,240
+The goal is to build
+our shape or silhouette
+
+32
+00:01:26,240 --> 00:01:29,170
+based on the motion of the character
+
+33
+00:01:29,170 --> 00:01:33,680
+as if he was pulled by the
+inertia of the movement.
+
+34
+00:01:33,680 --> 00:01:37,810
+As our line of faction is
+curving, just push the curve.
+
+35
+00:01:37,810 --> 00:01:42,360
+And as our character is twisting,
+just support the twists,
+
+36
+00:01:42,360 --> 00:01:46,300
+creating a rotation motion
+within the hum and the sword.
+
+37
+00:01:46,300 --> 00:01:50,890
+We can also build a strong
+smear upon the sword
+
+38
+00:01:50,890 --> 00:01:53,220
+to simulate motion blur.
+
+39
+00:01:53,220 --> 00:01:56,050
+To do it, let's go back into pose mode.
+
+40
+00:01:56,050 --> 00:01:58,740
+I will duplicate the initial pose
+
+41
+00:01:58,740 --> 00:02:00,730
+and I will start by pushing
+
+42
+00:02:00,730 --> 00:02:04,210
+the center of gravity of
+our character to the right,
+
+43
+00:02:04,210 --> 00:02:06,520
+in the direction of the motion
+
+44
+00:02:06,520 --> 00:02:09,890
+or in the direction of
+the force is applying
+
+45
+00:02:09,890 --> 00:02:13,940
+to strike the ball or maybe
+cut is opponent in half
+
+46
+00:02:13,940 --> 00:02:17,770
+to be able to shape the silhouette
+of our character at will
+
+47
+00:02:17,770 --> 00:02:20,360
+we will need to enable the tweaker bones.
+
+48
+00:02:20,360 --> 00:02:22,030
+All the yellow controllers,
+
+49
+00:02:22,030 --> 00:02:25,340
+I'll use to reshape each part of the arms,
+
+50
+00:02:25,340 --> 00:02:28,120
+the legs, torso, or even the whip.
+
+51
+00:02:28,120 --> 00:02:30,300
+So as we need in the previous video,
+
+52
+00:02:30,300 --> 00:02:32,870
+I'm slightly pushing the pose.
+
+53
+00:02:32,870 --> 00:02:36,730
+And then I will start using
+those tweaker controllers,
+
+54
+00:02:36,730 --> 00:02:38,560
+starting with the left leg.
+
+55
+00:02:38,560 --> 00:02:43,060
+My goal will be to shape the
+whole left side of my character
+
+56
+00:02:43,972 --> 00:02:46,010
+as a single curve.
+
+57
+00:02:46,010 --> 00:02:49,520
+Note that I will mainly
+build the shape to camera.
+
+58
+00:02:49,520 --> 00:02:51,400
+It's all down to create smears
+
+59
+00:02:51,400 --> 00:02:53,650
+that can read from all the angles
+
+60
+00:02:53,650 --> 00:02:56,100
+and focusing on the camera point of view
+
+61
+00:02:56,100 --> 00:02:59,920
+will alow you to push
+the pose even further.
+
+62
+00:02:59,920 --> 00:03:02,570
+The bigger knee tweaker controller
+
+63
+00:03:02,570 --> 00:03:04,820
+allows you to push the knee with the thigh
+
+64
+00:03:04,820 --> 00:03:06,090
+and shin following.
+
+65
+00:03:06,090 --> 00:03:08,980
+While the smallest one will allow you
+
+66
+00:03:08,980 --> 00:03:12,910
+to shape each joint of
+this thigh and the shin.
+
+67
+00:03:12,910 --> 00:03:14,800
+So, as we did so far,
+
+68
+00:03:14,800 --> 00:03:17,230
+just repeat the process several time.
+
+69
+00:03:17,230 --> 00:03:18,830
+Push should be the pose.
+
+70
+00:03:18,830 --> 00:03:21,910
+Shape the arm and the
+leg into a curvy shape.
+
+71
+00:03:21,910 --> 00:03:24,760
+And whenever you reach a satisfying shape,
+
+72
+00:03:24,760 --> 00:03:28,600
+just try to push it by
+repeating the process.
+
+73
+00:03:28,600 --> 00:03:30,260
+As you get more experience,
+
+74
+00:03:30,260 --> 00:03:32,930
+you will be able to reach your extreme
+
+75
+00:03:32,930 --> 00:03:34,990
+or exaggeration faster.
+
+76
+00:03:34,990 --> 00:03:38,520
+Another important thing
+is not to over-focus
+
+77
+00:03:38,520 --> 00:03:40,520
+on one part of the character,
+
+78
+00:03:40,520 --> 00:03:43,480
+and this is why you
+should often add a loop
+
+79
+00:03:43,480 --> 00:03:45,310
+to the silhouette of short character.
+
+80
+00:03:45,310 --> 00:03:47,610
+The first step to give a better shape
+
+81
+00:03:47,610 --> 00:03:50,110
+to the sword is to first bend it.
+
+82
+00:03:50,110 --> 00:03:54,120
+To do so, you can use the sword
+master rotational controller
+
+83
+00:03:54,120 --> 00:03:56,510
+available on the root of the blade
+
+84
+00:03:56,510 --> 00:03:59,580
+by pressing R and D twice, I can rotate it
+
+85
+00:03:59,580 --> 00:04:01,740
+along its local Z axis.
+
+86
+00:04:01,740 --> 00:04:04,480
+Then you can use each
+individual controllers
+
+87
+00:04:04,480 --> 00:04:08,480
+to whether tweak the rotation
+or location or to scale them.
+
+88
+00:04:08,480 --> 00:04:12,810
+Here, I'm currently scaling
+them along their local X axis.
+
+89
+00:04:12,810 --> 00:04:14,570
+Starting from the tip of the sword
+
+90
+00:04:14,570 --> 00:04:17,450
+And then going up until
+the root of the sword.
+
+91
+00:04:17,450 --> 00:04:21,470
+Look, all, we already improve
+the character's silhouette.
+
+92
+00:04:21,470 --> 00:04:25,160
+And we do feel like the
+sword is currently swinging.
+
+93
+00:04:25,160 --> 00:04:29,100
+From this point, my goal would
+only be to push the pose.
+
+94
+00:04:29,100 --> 00:04:33,580
+So I need to accentuate
+the curvature of the body
+
+95
+00:04:33,580 --> 00:04:36,940
+on the left side so that
+I have better continuity
+
+96
+00:04:36,940 --> 00:04:40,010
+between the left leg and the torso.
+
+97
+00:04:40,010 --> 00:04:43,100
+This will support the line
+of action of our character.
+
+98
+00:04:43,100 --> 00:04:46,680
+I will also slightly tweak
+the shape of the blade,
+
+99
+00:04:46,680 --> 00:04:48,360
+so that it is smoother.
+
+100
+00:04:48,360 --> 00:04:51,970
+I just need to re walk
+a bit the X local scale
+
+101
+00:04:51,970 --> 00:04:53,800
+of the different tweaker bones
+
+102
+00:04:53,800 --> 00:04:56,230
+to avoid those jacket profiles.
+
+103
+00:04:56,230 --> 00:04:59,740
+So don't forget to test each controller.
+
+104
+00:04:59,740 --> 00:05:03,380
+I've also used the tweaker
+bone within the torso
+
+105
+00:05:03,380 --> 00:05:05,800
+to give it a more curved shape.
+
+106
+00:05:05,800 --> 00:05:08,160
+Progressively push the pose,
+
+107
+00:05:08,160 --> 00:05:10,240
+and don't be afraid to fail.
+
+108
+00:05:10,240 --> 00:05:13,840
+If you can't nail a good pose at once
+
+109
+00:05:13,840 --> 00:05:15,390
+that's perfectly fine.
+
+110
+00:05:15,390 --> 00:05:18,740
+While I do believe I ended
+up with a satisfying pose,
+
+111
+00:05:18,740 --> 00:05:22,150
+I am convinced it can be improved a lot
+
+112
+00:05:22,150 --> 00:05:24,130
+and a more experienced animator
+
+113
+00:05:24,130 --> 00:05:28,480
+will probably get a better
+pose than mine faster.
+
+114
+00:05:28,480 --> 00:05:32,540
+As any other art form
+becoming good at animation
+
+115
+00:05:32,540 --> 00:05:34,910
+is just a matter of practicing.
+
+116
+00:05:34,910 --> 00:05:38,130
+And someone practicing
+every day for four hours
+
+117
+00:05:38,130 --> 00:05:40,890
+will be better than someone
+practicing once a week
+
+118
+00:05:40,890 --> 00:05:43,800
+for one hour,
+while it may sound abused,
+
+119
+00:05:43,800 --> 00:05:46,240
+this is something I'd like to remind you,
+
+120
+00:05:46,240 --> 00:05:48,770
+And I will probably remind you often
+
+121
+00:05:48,770 --> 00:05:50,690
+during this whole course.
+
+122
+00:05:50,690 --> 00:05:53,030
+And if you lack of confidence,
+
+123
+00:05:53,030 --> 00:05:56,180
+just stop telling yourself
+that you lack of talent.
+
+124
+00:05:56,180 --> 00:05:58,390
+I personally don't believe in talent
+
+125
+00:05:58,390 --> 00:06:02,010
+and whenever you meet any
+artist that is very good
+
+126
+00:06:02,010 --> 00:06:04,750
+as it's art and you make the effort
+
+127
+00:06:04,750 --> 00:06:06,680
+to dig a bit into his career.
+
+128
+00:06:06,680 --> 00:06:08,860
+You understand that they don't land there
+
+129
+00:06:08,860 --> 00:06:10,110
+because they were talented,
+
+130
+00:06:10,110 --> 00:06:12,970
+but just because they were working a lot.
+
+131
+00:06:12,970 --> 00:06:15,000
+So I will let you there.
+
+132
+00:06:15,000 --> 00:06:17,900
+Don't hesitate to experiment
+with the body shape,
+
+133
+00:06:17,900 --> 00:06:20,660
+stretch the EDD to give it speed.
+
+134
+00:06:20,660 --> 00:06:24,360
+Just try to affirm. And don't
+forget that it's okay to fail.
+
+135
+00:06:24,360 --> 00:06:26,910
+So if this pose doesn't look right to you
+
+136
+00:06:26,910 --> 00:06:29,447
+just restart from scratch.
+
+137
+00:06:29,447 --> 00:06:32,197
+(relaxing music)
+

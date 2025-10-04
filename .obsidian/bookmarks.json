@@ -1,0 +1,1010 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1756195444676,
+      "path": "_DigtalSculting/src/_BMad Orchestrator 命令参考手册.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1756703101033,
+      "path": "LLMS API 服务购买汇总.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1686725013260,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1711874246689,
+          "path": "All Tasks.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1711881302600,
+          "path": "Questions.md"
+        },
+        {
+          "type": "file",
+          "path": "Papers Tasks.md",
+          "ctime": 1683352226110
+        },
+        {
+          "type": "file",
+          "ctime": 1686725048456,
+          "path": "IETLS Task.md"
+        },
+        {
+          "type": "search",
+          "ctime": 1697340770053,
+          "query": "path:IELTS line:(/[，“”《》（）？。！]/)",
+          "title": "IELTS 全角"
+        }
+      ],
+      "title": "Tasks"
+    },
+    {
+      "type": "file",
+      "path": "TODO (kanban).md",
+      "ctime": 1683352226110
+    },
+    {
+      "type": "group",
+      "ctime": 1686559437941,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1686558819060,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1753531605944,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1753531670568,
+                  "path": "Book meta.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1755698712402,
+                  "path": "Obsidian MOC Organize.md",
+                  "title": ""
+                },
+                {
+                  "type": "file",
+                  "ctime": 1755920013425,
+                  "path": "我的Vault Embedding 分区建议.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1755920028572,
+                  "path": "03_Projects/{Project} 构建{Project} - ObsZoteroRAG知识架构.md"
+                }
+              ],
+              "title": "ObsidianManager"
+            },
+            {
+              "type": "file",
+              "ctime": 1751901284450,
+              "path": "python 项目 APP_ConvertMD.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1689747494800,
+              "path": "AcademicX project(weread).canvas"
+            },
+            {
+              "type": "file",
+              "path": "Prompts Snippet (Templates).md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "ctime": 1686558846658,
+              "path": "AI assistant for Research and Writing (Chrome Extension).md"
+            },
+            {
+              "type": "file",
+              "ctime": 1686559010216,
+              "path": "app - Vocabulary Memorizer(Extension).md"
+            },
+            {
+              "type": "file",
+              "ctime": 1686559108879,
+              "path": "app - AcademicX.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1686559260505,
+              "path": "app - Vocabulary Memorizer(Electron).md"
+            },
+            {
+              "type": "file",
+              "ctime": 1686559165469,
+              "path": "Reverse engineering(逆向工程-javascript).md"
+            },
+            {
+              "type": "group",
+              "ctime": 1753014143314,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1753014349651,
+                  "path": "基于 HEVC 高效VR视频压缩编码.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1753177214098,
+                  "path": "Tasks - VREnconder.md"
+                }
+              ],
+              "title": "APPVREnconder"
+            },
+            {
+              "type": "group",
+              "ctime": 1753606098597,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1753609891442,
+                  "path": "MonkeyOCR 部署总结.md"
+                }
+              ],
+              "title": "MonkeyOCR"
+            },
+            {
+              "type": "group",
+              "ctime": 1753671463695,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1753671557012,
+                  "path": "epub2md_USAGE.md"
+                }
+              ],
+              "title": "epub2md"
+            }
+          ],
+          "title": "APP"
+        },
+        {
+          "type": "file",
+          "ctime": 1748841770068,
+          "path": "Paper  - 自然交响 - 探究自然声在创作中的美学与应用以水滴与叶声为例.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1705042757263,
+          "path": "AI assistant for Research and Writing (Mac OS).md",
+          "title": "AI assistant for Research and Writing"
+        },
+        {
+          "type": "file",
+          "ctime": 1748836411828,
+          "path": "_22毕设/src/TGAM(脑电波)与Arduino应用.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1748836495735,
+          "path": "从文本挖掘创意 - GPT  内容图像符号学分析.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1683938628162,
+          "path": "_22毕设/植物 A.I 意象.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1686559564536,
+          "path": "2023 数字雕塑调研.md"
+        },
+        {
+          "type": "file",
+          "path": "RP - Investigating the Multifaceted Impact of Volumetric Media on High School Education.md",
+          "ctime": 1683352226110
+        },
+        {
+          "type": "file",
+          "ctime": 1686559456967,
+          "path": "Depth perception.md"
+        },
+        {
+          "type": "group",
+          "ctime": 1753534698079,
+          "items": [
+            {
+              "type": "file",
+              "path": "Digital Monument 数字墓碑 - canvas.canvas",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "Digital Monument.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "shaping-the-shapeless/0_sources_inbox/数字生命.md",
+              "ctime": 1683352226110,
+              "title": "数字生命"
+            },
+            {
+              "type": "file",
+              "ctime": 1753534710480,
+              "path": "01_Sources/Richard Frankel, Victor J. Krebs - Human Virtuality and Digital Life Philosophical and Psychoanalytic Investigations.md"
+            }
+          ],
+          "title": "数字生命"
+        }
+      ],
+      "title": "Project"
+    },
+    {
+      "type": "file",
+      "path": "Personal Resume 个人简历.md",
+      "ctime": 1683352226110
+    },
+    {
+      "type": "file",
+      "path": "Keywords of Reserch 关键词.md",
+      "ctime": 1683352226110
+    },
+    {
+      "type": "file",
+      "path": "A.I.艺术 - 计算机创造力 - Artistic Intelligence.md",
+      "ctime": 1683352226110
+    },
+    {
+      "type": "group",
+      "ctime": 1686559388247,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1728537132386,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1748842006732,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1748842274171,
+                  "path": "PPT 交互影像创作.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748842184858,
+                  "path": "PPT - Arduino Sound Detector.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748842165629,
+                  "path": "PPT - HC-SR04 Ultrasonic(Pulse).md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748842118334,
+                  "path": "PPT - HC-SR04 Ultrasonic(NewPing).md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748842070690,
+                  "path": "PPT Buzzer_Arduino 无源蜂鸣器制作音乐.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748842052397,
+                  "path": "PPT - 交互影像创作期末指南-A身体指令的符号学探索重构叙事.md"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1753528961161,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1753528831680,
+                      "path": "01_Sources/Charles W_ Morris - Foundations of the Theory of Signs (1966).md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1753528988971,
+                      "path": "01_Sources/Charles W_ Morris - Varieties of human value (1956).md"
+                    }
+                  ],
+                  "title": "行为符号心理哲学"
+                }
+              ],
+              "title": "交互影像创作"
+            },
+            {
+              "type": "group",
+              "ctime": 1752805376344,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1753014021302,
+                  "path": "3D运动规律教学演变的文献综述.md"
+                }
+              ],
+              "title": "3D 运动规律"
+            },
+            {
+              "type": "group",
+              "ctime": 1751616385740,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1755644030670,
+                  "path": "AdavanceProductDesign课程设计.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1751691950179,
+                  "path": "交互产品综合创作 - 课程设计报告.md",
+                  "title": "课程设计报告"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1755643971044,
+                  "path": "主流UIUX设计语言对比分析：Apple, Google, Microsoft, Airbnb.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1755643990181,
+                  "path": "PPT 主流UIUX设计语言对比分析：Apple, Google, Microsoft, Airbnb.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1755644010065,
+                  "path": "Web AI 智能样式布局.md"
+                }
+              ],
+              "title": "交互产品综合创作"
+            },
+            {
+              "type": "file",
+              "ctime": 1728537166962,
+              "path": "PPT_数字游戏设计基础_Unity.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1728537504328,
+              "path": "PPT_非线性剪辑_Premiere.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1728537499804,
+              "path": "PPT_数字声音处理_Audition.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1728537197195,
+              "path": "Task_Gafa 23数字雕塑2.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1728537185116,
+              "path": "Make a Game with Visual Scripting01.md"
+            }
+          ],
+          "title": "👨‍🏫 COURCES"
+        },
+        {
+          "type": "group",
+          "ctime": 1748852175043,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1753499129176,
+              "items": [
+                {
+                  "type": "group",
+                  "ctime": 1751696003045,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1751695873228,
+                      "path": "成绩管理记录聊天内容.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1751696037136,
+                      "path": "nfu课程成绩管理规范办法 (暂行).md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1752030297038,
+                      "path": "评分 - 试卷袋归档.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1752245963686,
+                      "path": "试卷袋任务清单 2024-2025-2.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1752587087637,
+                      "path": "成绩管理 -- 交互影像创作.md"
+                    }
+                  ],
+                  "title": "成绩管理"
+                }
+              ],
+              "title": "NFU 教务"
+            },
+            {
+              "type": "group",
+              "ctime": 1751259768766,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1740136567937,
+                  "path": "岗前培训.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1740106014185,
+                  "path": "高等教育心理(广外).md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1740106004403,
+                  "path": "高等教育(广外).md"
+                }
+              ],
+              "title": "岗前培训"
+            },
+            {
+              "type": "file",
+              "ctime": 1728537266645,
+              "path": "Tasks_NFU.md",
+              "title": "🚩 Tasks_NFU"
+            },
+            {
+              "type": "group",
+              "ctime": 1751167363780,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1754141659562,
+                  "path": "_22毕设/src/赖泳仪.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1754451011926,
+                  "path": "_22毕设/src/林庭欣/林庭欣.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1749197958508,
+                  "path": "_22毕设/src/Task - 22届毕设学生.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1751167391916,
+                  "path": "_22毕设/毕设开题指导 - 从构思到答辩.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1751345895197,
+                  "path": "各创作方向要求对比总表.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1751167308324,
+                  "path": "技术路径图编写指南.md"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1751214244352,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1751346575412,
+                      "path": "_22毕设/src/4 x 调研方向/DeepResearch - 交互绘本_影像 (Interactive Book_Video).md",
+                      "title": "DeepResearch - 交互绘本_影像 (Interactive Book_Video)"
+                    }
+                  ],
+                  "title": "📚  Interactive Book_Video"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1751214064149,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1751345853642,
+                      "path": "_22毕设/src/4 x 调研方向/DeepResearch - 游戏概念设计 (Game Concept).md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1755593138780,
+                      "path": "copilot-custom-prompts/src/虚拟角色设计师的认知心理学模型：构建创意AI的人格框架.md"
+                    }
+                  ],
+                  "title": "📚 Game Concept Art"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1751213967237,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1751167337386,
+                      "path": "_22毕设/实验动画组.md"
+                    },
+                    {
+                      "type": "group",
+                      "ctime": 1751214064149,
+                      "items": [
+                        {
+                          "type": "file",
+                          "ctime": 1751345853642,
+                          "path": "_22毕设/src/4 x 调研方向/DeepResearch - 游戏概念设计 (Game Concept).md"
+                        },
+                        {
+                          "type": "file",
+                          "ctime": 1753674221516,
+                          "path": "_DigtalSculting/src/体型：审美的底色与生活方式 Charles W_ Morris(1948)..md"
+                        }
+                      ],
+                      "title": "📚 Game Concept Art"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1751214513139,
+                      "path": "_22毕设/src/4 x 调研方向/DeepResearch - 实验动画 (Experimental Animation).md"
+                    }
+                  ],
+                  "title": "📚 Experimental Animation"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1751211119372,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1751349680644,
+                      "path": "_22毕设/src/4 x 调研方向/DeepResearch - 游戏设计 (Game Design).md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1751211092745,
+                      "path": "_22毕设/src/Source - audio - 由《游戏设计艺术》聊聊如何以游戏的视角看待人生的一切.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1751212155565,
+                      "path": "_22毕设/src/Source - audio - 游戏是一门好生意吗 《黑神话》中国游戏产业的西游行才刚开始.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1751213206531,
+                      "path": "_22毕设/src/Source - audio - 对话游戏策划小鹿_消消乐为何让我们上头_游戏设计的心理学.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1751691615755,
+                      "path": "Source - video - Creating the Art of ABZU(动画绑定技术).md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1751695829211,
+                      "path": "01_Sources/{Book_Game} The Art of Game Design, 3rd Edition -- Jesse Schell --  2019.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1751980569181,
+                      "path": "01_Sources/{Book_Game} Video Game Storytelling_What Every Developer Needs to Know -- Evan Skolnick -- 2014.md"
+                    }
+                  ],
+                  "title": "📚 Game Design"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1751718672897,
+                  "path": "_22毕设/src/Cocolab 的创作方法论.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1751854500825,
+                  "path": "03_Projects/开题引导2.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1752031182733,
+                  "path": "papers/人文与社会科学学术论文写作指南.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1753013703326,
+                  "path": "_22毕设/src/毕业创作与毕业论文时间管理.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1753081916103,
+                  "path": "第二次收集指导.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1753083880179,
+                  "path": "_22毕设/src/毕业设计与论文案例分析.md"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1753513857073,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1753513940102,
+                      "path": "01_Sources/Björn Gustavii - How to Write and Illustrate a Scientific Paper (2008).md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1753513982229,
+                      "path": "01_Sources/Michael E_ Chapman - Thesis Writer's Guide (2010).md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1753532232921,
+                      "path": "01_Sources/Visar Berisha - AI as a Threat to Democracy (2017).md"
+                    }
+                  ],
+                  "title": "paper"
+                }
+              ],
+              "title": "NFU22 毕设 🌹🔫"
+            }
+          ],
+          "title": "NFU"
+        },
+        {
+          "type": "group",
+          "ctime": 1748841990050,
+          "items": [
+            {
+              "type": "file",
+              "path": "_DigtalSculting/src/tool-blender/Class1.0-Basic(Blender).md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "Class1.4-Rendering - 光与表面的交互.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "shaping-the-shapeless/0_sources_inbox/Class2.0-Shape the Shapless things in DigitalSpace.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/Class2.1-Shape Emotion with Motion.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "Class2.2.0 - Simulation - PhysicsEngine.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "Class 2.2.1 Simulation - PhysicsSoftbody - Blender.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/Class2.2.2 Physical Cloth.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/Class2.2.3-Physical Flow.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/Class2.3-GeometryNodes Paramtric Modeling.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/Class2.4-Data, Trigger a object and return Value.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/Class2.5 - Tracking.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/20 - 数字雕塑2 - 结课汇看.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/20 - 数字雕塑2 - 课程总结(公众号).md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "COURSE/18 数字创作-参考艺术家.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "path": "待办1.md",
+              "ctime": 1683352226110
+            },
+            {
+              "type": "file",
+              "ctime": 1751212263447,
+              "path": "_22毕设/src/Source - audio - 对话游戏策划小鹿_消消乐为何让我们上头_游戏设计的心理学.md"
+            }
+          ],
+          "title": "GAFA"
+        }
+      ],
+      "title": "EDUCATION"
+    },
+    {
+      "type": "group",
+      "ctime": 1711152918536,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1711529933082,
+          "path": "澳门城市大学面试准备.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1709801202618,
+          "path": "2024 西南大学博士报考.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1711811962456,
+          "path": "2024 中国美术学院 (招一个).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1711811940435,
+          "path": "Phd/2024 广州美术学院(1?2).md",
+          "title": "2024 广州美术学院"
+        },
+        {
+          "type": "file",
+          "ctime": 1711377015676,
+          "path": "博士面试准备.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1711339215107,
+          "path": "2024 西南大学 注册准备.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1711174372065,
+          "path": "华南师范大学.md"
+        }
+      ],
+      "title": "2024 PhD"
+    },
+    {
+      "type": "file",
+      "ctime": 1750521018895,
+      "path": "Shinoda Yuu.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1751200243771,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1754117470276,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1754117484247,
+              "path": "01_Sources/Kent Beck On The FIRST Testing Frameworks, TDD.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1754118763009,
+              "path": "01_Sources/TDD, AI agents and coding with Kent Beck.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1754120392789,
+              "path": "01_Sources/TDD, Theme & Variations (Kent Beck).md"
+            }
+          ],
+          "title": "TDD"
+        },
+        {
+          "type": "group",
+          "ctime": 1754187250402,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1754187380679,
+              "path": "01_Sources/BMad-Method 多智能体协作框架轻松打造敏捷AI驱动开发工作流.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1754282710863,
+              "path": "01_Sources/BMad-Method 幫你打造一支免費的 AI Agent 開發團隊.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1754472817164,
+              "path": "party-mode 会议模式.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1755052129482,
+              "path": "_交互产品综合创作/src/04_adv/BMAD 多代理开会协作机制深度研究报告简报.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1755071872342,
+              "path": "Vscode Github Copilot Agents.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1755609900167,
+              "path": "敏捷开发方法.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1755610893417,
+              "path": "google Gemini高效技巧：重塑AI人格.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1756443868190,
+              "path": "vid - BMAD Vibe Coding Workflow Is a Massive Level Up.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1759287550112,
+              "path": "B-mad 文档拆分与变更管理.md"
+            }
+          ],
+          "title": "Agile Dev 🤖(B-MAD)"
+        },
+        {
+          "type": "file",
+          "ctime": 1751708156787,
+          "path": "设计模式(Design Patterns).md"
+        },
+        {
+          "type": "group",
+          "ctime": 1751696216697,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1751200266024,
+              "path": "Source - video - Google Gemini CLI Is FREE and Crazy Powerful.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1751200867990,
+              "path": "Source - video - Gemini CLI 100万TOKEN 远超Claude Code.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1751200330110,
+              "path": "Gemini CLI 新手入门指南.md"
+            }
+          ],
+          "title": "GeminiCLI"
+        },
+        {
+          "type": "group",
+          "ctime": 1751696252922,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1753163671256,
+              "path": "_交互产品综合创作/src/01_2D_UI/Cursor 刷新账号权限.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1751700881761,
+              "path": "Vide Coding for Note(Cursor+MCP Obsidian).md"
+            },
+            {
+              "type": "file",
+              "ctime": 1751696309663,
+              "path": "_22毕设/src/4 x 调研方向/DeepResearch  -- BestPractices-- Vibe Coding  with Cursor IDE.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1751701834038,
+              "path": "DeepResearch -- BestPractices-- Cursor's rules and Memories.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1751719338822,
+              "path": "DeepResearch -- Cursor Rules 权威指南.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1751719910384,
+              "path": "_22毕设/src/DeepResearch -- Learn form SuperClaude.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1751720222589,
+              "path": "Cursor 新功能 Todo list 最佳实践.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1752031082715,
+              "path": "01_Sources/How project rules enable multiple files for different scenarios.md"
+            }
+          ],
+          "title": "Cursor"
+        },
+        {
+          "type": "file",
+          "ctime": 1751901604088,
+          "path": "DReseach -- Vibe Coding Clean Architecture.md"
+        }
+      ],
+      "title": "😎 Vide Coding"
+    },
+    {
+      "type": "group",
+      "ctime": 1751700835594,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1751692178724,
+          "path": "03_Projects/{Project} 构建{Project} - ObsZoteroRAG知识架构.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1751771984494,
+          "path": "_22毕设/src/4 x 调研方向/DeepResearch – 数字艺术科研方法论图谱.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1751772007763,
+          "path": "_22毕设/src/4 x 调研方向/数字艺术研究方法( 前期归纳).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1751808495252,
+          "path": "_22毕设/src/AI 论文陪读策略参考.md"
+        },
+        {
+          "type": "file",
+          "path": "papers/Papers (论文  Reserch).md",
+          "ctime": 1683352226110
+        },
+        {
+          "type": "file",
+          "ctime": 1751866426168,
+          "path": "01_Sources/可能是史上最全的系统性文献综述写作教程.md"
+        }
+      ],
+      "title": "ObsidianRAG知识库"
+    },
+    {
+      "type": "group",
+      "ctime": 1752031413419,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1752031442558,
+          "path": "20 per month vibecode plans are dead.md"
+        }
+      ],
+      "title": "Read it later"
+    }
+  ]
+}

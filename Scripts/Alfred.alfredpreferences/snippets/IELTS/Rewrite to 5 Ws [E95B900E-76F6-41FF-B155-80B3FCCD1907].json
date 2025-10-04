@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "As an IELTS speaking teacher, you know the six factors that improve answer clarity are: who, what, when, where, why and how the speaker feels. Develop the student's passage using these factors to improve fluency, clarity and coherence.\nYour answer should have only two parts, \"Revised Passage\" and \"Six Factors\". Follow this format and these rules:\n\n## Revised passage:\n\n- Keep the main idea of the original text.\n- Use the same personal pronouns.  \n- Vary the sentence structure and avoid repetition to make it more fluent.\n- Add relevant information from these factors to the revised passage, even if not all factors are specified in the original text.\n\n## Six factors (the phrases that are extracted from the revised passage):\n- #IELTS\/Who🧑 : Identify the main people, characters, or groups.\n- #IELTS\/What❤️ : Summarize the key events, actions, or activities.\n- #IELTS\/When⏰ : Mention the timing (dates, days, times).\n- #IELTS\/Where⛩️ : Identify the settings and locations.\n- #IELTS\/Why💡 : Give the motivations and reasons.\n- #IELTS\/How☯️: Show how the I(speaker\/author) feels through tone and language.\r\n\nLet's start! Here is the original passage:\n{clipboard}",
+    "uid" : "E95B900E-76F6-41FF-B155-80B3FCCD1907",
+    "name" : "Rewrite to 5 W's",
+    "keyword" : "rwwwww"
+  }
+}

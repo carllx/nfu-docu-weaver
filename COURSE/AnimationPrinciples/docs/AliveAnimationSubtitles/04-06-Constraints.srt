@@ -1,0 +1,648 @@
+﻿1
+00:00:00,760 --> 00:00:02,750
+- [Pierre] So far, using the layer method
+
+2
+00:00:02,750 --> 00:00:07,140
+we have been able to create
+the space motion for our robot.
+
+3
+00:00:07,140 --> 00:00:09,470
+But how do we get to this,
+
+4
+00:00:09,470 --> 00:00:11,670
+where every part of the robot
+
+5
+00:00:11,670 --> 00:00:14,860
+are moving in reaction to the body motion?
+
+6
+00:00:14,860 --> 00:00:19,580
+We could use the same method
+and start with the main body
+
+7
+00:00:19,580 --> 00:00:22,610
+working first on the Z location curve
+
+8
+00:00:22,610 --> 00:00:24,630
+and then on the rotation,
+
+9
+00:00:24,630 --> 00:00:27,620
+and then go ahead with the hips, the head,
+
+10
+00:00:27,620 --> 00:00:30,410
+and everything that is attached to it.
+
+11
+00:00:30,410 --> 00:00:34,310
+But what if we had a
+solution that would allow us
+
+12
+00:00:34,310 --> 00:00:37,310
+to source the base motion we have created
+
+13
+00:00:37,310 --> 00:00:40,220
+to generate those additional motion,
+
+14
+00:00:40,220 --> 00:00:43,910
+finding method that
+will allow us to iterate
+
+15
+00:00:43,910 --> 00:00:47,650
+or modify the animation
+on the fly with ease?
+
+16
+00:00:47,650 --> 00:00:50,970
+We can do it by using a
+technique I will show you
+
+17
+00:00:50,970 --> 00:00:52,750
+in the next video.
+
+18
+00:00:52,750 --> 00:00:55,430
+But to do so, we need to learn a bit
+
+19
+00:00:55,430 --> 00:00:59,100
+about the base constraints in Blender.
+
+20
+00:00:59,100 --> 00:01:03,010
+I've created a blend file
+with a couple of objects,
+
+21
+00:01:03,010 --> 00:01:07,000
+including arrows, that
+will help us identifying
+
+22
+00:01:07,000 --> 00:01:08,960
+the orientation they have.
+
+23
+00:01:08,960 --> 00:01:12,110
+In Blender, We can find
+the Object Constraint
+
+24
+00:01:12,110 --> 00:01:14,000
+under the Constraint tab.
+
+25
+00:01:14,000 --> 00:01:17,900
+We will find the same
+constraint for the rig or bones,
+
+26
+00:01:17,900 --> 00:01:20,530
+but we will see that in the next video.
+
+27
+00:01:20,530 --> 00:01:22,890
+The list of constraints is pretty big,
+
+28
+00:01:22,890 --> 00:01:26,680
+but in the end we will
+just use a few of them.
+
+29
+00:01:26,680 --> 00:01:30,040
+Mostly, the Copy Transform constraint
+
+30
+00:01:30,040 --> 00:01:32,260
+and some tracking constraints.
+
+31
+00:01:32,260 --> 00:01:34,020
+Constraints will allow us
+
+32
+00:01:34,020 --> 00:01:38,140
+to modify the behavior
+of an object or a bone
+
+33
+00:01:38,140 --> 00:01:41,480
+using another object or another bone.
+
+34
+00:01:41,480 --> 00:01:45,680
+To add the constraint, we
+can simply select the object,
+
+35
+00:01:45,680 --> 00:01:48,690
+go to the Constraint tab
+and select, for example,
+
+36
+00:01:48,690 --> 00:01:50,020
+the Copy Location.
+
+37
+00:01:50,020 --> 00:01:54,110
+As I've just added it, we
+can see that the icon is red.
+
+38
+00:01:54,110 --> 00:01:57,930
+It means that the constraint
+is currently not working
+
+39
+00:01:57,930 --> 00:02:02,020
+because the owner is not
+constraint to anything.
+
+40
+00:02:02,020 --> 00:02:04,140
+So we need to choose a target,
+
+41
+00:02:04,140 --> 00:02:06,720
+and I will choose the arrow number one.
+
+42
+00:02:06,720 --> 00:02:09,860
+As soon as I do, we
+can see our small arrow
+
+43
+00:02:09,860 --> 00:02:12,510
+snapping onto the large arrow.
+
+44
+00:02:12,510 --> 00:02:14,370
+The small rural object
+
+45
+00:02:14,370 --> 00:02:19,270
+is now copying the location
+or position in the world space
+
+46
+00:02:19,270 --> 00:02:20,960
+of the large arrow.
+
+47
+00:02:20,960 --> 00:02:23,470
+Remember, that as an object,
+
+48
+00:02:23,470 --> 00:02:26,390
+the position or any transform
+
+49
+00:02:26,390 --> 00:02:30,100
+are performed on the origin of the object.
+
+50
+00:02:30,100 --> 00:02:32,940
+And by default, a newly created constraint
+
+51
+00:02:32,940 --> 00:02:37,170
+is using world space for both
+the target and the owner.
+
+52
+00:02:37,170 --> 00:02:39,290
+This way, whatever we do,
+
+53
+00:02:39,290 --> 00:02:43,420
+the owner will be on top
+of the target in our scene.
+
+54
+00:02:43,420 --> 00:02:44,800
+If on the single object,
+
+55
+00:02:44,800 --> 00:02:47,660
+we switch to local space to local space,
+
+56
+00:02:47,660 --> 00:02:50,480
+we won't see that much of a difference.
+
+57
+00:02:50,480 --> 00:02:51,720
+Because by default,
+
+58
+00:02:51,720 --> 00:02:54,010
+the local space of a single object
+
+59
+00:02:54,010 --> 00:02:56,670
+is aligned with world space,
+
+60
+00:02:56,670 --> 00:03:00,690
+as we have seen in the local
+space and world space video.
+
+61
+00:03:00,690 --> 00:03:02,770
+So the only way to see the difference
+
+62
+00:03:02,770 --> 00:03:06,440
+is currently to create
+a parent to this object.
+
+63
+00:03:06,440 --> 00:03:08,930
+Now, if I switch back the constraint
+
+64
+00:03:08,930 --> 00:03:12,240
+from local space to local
+space and move the parent,
+
+65
+00:03:12,240 --> 00:03:15,180
+we can see that the object is moving,
+
+66
+00:03:15,180 --> 00:03:19,610
+but it only follow the
+location of the target.
+
+67
+00:03:19,610 --> 00:03:22,920
+Whenever I rotate it, nothing's happened.
+
+68
+00:03:22,920 --> 00:03:26,880
+If I now switch back from
+world space to world space,
+
+69
+00:03:26,880 --> 00:03:29,610
+it will override the parenting
+
+70
+00:03:29,610 --> 00:03:30,990
+and the constraint arrow
+
+71
+00:03:30,990 --> 00:03:33,890
+will be snapped onto the target arrow.
+
+72
+00:03:33,890 --> 00:03:35,400
+Let's get rid of the parent,
+
+73
+00:03:35,400 --> 00:03:38,070
+switch back to local space to local space,
+
+74
+00:03:38,070 --> 00:03:40,080
+and use the offset.
+
+75
+00:03:40,080 --> 00:03:42,770
+It will allow us to still be able to
+
+76
+00:03:42,770 --> 00:03:45,370
+move the constraint object,
+
+77
+00:03:45,370 --> 00:03:48,820
+and any transformation
+generated by the constraint
+
+78
+00:03:48,820 --> 00:03:52,800
+will be added on top of the
+local space of the object.
+
+79
+00:03:52,800 --> 00:03:57,070
+The Copy Location constraint
+will only affect location,
+
+80
+00:03:57,070 --> 00:04:00,540
+rotating or scaling the
+object won't do anything.
+
+81
+00:04:00,540 --> 00:04:04,530
+While if we were parenting
+the object to the other,
+
+82
+00:04:04,530 --> 00:04:07,410
+then it will follow any transformation
+
+83
+00:04:07,410 --> 00:04:09,580
+the first object does.
+
+84
+00:04:09,580 --> 00:04:12,490
+The other copy constraint behave the same.
+
+85
+00:04:12,490 --> 00:04:16,247
+If I add a Copy Rotation
+constraint and rotate the object,
+
+86
+00:04:16,247 --> 00:04:18,370
+the other one will follow.
+
+87
+00:04:18,370 --> 00:04:21,910
+But moving it or scaling
+it won't change anything.
+
+88
+00:04:21,910 --> 00:04:25,830
+And if we had a Copy Scale,
+I think you've guessed it,
+
+89
+00:04:25,830 --> 00:04:28,250
+moving it or rotate it
+won't change anything,
+
+90
+00:04:28,250 --> 00:04:31,540
+while scaling will scale both objects.
+
+91
+00:04:31,540 --> 00:04:33,310
+The Copy Transform constraint
+
+92
+00:04:33,310 --> 00:04:36,010
+will currently perform a Copy Location,
+
+93
+00:04:36,010 --> 00:04:39,690
+Copy Rotation, and Copy
+Scale at the same time.
+
+94
+00:04:39,690 --> 00:04:42,600
+We can no longer move the target
+
+95
+00:04:42,600 --> 00:04:45,040
+unless we switch the Mix mode
+
+96
+00:04:45,040 --> 00:04:48,790
+to Before Original or After Original.
+
+97
+00:04:48,790 --> 00:04:50,860
+But I won't go further into this
+
+98
+00:04:50,860 --> 00:04:54,060
+because we won't need all those options.
+
+99
+00:04:54,060 --> 00:04:57,590
+Some very useful constraints
+are the tracking constraints.
+
+100
+00:04:57,590 --> 00:04:59,260
+You're already using one
+
+101
+00:04:59,260 --> 00:05:01,740
+which is the Inverse Kinematic constraint,
+
+102
+00:05:01,740 --> 00:05:03,970
+which is a tracking constraint too.
+
+103
+00:05:03,970 --> 00:05:06,260
+But here, we will use other constraints.
+
+104
+00:05:06,260 --> 00:05:08,170
+So I have my arrow object,
+
+105
+00:05:08,170 --> 00:05:10,600
+I have created a target object,
+
+106
+00:05:10,600 --> 00:05:14,560
+let's add a dump truck
+constraint to our arrow
+
+107
+00:05:14,560 --> 00:05:17,840
+and choose as a target the target object.
+
+108
+00:05:17,840 --> 00:05:20,730
+You can use the eyedropper
+in the constraint
+
+109
+00:05:20,730 --> 00:05:24,520
+and then source the object
+directly in the 3D viewport.
+
+110
+00:05:24,520 --> 00:05:26,030
+As soon as we select it,
+
+111
+00:05:26,030 --> 00:05:31,030
+we can see our arrow slightly
+rotating to point towards it.
+
+112
+00:05:31,170 --> 00:05:33,570
+And as we move the target,
+
+113
+00:05:33,570 --> 00:05:37,130
+our constraint object will follow it.
+
+114
+00:05:37,130 --> 00:05:41,850
+It's a super useful constraint
+to rig eyes, for example.
+
+115
+00:05:41,850 --> 00:05:44,650
+It's a pretty easy constraint to be used.
+
+116
+00:05:44,650 --> 00:05:48,450
+By default, it will track
+along the positive y-axis.
+
+117
+00:05:48,450 --> 00:05:50,730
+If we switch to the positive z-axis,
+
+118
+00:05:50,730 --> 00:05:53,430
+we can see our object rotating
+
+119
+00:05:53,430 --> 00:05:58,240
+so that it's positive z-axis
+point toward the target.
+
+120
+00:05:58,240 --> 00:06:01,100
+If we do the same with the x-axis,
+
+121
+00:06:01,100 --> 00:06:03,310
+the object will shift again.
+
+122
+00:06:03,310 --> 00:06:08,310
+Choosing the minus y-axis will
+flip our arrow orientation
+
+123
+00:06:08,340 --> 00:06:11,760
+but it will still the
+pointing at the target
+
+124
+00:06:11,760 --> 00:06:13,850
+using its y-axis.
+
+125
+00:06:13,850 --> 00:06:18,070
+The locked track constraint
+will kind of behave the same,
+
+126
+00:06:18,070 --> 00:06:21,360
+but this time the object
+will be all to rotate
+
+127
+00:06:21,360 --> 00:06:23,400
+only on one axis.
+
+128
+00:06:23,400 --> 00:06:26,590
+We still have to define the track axis
+
+129
+00:06:26,590 --> 00:06:28,790
+and the locked axis will be the one
+
+130
+00:06:28,790 --> 00:06:31,810
+we are allowed to rotate around.
+
+131
+00:06:31,810 --> 00:06:34,840
+So in this case, I can see the green arrow
+
+132
+00:06:34,840 --> 00:06:36,850
+pointing toward the target,
+
+133
+00:06:36,850 --> 00:06:41,360
+but the object only rotate
+around the blue arrows,
+
+134
+00:06:41,360 --> 00:06:43,560
+the z-axis arrows.
+
+135
+00:06:43,560 --> 00:06:47,950
+If I switch the track access
+to use the positive x-axis,
+
+136
+00:06:47,950 --> 00:06:50,720
+we will see our object shifting
+
+137
+00:06:50,720 --> 00:06:55,220
+and still rotating along its z-axis.
+
+138
+00:06:55,220 --> 00:06:57,250
+This is the constraint I've used
+
+139
+00:06:57,250 --> 00:06:59,430
+to rig the sensor of the robot
+
+140
+00:06:59,430 --> 00:07:02,210
+so that it follows the target.
+
+141
+00:07:02,210 --> 00:07:05,370
+The ring with the sensor and the sphere
+
+142
+00:07:05,370 --> 00:07:09,350
+each have a separated
+locked track constraint
+
+143
+00:07:09,350 --> 00:07:14,160
+allowing us to animate the
+sensor by just moving the target.
+
+144
+00:07:14,160 --> 00:07:16,840
+It's the same for the mini gun arm.
+
+145
+00:07:16,840 --> 00:07:20,240
+To summarize, we have seen
+that we can use constraints
+
+146
+00:07:20,240 --> 00:07:24,770
+to move or transform an
+object using another one.
+
+147
+00:07:24,770 --> 00:07:29,760
+Constraints will override the
+parent-child relationship.
+
+148
+00:07:29,760 --> 00:07:34,760
+We can constraint multiple
+objects using only one object.
+

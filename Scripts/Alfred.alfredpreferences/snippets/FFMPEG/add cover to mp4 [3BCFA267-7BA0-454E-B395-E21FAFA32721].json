@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "ffmpeg -i \"{clipboard}\" -i \"{clipboard}.jpg\" -map 0 -map 1 -c copy -c:v:1 mjpeg -disposition:v:1 attached_pic \"\/Users\/yamlam\/Downloads\/SIVR 049_1440p_with_cover.mp4\"\n",
+    "uid" : "3BCFA267-7BA0-454E-B395-E21FAFA32721",
+    "name" : "add cover to mp4",
+    "keyword" : "cover"
+  }
+}

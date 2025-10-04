@@ -1,0 +1,31 @@
+{
+  "userId": "9147ffb1-038d-48a3-aa35-5a765eff9be7",
+  "signKey": "4bcbe741c53022f41bf88948e46f257e71ce826d8409a72128398863",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWJqZWN0Ijp7InVzZXJfaWQiOiI5MTQ3ZmZiMS0wMzhkLTQ4YTMtYWEzNS01YTc2NWVmZjliZTcifSwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1NTE0NjY5MywiaWF0IjoxNzU1MDYwMjkzLCJqdGkiOiJlNjg0YjU5OC00Y2UzLTRmNjAtYWIxMS0xZDBlOTcwNWZhNmEifQ.ZwSNoLQ6r_biFJfPWxn5B3LqDsrO_3YoDlbyLlR7R90",
+  "baseUrl": "https://api.maxai.me",
+  "isStream": false,
+  "conversationId": "9730ba54-a6c5-45b9-bc50-a3a0426e3de7",
+  "deviceId": "",
+  "provider": "grok",
+  "language": "chinese",
+  "translate": "chinese",
+  "format": "ppt",
+  "tone": "friendly",
+  "prompt": "default",
+  "materialResources": [],
+  "editorContent": {
+    "content": "",
+    "lastUpdated": 1755144076110
+  },
+  "maxai": {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWJqZWN0Ijp7InVzZXJfaWQiOiI5MTQ3ZmZiMS0wMzhkLTQ4YTMtYWEzNS01YTc2NWVmZjliZTcifSwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc1NTI0MTQzOSwiaWF0IjoxNzU1MTU1MDM5LCJqdGkiOiI1MzRhNDdiNy1lY2UxLTRjOTMtYjkwYy0xNjkxZTk5MzJjNTkifQ.Klrj8Fj8FM4OS4nFKinQa8dSWpRlkDijvLVIPPhOXFA",
+    "userId": "9147ffb1-038d-48a3-aa35-5a765eff9be7",
+    "deviceId": "\"1a260f8e-4c6c-4b33-8062-da318ae0376e\"",
+    "timeDiff": -1093,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "sm3Sign": "4bcbe741c53022f41bf88948e46f257e71ce826d8409a72128398863",
+    "aesPassphrase": "93d2c4cb7089b5d8cb2b19565d303c0a465ea0157d7466dfd5982ebb",
+    "baseUrl": "https://api.maxai.me",
+    "context": "https://www.maxai.co/app/?id=8d412440-89bc-403c-acd5-d0be1abeb29a_27581daa-5f8a-40b5-9438-eabdfe2d0eec_844856ad-f91e-42e9-97ed-b7f7c8559012_ea41b06f-b497-46ce-8daa-400b30fdf682_1c35e096-06f1-4f9e-971e-d5529e985416_c0121da7-cb76-46ca-8598-426001ceddb0"
+  }
+}

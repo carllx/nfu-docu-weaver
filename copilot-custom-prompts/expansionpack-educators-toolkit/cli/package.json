@@ -1,0 +1,45 @@
+{
+  "name": "educators-toolkit-cli",
+  "version": "1.1.0",
+  "description": "教育家工具箱CLI - 基于B-mad框架的智能化教育命令行工具",
+  "main": "educators-toolkit.js",
+  "bin": {
+    "educators-toolkit": "./educators-toolkit.js",
+    "etk": "./educators-toolkit.js"
+  },
+  "scripts": {
+    "start": "node educators-toolkit.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "education",
+    "teaching",
+    "course-planning",
+    "b-mad",
+    "instructional-design",
+    "cli",
+    "toolkit"
+  ],
+  "author": "B-mad Education Team",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1",
+    "fs-extra": "^10.1.0",
+    "yaml": "^2.1.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b-mad/educators-toolkit.git",
+    "directory": "cli"
+  },
+  "bugs": {
+    "url": "https://github.com/b-mad/educators-toolkit/issues"
+  },
+  "homepage": "https://github.com/b-mad/educators-toolkit#readme"
+}

@@ -1,0 +1,275 @@
+﻿1
+00:00:01,100 --> 00:00:02,390
+- [Instructor] So let's add
+
+2
+00:00:02,390 --> 00:00:05,200
+quick timing pass to our blocking.
+
+3
+00:00:05,200 --> 00:00:08,060
+so is that we convert all those poses
+
+4
+00:00:08,060 --> 00:00:11,780
+into something that will look
+like an actual animation.
+
+5
+00:00:11,780 --> 00:00:14,500
+If you are doing the
+same animation as I do,
+
+6
+00:00:14,500 --> 00:00:17,780
+here is a screen capture of my timing.
+
+7
+00:00:17,780 --> 00:00:21,630
+You may have noticed that
+my key frame have colors.
+
+8
+00:00:21,630 --> 00:00:23,940
+In the dope sheet or the action editor
+
+9
+00:00:23,940 --> 00:00:28,340
+you can select keys and
+press R to give them a color.
+
+10
+00:00:28,340 --> 00:00:31,590
+Those different colors
+have a different label.
+
+11
+00:00:31,590 --> 00:00:34,470
+But those are just references.
+
+12
+00:00:34,470 --> 00:00:39,390
+They absolutely not affect
+the way the keys will behave.
+
+13
+00:00:39,390 --> 00:00:41,940
+And they are just here to give you
+
+14
+00:00:41,940 --> 00:00:44,450
+a point of reference in your timeline.
+
+15
+00:00:44,450 --> 00:00:46,470
+I personally never use them,
+
+16
+00:00:46,470 --> 00:00:48,930
+but for the course it's
+a good tool for you
+
+17
+00:00:48,930 --> 00:00:50,930
+to have a point in reference in time
+
+18
+00:00:50,930 --> 00:00:53,390
+whenever you are watching my content.
+
+19
+00:00:53,390 --> 00:00:56,010
+Regarding the timing pass in itself,
+
+20
+00:00:56,010 --> 00:00:58,630
+I advise you to work by chunks.
+
+21
+00:00:58,630 --> 00:01:01,250
+For example, I'm working on the timing
+
+22
+00:01:01,250 --> 00:01:03,990
+of the anticipation of the right cross,
+
+23
+00:01:03,990 --> 00:01:06,490
+the impact, and the overshoot.
+
+24
+00:01:06,490 --> 00:01:08,240
+And when this feels right,
+
+25
+00:01:08,240 --> 00:01:11,010
+I will try to time it
+with the previous pose.
+
+26
+00:01:11,010 --> 00:01:13,070
+Remember that you can use the video
+
+27
+00:01:13,070 --> 00:01:15,640
+reference to time your blocking.
+
+28
+00:01:15,640 --> 00:01:18,940
+I want the first two punches
+to flow pretty quickly.
+
+29
+00:01:18,940 --> 00:01:22,500
+Since I'm animating at
+30 frame per second,
+
+30
+00:01:22,500 --> 00:01:26,910
+two to four frames between the
+two punches should be enough.
+
+31
+00:01:26,910 --> 00:01:31,500
+This way I should get the
+bam, bam I wanted initially.
+
+32
+00:01:31,500 --> 00:01:33,200
+With this first chunk done,
+
+33
+00:01:33,200 --> 00:01:36,630
+I can then work on the
+second half of the animation.
+
+34
+00:01:36,630 --> 00:01:39,840
+But I want a pretty big
+anticipation on the hook
+
+35
+00:01:39,840 --> 00:01:41,980
+to break the rhythm of the animation
+
+36
+00:01:41,980 --> 00:01:44,200
+and also give it more strength.
+
+37
+00:01:44,200 --> 00:01:46,670
+Though some poses are easier to time,
+
+38
+00:01:46,670 --> 00:01:48,920
+like the overshoot of the kick generally.
+
+39
+00:01:48,920 --> 00:01:52,290
+And overshoot is one or two frame
+
+40
+00:01:52,290 --> 00:01:55,670
+after the current hit
+on the current extreme.
+
+41
+00:01:55,670 --> 00:01:57,580
+There, it's a lot of back and forth.
+
+42
+00:01:57,580 --> 00:02:00,250
+You have to play the animation a lot,
+
+43
+00:02:00,250 --> 00:02:02,760
+then move some of the keys and see
+
+44
+00:02:02,760 --> 00:02:04,330
+if the flow is getting better.
+
+45
+00:02:04,330 --> 00:02:06,840
+I would also recommend you to share
+
+46
+00:02:06,840 --> 00:02:09,250
+your work at this stage if you can.
+
+47
+00:02:09,250 --> 00:02:13,410
+It's always very valuable to
+have fresh eyes upon your work,
+
+48
+00:02:13,410 --> 00:02:16,110
+even if it's not a professional animator.
+
+49
+00:02:16,110 --> 00:02:18,520
+When you're animating all day long,
+
+50
+00:02:18,520 --> 00:02:22,990
+you easily get over focused
+and you have a hard time
+
+51
+00:02:22,990 --> 00:02:26,410
+spotting what's wrong or
+right into your animation.
+
+52
+00:02:26,410 --> 00:02:29,960
+So as you can see, I played
+the animation several time,
+
+53
+00:02:29,960 --> 00:02:33,040
+and then I decided to whether increase
+
+54
+00:02:33,040 --> 00:02:35,840
+or decrease the length of a pose.
+
+55
+00:02:35,840 --> 00:02:37,550
+Here for example, I will
+make the anticipation
+
+56
+00:02:37,550 --> 00:02:40,300
+from the hook a little longer.
+
+57
+00:02:40,300 --> 00:02:42,720
+It will bring more power to the hook.
+
+58
+00:02:42,720 --> 00:02:46,030
+One last advice I'd like to remind you,
+
+59
+00:02:46,030 --> 00:02:49,400
+give yourself some space at
+the end of the animation.
+
+60
+00:02:49,400 --> 00:02:51,940
+This way you will clearly identify
+
+61
+00:02:51,940 --> 00:02:56,420
+when the animation is finishing
+and when it's restarting.
+
+62
+00:02:56,420 --> 00:03:00,440
+It will remove the visual
+noise of your character
+
+63
+00:03:00,440 --> 00:03:03,283
+jumping from one position to the other.
+

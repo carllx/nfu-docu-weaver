@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Please convert {above} into an outline using the Markdown format with h1, h2, h3, and h4 headers, including key points.",
+    "uid" : "84B4DB33-0980-4B89-9E18-7BAF1B19A732",
+    "name" : "Convert into Outline",
+    "keyword" : "outline"
+  }
+}

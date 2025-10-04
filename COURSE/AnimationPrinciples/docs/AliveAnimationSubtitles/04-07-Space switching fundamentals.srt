@@ -1,0 +1,1682 @@
+﻿1
+00:00:00,790 --> 00:00:03,654
+In this video, we are
+going to use the constraint
+
+2
+00:00:03,654 --> 00:00:05,328
+We've just seen before
+
+3
+00:00:05,328 --> 00:00:10,328
+to animate to different
+parts of the robot character
+
+4
+00:00:10,570 --> 00:00:13,920
+using the base motion
+we have created before.
+
+5
+00:00:13,920 --> 00:00:18,290
+To do so we will use a method
+called space switching.
+
+6
+00:00:18,290 --> 00:00:21,300
+This is an often overlooked technique
+
+7
+00:00:21,300 --> 00:00:23,750
+but it is so powerful.
+
+8
+00:00:23,750 --> 00:00:27,340
+I've been introduced to this
+technique and learned a lot
+
+9
+00:00:27,340 --> 00:00:30,792
+of things through the
+Animation Sherpa course
+
+10
+00:00:30,792 --> 00:00:32,680
+by Richard Lico.
+
+11
+00:00:32,680 --> 00:00:35,560
+He's one of the coolest person I know.
+
+12
+00:00:35,560 --> 00:00:37,440
+And beyond that, he's one
+
+13
+00:00:37,440 --> 00:00:40,550
+of the best animators
+in the game industry.
+
+14
+00:00:40,550 --> 00:00:44,035
+I will just show you the
+very basic of space switching
+
+15
+00:00:44,035 --> 00:00:45,627
+but if you enjoy it
+
+16
+00:00:45,627 --> 00:00:49,069
+and get comfortable with
+this animation course,
+
+17
+00:00:49,069 --> 00:00:53,813
+I truly advise you to take his
+animation course afterward.
+
+18
+00:00:55,600 --> 00:00:59,590
+So let's start with a simple
+up and down animation.
+
+19
+00:00:59,590 --> 00:01:04,590
+What I'd like to do is
+make bone B react to bone
+
+20
+00:01:04,600 --> 00:01:08,620
+A having a bit of overlapping animation.
+
+21
+00:01:08,620 --> 00:01:11,260
+And instead of doing it by hand
+
+22
+00:01:11,260 --> 00:01:15,179
+as we did for the bouncing
+ball or our scleral character
+
+23
+00:01:15,179 --> 00:01:17,345
+we will use constraints.
+
+24
+00:01:17,345 --> 00:01:20,360
+DID is to source the motion
+
+25
+00:01:20,360 --> 00:01:25,360
+of bone B in the work space
+and slightly offset it in time.
+
+26
+00:01:25,857 --> 00:01:26,940
+Don't worry.
+
+27
+00:01:26,940 --> 00:01:29,210
+This will make sense in a few seconds.
+
+28
+00:01:29,210 --> 00:01:31,503
+Let's select a bone B press shift S
+
+29
+00:01:31,503 --> 00:01:33,653
+and snap the cursor to it.
+
+30
+00:01:33,653 --> 00:01:37,810
+Let's switch to object mode and add an MT.
+
+31
+00:01:37,810 --> 00:01:42,320
+We wanted the MT to behave
+exactly as bone B to
+
+32
+00:01:42,320 --> 00:01:46,090
+do so I will select the MT,
+go to the constraint panel
+
+33
+00:01:46,090 --> 00:01:48,806
+add a copy location panel
+
+34
+00:01:48,806 --> 00:01:51,000
+and source the armature.
+
+35
+00:01:51,000 --> 00:01:53,410
+Then I will select the bone B.
+
+36
+00:01:53,410 --> 00:01:57,421
+Now our MT is following
+the bone B in space.
+
+37
+00:01:57,421 --> 00:02:01,600
+It is coping it's location in ward space
+
+38
+00:02:01,600 --> 00:02:04,647
+and I can no longer move
+it, but we don't have
+
+39
+00:02:04,647 --> 00:02:07,861
+any animation information
+we can play with,
+
+40
+00:02:07,861 --> 00:02:10,290
+the graph editor is empty.
+
+41
+00:02:10,290 --> 00:02:14,797
+So what we need to do is to
+comfort the current motion
+
+42
+00:02:14,797 --> 00:02:16,536
+of the MT that is due
+
+43
+00:02:16,536 --> 00:02:20,222
+to the constraint in an actual animation.
+
+44
+00:02:20,222 --> 00:02:23,860
+And we can do this through baking.
+
+45
+00:02:23,860 --> 00:02:26,870
+To do so let's just have our MT selected
+
+46
+00:02:26,870 --> 00:02:29,330
+press F3 and search for bake.
+
+47
+00:02:29,330 --> 00:02:33,500
+We will choose the first one
+object animation, bake action.
+
+48
+00:02:33,500 --> 00:02:36,020
+The bake action panel will open.
+
+49
+00:02:36,020 --> 00:02:38,900
+Here we can set the length of the action
+
+50
+00:02:38,900 --> 00:02:42,200
+we want to bake from
+frame zero to frame 25.
+
+51
+00:02:42,200 --> 00:02:44,570
+I always used visual keying,
+
+52
+00:02:44,570 --> 00:02:48,080
+so that I'm sure that all
+constraints are applied
+
+53
+00:02:48,080 --> 00:02:49,750
+when writing the action,
+
+54
+00:02:49,750 --> 00:02:51,970
+and we want to get rid of the constraints.
+
+55
+00:02:51,970 --> 00:02:54,230
+So I will enable clear constraints.
+
+56
+00:02:54,230 --> 00:02:57,510
+I won't choose override current action
+
+57
+00:02:57,510 --> 00:03:00,080
+since our MT don't have any action yet.
+
+58
+00:03:00,080 --> 00:03:03,680
+As I press okay Blender will
+get free of the constraint
+
+59
+00:03:03,680 --> 00:03:08,575
+and I do now have an action
+input into my graph editor.
+
+60
+00:03:08,575 --> 00:03:11,180
+If I played the animation, I can see
+
+61
+00:03:11,180 --> 00:03:14,105
+that the MT is kind of following bone B
+
+62
+00:03:14,105 --> 00:03:17,127
+but it's no longer constrained to it.
+
+63
+00:03:17,127 --> 00:03:22,020
+It's animation is just similar as bone B.
+
+64
+00:03:22,020 --> 00:03:24,830
+I will clean up the channel I don't need,
+
+65
+00:03:24,830 --> 00:03:26,313
+and keep this delocation on.
+
+66
+00:03:27,610 --> 00:03:29,000
+Now we have data.
+
+67
+00:03:29,000 --> 00:03:30,060
+We can edit.
+
+68
+00:03:30,060 --> 00:03:33,120
+We can offset the key frame or edit them.
+
+69
+00:03:33,120 --> 00:03:36,640
+And since those animation
+data are assigned
+
+70
+00:03:36,640 --> 00:03:40,089
+to a single object, they
+are using world space.
+
+71
+00:03:40,089 --> 00:03:42,750
+While bone B has no motion
+
+72
+00:03:42,750 --> 00:03:46,490
+in its local space, it is not animated.
+
+73
+00:03:46,490 --> 00:03:48,890
+It's just following bone A,
+
+74
+00:03:48,890 --> 00:03:52,120
+our MT does have an animation
+
+75
+00:03:52,120 --> 00:03:57,049
+but it is visually doing exactly
+the same thing as bone B.
+
+76
+00:03:57,049 --> 00:04:00,040
+Now to see the power of space switching
+
+77
+00:04:00,040 --> 00:04:01,545
+let's select our MT.
+
+78
+00:04:01,545 --> 00:04:06,545
+In the curve, press shift
+E add a cyclic modifier.
+
+79
+00:04:07,230 --> 00:04:09,230
+You find now select all the keys
+
+80
+00:04:09,230 --> 00:04:12,498
+press G and X and offset
+them a bit in time.
+
+81
+00:04:12,498 --> 00:04:17,117
+You can see that now the
+MT seems to have a formal
+
+82
+00:04:17,117 --> 00:04:19,585
+through animation compared to bone A.
+
+83
+00:04:19,585 --> 00:04:23,070
+So if I now select my armature
+
+84
+00:04:23,070 --> 00:04:26,170
+going to pose modes like bone B.
+
+85
+00:04:26,170 --> 00:04:28,278
+We can access the bone constraint.
+
+86
+00:04:28,278 --> 00:04:29,848
+So be very careful.
+
+87
+00:04:29,848 --> 00:04:34,848
+We are not constraining the
+armature object, but the bone.
+
+88
+00:04:35,010 --> 00:04:38,050
+So we need to go into the bone constraint
+
+89
+00:04:38,050 --> 00:04:40,167
+not the object constraint.
+
+90
+00:04:40,167 --> 00:04:41,290
+From there,
+
+91
+00:04:41,290 --> 00:04:43,857
+we can add a copy location constraint
+
+92
+00:04:43,857 --> 00:04:46,453
+and then source the MT.
+
+93
+00:04:46,453 --> 00:04:49,696
+Now bone B will follow the motion
+
+94
+00:04:49,696 --> 00:04:52,970
+or the location of the MT.
+
+95
+00:04:52,970 --> 00:04:56,464
+From there, we can press
+F3 and search for bake
+
+96
+00:04:56,464 --> 00:05:01,400
+or in my case, I've added
+the bake action functionality
+
+97
+00:05:01,400 --> 00:05:03,370
+to my quick favorite so I can press
+
+98
+00:05:03,370 --> 00:05:05,553
+the Q key to access it.
+
+99
+00:05:05,553 --> 00:05:07,540
+I will use the same option
+
+100
+00:05:07,540 --> 00:05:09,550
+visual keying and clear constraint
+
+101
+00:05:09,550 --> 00:05:12,650
+and I will add overwrite current action.
+
+102
+00:05:12,650 --> 00:05:15,310
+Now bone B is no longer a constraint
+
+103
+00:05:15,310 --> 00:05:19,010
+but it's following the
+same motion as the MT.
+
+104
+00:05:19,010 --> 00:05:23,189
+We can now get rid of MT and
+shape the curves of bone B.
+
+105
+00:05:23,189 --> 00:05:25,711
+All channels have been written
+
+106
+00:05:25,711 --> 00:05:30,711
+but only the Z axis channel
+is interesting for us.
+
+107
+00:05:30,730 --> 00:05:35,383
+You have just performed your
+first space switching exercise.
+
+108
+00:05:36,920 --> 00:05:40,210
+Let's now see what we can
+do with copy rotation.
+
+109
+00:05:40,210 --> 00:05:43,660
+In the example file, you
+will find a second collection
+
+110
+00:05:43,660 --> 00:05:46,450
+with the copier rotation example.
+
+111
+00:05:46,450 --> 00:05:49,392
+It's a simple chain of three bones.
+
+112
+00:05:49,392 --> 00:05:52,400
+With bone A being animated.
+
+113
+00:05:52,400 --> 00:05:57,400
+It's a simple backend for
+rotation on its X axis.
+
+114
+00:05:57,480 --> 00:06:00,643
+Bone B and C are simple
+children without any animation.
+
+115
+00:06:01,800 --> 00:06:03,760
+Let's go back into object mode
+
+116
+00:06:03,760 --> 00:06:05,890
+and add two MTs.
+
+117
+00:06:05,890 --> 00:06:07,900
+For the sake of presentation,
+
+118
+00:06:07,900 --> 00:06:12,900
+I will add on the first MT a
+copy, transform from bone B.
+
+119
+00:06:13,850 --> 00:06:16,700
+Go to the constraint,
+add the copy transform.
+
+120
+00:06:16,700 --> 00:06:19,830
+Source the second armature and bone B.
+
+121
+00:06:19,830 --> 00:06:24,830
+Now our MT is snapped onto
+bone B for the second MT.
+
+122
+00:06:25,640 --> 00:06:29,360
+I will add a simple copy
+rotation and so it's
+
+123
+00:06:29,360 --> 00:06:31,740
+the same armature and bone C.
+
+124
+00:06:31,740 --> 00:06:33,960
+The first MT is now coping
+
+125
+00:06:33,960 --> 00:06:37,728
+both the location and
+the rotation of bone B.
+
+126
+00:06:37,728 --> 00:06:41,120
+But in the end, what is interesting for us
+
+127
+00:06:41,120 --> 00:06:42,900
+is only the rotation.
+
+128
+00:06:42,900 --> 00:06:47,009
+If I was to isolate the
+motion of the first MTs
+
+129
+00:06:47,009 --> 00:06:49,379
+that is also copying the location,
+
+130
+00:06:49,379 --> 00:06:53,840
+he will be rotating as
+the one above, but it
+
+131
+00:06:53,840 --> 00:06:57,810
+can be a bit confusing to see
+only the rotation of the MT
+
+132
+00:06:57,810 --> 00:07:00,480
+whenever the bones are currently childs
+
+133
+00:07:00,480 --> 00:07:04,450
+of another one and their
+location is also changing.
+
+134
+00:07:04,450 --> 00:07:08,550
+But in this case, we will
+only affect their rotation.
+
+135
+00:07:08,550 --> 00:07:11,800
+So I will switch to a
+simple copier rotation
+
+136
+00:07:11,800 --> 00:07:13,343
+and so it's bone B.
+
+137
+00:07:13,343 --> 00:07:17,946
+And I will select both
+MT, press my Q shortcut
+
+138
+00:07:17,946 --> 00:07:20,090
+and bake the action.
+
+139
+00:07:20,090 --> 00:07:23,698
+Now both the MTs have
+lost their constraint
+
+140
+00:07:23,698 --> 00:07:26,290
+but we have animation that.
+
+141
+00:07:26,290 --> 00:07:30,270
+So we can now use those
+two MTs to constraint
+
+142
+00:07:30,270 --> 00:07:31,470
+bone B and bone C.
+
+143
+00:07:31,470 --> 00:07:33,160
+But first let's make sure
+
+144
+00:07:33,160 --> 00:07:35,770
+that we have all the curves selected
+
+145
+00:07:35,770 --> 00:07:39,865
+for both MTs, press
+shift E and make cycle.
+
+146
+00:07:39,865 --> 00:07:42,563
+Now let's select the armature
+
+147
+00:07:42,563 --> 00:07:45,070
+go into pose mode, select bone B,
+
+148
+00:07:45,070 --> 00:07:49,020
+go to the constraint panel,
+add a copy rotation constraint
+
+149
+00:07:49,020 --> 00:07:50,950
+and source the first MT.
+
+150
+00:07:50,950 --> 00:07:52,290
+Big mistake here.
+
+151
+00:07:52,290 --> 00:07:55,116
+We've added the constraint
+on to the object
+
+152
+00:07:55,116 --> 00:07:58,870
+as explained before we need
+to use bone constraints.
+
+153
+00:07:58,870 --> 00:08:01,350
+So let's add the copy rotation source
+
+154
+00:08:01,350 --> 00:08:05,046
+the first MT select bone
+C add the new constraint
+
+155
+00:08:05,046 --> 00:08:08,630
+and solves the second then from there,
+
+156
+00:08:08,630 --> 00:08:10,000
+when we played the animation
+
+157
+00:08:10,000 --> 00:08:14,010
+nothing changed since those
+two bones copying the rotation
+
+158
+00:08:14,010 --> 00:08:17,600
+of something that was coping
+their rotation previously.
+
+159
+00:08:17,600 --> 00:08:20,220
+But if I now offset to curve
+
+160
+00:08:20,220 --> 00:08:23,379
+of the first empty by one or two frames,
+
+161
+00:08:23,379 --> 00:08:27,630
+you can see the chain of bones changing.
+
+162
+00:08:27,630 --> 00:08:31,390
+And if I now also offset the second MT
+
+163
+00:08:31,390 --> 00:08:33,142
+by three or four frame,
+
+164
+00:08:33,142 --> 00:08:37,691
+I will get an overlapping
+motion of my whole chain.
+
+165
+00:08:37,691 --> 00:08:41,532
+So the idea is to offset
+by one or two frame,
+
+166
+00:08:41,532 --> 00:08:43,350
+the first MT,
+
+167
+00:08:43,350 --> 00:08:46,981
+then the next one by one
+or two additional frame.
+
+168
+00:08:46,981 --> 00:08:49,713
+So three to four frames
+
+169
+00:08:49,713 --> 00:08:53,450
+and we'd get our
+overlapping motion for free.
+
+170
+00:08:53,450 --> 00:08:56,160
+From there, we can select the armature
+
+171
+00:08:56,160 --> 00:09:00,406
+go back into pause mode,
+select both constraint bone,
+
+172
+00:09:00,406 --> 00:09:05,051
+and bake the action and choose
+overwrite current action.
+
+173
+00:09:05,051 --> 00:09:07,720
+And we can get rid of MTs.
+
+174
+00:09:07,720 --> 00:09:09,773
+And then we have our animation done.
+
+175
+00:09:12,200 --> 00:09:13,910
+Let's see a first example.
+
+176
+00:09:13,910 --> 00:09:15,008
+We've aimed space.
+
+177
+00:09:15,008 --> 00:09:19,691
+I have the sweeping motion,
+but I don't want B and C to get
+
+178
+00:09:19,691 --> 00:09:23,950
+through this plane to create
+the trucking constraint.
+
+179
+00:09:23,950 --> 00:09:26,923
+We need first to add a couple of MTs.
+
+180
+00:09:28,110 --> 00:09:29,980
+And then to those MTs
+
+181
+00:09:29,980 --> 00:09:34,523
+we will add a copy transform
+so that they follow each bone.
+
+182
+00:09:34,523 --> 00:09:37,120
+So I will source bone B
+
+183
+00:09:37,120 --> 00:09:41,135
+for the first one and bone C
+for the second one this way
+
+184
+00:09:41,135 --> 00:09:44,273
+both MTs are perfectly aligned with each
+
+185
+00:09:44,273 --> 00:09:47,457
+of their targets now to be able to get rid
+
+186
+00:09:47,457 --> 00:09:50,090
+of the constraint, but
+keep those transform.
+
+187
+00:09:50,090 --> 00:09:53,780
+We can press control A and
+choose visual transform.
+
+188
+00:09:53,780 --> 00:09:54,900
+I will do this for
+
+189
+00:09:54,900 --> 00:09:57,770
+both MT and get rid of their constraints.
+
+190
+00:09:57,770 --> 00:10:00,969
+But the cool thing is that now
+they are transformed channel
+
+191
+00:10:00,969 --> 00:10:03,423
+as the same transformation
+
+192
+00:10:03,423 --> 00:10:06,475
+as bone B and bone C, but in ward space.
+
+193
+00:10:06,475 --> 00:10:11,048
+So if I go into my MTs
+properties editor and switch
+
+194
+00:10:11,048 --> 00:10:14,459
+to arrows as a way to display them,
+
+195
+00:10:14,459 --> 00:10:17,530
+you will see that there are now aligned
+
+196
+00:10:17,530 --> 00:10:19,940
+with bone B and bone C.
+
+197
+00:10:19,940 --> 00:10:23,050
+They are sharing both the same orientation
+
+198
+00:10:23,050 --> 00:10:25,820
+and position in ward space.
+
+199
+00:10:25,820 --> 00:10:27,580
+We now need to offset them.
+
+200
+00:10:27,580 --> 00:10:30,660
+So I will switch the pivot
+point to local with both
+
+201
+00:10:30,660 --> 00:10:35,360
+of them selected press G
+and moved them on the Y axis
+
+202
+00:10:35,360 --> 00:10:39,249
+so that they are still
+align with bone B and C,
+
+203
+00:10:39,249 --> 00:10:44,020
+but they are further away
+on their local Y axis.
+
+204
+00:10:44,020 --> 00:10:47,640
+Now for them to follow
+the motion of bone B and C
+
+205
+00:10:47,640 --> 00:10:50,731
+I need to make them become
+child of those boards.
+
+206
+00:10:50,731 --> 00:10:53,418
+And we can use a new constraint such
+
+207
+00:10:53,418 --> 00:10:56,040
+as the child of constraint.
+
+208
+00:10:56,040 --> 00:10:59,750
+It's a very handy constraint
+that will make the owner behave
+
+209
+00:10:59,750 --> 00:11:02,378
+as if it was a child of the target,
+
+210
+00:11:02,378 --> 00:11:05,320
+as a target let's source the armature.
+
+211
+00:11:05,320 --> 00:11:09,525
+And then bone B, we can
+see that the MT got offset
+
+212
+00:11:09,525 --> 00:11:14,061
+just click set, inverse
+to reset its position.
+
+213
+00:11:14,061 --> 00:11:16,150
+And let's repeat the process
+
+214
+00:11:16,150 --> 00:11:18,449
+with bone C and the second MT,
+
+215
+00:11:18,449 --> 00:11:20,250
+solve the armature.
+
+216
+00:11:20,250 --> 00:11:23,687
+Choose bone C and click set inverse.
+
+217
+00:11:23,687 --> 00:11:26,580
+Now, if we play our animation,
+
+218
+00:11:26,580 --> 00:11:28,650
+we can see both those MTs.
+
+219
+00:11:28,650 --> 00:11:32,496
+Following both bones,
+let's select both MTs
+
+220
+00:11:32,496 --> 00:11:36,960
+and bake the action or bake the animation.
+
+221
+00:11:36,960 --> 00:11:40,070
+As before, whenever we
+are baking the action,
+
+222
+00:11:40,070 --> 00:11:42,600
+we can choose to remove the constraint
+
+223
+00:11:42,600 --> 00:11:45,984
+and we can see our MTs
+still following the motion
+
+224
+00:11:45,984 --> 00:11:49,635
+but now they do have an emission data.
+
+225
+00:11:49,635 --> 00:11:53,030
+We don't need any rotation or scale here
+
+226
+00:11:53,030 --> 00:11:57,804
+so we can get treated of the
+rotation and scale curve.
+
+227
+00:11:57,804 --> 00:11:59,630
+You don't need to do it.
+
+228
+00:11:59,630 --> 00:12:03,500
+It's just to keep the
+graffiti top cleaner.
+
+229
+00:12:03,500 --> 00:12:07,120
+Now, go back on the armature in post mode
+
+230
+00:12:07,120 --> 00:12:09,279
+go to the bone's constraint
+
+231
+00:12:09,279 --> 00:12:14,279
+select dumped truck constraint
+and source the first MT.
+
+232
+00:12:14,590 --> 00:12:17,266
+Then repeat the process with bone C,
+
+233
+00:12:17,266 --> 00:12:22,130
+add dump truck constraint
+and source the second MT.
+
+234
+00:12:22,130 --> 00:12:24,470
+When we played the animation as usual
+
+235
+00:12:24,470 --> 00:12:26,810
+nothing special happened, but
+
+236
+00:12:26,810 --> 00:12:31,050
+if I select the first MT press shift E to
+
+237
+00:12:31,050 --> 00:12:34,517
+make all the curve cyclic
+and then offset them
+
+238
+00:12:34,517 --> 00:12:39,498
+by one or two frame, we can
+see our bone chain offset.
+
+239
+00:12:39,498 --> 00:12:43,349
+And if I repeat the
+process with the second MT,
+
+240
+00:12:43,349 --> 00:12:46,082
+but offset it by two frame.
+
+241
+00:12:46,082 --> 00:12:51,074
+Now you can see the chain
+animated with a bit of overlap.
+
+242
+00:12:51,074 --> 00:12:52,040
+It seems
+
+243
+00:12:52,040 --> 00:12:55,380
+that the make cycle function
+didn't work on this curve.
+
+244
+00:12:55,380 --> 00:12:56,980
+So I will fix this.
+
+245
+00:12:56,980 --> 00:13:01,980
+Now, if I want my chain to avoid
+getting through or clipping
+
+246
+00:13:02,410 --> 00:13:06,640
+with the plane we have
+created, I can simply work
+
+247
+00:13:06,640 --> 00:13:10,717
+on the curves or the animation
+of the different MTs.
+
+248
+00:13:10,717 --> 00:13:13,988
+So I will select the first MT,
+
+249
+00:13:13,988 --> 00:13:17,941
+and work on it's Z location curve.
+
+250
+00:13:17,941 --> 00:13:22,169
+I will try to spot the key
+where it goes under the ground
+
+251
+00:13:22,169 --> 00:13:24,170
+and I will select the key
+
+252
+00:13:24,170 --> 00:13:28,000
+and offset it a bit on the
+Y axis in the graffiti.
+
+253
+00:13:28,000 --> 00:13:29,602
+It also is that it gets a little
+
+254
+00:13:29,602 --> 00:13:34,514
+we then go further whenever
+it's leaving the ground
+
+255
+00:13:34,514 --> 00:13:37,560
+and I will duplicate the frame
+
+256
+00:13:37,560 --> 00:13:41,050
+I've just adjust on top of this one.
+
+257
+00:13:41,050 --> 00:13:44,440
+Those two keys represent our ground level
+
+258
+00:13:44,440 --> 00:13:45,600
+and I can get rid
+
+259
+00:13:45,600 --> 00:13:48,898
+of any keys that goes under these labels.
+
+260
+00:13:48,898 --> 00:13:51,230
+I can now repeat the process
+
+261
+00:13:51,230 --> 00:13:54,860
+with the second MT isolate to see location
+
+262
+00:13:54,860 --> 00:13:58,699
+curve spot, the moment
+where it goes on the ground
+
+263
+00:13:58,699 --> 00:14:02,100
+then align its position with the ground.
+
+264
+00:14:02,100 --> 00:14:05,594
+Go even further duplicate the key frame
+
+265
+00:14:05,594 --> 00:14:10,446
+and get rid of any keys
+that are under this label.
+
+266
+00:14:10,446 --> 00:14:13,400
+And when I played the animation now,
+
+267
+00:14:13,400 --> 00:14:18,400
+it seems that this whipping
+motion is stuck to the ground.
+
+268
+00:14:18,461 --> 00:14:21,012
+Then as usual, we can go back
+
+269
+00:14:21,012 --> 00:14:25,034
+onto our bone chain and bake the action.
+
+270
+00:14:25,034 --> 00:14:28,724
+And if there are any
+glitches in the animation,
+
+271
+00:14:28,724 --> 00:14:30,690
+you can remove a couple
+
+272
+00:14:30,690 --> 00:14:33,370
+of frames to get a smooth transition.
+
+273
+00:14:33,370 --> 00:14:37,280
+Using aim space is a
+super powerful workflow.
+
+274
+00:14:37,280 --> 00:14:39,740
+Don't worry if you get
+to be close to at first
+
+275
+00:14:39,740 --> 00:14:42,640
+we will repeat this process a lot of time
+
+276
+00:14:42,640 --> 00:14:46,350
+on the robot and you will
+get very familiar with it.
+
+277
+00:14:46,350 --> 00:14:48,070
+Now, in the last example,
+
+278
+00:14:48,070 --> 00:14:50,310
+we will see all we can combine a
+
+279
+00:14:50,310 --> 00:14:52,020
+both the copy location
+
+280
+00:14:52,020 --> 00:14:56,633
+or location switch with this in space.
+
+281
+00:14:57,860 --> 00:15:00,150
+To do so I've created another armature
+
+282
+00:15:00,150 --> 00:15:01,850
+with another animation.
+
+283
+00:15:01,850 --> 00:15:04,453
+It's a simple up and down motion,
+
+284
+00:15:04,453 --> 00:15:06,140
+with have a little bounce,
+
+285
+00:15:06,140 --> 00:15:07,160
+so it's pretty close
+
+286
+00:15:07,160 --> 00:15:09,150
+to what we have between the body
+
+287
+00:15:09,150 --> 00:15:11,440
+and the cannon of our robot.
+
+288
+00:15:11,440 --> 00:15:13,990
+We will start with the location offset
+
+289
+00:15:13,990 --> 00:15:15,720
+with my bone B selected.
+
+290
+00:15:15,720 --> 00:15:18,930
+I will press shift S to snap the cursor
+
+291
+00:15:18,930 --> 00:15:20,768
+to it and add an MT.
+
+292
+00:15:20,768 --> 00:15:24,983
+To this MT I will add a
+copy location constraint
+
+293
+00:15:24,983 --> 00:15:29,020
+sourcing the armature and the bone B.
+
+294
+00:15:29,020 --> 00:15:31,760
+Now the MT is following the motion
+
+295
+00:15:31,760 --> 00:15:34,240
+of the bone B in ward space.
+
+296
+00:15:34,240 --> 00:15:36,160
+I can press my Q key to get
+
+297
+00:15:36,160 --> 00:15:39,487
+to my quick favorite and bake the action.
+
+298
+00:15:39,487 --> 00:15:41,770
+I can get rid of all the curve,
+
+299
+00:15:41,770 --> 00:15:43,970
+but the Z location curve.
+
+300
+00:15:43,970 --> 00:15:47,947
+Press shift E and add a cyclic modifier.
+
+301
+00:15:47,947 --> 00:15:51,110
+From there I can slightly
+offset the curve in time
+
+302
+00:15:51,110 --> 00:15:54,962
+by one or two frames to get
+a nice overlap in motion.
+
+303
+00:15:54,962 --> 00:15:57,980
+I will then select back my armature,
+
+304
+00:15:57,980 --> 00:15:59,290
+go into pose mode
+
+305
+00:15:59,290 --> 00:16:01,330
+go into the bone constraint,
+
+306
+00:16:01,330 --> 00:16:03,380
+add a copy location,
+
+307
+00:16:03,380 --> 00:16:06,280
+so it's the MT and now bone B,
+
+308
+00:16:06,280 --> 00:16:08,523
+get this overlapping motion.
+
+309
+00:16:08,523 --> 00:16:11,700
+I can press Q and bake the action.
+
+310
+00:16:11,700 --> 00:16:16,040
+I won't delete the MT
+because we will need it to
+
+311
+00:16:16,040 --> 00:16:19,241
+currently create the aim space constraint.
+
+312
+00:16:19,241 --> 00:16:24,178
+So the first thing to do is
+to align the MT on the bone.
+
+313
+00:16:24,178 --> 00:16:27,650
+So let's add a copy transform concentrate
+
+314
+00:16:27,650 --> 00:16:31,151
+to the MT and source
+as a target to bone B.
+
+315
+00:16:31,151 --> 00:16:35,573
+Let's press control A and
+apply the visual transform.
+
+316
+00:16:35,573 --> 00:16:39,080
+We can get rid of the
+copy, transform constraint.
+
+317
+00:16:39,080 --> 00:16:40,508
+And if we want, we can go
+
+318
+00:16:40,508 --> 00:16:44,300
+to the MT option and
+switch to arrows to see
+
+319
+00:16:44,300 --> 00:16:47,686
+that it is oriented the
+same way as the bone.
+
+320
+00:16:47,686 --> 00:16:51,892
+I will offset it along its local Y axis.
+
+321
+00:16:51,892 --> 00:16:54,130
+And now we need to add a child
+
+322
+00:16:54,130 --> 00:16:57,170
+of constraint to it, sourcing the bone B.
+
+323
+00:16:57,170 --> 00:17:00,182
+Click set inverse to reset its position.
+
+324
+00:17:00,182 --> 00:17:03,330
+And it's now following the motion
+
+325
+00:17:03,330 --> 00:17:06,298
+of bone B as if it was a child of it.
+
+326
+00:17:06,298 --> 00:17:08,739
+Let's bake this animation.
+
+327
+00:17:08,739 --> 00:17:11,240
+We can cleave the curve if we want,
+
+328
+00:17:11,240 --> 00:17:12,744
+getting rid of the curve
+
+329
+00:17:12,744 --> 00:17:15,577
+that doesn't have any animation.
+
+330
+00:17:15,577 --> 00:17:19,859
+Then press shift E and make
+the current curve cycle.
+
+331
+00:17:19,859 --> 00:17:24,202
+Then we can use E to
+constraint the bone B,
+
+332
+00:17:24,202 --> 00:17:27,840
+using a dump truck constraint.
+
+333
+00:17:27,840 --> 00:17:30,636
+If we now select back the MT,
+
+334
+00:17:30,636 --> 00:17:33,311
+an offset it's curved in time
+
+335
+00:17:33,311 --> 00:17:36,170
+we will have a bit of follow through
+
+336
+00:17:36,170 --> 00:17:38,401
+animation in the rotation.
+
+337
+00:17:38,401 --> 00:17:41,240
+So we have offset the motion
+
+338
+00:17:41,240 --> 00:17:44,902
+of the bone B using a location offset
+
+339
+00:17:44,902 --> 00:17:49,260
+and now also using a
+dump truck constraint.
+
+340
+00:17:49,260 --> 00:17:52,780
+The cool thing about the
+dump truck constraint is
+
+341
+00:17:52,780 --> 00:17:55,980
+that it's very easy to smooth a curve.
+
+342
+00:17:55,980 --> 00:17:59,560
+If, for example, I don't
+want that much bounce
+
+343
+00:17:59,560 --> 00:18:00,778
+onto my bone B
+
+344
+00:18:00,778 --> 00:18:05,632
+and I want a smooth transition
+as if it was very heavy.
+
+345
+00:18:05,632 --> 00:18:06,854
+I can get rid
+
+346
+00:18:06,854 --> 00:18:10,639
+of some key frames offset
+to beat the lower key
+
+347
+00:18:10,639 --> 00:18:15,140
+and it will still follow
+the original motion
+
+348
+00:18:15,140 --> 00:18:17,800
+of the bone B location wise.
+
+349
+00:18:17,800 --> 00:18:21,770
+So the base of the bone is
+still have pretty crispy
+
+350
+00:18:21,770 --> 00:18:24,890
+and sharp bones while it's steep,
+
+351
+00:18:24,890 --> 00:18:26,010
+that is pointing
+
+352
+00:18:26,010 --> 00:18:28,754
+to what the target or the MT
+
+353
+00:18:28,754 --> 00:18:31,840
+get a smooth sort of motion.
+
+354
+00:18:31,840 --> 00:18:35,960
+The last thing we haven't seen
+regarding any constraint is
+
+355
+00:18:35,960 --> 00:18:39,142
+that we can reduce the
+interference of the constraint.
+
+356
+00:18:39,142 --> 00:18:42,320
+If I want to reduce the amplitude
+
+357
+00:18:42,320 --> 00:18:44,066
+of the rotation of the bone B.
+
+358
+00:18:44,066 --> 00:18:46,600
+It would have worked the same
+
+359
+00:18:46,600 --> 00:18:49,500
+with any other influence,
+
+360
+00:18:49,500 --> 00:18:51,686
+such as the location constraint
+
+361
+00:18:51,686 --> 00:18:56,686
+the bounce would be the same
+but with a lower amplitude.
+
+362
+00:18:57,060 --> 00:19:00,380
+From there, we can bake
+the current action on
+
+363
+00:19:00,380 --> 00:19:01,810
+to the bone B.
+
+364
+00:19:01,810 --> 00:19:04,350
+Don't worry if you're a bit lost at first
+
+365
+00:19:04,350 --> 00:19:08,169
+just try to redo the
+exercise you've just seen.
+
+366
+00:19:08,169 --> 00:19:11,830
+We will repeat this a
+lot through this chapter.
+
+367
+00:19:11,830 --> 00:19:15,326
+So you will get familiar
+with this technique very fast
+
+368
+00:19:15,326 --> 00:19:19,450
+Learning those techniques
+will become a huge time saver
+
+369
+00:19:19,450 --> 00:19:21,780
+for you later in the course.
+
+370
+00:19:21,780 --> 00:19:22,613
+To summarize,
+
+371
+00:19:22,613 --> 00:19:25,045
+we have seen that we can use constraint
+
+372
+00:19:25,045 --> 00:19:30,045
+and animation baking to source
+data from a specific motion
+
+373
+00:19:30,191 --> 00:19:33,478
+and transferred them on to another bone
+
+374
+00:19:33,478 --> 00:19:35,690
+or another object.
+
+375
+00:19:35,690 --> 00:19:37,560
+We can use copy location
+
+376
+00:19:37,560 --> 00:19:40,383
+and copy rotation to create nice follow
+
+377
+00:19:40,383 --> 00:19:43,073
+through animation with ease.
+
+378
+00:19:43,073 --> 00:19:45,380
+We can have even more control
+
+379
+00:19:45,380 --> 00:19:49,550
+upon rotation of the target
+using tracking constraint
+
+380
+00:19:49,550 --> 00:19:52,223
+such as dumped truck constraint.
+
+381
+00:19:52,223 --> 00:19:56,951
+We can use multiple constraint
+to create complex mechanism
+
+382
+00:19:56,951 --> 00:19:58,870
+in a few clicks.
+
+383
+00:19:58,870 --> 00:20:01,377
+And finally, we can use the influence
+
+384
+00:20:01,377 --> 00:20:04,740
+of the different constraint to add more
+
+385
+00:20:04,740 --> 00:20:08,243
+or less amplitude to the
+motion we are creating.
+

@@ -1,0 +1,34 @@
+{
+    "conversation_id": "cqcg22rd8p8i6bo1s29g",
+    "attachments": [
+        {
+            "date": 2019,
+            "title": "Literature review and research design: A guide to effective research practice",
+            "fileID": "cqbmckhivtd78pjadsqg",
+            "itemID": 3305,
+            "citation": "Harris, D. (2019). Literature review and research design: A guide to effective research practice. Routledge.\n",
+            "citationShort": "Harris, 2019",
+            "tags": [
+                "#kimi",
+                "Education / Philosophy, Theory & Social Aspects",
+                "Education / Research",
+                "Literary Criticism / General",
+                "Psychology / Movements / General",
+                "Psychology / Research & Methodology",
+                "Reference / Research",
+                "Social Science / Research",
+                "Study Aids / Study & Test-Taking Skills"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 传统的文献综述一般有哪些章节？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Literature review and research design: A guide to effective research practice, was published on 2019. (It can be cite this paper as Harris, 2019 on your answer). \n\n",
+    "response": "根据《文献综述与研究设计：有效研究实践指南》（Harris, 2019）中的讨论，传统的文献综述通常包含以下几个章节：\n\n1. **引言（Introduction）**：\n   - 引言部分通常会介绍研究的背景、目的和重要性，为读者提供研究的总体框架。\n\n2. **理论基础（Theoretical Foundations）**：\n   - 这一部分讨论了构成研究理论基础的主要理论，为研究提供了概念和理论支持。\n\n3. **研究问题（Research Question）**：\n   - 明确研究问题，这是文献综述的核心，指导整个研究的方向和重点。\n\n4. **文献搜索（Literature Search）**：\n   - 描述用于确定文献综述范围的搜索策略和关键词，以及如何筛选和选择相关文献。\n\n5. **文献评估（Evaluation of Literature）**：\n   - 对选定文献的质量、方法和结论进行评估，分析其对研究问题的贡献和局限性。\n\n6. **文献整合（Integration of Literature）**：\n   - 将评估后的文献按照主题或理论进行整合，展示不同研究之间的联系和差异。\n\n7. **讨论（Discussion）**：\n   - 基于文献综述的结果，讨论其对研究领域的贡献，以及对现有理论和实践的影响。\n\n8. **结论（Conclusion）**：\n   - 总结文献综述的主要发现，强调其对研究问题的意义，并提出未来研究的方向。\n\n9. **建议（Recommendations）**：\n   - 根据文献综述的结果，提出对实践或未来研究的建议。\n\n10. **参考文献（References）**：\n    - 列出文献综述中引用的所有文献，按照特定的引用格式。\n\n这些章节共同构成了一个完整的文献综述，帮助读者理解研究领域的现有知识状态，并为新的研究提供理论基础和方向。（Harris, 2019）",
+    "refs": [
+        "cqbmckhivtd78pjadsqg"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqcg235fc7ue4u6n0840",
+    "req_id": "cqcg235fc7ue4u6n084g",
+    "resp_id": "cqcg235fc7ue4u6n0850",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 传统的文献综述一般有哪些章节？"
+}

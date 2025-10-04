@@ -1,0 +1,165 @@
+![cover.jpg](https://i.imgur.com/Dv80Wdi.jpeg)
+
+[]{#cover.xhtml}
+
+::: {style="margin:0em; padding:0em;"}
+[]{#cover.xhtml#cover}![cover.jpg](https://i.imgur.com/XDvT3ws.jpeg)
+:::
+
+[]{#front01.xhtml}
+
+![pub1.jpg](https://i.imgur.com/V396Fma.jpeg)
+
+[]{#title.xhtml}
+
+Giorgio Agamben
+
+Che cos'è un dispositivo?
+
+![pub2.jpg](https://i.imgur.com/S6Xr7mj.jpeg)
+
+[]{#copyright.xhtml}
+
+ISBN 978-88-7452-820-2
+
+© 2006 Giorgio Agamben
+
+© 2006 nottetempo srl
+
+Foro Buonaparte 46 - 20121 Milano
+
+[www.edizioninottetempo.it](http://www.edizioninottetempo.it)
+
+<nottetempo@edizioninottetempo.it>
+
+Progetto grafico: Studio Cerri Associati
+
+*Nona edizione febbraio 2018*
+
+[]{#chapter01.xhtml}
+
+# Che cos'è un dispositivo? {.chtitle}
+
+1\. Le questioni terminologiche sono importanti in filosofia. Come ha detto una volta un filosofo per il quale ho il piú grande rispetto, la terminologia è il momento poetico del pensiero. Ciò non significa che i filosofi debbano ogni volta necessariamente definire i loro termini tecnici. Platone non ha mai definito il piú importante dei suoi termini: idea. Altri invece, come Spinoza e Leibniz, preferiscono definire *more geometrico* la loro terminologia.
+
+L'ipotesi che intendo proporvi è che la parola "dispositivo" sia un termine tecnico decisivo nella strategia del pensiero di Foucault. Egli lo usa spesso soprattutto a partire dalla metà degli anni Settanta, quando comincia a occuparsi di quello che chiamava la "governamentalità" o il "governo degli uomini". Benché non ne dia mai una vera e propria definizione, egli si avvicina a qualcosa come una definizione in un'intervista del 1977:
+
+"Ciò che io cerco di individuare con questo nome, è, innanzitutto, un insieme assolutamente eterogeneo che implica discorsi, istituzioni, strutture architettoniche, decisioni regolative, leggi, misure amministrative, enunciati scientifici, proposizioni filosofiche, morali e filantropiche, in breve: tanto del detto che del non-detto, ecco gli elementi del dispositivo. Il dispositivo è la rete che si stabilisce fra questi elementi...
+
+...col termine dispositivo, intendo una specie -- per cosí dire -- di formazione che in un certo momento storico ha avuto come funzione essenziale di rispondere a un'urgenza. Il dispositivo ha dunque una funzione eminentemente strategica...
+
+Ho detto che il dispositivo è di natura essenzialmente strategica, il che implica che si tratti di una certa manipolazione di rapporti di forza, di un intervento razionale e concertato nei rapporti di forza, sia per orientarli in una certa direzione, sia per bloccarli o per fissarli e utilizzarli. Il dispositivo è sempre iscritto in un gioco di potere e, insieme, sempre legato a dei limiti del sapere, che derivano da esso e, nella stessa misura, lo condizionano. Il dispositivo è appunto questo: un insieme di strategie di rapporti di forza che condizionano certi tipi di sapere e ne sono condizionati".
+
+(*Dits et écrits*, vol. [III]{.small}, pp. 299-300)
+
+Riassumiamo brevemente i tre punti:
+
+a\. È un insieme eterogeneo, che include virtualmente qualsiasi cosa, linguistico e non-linguistico allo stesso titolo: discorsi, istituzioni, edifici, leggi, misure di polizia, proposizioni filosofiche ecc. Il dispositivo in se stesso è la rete che si stabilisce tra questi elementi.
+
+b\. Il dispositivo ha sempre una funzione strategica concreta e si iscrive sempre in una relazione di potere.
+
+c\. Come tale, risulta dall'incrocio di relazioni di potere e di relazioni di sapere.
+
+2\. Vorrei ora provare a tracciare una sommaria genealogia di questo termine prima all'interno dell'opera di Foucault e poi in un contesto storico piú ampio.
+
+Alla fine degli anni Sessanta, piú o meno al momento in cui scrive *L'archeologia del sapere*, per definire l'oggetto delle sue ricerche Foucault non usa il termine dispositivo ma quello, etimologicamente vicino, "positivité", positività, anche questa volta senza definirlo.
+
+Mi sono spesso chiesto dove Foucault avesse trovato questo termine, fino al momento in cui, non molti mesi fa, ho riletto il saggio di Jean Hyppolite *Introduction à la philosophie de l'histoire de Hegel*. Voi conoscete probabilmente il forte rapporto che legava Foucault a Hyppolite, che egli definisce talvolta "il mio maestro" (Hyppolite era stato effettivamente suo insegnate prima durante la *khâgne* al liceo Henri [IV]{.small} e poi all'*Ecole normale*).
+
+Il capitolo terzo del saggio di Hyppolite porta il titolo: *Raison et histoire. Les idées de positivité et de destin* (Ragione e storia. Le idee di positività e di destino). Egli concentra qui la sua analisi su due opere hegeliane del cosiddetto periodo di Berna e Francoforte (1795-96): la prima è "Lo spirito del cristianesimo e il suo destino" e la seconda -- quella da cui proviene il termine che ci interessa -- "La positività della religione cristiana" (*Die Positivität der christliche Religion*). Secondo Hyppolite, "destino" e "positività" sono due concetti-chiave del pensiero hegeliano. In particolare, il termine "positività" ha in Hegel il suo luogo proprio nell'opposizione fra "religione naturale" e "religione positiva". Mentre la religione naturale riguarda l'immediata e generale relazione della ragione umana col divino, la religione positiva o storica comprende l'insieme delle credenze, delle regole e dei riti che in una certa società e in un certo momento storico sono imposti agli individui dall'esterno. "Una religione positiva," scrive Hegel in un passo che Hyppolite cita, "implica dei sentimenti che vengono impressi nelle anime attraverso una costrizione e dei comportamenti che sono il risultato di un rapporto di comando e di obbedienza e che vengono compiuti senza un diretto interesse"[]{#chapter01.xhtml#fn1}[^1^](#chapter01.xhtml#ifn1).
+
+Hyppolite mostra come l'opposizione fra natura e positività corrisponda, in questo senso, alla dialettica fra libertà e costrizione e fra ragione e storia. In un passo che non può non aver suscitato la curiosità di Foucault e che contiene qualcosa di piú che un presagio della nozione di dispositivo, egli scrive: "Si vede qui il nodo problematico implicito nel concetto di positività, e i tentativi successivi di Hegel per unire dialetticamente -- una dialettica che non ha ancora preso coscienza di se stessa -- la *pura ragione* (teorica e soprattutto pratica) e la positività, cioè *l'elemento storico*. In un certo senso, la positività è considerata da Hegel come un ostacolo alla libertà umana, e come tale viene condannata. Investigare gli elementi positivi di una religione, e si potrebbe già aggiungere di uno stato sociale, significa scoprire ciò che in essi è imposto attraverso una costrizione agli uomini, ciò che rende opaca la purezza della ragione; ma, in un altro senso, che nel corso dello sviluppo del pensiero hegeliano finisce col prevalere, la positività deve essere riconciliata con la ragione, che perde allora il suo carattere astratto e si adegua alla ricchezza concreta della vita. Si comprende dunque come il concetto di positività sia al centro delle prospettive hegeliane"[]{#chapter01.xhtml#fn2}[^2^](#chapter01.xhtml#ifn2).
+
+Se "positività" è il nome che, secondo Hyppolite, il giovane Hegel dà all'elemento storico, con tutto il suo carico di regole, riti e istituzioni che vengono imposti agli individui da un potere esterno, ma che vengono, per cosí dire, interiorizzati nei sistemi delle credenze e dei sentimenti, allora Foucault, prendendo in prestito questo termine (che diventerà piú tardi "dispositivo") prende posizione rispetto a un problema decisivo, che è anche il suo problema piú proprio: la relazione fra gli individui come esseri viventi e l'elemento storico, intendendo con questo termine l'insieme delle istituzioni, dei processi di soggettivazione e delle regole in cui si concretizzano le relazioni di potere. Lo scopo ultimo di Foucault non è, però, come in Hegel, quello di riconciliare i due elementi. E nemmeno di enfatizzare il conflitto fra di essi. Si tratta per lui piuttosto di investigare i modi concreti in cui le positività (o i dispositivi) agiscono nelle relazioni, nei meccanismi e nei "giochi" del potere.
+
+3\. Dovrebbe ora essere chiaro in che senso ho avanzato l'ipotesi che il termine "dispositivo" sia un termine tecnico essenziale del pensiero di Foucault. Non si tratta di un termine particolare, che si riferisce soltanto a questa o quella tecnologia del potere. È un termine generale, che ha la stessa ampiezza che, secondo Hyppolite, "positività" ha per il giovane Hegel e, nella strategia di Foucault, esso viene a occupare il posto di quelli che egli definisce criticamente "gli universali" (*les universaux*). Foucault, come sapete, ha sempre rifiutato di occuparsi di quelle categorie generali o enti di ragione che egli chiama appunto "gli universali", come lo Stato, la Sovranità, la Legge, il Potere. Ma questo non significa che non vi siano, nel suo pensiero, concetti operativi di carattere generale. I dispositivi sono, appunto, ciò che nella strategia foucaldiana prende il posto degli universali: non semplicemente questa o quella misura di polizia, questa o quella tecnologia del potere, e nemmeno una generalità ottenuta per astrazione: piuttosto, come diceva nell'intervista del 1977, "la rete (*le réseau*) che si stabilisce tra questi elementi".
+
+Se proviamo ora a esaminare la definizione del termine "dispositivo" che si trova nei dizionari francesi di uso comune, vediamo che questi distinguono tre significati del termine:
+
+a\. Un senso giuridico in senso stretto: "Il dispositivo è la parte di un giudizio che contiene la decisione separatamente dalle motivazioni". Cioè la parte della sentenza (o di una legge) che decide e dispone
+
+b\. Un significato tecnologico: "Il modo in cui sono disposti i pezzi di una macchina o di un meccanismo e, per estensione, il meccanismo stesso"
+
+c\. Un significato militare: "L'insieme dei mezzi disposti in conformità di un piano".
+
+Tutti e tre questi significati sono, in qualche modo, presenti nell'uso foucaldiano. Ma i dizionari, in particolare quelli che non hanno un carattere storico-etimologico, operano dividendo e separando i vari significati di un termine. Questa frammentazione, tuttavia, corrisponde in genere allo svolgimento e all'articolazione storica di un unico significato originale, che è importante non perdere di vista. Qual è, nel caso del termine "dispositivo", questo significato? Certo il termine, nell'uso comune come in quello foucaldiano, sembra rimandare a un insieme di pratiche e meccanismi (insieme linguistici e non linguistici, giuridici, tecnici e militari) che hanno lo scopo di far fronte a un'urgenza e di ottenere un effetto piú o meno immediato. Ma in quale strategia di prassi o di pensiero, in quale contesto storico il termine moderno ha avuto origine?
+
+4\. Negli ultimi tre anni, mi sono andato sempre piú addentrando in una ricerca di cui comincio soltanto ora a intravedere la fine e che potrei definire con qualche approssimazione come una genealogia teologica dell'economia. Nei primi secoli della storia della Chiesa -- diciamo fra il secondo e il sesto secolo -- il termine greco *oikonomia* svolse nella teologia una funzione decisiva. *Oikonomia* significa in greco l'amministrazione dell'*oikos*, della casa e, piú generalmente, gestione, *management*. Si tratta, come dice Aristotele (*Pol.* 1255 b 21), non di un paradigma epistemico, ma di una prassi, di un'attività pratica che deve di volta in volta far fronte a un problema e a una situazione particolare. Perché i padri sentirono il bisogno di introdurre questo termine in teologia? Come si arrivò a parlare di una "economia divina"?
+
+Si trattava, per l'appunto, di un problema estremamente delicato e vitale, forse della questione decisiva nella storia della teologia cristiana: la Trinità. Quando, nel corso del secondo secolo, si cominciò a discutere di una trinità di figure divine, il Padre, il Figlio e lo Spirito, vi fu, come c'era da aspettarsi, all'interno della Chiesa una fortissima resistenza da parte di persone ragionevoli che pensavano con raccapriccio che, in questo modo, si rischiava di reintrodurre il politeismo e il paganesimo nella fede cristiana. Per convincere questi ostinati avversari (che furono poi definiti "monarchiani", cioè fautori del governo di uno solo), teologi come Tertulliano, Ippolito, Ireneo e molti altri non trovarono di meglio che servirsi del termine *oikonomia*. Il loro argomento era press'a poco il seguente: "Dio, quanto al suo essere e alla sua sostanza, è, certamente, uno; ma quanto alla sua *oikonomia*, cioè al modo in cui amministra la sua casa, la sua vita e il mondo che ha creato, egli è, invece, triplice. Come un buon padre può affidare al figlio lo svolgimento di certe funzioni e di certi compiti, senza perdere per questo il suo potere e la sua unità, cosí Dio affida a Cristo l''economia', l'amministrazione e il governo della storia degli uomini". Il termine *oikonomia* si andò cosí specializzando per significare in particolare l'incarnazione del Figlio e l'economia della redenzione e della salvezza (per questo, in alcune sette gnostiche, Cristo finí col chiamarsi "l'uomo dell'economia", *ho anthropos tes oikonomias*). I teologi si abituarono a poco a poco a distinguere fra un "discorso -- o *logos* -- della teologia" e un "*logos* dell'economia" e l'*oikonomia* divenne cosí il dispositivo attraverso cui il dogma trinitario e l'idea di un governo divino provvidenziale del mondo furono introdotti nella fede cristiana.
+
+Ma, come spesso avviene, la frattura che i teologi avevano cercato in questo modo di evitare e di rimuovere in Dio sul piano dell'essere, riapparve nella forma di una cesura che separa in Dio essere e azione, ontologia e prassi. L'azione (l'economia, ma anche la politica) non ha alcun fondamento nell'essere: questa è la schizofrenia che la dottrina teologica dell'*oikonomia* lascia in eredità alla cultura occidentale.
+
+5\. Penso che anche attraverso questa esposizione sommaria, vi siate resi conto della centralità e dell'importanza della funzione che la nozione di *oikonomia* ha svolto nella teologia cristiana. Già a partire da Clemente di Alessandria, essa si fonde con la nozione di provvidenza, e va a significare il governo salvifico del mondo e della storia degli uomini. Ebbene: qual'è la traduzione di questo fondamentale termine greco negli scritti dei padri latini? *Dispositio*.
+
+Il termine latino *dispositio*, da cui deriva il nostro termine "dispositivo", viene dunque ad assumere su di sé tutta la complessa sfera semantica dell'*oikonomia* teologica. I "dispositivi" di cui parla Foucault sono in qualche modo connessi con questa eredità teologica, possono essere in qualche modo ricondotti alla frattura che divide e, insieme, articola in Dio essere e prassi, la natura o essenza e l'operazione attraverso cui egli amministra e governa il mondo delle creature. Il termine dispositivo nomina ciò in cui e attraverso cui si realizza una pura attività di governo senza alcun fondamento nell'essere. Per questo i dispositivi devono sempre implicare un processo di soggettivazione, devono, cioè, produrre il loro soggetto.
+
+Alla luce di questa genealogia teologica, i dispositivi foucaldiani acquistano una pregnanza ancora piú decisiva, in un contesto in cui essi incrociano non soltanto la "positività" del giovane Hegel, ma anche il *Gestell* dell'ultimo Heidegger, la cui etimologia è affine a quella di *dis-positio, dis-ponere* (il tedesco *stellen* corrisponde al latino *ponere*). Quando Heidegger, in *Die Technik und die Kehre* (La tecnica e la svolta), scrive che *Ge-stell*, significa comunemente "apparato" (*Gerät*), ma che egli intende con questo termine "il raccogliersi di quel (dis)porre (*Stellen*), che (dis)pone dell'uomo, cioè esige da lui lo svelamento del reale sul modo dell'ordinare (*Bestellen*)", la prossimità di questo termine con la *dispositio* dei teologi e con i dispositivi di Foucault è evidente. Comune a tutti questi termini è il rimando a una *oikonomia*, cioè a un insieme di prassi, di saperi, di misure, di istituzioni il cui scopo è di gestire, governare, controllare e orientare in un senso che si pretende utile i comportamenti, i gesti e i pensieri degli uomini.
+
+6\. Uno dei principi metodologici che seguo costantemente nelle mie ricerche è quello di individuare nei testi e nei contesti in cui lavoro quello che Feuerbach definiva l'elemento filosofico, cioè il punto della loro *Entwicklungsfähigkeit* (letteralmente, capacità di sviluppo), il *locus* e il momento in cui essi sono suscettibili di uno sviluppo. Tuttavia, quando interpretiamo e svolgiamo in questo senso il testo di un autore, viene il momento in cui cominciamo a renderci conto di non poter procedere oltre senza contravvenire alle regole piú elementari dell'ermeneutica. Ciò significa che lo svolgimento del testo in questione ha raggiunto un punto di indecidibilità in cui diventa impossibile distinguere fra l'autore e l'interprete. Benchè questo sia per l'interprete un momento particolarmente felice, egli sa che è ora tempo di abbandonare il testo che sta analizzando e di procedere per conto proprio.
+
+Vi invito pertanto ad abbandonare il contesto della filologia foucaldiana in cui ci siamo mossi finora e a situare i dispositivi in un nuovo contesto.
+
+Vi propongo nulla di meno che una generale e massiccia partizione dell'esistente in due grandi gruppi o classi: da una parte gli esseri viventi (o le sostanze) e dall'altra i dispositivi in cui essi vengono incessantemente catturati. Da una parte, cioè, per riprendere la terminologia dei teologi, l'ontologia delle creature e dall'altra l'*oikonomia* dei dispositivi che cercano di governarle e guidarle verso il bene.
+
+Generalizzando ulteriormente la già amplissima classe dei dispositivi foucaldiani, chiamerò dispositivo letteralmente qualunque cosa abbia in qualche modo la capacità di catturare, orientare, determinare, intercettare, modellare, controllare e assicurare i gesti, le condotte, le opinioni e i discorsi degli esseri viventi. Non soltanto, quindi, le prigioni, i manicomi, il Panopticon, le scuole, la confessione, le fabbriche, le discipline, le misure giuridiche ecc., la cui connessione col potere è in un certo senso evidente, ma anche la penna, la scrittura, la letteratura, la filosofia, l'agricoltura, la sigaretta, la navigazione, i computers, i telefoni cellulari e -- perché no -- il linguaggio stesso, che è forse il piú antico dei dispositivi, in cui migliaia e migliaia di anni fa un primate -- probabilmente senza rendersi conto delle conseguenze cui andava incontro -- ebbe l'incoscienza di farsi catturare.
+
+Ricapitolando, abbiamo cosí due grandi classi, gli esseri viventi (o le sostanze) e i dispositivi. E, fra i due, come terzo, i soggetti. Chiamo soggetto ciò che risulta dalla relazione e, per cosí dire, dal corpo a corpo fra i viventi e i dispositivi. Naturalmente le sostanze e i soggetti, come nella vecchia metafisica, sembrano sovrapporsi, ma non completamente. In questo senso, per esempio, uno stesso individuo, una stessa sostanza, può essere il luogo di molteplici processi di soggettivazione: l'utilizzatore di telefoni cellulari, il navigatore in internet, lo scrittore di racconti, l'appassionato di tango, il no-global ecc.ecc. Alla crescita sterminata dei dispositivi nel nostro tempo, fa cosí riscontro una altrettanto sterminata proliferazione di processi di soggettivazione. Ciò può produrre l'impressione che la categoria della soggettività nel nostro tempo vacilli e perda consistenza; ma si tratta, per essere precisi, non di una cancellazione o di un superamento, ma di una disseminazione che spinge all'estremo l'aspetto di mascherata che ha sempre accompagnato ogni identità personale.
+
+7\. Non sarebbe probabilmente errato definire la fase estrema dello sviluppo capitalistico che stiamo vivendo come una gigantesca accumulazione e proliferazione di dispositivi. Certo fin da quando è apparso l'*homo sapiens* vi sono stati dispositivi, ma si direbbe che oggi non vi sia un solo istante nella vita degli individui che non sia modellato, contaminato o controllato da un qualche dispositivo. In che modo possiamo allora far fronte a questa situazione, quale strategia dobbiamo seguire nel nostro quotidiano corpo a corpo coi dispositivi? Non si tratta semplicemente di distruggerli, né, come suggeriscono alcuni ingenui, di usarli nel modo giusto.
+
+Per esempio, vivendo in Italia, cioè in un paese in cui i gesti e i comportamenti degli individui sono stati rimodellati da cima a fondo dal telefono cellulare (detto familiarmente "telefonino"), io ho sviluppato un odio implacabile per questo dispositivo, che ha reso ancora piú astratti i rapporti fra le persone. Malgrado mi sia sorpreso piú volte a pensare a come distruggere o disattivare i telefonini e a come eliminare o almeno punire e imprigionare coloro che ne fanno uso, non credo che sia questa la soluzione giusta del problema.
+
+Il fatto è che secondo ogni evidenza i dispositivi non sono un incidente in cui gli uomini sono caduti per caso, ma essi hanno la loro radice nello stesso processo di "ominizzazione" che ha reso "umani" gli animali che classifichiamo sotto la rubrica *homo sapiens*. L'evento che ha prodotto l'umano costituisce, infatti, per il vivente, qualcosa come una scissione, che riproduce in qualche modo la scissione che l'*oikonomia* aveva introdotto in Dio fra essere e azione. Questa scissione separa il vivente da se stesso e dal rapporto immediato con il suo ambiente, cioè con quello che Uexkühl e, dopo di lui, Heidegger chiamano il circolo ricettore-disinibitore. Spezzando o interrompendo questo rapporto, si producono per il vivente la noia -- cioè la capacità di sospendere il rapporto immediato con i disinibitori -- e l'Aperto, cioè la possibilità di conoscere l'ente in quanto ente, di costruire un mondo. Ma, con queste possibilità, è data immediatamente anche la possibilità dei dispositivi, che popolano l'Aperto di strumenti, oggetti, *gadgets*, cianfrusaglie e tecnologie di ogni tipo. Attraverso i dispositivi, l'uomo cerca di far girare a vuoto i comportamenti animali che si sono separati da lui e di godere cosí dell'Aperto come tale, dell'ente in quanto ente. Alla radice di ogni dispositivo sta dunque un fin troppo umano desiderio di felicità e la cattura e la soggettivazione di questo desiderio in una sfera separata costituisce la potenza specifica del dispositivo.
+
+8\. Ciò significa che la strategia che dobbiamo adottare nel nostro corpo a corpo coi dispositivi non può essere semplice. Poichè si tratta di liberare ciò che è stato catturato e separato attraverso i dispositivi per restituirlo a un possibile uso comune. È in questa prospettiva che vorrei ora parlarvi di un concetto su cui mi è capitato di lavorare di recente. Si tratta di un termine che proviene dalla sfera del diritto e della religione romana (diritto e religione sono, non soltanto a Roma, strettamente connessi): profanazione.
+
+Secondo il diritto romano, sacre o religiose erano le cose che appartenevano in qualche modo agli dei. Come tali, esse erano sottratte al libero uso e al commercio degli uomini, non potevano essere vendute né date in pegno, cedute in usufrutto o gravate di servitú. Sacrilego era ogni atto che violasse o trasgredisse questa loro speciale indisponibilità, che le riservava esclusivamente agli dei celesti (ed erano allora dette propriamente "sacre") o inferi (in questo caso, si dicevano semplicemente "religiose"). E se consacrare (*sacrare*) era il termine che designava l'uscita delle cose dalla sfera del diritto umano, profanare significava per converso restituire al libero uso degli uomini. "Profano," poteva scrivere cosí il grande giurista Trebazio, "si dice in senso proprio ciò che, da sacro o religioso che era, viene restituito all'uso e alla proprietà degli uomini".
+
+Si può definire religione, in questa prospettiva, ciò che sottrae cose, luoghi, animali o persone all'uso comune e le trasferisce in una sfera separata. Non solo non c'è religione senza separazione, ma ogni separazione contiene o conserva in sé un nucleo genuinamente religioso. Il dispositivo che attua e regola la separazione è il sacrificio: attraverso una serie di rituali minuziosi, diversi secondo la varietà delle culture, che Hubert e Mauss hanno pazientemente inventariato, esso sancisce in ogni caso il passaggio di qualcosa dal profano al sacro, dalla sfera umana a quella divina. Ma ciò che è stato ritualmente separato, può essere restituito dal rito alla sfera profana. La profanazione è il controdispositivo che restituisce all'uso comune ciò che il sacrifico aveva separato e diviso.
+
+9\. Il capitalismo e le figure moderne del potere sembrano, in queste prospettiva, generalizzare e spingere all'estremo i processi separativi che definiscono la religione. Se consideriamo la genealogia teologica dei dispositivi che abbiamo appena disegnato, che li connette al paradigma cristiano dell'*oikonomia*, cioè del governo divino del mondo, vediamo che i dispositivi moderni presentano, però, una differenza rispetto a quelli tradizionali, che rende particolarmente problematica la loro profanazione. Ogni dispositivo implica infatti un processo di soggettivazione, senza il quale il dispositivo non può funzionare come dispositivo di governo, ma si riduce a un mero esercizio di violenza. Foucault ha cosí mostrato come, in una società disciplinare, i dispositivi mirino attraverso una serie di pratiche e di discorsi, di saperi e di esercizi alla creazione di corpi docili, ma liberi, che assumono la loro identità e la loro "libertà" di soggetti nel processo stesso del loro assoggettamento. Il dispositivo è, cioè, innanzitutto una macchina che produce soggettivazioni, e solo in quanto tale è anche una macchina di governo. L'esempio della confessione è qui illuminante: la formazione della soggettività occidentale, insieme scissa e, tuttavia, padrona e sicura di sè, è inseparabile dall'azione plurisecolare del dispositivo penitenziale, in cui un nuovo Io si costituisce attraverso la negazione e, insieme, l'assunzione del vecchio. La scissione del soggetto operata dal dispositivo penitenziale era, cioè, produttiva di un nuovo soggetto, che trovava la propria verità nella non-verità dell'Io peccatore ripudiato. Considerazioni analoghe possono farsi per il dispositivo prigione, che produce come conseguenza piú o meno imprevista la costituzione di un soggetto e di un *milieu* delinquente, che diventa il soggetto di nuove -- e, questa volta, perfettamente calcolate -- tecniche di governo.
+
+Quel che definisce i dispositivi con cui abbiamo a che fare nella fase attuale del capitalismo è che essi non agiscono piú tanto attraverso la produzione di un soggetto, quanto attraverso dei processi che possiamo chiamare di desoggettivazione. Un momento desoggettivante era certo implicito in ogni processo di soggettivazione e l'Io penitenziale si costituiva, lo abbiamo visto, solo attraverso la propria negazione; ma quel che avviene ora è che processi di soggettivazione e processi di desoggettivazione sembrano diventare reciprocamente indifferenti e non danno luogo alla ricomposizione di un nuovo soggetto, se non in forma larvata e, per cosí dire, spettrale. Nella non-verità del soggetto non ne va piú in alcun modo della sua verità. Colui che si lascia catturare nel dispositivo "telefono cellulare", qualunque sia l'intensità del desiderio che lo ha spinto, non acquista, per questo, una nuova soggettività, ma soltanto un numero attraverso cui può essere, eventualmente, controllato; lo spettatore che passa le sue serate davanti alla televisione non riceve in cambio della sua desoggettivazione che la maschera frustrante dello *zappeur* o l'inclusione nel calcolo di un indice di ascolto.
+
+Di qui la vanità di quei discorsi benintenzionati sulla tecnologia, che affermano che il problema dei dispositivi si riduce a quello del loro uso corretto. Essi sembrano ignorare che, se a ogni dispositivo corrisponde un determinato processo di soggettivazione (o, in questo caso, di desoggettivazione), è del tutto impossibile che il soggetto del dispositivo lo usi "nel modo giusto". Coloro che tengono simili discorsi sono, del resto, a loro volta il risultato del dispositivo mediatico in cui sono catturati.
+
+10\. Le società contemporanee si presentano cosí come dei corpi inerti attraversati da giganteschi processi di desoggettivazione cui non fa riscontro alcuna soggettivazione reale. Di qui l'eclisse della politica, che presupponeva dei soggetti e delle identità reali (il movimento operaio, la borghesia ecc.), e il trionfo dell'*oikonomia*, cioè di una pura attività di governo che non mira ad altro che alla propria riproduzione. Destra e sinistra, che si alternano oggi nella gestione del potere, hanno per questo ben poco a che fare col contesto politico da cui i termini provengono e nominano semplicemente i due poli -- quello che punta senza scrupoli sulla desoggettivazione e quello che vorrebbe invece ricoprirla con la maschera ipocrita del buon cittadino democratico -- di una stessa macchina governamentale.
+
+Di qui, soprattutto, la singolare inquietudine del potere proprio nel momento in cui si trova di fronte il corpo sociale piú docile e imbelle che si sia mai dato nella storia dell'umanità. È per un paradosso soltanto apparente che l'innocuo cittadino delle democrazie postindustriali (il *bloom*, come si è efficacemente suggerito di chiamarlo) che esegue puntualmente tutto ciò che gli si dice di fare e lascia che i suoi gesti quotidiani come la sua salute, i suoi svaghi come le sue occupazioni, la sua alimentazione come i suoi desideri siano comandati e controllati dai dispositivi fin nei minimi dettagli, è considerato -- forse proprio per questo -- dal potere come un terrorista virtuale. Mentre la nuova normativa europea impone cosí a tutti i cittadini quei dispositivi biometrici che sviluppano e perfezionano le tecnologie antropometriche (dalle impronte digitali alla fotografia segnaletica) che erano state inventate nel secolo [XIX]{.small} per l'identificazione dei criminali recidivi, la sorveglianza attraverso videocamere trasforma gli spazi pubblici delle città in interni di un'immensa prigione. Agli occhi dell'autorità -- e forse essa ha ragione -- nulla assomiglia al terrorista come l'uomo ordinario.
+
+Quanto piú i dispositivi si fanno pervasivi e disseminano il loro potere in ogni ambito della vita, tanto piú il governo si trova di fronte un elemento inafferrabile, che sembra sfuggire alla sua presa quanto piú si sottomette docilmente a essa. Ciò non significa che esso rappresenti in se stesso un elemento rivoluzionario né che possa arrestare o anche soltanto minacciare la macchina governamentale. In luogo dell'annunciata fine della storia, si assiste, infatti, all'incessante girare a vuoto della macchina, che, in una sorta di immane parodia dell'*oikonomia* teologica, ha assunto su di sé l'eredità di un governo provvidenziale del mondo, che, invece di salvarlo, lo conduce -- fedele, in questo, all'originaria vocazione escatolologica della provvidenza -- alla catastrofe. Il problema della profanazione dei dispositivi -- cioè della restituzione all'uso comune di ciò che è stato catturato e separato in essi -- è, per questo, tanto piú urgente. Esso non si lascerà porre correttamente se coloro che se ne fanno carico non saranno in grado di intervenire sui processi di soggettivazione non meno che sui dispositivi, per portare alla luce quell'Ingovernabile, che è l'inizio e, insieme, il punto di fuga di ogni politica.
+
+[]{#chapter01.xhtml#ifn1}[^1^](#chapter01.xhtml#fn1) J.Hyppolite, *Introduction à la philosophie de l'histoire de Hegel*, Seuil, Parigi 1983, p.43 (1^a^ ed. 1948).
+
+[]{#chapter01.xhtml#ifn2}[^2^](#chapter01.xhtml#fn2) *Ibidem*, p.46.
+
+[]{#bm01.xhtml}
+
+ 
+
+Potrebbero interessarti anche
+
+[Genius](https://www.edizioninottetempo.it/it/prodotto/genius)
+
+[Il giorno del giudizio](https://www.edizioninottetempo.it/it/prodotto/il-giorno-del-giudizio)
+
+[Profanazioni](https://www.edizioninottetempo.it/it/prodotto/profanazioni)
+
+[L'amico](https://www.edizioninottetempo.it/it/prodotto/lamico)
+
+[Che cos'è il contemporaneo?](https://www.edizioninottetempo.it/it/prodotto/che-cos-il-contemporaneo)
+
+[Nudità](https://www.edizioninottetempo.it/it/prodotto/nudit)
+
+[Il fuoco e il racconto](https://www.edizioninottetempo.it/it/prodotto/il-fuoco-e-il-racconto)
+
+[La Chiesa e il Regno](https://www.edizioninottetempo.it/it/prodotto/la-chiesa-e-il-regno)
+
+[L'avventura](https://www.edizioninottetempo.it/it/prodotto/lavventura)
+
+[Pilato e Gesú](https://www.edizioninottetempo.it/it/prodotto/pilato-e-gesau)
+
+[Pulcinella ovvero Divertimento per li regazzi](https://www.edizioninottetempo.it/it/prodotto/pulcinella-ovvero-divertimento-per-li-ragazzi-2)
+
+[Autoritratto nello studio](https://www.edizioninottetempo.it/it/prodotto/autoritratto-nello-studio)

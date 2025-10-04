@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "#!\/bin\/bash\ndir_download_txt=\"{clipboard}\"\nfile_name=$(basename \"$dir_download_txt\" .txt)\ndir=$(dirname \"$dir_download_txt\")\ntemp_folder=\"$dir\/$file_name\"\nmkdir -p \"$temp_folder\"\nwget -i \"$dir_download_txt\" -P \"$temp_folder\"\n\ncd \"$temp_folder\"\n\nfor f in *; do echo \"file '$f'\" >> concat.txt; done\n\noutput_file=\"$dir\/$file_name.mp4\"\nffmpeg -f concat -safe 0 -i concat.txt -c copy \"$output_file\"",
+    "uid" : "8496C995-E3AE-47C1-A2D9-9F58280BA3F3",
+    "name" : "Merge TXT(download) into mp4",
+    "keyword" : "mergedownload"
+  }
+}

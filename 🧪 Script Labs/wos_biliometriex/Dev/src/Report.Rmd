@@ -1,0 +1,500 @@
+---
+title: "`r params$query`"
+params:
+  query: "Augmented Reality"
+  path_topic: "/Users/yamlam/Documents/obsdiannote/🧪 Script Labs/wos_biliometriex/Thematic"
+output_format: "md_document"
+output: 
+  md_document: 
+    variant: "markdown_strict+pipe_tables+backtick_code_blocks+task_lists+implicit_header_references-definition_lists"
+    pandoc_args: ["--standalone", "--from=markdown+emoji", "--wrap=preserve"]
+---
+
+
+
+
+```{r, set_global_variable, include=FALSE}
+
+# if params not found,  set 'Augmented Reality'
+# query: Point Cloud Compression| Augmented Reality
+query <- "Online education platform analysis"
+query <- params$query
+
+# When Run Chunk inside RStudio or VSCode
+plain_text <- file.path(
+  "/Users/yamlam/Documents/obsdiannote/🧪 Script Labs/Thematic",
+  paste0(query, ".txt")
+)
+
+dir_exports <- file.path(
+  "/Users/yamlam/Documents/obsdiannote/🧪 Script Labs/Thematic",
+  query,
+  "exports"
+)
+
+
+# When Run on Terminal Overwrite params with yaml and args from terminal
+if (exists("params")) {
+  query <- params$query
+  plain_text <- file.path(params$path_topic, paste0(query, ".txt"))
+  dir_exports <- file.path(params$path_topic, query, "exports")
+}
+dir_M_data <- file.path(dir_exports, "M.feather")
+
+
+```
+  
+```{r, setup, include=FALSE}
+Sys.setenv(LANG = "en")
+library(rmarkdown)
+library(png)
+library(knitr)
+library(ggplot2)
+library(magrittr)
+library(dplyr)
+library(bibliometrix)
+library(feather)
+library(plotly)
+rmarkdown::find_pandoc(version = "2.12")
+rmarkdown::find_pandoc(dir = "/Users/yamlam/opt/anaconda3/bin/")
+```
+
+```{r, source_external_library,message=TRUE,echo=TRUE,eval=TRUE,results='asis',warning=T,include=FALSE }
+# '../src' Work on Terminal and Run Kinit Rmd (Top right of VSCode)
+# './src' Ony Work on 'Run Chunk' of VSCode.
+dev_path <- ".."
+# Try to source the script if failed, set dev_path "../src"
+tryCatch(
+  expr = {
+    source(file.path(dev_path, "src", "get_yearly_publication_report.R"))
+    
+  },
+  error = function(e) {
+    message(paste("set dev_path from ", dev_path, " to '.'"))
+    dev_path <<- "." # Assign globally
+  }
+)
+message(file.path(dev_path, "src", "get_yearly_publication_report.R"))
+src_path <- file.path(dev_path, "src")
+message(src_path)
+source(file.path(src_path, "IO.R"), chdir = TRUE)
+source(file.path(src_path, "correlations.R"), chdir = TRUE)
+source(file.path(src_path, "get_yearly_publication_report.R"), chdir = TRUE)
+source(file.path(src_path, "get_reference_pyramid_report.R"), chdir = TRUE)
+
+```
+
+
+```{r, Loading_data, include=FALSE}
+
+# Data loading and converting Metadata 
+M <- convert2df(plain_text, dbsource = "wos", format = "plaintext")
+message(class(M))
+# if not exist, create dir
+dir.create(dir_exports, showWarnings = FALSE, recursive = TRUE)
+# store as data frame as FEATHER
+# write.csv(M, file.path(dir_exports, "M.csv"), row.names = FALSE)
+write_feather(M, dir_M_data)
+
+# Apply filter to M
+M <- subset(
+  M,
+  # M$PY >= 2000 &
+  M$PY <= 2023
+)
+```
+
+
+
+
+
+```{r, Summary_biblioAnalysis, include=FALSE}
+section <- "S0-BasicStatistics"
+
+res <- bibliometrix::biblioAnalysis(M, sep = ";")
+bib_summary <- summary(
+  object = res,
+  k = 100, # consider the size of contries minimum 82
+  pause = FALSE
+)
+
+
+# summary and plot of results
+bib_ana_plot <- plot(x = res, k = 20, pause = FALSE)
+
+# extract  metadata (place on the bottom of the note)
+this_metadata <- write_summ_info_to_matadata(query, bib_summary$MainInformationDF)
+
+# extract descrition
+this_description <- write_summ_info_to_description(query, bib_summary$MainInformationDF)
+```
+
+
+
+
+
+
+## DESCRIPTION
+
+[Project_Note_BibliometrixReportSystem](Bibliometrix Report System)
+
+`r this_description`
+
+
+```{r, export_sammary, include=FALSE}
+
+
+# save results as CSV
+# Loop through all data in SUMMARY, save each as CSV
+for (i in seq_along(bib_summary)) {
+  write.csv(bib_summary[[i]],
+            get_summ_csv_exports_path(names(bib_summary)[i], section, query))
+}
+# !! plot not work sometimes
+# # Loop through all plot in bib_ana_plot
+# # save plot as PNG
+# for (i in seq_along(bib_ana_plot)) {
+#   # remove space in name
+#   name_metric <- gsub(" ", "", names(bib_ana_plot)[i])
+#   path_img <-  get_summ_png_exports_path(name_metric, section, query)
+#   png(path_img, width = 1080, height = 600)
+#   plot(bib_ana_plot[[i]])
+#   dev.off()
+# }
+#![A nice plot.](file:`r knitr::fig_chunk('export_sammary', 'png')`)
+```
+
+
+
+## Annual ⏱️
+### Annual Scientific Production
+
+```{r, annual_publication_data, include=FALSE}
+# Anual Scientific Production
+publication_data <-
+  get_yearly_publication_report(bib_ana_plot$AverArtCitperYear$data)
+
+# Write a no standardized data to csv
+write.csv(
+  publication_data$publication_data,
+  file.path(
+            dir_exports,
+            paste("bib_summary", "-AnnualProdution-", query, ".csv", sep = "")),
+  row.names = FALSE
+)
+
+annualprodution_plot_path <-
+  file.path(
+            dir_exports,
+            paste(section, "-AnnualProdution-", query, ".png", sep = ""))
+
+png(annualprodution_plot_path, width = 1080, height = 600)
+plot(publication_data$pic)
+dev.off()
+
+annualprodution_plot_md <-
+  paste(
+        "![AnnualProdution](file://", annualprodution_plot_path,
+        ")\n\n\n",
+        sep = "")
+```
+
+`r annualprodution_plot_md`
+Combined from `Annual Scientific Production`, `Averge Articles Citations per Year`, `Averge Total Citations per Year`
+
+- Relavant source: [AnnualProdution.csv](file:`r get_summ_csv_exports_path("AnnualProdution", section, query)`)
+- Local note: [Average Article Citations per Year](Average Article Citations per Year)
+
+
+### correlations
+```{r, echo=FALSE}
+res_cor <- cor_analysis(c(publication_data$publication_data))
+md_desc_cor_annual <- generate_cor_md(res_cor)
+
+```
+`r md_desc_cor_annual`
+
+%% Think about TRUE/FALSE
+- When `Articles/N` increases, `MeanTCperYear`(the average number of citations per year) increases.
+- When `Articles/N` (the number of publications) increases, `MeanTCperArt`(the average number of citations per article) decreases. This may be due to researchers publishing more articles in the same field, resulting in fewer citations per article.
+%%
+
+
+```{r, echo=FALSE}
+kable(publication_data$publication_data,
+      caption = "(*Table above: Annual Scientific Production*)",
+      format = "markdown")
+```
+
+## Countries 🌏
+
+
+
+### Most Productive Countries
+
+```{r, echo=FALSE}
+# show specific plot es:Summary_biblioAnalysis-2
+# knitr::include_graphics(knitr::fig_chunk('Summary_biblioAnalysis','png',2))
+# return <img src="../../../Thematic/Online education platform analysis/Report_Online education platform analysis_files/figure-markdown_strict/Summary_biblioAnalysis-2.png" width="672" />
+```
+
+![Plot Countries](file:`r knitr::fig_chunk('Summary_biblioAnalysis','png',2)`)
+
+```{r, echo=FALSE}
+
+kable(
+      bib_summary$MostProdCountries[1:5, ],
+      caption = "(*Table above: Corresponding Author's Countries*)",
+      format = "markdown")
+```
+
+- Relavant note: [MCP](MCP - Multiple Country Publications). 理解一个国家的研究环境有多开放和协作
+
+
+
+```{r, countries_data, echo=FALSE}
+# correlation analysis - country 
+names(bib_summary$TCperCountries)[names(bib_summary$TCperCountries) == "Country     "] <- "Country"
+## Merge All dataframes about country
+country_df <- merge(bib_summary$TCperCountries, bib_summary$MostProdCountries, by = "Country")
+# rename multiple columns
+names(country_df)[names(country_df) == "Total Citations Average"] <- "TotCitAvg"
+names(country_df)[names(country_df) == "Total Citations"] <- "TC"
+names(country_df)[names(country_df) == "Average Article Citations"] <- "AvgArtCit"
+
+# Convert calculable value as numeric type
+string_cols <- sapply(country_df, is.character)
+# # Get names of all string columns
+string_cols <- string_cols[-1]
+string_cols <- names(string_cols[string_cols])
+# # Convert string columns to numeric 
+country_df[string_cols] <- lapply(country_df[string_cols], as.numeric)
+# Reorder based on Total Citations
+country_df <- arrange(country_df, desc(TC))
+```
+
+
+```{r, echo=FALSE}
+
+# Create citation rank column
+country_df <- transform(country_df,
+                        TC_rank = seq_len(nrow(country_df))) # all columns name replace space with dot
+
+
+# sort by 'Average Article Citations' in descending order 
+country_df <- arrange(country_df, desc(AvgArtCit))
+
+# For csv archive, we need to remove 'Articles' but keep 'Country',
+# since 'Freq' is the percentage of 'Articles' in 'Country'.
+country_df <- country_df[, !(names(country_df) %in% c("Freq"))] # Articles
+# move 'TC_Rank' to the first column
+country_df <- country_df[, c(ncol(country_df), 1:(ncol(country_df)-1))]
+# save to csv
+write.csv(country_df, file.path(dir_exports, paste("bib_summary", "-Countries-", query, ".csv", sep = "")))
+
+# filter by mean of 'Articles'
+table_country_df <- country_df[country_df$Articles > mean(country_df$Articles), ]
+
+# For colleration analysis, we need to remove both 'Country' column and 'Articles'
+# reference source code: Freq=as.numeric(Co[,2])/sum(object$Countries)
+# remove 'Country' column
+cor_country_df <- country_df[, !(names(country_df) %in% c("Country"))] 
+
+```
+
+### correlations
+
+```{r, conutry_table, echo=FALSE}
+# display table, only show top 20
+kable(table_country_df, caption = "(*Table above: Corresponding Author's Countries*)", format = "markdown")
+```
+
+table is filtered by mean of 'Articles' > `r mean(country_df$Articles)`
+
+```{r,cor_analysis_countries, echo=FALSE}
+# correlations
+res_cor <- cor_analysis(c(cor_country_df))
+md_desc_cor_countries <- generate_cor_md(res_cor)
+
+```
+
+`r md_desc_cor_countries`
+
+%% 
+Highlight: 
+If the more articles published(`Articles/N`), 
+- the less citations(`Total.Citations`) received? 
+- the less citations per article(`Average.Article.Citations`) received?
+if so, it may be due to researchers publishing more articles in the same field, but they are `not necessarily high-quality articles`.
+%%
+
+
+## Authors 🧑‍🏫
+
+```{r, echo=FALSE}
+kable(bib_summary$TCperCountries[1:5,], caption = "(*Table above: Total Citations per Country*)", format = "markdown")
+```
+
+[Average_Article_Citations_per_Country](Average Article Citations per Country) 较高的平均文章引用表明更大的研究影响力。总引用量只显示数量。(有时可能只是他们发表数量多 )
+
+### Most Productive Authors
+
+![MostProdAuthors](file:`r knitr::fig_chunk('Summary_biblioAnalysis','png',1)`)
+
+
+
+```{r, echo=FALSE}
+summary_item <- "MostProdAuthors"
+kable(bib_summary[[summary_item]][1:5,], caption = "(*Table above: Most Productive Authors*)", format = "markdown")
+path_source_summary <- get_summ_csv_exports_path(summary_item, section, query)
+
+```
+Source summary:[csv](file:`r path_source_summary`). 
+Relavant note: [`r summary_item`](MostProdAuthors). `Articles Fractionalized`:  考虑共同写作比例的分数化文章计数。它避免了多作者论文的重复计算。
+
+
+
+### H-Index of Authors
+
+[Authors' Local Impact](Authors' Local Impact - Dominance ranking Authors)
+```{r, echo=FALSE}
+DominanceRank <- Hindex(M, elements = dominance(res)$Author, years = 50)$H %>%
+  arrange(desc(h_index))
+kable(DominanceRank, caption = "(*Table above: Dominance ranking Authors*)", format = "markdown")
+```
+
+Authors' Local Impact
+结果显示每个作者的姓名、h指数、g指数、m指数、总被引量、论文数量、发表起始年份。
+
+- h指数:反映影响力和论文质量.
+- g指数:考虑论文引用次数分布.
+- m指数:考虑作者生产力.
+
+## Papers 📰
+
+![plot_spectroscopy](file:`r knitr::fig_chunk('reference_Pyramids_base','png',1)`)
+
+### Reference Pyramids
+
+```{r,reference_Pyramids_base,echo=FALSE, include=FALSE}
+# import get_reference_pyramid_report
+source(file.path(src_path, "get_reference_pyramid_report.R"), chdir = TRUE)
+top_classic_num <- 5
+top_tc_num <- 77
+
+ref_pyramid <- get_reference_pyramid(
+  top_classic_num = top_classic_num,
+  top_tc_num = top_tc_num,
+  dataFrame = M
+)
+
+# Render the plot
+# ref_pyramid$plotly_pyramid
+# Render the spectroscopy
+# ref_pyramid$plot_spectroscopy
+# for Render the kables list
+# knitr::include_graphics("file://`r ref_pyramid$plotly_pyramid`")
+
+```
+
+
+In the Reference Pyramids method, "Classic Literature" usually refers to the earliest literature that proposes theories or frameworks in a research field, while "core literature" refers to literature that constructively develops or applies those classic works. 
+
+When collecting literature on the topic of "`r query`", we first identified the top `r top_classic_num` most frequently co-cited papers as the "Classic Literature." We then counted the number of papers citing each classic paper, and ranked them by citation count. We selected papers with over `r top_tc_num` citations as the "core literature" derived from each classic work. Below, we outline the classic and corresponding core literature in a table format.
+
+The table headers are the Classic Literature. "TI" indicates the paper title, "PY" the publication year, and "TC" the number of citations for each core paper.
+
+
+
+```{r, reference_Pyramids_plot, echo=FALSE}
+library(htmlwidgets)
+dir_plot_pyramid_png <- file.path(dir_exports, "Pyramids.png")
+dir_plot_pyramid_html <- file.path(dir_exports, "Pyramids.html")
+htmlwidgets::saveWidget(as_widget(ref_pyramid$plotly_pyramid), dir_plot_pyramid_html)
+save_image(ref_pyramid$plotly_pyramid, dir_plot_pyramid_png)
+```
+![](file:`r dir_plot_pyramid_png`)
+[html](file:`r dir_plot_pyramid_html`)
+
+
+
+
+```{r, reference_Pyramids_table, echo=FALSE, results='asis'}
+
+# The Pyramid Groups
+df_pyramid <- ref_pyramid$df_pyramid
+for(i in seq_along(df_pyramid)){
+
+  classic_lecture_short_name <- names(df_pyramid)[i]
+  
+  paste0(
+    "[Link](https://scholar.google.it/scholar?hl=en&as_sdt=0%2C5&q=",
+    classic_lecture_short_name, ")"
+  )
+  # dois:"10.1191/1478088706QP063OA;10.1191/1478088706QP063OA"
+  dois <- doiExtract(df_pyramid[[i]]$fullReference[[1]])
+  google_link <- paste0(
+    " | [Link](https://scholar.google.it/scholar?hl=en&as_sdt=0%2C5&q=",
+    classic_lecture_short_name, ")"
+  )
+
+  # separate by ; and loop paste with
+  # [Link](https://sci-hub.se/doi..) into dois_link
+  if (dois != "") {
+    dois_link <- paste0(
+      " | [DOI](https://sci-hub.ee/", strsplit(dois, ";")[[1]], ")"
+    )
+  }else {
+    dois_link <- ""
+  }
+  cat(
+    "\n\n#### ", classic_lecture_short_name,
+    "\n", paste0("[Note](Pyramid - ", classic_lecture_short_name, ".canvas)\n"),
+    dois_link,
+    google_link,
+    "\n\n"
+  )
+
+  pyr_table <- kable(df_pyramid[[i]]$table, format = "markdown")
+  cat(pyr_table, sep = "\n")
+  cat("\n\n")
+}
+
+```
+Taks:
+
+- Outline the theories or frameworks proposed in each classic work, and describe how the core papers develop and apply them. 
+
+- Evaluate the role of each Classic Literature group and associated core papers in "`r query`".
+
+- Identify differences in discussion topics between them.
+
+- Use the MoSCoW method to develop a reading plan for each Classic Literature group.
+
+
+
+
+
+### Most Cited Papers
+```{r, echo=FALSE}
+summary_item <- "MostCitedPapers"
+kable(bib_summary[[summary_item]][1:5,], caption = "(*Table above: Top manuscripts per citations*)", format = "markdown")
+```
+Source summary: [csv](file:`r get_summ_csv_exports_path(summary_item, section, query)`).
+Relavant note: [TCperYear_and_NTC_oF_Paper](TCperYear and NTC of Paper). 
+
+
+
+
+## Sources 🏫
+### Most Relevant Sources
+```{r, echo=FALSE}
+kable(bib_summary$MostRelSources[1:5,], caption = "(*Table above: Most Relevant Keywords*)", format = "markdown")
+
+kable(bib_summary$MostRelKeywords[1:5,], caption = "(*Table above: Most Relevant Keywords*)", format = "markdown")
+```
+
+## MATADATE
+
+`r this_metadata`
+

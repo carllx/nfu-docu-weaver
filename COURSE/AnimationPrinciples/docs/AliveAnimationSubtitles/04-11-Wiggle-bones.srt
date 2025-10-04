@@ -1,0 +1,819 @@
+﻿1
+00:00:00,420 --> 00:00:02,560
+- [Instructor] In this video,
+we will have a quick look
+
+2
+00:00:02,560 --> 00:00:04,370
+to the Wiggle bone add-on.
+
+3
+00:00:04,370 --> 00:00:08,143
+Activated, the add-on gives
+you access to the wiggle option
+
+4
+00:00:08,143 --> 00:00:10,850
+that has to be activated pair bones.
+
+5
+00:00:10,850 --> 00:00:14,023
+To get the add-on, you
+can simply check the link
+
+6
+00:00:14,023 --> 00:00:16,620
+into the documentation of the course.
+
+7
+00:00:16,620 --> 00:00:20,310
+A latest version of the
+Wiggle bone add-on by Steve.
+
+8
+00:00:20,310 --> 00:00:22,870
+Then in blender, simply install it
+
+9
+00:00:22,870 --> 00:00:25,900
+by going into Edit preferences.
+
+10
+00:00:25,900 --> 00:00:28,047
+Add-on, click the install button.
+
+11
+00:00:28,047 --> 00:00:32,740
+Browse and find the .pi file
+of the wiggle bone add-on.
+
+12
+00:00:32,740 --> 00:00:35,830
+Click the install button
+and then make sure
+
+13
+00:00:35,830 --> 00:00:38,930
+that the Wiggle bone add-on is activated.
+
+14
+00:00:38,930 --> 00:00:42,890
+There is another add-on
+called the Spring Bone add-ons
+
+15
+00:00:42,890 --> 00:00:46,460
+by Artel, creator of Auto Rick Pro.
+
+16
+00:00:46,460 --> 00:00:48,761
+But the add-on is still experimental
+
+17
+00:00:48,761 --> 00:00:53,560
+and it only works on
+chains of parented bones.
+
+18
+00:00:53,560 --> 00:00:55,100
+For this demonstration,
+
+19
+00:00:55,100 --> 00:00:59,480
+I provided one file with
+two different animation.
+
+20
+00:00:59,480 --> 00:01:04,440
+The sliding and rotating
+animation called whipping action
+
+21
+00:01:04,440 --> 00:01:08,390
+and a second action with some jumpy bones.
+
+22
+00:01:08,390 --> 00:01:13,390
+Only the lower bone in the
+chain is currently animated.
+
+23
+00:01:13,533 --> 00:01:17,020
+Let's select the free bones in the chain
+
+24
+00:01:17,020 --> 00:01:19,190
+that are the children of this one
+
+25
+00:01:19,190 --> 00:01:22,230
+and activate the Wiggle
+bone add-on on this
+
+26
+00:01:22,230 --> 00:01:24,160
+and press the play button.
+
+27
+00:01:24,160 --> 00:01:29,010
+By default, the reset on
+loop option is activated.
+
+28
+00:01:29,010 --> 00:01:31,150
+To enable or disable this option,
+
+29
+00:01:31,150 --> 00:01:33,990
+you do it for all the bones at once.
+
+30
+00:01:33,990 --> 00:01:35,910
+When using the add-on on the cycle,
+
+31
+00:01:35,910 --> 00:01:37,913
+it's better to disable the option
+
+32
+00:01:37,913 --> 00:01:41,500
+so that the simulation continue at runtime
+
+33
+00:01:41,500 --> 00:01:43,970
+and we don't get the popping frame
+
+34
+00:01:43,970 --> 00:01:46,220
+at the beginning of the motion.
+
+35
+00:01:46,220 --> 00:01:51,220
+Wiggle bone add-on simulate
+physical behavior on your bone.
+
+36
+00:01:51,370 --> 00:01:53,664
+We can access different properties
+
+37
+00:01:53,664 --> 00:01:56,260
+of those physical behavior
+
+38
+00:01:56,260 --> 00:01:59,747
+through the panel whose
+properties are editable.
+
+39
+00:01:59,747 --> 00:02:04,022
+Pair bone, let's see in detail
+the different properties.
+
+40
+00:02:04,022 --> 00:02:07,538
+The amplitude rotation
+option will increase
+
+41
+00:02:07,538 --> 00:02:12,000
+or decrease the rotation
+angle of your bones.
+
+42
+00:02:12,000 --> 00:02:14,470
+With my three bone selected,
+
+43
+00:02:14,470 --> 00:02:18,997
+I will enter the value one,
+hold Alt and press enter.
+
+44
+00:02:18,997 --> 00:02:23,570
+This way, all the selected
+bones values are set to one.
+
+45
+00:02:23,570 --> 00:02:24,910
+With the value of one,
+
+46
+00:02:24,910 --> 00:02:29,540
+we can see that we almost
+have no rotation on the bones
+
+47
+00:02:29,540 --> 00:02:33,700
+while if I set it to 180 degrees,
+
+48
+00:02:33,700 --> 00:02:37,140
+you can see that the
+rotation gets pretty wild.
+
+49
+00:02:37,140 --> 00:02:39,220
+The stiffness value will kind
+
+50
+00:02:39,220 --> 00:02:42,690
+of change the reaction speed of the bone.
+
+51
+00:02:42,690 --> 00:02:46,120
+The higher the stiffness, the
+more rigidity you are breaking
+
+52
+00:02:46,120 --> 00:02:50,150
+making the bones reacting
+as if it was a metal spring
+
+53
+00:02:50,150 --> 00:02:52,271
+while with a very low stiffness,
+
+54
+00:02:52,271 --> 00:02:56,340
+it looks more organic like hairs or cloth.
+
+55
+00:02:56,340 --> 00:03:00,586
+So damping value greatly changed
+the behavior of the bones.
+
+56
+00:03:00,586 --> 00:03:03,060
+The higher the damping value,
+
+57
+00:03:03,060 --> 00:03:05,400
+the more absorption you will have
+
+58
+00:03:05,400 --> 00:03:07,310
+in the motion of the bones.
+
+59
+00:03:07,310 --> 00:03:11,160
+If you drastically decrease
+the value of the damping,
+
+60
+00:03:11,160 --> 00:03:14,010
+you will have a very jittery bones
+
+61
+00:03:14,010 --> 00:03:18,300
+that will react to any of
+the motion in the chain.
+
+62
+00:03:18,300 --> 00:03:22,100
+You should keep the damping
+value between zero and one.
+
+63
+00:03:22,100 --> 00:03:24,771
+If you enter a value beyond one,
+
+64
+00:03:24,771 --> 00:03:27,580
+it will likely creates bugs.
+
+65
+00:03:27,580 --> 00:03:30,660
+And one of the big
+issues of this add-on is
+
+66
+00:03:30,660 --> 00:03:33,170
+that once the simulation is bugging,
+
+67
+00:03:33,170 --> 00:03:38,100
+you kind of have to revert
+your file or reload it.
+
+68
+00:03:38,100 --> 00:03:40,410
+So be cautious with this.
+
+69
+00:03:40,410 --> 00:03:42,770
+It's the same for the Stiffness.
+
+70
+00:03:42,770 --> 00:03:44,530
+Don't go over one.
+
+71
+00:03:44,530 --> 00:03:47,340
+You won't have any change of behavior.
+
+72
+00:03:47,340 --> 00:03:49,850
+And at some point, it might bug.
+
+73
+00:03:49,850 --> 00:03:51,930
+In this specific case,
+
+74
+00:03:51,930 --> 00:03:56,040
+changing the translation
+value won't do anything.
+
+75
+00:03:56,040 --> 00:03:59,530
+And we will see why later in this video.
+
+76
+00:03:59,530 --> 00:04:03,670
+For the time being, let's
+increase the stretching value.
+
+77
+00:04:03,670 --> 00:04:07,350
+As expected, the bones are now stretching.
+
+78
+00:04:07,350 --> 00:04:09,756
+While it won't generate bugs,
+
+79
+00:04:09,756 --> 00:04:12,945
+I advise you to keep the value pretty low
+
+80
+00:04:12,945 --> 00:04:16,860
+and play in the range of zero to one.
+
+81
+00:04:16,860 --> 00:04:19,430
+The gravity value, as expected,
+
+82
+00:04:19,430 --> 00:04:23,240
+will kind of change the
+weight of your bones.
+
+83
+00:04:23,240 --> 00:04:26,728
+If you get to a pretty high
+value, like five or 10,
+
+84
+00:04:26,728 --> 00:04:29,900
+you will see your bones like falling.
+
+85
+00:04:29,900 --> 00:04:33,510
+While using the gravity value
+in a pretty broad range,
+
+86
+00:04:33,510 --> 00:04:35,940
+I didn't meet any bugs.
+
+87
+00:04:35,940 --> 00:04:39,610
+So as you have understand, you
+have to be kind of creative
+
+88
+00:04:39,610 --> 00:04:42,800
+and experiment a lot
+with the different values
+
+89
+00:04:42,800 --> 00:04:44,240
+for the different bones
+
+90
+00:04:44,240 --> 00:04:47,630
+until you get the simulation you want.
+
+91
+00:04:47,630 --> 00:04:52,530
+Convert those simulation into
+an action or an animation,
+
+92
+00:04:52,530 --> 00:04:54,090
+we need to bake.
+
+93
+00:04:54,090 --> 00:04:56,890
+To be able to bake the
+action of the bones,
+
+94
+00:04:56,890 --> 00:04:59,680
+you have to make sure
+that they are selected.
+
+95
+00:04:59,680 --> 00:05:03,410
+By clicking the select
+wiggle bones button,
+
+96
+00:05:03,410 --> 00:05:05,290
+you will select all the bones
+
+97
+00:05:05,290 --> 00:05:09,270
+that have the wiggle bone option enabled.
+
+98
+00:05:09,270 --> 00:05:11,360
+You've seen in the previous video,
+
+99
+00:05:11,360 --> 00:05:16,360
+baking an animation is done
+through the NLA editor.
+
+100
+00:05:16,420 --> 00:05:18,570
+When opening the NLA editor,
+
+101
+00:05:18,570 --> 00:05:22,460
+I can see my current
+weeping action being used.
+
+102
+00:05:22,460 --> 00:05:25,890
+By now, click the bake wiggle button
+
+103
+00:05:25,890 --> 00:05:28,280
+in the wiggle bone panel.
+
+104
+00:05:28,280 --> 00:05:31,030
+It will bake the wiggle simulation
+
+105
+00:05:31,030 --> 00:05:33,420
+on all the selected bones.
+
+106
+00:05:33,420 --> 00:05:36,820
+And we can see that it
+does create a new NLA track
+
+107
+00:05:36,820 --> 00:05:39,180
+including the weeping action.
+
+108
+00:05:39,180 --> 00:05:43,070
+And on top of this, we can
+see our new baked action.
+
+109
+00:05:43,070 --> 00:05:46,700
+Let's push it down into the NLA editor.
+
+110
+00:05:46,700 --> 00:05:48,580
+And if we deactivate it,
+
+111
+00:05:48,580 --> 00:05:52,470
+we can see that our bones
+are no longer rotating.
+
+112
+00:05:52,470 --> 00:05:54,870
+Thus, when we click the bake wiggle,
+
+113
+00:05:54,870 --> 00:05:58,830
+it will remove the wiggle
+option onto those bone.
+
+114
+00:05:58,830 --> 00:06:03,800
+So what we see are currently
+the animation of those bones.
+
+115
+00:06:03,800 --> 00:06:08,240
+Additive bake option
+simply create an NLA track
+
+116
+00:06:08,240 --> 00:06:11,270
+including the original action
+
+117
+00:06:11,270 --> 00:06:15,850
+so that the bake action can
+be layered on top of it.
+
+118
+00:06:15,850 --> 00:06:18,960
+If we deactivate the additive bake
+
+119
+00:06:18,960 --> 00:06:21,395
+and then bake the wiggle action,
+
+120
+00:06:21,395 --> 00:06:25,060
+we will only see the result of the wiggle.
+
+121
+00:06:25,060 --> 00:06:29,730
+Since the root bone wasn't
+choosing the wiggle add-on,
+
+122
+00:06:29,730 --> 00:06:31,500
+it's not moving anymore.
+
+123
+00:06:31,500 --> 00:06:35,011
+This, we then need to
+manually add those action
+
+124
+00:06:35,011 --> 00:06:37,650
+into the NLA editor.
+
+125
+00:06:37,650 --> 00:06:39,440
+When both the weeping action
+
+126
+00:06:39,440 --> 00:06:41,990
+and the baked action are enabled,
+
+127
+00:06:41,990 --> 00:06:45,250
+we can see the whole
+animation we have generated.
+
+128
+00:06:45,250 --> 00:06:47,440
+So particularly, I advise you
+
+129
+00:06:47,440 --> 00:06:50,500
+to keep the additive bake enabled.
+
+130
+00:06:50,500 --> 00:06:52,400
+I will reset everything
+
+131
+00:06:52,400 --> 00:06:55,230
+and I will select the second animation.
+
+132
+00:06:55,230 --> 00:06:56,529
+The jumping one.
+
+133
+00:06:56,529 --> 00:07:01,020
+As you can see, we have some
+amplitude on the translation
+
+134
+00:07:01,020 --> 00:07:03,508
+but the bones are not offsetting
+
+135
+00:07:03,508 --> 00:07:07,710
+and this is because they
+are connected in the rig.
+
+136
+00:07:07,710 --> 00:07:10,280
+So I need to go into edit mode,
+
+137
+00:07:10,280 --> 00:07:14,802
+select those bone and press
+Alt + P to unparent them
+
+138
+00:07:14,802 --> 00:07:19,180
+or keep them parented but disconnect them.
+
+139
+00:07:19,180 --> 00:07:23,760
+And now we can see that they
+are getting offsetted based
+
+140
+00:07:23,760 --> 00:07:25,550
+on the translation value.
+
+141
+00:07:25,550 --> 00:07:29,820
+If we increase this value,
+there will be more jittery
+
+142
+00:07:29,820 --> 00:07:32,830
+and they will move in space a lot more.
+
+143
+00:07:32,830 --> 00:07:37,020
+I advise you to keep this
+value between zero and one.
+
+144
+00:07:37,020 --> 00:07:40,050
+It's a very powerful
+tool that can allow you
+
+145
+00:07:40,050 --> 00:07:42,250
+to get very nice results fast
+
+146
+00:07:42,250 --> 00:07:45,833
+but you may need to edit to beat the rig.
+
+147
+00:07:46,950 --> 00:07:50,620
+So let's now try the add-on on our Mac.
+
+148
+00:07:50,620 --> 00:07:53,810
+I've just reloaded the base motion file.
+
+149
+00:07:53,810 --> 00:07:57,780
+We have the work cycle
+enable in the action editor.
+
+150
+00:07:57,780 --> 00:08:02,640
+I will select the Bodhi
+controller and I will enable
+
+151
+00:08:02,640 --> 00:08:04,239
+then we go add-on.
+
+152
+00:08:04,239 --> 00:08:08,560
+As soon as I activate the
+add-on on the Bodhi controller,
+
+153
+00:08:08,560 --> 00:08:12,660
+we can see our character
+shaking on each step
+
+154
+00:08:12,660 --> 00:08:14,260
+which is kind of cool.
+
+155
+00:08:14,260 --> 00:08:18,720
+I have a drop in performances
+which is kind of expecting
+
+156
+00:08:18,720 --> 00:08:23,350
+since it's running a
+simulation in real time
+
+157
+00:08:23,350 --> 00:08:26,860
+but it's definitely okay
+for me to work on this
+
+158
+00:08:26,860 --> 00:08:29,370
+increasing the Stiffness and the dumping
+
+159
+00:08:29,370 --> 00:08:34,070
+to get a more natural motion
+or something I like more.
+
+160
+00:08:34,070 --> 00:08:35,830
+But there is a little issue
+
+161
+00:08:35,830 --> 00:08:40,830
+or at least limitation compared
+to the previous method.
+
+162
+00:08:40,950 --> 00:08:44,040
+Here, I can't choose what part
+
+163
+00:08:44,040 --> 00:08:46,705
+of the body is currently leading.
+
+164
+00:08:46,705 --> 00:08:51,650
+And as you can see, whenever
+the character is dropping down,
+
+165
+00:08:51,650 --> 00:08:55,090
+the front part is dropping down also.
+
+166
+00:08:55,090 --> 00:08:57,643
+So it's the back part of the body
+
+167
+00:08:57,643 --> 00:09:00,410
+that is currently dragging in the motion.
+
+168
+00:09:00,410 --> 00:09:05,070
+So Blender kind of assumed
+that the back part of the body
+
+169
+00:09:05,070 --> 00:09:08,245
+is currently heavier than the front part
+
+170
+00:09:08,245 --> 00:09:12,760
+which is not what I did in
+my animation previously.
+
+171
+00:09:12,760 --> 00:09:15,470
+And this is not something I can change.
+
+172
+00:09:15,470 --> 00:09:18,160
+I have no option to deal with this.
+
+173
+00:09:18,160 --> 00:09:23,150
+It depends on the base orientation
+of the bone in the rig.
+
+174
+00:09:23,150 --> 00:09:27,480
+But as an animator, you may
+not want to edit the rig.
+
+175
+00:09:27,480 --> 00:09:29,300
+Whenever you want to use this,
+
+176
+00:09:29,300 --> 00:09:31,530
+you will break everything for sure.
+
+177
+00:09:31,530 --> 00:09:34,240
+And another big limitation is
+
+178
+00:09:34,240 --> 00:09:38,600
+that we can't constraint
+one rotation angle.
+
+179
+00:09:38,600 --> 00:09:42,023
+Here, you can see that the
+antenna is currently rotating
+
+180
+00:09:42,023 --> 00:09:47,023
+along all its axis even
+if the axis are locked.
+
+181
+00:09:47,190 --> 00:09:50,230
+So this is a fantastic add-on
+
+182
+00:09:50,230 --> 00:09:54,070
+but if you want to
+create precise animation
+
+183
+00:09:54,070 --> 00:09:57,950
+or precise motion along a specific axis,
+
+184
+00:09:57,950 --> 00:10:00,730
+it might not be the best choice
+
+185
+00:10:00,730 --> 00:10:05,730
+but for any organic propose,
+it can be a huge time saver.
+

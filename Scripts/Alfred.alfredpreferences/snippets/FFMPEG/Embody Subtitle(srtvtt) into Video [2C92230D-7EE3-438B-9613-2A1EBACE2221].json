@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "video_file=\"video.mp4\"\nsubtitle_file=\"subtitle.vtt\"\noutput_file=\"${video_file:r}_with_subs.mp4\"\nffmpeg -i \"$video_file\" \\\n    -vf \"subtitles='$subtitle_file':force_style='FontName=STHeiti Medium'\" \\\n    \"$output_file\"",
+    "uid" : "2C92230D-7EE3-438B-9613-2A1EBACE2221",
+    "name" : "Embody Subtitle(srt,vtt) into Video",
+    "keyword" : "srtvideo"
+  }
+}

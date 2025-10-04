@@ -1,0 +1,31 @@
+{
+    "conversation_id": "cpqfq3gnsmmh76n7ng6g",
+    "attachments": [
+        {
+            "date": "",
+            "title": "具身认知视角下的创造性思维",
+            "fileID": "cpqfpp0967ucqh0t0gqg",
+            "itemID": 2716,
+            "citation": "张克, & 杜秀敏. (n.d.). 具身认知视角下的创造性思维. 心理科学进展, 1–12.\n",
+            "citationShort": "⁨张⁩ and ⁨杜⁩",
+            "tags": [
+                "#kimi",
+                "具身认知",
+                "创造性思维",
+                "发散思维",
+                "聚合思维",
+                "隐喻"
+            ]
+        }
+    ],
+    "prompt": "\n    As an academic expert, you excel at comparing and contrasting given papers. \n    Please provide a comprehensive and structured summary of these papers.\n    The instructions for the attachments uploaded:\n- 具身认知视角下的创造性思维, (It can be cite this paper as ⁨张⁩ and ⁨杜⁩ on your answer). \n\n    \nNow, Listen to me:\n解释（故事）\nImagine you're explaining content above to a group of curious middle school students who love creative stories. Use vivid and imaginative metaphors to describe the concepts in a way that is engaging and easy to understand. For example, if you're explaining something complex like quantum mechanics, you might compare it to a video game with different levels and rules. Your goal is to make the theory as relatable and intriguing as a fantasy novel.\n\n    Your answer should be in Chinese, using the Markdown format for layout.",
+    "response": "### 综合总结\n\n#### 论文概述\n张和杜在其论文《具身认知视角下的创造性思维》中，探讨了创造性思维与身体感知运动经验之间的关系。创造性思维是一种能产生新颖且适用观点或产品的思维形式，它在科学技术、发明创造等多个社会领域中发挥着关键作用。具身认知理论认为，身体在认知过程中起到重要作用，身体不仅是认知的来源，还会影响认知过程。\n\n#### 创造性思维的分类\n创造性思维可以分为发散思维和聚合思维。发散思维是创造性思维的核心，它要求个体根据给定信息，探索多种可能的答案。聚合思维则是将各种信息综合起来，以得出一个正确的答案。\n\n#### 具身认知视角下的研究进展\n张和杜从身体动作、视觉、触觉、味觉等角度对创造性思维进行了综述，并从概念隐喻理论、皮亚杰发生认识论、进化心理学说等角度对具身效应进行了解释。\n\n#### 理论解释\n- **概念隐喻理论**：认为我们通过身体经验来理解抽象概念，比如通过身体的冷热感来理解社会距离的远近。\n- **皮亚杰发生认识论**：强调图式中储存了大量基于动作内化了的思维，通过同化和顺应过程，个体逐渐达到更高的平衡状态。\n- **进化心理学说**：认为高级认知建立在身体感知运动经验基础上，对人类生存具有适应意义。\n\n#### 未来研究方向\n张和杜提出，未来的研究应从具身效应的双向性、认知神经机制、可重复性、多感觉通道、善恶意创造力、机器学习等角度进行深入探索。\n\n### 故事化解释\n\n亲爱的中学生们，让我用一个奇幻的故事来解释这篇论文的内容。\n\n想象一下，我们的大脑是一个充满魔法的王国，而创造性思维就是这个王国中的宝藏。这个宝藏不是凭空出现的，而是由我们身体的勇士们——我们的动作、视觉、触觉和味觉——通过一系列的冒险和探索发现的。\n\n在这个王国里，有两种特别的魔法师：一种是发散思维魔法师，他们能够向四面八方抛出魔法网，捕捉到各种各样的新奇点子；另一种是聚合思维魔法师，他们擅长将这些点子聚集起来，编织成一个完美的解决方案。\n\n而这些魔法师的力量，竟然与他们的身体紧密相关。比如，当他们用力挤压一个软软的球时，他们的魔法力量就会增强，让他们能够想出更多独特的主意。又或者，当他们在一个明亮的房间里思考时，他们的思维就会变得更加敏捷和清晰。\n\n但是，这个王国的魔法并不是一成不变的。有时候，魔法师们需要改变自己的思维方式，比如换一个手来施展魔法，或者在不同的环境中寻找灵感。这样，他们就能够打破旧有的魔法模式，创造出全新的魔法。\n\n未来，这个王国的魔法师们还需要探索更多的秘密，比如他们的魔法力量是否能够反过来影响他们的身体，或者他们是否能够通过结合多种感官来增强自己的魔法。\n\n现在，让我们一起期待这些魔法师们在未来的冒险中，发现更多创造性思维的奥秘吧！",
+    "refs": [
+        "cpqfpp0967ucqh0t0gqg"
+    ],
+    "title": "\n    As an academic expert, yo",
+    "group_id": "cpqfq3o3r07fr691hpr0",
+    "req_id": "cpqfq3o3r07fr691hps0",
+    "resp_id": "cpqfq3o3r07fr691hpsg",
+    "quection": "解释（故事）\nImagine you're explaining content above to a group of curious middle school students who love creative stories. Use vivid and imaginative metaphors to describe the concepts in a way that is engaging and easy to understand. For example, if you're explaining something complex like quantum mechanics, you might compare it to a video game with different levels and rules. Your goal is to make the theory as relatable and intriguing as a fantasy novel."
+}

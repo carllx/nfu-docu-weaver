@@ -1,0 +1,29 @@
+{
+    "conversation_id": "ctpjuu6an0vj59b5hb0g",
+    "attachments": [
+        {
+            "date": 2014,
+            "title": "Multimedia Programming Using Max/MSP and TouchDesigner",
+            "fileID": "cto9qolo082i5m3lir90",
+            "itemID": 4076,
+            "citation": "Lechner, P. (2014). Multimedia Programming Using Max/MSP and TouchDesigner. Packt Publishing Ltd.\n",
+            "citationShort": "Lechner, 2014",
+            "tags": [
+                "#kimi",
+                "Computers / Interactive & Multimedia",
+                "Computers / Programming / Open Source",
+                "Computers / Speech & Audio Processing"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Multimedia Programming Using Max/MSP and TouchDesigner, was published on 2014. (It can be cite this paper as Lechner, 2014 on your answer). \n\n",
+    "response": "```markdown\n# 多媒体编程：使用Max/MSP和TouchDesigner\n\n## 前言\n- 书籍概览\n  - 涵盖内容\n  - 所需条件\n  - 目标读者\n  - 约定\n  - 读者反馈\n  - 客户支持\n  - 下载示例代码\n  - 下载彩色图像\n  - 勘误\n  - 盗版\n  - 问题\n\n## 第1章：Max入门\n- Max基础概念\n  - 模块化表达式基础\n  - Max使用场景\n  - Max消息域\n  - Max信号处理\n  - Jitter、矩阵和视频处理\n  - Jitter数据格式\n\n## 第2章：Max设置和基础\n- 设置Max\n  - 获取帮助\n    - Max集成帮助系统\n    - 论坛\n  - 外部资源\n  - 设置Max\n    - 音频状态窗口\n    - 设置MIDI\n    - 其他偏好设置\n  - 对象默认值\n  - 文件偏好设置\n  - 安装外部资源\n  - 其他设置技巧\n  - 组织完成的代码\n    - 抽象\n    - 附加\n    - 剪贴\n    - 包\n    - 项目\n    - 原型\n\n## 第3章：Max中的高级编程技术\n- 合成器示例介绍\n  - 初始化修补程序\n  - 微观计时和消息排序\n  - MIDI输入的bpatcher\n  - 发送和接收数据\n  - #n表示法\n  - 数据集合\n  - 更多消息框魔法\n  - 组织我们的修补程序\n  - pattr家族 - 通信系统\n  - Max中的定时\n    - 事件优先级\n  - 调试\n    - 智能调试方法\n    - 调试器\n  - 优化\n  - 脚本和this patcher\n\n## 第4章：Max/MSP中的基本音频\n- 基本音频原理\n  - 音频合成\n  - 调制类型\n    - 幅度调制\n    - 环调制与幅值调制\n    - 颤音\n    - 反馈\n  - 频率调制\n    - 控制FM\n    - 反馈\n    - 相位调制\n  - 多~对象\n    - 管理和加载实例\n    - 多声道和声音分配\n  - 加法合成\n  - 减法合成和滤波\n    - 经典方法\n    - 构建均衡器\n    - 滤波器理论简介\n  - 波形整形\n  - 采样和音频文件播放\n  - 混音和信号路由\n    - 传统混音\n\n## 第5章：Max/MSP中的高级音频\n- 更多采样\n  - 颗粒采样\n  - 效果（FX）\n    - 口吃效果\n    - 动态处理\n      - 噪声门\n      - 扩展器\n      - 限制器\n      - 压缩器\n    - 混响\n      - 多作为级联\n      - 卷积\n      - 房间脉冲响应\n  - FFT（快速傅里叶变换）\n    - 绘制信号频谱\n    - 简单卷积\n    - FFT滤波器\n    - 频谱混响和冻结\n    - 录制和回放FFT数据\n  - 瞬态检测\n  - 样本精确序列\n\n## 第6章：Gen中的低级修补\n- 介绍Gen\n  - Gen工作区\n  - Max和Gen之间的差异\n  - 参数通过param\n  - 缓冲区和数据\n  - Gen中的子修补和抽象\n  - Genexpr和CodeBox\n  - 效率\n  - 示例\n    - Karplus-Strong合成\n    - 质量-弹簧系统\n    - 波导和散射节点\n\n## 第7章：Max/Jitter中的视频\n- 输入和输出Jitter数据\n- 开始使用Jitter矩阵\n- 矩阵处理\n  - 反馈和延迟\n  - 使用OpenGL在Jitter中\n  - 几何操作\n  - 着色器和效果\n\n## 第8章：Max for Live\n- Max for Live的基础知识\n  - MIDI输入/输出\n  - 音频输入/输出\n  - 同步\n  - 参数和保存\n  - Live API\n  - 示例设备 - 参数调制器\n\n## 第9章：使用TouchDesigner进行基本可视化\n- TouchDesigner的需求\n- 获取帮助\n- TouchDesigner基础和UI\n  - 脚本序言\n  - Hello World\n  - COMPs\n  - TOPs\n  - CHOPs\n  - SOPs\n  - MATs\n  - DATs\n  - 操作符\n  - 查看器标志\n  - 克隆免疫标志\n  - 烹饪标志\n  - 旁路标志\n  - 锁定标志\n  - 查看器活动标志\n  - 参数对话框\n  - 线和链接\n  - 选择OP\n  - 时间切片、CHOPs和导出\n  - 窗格\n  - 组件 - 项目结构\n  - 我在哪里？\n  - 创建第一个UI\n  - 层次结构\n  - 抽象\n  - 调色板\n  - 本地\n  - 克隆\n  - root中发生了什么？\n\n## 第10章：使用TouchDesigner进行高级可视化\n- 基本音频反应视频\n  - 2D合成示例\n  - 复制器COMP\n  - me.digits表达式作为个性化复制品的方式\n  - 连接Max和TD\n  - 用于多部电影的组件\n  - 转换OP家族之间\n  - 处理时间\n  - 动画组件\n  - 使用动画COMP进行非线性目的\n  - 同步\n    - SMPTE LTC\n    - 音频坡道\n    - UDP\n  - 介绍3D渲染\n    - SOPs\n  - 分配材料\n  - SOPs中的数据\n\n## 第11章：3D渲染和示例\n- 交互式和非程序化工具\n  - 几何查看器\n  - 按选择分组\n  - 建模器\n  - Geo COMP\n  - 实例化\n  - 相机、灯光和着色\n    - 相机\n    - 相机路径\n    - 切割和混合\n    - 雾和FOV\n    - 灯光和阴影\n  - 材料\n    - 透明度\n    - 渲染通道\n    - 渲染拾取和3D GUIs\n  - 程序化建模示例\n    - 扬声器\n      - 结构\n      - 建模\n      - 渲染\n    - 瀑布图\n      - 结构\n      - 建模\n    - 液体\n      - 结构\n      - 建模\n    - 景观中的房子\n      - 结构\n      - 建模\n      - 渲染\n\n## 第12章：将软件连接到外部世界\n- 模拟合成器和控制电压\n- Arduino和微控制器\n  - Arduino示例项目\n  - Arduino项目的硬件要求\n  - Arduino代码\n- Pure Data\n- 多点触控屏\n  - TUIO协议\n- 与其他程序接口\n  - 开放声音控制（OSC）\n  - MIDI\n  - 按键和模拟用户活动\n  - 音频和视频\n  - 多扬声器设置\n  - 展览\n  - 导出应用程序\n  - 定制应用程序\n  - 协作工作\n\n## 索引\n```\n\n以上大纲目录根据提供的《多媒体编程：使用Max/MSP和TouchDesigner》一书的内容结构和主要章节进行了整理和编排，以Markdown格式展示，便于理解和查阅。",
+    "refs": [
+        "cto9qolo082i5m3lir90"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "ctpjuufpfahbtseoie1g",
+    "req_id": "ctpjuufpfahbtseoie20",
+    "resp_id": "ctpjuufpfahbtseoie2g",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

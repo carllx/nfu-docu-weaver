@@ -1,0 +1,341 @@
+﻿1
+00:00:01,330 --> 00:00:04,360
+- In this video, we will
+quickly create the foot roll.
+
+2
+00:00:04,360 --> 00:00:07,470
+Meaning that we will
+input a bit of rotation
+
+3
+00:00:07,470 --> 00:00:11,940
+in the foot and slightly
+adjust the whole motion.
+
+4
+00:00:11,940 --> 00:00:14,610
+This is going to be
+pretty straightforward.
+
+5
+00:00:14,610 --> 00:00:17,890
+I will select the foot
+roll controllers that is
+
+6
+00:00:17,890 --> 00:00:19,740
+in the back of the foot.
+
+7
+00:00:19,740 --> 00:00:21,810
+I will first select the correct controller
+
+8
+00:00:21,810 --> 00:00:23,360
+the one I'm working on,
+
+9
+00:00:23,360 --> 00:00:25,620
+and I will rotate it a bit forward.
+
+10
+00:00:25,620 --> 00:00:28,910
+As the foot is kind of under the torso.
+
+11
+00:00:28,910 --> 00:00:32,290
+It's tough to raise
+during the passing pose.
+
+12
+00:00:32,290 --> 00:00:35,162
+From there, I can go a few frame before,
+
+13
+00:00:35,162 --> 00:00:37,420
+and I will cancel the rotation
+
+14
+00:00:37,420 --> 00:00:40,240
+by pressing Alt + R in the 3D view.
+
+15
+00:00:40,240 --> 00:00:43,190
+From there, I will go
+forward into the animation
+
+16
+00:00:43,190 --> 00:00:45,410
+to the contacting pose.
+
+17
+00:00:45,410 --> 00:00:48,860
+I will cancel the
+rotation of the controller
+
+18
+00:00:48,860 --> 00:00:52,230
+and then I will rotate it backward
+
+19
+00:00:52,230 --> 00:00:56,600
+so that the heel is currently
+touching the ground, first.
+
+20
+00:00:56,600 --> 00:00:58,660
+As you can see those rotation
+
+21
+00:00:58,660 --> 00:01:02,960
+from the side view only
+affect the X rotation channel
+
+22
+00:01:02,960 --> 00:01:04,060
+of this controller.
+
+23
+00:01:04,060 --> 00:01:07,030
+I will flatten the foot, couple of frame
+
+24
+00:01:07,030 --> 00:01:08,410
+after the contact pose
+
+25
+00:01:08,410 --> 00:01:11,360
+by pressing Alt + R in the 3D view.
+
+26
+00:01:11,360 --> 00:01:12,710
+When the heel touch the ground
+
+27
+00:01:12,710 --> 00:01:15,710
+the foot get flat pretty fast.
+
+28
+00:01:15,710 --> 00:01:17,760
+It's now refined a bit to curve.
+
+29
+00:01:17,760 --> 00:01:20,280
+I will slightly offset the beginning
+
+30
+00:01:20,280 --> 00:01:23,540
+of the raising of the heel to frame 16,
+
+31
+00:01:23,540 --> 00:01:26,770
+and I will make it lean
+forward a little more
+
+32
+00:01:26,770 --> 00:01:30,460
+on frame 43 so that we have some dragging
+
+33
+00:01:30,460 --> 00:01:35,070
+of the front toes while
+the foot is moving forward.
+
+34
+00:01:35,070 --> 00:01:38,060
+This will serve as our base motion.
+
+35
+00:01:38,060 --> 00:01:40,410
+And from there, I will just adjust
+
+36
+00:01:40,410 --> 00:01:42,450
+the amplitude of the curve,
+
+37
+00:01:42,450 --> 00:01:45,890
+making the contacting pose a bit wider.
+
+38
+00:01:45,890 --> 00:01:50,000
+Then, I will adjust the
+roll of the foot forward.
+
+39
+00:01:50,000 --> 00:01:54,350
+So, I will slightly
+increase frame 43 amplitude.
+
+40
+00:01:54,350 --> 00:01:58,310
+So that the food is bending
+backward a little more.
+
+41
+00:01:58,310 --> 00:02:01,370
+I am basically slightly pushing the poles
+
+42
+00:02:01,370 --> 00:02:05,690
+by pushing those curves up
+by contrasting the curve,
+
+43
+00:02:05,690 --> 00:02:07,580
+as we have seen just before.
+
+44
+00:02:07,580 --> 00:02:10,160
+Now, I'd like a bit of a kicking motion
+
+45
+00:02:10,160 --> 00:02:14,230
+whenever the foot is
+reaching its forward position
+
+46
+00:02:14,230 --> 00:02:18,710
+by simply duplicating the extreme key down
+
+47
+00:02:18,710 --> 00:02:22,250
+and offsetting it back
+by a couple of frame.
+
+48
+00:02:22,250 --> 00:02:25,080
+It's a bit like when
+we are holding the foot
+
+49
+00:02:25,080 --> 00:02:28,120
+up in the air before
+it touches the ground.
+
+50
+00:02:28,120 --> 00:02:29,900
+It brings a bit of contrast.
+
+51
+00:02:29,900 --> 00:02:32,540
+It make it a little more mechanical.
+
+52
+00:02:32,540 --> 00:02:36,240
+From there, it's just a
+matter of tweaking the curve
+
+53
+00:02:36,240 --> 00:02:39,590
+Can spend your whole lifetime
+adjusting those curve
+
+54
+00:02:39,590 --> 00:02:41,900
+without getting a perfect motion.
+
+55
+00:02:41,900 --> 00:02:43,860
+But with a couple of adjustment
+
+56
+00:02:43,860 --> 00:02:45,310
+and a bit of dragging,
+
+57
+00:02:45,310 --> 00:02:47,650
+we can get a satisfying motion.
+
+58
+00:02:47,650 --> 00:02:51,800
+Here, I feel like the foot
+is too close to torso,
+
+59
+00:02:51,800 --> 00:02:55,030
+so I will select my torso controller
+
+60
+00:02:55,030 --> 00:02:57,500
+and offset the whole D curve
+
+61
+00:02:57,500 --> 00:03:00,080
+on the y-axis in the graphic (indistinct).
+
+62
+00:03:00,080 --> 00:03:01,790
+This is one of the cool thing
+
+63
+00:03:01,790 --> 00:03:03,640
+about this method is that we can play
+
+64
+00:03:03,640 --> 00:03:07,800
+with the different channels
+to adjust the animation.
+
+65
+00:03:07,800 --> 00:03:11,140
+I have a slight clipping between the torso
+
+66
+00:03:11,140 --> 00:03:15,100
+and the thigh that I will
+probably fix later on.
+
+67
+00:03:15,100 --> 00:03:19,130
+If needed, you can also
+adjust the foot position
+
+68
+00:03:19,130 --> 00:03:22,180
+and the timing whenever
+it's falling compared
+
+69
+00:03:22,180 --> 00:03:23,840
+to the body motion.
+
+70
+00:03:23,840 --> 00:03:26,670
+Here, I'm slightly offsetting the timing
+
+71
+00:03:26,670 --> 00:03:30,860
+of the foot so that it
+cleanse slightly sooner.
+
+72
+00:03:30,860 --> 00:03:34,040
+And so that then the torso is falling.
+
+73
+00:03:34,040 --> 00:03:35,130
+So this is the kind
+
+74
+00:03:35,130 --> 00:03:36,840
+of thing I will continue
+
+75
+00:03:36,840 --> 00:03:40,040
+on tweaking during the animation.
+
+76
+00:03:40,040 --> 00:03:42,660
+The idea is to get the torso route right,
+
+77
+00:03:42,660 --> 00:03:45,360
+and the feet right before going on.
+
+78
+00:03:45,360 --> 00:03:48,863
+In the next video, we
+will animate the toes.
+

@@ -1,0 +1,26 @@
+{
+    "conversation_id": "crcm4livk6g3lqtrensg",
+    "attachments": [
+        {
+            "date": "",
+            "title": "Unity 2023 Essential Training Online Class | LinkedIn Learning, formerly Lynda.com",
+            "fileID": "crclu121n4gv02bq93vg",
+            "itemID": 3998,
+            "citation": "Unity 2023 Essential Training Online Class | LinkedIn Learning, formerly Lynda.com. (n.d.). LinkedIn. Retrieved September 5, 2024, from https://www.linkedin.com/learning/unity-2023-essential-training\n",
+            "citationShort": "“Unity 2023 Essential Training On…”",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Unity 2023 Essential Training Online Class | LinkedIn Learning, formerly Lynda.com, (It can be cite this paper as “Unity 2023 Essential Training On…” on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 1. Unity 2023 入门基础\n   ### 1.1 Unity 2023 概述\n   #### 1.1.1 实时3D开发一站式平台\n   #### 1.1.2 Unity在游戏、建筑、汽车行业及短片制作中的应用\n   ### 1.2 课程概览\n   #### 1.2.1 从初学者到熟练用户的旅程\n   #### 1.2.2 讲师介绍\n\n## 2. Unity 项目设置\n   ### 2.1 安装 Unity\n   #### 2.1.1 Unity Hub的安装与使用\n   #### 2.1.2 Unity编辑器的安装\n   ### 2.2 项目设置概览\n   #### 2.2.1 新建项目\n   #### 2.2.2 项目模板选择\n\n## 3. Unity 界面了解\n   ### 3.1 Unity 用户界面简介\n   #### 3.1.1 界面四大组成部分\n   #### 3.1.2 场景、项目、控制台和检视器的介绍\n   ### 3.2 自定义 UI\n   #### 3.2.1 布局自定义\n   #### 3.2.2 快捷键导航\n\n## 4. 资产的使用与管理\n   ### 4.1 游戏对象与资产创建\n   #### 4.1.1 游戏对象基础\n   #### 4.1.2 组件添加与功能扩展\n   ### 4.2 资产商店与包管理器\n   #### 4.2.1 包管理器的使用\n   #### 4.2.2 资产商店资源的获取\n\n## 5. 材质的应用\n   ### 5.1 材质基础\n   #### 5.1.1 材质、着色器和纹理的关系\n   #### 5.1.2 创建和组织新材质\n   ### 5.2 材质和纹理属性\n   #### 5.2.1 纹理映射与应用\n\n## 6. Prefabs 的使用\n   ### 6.1 Prefabs 简介\n   #### 6.1.1 Prefabs 的概念和用途\n   ### 6.2 创建 Prefabs\n   #### 6.2.1 实例化和修改 Prefabs\n   ### 6.3 Prefab 变体\n   #### 6.3.1 创建和管理 Prefab 变体\n\n## 7. 场景构建\n   ### 7.1 ProBuilder 工具介绍\n   #### 7.1.1 ProBuilder 功能和使用场景\n   ### 7.2 ProBuilder 工具探索\n   #### 7.2.1 工具使用和场景搭建\n\n## 8. 动画的创建与实现\n   ### 8.1 动画基础与编辑器\n   #### 8.1.1 Unity动画窗口的使用\n   ### 8.2 动画控制器\n   #### 8.2.1 动画状态机的创建与使用\n\n## 9. 物理与碰撞\n   ### 9.1 碰撞体组件\n   #### 9.1.1 碰撞体的添加与优化\n\n## 10. 光照与烘焙\n   ### 10.1 光照基础\n   #### 10.1.1 光照类型与设置\n   ### 10.2 光照烘焙\n   #### 10.2.1 光照烘焙的设置与执行\n\n## 11. 音频的添加与调整\n   ### 11.1 音频基础\n   #### 11.1.1 Unity中的音频格式与组件\n   ### 11.2 音频源的添加\n   #### 11.2.1 音频混合器的使用\n\n## 12. 光照贴图与反射探针\n   ### 12.1 光照贴图结果与设置\n   #### 12.1.1 光照贴图质量控制\n   ### 12.2 反射探针的添加\n   #### 12.2.1 反射探针的定位与效果调整\n\n以上大纲根据《Unity 2023 Essential Training On…》课程内容整理而成。",
+    "refs": [
+        "crclu121n4gv02bq93vg"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "crcm4lsjot6him413gt0",
+    "req_id": "crcm4lsjot6him413gtg",
+    "resp_id": "crcm4lsjot6him413gu0",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

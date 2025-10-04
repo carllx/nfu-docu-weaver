@@ -1,0 +1,1458 @@
+﻿1
+00:00:00,750 --> 00:00:03,020
+- [Pierre] One thing
+I'd like to do early on
+
+2
+00:00:03,020 --> 00:00:06,370
+is to determine the
+tempo of the animation.
+
+3
+00:00:06,370 --> 00:00:09,000
+I'm still using blender
+default frame rate,
+
+4
+00:00:09,000 --> 00:00:11,760
+which is 24 frames per second.
+
+5
+00:00:11,760 --> 00:00:14,580
+And my ultimate method
+to figure out the rhythm
+
+6
+00:00:14,580 --> 00:00:19,273
+it's to do noise with my
+mouth. (mimics bouncing)
+
+7
+00:00:20,830 --> 00:00:23,910
+So we can argue this is ridiculous or not,
+
+8
+00:00:23,910 --> 00:00:26,090
+but if you've ever animated before,
+
+9
+00:00:26,090 --> 00:00:28,340
+I'm sure you've done this also.
+
+10
+00:00:28,340 --> 00:00:30,940
+And this is currently a very good method
+
+11
+00:00:30,940 --> 00:00:33,890
+because animation is about rhythm.
+
+12
+00:00:33,890 --> 00:00:37,350
+So don't hesitate to sing your animation
+
+13
+00:00:37,350 --> 00:00:39,400
+or to make noise with your mouth
+
+14
+00:00:39,400 --> 00:00:43,480
+because you will input
+natural tempo that fits you,
+
+15
+00:00:43,480 --> 00:00:45,050
+that is appealing to you.
+
+16
+00:00:45,050 --> 00:00:48,140
+And when I was doing those
+stupid bouncing noise,
+
+17
+00:00:48,140 --> 00:00:52,210
+I was almost into a perfect
+two time per second.
+
+18
+00:00:52,210 --> 00:00:56,650
+So don't hesitate to record
+yourself or do whatever you need
+
+19
+00:00:56,650 --> 00:01:00,470
+to be able to make the sound
+and measure the tempo of it.
+
+20
+00:01:00,470 --> 00:01:02,550
+So this scientific method
+
+21
+00:01:02,550 --> 00:01:05,990
+pushed me to set my
+animation loop to 12 frames.
+
+22
+00:01:05,990 --> 00:01:08,910
+So I've set the error
+extreme on frame six.
+
+23
+00:01:08,910 --> 00:01:10,340
+As we are doing a cycle,
+
+24
+00:01:10,340 --> 00:01:13,910
+our character will move
+forward at a constant speed.
+
+25
+00:01:13,910 --> 00:01:17,250
+So to help us figuring the
+position of the root bone,
+
+26
+00:01:17,250 --> 00:01:19,370
+I can select all its key frame,
+
+27
+00:01:19,370 --> 00:01:22,000
+press T and switch them to linear.
+
+28
+00:01:22,000 --> 00:01:23,970
+This is not something mandatory.
+
+29
+00:01:23,970 --> 00:01:28,010
+If you prefer to go ahead
+and move the root bone by eye
+
+30
+00:01:28,010 --> 00:01:31,090
+and figure out the spacing,
+that's perfectly fine,
+
+31
+00:01:31,090 --> 00:01:34,910
+but it will help us
+figuring the foot position
+
+32
+00:01:34,910 --> 00:01:38,800
+on this first breakdown
+that I will set on frame one
+
+33
+00:01:38,800 --> 00:01:41,070
+and it will be the pushing pose.
+
+34
+00:01:41,070 --> 00:01:42,280
+Going back and forth
+
+35
+00:01:42,280 --> 00:01:45,870
+I'm trying to match the
+position of the back feet
+
+36
+00:01:45,870 --> 00:01:47,850
+on frame zero and frame one.
+
+37
+00:01:47,850 --> 00:01:50,840
+But again, don't worry
+if it's not perfect,
+
+38
+00:01:50,840 --> 00:01:53,720
+because when we will
+be polishing the curve,
+
+39
+00:01:53,720 --> 00:01:56,230
+there are methods to make it match.
+
+40
+00:01:56,230 --> 00:01:59,920
+Here, the important thing is
+to focus on the silhouette
+
+41
+00:01:59,920 --> 00:02:03,590
+of your character and the
+goal of this position.
+
+42
+00:02:03,590 --> 00:02:06,680
+So I'm currently adjusting
+the edge rotation,
+
+43
+00:02:06,680 --> 00:02:11,350
+but before I was adjusting
+the main torso controller.
+
+44
+00:02:11,350 --> 00:02:15,060
+The idea is to make these torso controller
+
+45
+00:02:15,060 --> 00:02:16,870
+pointing toward the target,
+
+46
+00:02:16,870 --> 00:02:20,560
+the target being the
+highest point in the air.
+
+47
+00:02:20,560 --> 00:02:23,090
+So most of the power of the jump
+
+48
+00:02:23,090 --> 00:02:26,590
+is due to the pushing of the back legs.
+
+49
+00:02:26,590 --> 00:02:31,440
+So the front legs will be
+dragging toward the initial point,
+
+50
+00:02:31,440 --> 00:02:33,460
+the point where they come from.
+
+51
+00:02:33,460 --> 00:02:37,060
+And they will drag or
+point toward this position,
+
+52
+00:02:37,060 --> 00:02:39,960
+both in their location and rotation,
+
+53
+00:02:39,960 --> 00:02:43,670
+that's why I'm rotating
+the hands backwards.
+
+54
+00:02:43,670 --> 00:02:46,820
+I will try to shape a
+bit the tail, but again,
+
+55
+00:02:46,820 --> 00:02:50,583
+I won't put that much in the
+energy into it right now.
+
+56
+00:02:50,583 --> 00:02:52,600
+I will mainly work on the tail
+
+57
+00:02:52,600 --> 00:02:54,620
+during the polishing stage.
+
+58
+00:02:54,620 --> 00:02:58,930
+I will also try to break a bit
+the position of the back feet
+
+59
+00:02:58,930 --> 00:03:01,720
+by rotating one of them a little bit.
+
+60
+00:03:01,720 --> 00:03:04,090
+Again, the idea is to break the twinning.
+
+61
+00:03:04,090 --> 00:03:07,200
+One of the foot is leaving the ground
+
+62
+00:03:07,200 --> 00:03:09,150
+slightly after the other.
+
+63
+00:03:09,150 --> 00:03:12,650
+So there will be a bit of back
+and forth with the back legs.
+
+64
+00:03:12,650 --> 00:03:15,250
+Because even if I want to avoid twinning,
+
+65
+00:03:15,250 --> 00:03:18,090
+I need to keep them tight timing wise
+
+66
+00:03:18,090 --> 00:03:20,600
+because they are influencing the bounce.
+
+67
+00:03:20,600 --> 00:03:22,160
+They are giving power.
+
+68
+00:03:22,160 --> 00:03:26,180
+Now I'm comparing my new
+pose with the next one.
+
+69
+00:03:26,180 --> 00:03:30,910
+And I see that I need to revise
+the orientation of the torso
+
+70
+00:03:30,910 --> 00:03:35,910
+because my character was diving
+or pushing too much forward,
+
+71
+00:03:36,840 --> 00:03:38,600
+not high enough.
+
+72
+00:03:38,600 --> 00:03:41,770
+Then I will slightly lean the head forward
+
+73
+00:03:41,770 --> 00:03:44,280
+because if you watch the reference,
+
+74
+00:03:44,280 --> 00:03:46,580
+the head is pretty stable.
+
+75
+00:03:46,580 --> 00:03:50,310
+So we will give it a bit
+of overlapping motion,
+
+76
+00:03:50,310 --> 00:03:52,800
+but we will try to keep it stable,
+
+77
+00:03:52,800 --> 00:03:54,780
+looking at its target point.
+
+78
+00:03:54,780 --> 00:03:57,090
+While I've started stretching the hips,
+
+79
+00:03:57,090 --> 00:04:00,140
+I keep the chest pretty squashed
+
+80
+00:04:00,140 --> 00:04:02,100
+throughout the middle of the torso.
+
+81
+00:04:02,100 --> 00:04:05,910
+And since the root interpolation
+is a bit annoying to me,
+
+82
+00:04:05,910 --> 00:04:09,350
+I will switch back to
+constant interpolation.
+
+83
+00:04:09,350 --> 00:04:12,780
+From there, I will scrub
+a lot into my animation.
+
+84
+00:04:12,780 --> 00:04:17,230
+I will try to fix a bit
+the feet orientation,
+
+85
+00:04:17,230 --> 00:04:18,830
+especially the front feet
+
+86
+00:04:18,830 --> 00:04:23,490
+that need to be oriented a
+bit inward in the front view.
+
+87
+00:04:23,490 --> 00:04:26,010
+So that's also a mistake to avoid
+
+88
+00:04:26,010 --> 00:04:30,600
+when you are animating a
+character, especially cycles,
+
+89
+00:04:30,600 --> 00:04:33,790
+you will tend to animate
+them from a side view
+
+90
+00:04:33,790 --> 00:04:36,130
+because it's more natural for us
+
+91
+00:04:36,130 --> 00:04:37,950
+to feel the motion this way.
+
+92
+00:04:37,950 --> 00:04:40,270
+But don't forget to check your character
+
+93
+00:04:40,270 --> 00:04:43,120
+from the front view,
+that's very important.
+
+94
+00:04:43,120 --> 00:04:47,480
+You should turn around your
+character as often as possible.
+
+95
+00:04:47,480 --> 00:04:50,700
+When animating a character,
+it's like sculpting,
+
+96
+00:04:50,700 --> 00:04:52,780
+we are sculpting the pose.
+
+97
+00:04:52,780 --> 00:04:56,130
+So you need to rotate around the model.
+
+98
+00:04:56,130 --> 00:04:59,430
+When sculpting, you spend half of the time
+
+99
+00:04:59,430 --> 00:05:03,870
+rotating around your character
+and watching how it behave.
+
+100
+00:05:03,870 --> 00:05:05,990
+This is the same with animation.
+
+101
+00:05:05,990 --> 00:05:08,450
+If you want to create good poses,
+
+102
+00:05:08,450 --> 00:05:11,520
+you need to check them
+through every angles.
+
+103
+00:05:11,520 --> 00:05:14,580
+At this stage, you can shape
+a bit the ears if you want,
+
+104
+00:05:14,580 --> 00:05:15,850
+that's not a problem.
+
+105
+00:05:15,850 --> 00:05:19,220
+It will help reading the
+silhouette of your character,
+
+106
+00:05:19,220 --> 00:05:21,160
+but it's a secondary motion
+
+107
+00:05:21,160 --> 00:05:23,450
+so you don't need to do it right now.
+
+108
+00:05:23,450 --> 00:05:24,780
+It's a bit like the tail,
+
+109
+00:05:24,780 --> 00:05:27,660
+this is something that will
+be easier to figure out
+
+110
+00:05:27,660 --> 00:05:29,920
+when we are polishing the animation.
+
+111
+00:05:29,920 --> 00:05:31,660
+So I'm still struggling a bit
+
+112
+00:05:31,660 --> 00:05:33,440
+with the position of the back feet.
+
+113
+00:05:33,440 --> 00:05:35,860
+I've kept one of them flat on the ground
+
+114
+00:05:35,860 --> 00:05:38,260
+because I feel like it
+looks more grounded,
+
+115
+00:05:38,260 --> 00:05:40,070
+which is the case, for sure.
+
+116
+00:05:40,070 --> 00:05:44,040
+So (indistinct) let's
+jump into the next pose,
+
+117
+00:05:44,040 --> 00:05:45,200
+the landing pose.
+
+118
+00:05:45,200 --> 00:05:47,330
+To start to working on the landing pose,
+
+119
+00:05:47,330 --> 00:05:50,300
+I will duplicate the last pose
+
+120
+00:05:50,300 --> 00:05:53,240
+so that I have the position of the feet.
+
+121
+00:05:53,240 --> 00:05:55,600
+This way I know where
+they will be landing.
+
+122
+00:05:55,600 --> 00:05:57,900
+Then I will roughly give the orientation
+
+123
+00:05:57,900 --> 00:05:59,370
+to the torso controller.
+
+124
+00:05:59,370 --> 00:06:02,460
+So I will push it up and I will rotate it
+
+125
+00:06:02,460 --> 00:06:04,360
+toward the landing point
+
+126
+00:06:04,360 --> 00:06:07,610
+or toward where our character come from.
+
+127
+00:06:07,610 --> 00:06:10,330
+Beware as I have made a little mistake
+
+128
+00:06:10,330 --> 00:06:12,160
+that I will fix later on,
+
+129
+00:06:12,160 --> 00:06:15,040
+but if you called avoid
+it, that will help.
+
+130
+00:06:15,040 --> 00:06:18,910
+Don't forget to move the
+root bone a little backward.
+
+131
+00:06:18,910 --> 00:06:22,130
+It will offset the whole
+character a bit backward,
+
+132
+00:06:22,130 --> 00:06:25,760
+and then you can place the
+feet and the torso as you want.
+
+133
+00:06:25,760 --> 00:06:28,160
+If you're like me and you forget to do it,
+
+134
+00:06:28,160 --> 00:06:30,160
+don't worry, it's not a big deal.
+
+135
+00:06:30,160 --> 00:06:33,120
+That won't be a pain to fix afterward.
+
+136
+00:06:33,120 --> 00:06:34,520
+So the first thing I will do
+
+137
+00:06:34,520 --> 00:06:37,809
+is to give the right
+orientation of the whole body.
+
+138
+00:06:37,809 --> 00:06:39,450
+I will also pull it back
+
+139
+00:06:39,450 --> 00:06:42,560
+so that I get a very stretched pose.
+
+140
+00:06:42,560 --> 00:06:44,170
+The idea is that the front feet
+
+141
+00:06:44,170 --> 00:06:46,810
+are just about to touch the ground.
+
+142
+00:06:46,810 --> 00:06:51,440
+So our character is stretching
+between the target point
+
+143
+00:06:51,440 --> 00:06:54,580
+and the previous position
+from where it comes from.
+
+144
+00:06:54,580 --> 00:06:57,260
+As I did before, if I can't feel the pose,
+
+145
+00:06:57,260 --> 00:07:01,920
+I will press Alt + R and Alt
++ G on the chest controller,
+
+146
+00:07:01,920 --> 00:07:06,920
+for example, to cancel any
+rotation or move I did before.
+
+147
+00:07:07,690 --> 00:07:10,463
+And I will just sculpt
+the pose of the character.
+
+148
+00:07:11,480 --> 00:07:12,860
+As for the other poses,
+
+149
+00:07:12,860 --> 00:07:16,650
+you have the reference on the
+target pose we want to match
+
+150
+00:07:16,650 --> 00:07:19,250
+in the lower right corner.
+
+151
+00:07:19,250 --> 00:07:22,760
+Since I don't have that much
+to comment on this part,
+
+152
+00:07:22,760 --> 00:07:26,350
+I will see you at eight
+minute and 50 seconds.
+
+153
+00:07:31,299 --> 00:07:33,882
+(serene music)
+
+154
+00:08:52,467 --> 00:08:55,070
+One thing I've input into this pose
+
+155
+00:08:55,070 --> 00:08:57,010
+and that we need to input
+
+156
+00:08:57,010 --> 00:08:59,440
+into the other pose while polishing
+
+157
+00:08:59,440 --> 00:09:02,230
+is this slight twist on the torso.
+
+158
+00:09:02,230 --> 00:09:05,490
+So since the left front
+leg of the character
+
+159
+00:09:05,490 --> 00:09:08,200
+is the first that will touch the ground,
+
+160
+00:09:08,200 --> 00:09:12,870
+I slightly twist its chest
+toward this left hand.
+
+161
+00:09:12,870 --> 00:09:15,490
+And a very common rule that we will see
+
+162
+00:09:15,490 --> 00:09:18,020
+when we will work on humanoid character
+
+163
+00:09:18,020 --> 00:09:21,050
+is that when the chest or
+the shoulders are twisting
+
+164
+00:09:21,050 --> 00:09:23,460
+or leaning toward the point,
+
+165
+00:09:23,460 --> 00:09:27,320
+the hips are twisting or leaning
+in the opposite direction,
+
+166
+00:09:27,320 --> 00:09:29,790
+giving a nice curvature
+to your character's
+
+167
+00:09:29,790 --> 00:09:31,360
+spine and balance.
+
+168
+00:09:31,360 --> 00:09:32,700
+While working on the pose,
+
+169
+00:09:32,700 --> 00:09:35,110
+I felt that the timing was a bit off
+
+170
+00:09:35,110 --> 00:09:39,000
+because the change in pose
+between frame 11 and 12
+
+171
+00:09:39,000 --> 00:09:40,770
+was too dramatic.
+
+172
+00:09:40,770 --> 00:09:43,620
+So I've offset the pose to the frame 10.
+
+173
+00:09:43,620 --> 00:09:47,010
+This pose was the hardest
+to make right so far.
+
+174
+00:09:47,010 --> 00:09:49,190
+So I'm going back and forth a lot,
+
+175
+00:09:49,190 --> 00:09:51,670
+I'm modifying the position
+of the legs a lot,
+
+176
+00:09:51,670 --> 00:09:53,980
+I want to avoid twinning.
+
+177
+00:09:53,980 --> 00:09:56,300
+I'm reworking the torso orientation,
+
+178
+00:09:56,300 --> 00:09:57,800
+a lot of different stuff.
+
+179
+00:09:57,800 --> 00:09:59,440
+There are very little chance
+
+180
+00:09:59,440 --> 00:10:02,540
+that you're able to
+match the perfect pose,
+
+181
+00:10:02,540 --> 00:10:05,180
+which doesn't exist at the first time.
+
+182
+00:10:05,180 --> 00:10:07,600
+So don't hesitate to come back on it,
+
+183
+00:10:07,600 --> 00:10:10,460
+don't hesitate to even
+modify the previous poses.
+
+184
+00:10:10,460 --> 00:10:13,300
+And since we are starting
+to feel the motion,
+
+185
+00:10:13,300 --> 00:10:16,210
+it's a good moment to
+display the motion path
+
+186
+00:10:16,210 --> 00:10:17,760
+of the torso controller.
+
+187
+00:10:17,760 --> 00:10:21,380
+This give us a rough idea
+of the motion of the body
+
+188
+00:10:21,380 --> 00:10:25,100
+and it makes me confident
+enough to shape a bit the tail.
+
+189
+00:10:25,100 --> 00:10:28,060
+But don't worry, you don't
+need to do it right now.
+
+190
+00:10:28,060 --> 00:10:31,630
+Again, we can do it during
+the polishing stage.
+
+191
+00:10:31,630 --> 00:10:34,900
+Nothing special to
+comment during this stage,
+
+192
+00:10:34,900 --> 00:10:37,120
+so I will leave you and see you
+
+193
+00:10:37,120 --> 00:10:39,743
+at 11 minutes and 38 seconds.
+
+194
+00:10:42,778 --> 00:10:45,361
+(serene music)
+
+195
+00:11:38,820 --> 00:11:41,030
+As I told you a little early on,
+
+196
+00:11:41,030 --> 00:11:43,300
+I forgotten to move the root bone.
+
+197
+00:11:43,300 --> 00:11:47,520
+So I will move it backward
+in the position it should be.
+
+198
+00:11:47,520 --> 00:11:51,400
+And then I just need to
+select the chest controller
+
+199
+00:11:51,400 --> 00:11:55,340
+and all the foot controller
+and move them all together
+
+200
+00:11:55,340 --> 00:11:57,570
+to fit my previous pose.
+
+201
+00:11:57,570 --> 00:12:01,600
+Since all those controllers
+are child of the root,
+
+202
+00:12:01,600 --> 00:12:05,000
+moving them together is
+like moving the root bone.
+
+203
+00:12:05,000 --> 00:12:08,990
+And again, I will fight and
+fight refining this pose
+
+204
+00:12:08,990 --> 00:12:11,180
+until I'm satisfied with it.
+
+205
+00:12:11,180 --> 00:12:12,530
+And as soon as I am,
+
+206
+00:12:12,530 --> 00:12:17,470
+I will add a last breakdown
+or in-between on frame 11
+
+207
+00:12:17,470 --> 00:12:20,590
+because we can figure the
+position of our character
+
+208
+00:12:20,590 --> 00:12:22,440
+from frame to frame six.
+
+209
+00:12:22,440 --> 00:12:24,980
+There will be specific error motion,
+
+210
+00:12:24,980 --> 00:12:27,450
+but we can track the position of the feet,
+
+211
+00:12:27,450 --> 00:12:32,130
+the position of the torso, and
+try to get a smooth motion.
+
+212
+00:12:32,130 --> 00:12:35,920
+And this is a big strength
+of the graph editor
+
+213
+00:12:35,920 --> 00:12:38,090
+and the fact that we are using a computer
+
+214
+00:12:38,090 --> 00:12:39,400
+to do the animation.
+
+215
+00:12:39,400 --> 00:12:42,410
+It's perfect to create
+a smooth interpolation
+
+216
+00:12:42,410 --> 00:12:43,930
+between two poses.
+
+217
+00:12:43,930 --> 00:12:47,090
+But since we have a big difference of pose
+
+218
+00:12:47,090 --> 00:12:49,590
+between frame 10 and frame 12,
+
+219
+00:12:49,590 --> 00:12:52,120
+you can't let the
+computer do the guesswork.
+
+220
+00:12:52,120 --> 00:12:56,670
+We need to build this new
+breakdown or in-between ourself.
+
+221
+00:12:56,670 --> 00:12:59,330
+So this time I won't do the same mistake
+
+222
+00:12:59,330 --> 00:13:01,630
+of forgetting to move the root bone.
+
+223
+00:13:01,630 --> 00:13:05,370
+And since it's supposed to
+have a linear interpolation,
+
+224
+00:13:05,370 --> 00:13:08,730
+it's position between
+frame 10 and frame 11
+
+225
+00:13:08,730 --> 00:13:12,570
+should be right in the
+middle of those two poses.
+
+226
+00:13:12,570 --> 00:13:15,520
+And there is a tool that
+we haven't used yet,
+
+227
+00:13:15,520 --> 00:13:18,020
+because I didn't want you to use it
+
+228
+00:13:18,020 --> 00:13:20,010
+and it's called the Breakdowner.
+
+229
+00:13:20,010 --> 00:13:22,210
+You can select it with the tool panel
+
+230
+00:13:22,210 --> 00:13:25,010
+and with any bone or
+group of bones selected,
+
+231
+00:13:25,010 --> 00:13:26,900
+when you left click and drag,
+
+232
+00:13:26,900 --> 00:13:29,230
+you will see a breakdown percentage
+
+233
+00:13:29,230 --> 00:13:32,010
+appearing in the top left
+corner of your screen.
+
+234
+00:13:32,010 --> 00:13:35,530
+It currently gives you
+the level of interpolation
+
+235
+00:13:35,530 --> 00:13:36,810
+you are performing.
+
+236
+00:13:36,810 --> 00:13:38,430
+So if I left click and drag
+
+237
+00:13:38,430 --> 00:13:41,060
+or press Shift + E to activate it
+
+238
+00:13:41,060 --> 00:13:44,300
+and set the interpolation value to 50%,
+
+239
+00:13:44,300 --> 00:13:46,770
+I'm sure I will be right in the middle.
+
+240
+00:13:46,770 --> 00:13:49,600
+You can constrain this tool to rotation,
+
+241
+00:13:49,600 --> 00:13:53,270
+move and scale by pressing G-R-R-S.
+
+242
+00:13:53,270 --> 00:13:56,500
+You can also concentrate
+it to specific axes,
+
+243
+00:13:56,500 --> 00:14:00,120
+and there are two other tools
+under the Breakdowner's menu
+
+244
+00:14:00,120 --> 00:14:02,590
+that we are going to see later on.
+
+245
+00:14:02,590 --> 00:14:04,170
+With my root bone position,
+
+246
+00:14:04,170 --> 00:14:08,290
+I can press I to insert a key
+frame for every controllers.
+
+247
+00:14:08,290 --> 00:14:10,760
+From there, the first thing I will do
+
+248
+00:14:10,760 --> 00:14:13,830
+is try to match the feet position
+
+249
+00:14:13,830 --> 00:14:17,110
+so the feet are targeting
+the landing position.
+
+250
+00:14:17,110 --> 00:14:19,790
+It's exactly the same workflow as before.
+
+251
+00:14:19,790 --> 00:14:24,270
+Then I cancel the rotation and
+move on the torso controller
+
+252
+00:14:24,270 --> 00:14:26,190
+and I rework the pose.
+
+253
+00:14:26,190 --> 00:14:29,510
+So I did a bit of twist by pressing R,
+
+254
+00:14:29,510 --> 00:14:33,380
+then Y twice to rotate
+on the local y-axis.
+
+255
+00:14:33,380 --> 00:14:37,670
+And now I will push the root
+of the torso toward the ground.
+
+256
+00:14:37,670 --> 00:14:40,560
+The right leg is the first
+to contact the ground
+
+257
+00:14:40,560 --> 00:14:44,240
+as it is the first one to be
+raised when leaving the ground.
+
+258
+00:14:44,240 --> 00:14:47,570
+So I can have the left arm slightly bent,
+
+259
+00:14:47,570 --> 00:14:49,730
+and they wouldn't put a lot of squashing,
+
+260
+00:14:49,730 --> 00:14:51,440
+both in the chest and hips,
+
+261
+00:14:51,440 --> 00:14:53,660
+by moving them toward the ground.
+
+262
+00:14:53,660 --> 00:14:56,400
+I also make sure that I rotate the foot
+
+263
+00:14:56,400 --> 00:14:59,270
+so that the plant is facing the ground.
+
+264
+00:14:59,270 --> 00:15:01,820
+It's like the food are dragging
+
+265
+00:15:01,820 --> 00:15:05,170
+so the tip of the food will later
+
+266
+00:15:05,170 --> 00:15:07,282
+than the base of the foot or the heel.
+
+267
+00:15:07,282 --> 00:15:10,640
+That's also a form of follow through.
+
+268
+00:15:10,640 --> 00:15:14,330
+If you animate a hand or a foot moving,
+
+269
+00:15:14,330 --> 00:15:17,720
+you want the fingers of
+the toes to be dragging
+
+270
+00:15:17,720 --> 00:15:20,460
+to have an overlapping motion.
+
+271
+00:15:20,460 --> 00:15:23,490
+One important thing I've
+learned through my classes
+
+272
+00:15:23,490 --> 00:15:25,590
+is that says is that you
+should track your motion
+
+273
+00:15:25,590 --> 00:15:26,960
+as soon as possible.
+
+274
+00:15:26,960 --> 00:15:30,879
+This is why I've calculated
+the motion path for the feet,
+
+275
+00:15:30,879 --> 00:15:34,000
+so that they can see their
+trajectory and timing.
+
+276
+00:15:34,000 --> 00:15:37,490
+And this will be the perfect
+tool to double-check ox.
+
+277
+00:15:37,490 --> 00:15:41,480
+We will talk more in depth
+about the ox in the next video.
+
+278
+00:15:41,480 --> 00:15:45,240
+I will also add a bit
+of squashing on the head
+
+279
+00:15:45,240 --> 00:15:47,830
+by moving it a bit backward.
+
+280
+00:15:47,830 --> 00:15:51,310
+And to counter this I
+will slightly rotate it up
+
+281
+00:15:51,310 --> 00:15:56,310
+so that our character is
+watching towards its next step.
+
+282
+00:15:56,340 --> 00:16:00,310
+I will also calculate the
+motion path of the head bone
+
+283
+00:16:00,310 --> 00:16:03,850
+and while I'm posing it, I'm
+trying to create a smooth curve
+
+284
+00:16:03,850 --> 00:16:05,873
+between the different
+position of the head.
+
+285
+00:16:05,873 --> 00:16:08,120
+This is the arc of the head.
+
+286
+00:16:08,120 --> 00:16:11,590
+So try your best here to
+get a smooth transition
+
+287
+00:16:11,590 --> 00:16:13,040
+between the different poses.
+
+288
+00:16:13,040 --> 00:16:15,600
+But if it's not perfect,
+again, don't worry,
+
+289
+00:16:15,600 --> 00:16:18,810
+we will see that in-depth
+during the polishing stage
+
+290
+00:16:18,810 --> 00:16:22,610
+and by reading the curve,
+it will be even easier.
+
+291
+00:16:22,610 --> 00:16:25,460
+Once I'm done with that,
+I can check my animation.
+
+292
+00:16:25,460 --> 00:16:28,360
+So we really start to have
+the feeling of the emotion,
+
+293
+00:16:28,360 --> 00:16:31,460
+but the problem is that my
+character is jumping forward
+
+294
+00:16:31,460 --> 00:16:33,630
+so I would like to see it looping.
+
+295
+00:16:33,630 --> 00:16:36,990
+Just uncheck the route
+controller so that your character
+
+296
+00:16:36,990 --> 00:16:40,210
+will be jumping and looping
+without moving forward.
+
+297
+00:16:40,210 --> 00:16:41,850
+Now, as for the bouncing ball,
+
+298
+00:16:41,850 --> 00:16:44,350
+since frame zero and frame 12 are the same
+
+299
+00:16:44,350 --> 00:16:48,700
+I will just read the animation
+from frame zero to frame 11.
+
+300
+00:16:48,700 --> 00:16:50,690
+It already looks very good.
+
+301
+00:16:50,690 --> 00:16:53,200
+But one last thing I'd like to address
+
+302
+00:16:53,200 --> 00:16:56,320
+is the squashing of the character
+on the very first frame.
+
+303
+00:16:56,320 --> 00:16:58,870
+I think we can push the pose even more.
+
+304
+00:16:58,870 --> 00:17:02,240
+So I will just push the test
+controller a bit backward,
+
+305
+00:17:02,240 --> 00:17:04,120
+the hips a bit forward,
+
+306
+00:17:04,120 --> 00:17:06,880
+and the root of the torso a bit lower,
+
+307
+00:17:06,880 --> 00:17:09,480
+Since we are animating on once here,
+
+308
+00:17:09,480 --> 00:17:13,710
+meaning that we are creating
+a key pose on each frame,
+
+309
+00:17:13,710 --> 00:17:16,210
+there won't be any specific interpolation.
+
+310
+00:17:16,210 --> 00:17:19,020
+This is why I use the motion path
+
+311
+00:17:19,020 --> 00:17:21,710
+to make sure that I have a nice spacing.
+
+312
+00:17:21,710 --> 00:17:24,440
+With this pose on frame 12 updated.
+
+313
+00:17:24,440 --> 00:17:27,650
+I'd like to duplicate all
+the key frame on frame 12
+
+314
+00:17:27,650 --> 00:17:29,590
+and move them on frame zero.
+
+315
+00:17:29,590 --> 00:17:32,980
+But I don't want to
+duplicate the root key frame.
+
+316
+00:17:32,980 --> 00:17:35,180
+So I will lock the root,
+
+317
+00:17:35,180 --> 00:17:38,880
+press Shift + D with all the
+key frames selected on frame 12
+
+318
+00:17:38,880 --> 00:17:40,800
+and moved them on frame zero.
+
+319
+00:17:40,800 --> 00:17:41,960
+And that's it.
+
+320
+00:17:41,960 --> 00:17:45,900
+You've just blocked your
+first character run cycle.
+
+321
+00:17:45,900 --> 00:17:49,560
+It's not something easy so if
+you have failed, don't worry,
+
+322
+00:17:49,560 --> 00:17:51,740
+just restart from the beginning.
+
+323
+00:17:51,740 --> 00:17:53,580
+I'm here to give you the method,
+
+324
+00:17:53,580 --> 00:17:55,240
+but it's only through practice
+
+325
+00:17:55,240 --> 00:17:57,240
+that you will become a good animator.
+
+326
+00:17:57,240 --> 00:18:00,090
+Don't stress out, watch the video again.
+
+327
+00:18:00,090 --> 00:18:00,923
+And if you're ready,
+
+328
+00:18:00,923 --> 00:18:04,513
+I'll see you in the next one
+to polish this animation.
+

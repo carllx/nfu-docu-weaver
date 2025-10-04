@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqgqp1mqu0ec2al8lkg",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n    As an academic expert, you excel at comparing and contrasting given papers. \n    Please provide a comprehensive and structured summary of these papers.\n    The instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n    \nNow, Listen to me:\n论点论据\n分析本论文中的核心主旨以及所有的论点以及分论点. \n要求:\n- 论点, 清晰表明这些论点与文章主旨之间的关系，\n- 分论点, 列出分论点如何支撑论点, 例如递进还是并列或是其他关系。\n- 最后总结论点并指出其优劣。\n\n    Your answer should be in Chinese, using the Markdown format for layout.",
+    "response": "## 论文总结\n\n### 核心主旨\n\n本文《Prompting with Pseudo-Code Instructions》的核心主旨是探索使用伪代码指令来提示预训练大型语言模型（LLM）的方法，并评估这种方法是否能够提升模型在不同自然语言处理（NLP）任务上的性能。\n\n### 论点与分论点\n\n1. **伪代码提示的优势**：\n   - 论点：伪代码提示相比自然语言提示，能够减少歧义，提高模型性能。\n   - 分论点：\n     - 并列关系：伪代码的非歧义性使得模型更容易理解指令。\n     - 递进关系：伪代码的结构化特性，如代码注释、docstrings和结构线索，进一步促进了性能的提升。\n\n2. **实验设计与结果**：\n   - 论点：通过在不同任务类型上进行实验，证明了伪代码提示的有效性。\n   - 分论点：\n     - 并列关系：实验涵盖了分类、问答（QA）和生成语言任务。\n     - 递进关系：实验结果显示，在分类任务上F1分数平均提高了7-16点，在所有任务上ROUGE-L分数相对提高了12-38%。\n\n3. **伪代码结构的贡献**：\n   - 论点：伪代码中的结构元素对模型性能有积极影响。\n   - 分论点：\n     - 并列关系：代码注释、docstrings和结构线索被认为对性能提升有贡献。\n     - 递进关系：通过详细的消融研究进一步证实了这些元素的作用。\n\n4. **模型与数据集的选择**：\n   - 论点：选择适当的模型和数据集对验证研究假设至关重要。\n   - 分论点：\n     - 并列关系：选用了BLOOM和CodeGen两个模型族，它们都接受过自然语言和代码数据的训练。\n     - 递进关系：Super-NaturalInstructions数据集提供了多样化的任务，有助于全面评估伪代码提示的效果。\n\n5. **未来研究方向**：\n   - 论点：本研究为未来的研究提供了多个可能的发展方向。\n   - 分论点：\n     - 并列关系：包括探索使用伪代码指令进行指令微调的效果，以及与传统思维链推理的比较等。\n\n### 论点总结与优劣分析\n\n- **总结**：本文通过创建132个不同任务的伪代码提示数据集，并在BLOOM和CodeGen两个模型族上进行实验，证明了伪代码提示在减少歧义和提升模型性能方面的有效性。研究还揭示了伪代码的结构元素对性能提升的贡献，并指出了未来研究的可能方向。\n- **优点**：\n  - 提供了首个系统性地评估伪代码提示对预训练语言模型性能影响的研究。\n  - 实验设计全面，涵盖了多种任务类型，结果具有说服力。\n  - 对伪代码的结构元素进行了详细的消融研究，深化了对其贡献的理解。\n- **缺点**：\n  - 研究限于特定的两个模型族，可能无法完全代表所有类型的LLM。\n  - 没有包括多语言NLP任务，对于模型在多语言环境下的表现尚未可知。\n  - 伪代码提示的编写可能需要技术专长，这可能限制了其在非技术用户中的普及性。\n\n以上是对Mishra et al., 2023的论文《Prompting with Pseudo-Code Instructions》的论点论据分析。",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n    As an academic expert, yo",
+    "group_id": "cpqgqp83r07fr693u0m0",
+    "req_id": "cpqgqp83r07fr693u0mg",
+    "resp_id": "cpqgqp83r07fr693u0n0",
+    "quection": "论点论据\n分析本论文中的核心主旨以及所有的论点以及分论点. \n要求:\n- 论点, 清晰表明这些论点与文章主旨之间的关系，\n- 分论点, 列出分论点如何支撑论点, 例如递进还是并列或是其他关系。\n- 最后总结论点并指出其优劣。"
+}

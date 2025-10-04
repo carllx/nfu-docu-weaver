@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "There are several topics: Activities, People, Places, and Objects.\nBased on your opinion, which topic do the following questions belong to?\nQuestion:```\n{clipboard}\n```",
+    "uid" : "ECB5D047-9EB0-49A5-AA52-28C759D7CF28",
+    "name" : "Topic Classification\nTopic Classification\nTopic Classification\nTopic Classification\nTopic Classification",
+    "keyword" : "tpc"
+  }
+}

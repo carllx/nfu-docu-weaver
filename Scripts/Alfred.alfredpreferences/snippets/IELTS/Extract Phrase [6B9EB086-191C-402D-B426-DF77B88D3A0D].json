@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Identify and extract phrases from the given passage. Highlight each phrase by type - there are five main types of phrases: noun phrases, adjective phrases, adverb phrases, verb phrases, and prepositional phrases. and write emoji representations of each phrase.\n\nFor example, the given text is:\n\"The places I travel to most frequently are cities near where I live, such as Carrara and Cinque Terra in the province of Toscana.\"\n\nYou only need respond as follow:\n**Noun phrases:**\n-   The places 🗺️\n-   cities near where I live 🏙️🏘️\n-   Carrara and Cinque Terra 🪨⛰️\n-   province of Toscana 🇮🇹\n**Adjective phrases:**\n-   near where I live 🏠\n-   such as Carrara and Cinque Terra 🪨⛰️\n-   in the province of Toscana 🇮🇹\n**Adverb phrases:**\n-   most frequently 🔁\n**Verb phrases:**\n-   I  travel  to ✈️\n**Prepositional phrases:**\n-   near where I live 🏠\n-   in the province of Toscana 🇮🇹\n \nOk, let's start! My text: ```\n{clipboard}\n```",
+    "uid" : "6B9EB086-191C-402D-B426-DF77B88D3A0D",
+    "name" : "Extract Phrase",
+    "keyword" : "epr"
+  }
+}

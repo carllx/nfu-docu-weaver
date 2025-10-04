@@ -1,0 +1,1173 @@
+﻿1
+00:00:00,110 --> 00:00:02,040
+- [Narrator] So now let's polish the arms
+
+2
+00:00:02,040 --> 00:00:04,590
+and the little details for the first chunk
+
+3
+00:00:04,590 --> 00:00:05,860
+of this animation.
+
+4
+00:00:05,860 --> 00:00:08,370
+But one thing I'd done
+before publishing the arm
+
+5
+00:00:08,370 --> 00:00:10,980
+is that I've input a bit of details
+
+6
+00:00:10,980 --> 00:00:13,860
+into the toes of the right foot.
+
+7
+00:00:13,860 --> 00:00:16,900
+So I'm not using the graph editor here,
+
+8
+00:00:16,900 --> 00:00:19,330
+I'm just directly posing to camera.
+
+9
+00:00:19,330 --> 00:00:21,049
+When the foot is moving forward,
+
+10
+00:00:21,049 --> 00:00:23,370
+I'm making the toes dragging a bit
+
+11
+00:00:23,370 --> 00:00:25,900
+as if they were sliding on the ground.
+
+12
+00:00:25,900 --> 00:00:27,770
+I will later in the video,
+
+13
+00:00:27,770 --> 00:00:29,330
+revise the rotation,
+
+14
+00:00:29,330 --> 00:00:32,580
+timing of the foot as it rotates toward
+
+15
+00:00:32,580 --> 00:00:34,560
+the pinch a bit too soon.
+
+16
+00:00:34,560 --> 00:00:36,480
+I will offset it by a couple of frames
+
+17
+00:00:36,480 --> 00:00:38,010
+at the very end of the video.
+
+18
+00:00:38,010 --> 00:00:40,590
+I will start by polishing the left arm
+
+19
+00:00:40,590 --> 00:00:43,010
+and I won't be showing you my curves
+
+20
+00:00:43,010 --> 00:00:44,750
+because it's not necessary.
+
+21
+00:00:44,750 --> 00:00:46,800
+What's important is the process.
+
+22
+00:00:46,800 --> 00:00:49,200
+First I've tracked the elbow
+
+23
+00:00:49,200 --> 00:00:52,600
+by calculating the motion
+path of the elbow tweaker.
+
+24
+00:00:52,600 --> 00:00:54,690
+And now think of what's happening,
+
+25
+00:00:54,690 --> 00:00:56,460
+the character is dropping down,
+
+26
+00:00:56,460 --> 00:00:58,500
+so I want the shoulder to drag a bit.
+
+27
+00:00:58,500 --> 00:01:00,730
+I want the shoulder to raise a bit
+
+28
+00:01:00,730 --> 00:01:02,570
+when the character is fully.
+
+29
+00:01:02,570 --> 00:01:06,160
+So I'm just spotting
+which channel I can use,
+
+30
+00:01:06,160 --> 00:01:08,590
+which is the extradition channel,
+
+31
+00:01:08,590 --> 00:01:10,740
+and I just raise a bit the curve,
+
+32
+00:01:10,740 --> 00:01:12,830
+so that it raise a bit the shoulder.
+
+33
+00:01:12,830 --> 00:01:14,520
+Then I will do the same with the arm.
+
+34
+00:01:14,520 --> 00:01:16,400
+I want the elbow to raise a bit
+
+35
+00:01:16,400 --> 00:01:18,910
+while the character is going down.
+
+36
+00:01:18,910 --> 00:01:21,248
+And then for the next two frames,
+
+37
+00:01:21,248 --> 00:01:23,670
+I will fix the pose of the arm
+
+38
+00:01:23,670 --> 00:01:27,820
+so that it doesn't cover
+that much the face anymore.
+
+39
+00:01:27,820 --> 00:01:31,360
+I will push a bit the forearm forward
+
+40
+00:01:31,360 --> 00:01:33,920
+and check out my camera view
+
+41
+00:01:33,920 --> 00:01:36,747
+to make sure that I see
+the eyes of the character.
+
+42
+00:01:37,738 --> 00:01:41,620
+So while we may rely a
+lot on the graph editor,
+
+43
+00:01:41,620 --> 00:01:44,210
+for the root motion of the character,
+
+44
+00:01:44,210 --> 00:01:48,163
+because it's super
+important and it reads well,
+
+45
+00:01:49,232 --> 00:01:50,870
+whenever I'm polishing the arms
+
+46
+00:01:50,870 --> 00:01:53,330
+or the knees or stuff like that,
+
+47
+00:01:53,330 --> 00:01:56,050
+I'm just tracking the arcs on screen.
+
+48
+00:01:56,050 --> 00:01:58,770
+The graph editor does make sense to me,
+
+49
+00:01:58,770 --> 00:02:00,890
+but you don't need to
+
+50
+00:02:00,890 --> 00:02:04,410
+perfectly understand everything about it,
+
+51
+00:02:04,410 --> 00:02:06,920
+to be clever about your choices.
+
+52
+00:02:06,920 --> 00:02:10,044
+So now that I've fixed
+the few initial pose,
+
+53
+00:02:10,044 --> 00:02:12,711
+I will track the rest of my character,
+
+54
+00:02:12,711 --> 00:02:15,820
+and it feels like it's popping too much.
+
+55
+00:02:15,820 --> 00:02:19,580
+To double check that I will
+simply select the wrist tweaker
+
+56
+00:02:19,580 --> 00:02:21,690
+and calculate its motion path.
+
+57
+00:02:21,690 --> 00:02:23,910
+So what I will do by working
+
+58
+00:02:23,910 --> 00:02:26,680
+on the different controllers of the arm
+
+59
+00:02:26,680 --> 00:02:29,160
+and not really caring
+about the graph editor,
+
+60
+00:02:29,160 --> 00:02:32,370
+is to reduce the gap
+between those two frame,
+
+61
+00:02:32,370 --> 00:02:34,420
+especially the ups and down
+
+62
+00:02:34,420 --> 00:02:36,950
+because it's breaking
+the flow of the punch.
+
+63
+00:02:36,950 --> 00:02:40,140
+So if we focus on the
+shoulder of the character
+
+64
+00:02:40,140 --> 00:02:42,560
+between frame 12 and frame 13,
+
+65
+00:02:42,560 --> 00:02:45,080
+there is a big gap of shape.
+
+66
+00:02:45,080 --> 00:02:47,970
+On frame 12 the arm is overextended,
+
+67
+00:02:47,970 --> 00:02:49,720
+and so does the shoulder
+
+68
+00:02:49,720 --> 00:02:52,280
+while it's compressing on frame 13.
+
+69
+00:02:52,280 --> 00:02:56,850
+So I can find some kind of
+in-between shape on frame 13
+
+70
+00:02:56,850 --> 00:02:59,040
+by moving a bit the shoulder,
+
+71
+00:02:59,040 --> 00:03:00,210
+moving a bit the arm,
+
+72
+00:03:00,210 --> 00:03:02,110
+moving a bit the forearm
+
+73
+00:03:02,110 --> 00:03:06,460
+and try to flatten a bit
+the motion path of the fist.
+
+74
+00:03:06,460 --> 00:03:09,710
+Again, I'm not relying on
+the graph editor to do so.
+
+75
+00:03:09,710 --> 00:03:12,160
+I tweak the pose through graph editor,
+
+76
+00:03:12,160 --> 00:03:14,360
+but also directly in the 3D view.
+
+77
+00:03:14,360 --> 00:03:17,952
+Next, if we follow along
+the tracking of the wrist,
+
+78
+00:03:17,952 --> 00:03:21,380
+we can see that there is a arch angle here
+
+79
+00:03:21,380 --> 00:03:25,440
+and the fist of the character
+disappear on the next frame.
+
+80
+00:03:25,440 --> 00:03:27,540
+All of these from the camera view,
+
+81
+00:03:27,540 --> 00:03:29,150
+not in our space.
+
+82
+00:03:29,150 --> 00:03:31,200
+So what we can do to fix this
+
+83
+00:03:31,200 --> 00:03:36,160
+is that we can make the elbow
+diving little more down.
+
+84
+00:03:36,160 --> 00:03:38,582
+So I will slightly twist the arm
+
+85
+00:03:38,582 --> 00:03:42,630
+so that I get more of
+an angle with the hand.
+
+86
+00:03:42,630 --> 00:03:45,320
+This way, I will be able later on
+
+87
+00:03:45,320 --> 00:03:49,710
+to create a smear into a
+C-shape from the camera view.
+
+88
+00:03:49,710 --> 00:03:51,170
+Now in the next pose,
+
+89
+00:03:51,170 --> 00:03:54,831
+I will try to show as
+much elbow as possible
+
+90
+00:03:54,831 --> 00:03:57,490
+so that the arms read well,
+
+91
+00:03:57,490 --> 00:04:01,690
+and it will also extend the
+current pose of the character.
+
+92
+00:04:01,690 --> 00:04:04,841
+I'm sure checking my
+character from all angle,
+
+93
+00:04:04,841 --> 00:04:06,870
+I'm tweaking the pose,
+
+94
+00:04:06,870 --> 00:04:08,070
+but as you can see,
+
+95
+00:04:08,070 --> 00:04:11,540
+I don't work that much
+directing to the graph editor.
+
+96
+00:04:11,540 --> 00:04:14,869
+I work a lot directly on my character
+
+97
+00:04:14,869 --> 00:04:17,460
+a little later on in the animation,
+
+98
+00:04:17,460 --> 00:04:19,770
+same issue, same solution.
+
+99
+00:04:19,770 --> 00:04:23,450
+Here you can see from
+frame 19 to frame 22,
+
+100
+00:04:23,450 --> 00:04:25,580
+I have a flat motion path.
+
+101
+00:04:25,580 --> 00:04:28,690
+So it will be better if we add a nice arc.
+
+102
+00:04:28,690 --> 00:04:31,048
+So the point here is not to know
+
+103
+00:04:31,048 --> 00:04:34,330
+what all the curves are
+doing into this motion,
+
+104
+00:04:34,330 --> 00:04:36,810
+but choose the right curves
+
+105
+00:04:36,810 --> 00:04:39,287
+that will help me to fix this issue.
+
+106
+00:04:39,287 --> 00:04:41,750
+And if I take the arm controller
+
+107
+00:04:41,750 --> 00:04:45,137
+and then just check each rotation channel,
+
+108
+00:04:45,137 --> 00:04:47,320
+I will find one of the curve
+
+109
+00:04:47,320 --> 00:04:50,910
+that I'll need to raise a bit the arm.
+
+110
+00:04:50,910 --> 00:04:53,230
+They found the couple of curve
+
+111
+00:04:53,230 --> 00:04:55,300
+that will all meet to rotate the arm
+
+112
+00:04:55,300 --> 00:04:57,840
+the way I want from the camera view,
+
+113
+00:04:57,840 --> 00:05:00,690
+I can tweak them to create the arcs.
+
+114
+00:05:00,690 --> 00:05:04,500
+I will just regularly
+update the motion path
+
+115
+00:05:04,500 --> 00:05:06,730
+and you can see in a few seconds,
+
+116
+00:05:06,730 --> 00:05:08,520
+I have fixed my issue,
+
+117
+00:05:08,520 --> 00:05:11,239
+and this is why having
+a super detailed booking
+
+118
+00:05:11,239 --> 00:05:15,020
+before we switch to
+spline was really helpful
+
+119
+00:05:15,020 --> 00:05:18,270
+because now we can focus
+on improving the animation
+
+120
+00:05:18,270 --> 00:05:21,372
+in putting detail and
+fixing the little arcs.
+
+121
+00:05:21,372 --> 00:05:22,205
+(sound whooshing)
+
+122
+00:05:22,205 --> 00:05:23,500
+As I fix the arcs,
+
+123
+00:05:23,500 --> 00:05:25,500
+I have now a motion path
+
+124
+00:05:25,500 --> 00:05:27,940
+I can full to bard my smears.
+
+125
+00:05:27,940 --> 00:05:31,250
+I will enable the tweaker bone in the UI,
+
+126
+00:05:31,250 --> 00:05:33,530
+and then they will jump
+to the action editor.
+
+127
+00:05:33,530 --> 00:05:36,470
+And I will make sure
+that I have a key frame
+
+128
+00:05:36,470 --> 00:05:40,710
+on all those controller on
+the previous and next frame.
+
+129
+00:05:40,710 --> 00:05:42,310
+Around the current frame,
+
+130
+00:05:42,310 --> 00:05:46,020
+I want to build my
+smear frame on this way,
+
+131
+00:05:46,020 --> 00:05:48,320
+those tweaker bone won't interpolate,
+
+132
+00:05:48,320 --> 00:05:53,010
+since they are locked before
+and after the current frame.
+
+133
+00:05:53,010 --> 00:05:55,280
+Again, here, there is no magical trick,
+
+134
+00:05:55,280 --> 00:05:57,020
+I'm just shaping the pose.
+
+135
+00:05:57,020 --> 00:05:59,912
+So I am pushing, pulling
+the different controllers
+
+136
+00:05:59,912 --> 00:06:03,660
+until it creates a nice arc with the arm.
+
+137
+00:06:03,660 --> 00:06:06,560
+I'm also breaking the wrist and rotating
+
+138
+00:06:06,560 --> 00:06:10,350
+the hand so that it's pointing
+toward its previous position.
+
+139
+00:06:10,350 --> 00:06:12,190
+Try to keep the current arch in the arm
+
+140
+00:06:12,190 --> 00:06:13,428
+as smooth as possible
+
+141
+00:06:13,428 --> 00:06:17,400
+and focus on what will be
+seen from the camera view.
+
+142
+00:06:17,400 --> 00:06:18,470
+On the next frame,
+
+143
+00:06:18,470 --> 00:06:20,230
+I will also try to cheat
+
+144
+00:06:20,230 --> 00:06:23,690
+and show a part of the
+left hand of the character
+
+145
+00:06:23,690 --> 00:06:24,930
+in the camera view.
+
+146
+00:06:24,930 --> 00:06:27,170
+Even if it's only on one frame,
+
+147
+00:06:27,170 --> 00:06:30,270
+the fact that we don't
+lose track of the hand
+
+148
+00:06:30,270 --> 00:06:32,970
+will help reading the animation.
+
+149
+00:06:32,970 --> 00:06:35,690
+Again here, there is no
+graph editor involved.
+
+150
+00:06:35,690 --> 00:06:38,778
+From there even if I don't
+see it from the camera view,
+
+151
+00:06:38,778 --> 00:06:41,800
+I am bulging the smear on the left arm.
+
+152
+00:06:41,800 --> 00:06:46,080
+Maybe I will have to present
+this specific animation
+
+153
+00:06:46,080 --> 00:06:47,870
+from many angles.
+
+154
+00:06:47,870 --> 00:06:51,250
+Maybe I will have to tweak
+the position of the camera,
+
+155
+00:06:51,250 --> 00:06:53,483
+both learning wise,
+
+156
+00:06:53,483 --> 00:06:55,870
+and to prevent any rework later on,
+
+157
+00:06:55,870 --> 00:06:56,920
+you should do this also.
+(sound whooshing)
+
+158
+00:06:56,920 --> 00:07:00,040
+I will speed up a bit the
+video for the right arm,
+
+159
+00:07:00,040 --> 00:07:03,270
+because in the beginning I'm
+doing exactly the same thing.
+
+160
+00:07:03,270 --> 00:07:04,600
+As the character drop,
+
+161
+00:07:04,600 --> 00:07:05,822
+I'm raising the shoulder,
+
+162
+00:07:05,822 --> 00:07:07,710
+then from the camera view,
+
+163
+00:07:07,710 --> 00:07:11,280
+I will be tracking first
+the elbow of the character,
+
+164
+00:07:11,280 --> 00:07:14,210
+and I will try to create a nice arc.
+
+165
+00:07:14,210 --> 00:07:15,770
+Also from camera view,
+
+166
+00:07:15,770 --> 00:07:19,513
+I will try to show as much
+of the right arm as possible.
+
+167
+00:07:20,700 --> 00:07:23,395
+So I'm slightly offsetting the elbow
+
+168
+00:07:23,395 --> 00:07:27,080
+so that it shows it's
+not cut or overlapping
+
+169
+00:07:27,080 --> 00:07:28,620
+with the chest of the character.
+
+170
+00:07:28,620 --> 00:07:32,325
+From there, I will calculate
+the motion path of the hand,
+
+171
+00:07:32,325 --> 00:07:35,590
+and I feel like it's jiggling a bit here.
+
+172
+00:07:35,590 --> 00:07:38,110
+You can see that the path is not clean.
+
+173
+00:07:38,110 --> 00:07:40,510
+I have both a problem of spacing,
+
+174
+00:07:40,510 --> 00:07:43,210
+and my arc is not clearly defined.
+
+175
+00:07:43,210 --> 00:07:45,240
+I will manipulate the shoulder,
+
+176
+00:07:45,240 --> 00:07:48,900
+the arm and the forearm
+controller until I get it right.
+
+177
+00:07:48,900 --> 00:07:52,400
+And at some point I will also recalculate
+
+178
+00:07:52,400 --> 00:07:53,710
+the arcs of the elbow.
+
+179
+00:07:53,710 --> 00:07:56,520
+Since I'm modifying the
+position of the arm,
+
+180
+00:07:56,520 --> 00:07:59,353
+I may mess with the position of the elbow,
+
+181
+00:07:59,353 --> 00:08:00,510
+the arc of the elbow,
+
+182
+00:08:00,510 --> 00:08:02,250
+the spacing of the elbow.
+
+183
+00:08:02,250 --> 00:08:03,330
+Once I was done,
+
+184
+00:08:03,330 --> 00:08:06,123
+you can see that I have a clean arc,
+
+185
+00:08:06,123 --> 00:08:10,810
+that is easing into frame 15
+before he's throw the punch.
+
+186
+00:08:10,810 --> 00:08:13,470
+From there, I was able to
+work on the current spline.
+
+187
+00:08:13,470 --> 00:08:16,050
+so when we have switched to spline,
+
+188
+00:08:16,050 --> 00:08:19,360
+the right opened a lot around frame 16,
+
+189
+00:08:19,360 --> 00:08:22,690
+because of the forward kinematic mechanism
+
+190
+00:08:22,690 --> 00:08:26,630
+and both pose wise animation
+wise and boxing wise,
+
+191
+00:08:26,630 --> 00:08:28,330
+this is not super efficient.
+
+192
+00:08:28,330 --> 00:08:31,540
+And there, instead of using
+the interpolation of the curve,
+
+193
+00:08:31,540 --> 00:08:34,650
+I've decided to revert the current pose
+
+194
+00:08:34,650 --> 00:08:37,440
+and I've boxing wise exaggerated it
+
+195
+00:08:37,440 --> 00:08:38,700
+using the tweaker bone.
+
+196
+00:08:38,700 --> 00:08:41,928
+They're used to create
+like a narrow with the arm
+
+197
+00:08:41,928 --> 00:08:44,330
+that will bench into the bag.
+
+198
+00:08:44,330 --> 00:08:48,145
+From there, I reworked
+each frames of the punch,
+
+199
+00:08:48,145 --> 00:08:51,036
+working on all the controllers of the arm
+
+200
+00:08:51,036 --> 00:08:54,440
+to make sure that the
+motion path of the punch
+
+201
+00:08:54,440 --> 00:08:56,890
+was as straight as possible,
+
+202
+00:08:56,890 --> 00:08:59,622
+and that the whole shape of the arm
+
+203
+00:08:59,622 --> 00:09:02,480
+was following this motion path.
+
+204
+00:09:02,480 --> 00:09:05,790
+So even the small orientation of the wrist
+
+205
+00:09:05,790 --> 00:09:07,610
+is important at this time.
+
+206
+00:09:07,610 --> 00:09:10,902
+And then when the character
+is pulling back his arm,
+
+207
+00:09:10,902 --> 00:09:13,870
+the fist is currently falling down
+
+208
+00:09:13,870 --> 00:09:17,390
+and it feels like the arm
+is heavy for our character.
+
+209
+00:09:17,390 --> 00:09:20,000
+While he's supposed to
+be super bad bad-ass
+
+210
+00:09:20,000 --> 00:09:21,260
+so it doesn't fit.
+
+211
+00:09:21,260 --> 00:09:24,620
+Instead of having the
+wrist falling down forward,
+
+212
+00:09:24,620 --> 00:09:26,940
+I reworked the shape of the arm,
+
+213
+00:09:26,940 --> 00:09:28,976
+so that the elbow is leading.
+
+214
+00:09:28,976 --> 00:09:31,904
+So I've made the elbow pointing down,
+
+215
+00:09:31,904 --> 00:09:34,500
+So is that I can raise the wrist
+
+216
+00:09:34,500 --> 00:09:36,860
+as if it was following through
+
+217
+00:09:36,860 --> 00:09:40,284
+or overlapping instead
+of leading the arm down.
+
+218
+00:09:40,284 --> 00:09:43,210
+Those little details
+will make the difference
+
+219
+00:09:43,210 --> 00:09:46,640
+because they communicate a different idea.
+
+220
+00:09:46,640 --> 00:09:50,740
+The initial pose of our
+character make him lose control.
+
+221
+00:09:50,740 --> 00:09:53,150
+He feels weak and I don't like that.
+
+222
+00:09:53,150 --> 00:09:54,820
+We don't want that.
+
+223
+00:09:54,820 --> 00:09:56,200
+He's a bad-ass character,
+
+224
+00:09:56,200 --> 00:09:57,370
+so everything he does,
+
+225
+00:09:57,370 --> 00:09:59,020
+he does it with control.
+
+226
+00:09:59,020 --> 00:10:03,780
+Why the previous animation
+might be mechanically correct,
+
+227
+00:10:03,780 --> 00:10:05,690
+communication wise it's wrong,
+
+228
+00:10:05,690 --> 00:10:09,361
+because it doesn't communicate
+what our character is about.
+
+229
+00:10:09,361 --> 00:10:12,430
+And asking yourself this kind of question
+
+230
+00:10:12,430 --> 00:10:14,941
+is not a matter of skill level.
+
+231
+00:10:14,941 --> 00:10:18,220
+You might be struggling
+with your mechanism
+
+232
+00:10:18,220 --> 00:10:19,790
+or body mechanism,
+
+233
+00:10:19,790 --> 00:10:22,100
+but you should beginner or not
+
+234
+00:10:22,100 --> 00:10:24,880
+always ask yourself those questions.
+
+235
+00:10:24,880 --> 00:10:27,720
+Your animation might not be perfect,
+
+236
+00:10:27,720 --> 00:10:29,740
+but if he does communicate
+
+237
+00:10:29,740 --> 00:10:32,500
+the right information to your audience,
+
+238
+00:10:32,500 --> 00:10:34,610
+then you're doing a better work
+
+239
+00:10:34,610 --> 00:10:36,665
+than having a bad-ass motion,
+
+240
+00:10:36,665 --> 00:10:39,965
+but nothing to say about your character.
+
+241
+00:10:39,965 --> 00:10:42,430
+As explained in the
+beginning of the video,
+
+242
+00:10:42,430 --> 00:10:45,670
+the right foot was
+rotating a bit too early,
+
+243
+00:10:45,670 --> 00:10:49,890
+so I just offset its rotation
+by a couple of frames.
+
+244
+00:10:49,890 --> 00:10:52,020
+But once I was happy with the result,
+
+245
+00:10:52,020 --> 00:10:54,720
+I've made a final pass of details
+
+246
+00:10:54,720 --> 00:10:55,837
+onto this chunk of the animation.
+
+247
+00:10:55,837 --> 00:10:58,420
+(sound whooshing)
+
+248
+00:10:58,420 --> 00:11:01,590
+I did a little pass on the fingers.
+
+249
+00:11:01,590 --> 00:11:03,430
+I was originally planning
+
+250
+00:11:03,430 --> 00:11:06,185
+to have my character with open hands
+
+251
+00:11:06,185 --> 00:11:09,770
+most of the time during this animation,
+
+252
+00:11:09,770 --> 00:11:10,830
+because in Muay Thai,
+
+253
+00:11:10,830 --> 00:11:14,200
+it's more natural to have the hands open,
+
+254
+00:11:14,200 --> 00:11:16,320
+to be able to catch our upend.
+
+255
+00:11:16,320 --> 00:11:18,550
+But I've chosen to close the fists
+
+256
+00:11:18,550 --> 00:11:20,490
+because it will take forever
+
+257
+00:11:20,490 --> 00:11:23,020
+to spline in polish those fingers.
+
+258
+00:11:23,020 --> 00:11:27,200
+But while the educational
+content would be super imitated,
+
+259
+00:11:27,200 --> 00:11:31,114
+the fingers are some hold
+the limbs of the hand.
+
+260
+00:11:31,114 --> 00:11:33,720
+So they need to move with pupils.
+
+261
+00:11:33,720 --> 00:11:36,830
+They will help you to define
+the shape of the hand,
+
+262
+00:11:36,830 --> 00:11:40,640
+and they can also communicate
+something about your character
+
+263
+00:11:40,640 --> 00:11:43,730
+as seen in the posing hand chapter.
+
+264
+00:11:43,730 --> 00:11:47,323
+What I've done here is that
+as the hand is going down,
+
+265
+00:11:47,323 --> 00:11:51,996
+I will the finger drug by
+bending them a bit backward.
+
+266
+00:11:51,996 --> 00:11:54,893
+And just before the fist closed,
+
+267
+00:11:55,932 --> 00:11:58,110
+I have made the ultimate joint
+
+268
+00:11:58,110 --> 00:12:00,590
+to bend backwards so that it feels
+
+269
+00:12:00,590 --> 00:12:04,200
+like the fingers are snapping into a punch
+
+270
+00:12:04,200 --> 00:12:07,010
+more than they are crawling into a punch.
+
+271
+00:12:07,010 --> 00:12:09,850
+It will make the punching even snap here
+
+272
+00:12:09,850 --> 00:12:11,100
+to have the opposite hand
+
+273
+00:12:11,100 --> 00:12:13,283
+to also have a snappy motion.
+

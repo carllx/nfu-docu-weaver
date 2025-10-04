@@ -1,0 +1,50 @@
+{
+    "conversation_id": "cqmg4e3df0j4hn3lct1g",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Adobe Premiere Pro CC For Dummies",
+            "fileID": "cqmfdn9ivtd4195rk24g",
+            "itemID": 3558,
+            "citation": "Carucci, J. (2022). Adobe Premiere Pro CC For Dummies (1st edition). For Dummies.\n",
+            "citationShort": "Carucci, 2022",
+            "tags": [
+                "#kimi"
+            ]
+        },
+        {
+            "date": 2022,
+            "title": "Adobe premiere pro classroom in a book: The official training workbook from adobe",
+            "fileID": "cqmfdm2tnn0pro2uf8n0",
+            "itemID": 3537,
+            "citation": "Jago, M. (2022). Adobe premiere pro classroom in a book: The official training workbook from adobe. AdobePress.\n",
+            "citationShort": "Jago, 2022",
+            "tags": [
+                "#kimi"
+            ]
+        },
+        {
+            "date": "",
+            "title": "Beginners guide to",
+            "fileID": "cqmfdk03qff82k0uv63g",
+            "itemID": 3561,
+            "citation": "Williams, S. C. (n.d.). Beginners guide to.\n",
+            "citationShort": "Williams",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：设计 18 周的课程大纲,每周 3 学时\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe Premiere Pro CC For Dummies, was published on 2022. (It can be cite this paper as Carucci, 2022 on your answer). \n- Adobe premiere pro classroom in a book: The official training workbook from adobe, was published on 2022. (It can be cite this paper as Jago, 2022 on your answer). \n- Beginners guide to, (It can be cite this paper as Williams on your answer). \n\n",
+    "response": "转眼间，你和 Kimi 的这个对话已经超过了 20 万字。Kimi 在不断提升自己对话最大长度，但现在只能麻烦你开启一个新会话。期待与你再相遇！",
+    "refs": [
+        "cqmfdn9ivtd4195rk24g",
+        "cqmfdm2tnn0pro2uf8n0",
+        "cqmfdk03qff82k0uv63g"
+    ],
+    "title": null,
+    "group_id": "cqmg4e3f4kmnv73cn00g",
+    "req_id": "cqmg4e3f4kmnv73cn010",
+    "resp_id": "cqmg4e3f4kmnv73cn01g",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：设计 18 周的课程大纲,每周 3 学时"
+}

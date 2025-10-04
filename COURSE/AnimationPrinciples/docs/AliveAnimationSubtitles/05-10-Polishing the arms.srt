@@ -1,0 +1,699 @@
+﻿1
+00:00:01,110 --> 00:00:01,943
+- [Instructor] This video,
+
+2
+00:00:01,943 --> 00:00:05,520
+we are going to finish the
+polish stage of our run cycle
+
+3
+00:00:05,520 --> 00:00:08,510
+animation by polishing the arms.
+
+4
+00:00:08,510 --> 00:00:12,200
+Whenever you are walking
+with forward kinematic chains
+
+5
+00:00:12,200 --> 00:00:13,490
+like our arms,
+
+6
+00:00:13,490 --> 00:00:15,740
+we need to start from
+the root of the chain
+
+7
+00:00:15,740 --> 00:00:18,470
+and then go down to the tip of the chin.
+
+8
+00:00:18,470 --> 00:00:19,620
+So in this case,
+
+9
+00:00:19,620 --> 00:00:23,540
+we will start with the
+shoulders, then work on the arms,
+
+10
+00:00:23,540 --> 00:00:25,920
+Then forearms, and finally hands.
+
+11
+00:00:25,920 --> 00:00:28,020
+To polish the shoulder animation.
+
+12
+00:00:28,020 --> 00:00:30,820
+I will work first on the rotation,
+
+13
+00:00:30,820 --> 00:00:35,430
+but this time I won't be
+isolating each rotation channel
+
+14
+00:00:35,430 --> 00:00:39,000
+one by one, but I will
+work on the free channel
+
+15
+00:00:39,000 --> 00:00:40,160
+at the same time.
+
+16
+00:00:40,160 --> 00:00:44,450
+The idea is to smooth out
+the shoulder rotation,
+
+17
+00:00:44,450 --> 00:00:47,640
+make sure that we don't
+have any weird movement
+
+18
+00:00:47,640 --> 00:00:50,097
+into the shoulder or glitches.
+
+19
+00:00:50,097 --> 00:00:53,840
+And the second thing is to
+make sure that the extreme will
+
+20
+00:00:53,840 --> 00:00:56,380
+reads well and that we pushed the pose.
+
+21
+00:00:56,380 --> 00:00:59,970
+So that we get a nice
+and contrasted animation.
+
+22
+00:00:59,970 --> 00:01:03,080
+The thing to remember is that the shoulder
+
+23
+00:01:03,080 --> 00:01:05,660
+lead the motion of the torso,
+
+24
+00:01:05,660 --> 00:01:08,530
+the shoulder pulled the whole chest up.
+
+25
+00:01:08,530 --> 00:01:10,140
+So rotation wise,
+
+26
+00:01:10,140 --> 00:01:14,580
+we should avoid making the
+shoulder drag too much.
+
+27
+00:01:14,580 --> 00:01:17,340
+So Kev, why is it so a little more complex
+
+28
+00:01:17,340 --> 00:01:20,360
+to explain that what
+we did with the spine?
+
+29
+00:01:20,360 --> 00:01:23,600
+But my method is to move
+the keys channel by channel
+
+30
+00:01:23,600 --> 00:01:27,270
+and see all of the character
+behaves per channel
+
+31
+00:01:27,270 --> 00:01:29,110
+and then work on the pose.
+
+32
+00:01:29,110 --> 00:01:32,240
+So in this case, this is the
+moment where are the shoulder
+
+33
+00:01:32,240 --> 00:01:35,230
+should be hitting it's extreme pose
+
+34
+00:01:35,230 --> 00:01:37,170
+a little before the chest,
+
+35
+00:01:37,170 --> 00:01:40,200
+so I'm trying to push the shoulder up
+
+36
+00:01:40,200 --> 00:01:42,380
+and then polish the curve,
+
+37
+00:01:42,380 --> 00:01:44,550
+make it a little smoother
+
+38
+00:01:44,550 --> 00:01:47,700
+so that I don't have
+weird left to right motion
+
+39
+00:01:47,700 --> 00:01:48,970
+during the transition.
+
+40
+00:01:48,970 --> 00:01:51,260
+If we have a look to the final curve here,
+
+41
+00:01:51,260 --> 00:01:55,110
+we can see that it has a pretty
+classic shape in the end.
+
+42
+00:01:55,110 --> 00:01:59,210
+We get a plateau on the X
+rotation and the Z rotation
+
+43
+00:01:59,210 --> 00:02:01,380
+whenever we are reaching the extreme.
+
+44
+00:02:01,380 --> 00:02:05,600
+So it means that the shoulder
+is not rotating that much
+
+45
+00:02:05,600 --> 00:02:08,910
+once it hit its highest pose
+
+46
+00:02:08,910 --> 00:02:11,870
+whether it's forward or backward.
+
+47
+00:02:11,870 --> 00:02:14,260
+And then we have the
+fast transition during
+
+48
+00:02:14,260 --> 00:02:15,450
+the passing pose.
+
+49
+00:02:15,450 --> 00:02:19,190
+The work on the wire rotation
+curve is less sensitive.
+
+50
+00:02:19,190 --> 00:02:22,360
+We do have to work on it
+because it could cause
+
+51
+00:02:22,360 --> 00:02:24,980
+a gimbal lock, but the twisting motion is
+
+52
+00:02:24,980 --> 00:02:28,160
+that is driven by the Y eular rotation
+
+53
+00:02:28,160 --> 00:02:33,120
+is not quite natural, but
+once combined with the X and Z
+
+54
+00:02:33,120 --> 00:02:36,470
+rotation curves, it
+blends pretty smoothly.
+
+55
+00:02:36,470 --> 00:02:41,130
+So the idea is just to
+kind of fix the orientation
+
+56
+00:02:41,130 --> 00:02:44,340
+of the shoulder on those specific poses.
+
+57
+00:02:44,340 --> 00:02:46,700
+I know it can sound a bit abstract here,
+
+58
+00:02:46,700 --> 00:02:49,870
+but what I'm trying to
+avoid is any distortions
+
+59
+00:02:49,870 --> 00:02:51,500
+in the shoulder shape
+
+60
+00:02:51,500 --> 00:02:55,350
+while the X and Z curves are
+here to drive the motion.
+
+61
+00:02:55,350 --> 00:02:57,140
+Don forget to use the motion path
+
+62
+00:02:57,140 --> 00:02:59,920
+to double-check your arcs and spacing.
+
+63
+00:02:59,920 --> 00:03:02,160
+And that you can use to tail off the bone
+
+64
+00:03:02,160 --> 00:03:05,890
+or tip of the bone to
+calculate this motion path.
+
+65
+00:03:05,890 --> 00:03:06,723
+In this case,
+
+66
+00:03:06,723 --> 00:03:10,340
+it result in showing you
+the tip of the shoulder,
+
+67
+00:03:10,340 --> 00:03:12,223
+not the root of the clavicles.
+
+68
+00:03:13,840 --> 00:03:18,220
+At this stage, you can call
+the shoulder polishing done,
+
+69
+00:03:18,220 --> 00:03:21,430
+or you can push it a little
+further using location.
+
+70
+00:03:21,430 --> 00:03:23,450
+Using the Y and Z location curve,
+
+71
+00:03:23,450 --> 00:03:27,790
+I will make the shoulder drag
+a bit just before it hits
+
+72
+00:03:27,790 --> 00:03:31,360
+it's extreme, but I don't
+want to delay the shoulder.
+
+73
+00:03:31,360 --> 00:03:36,360
+So I reset the pose by moving
+the keys that has a zero value
+
+74
+00:03:36,530 --> 00:03:37,680
+on frame six.
+
+75
+00:03:37,680 --> 00:03:40,780
+And then I will slightly
+push the shoulder down
+
+76
+00:03:40,780 --> 00:03:43,863
+during the passing pose so
+that when you put weight
+
+77
+00:03:43,863 --> 00:03:45,300
+into the shoulder,
+
+78
+00:03:45,300 --> 00:03:47,820
+as if just after the impact,
+
+79
+00:03:47,820 --> 00:03:51,410
+it was getting pulled
+down by its own weight,
+
+80
+00:03:51,410 --> 00:03:54,590
+then I will do the same
+in the pose just after
+
+81
+00:03:54,590 --> 00:03:56,730
+it reaches it's highest point.
+
+82
+00:03:56,730 --> 00:03:59,560
+I will push it a little higher
+
+83
+00:03:59,560 --> 00:04:02,450
+as if there was momentum into the shoulder
+
+84
+00:04:02,450 --> 00:04:05,780
+that make it go a little further up.
+
+85
+00:04:05,780 --> 00:04:07,800
+So I keep it very subtle.
+
+86
+00:04:07,800 --> 00:04:12,230
+The idea is just to
+emphasize what we did before.
+
+87
+00:04:12,230 --> 00:04:15,330
+Whenever the shoulder
+is in it's down pose,
+
+88
+00:04:15,330 --> 00:04:19,160
+I make it drag a little bit just to touch
+
+89
+00:04:19,160 --> 00:04:21,560
+and I push it down a little more.
+
+90
+00:04:21,560 --> 00:04:24,660
+And when it has reach its highest point,
+
+91
+00:04:24,660 --> 00:04:26,130
+one or two frame later,
+
+92
+00:04:26,130 --> 00:04:28,300
+I will just raise it a little more
+
+93
+00:04:28,300 --> 00:04:31,830
+to bring a bit of momentum
+into the shoulder motion.
+
+94
+00:04:31,830 --> 00:04:35,000
+The heavy lifting was
+done with the rotation,
+
+95
+00:04:35,000 --> 00:04:38,240
+and this is what will
+brings you nice arcs.
+
+96
+00:04:38,240 --> 00:04:42,170
+And then you can bring some
+texture to your animation
+
+97
+00:04:42,170 --> 00:04:43,630
+using location.
+
+98
+00:04:43,630 --> 00:04:47,140
+Again, it must be subtle
+because if you push too far,
+
+99
+00:04:47,140 --> 00:04:50,190
+you will break the shape of
+the shoulder and it will look
+
+100
+00:04:50,190 --> 00:04:52,393
+pointy or out of place.
+
+101
+00:04:57,200 --> 00:04:59,760
+Unleashing the arm is
+pretty straightforward.
+
+102
+00:04:59,760 --> 00:05:03,430
+One of the first thing you
+may do is track the position
+
+103
+00:05:03,430 --> 00:05:05,980
+of the elbow tweak controller
+
+104
+00:05:05,980 --> 00:05:10,320
+so that you can easily track
+your arcs from the elbow.
+
+105
+00:05:10,320 --> 00:05:14,770
+I also often use the end
+position using the wrist
+
+106
+00:05:14,770 --> 00:05:16,290
+tweaker controller,
+
+107
+00:05:16,290 --> 00:05:18,530
+but at this stage it will be better
+
+108
+00:05:18,530 --> 00:05:21,580
+to focus on the elbow position.
+
+109
+00:05:21,580 --> 00:05:22,860
+While on the reference,
+
+110
+00:05:22,860 --> 00:05:26,540
+we have seen that there
+was a slight slowing down
+
+111
+00:05:26,540 --> 00:05:27,940
+during the passing pose,
+
+112
+00:05:27,940 --> 00:05:31,940
+and then reaccelerating
+whether forward or backward,
+
+113
+00:05:31,940 --> 00:05:36,550
+this is really noticeable when
+using extreme slow motion.
+
+114
+00:05:36,550 --> 00:05:39,460
+And when I've tried, it felt a bit weird.
+
+115
+00:05:39,460 --> 00:05:40,640
+So in my case,
+
+116
+00:05:40,640 --> 00:05:44,050
+I prefer to have a fast
+motion during the passing
+
+117
+00:05:44,050 --> 00:05:47,840
+and ease into the extreme and old pose,
+
+118
+00:05:47,840 --> 00:05:49,810
+which clearly shows when we look
+
+119
+00:05:49,810 --> 00:05:52,300
+at the spacing on those arcs,
+
+120
+00:05:52,300 --> 00:05:55,220
+we have a large spacing during the passing
+
+121
+00:05:55,220 --> 00:05:58,640
+and it gets tighter on up pose.
+
+122
+00:05:58,640 --> 00:06:02,500
+Shape wise from a side view,
+the arc is very smooth.
+
+123
+00:06:02,500 --> 00:06:03,333
+From the front view,
+
+124
+00:06:03,333 --> 00:06:06,590
+my main concern was not to make the elbow
+
+125
+00:06:06,590 --> 00:06:09,280
+going too far on the outside
+
+126
+00:06:09,280 --> 00:06:10,690
+because the faster you run,
+
+127
+00:06:10,690 --> 00:06:13,560
+the closer to the body your elbow will be.
+
+128
+00:06:13,560 --> 00:06:16,720
+And then I make sure it
+goes slightly on the inside
+
+129
+00:06:16,720 --> 00:06:18,010
+on both extremes.
+
+130
+00:06:18,010 --> 00:06:21,850
+Third wise, we have a
+smooth sensory dull shape
+
+131
+00:06:21,850 --> 00:06:24,470
+regarding the X rotation,
+
+132
+00:06:24,470 --> 00:06:28,070
+which mainly influence the
+distance between the chest
+
+133
+00:06:28,070 --> 00:06:30,410
+and the elbow from the front view.
+
+134
+00:06:30,410 --> 00:06:34,490
+And then the Z and Y
+rotation curve mainly drive
+
+135
+00:06:34,490 --> 00:06:36,110
+the swing of the arm.
+
+136
+00:06:36,110 --> 00:06:40,160
+So we can spot on them
+our usual plateaus shape
+
+137
+00:06:40,160 --> 00:06:42,060
+when we reach the extreme,
+
+138
+00:06:42,060 --> 00:06:45,670
+weave the fast transition
+during the passing.
+
+139
+00:06:45,670 --> 00:06:48,880
+I've also slightly worked the W curve
+
+140
+00:06:48,880 --> 00:06:51,340
+just to remove any glitches.
+
+141
+00:06:51,340 --> 00:06:53,670
+The W curve is generally involved
+
+142
+00:06:53,670 --> 00:06:56,333
+whenever you are trying
+to reach an extreme
+
+143
+00:06:56,333 --> 00:07:01,333
+with the other curve and the
+quaternions can't solve it.
+
+144
+00:07:01,360 --> 00:07:03,880
+So unless you are doing a full revolution,
+
+145
+00:07:03,880 --> 00:07:07,770
+the W curve is generally
+not that much involved.
+
+146
+00:07:07,770 --> 00:07:11,890
+But it does need some attention
+on such a moving part,
+
+147
+00:07:11,890 --> 00:07:15,690
+since it's a long forward kinematic chain,
+
+148
+00:07:15,690 --> 00:07:18,290
+it's in everything, the
+movement of the torso,
+
+149
+00:07:18,290 --> 00:07:20,920
+then the movement of
+the shoulder, et cetera.
+
+150
+00:07:20,920 --> 00:07:25,520
+So we do need to double check
+the motion path of the elbow
+
+151
+00:07:25,520 --> 00:07:30,520
+and eye my Y, Z and X rotation
+curve are kind of smooth
+
+152
+00:07:30,640 --> 00:07:32,250
+in the graph editor.
+
+153
+00:07:32,250 --> 00:07:35,590
+I'm just double checking that the W curve
+
+154
+00:07:35,590 --> 00:07:38,140
+is not bringing any glitches.
+
+155
+00:07:38,140 --> 00:07:41,310
+In the end, as for every
+cycle we've been working on,
+
+156
+00:07:41,310 --> 00:07:45,500
+make sure that your first
+and last keys are the same
+
+157
+00:07:45,500 --> 00:07:46,980
+and they are aligned.
+

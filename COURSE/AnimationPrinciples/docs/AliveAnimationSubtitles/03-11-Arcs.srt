@@ -1,0 +1,240 @@
+﻿1
+00:00:00,192 --> 00:00:02,190
+- In this video, we will talk
+
+2
+00:00:02,190 --> 00:00:05,013
+about another principle of animation.
+
+3
+00:00:05,013 --> 00:00:07,290
+I haven't used the term before,
+
+4
+00:00:07,290 --> 00:00:10,360
+but we have already used
+arcs in our animations
+
+5
+00:00:10,360 --> 00:00:13,390
+when we have done our
+one single animation,
+
+6
+00:00:13,390 --> 00:00:16,440
+and when we were tracking
+the motion of the ball,
+
+7
+00:00:16,440 --> 00:00:19,970
+we did our best to create
+those beautiful curve
+
+8
+00:00:19,970 --> 00:00:22,860
+in the motion, and those are arcs.
+
+9
+00:00:22,860 --> 00:00:25,120
+And it does make sense, even for me,
+
+10
+00:00:25,120 --> 00:00:27,900
+as an arc, in French, is a bow.
+
+11
+00:00:27,900 --> 00:00:30,480
+But, I'm not sure it will
+help for this course.
+
+12
+00:00:30,480 --> 00:00:31,350
+Let's go ahead.
+
+13
+00:00:31,350 --> 00:00:33,799
+If you look around, most
+of the things that move
+
+14
+00:00:33,799 --> 00:00:35,480
+move in arcs.
+
+15
+00:00:35,480 --> 00:00:39,390
+They kind of have a rotation-based motion
+
+16
+00:00:39,390 --> 00:00:42,520
+and you will barely meet
+situation where you want
+
+17
+00:00:42,520 --> 00:00:44,600
+to animate straight lines
+
+18
+00:00:44,600 --> 00:00:46,860
+like hydraulics or stuff like that.
+
+19
+00:00:46,860 --> 00:00:50,270
+If I remove the arcs from
+our one single animation,
+
+20
+00:00:50,270 --> 00:00:53,830
+you can see that we absolutely
+don't get the same results,
+
+21
+00:00:53,830 --> 00:00:54,910
+the same feeling.
+
+22
+00:00:54,910 --> 00:00:57,430
+It doesn't look natural at all.
+
+23
+00:00:57,430 --> 00:01:00,142
+Let's have a look at a
+little more complex animation
+
+24
+00:01:00,142 --> 00:01:04,170
+and let's point out few
+arcs in this animation.
+
+25
+00:01:04,170 --> 00:01:06,890
+A common mistake for
+beginners is to forget
+
+26
+00:01:06,890 --> 00:01:09,920
+to input an arc in the head rotation.
+
+27
+00:01:09,920 --> 00:01:13,430
+But in most cases, it will
+bring a bit more personality
+
+28
+00:01:13,430 --> 00:01:15,140
+if you do it this way.
+
+29
+00:01:15,140 --> 00:01:17,170
+Next step, if I track the hand,
+
+30
+00:01:17,170 --> 00:01:20,380
+you can clearly see there is
+a big arc on the left hand
+
+31
+00:01:20,380 --> 00:01:21,670
+and the right hand.
+
+32
+00:01:21,670 --> 00:01:23,101
+On this new head turn,
+
+33
+00:01:23,101 --> 00:01:28,010
+look at how the arc
+support the feeling of fear
+
+34
+00:01:28,010 --> 00:01:32,010
+of our character not
+understanding what happened
+
+35
+00:01:32,010 --> 00:01:34,410
+and his back is pushing his head down
+
+36
+00:01:34,410 --> 00:01:37,000
+between his shoulder while rotating.
+
+37
+00:01:37,000 --> 00:01:39,840
+On the next move, too,
+arc is very important
+
+38
+00:01:39,840 --> 00:01:41,208
+and well-defined.
+
+39
+00:01:41,208 --> 00:01:44,730
+And whatever part of the
+character I am tracking,
+
+40
+00:01:44,730 --> 00:01:46,880
+I will find those arcs,
+
+41
+00:01:46,880 --> 00:01:49,195
+whether it's the motion of the pelvis,
+
+42
+00:01:49,195 --> 00:01:50,960
+the motion of the hands,
+
+43
+00:01:50,960 --> 00:01:54,470
+the motion of the head, the
+feet, whatever you want.
+
+44
+00:01:54,470 --> 00:01:56,840
+So arcs are almost everywhere
+
+45
+00:01:56,840 --> 00:02:00,350
+and it's very important
+to track them properly.
+
+46
+00:02:00,350 --> 00:02:02,100
+That's why we really need
+
+47
+00:02:02,100 --> 00:02:07,100
+to use the motion path tool of
+Blender as often as possible.
+
+48
+00:02:07,510 --> 00:02:11,690
+To summarize, we have seen
+that most motion are done
+
+49
+00:02:11,690 --> 00:02:12,740
+in arcs.
+
+50
+00:02:12,740 --> 00:02:16,020
+You should avoid the
+straight interpolation
+
+51
+00:02:16,020 --> 00:02:18,090
+unless it is intentional.
+
+52
+00:02:18,090 --> 00:02:21,700
+You should use the motion
+path tool of Blender
+
+53
+00:02:21,700 --> 00:02:23,310
+as often as possible.
+
+54
+00:02:23,310 --> 00:02:25,023
+Track your arcs!
+

@@ -1,0 +1,620 @@
+﻿1
+00:00:00,170 --> 00:00:01,003
+- [Instructor] In this video,
+
+2
+00:00:01,003 --> 00:00:03,830
+we are going to talk about
+one of my favorite part
+
+3
+00:00:03,830 --> 00:00:05,150
+on any character.
+
+4
+00:00:05,150 --> 00:00:09,050
+Hands are super important
+and too often overlooked.
+
+5
+00:00:09,050 --> 00:00:12,290
+And you can often
+identify a big inner work
+
+6
+00:00:12,290 --> 00:00:14,700
+just by watching the hand posing.
+
+7
+00:00:14,700 --> 00:00:19,380
+The first main issue is to keep
+the rest pose of most rigs.
+
+8
+00:00:19,380 --> 00:00:21,900
+Most of the time for technical purpose,
+
+9
+00:00:21,900 --> 00:00:25,000
+most character rigs have flat hand
+
+10
+00:00:25,000 --> 00:00:27,420
+whenever they are in rest pose.
+
+11
+00:00:27,420 --> 00:00:31,870
+And to get such a flat hand
+pose, you need tension,
+
+12
+00:00:31,870 --> 00:00:35,030
+meaning that you need to
+straighten your fingers
+
+13
+00:00:35,030 --> 00:00:36,650
+so that you're not relaxed.
+
+14
+00:00:36,650 --> 00:00:39,470
+So the first thing I
+would suggest you to do
+
+15
+00:00:39,470 --> 00:00:41,650
+whenever you are posing your character,
+
+16
+00:00:41,650 --> 00:00:44,130
+but whatever the rig you are using,
+
+17
+00:00:44,130 --> 00:00:48,360
+is to slightly curve the end
+using the palm controller,
+
+18
+00:00:48,360 --> 00:00:51,150
+and then to slightly bend
+the tip of the finger.
+
+19
+00:00:51,150 --> 00:00:54,820
+Here, you can see a reference
+picture of a relaxed hand
+
+20
+00:00:54,820 --> 00:00:56,560
+and there is no flat shape.
+
+21
+00:00:56,560 --> 00:01:00,540
+Another thing that is very
+interesting is finger grouping.
+
+22
+00:01:00,540 --> 00:01:03,710
+Most of the time, fingers
+tend to group themself
+
+23
+00:01:03,710 --> 00:01:05,620
+by two or by three.
+
+24
+00:01:05,620 --> 00:01:08,200
+The current pose is the one I use the most
+
+25
+00:01:08,200 --> 00:01:11,800
+with the index and the
+pinky being separated,
+
+26
+00:01:11,800 --> 00:01:15,200
+and the middle finger and the
+ring finger being grouped.
+
+27
+00:01:15,200 --> 00:01:17,130
+If you watch some of my animation,
+
+28
+00:01:17,130 --> 00:01:19,080
+you can see that I use it a lot.
+
+29
+00:01:19,080 --> 00:01:22,120
+Whenever I'm posing hand,
+this is my go to shape,
+
+30
+00:01:22,120 --> 00:01:25,540
+but you can group the middle,
+ring, and pinky together
+
+31
+00:01:25,540 --> 00:01:27,850
+or you can not leave the pinky alone,
+
+32
+00:01:27,850 --> 00:01:30,460
+but you should avoid creating two groups,
+
+33
+00:01:30,460 --> 00:01:33,090
+one with the index and the middle finger,
+
+34
+00:01:33,090 --> 00:01:35,800
+the other with the ring
+finger and the pinky.
+
+35
+00:01:35,800 --> 00:01:38,160
+While it may fit for a ninja turtle,
+
+36
+00:01:38,160 --> 00:01:41,193
+this is not a very natural hand pose.
+
+37
+00:01:42,220 --> 00:01:44,680
+Whenever you are building a fist pose,
+
+38
+00:01:44,680 --> 00:01:48,070
+don't just rotate the root of the fingers,
+
+39
+00:01:48,070 --> 00:01:50,100
+and then curve them inward.
+
+40
+00:01:50,100 --> 00:01:54,510
+If you do so, you will end
+up with a very squared fist.
+
+41
+00:01:54,510 --> 00:01:57,493
+We have flat surface on top of the hand
+
+42
+00:01:57,493 --> 00:02:00,310
+on the front of the
+hand, and on the inward.
+
+43
+00:02:00,310 --> 00:02:05,310
+This will look very low poly
+like or old game fashioned.
+
+44
+00:02:05,370 --> 00:02:08,330
+While if you look to a
+closed fist reference,
+
+45
+00:02:08,330 --> 00:02:11,440
+you can see that there
+is a lot of curvaturing.
+
+46
+00:02:11,440 --> 00:02:13,810
+So a good practice whenever
+you're posing a fist
+
+47
+00:02:13,810 --> 00:02:17,050
+is to do the same thing as
+when you're posing a rest hand.
+
+48
+00:02:17,050 --> 00:02:20,640
+First of all, think of
+using the palm controller
+
+49
+00:02:20,640 --> 00:02:23,930
+to slightly bend or curve the whole fist.
+
+50
+00:02:23,930 --> 00:02:26,379
+Then watch your own fist.
+
+51
+00:02:26,379 --> 00:02:28,930
+Watch the relationship between each finger
+
+52
+00:02:28,930 --> 00:02:30,550
+and the overall shape.
+
+53
+00:02:30,550 --> 00:02:34,080
+Don't hesitate to play with
+the location of the bone.
+
+54
+00:02:34,080 --> 00:02:37,000
+It's very odd to get a convincing fist
+
+55
+00:02:37,000 --> 00:02:41,050
+with all the compression
+by using only the rotation.
+
+56
+00:02:41,050 --> 00:02:44,960
+Again, remember that we are
+currently sculpting the pose,
+
+57
+00:02:44,960 --> 00:02:47,380
+shaping our character.
+
+58
+00:02:47,380 --> 00:02:49,670
+This is not about getting logical,
+
+59
+00:02:49,670 --> 00:02:52,470
+about all the bones should behave
+
+60
+00:02:52,470 --> 00:02:54,050
+in the body of our character.
+
+61
+00:02:54,050 --> 00:02:55,780
+We are not manipulating bones,
+
+62
+00:02:55,780 --> 00:02:57,810
+we are manipulating controllers.
+
+63
+00:02:57,810 --> 00:03:01,200
+So again, watch reference,
+use your own fist,
+
+64
+00:03:01,200 --> 00:03:02,470
+and try to match it.
+
+65
+00:03:02,470 --> 00:03:05,890
+Here is the result whenever
+I'm using my own fist.
+
+66
+00:03:05,890 --> 00:03:09,130
+Note that the fist
+position might vary a lot
+
+67
+00:03:09,130 --> 00:03:10,790
+from people to people
+
+68
+00:03:10,790 --> 00:03:15,053
+and that you will meet limitation
+due to the current rig.
+
+69
+00:03:16,010 --> 00:03:19,300
+I personally believe that
+hands are so expressive
+
+70
+00:03:19,300 --> 00:03:22,990
+that they can be considered
+as being a separated character
+
+71
+00:03:22,990 --> 00:03:24,400
+within the character.
+
+72
+00:03:24,400 --> 00:03:27,970
+When you are posing a hand, just act it.
+
+73
+00:03:27,970 --> 00:03:30,360
+Why we have been focusing on motion,
+
+74
+00:03:30,360 --> 00:03:33,010
+line affection, and
+all this kind of thing,
+
+75
+00:03:33,010 --> 00:03:35,750
+this course is about animation.
+
+76
+00:03:35,750 --> 00:03:38,350
+So bringing your character to life.
+
+77
+00:03:38,350 --> 00:03:42,170
+And I do believe that
+even in an action pose
+
+78
+00:03:42,170 --> 00:03:44,530
+or an action animation,
+
+79
+00:03:44,530 --> 00:03:48,320
+hands can communicate a
+lot about your character,
+
+80
+00:03:48,320 --> 00:03:50,430
+about his personality.
+
+81
+00:03:50,430 --> 00:03:53,190
+So whenever you are walking on hands,
+
+82
+00:03:53,190 --> 00:03:56,600
+treat yourself as a
+child and play with them.
+
+83
+00:03:56,600 --> 00:03:58,670
+Just remember whatever you were doing
+
+84
+00:03:58,670 --> 00:04:02,350
+whenever you were mimicking a
+monster when you were a child.
+
+85
+00:04:02,350 --> 00:04:06,130
+Hand poses are written
+into our subconscious
+
+86
+00:04:06,130 --> 00:04:10,080
+because it's a strong point
+of attraction on a character.
+
+87
+00:04:10,080 --> 00:04:12,750
+They can be very feminine for example
+
+88
+00:04:12,750 --> 00:04:16,760
+or they can show anger or the
+envy of an evil character.
+
+89
+00:04:16,760 --> 00:04:21,100
+So whatever the tension, the
+shape you build with the hands,
+
+90
+00:04:21,100 --> 00:04:22,940
+they will communicate something.
+
+91
+00:04:22,940 --> 00:04:25,820
+Finally, whenever you
+are posing your hand,
+
+92
+00:04:25,820 --> 00:04:28,130
+you have to think about the limitation.
+
+93
+00:04:28,130 --> 00:04:29,930
+While we can break those boundaries
+
+94
+00:04:29,930 --> 00:04:32,570
+whenever we are playing with exaggeration,
+
+95
+00:04:32,570 --> 00:04:35,640
+it's always better to build your poses
+
+96
+00:04:35,640 --> 00:04:37,910
+on the current limitation of the body.
+
+97
+00:04:37,910 --> 00:04:40,890
+Remember that the side to
+side motion of the wrist
+
+98
+00:04:40,890 --> 00:04:44,510
+is pretty limited, just a
+few degrees of rotation.
+
+99
+00:04:44,510 --> 00:04:47,770
+Again, use your own hand to test it.
+
+100
+00:04:47,770 --> 00:04:50,490
+If you hold your arms straight forward,
+
+101
+00:04:50,490 --> 00:04:54,940
+you can almost twist
+your hand by 180 degrees
+
+102
+00:04:54,940 --> 00:04:57,070
+with your palm pointing to the sky.
+
+103
+00:04:57,070 --> 00:04:59,670
+While if you twist your hand inward,
+
+104
+00:04:59,670 --> 00:05:02,710
+you will hardly get over 90 degrees.
+
+105
+00:05:02,710 --> 00:05:05,820
+Regarding the back and
+forth tilting of the hand,
+
+106
+00:05:05,820 --> 00:05:08,860
+you should be able to
+reach a 90 degrees angle
+
+107
+00:05:08,860 --> 00:05:12,620
+whether you are bending
+your hand inward or outward.
+
+108
+00:05:12,620 --> 00:05:15,953
+So whenever you are building
+those pose, try them yourself.
+
+109
+00:05:15,953 --> 00:05:18,270
+If it's become painful,
+
+110
+00:05:18,270 --> 00:05:19,660
+then you have to compensate
+
+111
+00:05:19,660 --> 00:05:21,840
+whether with the shoulder or the elbow.
+
+112
+00:05:21,840 --> 00:05:24,530
+Fingers also have their limitation.
+
+113
+00:05:24,530 --> 00:05:26,860
+While the thumb is pretty flexible,
+
+114
+00:05:26,860 --> 00:05:28,420
+you will reach a limitation
+
+115
+00:05:28,420 --> 00:05:31,980
+whenever you're trying to
+spread it as far as possible
+
+116
+00:05:31,980 --> 00:05:35,670
+til it creates an L shape
+with the index finger.
+
+117
+00:05:35,670 --> 00:05:38,750
+The index and the pinky
+can process free rotation
+
+118
+00:05:38,750 --> 00:05:40,890
+with a lot of limitation.
+
+119
+00:05:40,890 --> 00:05:43,050
+So you can rotate a bit with them
+
+120
+00:05:43,050 --> 00:05:45,040
+to create a circular shape,
+
+121
+00:05:45,040 --> 00:05:47,690
+but they are mainly able to curl.
+
+122
+00:05:47,690 --> 00:05:51,560
+The middle finger and the
+ring finger are more limited.
+
+123
+00:05:51,560 --> 00:05:54,730
+Finally, when it comes to the
+next joint on your finger,
+
+124
+00:05:54,730 --> 00:05:58,940
+they can only curve and rotating
+them along any other access
+
+125
+00:05:58,940 --> 00:06:00,150
+will look very weird.
+
+126
+00:06:00,150 --> 00:06:03,170
+Again, it doesn't mean you
+can't rotate them this way.
+
+127
+00:06:03,170 --> 00:06:06,510
+And I do it a lot whenever
+I'm building smears,
+
+128
+00:06:06,510 --> 00:06:08,930
+but if you hold a pose this way,
+
+129
+00:06:08,930 --> 00:06:10,960
+the finger will look broken.
+
+130
+00:06:10,960 --> 00:06:12,810
+Finally, depending on the people,
+
+131
+00:06:12,810 --> 00:06:15,150
+the finger might be more or less flexible
+
+132
+00:06:15,150 --> 00:06:18,380
+and you can totally bend
+them backward a bit,
+
+133
+00:06:18,380 --> 00:06:21,100
+especially if they are
+applying any pressure.
+
+134
+00:06:21,100 --> 00:06:23,540
+This will mark the end of this video,
+
+135
+00:06:23,540 --> 00:06:26,100
+but I do advise you to have a look
+
+136
+00:06:26,100 --> 00:06:29,950
+to the talk of Hjalti Hjalmarsson
+at the Blender Conference.
+
+137
+00:06:29,950 --> 00:06:34,510
+It's one of the best talk about
+hand posing I've ever seen
+
+138
+00:06:34,510 --> 00:06:36,540
+and it's really eye opening.
+
+139
+00:06:36,540 --> 00:06:40,023
+You will find the link in
+the documentation as usual.
+

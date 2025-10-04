@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cpqlvsaul72cb1uq81rg",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "广州美术学院公共艺术专业理论课程教学探究",
+            "fileID": "cpqlofg04rj76i617md0",
+            "itemID": 2806,
+            "citation": "王浩. (2020). 广州美术学院公共艺术专业理论课程教学探究. 公共艺术, 94–96.\n",
+            "citationShort": "王浩, 2020",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题：教学中有提及西方的当代艺术吗?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 广州美术学院公共艺术专业理论课程教学探究, was published on 2020. (It can be cite this paper as 王浩, 2020 on your answer). \n\n",
+    "response": "根据王浩在2020年发表的论文《广州美术学院公共艺术专业理论课程教学探究》中的描述，教学中确实有提及西方的当代艺术。具体来说，论文中提到了“西方现当代雕塑思潮”作为公共艺术专业理论课程之一，这门课程是广州美术学院公共艺术专业理论教学模式的一部分。这表明课程内容涵盖了西方当代艺术的理论和实践，帮助学生理解当代艺术在公共艺术领域中的作用和影响。\n\n以下是论文中关于此内容的引用：\n\n> \"课程分别为《西方传统雕塑史》《中国传统雕塑史》《西方现当代雕塑思潮》，三门课程前后贯穿，绑定延续，通过对中西雕塑的历史脉络与现当代发展现状的解析，强化学生对于雕塑艺术的理解，注重培养学生能在不同的时代与文化背景下分析雕塑形式语言与社会意义的能力，并为创作实践提供可能。\"（王浩，2020）\n\n通过这段描述，我们可以了解到，广州美术学院公共艺术专业的理论课程不仅包含了西方传统雕塑史的学习，也包括了对西方现当代雕塑思潮的深入探讨，这无疑涉及到了西方的当代艺术。",
+    "refs": [
+        "cpqlofg04rj76i617md0"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpqlvscascdgdddhmi6g",
+    "req_id": "cpqlvscascdgdddhmi70",
+    "resp_id": "cpqlvscascdgdddhmi7g",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题：教学中有提及西方的当代艺术吗?"
+}

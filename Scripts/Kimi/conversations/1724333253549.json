@@ -1,0 +1,53 @@
+{
+    "conversation_id": "cr3jpi3kqfqauibi1sng",
+    "attachments": [
+        {
+            "date": 2018,
+            "title": "Adobe Audition CC Classroom in a Book 2nd Edition",
+            "fileID": "cqmef2dskq8h5si2vf3g",
+            "itemID": 3546,
+            "citation": "Jago, M., & Team, A. C. (2018). Adobe Audition CC Classroom in a Book 2nd Edition (2nd edition). Adobe Press.\n",
+            "citationShort": "⁨Jago⁩ and ⁨Team⁩, 2018",
+            "tags": [
+                "#kimi",
+                "# Audition"
+            ]
+        },
+        {
+            "date": 2019,
+            "title": "Course - Audition essential training",
+            "fileID": "cqk6pt0dh3nf6dutcafg",
+            "itemID": 3506,
+            "citation": "Course—Audition essential training. (2019). https://www.linkedin.com/learning/audition-essential-training\n",
+            "citationShort": "“Course - Audition essential trai…”, 2019",
+            "tags": [
+                "#kimi",
+                "# Audition"
+            ]
+        },
+        {
+            "date": "",
+            "title": "Course - Practical audio techniques with audition",
+            "fileID": "cqk6pu71ed32qdh7t42g",
+            "itemID": 3509,
+            "citation": "Course—Practical audio techniques with audition. (n.d.). Fxphd. Retrieved July 30, 2024, from https://www.fxphd.com/details/338/\n",
+            "citationShort": "“Course - Practical audio techniq…”",
+            "tags": [
+                "#kimi",
+                "# Audition"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何获得声音的空间感?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe Audition CC Classroom in a Book 2nd Edition, was published on 2018. (It can be cite this paper as ⁨Jago⁩ and ⁨Team⁩, 2018 on your answer). \n- Course - Audition essential training, was published on 2019. (It can be cite this paper as “Course - Audition essential trai…”, 2019 on your answer). \n- Course - Practical audio techniques with audition, (It can be cite this paper as “Course - Practical audio techniq…” on your answer). \n\n",
+    "response": "转眼间，你和 Kimi 的这个对话已经超过了 20 万字。Kimi 在不断提升自己对话最大长度，但现在只能麻烦你开启一个新会话。期待与你再相遇！",
+    "refs": [
+        "cqmef2dskq8h5si2vf3g",
+        "cqk6pt0dh3nf6dutcafg",
+        "cqk6pu71ed32qdh7t42g"
+    ],
+    "title": null,
+    "group_id": "cr3jpi22jko5a0qef800",
+    "req_id": "cr3jpi22jko5a0qef80g",
+    "resp_id": "cr3jpi22jko5a0qef810",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何获得声音的空间感?"
+}

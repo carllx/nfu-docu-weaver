@@ -1,0 +1,1363 @@
+1
+00:00:04,060 --> 00:00:08,140
+So welcome to this illustration from Rose Kaya
+
+2
+00:00:08,940 --> 00:00:10,140
+And I love this one
+
+3
+00:00:10,150 --> 00:00:11,780
+I love as well that in this one
+
+4
+00:00:11,780 --> 00:00:13,990
+as well as having the illustration
+
+5
+00:00:13,990 --> 00:00:15,280
+we have a beautiful animation
+
+6
+00:00:15,700 --> 00:00:19,020
+YeahI love seeing the 3D animation mixed with the 2D animation
+
+7
+00:00:19,020 --> 00:00:22,590
+I think that's something people were really interested in and seeing that frame by frame
+
+8
+00:00:22,590 --> 00:00:26,440
+puffs of smoke along with this really smooth 3D is really lovely
+
+9
+00:00:26,590 --> 00:00:27,030
+Yeah
+
+10
+00:00:27,040 --> 00:00:28,150
+and you know
+
+11
+00:00:28,150 --> 00:00:31,400
+like when we received this illustration that we have in here
+
+12
+00:00:31,590 --> 00:00:33,850
+we had to decide what were we going to do
+
+13
+00:00:34,110 --> 00:00:36,660
+Like we didn't know which parts were going to be 3D
+
+14
+00:00:36,660 --> 00:00:38,220
+which parts were going to be 2D
+
+15
+00:00:38,580 --> 00:00:41,120
+and maybe even which parts were not present
+
+16
+00:00:41,600 --> 00:00:45,840
+I think that I really love how this illustration was very flat
+
+17
+00:00:45,950 --> 00:00:47,790
+but it had a bit of texture
+
+18
+00:00:47,790 --> 00:00:50,420
+a bit of gradients made here with this noise
+
+19
+00:00:50,640 --> 00:00:53,650
+And I thought it was a shame if we were going to lose that in 3D
+
+20
+00:00:54,040 --> 00:00:55,090
+On the other hand
+
+21
+00:00:55,120 --> 00:00:57,290
+I thought that many of the shapes
+
+22
+00:00:57,290 --> 00:01:04,120
+including the wheels and the motorbike and how this felt ter would be a shame not to show that we had made it in 3D
+
+23
+00:01:04,130 --> 00:01:07,160
+So it was a different approach is very different from Noi
+
+24
+00:01:07,160 --> 00:01:11,860
+which we made an illustration that looked exactly like the original in this one
+
+25
+00:01:11,870 --> 00:01:13,390
+We did a reinterpretation
+
+26
+00:01:13,560 --> 00:01:15,950
+something that I really love about this illustration as well
+
+27
+00:01:15,960 --> 00:01:18,020
+There's all of the details that are inside of it
+
+28
+00:01:18,390 --> 00:01:20,610
+seeing how she has on the motorbike
+
+29
+00:01:20,620 --> 00:01:23,070
+that little flower sticker and the cross there
+
+30
+00:01:23,070 --> 00:01:25,570
+And I think the colors are really nicely contained
+
+31
+00:01:25,590 --> 00:01:29,520
+but it's full of detail and I think that's what looks super nice when you get into 3D
+
+32
+00:01:29,540 --> 00:01:29,940
+Yeah
+
+33
+00:01:29,940 --> 00:01:30,650
+when we go here
+
+34
+00:01:30,660 --> 00:01:31,850
+back to the illustration
+
+35
+00:01:32,090 --> 00:01:33,820
+see that everything got translated
+
+36
+00:01:33,820 --> 00:01:36,040
+Actuallyevery single element ended up being there
+
+37
+00:01:36,080 --> 00:01:36,340
+You know
+
+38
+00:01:36,340 --> 00:01:37,640
+the flowers are there
+
+39
+00:01:37,990 --> 00:01:39,260
+the bird is there
+
+40
+00:01:39,770 --> 00:01:42,750
+and even the elements that were in the illustration
+
+41
+00:01:42,750 --> 00:01:45,340
+like the little details are just appearing on this
+
+42
+00:01:45,690 --> 00:01:48,380
+And to generate the effect of the speed happening
+
+43
+00:01:48,640 --> 00:01:55,260
+And those are simply some grease pencil layers that are being multiplied again and again
+
+44
+00:01:55,270 --> 00:01:57,190
+and we are using the same effect
+
+45
+00:01:57,190 --> 00:01:59,950
+The time of to change at which time they appear
+
+46
+00:02:00,070 --> 00:02:01,770
+So we only animated 1
+
+47
+00:02:01,780 --> 00:02:03,480
+and then we repeat it again and again
+
+48
+00:02:03,560 --> 00:02:06,160
+And we are generating that speed in the illustration
+
+49
+00:02:06,160 --> 00:02:07,920
+just like you did with the little Zs
+
+50
+00:02:07,920 --> 00:02:10,040
+in exactly the same effect
+
+51
+00:02:10,220 --> 00:02:11,500
+The other thing that we have
+
+52
+00:02:11,500 --> 00:02:12,353
+ohby the way
+
+53
+00:02:12,353 --> 00:02:15,126
+I love that you can put in misshaped materials
+
+54
+00:02:15,126 --> 00:02:16,406
+And if you are using Eev
+
+55
+00:02:16,406 --> 00:02:19,180
+the only thing you need to go is I actually right now
+
+56
+00:02:19,180 --> 00:02:21,100
+Now we activate it in cycles up
+
+57
+00:02:21,100 --> 00:02:23,020
+but like we can use Eev all the time
+
+58
+00:02:23,610 --> 00:02:25,290
+I did a cycle test
+
+59
+00:02:25,290 --> 00:02:27,950
+but like when we go in evol see here you have bloom
+
+60
+00:02:28,020 --> 00:02:29,190
+So when I have bloom
+
+61
+00:02:29,190 --> 00:02:31,790
+what I can do is if I have an emission material
+
+62
+00:02:31,800 --> 00:02:35,510
+I can make it to look as if it's just glowing my entire scene
+
+63
+00:02:35,630 --> 00:02:37,580
+You can only do this in evol
+
+64
+00:02:37,890 --> 00:02:38,930
+can not do it in cycles
+
+65
+00:02:38,930 --> 00:02:39,430
+In cycles
+
+66
+00:02:39,430 --> 00:02:41,110
+you need to do it with post processing
+
+67
+00:02:41,120 --> 00:02:44,840
+But I love that you can do this effect in evol
+
+68
+00:02:45,820 --> 00:02:47,050
+and it works so well
+
+69
+00:02:47,090 --> 00:02:49,930
+and it's generating this super cool look for illustrations
+
+70
+00:02:49,930 --> 00:02:53,210
+If the lights are just emanating so much
+
+71
+00:02:53,910 --> 00:02:57,580
+The other details I want to talk about is how the hair was created
+
+72
+00:02:57,590 --> 00:03:00,960
+The hair was created simply using metal metabolism
+
+73
+00:03:01,040 --> 00:03:02,250
+if you've never used them before
+
+74
+00:03:02,250 --> 00:03:03,320
+are super useful
+
+75
+00:03:03,610 --> 00:03:05,270
+I'm going to just save this illustration
+
+76
+00:03:05,270 --> 00:03:07,040
+make a new project for a second
+
+77
+00:03:07,170 --> 00:03:11,500
+and I'm going to delete my cube and my metabolism basically work like this
+
+78
+00:03:11,510 --> 00:03:12,890
+I'm going to add a metabolite
+
+79
+00:03:12,890 --> 00:03:14,160
+add a ball
+
+80
+00:03:14,210 --> 00:03:18,790
+and you can just create copies or either you create a copy Ctrl C
+
+81
+00:03:18,790 --> 00:03:19,930
+Ctrl V of the metabolism
+
+82
+00:03:19,960 --> 00:03:21,110
+then you move here
+
+83
+00:03:21,120 --> 00:03:23,650
+or you can as well if you are in edit mode
+
+84
+00:03:23,660 --> 00:03:25,310
+if you select the object
+
+85
+00:03:25,320 --> 00:03:28,690
+you can do Shift D and just start creating copies of it
+
+86
+00:03:28,890 --> 00:03:29,450
+But you see
+
+87
+00:03:29,450 --> 00:03:36,190
+as I'm creating copies I'm generating this soft transition between my shapes and then inside the metabolite here
+
+88
+00:03:36,200 --> 00:03:41,380
+you can change how much the resolution happens on the viewer and on the render
+
+89
+00:03:41,380 --> 00:03:47,540
+So you could have less resolution on the viewer if your computers have been a slower and have a smaller distance on the render
+
+90
+00:03:47,540 --> 00:03:47,830
+So it's
+
+91
+00:03:48,030 --> 00:03:48,200
+I mean
+
+92
+00:03:48,240 --> 00:03:50,310
+the smoother when you are done with the project
+
+93
+00:03:50,700 --> 00:03:53,540
+But you can see the shorter I make my resolution
+
+94
+00:03:53,670 --> 00:03:55,750
+the smoother and smoother the stuff looking
+
+95
+00:03:55,760 --> 00:03:58,340
+So now that we understand how the hair was created
+
+96
+00:03:58,390 --> 00:04:01,250
+we're going to be seeing how the hair was animated
+
+97
+00:04:01,260 --> 00:04:02,080
+not only the hair
+
+98
+00:04:02,210 --> 00:04:04,370
+but many of the elements you see that we are having here
+
+99
+00:04:04,380 --> 00:04:07,360
+Even I love the effect that is happening on the little bird
+
+100
+00:04:07,380 --> 00:04:11,240
+I love looking at it from close up because you can see the movement from the wind
+
+101
+00:04:11,400 --> 00:04:13,980
+And some people might think that that's very complex to animate
+
+102
+00:04:14,100 --> 00:04:15,170
+but that's so simple
+
+103
+00:04:15,170 --> 00:04:17,630
+The only thing we are applying there and I can select my bird
+
+104
+00:04:17,830 --> 00:04:20,600
+I can have it here
+
+105
+00:04:20,650 --> 00:04:25,190
+And the only thing I'm doing with my bird is I'm going to add a wave effect
+
+106
+00:04:25,310 --> 00:04:28,200
+And you can see here exactly the settings I can show them here
+
+107
+00:04:28,200 --> 00:04:29,300
+I just play it with them
+
+108
+00:04:29,330 --> 00:04:29,850
+You know
+
+109
+00:04:29,860 --> 00:04:30,700
+you have a speed
+
+110
+00:04:30,700 --> 00:04:32,810
+you can make it animate is lower
+
+111
+00:04:32,960 --> 00:04:35,360
+This effect as well is cycling
+
+112
+00:04:35,390 --> 00:04:37,050
+that means like cycling or cycling
+
+113
+00:04:37,200 --> 00:04:38,530
+I don't cycling
+
+114
+00:04:38,540 --> 00:04:41,030
+so it's repeating all the time and again and again
+
+115
+00:04:41,160 --> 00:04:42,240
+And we can do different weight
+
+116
+00:04:42,240 --> 00:04:44,650
+So I could do something very saturated with here
+
+117
+00:04:44,650 --> 00:04:46,340
+I'm starting to show and break the effect
+
+118
+00:04:46,490 --> 00:04:52,350
+or I can make it quite soft and you can see that this effect obviously works better when I have more subdivisions
+
+119
+00:04:52,360 --> 00:04:56,260
+but I was trying to do not that many subdivisions for to be able to play well
+
+120
+00:04:56,260 --> 00:04:59,420
+But then you can do more subdivisions for the render when we finish the illustration
+
+121
+00:04:59,420 --> 00:05:00,970
+when we go to render it out
+
+122
+00:05:00,980 --> 00:05:02,350
+you can have more subdivisions
+
+123
+00:05:02,500 --> 00:05:04,060
+But in reality at this distance
+
+124
+00:05:04,070 --> 00:05:05,800
+I thought that there was no need for more
+
+125
+00:05:05,810 --> 00:05:07,370
+You're getting that wind effect
+
+126
+00:05:07,510 --> 00:05:10,060
+and then I went through every single element
+
+127
+00:05:10,060 --> 00:05:11,330
+including these arms
+
+128
+00:05:11,400 --> 00:05:12,850
+and I just did the same
+
+129
+00:05:12,860 --> 00:05:18,750
+I applied the wave and it is generating this effect looking like the clothes are flowing with the wind
+
+130
+00:05:18,960 --> 00:05:19,790
+That's really lovely
+
+131
+00:05:19,790 --> 00:05:21,380
+How did you know about the wave effect
+
+132
+00:05:21,380 --> 00:05:22,980
+How did you think to use that one specifically
+
+133
+00:05:23,090 --> 00:05:25,300
+OhI was just starting playing with them
+
+134
+00:05:25,310 --> 00:05:26,960
+I was just going around being like
+
+135
+00:05:26,970 --> 00:05:32,690
+what can I use to not to have to animate frame by frame something and it to look good
+
+136
+00:05:33,210 --> 00:05:34,560
+And I found that wave effector
+
+137
+00:05:34,560 --> 00:05:36,170
+like there are so many effectors
+
+138
+00:05:36,170 --> 00:05:38,940
+and sometimes I Google things when I don't know
+
+139
+00:05:38,940 --> 00:05:40,590
+like I haven't used some of them
+
+140
+00:05:40,760 --> 00:05:42,370
+but I think that if they are
+
+141
+00:05:42,370 --> 00:05:44,310
+there is because at some point they will become useful
+
+142
+00:05:44,320 --> 00:05:46,290
+So I don't think you should learn them all
+
+143
+00:05:46,300 --> 00:05:48,610
+I think you can incorporate them as you go
+
+144
+00:05:48,730 --> 00:05:49,980
+Yeahthat makes sense
+
+145
+00:05:49,990 --> 00:05:56,180
+It's really lovely as well to see because I feel like it looks exactly like I would imagine the 3D result would look
+
+146
+00:05:56,190 --> 00:05:58,680
+but so much more seemed to be trial and error
+
+147
+00:05:58,700 --> 00:05:59,260
+Yeah
+
+148
+00:05:59,760 --> 00:06:03,580
+and the other thing that we have in here is these papers
+
+149
+00:06:03,590 --> 00:06:05,680
+And these papers are also using the wave effector
+
+150
+00:06:05,680 --> 00:06:07,260
+You can see that they are bending in the air
+
+151
+00:06:07,570 --> 00:06:13,200
+but they have something else as well as the wave effector that you can see that there are all these lines that are following paths
+
+152
+00:06:13,650 --> 00:06:18,380
+And this follow path is super easy to make and is very useful
+
+153
+00:06:18,390 --> 00:06:18,820
+For example
+
+154
+00:06:18,910 --> 00:06:21,060
+we're making a car that is going around the circuit
+
+155
+00:06:21,560 --> 00:06:22,650
+Or if we are making
+
+156
+00:06:22,650 --> 00:06:23,380
+in this case
+
+157
+00:06:23,560 --> 00:06:25,980
+some papers that are flying from the motorbike
+
+158
+00:06:26,030 --> 00:06:27,470
+So in order to have them
+
+159
+00:06:27,480 --> 00:06:34,530
+you can see that each of these papers are having in here in the object constraint
+
+160
+00:06:34,540 --> 00:06:35,810
+I have a follow path
+
+161
+00:06:35,820 --> 00:06:36,810
+You see that there
+
+162
+00:06:36,830 --> 00:06:39,010
+and then I have an offset on the follow path
+
+163
+00:06:39,020 --> 00:06:42,690
+so I'm gon na do it in a new project so people know what I was doing
+
+164
+00:06:42,850 --> 00:06:45,920
+So I'm going to make I'm going to make
+
+165
+00:06:45,930 --> 00:06:49,750
+instead of a cube I'm going to make a plan so people can see already how this was made
+
+166
+00:06:50,360 --> 00:06:56,870
+And I'm going to go to my edit mode and remember the wave effector doesn't work if there are no subdivisions
+
+167
+00:06:56,910 --> 00:07:04,570
+So you need to do click and do a few subdivisions and then click and do a few subdivisions
+
+168
+00:07:04,580 --> 00:07:05,200
+If not
+
+169
+00:07:05,210 --> 00:07:06,250
+is not going to show
+
+170
+00:07:06,300 --> 00:07:11,560
+Now I'm going to go into my modifiers and I'm going to add a wave modifier
+
+171
+00:07:12,590 --> 00:07:13,610
+And now hopefully
+
+172
+00:07:14,100 --> 00:07:15,010
+if everything goes well
+
+173
+00:07:15,010 --> 00:07:16,370
+when I go to object mode
+
+174
+00:07:16,450 --> 00:07:18,170
+we already have that effect
+
+175
+00:07:18,230 --> 00:07:18,750
+you know
+
+176
+00:07:20,220 --> 00:07:21,300
+And the wave modifier
+
+177
+00:07:21,390 --> 00:07:23,130
+you can see that now is applying from the middle
+
+178
+00:07:23,130 --> 00:07:24,780
+You can only do one of the sides
+
+179
+00:07:24,790 --> 00:07:25,580
+So if now you do
+
+180
+00:07:25,580 --> 00:07:27,540
+one of the sides is applying like a flat
+
+181
+00:07:28,020 --> 00:07:28,670
+Okay
+
+182
+00:07:28,680 --> 00:07:30,790
+so I have my plane flying already
+
+183
+00:07:31,380 --> 00:07:33,170
+what is the next thing I need to do
+
+184
+00:07:33,840 --> 00:07:36,650
+The next thing I need to do is my plan to be following some path
+
+185
+00:07:37,300 --> 00:07:41,960
+So I'm going to add a curve and I'm going to add a the Seer curve
+
+186
+00:07:42,300 --> 00:07:44,040
+and I'm going to tap
+
+187
+00:07:44,750 --> 00:07:46,320
+press top and scale it
+
+188
+00:07:46,330 --> 00:07:47,000
+I'm going to scale it
+
+189
+00:07:47,240 --> 00:07:51,400
+and maybe I'm going to rotate it because I think it makes more sense to look a bit more
+
+190
+00:07:51,400 --> 00:07:52,460
+Like with Ctrl
+
+191
+00:07:52,460 --> 00:07:55,060
+I can do increments of 5 and I'm gon na have
+
+192
+00:07:55,070 --> 00:07:59,330
+Imagine that this is the beginning of my motorbike tour is going to be there
+
+193
+00:07:59,360 --> 00:08:03,000
+and then my paper is gonna go and fly up and then go down
+
+194
+00:08:03,240 --> 00:08:04,040
+I could
+
+195
+00:08:04,090 --> 00:08:04,340
+you know
+
+196
+00:08:04,350 --> 00:08:05,350
+change the shape
+
+197
+00:08:05,400 --> 00:08:06,420
+Just pressing E
+
+198
+00:08:06,430 --> 00:08:13,120
+I can make more points and I can move them as well in the 3D space so I can make some of the papers to go backwards and some to go front
+
+199
+00:08:13,520 --> 00:08:15,910
+And now the only thing I need to do is go to my plane
+
+200
+00:08:16,420 --> 00:08:17,920
+go to my constraints
+
+201
+00:08:18,430 --> 00:08:20,690
+and then I can do a follow path
+
+202
+00:08:20,690 --> 00:08:22,100
+Where I do follow path
+
+203
+00:08:22,110 --> 00:08:23,140
+here you are
+
+204
+00:08:23,150 --> 00:08:24,750
+and now I need to save the target
+
+205
+00:08:24,750 --> 00:08:27,410
+The target is of the Sr curve that I have in there
+
+206
+00:08:27,750 --> 00:08:29,930
+And now I did
+
+207
+00:08:29,940 --> 00:08:32,460
+I did the follow path on my the year curve
+
+208
+00:08:32,470 --> 00:08:33,980
+You see the accident I did
+
+209
+00:08:34,020 --> 00:08:36,930
+you can see that the effect applied in the busier curve
+
+210
+00:08:36,940 --> 00:08:39,260
+but in reality I should do it in my plane
+
+211
+00:08:39,270 --> 00:08:41,420
+not in the busier curve because the plane
+
+212
+00:08:41,650 --> 00:08:43,060
+what is gonna follow the path
+
+213
+00:08:43,070 --> 00:08:45,010
+So now I'm gonna do the same again
+
+214
+00:08:45,040 --> 00:08:47,130
+The plane should be the one having this gear
+
+215
+00:08:47,130 --> 00:08:48,610
+It looks like the gears from a bicycle
+
+216
+00:08:48,620 --> 00:08:50,770
+And now I'm going to select my VR curve
+
+217
+00:08:50,810 --> 00:08:54,820
+So now I know that my paper is following my VCR curve
+
+218
+00:08:54,830 --> 00:08:55,340
+If I do
+
+219
+00:08:55,340 --> 00:08:59,030
+offset is going to go from one place to another
+
+220
+00:08:59,180 --> 00:09:01,620
+fantasticand then I have a few different things
+
+221
+00:09:01,620 --> 00:09:01,920
+you know
+
+222
+00:09:01,930 --> 00:09:03,510
+I can do follow curve
+
+223
+00:09:03,520 --> 00:09:07,150
+That means that now the paper is pointing towards the curve
+
+224
+00:09:07,150 --> 00:09:08,430
+So it curves with the curve
+
+225
+00:09:09,140 --> 00:09:10,040
+That's looking much better
+
+226
+00:09:10,810 --> 00:09:14,240
+So if you have it moving a bit up and down like that
+
+227
+00:09:14,240 --> 00:09:16,330
+your paper is going to do the exactly
+
+228
+00:09:16,330 --> 00:09:18,100
+So I don't need to be rotating myself
+
+229
+00:09:18,110 --> 00:09:18,830
+the paper
+
+230
+00:09:18,830 --> 00:09:20,590
+the paper now is working well
+
+231
+00:09:20,740 --> 00:09:27,080
+And then the next thing I can do is add a keyframe at the beginning in my offset and a keyframe
+
+232
+00:09:27,100 --> 00:09:28,950
+I'm only going to do this 20 frames
+
+233
+00:09:29,100 --> 00:09:31,620
+So I can add another keyframe at the end
+
+234
+00:09:32,230 --> 00:09:33,050
+There we are
+
+235
+00:09:34,040 --> 00:09:35,060
+put another keyframe
+
+236
+00:09:35,710 --> 00:09:39,650
+And now when I play I'm getting it by effect
+
+237
+00:09:41,830 --> 00:09:44,460
+Fantasticand you just have that several times to have lots of papers from
+
+238
+00:09:44,470 --> 00:09:46,040
+I have several times what I did
+
+239
+00:09:46,140 --> 00:09:46,930
+by the way
+
+240
+00:09:46,940 --> 00:09:49,400
+because I know that at the beginning I wanted them to appeare from the
+
+241
+00:09:49,540 --> 00:09:50,530
+from the box
+
+242
+00:09:51,080 --> 00:09:52,970
+from the little folder
+
+243
+00:09:53,110 --> 00:09:55,220
+and I didn't want to have any problems like
+
+244
+00:09:55,230 --> 00:09:56,060
+I don't know
+
+245
+00:09:56,210 --> 00:09:59,200
+having to come out from the folder and it's not visible
+
+246
+00:09:59,250 --> 00:10:01,450
+So the only thing I do is that they scale them up
+
+247
+00:10:01,460 --> 00:10:02,220
+You see at the beginning
+
+248
+00:10:02,220 --> 00:10:05,420
+they are really tiny and then they scale them up very quickly
+
+249
+00:10:05,430 --> 00:10:07,030
+and then they continue through the scene
+
+250
+00:10:07,070 --> 00:10:11,180
+Sometimes those simple solutions are enough because your brain covers the rest
+
+251
+00:10:11,180 --> 00:10:13,810
+you see how you just imagine that probably they are appearing
+
+252
+00:10:13,820 --> 00:10:14,470
+but in reality
+
+253
+00:10:14,470 --> 00:10:15,640
+it's just a simple scale
+
+254
+00:10:15,650 --> 00:10:16,550
+You completely do
+
+255
+00:10:16,550 --> 00:10:17,250
+And at the end
+
+256
+00:10:17,250 --> 00:10:20,230
+how is it that they disappeared exactly the same
+
+257
+00:10:20,240 --> 00:10:21,490
+When they reach the end
+
+258
+00:10:21,500 --> 00:10:23,670
+You can see here in each of my planes
+
+259
+00:10:24,310 --> 00:10:28,540
+I get to the end and I scale them down completely
+
+260
+00:10:28,550 --> 00:10:30,090
+and not only I scale them down
+
+261
+00:10:30,090 --> 00:10:32,340
+I think actually what I do as well
+
+262
+00:10:32,340 --> 00:10:33,910
+as well as scaling them down
+
+263
+00:10:33,920 --> 00:10:37,250
+you can change the disability of the paper
+
+264
+00:10:37,380 --> 00:10:38,270
+And rig​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​‌​‌​​‌‌​​‌‌​​‌‌​‌‌​​​‌‌​​‌‌‌‌​‌​‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌​​‌‌‌‌​‌​‌‌‌‌‌​‌‌‌‌‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌​​​‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌‌​‌​​‌‌​‌​‌​​‌‌​‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌‌‌‌​​​‌‌‌​‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌​​‌‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌​​‌‌‌‌​‌‌​​‌​​‌‌‌‌​‌​​‌‌​‌​‌​​‌‌‌‌​‌‌‌​‌​‌‌‌​​‌‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌‌‌​​‌‌​‌‌‌‌‌​‌‌‌‌​​​‌‌​​‌‌​​‌‌​‌​‌‌‌​‌​​​‌​​‌‌‌​​‌​​‌‌‌​‌‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​​‌‌‌​‌​‌​‌​​‌‌‌​‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌‌​​​‌‌‌​‌‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌‌​​‌​​‌‌​‌‌‌‌‌​‌​‌​‌​​‌‌​‌​‌​​‌‌​‌​‌‌‌​‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​​‌​​‌‌‌‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌​‌‌‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌‌​​‌​​‌‌​‌‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌‌​​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌‌‌‌​​​‌‌‌‌‌​​​‌‌‌​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌​​‌​​‌‌​‌​‌‌‌​‌​‌‌‌​​‌‌​‌‌​​​‌‌‌‌​‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌​‌​​‌‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌‌‌​‌​‌‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌‌‌​​‌‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌​​‌‌‌​​‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ht now
+
+265
+00:10:38,270 --> 00:10:39,730
+I don't know exactly what it is
+
+266
+00:10:39,740 --> 00:10:41,000
+I'm gon na try to show here
+
+267
+00:10:41,010 --> 00:10:43,440
+You see here I do a scale down
+
+268
+00:10:43,440 --> 00:10:44,830
+so I have a few keyframes here
+
+269
+00:10:44,830 --> 00:10:47,160
+97I started scaling them
+
+270
+00:10:47,210 --> 00:10:48,460
+but the other thing I do
+
+271
+00:10:48,470 --> 00:10:50,000
+and I don't know why it's disappearing
+
+272
+00:10:50,010 --> 00:10:52,980
+Ohit disappears because then invisibility
+
+273
+00:10:52,990 --> 00:10:54,690
+I have a keyframe saying
+
+274
+00:10:55,890 --> 00:10:57,050
+showing viewport
+
+275
+00:10:57,060 --> 00:10:57,900
+showing render
+
+276
+00:10:58,270 --> 00:10:59,220
+and then in 100
+
+277
+00:10:59,690 --> 00:11:03,330
+I made that only two keyframes that doesn't show in viewport or renders
+
+278
+00:11:03,330 --> 00:11:06,250
+and there is a bit of a CLT in this program because now when I get here
+
+279
+00:11:06,260 --> 00:11:09,770
+all the keyframes disappear because the program is like I'm not seeing anything
+
+280
+00:11:10,390 --> 00:11:12,180
+And that's why it's kind of a bit confusing
+
+281
+00:11:12,180 --> 00:11:13,700
+And now I need to select it again
+
+282
+00:11:13,820 --> 00:11:17,320
+but it's simply that I told the program to make the optic disappear
+
+283
+00:11:17,490 --> 00:11:18,450
+That's a clever trick
+
+284
+00:11:18,980 --> 00:11:22,590
+okaynow that we have that I can tell you that the rest was done
+
+285
+00:11:22,600 --> 00:11:25,050
+the arms were made with the same cube technique
+
+286
+00:11:25,100 --> 00:11:28,660
+starting from spline that we've done in our course on how to brake
+
+287
+00:11:28,830 --> 00:11:30,020
+how to model in Blender
+
+288
+00:11:30,020 --> 00:11:31,020
+So if you've done that
+
+289
+00:11:31,030 --> 00:11:33,840
+you have it and the motorbike started from a cube
+
+290
+00:11:33,900 --> 00:11:43,680
+Wheels are simple toruses that are in there and the smoke was done with frame by frame animation in a grease pencil layer in which I use a fill in white
+
+291
+00:11:43,700 --> 00:11:44,020
+Okay
+
+292
+00:11:44,030 --> 00:11:45,190
+like we've just learned how to do
+
+293
+00:11:45,200 --> 00:11:50,610
+Yeahand the only little thing that we have that we haven't really covered much in this course
+
+294
+00:11:50,740 --> 00:11:55,210
+we will have an entire course dedicated at some point on how to do painting
+
+295
+00:11:55,220 --> 00:12:00,800
+on painting textures is that we paint all these textures in the program
+
+296
+00:12:01,080 --> 00:12:06,390
+but so far I had to use a little We're going to put the link of the brushes we use
+
+297
+00:12:06,400 --> 00:12:07,480
+we bought them
+
+298
+00:12:07,500 --> 00:12:08,440
+it's only 5 dollars
+
+299
+00:12:08,480 --> 00:12:11,600
+we bought them from someone else that they sell them on
+
+300
+00:12:11,610 --> 00:12:13,980
+I have don't know if it's gum road or another of this website
+
+301
+00:12:14,610 --> 00:12:17,630
+but we want to generate at some point a library inside
+
+302
+00:12:17,630 --> 00:12:18,150
+but at the school
+
+303
+00:12:18,150 --> 00:12:19,750
+so people don't have to pay those 5 dollars
+
+304
+00:12:20,060 --> 00:12:21,250
+But so far
+
+305
+00:12:21,260 --> 00:12:24,500
+the only thing I did is using those brushes to generate these little dots
+
+306
+00:12:24,570 --> 00:12:26,980
+So I'm going to link
+
+307
+00:12:27,000 --> 00:12:29,110
+I'm going to put a link to the brush we use from there
+
+308
+00:12:29,250 --> 00:12:30,910
+but in order to do that
+
+309
+00:12:30,920 --> 00:12:32,860
+like we've done in other courses
+
+310
+00:12:32,870 --> 00:12:38,550
+we simply selected the geometry where you be unwrapped like we did in the beginning of this course
+
+311
+00:12:38,560 --> 00:12:40,430
+And then we painted on top with the texture
+
+312
+00:12:40,590 --> 00:12:42,460
+So that was basically it
+
+313
+00:12:42,640 --> 00:12:45,860
+The rest is just spending time and putting some love on it
+
+314
+00:12:46,480 --> 00:12:46,830
+Yeah
+
+315
+00:12:46,830 --> 00:12:57,190
+it's really nice to see that all of the same techniques that we've been teaching in every course are applied to this illustration and even if every character looks so different they all come from the same cube
+
+316
+00:12:58,270 --> 00:13:01,330
+I really hope that people do something that I love doing
+
+317
+00:13:01,340 --> 00:13:03,710
+This is such a privilege to be able to access this file
+
+318
+00:13:03,710 --> 00:13:07,050
+So I hope you go through the file and start exploring experimenting
+
+319
+00:13:07,370 --> 00:13:11,200
+Sometimes even I find that sometimes people ask us questions they like
+
+320
+00:13:11,210 --> 00:13:13,100
+ohwhy is this thing not being used
+
+321
+00:13:13,110 --> 00:13:15,790
+And it's because on the way of making it
+
+322
+00:13:15,890 --> 00:13:18,280
+we ended up just getting rid of something
+
+323
+00:13:18,370 --> 00:13:22,660
+So I think it's good sometimes to see how the process of the creation of this was made
+
+324
+00:13:22,670 --> 00:13:24,260
+because not everything is being used
+
+325
+00:13:24,430 --> 00:13:26,900
+not everything that we tried work
+
+326
+00:13:27,340 --> 00:13:32,080
+And I think that's the way you should do when you are making your illustrations and turning them into 3D
+
+327
+00:13:32,120 --> 00:13:33,820
+A lot of experimenting
+
+328
+00:13:34,090 --> 00:13:37,920
+Try to get all the knowledge you've been getting through all courses and applying it to your straight
+
+329
+00:13:38,020 --> 00:13:38,950
+I think that's completely true
+
+330
+00:13:39,140 --> 00:13:41,980
+And if you're trying to make something that looks new and unique
+
+331
+00:13:41,990 --> 00:13:44,700
+then you probably have to do some experimentation yourself
+
+332
+00:13:44,710 --> 00:13:45,900
+Yes100 percent
+
+333
+00:13:45,900 --> 00:13:47,930
+and we can't wait to see all of your results
+
+334
+00:13:48,110 --> 00:13:49,070
+please share them with us
+
+335
+00:13:49,080 --> 00:13:52,370
+And big well done again to Rose Kai for her beautiful TD character
+
+336
+00:13:52,640 --> 00:13:54,090
+And in the next lesson
+
+337
+00:13:54,090 --> 00:13:58,090
+we're gonna take a completely different style of illustration that was done using Gris pencil
+
+338
+00:13:58,270 --> 00:13:59,280
+but I think that was very
+
+339
+00:14:00,650 --> 00:14:06,750
+a good example of how grease pencil is so flexible because the other illustration just doesn't look at all of these ones
+
+340
+00:14:07,420 --> 00:14:07,950
+We'll see you then
+
+341
+00:14:07,980 --> 00:14:08,760
+bye

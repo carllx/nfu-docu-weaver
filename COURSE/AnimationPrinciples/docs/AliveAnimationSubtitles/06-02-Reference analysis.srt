@@ -1,0 +1,354 @@
+﻿1
+00:00:00,670 --> 00:00:03,490
+- [Instructor] Before we jump
+into animating our character,
+
+2
+00:00:03,490 --> 00:00:06,630
+we will go through a
+little reference analysis.
+
+3
+00:00:06,630 --> 00:00:09,370
+Here are a couple of
+references you can use
+
+4
+00:00:09,370 --> 00:00:11,570
+and that we are going to analyze.
+
+5
+00:00:11,570 --> 00:00:14,950
+As usual, you will find a
+link in the documentation.
+
+6
+00:00:14,950 --> 00:00:19,600
+As for the run cycle, we can
+identify specific key poses
+
+7
+00:00:19,600 --> 00:00:21,570
+that we are going to block.
+
+8
+00:00:21,570 --> 00:00:23,530
+The first one is the contact pose,
+
+9
+00:00:23,530 --> 00:00:26,700
+where the front foot heel
+is contacting the ground
+
+10
+00:00:26,700 --> 00:00:29,450
+and the body starts to get lower.
+
+11
+00:00:29,450 --> 00:00:33,250
+Then, a few frames later,
+we have the down pose.
+
+12
+00:00:33,250 --> 00:00:35,210
+This is the time where the back foot
+
+13
+00:00:35,210 --> 00:00:37,170
+is about to leave the ground,
+
+14
+00:00:37,170 --> 00:00:41,670
+and where the center of
+gravity is at its lowest point.
+
+15
+00:00:41,670 --> 00:00:45,120
+This is also the moment where
+the weight is totally shifted
+
+16
+00:00:45,120 --> 00:00:48,390
+onto the side of the
+foot touching the ground.
+
+17
+00:00:48,390 --> 00:00:50,420
+Next is the passing pose.
+
+18
+00:00:50,420 --> 00:00:54,240
+Generally, the arms are
+almost aligned with the body
+
+19
+00:00:54,240 --> 00:00:57,160
+and the center of gravity is aligned
+
+20
+00:00:57,160 --> 00:00:58,950
+with the supporting foot.
+
+21
+00:00:58,950 --> 00:01:00,780
+The back foot is catching up
+
+22
+00:01:00,780 --> 00:01:04,803
+just before the up pose, or pushing pose.
+
+23
+00:01:04,803 --> 00:01:09,240
+This is the time where the
+COG is at its highest point.
+
+24
+00:01:09,240 --> 00:01:12,560
+The contacting foot heel
+is starting to raise,
+
+25
+00:01:12,560 --> 00:01:16,270
+while the opposite foot is
+swinging forward pretty fast.
+
+26
+00:01:16,270 --> 00:01:18,070
+And the center of gravity
+
+27
+00:01:18,070 --> 00:01:22,230
+is starting to move toward
+the next contact pose.
+
+28
+00:01:22,230 --> 00:01:25,630
+And so the cycle repeat on the other side.
+
+29
+00:01:25,630 --> 00:01:28,160
+So as for our run cycle,
+
+30
+00:01:28,160 --> 00:01:31,020
+a classic walk cycle can be mirrored.
+
+31
+00:01:31,020 --> 00:01:33,290
+As for the run cycle, we will have
+
+32
+00:01:33,290 --> 00:01:37,250
+to nail the center of
+gravity up-and-down motion,
+
+33
+00:01:37,250 --> 00:01:39,983
+and also left-to-right motion.
+
+34
+00:01:39,983 --> 00:01:43,010
+Let's have a look to the shoulder and hips
+
+35
+00:01:43,010 --> 00:01:45,530
+of those walking characters.
+
+36
+00:01:45,530 --> 00:01:47,470
+Let's start with the twisting motion
+
+37
+00:01:47,470 --> 00:01:50,470
+on the rotation around the vertical axis.
+
+38
+00:01:50,470 --> 00:01:53,460
+As for the run cycle, it's
+pretty straightforward.
+
+39
+00:01:53,460 --> 00:01:57,450
+The hips will twist
+toward the leading foot.
+
+40
+00:01:57,450 --> 00:01:59,560
+So on this contact pose,
+
+41
+00:01:59,560 --> 00:02:03,210
+the hips are twisting toward the left foot
+
+42
+00:02:03,210 --> 00:02:07,290
+and the shoulders are
+twisting the opposite way.
+
+43
+00:02:07,290 --> 00:02:11,160
+So we will find here a
+lot of common mechanism
+
+44
+00:02:11,160 --> 00:02:14,050
+that we add during the run cycle,
+
+45
+00:02:14,050 --> 00:02:16,500
+and those mechanism will also apply
+
+46
+00:02:16,500 --> 00:02:19,880
+whenever we are animating
+other body mechanic.
+
+47
+00:02:19,880 --> 00:02:23,412
+The other classic motion is
+the leaning of the shoulder
+
+48
+00:02:23,412 --> 00:02:25,940
+versus the leaning of the hips.
+
+49
+00:02:25,940 --> 00:02:27,830
+If we have a look to the down pose,
+
+50
+00:02:27,830 --> 00:02:30,430
+which is one of the most contrasted pose,
+
+51
+00:02:30,430 --> 00:02:34,250
+the hips are raising
+toward the contacting foot
+
+52
+00:02:34,250 --> 00:02:37,550
+because the leg is pushing
+to support the weight.
+
+53
+00:02:37,550 --> 00:02:39,520
+And as seen during the run cycle,
+
+54
+00:02:39,520 --> 00:02:42,490
+we have a contrapose here also,
+
+55
+00:02:42,490 --> 00:02:45,500
+where the shoulder are
+leaning the opposite way.
+
+56
+00:02:45,500 --> 00:02:48,310
+When we were walking on
+the run cycle animation,
+
+57
+00:02:48,310 --> 00:02:50,350
+we have seen that the shoulder
+
+58
+00:02:50,350 --> 00:02:52,840
+were kind of leading the animation,
+
+59
+00:02:52,840 --> 00:02:56,040
+pulling the body forward and upward.
+
+60
+00:02:56,040 --> 00:03:00,650
+Think of the walk cycle as a
+controlled falling forward.
+
+61
+00:03:00,650 --> 00:03:05,650
+We push our body forward, and
+as we fall, our foot catch up.
+
+62
+00:03:05,830 --> 00:03:08,580
+The arms are swinging in reaction;
+
+63
+00:03:08,580 --> 00:03:11,430
+they are not leading the animation.
+
+64
+00:03:11,430 --> 00:03:14,358
+And so we get a pendulum,
+or swinging motion,
+
+65
+00:03:14,358 --> 00:03:19,358
+back and forth, with an
+easing on both extreme
+
+66
+00:03:19,600 --> 00:03:22,540
+and a subtle drag of the hands.
+
+67
+00:03:22,540 --> 00:03:26,930
+We will also have a bit of a
+swinging motion in the feet,
+
+68
+00:03:26,930 --> 00:03:29,150
+and as the feet contact the ground,
+
+69
+00:03:29,150 --> 00:03:31,990
+it then move at constant speed.
+
+70
+00:03:31,990 --> 00:03:36,060
+There is also a bit of
+left-to-right motion on the feet
+
+71
+00:03:36,060 --> 00:03:38,260
+where, during the passing pose,
+
+72
+00:03:38,260 --> 00:03:42,540
+they get on the outside, and
+during the contacting pose,
+
+73
+00:03:42,540 --> 00:03:47,130
+they are a bit on the centered
+line beneath the character.
+
+74
+00:03:47,130 --> 00:03:51,340
+These are some of the basics
+that we do need to nail
+
+75
+00:03:51,340 --> 00:03:54,770
+when we are going to
+(indistinct) our walk cycle.
+
+76
+00:03:54,770 --> 00:03:59,070
+We could analyze those
+references for a long time,
+
+77
+00:03:59,070 --> 00:04:02,910
+but let's get into blocking our walk cycle
+
+78
+00:04:02,910 --> 00:04:04,780
+and we'll get into detail
+
+79
+00:04:04,780 --> 00:04:08,163
+whenever we are polishing
+each part of the character.
+

@@ -1,0 +1,2592 @@
+{
+  "items": [
+    {
+      "title": "Enabling creative collaboration for all levels of learning.",
+      "subtitle": "Kim, Morton, Gregorio, David S. Rosen, Rosen, Kareem Edouard, Edouard, and Vallett. 2019. Attachments: 1",
+      "valid": true,
+      "arg": 1544,
+      "uid": 1544,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_JTWFD9EA",
+        "citekey": null,
+        "id": 1544,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101df2550>",
+        "copy": "zotero://select/items/1_JTWFD9EA"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_JTWFD9EA",
+            "citekey": null,
+            "id": 1544,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_JTWFD9EA",
+            "citekey": null,
+            "id": 1544,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_JTWFD9EA",
+            "citekey": null,
+            "id": 1544,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_JTWFD9EA",
+            "citekey": null,
+            "id": 1544,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_JTWFD9EA",
+            "citekey": null,
+            "id": 1544,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Manfredo Tafuri's theory of the architectural avant-garde",
+      "subtitle": "Akcan. 2002. Attachments: 1",
+      "valid": true,
+      "arg": 790,
+      "uid": 790,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_THP3RI3C",
+        "citekey": null,
+        "id": 790,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Manfredo Tafuri's theory of the architectural avant-garde",
+        "copy": "zotero://select/items/1_THP3RI3C"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_THP3RI3C",
+            "citekey": null,
+            "id": 790,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_THP3RI3C",
+            "citekey": null,
+            "id": 790,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_THP3RI3C",
+            "citekey": null,
+            "id": 790,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_THP3RI3C",
+            "citekey": null,
+            "id": 790,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_THP3RI3C",
+            "citekey": null,
+            "id": 790,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Drawing on mind's canvas: differences in cortical integration patterns between artists and non-artists.",
+      "subtitle": "Bhattacharya and Petsche. 2005. Attachments: 1",
+      "valid": true,
+      "arg": 1525,
+      "uid": 1525,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_ZTQXMSHQ",
+        "citekey": null,
+        "id": 1525,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101de9eb0>",
+        "copy": "zotero://select/items/1_ZTQXMSHQ"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_ZTQXMSHQ",
+            "citekey": null,
+            "id": 1525,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_ZTQXMSHQ",
+            "citekey": null,
+            "id": 1525,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_ZTQXMSHQ",
+            "citekey": null,
+            "id": 1525,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_ZTQXMSHQ",
+            "citekey": null,
+            "id": 1525,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_ZTQXMSHQ",
+            "citekey": null,
+            "id": 1525,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "China's ChatGPT rival",
+      "subtitle": "Bites. xxx. Attachments: 1",
+      "valid": true,
+      "arg": 1139,
+      "uid": 1139,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_2DSYLSGZ",
+        "citekey": null,
+        "id": 1139,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "China's ChatGPT rival",
+        "copy": "zotero://select/items/1_2DSYLSGZ"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/webpage-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_2DSYLSGZ",
+            "citekey": null,
+            "id": 1139,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_2DSYLSGZ",
+            "citekey": null,
+            "id": 1139,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_2DSYLSGZ",
+            "citekey": null,
+            "id": 1139,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_2DSYLSGZ",
+            "citekey": null,
+            "id": 1139,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_2DSYLSGZ",
+            "citekey": null,
+            "id": 1139,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Carnivals and Commonplaces: Bakhtin's Chronotope, Cultural Studies, and Film",
+      "subtitle": "Montgomery. 1993. Attachments: 1",
+      "valid": true,
+      "arg": 373,
+      "uid": 373,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_IFYDJ8ED",
+        "citekey": null,
+        "id": 373,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Carnivals and Commonplaces: Bakhtin's Chronotope, Cultural Studies, and Film",
+        "copy": "zotero://select/items/1_IFYDJ8ED"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_IFYDJ8ED",
+            "citekey": null,
+            "id": 373,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_IFYDJ8ED",
+            "citekey": null,
+            "id": 373,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_IFYDJ8ED",
+            "citekey": null,
+            "id": 373,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_IFYDJ8ED",
+            "citekey": null,
+            "id": 373,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_IFYDJ8ED",
+            "citekey": null,
+            "id": 373,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Of art and wisdom: Plato's understanding of techne",
+      "subtitle": "Roochnik. 2010. Attachments: 1",
+      "valid": true,
+      "arg": 642,
+      "uid": 642,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_WZ72TMVA",
+        "citekey": null,
+        "id": 642,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Of art and wisdom: Plato's understanding of techne",
+        "copy": "zotero://select/items/1_WZ72TMVA"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_WZ72TMVA",
+            "citekey": null,
+            "id": 642,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_WZ72TMVA",
+            "citekey": null,
+            "id": 642,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_WZ72TMVA",
+            "citekey": null,
+            "id": 642,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_WZ72TMVA",
+            "citekey": null,
+            "id": 642,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_WZ72TMVA",
+            "citekey": null,
+            "id": 642,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "TV and Not TV: Lucio Fontana's <i>Luminous Images in Movement</i>",
+      "subtitle": "White. 2009. Attachments: 1",
+      "valid": true,
+      "arg": 935,
+      "uid": 935,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_A9IINZ9K",
+        "citekey": null,
+        "id": 935,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "TV and Not TV: Lucio Fontana's <i>Luminous Images in Movement</i>",
+        "copy": "zotero://select/items/1_A9IINZ9K"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_A9IINZ9K",
+            "citekey": null,
+            "id": 935,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_A9IINZ9K",
+            "citekey": null,
+            "id": 935,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_A9IINZ9K",
+            "citekey": null,
+            "id": 935,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_A9IINZ9K",
+            "citekey": null,
+            "id": 935,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_A9IINZ9K",
+            "citekey": null,
+            "id": 935,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Social space and cultural class divisions: the forms of capital and contemporary lifestyle differentiation.",
+      "subtitle": "Flemmen, Jarness, and Rosenlund. 2018. Attachments: 2",
+      "valid": true,
+      "arg": 136,
+      "uid": 136,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_42M7Q2B2",
+        "citekey": null,
+        "id": 136,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Social space and cultural class divisions: the forms of capital and contemporary lifestyle differentiation.",
+        "copy": "zotero://select/items/1_42M7Q2B2"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_42M7Q2B2",
+            "citekey": null,
+            "id": 136,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_42M7Q2B2",
+            "citekey": null,
+            "id": 136,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_42M7Q2B2",
+            "citekey": null,
+            "id": 136,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_42M7Q2B2",
+            "citekey": null,
+            "id": 136,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_42M7Q2B2",
+            "citekey": null,
+            "id": 136,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Concerning the Spiritual in Art",
+      "subtitle": "Kandinsky. 2012. Attachments: 3",
+      "valid": true,
+      "arg": 1350,
+      "uid": 1350,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_45GWZ5PC",
+        "citekey": null,
+        "id": 1350,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Concerning the Spiritual in Art",
+        "copy": "zotero://select/items/1_45GWZ5PC"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_45GWZ5PC",
+            "citekey": null,
+            "id": 1350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_45GWZ5PC",
+            "citekey": null,
+            "id": 1350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_45GWZ5PC",
+            "citekey": null,
+            "id": 1350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_45GWZ5PC",
+            "citekey": null,
+            "id": 1350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_45GWZ5PC",
+            "citekey": null,
+            "id": 1350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fluid interaction for information visualization",
+      "subtitle": "Elmqvist, Moere, Jetter, Cernea, Reiterer, and Jankun-Kelly. 2011. Attachments: 2",
+      "valid": true,
+      "arg": 262,
+      "uid": 262,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_ZE2VPQYC",
+        "citekey": null,
+        "id": 262,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Fluid interaction for information visualization",
+        "copy": "zotero://select/items/1_ZE2VPQYC"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_ZE2VPQYC",
+            "citekey": null,
+            "id": 262,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_ZE2VPQYC",
+            "citekey": null,
+            "id": 262,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_ZE2VPQYC",
+            "citekey": null,
+            "id": 262,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_ZE2VPQYC",
+            "citekey": null,
+            "id": 262,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_ZE2VPQYC",
+            "citekey": null,
+            "id": 262,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "State-dependent life histories",
+      "subtitle": "McNamara and Houston. 1996. Attachments: 2",
+      "valid": true,
+      "arg": 350,
+      "uid": 350,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_S4BW5GFW",
+        "citekey": null,
+        "id": 350,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101de4fa0>",
+        "copy": "zotero://select/items/1_S4BW5GFW"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_S4BW5GFW",
+            "citekey": null,
+            "id": 350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_S4BW5GFW",
+            "citekey": null,
+            "id": 350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_S4BW5GFW",
+            "citekey": null,
+            "id": 350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_S4BW5GFW",
+            "citekey": null,
+            "id": 350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_S4BW5GFW",
+            "citekey": null,
+            "id": 350,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+      "subtitle": "Bubeck, Chandrasekaran, Eldan, Gehrke, Horvitz, Kamar, Lee, Lee, Li, Lundberg, Nori, Palangi, Ribeiro, and Zhang. 2023. Attachments: 2",
+      "valid": true,
+      "arg": 1168,
+      "uid": 1168,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_KUWZEL7P",
+        "citekey": null,
+        "id": 1168,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101de9700>\n\n<zothero.util.HTMLText object at 0x101de9700>",
+        "copy": "zotero://select/items/1_KUWZEL7P"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/written-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_KUWZEL7P",
+            "citekey": null,
+            "id": 1168,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_KUWZEL7P",
+            "citekey": null,
+            "id": 1168,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_KUWZEL7P",
+            "citekey": null,
+            "id": 1168,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_KUWZEL7P",
+            "citekey": null,
+            "id": 1168,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_KUWZEL7P",
+            "citekey": null,
+            "id": 1168,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Digital Design Theory: Readings from the Field",
+      "subtitle": "Armstrong. 2016. Attachments: 3",
+      "valid": true,
+      "arg": 390,
+      "uid": 390,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_IJXEDUEZ",
+        "citekey": null,
+        "id": 390,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101de1160>",
+        "copy": "zotero://select/items/1_IJXEDUEZ"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_IJXEDUEZ",
+            "citekey": null,
+            "id": 390,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_IJXEDUEZ",
+            "citekey": null,
+            "id": 390,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_IJXEDUEZ",
+            "citekey": null,
+            "id": 390,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_IJXEDUEZ",
+            "citekey": null,
+            "id": 390,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_IJXEDUEZ",
+            "citekey": null,
+            "id": 390,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Volumetric Media Streaming for Augmented Reality",
+      "subtitle": "Park, Philip A. Chou, Philip A. Chou, Chou, and Hwang. 2018. Attachments: 1",
+      "valid": true,
+      "arg": 500,
+      "uid": 500,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_VS9D3CJG",
+        "citekey": null,
+        "id": 500,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Volumetric Media Streaming for Augmented Reality",
+        "copy": "zotero://select/items/1_VS9D3CJG"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_VS9D3CJG",
+            "citekey": null,
+            "id": 500,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_VS9D3CJG",
+            "citekey": null,
+            "id": 500,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_VS9D3CJG",
+            "citekey": null,
+            "id": 500,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_VS9D3CJG",
+            "citekey": null,
+            "id": 500,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_VS9D3CJG",
+            "citekey": null,
+            "id": 500,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "The Shape of Things: A Philosophy of Design",
+      "subtitle": "Flusser. 2013. Attachments: 2",
+      "valid": true,
+      "arg": 618,
+      "uid": 618,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_E8IJ3DTB",
+        "citekey": null,
+        "id": 618,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "The Shape of Things: A Philosophy of Design",
+        "copy": "zotero://select/items/1_E8IJ3DTB"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_E8IJ3DTB",
+            "citekey": null,
+            "id": 618,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_E8IJ3DTB",
+            "citekey": null,
+            "id": 618,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_E8IJ3DTB",
+            "citekey": null,
+            "id": 618,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_E8IJ3DTB",
+            "citekey": null,
+            "id": 618,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_E8IJ3DTB",
+            "citekey": null,
+            "id": 618,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Artificial",
+      "subtitle": "Broussard. 2018. Attachments: 1",
+      "valid": true,
+      "arg": 1333,
+      "uid": 1333,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_DDXA2JFM",
+        "citekey": null,
+        "id": 1333,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Artificial",
+        "copy": "zotero://select/items/1_DDXA2JFM"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_DDXA2JFM",
+            "citekey": null,
+            "id": 1333,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_DDXA2JFM",
+            "citekey": null,
+            "id": 1333,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_DDXA2JFM",
+            "citekey": null,
+            "id": 1333,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_DDXA2JFM",
+            "citekey": null,
+            "id": 1333,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_DDXA2JFM",
+            "citekey": null,
+            "id": 1333,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Artificial",
+      "subtitle": "Broussard. 2018. Attachments: 1",
+      "valid": true,
+      "arg": 1335,
+      "uid": 1335,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_UWFDJEY3",
+        "citekey": null,
+        "id": 1335,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Artificial",
+        "copy": "zotero://select/items/1_UWFDJEY3"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_UWFDJEY3",
+            "citekey": null,
+            "id": 1335,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_UWFDJEY3",
+            "citekey": null,
+            "id": 1335,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_UWFDJEY3",
+            "citekey": null,
+            "id": 1335,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_UWFDJEY3",
+            "citekey": null,
+            "id": 1335,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_UWFDJEY3",
+            "citekey": null,
+            "id": 1335,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Artificial Unintelligence: How Computers Misunderstand the World",
+      "subtitle": "Broussard. 2018. Attachments: 4",
+      "valid": true,
+      "arg": 1337,
+      "uid": 1337,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_AKQGJKCU",
+        "citekey": null,
+        "id": 1337,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Artificial Unintelligence: How Computers Misunderstand the World",
+        "copy": "zotero://select/items/1_AKQGJKCU"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_AKQGJKCU",
+            "citekey": null,
+            "id": 1337,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_AKQGJKCU",
+            "citekey": null,
+            "id": 1337,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_AKQGJKCU",
+            "citekey": null,
+            "id": 1337,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_AKQGJKCU",
+            "citekey": null,
+            "id": 1337,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_AKQGJKCU",
+            "citekey": null,
+            "id": 1337,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Brainwaves-driven Effects Automation in Musical Performance",
+      "subtitle": "xxx. xxx. Attachments: 1",
+      "valid": true,
+      "arg": 1461,
+      "uid": 1461,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_3Z29X67J",
+        "citekey": null,
+        "id": 1461,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Brainwaves-driven Effects Automation in Musical Performance",
+        "copy": "zotero://select/items/1_3Z29X67J"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_3Z29X67J",
+            "citekey": null,
+            "id": 1461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_3Z29X67J",
+            "citekey": null,
+            "id": 1461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_3Z29X67J",
+            "citekey": null,
+            "id": 1461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_3Z29X67J",
+            "citekey": null,
+            "id": 1461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_3Z29X67J",
+            "citekey": null,
+            "id": 1461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Tilt Brush. The New Perspective of Art",
+      "subtitle": "Blazheva. 2021. Attachments: 1",
+      "valid": true,
+      "arg": 179,
+      "uid": 179,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_NTUAIXNS",
+        "citekey": null,
+        "id": 179,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Tilt Brush. The New Perspective of Art",
+        "copy": "zotero://select/items/1_NTUAIXNS"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_NTUAIXNS",
+            "citekey": null,
+            "id": 179,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_NTUAIXNS",
+            "citekey": null,
+            "id": 179,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_NTUAIXNS",
+            "citekey": null,
+            "id": 179,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_NTUAIXNS",
+            "citekey": null,
+            "id": 179,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_NTUAIXNS",
+            "citekey": null,
+            "id": 179,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Emerging MPEG Standards for Point Cloud Compression",
+      "subtitle": "Schwarz, Preda, Baroncini, Budagavi, Cesar, Chou, Cohen, Krivoku\u0107a, Lasserre, Li, Llach, Mammou, Mekuria, Nakagami, Siahaan, Tabatabai, Tourapis, and Zakharchenko. 2019. Attachments: 3",
+      "valid": true,
+      "arg": 222,
+      "uid": 222,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_S69ILLRG",
+        "citekey": null,
+        "id": 222,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Emerging MPEG Standards for Point Cloud Compression",
+        "copy": "zotero://select/items/1_S69ILLRG"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_S69ILLRG",
+            "citekey": null,
+            "id": 222,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_S69ILLRG",
+            "citekey": null,
+            "id": 222,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_S69ILLRG",
+            "citekey": null,
+            "id": 222,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_S69ILLRG",
+            "citekey": null,
+            "id": 222,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_S69ILLRG",
+            "citekey": null,
+            "id": 222,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Do Artifacts Have Politics",
+      "subtitle": "Winner. 2017. Attachments: 1",
+      "valid": true,
+      "arg": 461,
+      "uid": 461,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_BX3PTQ63",
+        "citekey": null,
+        "id": 461,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Do Artifacts Have Politics",
+        "copy": "zotero://select/items/1_BX3PTQ63"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_BX3PTQ63",
+            "citekey": null,
+            "id": 461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_BX3PTQ63",
+            "citekey": null,
+            "id": 461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_BX3PTQ63",
+            "citekey": null,
+            "id": 461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_BX3PTQ63",
+            "citekey": null,
+            "id": 461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_BX3PTQ63",
+            "citekey": null,
+            "id": 461,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Measuring and defining the experience of immersion in games",
+      "subtitle": "Jennett, Cox, Cairns, Dhoparee, Epps, Tijs, and Walton. 2008. Attachments: 1",
+      "valid": true,
+      "arg": 531,
+      "uid": 531,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_RWSICA3Q",
+        "citekey": null,
+        "id": 531,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101dd6520>",
+        "copy": "zotero://select/items/1_RWSICA3Q"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_RWSICA3Q",
+            "citekey": null,
+            "id": 531,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_RWSICA3Q",
+            "citekey": null,
+            "id": 531,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_RWSICA3Q",
+            "citekey": null,
+            "id": 531,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_RWSICA3Q",
+            "citekey": null,
+            "id": 531,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_RWSICA3Q",
+            "citekey": null,
+            "id": 531,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "3D is here: Point Cloud Library (PCL)",
+      "subtitle": "Rusu and Cousins. 2011. Attachments: 1",
+      "valid": true,
+      "arg": 533,
+      "uid": 533,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_7NV2UM5E",
+        "citekey": null,
+        "id": 533,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "3D is here: Point Cloud Library (PCL)",
+        "copy": "zotero://select/items/1_7NV2UM5E"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_7NV2UM5E",
+            "citekey": null,
+            "id": 533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_7NV2UM5E",
+            "citekey": null,
+            "id": 533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_7NV2UM5E",
+            "citekey": null,
+            "id": 533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_7NV2UM5E",
+            "citekey": null,
+            "id": 533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_7NV2UM5E",
+            "citekey": null,
+            "id": 533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "A Computer Network Model of Human Transactive Memory",
+      "subtitle": "Wegner. 1995. Attachments: 1",
+      "valid": true,
+      "arg": 626,
+      "uid": 626,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_UTAC2EJD",
+        "citekey": null,
+        "id": 626,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "A Computer Network Model of Human Transactive Memory",
+        "copy": "zotero://select/items/1_UTAC2EJD"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_UTAC2EJD",
+            "citekey": null,
+            "id": 626,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_UTAC2EJD",
+            "citekey": null,
+            "id": 626,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_UTAC2EJD",
+            "citekey": null,
+            "id": 626,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_UTAC2EJD",
+            "citekey": null,
+            "id": 626,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_UTAC2EJD",
+            "citekey": null,
+            "id": 626,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "The essential Sternberg: essays on intelligence, psychology, and education",
+      "subtitle": "Sternberg and Kaufman (ed.). 2009. Attachments: 1",
+      "valid": true,
+      "arg": 866,
+      "uid": 866,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_8P8WU4ZL",
+        "citekey": null,
+        "id": 866,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101de78b0>",
+        "copy": "zotero://select/items/1_8P8WU4ZL"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_8P8WU4ZL",
+            "citekey": null,
+            "id": 866,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_8P8WU4ZL",
+            "citekey": null,
+            "id": 866,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_8P8WU4ZL",
+            "citekey": null,
+            "id": 866,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_8P8WU4ZL",
+            "citekey": null,
+            "id": 866,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_8P8WU4ZL",
+            "citekey": null,
+            "id": 866,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "GPT-4 Technical Report",
+      "subtitle": "OpenAI. 2023. Attachments: 2",
+      "valid": true,
+      "arg": 1163,
+      "uid": 1163,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_LCN5DT4L",
+        "citekey": null,
+        "id": 1163,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101de9100>\n\n<zothero.util.HTMLText object at 0x101de9100>\n\n<zothero.util.HTMLText object at 0x101de9100>",
+        "copy": "zotero://select/items/1_LCN5DT4L"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/written-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_LCN5DT4L",
+            "citekey": null,
+            "id": 1163,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_LCN5DT4L",
+            "citekey": null,
+            "id": 1163,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_LCN5DT4L",
+            "citekey": null,
+            "id": 1163,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_LCN5DT4L",
+            "citekey": null,
+            "id": 1163,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_LCN5DT4L",
+            "citekey": null,
+            "id": 1163,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "GPT-4 Technical Report",
+      "subtitle": "OpenAI. 2023. Attachments: 2",
+      "valid": true,
+      "arg": 1186,
+      "uid": 1186,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_KD55HJSA",
+        "citekey": null,
+        "id": 1186,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101deed00>",
+        "copy": "zotero://select/items/1_KD55HJSA"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_KD55HJSA",
+            "citekey": null,
+            "id": 1186,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_KD55HJSA",
+            "citekey": null,
+            "id": 1186,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_KD55HJSA",
+            "citekey": null,
+            "id": 1186,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_KD55HJSA",
+            "citekey": null,
+            "id": 1186,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_KD55HJSA",
+            "citekey": null,
+            "id": 1186,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Neuro-cognitive activity during a self-paced visuospatial task: comparative EEG profiles in marksmen and novice shooters",
+      "subtitle": "Haufler, Spalding, Santa Maria, and Hatfield. 2000. Attachments: 2",
+      "valid": true,
+      "arg": 1488,
+      "uid": 1488,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_PKCZGQU6",
+        "citekey": null,
+        "id": 1488,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Neuro-cognitive activity during a self-paced visuospatial task: comparative EEG profiles in marksmen and novice shooters",
+        "copy": "zotero://select/items/1_PKCZGQU6"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_PKCZGQU6",
+            "citekey": null,
+            "id": 1488,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_PKCZGQU6",
+            "citekey": null,
+            "id": 1488,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_PKCZGQU6",
+            "citekey": null,
+            "id": 1488,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_PKCZGQU6",
+            "citekey": null,
+            "id": 1488,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_PKCZGQU6",
+            "citekey": null,
+            "id": 1488,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Bidirectional Analysis of Creative Processes: A Tool for Researchers",
+      "subtitle": "A. Magnifico, Erica Halverson, C. Cutler, and T. Kalaitzidis. 2014.",
+      "valid": true,
+      "arg": 1543,
+      "uid": 1543,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_AHZHXUXX",
+        "citekey": null,
+        "id": 1543,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Bidirectional Analysis of Creative Processes: A Tool for Researchers",
+        "copy": "zotero://select/items/1_AHZHXUXX"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_AHZHXUXX",
+            "citekey": null,
+            "id": 1543,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_AHZHXUXX",
+            "citekey": null,
+            "id": 1543,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_AHZHXUXX",
+            "citekey": null,
+            "id": 1543,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_AHZHXUXX",
+            "citekey": null,
+            "id": 1543,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "No attachments",
+          "valid": false,
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_AHZHXUXX",
+            "citekey": null,
+            "id": 1543,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Virtual dissection: An interactive anatomy learning tool",
+      "subtitle": "Wainman, Aggarwal, Birk, Gill, Hass, and Fenesi. 2020.",
+      "valid": true,
+      "arg": 1723,
+      "uid": 1723,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_K7TU9D5L",
+        "citekey": null,
+        "id": 1723,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Virtual dissection: An interactive anatomy learning tool",
+        "copy": "zotero://select/items/1_K7TU9D5L"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_K7TU9D5L",
+            "citekey": null,
+            "id": 1723,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_K7TU9D5L",
+            "citekey": null,
+            "id": 1723,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_K7TU9D5L",
+            "citekey": null,
+            "id": 1723,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_K7TU9D5L",
+            "citekey": null,
+            "id": 1723,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "No attachments",
+          "valid": false,
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_K7TU9D5L",
+            "citekey": null,
+            "id": 1723,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "My favorites",
+      "subtitle": "xxx. xxx.",
+      "valid": true,
+      "arg": 1749,
+      "uid": 1749,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_YVBKCVSR",
+        "citekey": null,
+        "id": 1749,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "My favorites",
+        "copy": "zotero://select/items/1_YVBKCVSR"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/webpage.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_YVBKCVSR",
+            "citekey": null,
+            "id": 1749,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_YVBKCVSR",
+            "citekey": null,
+            "id": 1749,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_YVBKCVSR",
+            "citekey": null,
+            "id": 1749,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_YVBKCVSR",
+            "citekey": null,
+            "id": 1749,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "No attachments",
+          "valid": false,
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_YVBKCVSR",
+            "citekey": null,
+            "id": 1749,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "The nature of code",
+      "subtitle": "Shiffman. 2012.",
+      "valid": true,
+      "arg": 961,
+      "uid": 961,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_CDVLNX86",
+        "citekey": null,
+        "id": 961,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "<zothero.util.HTMLText object at 0x101de5640>",
+        "copy": "zotero://select/items/1_CDVLNX86"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/book.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_CDVLNX86",
+            "citekey": null,
+            "id": 961,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_CDVLNX86",
+            "citekey": null,
+            "id": 961,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_CDVLNX86",
+            "citekey": null,
+            "id": 961,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_CDVLNX86",
+            "citekey": null,
+            "id": 961,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "No attachments",
+          "valid": false,
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_CDVLNX86",
+            "citekey": null,
+            "id": 961,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    },
+    {
+      "title": "Comparing machines and humans on a visual categorization test",
+      "subtitle": "Fran\u00e7ois Fleuret, Fran\u00e7ois Fleuret, F. Fleuret, Fleuret, Li, Dubout, Wampler, Yantis, and Geman. 2011. Attachments: 2",
+      "valid": true,
+      "arg": 1533,
+      "uid": 1533,
+      "variables": {
+        "action": "open-in-zotero",
+        "url": "zotero://select/items/1_3ID6I4E3",
+        "citekey": null,
+        "id": 1533,
+        "stylename": "Chicago Manual of Style 17th edition (author-date)"
+      },
+      "text": {
+        "largetype": "Comparing machines and humans on a visual categorization test",
+        "copy": "zotero://select/items/1_3ID6I4E3"
+      },
+      "icon": {
+        "path": "/Users/yamlam/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.3EF9811D-84E0-40B5-8B8E-92BAF1E7E7AE/lib/zothero/icons/article-with-attachment.png"
+      },
+      "mods": {
+        "cmd": {
+          "subtitle": "Copy citation (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_3ID6I4E3",
+            "citekey": null,
+            "id": 1533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "alt": {
+          "subtitle": "Copy bibliography (Chicago Manual of Style 17th edition (author-date))",
+          "variables": {
+            "action": "copy-citation",
+            "url": "zotero://select/items/1_3ID6I4E3",
+            "citekey": null,
+            "id": 1533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)",
+            "bibliography": "1",
+            "style": "http://www.zotero.org/styles/chicago-author-date"
+          }
+        },
+        "ctrl": {
+          "subtitle": "View all citation formats",
+          "variables": {
+            "action": "show-citations",
+            "url": "zotero://select/items/1_3ID6I4E3",
+            "citekey": null,
+            "id": 1533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "fn": {
+          "subtitle": "Open in Zotero",
+          "variables": {
+            "action": "open-in-zotero",
+            "url": "zotero://select/items/1_3ID6I4E3",
+            "citekey": null,
+            "id": 1533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        },
+        "shift": {
+          "subtitle": "View attachments",
+          "variables": {
+            "action": "show-attachments",
+            "url": "zotero://select/items/1_3ID6I4E3",
+            "citekey": null,
+            "id": 1533,
+            "stylename": "Chicago Manual of Style 17th edition (author-date)"
+          }
+        }
+      }
+    }
+  ]
+}

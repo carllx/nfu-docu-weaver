@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Please identify at least one emoji symbol that could be used to represent each of the following phrases. The emoji should accurately reflect the meaning of the phrase. Please do not include any additional words or text from the phrases in your response.\nMy phrases is: {clipboard}",
+    "uid" : "3CC8347D-9F5A-49E6-B644-C8CABF3BA634",
+    "name" : "Emoji",
+    "keyword" : "emj"
+  }
+}

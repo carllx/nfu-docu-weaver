@@ -1,0 +1,690 @@
+﻿1
+00:00:00,820 --> 00:00:02,600
+- As the body is now polished,
+
+2
+00:00:02,600 --> 00:00:05,480
+I can work on the feet of the character.
+
+3
+00:00:05,480 --> 00:00:08,850
+Will start with the back legs
+since they move the most.
+
+4
+00:00:08,850 --> 00:00:12,240
+First thing is to fix the Y location curve
+
+5
+00:00:12,240 --> 00:00:13,890
+on the contact pose.
+
+6
+00:00:13,890 --> 00:00:16,190
+Now I have a proper linear root motion
+
+7
+00:00:16,190 --> 00:00:19,240
+switch all the angles of the contact frame
+
+8
+00:00:19,240 --> 00:00:21,360
+of the feet to vector,
+
+9
+00:00:21,360 --> 00:00:24,680
+get rid of any intermediate frame,
+
+10
+00:00:24,680 --> 00:00:27,690
+and tweak the value
+before the foot take off
+
+11
+00:00:27,690 --> 00:00:31,330
+to make sure that I don't
+have any sliding effect.
+
+12
+00:00:31,330 --> 00:00:34,100
+Since the leg looks too
+overextended on frame three,
+
+13
+00:00:34,100 --> 00:00:37,630
+I've decided it will
+be the take off frame.
+
+14
+00:00:37,630 --> 00:00:40,230
+From the side view I worked mainly
+
+15
+00:00:40,230 --> 00:00:41,790
+on the Y location
+
+16
+00:00:41,790 --> 00:00:43,990
+and then the Z location.
+
+17
+00:00:43,990 --> 00:00:45,210
+As for a run cycle,
+
+18
+00:00:45,210 --> 00:00:47,720
+I don't push too much the foot away
+
+19
+00:00:47,720 --> 00:00:49,290
+from the tree trunk.
+
+20
+00:00:49,290 --> 00:00:52,240
+And forget that our character is pushing
+
+21
+00:00:52,240 --> 00:00:56,630
+toward the sky is not pushing
+against the tree trunk.
+
+22
+00:00:56,630 --> 00:00:58,700
+If he does, he would fall.
+
+23
+00:00:58,700 --> 00:01:00,570
+So from the current point of view,
+
+24
+00:01:00,570 --> 00:01:02,280
+it's better to push the pose
+
+25
+00:01:02,280 --> 00:01:04,040
+of the foot downward,
+
+26
+00:01:04,040 --> 00:01:07,420
+than pushing it on the left side.
+
+27
+00:01:07,420 --> 00:01:09,860
+And when you reach the end of the cycle,
+
+28
+00:01:09,860 --> 00:01:13,240
+make sure that again the
+contact pose are in vector,
+
+29
+00:01:13,240 --> 00:01:15,317
+then I'm fixing any sliding
+
+30
+00:01:15,317 --> 00:01:18,390
+issue by moving the frame eight.
+
+31
+00:01:18,390 --> 00:01:21,420
+Because if I was moving
+the value of frame nine,
+
+32
+00:01:21,420 --> 00:01:25,110
+then I would have to duplicate
+this value of frame zero
+
+33
+00:01:25,110 --> 00:01:27,470
+since this is the latest frame,
+
+34
+00:01:27,470 --> 00:01:31,640
+it would break the fix I did
+in the beginning of the video
+
+35
+00:01:31,640 --> 00:01:34,170
+between frame zero and frame two.
+
+36
+00:01:34,170 --> 00:01:37,120
+Because the value difference
+between frame two and
+
+37
+00:01:37,120 --> 00:01:39,210
+frame zero will change.
+
+38
+00:01:39,210 --> 00:01:41,330
+Regarding the X location axis,
+
+39
+00:01:41,330 --> 00:01:45,800
+what I've done is that
+as the leg is taking off,
+
+40
+00:01:45,800 --> 00:01:48,580
+it will be pushing slightly inward
+
+41
+00:01:48,580 --> 00:01:51,200
+and then as it comes forward,
+
+42
+00:01:51,200 --> 00:01:53,360
+it will move on this side,
+
+43
+00:01:53,360 --> 00:01:57,960
+as if the character was going
+to embrace the tree trunk.
+
+44
+00:01:57,960 --> 00:01:59,870
+This is something I will try to do
+
+45
+00:01:59,870 --> 00:02:03,000
+on both the hands and the
+feet of the character.
+
+46
+00:02:03,000 --> 00:02:05,550
+Because as you climb the
+tree trunk you're trying
+
+47
+00:02:05,550 --> 00:02:08,660
+to bind the trunk to your body in a way
+
+48
+00:02:08,660 --> 00:02:10,310
+But we do need to feel
+
+49
+00:02:10,310 --> 00:02:14,160
+that there is a side to
+side force being applied
+
+50
+00:02:14,160 --> 00:02:15,890
+onto the tree trunk.
+
+51
+00:02:15,890 --> 00:02:17,600
+And the larger the tree trunk,
+
+52
+00:02:17,600 --> 00:02:21,420
+the wider our character
+will open his arms.
+
+53
+00:02:21,420 --> 00:02:24,520
+As usual when I'm done
+with the location curve,
+
+54
+00:02:24,520 --> 00:02:27,100
+I can work with my rotation curve.
+
+55
+00:02:27,100 --> 00:02:28,880
+When the foot is taking off,
+
+56
+00:02:28,880 --> 00:02:31,900
+I make sure that I have
+a fast rotation back one,
+
+57
+00:02:31,900 --> 00:02:36,900
+so that we can feel that
+the foot has just pushed,
+
+58
+00:02:37,000 --> 00:02:39,190
+and is kind of wiping in the air
+
+59
+00:02:39,190 --> 00:02:41,070
+And then as it catch up,
+
+60
+00:02:41,070 --> 00:02:44,110
+I will just make the
+tip of the foot dragging
+
+61
+00:02:44,110 --> 00:02:46,638
+So I will use the rotation to do this.
+
+62
+00:02:46,638 --> 00:02:49,333
+Then I have my impact frame where I want
+
+63
+00:02:49,333 --> 00:02:54,333
+to open the foot just before
+it lands on the surface ,
+
+64
+00:02:54,340 --> 00:02:55,260
+on the reference,
+
+65
+00:02:55,260 --> 00:02:56,690
+we can barely see,
+
+66
+00:02:56,690 --> 00:03:00,500
+that the character is currently
+grabbing the tree trunk
+
+67
+00:03:00,500 --> 00:03:01,830
+with his toes.
+
+68
+00:03:01,830 --> 00:03:05,300
+But our rig definition
+doesn't allow us to do this.
+
+69
+00:03:05,300 --> 00:03:06,210
+So what I did
+
+70
+00:03:06,210 --> 00:03:09,930
+is I just created a slight foot slap
+
+71
+00:03:09,930 --> 00:03:11,970
+as we did for the run cycle,
+
+72
+00:03:11,970 --> 00:03:13,710
+landing on the foot bone
+
+73
+00:03:13,710 --> 00:03:18,710
+and then flapping the toes
+against the tree trunk.
+
+74
+00:03:18,800 --> 00:03:21,998
+I have used exactly the same
+process for the left foot.
+
+75
+00:03:21,998 --> 00:03:26,330
+First make sure that you
+don't have any sliding effect
+
+76
+00:03:26,330 --> 00:03:29,158
+Fixing the Y location on frame zero
+
+77
+00:03:29,158 --> 00:03:32,690
+until the frame where the foot take off
+
+78
+00:03:32,690 --> 00:03:34,440
+and repeat the process on the frame,
+
+79
+00:03:34,440 --> 00:03:36,800
+where the foot is
+contacting the tree trunk
+
+80
+00:03:36,800 --> 00:03:38,570
+until the end of the cycle
+
+81
+00:03:38,570 --> 00:03:41,890
+If you want to push the
+pause favorize the Y location
+
+82
+00:03:41,890 --> 00:03:45,610
+because the Z location
+will take the foot thunder
+
+83
+00:03:45,610 --> 00:03:47,500
+away from the tree trunk,
+
+84
+00:03:47,500 --> 00:03:50,930
+and it won't match a climbing locomotion.
+
+85
+00:03:50,930 --> 00:03:54,680
+Then don't forget to work
+on the X location curve
+
+86
+00:03:54,680 --> 00:03:57,640
+Spreading the leg on the
+side as the character
+
+87
+00:03:57,640 --> 00:04:00,900
+is pulling it up before the contact pose,
+
+88
+00:04:00,900 --> 00:04:02,964
+so that we feel that the character
+
+89
+00:04:02,964 --> 00:04:05,070
+is catching the tree trunk,
+
+90
+00:04:05,070 --> 00:04:07,010
+not simply contacting with it,
+
+91
+00:04:07,010 --> 00:04:09,290
+but really grabbing the tree trunk.
+
+92
+00:04:09,290 --> 00:04:11,610
+And the final important detail here,
+
+93
+00:04:11,610 --> 00:04:13,530
+is to avoid twinning.
+
+94
+00:04:13,530 --> 00:04:17,050
+I've made both feet
+contacting the tree trunk
+
+95
+00:04:17,050 --> 00:04:19,320
+at the same time and that's fine,
+
+96
+00:04:19,320 --> 00:04:23,070
+because we have very
+few frames on the cycle.
+
+97
+00:04:23,070 --> 00:04:25,860
+But whether you're looking
+from the side view or
+
+98
+00:04:25,860 --> 00:04:28,050
+from the front view, you can see
+
+99
+00:04:28,050 --> 00:04:30,872
+that my feet are never aligned.
+
+100
+00:04:30,872 --> 00:04:32,520
+Once the feet are polished,
+
+101
+00:04:32,520 --> 00:04:35,090
+you can rip onto the pole controllers.
+
+102
+00:04:35,090 --> 00:04:38,119
+They will allow us to fix
+the orientation of the knees.
+
+103
+00:04:38,119 --> 00:04:41,757
+I won't be using the graffiti for this
+
+104
+00:04:41,757 --> 00:04:43,780
+I will just check frame by frame
+
+105
+00:04:43,780 --> 00:04:46,100
+and move the pole target if needed.
+
+106
+00:04:46,100 --> 00:04:49,970
+The idea is to push the knees inward
+
+107
+00:04:49,970 --> 00:04:52,416
+while our character is pushing,
+
+108
+00:04:52,416 --> 00:04:57,390
+And then reopen the legs as
+he's pulling his feet apart.
+
+109
+00:04:57,390 --> 00:04:59,530
+For example here I add a bit
+
+110
+00:04:59,530 --> 00:05:02,350
+of a glitch in the motion of the knee
+
+111
+00:05:02,350 --> 00:05:06,470
+where I have a big modification
+of the shape of the leg.
+
+112
+00:05:06,470 --> 00:05:09,178
+I'm just looking at the shape of the legs,
+
+113
+00:05:09,178 --> 00:05:11,500
+and moving the pole target,
+
+114
+00:05:11,500 --> 00:05:14,370
+so that I get a smoother
+motion of the knee
+
+115
+00:05:14,370 --> 00:05:18,118
+I will apply exactly the same
+process for the left leg.
+
+116
+00:05:18,118 --> 00:05:21,010
+When you are done with the pole targets,
+
+117
+00:05:21,010 --> 00:05:23,170
+use the tweaker controller.
+
+118
+00:05:23,170 --> 00:05:27,430
+To avoid any reversed
+bending like this one.
+
+119
+00:05:27,430 --> 00:05:29,630
+Just scrub frame by frame,
+
+120
+00:05:29,630 --> 00:05:33,200
+and fix any weird the shape of the knees.
+
+121
+00:05:33,200 --> 00:05:34,033
+In the end,
+
+122
+00:05:34,033 --> 00:05:37,493
+I think I just needed to
+fix a couple of poses.
+
+123
+00:05:38,440 --> 00:05:40,220
+Once I was done with the back leg,
+
+124
+00:05:40,220 --> 00:05:42,805
+I've worked with the ends of front leg
+
+125
+00:05:42,805 --> 00:05:44,090
+of the character,
+
+126
+00:05:44,090 --> 00:05:46,390
+I've used exactly the same process.
+
+127
+00:05:46,390 --> 00:05:50,650
+First fixed the Y location
+to avoid any sliding
+
+128
+00:05:50,650 --> 00:05:54,460
+avoid to make too big
+change on the Z location,
+
+129
+00:05:54,460 --> 00:05:56,020
+and made the hands getting
+
+130
+00:05:56,020 --> 00:05:58,480
+too far away from the tree trunk.
+
+131
+00:05:58,480 --> 00:06:00,270
+You will see in the next video
+
+132
+00:06:00,270 --> 00:06:01,973
+in the full time lapse that I've
+
+133
+00:06:01,973 --> 00:06:06,973
+initially really widely open
+the arms using the X location,
+
+134
+00:06:08,600 --> 00:06:11,130
+and then I've tightened them because it
+
+135
+00:06:11,130 --> 00:06:13,000
+was looking a bit too weird.
+
+136
+00:06:13,000 --> 00:06:15,500
+Just remember that it's perfectly fine
+
+137
+00:06:15,500 --> 00:06:18,596
+to revise your poses
+during the polishing stage.
+
+138
+00:06:18,596 --> 00:06:21,510
+I've initially posed the four arms
+
+139
+00:06:21,510 --> 00:06:23,690
+to be very tight to the body
+
+140
+00:06:23,690 --> 00:06:26,250
+and in the end using the x axis,
+
+141
+00:06:26,250 --> 00:06:28,310
+I've spread them on the sides
+
+142
+00:06:28,310 --> 00:06:30,790
+Forget to break the twinning also
+
+143
+00:06:30,790 --> 00:06:32,040
+on the arms.
+
+144
+00:06:32,040 --> 00:06:35,454
+And when you are done
+polishing the arms controller,
+
+145
+00:06:35,454 --> 00:06:39,900
+you can use the joint
+controller to fix the position
+
+146
+00:06:39,900 --> 00:06:41,150
+of the elbows.
+
+147
+00:06:41,150 --> 00:06:42,660
+Again for this process,
+
+148
+00:06:42,660 --> 00:06:45,430
+it's better to do it frame by frame.
+
+149
+00:06:45,430 --> 00:06:47,250
+Just make sure that your elbow
+
+150
+00:06:47,250 --> 00:06:48,950
+is bending in the right way.
+
+151
+00:06:48,950 --> 00:06:52,050
+So don't forget to rotate
+around your character
+
+152
+00:06:52,050 --> 00:06:53,220
+and you will be done.
+
+153
+00:06:53,220 --> 00:06:55,700
+The next video will be a time lapse
+
+154
+00:06:55,700 --> 00:06:58,480
+of all the points we've just seen.
+
+155
+00:06:58,480 --> 00:07:00,310
+And in the video after,
+
+156
+00:07:00,310 --> 00:07:03,470
+I will change the timing of the animation,
+
+157
+00:07:03,470 --> 00:07:07,630
+because I wasn't satisfied
+of what I add here.
+
+158
+00:07:07,630 --> 00:07:09,760
+Don't worry, it's not a big deal.
+
+159
+00:07:09,760 --> 00:07:11,950
+It will take only few minutes
+
+160
+00:07:11,950 --> 00:07:14,710
+but it will really improve the animation
+

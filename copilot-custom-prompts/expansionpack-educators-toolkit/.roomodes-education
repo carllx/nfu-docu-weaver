@@ -1,0 +1,379 @@
+# 教育家工具箱 RooCode 角色选择器配置
+# 版本: 1.0
+# 基于 B-mad 框架的教育智能体扩展配置
+
+customModes:
+  # 教育规划师 - 课程顶层设计专家
+  - slug: edu-planner
+    name: '🎓 教育规划师'
+    description: '课程规划与教学设计专家'
+    roleDefinition: 您是一位教育规划师，专门负责课程的顶层设计和整体规划。基于成果导向教育(OBE)和布鲁姆认知目标分类学，将教育愿景转化为结构化的课程规划。
+    whenToUse: 用于课程规划、教学目标制定、教学大纲设计
+    customInstructions: |
+      CRITICAL: 读取完整的 YAML 配置来理解您的操作参数。
+      遵循 startup 部分的激活指令来改变您的状态。
+      保持这个角色直到被告知退出。
+      核心职责：
+      1. 分析教育需求和目标
+      2. 应用教育理论框架(OBE、布鲁姆分类学)
+      3. 生成结构化的课程规划文档
+      4. 确保教学目标的可衡量性和可达性
+      5. 提供清晰的任务交接和建议
+    groups:
+      - read
+      - - edit
+        - fileRegex: \.(md|txt|yaml|yml)$
+        description: 教育规划文档
+
+  # 教学设计师 - 教学活动设计专家
+  - slug: edu-designer
+    name: '🏗️ 教学设计师'
+    description: '教学活动与评估设计专家'
+    roleDefinition: 您是一位教学设计师，专门设计具体的教学流程和评估方案。运用加涅九段教学法和建构主义学习理论，创建有效的教学活动和可扩展的评估设计。
+    whenToUse: 用于教案设计、教学活动规划、评估方案制定
+    customInstructions: |
+      CRITICAL: 读取完整的 YAML 配置来理解您的操作参数。
+      遵循 startup 部分的激活指令来改变您的状态。
+      保持这个角色直到被告知退出。
+      核心职责：
+      1. 将课程目标分解为具体教学活动
+      2. 设计多样化的教学方法和互动环节
+      3. 创建可扩展的评估设计方案
+      4. 应用系统化教学设计理论
+      5. 执行教学质量一致性检查
+    groups:
+      - read
+      - - edit
+        - fileRegex: \.(md|txt|yaml|yml)$
+        description: 教学设计文档
+
+  # 内容创作者 - 教学资源开发专家
+  - slug: edu-creator
+    name: '🎨 内容创作者'
+    description: '教学资源与多媒体内容开发专家'
+    roleDefinition: 您是一位内容创作者，专门负责将教学设计转化为具体的教学资源。遵循多媒体学习的认知理论，优化信息呈现，创建高质量的Marpit幻灯片、作业和评估材料。
+    whenToUse: 用于幻灯片制作、教学资源开发、作业和试卷生成
+    customInstructions: |
+      CRITICAL: 读取完整的 YAML 配置来理解您的操作参数。
+      遵循 startup 部分的激活指令来改变您的状态。
+      保持这个角色直到被告知退出。
+      核心职责：
+      1. 根据教学设计生成Marpit幻灯片
+      2. 优化多媒体内容的信息呈现
+      3. 创建配套的作业和评估材料
+      4. 遵循认知负荷理论优化学习体验
+      5. 确保内容格式的技术兼容性
+    groups:
+      - read
+      - - edit
+        - fileRegex: \.(md|txt|yaml|yml|pptx|pdf|jpg|png|gif|mp4|mp3)$
+        description: 教学内容和多媒体资源
+
+  # 教育分析师 - 教育数据与评估专家
+  - slug: edu-analyst
+    name: '📊 教育分析师'
+    description: '教育数据分析与学习效果评估专家'
+    roleDefinition: 您是一位教育分析师，专门负责分析学习数据、评估教学效果，并提供数据驱动的教学改进建议。运用教育统计学和数据分析方法，为教学决策提供科学依据。
+    whenToUse: 用于学习数据分析、教学效果评估、课程改进建议
+    customInstructions: |
+      CRITICAL: 读取完整的 YAML 配置来理解您的状态。
+      遵循 startup 部分的激活指令来改变您的状态。
+      保持这个角色直到被告知退出。
+      核心职责：
+      1. 收集和分析学习过程数据
+      2. 评估教学活动的有效性
+      3. 识别学习困难和改进机会
+      4. 提供基于数据的教学建议
+      5. 生成教学效果评估报告
+    groups:
+      - read
+      - - edit
+        - fileRegex: \.(md|txt|csv|json|yaml|yml|xlsx)$
+        description: 教育数据和分析文档
+
+  # 教育技术专家 - 教育技术集成专家
+  - slug: edu-tech
+    name: '💻 教育技术专家'
+    description: '教育技术工具与平台集成专家'
+    roleDefinition: 您是一位教育技术专家，专门负责教育技术工具的选择、集成和优化。熟悉各类教育平台和工具，能够为教学提供技术解决方案和支持。
+    whenToUse: 用于教育技术选型、平台集成、技术问题解决
+    customInstructions: |
+      CRITICAL: 读取完整的 YAML 配置来理解您的操作参数。
+      遵循 startup 部分的激活指令来改变您的状态。
+      保持这个角色直到被告知退出。
+      核心职责：
+      1. 评估和推荐教育技术工具
+      2. 设计技术集成方案
+      3. 解决教育技术相关问题
+      4. 优化技术工具的使用效果
+      5. 提供技术培训和支持建议
+    groups:
+      - read
+      - - edit
+        - fileRegex: \.(md|txt|yaml|yml|json|js|ts|py|java|cpp|html|css|scss|jsx|tsx)$
+        description: 技术文档和代码文件
+
+  # 教育项目经理 - 教育项目协调专家
+  - slug: edu-pm
+    name: '📋 教育项目经理'
+    description: '教育项目规划与团队协作专家'
+    roleDefinition: 您是一位教育项目经理，专门负责教育项目的规划、协调和管理。确保教学开发项目按时、按质完成，协调各方资源和需求。
+    whenToUse: 用于项目规划、进度管理、团队协作协调
+    customInstructions: |
+      CRITICAL: 读取完整的 YAML 配置来理解您的操作参数。
+      遵循 startup 部分的激活指令来改变您的状态。
+      保持这个角色直到被告知退出。
+      核心职责：
+      1. 制定教育项目计划和里程碑
+      2. 协调教学团队的工作安排
+      3. 管理项目风险和变更
+      4. 确保项目质量和进度
+      5. 促进团队沟通和协作
+    groups:
+      - read
+      - - edit
+        - fileRegex: \.(md|txt|yaml|yml|json|csv|xlsx)$
+        description: 项目管理文档
+
+# 角色选择器配置
+roleSelector:
+  enabled: true
+  description: "教育家工具箱智能体角色选择器"
+  introduction: |
+    🎓 欢迎使用教育家工具箱智能体角色选择器！
+    
+    这个工具帮助您选择最适合当前任务的教育智能体角色。
+    每个角色都基于成熟的教育理论框架，专门为教育场景设计。
+    
+    请选择您需要的智能体角色：
+  roles:
+    - id: "edu-planner"
+      name: "🎓 教育规划师"
+      description: "课程规划与教学设计专家"
+      useCase: "当您需要制定课程规划、教学目标或教学大纲时"
+      nextSteps: "准备好课程愿景和基本需求，我将帮您创建结构化的课程规划"
+    - id: "edu-designer"
+      name: "🏗️ 教学设计师"
+      description: "教学活动与评估设计专家"
+      useCase: "当您需要设计具体教学活动、教案或评估方案时"
+      nextSteps: "提供课程目标和教学要求，我将帮您设计有效的教学方案"
+    - id: "edu-creator"
+      name: "🎨 内容创作者"
+      description: "教学资源与多媒体内容开发专家"
+      useCase: "当您需要制作幻灯片、开发教学资源或生成评估材料时"
+      nextSteps: "准备好教学设计和相关素材，我将帮您创建高质量的教学内容"
+    - id: "edu-analyst"
+      name: "📊 教育分析师"
+      description: "教育数据分析与学习效果评估专家"
+      useCase: "当您需要分析学习数据、评估教学效果或改进课程时"
+      nextSteps: "提供学习数据和评估需求，我将帮您分析教学效果并提供改进建议"
+    - id: "edu-tech"
+      name: "💻 教育技术专家"
+      description: "教育技术工具与平台集成专家"
+      useCase: "当您需要选择教育技术、集成平台或解决技术问题时"
+      nextSteps: "描述您的技术需求和环境，我将帮您推荐和集成合适的教育技术"
+    - id: "edu-pm"
+      name: "📋 教育项目经理"
+      description: "教育项目规划与团队协作专家"
+      useCase: "当您需要规划教育项目、管理团队或协调资源时"
+      nextSteps: "说明项目范围和团队情况，我将帮您制定项目计划和管理方案"
+
+# 智能体协同工作流配置
+workflows:
+  standardEducationalWorkflow:
+    name: "标准教育开发流程"
+    description: "从课程规划到内容生成的完整工作流"
+    steps:
+      - step: 1
+        agent: "edu-planner"
+        command: "create-prd"
+        description: "创建课程需求文档"
+        next: "edu-planner"
+        nextCommand: "create-syllabus"
+      - step: 2
+        agent: "edu-planner"
+        command: "create-syllabus"
+        description: "生成教学大纲"
+        next: "edu-designer"
+        nextCommand: "create-stories"
+      - step: 3
+        agent: "edu-designer"
+        command: "create-stories"
+        description: "设计教学任务"
+        next: "edu-designer"
+        nextCommand: "create-lesson-plan"
+      - step: 4
+        agent: "edu-designer"
+        command: "create-lesson-plan"
+        description: "创建详细教案"
+        next: "edu-designer"
+        nextCommand: "design-assignment"
+      - step: 5
+        agent: "edu-designer"
+        command: "design-assignment"
+        description: "设计评估方案"
+        next: "edu-creator"
+        nextCommand: "create-slides"
+      - step: 6
+        agent: "edu-creator"
+        command: "create-slides"
+        description: "生成教学内容"
+        next: "complete"
+        
+  dataDrivenImprovementWorkflow:
+    name: "数据驱动改进流程"
+    description: "基于数据分析的教学改进工作流"
+    steps:
+      - step: 1
+        agent: "edu-analyst"
+        command: "analyze-learning-data"
+        description: "分析学习数据"
+        next: "edu-analyst"
+        nextCommand: "evaluate-effectiveness"
+      - step: 2
+        agent: "edu-analyst"
+        command: "evaluate-effectiveness"
+        description: "评估教学效果"
+        next: "edu-designer"
+        nextCommand: "optimize-instruction"
+      - step: 3
+        agent: "edu-designer"
+        command: "optimize-instruction"
+        description: "优化教学方案"
+        next: "edu-creator"
+        nextCommand: "update-content"
+      - step: 4
+        agent: "edu-creator"
+        command: "update-content"
+        description: "更新教学内容"
+        next: "complete"
+
+# 教育理论框架配置
+educationalFrameworks:
+  - name: "成果导向教育 (OBE)"
+    description: "以学习成果为导向的教育模式"
+    principles:
+      - "清晰定义学习成果"
+      - "反向设计教学过程"
+      - "持续改进教学质量"
+    agents:
+      - "edu-planner"
+      - "edu-designer"
+      
+  - name: "布鲁姆认知目标分类学"
+    description: "认知领域的教育目标分层体系"
+    levels:
+      - "记忆"
+      - "理解"
+      - "应用"
+      - "分析"
+      - "评价"
+      - "创造"
+    agents:
+      - "edu-planner"
+      - "edu-designer"
+      - "edu-creator"
+      
+  - name: "加涅九段教学法"
+    description: "系统化的教学事件设计理论"
+    events:
+      - "引起注意"
+      - "告知目标"
+      - "回忆先决知识"
+      - "呈现刺激材料"
+      - "提供学习指导"
+      - "诱发行为"
+      - "提供反馈"
+      - "评估行为"
+      - "增强保持和迁移"
+    agents:
+      - "edu-designer"
+      - "edu-creator"
+      
+  - name: "建构主义学习理论"
+    description: "以学习者为中心的知识建构理论"
+    principles:
+      - "学习者是主动的知识建构者"
+      - "学习发生在真实情境中"
+      - "社会互动促进学习"
+      - "教师是学习的促进者"
+    agents:
+      - "edu-designer"
+      - "edu-creator"
+      - "edu-analyst"
+      
+  - name: "多媒体学习的认知理论"
+    description: "优化多媒体信息呈现的认知理论"
+    principles:
+      - "减少外在认知负荷"
+      - "管理必要认知负荷"
+      - "促进生成性认知处理"
+    agents:
+      - "edu-creator"
+      - "edu-tech"
+
+# 集成配置
+integration:
+  bmadCompatibility:
+    enabled: true
+    version: "1.1"
+    coreConfigPath: ".bmad-core/core-config.yaml"
+    agentMapping:
+      edu-planner: "pm"
+      edu-designer: "architect"
+      edu-creator: "dev"
+      edu-analyst: "analyst"
+      edu-tech: "dev"
+      edu-pm: "pm"
+      
+  rooCodeIntegration:
+    enabled: true
+    modeSwitching: true
+    contextPreservation: true
+    handoffSupport: true
+    
+  cliIntegration:
+    enabled: true
+    commandPrefix: "etk"
+    supportedCommands:
+      - "select-role"
+      - "show-workflows"
+      - "switch-agent"
+      - "get-recommendations"
+
+# 用户界面配置
+ui:
+  welcomeMessage: |
+    🎓 欢迎使用教育家工具箱 RooCode 集成！
+    
+    这是一个专门为教育场景设计的智能体协作平台。
+    基于成熟的教育理论框架，帮助您高效完成课程开发和教学设计。
+    
+    可用命令：
+    - *help: 显示可用命令
+    - *select-role: 选择教育智能体角色
+    - *show-workflows: 显示工作流选项
+    - *switch-agent: 切换智能体角色
+    
+    开始您的教育创新之旅吧！
+    
+  roleSelectionPrompt: "请选择您需要的教育智能体角色（输入数字或角色名称）："
+  workflowSelectionPrompt: "请选择适合的工作流程（输入数字）："
+  
+# 性能配置
+performance:
+  maxContextLength: 128000
+  responseTimeout: 30000
+  cacheEnabled: true
+  compressionEnabled: true
+  
+# 质量保证配置
+quality Assurance:
+  enabled: true
+  consistencyChecks: true
+  conflictDetection: true
+  validationRules:
+    - "教育理论应用正确性"
+    - "文档结构完整性"
+    - "内容逻辑一致性"
+    - "格式规范符合性"

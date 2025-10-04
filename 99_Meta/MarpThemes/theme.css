@@ -1,0 +1,77 @@
+/*! @theme NFUPPT */
+
+/*
+  Marp Theme: NFU Custom Theme
+  Description: A custom theme based on Gaia for NFU presentations.
+  Author: yamlam
+  Version: 1.0.0
+*/
+@import 'gaia';
+
+
+:root {
+  /* 这里的颜色值可根据需求修改，示例用深灰色（原代码是 49% 透明度的黑色） */
+  --bold-color: color(srgb 0 0 0 / 0.6); 
+  --font-text: Inter, "Noto Sans SC", "Noto Serif SC"!important;
+}
+
+div#__marp-vscode>div>svg>foreignObject>section {
+  font-family: var(--font-text);
+}
+
+b, strong{
+  font-weight: calc(var(--font-weight) + var(--bold-modifier)) ;
+  color: var(--bold-color);
+  font-family: var(--font-text);
+}
+
+
+
+section {
+  background-color: rgb(255, 255, 255) ;
+}
+
+h1 {
+  color: orange !important;
+}
+
+
+section mark {
+  /* background-color: var(--text-highlight-bg); */
+  background-color: rgb(0 255 243 / 50%); 
+  color: #455a64;
+}
+
+em {
+    font-style: italic;
+    color: #00000054;
+}
+
+/* 引用 */
+section blockquote {
+   padding: 0 2em;
+   /* opacity: .5; */
+   background-color: rgba(0, 0, 0, 0.083);
+}
+section blockquote:before {
+  font-size: 3em;
+  top: -.5em;
+}
+section blockquote::after {
+  font-size: 3em;
+  bottom: -.5em;
+}
+
+
+/* 针对所有代码块 */
+pre code {
+  white-space: pre-wrap; /* 保留换行符，允许单词内换行 */
+  word-wrap: break-word; /* 兼容旧版浏览器 */
+  overflow-x: auto;       /* 超出时显示横向滚动条（可选） */
+}
+
+/* 若需单独调整 Gaia 主题的代码块 */
+.theme-gaia pre code {
+  white-space: pre-wrap;
+}
+

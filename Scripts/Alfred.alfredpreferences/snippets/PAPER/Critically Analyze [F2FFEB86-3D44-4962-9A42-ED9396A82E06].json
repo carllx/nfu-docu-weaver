@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Please critically analyze the following thesis statement or outline:  ```\n{clipboard}\n```\nAs a constructive critic, point out any flaws, limitations, or biases you notice in the thesis statement or the reasoning behind it. Then, provide 3-5 thoughtful, nuanced suggestions on how the thesis could be strengthened, clarified, or expanded upon to create a more intellectually honest, empirically-supported, and logically sound argument. Ensure your critique is civil, charitable, and aims to constructively further intellectual discussion and inquiry. Provide relevant examples or evidence to support your critique and suggestions.",
+    "uid" : "F2FFEB86-3D44-4962-9A42-ED9396A82E06",
+    "name" : "Critically Analyze",
+    "keyword" : "ca1"
+  }
+}

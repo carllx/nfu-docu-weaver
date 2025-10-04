@@ -1,0 +1,21 @@
+{
+    "conversation_id": "",
+    "attachments": [
+        {
+            "date": null,
+            "title": "",
+            "fileID": "",
+            "itemID": null,
+            "citation": "",
+            "citationShort": "",
+            "tags": []
+        }
+    ],
+    "prompt": "",
+    "response": "",
+    "refs": [],
+    "title": null,
+    "group_id": "",
+    "req_id": "",
+    "resp_id": ""
+}

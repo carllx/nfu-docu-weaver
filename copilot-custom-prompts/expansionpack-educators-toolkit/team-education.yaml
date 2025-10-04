@@ -1,0 +1,287 @@
+# 教育家工具箱团队配置
+# 版本: 1.1
+# 基于 B-mad 框架的教育智能体团队定义
+
+team:
+  name: "教育家工具箱 (Educator's Toolkit)"
+  description: "专为教育场景设计的智能体团队，通过结构化工作流协同完成课程规划到内容生成的全过程"
+  version: "1.1"
+  
+  # 核心智能体角色定义
+  agents:
+    - id: "course-planner"
+      name: "课程规划师"
+      role: "pm"
+      description: "负责课程的顶层设计和整体规划，基于教育理论生成结构化的课程大纲和需求文档"
+      agent_file: "agents/course-planner.md"
+      core_principles:
+        - "目标驱动: 所有规划必须围绕 brief.md 中定义的课程目标和学生能力达成"
+        - "理论约束: 严格遵循成果导向教育 (OBE) 和布鲁姆认知目标分类学原则"
+        - "结构化输出: 产出的 prd.md 和 syllabus.md 必须结构清晰，逻辑严密"
+        - "用户确认: 在最终确定 prd.md 前，必须向用户总结规划并请求确认"
+      commands:
+        - name: "create-prd"
+          description: "基于 brief.md 生成 prd.md"
+          input: "docs/brief.md"
+          output: "docs/prd.md"
+        - name: "create-syllabus"
+          description: "基于 prd.md 生成 syllabus.md"
+          input: "docs/prd.md"
+          output: "docs/syllabus.md"
+      handoff_prompts:
+        completion: "课程规划已完成。prd.md 和 syllabus.md 已生成。下一步建议调用教学设计师(Architect)进行具体的教学设计，使用命令: *create-stories"
+        
+    - id: "instructional-designer"
+      name: "教学设计师"
+      role: "architect"
+      description: "基于规划文档进行具体教学流程设计，运用教育理论创建教学活动和评估方案"
+      agent_file: "agents/instructional-designer.md"
+      core_principles:
+        - "设计一致性: lesson-plan.md 和 story.md 的设计必须严格对齐 prd.md 的 Epic 规划"
+        - "理论约束: 教学活动设计需运用加涅九段教学法和建构主义学习理论"
+        - "可评估性优先: 所有作业和评分标准的设计，必须优先考虑评估的客观性和评分效率"
+        - "质量保证: 在完成 story 和 lesson-plan 设计后，必须自动执行 consistency-check.yaml 检查清单"
+      commands:
+        - name: "create-stories"
+          description: "将 prd.md 中的 Epics 分解为每周的 story.md 文件"
+          input: "docs/prd.md"
+          output: "lessons/week-*/story.md"
+        - name: "create-lesson-plan"
+          description: "为指定的 story.md 生成详细的 lesson-plan.md"
+          input: "lessons/week-*/story.md"
+          output: "lessons/week-*/lesson-plan.md"
+        - name: "design-assignment"
+          description: "设计作业规范 (assignments.md) 和评分标准 (rubrics.md)"
+          input: "lessons/week-*/lesson-plan.md"
+          output: "assignments/homework-*.md, assignments/rubrics-*.md"
+      handoff_prompts:
+        completion: "教学设计已完成。story.md、lesson-plan.md 和相关评估方案已生成。下一步建议调用内容创作者(Dev)生成具体的教学内容，使用命令: *create-slides"
+        
+    - id: "content-creator"
+      name: "内容创作者"
+      role: "dev"
+      description: "负责执行具体的内容生成任务，根据设计规范生成Marpit幻灯片、作业和试卷"
+      agent_file: "agents/content-creator.md"
+      core_principles:
+        - "忠实执行: 严格按照 lesson-plan.md 和 assignments.md 的规范生成内容，不进行创造性发挥"
+        - "理论约束: 课件生成遵循多媒体学习的认知理论，优化信息呈现"
+        - "素材依赖: 在生成内容前，必须检查所需素材是否齐全，否则向用户发起请求"
+        - "格式精确: 生成的 Marpit 幻灯片必须符合标准，无渲染错误"
+      commands:
+        - name: "create-slides"
+          description: "根据 lesson-plan.md 和素材生成 slides.md"
+          input: "lessons/week-*/lesson-plan.md, assets/week-*/*"
+          output: "lessons/week-*/slides.md"
+        - name: "create-exam-papers"
+          description: "根据 lesson-plan.md 生成 A/B 试卷"
+          input: "lessons/week-*/lesson-plan.md"
+          output: "exams/midterm-*.md, exams/final-*.md"
+      handoff_prompts:
+        completion: "内容创作已完成。slides.md 和相关教学材料已生成。本周教学内容准备就绪，可以继续下一周的内容创作或调用其他智能体进行优化。"
+
+  # 工作流定义
+  workflows:
+    - name: "标准课程开发流程"
+      description: "从课程规划到内容生成的完整工作流"
+      steps:
+        - step: 1
+          agent: "course-planner"
+          command: "create-prd"
+          next: "create-syllabus"
+        - step: 2
+          agent: "course-planner"
+          command: "create-syllabus"
+          next: "create-stories"
+        - step: 3
+          agent: "instructional-designer"
+          command: "create-stories"
+          next: "create-lesson-plan"
+        - step: 4
+          agent: "instructional-designer"
+          command: "create-lesson-plan"
+          next: "design-assignment"
+        - step: 5
+          agent: "instructional-designer"
+          command: "design-assignment"
+          next: "create-slides"
+        - step: 6
+          agent: "content-creator"
+          command: "create-slides"
+          next: "complete"
+
+  # 交互原则配置
+  interaction_principles:
+    - "主动沟通与建议: 每个智能体在执行任务前、中、后，或当信息不足时，都必须主动与用户交流"
+    - "明确的任务交接: 任务完成时，智能体需要识别并清晰地指引用户，告知下一步建议由哪个角色来执行什么内容"
+    - "防御性信息索取: 当智能体执行任务所需的信息不足时，必须暂停，并明确提示用户需提供指定的材料"
+    - "冲突检测与提醒: 智能体在修改内容时，当发现其操作可能与项目中的其他文档产生冲突时，必须向用户发出提醒"
+
+  # 教育理论框架
+  educational_frameworks:
+    - name: "成果导向教育 (OBE)"
+      description: "以学习成果为导向的教育模式"
+      principles:
+        - "清晰定义学习成果"
+        - "设计教学活动以达成成果"
+        - "评估学习成果达成度"
+    - name: "布鲁姆认知目标分类学"
+      description: "认知领域的教育目标分层"
+      levels:
+        - "记忆"
+        - "理解"
+        - "应用"
+        - "分析"
+        - "评价"
+        - "创造"
+    - name: "加涅九段教学法"
+      description: "系统化的教学事件设计"
+      events:
+        - "引起注意"
+        - "告知目标"
+        - "回忆先决知识"
+        - "呈现刺激材料"
+        - "提供学习指导"
+        - "诱发行为"
+        - "提供反馈"
+        - "评估行为"
+        - "增强保持和迁移"
+    - name: "建构主义学习理论"
+      description: "以学习者为中心的知识建构"
+      principles:
+        - "学习者是主动的知识建构者"
+        - "学习发生在真实情境中"
+        - "社会互动促进学习"
+        - "教师是学习的促进者"
+    - name: "多媒体学习的认知理论"
+      description: "优化多媒体信息呈现以减少认知负荷"
+      principles:
+        - "减少外在认知负荷"
+        - "管理必要认知负荷"
+        - "促进生成性认知处理"
+
+  # RooCode 集成配置
+  roocode_integration:
+    enabled: true
+    version: "1.0"
+    config_file: ".roomodes-education"
+    
+    # 角色映射配置
+    role_mapping:
+      - bmad_role: "pm"
+        education_role: "edu-planner"
+        agent_file: "agents/course-planner.md"
+        description: "BMad PM 角色对应教育规划师"
+        
+      - bmad_role: "architect"
+        education_role: "edu-designer"
+        agent_file: "agents/instructional-designer.md"
+        description: "BMad Architect 角色对应教学设计师"
+        
+      - bmad_role: "dev"
+        education_role: "edu-creator"
+        agent_file: "agents/content-creator.md"
+        description: "BMad Dev 角色对应内容创作者"
+        
+      - bmad_role: "analyst"
+        education_role: "edu-analyst"
+        agent_file: "agents/course-planner.md"
+        description: "BMad Analyst 角色对应教育分析师"
+        
+      - bmad_role: "dev"
+        education_role: "edu-tech"
+        agent_file: "agents/content-creator.md"
+        description: "BMad Dev 角色对应教育技术专家"
+        
+      - bmad_role: "pm"
+        education_role: "edu-pm"
+        agent_file: "agents/course-planner.md"
+        description: "BMad PM 角色对应教育项目经理"
+    
+    # 工作流集成配置
+    workflow_integration:
+      standard_flow:
+        name: "标准教育开发流程"
+        description: "从课程规划到内容生成的完整工作流"
+        steps:
+          - step: 1
+            agent: "edu-planner"
+            bmad_mapping: "pm"
+            command: "create-prd"
+            next: "edu-designer"
+          - step: 2
+            agent: "edu-designer"
+            bmad_mapping: "architect"
+            command: "create-stories"
+            next: "edu-creator"
+          - step: 3
+            agent: "edu-creator"
+            bmad_mapping: "dev"
+            command: "create-slides"
+            next: "complete"
+            
+    # 理论框架映射
+    framework_mapping:
+      - framework: "OBE"
+        agents: ["edu-planner", "edu-designer"]
+        checklist_items:
+          - "学习目标是否具体可衡量？"
+          - "教学活动是否服务于学习成果？"
+          - "评估方式是否能有效测量成果？"
+          
+      - framework: "布鲁姆认知分类学"
+        agents: ["edu-planner", "edu-designer", "edu-creator"]
+        levels: ["记忆", "理解", "应用", "分析", "评价", "创造"]
+        
+      - framework: "加涅九段教学法"
+        agents: ["edu-designer"]
+        events: ["引起注意", "告知目标", "回忆先决知识", "呈现刺激材料",
+                "提供学习指导", "诱发行为", "提供反馈", "评估行为", "增强保持和迁移"]
+                
+      - framework: "建构主义学习理论"
+        agents: ["edu-designer", "edu-creator", "edu-analyst"]
+        principles:
+          - "学习者是主动的知识建构者"
+          - "学习发生在真实情境中"
+          - "社会互动促进学习"
+          
+      - framework: "多媒体学习认知理论"
+        agents: ["edu-creator", "edu-tech"]
+        principles:
+          - "减少外在认知负荷"
+          - "管理必要认知负荷"
+          - "促进生成性认知处理"
+    
+    # 质量保证配置
+    quality_assurance:
+      enabled: true
+      consistency_checks: true
+      conflict_detection: true
+      validation_rules:
+        - "教育理论应用正确性"
+        - "文档结构完整性"
+        - "内容逻辑一致性"
+        - "格式规范符合性"
+        
+    # 用户界面配置
+    user_interface:
+      role_selection_prompt: "请选择您需要的教育智能体角色："
+      workflow_selection_prompt: "请选择适合的工作流程："
+      welcome_message: |
+        🎓 欢迎使用教育家工具箱 RooCode 集成！
+        
+        这是一个专门为教育场景设计的智能体协作平台。
+        基于成熟的教育理论框架，帮助您高效完成课程开发和教学设计。
+        
+        可用命令：
+        - *help: 显示可用命令
+        - *select-role: 选择教育智能体角色
+        - *show-workflows: 显示工作流选项
+        
+        开始您的教育创新之旅吧！
+        
+    # 性能优化配置
+    performance:
+      max_context_length: 128000
+      response_timeout: 30000
+      cache_enabled: true
+      compression_enabled: true

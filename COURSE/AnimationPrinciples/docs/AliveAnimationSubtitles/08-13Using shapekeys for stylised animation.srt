@@ -1,0 +1,1065 @@
+﻿1
+00:00:00,170 --> 00:00:01,010
+- [Instructor] In this video,
+
+2
+00:00:01,010 --> 00:00:03,640
+I will show you how we can use shapekey
+
+3
+00:00:03,640 --> 00:00:06,790
+to be creative with our animation
+
+4
+00:00:06,790 --> 00:00:10,170
+and generate additional
+effect on top of it.
+
+5
+00:00:10,170 --> 00:00:12,550
+I will publish a free tutorial on YouTube
+
+6
+00:00:12,550 --> 00:00:16,870
+on how to create the effects
+of the current final animation,
+
+7
+00:00:16,870 --> 00:00:19,282
+but you will find the
+link in the documentation.
+
+8
+00:00:19,282 --> 00:00:22,830
+Shapekeys allow you to deform an object
+
+9
+00:00:22,830 --> 00:00:24,310
+into another shape.
+
+10
+00:00:24,310 --> 00:00:27,890
+They are also known as
+morph target or blendshapes
+
+11
+00:00:27,890 --> 00:00:31,400
+in Maya or ZBrush, for example.
+
+12
+00:00:31,400 --> 00:00:35,320
+Shapekeys are often used
+to create facial expression
+
+13
+00:00:35,320 --> 00:00:39,350
+for your character that
+can be triggered later on.
+
+14
+00:00:39,350 --> 00:00:42,420
+It's great to create
+advanced facial expression
+
+15
+00:00:42,420 --> 00:00:44,870
+or quick test for your character.
+
+16
+00:00:44,870 --> 00:00:47,120
+Then the rigger can create controllers
+
+17
+00:00:47,120 --> 00:00:49,960
+so that you can trigger
+those shapekeys at will
+
+18
+00:00:49,960 --> 00:00:51,581
+in your animation.
+
+19
+00:00:51,581 --> 00:00:53,420
+(air whooshing)
+
+20
+00:00:53,420 --> 00:00:57,110
+shapekeys are a modification
+or a transformation
+
+21
+00:00:57,110 --> 00:00:58,200
+of the mesh,
+
+22
+00:00:58,200 --> 00:01:02,400
+so you will be able to
+find the shapekeys panel
+
+23
+00:01:02,400 --> 00:01:05,860
+into the mesh data of your object.
+
+24
+00:01:05,860 --> 00:01:10,380
+To create a shapekey, we simply
+need to click the plus icon
+
+25
+00:01:10,380 --> 00:01:11,367
+on the right of the panel.
+
+26
+00:01:11,367 --> 00:01:13,760
+The first shapekey to be created
+
+27
+00:01:13,760 --> 00:01:17,120
+will be automatically named basis.
+
+28
+00:01:17,120 --> 00:01:21,410
+It's some kind of snapshot
+of the current position
+
+29
+00:01:21,410 --> 00:01:24,340
+of each vertices in your mesh.
+
+30
+00:01:24,340 --> 00:01:28,700
+Whenever we jump into edit
+mode with a vertex selected,
+
+31
+00:01:28,700 --> 00:01:30,420
+in the properties panel
+
+32
+00:01:30,420 --> 00:01:34,040
+we can see the current
+location of this vertex.
+
+33
+00:01:34,040 --> 00:01:38,300
+The basis shapekey will record
+the position of each vertex
+
+34
+00:01:38,300 --> 00:01:42,170
+for our mesh, and this
+specific basis shapekey
+
+35
+00:01:42,170 --> 00:01:46,050
+is going to be the point of
+reference for the next shapekey.
+
+36
+00:01:46,050 --> 00:01:49,840
+It's a bit like the rest
+pose for a character rig.
+
+37
+00:01:49,840 --> 00:01:52,190
+From there, we can create another shapekey
+
+38
+00:01:52,190 --> 00:01:53,770
+by clicking the plus button.
+
+39
+00:01:53,770 --> 00:01:56,773
+And now render is no longer
+naming the shapekey basis,
+
+40
+00:01:57,630 --> 00:01:59,320
+but key number one.
+
+41
+00:01:59,320 --> 00:02:02,000
+Now, to be able to animate this shapekey,
+
+42
+00:02:02,000 --> 00:02:04,850
+we need to create a first deformation.
+
+43
+00:02:04,850 --> 00:02:06,380
+You need to be in edit mode,
+
+44
+00:02:06,380 --> 00:02:09,550
+and the most important
+thing is to make sure that
+
+45
+00:02:09,550 --> 00:02:12,210
+the key is currently selected.
+
+46
+00:02:12,210 --> 00:02:14,700
+To select it, you just
+need to left click it
+
+47
+00:02:14,700 --> 00:02:16,180
+and it will be highlighted.
+
+48
+00:02:16,180 --> 00:02:19,150
+From there, I can move one
+of the vertices of my mesh.
+
+49
+00:02:19,150 --> 00:02:22,010
+You can move as many vertices as you want.
+
+50
+00:02:22,010 --> 00:02:25,490
+And as soon as I will press
+tap to exit edit mode,
+
+51
+00:02:25,490 --> 00:02:28,190
+my mesh will return to the shape it had
+
+52
+00:02:29,040 --> 00:02:30,580
+on the basis shapekey.
+
+53
+00:02:30,580 --> 00:02:33,150
+From there, I can activate my shapekey
+
+54
+00:02:33,150 --> 00:02:37,010
+by simply increasing the
+value of key number one
+
+55
+00:02:37,010 --> 00:02:38,410
+from zero to one.
+
+56
+00:02:38,410 --> 00:02:41,477
+Blender will automatically
+interpolate the shapekey;
+
+57
+00:02:42,540 --> 00:02:45,740
+one being the shapekey
+we have currently built,
+
+58
+00:02:45,740 --> 00:02:47,540
+zero being the basis.
+
+59
+00:02:47,540 --> 00:02:49,830
+To understand how shapekeys work,
+
+60
+00:02:49,830 --> 00:02:51,410
+I will create a new shapekey,
+
+61
+00:02:51,410 --> 00:02:52,970
+then I will enter edit mode,
+
+62
+00:02:52,970 --> 00:02:55,400
+and I will rotate my whole character.
+
+63
+00:02:55,400 --> 00:02:57,650
+Note that you can rename your shapekeys
+
+64
+00:02:57,650 --> 00:02:59,360
+as any other data in Blender
+
+65
+00:02:59,360 --> 00:03:01,660
+by simply double-clicking its name.
+
+66
+00:03:01,660 --> 00:03:04,870
+As we have rotated our object in edit mode
+
+67
+00:03:04,870 --> 00:03:06,700
+by triggering the shapekey,
+
+68
+00:03:06,700 --> 00:03:09,130
+I'm expecting it to rotate in space,
+
+69
+00:03:09,130 --> 00:03:11,943
+exactly as I'm doing here in object mode.
+
+70
+00:03:12,850 --> 00:03:14,340
+I'm going back onto my model,
+
+71
+00:03:14,340 --> 00:03:16,130
+and I will trigger the shapekey.
+
+72
+00:03:16,130 --> 00:03:18,810
+What's going on here is that it seems that
+
+73
+00:03:18,810 --> 00:03:20,760
+my object is getting scaled
+
+74
+00:03:20,760 --> 00:03:22,810
+while I'm triggering the shapekey,
+
+75
+00:03:22,810 --> 00:03:24,660
+but this is not the case.
+
+76
+00:03:24,660 --> 00:03:27,330
+This is currently how shapekeys work,
+
+77
+00:03:27,330 --> 00:03:29,260
+and to better understand it,
+
+78
+00:03:29,260 --> 00:03:31,610
+I've tracked one of the vertices,
+
+79
+00:03:31,610 --> 00:03:34,120
+parenting a small sphere to this vertex.
+
+80
+00:03:34,120 --> 00:03:37,370
+If you carefully focus on this vertex,
+
+81
+00:03:37,370 --> 00:03:41,740
+you will see that it moves
+in a straight line in space,
+
+82
+00:03:41,740 --> 00:03:46,500
+and this is because a vertex
+only have location coordinates,
+
+83
+00:03:46,500 --> 00:03:50,650
+and Blender will simply move each vertices
+
+84
+00:03:50,650 --> 00:03:55,650
+in a straight line from
+their original basis position
+
+85
+00:03:56,040 --> 00:03:58,550
+toward the key frame position
+
+86
+00:03:58,550 --> 00:04:02,040
+over the key frame values
+that goes from zero to one,
+
+87
+00:04:02,040 --> 00:04:06,220
+so you can't perform a proper
+rotation using shapekey.
+
+88
+00:04:06,220 --> 00:04:11,220
+You can only perform translation
+of individual vertices.
+
+89
+00:04:11,250 --> 00:04:15,510
+So even if the final output
+looks a bit like a rotation,
+
+90
+00:04:15,510 --> 00:04:17,560
+this is not a rotation.
+
+91
+00:04:17,560 --> 00:04:20,830
+Each vertex is moving in a linear fashion
+
+92
+00:04:20,830 --> 00:04:25,313
+from its current basis position
+to the shapekey position.
+
+93
+00:04:25,313 --> 00:04:26,146
+(air whooshing)
+
+94
+00:04:26,146 --> 00:04:29,680
+Now, to better understand
+shapekeys extrapolation
+
+95
+00:04:29,680 --> 00:04:31,070
+and their behavior,
+
+96
+00:04:31,070 --> 00:04:33,800
+I have created this arrow shape,
+
+97
+00:04:33,800 --> 00:04:37,340
+and I will create the basis
+shapekey and a first key.
+
+98
+00:04:37,340 --> 00:04:39,970
+From there, I will jump into edit mode,
+
+99
+00:04:39,970 --> 00:04:42,680
+and, with my shapekey number one selected,
+
+100
+00:04:42,680 --> 00:04:45,000
+I will move by one Blender unit
+
+101
+00:04:45,000 --> 00:04:46,910
+the top vertices of the arrow.
+
+102
+00:04:46,910 --> 00:04:49,690
+Now, when I trigger my shapekey,
+
+103
+00:04:49,690 --> 00:04:53,220
+those vertices will
+move in a linear fashion
+
+104
+00:04:53,220 --> 00:04:56,150
+by one Blender unit on the Z-axis.
+
+105
+00:04:56,150 --> 00:05:00,440
+But since the shapekey occurs
+at the mesh data level,
+
+106
+00:05:00,440 --> 00:05:04,960
+I can rotate my data container, my object,
+
+107
+00:05:04,960 --> 00:05:05,793
+and trigger the shapekey.
+
+108
+00:05:05,793 --> 00:05:09,610
+and the shapekey will behave as expected.
+
+109
+00:05:09,610 --> 00:05:13,720
+Now, if we have a closer look
+to our shapekey's information,
+
+110
+00:05:13,720 --> 00:05:16,087
+we have a minimum range
+and a maximum range.
+
+111
+00:05:16,087 --> 00:05:19,780
+This will allow us to
+either clamp or increase
+
+112
+00:05:19,780 --> 00:05:22,270
+the interpolation range of the shapekey.
+
+113
+00:05:22,270 --> 00:05:25,270
+If I count the maximum value to 0.5,
+
+114
+00:05:25,270 --> 00:05:27,320
+I won't be able to go further.
+
+115
+00:05:27,320 --> 00:05:29,737
+If I now allow a maximum value of two,
+
+116
+00:05:29,737 --> 00:05:32,610
+the vertices of the arrow's head
+
+117
+00:05:32,610 --> 00:05:35,180
+will move two times further away
+
+118
+00:05:35,180 --> 00:05:36,390
+in a linear fashion.
+
+119
+00:05:36,390 --> 00:05:38,970
+If I allow a negative minimum range,
+
+120
+00:05:38,970 --> 00:05:42,610
+I will be able to extrapolate
+the current shapekey
+
+121
+00:05:42,610 --> 00:05:46,435
+backward or negatively, and
+the vertices will just move
+
+122
+00:05:46,435 --> 00:05:47,900
+the opposite direction.
+
+123
+00:05:47,900 --> 00:05:51,070
+You can combine as many
+shapekeys as you want,
+
+124
+00:05:51,070 --> 00:05:53,100
+and this is how we generally create
+
+125
+00:05:53,100 --> 00:05:55,290
+complex facial expression.
+
+126
+00:05:55,290 --> 00:05:58,520
+I have created a couple
+of additional shapekeys,
+
+127
+00:05:58,520 --> 00:06:02,090
+and now I can trigger all the
+shapekeys at the same time
+
+128
+00:06:02,090 --> 00:06:04,370
+or combine different values.
+
+129
+00:06:04,370 --> 00:06:07,420
+The coordinate modification
+of each vertices
+
+130
+00:06:07,420 --> 00:06:10,050
+will be added one on top of each other,
+
+131
+00:06:10,050 --> 00:06:13,200
+based on the factor of each shapekey.
+
+132
+00:06:13,200 --> 00:06:14,900
+If you need to edit your mesh,
+
+133
+00:06:14,900 --> 00:06:18,980
+make sure that you have
+selected the basis shapekey,
+
+134
+00:06:18,980 --> 00:06:21,660
+or you will be editing
+the current shapekey,
+
+135
+00:06:21,660 --> 00:06:22,830
+not the basis.
+
+136
+00:06:22,830 --> 00:06:24,510
+We can use vertex group
+
+137
+00:06:24,510 --> 00:06:26,920
+to limit the influence of a shapekey.
+
+138
+00:06:26,920 --> 00:06:28,490
+In the vertex group panel,
+
+139
+00:06:28,490 --> 00:06:30,450
+I will create a new group,
+
+140
+00:06:30,450 --> 00:06:33,250
+and I will assign at 100%
+
+141
+00:06:33,250 --> 00:06:35,000
+the tip of the arrow,
+
+142
+00:06:35,000 --> 00:06:38,930
+and with a value of 50%,
+the base of the arrow.
+
+143
+00:06:38,930 --> 00:06:42,930
+Now, if I assign this vertex
+group to the first shapekey
+
+144
+00:06:42,930 --> 00:06:45,630
+by selecting it in the vertex group slot,
+
+145
+00:06:45,630 --> 00:06:48,150
+and I now trigger the shapekey,
+
+146
+00:06:48,150 --> 00:06:51,320
+you can see that the tip
+of the arrow is moving
+
+147
+00:06:51,320 --> 00:06:52,900
+at its full range,
+
+148
+00:06:52,900 --> 00:06:57,350
+while the other vertices only
+move by 50% of their range.
+
+149
+00:06:57,350 --> 00:06:59,350
+If I now select one of the vertex
+
+150
+00:06:59,350 --> 00:07:03,150
+and I exclude it by removing
+it from the vertex group,
+
+151
+00:07:03,150 --> 00:07:04,520
+it will no longer move.
+
+152
+00:07:04,520 --> 00:07:07,230
+The vertex group value directly influence
+
+153
+00:07:07,230 --> 00:07:09,950
+the amount of the shapekey motions
+
+154
+00:07:09,950 --> 00:07:12,100
+that will be applied to each vertex.
+
+155
+00:07:12,100 --> 00:07:16,230
+Finally, you can use other
+shapekeys as a basis.
+
+156
+00:07:16,230 --> 00:07:18,910
+This way you can create
+complex transformation
+
+157
+00:07:18,910 --> 00:07:20,420
+by changing the point of reference.
+
+158
+00:07:20,420 --> 00:07:21,830
+(air whooshing)
+
+159
+00:07:21,830 --> 00:07:25,080
+So let's now have a
+look on what we could do
+
+160
+00:07:25,080 --> 00:07:28,870
+with those shapekeys onto
+our current animation.
+
+161
+00:07:28,870 --> 00:07:32,730
+I will hide the background
+and effects collection,
+
+162
+00:07:32,730 --> 00:07:35,010
+so that we have a clearer viewport,
+
+163
+00:07:35,010 --> 00:07:38,510
+and I will directly select
+my character object.
+
+164
+00:07:38,510 --> 00:07:42,010
+But since the character
+was linked into this scene,
+
+165
+00:07:42,010 --> 00:07:44,900
+I can't modify any of the mesh data.
+
+166
+00:07:44,900 --> 00:07:47,340
+To be able to edit those data,
+
+167
+00:07:47,340 --> 00:07:49,570
+I need to make the mesh local,
+
+168
+00:07:49,570 --> 00:07:53,170
+and also the object of
+the character local.
+
+169
+00:07:53,170 --> 00:07:55,940
+With both the container
+and its data local,
+
+170
+00:07:55,940 --> 00:07:58,490
+I can now add a new shapekey.
+
+171
+00:07:58,490 --> 00:08:02,110
+Since we will directly be
+editing our character model,
+
+172
+00:08:02,110 --> 00:08:06,510
+I can hide the rig, and I will
+scrub through the animation,
+
+173
+00:08:06,510 --> 00:08:08,700
+and I will try to spot the moment
+
+174
+00:08:08,700 --> 00:08:11,120
+where the character is moving very fast,
+
+175
+00:08:11,120 --> 00:08:13,470
+like this hook motion, for example,
+
+176
+00:08:13,470 --> 00:08:16,320
+I've already created smears using the rig,
+
+177
+00:08:16,320 --> 00:08:19,793
+but now I can add extra
+details using shapekeys.
+
+178
+00:08:21,210 --> 00:08:24,110
+Clicking the plus button,
+I will add a new shapekey.
+
+179
+00:08:24,110 --> 00:08:26,390
+I will call it hook zero one,
+
+180
+00:08:26,390 --> 00:08:28,130
+and I will jump into edit mode,
+
+181
+00:08:28,130 --> 00:08:29,410
+pressing the tab key.
+
+182
+00:08:29,410 --> 00:08:33,260
+To be able to see your
+character posed in edit mode,
+
+183
+00:08:33,260 --> 00:08:36,090
+make sure to enable all the display option
+
+184
+00:08:36,090 --> 00:08:38,150
+in the armature modifier.
+
+185
+00:08:38,150 --> 00:08:40,860
+From there, with my shapekey selected,
+
+186
+00:08:40,860 --> 00:08:43,120
+I can start editing my character.
+
+187
+00:08:43,120 --> 00:08:45,420
+The process is simply to pull
+
+188
+00:08:45,420 --> 00:08:48,200
+some of the vertices of the character
+
+189
+00:08:48,200 --> 00:08:50,480
+toward its previous position,
+
+190
+00:08:50,480 --> 00:08:53,280
+as if part of his mesh was dragging
+
+191
+00:08:53,280 --> 00:08:54,930
+during this quick motion.
+
+192
+00:08:54,930 --> 00:08:58,750
+I need to disable the X
+symmetry while in edit mode,
+
+193
+00:08:58,750 --> 00:09:01,410
+and now I can pull some
+of the vertices back,
+
+194
+00:09:01,410 --> 00:09:03,353
+and start to create my effect.
+
+195
+00:09:04,300 --> 00:09:08,260
+The important thing is that
+those effect will be seen
+
+196
+00:09:08,260 --> 00:09:09,880
+from the camera view,
+
+197
+00:09:09,880 --> 00:09:13,670
+so it's important to make them
+work from the camera view.
+
+198
+00:09:13,670 --> 00:09:18,150
+You can sure edit your mesh
+from any point of view you want,
+
+199
+00:09:18,150 --> 00:09:20,800
+but make sure that it does look good
+
+200
+00:09:20,800 --> 00:09:23,040
+from your camera point of view
+
+201
+00:09:23,040 --> 00:09:25,160
+as it is what is going to be rendered.
+
+202
+00:09:25,160 --> 00:09:27,370
+If you want to create broader shapes
+
+203
+00:09:27,370 --> 00:09:29,600
+or move multiple vertices at once,
+
+204
+00:09:29,600 --> 00:09:32,340
+you can enable the editing fall off.
+
+205
+00:09:32,340 --> 00:09:35,160
+Once you are done with
+your first shapekey,
+
+206
+00:09:35,160 --> 00:09:37,270
+you can exit edit mode,
+
+207
+00:09:37,270 --> 00:09:39,700
+and trigger it by changing its value.
+
+208
+00:09:39,700 --> 00:09:41,580
+As seen in chapter two,
+
+209
+00:09:41,580 --> 00:09:45,570
+shapekeys, as most
+Blender data, can be keyed
+
+210
+00:09:45,570 --> 00:09:48,300
+by pressing I over the keyframe value.
+
+211
+00:09:48,300 --> 00:09:51,230
+Then I can edit this value whenever I want
+
+212
+00:09:51,230 --> 00:09:52,650
+over my animation.
+
+213
+00:09:52,650 --> 00:09:56,800
+This will activate or
+deactivate the current shapekey,
+
+214
+00:09:56,800 --> 00:10:00,660
+or, if you change the
+value over multiple frames,
+
+215
+00:10:00,660 --> 00:10:03,980
+Blender will interpolate
+the value of the shapekeys.
+
+216
+00:10:03,980 --> 00:10:05,920
+For example, in the previous frame,
+
+217
+00:10:05,920 --> 00:10:08,170
+I can add a bit of the shapekey
+
+218
+00:10:08,170 --> 00:10:10,730
+to initiate this transformation
+
+219
+00:10:10,730 --> 00:10:13,260
+and set it to zero on the previous key.
+
+220
+00:10:13,260 --> 00:10:15,860
+Once you're happy with your first effect,
+
+221
+00:10:15,860 --> 00:10:17,650
+you can add more of them.
+
+222
+00:10:17,650 --> 00:10:19,313
+When working on a shot like that,
+
+223
+00:10:19,313 --> 00:10:23,140
+that this is going to be the
+final touch, the final effect.
+
+224
+00:10:23,140 --> 00:10:26,230
+So I advise you to create
+multiple shapekeys.
+
+225
+00:10:26,230 --> 00:10:30,720
+For example, here, I want to
+add few details on the arm too.
+
+226
+00:10:30,720 --> 00:10:33,470
+I will create a dedicated shapekey
+
+227
+00:10:33,470 --> 00:10:37,095
+instead of adding it on the
+same shapekey as before.
+
+228
+00:10:37,095 --> 00:10:39,750
+This way, it's gonna be
+easier for me to edit
+
+229
+00:10:39,750 --> 00:10:43,300
+whether the shapekey
+of the arm or the head
+
+230
+00:10:43,300 --> 00:10:45,890
+delay one compared to the other,
+
+231
+00:10:45,890 --> 00:10:48,630
+or simply remove it without destroying
+
+232
+00:10:48,630 --> 00:10:50,190
+what I've done for the head.
+
+233
+00:10:50,190 --> 00:10:53,280
+Or you will also be able
+to show different version
+
+234
+00:10:53,280 --> 00:10:55,510
+to your art director, for example.
+
+235
+00:10:55,510 --> 00:10:58,260
+In my case, I've also created a shapekey
+
+236
+00:10:58,260 --> 00:11:00,370
+during the kick impact
+
+237
+00:11:00,370 --> 00:11:02,910
+to try to blend with the previous shape.
+
+238
+00:11:02,910 --> 00:11:06,380
+This kind of effect on
+top of the smear effect
+
+239
+00:11:06,380 --> 00:11:08,220
+will fake motion blur,
+
+240
+00:11:08,220 --> 00:11:11,940
+and will help your audience
+to better read your animation.
+
+241
+00:11:11,940 --> 00:11:14,560
+And, as explained in the previous video,
+
+242
+00:11:14,560 --> 00:11:19,490
+whatever you do to improve the
+readability of your animation
+
+243
+00:11:19,490 --> 00:11:21,040
+will take it to the next level.
+
+244
+00:11:21,968 --> 00:11:26,912
+(bag slamming)
+(man grunting)
+

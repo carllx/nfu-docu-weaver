@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.carllx.ytc</string>
+	<key>connections</key>
+	<dict>
+		<key>0B03F2FE-C20E-40FE-A32F-DDF370C1E883</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7797E4CA-4DA9-471E-BAC2-78020EACE2C2</string>
+				<key>disabled</key>
+				<true/>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9FF39EB1-8D5E-4359-AB64-B1C8B285D67F</string>
+				<key>disabled</key>
+				<true/>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1475DFF8-8D7B-4405-AC7B-C4668B244A38</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>92DAE70F-28BE-4280-B2DD-9DBC40A96301</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>19610611-E877-4B17-BF9B-25DF4D071117</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7995DD1C-D8E1-4727-96ED-FB9ADA8A2282</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B2139D6E-4C6E-432D-83A1-3ACB5484F854</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1475DFF8-8D7B-4405-AC7B-C4668B244A38</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B6494B3F-06E4-45B6-8C9F-DEE88937A0F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CB33EA31-86DA-4CF4-ACDB-5AB083B7DF76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BDFE6CE5-2976-4331-A723-F0C4BC50D30A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C5E85D4E-04DD-4EB7-9CEC-5EA00723FDF3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C5E85D4E-04DD-4EB7-9CEC-5EA00723FDF3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>92DAE70F-28BE-4280-B2DD-9DBC40A96301</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CB33EA31-86DA-4CF4-ACDB-5AB083B7DF76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>92DAE70F-28BE-4280-B2DD-9DBC40A96301</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CEA3A4A5-E56D-4B8F-A345-BFC667A8CC76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AB180709-DAC9-4BAA-A9B8-C1859F3E24EB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D45D0613-6E6F-4313-9C6D-1B1483AEBD8A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8EF35331-83CF-4E22-BA7E-618D1538ED78</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6819A03-76CE-40D1-848A-4AD8D0023950</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>54CD294D-1EF3-44AF-8CC0-2899EFD5478C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E1E5B0F4-B004-4753-B4CB-A7E1DF428B9C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19610611-E877-4B17-BF9B-25DF4D071117</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>carllx</string>
+	<key>description</key>
+	<string>Controls Youtube Video Playing in Google Chrome</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Excerpt (Google Chrome)</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>uis</string>
+				<key>subtext</key>
+				<string>Upload Screenshot to Imgur</string>
+				<key>text</key>
+				<string>Upload Image: Screenshot</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BDFE6CE5-2976-4331-A723-F0C4BC50D30A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd "${alfred_workflow_directory}" &amp;&amp; ./src/cli/upload_screenshot.sh</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C5E85D4E-04DD-4EB7-9CEC-5EA00723FDF3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>92DAE70F-28BE-4280-B2DD-9DBC40A96301</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>uic</string>
+				<key>subtext</key>
+				<string>Upload Clipboard Image to Imgur</string>
+				<key>text</key>
+				<string>Upload Image: Clipboard</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B2139D6E-4C6E-432D-83A1-3ACB5484F854</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd "${alfred_workflow_directory}" &amp;&amp; ./src/cli/upload_clipboard.sh</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1475DFF8-8D7B-4405-AC7B-C4668B244A38</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>uif</string>
+				<key>subtext</key>
+				<string>Upload Selected Files to Imgur</string>
+				<key>text</key>
+				<string>Upload Image: Files</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B6494B3F-06E4-45B6-8C9F-DEE88937A0F6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd "${alfred_workflow_directory}" &amp;&amp; ./src/cli/upload_files.sh</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CB33EA31-86DA-4CF4-ACDB-5AB083B7DF76</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>convert_md_images</string>
+				<key>subtext</key>
+				<string>选择 Markdown 文件，自动处理并上传本地图片到图床</string>
+				<key>text</key>
+				<string>转换 Markdown 本地图片</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D6819A03-76CE-40D1-848A-4AD8D0023950</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd "${alfred_workflow_directory}" &amp;&amp; ./src/cli/md_img_to_cloud.sh</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>54CD294D-1EF3-44AF-8CC0-2899EFD5478C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd "${alfred_workflow_directory}" &amp;&amp; ./src/cli/epub_to_obsidian.sh -s</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8EF35331-83CF-4E22-BA7E-618D1538ED78</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>epub(s)_to_markdown</string>
+				<key>subtext</key>
+				<string>选择一个或多个 EPUB 文件，转换为 Obsidian 兼容的 Markdown 格式</string>
+				<key>text</key>
+				<string>转换 EPUB 到 Markdown</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D45D0613-6E6F-4313-9C6D-1B1483AEBD8A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd "${alfred_workflow_directory}" &amp;&amp; osascript -l JavaScript "./src/core/url_extractor/alfred_browser_tabs.js"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>19610611-E877-4B17-BF9B-25DF4D071117</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>ec</string>
+				<key>subtext</key>
+				<string>Copy chrome's URL to the clipboard</string>
+				<key>text</key>
+				<string>Excerpt URL To MD Clipboard</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E1E5B0F4-B004-4753-B4CB-A7E1DF428B9C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>7995DD1C-D8E1-4727-96ED-FB9ADA8A2282</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import csv
+import clipboard
+
+# Get the contents of the clipboard
+clipboard_data = clipboard.paste()
+
+# Read the clipboard data as a CSV file
+csv_reader = csv.reader(clipboard_data.splitlines())
+
+# Get the header row
+headers = next(csv_reader)
+
+out_strings = []
+# Iterate through the rows and create the desired output format
+for i,row in enumerate(csv_reader):
+    out_string = "paper {} is ".format(i+1)
+    for header in headers:
+        if header == "Author":
+            author = [i.strip() for i in row[headers.index(header)].split(";")]
+            author = [i.split(",") for i in author]
+            author = "; ".join([f"{i[1].strip()}, {i[0].strip()}" for i in author])
+            out_string += f"{header}: {author}, "
+        else:
+            out_string += f"{header}: {row[headers.index(header)]}, "
+    out_strings.append(out_string)
+
+# Copy the output strings to the clipboard
+output = "\n".join(out_strings)
+clipboard.copy(output)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7797E4CA-4DA9-471E-BAC2-78020EACE2C2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>55</string>
+				<key>subtext</key>
+				<string>Copy chrome's URL to the clipboard</string>
+				<key>text</key>
+				<string>Excerpt URL To MD Clipboard</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0B03F2FE-C20E-40FE-A32F-DDF370C1E883</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import subprocess
+import csv
+
+# Get the contents of the clipboard
+clipboard_content = subprocess.run(["osascript", "-e", "get the clipboard as «class utf8»"], capture_output=True).stdout
+
+# Read the clipboard data as a CSV file
+clipboard_content = clipboard_content.decode() # convert to string
+csv_reader = csv.reader(clipboard_content.splitlines())
+
+# Get the header row
+headers = next(csv_reader)
+
+out_strings = []
+# Iterate through the rows and create the desired output format
+for i,row in enumerate(csv_reader):
+    author = [i.strip() for i in row[headers.index("Author")].split(";")]
+    author = [i.split(",") for i in author]
+    author = "; ".join([f"{i[1].strip()}, {i[0].strip()}" for i in author])
+    out_string = f"paper {i+1} is titled &lt;{row[headers.index('Title')]}&gt;, by {author}."
+    out_strings.append(out_string)
+
+# Copy the output strings to the clipboard
+output = "\n".join(out_strings)
+
+
+
+clipboard_content = output
+subprocess.run(["osascript", "-e", f'set the clipboard to "{clipboard_content}"'])</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9FF39EB1-8D5E-4359-AB64-B1C8B285D67F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string># Get the file's path which is selected in finder
+folder_dir=$(osascript -e 'tell application "Finder" to get POSIX path of (selection as alias)' 2&gt;/dev/null)
+
+# 获取父目录和文件夹名
+parent_dir=$(dirname "$folder_dir")
+file_name=$(basename "$folder_dir")
+
+# 设置输出文件路径,改为.txt后缀
+output_file="${parent_dir}/${file_name}.txt"
+
+# 遍历文件夹中的所有.srt文件
+find "$folder_dir" -type f -name "*.srt" | sort | while read file; do
+    if [ -f "$file" ]; then
+        echo "正在处理: $file"
+        
+        # 添加文件名作为二级标题
+        echo "## $(basename "$file" .srt)" &gt;&gt; "$output_file"
+        echo "" &gt;&gt; "$output_file"
+        
+        # 读取文件内容,去除时间戳和序号,只保留字幕文本
+        sed -E '/^[0-9]+$/d; /^[0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3} --&gt; [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3}$/d; /^$/d' "$file" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' &gt;&gt; "$output_file"
+        
+        # 在每个文件内容之后添加空行
+        echo -e "\n" &gt;&gt; "$output_file"
+    fi
+done
+
+echo "所有字幕文件已合并到 $output_file"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>AB180709-DAC9-4BAA-A9B8-C1859F3E24EB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>SRT2TXT</string>
+				<key>subtext</key>
+				<string>Copy chrome's URL to the clipboard</string>
+				<key>text</key>
+				<string>Combine srt from folder selected</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CEA3A4A5-E56D-4B8F-A345-BFC667A8CC76</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0B03F2FE-C20E-40FE-A32F-DDF370C1E883</key>
+		<dict>
+			<key>note</key>
+			<string>CSV</string>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>1135</real>
+		</dict>
+		<key>1475DFF8-8D7B-4405-AC7B-C4668B244A38</key>
+		<dict>
+			<key>xpos</key>
+			<real>365</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>19610611-E877-4B17-BF9B-25DF4D071117</key>
+		<dict>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>885</real>
+		</dict>
+		<key>54CD294D-1EF3-44AF-8CC0-2899EFD5478C</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>7797E4CA-4DA9-471E-BAC2-78020EACE2C2</key>
+		<dict>
+			<key>xpos</key>
+			<real>405</real>
+			<key>ypos</key>
+			<real>1070</real>
+		</dict>
+		<key>7995DD1C-D8E1-4727-96ED-FB9ADA8A2282</key>
+		<dict>
+			<key>xpos</key>
+			<real>680</real>
+			<key>ypos</key>
+			<real>885</real>
+		</dict>
+		<key>8EF35331-83CF-4E22-BA7E-618D1538ED78</key>
+		<dict>
+			<key>note</key>
+			<string>epub_to_obsidian(selected)</string>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>690</real>
+		</dict>
+		<key>92DAE70F-28BE-4280-B2DD-9DBC40A96301</key>
+		<dict>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+		<key>9FF39EB1-8D5E-4359-AB64-B1C8B285D67F</key>
+		<dict>
+			<key>note</key>
+			<string>CSV</string>
+			<key>xpos</key>
+			<real>405</real>
+			<key>ypos</key>
+			<real>1205</real>
+		</dict>
+		<key>AB180709-DAC9-4BAA-A9B8-C1859F3E24EB</key>
+		<dict>
+			<key>xpos</key>
+			<real>410</real>
+			<key>ypos</key>
+			<real>1345</real>
+		</dict>
+		<key>B2139D6E-4C6E-432D-83A1-3ACB5484F854</key>
+		<dict>
+			<key>note</key>
+			<string>Upload Clipboard Image to Imgur</string>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>B6494B3F-06E4-45B6-8C9F-DEE88937A0F6</key>
+		<dict>
+			<key>note</key>
+			<string>Upload Selected Files to Imgur</string>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>BDFE6CE5-2976-4331-A723-F0C4BC50D30A</key>
+		<dict>
+			<key>note</key>
+			<string>Upload Screenshot to Imgur</string>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>C5E85D4E-04DD-4EB7-9CEC-5EA00723FDF3</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>CB33EA31-86DA-4CF4-ACDB-5AB083B7DF76</key>
+		<dict>
+			<key>xpos</key>
+			<real>365</real>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>CEA3A4A5-E56D-4B8F-A345-BFC667A8CC76</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>1345</real>
+		</dict>
+		<key>D45D0613-6E6F-4313-9C6D-1B1483AEBD8A</key>
+		<dict>
+			<key>note</key>
+			<string>Upload Selected Files to Imgur</string>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>690</real>
+		</dict>
+		<key>D6819A03-76CE-40D1-848A-4AD8D0023950</key>
+		<dict>
+			<key>note</key>
+			<string>Upload Selected Files to Imgur</string>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>E1E5B0F4-B004-4753-B4CB-A7E1DF428B9C</key>
+		<dict>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>885</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variables</key>
+	<dict>
+		<key>alfred_workflow_directory</key>
+		<string>/Users/yamlam/Documents/obsdiannote/Scripts/Alfred.alfredpreferences/workflows/user.workflow.C8ADF3D7-1D26-405D-9607-07EEECCB1A78/</string>
+		<key>clipboard</key>
+		<string></string>
+	</dict>
+	<key>version</key>
+	<string>0.01</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

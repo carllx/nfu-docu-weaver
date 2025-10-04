@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cpqlvvkascdgdddhmpr0",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "广州美术学院公共艺术专业社会实践课程的几个层次",
+            "fileID": "cpqlog9hd0n7oh7m2ofg",
+            "itemID": 2805,
+            "citation": "刘佳婧. (2020). 广州美术学院公共艺术专业社会实践课程的几个层次. 公共艺术, 76–81.\n",
+            "citationShort": "刘佳婧, 2020",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题：教学中有提及西方的当代艺术吗?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 广州美术学院公共艺术专业社会实践课程的几个层次, was published on 2020. (It can be cite this paper as 刘佳婧, 2020 on your answer). \n\n",
+    "response": "根据刘佳婧在2020年发表的论文《广州美术学院公共艺术专业社会实践课程的几个层次》中的描述，教学中并没有直接提及西方的当代艺术。文中主要讨论了广州美术学院公共艺术专业的社会实践课程体系，包括“田野观察”、“在地性创作”和“社会课题共建”三个层次，以及这些层次之间的相互关系和教学实践。文中强调了公共艺术的社会性、公共性和参与性，以及公共艺术专业教学与社会现场之间的联系。\n\n然而，文中提到了“写生”课程，这一课程融合了中国传统文人笔墨精神和西方绘画理性意志，这可能暗示了西方艺术影响的存在，但并没有明确指出是当代艺术。此外，文中提到了权美媛（Miwon Kwon）的研究，她在《空间的连续：在地性艺术与地方身份》一书中讨论了在地性艺术，这可能涉及到西方艺术理论，但同样没有明确指出是否包括西方当代艺术。\n\n因此，根据文中的信息，教学中并没有明确提及西方的当代艺术。以下是Markdown格式的引用：\n\n```markdown\n根据刘佳婧（2020）的研究，广州美术学院公共艺术专业的社会实践课程并没有直接提及西方的当代艺术。文中主要探讨了“田野观察”、“在地性创作”和“社会课题共建”三个层次的教学实践，而并未明确指出西方当代艺术的相关内容。\n```",
+    "refs": [
+        "cpqlog9hd0n7oh7m2ofg"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpqlvvphd0n7oh7mlqeg",
+    "req_id": "cpqlvvphd0n7oh7mlqf0",
+    "resp_id": "cpqlvvphd0n7oh7mlqfg",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题：教学中有提及西方的当代艺术吗?"
+}

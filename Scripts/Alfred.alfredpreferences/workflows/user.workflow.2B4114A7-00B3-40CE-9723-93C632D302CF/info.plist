@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>class_tools</string>
+	<key>connections</key>
+	<dict>
+		<key>1BA1C3E5-80E0-4C68-AD2C-4EBFAA2C70DD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>43CB74F1-36F4-47C8-A764-737242B75E7E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>carllx</string>
+	<key>description</key>
+	<string>制作课件的工具</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>class-utils</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+# 定义输出文件
+OUTPUT_FILE="/Users/yamlam/Downloads/merged_content.md"
+
+# 清空或创建输出文件
+&gt; "$OUTPUT_FILE"
+
+echo "开始执行脚本..." &gt;&gt; "$OUTPUT_FILE"
+echo "时间: $(date)" &gt;&gt; "$OUTPUT_FILE"
+echo "" &gt;&gt; "$OUTPUT_FILE"
+
+# 创建临时文件来存储文件夹路径
+temp_folders=$(mktemp)
+
+# 获取选中文件夹的路径并保存到临时文件
+osascript &lt;&lt; 'EOF' &gt; "$temp_folders"
+tell application "Finder"
+    set selectedItems to selection as alias list
+    set pathList to {}
+    repeat with anItem in selectedItems
+        set end of pathList to POSIX path of anItem
+    end repeat
+    set AppleScript's text item delimiters to linefeed
+    return pathList as string
+end tell
+EOF
+
+# 检查是否获取到文件夹路径
+if [ ! -s "$temp_folders" ]; then
+    echo "错误: 未在 Finder 中选择任何文件夹" &gt;&gt; "$OUTPUT_FILE"
+    rm "$temp_folders"
+    exit 1
+fi
+
+echo "找到的文件夹路径:" &gt;&gt; "$OUTPUT_FILE"
+cat "$temp_folders" &gt;&gt; "$OUTPUT_FILE"
+echo "" &gt;&gt; "$OUTPUT_FILE"
+
+# 统计变量
+total_folders=0
+total_md_files=0
+
+# 处理每个文件夹路径
+while IFS= read -r folder_path; do
+    # 跳过空行
+    [ -z "$folder_path" ] &amp;&amp; continue
+    
+    # 检查文件夹是否存在
+    if [ ! -d "$folder_path" ]; then
+        echo "警告: 文件夹不存在: $folder_path" &gt;&gt; "$OUTPUT_FILE"
+        continue
+    fi
+
+    total_folders=$((total_folders + 1))
+    folder_name=$(basename "$folder_path")
+    
+    echo "正在处理文件夹 $total_folders: $folder_name" &gt;&gt; "$OUTPUT_FILE"
+    
+    # 添加文件夹名称作为 H1 标题
+    echo "# $folder_name" &gt;&gt; "$OUTPUT_FILE"
+    echo "" &gt;&gt; "$OUTPUT_FILE"
+
+    # 创建临时文件来存储当前文件夹的 md 文件列表
+    temp_md_files=$(mktemp)
+    find "$folder_path" -name "*.md" -type f | sort &gt; "$temp_md_files"
+    
+    # 统计当前文件夹中的 md 文件数量
+    folder_md_count=$(wc -l &lt; "$temp_md_files")
+    
+    if [ "$folder_md_count" -eq 0 ]; then
+        echo "在文件夹 '$folder_name' 中未找到 .md 文件" &gt;&gt; "$OUTPUT_FILE"
+        echo "" &gt;&gt; "$OUTPUT_FILE"
+    else
+        echo "在文件夹 '$folder_name' 中找到 $folder_md_count 个 .md 文件" &gt;&gt; "$OUTPUT_FILE"
+        echo "" &gt;&gt; "$OUTPUT_FILE"
+        
+        # 处理当前文件夹中的每个 md 文件
+        while IFS= read -r md_file; do
+            [ -z "$md_file" ] &amp;&amp; continue
+            
+            file_basename=$(basename "$md_file" .md)
+            
+            echo "处理文件: $file_basename" &gt;&gt; "$OUTPUT_FILE"
+            
+            # 添加文件名作为 H2 标题
+            echo "## $file_basename" &gt;&gt; "$OUTPUT_FILE"
+            echo "" &gt;&gt; "$OUTPUT_FILE"
+
+            # 添加文件内容
+            if [ -r "$md_file" ]; then
+                cat "$md_file" &gt;&gt; "$OUTPUT_FILE"
+                total_md_files=$((total_md_files + 1))
+            else
+                echo "无法读取文件: $md_file" &gt;&gt; "$OUTPUT_FILE"
+            fi
+
+            # 添加分隔符
+            echo "" &gt;&gt; "$OUTPUT_FILE"
+            echo "---" &gt;&gt; "$OUTPUT_FILE"
+            echo "" &gt;&gt; "$OUTPUT_FILE"
+        done &lt; "$temp_md_files"
+    fi
+    
+    # 清理当前文件夹的临时文件
+    rm "$temp_md_files"
+    
+    # 在文件夹之间添加额外的分隔
+    echo "" &gt;&gt; "$OUTPUT_FILE"
+    
+done &lt; "$temp_folders"
+
+# 清理主临时文件
+rm "$temp_folders"
+
+# 添加总结信息
+echo "" &gt;&gt; "$OUTPUT_FILE"
+echo "## 合并总结" &gt;&gt; "$OUTPUT_FILE"
+echo "" &gt;&gt; "$OUTPUT_FILE"
+echo "- 处理的文件夹数量: $total_folders" &gt;&gt; "$OUTPUT_FILE"
+echo "- 合并的 Markdown 文件数量: $total_md_files" &gt;&gt; "$OUTPUT_FILE"
+echo "- 输出文件: $OUTPUT_FILE" &gt;&gt; "$OUTPUT_FILE"
+echo "- 完成时间: $(date)" &gt;&gt; "$OUTPUT_FILE"
+
+# 在终端输出完成信息
+echo "合并完成!"
+echo "处理了 $total_folders 个文件夹，合并了 $total_md_files 个 Markdown 文件"
+echo "输出文件: $OUTPUT_FILE"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>43CB74F1-36F4-47C8-A764-737242B75E7E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>merge-md-by-folders</string>
+				<key>subtext</key>
+				<string>merge-md-by-folders</string>
+				<key>text</key>
+				<string>merge-md-by-folders</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1BA1C3E5-80E0-4C68-AD2C-4EBFAA2C70DD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>1BA1C3E5-80E0-4C68-AD2C-4EBFAA2C70DD</key>
+		<dict>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>175</real>
+		</dict>
+		<key>43CB74F1-36F4-47C8-A764-737242B75E7E</key>
+		<dict>
+			<key>xpos</key>
+			<real>310</real>
+			<key>ypos</key>
+			<real>175</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

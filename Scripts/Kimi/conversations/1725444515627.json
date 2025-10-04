@@ -1,0 +1,26 @@
+{
+    "conversation_id": "crc34bc5r38ricbh7rj0",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Unity 2022 Mobile Game Development: Build and publish engaging games for Android and iOS",
+            "fileID": "crc32t2tnn0k5741ss80",
+            "itemID": 3976,
+            "citation": "Doran, J. P. (2023). Unity 2022 Mobile Game Development: Build and publish engaging games for Android and iOS (3rd edition). Packt Publishing.\n",
+            "citationShort": "Doran, 2023",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Unity 2022 Mobile Game Development: Build and publish engaging games for Android and iOS, was published on 2023. (It can be cite this paper as Doran, 2023 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 前言\n- 书籍介绍\n- 版权声明\n- 出版信息\n- 致谢\n\n## 第一部分：游戏玩法/开发设置\n### 第1章：构建你的游戏\n- 技术要求\n- 设置项目\n- 创建玩家角色\n- 通过C#脚本移动玩家\n- 使用属性和XML注释改进脚本\n- `Update` 函数与 `FixedUpdate` 函数\n- 让摄像机跟随玩家\n- 创建基础瓷砖\n- 制作无尽游戏\n- 创建障碍物\n\n### 第2章：为Android和iOS开发设置项目\n- 技术要求\n- 介绍构建设置菜单\n- 为PC构建项目\n- 导出Android项目\n- 安装Android构建支持\n- 更新Android项目的构建和玩家设置\n- 使用模拟器运行Android APK\n- 将项目放到Android设备上\n- Unity的iOS设置和Xcode安装\n- 为iOS构建项目\n- 通过iOS模拟器运行项目\n\n## 第二部分：移动特定功能\n### 第3章：移动输入/触摸控制\n- 技术要求\n- 使用鼠标输入\n- 屏幕空间与世界空间\n- 使用触摸控制移动\n- 使用Unity Remote\n- Android设置Unity Remote\n- 启用开发者模式和调试\n- Unity Remote设置iOS\n- 实施手势\n- 使用捏合缩放玩家\n- 使用加速计\n- 检测触摸在游戏对象上\n\n### 第4章：分辨率无关的UI\n- 技术要求\n- 创建标题屏幕\n- 标题文本的创建和调整\n- 选择不同的宽高比\n- 与按钮交互\n- 添加暂停菜单\n- 暂停游戏\n\n### 第5章：高级移动UI\n- 技术要求\n- 添加暂停屏幕按钮\n- 实现屏幕上的摇杆\n- 适配带凹槽的设备\n\n### 第6章：实现应用内购买\n- 技术要求\n- 设置Unity IAP\n- 创建我们的第一次购买\n- 添加恢复购买的按钮\n- 为所选商店配置购买\n\n### 第7章：使用Unity Ads进行广告\n- 技术要求\n- 设置Unity Ads\n- 显示简单广告\n- 利用广告回调方法\n- 带有奖励的可选广告\n- 添加冷却计时器\n\n### 第8章：将社交媒体整合到我们的项目中\n- 技术要求\n- 添加计分系统\n- 通过Twitter分享高分\n- 下载并安装Facebook的SDK\n- 通过Facebook登录游戏\n- 显示Facebook名称和个人资料图片\n\n## 第三部分：游戏感觉/润色\n### 第9章：通过通知保持玩家参与\n- 技术要求\n- 设置通知\n- 提前安排通知\n- 自定义通知\n- 取消通知\n\n### 第10章：使用Unity Analytics\n- 技术要求\n- 设置Analytics\n- 跟踪自定义事件\n- 发送基本CustomEvents\n- 发送带有属性的自定义事件\n- 使用漏斗\n\n### 第11章：远程配置\n- 技术要求\n- 远程配置设置\n- 创建键值对\n- 将游戏覆盖集成到游戏玩法中\n\n### 第12章：提高游戏感觉\n- 技术要求\n- 使用LeanTween进行动画制作\n- LeanTween设置\n- 创建简单补间\n- 向暂停菜单添加补间\n- 处理材料\n- 使用后处理效果\n- 添加粒子效果\n\n### 第13章：构建游戏的发布副本\n- 技术要求\n- 为应用商店生成发布构建\n\n### 第14章：将游戏提交到应用商店\n- 技术要求\n- 将游戏放到Google Play商店\n- 设置Google Play控制台\n- 在Google Play上发布应用\n- Apple Developer设置和创建配置文件\n- 将应用添加到App Store Connect\n\n### 第15章：增强现实\n- 技术要求\n- 设置AR项目\n- 基本设置\n- 与AR环境交互\n- 在AR中生成对象\n\n## 索引\n- 按字母顺序排列的主题和概念索引\n\n## 其他你可能喜欢的书籍\n\n## 参考文献\n- Doran, J. P. (2023). Unity 2022 Mobile Game Development: Build and publish engaging games for Android and iOS. Packt Publishing.",
+    "refs": [
+        "crc32t2tnn0k5741ss80"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "crc34ba1n4gv7mbga470",
+    "req_id": "crc34ba1n4gv7mbga47g",
+    "resp_id": "crc34ba1n4gv7mbga480",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

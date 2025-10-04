@@ -1,0 +1,8 @@
+There are several types of compression artifacts that can occur: 可能发生的几种类型的压缩伪像：
+
+-   Blocking artifacts: 阻塞工件： These are characterized by block-like structures that appear in images or videos when compression is applied. They often appear as square or rectangular shapes with sharp edges and a distinct contrast between adjacent blocks 它们的特点是在应用压缩时出现在图像或视频中的块状结构。它们通常呈正方形或长方形，边缘锐利，相邻块之间形成鲜明对比.
+-   Blurring artifacts 模糊伪像: These are characterized by a lack of detail or soft edges in an image or video, which can make it appear fuzzy or smeared. This can be caused by lossy compression techniques that discard data in order to achieve a higher level of compression 它们的特点是图像或视频中缺乏细节或边缘柔和，这会使它显得模糊或模糊。这可能是由有损压缩技术引起的，该技术会丢弃数据以实现更高级别的压缩.
+-   Mosquito noise 蚊子噪音: This type of artifact is characterized by small, jagged edges along the contours of an image, often seen around fine details like hair, fur, or leaves. This can happen when the encoder used to compress the image has a hard time with edges with high frequency. 这种类型的伪影的特点是沿着图像轮廓的小锯齿状边缘，通常出现在头发、毛皮或树叶等精细细节周围。当用于压缩图像的编码器难以处理高频边缘时，就会发生这种情况。
+-   Color distortion 颜色失真: this type of artefact is characterized by the change in color especially on the boundaries of the object in the image, caused by lack of information that the encoder uses to reconstruct the image 这种类型的伪像的特点是颜色发生变化，尤其是在图像中对象的边界上，这是由于编码器用于重建图像的信息不足造成的.
+
+Overall, compression artifacts can make digital content appear less clear and less detailed, and can degrade the overall quality of the image or video 总的来说，压缩伪像会使数字内容显得不够清晰和不够详细，并且会降低图像或视频的整体质量.

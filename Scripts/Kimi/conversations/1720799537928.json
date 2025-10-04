@@ -1,0 +1,28 @@
+{
+    "conversation_id": "cq8l2cg3r078vd4g1cb0",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Project Starline: A high-fidelity telepresence system",
+            "fileID": "cq8l28ubi7s0p448a9b0",
+            "itemID": 1043,
+            "citation": "Joseph, Desloge, G., Fortes, T., Gomez, E. M., Häberling, S., Hoppe, H., Andy, Huibers, RICARDOMARTIN-BRUALLA, Andrew, Russell, I., Seitz, S., & Tong, K. K. (2021). Project Starline: A high-fidelity telepresence system. https://www.semanticscholar.org/paper/Project-Starline%3A-A-high-fidelity-telepresence-Joseph-Desloge/34db8aa914149bba1500c57b2f4633e925a6f6c1\n",
+            "citationShort": "Joseph et al., 2021",
+            "tags": [
+                "#Compression Techniques",
+                "#kimi",
+                "#Semantic Enrichment"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Project Starline: A high-fidelity telepresence system, was published on 2021. (It can be cite this paper as Joseph et al., 2021 on your answer). \n\n",
+    "response": "### 核心主题\n文章《Project Starline: A high-fidelity telepresence system》的核心主题是介绍一种新型的高保真远程交流系统——Starline。该系统旨在通过先进的技术手段，提供一种比传统2D视频会议更加真实、更具面对面交流感的远程交流体验。\n\n### 关键论点/故事线\n- **技术突破**：文章首先提出了远程交流系统在真实感和交流质量上存在的挑战，并介绍了Starline系统是如何通过技术创新来解决这些问题的。\n- **用户体验**：作者通过用户研究来展示Starline系统在提升用户交流体验方面的优势，包括增强的现场感、注意力、反应判断、参与度和个人联系。\n- **系统设计**：详细介绍了Starline系统的设计理念，包括对物理布局、照明、面部追踪、多视图捕获、麦克风阵列、多流压缩、扬声器输出和透镜显示等方面的精心设计。\n\n### 特定段落或部分\n- **第1节（Introduction）**：介绍了远程交流的发展背景和Starline系统的主要目标。\n- **第2节（Related Work）**：回顾了视频会议和3D远程交流的相关研究，为Starline系统的创新点提供了对比基础。\n- **第4节（System Implementation）**：深入描述了系统的实现细节，包括硬件配置、数据流和关键技术组件。\n\n### 语言特点/写作风格\n- 文章采用了专业的技术语言和详细的描述，使读者能够清晰地理解Starline系统的复杂性和创新之处。\n- 作者通过图表和示例来辅助说明，增强了文章的可读性和直观性。\n\n### 阅读时的问题\n1. 作者如何构建他的论点来证明Starline系统相较于传统视频会议的优越性？\n2. 文章中提到的用户研究结果如何支持作者的论点？\n3. Starline系统的设计理念和技术实现是如何与数字媒体以及艺术领域相结合的？\n\n### 引用格式示例\n在撰写论文或文章时，可以引用上述文献为：\n\n> Joseph et al., 2021\n\n这将帮助学生在撰写自己的学术作品时正确引用该文献。",
+    "refs": [
+        "cq8l28ubi7s0p448a9b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n导读\n作为一个引导",
+    "group_id": "cq8l2co967uf9cnhe81g",
+    "req_id": "cq8l2co967uf9cnhe820",
+    "resp_id": "cq8l2co967uf9cnhe82g",
+    "quection": "导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。"
+}

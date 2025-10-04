@@ -1,0 +1,31 @@
+{
+    "conversation_id": "cq7khl8nsmmndm6k3l0g",
+    "attachments": [
+        {
+            "date": 2019,
+            "title": "Literature review as a research methodology - an overview and guidelines",
+            "fileID": "cq77vcucp7f575qvscb0",
+            "itemID": 2509,
+            "citation": "Snyder, H. (2019). Literature review as a research methodology—An overview and guidelines. Journal of Business Research, 104, 333–339. https://doi.org/10.1016/j.jbusres.2019.07.039\n",
+            "citationShort": "Snyder, 2019",
+            "tags": [
+                "Research methodology",
+                "#kimi",
+                "Integrative review",
+                "Literature review",
+                "Synthesis",
+                "Systematic review"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：以本文为例, 高亮作者如何设计研究协议(Research Protocol)?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Literature review as a research methodology - an overview and guidelines, was published on 2019. (It can be cite this paper as Snyder, 2019 on your answer). \n\n",
+    "response": "在文献综述的研究方法中，设计研究协议（Research Protocol）是确保研究的准确性和可靠性的重要步骤。根据Snyder (2019) 的论文，以下是对如何设计研究协议的概述：\n\n1. **确定研究的必要性和贡献**：\n   - 在设计研究协议的初期，首先要问的是，为什么需要进行这项综述。确实需要在这个领域进行文献综述吗？如果需要，哪种类型的文献综述将最有帮助，并且能做出最大的贡献？(Snyder, 2019)\n\n2. **明确研究目的和研究问题**：\n   - 研究者需要明确综述的具体目的和研究问题，这将决定综述的范围和方法。(Snyder, 2019)\n\n3. **选择适当的方法**：\n   - 根据研究问题和目的，选择最合适的综述方法，例如系统综述、半系统综述或综合性综述。(Snyder, 2019)\n\n4. **制定搜索策略**：\n   - 包括选择搜索术语、确定包含和排除的标准，以及选择合适的数据库。搜索术语应与研究问题直接相关，可以是宽泛或具体的。(Snyder, 2019)\n\n5. **制定包含和排除标准**：\n   - 这些标准应由研究问题指导，例如出版年份、文章的语言、文章类型等。同时，需要对所有选择提供理由和透明度。(Snyder, 2019)\n\n6. **记录决策过程**：\n   - 作者强调了记录所有决策的重要性，以确保过程的透明度，使读者能够理解文献是如何被识别、分析、综合和报告的。(Snyder, 2019)\n\n7. **进行试点测试**：\n   - 在进行主要综述之前，对搜索术语和包含标准进行试点测试，以调整过程。(Snyder, 2019)\n\n8. **使用双重审查**：\n   - 推荐使用两位审稿人来选择文章，以确保搜索协议的质量和可靠性。(Snyder, 2019)\n\n9. **文档化和报告**：\n   - 必须详细记录包括和排除特定文章的过程，并在最终报告中清晰地呈现这些信息。(Snyder, 2019)\n\n通过上述步骤，研究者可以设计出一个结构化和透明的研究协议，为进行高质量的文献综述打下坚实的基础。在撰写文献综述时，应清晰地传达综述的必要性和动机，并根据所选方法透明地报告整个过程。(Snyder, 2019)",
+    "refs": [
+        "cq77vcucp7f575qvscb0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq7khlhmqu00dmgetheg",
+    "req_id": "cq7khlhmqu00dmgethfg",
+    "resp_id": "cq7khlhmqu00dmgethg0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：以本文为例, 高亮作者如何设计研究协议(Research Protocol)?"
+}

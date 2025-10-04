@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cr3fckb5cfuovbavhgc0",
+    "attachments": [
+        {
+            "date": 2013,
+            "title": "History of Video Art, A",
+            "fileID": "cr3ej6msdv13aukgpo30",
+            "itemID": 3855,
+            "citation": "Meigh-Andrews, C. (2013). History of Video Art, A (2nd edition). Bloomsbury Academic.\n",
+            "citationShort": "Meigh-Andrews, 2013",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- History of Video Art, A, was published on 2013. (It can be cite this paper as Meigh-Andrews, 2013 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 第一部分：视频艺术的起源：历史和文化背景\n1. 引言\n2. 视频艺术的起源\n3. 早期艺术家视频中的国际趋势和影响\n4. 技术、获取和背景：社会和政治活动家在视频艺术发展中的作用\n5. 扩展电影：实验性、前卫和“地下”电影对艺术家视频的影响和关系\n6. 具体音乐、Fluxus和磁带循环：声音录制和实验音乐对视频艺术的影响和冲击\n7. 理论与实践：70年代基于理论的思想对早期技术实践的影响，以及对后现代主义当代艺术有重大影响的人物\n\n## 第二部分：代表性和有影响力的视频艺术作品的技术与批评背景\n8. 工作室内外：非广播视频的兴起\n9. 剪辑：易得的视频编辑\n10. 混合：电子/数字图像处理\n11. 画廊敞开大门：视频装置和投影\n12. 视频图像的普遍性：作为国际现象的艺术家视频\n\n## 第三部分：艺术家视频和视频装置对技术变革和可获取性的响应\n13. 字段、线条和框架：视频作为电子媒介\n14. 生产手段：女性主义和“他者”——种族、性别、技术和获取\n15. 脱离墙面：视频雕塑和装置\n16. 数字化：数字视频编辑、处理和效果的出现\n17. 新千年时期的视频艺术：2000年以来艺术家视频的新发展\n\n## 第四部分：参考文献\n- 术语表\n- 注释\n- 参考文献\n- 索引\n\n## 附录\n- 黑白插图清单\n- 彩色版画清单\n\n## 致谢\n- 第二版的前言（Meigh-Andrews, 2013）\n\n请注意，以上大纲目录是根据提供的文本内容制作的，可能需要根据实际书籍内容进一步细化和调整。",
+    "refs": [
+        "cr3ej6msdv13aukgpo30"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "cr3fck8jcvqq7ce33gsg",
+    "req_id": "cr3fck8jcvqq7ce33gu0",
+    "resp_id": "cr3fck8jcvqq7ce33gug",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

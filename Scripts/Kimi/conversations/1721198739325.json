@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqbmh583r07cvm1hqmi0",
+    "attachments": [
+        {
+            "date": 1988,
+            "title": "Statistical power analysis for the behavioral sciences",
+            "fileID": "co0iumecp7fbf460dccg",
+            "itemID": 1926,
+            "citation": "Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Routledge. http://gen.lib.rus.ec/book/index.php?md5=aaa90371cd9c588dc5530cfeb909f3f2\n",
+            "citationShort": "Cohen, 1988",
+            "tags": [
+                "#kimi",
+                "#Classical"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Statistical power analysis for the behavioral sciences, was published on 1988. This paper serves as the dominant theoretical frameworks for all subsequent papers included in the appendix. (It can be cite this paper as Cohen, 1988 on your answer). \n\n",
+    "response": "😭 高峰时段，Kimi 算力不足。\n💡 你可以尝试开启一个新会话，或者过段时间再来问我。",
+    "refs": [
+        "co0iumecp7fbf460dccg"
+    ],
+    "title": "\n\nNow, Listen to me:\n导读\n作为一个引导",
+    "group_id": "cqbmh5aul72crk9go1e0",
+    "req_id": "cqbmh5aul72crk9go1eg",
+    "resp_id": "cqbmh5aul72crk9go1f0",
+    "quection": "导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。"
+}

@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cq790teaofovab8bkj0g",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews",
+            "fileID": "cpg56ig3r07fpupujaag",
+            "itemID": 2536,
+            "citation": "Page, M. J., Moher, D., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … McKenzie, J. E. (2021). PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews. BMJ, 372, n160. https://doi.org/10.1136/bmj.n160\n",
+            "citationShort": "Page et al., 2021",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：举例说明协议和注册 怎么写？如果我没有这个注册又该怎么样？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews, was published on 2021. (It can be cite this paper as Page et al., 2021 on your answer). \n\n",
+    "response": "在撰写系统评审报告时，协议和注册是确保研究透明度和可复制性的重要部分。以下是根据Page等人在2021年发表的《PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews》中提供的信息，关于如何写协议和注册以及如果没有注册该如何处理的说明：\n\n### 协议和注册的撰写\n\n1. **注册信息提供**：\n   在系统评审中，应提供注册信息，包括注册名称和注册号。这有助于读者在注册数据库中识别系统评审，并比较预先设定的内容与最终报告内容，以判断是否有偏差。例如：\n   ```\n   “...this systematic review has been registered in the international prospective register of systematic reviews (PROSPERO) under the registration number: CRD42019128569”[Page et al., 2021]。\n   ```\n\n2. **协议访问指示**：\n   如果评审协议已经准备好，应指出哪里可以访问到协议，或者声明没有准备协议。提供协议的访问方式，比如引用、DOI或链接，有助于读者更容易地找到协议，并评估是否有偏差。例如：\n   ```\n   “...this systematic review and meta-analysis protocol has been published elsewhere [citation for the protocol provided].”[Page et al., 2021]。\n   ```\n\n3. **注册或协议信息的修改**：\n   如果在评审过程中对注册或协议中的信息有任何修改，应详细报告这些修改，包括修改本身、修改的原因以及修改实施的评审阶段。这有助于保持透明度。例如：\n   ```\n   “Differences from protocol: We modified the lower limit for age in our eligibility criteria from 12 years of age to 10 years of age because the age of adolescence was reduced...”[Page et al., 2021]。\n   ```\n\n### 没有注册的情况\n\n如果你的系统评审没有进行注册，应该在报告中明确声明这一点。这有助于读者了解评审的透明度和可能的偏差风险。声明可以是简单的一句说明，例如：\n```\n“State that the review was not registered”[Page et al., 2021]。\n```\n\n通过这种方式，即使没有预先注册，读者也能了解到评审的这一方面，从而在评估评审结果时考虑到这一点。重要的是要保持诚实和透明，无论评审是否经过了预先注册。",
+    "refs": [
+        "cpg56ig3r07fpupujaag"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq790ta2jko63vug31pg",
+    "req_id": "cq790ta2jko63vug31q0",
+    "resp_id": "cq790ta2jko63vug31qg",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：举例说明协议和注册 怎么写？如果我没有这个注册又该怎么样？"
+}

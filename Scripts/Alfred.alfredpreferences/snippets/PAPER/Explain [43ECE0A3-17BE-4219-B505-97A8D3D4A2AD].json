@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "You are a knowledgeable real human that understands everything. Your task is to explain the following text delimited by triple backticks in a very easy-to-understand way. \n\nI want you to pretend to explain the text to a middle school student who has no background knowledge or professional knowledge about the text. You need to output the highest quality explanation possible, including examples and analogies if necessary or helpful.\n\n Choose simple words and phrases to explain. Avoid ones that are too hard or confusing. Write the text like a real person would. Keep your tone balanced, not too casual or too formal.\n\nMake the explanation concise{, and keep it under 200 words if possible}.\n\nOutput the answer without extra wording, just the explanation itself. Don't use any punctuation, especially no quotes or backticks, around the text.\n\nText:\n```\n{clipboard}\n```\n\nPlease write in {Simplified Chinese}\n",
+    "uid" : "43ECE0A3-17BE-4219-B505-97A8D3D4A2AD",
+    "name" : "Explain",
+    "keyword" : "explain"
+  }
+}

@@ -1,0 +1,765 @@
+﻿1
+00:00:00,840 --> 00:00:03,130
+- It's now time to bring some details
+
+2
+00:00:03,130 --> 00:00:06,250
+to our feet by moving the toes.
+
+3
+00:00:06,250 --> 00:00:08,900
+Again, it's gonna be
+pretty straightforward
+
+4
+00:00:08,900 --> 00:00:13,160
+since we already have the
+base motion of our foot.
+
+5
+00:00:13,160 --> 00:00:15,890
+We'll first work on the
+front toe controller,
+
+6
+00:00:15,890 --> 00:00:17,910
+and I will try to find the movement
+
+7
+00:00:17,910 --> 00:00:19,920
+the foot is leaving the ground
+
+8
+00:00:19,920 --> 00:00:22,340
+and duplicate the key Frame.
+
+9
+00:00:22,340 --> 00:00:25,660
+Dissuade the toe will
+remain flat on the ground,
+
+10
+00:00:25,660 --> 00:00:28,750
+from Frame zero to Frame 30 foot.
+
+11
+00:00:28,750 --> 00:00:31,160
+I will set the end-all type two vector
+
+12
+00:00:31,160 --> 00:00:32,800
+for this new key frame.
+
+13
+00:00:32,800 --> 00:00:35,710
+Go a little further in the animation,
+
+14
+00:00:35,710 --> 00:00:38,740
+and simply rotate the toes backward
+
+15
+00:00:38,740 --> 00:00:41,740
+so that they will drag during this motion.
+
+16
+00:00:41,740 --> 00:00:44,340
+I will then adjust the end (indistinct)
+
+17
+00:00:44,340 --> 00:00:46,050
+of the first key frame,
+
+18
+00:00:46,050 --> 00:00:48,265
+so that it doesn't clip with the ground
+
+19
+00:00:48,265 --> 00:00:51,123
+whenever the foot is going backward.
+
+20
+00:00:52,030 --> 00:00:54,980
+Then I will adjust to dragging motion
+
+21
+00:00:54,980 --> 00:00:57,520
+as the foot is moving forward.
+
+22
+00:00:57,520 --> 00:01:01,670
+I want the toes to point
+downward because of its weight,
+
+23
+00:01:01,670 --> 00:01:04,953
+but also because of the
+forward motion of the foot.
+
+24
+00:01:05,890 --> 00:01:08,340
+She's the kind of motion we have practiced
+
+25
+00:01:08,340 --> 00:01:09,270
+with this key role.
+
+26
+00:01:09,270 --> 00:01:11,770
+Whenever we were moving the limps,
+
+27
+00:01:11,770 --> 00:01:15,323
+we were making the hands
+and the feet dragging.
+
+28
+00:01:16,490 --> 00:01:17,840
+As we are done with this,
+
+29
+00:01:17,840 --> 00:01:21,340
+we can go forward to the compacting frame,
+
+30
+00:01:21,340 --> 00:01:24,670
+where we will make the toe raising.
+
+31
+00:01:24,670 --> 00:01:26,740
+As the foot fall down,
+
+32
+00:01:26,740 --> 00:01:29,370
+the toes are still dragging
+
+33
+00:01:29,370 --> 00:01:32,100
+or there is a full of full motion.
+
+34
+00:01:32,100 --> 00:01:36,020
+So there are pointing
+up (indistinct) emphasis
+
+35
+00:01:36,020 --> 00:01:37,240
+the flap of the foot.
+
+36
+00:01:37,240 --> 00:01:40,630
+So as the foot is getting
+flat on the ground,
+
+37
+00:01:40,630 --> 00:01:43,770
+I will make sure that the toes are almost
+
+38
+00:01:43,770 --> 00:01:46,180
+at their highest position.
+
+39
+00:01:46,180 --> 00:01:48,410
+And then two frame letters,
+
+40
+00:01:48,410 --> 00:01:51,740
+I will make the toes flat on the ground.
+
+41
+00:01:51,740 --> 00:01:56,050
+Here, I will slightly offset
+the foot roll controller
+
+42
+00:01:56,050 --> 00:01:57,900
+by one frame at back.
+
+43
+00:01:57,900 --> 00:02:02,140
+I will then re-adjust
+the toe extreme position
+
+44
+00:02:02,140 --> 00:02:06,200
+just before it hits
+the ground to frame 60.
+
+45
+00:02:06,200 --> 00:02:10,740
+I will go to frame letter and
+press Alt+ R in the 3D view,
+
+46
+00:02:10,740 --> 00:02:13,350
+to flatten the toe on the ground.
+
+47
+00:02:13,350 --> 00:02:15,750
+Whenever I create a contacting post,
+
+48
+00:02:15,750 --> 00:02:18,840
+I generally set the
+end-all type two vector.
+
+49
+00:02:18,840 --> 00:02:20,420
+As the current motion,
+
+50
+00:02:20,420 --> 00:02:23,740
+is kind of stop brutally
+as it hits the ground.
+
+51
+00:02:23,740 --> 00:02:27,362
+So there is no easing
+before the curve gets flat.
+
+52
+00:02:27,362 --> 00:02:29,270
+(indistinct) tell that
+will make the difference
+
+53
+00:02:29,270 --> 00:02:31,860
+is to create a slight bounce of the toe,
+
+54
+00:02:31,860 --> 00:02:33,390
+when it hits the ground.
+
+55
+00:02:33,390 --> 00:02:36,370
+To do so, I will duplicate
+the current key frame,
+
+56
+00:02:36,370 --> 00:02:39,520
+and move it two to four frame later.
+
+57
+00:02:39,520 --> 00:02:42,860
+And we then duplicate the post key frame,
+
+58
+00:02:42,860 --> 00:02:45,550
+lower rate and put it in between.
+
+59
+00:02:45,550 --> 00:02:48,080
+This way, we have a more clunky motion,
+
+60
+00:02:48,080 --> 00:02:50,020
+and we finally get something
+
+61
+00:02:50,020 --> 00:02:52,990
+that looks like an animation for the foot.
+
+62
+00:02:52,990 --> 00:02:54,660
+It's indeed a robot,
+
+63
+00:02:54,660 --> 00:02:58,720
+but we are kind of briefing
+life into it if you will.
+
+64
+00:02:58,720 --> 00:03:02,770
+From there, we can repeat the
+process with the back toe.
+
+65
+00:03:02,770 --> 00:03:06,140
+Beware because these toe has two joint.
+
+66
+00:03:06,140 --> 00:03:09,700
+One at the base of the foot on the heel,
+
+67
+00:03:09,700 --> 00:03:12,230
+and one for the current back toe.
+
+68
+00:03:12,230 --> 00:03:15,740
+I will create a motion
+for the first joint,
+
+69
+00:03:15,740 --> 00:03:20,740
+that really looks like the
+front toe but in reverse.
+
+70
+00:03:20,870 --> 00:03:24,440
+And I will keep the motion pretty slight.
+
+71
+00:03:24,440 --> 00:03:27,890
+Whenever you are working
+on a chain of bone,
+
+72
+00:03:27,890 --> 00:03:29,990
+we've Arrow Key,
+
+73
+00:03:29,990 --> 00:03:34,030
+the more you move the
+roots to more the deep tip,
+
+74
+00:03:34,030 --> 00:03:36,320
+and the other controller we move
+
+75
+00:03:36,320 --> 00:03:39,210
+and it might look a bit too extreme.
+
+76
+00:03:39,210 --> 00:03:40,990
+So keep it subtle.
+
+77
+00:03:40,990 --> 00:03:44,733
+It's easier then to amplify
+the motion if needed.
+
+78
+00:03:46,130 --> 00:03:48,430
+Remember that you have
+to make the toe drugging,
+
+79
+00:03:48,430 --> 00:03:51,310
+so whenever the foot is moving forward,
+
+80
+00:03:51,310 --> 00:03:54,220
+each will point backward a little down.
+
+81
+00:03:54,220 --> 00:03:57,190
+And whenever the foot is falling down,
+
+82
+00:03:57,190 --> 00:03:59,850
+this will drag so it will raise.
+
+83
+00:03:59,850 --> 00:04:04,400
+I didn't input any bones
+on the contact bones,
+
+84
+00:04:04,400 --> 00:04:07,120
+because it was a bit too much
+
+85
+00:04:07,120 --> 00:04:10,670
+since I will input a bit of bouncing,
+
+86
+00:04:10,670 --> 00:04:12,410
+on to the tip of the toe.
+
+87
+00:04:12,410 --> 00:04:16,970
+So on the curve, the back
+to root is kind of phrasing
+
+88
+00:04:16,970 --> 00:04:19,350
+just before the contact pose,
+
+89
+00:04:19,350 --> 00:04:21,860
+and whenever to contact pose occur,
+
+90
+00:04:21,860 --> 00:04:24,200
+it will flatten on the ground.
+
+91
+00:04:24,200 --> 00:04:27,460
+So I have canceled in your rotation.
+
+92
+00:04:27,460 --> 00:04:29,470
+I've used a Vector and (indistinct)
+
+93
+00:04:29,470 --> 00:04:31,680
+because I don't want anything,
+
+94
+00:04:31,680 --> 00:04:35,250
+but I didn't input any bounds.
+
+95
+00:04:35,250 --> 00:04:39,730
+I did input the bones in
+motion on the tip, the toes.
+
+96
+00:04:39,730 --> 00:04:43,083
+So on the next joint into the animation.
+
+97
+00:04:43,990 --> 00:04:47,740
+So I did animate the tip of the back toe,
+
+98
+00:04:47,740 --> 00:04:51,810
+as I did for the front
+toe, making it drug,
+
+99
+00:04:51,810 --> 00:04:56,030
+so that we feel like there is
+a bit of delay in its motion,
+
+100
+00:04:56,030 --> 00:04:58,100
+and then adding some bounds,
+
+101
+00:04:58,100 --> 00:05:00,220
+as it contacts the ground.
+
+102
+00:05:00,220 --> 00:05:03,983
+Be careful not to make it
+clip through the ground.
+
+103
+00:05:05,100 --> 00:05:06,170
+When that was done,
+
+104
+00:05:06,170 --> 00:05:10,213
+I repeat the process
+with the outer side toe.
+
+105
+00:05:11,820 --> 00:05:14,800
+And since the foot is
+not tilting in space,
+
+106
+00:05:14,800 --> 00:05:19,800
+I could then simply copy the
+curve of this outer side toe,
+
+107
+00:05:20,640 --> 00:05:23,150
+onto the inner side toe.
+
+108
+00:05:23,150 --> 00:05:25,120
+Again, nothing crazy here.
+
+109
+00:05:25,120 --> 00:05:26,690
+It's pretty simple.
+
+110
+00:05:26,690 --> 00:05:29,140
+So you will be able to watch me
+
+111
+00:05:29,140 --> 00:05:32,350
+kind of animating those
+toes in the next video,
+
+112
+00:05:32,350 --> 00:05:36,000
+that will be a short time
+lapse of this process.
+
+113
+00:05:36,000 --> 00:05:38,330
+As all the toes were animated,
+
+114
+00:05:38,330 --> 00:05:40,550
+the foot animation was done,
+
+115
+00:05:40,550 --> 00:05:44,810
+and we now need to copy
+it onto the other foot.
+
+116
+00:05:44,810 --> 00:05:46,710
+To do so, it's very simple.
+
+117
+00:05:46,710 --> 00:05:50,930
+You just select all the
+controllers from the left foot
+
+118
+00:05:50,930 --> 00:05:51,823
+we just animated.
+
+119
+00:05:52,930 --> 00:05:54,650
+Open the graph editor,
+
+120
+00:05:54,650 --> 00:05:57,430
+and press Alt+H to make sure that
+
+121
+00:05:57,430 --> 00:05:59,820
+all the curve are available.
+
+122
+00:05:59,820 --> 00:06:02,330
+Press A again to select them all,
+
+123
+00:06:02,330 --> 00:06:05,110
+Press Ctrl+C to copy those curves.
+
+124
+00:06:05,110 --> 00:06:08,810
+Then Select all the
+right foot controllers.
+
+125
+00:06:08,810 --> 00:06:12,700
+Go on frame zero and press Ctrl+Shift+V.
+
+126
+00:06:12,700 --> 00:06:16,880
+Since our rig is symmetrical,
+Blender will Paste the curve
+
+127
+00:06:16,880 --> 00:06:19,370
+taking care of the symmetry for us.
+
+128
+00:06:19,370 --> 00:06:21,670
+Now, both foot are moving
+
+129
+00:06:21,670 --> 00:06:24,310
+in the same fashion with the same rhythm.
+
+130
+00:06:24,310 --> 00:06:28,930
+We now just need to offset
+the motion of the right foot
+
+131
+00:06:28,930 --> 00:06:32,700
+in time so that we get
+an alternate motion.
+
+132
+00:06:32,700 --> 00:06:35,500
+To do so, simply select all the curve,
+
+133
+00:06:35,500 --> 00:06:40,500
+Press Shift+D and offset
+them by the whole cycle.
+
+134
+00:06:40,570 --> 00:06:43,450
+In my case, 72 frames.
+
+135
+00:06:43,450 --> 00:06:46,230
+Then I will select again all the curve,
+
+136
+00:06:46,230 --> 00:06:48,850
+and I will offset them back in time
+
+137
+00:06:48,850 --> 00:06:52,810
+by half of the motion, 36 frames.
+
+138
+00:06:52,810 --> 00:06:55,530
+We now have both our feet motion.
+
+139
+00:06:55,530 --> 00:06:58,320
+Since I have now a better
+vision of the motion,
+
+140
+00:06:58,320 --> 00:07:01,900
+I feel like the foot are two forward.
+
+141
+00:07:01,900 --> 00:07:03,300
+So what I will do is that
+
+142
+00:07:03,300 --> 00:07:07,320
+I will select both foot main controller,
+
+143
+00:07:07,320 --> 00:07:11,980
+isolate the Y Location
+axis by inputting its name
+
+144
+00:07:11,980 --> 00:07:15,720
+in the Search bar, Select
+all the available keys
+
+145
+00:07:15,720 --> 00:07:18,820
+for both to (indistinct)
+location channels.
+
+146
+00:07:18,820 --> 00:07:22,200
+And then I will slightly offset them up
+
+147
+00:07:22,200 --> 00:07:25,210
+on the Y-Axis in the graph editor.
+
+148
+00:07:25,210 --> 00:07:28,570
+This will push both feet backward,
+
+149
+00:07:28,570 --> 00:07:31,213
+and it will look a little more natural.
+
+150
+00:07:32,060 --> 00:07:34,820
+From there, you can adjust the eighth
+
+151
+00:07:34,820 --> 00:07:39,820
+of the up-and-down motion by
+simply offsetting dizzy curve.
+
+152
+00:07:39,970 --> 00:07:43,620
+You can also scale it on this Y-axis,
+
+153
+00:07:43,620 --> 00:07:47,800
+so that we'll have more up
+and down motion if needed,
+
+154
+00:07:47,800 --> 00:07:49,700
+or if you scale it down
+
+155
+00:07:49,700 --> 00:07:52,993
+you will reduce the
+bounciness of the motion.
+
+156
+00:07:54,120 --> 00:07:57,100
+From there, it's really a
+matter of personal taste
+
+157
+00:07:57,100 --> 00:07:59,810
+and experience to make it look good
+
+158
+00:07:59,810 --> 00:08:02,060
+but you have the whole method.
+
+159
+00:08:02,060 --> 00:08:04,550
+Now we just need to get rid
+
+160
+00:08:04,550 --> 00:08:08,510
+of the unused key frame on the right foot.
+
+161
+00:08:08,510 --> 00:08:10,760
+To do so, we simply need to Select
+
+162
+00:08:10,760 --> 00:08:13,600
+all the controller of the right foots.
+
+163
+00:08:13,600 --> 00:08:15,570
+Go onto the Frame Zero,
+
+164
+00:08:15,570 --> 00:08:19,740
+Press I to insert a key
+frame on all the channels
+
+165
+00:08:19,740 --> 00:08:23,720
+then Press V and set those
+new key frame to Free.
+
+166
+00:08:23,720 --> 00:08:27,770
+From there we can get rid
+off any previous key frame
+
+167
+00:08:27,770 --> 00:08:31,840
+and then, Select all those
+key frame on Frame Zero.
+
+168
+00:08:31,840 --> 00:08:34,650
+Press Shift+D to duplicate them,
+
+169
+00:08:34,650 --> 00:08:38,890
+and move them on the very
+last frame of our cycle.
+
+170
+00:08:38,890 --> 00:08:40,860
+Frame 72 for me.
+
+171
+00:08:40,860 --> 00:08:44,090
+Then I can get rid off all the key frame,
+
+172
+00:08:44,090 --> 00:08:47,380
+after this frame 72.
+
+173
+00:08:47,380 --> 00:08:49,330
+Our foot animation is done,
+
+174
+00:08:49,330 --> 00:08:50,400
+the next step,
+
+175
+00:08:50,400 --> 00:08:53,730
+will be to input some left to right motion
+
+176
+00:08:53,730 --> 00:08:55,270
+to the toss or root,
+
+177
+00:08:55,270 --> 00:08:57,023
+and animate a bit the feet.
+

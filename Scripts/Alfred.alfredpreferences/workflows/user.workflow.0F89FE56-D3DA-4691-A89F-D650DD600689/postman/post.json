@@ -1,0 +1,1726 @@
+{
+	"info": {
+		"_postman_id": "2d82a780-52e9-4051-8cc3-beda6bf20034",
+		"name": "PaperPlatform_Scispace",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "228860"
+	},
+	"item": [
+		{
+			"name": "SciSpace - all paper and pdfs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=8YU5IYnqcek1J1zdpFLoD,sentry-public_key=d54813e11925bfa4102dedd69ef7d425,sentry-trace_id=737dd5afe0044fe1afa88fdd756e512e,sentry-transaction=%2Flibrary,sentry-sampled=true"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; builderSessionId=d645c9e177e04129a595e2ce26be82dd; intercom-session-jtijbv5y=SVA5QzhsQXFRc3c4VWhJODVRcGNsb3lYSUE3Nml0MldFS0VvVDdzQmd1SUh0dHQ3QTNyNnJwV3lvN2IxOWZrMi0taTdEdUpkQ3pSR3ZzUDcxM2IzcE5HQT09--9039747351a58c0675c1edf10ff62b3c9e04130b; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDIyNzU0MzMsICJleHAiOiAxNzEwOTE1NDMzfQ.gcNMWHnlVHorEnlkY9gTNAy-ExLJTJlx9gw7UIC4rEcO46NlHzUtQ9xjka2j1BnnuADnTMIbYxCkeOliIKW4gw-ywBfPnFXtVdQh0DIXg4pwvoQ5mZh3-0GFlg5vJSgr9bn3GrU8fTaKADuM8wKofSki6zbr71iHUYIk4r0FgD3sFJfmVGPiyVEIetooZRLfK6M3egfhvhAiDoxLjoSnrzAlPqkV9W6usyDic-IsP2H8Hm1NvvP29NrHPBZl1W8qBbgUejrVfqG_h7jbsjjMBi7TCIiGzG5iWPRUGVgHiPTJPhuZmxrP19OHjf_4SOdG0j-T-zCdDH63Rxcj7h3AYw"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "737dd5afe0044fe1afa88fdd756e512e-b8935a77dca5877f-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://typeset.io/api/library/records?page=0&page_size=999",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"library",
+						"records"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "page_size",
+							"value": "999"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scispace - getCoversationID",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(",
+							"    \"full_slug\", \"isprs-archives-xlviii-1-w2-2023-1659-2023-pdf-3f14v8vt\");",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=X46TpzKd_sjhgL7G4Pb4V,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=a65e25a6384548689a026558bd362616,sentry-transaction=%2Flibrary%2F%5Bcollection_slug%5D%2F%5Brecord_slug%5D,sentry-sampled=true"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; intercom-session-jtijbv5y=ell4aXBFNmZndXp1ekNWY2pTa2tSRytHSlFTeEhnd0ZtNWQ2dVpnL1h5OTFzU2V3dmNUalUwTVR0WGhnTEQ0dC0tdFhReUdFeGkrc1RWbklIWUgwdm90UT09--49d2da8d0c188bee98e92ff28a23a7524db09c9f; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDMzNDUyOTEsICJleHAiOiAxNzExOTg1MjkxfQ.EPMjD6OPC_7OkXNjFxWI3yI2Q29Xk1w_4wRbgm4oUdSaYh0iv8bhPDfm3haHXjRY4p0S0H8eoBd7LGRbsziy5TvKUD5_t-Ha4lb2H44-kI0w4S8qak43_CWOQ6kLo3N0l9onrGL_l6mPxYp8FWFZz8gLSJV-cHXE0wxawgPam13DkLmUKJcUhif4qe8ITF2yVSwqKtjq1KT4cOtwrwoEeCiA6sUhzDLLrRoYH61naKq5lobhOcMLQkhLKUxoHq2e3dLmwMPS4l32ELdTsuVBiHqPRnZFaIyOFrkWp1IT8gcUKeIzDDzYDi4TqJvSrTd2utl72cZ1xImN2heHPsAP-g"
+					},
+					{
+						"key": "if-none-match",
+						"value": "\"1315sj2t7tw1l\""
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/vpcc-2t7ql5mv/2010-jaiswal-et-al-encoding-of-visual-spatial-information-in-1rnc3uhf"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "a65e25a6384548689a026558bd362616-bbefb06b896fcc5b-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://typeset.io/api/genius/conversation/record/{{full_slug}}",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"genius",
+						"conversation",
+						"record",
+						"{{full_slug}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scispace - chat with PDF",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=7z8DC-l8SfOn2ABDw3au5,sentry-public_key=d54813e11925bfa4102dedd69ef7d425,sentry-trace_id=7b6e34891a6c47b7bf11efa491982470"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "messages=%222b2494627a94eca143832b69b149c98fd75b27d0%24%5B%5B%5C%22__json_message%5C%22%5C0540%5C05425%5C054%5C%22Successfully%20signed%20in%20as%20carllllllllx%40gmail.com.%5C%22%5D%5D%22; csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; refreshToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbmZvIjoiZ0FBQUFBQmxZSFItWVI0MVBSUHgtRXo0MXQ1N0Z5MERuN0tELXJtUzRjUzRPRjA2emhWM05jWlhPcHhINC1jbkV3Yjd6Z1NnbUd4SkFVdzhWOXo2TmkwZlZxQWtqVVJfQUdheGRaU2VaMVNwcS1xYkVMR2hvQzdnWEFVcHNzSjhEMGFDZGp4LVpzdlhPWjk4Rkp2cVk3Q3Y0aFg3eFpiVkVwQ3d5X0pqTDd2SVh6OHJUenVJLXhyWlFIbGdkNGdUVmNRU3k3Ul9jYkc3YjEydVNvd1BLdnhlUkpRM2M1aGtGZz09IiwiaXNzIjoiaHR0cHM6Ly90eXBlc2V0LmlvLyIsImV4cCI6MTcwMTY4NDA5NCwiaWF0IjoxNzAwODIwMDk0fQ.loLs9AoZ1l8k_UEnrV4J7srMtZ6KlS49OVa7zPattPEKKVGZbB-oHWBXnZi_Wtd0yfC85sv0uK8oiXrv5OZGbf2VE4b9qdpQTFzDuQlCoywVG71mQU9MWjbFmYlB-I-ZrhDbBk827w0KRrnCuR7xXfc78mOuw0nxwcl2tYp3Wp3z3QD-pRWi68ESiMYhoCPh9ZivMDOaY2bd_deWBPlXvyYX_Jc-R_ox6VItOBM0aqmHI4GDho9mygaiqjY6CD-9aybY88leQX67mMDedCmaU5YAqWDlLorZnzr3RZkbNMiL13HEGSHXXiC1VNL5r81Q1NedlHJ2wN_XkGIBTXKhRQ; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; annotation_onboarding_text_highlighted=true; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; __stripe_sid=5fad1be8-0831-4315-ad34-19f0612c824c4a5974; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDA4MjU5OTIsICJleHAiOiAxNzA5NDY1OTkyfQ.cECCCmymQYhRZ3BrxiCCMRp0sk8t8XceiQldpGlnpBnaDjDK3hZcgHHrThDT7AheKNIFzGsSb8fN_wtVNE_2v-MyzFNjNBy2zHTcFoMATRvWdBp40Gq07Bn33YFSAIaFHX1Qd8vYp_GfkbXotBfP97Q8SGmBaL6euvkACsRxOQNu7pdnC0Zbi5e1WbRFF5L_RL83qndVwu8NBWMN9EQQQrrAQ3M7O3pQSQ1MkUw0zbIlnHtBzv4ptDs5HBXFGwDjIgn2ko-Jnuu5_feRANqfxDJ0uG6iCxGAhqDoMdAaothQADOqEOgY_9sMbN51FCs6UgrI6rKO_Elo74PnU_2fSg; builderSessionId=6e50d4db21f64bc59a1e57f6c158ee99"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/machine-perception-3hx2ht9e/2021-funke-et-al-five-points-to-check-when-comparing-visual-35gtauy1"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "7b6e34891a6c47b7bf11efa491982470-a9e1378c0cdc9dfc-1",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"message_type\":\"TEXT\",\"message\":\"本文主要谈论的是视觉吗?\",\"selection_type\":null,\"user_prompt_type\":\"QUESTION\",\"attachment\":null,\"parent_message_uuid\":null,\"attachment_uuid\":null,\"language\":\"zh\",\"full_slug\":\"2021-funke-et-al-five-points-to-check-when-comparing-visual-35gtauy1\",\"entity_type\":\"RECORD\",\"conversation_question_type\":\"USER_GENERATED\",\"conversation_question_location\":null,\"model_variant\":\"V2\"}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/genius/conversation/2hwl2c01f2/messages",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"genius",
+						"conversation",
+						"2hwl2c01f2",
+						"messages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scispace - ask from papaer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=X46TpzKd_sjhgL7G4Pb4V,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=4f44abc42f574acd9953c9a4a1e75e8f"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDMzMjgzOTMsICJleHAiOiAxNzExOTY4MzkzfQ.HZQI5lVHJ7PoRjdiCzTnkMbw8yOvzgnUFZU__L_o3b_P2IYhBfTjjUJVa2Pv3OJznY29242_ZBJgtNSkvcs3W9rRsf0oWsJ3ZU7dOueohxtVO8m5Qn7cqFf2aLQ4_EdQj-gdgCZNqdPKM8fuJybjQB7M2BgLw9k1ufhpAuS147DCGVih7foTSKWs-ptBOW0vD4ZzQ69LWeA6pbcmcAkW4dBDb91XM1ZBSrsPfLFyViZFn_rrHQ_9nUqHiTnX3SMfLXIOM5l_V5bdL_vLtHJ3nBWGN-mMxt7eqSIfn05k7ddTPkUMu0G6isws2jjpjXsi4vYPDB1Saziw_UwpbG52lA; intercom-session-jtijbv5y=bHpUSktrMEJwTE1TN1hVRXJaNW9TaUNIUVBZTm9ockU1VmtXWHg3Vnl1MlBDWTBiT0llS1lUMWI1dUR0Y3I5SC0tV1B2akduZjYybkVhWXV0QUwrWUFnQT09--5736a905b7471499e2bc2a3741f0221192dcda36"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/vpcc-2t7ql5mv/2010-jaiswal-et-al-encoding-of-visual-spatial-information-in-1rnc3uhf"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "4f44abc42f574acd9953c9a4a1e75e8f-8cff19ce3b631a15-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"parent_message_uuid\":null,\"attachment_uuid\":null,\"language\":\"en\",\"full_slug\":\"2010-jaiswal-et-al-encoding-of-visual-spatial-information-in-1rnc3uhf\",\"entity_type\":\"RECORD\",\"conversation_question_info\":{\"conversation_question_unique_id\":\"5cteaooh7i\",\"generic_question_unique_id\":null},\"conversation_question_type\":\"GENERIC\",\"conversation_question_location\":null,\"model_variant\":\"V2\",\"message_type\":\"TEXT\",\"message\":\"why auhtor make experiment with vr not in reality envirement? \",\"selection_type\":null,\"user_prompt_type\":\"QUESTION\",\"attachment\":null,\"settings\":{\"explain_math_table\":\"powerful\",\"response_length\":\"auto\",\"tone\":\"simple\",\"experience\":\"beginner\",\"answer_format\":\"bulleted\",\"custom_instruction\":\"\"}}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/genius/conversation/2guwi40hxz/messages",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"genius",
+						"conversation",
+						"2guwi40hxz",
+						"messages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Paper 01 getAWSkeys",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=LmebAoWhcEfhz3HQvu-ft,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=65ed07d65ace48e48fa710d1036b61d5,sentry-sample_rate=1,sentry-transaction=POST%20%2Fapi%2Fasset%2Fpdf%2Fpresigned-url,sentry-sampled=true",
+						"description": "sentry-release; sentry-trace_id; (sentry-trace 前同 )"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; notebook_onboarding_shown=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczOTA1NDMsICJleHAiOiAxNzE2MDMwNTQzfQ.OcdmgTtwjVbzbJjo-7seTww5Pfg2l1ATMKlKHJZ3GDgUIYH2FQ_JwI7_rYuZcsBi5IeMm3CeJ1c0homgfhx0-9lU2RAsiPNjjN08ois0n1q2sJ5yhaniSjrYXacj1JgGu715UKFxi3AIitZMhr5HV3Bvyi2P_ItRlIkDA1iQ0o0OvgjC2A29rQrQizN0jNG4WPmrv8Azeu4EK83nnjG3bJRnIm7gceOZArPvSGsQ6Nmi2PRQR6ouG0zHlycmCWQ5eR1bDjtyPA1PHNTiPlCITWQZ0doqMaKsIgXDt1ipnXS_dTtu7by4nw0JCjPlXFzf0KkTiuEw5TvUBmDVyC-bsQ; intercom-session-jtijbv5y=cXNKMUZwZGVzTGh0VExGTWlQN29UbWNhd1JJWjVuc3VwL2g4b3o3N01uYTdWeWJoK0FybVNZeEUzT3Y5VWF5ay0tQ0U1N2N1VThhcTJycjhseEhjTWRwQT09--fe3f29ba17963bdd4981bf56af75b27f461b641f",
+						"description": "access_token(前小部分相同); intercom-session-jtijbv5y;"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/folder/untitled-collection-2lrrcy3s"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "65ed07d65ace48e48fa710d1036b61d5-9080512c8bc40170-1",
+						"description": "sentry-trace"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"full_slug\":\"untitled-collection-2lrrcy3s\",\"files\":[\"Al-Rahmi et al. - 2021 - The Influence of Information System Success and Technology Acceptance Model on Social Media Factors .pdf\",\"Yang et al. - 2020 - Understanding the effects of physical experience and information integration on consumer use of onli.pdf\"]}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/asset/pdf/presigned-url",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"asset",
+						"pdf",
+						"presigned-url"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Paper 01 getAWSkeys(old)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=X46TpzKd_sjhgL7G4Pb4V,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=e5f02945d1e34c01a70177d709725b10",
+						"description": "sentry-release; sentry-trace_id; (sentry-trace 前同 )"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDM1NjAxMTIsICJleHAiOiAxNzEyMjAwMTEyfQ.Jpz82X7yJp_Ny_ZIgPOE_Lj6GFXStnIe6G3ctbVc214dUW17y5IG8OwY6RxFleHA69llXwFGa4qZHengT65U8B0jaz_8SLXAhrZDVPbJr0rmvpWeOVmFT97LIwq_2ajjtjdfVPcqKbOQCzW0PcuQ-GrZdeFPsvAaTG3u4662QwzMFASLV1GAOWzKA80WFfa3PfhcbYI5cz1TeRabDaxhVKg0zvfV0PFPUumUyhptXQuMPFRQNlkcejyVB3vkuioff2PxSTYg5kUJBH3fDDwDgi2C5jVD1Z8c5dx74eWP0SOWumltfg7kAjviBjoWnf1bjZYc-wqydJZAmFqYrw8WPw; intercom-session-jtijbv5y=RUlZWmliSll0ZTk5MXZpVlBGNFNabGVHdnJzd25kUElHV2RiQ0NnK1kvSXlNSjByL1kyQlU5czRncy9ocWxweC0tdFBiRVpTdHhPVEdUYU9pd2hEbXpBZz09--8b1d927ad99204201d4981cb47d27d5f87f1dc67",
+						"description": "access_token(前小部分相同); intercom-session-jtijbv5y;"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "e5f02945d1e34c01a70177d709725b10-82103b4bdf468735-1",
+						"description": "sentry-trace"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"full_slug\":\"vpcc-2t7ql5mv\",\"files\":[\"/Users/yamlam/Downloads/10.21031-epod.11069307-2237066.pdf\"]}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/asset/pdf/presigned-url",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"asset",
+						"pdf",
+						"presigned-url"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Paper 02 pdf raw",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://typeset.io/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "key",
+							"value": "untitled-collection-2lrrcy3s-yang-et-al-2020-understanding-the-effects-of-physical-2i41trekx5.pdf",
+							"type": "text"
+						},
+						{
+							"key": "AWSAccessKeyId",
+							"value": "AKIARG2S6JBA67NXIGSE",
+							"type": "text"
+						},
+						{
+							"key": "policy",
+							"value": "eyJleHBpcmF0aW9uIjogIjIwMjQtMDItMDhUMTI6MjQ6MDNaIiwgImNvbmRpdGlvbnMiOiBbeyJidWNrZXQiOiAic2Npc3BhY2UtcHJvZHVjdGlvbi11c2VyLXVwbG9hZGVkLXBkZnMifSwgeyJrZXkiOiAidW50aXRsZWQtY29sbGVjdGlvbi0ybHJyY3kzcy15YW5nLWV0LWFsLTIwMjAtdW5kZXJzdGFuZGluZy10aGUtZWZmZWN0cy1vZi1waHlzaWNhbC0yaTQxdHJla3g1LnBkZiJ9XX0=",
+							"type": "text"
+						},
+						{
+							"key": "signature",
+							"value": "sljWxj9YFxmtmvEj+4qYURs6mZE=",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "Yang et al. - 2020 - Understanding the effects of physical experience and information integration on consumer use of onli.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://scispace-production-user-uploaded-pdfs.s3-accelerate.amazonaws.com/",
+					"protocol": "https",
+					"host": [
+						"scispace-production-user-uploaded-pdfs",
+						"s3-accelerate",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Paper 02 pdf raw(old)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "Referer",
+						"value": "https://typeset.io/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "key",
+							"value": "vpcc-2t7ql5mv-lin-xin-ge-ren-jian-li-3p6az6mwqd.pdf",
+							"type": "text"
+						},
+						{
+							"key": "AWSAccessKeyId",
+							"value": "AKIARG2S6JBA67NXIGSE",
+							"type": "text"
+						},
+						{
+							"key": "policy",
+							"value": "eyJleHBpcmF0aW9uIjogIjIwMjMtMTItMjZUMDQ6NTk6MTNaIiwgImNvbmRpdGlvbnMiOiBbeyJidWNrZXQiOiAic2Npc3BhY2UtcHJvZHVjdGlvbi11c2VyLXVwbG9hZGVkLXBkZnMifSwgeyJrZXkiOiAidnBjYy0ydDdxbDVtdi1saW4teGluLWdlLXJlbi1qaWFuLWxpLTNwNmF6Nm13cWQucGRmIn1dfQ==",
+							"type": "text"
+						},
+						{
+							"key": "signature",
+							"value": "OS2ea6W9lnram7r+EDjL55Y73+8=",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "林昕 - 个人简历.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://scispace-production-user-uploaded-pdfs.s3-accelerate.amazonaws.com/",
+					"protocol": "https",
+					"host": [
+						"scispace-production-user-uploaded-pdfs",
+						"s3-accelerate",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list papers in a specific collection",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=LmebAoWhcEfhz3HQvu-ft,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=5049e82e93b047019451514904440c04,sentry-sample_rate=1,sentry-transaction=GET%20%2Fapi%2Flibrary%2Fcollection,sentry-sampled=true"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; intercom-session-jtijbv5y=UVVaUUxybmwzSmlnb24wYVJkeHlNT0luWldWVHhEalNudnJuYXdiUGY0aTlpTm1pWVU2d09QUldYa0N3eHZQNS0tdGx0QVJhNDdGNGJuTnRib05YeWUydz09--95316b276f0623259805a74ea6cb754dbd27652a; notebook_onboarding_shown=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczODk0OTEsICJleHAiOiAxNzE2MDI5NDkxfQ.GTUaZZTlyaZSPVKzVrjRdano1E7v6wvaC9GAdsch8NK8FqS0ugP7sh1XgUrrie18Nk2zT1w27uRrVBNFuGHcU6WzTbmGv0kWUQqq0N30QjynkvspIN35g7kK8preEFYHoXbObMEfwxtmuidtd579x92aCJ_7jKPvu5-iAUwH5wEQfZvWt-6Xh-3Cm6H3GdCt714w_b8eViFbwa6_ZJXDjWX_IGxhihzlwgyDIr2mewbSCFBB8Q9C_Z3AWBhHuajpCrykL5WJzObaO-9xfEmsbP-bRDuC4y-iOtV0sFBXH5CjXL08Iaakzwj_wMpgtzXF57ZFkAR8j5ZC8X5tBYqhaA"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/folder/untitled-collection-2lrrcy3s"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "5049e82e93b047019451514904440c04-96a3c6a603bad38d-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://typeset.io/api/library/collection",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"library",
+						"collection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete papers in a collection",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=LmebAoWhcEfhz3HQvu-ft,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=87f3b3cf2774423da764926c242dd1fe,sentry-sample_rate=1,sentry-transaction=POST%20%2Fapi%2Flibrary%2Frecords%2Fbulk-delete,sentry-sampled=true"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; intercom-session-jtijbv5y=UVVaUUxybmwzSmlnb24wYVJkeHlNT0luWldWVHhEalNudnJuYXdiUGY0aTlpTm1pWVU2d09QUldYa0N3eHZQNS0tdGx0QVJhNDdGNGJuTnRib05YeWUydz09--95316b276f0623259805a74ea6cb754dbd27652a; notebook_onboarding_shown=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczODk0OTEsICJleHAiOiAxNzE2MDI5NDkxfQ.GTUaZZTlyaZSPVKzVrjRdano1E7v6wvaC9GAdsch8NK8FqS0ugP7sh1XgUrrie18Nk2zT1w27uRrVBNFuGHcU6WzTbmGv0kWUQqq0N30QjynkvspIN35g7kK8preEFYHoXbObMEfwxtmuidtd579x92aCJ_7jKPvu5-iAUwH5wEQfZvWt-6Xh-3Cm6H3GdCt714w_b8eViFbwa6_ZJXDjWX_IGxhihzlwgyDIr2mewbSCFBB8Q9C_Z3AWBhHuajpCrykL5WJzObaO-9xfEmsbP-bRDuC4y-iOtV0sFBXH5CjXL08Iaakzwj_wMpgtzXF57ZFkAR8j5ZC8X5tBYqhaA"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/folder/untitled-collection-2lrrcy3s"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "87f3b3cf2774423da764926c242dd1fe-ba1aeecb5574d82d-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"record_full_slugs\":[\"10-1016-j-landusepol-2020-104787-pdf-1pbduo34\",\"phantan2021-pdf-uemab7i1\"]}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/library/records/bulk-delete",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"library",
+						"records",
+						"bulk-delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rename a paper",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=LmebAoWhcEfhz3HQvu-ft,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=dfdbb6b6131648f0af7ada1d57ed20f3,sentry-sample_rate=1,sentry-transaction=PATCH%20%2Fapi%2Flibrary%2Fcollection%2Funtitled-collection-2lrrcy3s%2Frecords%2F2014-sami-abboud-et-al-eyemusic-pdf-33lnuqo0,sentry-sampled=true"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; intercom-session-jtijbv5y=UVVaUUxybmwzSmlnb24wYVJkeHlNT0luWldWVHhEalNudnJuYXdiUGY0aTlpTm1pWVU2d09QUldYa0N3eHZQNS0tdGx0QVJhNDdGNGJuTnRib05YeWUydz09--95316b276f0623259805a74ea6cb754dbd27652a; notebook_onboarding_shown=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczODk0OTEsICJleHAiOiAxNzE2MDI5NDkxfQ.GTUaZZTlyaZSPVKzVrjRdano1E7v6wvaC9GAdsch8NK8FqS0ugP7sh1XgUrrie18Nk2zT1w27uRrVBNFuGHcU6WzTbmGv0kWUQqq0N30QjynkvspIN35g7kK8preEFYHoXbObMEfwxtmuidtd579x92aCJ_7jKPvu5-iAUwH5wEQfZvWt-6Xh-3Cm6H3GdCt714w_b8eViFbwa6_ZJXDjWX_IGxhihzlwgyDIr2mewbSCFBB8Q9C_Z3AWBhHuajpCrykL5WJzObaO-9xfEmsbP-bRDuC4y-iOtV0sFBXH5CjXL08Iaakzwj_wMpgtzXF57ZFkAR8j5ZC8X5tBYqhaA"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/folder/untitled-collection-2lrrcy3s"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "dfdbb6b6131648f0af7ada1d57ed20f3-b22c49866e06994a-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"2014 SamiAbboud et al EyeMusic\"}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/library/collection/untitled-collection-2lrrcy3s/records/2014-sami-abboud-et-al-eyemusic-33lnuqo0",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"library",
+						"collection",
+						"untitled-collection-2lrrcy3s",
+						"records",
+						"2014-sami-abboud-et-al-eyemusic-33lnuqo0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "colum_data key names",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; notebook_onboarding_shown=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczOTYyMTksICJleHAiOiAxNzE2MDM2MjE5fQ.ma9QWNecXHP6dnOf5Gv3PkithUjcBnwHNza-zFYOMxkH21vm939ypMAneyxO_YljKULiUlrbw3I46f4keXfjtfN_lOueJFQtfJ_R-QbHocvVTKrr6C5ks3Dtprf84vvhz_fYVgZYi-yYsEa_-soaT9gJU5-sVjjHe7HnYfC_tzCfN0lQnsKd2vJLuydN6QWFvsJlfPxyhVB0ykViA4RV6WviE152HXR1puukT43JXUqNI47BLLM9nz6vtq4QoqyLRqrl9tWsgW0BfB1koimIwP33muAxOBxGRZ6CkH5CKrkR2caBkYJ5q_UlWz0VjhES4IwxgaQ0flbggFmpC8_kRw; intercom-session-jtijbv5y=YXZURHN2cUo2WjlSbUpRbmpkQVFSVmZvVGVMZUd0Qm4xQWJQdmt5RWJzbmUxNFNuQWlhSkdGWFRwSkxUZEFtRi0tMHJhb1FJcnpxMDBxOFdoaE9WYUNUdz09--5527a8c5183751a4c19ba371750cb57eb461f567"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "none"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://typeset.io/api/paper-info/columns",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"paper-info",
+						"columns"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "colum_data of paper",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"// \"column_type\":\"GENERIC_COLUMN\" -- 'key' may be 'conclusions', 'tldr', 'summarized_abstract', 'results'...",
+							"// \"column_type\":\"CUSTOM_COLUMN\" -- 包括自定 key 如: '3v1onf457k', '3f4qy7yiec' ...."
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=LmebAoWhcEfhz3HQvu-ft,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=ffe659746b93419e92e81123ee1adddd,sentry-sample_rate=1,sentry-transaction=POST%20%2Fapi%2Fpaper-info%2Fcolumns%2Fdata,sentry-sampled=true"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; intercom-session-jtijbv5y=UVVaUUxybmwzSmlnb24wYVJkeHlNT0luWldWVHhEalNudnJuYXdiUGY0aTlpTm1pWVU2d09QUldYa0N3eHZQNS0tdGx0QVJhNDdGNGJuTnRib05YeWUydz09--95316b276f0623259805a74ea6cb754dbd27652a; notebook_onboarding_shown=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczODk0OTEsICJleHAiOiAxNzE2MDI5NDkxfQ.GTUaZZTlyaZSPVKzVrjRdano1E7v6wvaC9GAdsch8NK8FqS0ugP7sh1XgUrrie18Nk2zT1w27uRrVBNFuGHcU6WzTbmGv0kWUQqq0N30QjynkvspIN35g7kK8preEFYHoXbObMEfwxtmuidtd579x92aCJ_7jKPvu5-iAUwH5wEQfZvWt-6Xh-3Cm6H3GdCt714w_b8eViFbwa6_ZJXDjWX_IGxhihzlwgyDIr2mewbSCFBB8Q9C_Z3AWBhHuajpCrykL5WJzObaO-9xfEmsbP-bRDuC4y-iOtV0sFBXH5CjXL08Iaakzwj_wMpgtzXF57ZFkAR8j5ZC8X5tBYqhaA"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/folder/untitled-collection-2lrrcy3s"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "ffe659746b93419e92e81123ee1adddd-bf31491940363cc0-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"key\":\"conclusions\",\"search_term\":\"\",\"entity_full_slugs\":[\"2014-sami-abboud-et-al-eyemusic-33lnuqo0\"],\"language\":\"zh\",\"column_type\":\"GENERIC_COLUMN\",\"entity_type\":\"RECORD\"}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/paper-info/columns/data",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"paper-info",
+						"columns",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "chat with paper2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=ghpQ4q0b5rH5tKzFEdiSB,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=f70b4b3d69cd468d881c1e85f15a1ccc"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDcwNDQyODgsICJleHAiOiAxNzE1Njg0Mjg4fQ.Sgqyr99CzYWpk6GMGvgF8lmhV5U6tGc9v-VSiv-J2JhC1ThG8uIoi-YhCYhPVZ2AZ8jhb7JmXJ3BQOlqkUbSTJA-3Vxb_9y3u1Wit2qvR2l9CRWijSkESWe1rNi-ZOPq9LRra16Q0lvdIa6RG3L8R41q6QM_swJIMrWWWVrYvrytAN0X8sOJt9itoYlhdnyNp7NI8XYC0B4rIVICBY2ApBReDDcsWMt0tEXw2544QXIKNTOiLCR31LSiPi6CWDP7N_8HYm55BJEgRxu9-QdJW1qMsezGtmTP-TdPES3i7D1pArANakqLRBnEadGBXUjG6G2S-SOsMvblhhbpyZghEQ; intercom-session-jtijbv5y=Nit5UGNaZmkvSE9TUy9LZk9HZ2lQZ1F6WS9OckxTY0owTWZkQjFwb2tuRnpSNjlGblZtWG5CZUIxZnU2eXpDMC0tdFR2WnZRWmJSUkoxUG9na20yTEhCQT09--bbb49430bab26bc27afa68054849bf6e52f5f512"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/online-education-platform-1scmhkph/al-rahmi-et-al-2021-the-influence-of-information-system-1hz1fqkh"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Android\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "f70b4b3d69cd468d881c1e85f15a1ccc-9f34bbc870f525a4-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"parent_message_uuid\":null,\"attachment_uuid\":null,\"language\":\"zh\",\"full_slug\":\"al-rahmi-et-al-2021-the-influence-of-information-system-1hz1fqkh\",\"entity_type\":\"RECORD\",\"conversation_question_type\":\"USER_GENERATED\",\"conversation_question_location\":null,\"model_variant\":\"V2\",\"message_type\":\"TEXT\",\"message\":\"指出与ISSM有关的部分\",\"selection_type\":null,\"user_prompt_type\":\"QUESTION\",\"attachment\":null,\"settings\":{\"explain_math_table\":\"powerful\",\"response_length\":\"auto\",\"tone\":\"simple\",\"experience\":\"beginner\",\"answer_format\":\"bulleted\",\"custom_instruction\":\"\"}}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/genius/conversation/1agoehiyfo/messages",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"genius",
+						"conversation",
+						"1agoehiyfo",
+						"messages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Paper 03 record",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=LmebAoWhcEfhz3HQvu-ft,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=54cf96f5c88d449ebd8afc5cc36434a9,sentry-sample_rate=1,sentry-transaction=POST%20%2Fapi%2Flibrary%2Fcollection%2Funtitled-collection-2lrrcy3s%2Frecords,sentry-sampled=true"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; notebook_onboarding_shown=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczOTA1NDMsICJleHAiOiAxNzE2MDMwNTQzfQ.OcdmgTtwjVbzbJjo-7seTww5Pfg2l1ATMKlKHJZ3GDgUIYH2FQ_JwI7_rYuZcsBi5IeMm3CeJ1c0homgfhx0-9lU2RAsiPNjjN08ois0n1q2sJ5yhaniSjrYXacj1JgGu715UKFxi3AIitZMhr5HV3Bvyi2P_ItRlIkDA1iQ0o0OvgjC2A29rQrQizN0jNG4WPmrv8Azeu4EK83nnjG3bJRnIm7gceOZArPvSGsQ6Nmi2PRQR6ouG0zHlycmCWQ5eR1bDjtyPA1PHNTiPlCITWQZ0doqMaKsIgXDt1ipnXS_dTtu7by4nw0JCjPlXFzf0KkTiuEw5TvUBmDVyC-bsQ; intercom-session-jtijbv5y=cXNKMUZwZGVzTGh0VExGTWlQN29UbWNhd1JJWjVuc3VwL2g4b3o3N01uYTdWeWJoK0FybVNZeEUzT3Y5VWF5ay0tQ0U1N2N1VThhcTJycjhseEhjTWRwQT09--fe3f29ba17963bdd4981bf56af75b27f461b641f"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library/folder/untitled-collection-2lrrcy3s"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "54cf96f5c88d449ebd8afc5cc36434a9-bcf567a78020a7aa-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"name\":\"Al-Rahmi et al. - 2021 - The Influence of Information System Success and Technology Acceptance Model on Social Media Factors .pdf\",\"asset_uuid\":\"l7xks1n0kgv5rst\",\"type\":\"PDF\"},{\"name\":\"Yang et al. - 2020 - Understanding the effects of physical experience and information integration on consumer use of onli.pdf\",\"asset_uuid\":\"1h5x246m2votd0s\",\"type\":\"PDF\"}]"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/library/collection/untitled-collection-2lrrcy3s/records",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"library",
+						"collection",
+						"untitled-collection-2lrrcy3s",
+						"records"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Folder create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=qZnz2TwcjP4rWp8bgJIXy,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=f86fab73f70b4742a42b0bd06a944b26,sentry-sample_rate=1,sentry-transaction=POST%20%2Fapi%2Flibrary%2Fcollection,sentry-sampled=true"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; notebook_onboarding_shown=1; intercom-session-jtijbv5y=YXZURHN2cUo2WjlSbUpRbmpkQVFSVmZvVGVMZUd0Qm4xQWJQdmt5RWJzbmUxNFNuQWlhSkdGWFRwSkxUZEFtRi0tMHJhb1FJcnpxMDBxOFdoaE9WYUNUdz09--5527a8c5183751a4c19ba371750cb57eb461f567; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczOTY5OTAsICJleHAiOiAxNzE2MDM2OTkwfQ.jFb2q9Mt-6UpCe2QiBcQcZPxtNZC0h80gSyX-V6xJo5hO5A0LYkSqFTm2u1Fz24cBJhv8s65HH5D8wukwYCF0OoOfBwoXQSt2igQe21kHLmorvjjPiCTCvn7XJUqKEebMWSCAfwIti_r2VphAwE5QkXyZ9hQQ-2T4QpF8wzu3eZCywhiLEfSVMTC_aBEpEQSVdi_7H0ni88JjlsKdSGQDyyg6bZRsY8hVc5KYTuI_htGjaPckRDocOZGTISHE-3qE260joZMph0k8rtn6tKGwpn9criM_5YIB4RIXmDAF54vyZlixvqthACbXIN2NI0l-5ZawmR3UV0lDT4mbjk1AQ"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library?show_folders_only=true"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "f86fab73f70b4742a42b0bd06a944b26-a2c4e20a5f1d65da-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Untitled collection\"}"
+				},
+				"url": {
+					"raw": "https://typeset.io/api/library/collection",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"library",
+						"collection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Folder deleted",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=qZnz2TwcjP4rWp8bgJIXy,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=efb382940fd94753a7ae235b68b274e8,sentry-sample_rate=1,sentry-transaction=DELETE%20%2Fapi%2Flibrary%2Fcollection%2Funtitled-collection-zehrk5rs,sentry-sampled=true"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; notebook_onboarding_shown=1; intercom-session-jtijbv5y=YXZURHN2cUo2WjlSbUpRbmpkQVFSVmZvVGVMZUd0Qm4xQWJQdmt5RWJzbmUxNFNuQWlhSkdGWFRwSkxUZEFtRi0tMHJhb1FJcnpxMDBxOFdoaE9WYUNUdz09--5527a8c5183751a4c19ba371750cb57eb461f567; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDczOTY5OTAsICJleHAiOiAxNzE2MDM2OTkwfQ.jFb2q9Mt-6UpCe2QiBcQcZPxtNZC0h80gSyX-V6xJo5hO5A0LYkSqFTm2u1Fz24cBJhv8s65HH5D8wukwYCF0OoOfBwoXQSt2igQe21kHLmorvjjPiCTCvn7XJUqKEebMWSCAfwIti_r2VphAwE5QkXyZ9hQQ-2T4QpF8wzu3eZCywhiLEfSVMTC_aBEpEQSVdi_7H0ni88JjlsKdSGQDyyg6bZRsY8hVc5KYTuI_htGjaPckRDocOZGTISHE-3qE260joZMph0k8rtn6tKGwpn9criM_5YIB4RIXmDAF54vyZlixvqthACbXIN2NI0l-5ZawmR3UV0lDT4mbjk1AQ"
+					},
+					{
+						"key": "origin",
+						"value": "https://typeset.io"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://typeset.io/library?show_folders_only=true"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "efb382940fd94753a7ae235b68b274e8-9cae23ead7aec079-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://typeset.io/api/library/collection/untitled-collection-zehrk5rs",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"api",
+						"library",
+						"collection",
+						"untitled-collection-zehrk5rs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "page.auth.folder",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "typeset.io"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=r5HuNucxzFpfcin3A2THLIRgdjKHE0OG; sessionid=xu9bfxmvjnras2qwhtvigk6m4qrrrk6o; __stripe_mid=d3284375-f1a8-4ca3-8aac-fd3779d0c407daf085; intercom-device-id-jtijbv5y=8871d164-7348-47f9-8fc1-68f6a00b4039; annotation_onboarding_text_highlighted=true; user_disabled_ribbon=1; notebook_onboarding_shown=1; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDc0MDE0MjcsICJleHAiOiAxNzE2MDQxNDI3fQ.LZAAKYjJudq17wpukr9xKW3SyxpX8YdRBvZ-nXK818gRiF5f5HBUbc4Z7gT_gwD8151VMVPEc0FvQamAWm8eRg4uPNJR9_GG73Oaj6H-mwu1bEhMPH2vgZpgfGWrNuQxJNl8H1Zwf1os6IhJqOxQcdeGFAgzBMinEY24nL8PK0GIHYgllr4RLimvp6b99ma8IB0Lr_9m7bi6MiyQimXsJMgy_v6Q7efJj653Uy1ZsXIE4VzL9vd7FlxNAg0i0gyUQvHY1-NhlLERkTCg61bEj6lD3FPEGGHcOgKaql1AF5-WrviZt1Y6MZcA6KafXSruxpNWw5FkRn8JiDhwLlN1fQ; intercom-session-jtijbv5y=b2RBVU5nR0x0bEVHaUVKbTU4dE1RWGdOamVwb3NjcHFJVUVnYXRMUGlING1zZU1qVWovaXhYY1VpbC9weGM5Mi0tYWg4Qkhxa0pHNzlPUXdxTTRzM2QzQT09--d094aca4bab4b1c29ed047db8c806de233876851"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://typeset.io/library/folder/backup-folder-2g1ks4gz",
+					"protocol": "https",
+					"host": [
+						"typeset",
+						"io"
+					],
+					"path": [
+						"library",
+						"folder",
+						"backup-folder-2g1ks4gz"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

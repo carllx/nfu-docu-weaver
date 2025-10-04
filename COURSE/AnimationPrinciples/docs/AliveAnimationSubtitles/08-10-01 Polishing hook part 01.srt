@@ -1,0 +1,676 @@
+﻿1
+00:00:00,060 --> 00:00:02,714
+- We will now start to polish the hook.
+
+2
+00:00:02,714 --> 00:00:05,450
+And, as usual, I will
+start with the center
+
+3
+00:00:05,450 --> 00:00:09,150
+of gravity of my character
+using the torso root controller.
+
+4
+00:00:09,150 --> 00:00:11,350
+Our goal during the punching stage
+
+5
+00:00:11,350 --> 00:00:13,890
+is to better sell or communicate
+
+6
+00:00:13,890 --> 00:00:16,200
+what we have blocked out before.
+
+7
+00:00:16,200 --> 00:00:19,290
+We need to bring as much
+impact into the hook
+
+8
+00:00:19,290 --> 00:00:21,100
+as possible and make sure
+
+9
+00:00:21,100 --> 00:00:24,450
+that all our body mechanics are correct.
+
+10
+00:00:24,450 --> 00:00:27,910
+As our character is recovering
+from the right cross,
+
+11
+00:00:27,910 --> 00:00:31,510
+there is a weight transfer
+onto the right foot.
+
+12
+00:00:31,510 --> 00:00:34,680
+I need to move the center
+of gravity of the character
+
+13
+00:00:34,680 --> 00:00:36,470
+toward the right leg.
+
+14
+00:00:36,470 --> 00:00:39,000
+His weight will be supported
+onto the right foot,
+
+15
+00:00:39,000 --> 00:00:41,416
+and he will be able to move the left foot
+
+16
+00:00:41,416 --> 00:00:43,810
+toward the next step.
+
+17
+00:00:43,810 --> 00:00:47,860
+So I've lowered the value
+of the X location curve
+
+18
+00:00:47,860 --> 00:00:50,600
+until frame 31 as the character
+
+19
+00:00:50,600 --> 00:00:53,030
+is making a step with the left foot.
+
+20
+00:00:53,030 --> 00:00:55,670
+And once the left foot is in contact,
+
+21
+00:00:55,670 --> 00:00:58,870
+I can transfer the weight
+onto the left foot.
+
+22
+00:00:58,870 --> 00:01:01,020
+Now, working with the Z curve,
+
+23
+00:01:01,020 --> 00:01:05,060
+my goal is to create a
+nice arch that will go down
+
+24
+00:01:05,060 --> 00:01:08,020
+as the weight shifts toward the left leg.
+
+25
+00:01:08,020 --> 00:01:10,680
+And then the character will raise a bit.
+
+26
+00:01:10,680 --> 00:01:12,020
+When we watch the curve,
+
+27
+00:01:12,020 --> 00:01:14,490
+we can clearly see the weight shifting
+
+28
+00:01:14,490 --> 00:01:18,445
+toward the right foot
+between frame 28 and 13,
+
+29
+00:01:18,445 --> 00:01:23,445
+and then transitioning onto
+the left foot until frame 38.
+
+30
+00:01:24,630 --> 00:01:27,030
+While the character is
+traveling to the left,
+
+31
+00:01:27,030 --> 00:01:30,560
+the value of the X location is raising,
+
+32
+00:01:30,560 --> 00:01:33,000
+he's lowering his center of gravity,
+
+33
+00:01:33,000 --> 00:01:35,870
+so the value of the Z curve is going down
+
+34
+00:01:35,870 --> 00:01:39,620
+and stabilize just before
+this little drop here.
+
+35
+00:01:39,620 --> 00:01:43,000
+This drop in the Z curve over two frames
+
+36
+00:01:43,000 --> 00:01:45,330
+is micro-anticipation.
+
+37
+00:01:45,330 --> 00:01:48,700
+On the timing, my character is easing
+
+38
+00:01:48,700 --> 00:01:51,490
+into the anticipation on frame 42.
+
+39
+00:01:51,490 --> 00:01:56,460
+And then, from frame 42 to
+frame 45, is releasing the hook.
+
+40
+00:01:56,460 --> 00:02:01,460
+Using this kind of moving hold
+from frame 32 to frame 42,
+
+41
+00:02:01,494 --> 00:02:05,910
+we have created a long and slow
+anticipation into the hook.
+
+42
+00:02:05,910 --> 00:02:07,660
+To break this anticipation
+
+43
+00:02:07,660 --> 00:02:10,318
+and bring even more contrast to the hook,
+
+44
+00:02:10,318 --> 00:02:13,450
+I will insert a key frame on frame 40,
+
+45
+00:02:13,450 --> 00:02:17,410
+and then I will push the
+anticipation pause on frame 42,
+
+46
+00:02:17,410 --> 00:02:20,390
+meaning that I will lower
+the center of gravity.
+
+47
+00:02:20,390 --> 00:02:24,570
+And I will also rework a
+bit the Y location curve
+
+48
+00:02:24,570 --> 00:02:27,470
+so that the character is
+pushing a bit backward.
+
+49
+00:02:27,470 --> 00:02:31,660
+Basically, I am pushing the
+curves the opposite direction
+
+50
+00:02:31,660 --> 00:02:34,330
+than during the hook motion.
+
+51
+00:02:34,330 --> 00:02:38,200
+This little extra anticipation
+over one or two frame
+
+52
+00:02:38,200 --> 00:02:42,090
+is called a micro-anticipation
+and it's used a lot
+
+53
+00:02:42,090 --> 00:02:45,160
+in cartoonish animation or game animation.
+
+54
+00:02:45,160 --> 00:02:48,480
+From there, I will be working
+on the Y location curve
+
+55
+00:02:48,480 --> 00:02:50,270
+of the center of gravity.
+
+56
+00:02:50,270 --> 00:02:53,340
+Here, I'm slightly
+pushing the character back
+
+57
+00:02:53,340 --> 00:02:56,530
+so that the left foot is not
+supporting too much weight
+
+58
+00:02:56,530 --> 00:03:00,150
+and can be raised and pushed
+forward into the next step.
+
+59
+00:03:00,150 --> 00:03:02,650
+Once it hits its contact point,
+
+60
+00:03:02,650 --> 00:03:05,780
+I can shift the weight
+onto this current foot.
+
+61
+00:03:05,780 --> 00:03:08,670
+Then I will ease backwards
+for the moving hold
+
+62
+00:03:08,670 --> 00:03:11,900
+of the anticipation until frame 40.
+
+63
+00:03:11,900 --> 00:03:16,070
+And from frame 40 to 42, I will
+push the character backward
+
+64
+00:03:16,070 --> 00:03:20,980
+a little faster so that we do
+create the micro-anticipation
+
+65
+00:03:20,980 --> 00:03:23,450
+we were talking about just before.
+
+66
+00:03:23,450 --> 00:03:26,180
+During the hook motion,
+I will tweak the curves
+
+67
+00:03:26,180 --> 00:03:27,570
+frame by frame.
+
+68
+00:03:27,570 --> 00:03:29,650
+Whenever we have a very fast motion,
+
+69
+00:03:29,650 --> 00:03:32,920
+we have a lot of changes into
+the pose of the character.
+
+70
+00:03:32,920 --> 00:03:36,330
+That's pretty common to animate on ones,
+
+71
+00:03:36,330 --> 00:03:38,950
+meaning that you will add a key frame
+
+72
+00:03:38,950 --> 00:03:43,380
+or insert a key frame, every
+frame, every one frame.
+
+73
+00:03:43,380 --> 00:03:46,240
+In this case, I'm just
+watching the arcs made
+
+74
+00:03:46,240 --> 00:03:49,787
+by the motion path of the center
+of gravity of my character
+
+75
+00:03:49,787 --> 00:03:52,216
+and I'm just pushing the different curve
+
+76
+00:03:52,216 --> 00:03:55,200
+so that it creates a nicer arc.
+
+77
+00:03:55,200 --> 00:03:57,600
+I have the pretty squared angle.
+
+78
+00:03:57,600 --> 00:04:00,580
+Here, I'm just curving it into a C shape.
+
+79
+00:04:00,580 --> 00:04:04,003
+From there, I will slightly
+rework the X location curve
+
+80
+00:04:04,003 --> 00:04:08,270
+so that the character
+transition into the other shoot
+
+81
+00:04:08,270 --> 00:04:12,320
+a little faster between
+frame 46 and frame 48.
+
+82
+00:04:12,320 --> 00:04:14,470
+Since we are the very detailed blocking
+
+83
+00:04:14,470 --> 00:04:16,410
+of this parts of the animation,
+
+84
+00:04:16,410 --> 00:04:18,540
+the polishing stage in this case
+
+85
+00:04:18,540 --> 00:04:21,230
+is really about refining the arcs
+
+86
+00:04:21,230 --> 00:04:25,410
+and the speed of the motion
+over a couple of frames.
+
+87
+00:04:25,410 --> 00:04:28,740
+I will repeat myself again,
+but the more detailed
+
+88
+00:04:28,740 --> 00:04:31,690
+is your blocking, the easier and faster
+
+89
+00:04:31,690 --> 00:04:35,300
+will be your splining and polishing stage.
+
+90
+00:04:35,300 --> 00:04:38,300
+As usual, once I'm done
+with the location curve,
+
+91
+00:04:38,300 --> 00:04:40,520
+I switch to the rotation curves.
+
+92
+00:04:40,520 --> 00:04:43,360
+My goal as usual is to
+bring contrast to the motion
+
+93
+00:04:43,360 --> 00:04:45,800
+so, generally, when
+you switch to splining,
+
+94
+00:04:45,800 --> 00:04:48,810
+your curve will be smoothed
+out, which is normal.
+
+95
+00:04:48,810 --> 00:04:50,580
+Your job from there is to favorize
+
+96
+00:04:50,580 --> 00:04:53,230
+whether the previous pose or the next one.
+
+97
+00:04:53,230 --> 00:04:55,480
+Prior to the hook, I
+will make the body drag.
+
+98
+00:04:55,480 --> 00:04:57,820
+So when the character is going down,
+
+99
+00:04:57,820 --> 00:05:00,380
+I will raise the upper part of the body
+
+100
+00:05:00,380 --> 00:05:02,900
+by pushing the X rotation curve down.
+
+101
+00:05:02,900 --> 00:05:06,500
+And then as you dive into the
+anticipation for the hook,
+
+102
+00:05:06,500 --> 00:05:08,300
+I will push the curve up.
+
+103
+00:05:08,300 --> 00:05:10,600
+So, basically, I've created a drag
+
+104
+00:05:10,600 --> 00:05:12,560
+and then a slight over shoot,
+
+105
+00:05:12,560 --> 00:05:15,080
+and they will do the same
+with the twisting motion.
+
+106
+00:05:15,080 --> 00:05:17,360
+As he goes toward the anticipation,
+
+107
+00:05:17,360 --> 00:05:20,905
+I will make the upper
+body dragging by pushing
+
+108
+00:05:20,905 --> 00:05:22,130
+the Z quaternion curve down.
+
+109
+00:05:22,130 --> 00:05:25,720
+And then, as his weight is
+shifting upon his left foot
+
+110
+00:05:25,720 --> 00:05:28,560
+and easing through
+anticipation for the hook,
+
+111
+00:05:28,560 --> 00:05:31,180
+I will push the Z quaternion curve up
+
+112
+00:05:31,180 --> 00:05:34,470
+and they will do the same
+with the Y quaternion curve.
+
+113
+00:05:34,470 --> 00:05:37,230
+Again, your job is not to know by heart
+
+114
+00:05:37,230 --> 00:05:40,860
+which curve does what, but
+what the body should do.
+
+115
+00:05:40,860 --> 00:05:44,880
+In this case, I want to drag
+while I'm switching stance.
+
+116
+00:05:44,880 --> 00:05:47,440
+And once I've reached the new stance,
+
+117
+00:05:47,440 --> 00:05:49,446
+I want to push the anticipation.
+
+118
+00:05:49,446 --> 00:05:52,350
+So I need to figure out
+which curve does what
+
+119
+00:05:52,350 --> 00:05:55,260
+by just clicking them and
+watching my character.
+
+120
+00:05:55,260 --> 00:05:57,150
+When I moved the Z quaternion curve,
+
+121
+00:05:57,150 --> 00:06:00,190
+I can see that the torso of
+my character is twisting,
+
+122
+00:06:00,190 --> 00:06:01,810
+so I will work on that curve
+
+123
+00:06:01,810 --> 00:06:04,230
+for this specific part on the animation.
+
+124
+00:06:04,230 --> 00:06:07,620
+And since I want to put the
+micro-anticipation as before,
+
+125
+00:06:07,620 --> 00:06:09,510
+between frame 14 and 42,
+
+126
+00:06:09,510 --> 00:06:12,090
+I will slightly erase
+the Z quaternion curve,
+
+127
+00:06:12,090 --> 00:06:15,050
+which make the character
+twisting his body.
+
+128
+00:06:15,050 --> 00:06:18,210
+Then we have this huge
+drop into the curves
+
+129
+00:06:18,210 --> 00:06:21,190
+that generate the twist
+the opposite direction
+
+130
+00:06:21,190 --> 00:06:22,700
+to perform the hook.
+
+131
+00:06:22,700 --> 00:06:25,760
+What I will do from there is
+create a slight over shoot
+
+132
+00:06:25,760 --> 00:06:29,490
+by rotating the Z
+quaternion curve angle down.
+
+133
+00:06:29,490 --> 00:06:31,800
+This way, the torso will
+continue rotating a bit
+
+134
+00:06:31,800 --> 00:06:34,060
+just after the character hit the bag.
+
+135
+00:06:34,060 --> 00:06:36,480
+This will bring more weight to the motion,
+
+136
+00:06:36,480 --> 00:06:39,320
+while if we were to rotate
+the body the opposite way,
+
+137
+00:06:39,320 --> 00:06:42,500
+just after the hit, it
+will make a bounce motion
+
+138
+00:06:42,500 --> 00:06:46,500
+that will be perfect for a
+light punch or a bouncing ball.
+
+139
+00:06:46,500 --> 00:06:49,410
+Again, since we had a
+very detailed blocking,
+
+140
+00:06:49,410 --> 00:06:51,170
+pushing those curve is pretty easy
+
+141
+00:06:51,170 --> 00:06:53,768
+and I'm not really modifying their shape,
+
+142
+00:06:53,768 --> 00:06:56,450
+but just choosing
+whether to push them down
+
+143
+00:06:56,450 --> 00:06:57,283
+or push them up a bit
+
+144
+00:06:57,283 --> 00:07:01,370
+to favorize the previews our next pose.
+
+145
+00:07:01,370 --> 00:07:03,900
+For example, on the X rotation curve here,
+
+146
+00:07:03,900 --> 00:07:06,650
+I'm pushing it down a
+bit so I'm favorizing
+
+147
+00:07:06,650 --> 00:07:08,890
+the previous pose where the character
+
+148
+00:07:08,890 --> 00:07:10,467
+is leaning into the punch.
+
+149
+00:07:10,467 --> 00:07:13,625
+And then, as he will be walking backward,
+
+150
+00:07:13,625 --> 00:07:16,190
+I will push the curve a little up
+
+151
+00:07:16,190 --> 00:07:18,293
+so that the body is dragging forward.
+

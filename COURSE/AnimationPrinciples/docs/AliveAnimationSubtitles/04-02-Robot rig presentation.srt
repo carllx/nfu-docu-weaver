@@ -1,0 +1,566 @@
+﻿1
+00:00:00,720 --> 00:00:02,070
+- [Instructor] Before we get started,
+
+2
+00:00:02,070 --> 00:00:04,140
+let's have a look to the rig.
+
+3
+00:00:04,140 --> 00:00:07,898
+By default, the character
+is presented with a MatCap
+
+4
+00:00:07,898 --> 00:00:10,380
+and the preview of the texture.
+
+5
+00:00:10,380 --> 00:00:13,130
+You can enter material preview mode
+
+6
+00:00:13,130 --> 00:00:15,850
+to see the robot at its best
+
+7
+00:00:15,850 --> 00:00:17,830
+but you should stay in showing mode
+
+8
+00:00:17,830 --> 00:00:19,321
+for animation performances.
+
+9
+00:00:19,321 --> 00:00:20,160
+(whoosh)
+
+10
+00:00:20,160 --> 00:00:22,310
+By default, you should have access
+
+11
+00:00:22,310 --> 00:00:24,390
+to the different rig layers.
+
+12
+00:00:24,390 --> 00:00:27,670
+If it's not the case,
+open the text editor.
+
+13
+00:00:27,670 --> 00:00:29,590
+You should have the script open,
+
+14
+00:00:29,590 --> 00:00:32,340
+if it's not the case,
+select it in the list
+
+15
+00:00:32,340 --> 00:00:34,150
+and press the play button.
+
+16
+00:00:34,150 --> 00:00:35,910
+Then select the rig
+
+17
+00:00:35,910 --> 00:00:38,180
+and go into pose mode.
+
+18
+00:00:38,180 --> 00:00:41,630
+The first thing to check is this eye icon.
+
+19
+00:00:41,630 --> 00:00:45,280
+It's a bone that holds
+some custom properties.
+
+20
+00:00:45,280 --> 00:00:48,480
+The Bevel option allows us to re-enable
+
+21
+00:00:48,480 --> 00:00:51,470
+the Bevel modifier that is on the robot.
+
+22
+00:00:51,470 --> 00:00:53,750
+It will make it look a little better
+
+23
+00:00:53,750 --> 00:00:57,340
+but it will also increase
+the number of polygon,
+
+24
+00:00:57,340 --> 00:00:59,750
+hence reducing the performances.
+
+25
+00:00:59,750 --> 00:01:01,850
+Activating the Bevel modifier
+
+26
+00:01:01,850 --> 00:01:04,880
+tend to triple the number of polygons.
+
+27
+00:01:04,880 --> 00:01:07,170
+Enabling the subdiv option,
+
+28
+00:01:07,170 --> 00:01:10,598
+will enabled the subdivision
+modifier on the robot,
+
+29
+00:01:10,598 --> 00:01:15,010
+increasing the number of
+faces to almost a million.
+
+30
+00:01:15,010 --> 00:01:19,200
+So it will largely slow down
+your computer performances.
+
+31
+00:01:19,200 --> 00:01:23,180
+If I press the space bar and
+try to play the animation,
+
+32
+00:01:23,180 --> 00:01:26,130
+even if our robot is not animated,
+
+33
+00:01:26,130 --> 00:01:29,360
+you can see the number of
+frame per second dropping.
+
+34
+00:01:29,360 --> 00:01:32,529
+Note that those option only
+effect the viewport display.
+
+35
+00:01:32,529 --> 00:01:35,160
+You don't need to re-enable them
+
+36
+00:01:35,160 --> 00:01:37,750
+if you want to render your animation.
+
+37
+00:01:37,750 --> 00:01:40,620
+Getting back onto this view property bone,
+
+38
+00:01:40,620 --> 00:01:43,110
+you can see that there are options to
+
+39
+00:01:43,110 --> 00:01:46,490
+mask the artillery piece, the legs,
+
+40
+00:01:46,490 --> 00:01:49,180
+and both the mini gun,
+and the rocket launcher.
+
+41
+00:01:49,180 --> 00:01:53,780
+Just, as we add on the squirrel
+character allows us to focus
+
+42
+00:01:53,780 --> 00:01:56,070
+on specific parts of the character.
+
+43
+00:01:56,070 --> 00:01:57,450
+Next to these bones,
+
+44
+00:01:57,450 --> 00:02:00,910
+we have another one that
+is our properties bone.
+
+45
+00:02:00,910 --> 00:02:03,280
+It includes a lot of different properties
+
+46
+00:02:03,280 --> 00:02:05,930
+but they almost all do the same thing.
+
+47
+00:02:05,930 --> 00:02:08,360
+The first ones allow us to switch
+
+48
+00:02:08,360 --> 00:02:11,940
+between the forward kinematic
+and inverse kinematics
+
+49
+00:02:11,940 --> 00:02:14,360
+for the right leg or the left leg.
+
+50
+00:02:14,360 --> 00:02:18,110
+By default, they are set
+to inverse kinematics.
+
+51
+00:02:18,110 --> 00:02:20,590
+Moving the inverse kinematic controller
+
+52
+00:02:20,590 --> 00:02:23,260
+would allow us to animate the whole leg
+
+53
+00:02:23,260 --> 00:02:26,019
+exactly as we did with
+our squirrel characters.
+
+54
+00:02:26,019 --> 00:02:29,020
+If we change the value to zero,
+
+55
+00:02:29,020 --> 00:02:32,470
+now the leg is moving in another position.
+
+56
+00:02:32,470 --> 00:02:36,300
+It will now follow the
+forward kinematic controllers
+
+57
+00:02:36,300 --> 00:02:37,560
+that we can access
+
+58
+00:02:37,560 --> 00:02:41,320
+by activating the forward kinematic layer.
+
+59
+00:02:41,320 --> 00:02:44,537
+Now the leg is moving
+using forward kinematic
+
+60
+00:02:44,537 --> 00:02:48,290
+and we can control each
+segment separately.
+
+61
+00:02:48,290 --> 00:02:51,854
+We will be mostly animating
+using inverse kinematic
+
+62
+00:02:51,854 --> 00:02:53,990
+so you can switch it back.
+
+63
+00:02:53,990 --> 00:02:58,460
+The next properties allows
+up to enable or disable
+
+64
+00:02:58,460 --> 00:03:03,120
+the rotation follow of the
+different parts of the robot.
+
+65
+00:03:03,120 --> 00:03:04,100
+By default,
+
+66
+00:03:04,100 --> 00:03:07,510
+the arms are following the
+orientation of the body.
+
+67
+00:03:07,510 --> 00:03:10,780
+But if I disable this flow rotation,
+
+68
+00:03:10,780 --> 00:03:13,010
+you can see that now they stay
+
+69
+00:03:13,010 --> 00:03:14,310
+or (indistinct).
+
+70
+00:03:14,310 --> 00:03:16,310
+They don't follow the rotation
+
+71
+00:03:16,310 --> 00:03:17,840
+of the body anymore.
+
+72
+00:03:17,840 --> 00:03:20,310
+You will find the same option
+
+73
+00:03:20,310 --> 00:03:23,970
+for the artillery piece
+and the head of the robot.
+
+74
+00:03:23,970 --> 00:03:27,860
+By default, the follow
+rotation is disabled
+
+75
+00:03:27,860 --> 00:03:31,500
+but if I re-enable the
+follow head rotation,
+
+76
+00:03:31,500 --> 00:03:34,860
+you can see that now the
+head is leaning forward
+
+77
+00:03:34,860 --> 00:03:37,027
+and is aligned with the body.
+
+78
+00:03:37,027 --> 00:03:42,027
+The follow leg rotation will
+only affect the leg behavior
+
+79
+00:03:42,100 --> 00:03:45,770
+whenever you are using forward kinematic.
+
+80
+00:03:45,770 --> 00:03:48,790
+This is pretty common when
+using forward kinematic
+
+81
+00:03:48,790 --> 00:03:52,846
+for the arms or the leg
+to isolate their rotation
+
+82
+00:03:52,846 --> 00:03:57,070
+from the hips rotation,
+or the shoulder rotation.
+
+83
+00:03:57,070 --> 00:03:59,730
+The next option, mini gun speed,
+
+84
+00:03:59,730 --> 00:04:01,710
+will allow us to set
+
+85
+00:04:01,710 --> 00:04:05,570
+the speed of rotation of
+the mini gun cannon so that
+
+86
+00:04:05,570 --> 00:04:09,510
+we don't need to animate
+the rotation of the barrels.
+
+87
+00:04:09,510 --> 00:04:12,520
+The mini gun follow and the sensor follow,
+
+88
+00:04:12,520 --> 00:04:15,286
+allow us to isolate the targets
+
+89
+00:04:15,286 --> 00:04:18,000
+from both those items.
+
+90
+00:04:18,000 --> 00:04:22,970
+The mini gun and the sensor
+will follow their own target.
+
+91
+00:04:22,970 --> 00:04:26,010
+And by default, those targets are parented
+
+92
+00:04:26,010 --> 00:04:28,090
+to the body of the robot.
+
+93
+00:04:28,090 --> 00:04:30,640
+If we disable or set to zero
+
+94
+00:04:30,640 --> 00:04:33,630
+the value of the follow option,
+
+95
+00:04:33,630 --> 00:04:37,490
+the target are no longer
+following the motion of the body.
+
+96
+00:04:37,490 --> 00:04:42,060
+And so you can see the mini
+gun adjusting its orientation
+
+97
+00:04:42,060 --> 00:04:44,078
+toward the aiming point.
+
+98
+00:04:44,078 --> 00:04:46,303
+And so does the sensor
+on top of the robot.
+
+99
+00:04:46,303 --> 00:04:47,343
+(whoosh)
+
+100
+00:04:47,343 --> 00:04:51,430
+The controllers of the robot
+are pretty straightforward.
+
+101
+00:04:51,430 --> 00:04:55,000
+The root bone allows us
+to move the whole robot
+
+102
+00:04:55,000 --> 00:04:59,730
+the torso root allows us
+to move the whole body.
+
+103
+00:04:59,730 --> 00:05:02,958
+Then you will find controllers
+for the different parts.
+
+104
+00:05:02,958 --> 00:05:04,984
+All targets for the legs,
+
+105
+00:05:04,984 --> 00:05:06,870
+IK controllers,
+
+106
+00:05:06,870 --> 00:05:09,780
+allowing to move and rotate the feet.
+
+107
+00:05:09,780 --> 00:05:11,650
+On the back of the foot, you will find
+
+108
+00:05:11,650 --> 00:05:16,650
+a very useful controller that
+allow us to perform steps
+
+109
+00:05:16,820 --> 00:05:21,540
+or rotation around the ball
+and the heel of the foot.
+
+110
+00:05:21,540 --> 00:05:26,100
+When you rotate it from the
+front view or on its Z axis,
+
+111
+00:05:26,100 --> 00:05:30,160
+you will get a nice contacting
+left to right motion.
+
+112
+00:05:30,160 --> 00:05:32,140
+Both arms of controller,
+
+113
+00:05:32,140 --> 00:05:36,110
+the rocket launcher as a
+door opening controller,
+
+114
+00:05:36,110 --> 00:05:39,299
+each body part as a separate controller as
+
+115
+00:05:39,299 --> 00:05:41,893
+on the body of this squirrel character.
+
+116
+00:05:42,810 --> 00:05:45,590
+Each rocket as its own controller
+
+117
+00:05:45,590 --> 00:05:48,973
+that allows us to move
+them in space at will.
+
+118
+00:05:49,935 --> 00:05:53,640
+And they also have a secondary
+controller that alow us
+
+119
+00:05:53,640 --> 00:05:58,228
+by a simple one axis
+rotation to deploy the wings
+
+120
+00:05:58,228 --> 00:06:00,400
+of those rockets.
+
+121
+00:06:00,400 --> 00:06:04,826
+The antennas have a simple
+one axis rotation control.
+
+122
+00:06:04,826 --> 00:06:07,750
+The artillery as a first controller
+
+123
+00:06:07,750 --> 00:06:11,760
+that allows us to create
+the recoil motion.
+
+124
+00:06:11,760 --> 00:06:16,000
+And we also have a nigary
+controller that allow us
+
+125
+00:06:16,000 --> 00:06:18,967
+a bit of up and down motion
+
+126
+00:06:18,967 --> 00:06:23,510
+and also to slightly rotate
+the artillery back and forth.
+
+127
+00:06:23,510 --> 00:06:26,740
+So it's a pretty simple yet versatile rig.
+
+128
+00:06:26,740 --> 00:06:28,763
+Let's animate this beast.
+

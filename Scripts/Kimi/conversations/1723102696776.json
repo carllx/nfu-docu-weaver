@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqq7c46bi7s858577vf0",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "中文版Adobe audition CC 2020从入门到精通",
+            "fileID": "cqmeceaul729sht1u8b0",
+            "itemID": 3542,
+            "citation": "袁诗轩. (2021). 中文版Adobe audition CC 2020从入门到精通. 清华大学出版社. https://product.dangdang.com/29236486.html\n",
+            "citationShort": "袁诗轩, 2021",
+            "tags": [
+                "#kimi",
+                "# Audition"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：为课程 [Audition 快速入门] 生成详细课程内容, 要求\n\n**主要知识点：**\n\n1. Audition 2020软件界面认识\n2. 音乐制作基础知识\n3. 项目文件的基本操作\n\n**教学要求：** 通过本章的学习，学生应能够：\n\n1. 熟悉Audition 2020的工作界面布局。\n2. 掌握音乐制作的基本概念和术语。\n3. 进行项目文件的新建、保存和导出。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 中文版Adobe audition CC 2020从入门到精通, was published on 2021. (It can be cite this paper as 袁诗轩, 2021 on your answer). \n\n",
+    "response": "# Audition 快速入门课程内容\n\n## 主要知识点：\n\n### 1. Audition 2020软件界面认识\n- 标题栏、菜单栏、工具栏、面板以及编辑器等部分的布局和功能。\n- 如何通过界面组成部分进行音乐编辑和音频效果的添加。\n\n### 2. 音乐制作基础知识\n- 音频信号的基本概念，包括频率、音强和音色等。\n- 数字音频的常见格式，例如MP3、WAV等。\n\n### 3. 项目文件的基本操作\n- 新建、保存和导出项目的操作方法。\n- 音频文件的打开、编辑和关闭技巧。\n\n## 教学要求：\n\n### 1. 熟悉Audition 2020的工作界面布局\n- 学生应理解并熟悉Audition 2020的各个组成部分，包括标题栏、菜单栏等，以及它们的基本功能。\n\n### 2. 掌握音乐制作的基本概念和术语\n- 学生需要掌握音乐制作中的基本术语，如音调、音量等，并了解数字音频格式的特点。\n\n### 3. 进行项目文件的新建、保存和导出\n- 学生应学会如何新建项目文件，进行编辑后如何保存和导出音频文件。\n\n---\n\n## 课程内容安排：\n\n### 第1节：Audition 2020界面初识\n- **目标：** 理解Audition 2020的界面布局和各部分功能。\n- **内容：**\n  - 介绍Audition 2020的界面组成部分（袁诗轩, 2021）。\n  - 演示如何通过界面进行基础的音乐编辑操作。\n\n### 第2节：音乐制作基础\n- **目标：** 掌握音乐制作的基本概念和术语。\n- **内容：**\n  - 讲解音频信号的组成，包括频率与音调、音量等基础知识（袁诗轩, 2021）。\n  - 介绍数字音频的常见格式和它们的特点。\n\n### 第3节：项目文件操作\n- **目标：** 学会新建、保存和导出项目文件。\n- **内容：**\n  - 演示如何新建项目文件，并进行基础的音乐编辑（袁诗轩, 2021）。\n  - 教授保存和导出音频文件的不同方法，并指导学生进行实践操作。\n\n## 实践操作：\n- 学生将通过实际操作Audition 2020软件来加深对知识点的理解和应用能力。\n\n## 参考资料：\n- 袁诗轩. (2021). 中文版Adobe Audition CC 2020从入门到精通. 清华大学出版社.\n\n---\n\n以上课程内容安排旨在帮助学生快速入门Audition 2020，掌握必要的音频编辑技能。通过理论与实践相结合的教学方法，确保学生能够达到教学要求。",
+    "refs": [
+        "cqmeceaul729sht1u8b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqq7c4bdqn3e80eu85j0",
+    "req_id": "cqq7c4bdqn3e80eu85jg",
+    "resp_id": "cqq7c4bdqn3e80eu85k0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：为课程 [Audition 快速入门] 生成详细课程内容, 要求\n\n**主要知识点：**\n\n1. Audition 2020软件界面认识\n2. 音乐制作基础知识\n3. 项目文件的基本操作\n\n**教学要求：** 通过本章的学习，学生应能够：\n\n1. 熟悉Audition 2020的工作界面布局。\n2. 掌握音乐制作的基本概念和术语。\n3. 进行项目文件的新建、保存和导出。"
+}

@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqgqho967ucqh0ve3l0",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n    As an academic expert, you excel at comparing and contrasting given papers. \n    Please provide a comprehensive and structured summary of these papers.\n    The instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n    \nNow, Listen to me:\n解释（故事）\nImagine you're explaining content above to a group of curious middle school students who love creative stories. Use vivid and imaginative metaphors to describe the concepts in a way that is engaging and easy to understand. For example, if you're explaining something complex like quantum mechanics, you might compare it to a video game with different levels and rules. Your goal is to make the theory as relatable and intriguing as a fantasy novel.\n\n    Your answer should be in Chinese, using the Markdown format for layout.",
+    "response": "## 论文摘要与故事化解释\n\n### 论文摘要\n在2023年，Mishra等人发表了一篇论文，题为《Prompting with Pseudo-Code Instructions》。这篇论文探讨了使用伪代码指令来提示大型语言模型（LLM）的方法，以提高其性能。研究团队创建了一个包含132个不同任务的伪代码提示数据集，并在BLOOM和CodeGen两种LLM上进行了实验。结果显示，使用伪代码指令可以显著提高模型在分类任务上的F1分数，以及在所有任务上的ROUGE-L分数。\n\n### 故事化解释\n\n想象一下，我们的大型语言模型就像是一位学习了多种魔法的大法师。这位大法师非常强大，但有时也会因为语言的模糊性而感到困惑，就像我们在学习时遇到难题一样。Mishra等人的论文就像是给这位大法师一本魔法指南，这本指南用一种更清晰、更少歧义的语言——伪代码来编写。\n\n在这个故事里，伪代码就像是给大法师的魔法咒语书，里面写满了清晰的步骤和规则，比如“如果检测到积极的魔法波动，就施展‘正能量’魔法，否则就施展‘负能量’魔法”。这样的咒语书让大法师在施展魔法时更加得心应手，减少了出错的机会。\n\n研究团队就像一群探险家，他们收集了132个不同的魔法任务，这些任务来自一个叫做Super-NaturalInstructions的神秘宝藏。他们用伪代码重新编写了这些任务的咒语，并在两位强大的法师BLOOM和CodeGen上进行了试验。\n\n实验结果就像是在魔法比赛中，使用伪代码咒语书的大法师表现得更加出色，他们的魔法准确度提高了，就像是在考试中得了更高的分数。这证明了伪代码这本魔法指南真的能帮助大法师们更好地理解和施展魔法。\n\n最后，研究团队还进行了一系列的分析，就像是对魔法书的深入研究，他们发现伪代码中的注释、说明和结构线索都对提高魔法效果有重要贡献。这项研究是第一次展示了伪代码咒语书如何帮助提高预训练语言模型的性能。\n\n### 结构化总结\n\n- **研究目的**：探索伪代码指令对提高大型语言模型性能的效果。\n- **方法**：创建132个任务的伪代码数据集，进行实验。\n- **实验对象**：BLOOM和CodeGen两种LLM。\n- **结果**：伪代码指令提高了分类任务的F1分数和所有任务的ROUGE-L分数。\n- **贡献**：首次证明伪代码提示可以改善预训练语言模型的性能。\n- **相关工作**：研究了使用不同语言模型进行指令微调的方法。\n- **数据集**：Super-NaturalInstructions数据集，包含1616个不同的NLP任务。\n- **模型配置**：使用了不同规模的BLOOM和CodeGen模型进行实验。\n- **度量标准**：采用了F1分数和ROUGE-L等度量标准来评估性能。\n- **结论**：伪代码指令对于提高模型性能有显著效果，为未来的研究提供了新的方向。\n\n**注意**：以上内容仅为论文的故事化解释和结构化总结，并非论文原文的直接翻译。",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n    As an academic expert, yo",
+    "group_id": "cpqgqhtdl8mnd4l3atv0",
+    "req_id": "cpqgqhtdl8mnd4l3atvg",
+    "resp_id": "cpqgqhtdl8mnd4l3au00",
+    "quection": "解释（故事）\nImagine you're explaining content above to a group of curious middle school students who love creative stories. Use vivid and imaginative metaphors to describe the concepts in a way that is engaging and easy to understand. For example, if you're explaining something complex like quantum mechanics, you might compare it to a video game with different levels and rules. Your goal is to make the theory as relatable and intriguing as a fantasy novel."
+}

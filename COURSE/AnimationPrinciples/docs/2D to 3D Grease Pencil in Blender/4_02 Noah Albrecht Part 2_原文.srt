@@ -1,0 +1,1999 @@
+1
+00:00:03,260 --> 00:00:03,760
+Welcome back
+
+2
+00:00:03,760 --> 00:00:03,970
+everyone
+
+3
+00:00:04,300 --> 00:00:05,990
+So this is an E specials sex learning
+
+4
+00:00:05,990 --> 00:00:08,840
+which we can explain how we can do very simple rigs
+
+5
+00:00:08,840 --> 00:00:12,010
+We have here the main part of the body with the legs
+
+6
+00:00:12,050 --> 00:00:15,320
+I'm going to explain how we can build simple rigs with Ik
+
+7
+00:00:15,330 --> 00:00:18,660
+Ik means that we're going to be able to select the position of the leg
+
+8
+00:00:18,780 --> 00:00:19,790
+moving it around
+
+9
+00:00:19,800 --> 00:00:21,800
+and then the entire body is going to follow
+
+10
+00:00:21,930 --> 00:00:24,190
+And also we're gonna see how to make the tail after that
+
+11
+00:00:24,200 --> 00:00:25,560
+Ni​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​​‌‌‌‌​‌‌​‌‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​‌‌‌‌‌​‌‌‌‌‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌​​​‌​​‌‌​​‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌​‌​​‌‌‌‌‌‌​​‌‌​‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌‌‌‌​​​‌‌‌​‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌​​‌‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌​​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌​‌​‌‌‌​‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌​​​‌‌​​‌‌​​‌‌​‌‌‌‌‌​‌​​​‌​​‌‌‌​​‌​​‌‌‌​‌‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌​‌​​‌‌‌​‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌‌​​​‌‌‌​‌‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​‌​‌​​‌‌​‌‌‌‌‌​‌​‌​‌​​‌‌​‌​‌​​‌‌​‌​‌‌‌​‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​​‌​​‌‌‌‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌​‌‌‌‌‌​‌‌‌‌​​​‌‌​​‌‌‌‌​‌‌​​‌​​‌‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​‌‌‌‌​‌​‌​‌‌‌​‌​​‌‌​​‌‌​​‌‌​​‌‌​‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌‌‌‌​​​‌‌‌‌‌​​​‌‌‌​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌​​‌​​‌‌​‌​‌‌‌​‌​‌‌‌​​‌‌​‌‌​​​‌‌‌‌​‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌​‌​​‌‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌‌‌​‌​‌‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌‌‌​​‌‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌​​‌‌‌​​‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ceokay
+
+12
+00:00:25,690 --> 00:00:26,620
+Anyone doing this
+
+13
+00:00:26,620 --> 00:00:34,270
+We recommend first doing an entire course on rigging because I think that that course gives a lot of knowledge about how bones work
+
+14
+00:00:34,280 --> 00:00:36,520
+But if you want to do a quick break
+
+15
+00:00:36,560 --> 00:00:37,590
+this might work
+
+16
+00:00:37,690 --> 00:00:42,030
+So we're going to start by adding an armature is here and a single bone
+
+17
+00:00:42,030 --> 00:00:43,140
+We only need one bone
+
+18
+00:00:43,160 --> 00:00:44,860
+I'm going to go to the frontal view
+
+19
+00:00:44,900 --> 00:00:48,793
+I'm going to go in my transparent mode and the beginning of the bone
+
+20
+00:00:48,793 --> 00:00:53,120
+it depends on on how you want my chain here is I'm going to start my tail from here
+
+21
+00:00:53,130 --> 00:00:57,410
+So what I'm going to do is I'm going to rotate my bone there with pressing CT
+
+22
+00:00:57,620 --> 00:00:59,930
+I do rotations of 5 degrees at a time
+
+23
+00:01:00,010 --> 00:01:01,670
+And now the cool thing about the bones
+
+24
+00:01:01,680 --> 00:01:05,830
+if we go into edit mode is that they can be treated a bit like any modeling
+
+25
+00:01:05,830 --> 00:01:07,130
+So if I press E
+
+26
+00:01:07,140 --> 00:01:10,150
+I can extrude them and I can extrude towards here
+
+27
+00:01:10,160 --> 00:01:13,400
+And then I can extrude again where to where my head is
+
+28
+00:01:14,090 --> 00:01:15,950
+If you send the course of rigging with us
+
+29
+00:01:15,960 --> 00:01:21,290
+you know that sometimes we don't rig with the head included because usually heads are rigid
+
+30
+00:01:21,300 --> 00:01:21,910
+And in this case
+
+31
+00:01:21,910 --> 00:01:23,190
+the head is rigid
+
+32
+00:01:23,300 --> 00:01:25,520
+So what we do is we model entire head
+
+33
+00:01:25,520 --> 00:01:26,540
+then we put it all together
+
+34
+00:01:26,630 --> 00:01:28,280
+we parent it all together
+
+35
+00:01:28,290 --> 00:01:30,500
+and then we just attach it to this final bone
+
+36
+00:01:30,510 --> 00:01:32,320
+So we rotate that final bone
+
+37
+00:01:32,320 --> 00:01:32,720
+the head moves
+
+38
+00:01:33,530 --> 00:01:37,180
+but it's not getting affected by the weights because I don't like the formations of heads
+
+39
+00:01:37,190 --> 00:01:40,010
+Yeahunless you are doing the formation of heads
+
+40
+00:01:40,030 --> 00:01:41,670
+but in most cases we are not
+
+41
+00:01:42,600 --> 00:01:43,250
+Okay
+
+42
+00:01:43,260 --> 00:01:44,720
+now we're going to start extruding leg
+
+43
+00:01:44,720 --> 00:01:46,750
+So I'm going to go one time there
+
+44
+00:01:46,760 --> 00:01:48,510
+another time there to the middle
+
+45
+00:01:48,520 --> 00:01:49,630
+another time down
+
+46
+00:01:49,640 --> 00:01:50,740
+And now I'm going to do it again
+
+47
+00:01:50,760 --> 00:01:51,860
+one time
+
+48
+00:01:52,640 --> 00:01:54,140
+one time again there
+
+49
+00:01:54,580 --> 00:01:55,560
+not the time there
+
+50
+00:01:55,600 --> 00:01:56,270
+By the way
+
+51
+00:01:56,270 --> 00:01:57,990
+it's possible if you wanted
+
+52
+00:01:58,110 --> 00:02:01,930
+it's possible to do this extreme applying with a symmetry
+
+53
+00:02:02,000 --> 00:02:03,190
+but for this case
+
+54
+00:02:03,320 --> 00:02:04,110
+because it's so simple
+
+55
+00:02:04,110 --> 00:02:05,290
+we are not doing it with symmetry
+
+56
+00:02:06,130 --> 00:02:07,090
+And with this one
+
+57
+00:02:07,100 --> 00:02:08,240
+how did you
+
+58
+00:02:08,250 --> 00:02:09,480
+how did you decide exactly
+
+59
+00:02:09,480 --> 00:02:15,300
+Because obviously this moose coming from the 2D is a completely graphical 2D characters
+
+60
+00:02:15,300 --> 00:02:16,850
+So how do you choose where you want the bones to go
+
+61
+00:02:17,030 --> 00:02:17,840
+To be honest
+
+62
+00:02:17,850 --> 00:02:19,100
+when I model this one
+
+63
+00:02:19,100 --> 00:02:21,480
+because I love so much how they were not in the same position
+
+64
+00:02:21,540 --> 00:02:22,750
+the other model is not
+
+65
+00:02:22,760 --> 00:02:25,240
+is even less symmetric than what we are doing right now
+
+66
+00:02:25,650 --> 00:02:30,340
+So it was completely me just guessing and doing it
+
+67
+00:02:30,350 --> 00:02:32,040
+and then checking again
+
+68
+00:02:32,050 --> 00:02:33,630
+and then check again and check again
+
+69
+00:02:33,960 --> 00:02:36,110
+There was no science at all to it
+
+70
+00:02:36,230 --> 00:02:39,200
+It's just a pure game of guessing and taking what it works
+
+71
+00:02:39,220 --> 00:02:44,700
+But it's a good question because I think a lot of times people think that there is much more planning than there is
+
+72
+00:02:45,200 --> 00:02:47,010
+But this has been mainly
+
+73
+00:02:47,020 --> 00:02:47,500
+you know
+
+74
+00:02:47,530 --> 00:02:52,180
+trying trial and error to know if you make your own character right now with crazy proportions
+
+75
+00:02:52,550 --> 00:03:01,760
+But the thing is very important now is that the situation of where the bones are is to be in somehow related to where my cuts are in my geometry
+
+76
+00:03:01,920 --> 00:03:05,290
+And I'm gonna show you because the geometry right now has a subdivision
+
+77
+00:03:05,290 --> 00:03:05,870
+But in reality
+
+78
+00:03:05,870 --> 00:03:07,120
+it is a super simple geometry
+
+79
+00:03:07,480 --> 00:03:10,460
+I'm gonna show you without transparency and I'm gon na go to my edit mode
+
+80
+00:03:10,550 --> 00:03:12,160
+You see that I made this
+
+81
+00:03:12,170 --> 00:03:13,150
+it's very simple
+
+82
+00:03:13,160 --> 00:03:18,700
+but it has some cuts here on the knees and these cuts here on the knees are in these two positions
+
+83
+00:03:18,710 --> 00:03:22,720
+And if I check my armature and I'm going to try to make it transparent
+
+84
+00:03:22,900 --> 00:03:24,050
+you see that here
+
+85
+00:03:24,280 --> 00:03:25,050
+the middle
+
+86
+00:03:25,050 --> 00:03:28,340
+the circle of my bones needs to be between these lines
+
+87
+00:03:28,340 --> 00:03:29,610
+These cuts in the middle
+
+88
+00:03:29,850 --> 00:03:31,530
+the more it is between these lines
+
+89
+00:03:31,530 --> 00:03:32,880
+the much better it is going to be
+
+90
+00:03:32,880 --> 00:03:34,660
+because then when it bends
+
+91
+00:03:34,750 --> 00:03:43,400
+it's going to bend very smoothly while still being a cart that is going to bend animate very well because we don't have that geometry
+
+92
+00:03:43,400 --> 00:03:46,720
+This is the geometry that the weights are going to be playing with
+
+93
+00:03:46,870 --> 00:03:50,610
+but then it's going to be softened out with a subdivision after
+
+94
+00:03:50,810 --> 00:03:51,860
+Okaythat makes sense
+
+95
+00:03:51,860 --> 00:03:52,550
+but in the body
+
+96
+00:03:52,550 --> 00:03:59,950
+you're not thinking about that then because that would be a much smoother animation in what do you mean in the body
+
+97
+00:04:00,010 --> 00:04:03,790
+You're not thinking about where you're positioning the weights depending on the cuts that you have in the geometry
+
+98
+00:04:04,180 --> 00:04:04,820
+Not really
+
+99
+00:04:04,820 --> 00:04:05,680
+because in the in the
+
+100
+00:04:05,800 --> 00:04:06,220
+in the body
+
+101
+00:04:06,410 --> 00:04:06,810
+the body
+
+102
+00:04:06,810 --> 00:04:07,830
+the bones are really
+
+103
+00:04:07,830 --> 00:04:08,720
+really in the middle
+
+104
+00:04:08,730 --> 00:04:12,900
+So a bone that I bend here is gonna affect almost all the geometry
+
+105
+00:04:12,900 --> 00:04:13,990
+Ithe thing on the left
+
+106
+00:04:14,480 --> 00:04:16,510
+the bone is really near the edge
+
+107
+00:04:16,720 --> 00:04:18,220
+And if I just didn't have
+
+108
+00:04:18,230 --> 00:04:18,790
+iffor example
+
+109
+00:04:18,790 --> 00:04:20,500
+I had the bone a bit too high up
+
+110
+00:04:20,840 --> 00:04:22,120
+when it bends
+
+111
+00:04:22,230 --> 00:04:26,470
+it's going to kind of make the two points collapse against one another and it's going to look very ugly
+
+112
+00:04:28,050 --> 00:04:33,330
+I think that it's very important in these cases to just do it simple and practice with a really
+
+113
+00:04:33,330 --> 00:04:34,840
+reallyreally simple geometry
+
+114
+00:04:34,890 --> 00:04:36,900
+because you're going to understand much better how it works
+
+115
+00:04:37,240 --> 00:04:38,300
+Once we have that
+
+116
+00:04:38,520 --> 00:04:41,820
+the only thing we need to do is just select my geometry
+
+117
+00:04:41,830 --> 00:04:43,500
+I'm going to call this body
+
+118
+00:04:44,320 --> 00:04:46,390
+I'm going to select my armature
+
+119
+00:04:46,400 --> 00:04:52,090
+so with Ctrl click I'm going select the armature and then we do right click parent with automatically weights
+
+120
+00:04:52,090 --> 00:04:57,800
+That means that the program is going to automatically calculate the weights depending on the distance from the bone to the different phases
+
+121
+00:04:57,850 --> 00:04:58,520
+the geometry
+
+122
+00:04:58,530 --> 00:04:59,650
+And as soon as I do it
+
+123
+00:04:59,770 --> 00:05:00,710
+now if I go
+
+124
+00:05:00,720 --> 00:05:03,820
+my geometry goes inside my body goes inside my armature
+
+125
+00:05:03,840 --> 00:05:05,530
+and if I go now into post mode
+
+126
+00:05:06,370 --> 00:05:08,530
+I can go activate transparency
+
+127
+00:05:08,540 --> 00:05:09,700
+If I go into post mode
+
+128
+00:05:09,710 --> 00:05:11,530
+if I rotate any of my bones
+
+129
+00:05:11,540 --> 00:05:14,800
+you can see that my Carter is basically raked
+
+130
+00:05:14,810 --> 00:05:15,240
+you know
+
+131
+00:05:15,250 --> 00:05:16,670
+and it's raking quite well
+
+132
+00:05:16,680 --> 00:05:17,200
+You know
+
+133
+00:05:17,680 --> 00:05:19,900
+it's not perfect here
+
+134
+00:05:19,910 --> 00:05:21,400
+like you correct this bend
+
+135
+00:05:21,540 --> 00:05:24,030
+but because we're going to be having a flat shading
+
+136
+00:05:24,040 --> 00:05:25,670
+this is absolutely not relevant
+
+137
+00:05:25,670 --> 00:05:26,670
+It's going to look good
+
+138
+00:05:26,720 --> 00:05:27,910
+And if I want as well
+
+139
+00:05:27,910 --> 00:05:31,170
+I can always go into my body and in object mode
+
+140
+00:05:31,180 --> 00:05:35,130
+I can select my body and I can add more subdivisions so I can get smoother
+
+141
+00:05:35,140 --> 00:05:38,650
+But no worries about this not being perfect because then we're gon na
+
+142
+00:05:38,650 --> 00:05:41,400
+make it all squid with my noise
+
+143
+00:05:41,410 --> 00:05:44,150
+So I always say this as well to people
+
+144
+00:05:44,250 --> 00:05:44,480
+you know
+
+145
+00:05:44,610 --> 00:05:46,760
+only worry I'm gon na do two subdivisions
+
+146
+00:05:46,870 --> 00:05:51,650
+I only only worry about things and details if they are actually going to be visible
+
+147
+00:05:51,690 --> 00:05:52,630
+But if they are not
+
+148
+00:05:52,640 --> 00:05:53,510
+this should be fine
+
+149
+00:05:54,600 --> 00:05:57,650
+And now people are gonna be wondering how do you do
+
+150
+00:05:57,650 --> 00:06:00,870
+Because if I try not to move this of the bone
+
+151
+00:06:01,030 --> 00:06:03,550
+this just rotates And people are going to think
+
+152
+00:06:03,640 --> 00:06:04,390
+how do you do
+
+153
+00:06:04,390 --> 00:06:08,690
+So you can just have this Ik system in which you select the location of the feet
+
+154
+00:06:08,700 --> 00:06:09,640
+and then they follow
+
+155
+00:06:09,930 --> 00:06:13,410
+So we did an inverse kinematic Ik system for that
+
+156
+00:06:13,440 --> 00:06:15,830
+And to do the Ik system
+
+157
+00:06:15,830 --> 00:06:20,380
+the first thing I need to do is I'm you're going to have to do this leg by leg
+
+158
+00:06:20,390 --> 00:06:23,150
+but I'm only going to do it with this right front leg
+
+159
+00:06:23,200 --> 00:06:25,720
+And I'm going to generate a couple more bonds
+
+160
+00:06:25,730 --> 00:06:29,770
+I'm going to go into my edit mode and I'm going to activate transparency
+
+161
+00:06:29,770 --> 00:06:30,860
+So I know what I'm going to do
+
+162
+00:06:31,070 --> 00:06:37,000
+And let's make sure that I'm selecting this one in the front and I'm going to do E to generate a new bone
+
+163
+00:06:37,220 --> 00:06:39,960
+And now I'm going to go to my foot
+
+164
+00:06:40,400 --> 00:06:43,260
+and I'm going to do it again to generate another new bone
+
+165
+00:06:43,580 --> 00:06:46,650
+So now this new bones I'm going to separate them
+
+166
+00:06:46,700 --> 00:06:47,670
+If I press split
+
+167
+00:06:47,680 --> 00:06:48,150
+if you see
+
+168
+00:06:48,150 --> 00:06:49,510
+if I try to move this bone
+
+169
+00:06:49,520 --> 00:06:50,430
+they all follow
+
+170
+00:06:50,610 --> 00:06:52,540
+But now if I do right click and split
+
+171
+00:06:52,800 --> 00:06:56,050
+now they are separated from the from the entire chain
+
+172
+00:06:56,070 --> 00:06:57,740
+And I'm going to do that with both of them
+
+173
+00:06:58,130 --> 00:07:04,070
+So now I have these two independent bones that are floating there that are going to be used as a reference
+
+174
+00:07:04,130 --> 00:07:06,280
+This one on the top
+
+175
+00:07:06,450 --> 00:07:15,060
+we're going to put names to know to get confused and we're going to call it poll and this would be right knee in the front
+
+176
+00:07:15,400 --> 00:07:17,470
+You can pull whatever names you do
+
+177
+00:07:17,470 --> 00:07:18,380
+pull R
+
+178
+00:07:18,400 --> 00:07:20,100
+knee F makes sense
+
+179
+00:07:20,390 --> 00:07:27,890
+And then this bone is going to be called foot because the foot and this is going to be on the right front
+
+180
+00:07:28,120 --> 00:07:29,460
+so R and f
+
+181
+00:07:29,470 --> 00:07:30,600
+right and front
+
+182
+00:07:30,890 --> 00:07:31,540
+okay
+
+183
+00:07:31,550 --> 00:07:37,380
+So now what we want is this little bone to control the chain of the leg
+
+184
+00:07:37,410 --> 00:07:39,800
+And there's a little trick before doing it
+
+185
+00:07:39,820 --> 00:07:46,910
+I can move this knee a tiny bit to the front and already indicating how my knee is going to bend because if not
+
+186
+00:07:46,920 --> 00:07:50,070
+it can sometimes make a mistake and bend backwards a bit
+
+187
+00:07:50,380 --> 00:07:52,990
+If I was how those animals bend backwards
+
+188
+00:07:53,280 --> 00:07:54,740
+flamingo like a flamingo
+
+189
+00:07:54,750 --> 00:07:58,250
+yeahor maybe this duck could be bending backwards
+
+190
+00:07:58,320 --> 00:07:58,770
+that's mistake
+
+191
+00:07:59,700 --> 00:08:00,720
+Okaythe moves doesn't
+
+192
+00:08:00,720 --> 00:08:03,840
+So we're going now go into post mode
+
+193
+00:08:04,200 --> 00:08:08,340
+Somehow this happens post mode and I'm going to select this bone
+
+194
+00:08:08,350 --> 00:08:09,040
+which is my foot
+
+195
+00:08:09,540 --> 00:08:14,250
+and I'm going to shift click and I'm going to select this one that is going to be the end of my chain
+
+196
+00:08:14,250 --> 00:08:15,030
+Whatever you are doing
+
+197
+00:08:15,040 --> 00:08:17,720
+you always want to do the end of the chain bone
+
+198
+00:08:17,960 --> 00:08:20,870
+And now I'm going to do right click and I'm going to actually
+
+199
+00:08:20,870 --> 00:08:21,780
+it's not right click here
+
+200
+00:08:21,900 --> 00:08:23,580
+I think it's in post
+
+201
+00:08:23,750 --> 00:08:25,590
+We're going to do inverse kinematics
+
+202
+00:08:25,640 --> 00:08:27,220
+add Ik to bone
+
+203
+00:08:27,340 --> 00:08:28,890
+So I'm going to do that
+
+204
+00:08:28,890 --> 00:08:30,958
+thatand then it's asking me again
+
+205
+00:08:30,958 --> 00:08:32,250
+act to active bone
+
+206
+00:08:32,250 --> 00:08:34,060
+So as soon as I do it
+
+207
+00:08:34,150 --> 00:08:35,180
+let's see what is happening
+
+208
+00:08:35,760 --> 00:08:38,410
+This bone got turned into yellow
+
+209
+00:08:38,670 --> 00:08:39,490
+This bone
+
+210
+00:08:39,740 --> 00:08:40,870
+nothing is showing
+
+211
+00:08:40,880 --> 00:08:42,050
+And then when I click in this bone
+
+212
+00:08:42,060 --> 00:08:43,810
+you see that there's t​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​​‌‌‌‌​‌‌​‌‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​‌‌‌‌‌​‌‌‌‌‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌​​​‌​​‌‌​​‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌​‌​​‌‌‌‌‌‌​​‌‌​‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌‌‌‌​​​‌‌‌​‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌​​‌‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌​​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌​‌​‌‌‌​‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌​​​‌‌​​‌‌​​‌‌​‌‌‌‌‌​‌​​​‌​​‌‌‌​​‌​​‌‌‌​‌‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌​‌​​‌‌‌​‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌‌​​​‌‌‌​‌‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​‌​‌​​‌‌​‌‌‌‌‌​‌​‌​‌​​‌‌​‌​‌​​‌‌​‌​‌‌‌​‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​​‌​​‌‌‌‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌​‌‌‌‌‌​‌‌‌‌​​​‌‌​​‌‌‌‌​‌‌​​‌​​‌‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​‌‌‌‌​‌​‌​‌‌‌​‌​​‌‌​​‌‌​​‌‌​​‌‌​‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌‌‌‌​​​‌‌‌‌‌​​​‌‌‌​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌​​‌​​‌‌​‌​‌‌‌​‌​‌‌‌​​‌‌​‌‌​​​‌‌‌‌​‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌​‌​​‌‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌‌‌​‌​‌‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌‌‌​​‌‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌​​‌‌‌​​‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌his yellow arrow
+
+213
+00:08:43,970 --> 00:08:46,300
+This is telling us the beginning of the Ik
+
+214
+00:08:46,400 --> 00:08:49,860
+so this is telling us there is a chain of things happening
+
+215
+00:08:50,220 --> 00:08:52,760
+and this is going until the very end of the chain
+
+216
+00:08:52,760 --> 00:08:57,920
+So when you move that initial foot right back to the tailor is going to move
+
+217
+00:08:58,530 --> 00:09:00,530
+the entire car is gonna move
+
+218
+00:09:00,540 --> 00:09:01,890
+and this doesn't make any sense
+
+219
+00:09:01,890 --> 00:09:02,710
+this is not looking good
+
+220
+00:09:03,210 --> 00:09:06,260
+So what we want is when I move this tailbone
+
+221
+00:09:06,490 --> 00:09:07,600
+this bone will move
+
+222
+00:09:07,610 --> 00:09:08,270
+this bone will move
+
+223
+00:09:08,570 --> 00:09:09,430
+but that said
+
+224
+00:09:09,440 --> 00:09:10,770
+how long is this chain
+
+225
+00:09:10,790 --> 00:09:14,420
+I see one bone and two bones right Now
+
+226
+00:09:14,430 --> 00:09:17,090
+if I go here and if I go into my options
+
+227
+00:09:17,090 --> 00:09:23,040
+you can see that the program automatically added an Ik bone constraint and the chain length is 0
+
+228
+00:09:23,050 --> 00:09:25,050
+Zero for this program means infinite
+
+229
+00:09:25,500 --> 00:09:27,450
+So we didn't select how long it was
+
+230
+00:09:27,450 --> 00:09:29,870
+So it was up to the very end of the BU
+
+231
+00:09:30,450 --> 00:09:33,380
+But now we're going to do a chain of two
+
+232
+00:09:33,620 --> 00:09:34,890
+So let's see what happens
+
+233
+00:09:34,900 --> 00:09:39,690
+Actually I'm going to do first chain of three because sometimes people make a mistake and they do a chain of three
+
+234
+00:09:39,730 --> 00:09:41,670
+So if I do a chain of three
+
+235
+00:09:41,720 --> 00:09:43,710
+when I now move this bone
+
+236
+00:09:44,220 --> 00:09:45,180
+things look good
+
+237
+00:09:45,180 --> 00:09:46,710
+but my chain is a too long
+
+238
+00:09:46,710 --> 00:09:49,860
+So I'm getting this kind of a strange thing in which my
+
+239
+00:09:50,140 --> 00:09:54,200
+it's moving like the bone that it should be not moving
+
+240
+00:09:54,240 --> 00:09:55,580
+Let's make instead of that
+
+241
+00:09:55,590 --> 00:09:56,580
+a chain of two
+
+242
+00:09:56,810 --> 00:10:00,650
+And now we're going to see that my entire system up
+
+243
+00:10:01,030 --> 00:10:01,850
+I need to move this one
+
+244
+00:10:02,210 --> 00:10:04,300
+My entire system starts making more sense
+
+245
+00:10:04,300 --> 00:10:06,660
+I'm going to deactivate transparency and going to go to this mode
+
+246
+00:10:06,780 --> 00:10:11,650
+and I'm going to see that now my me is Ben in a much more natural way
+
+247
+00:10:12,130 --> 00:10:18,040
+The only problem I have is that I have no ability to say where my knee is pointing
+
+248
+00:10:18,430 --> 00:10:18,830
+And for that
+
+249
+00:10:19,140 --> 00:10:20,280
+we usually use poles
+
+250
+00:10:20,290 --> 00:10:22,320
+And if you remember we had selected
+
+251
+00:10:22,320 --> 00:10:25,540
+we made one bone that was called pole
+
+252
+00:10:25,550 --> 00:10:26,590
+our knee
+
+253
+00:10:26,940 --> 00:10:30,420
+So let's see how we can do to use that as a poll
+
+254
+00:10:30,420 --> 00:10:31,860
+We can go to my options here
+
+255
+00:10:31,860 --> 00:10:32,700
+my Ik
+
+256
+00:10:32,810 --> 00:10:34,940
+and you see here it says pull target
+
+257
+00:10:35,130 --> 00:10:37,750
+the pole target I can select and I select
+
+258
+00:10:37,760 --> 00:10:39,740
+And but the first thing I selected is this armature
+
+259
+00:10:39,740 --> 00:10:40,470
+It is just the armature
+
+260
+00:10:40,470 --> 00:10:43,000
+but now we need to select within the armature which bone
+
+261
+00:10:43,230 --> 00:10:44,190
+And if I write here
+
+262
+00:10:44,200 --> 00:10:50,240
+pole or knee is one that we generated before and we need one extra step
+
+263
+00:10:50,250 --> 00:10:52,150
+And is that the pole angle is always wrong
+
+264
+00:10:52,170 --> 00:10:53,590
+but 99% of the time
+
+265
+00:10:53,700 --> 00:10:54,820
+if we put 90%
+
+266
+00:10:54,830 --> 00:10:55,710
+it will work
+
+267
+00:10:56,010 --> 00:10:58,030
+So as soon as I put 90%
+
+268
+00:10:58,240 --> 00:11:01,650
+now my yellow arrow is pointing at the end of this chain
+
+269
+00:11:01,740 --> 00:11:04,500
+And now you can see that when I go here
+
+270
+00:11:04,510 --> 00:11:07,860
+now I can use this pole to select where my knee is pointing at
+
+271
+00:11:08,590 --> 00:11:09,260
+very nice
+
+272
+00:11:09,480 --> 00:11:12,380
+So this is basically how I rigged the Carter
+
+273
+00:11:12,380 --> 00:11:14,640
+I did this for every single of the legs
+
+274
+00:11:14,870 --> 00:11:16,600
+and then you can say
+
+275
+00:11:16,610 --> 00:11:17,700
+ohbut it's looking ugly
+
+276
+00:11:17,700 --> 00:11:19,380
+I don't like that I'm seeing these ugly bones
+
+277
+00:11:19,390 --> 00:11:20,920
+That'sthat's just visuals
+
+278
+00:11:20,920 --> 00:11:26,840
+but the visuals that I made in the project that I made to make it more pretty is I did a few things
+
+279
+00:11:27,040 --> 00:11:29,980
+I went into my object mode and I generated a mesh
+
+280
+00:11:30,140 --> 00:11:31,990
+You can make whatever mesh you want
+
+281
+00:11:32,000 --> 00:11:32,470
+In this case
+
+282
+00:11:32,470 --> 00:11:33,250
+I can make a circle
+
+283
+00:11:33,250 --> 00:11:34,360
+I can make it a bit smaller
+
+284
+00:11:34,590 --> 00:11:36,680
+So that's going to be my circle reference
+
+285
+00:11:36,680 --> 00:11:39,390
+And I can make it disappear because I don't want to see my render
+
+286
+00:11:39,670 --> 00:11:44,310
+This is going to be simply a geometry I'm going to use because now when I go into my post mode
+
+287
+00:11:44,380 --> 00:11:47,280
+I can select any of my bones and I go here into my options
+
+288
+00:11:47,390 --> 00:11:49,940
+and you see a area that it says view for display
+
+289
+00:11:49,950 --> 00:11:53,370
+I can select that this display as a custom object
+
+290
+00:11:53,380 --> 00:11:54,660
+and I can select that circle
+
+291
+00:11:54,670 --> 00:12:06,710
+I can do the same with the bone that is at the end of the chain and I can select that circle my pole is going to be this circle and my pole is going to be and my foot is going to be a circle as well
+
+292
+00:12:06,720 --> 00:12:08,480
+Sometimes because the pole
+
+293
+00:12:08,510 --> 00:12:08,870
+you know
+
+294
+00:12:08,870 --> 00:12:09,650
+for whatever reason
+
+295
+00:12:09,730 --> 00:12:14,210
+you can make a different type of circle that looks a bit different or you can as well rotate it
+
+296
+00:12:14,310 --> 00:12:15,000
+translate it
+
+297
+00:12:15,000 --> 00:12:15,340
+You can do
+
+298
+00:12:15,340 --> 00:12:16,220
+for example
+
+299
+00:12:16,230 --> 00:12:18,520
+change the scale and make an elongated like that
+
+300
+00:12:18,560 --> 00:12:21,520
+and as long as you make all your posts to look the same
+
+301
+00:12:21,590 --> 00:12:23,780
+people understand what's going on exactly
+
+302
+00:12:23,790 --> 00:12:26,580
+And the other thing I did is all the bones that were not relevant
+
+303
+00:12:26,580 --> 00:12:28,550
+and I didn't want the people to be playing with
+
+304
+00:12:28,560 --> 00:12:30,670
+I just selected height
+
+305
+00:12:30,690 --> 00:12:31,830
+so I don't show them
+
+306
+00:12:31,920 --> 00:12:33,810
+So now it's a very magical thing
+
+307
+00:12:33,810 --> 00:12:35,610
+which I only saw in this circle
+
+308
+00:12:35,620 --> 00:12:41,260
+and people can change the length of my knee if you are having a bit of a bend
+
+309
+00:12:41,260 --> 00:12:43,160
+you see that this is not bending very well
+
+310
+00:12:43,160 --> 00:12:44,240
+this is not perfect
+
+311
+00:12:44,490 --> 00:12:46,780
+This can be corrected with doing weights
+
+312
+00:12:46,780 --> 00:12:51,920
+But what I recommend that the problem happened here is that probably the bone was a bit too low
+
+313
+00:12:51,940 --> 00:12:55,310
+so the bending is not happening in a completely linear way
+
+314
+00:12:55,320 --> 00:12:57,580
+so I would have put the bone a bit higher
+
+315
+00:12:57,590 --> 00:12:59,300
+so there's a bit more straight leg
+
+316
+00:12:59,310 --> 00:13:00,470
+But in reality
+
+317
+00:13:00,470 --> 00:13:02,890
+because of how this entire thing is made
+
+318
+00:13:02,900 --> 00:13:06,720
+this is good enough for whatever we are the purpose right now
+
+319
+00:13:06,730 --> 00:13:11,430
+So you'd recommend rather than using the weight painting
+
+320
+00:13:11,440 --> 00:13:12,700
+which we learn about in the longer course
+
+321
+00:13:12,700 --> 00:13:18,650
+you'd recommend more focusing on the preparation 100 preparation is much better than spending a lot of time painting
+
+322
+00:13:19,050 --> 00:13:20,240
+If you need to paint
+
+323
+00:13:20,250 --> 00:13:20,560
+you know
+
+324
+00:13:20,560 --> 00:13:22,690
+we explain in the other course how to do it
+
+325
+00:13:22,860 --> 00:13:25,400
+But most of the times I forget about painting
+
+326
+00:13:25,410 --> 00:13:27,630
+I just do it with a bit of preparation
+
+327
+00:13:27,890 --> 00:13:29,220
+And now that we learned this
+
+328
+00:13:29,820 --> 00:13:39,640
+want how I'm going to delete this and I'm going to show how I made the tail And the tail is much more simple than people think
+
+329
+00:13:39,650 --> 00:13:42,210
+If you now understand how this works
+
+330
+00:13:42,370 --> 00:13:46,310
+I'm going to do it simply with a cylinder and I'm going to make a few
+
+331
+00:13:46,590 --> 00:13:49,400
+I know actually I can go into my cylinder
+
+332
+00:13:49,960 --> 00:13:51,390
+I'm going to deactivate this
+
+333
+00:13:51,570 --> 00:13:53,020
+I'm going to now select my cylinder
+
+334
+00:13:53,100 --> 00:13:57,820
+I'm going to rotate it 90 degrees and I'm going to scale this
+
+335
+00:13:57,830 --> 00:13:58,220
+Oh
+
+336
+00:13:58,230 --> 00:13:59,720
+why is my cylinder rotated like that
+
+337
+00:13:59,930 --> 00:14:01,230
+Okay I'm going to delete it
+
+338
+00:14:01,390 --> 00:14:03,080
+and I'm going to start by cylinder again
+
+339
+00:14:03,530 --> 00:14:05,820
+mes cylinder
+
+340
+00:14:05,860 --> 00:14:07,770
+and actually I can do it in the options here
+
+341
+00:14:07,770 --> 00:14:11,490
+so I'm going to do a bit of depth that looks a bit like a tail already
+
+342
+00:14:11,620 --> 00:14:12,880
+and I'm gon na be a bit thinner
+
+343
+00:14:13,790 --> 00:14:14,560
+okay
+
+344
+00:14:14,570 --> 00:14:17,240
+And I can do a vertical because I can explain how it works here
+
+345
+00:14:17,290 --> 00:14:20,940
+So the way to do my tail is like this
+
+346
+00:14:21,150 --> 00:14:22,080
+I'm going to go to my edit mode
+
+347
+00:14:22,090 --> 00:14:22,890
+Of course
+
+348
+00:14:22,900 --> 00:14:27,950
+in order for my tail to bend I'm gon na need some cuts because even though right now it's not gon na work
+
+349
+00:14:28,510 --> 00:14:32,450
+it's one of the problems sometimes people have is that they forget that you need cuts for this to work
+
+350
+00:14:32,460 --> 00:14:35,590
+Click and now I'm going to do number of cuts and I'm going to do a few of them
+
+351
+00:14:35,820 --> 00:14:37,570
+So this is quite soft
+
+352
+00:14:37,580 --> 00:14:37,930
+okay
+
+353
+00:14:37,940 --> 00:14:39,060
+I'm going to do 23
+
+354
+00:14:39,130 --> 00:14:41,560
+that's going to give me quite a lot of bending
+
+355
+00:14:41,630 --> 00:14:44,820
+remember that then you can put everything inside the subdivision surface
+
+356
+00:14:45,160 --> 00:14:45,750
+Okay
+
+357
+00:14:45,760 --> 00:14:47,780
+so now I'm going to go to my object mode
+
+358
+00:14:47,920 --> 00:14:52,019
+I'm going to look in front and I'm going to add armature
+
+359
+00:14:52,019 --> 00:14:53,904
+and I'm going to add a single bone
+
+360
+00:14:53,904 --> 00:14:58,723
+I need to activate transparency to see that bone and let's put the beginning of my chain
+
+361
+00:14:58,723 --> 00:15:04,070
+I'm going to go in here and I'm going to start extruding in my edit mode
+
+362
+00:15:04,080 --> 00:15:05,480
+I'm going to start extruding
+
+363
+00:15:06,060 --> 00:15:08,850
+What I can do is I can do extrude with E
+
+364
+00:15:08,950 --> 00:15:10,300
+and I think if you press X
+
+365
+00:15:10,300 --> 00:15:11,300
+no set
+
+366
+00:15:11,390 --> 00:15:12,260
+If I press set
+
+367
+00:15:12,260 --> 00:15:15,320
+I make sure that I'm moving only in the set axis
+
+368
+00:15:15,400 --> 00:15:17,330
+so I'm gon na do a chain of bones
+
+369
+00:15:17,340 --> 00:15:20,610
+maybe I don't need the chain to be that long because I'm gon na get bored
+
+370
+00:15:20,610 --> 00:15:25,030
+So e set and how do you decide how big to make the bones here
+
+371
+00:15:25,040 --> 00:15:27,290
+I guess you don't want to overlap the geometry
+
+372
+00:15:28,050 --> 00:15:30,790
+the size of the bones is not relevant
+
+373
+00:15:30,800 --> 00:15:33,810
+is more of an indication is the way the program is representing them
+
+374
+00:15:33,810 --> 00:15:37,350
+so it's fine if I made them so big that they overlap the geometry
+
+375
+00:15:37,390 --> 00:15:39,080
+it's only an indication from the program
+
+376
+00:15:39,380 --> 00:15:41,530
+So the distance between the volumes
+
+377
+00:15:41,530 --> 00:15:43,000
+the more volumes we have
+
+378
+00:15:43,090 --> 00:15:45,790
+the smoother the chain is going to be
+
+379
+00:15:45,840 --> 00:15:48,910
+but of course our program is going to get a bit slower
+
+380
+00:15:48,920 --> 00:15:49,710
+But yeah
+
+381
+00:15:49,710 --> 00:15:51,360
+that's a very good question because at the beginning
+
+382
+00:15:51,360 --> 00:15:53,260
+I thought that the size of the bone was relevant
+
+383
+00:15:53,440 --> 00:15:55,740
+but in reality you can go here and change
+
+384
+00:15:55,740 --> 00:15:56,250
+TheI think
+
+385
+00:15:56,250 --> 00:15:57,360
+in custom properties is
+
+386
+00:15:57,380 --> 00:15:58,390
+ohmaybe not in here
+
+387
+00:15:58,540 --> 00:16:01,490
+but I'm sure if you go into post mode
+
+388
+00:16:01,610 --> 00:16:05,680
+we can select the bone and I can go and check how it looks
+
+389
+00:16:05,980 --> 00:16:11,130
+And if I change how it looks and I can make a custom object or chase how it looks and it could be smaller
+
+390
+00:16:11,130 --> 00:16:13,200
+it's not really relevant to the end of the end
+
+391
+00:16:14,160 --> 00:16:15,200
+the end result
+
+392
+00:16:15,710 --> 00:16:16,510
+Okay
+
+393
+00:16:16,520 --> 00:16:17,780
+now that we have that there
+
+394
+00:16:17,790 --> 00:16:20,010
+we're going to do exactly what we did before
+
+395
+00:16:20,010 --> 00:16:21,780
+I'm going to select my cylin cylinder
+
+396
+00:16:21,780 --> 00:16:22,890
+I'm going to call it tail
+
+397
+00:16:23,050 --> 00:16:25,500
+and I'm going to select cylinder armature
+
+398
+00:16:25,540 --> 00:16:26,130
+At this point
+
+399
+00:16:26,130 --> 00:16:27,730
+probably everyone is an expert on this
+
+400
+00:16:27,740 --> 00:16:31,240
+you're just going to do right click parent with automatic weights
+
+401
+00:16:31,330 --> 00:16:34,150
+And now my tail is inside my armature
+
+402
+00:16:34,160 --> 00:16:35,730
+If I go to post mode
+
+403
+00:16:35,830 --> 00:16:39,650
+I can just rotate and my tail is rotating
+
+404
+00:16:39,680 --> 00:16:41,530
+And if it's not smooth enough
+
+405
+00:16:41,540 --> 00:16:45,670
+it's because remember that we can just go into object mode and add
+
+406
+00:16:46,790 --> 00:16:57,550
+I can select that and add a modifier and I can add a subdivision surface with a couple of subdivisions and I can shade it all smooth
+
+407
+00:16:57,960 --> 00:16:59,500
+and I can be this mode
+
+408
+00:16:59,510 --> 00:17:02,690
+And now you can see that when I go into my post mode
+
+409
+00:17:02,790 --> 00:17:06,590
+I can select any of my bones and I can start rotating and it's looking nice
+
+410
+00:17:06,590 --> 00:17:07,710
+and it's smooth for my tail
+
+411
+00:17:07,960 --> 00:17:15,230
+But the thing that we wanted is to be able to select the last point of the chain of my tail and be able to move the entire tail
+
+412
+00:17:15,310 --> 00:17:17,920
+And it's exactly the same that we've done before
+
+413
+00:17:18,180 --> 00:17:20,580
+So oh I'm going to
+
+414
+00:17:20,590 --> 00:17:21,720
+I don't know why going
+
+415
+00:17:21,780 --> 00:17:25,920
+but I deleted some of the subdivisions
+
+416
+00:17:25,930 --> 00:17:27,300
+I'm going to do say the smooth
+
+417
+00:17:27,310 --> 00:17:29,250
+but I wanted to reset the armature
+
+418
+00:17:29,250 --> 00:17:29,720
+By the way
+
+419
+00:17:29,730 --> 00:17:31,110
+if you want to reset the armature
+
+420
+00:17:31,110 --> 00:17:32,060
+you don't do it like that
+
+421
+00:17:32,150 --> 00:17:32,710
+I did it wrong
+
+422
+00:17:32,720 --> 00:17:34,050
+just like all the ones with A
+
+423
+00:17:34,050 --> 00:17:35,750
+and then you go post transform
+
+424
+00:17:36,060 --> 00:17:36,330
+Ohno
+
+425
+00:17:36,340 --> 00:17:37,770
+clear transform all
+
+426
+00:17:37,780 --> 00:17:41,240
+And now all my transformations get completely cleared
+
+427
+00:17:41,830 --> 00:17:45,070
+So what I'm going to do now is I'm going to do exactly the same
+
+428
+00:17:45,180 --> 00:17:46,480
+I'm going to go to edit mode
+
+429
+00:17:46,700 --> 00:17:49,150
+I'm going to generate a copy of this bone
+
+430
+00:17:49,350 --> 00:17:51,010
+I'm going to select this
+
+431
+00:17:51,020 --> 00:17:52,050
+I'm going to split it
+
+432
+00:17:52,060 --> 00:17:53,300
+So now this is split
+
+433
+00:17:53,510 --> 00:17:57,310
+and now I'm going to go into my pose mode and select this bone
+
+434
+00:17:57,410 --> 00:17:59,910
+select this last part of the chat
+
+435
+00:18:00,700 --> 00:18:07,620
+and we're going to go into pause or pose inverse kinematics
+
+436
+00:18:07,940 --> 00:18:08,390
+I k to 1
+
+437
+00:18:08,900 --> 00:18:10,190
+and as soon as I added
+
+438
+00:18:10,380 --> 00:18:13,530
+we have this that turn yellow and you can not see it
+
+439
+00:18:13,530 --> 00:18:16,810
+but there is a yellow line that is going all the way to the end of my chain
+
+440
+00:18:16,970 --> 00:18:24,940
+In this case I'm not even going to have to say in the program how long is my chain because it just went to the very end of my chain and that's what I wanted
+
+441
+00:18:25,090 --> 00:18:27,400
+So now if I move this in post mode
+
+442
+00:18:27,830 --> 00:18:32,000
+let's see how this magically my entire tail works
+
+443
+00:18:32,130 --> 00:18:33,200
+And it looks like a tail
+
+444
+00:18:33,210 --> 00:18:33,630
+that's great
+
+445
+00:18:33,630 --> 00:18:34,380
+So does it always
+
+446
+00:18:34,390 --> 00:18:36,440
+the chain always goes automatically to the final bone
+
+447
+00:18:36,660 --> 00:18:37,620
+always to the final one
+
+448
+00:18:37,680 --> 00:18:38,450
+So in this case
+
+449
+00:18:38,460 --> 00:18:39,730
+because it was good
+
+450
+00:18:39,740 --> 00:18:40,540
+that's fine
+
+451
+00:18:40,670 --> 00:18:44,900
+If I wanted the beginning of my tail to be a bit straight and only having in the end bend
+
+452
+00:18:44,910 --> 00:18:48,380
+I can always select the bone that is telling me the length of the chain
+
+453
+00:18:48,390 --> 00:18:50,640
+Go here and make my chain length of
+
+454
+00:18:50,640 --> 00:18:51,720
+for example
+
+455
+00:18:52,010 --> 00:18:52,460
+you know
+
+456
+00:18:52,680 --> 00:18:53,850
+23
+
+457
+00:18:53,860 --> 00:18:54,670
+You can
+
+458
+00:18:54,860 --> 00:18:57,830
+I think people now can start understanding what the system is
+
+459
+00:18:57,860 --> 00:18:58,080
+You know
+
+460
+00:18:58,080 --> 00:18:59,020
+now if I move it
+
+461
+00:18:59,030 --> 00:18:59,950
+only the end
+
+462
+00:19:00,010 --> 00:19:03,130
+if my chain is moving and at the beginning it's completely straight
+
+463
+00:19:03,140 --> 00:19:06,370
+It's great to see that because I'm kind of imagining what crazy characters people are coming up
+
+464
+00:19:07,500 --> 00:19:07,980
+Yeah
+
+465
+00:19:08,170 --> 00:19:14,840
+this looks a bit like you could make one of these things that sometimes they are in America to sell cars and you see them in the UK as well
+
+466
+00:19:14,930 --> 00:19:17,360
+that they move with the movement of the wind
+
+467
+00:19:17,370 --> 00:19:17,460
+I love
+
+468
+00:19:18,040 --> 00:19:19,710
+Yeahand the cool thing about this
+
+469
+00:19:19,720 --> 00:19:20,200
+of course
+
+470
+00:19:20,200 --> 00:19:23,150
+you can add a pole to select where this looking at
+
+471
+00:19:23,590 --> 00:19:24,860
+like we did it before
+
+472
+00:19:24,880 --> 00:19:25,720
+but I think with this
+
+473
+00:19:25,720 --> 00:19:30,260
+we have explained enough how to do this rigging on the character
+
+474
+00:19:31,010 --> 00:19:32,420
+I hope you all enjoyed it
+
+475
+00:19:32,430 --> 00:19:32,700
+I'm go
+
+476
+00:19:32,770 --> 00:19:35,850
+go and just show the project one second before
+
+477
+00:19:35,860 --> 00:19:40,850
+Remember that you are going to be able to access this project the same thing that happened by the way with this
+
+478
+00:19:40,860 --> 00:19:43,500
+this is just if you go into post mode
+
+479
+00:19:43,520 --> 00:19:50,550
+these ones that are controlling the head and the body are simply the same Are I selected one of the bones and I made it look a bit like that
+
+480
+00:19:50,560 --> 00:19:52,040
+so it looked a bit prettier
+
+481
+00:19:52,140 --> 00:19:55,360
+The same with the head is exactly the same
+
+482
+00:19:55,440 --> 00:19:56,580
+and by the way
+
+483
+00:19:56,590 --> 00:19:58,050
+you can see that here
+
+484
+00:19:58,060 --> 00:20:12,970
+my tail has a bit of grease pencil that is attached to the tail that actually was included when I did pairing with automatic weight and automatically blender applied the weight to the tail and included the grease pencil
+
+485
+00:20:12,970 --> 00:20:13,490
+which is amazing
+
+486
+00:20:13,910 --> 00:20:14,680
+A little treat
+
+487
+00:20:14,690 --> 00:20:16,290
+So I think now at this point
+
+488
+00:20:16,290 --> 00:20:18,820
+everyone knows how to make every single element on this
+
+489
+00:20:18,870 --> 00:20:25,850
+I really think that you should instead of trying to copy exactly the illustration from Noah and the version we made in 3D
+
+490
+00:20:25,860 --> 00:20:27,300
+you should make your own version
+
+491
+00:20:27,330 --> 00:20:30,340
+Yeahwe'd love to see more people's illustrations appearing here
+
+492
+00:20:30,360 --> 00:20:32,120
+moving around them in 3D
+
+493
+00:20:33,030 --> 00:20:33,820
+In the next lesson
+
+494
+00:20:33,820 --> 00:20:35,190
+we're going to check another illustration
+
+495
+00:20:35,200 --> 00:20:36,700
+and I think it my favorite
+
+496
+00:20:36,820 --> 00:20:37,090
+I mean
+
+497
+00:20:37,090 --> 00:20:38,370
+the three of them are my favorites
+
+498
+00:20:38,490 --> 00:20:42,780
+but like I really love the translation that happened in the next illustration
+
+499
+00:20:43,190 --> 00:20:45,610
+Thank you and really well done to know albrech again
+
+500
+00:20:46,820 --> 00:20:47,950
+thank you very much

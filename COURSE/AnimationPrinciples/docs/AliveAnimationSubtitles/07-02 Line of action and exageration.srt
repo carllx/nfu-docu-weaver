@@ -1,0 +1,704 @@
+﻿1
+00:00:00,067 --> 00:00:02,870
+[Instructor] There are a
+couple of animation principle
+
+2
+00:00:02,870 --> 00:00:05,350
+we haven't talked about yet.
+
+3
+00:00:05,350 --> 00:00:08,470
+Line of action and exaggeration.
+
+4
+00:00:08,470 --> 00:00:12,090
+The cool thing about both those principle
+
+5
+00:00:12,090 --> 00:00:14,620
+is that they both apply
+
+6
+00:00:14,620 --> 00:00:17,870
+to animation but also drawing
+
+7
+00:00:17,870 --> 00:00:21,420
+as they define the quality of a pose
+
+8
+00:00:21,420 --> 00:00:23,370
+not the quality of the motion.
+
+9
+00:00:23,370 --> 00:00:28,180
+But since motion and
+good animation is about
+
+10
+00:00:28,180 --> 00:00:33,180
+a sequence of poses then it
+does relate also to animation.
+
+11
+00:00:33,180 --> 00:00:37,500
+So let's first have a look
+to what a line of action is
+
+12
+00:00:37,500 --> 00:00:38,620
+into a pose.
+
+13
+00:00:38,620 --> 00:00:40,740
+In the words of Preston Blair,
+
+14
+00:00:40,740 --> 00:00:44,800
+former veteran animator
+at the Walt Disney studio
+
+15
+00:00:44,800 --> 00:00:46,987
+and also Metro-Goldwyn-Mayer,
+
+16
+00:00:46,987 --> 00:00:49,857
+"The line of action is an imaginary line
+
+17
+00:00:49,857 --> 00:00:52,900
+"extending through the
+main action of the figure."
+
+18
+00:00:52,900 --> 00:00:55,964
+Basically it's a line or a curve
+
+19
+00:00:55,964 --> 00:00:59,900
+that does support the
+silhouette of your character
+
+20
+00:00:59,900 --> 00:01:04,060
+and give direction to its
+motion or to its current pose.
+
+21
+00:01:04,060 --> 00:01:06,080
+It's here to guide the eyes
+
+22
+00:01:06,080 --> 00:01:09,590
+and build to the whole dynamism of a pose.
+
+23
+00:01:09,590 --> 00:01:11,550
+Whether it's dynamic or not.
+
+24
+00:01:11,550 --> 00:01:13,353
+The shape of your line of action
+
+25
+00:01:13,353 --> 00:01:16,880
+may turn your pose in
+something more static.
+
+26
+00:01:16,880 --> 00:01:19,650
+So it's not about drawing dynamism,
+
+27
+00:01:19,650 --> 00:01:24,000
+it's about drawing directionality
+to make the pose clearer.
+
+28
+00:01:24,000 --> 00:01:26,550
+Let's see a couple of example.
+
+29
+00:01:26,550 --> 00:01:28,793
+Line of action is about simplifying
+
+30
+00:01:28,793 --> 00:01:32,120
+how a silhouette or a character reads.
+
+31
+00:01:32,120 --> 00:01:34,500
+On the character it often starts from
+
+32
+00:01:34,500 --> 00:01:36,700
+a contracting point or a pushing point
+
+33
+00:01:36,700 --> 00:01:38,583
+to the opposite extremity.
+
+34
+00:01:38,583 --> 00:01:43,230
+Because the line of action is
+not always but often driven
+
+35
+00:01:43,230 --> 00:01:46,600
+by the force applied into a pose.
+
+36
+00:01:46,600 --> 00:01:50,090
+So good line of action
+will translate momentum
+
+37
+00:01:50,090 --> 00:01:52,630
+or directionality to your motion.
+
+38
+00:01:52,630 --> 00:01:55,980
+So whenever you are building
+a pose for your character,
+
+39
+00:01:55,980 --> 00:02:00,090
+the whole pose should
+support the line of action.
+
+40
+00:02:00,090 --> 00:02:03,360
+All the line of action should
+support the whole pose.
+
+41
+00:02:03,360 --> 00:02:05,720
+In this case I've posed the back
+
+42
+00:02:05,720 --> 00:02:09,160
+but also the tip of the finger
+of the end of my character
+
+43
+00:02:09,160 --> 00:02:11,260
+to support the line of action.
+
+44
+00:02:11,260 --> 00:02:12,440
+Same thing here.
+
+45
+00:02:12,440 --> 00:02:14,490
+The way the character is posed
+
+46
+00:02:14,490 --> 00:02:17,640
+make the line of action super obvious.
+
+47
+00:02:17,640 --> 00:02:20,870
+So the line of action
+helps to read the pose
+
+48
+00:02:20,870 --> 00:02:23,373
+and helps to read the motion.
+
+49
+00:02:23,373 --> 00:02:26,720
+If we see the evolution
+of the line of action
+
+50
+00:02:26,720 --> 00:02:28,730
+through those poses,
+
+51
+00:02:28,730 --> 00:02:33,730
+we can see it extending as
+our character is jumping.
+
+52
+00:02:33,760 --> 00:02:38,140
+There absolutely no doubt about
+the orientation of the jump
+
+53
+00:02:38,140 --> 00:02:42,500
+so it simplified the
+readability of the lecture
+
+54
+00:02:42,500 --> 00:02:45,720
+of this jumping moment or action.
+
+55
+00:02:45,720 --> 00:02:49,490
+The line of action is not
+necessarily a straight line
+
+56
+00:02:49,490 --> 00:02:50,760
+or a simple curve.
+
+57
+00:02:50,760 --> 00:02:53,140
+It can have an S shape
+
+58
+00:02:53,140 --> 00:02:55,950
+clearly translating the
+fact that our character
+
+59
+00:02:55,950 --> 00:03:00,160
+is gathering energy to
+extend on the next pose.
+
+60
+00:03:00,160 --> 00:03:03,400
+So beyond simplifying the readability,
+
+61
+00:03:03,400 --> 00:03:06,380
+the line of action will
+also define the flow
+
+62
+00:03:06,380 --> 00:03:07,890
+of your animation.
+
+63
+00:03:07,890 --> 00:03:11,470
+So the line of action is the
+best friend of the animator
+
+64
+00:03:11,470 --> 00:03:15,521
+because it will help
+you to see and simplify
+
+65
+00:03:15,521 --> 00:03:19,260
+the poses of your character through time.
+
+66
+00:03:19,260 --> 00:03:21,320
+So when you build your animation
+
+67
+00:03:21,320 --> 00:03:23,490
+and when you build your poses,
+
+68
+00:03:23,490 --> 00:03:27,044
+you need to first think
+of the line of action.
+
+69
+00:03:27,044 --> 00:03:30,970
+And then while posing
+make sure that your pose
+
+70
+00:03:30,970 --> 00:03:34,090
+is currently supporting
+this line of action.
+
+71
+00:03:34,090 --> 00:03:37,740
+So it's always about going back and forth
+
+72
+00:03:37,740 --> 00:03:42,740
+between what drives the pose
+and what the pose defines.
+
+73
+00:03:42,820 --> 00:03:47,090
+Let's now about a bit one of
+the 12 principles of animation,
+
+74
+00:03:47,090 --> 00:03:49,000
+which is exaggeration.
+
+75
+00:03:49,000 --> 00:03:49,833
+For me,
+
+76
+00:03:49,833 --> 00:03:53,750
+this is one of the most
+important principle of animation
+
+77
+00:03:53,750 --> 00:03:57,560
+especially regarding my
+own style of animation,
+
+78
+00:03:57,560 --> 00:04:01,940
+which tend to be pretty
+cartoonish or stylized let's say.
+
+79
+00:04:01,940 --> 00:04:06,400
+And this whole chapter will be
+about exaggeration in a way.
+
+80
+00:04:06,400 --> 00:04:10,570
+I have very few interests
+to super realistic animation
+
+81
+00:04:10,570 --> 00:04:12,900
+where there is no exaggeration.
+
+82
+00:04:12,900 --> 00:04:16,080
+Though exaggerating in
+animation doesn't mean
+
+83
+00:04:16,080 --> 00:04:17,970
+it won't look realistic.
+
+84
+00:04:17,970 --> 00:04:21,720
+Great animator will clean
+motion capture the data
+
+85
+00:04:21,720 --> 00:04:25,188
+and know the spots where
+they can push the pose
+
+86
+00:04:25,188 --> 00:04:29,445
+or exaggerate the animation
+to make it more appealing
+
+87
+00:04:29,445 --> 00:04:33,630
+and better sell the animation or the idea.
+
+88
+00:04:33,630 --> 00:04:37,950
+Exaggeration is not about
+building extreme poses
+
+89
+00:04:37,950 --> 00:04:40,400
+but better sell an idea.
+
+90
+00:04:40,400 --> 00:04:44,340
+Here I've just built a pose
+where a character is punching.
+
+91
+00:04:44,340 --> 00:04:46,950
+I've used the reference
+and tried to match it.
+
+92
+00:04:46,950 --> 00:04:50,980
+So I'm not here to tell you
+if this pose is good or not
+
+93
+00:04:50,980 --> 00:04:53,250
+but I feel like it does work
+
+94
+00:04:53,250 --> 00:04:55,610
+and sell that the character is punching.
+
+95
+00:04:55,610 --> 00:04:59,370
+But now what if I take
+this pose and I push it
+
+96
+00:04:59,370 --> 00:05:01,580
+or I exaggerate it.
+
+97
+00:05:01,580 --> 00:05:02,413
+Don't worry,
+
+98
+00:05:02,413 --> 00:05:05,650
+I will explain the whole
+process in the next videos
+
+99
+00:05:05,650 --> 00:05:09,100
+and we are going to build
+a bunch of different poses.
+
+100
+00:05:09,100 --> 00:05:11,530
+What we need to understand here is that
+
+101
+00:05:11,530 --> 00:05:13,550
+I'm taking the same idea,
+
+102
+00:05:13,550 --> 00:05:18,240
+my character is throwing a
+punch and I'm exaggerating it,
+
+103
+00:05:18,240 --> 00:05:21,080
+meaning that I will push the pose further
+
+104
+00:05:21,080 --> 00:05:24,010
+both in its directionality
+
+105
+00:05:24,010 --> 00:05:27,230
+but also in the intention
+of the character.
+
+106
+00:05:27,230 --> 00:05:29,410
+No longer punching his target
+
+107
+00:05:29,410 --> 00:05:32,880
+but he's trying to punch
+through his target.
+
+108
+00:05:32,880 --> 00:05:36,820
+If we now compare both
+poses we have similarities.
+
+109
+00:05:36,820 --> 00:05:40,360
+On both poses our character is punching
+
+110
+00:05:40,360 --> 00:05:44,630
+and while the line of action
+on the first character is clear
+
+111
+00:05:44,630 --> 00:05:49,580
+by pushing the line of action
+forward toward the punch
+
+112
+00:05:49,580 --> 00:05:53,650
+we are making the idea that
+our character is punching
+
+113
+00:05:53,650 --> 00:05:55,160
+way more obvious.
+
+114
+00:05:55,160 --> 00:05:57,370
+We are exaggerating it.
+
+115
+00:05:57,370 --> 00:05:59,410
+While it may makes the pose
+
+116
+00:05:59,410 --> 00:06:02,510
+a little less realistic in this case
+
+117
+00:06:02,510 --> 00:06:06,820
+it makes it way more appealing
+and way more readable.
+
+118
+00:06:06,820 --> 00:06:10,770
+A good test is to show
+those two poses to a child.
+
+119
+00:06:10,770 --> 00:06:14,950
+He will certainly point out the right pose
+
+120
+00:06:14,950 --> 00:06:16,540
+as its favorite one
+
+121
+00:06:16,540 --> 00:06:20,020
+because it better shows the
+intention of the character.
+
+122
+00:06:20,020 --> 00:06:21,780
+The big disclaimer here,
+
+123
+00:06:21,780 --> 00:06:24,060
+no children were harmed or involved
+
+124
+00:06:24,060 --> 00:06:25,790
+in the recording of this course.
+
+125
+00:06:25,790 --> 00:06:30,260
+While exaggeration can be
+used to communicate intention
+
+126
+00:06:30,260 --> 00:06:33,790
+it can be also used to
+communicate emotions.
+
+127
+00:06:33,790 --> 00:06:35,460
+Whether it's joy,
+
+128
+00:06:35,460 --> 00:06:40,460
+anger or in this case some
+kind of shininess and sadness
+
+129
+00:06:41,010 --> 00:06:45,700
+by pushing the character
+pose and calling him more
+
+130
+00:06:45,700 --> 00:06:48,080
+I am closing the line of action.
+
+131
+00:06:48,080 --> 00:06:49,950
+The head is leaning more.
+
+132
+00:06:49,950 --> 00:06:52,950
+The fingers also looked more tortured.
+
+133
+00:06:52,950 --> 00:06:56,700
+So in the end the
+emotion on the right pose
+
+134
+00:06:56,700 --> 00:07:01,540
+are more convincing and our
+character will look more alive.
+
+135
+00:07:01,540 --> 00:07:04,870
+Finally we can also use exaggeration
+
+136
+00:07:04,870 --> 00:07:08,290
+to improve the readability of the motion.
+
+137
+00:07:08,290 --> 00:07:10,330
+When the character is jumping
+
+138
+00:07:10,330 --> 00:07:13,610
+I'm pulling his body or elongating it
+
+139
+00:07:13,610 --> 00:07:15,530
+though I'm exaggerating his shape
+
+140
+00:07:15,530 --> 00:07:17,520
+to make the jump read better.
+
+141
+00:07:17,520 --> 00:07:19,360
+Especially at full speed.
+
+142
+00:07:19,360 --> 00:07:23,600
+So we can use exaggeration
+to build what we call smears
+
+143
+00:07:23,600 --> 00:07:27,220
+that in a way simulate the
+motion blur of a camera.
+
+144
+00:07:27,220 --> 00:07:30,630
+And allow us to better feel the motion.
+
+145
+00:07:30,630 --> 00:07:33,690
+To summarize we have seen
+that the line of action
+
+146
+00:07:33,690 --> 00:07:36,090
+can be applied to animation,
+
+147
+00:07:36,090 --> 00:07:38,280
+drawing or even photography.
+
+148
+00:07:38,280 --> 00:07:41,860
+The line of action simplifies
+the readability of the pose.
+
+149
+00:07:41,860 --> 00:07:44,280
+It conveys the directionality,
+
+150
+00:07:44,280 --> 00:07:47,254
+momentum and or stability of the pose.
+
+151
+00:07:47,254 --> 00:07:51,171
+It helps to read the
+flow of the animation.
+
+152
+00:07:51,171 --> 00:07:53,820
+The animator should use the line of action
+
+153
+00:07:53,820 --> 00:07:56,670
+to build his poses and use his poses
+
+154
+00:07:56,670 --> 00:07:59,660
+to clearly define the line of action.
+
+155
+00:07:59,660 --> 00:08:03,935
+Exaggeration improves
+the appeal and dynamism.
+
+156
+00:08:03,935 --> 00:08:08,935
+It better communicates the
+ideas and the character feelings
+
+157
+00:08:08,950 --> 00:08:11,833
+and it can improve fast
+action readability.
+
+158
+00:08:12,833 --> 00:08:15,000
+(silence)
+

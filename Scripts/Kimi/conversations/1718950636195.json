@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqhlrkudu68ak110qbg",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题： 从本文中学习伪代码 prompt 的方法归纳出一个制作伪代码的说明指南帮助prompt enggineer 更好的设计Prompt\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n",
+    "response": "根据Mishra等人在2023年的研究《Prompting with Pseudo-Code Instructions》，我们可以归纳出以下制作伪代码的说明指南，以帮助Prompt工程师更好地设计Prompt：\n\n1. **明确任务目标**：伪代码应清晰定义主要函数的原型，包括函数名称、输入参数及其数据类型、返回类型。这有助于模型理解任务需求。\n\n2. **使用DocString**：在伪代码中包含DocString，提供任务的自然语言描述，这有助于模型更好地理解任务的具体要求。\n\n3. **结构化线索**：伪代码应包含结构化线索，例如函数声明、代码注释和内联注释，这些元素有助于模型识别任务的关键步骤。\n\n4. **简洁性**：伪代码应简洁明了，避免不必要的复杂性，这有助于模型更有效地处理和响应Prompt。\n\n5. **利用代码特性**：由于代码或伪代码的固有特性，它比自然语言具有更少的歧义。利用这一点，可以设计出更精确的指令。\n\n6. **任务类型适配**：根据任务的不同类型（如分类、问答、语言生成等），调整伪代码的结构和详细程度，以最大化模型性能。\n\n7. **性能测试**：创建伪代码Prompt后，应在不同的大型语言模型（LLM）上进行测试，比较其与自然语言Prompt的性能差异。\n\n8. **迭代优化**：基于测试结果，对伪代码Prompt进行迭代优化，以提高模型在特定任务上的表现。\n\n9. **考虑模型特性**：不同模型可能对伪代码的解释和执行有不同的反应，设计时应考虑模型的特性和训练数据。\n\n10. **文档和注释**：在伪代码中包含有用的文档和注释，这不仅有助于人类理解，也可能帮助模型更好地把握任务的上下文。\n\n通过遵循以上指南，Prompt工程师可以设计出更有效的伪代码Prompt，以提高大型语言模型在各种自然语言处理任务上的性能。",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpqhlrm768j2bn4luq9g",
+    "req_id": "cpqhlrm768j2bn4luqb0",
+    "resp_id": "cpqhlrm768j2bn4luqbg",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题： 从本文中学习伪代码 prompt 的方法归纳出一个制作伪代码的说明指南帮助prompt enggineer 更好的设计Prompt"
+}

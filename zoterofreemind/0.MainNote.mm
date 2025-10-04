@@ -1,0 +1,4 @@
+<map version="freeplane 1.9.0"><node ID="-1" TEXT="0.MainNote"><hook NAME="AlwaysUnfoldedNode" /><node ID="0" TEXT="0.MainNote"><hook NAME="AlwaysUnfoldedNode" /><richcontent TYPE="NOTE" CONTENT-TYPE="xml/"><html><head></head><body><h1>0.MainNote</h1>
+<p></p></body></html></richcontent><node ID="1" TEXT="Volumetric Media"><hook NAME="AlwaysUnfoldedNode" /><richcontent TYPE="NOTE" CONTENT-TYPE="xml/"><html><head></head><body><h2>Volumetric Media</h2>
+<p><a href="zotero://note/u/LFUSITD6/" rel="noopener noreferrer nofollow">Abstract:: 概述了体积捕捉(Volumetric capture)技术以及它在叙事电影制作(narrative films)中的应用.</a></p></body></html></richcontent></node><node ID="2" TEXT="Machine Perception"><hook NAME="AlwaysUnfoldedNode" /><richcontent TYPE="NOTE" CONTENT-TYPE="xml/"><html><head></head><body><h2>Machine Perception</h2>
+<p></p></body></html></richcontent></node></node></node></map>

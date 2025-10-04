@@ -1,0 +1,1232 @@
+﻿1
+00:00:01,200 --> 00:00:02,130
+- [Instructor] In this video,
+
+2
+00:00:02,130 --> 00:00:04,360
+we are going to set up our camera.
+
+3
+00:00:04,360 --> 00:00:07,050
+Initial goal of this combo animation
+
+4
+00:00:07,050 --> 00:00:10,360
+is not to teach you how
+to frame your character.
+
+5
+00:00:10,360 --> 00:00:13,410
+I think the camera now will
+help us take some decision
+
+6
+00:00:13,410 --> 00:00:14,950
+during the position stage.
+
+7
+00:00:14,950 --> 00:00:17,560
+Since I don't have a clear direction
+
+8
+00:00:17,560 --> 00:00:20,750
+regarding the framing of this animation,
+
+9
+00:00:20,750 --> 00:00:23,090
+it wasn't planned ahead,
+
+10
+00:00:23,090 --> 00:00:27,350
+what I'm doing is that I'm
+just positioning my 3D view
+
+11
+00:00:27,350 --> 00:00:29,960
+and see how I can frame my character.
+
+12
+00:00:29,960 --> 00:00:34,210
+Play a few frame of the
+animation and see if it works.
+
+13
+00:00:34,210 --> 00:00:36,810
+By default Blender 3D view is set
+
+14
+00:00:36,810 --> 00:00:39,480
+to a 50 millimeter focal length.
+
+15
+00:00:39,480 --> 00:00:42,260
+So this is something we
+have to take in account
+
+16
+00:00:42,260 --> 00:00:45,050
+whenever we are trying
+to frame our character,
+
+17
+00:00:45,050 --> 00:00:47,170
+pretty freely for the time being.
+
+18
+00:00:47,170 --> 00:00:50,050
+On the initial pose when
+I'm facing the character,
+
+19
+00:00:50,050 --> 00:00:51,320
+it looks pretty cool.
+
+20
+00:00:51,320 --> 00:00:55,270
+His base pose reads pretty
+well and we do understand
+
+21
+00:00:55,270 --> 00:00:58,090
+that his objective is the punching bag.
+
+22
+00:00:58,090 --> 00:00:59,850
+But when I play the animation,
+
+23
+00:00:59,850 --> 00:01:02,150
+the punches don't look that powerful
+
+24
+00:01:02,150 --> 00:01:05,370
+and the character is
+often hidden by the bag.
+
+25
+00:01:05,370 --> 00:01:07,940
+When we have build those first poses,
+
+26
+00:01:07,940 --> 00:01:11,520
+we have intentionally
+created straight shapes
+
+27
+00:01:11,520 --> 00:01:12,780
+for our character.
+
+28
+00:01:12,780 --> 00:01:15,880
+So there are big chances that those shapes
+
+29
+00:01:15,880 --> 00:01:18,160
+will read well from side view.
+
+30
+00:01:18,160 --> 00:01:20,580
+In this regard, we will probably
+
+31
+00:01:20,580 --> 00:01:24,840
+favorize a side view for
+those two initial punches.
+
+32
+00:01:24,840 --> 00:01:27,810
+Whether we are facing the
+inside of the character
+
+33
+00:01:27,810 --> 00:01:31,660
+or the outside or back of the
+character, when he's punching.
+
+34
+00:01:31,660 --> 00:01:34,110
+While I'm pretty convinced of the framing
+
+35
+00:01:34,110 --> 00:01:35,710
+for the beginning of the combo,
+
+36
+00:01:35,710 --> 00:01:39,770
+when the hook happened, I
+don't feel like it reads well.
+
+37
+00:01:39,770 --> 00:01:43,630
+While if I rotate the 3D
+view to face the character,
+
+38
+00:01:43,630 --> 00:01:46,423
+I better see the anticipation and I also
+
+39
+00:01:46,423 --> 00:01:49,540
+better see the arc built by the fists.
+
+40
+00:01:49,540 --> 00:01:54,210
+So I know that I will have to
+transition from a side view
+
+41
+00:01:54,210 --> 00:01:56,960
+to a more frontal view of the character.
+
+42
+00:01:56,960 --> 00:01:59,900
+Also I think like it looks a little better
+
+43
+00:01:59,900 --> 00:02:03,920
+when we get closer to the
+ground to frame the hook.
+
+44
+00:02:03,920 --> 00:02:06,400
+The characters look more impressive
+
+45
+00:02:06,400 --> 00:02:08,260
+and he's dominating the view.
+
+46
+00:02:08,260 --> 00:02:10,120
+Now regarding the kick,
+
+47
+00:02:10,120 --> 00:02:13,190
+the anticipation looks
+very good from there
+
+48
+00:02:13,190 --> 00:02:15,220
+but the character get hidden by the bag
+
+49
+00:02:15,220 --> 00:02:16,710
+during the kicking pose.
+
+50
+00:02:16,710 --> 00:02:19,920
+And there is a lot of
+verticality into the pose
+
+51
+00:02:19,920 --> 00:02:23,440
+so I feel like we lose a bit
+the orientation of the kick.
+
+52
+00:02:23,440 --> 00:02:26,550
+While if we continue
+rotating a bit the camera,
+
+53
+00:02:26,550 --> 00:02:29,040
+we get a very interesting framing
+
+54
+00:02:29,040 --> 00:02:31,750
+because we can see the
+eyes of our character
+
+55
+00:02:31,750 --> 00:02:35,650
+in the negative space drawn
+by the leg and the arm.
+
+56
+00:02:35,650 --> 00:02:37,400
+We still I've have a very strong
+
+57
+00:02:37,400 --> 00:02:40,030
+orientation of the kicking pose,
+
+58
+00:02:40,030 --> 00:02:43,090
+so it doesn't ruin all the
+work we have done before.
+
+59
+00:02:43,090 --> 00:02:47,710
+One thing we can do to improve
+those close range action shot
+
+60
+00:02:47,710 --> 00:02:51,280
+is to increase the angle of view
+
+61
+00:02:51,280 --> 00:02:55,080
+by reducing the focal
+length of our 3D view.
+
+62
+00:02:55,080 --> 00:02:58,550
+I will switch from 50 to 30 millimeters
+
+63
+00:02:58,550 --> 00:03:02,090
+and while it doesn't really
+improve the side view,
+
+64
+00:03:02,090 --> 00:03:04,270
+when it comes to spinning strikes,
+
+65
+00:03:04,270 --> 00:03:06,470
+like the hook or the kick,
+
+66
+00:03:06,470 --> 00:03:08,700
+it does look way better for sure.
+
+67
+00:03:08,700 --> 00:03:12,870
+The characters look stronger
+and the arcs reads way better.
+
+68
+00:03:12,870 --> 00:03:16,110
+Finally, that will be cool if in the end,
+
+69
+00:03:16,110 --> 00:03:18,760
+the punching bag was still framed
+
+70
+00:03:18,760 --> 00:03:21,290
+and projected away from the camera.
+
+71
+00:03:21,290 --> 00:03:23,130
+Because it communicates the fact
+
+72
+00:03:23,130 --> 00:03:26,220
+that our character has extra human power
+
+73
+00:03:26,220 --> 00:03:28,710
+and he kicked so hard that he has
+
+74
+00:03:28,710 --> 00:03:31,320
+broken the chains of the punching bag.
+
+75
+00:03:31,320 --> 00:03:35,410
+So it does improve the
+understanding of the current shot,
+
+76
+00:03:35,410 --> 00:03:37,710
+so it does improve staging.
+
+77
+00:03:37,710 --> 00:03:40,590
+Now regarding the camera initial position,
+
+78
+00:03:40,590 --> 00:03:43,670
+here is a cool trick I've
+learned from Daniel Dettol
+
+79
+00:03:43,670 --> 00:03:46,610
+while I was working on
+this specific animation.
+
+80
+00:03:46,610 --> 00:03:50,890
+He explained me that it's
+better to set the camera
+
+81
+00:03:50,890 --> 00:03:54,910
+so that it rotates the
+opposite way as the character.
+
+82
+00:03:54,910 --> 00:03:59,330
+Our character is pivoting
+around this side of the bag.
+
+83
+00:03:59,330 --> 00:04:01,830
+So if we place the camera to the side
+
+84
+00:04:01,830 --> 00:04:05,030
+and we follow the motion of the character,
+
+85
+00:04:05,030 --> 00:04:07,410
+we will mostly be looking at his back.
+
+86
+00:04:07,410 --> 00:04:09,860
+Plus in the end, we will probably have to
+
+87
+00:04:09,860 --> 00:04:12,840
+revise the camera
+position a little backward
+
+88
+00:04:12,840 --> 00:04:16,510
+to be sure that we properly
+frame the kicking pose.
+
+89
+00:04:16,510 --> 00:04:19,840
+But why if we place the
+camera on the other side?
+
+90
+00:04:19,840 --> 00:04:23,500
+We will have a continuous
+rotation of the camera,
+
+91
+00:04:23,500 --> 00:04:26,660
+with an easing at the end into the kick,
+
+92
+00:04:26,660 --> 00:04:30,260
+and it will move the opposite
+way of the character.
+
+93
+00:04:30,260 --> 00:04:33,290
+So it will increase the rotation feeling.
+
+94
+00:04:33,290 --> 00:04:35,380
+When you are following
+a car on the highway,
+
+95
+00:04:35,380 --> 00:04:38,660
+you feel like the car is pretty static.
+
+96
+00:04:38,660 --> 00:04:40,730
+While when the car is running
+
+97
+00:04:40,730 --> 00:04:42,910
+the opposite direction as you're,
+
+98
+00:04:42,910 --> 00:04:46,190
+both speed are added on top of each other,
+
+99
+00:04:46,190 --> 00:04:48,960
+and it feels like it goes super fast.
+
+100
+00:04:48,960 --> 00:04:51,120
+So let's add our camera.
+
+101
+00:04:51,120 --> 00:04:54,580
+If it's not already the
+case go to your preferences,
+
+102
+00:04:54,580 --> 00:04:56,700
+add on, and search for camera,
+
+103
+00:04:56,700 --> 00:04:59,570
+and activate the camera, add camera rigs.
+
+104
+00:04:59,570 --> 00:05:02,050
+This is the same add on we've been using
+
+105
+00:05:02,050 --> 00:05:04,910
+for our squirrel character scene.
+
+106
+00:05:04,910 --> 00:05:07,350
+From there make sure
+you are in object mode,
+
+107
+00:05:07,350 --> 00:05:11,973
+press Shift, A, go to camera,
+and add a dolly camera rig.
+
+108
+00:05:14,170 --> 00:05:16,920
+With the dolly camera rig object selected
+
+109
+00:05:16,920 --> 00:05:20,090
+press Control, Tab to switch to pose mode.
+
+110
+00:05:20,090 --> 00:05:22,980
+But we need to create an
+action to control the camera.
+
+111
+00:05:22,980 --> 00:05:25,250
+So I will switch to the action editor,
+
+112
+00:05:25,250 --> 00:05:28,570
+create a new action,
+give it a relevant name,
+
+113
+00:05:28,570 --> 00:05:30,220
+and click the shield icon
+
+114
+00:05:30,220 --> 00:05:32,800
+so that I'm sure I won't lose the section.
+
+115
+00:05:32,800 --> 00:05:34,847
+With all the camera controllers selected
+
+116
+00:05:34,847 --> 00:05:38,870
+I will press I to insert the
+key frame on all transformed.
+
+117
+00:05:38,870 --> 00:05:41,920
+Or you can choose to use
+only rotation and location
+
+118
+00:05:41,920 --> 00:05:46,040
+since there is no scaling
+influencing the camera frame.
+
+119
+00:05:46,040 --> 00:05:48,580
+From there, I'm testing each controller
+
+120
+00:05:48,580 --> 00:05:51,870
+and see what range of
+motion I can have with them.
+
+121
+00:05:51,870 --> 00:05:54,940
+For example, this one, I can just move it.
+
+122
+00:05:54,940 --> 00:05:57,230
+I can't rotate it nor scale it.
+
+123
+00:05:57,230 --> 00:06:00,400
+So I will just get rid of
+all the transform channel
+
+124
+00:06:00,400 --> 00:06:02,580
+but the location transform channels.
+
+125
+00:06:02,580 --> 00:06:04,330
+The camera offset controller
+
+126
+00:06:04,330 --> 00:06:07,570
+can be moved and rotated, but not scaled.
+
+127
+00:06:07,570 --> 00:06:10,880
+So I will get rid of the
+scaling transform channels.
+
+128
+00:06:10,880 --> 00:06:14,770
+I know that the aim controller
+can only be moved in space,
+
+129
+00:06:14,770 --> 00:06:17,090
+it can't be rotated nor scaled,
+
+130
+00:06:17,090 --> 00:06:21,240
+and the root controller
+can be moved and rotated,
+
+131
+00:06:21,240 --> 00:06:22,870
+but the scaling has no (indistinct)
+
+132
+00:06:22,870 --> 00:06:24,440
+so I can get rid of them.
+
+133
+00:06:24,440 --> 00:06:27,560
+You can basically key
+frame any of the properties
+
+134
+00:06:27,560 --> 00:06:29,930
+of the camera but in the end the only one
+
+135
+00:06:29,930 --> 00:06:32,300
+we are going to use is the focal length.
+
+136
+00:06:32,300 --> 00:06:36,140
+So I'm going to add another key
+frame onto the focal length.
+
+137
+00:06:36,140 --> 00:06:39,230
+From there I will switch
+my secondary 3D view
+
+138
+00:06:39,230 --> 00:06:41,560
+to the camera view by pressing zero.
+
+139
+00:06:41,560 --> 00:06:44,340
+From there I will use the
+main camera controller
+
+140
+00:06:44,340 --> 00:06:48,000
+to move the camera, and the aim controller
+
+141
+00:06:48,000 --> 00:06:51,120
+to target whatever I want to be framed.
+
+142
+00:06:51,120 --> 00:06:54,030
+I advise you to only use
+those two controllers,
+
+143
+00:06:54,030 --> 00:06:55,440
+that's way enough.
+
+144
+00:06:55,440 --> 00:06:57,220
+And the less controller you will use,
+
+145
+00:06:57,220 --> 00:06:59,500
+the smoother will be your camera motion.
+
+146
+00:06:59,500 --> 00:07:01,760
+But my next advice is to push
+
+147
+00:07:01,760 --> 00:07:05,030
+the passepartout opacity to 100%.
+
+148
+00:07:05,030 --> 00:07:07,120
+This way you won't see what's out of frame
+
+149
+00:07:07,120 --> 00:07:09,330
+and it won't distract you.
+
+150
+00:07:09,330 --> 00:07:11,280
+And what you will have on screen
+
+151
+00:07:11,280 --> 00:07:13,160
+will be what will be outputted
+
+152
+00:07:13,160 --> 00:07:16,120
+whenever you are going
+to render your animation.
+
+153
+00:07:16,120 --> 00:07:17,910
+From there, animate your camera
+
+154
+00:07:17,910 --> 00:07:21,360
+using the less key frame as possible.
+
+155
+00:07:21,360 --> 00:07:25,200
+First find the right
+position for the first frame
+
+156
+00:07:25,200 --> 00:07:27,340
+while the camera stays still,
+
+157
+00:07:27,340 --> 00:07:30,180
+then find the position of the camera
+
+158
+00:07:30,180 --> 00:07:34,210
+whenever it's facing the
+character for the hook motion.
+
+159
+00:07:34,210 --> 00:07:36,690
+From there reach the kicking pose
+
+160
+00:07:36,690 --> 00:07:39,529
+and set the camera and the aim target
+
+161
+00:07:39,529 --> 00:07:42,150
+so that you frame it as you have planned
+
+162
+00:07:42,150 --> 00:07:44,630
+And whenever you are moving the 3D view.
+
+163
+00:07:44,630 --> 00:07:46,790
+Then everything is about smoothing
+
+164
+00:07:46,790 --> 00:07:49,060
+the motion using the graph editor.
+
+165
+00:07:49,060 --> 00:07:52,660
+I must say that I'm not a
+specialist of camera framing
+
+166
+00:07:52,660 --> 00:07:55,000
+or camera shooting as a gameplay animator
+
+167
+00:07:55,890 --> 00:07:58,870
+so I will keep it as simple as possible.
+
+168
+00:07:58,870 --> 00:08:02,670
+But if you're up to, watch
+as much anime reference,
+
+169
+00:08:02,670 --> 00:08:06,880
+movie reference, whatever
+style of animation you like,
+
+170
+00:08:06,880 --> 00:08:10,070
+and try to understand how the camera move.
+
+171
+00:08:10,070 --> 00:08:11,660
+This is the best way to learn.
+
+172
+00:08:11,660 --> 00:08:13,750
+Just watch other animation
+
+173
+00:08:13,750 --> 00:08:16,770
+and try to mimic their camera style.
+
+174
+00:08:16,770 --> 00:08:20,340
+So as explained before, I'm
+just setting a key frame
+
+175
+00:08:20,340 --> 00:08:25,250
+on those two controllers
+on the golden poses.
+
+176
+00:08:25,250 --> 00:08:29,300
+I'm slightly traveling toward
+the bag until frame 25.
+
+177
+00:08:29,300 --> 00:08:33,060
+Then on frame 41, I'm lowering the camera,
+
+178
+00:08:33,060 --> 00:08:37,090
+I'm reducing the focal
+length to 30 millimeters,
+
+179
+00:08:37,090 --> 00:08:40,320
+and then I make sure that
+I'm facing the character.
+
+180
+00:08:40,320 --> 00:08:43,500
+Just focus on your current composition,
+
+181
+00:08:43,500 --> 00:08:47,300
+on the current pose, on the current frame.
+
+182
+00:08:47,300 --> 00:08:50,380
+Tweak the target and
+tweak the camera position
+
+183
+00:08:50,380 --> 00:08:53,810
+until you are happy with
+what you are framing
+
+184
+00:08:53,810 --> 00:08:56,440
+during the punch and
+during the anticipation,
+
+185
+00:08:56,440 --> 00:08:59,560
+and then go directly to the kicking pose.
+
+186
+00:08:59,560 --> 00:09:03,400
+In my case, it's going to
+be frame 74 and from there,
+
+187
+00:09:03,400 --> 00:09:05,820
+I don't care about the camera motion
+
+188
+00:09:05,820 --> 00:09:08,420
+or what it has been doing before.
+
+189
+00:09:08,420 --> 00:09:12,130
+I'm just focusing on framing the character
+
+190
+00:09:12,130 --> 00:09:15,870
+so that I check all the
+details I wanted to have.
+
+191
+00:09:15,870 --> 00:09:19,287
+I want to read the
+directionality of the kick.
+
+192
+00:09:19,287 --> 00:09:21,630
+But since my character is watching left,
+
+193
+00:09:21,630 --> 00:09:25,910
+I want to frame him on the
+right third of my camera.
+
+194
+00:09:25,910 --> 00:09:29,550
+And finally, I want to make
+sure that I read well his head
+
+195
+00:09:29,550 --> 00:09:34,160
+in the negative space
+drawn by his leg and arm.
+
+196
+00:09:34,160 --> 00:09:36,670
+From there I will jump on the frame
+
+197
+00:09:36,670 --> 00:09:39,090
+where the bag hit the ground,
+
+198
+00:09:39,090 --> 00:09:42,060
+and I will make sure that
+I'm framing everything.
+
+199
+00:09:42,060 --> 00:09:43,610
+From there, load the camera
+
+200
+00:09:43,610 --> 00:09:45,450
+in the beginning of your animation.
+
+201
+00:09:45,450 --> 00:09:48,260
+So duplicate the keys on frame zero
+
+202
+00:09:48,260 --> 00:09:51,080
+until frame five or seven.
+
+203
+00:09:51,080 --> 00:09:53,810
+What we don't want is
+the camera to stop moving
+
+204
+00:09:53,810 --> 00:09:56,510
+as the character hasn't stopped moving.
+
+205
+00:09:56,510 --> 00:09:58,970
+Once you are done make
+sure that you are easing
+
+206
+00:09:58,970 --> 00:10:01,360
+into the different camera position.
+
+207
+00:10:01,360 --> 00:10:05,390
+Think of the camera as a very heavy object
+
+208
+00:10:05,390 --> 00:10:07,360
+so you can move it fast,
+
+209
+00:10:07,360 --> 00:10:11,430
+but it won't settle into
+the next pose very quickly.
+
+210
+00:10:11,430 --> 00:10:15,360
+As an example, let's take
+the X location channel
+
+211
+00:10:15,360 --> 00:10:17,120
+off the camera controller.
+
+212
+00:10:17,120 --> 00:10:22,120
+There is a very fast motion
+between frame 25 and frame 38,
+
+213
+00:10:23,240 --> 00:10:28,240
+but the camera reaches its
+final position only on frame 48.
+
+214
+00:10:28,650 --> 00:10:31,730
+So it's easing until frame 48.
+
+215
+00:10:31,730 --> 00:10:34,197
+So basically your graph
+editor will look like that.
+
+216
+00:10:34,197 --> 00:10:36,050
+You will have a pose,
+
+217
+00:10:36,050 --> 00:10:38,680
+then you will have a next extreme pose.
+
+218
+00:10:38,680 --> 00:10:40,700
+So it could be the motion between
+
+219
+00:10:40,700 --> 00:10:42,690
+the straight punch and the hook.
+
+220
+00:10:42,690 --> 00:10:45,430
+And what I do to make
+the camera ease is that
+
+221
+00:10:45,430 --> 00:10:48,340
+I will duplicate the extreme movement
+
+222
+00:10:48,340 --> 00:10:50,740
+by 10 frame for example,
+
+223
+00:10:50,740 --> 00:10:53,840
+and then I will move
+the value of the curve
+
+224
+00:10:53,840 --> 00:10:56,610
+where the camera was supposed to stop
+
+225
+00:10:56,610 --> 00:10:59,320
+towards the previous frame a little bit.
+
+226
+00:10:59,320 --> 00:11:01,990
+This way the camera
+will continue on moving,
+
+227
+00:11:01,990 --> 00:11:06,490
+but it will slow down until
+it reaches its final position.
+
+228
+00:11:06,490 --> 00:11:09,280
+This is pretty easy to use
+illustrate with this cube.
+
+229
+00:11:09,280 --> 00:11:11,550
+When it does only two keys,
+
+230
+00:11:11,550 --> 00:11:15,090
+it slows until its final
+pose pretty rapidly.
+
+231
+00:11:15,090 --> 00:11:19,150
+But if we modify its curve
+as we did previously,
+
+232
+00:11:19,150 --> 00:11:22,270
+we do feel like the cube is slowing down
+
+233
+00:11:22,270 --> 00:11:26,320
+as if it was heavier so
+it looks way more natural.
+
+234
+00:11:26,320 --> 00:11:28,900
+So now that you have your extreme poses
+
+235
+00:11:28,900 --> 00:11:31,140
+for your camera controller,
+
+236
+00:11:31,140 --> 00:11:34,210
+you should do this on each channels.
+
+237
+00:11:34,210 --> 00:11:36,650
+The thing is that once you have created
+
+238
+00:11:36,650 --> 00:11:39,280
+this easing on all your channel,
+
+239
+00:11:39,280 --> 00:11:42,660
+you can perfectly switch
+back to the action editor
+
+240
+00:11:42,660 --> 00:11:45,140
+and offset the keys if you're not happy
+
+241
+00:11:45,140 --> 00:11:47,270
+with the timing of your motion.
+
+242
+00:11:47,270 --> 00:11:50,950
+But at least you have
+created this natural feeling.
+
+243
+00:11:50,950 --> 00:11:54,660
+But now to add some extra
+detail to your camera.
+
+244
+00:11:54,660 --> 00:11:58,500
+Spot the frame where your
+character is hitting the bag,
+
+245
+00:11:58,500 --> 00:12:01,730
+then select the aim
+controller of the camera
+
+246
+00:12:01,730 --> 00:12:04,150
+and select the Z location curve.
+
+247
+00:12:04,150 --> 00:12:07,500
+What we'll do is that on
+each impact on the bag,
+
+248
+00:12:07,500 --> 00:12:10,230
+we will add a slight noise modifier
+
+249
+00:12:10,230 --> 00:12:11,940
+to create a camera shape.
+
+250
+00:12:11,940 --> 00:12:14,560
+To get access to the modifier stack,
+
+251
+00:12:14,560 --> 00:12:17,910
+make sure you have at
+least one key active,
+
+252
+00:12:17,910 --> 00:12:19,510
+one key you have clicked.
+
+253
+00:12:19,510 --> 00:12:22,270
+From there in the modifiers panel,
+
+254
+00:12:22,270 --> 00:12:25,130
+click add modifier and choose noise.
+
+255
+00:12:25,130 --> 00:12:27,820
+Your whole curve will become a mess.
+
+256
+00:12:27,820 --> 00:12:30,850
+So we need to restrict the frame range
+
+257
+00:12:30,850 --> 00:12:35,570
+of the noise modifier by
+clicking the checkbox.
+
+258
+00:12:35,570 --> 00:12:38,760
+From there start your
+noise on that impact frame,
+
+259
+00:12:38,760 --> 00:12:43,140
+the frame 43, and end it
+five or six frame later.
+
+260
+00:12:43,140 --> 00:12:45,070
+And then make sure that you blend
+
+261
+00:12:45,070 --> 00:12:48,180
+out of the noise over
+five frame for example.
+
+262
+00:12:48,180 --> 00:12:49,870
+From there, make sure you reduce
+
+263
+00:12:49,870 --> 00:12:52,000
+the strength of the noise modifier
+
+264
+00:12:52,000 --> 00:12:53,820
+or the camera will shake as if
+
+265
+00:12:53,820 --> 00:12:56,100
+a T Rex was entering the stage.
+
+266
+00:12:56,100 --> 00:12:58,780
+The value of 0.1 should be enough.
+
+267
+00:12:58,780 --> 00:13:02,530
+And this is exactly the same
+setup I've created off camera.
+
+268
+00:13:02,530 --> 00:13:05,380
+Then you can copy the current modifier
+
+269
+00:13:05,380 --> 00:13:06,950
+by clicking this icon.
+
+270
+00:13:06,950 --> 00:13:09,430
+Then you can paste it a couple of time,
+
+271
+00:13:09,430 --> 00:13:11,817
+clicking the icon next to it.
+
+272
+00:13:11,817 --> 00:13:14,320
+Put the next impact on the bag
+
+273
+00:13:14,320 --> 00:13:18,020
+and then set the second
+noise modifier accordingly.
+
+274
+00:13:18,020 --> 00:13:21,090
+In this case, the kick occur on frame 74
+
+275
+00:13:21,090 --> 00:13:23,630
+and the noise stop on frame 80.
+
+276
+00:13:23,630 --> 00:13:27,060
+And I have increased the strength to 0.2
+
+277
+00:13:27,060 --> 00:13:30,040
+since the kick is a more powerful strike.
+
+278
+00:13:30,040 --> 00:13:32,390
+So it makes the camera
+shake a little more.
+
+279
+00:13:32,390 --> 00:13:35,170
+And then for the third noise modifier,
+
+280
+00:13:35,170 --> 00:13:38,250
+I've set the range around the frame 95,
+
+281
+00:13:38,250 --> 00:13:39,893
+when it hits the ground.
+

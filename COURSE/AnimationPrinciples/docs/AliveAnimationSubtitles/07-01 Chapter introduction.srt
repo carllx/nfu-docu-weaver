@@ -1,0 +1,79 @@
+﻿1
+00:00:00,120 --> 00:00:01,950
+- Welcome to Chapter Seven,
+
+2
+00:00:01,950 --> 00:00:05,190
+where we are going to learn
+how to create good poses
+
+3
+00:00:05,190 --> 00:00:06,730
+for our character.
+
+4
+00:00:06,730 --> 00:00:09,860
+I will try to teach you
+all the fundamental rules
+
+5
+00:00:09,860 --> 00:00:12,410
+to build poses from a reference.
+
+6
+00:00:12,410 --> 00:00:15,720
+We will talk about the
+most common mistakes we do
+
+7
+00:00:15,720 --> 00:00:17,880
+whenever we're posing a character
+
+8
+00:00:17,880 --> 00:00:19,730
+and how to avoid them.
+
+9
+00:00:19,730 --> 00:00:24,160
+I will also try to explain you
+how to study your references.
+
+10
+00:00:24,160 --> 00:00:27,610
+What do you have to
+look for in first place?
+
+11
+00:00:27,610 --> 00:00:30,090
+And we will talk about the little details
+
+12
+00:00:30,090 --> 00:00:32,950
+that can improve your pose and some tips
+
+13
+00:00:32,950 --> 00:00:35,050
+to help you pose faster.
+
+14
+00:00:35,050 --> 00:00:37,930
+Once we are comfortable with basic posing,
+
+15
+00:00:37,930 --> 00:00:41,160
+we will see how we can improve our pose
+
+16
+00:00:41,160 --> 00:00:44,830
+by pushing them so that
+they better communicate
+
+17
+00:00:44,830 --> 00:00:48,290
+the will of our character
+and its personality.
+
+18
+00:00:48,290 --> 00:00:50,893
+So open Blender and let's get started.
+

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Please extract the 5 W's (who, what, when, where, why) and how I feel from the following text:\n{clipboard}\n\nTo summarize:\nWho are the main people, characters, or groups mentioned in the text?\nWhat are the key events, actions, or activities described in the text?\nWhen is the timing of the events described, including dates, days of the week, and times of day?\nWhere are the locations or settings of the events described in the text?\nWhy do the events happen? What motivations or reasons are given for the actions and events?\nHow do I feel about the events and people described based on the tone and language used in the text? What emotions does the text evoke in me as the reader?\nPlease provide a clear and concise summary identifying the 5 W's (who, what, when, where, why) and how I feel based on the information provided in the text above. Focus on extracting the most relevant details for each element.",
+    "uid" : "E22A49E8-A1D5-4B57-9DB4-455827A0DC7F",
+    "name" : "Extract the 5 W's",
+    "keyword" : "ewwwww"
+  }
+}

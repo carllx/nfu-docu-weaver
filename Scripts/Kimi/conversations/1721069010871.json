@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cqamrl9hd0negjubbumg",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "virtual reality",
+                "#kimi",
+                "augmented reality",
+                "mixed reality",
+                "anatomy education",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：# 尝试列出作者在不同数据库中收集文献时所使用的搜索关键词(用英语表示)\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "根据您提供的文件内容，以下是作者在进行文献搜集时可能使用的搜索关键词：\n\n```markdown\n- Virtual reality\n- Augmented reality\n- Mixed reality\n- Health sciences education\n- Anatomy education\n- Physiology education\n- Medical education\n- Technology-enhanced education\n```\n\n这些关键词涵盖了研究的主要领域，包括虚拟现实、增强现实、混合现实技术在健康科学教育、解剖学教育、生理学教育以及医学教育中的应用，以及技术增强教育的整体概念。这些词汇有助于作者在PubMed、Embase、ERIC等数据库中检索相关文献。在回答时，我引用了Moro等人在2021年发表的论文《Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis》。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqamrlb3vddog9cams10",
+    "req_id": "cqamrlb3vddog9cams1g",
+    "resp_id": "cqamrlb3vddog9cams20",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：# 尝试列出作者在不同数据库中收集文献时所使用的搜索关键词(用英语表示)"
+}

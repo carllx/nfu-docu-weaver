@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cqq7bf1ivtd7sifg6qs0",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "Adobe audition CC 经典教程（第2版）",
+            "fileID": "cqo3a9m9e5jhdcrea0mg",
+            "itemID": 3597,
+            "citation": "马克西姆·亚戈, Maxim, & Jago. (2020). Adobe audition CC 经典教程（第2版）. 人民邮电出版社. https://product.dangdang.com/28524032.html\n",
+            "citationShort": "马克西姆·亚戈 et al., 2020",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：为课程 [Audition 快速入门] 生成详细课程内容, 要求\n\n**主要知识点：**\n\n1. Audition 2020软件界面认识\n2. 音乐制作基础知识\n3. 项目文件的基本操作\n\n**教学要求：** 通过本章的学习，学生应能够：\n\n1. 熟悉Audition 2020的工作界面布局。\n2. 掌握音乐制作的基本概念和术语。\n3. 进行项目文件的新建、保存和导出。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe audition CC 经典教程（第2版）, was published on 2020. (It can be cite this paper as 马克西姆·亚戈 et al., 2020 on your answer). \n\n",
+    "response": "# Audition 快速入门课程内容\n\n## 主要知识点：\n\n### 1. Audition 2020软件界面认识\n- 界面布局：学生应了解Audition 2020的界面布局，包括菜单栏、工具栏、编辑器窗口、效果架等。\n- 工作区：熟悉如何根据个人需求调整工作区布局，以适应不同的音频编辑任务。\n\n### 2. 音乐制作基础知识\n- 音频概念：理解音频的基本参数，如采样率、位深度以及它们对音质的影响。\n- 音乐术语：掌握音乐制作中的常用术语，例如节拍、音调、和声等。\n\n### 3. 项目文件的基本操作\n- 新建项目：学会如何创建一个新的Audition项目，设置项目的基本参数。\n- 保存项目：了解如何保存工作进度，包括保存工作区布局和项目文件。\n- 导出音频：掌握将编辑完成的音频导出为不同格式的方法，以满足不同用途的需求。\n\n## 教学要求：\n\n### 1. 熟悉Audition 2020的工作界面布局\n- 学生应能够自主导航Audition 2020的界面，识别并使用各个功能模块。\n\n### 2. 掌握音乐制作的基本概念和术语\n- 学生应能够理解并运用音乐制作中的基础知识，为进一步的音频编辑和音乐创作打下坚实的基础。\n\n### 3. 进行项目文件的新建、保存和导出\n- 学生应能够独立完成项目的创建、保存和分享，确保工作成果的完整性和可用性。\n\n---\n\n以上课程内容基于《Adobe Audition CC 经典教程（第2版）》（马克西姆·亚戈 et al., 2020）的相关章节和知识点制定。通过本课程的学习，学生将能够快速入门Audition 2020软件，为进一步深入学习音频编辑和音乐制作打下良好的基础。",
+    "refs": [
+        "cqo3a9m9e5jhdcrea0mg"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqq7bf2esepomhkhbimg",
+    "req_id": "cqq7bf2esepomhkhbin0",
+    "resp_id": "cqq7bf2esepomhkhbing",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：为课程 [Audition 快速入门] 生成详细课程内容, 要求\n\n**主要知识点：**\n\n1. Audition 2020软件界面认识\n2. 音乐制作基础知识\n3. 项目文件的基本操作\n\n**教学要求：** 通过本章的学习，学生应能够：\n\n1. 熟悉Audition 2020的工作界面布局。\n2. 掌握音乐制作的基本概念和术语。\n3. 进行项目文件的新建、保存和导出。"
+}

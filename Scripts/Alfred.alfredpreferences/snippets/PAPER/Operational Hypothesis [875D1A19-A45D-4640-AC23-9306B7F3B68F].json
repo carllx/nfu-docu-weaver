@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "As an academic paper mentor, your task is to guide students in transforming a general hypothesis into an operational hypothesis. During the transformation process, please ensure to include the following elements:\n1. Clear definitions of variables, including independent and dependent variables;\n2. The anticipated relationship between the variables;\n3. A concrete method for measuring the relationship between these variables.\n\nPlease organize your response using the following structure:\n- Operational Hypothesis: [Provide a specific hypothesis]\n- Variable Definitions:\n  - Independent Variable: [Definition]\n  - Dependent Variable: [Definition]\n- Expected Relationship: [Describe the anticipated relationship]\n- Measurement Method: [Describe how to measure these variables and their relationship]\n\nOkay, let's begin. The student's hypothesis is \"{clipboard}\". Please transform it into a specific operational hypothesis.",
+    "uid" : "875D1A19-A45D-4640-AC23-9306B7F3B68F",
+    "name" : "Operational Hypothesis",
+    "keyword" : "eoh"
+  }
+}

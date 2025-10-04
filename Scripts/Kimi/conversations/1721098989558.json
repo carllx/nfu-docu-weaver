@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cqau5rsudu62st6hqs6g",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "#kimi",
+                "anatomy education",
+                "augmented reality",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "mixed reality",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education",
+                "virtual reality"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者们在文献搜索中发现了**919条记录**,这写记录反应了作者的什么预期目标? 作者按照什么如何审查出 **52篇论文**被纳入了审查? 最终有**8项研究**符合全部资格要求, 列出这8篇文献以及符合资格的条件。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "根据您提供的文献《Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis》（以下简称Moro et al., 2021），以下是对您问题的回答：\n\n### 预期目标\n作者们在文献搜索中发现了**919条记录**，这反映了他们旨在全面审视虚拟现实或增强现实技术对医学和科学学生在临床前生理学和解剖学知识获取方面的影响。这一广泛的搜索结果表明作者们希望建立一个广泛的文献基础，确保他们的系统评价和元分析能够覆盖所有相关和可用的研究。\n\n### 审查过程\n作者们首先通过标题和摘要对这些记录进行了筛选，然后对**52篇论文**进行了全文审查。这一过程是基于预先设定的纳入和排除标准，以确保选取的研究与研究问题高度相关，并且符合特定的质量标准。\n\n### 符合资格的研究\n最终，有**8项研究**符合全部资格要求。这些研究及其符合资格的条件如下：\n\n1. **Albrecht et al. (2013)**: 研究设计为随机对照试验，使用移动增强现实技术与传统教学方法进行比较，共有10名参与者，通过10个问题的多项选择前后测试来衡量知识得分。\n\n2. **Barmaki et al. (2019)**: 采用群集随机对照试验，使用镜像增强现实技术与传统教科书和虚拟镜像进行比较，共有288名参与者，通过8个问题的匹配标签前后测试来衡量知识得分。\n\n3. **Ekstrand et al. (2018)**: 随机对照试验，使用虚拟现实技术与基于纸张的教材进行比较，共有64名参与者，通过22个问题的多项选择前后测试来衡量知识得分。\n\n4. **Küçük et al. (2016)**: 随机对照试验，使用移动增强现实技术与传统的2D图像、图表、文本展示材料进行比较，共有70名参与者，通过30个问题的多项选择测试来衡量知识得分。\n\n5. **Maresky et al. (2019)**: 随机对照试验，使用虚拟现实技术与独立学习材料进行比较，共有42名参与者，通过10个问题的多项选择前后测试来衡量知识得分。\n\n6. **Moro et al. (2017)**: 三臂随机对照试验，比较了虚拟现实、增强现实和平板电脑教学方法，共有59名参与者，通过20个问题的多项选择后测试来衡量知识得分。\n\n7. **Noll et al. (2017)**: 随机对照试验，使用移动增强现实技术与手机应用进行比较，共有44名参与者，通过10个问题的多项选择前后测试来衡量知识得分。\n\n8. **Stepan et al. (2017)**: 随机对照试验，使用虚拟现实技术与基于网络的教科书进行比较，共有66名参与者，通过10个问题的多项选择和填空测试以及30个问题的多项选择、填空和模型标记后测试来衡量知识得分。\n\n符合资格的条件包括：\n- 研究必须是随机对照试验。\n- 参与者必须是目前就读于大学的健康科学或医学专业的学生。\n- 研究必须比较使用虚拟现实头戴式显示器或增强现实作为教学工具与传统教学方法的效果。\n- 研究必须评估学习效果，如通过考试或测验分数来衡量。\n- 研究必须基于临床前生理学和解剖学的学习。\n\n请注意，上述信息是根据您提供的文件内容进行的总结，具体的研究细节和资格条件需要参考原始文献以获得完整理解。在引用时，请按照APA格式引用为Moro et al., 2021。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqau5rubi7sdpugkqbt0",
+    "req_id": "cqau5rubi7sdpugkqbu0",
+    "resp_id": "cqau5rubi7sdpugkqbug",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者们在文献搜索中发现了**919条记录**,这写记录反应了作者的什么预期目标? 作者按照什么如何审查出 **52篇论文**被纳入了审查? 最终有**8项研究**符合全部资格要求, 列出这8篇文献以及符合资格的条件。"
+}

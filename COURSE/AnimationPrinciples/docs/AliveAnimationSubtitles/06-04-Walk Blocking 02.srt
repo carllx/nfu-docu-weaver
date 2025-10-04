@@ -1,0 +1,1319 @@
+﻿1
+00:00:00,600 --> 00:00:03,700
+- [Instructor] Let's go ahead
+with our walk cycle blocking.
+
+2
+00:00:03,700 --> 00:00:04,700
+Before we go ahead,
+
+3
+00:00:04,700 --> 00:00:06,840
+we need to check our frame rate.
+
+4
+00:00:06,840 --> 00:00:10,650
+Since I'm using the same
+file as the run cycle,
+
+5
+00:00:10,650 --> 00:00:14,400
+my frame rate is still
+30 frame per seconds.
+
+6
+00:00:14,400 --> 00:00:16,530
+As explained in the previous video,
+
+7
+00:00:16,530 --> 00:00:18,650
+it's pretty common for feature film
+
+8
+00:00:18,650 --> 00:00:22,040
+to use a 24 frame per second frame rate.
+
+9
+00:00:22,040 --> 00:00:25,500
+And since I'm used to
+animate for video game,
+
+10
+00:00:25,500 --> 00:00:28,480
+I tend to use 30 frame per seconds.
+
+11
+00:00:28,480 --> 00:00:30,940
+I will stick to 30 frame per second,
+
+12
+00:00:30,940 --> 00:00:32,530
+but it doesn't really matter
+
+13
+00:00:32,530 --> 00:00:35,710
+if you want to switch
+to 24 frame per seconds.
+
+14
+00:00:35,710 --> 00:00:39,600
+A walk cycle can be on 18, 24, 26, 30,
+
+15
+00:00:39,600 --> 00:00:41,860
+whatever number of frame you want,
+
+16
+00:00:41,860 --> 00:00:45,090
+depending on the style of
+walk cycle you are doing.
+
+17
+00:00:45,090 --> 00:00:47,030
+For vanilla walk cycle,
+
+18
+00:00:47,030 --> 00:00:52,030
+we generally use 24 frames,
+based at 24 frame per second.
+
+19
+00:00:52,623 --> 00:00:55,400
+Basically, a cycle of one second.
+
+20
+00:00:55,400 --> 00:00:58,970
+So I will stick to those
+24 frame for a cycle,
+
+21
+00:00:58,970 --> 00:01:02,730
+but I will keep my 30 frame
+per second frame rate.
+
+22
+00:01:02,730 --> 00:01:06,490
+So it will be a little
+less than one second cycle.
+
+23
+00:01:06,490 --> 00:01:09,820
+And if I feel like I
+need to change the length
+
+24
+00:01:09,820 --> 00:01:12,240
+of the walk cycle to have a good feedback,
+
+25
+00:01:12,240 --> 00:01:13,530
+I will do it later on.
+
+26
+00:01:13,530 --> 00:01:16,390
+So don't get stuck with numbers.
+
+27
+00:01:16,390 --> 00:01:18,950
+You can change the number of frame at reel
+
+28
+00:01:18,950 --> 00:01:21,470
+depending on the visual feedback.
+
+29
+00:01:21,470 --> 00:01:23,530
+So to mark the end of the cycle,
+
+30
+00:01:23,530 --> 00:01:26,330
+I will duplicate all
+the keys from frame zero
+
+31
+00:01:26,330 --> 00:01:28,760
+and move them on frame 24.
+
+32
+00:01:28,760 --> 00:01:30,583
+I will place the playhead on frame 23,
+
+33
+00:01:31,718 --> 00:01:33,350
+and I will press Control + End,
+
+34
+00:01:33,350 --> 00:01:37,800
+so that our animation plays
+from frame zero to frame 23.
+
+35
+00:01:37,800 --> 00:01:39,510
+So the first thing I will do
+
+36
+00:01:39,510 --> 00:01:42,320
+is re-enable all my controllers,
+
+37
+00:01:42,320 --> 00:01:45,500
+I will select them all and
+I will press Control + C
+
+38
+00:01:45,500 --> 00:01:47,120
+to copy the current pose,
+
+39
+00:01:47,120 --> 00:01:50,560
+go to frame 12 and press
+Control + Shift + V
+
+40
+00:01:50,560 --> 00:01:52,380
+to mirror the pose.
+
+41
+00:01:52,380 --> 00:01:54,490
+Since our character is symmetrical,
+
+42
+00:01:54,490 --> 00:01:59,320
+we can mirror it halfway
+through the cycle on frame 12,
+
+43
+00:01:59,320 --> 00:02:01,610
+and since we are at the blocking stage,
+
+44
+00:02:01,610 --> 00:02:04,220
+I will select all my keys, press T,
+
+45
+00:02:04,220 --> 00:02:05,700
+and switch to constant
+
+46
+00:02:05,700 --> 00:02:09,210
+so that I don't have any
+interpolation on my controllers.
+
+47
+00:02:09,210 --> 00:02:13,120
+The next pose we are going
+to build is the down pose.
+
+48
+00:02:13,120 --> 00:02:14,420
+Looking at the reference,
+
+49
+00:02:14,420 --> 00:02:19,240
+it's the moment where the torso
+root is at its lowest point.
+
+50
+00:02:19,240 --> 00:02:22,240
+The front foot has already
+starting moving backward,
+
+51
+00:02:22,240 --> 00:02:26,070
+but it's not centered beneath
+the center of gravity.
+
+52
+00:02:26,070 --> 00:02:30,090
+The back foot just left
+or is leaving the ground.
+
+53
+00:02:30,090 --> 00:02:32,890
+This depends on your work cycle style
+
+54
+00:02:32,890 --> 00:02:34,720
+or the reference you are using.
+
+55
+00:02:34,720 --> 00:02:37,030
+The front arm start swinging backward
+
+56
+00:02:37,030 --> 00:02:40,770
+while the back arm is
+starting swinging forward.
+
+57
+00:02:40,770 --> 00:02:43,800
+The hips are pushed by
+the contacting legs,
+
+58
+00:02:43,800 --> 00:02:46,720
+while the shoulder are
+tilting the opposite way.
+
+59
+00:02:46,720 --> 00:02:48,800
+Let's start posing our character.
+
+60
+00:02:48,800 --> 00:02:50,510
+I will move to frame three
+
+61
+00:02:50,510 --> 00:02:53,360
+and insert a keyframe on all controllers.
+
+62
+00:02:53,360 --> 00:02:55,340
+We will basically build the key pose
+
+63
+00:02:55,340 --> 00:02:56,790
+every three frames.
+
+64
+00:02:56,790 --> 00:02:59,820
+As for the first pose, I
+will start with the feet,
+
+65
+00:02:59,820 --> 00:03:03,030
+so I will cancel the rotation on the toes
+
+66
+00:03:03,030 --> 00:03:05,590
+and the heel controller on the front foot,
+
+67
+00:03:05,590 --> 00:03:07,720
+and I will move it backward.
+
+68
+00:03:07,720 --> 00:03:09,570
+Since it's contacting the ground,
+
+69
+00:03:09,570 --> 00:03:12,690
+I'm moving it straight on the y-axis.
+
+70
+00:03:12,690 --> 00:03:14,960
+I will lower the center of gravity
+
+71
+00:03:14,960 --> 00:03:17,090
+using the torso controller
+
+72
+00:03:17,090 --> 00:03:20,000
+and as I'm putting
+weight onto the left leg,
+
+73
+00:03:20,000 --> 00:03:23,900
+I will shift the center of
+gravity toward the left leg.
+
+74
+00:03:23,900 --> 00:03:27,040
+I will push the back leg
+further away backward,
+
+75
+00:03:27,040 --> 00:03:29,590
+and I will rotate the heel controller.
+
+76
+00:03:29,590 --> 00:03:32,530
+This way, the heel will
+reach its highest point
+
+77
+00:03:32,530 --> 00:03:34,760
+before the foot leave the ground,
+
+78
+00:03:34,760 --> 00:03:36,910
+keeping the leg slightly bent.
+
+79
+00:03:36,910 --> 00:03:41,610
+Finally, I will slightly push
+the center of gravity forward.
+
+80
+00:03:41,610 --> 00:03:46,200
+I will tilt and rotate the
+hips toward the supporting leg
+
+81
+00:03:46,200 --> 00:03:48,960
+and I will also slightly twisted them.
+
+82
+00:03:48,960 --> 00:03:52,810
+We can now build our contact
+pose with the chest controller
+
+83
+00:03:52,810 --> 00:03:57,090
+by making it leaning a bit
+toward the supporting foot.
+
+84
+00:03:57,090 --> 00:04:00,150
+I will also slightly twist the chest
+
+85
+00:04:00,150 --> 00:04:02,850
+to follow the arm motion.
+
+86
+00:04:02,850 --> 00:04:05,720
+I will slightly rotate
+the shoulder backward
+
+87
+00:04:05,720 --> 00:04:08,360
+and then rotate the arm backward,
+
+88
+00:04:08,360 --> 00:04:11,370
+and I will slightly rotate the forearm
+
+89
+00:04:11,370 --> 00:04:15,400
+and hand forward to build
+a follow through motion
+
+90
+00:04:15,400 --> 00:04:17,080
+or dragging motion.
+
+91
+00:04:17,080 --> 00:04:19,530
+I will do the same on the other arm.
+
+92
+00:04:19,530 --> 00:04:22,760
+I will slightly move the shoulder forward,
+
+93
+00:04:22,760 --> 00:04:25,677
+and then I will rotate
+the arm forward a bit
+
+94
+00:04:25,677 --> 00:04:29,270
+and the forearm and hand backward,
+
+95
+00:04:29,270 --> 00:04:31,660
+so the arm is a bit extended.
+
+96
+00:04:31,660 --> 00:04:34,850
+My character pose feels
+a bit out of balance,
+
+97
+00:04:34,850 --> 00:04:38,560
+so I will tweak the position
+of the center of gravity
+
+98
+00:04:38,560 --> 00:04:41,490
+and I will also tweak the arm position
+
+99
+00:04:41,490 --> 00:04:43,790
+on the very first pose we built
+
+100
+00:04:43,790 --> 00:04:47,800
+because I felt that the arm
+was a bit too, on the outside.
+
+101
+00:04:47,800 --> 00:04:49,710
+Since I've refined the pose,
+
+102
+00:04:49,710 --> 00:04:52,200
+I need to re-mirror it on frame 12
+
+103
+00:04:52,200 --> 00:04:55,120
+and reduplicate it on frame 24
+
+104
+00:04:55,120 --> 00:04:58,070
+or at least paste the new pose.
+
+105
+00:04:58,070 --> 00:05:00,790
+From there, I will jump
+between frames zero
+
+106
+00:05:00,790 --> 00:05:04,133
+and frame three using
+the up and down arrow,
+
+107
+00:05:04,133 --> 00:05:07,630
+and see, or merge, the center
+of gravity of the character
+
+108
+00:05:07,630 --> 00:05:08,463
+is moving.
+
+109
+00:05:08,463 --> 00:05:11,380
+It will reach its
+extreme side to side pose
+
+110
+00:05:11,380 --> 00:05:12,920
+onto the next one.
+
+111
+00:05:12,920 --> 00:05:15,860
+So I need to find a good in between here.
+
+112
+00:05:15,860 --> 00:05:17,750
+The second thing I've been watching
+
+113
+00:05:17,750 --> 00:05:20,390
+was the position of the front hand.
+
+114
+00:05:20,390 --> 00:05:23,590
+In the front view, when I
+was comparing the poses,
+
+115
+00:05:23,590 --> 00:05:26,940
+it seems that the hand
+wasn't moving in space.
+
+116
+00:05:26,940 --> 00:05:30,330
+So I've slightly rotated
+the forearm backward.
+
+117
+00:05:30,330 --> 00:05:32,930
+And we can now work on the next pose.
+
+118
+00:05:32,930 --> 00:05:35,060
+Next pose is the passing pose.
+
+119
+00:05:35,060 --> 00:05:37,520
+It's the moment where the supporting foot
+
+120
+00:05:37,520 --> 00:05:40,531
+is right under the center of gravity.
+
+121
+00:05:40,531 --> 00:05:42,790
+The opposite leg is catching up,
+
+122
+00:05:42,790 --> 00:05:46,690
+both arm are almost
+aligned with the torso,
+
+123
+00:05:46,690 --> 00:05:49,290
+the hips are no longer twisted,
+
+124
+00:05:49,290 --> 00:05:52,900
+but this is the time where the
+leg pushed the most on them
+
+125
+00:05:52,900 --> 00:05:54,870
+and they are raising the most.
+
+126
+00:05:54,870 --> 00:05:58,040
+The chest is no longer twisting neither
+
+127
+00:05:58,040 --> 00:05:59,860
+and depending on your reference,
+
+128
+00:05:59,860 --> 00:06:02,310
+it might be almost horizontal
+
+129
+00:06:02,310 --> 00:06:07,110
+or slightly tilting toward
+the supporting leg too.
+
+130
+00:06:07,110 --> 00:06:09,340
+Building a soft contour posing.
+
+131
+00:06:09,340 --> 00:06:12,710
+Note that we will have to
+slightly move the person leg,
+
+132
+00:06:12,710 --> 00:06:16,370
+the one that not contacting
+the ground to the side.
+
+133
+00:06:16,370 --> 00:06:18,420
+Let's now work on our character
+
+134
+00:06:18,420 --> 00:06:21,300
+so I will jump onto frame six,
+
+135
+00:06:21,300 --> 00:06:24,970
+I will move the left foot
+backward, along the y-axis,
+
+136
+00:06:24,970 --> 00:06:28,640
+under the center of
+gravity of my character
+
+137
+00:06:28,640 --> 00:06:31,450
+and then on frame six
+in the action editor,
+
+138
+00:06:31,450 --> 00:06:33,810
+I will key all the controllers.
+
+139
+00:06:33,810 --> 00:06:36,130
+This is the time where
+the center of gravity
+
+140
+00:06:36,130 --> 00:06:41,130
+reach it's extreme on the
+side, toward the supporting leg
+
+141
+00:06:41,170 --> 00:06:43,370
+and also moment where the character
+
+142
+00:06:43,370 --> 00:06:46,500
+starts pushing on the
+supporting leg so we can raise
+
+143
+00:06:46,500 --> 00:06:47,860
+the center of gravity.
+
+144
+00:06:47,860 --> 00:06:52,180
+Now I will position the right
+leg just before the left leg
+
+145
+00:06:52,180 --> 00:06:53,570
+and raise it a bit.
+
+146
+00:06:53,570 --> 00:06:56,870
+We also need to rotate the heel upward
+
+147
+00:06:56,870 --> 00:06:59,730
+and as explained before,
+from the front view,
+
+148
+00:06:59,730 --> 00:07:02,240
+I will slightly move it to the left
+
+149
+00:07:02,240 --> 00:07:04,310
+and rotate it to the left.
+
+150
+00:07:04,310 --> 00:07:06,330
+One super important thing to mention
+
+151
+00:07:06,330 --> 00:07:09,080
+whenever you are building a walk cycle.
+
+152
+00:07:09,080 --> 00:07:13,320
+Humans and mammals, in general, are lazy.
+
+153
+00:07:13,320 --> 00:07:16,840
+So we are raising our
+foot as less as possible,
+
+154
+00:07:16,840 --> 00:07:19,150
+meaning, that during the passing pose
+
+155
+00:07:19,150 --> 00:07:22,130
+where the foot reach its highest point,
+
+156
+00:07:22,130 --> 00:07:23,890
+keep it close to the ground.
+
+157
+00:07:23,890 --> 00:07:27,173
+A beginner mistake is to
+raise the foot, way to high.
+
+158
+00:07:28,300 --> 00:07:30,680
+Now, jumping onto the hips controller,
+
+159
+00:07:30,680 --> 00:07:33,320
+this is the moment where
+the leg pushed the most
+
+160
+00:07:33,320 --> 00:07:36,690
+onto the hip, so we need
+to raise it to the side
+
+161
+00:07:36,690 --> 00:07:40,950
+and regarding the twisting,
+we can almost cancel it.
+
+162
+00:07:40,950 --> 00:07:42,860
+I will do the same with the chest.
+
+163
+00:07:42,860 --> 00:07:45,650
+I will almost cancel any twisting
+
+164
+00:07:45,650 --> 00:07:48,960
+and I will, very slightly, make it tilt
+
+165
+00:07:48,960 --> 00:07:50,870
+toward the pushing leg
+
+166
+00:07:50,870 --> 00:07:54,643
+so I'm canceling its rotation
+and slightly tilting it.
+
+167
+00:07:55,900 --> 00:07:58,780
+Regarding the arms, it's
+pretty straightforward.
+
+168
+00:07:58,780 --> 00:08:02,470
+You can slightly move the
+shoulder backward or forward
+
+169
+00:08:02,470 --> 00:08:05,320
+depending on the motion of the arm,
+
+170
+00:08:05,320 --> 00:08:08,290
+mainly move the arm controller
+
+171
+00:08:08,290 --> 00:08:11,360
+and slightly catch-up with the forearm,
+
+172
+00:08:11,360 --> 00:08:13,810
+and make the hand drag a bit.
+
+173
+00:08:13,810 --> 00:08:15,860
+You can use the reference provided to,
+
+174
+00:08:15,860 --> 00:08:18,090
+to refine your pose.
+
+175
+00:08:18,090 --> 00:08:20,300
+I'm not yet posing the fingers,
+
+176
+00:08:20,300 --> 00:08:22,110
+and as you have may noticed,
+
+177
+00:08:22,110 --> 00:08:25,670
+I haven't posed neither
+the neck or the head.
+
+178
+00:08:25,670 --> 00:08:28,750
+This is because we will work
+on this animation a bit,
+
+179
+00:08:28,750 --> 00:08:31,520
+as we did regarding the run cycle.
+
+180
+00:08:31,520 --> 00:08:33,120
+We are blocking the main pose,
+
+181
+00:08:33,120 --> 00:08:36,830
+trying to make them as
+accurate as possible,
+
+182
+00:08:36,830 --> 00:08:38,500
+and during the polishing stage,
+
+183
+00:08:38,500 --> 00:08:42,220
+we will bring a bit of up and
+down on the chest and the head
+
+184
+00:08:42,220 --> 00:08:45,400
+and a bit of rotation in
+the head and the fingers.
+
+185
+00:08:45,400 --> 00:08:48,120
+The raised foot need a little more work,
+
+186
+00:08:48,120 --> 00:08:50,530
+we need to raise the heel away more
+
+187
+00:08:50,530 --> 00:08:53,930
+and also, slightly rotate
+the toes toward the ground
+
+188
+00:08:53,930 --> 00:08:55,810
+as they are dragging.
+
+189
+00:08:55,810 --> 00:08:59,590
+After reviewing my poses
+and the references,
+
+190
+00:08:59,590 --> 00:09:03,480
+I've decided to rotate more
+the foots on the outside.
+
+191
+00:09:03,480 --> 00:09:05,890
+On some reference and
+depending on the character
+
+192
+00:09:05,890 --> 00:09:07,320
+you are animating,
+
+193
+00:09:07,320 --> 00:09:10,500
+the foots can be slightly
+rotated to the side
+
+194
+00:09:10,500 --> 00:09:12,380
+even when hitting the ground.
+
+195
+00:09:12,380 --> 00:09:15,270
+Rotating the foot on the
+outside or the inside
+
+196
+00:09:15,270 --> 00:09:18,000
+will define your character profile.
+
+197
+00:09:18,000 --> 00:09:22,100
+It could be extremely open
+for a cowboy, for example,
+
+198
+00:09:22,100 --> 00:09:26,420
+or tilting toward the inside
+for a shy kid or a shy girl,
+
+199
+00:09:26,420 --> 00:09:27,253
+for example.
+
+200
+00:09:27,253 --> 00:09:28,800
+For the sake of this course,
+
+201
+00:09:28,800 --> 00:09:30,380
+I will keep it straight.
+
+202
+00:09:30,380 --> 00:09:32,623
+And we can jump on the final pose.
+
+203
+00:09:33,460 --> 00:09:36,480
+Let's have a look to the
+latest pose we need to block.
+
+204
+00:09:36,480 --> 00:09:39,510
+It's the up pose or pushing pose.
+
+205
+00:09:39,510 --> 00:09:42,000
+The supporting leg is
+slightly on the back,
+
+206
+00:09:42,000 --> 00:09:44,660
+and it's heel starts to raise.
+
+207
+00:09:44,660 --> 00:09:47,220
+The other foot is slightly forward,
+
+208
+00:09:47,220 --> 00:09:49,620
+and it has starting rotating
+
+209
+00:09:49,620 --> 00:09:54,000
+so that the heel can get in
+contact in the next pose.
+
+210
+00:09:54,000 --> 00:09:56,700
+The arms are swinging
+the opposite direction
+
+211
+00:09:56,700 --> 00:09:58,810
+compared to the legs
+
+212
+00:09:58,810 --> 00:10:02,920
+and almost reach their extreme
+poses that they will reach
+
+213
+00:10:02,920 --> 00:10:04,420
+in the next pose.
+
+214
+00:10:04,420 --> 00:10:06,997
+The hands are moving the faster in space
+
+215
+00:10:06,997 --> 00:10:10,170
+between the passing and the pushing pose.
+
+216
+00:10:10,170 --> 00:10:13,770
+The hips are still pushed
+by the supporting leg,
+
+217
+00:10:13,770 --> 00:10:17,270
+but they have start shifting
+toward the other one.
+
+218
+00:10:17,270 --> 00:10:18,750
+They are as usual,
+
+219
+00:10:18,750 --> 00:10:22,180
+slightly twisting toward
+the different feet.
+
+220
+00:10:22,180 --> 00:10:24,860
+The chest is twisting in the opposite way
+
+221
+00:10:24,860 --> 00:10:27,960
+and is slightly raised
+toward the front arm.
+
+222
+00:10:27,960 --> 00:10:30,840
+As the leg push, the center of gravity
+
+223
+00:10:30,840 --> 00:10:33,730
+is moving toward the opposite foot.
+
+224
+00:10:33,730 --> 00:10:36,400
+Let's build this final
+pose and see how it look.
+
+225
+00:10:36,400 --> 00:10:39,270
+I will jump on from nine
+and insert a key frame
+
+226
+00:10:39,270 --> 00:10:41,010
+on all controller.
+
+227
+00:10:41,010 --> 00:10:44,040
+We can push the center of gravity up,
+
+228
+00:10:44,040 --> 00:10:48,520
+and start moving it on the
+opposite side of the pushing leg.
+
+229
+00:10:48,520 --> 00:10:52,420
+I will move the pushing leg
+backward along the y-axis
+
+230
+00:10:52,420 --> 00:10:56,900
+and then I will raise the heel
+using the heel controller.
+
+231
+00:10:56,900 --> 00:10:58,250
+I'm raising the heels
+
+232
+00:10:58,250 --> 00:11:00,740
+so that I have a subtle
+bending in the leg.
+
+233
+00:11:00,740 --> 00:11:04,490
+I will then select the other
+foot and move it forward.
+
+234
+00:11:04,490 --> 00:11:07,880
+I will then rotate it backward
+using the heel controller
+
+235
+00:11:07,880 --> 00:11:12,440
+and relax a bit, the toes, by
+rotating them a bit forward.
+
+236
+00:11:12,440 --> 00:11:16,200
+I will keep them slightly
+rotated toward the ground
+
+237
+00:11:16,200 --> 00:11:19,020
+so that we can feel that
+they are dragging the feet.
+
+238
+00:11:19,020 --> 00:11:21,850
+I will slightly rotate the foot controller
+
+239
+00:11:21,850 --> 00:11:24,440
+toward the outside and
+from the front view,
+
+240
+00:11:24,440 --> 00:11:27,710
+I will slightly push it on the inside
+
+241
+00:11:27,710 --> 00:11:30,190
+toward the contacting pose.
+
+242
+00:11:30,190 --> 00:11:32,170
+Since I rotated a bit the foot,
+
+243
+00:11:32,170 --> 00:11:35,301
+I need to align the knee
+by moving the pole targets
+
+244
+00:11:35,301 --> 00:11:37,110
+slightly to the outside.
+
+245
+00:11:37,110 --> 00:11:40,450
+I will slightly reduce
+the tilting of the hips
+
+246
+00:11:40,450 --> 00:11:42,880
+and then I will slightly twist them
+
+247
+00:11:42,880 --> 00:11:45,470
+so that they are align with the feet.
+
+248
+00:11:45,470 --> 00:11:47,640
+I will slightly tilt the chest
+
+249
+00:11:47,640 --> 00:11:51,750
+so that it's slightly
+upward toward the front arm,
+
+250
+00:11:51,750 --> 00:11:56,360
+the left one, and twist it
+toward the front arm too,
+
+251
+00:11:56,360 --> 00:11:59,240
+then I would rotate the front arm forward
+
+252
+00:11:59,240 --> 00:12:03,900
+and slightly twist it so
+that it almost match the pose
+
+253
+00:12:03,900 --> 00:12:05,270
+on frame 12.
+
+254
+00:12:05,270 --> 00:12:08,580
+This is why I'm comparing both poses.
+
+255
+00:12:08,580 --> 00:12:10,490
+As explained previously,
+
+256
+00:12:10,490 --> 00:12:15,340
+the arms almost reach their
+extreme pose during the pushing
+
+257
+00:12:15,340 --> 00:12:18,980
+and reach their extreme
+during the contact pose.
+
+258
+00:12:18,980 --> 00:12:23,160
+So the shoulder and elbow
+are easing into frame 12.
+
+259
+00:12:23,160 --> 00:12:25,300
+The forearm is catching up
+
+260
+00:12:25,300 --> 00:12:28,200
+and the hand is likely dragging backward.
+
+261
+00:12:28,200 --> 00:12:32,080
+As usual, you can use the
+image reference to guide you.
+
+262
+00:12:32,080 --> 00:12:34,850
+As seen during the run cycle chapter,
+
+263
+00:12:34,850 --> 00:12:36,640
+a good blocking is important,
+
+264
+00:12:36,640 --> 00:12:39,100
+but it doesn't mean that we won't be able
+
+265
+00:12:39,100 --> 00:12:43,090
+to modify the animation
+during the polishing stage.
+
+266
+00:12:43,090 --> 00:12:46,615
+It can be harder to spot the
+problem during the blocking,
+
+267
+00:12:46,615 --> 00:12:48,960
+and it's sometimes pop to the eye
+
+268
+00:12:48,960 --> 00:12:52,960
+whenever switching to spline
+or playing the whole animation.
+
+269
+00:12:52,960 --> 00:12:55,340
+So just make the best looking you can
+
+270
+00:12:55,340 --> 00:12:59,890
+and then copy each pose by
+selecting all the controller,
+
+271
+00:12:59,890 --> 00:13:02,290
+press Control + C to copy the pose,
+
+272
+00:13:02,290 --> 00:13:06,560
+jump 12 frame later and
+press Control + Shift + V
+
+273
+00:13:06,560 --> 00:13:09,710
+and repeat the process for each poses.
+
+274
+00:13:09,710 --> 00:13:11,160
+Once you are done with this,
+
+275
+00:13:11,160 --> 00:13:13,890
+you can finally play your animation
+
+276
+00:13:13,890 --> 00:13:17,100
+and see your walk cycle blocked.
+
+277
+00:13:17,100 --> 00:13:19,400
+I advise you to watch it for a moment,
+
+278
+00:13:19,400 --> 00:13:21,293
+rotate around the character
+
+279
+00:13:21,293 --> 00:13:26,293
+and also switch between
+autographic and perspective view.
+
+280
+00:13:26,720 --> 00:13:27,620
+In my case,
+
+281
+00:13:27,620 --> 00:13:30,060
+I feel like there's
+something a little off.
+
+282
+00:13:30,060 --> 00:13:33,460
+My character is pushed too much forward.
+
+283
+00:13:33,460 --> 00:13:37,370
+So instead of reworking
+each poses one by one,
+
+284
+00:13:37,370 --> 00:13:39,830
+I will select the torso controller
+
+285
+00:13:39,830 --> 00:13:42,410
+and I will switch to the graph editor
+
+286
+00:13:42,410 --> 00:13:45,210
+and isolate the y location curve.
+
+287
+00:13:45,210 --> 00:13:46,810
+Remember what we have seen
+
+288
+00:13:46,810 --> 00:13:50,670
+in the very last lesson
+of the run cycle chapter?
+
+289
+00:13:50,670 --> 00:13:54,210
+We can offset a whole curve
+from a transform channel
+
+290
+00:13:54,210 --> 00:13:56,240
+to modify the animation.
+
+291
+00:13:56,240 --> 00:13:59,710
+I've hidden all the curve, but the y curve
+
+292
+00:13:59,710 --> 00:14:03,350
+and I will press G and Y to constraint it
+
+293
+00:14:03,350 --> 00:14:05,900
+on the y-axis in the graph editor
+
+294
+00:14:05,900 --> 00:14:09,240
+and move it up so that it will push
+
+295
+00:14:09,240 --> 00:14:13,620
+the torso controller off my
+character slightly backward.
+
+296
+00:14:13,620 --> 00:14:16,530
+And now he looks way more balanced.
+
+297
+00:14:16,530 --> 00:14:17,710
+In the next video,
+
+298
+00:14:17,710 --> 00:14:20,260
+we will be able to jump into splining
+
+299
+00:14:20,260 --> 00:14:24,047
+and polishing the different
+features of our character.
+

@@ -1,0 +1,19 @@
+// (function name(params) {
+//     var res = Application('obsidian').windows[0]
+//     //.activeTab.execute({javascript: 1+1})
+//     debugger
+// }
+// name()
+// )()
+(function() { 
+    'use strict';
+    debugger;
+    // var kmApp = Application('Keyboard Maestro');
+    // Application('Obsidian')
+    var appFinder = Application("Finder");
+    var itemList = appFinder.selection();
+    debugger;
+    console.log(itemList)
+})();
+// var appFinder = Application("Finder");
+// console.log(appFinder)

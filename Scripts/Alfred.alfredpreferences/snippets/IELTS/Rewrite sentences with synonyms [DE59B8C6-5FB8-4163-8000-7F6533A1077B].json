@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Rewrite the following sentences using different words and synonyms.\nMy sentences:```\n{clipboard}\n```",
+    "uid" : "DE59B8C6-5FB8-4163-8000-7F6533A1077B",
+    "name" : "Rewrite sentences with synonyms",
+    "keyword" : "rwws"
+  }
+}

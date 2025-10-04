@@ -1,0 +1,242 @@
+---
+globs: *.py
+description: Python scripting standards for Alfred workflows
+---
+
+# Python Scripting Standards for Alfred Workflows
+
+## Script Structure
+```python
+#!/usr/bin/env python3
+"""
+Script description and purpose.
+Usage: Called from Alfred workflow or command line.
+"""
+
+import sys
+import os
+import json
+from pathlib import Path
+
+def main():
+    """Main function entry point."""
+    try:
+        # Main implementation
+        result = process_workflow()
+        print(result)
+        return 0
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
+
+def process_workflow():
+    """Process workflow logic."""
+    # Implementation here
+    pass
+
+if __name__ == "__main__":
+    sys.exit(main())
+```
+
+## Alfred Environment Integration
+```python
+import os
+
+# Access Alfred environment variables
+WORKFLOW_DIR = os.environ.get('alfred_workflow_directory', '.')
+WORKFLOW_CACHE = os.environ.get('alfred_workflow_cache', '')
+WORKFLOW_DATA = os.environ.get('alfred_workflow_data', '')
+DEBUG_MODE = os.environ.get('alfred_debug') == '1'
+
+def debug_log(message):
+    """Log debug information when Alfred debug mode is active."""
+    if DEBUG_MODE:
+        print(f"Debug: {message}", file=sys.stderr)
+```
+
+## File Handling
+```python
+from pathlib import Path
+
+def get_workflow_path(relative_path):
+    """Get absolute path relative to workflow directory."""
+    workflow_dir = Path(os.environ.get('alfred_workflow_directory', '.'))
+    return workflow_dir / relative_path
+
+def ensure_directory(path):
+    """Ensure directory exists, create if necessary."""
+    Path(path).mkdir(parents=True, exist_ok=True)
+```
+
+## Image Processing Standards
+```python
+import mimetypes
+from PIL import Image
+import io
+
+def detect_image_format(file_path):
+    """Detect image format from file."""
+    mime_type, _ = mimetypes.guess_type(file_path)
+    if mime_type and mime_type.startswith('image/'):
+        return mime_type.split('/')[-1].upper()
+    return None
+
+def process_clipboard_image():
+    """Process image from clipboard."""
+    # Implementation for clipboard image handling
+    pass
+
+def upload_image(image_path, service='imgur'):
+    """Upload image to specified service."""
+    try:
+        # Upload implementation
+        return upload_url
+    except Exception as e:
+        raise Exception(f"Upload failed: {e}")
+```
+
+## HTTP Requests
+```python
+import requests
+from urllib.parse import urlencode
+
+def make_api_request(url, data=None, headers=None, method='POST'):
+    """Make HTTP API request with error handling."""
+    try:
+        response = requests.request(
+            method=method,
+            url=url,
+            data=data,
+            headers=headers,
+            timeout=30
+        )
+        response.raise_for_status()
+        return response.json() if response.content else {}
+    except requests.RequestException as e:
+        raise Exception(f"API request failed: {e}")
+```
+
+## Configuration Management
+```python
+import json
+from pathlib import Path
+
+class ConfigManager:
+    """Manage workflow configuration."""
+    
+    def __init__(self, config_file='config.json'):
+        self.config_path = get_workflow_path(config_file)
+        self.config = self.load_config()
+    
+    def load_config(self):
+        """Load configuration from file."""
+        if self.config_path.exists():
+            with open(self.config_path, 'r') as f:
+                return json.load(f)
+        return {}
+    
+    def save_config(self):
+        """Save configuration to file."""
+        with open(self.config_path, 'w') as f:
+            json.dump(self.config, f, indent=2)
+    
+    def get(self, key, default=None):
+        """Get configuration value."""
+        return self.config.get(key, default)
+    
+    def set(self, key, value):
+        """Set configuration value."""
+        self.config[key] = value
+        self.save_config()
+```
+
+## Error Handling
+```python
+import sys
+import traceback
+
+def handle_error(error, context=""):
+    """Handle and log errors appropriately."""
+    error_msg = f"Error in {context}: {str(error)}"
+    
+    if DEBUG_MODE:
+        # Full traceback in debug mode
+        traceback.print_exc(file=sys.stderr)
+    else:
+        # Simple error message for users
+        print(error_msg, file=sys.stderr)
+    
+    return error_msg
+```
+
+## Alfred Script Filter Output
+```python
+import json
+
+def create_alfred_item(title, subtitle="", arg="", icon_path="", valid=True):
+    """Create Alfred script filter item."""
+    item = {
+        "title": title,
+        "subtitle": subtitle,
+        "arg": arg,
+        "valid": valid
+    }
+    
+    if icon_path:
+        item["icon"] = {"path": icon_path}
+    
+    return item
+
+def output_alfred_results(items):
+    """Output Alfred script filter results."""
+    result = {"items": items}
+    print(json.dumps(result))
+```
+
+## Markdown Processing
+```python
+import re
+
+def clean_markdown_text(text):
+    """Clean text for markdown output."""
+    # Remove or escape markdown special characters
+    text = re.sub(r'[[\](){}]', '', text)
+    return text.strip()
+
+def create_markdown_link(title, url, icon="", site_id=""):
+    """Create formatted markdown link."""
+    clean_title = clean_markdown_text(title)
+    if icon and site_id:
+        return f"[ {icon} {site_id} {clean_title}](@{url})"
+    else:
+        return f"[{clean_title}]({url})"
+```
+
+## Logging
+```python
+import logging
+from pathlib import Path
+
+def setup_logging():
+    """Setup logging for workflow."""
+    log_path = get_workflow_path('logs')
+    ensure_directory(log_path)
+    
+    logging.basicConfig(
+        level=logging.DEBUG if DEBUG_MODE else logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_path / 'workflow.log'),
+            logging.StreamHandler(sys.stderr) if DEBUG_MODE else logging.NullHandler()
+        ]
+    )
+    
+    return logging.getLogger(__name__)
+```
+
+## Dependencies Management
+- Use `requirements.txt` for Python dependencies
+- Pin versions for stability: `requests==2.28.1`
+- Include only necessary dependencies
+- Document installation process in README
+- Consider using virtual environments for development

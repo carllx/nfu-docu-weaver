@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqqdqts5r38pakuvsn0g",
+    "attachments": [
+        {
+            "date": 2018,
+            "title": "Adobe Audition CC Classroom in a Book 2nd Edition",
+            "fileID": "cqmef2dskq8h5si2vf3g",
+            "itemID": 3546,
+            "citation": "Jago, M., & Team, A. C. (2018). Adobe Audition CC Classroom in a Book 2nd Edition (2nd edition). Adobe Press.\n",
+            "citationShort": "⁨Jago⁩ and ⁨Team⁩, 2018",
+            "tags": [
+                "#kimi",
+                "# Audition"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：第1章 快速入门：了解Audition 2020的基本内容\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe Audition CC Classroom in a Book 2nd Edition, was published on 2018. (It can be cite this paper as ⁨Jago⁩ and ⁨Team⁩, 2018 on your answer). \n\n",
+    "response": "### 第1章 快速入门：了解Audition 2020的基本内容\n\n在《Adobe Audition CC Classroom in a Book (2nd Edition)》中，作者Maxim Jago及其团队详细介绍了Adobe Audition CC的基本使用方法和功能，旨在帮助用户快速入门并掌握这款专业的音频编辑软件。以下是根据书中内容提取的几种方法或证据，以回答关于Audition 2020基本内容的问题。\n\n1. **软件安装与配置**：\n   - 书中指出，用户在开始使用Audition之前需要确保计算机满足操作系统和硬件要求，并拥有Adobe Creative Cloud许可证来安装软件（⁨Jago⁩和⁨Team⁩, 2018）。\n\n2. **音频工作界面概览**：\n   - Audition提供了两种主要模式：波形编辑器（Waveform Editor）和多轨编辑器（Multitrack Editor），分别适用于单音频文件的编辑和多层音频合成（⁨Jago⁩和⁨Team⁩, 2018）。\n\n3. **音频输入输出**：\n   - 书中强调了正确配置Mac或Windows计算机的音频输入输出的重要性，并提供了详细的步骤来测试输入（⁨Jago⁩和⁨Team⁩, 2018）。\n\n4. **使用效果**：\n   - Audition提供了丰富的效果，如压缩、延迟、滤波等，用户可以通过“效果架”（Effects Rack）来应用和管理这些效果（⁨Jago⁩和⁨Team⁩, 2018）。\n\n5. **音频修复**：\n   - 书中介绍了如何使用Audition进行音频修复，包括减少背景噪音、消除噼啪声和爆音等（⁨Jago⁩和⁨Team⁩, 2018）。\n\n6. **多轨会话编辑**：\n   - 在多轨编辑器中，用户可以创建混音带、合并剪辑、编辑剪辑长度以及进行音频的循环和混音（⁨Jago⁩和⁨Team⁩, 2018）。\n\n7. **自动化**：\n   - Audition支持剪辑自动化和轨道自动化，允许用户自动调整音量、声像等参数，以创造更加丰富和动态的音频效果（⁨Jago⁩和⁨Team⁩, 2018）。\n\n8. **视频音轨制作**：\n   - 书中还讨论了如何将Audition与Adobe Premiere Pro CC集成，以便用户可以在Audition中编辑视频音轨，包括自动语音对齐功能（⁨Jago⁩和⁨Team⁩, 2018）。\n\n9. **音效设计**：\n   - 用户可以通过生成噪声、语音和音调，以及创建特定的声音效果，如雨声、溪流声或科幻机器效果，来进行音效设计（⁨Jago⁩和⁨Team⁩, 2018）。\n\n10. **录制和输出**：\n    - Audition允许用户在波形编辑器或多轨编辑器中录制音频，并且可以管理文件，录制多个音轨部分，以及导出音频混音（⁨Jago⁩和⁨Team⁩, 2018）。\n\n通过上述方法和证据，用户可以对Audition 2020有一个基本的了解，并开始使用其强大的音频编辑功能。",
+    "refs": [
+        "cqmef2dskq8h5si2vf3g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqqdqttfc7u9kt8i4590",
+    "req_id": "cqqdqttfc7u9kt8i459g",
+    "resp_id": "cqqdqttfc7u9kt8i45a0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：第1章 快速入门：了解Audition 2020的基本内容"
+}

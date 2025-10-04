@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "#!\/bin\/zsh\n# use ffmpeg to cut an mp4 into two parts at a specified time, \n# for example, at 00:00:08.000. \n# hh:mm:ss is the time to cut the video\nTime=\"00:39:10\"\nvideo=\"{clipboard}\"\n# remove '.mp4' from the end of the video name\nvideo_name=\"${video%.mp4}\"\noutput_part1=\"${video_name}_part1.mp4\"\noutput_part2=\"${video_name}_part2.mp4\"\n\nffmpeg -i \"$video\"  -t $Time -c copy \"$output_part1\"\nffmpeg  -ss $Time -i \"$video\"  -c copy \"$output_part2\"\n\n",
+    "uid" : "63284457-C6FC-47FF-A108-1220BC844F68",
+    "name" : "Video Cut- Split by time(into two parts)",
+    "keyword" : "vcsplit"
+  }
+}

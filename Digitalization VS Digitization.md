@@ -1,0 +1,18 @@
+
+## Digitalization VS Digitization
+![Google Trends graph showing the comparison of Digitization vs Digitalization](https://www.sap.com/dam/application/shared/photos/products-e-i/google-trends-comparison-digitalization-digitization.jpg/_jcr_content/renditions/original.adapt.-1_1120.false.false.false.false.jpg/1636668967047.jpg)
+[The Digital Organization: Business Process Transformation through Digitization](https://praxie.com/digital-organization-business-process-transformation-through-digitization/)
+
+[Google Ngram Viewer](https://books.google.com/ngrams/graph?content=Digitalization+%2C+Digitization&year_start=1800&year_end=2019&corpus=26&smoothing=3&direct_url=t1%3B%2CDigitalization%3B%2Cc0%3B.t1%3B%2CDigitization%3B%2Cc0#t1%3B%2CDigitalization%3B%2Cc1%3B.t1%3B%2CDigitization%3B%2Cc01) ,  学术价值 1971年 `Digitization`(单纯数字化) 反超 Digitalization.至今一直优于Digitalization;
+2003-2011 回落;
+2011年 两个词一同飙升至今;
+
+[Google Trends](https://trends.google.com/trends/explore?date=all&q=Digitization,Digitalization), 企业/ 用户(需求)2018-2021 期间 `Digitalization` 反超 Digitization 
+
+
+[![Digital Transformation Process](https://praxie.com/wp-content/uploads/2020/07/Digital-Digitalization-Transformation.png "Digital Transformation Process | Praxie")](https://praxie.com/wp-content/uploads/2020/07/Digital-Digitalization-Transformation.png)
+- 单纯地数字化而非拓展数字化形式的有效性.
+- **Digitization**: is focused on converting physical _things_ into digital format (i.e. pictures, books, audio, video, etc.).
+- **Digitalization**: According to Gartner,  is “the use of digital technologies to change a business model, and provide new revenue and value-producing opportunities.
+
+`Digitization of Noun `&& `Digitalization of Noun`  [Ngram](https://books.google.com/ngrams/graph?content=Digitization+of+%2A_NOUN%2CDigitalization+of+%2A_NOUN&year_start=1800&year_end=2019&corpus=26&smoothing=3&direct_url=t2%3B%2CDigitization%20of%20%2A_NOUN%3B%2Cc0%3B%2Cs0%3B%3BDigitization%20of%20Word_NOUN%3B%2Cc0%3B%3BDigitization%20of%20information_NOUN%3B%2Cc0%3B%3BDigitization%20of%20Audio_NOUN%3B%2Cc0%3B%3BDigitization%20of%20data_NOUN%3B%2Cc0%3B%3BDigitization%20of%20library_NOUN%3B%2Cc0%3B%3BDigitization%20of%20Analog_NOUN%3B%2Cc0%3B%3BDigitization%20of%20Primary_NOUN%3B%2Cc0%3B%3BDigitization%20of%20Flood_NOUN%3B%2Cc0%3B%3BDigitization%20of%20Cultural_NOUN%3B%2Cc0%3B%3BDigitization%20of%20images_NOUN%3B%2Cc0%3B.t2%3B%2CDigitalization%20of%20%2A_NOUN%3B%2Cc0%3B%2Cs0%3B%3BDigitalization%20of%20Business_NOUN%3B%2Cc0%3B%3BDigitalization%20of%20information_NOUN%3B%2Cc0%3B%3BDigitalization%20of%20library_NOUN%3B%2Cc0%3B%3BDigitalization%20of%20archival_NOUN%3B%2Cc0%3B%3BDigitalization%20of%20data_NOUN%3B%2Cc0#t2%3B%2CDigitization%20of%20*_NOUN%3B%2Cc0%3B%2Cs0%3B%3BDigitization%20of%20Word_NOUN%3B%2Cc0%3B%3BDigitization%20of%20information_NOUN%3B%2Cc1%3B%3BDigitization%20of%20Audio_NOUN%3B%2Cc0%3B%3BDigitization%20of%20data_NOUN%3B%2Cc1%3B%3BDigitization%20of%20library_NOUN%3B%2Cc1%3B%3BDigitization%20of%20Analog_NOUN%3B%2Cc0%3B%3BDigitization%20of%20Primary_NOUN%3B%2Cc0%3B%3BDigitization%20of%20Flood_NOUN%3B%2Cc0%3B%3BDigitization%20of%20Cultural_NOUN%3B%2Cc0%3B%3BDigitization%20of%20images_NOUN%3B%2Cc0%3B.t2%3B%2CDigitalization%20of%20*_NOUN%3B%2Cc0%3B%2Cs0%3B%3BDigitalization%20of%20Business_NOUN%3B%2Cc0%3B%3BDigitalization%20of%20information_NOUN%3B%2Cc1%3B%3BDigitalization%20of%20library_NOUN%3B%2Cc1%3B%3BDigitalization%20of%20archival_NOUN%3B%2Cc0%3B%3BDigitalization%20of%20data_NOUN%3B%2Cc0)

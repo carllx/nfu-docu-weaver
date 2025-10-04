@@ -1,0 +1,54 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "customjs:invoke-GPT",
+      "icon": "rocket",
+      "name": "CustomJS: GPT",
+      "mode": "any"
+    },
+    {
+      "id": "customjs:invoke-obTranslate",
+      "icon": "lucide-languages",
+      "name": "obTranslate selected",
+      "mode": "any"
+    },
+    {
+      "id": "customjs:invoke-ExportWordbyPandoc",
+      "icon": "book",
+      "name": "CustomJS: ExportWordbyPandoc",
+      "mode": "any"
+    },
+    {
+      "id": "customjs:invoke-MarkdownReferenceFormatter",
+      "icon": "unlink",
+      "name": "CustomJS: MarkdownReferenceFormatter",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

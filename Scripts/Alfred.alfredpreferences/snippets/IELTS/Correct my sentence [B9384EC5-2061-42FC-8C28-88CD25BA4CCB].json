@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Correct my sentence provided as follows:\n```\n{clipboard}\n```",
+    "uid" : "B9384EC5-2061-42FC-8C28-88CD25BA4CCB",
+    "name" : "Correct my sentence",
+    "keyword" : "crs"
+  }
+}

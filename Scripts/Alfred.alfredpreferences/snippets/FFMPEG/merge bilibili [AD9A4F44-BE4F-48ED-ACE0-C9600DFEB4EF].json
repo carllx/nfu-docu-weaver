@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "input1=\"\/Users\/yamlam\/Downloads\/20170130_Christoph Cox – History of Sound Art.f614.mp4\"\ninput2=\"\/Users\/yamlam\/Downloads\/20170130_Christoph Cox – History of Sound Art.f140.m4a\"\noutput=\"\/Users\/yamlam\/Downloads\/Christoph Cox – History of Sound Art.mp4\"\nffmpeg -i \"$input1\" -i \"$input2\" -c:v copy -c:a copy \"$output\"\n ",
+    "uid" : "AD9A4F44-BE4F-48ED-ACE0-C9600DFEB4EF",
+    "name" : "merge bilibili",
+    "keyword" : "mergebilibili"
+  }
+}

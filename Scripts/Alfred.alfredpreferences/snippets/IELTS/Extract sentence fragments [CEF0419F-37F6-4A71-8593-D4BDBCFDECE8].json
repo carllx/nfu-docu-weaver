@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Split the provided passage into the minimum number of sentence fragments and list them all, identifying sentence connectors and filler words with Markdown bold code (double asterisks).\npassage:```\n{clipboard}\n```",
+    "uid" : "CEF0419F-37F6-4A71-8593-D4BDBCFDECE8",
+    "name" : "Extract sentence fragments",
+    "keyword" : "esf"
+  }
+}

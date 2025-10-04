@@ -1,0 +1,39 @@
+{
+    "conversation_id": "cq7kh3ldl8mmjapquq5g",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review",
+            "fileID": "cpg9jb3df0jc3ksj2s9g",
+            "itemID": 2528,
+            "citation": "Queiroz, M. M., Ivanov, D., Dolgui, A., & Fosso Wamba, S. (2022). Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review. Annals of Operations Research, 319(1), 1159–1196. https://doi.org/10.1007/s10479-020-03685-7\n",
+            "citationShort": "Queiroz et al., 2022",
+            "tags": [
+                "#kimi",
+                "Adaptation",
+                "COVID-19",
+                "Digitalization",
+                "Epidemic outbreaks",
+                "Influenza",
+                "Pandemic",
+                "Preparedness",
+                "Recovery",
+                "Resilience",
+                "Ripple effect",
+                "Structured literature review",
+                "Supply chain",
+                "Sustainability"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：以本文为例, 高亮作者如何设计研究协议(Research Protocol)?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review, was published on 2022. (It can be cite this paper as Queiroz et al., 2022 on your answer). \n\n",
+    "response": "在《Annals of Operations Research》上发表的文章《Queiroz et al., 2022》中，作者们设计了一个系统的研究协议来指导他们的结构化文献综述。以下是根据原文提取的关于研究协议设计的信息：\n\n```markdown\n### 研究协议设计\n\n#### 研究数据库\n- Scopus 数据库\n- ScienceDirect (Elsevier)\n- Emeraldinsight (Emerald)\n- Wiley Online Library (Wiley)\n- Taylor & Francis Online (Taylor & Francis)\n- Springer Link (Springer)\n- Inderscience\n- Informs PubsOnline\n\n#### 出版物类型\n- 同行评审期刊（Scopus 索引）\n\n#### 语言\n- 仅考虑英文撰写的论文\n\n#### 日期范围\n- 考虑的日期范围为 2003 年至 2020 年（3月 22 日）\n\n#### 搜索领域\n- 标题、摘要和关键词\n\n#### 搜索术语\n- 用于 Scopus 数据库的标题中的搜索术语为 \"(outbreak* OR pandemic* OR epidemic* OR disease*)\"\n- 用于其他数据库的标题、摘要和关键词中的搜索术语为 \"(outbreak* OR pandemic* OR epidemic* OR disease*) AND (humanitarian operati* OR humanitarian relief* OR suppl* Chain* OR logistic*)\"\n\n#### 纳入标准\n- 论文中必须呈现物流/供应链环境中的某种疫情爆发。\n\n#### 排除标准\n- 没有以物流/供应链为主导，纯粹讨论疫情爆发的论文，以及综述性论文。\n\n#### 数据提取\n- 使用 R 工具软件 Bibliometrix 和定性软件 MAXQDA 进行数据提取。\n\n#### 数据分析与综合\n- 通过 Bibliometrix 和 MAXQDA 支持的内容分析方法。\n```\n\n作者们通过这个研究协议确保了研究的客观性和可靠性，并且系统地收集和分析了与疫情爆发对供应链影响相关的文献。通过这种方法，他们能够识别出文献中的研究空白，并提出了未来研究的方向。",
+    "refs": [
+        "cpg9jb3df0jc3ksj2s9g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq7kh3m0atpeku9mlj0g",
+    "req_id": "cq7kh3m0atpeku9mlj10",
+    "resp_id": "cq7kh3m0atpeku9mlj1g",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：以本文为例, 高亮作者如何设计研究协议(Research Protocol)?"
+}

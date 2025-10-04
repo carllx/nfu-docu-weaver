@@ -1,0 +1,37 @@
+{
+    "conversation_id": "ctnccmgs8jdtrvc1be7g",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC)",
+            "fileID": "cnt8m9817fm92pgfl76g",
+            "itemID": 1031,
+            "citation": "Graziosi, D. B., Nakagami, O., Kuma, S., Zaghetto, A., Suzuki, T., & Tabatabai, A. (2020). An overview of ongoing point cloud compression standardization activities: Video-based (V-PCC) and geometry-based (G-PCC). APSIPA Transactions on Signal and Information Processing, 9(1). https://doi.org/10.1017/atsip.2020.12\n",
+            "citationShort": "Graziosi et al., 2020",
+            "tags": [
+                "#3D Reconstruction",
+                "#Compression Techniques",
+                "Point cloud compression",
+                "G-PCC",
+                "Geometry-based point cloud compression",
+                "Immersive media",
+                "ISO/IEC 23090-5",
+                "ISO/IEC 23090-9",
+                "MPEG-I",
+                "V-PCC",
+                "Video-based point cloud compression",
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC), was published on 2020. (It can be cite this paper as Graziosi et al., 2020 on your answer). \n\n",
+    "response": "### 1. 点云压缩标准活动概述\n\n根据Graziosi等人在2020年发表的文章《An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC)》（Graziosi et al., 2020），我们可以了解到点云压缩（PCC）的两个主要标准化活动：基于视频的点云压缩（V-PCC）和基于几何的点云压缩（G-PCC）。这两种方法旨在解决不同应用场景下点云数据的压缩需求。\n\n### 2. V-PCC的编码原理和工具\n\nV-PCC利用现有的2D视频压缩技术，通过将3D点云数据转换为2D图像来实现压缩。文中提到了V-PCC的几个关键编码工具：\n\n- **投影基础编码原理**：通过将点云分割成多个相连区域（3D patches），然后将每个3D patch独立投影到2D patch上（Graziosi et al., 2020）。\n- **V-PCC编解码器架构**：包括patch生成、打包、占用图、几何、属性图、图集图像生成、图像填充和视频压缩等功能模块（Graziosi et al., 2020）。\n\n### 3. G-PCC的编码原理和工具\n\nG-PCC直接在3D空间中对点云内容进行编码，使用如八叉树这样的数据结构来描述点的位置。G-PCC的关键编码工具包括：\n\n- **基于几何的编码原理**：利用八叉树结构来表示点云，并通过定义tiles和slices来实现并行编码功能（Graziosi et al., 2020）。\n- **G-PCC编解码器架构**：包括坐标变换、体素化、几何分析（使用八叉树或trisoup方案），以及算术编码（Graziosi et al., 2020）。\n\n### 4. 点云压缩性能\n\n文中还提供了V-PCC和G-PCC的压缩性能评估：\n\n- **V-PCC性能**：展示了TMC2在编码动态点云序列（如Longdress、Red and Black、Soldier序列）时的性能提升（Graziosi et al., 2020）。\n- **G-PCC性能**：比较了RAHT和Predicting/Lifting Transforms在编码文化遗产（如head_00039_vox12）和自动驾驶（如ford_01_q1 mm）应用中的性能（Graziosi et al., 2020）。\n\n### 5. 结论\n\nGraziosi等人（2020）指出，随着3D捕捉技术的进步，点云压缩标准工作为3D视觉数据的捕获和生成提供了巨大的机会。V-PCC和G-PCC标准结合了2D视频编码和计算机图形学的最新技术，为不同的应用需求提供了竞争性的解决方案。未来，MPEG还考虑将PCC标准扩展到新的用例，并引入新的工具，如G-PCC的间隔编码。",
+    "refs": [
+        "cnt8m9817fm92pgfl76g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "ctnccmte09n99ghblh0g",
+    "req_id": "ctnccmte09n99ghblh10",
+    "resp_id": "ctnccmte09n99ghblh1g",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题："
+}

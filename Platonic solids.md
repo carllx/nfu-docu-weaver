@@ -1,0 +1,2 @@
+## What is the significance of plato's development of Platonic solids? 
+Plato's development of Platonic solids is significant because he associated them with the four classical elements (earth, air, water, and fire) and the fifth element (aether) that he believed composed the physical world². He also used them to explain the structure and harmony of the cosmos in his dialogue Timaeus².

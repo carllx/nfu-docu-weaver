@@ -1,0 +1,8 @@
+### Changelog
+- **chore**: update bug report template
+- **fix**: browsing links via `shift+enter` when no ext. links (#168)
+- **fix(vaultSwitcher)**: vault menu item
+- **chore**: cleanup unused/obsolete stuff, tighten alfred canvas
+- **build(changelog)**: fix bold not being applied to all cc-keywords
+- **build**: fix fetch depth requirement
+- **build**: exclude release commit from changelog

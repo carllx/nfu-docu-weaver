@@ -1,0 +1,76 @@
+﻿1
+00:00:00,810 --> 00:00:02,690
+- [Narrator] Welcome to chapter five.
+
+2
+00:00:02,690 --> 00:00:06,250
+This is the first chapter
+where we are going to animate
+
+3
+00:00:06,250 --> 00:00:08,290
+a humanoid character.
+
+4
+00:00:08,290 --> 00:00:10,840
+We will use some of the
+techniques you've learned
+
+5
+00:00:10,840 --> 00:00:14,910
+in the previous chapter
+to make a first run cycle.
+
+6
+00:00:14,910 --> 00:00:18,340
+You may think it's weird
+to start with a run cycle,
+
+7
+00:00:18,340 --> 00:00:20,870
+while we haven't learned to walk,
+
+8
+00:00:20,870 --> 00:00:25,220
+but runs are easier to
+animate than a walk cycle.
+
+9
+00:00:25,220 --> 00:00:28,260
+In this chapter, I will also introduce you
+
+10
+00:00:28,260 --> 00:00:31,310
+to a new character rig we are going to use
+
+11
+00:00:31,310 --> 00:00:34,590
+until the end of this animation course.
+
+12
+00:00:34,590 --> 00:00:37,220
+Even if you want to jump
+into the further chapter,
+
+13
+00:00:37,220 --> 00:00:40,270
+I advise you to at least watch this video.
+
+14
+00:00:40,270 --> 00:00:43,340
+We will go over some reference analysis,
+
+15
+00:00:43,340 --> 00:00:47,660
+as well as some zero
+recall video about rotation
+
+16
+00:00:47,660 --> 00:00:49,670
+and how they work in (indistinct).
+
+17
+00:00:49,670 --> 00:00:52,553
+Welcome to this new chapter
+and let's get started.
+

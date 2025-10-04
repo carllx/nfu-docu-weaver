@@ -1,0 +1,21 @@
+{
+  "pathToPandoc": "/Users/yamlam/opt/anaconda3/bin/pandoc",
+  "tooltipDelay": 400,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "My Library",
+      "lastUpdate": 1759580028132
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "pullFromZotero": true,
+  "pathToBibliography": "/Users/yamlam/Documents/obsdiannote/zoteropapers/CSL/MyLibrary.bib",
+  "enableCiteKeyCompletion": true,
+  "showCitekeyTooltips": true,
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/media-culture-and-society.csl",
+  "hideLinks": false,
+  "cslLang": "en-US"
+}

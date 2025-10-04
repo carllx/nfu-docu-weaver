@@ -1,0 +1,646 @@
+﻿1
+00:00:00,610 --> 00:00:03,320
+- [Instructor] Let's continue
+polishing the idle animation
+
+2
+00:00:03,320 --> 00:00:04,420
+of our character.
+
+3
+00:00:04,420 --> 00:00:07,200
+We will be focusing on the next portion
+
+4
+00:00:07,200 --> 00:00:08,600
+of this animation
+
+5
+00:00:08,600 --> 00:00:12,740
+where our character is
+switching to a sitting pose.
+
+6
+00:00:12,740 --> 00:00:15,453
+Let's have a quick look
+to the body motion first.
+
+7
+00:00:16,330 --> 00:00:20,120
+I will make a little draw-over
+using SyncSketch here.
+
+8
+00:00:20,120 --> 00:00:22,400
+When transitioning on frame 28.
+
+9
+00:00:22,400 --> 00:00:26,050
+We can see that the body of our character
+
+10
+00:00:26,050 --> 00:00:30,330
+is moving a little up
+in micro-anticipation.
+
+11
+00:00:30,330 --> 00:00:33,060
+This is an anticipation, very subtle,
+
+12
+00:00:33,060 --> 00:00:35,721
+that occur on only one frame.
+
+13
+00:00:35,721 --> 00:00:40,450
+The idea here is not to
+input that much of energy
+
+14
+00:00:40,450 --> 00:00:41,650
+into the movement
+
+15
+00:00:41,650 --> 00:00:44,490
+but to give a little
+contrast to the next move,
+
+16
+00:00:44,490 --> 00:00:46,400
+and let the audience know
+
+17
+00:00:46,400 --> 00:00:49,290
+that our character will be sitting.
+
+18
+00:00:49,290 --> 00:00:52,110
+Thanks to the locally
+style of our character,
+
+19
+00:00:52,110 --> 00:00:55,280
+it's pretty easy to track its motion.
+
+20
+00:00:55,280 --> 00:00:58,170
+I just want to show you
+the design of the arc
+
+21
+00:00:58,170 --> 00:01:00,890
+when our character is sitting.
+
+22
+00:01:00,890 --> 00:01:02,650
+But also the spacing.
+
+23
+00:01:02,650 --> 00:01:05,950
+Our character is
+contacting with the ground
+
+24
+00:01:05,950 --> 00:01:08,050
+but he will slow down.
+
+25
+00:01:08,050 --> 00:01:12,080
+There will be an ease
+into the sitting pose
+
+26
+00:01:12,080 --> 00:01:14,520
+so that he doesn't hurt his butt.
+
+27
+00:01:14,520 --> 00:01:17,290
+This arc and spacing
+does read on the curve.
+
+28
+00:01:17,290 --> 00:01:21,640
+On frame 28, I'm creating
+the little micro-anticipation
+
+29
+00:01:21,640 --> 00:01:24,900
+by just pushing the curve a little up.
+
+30
+00:01:24,900 --> 00:01:27,590
+Then I've created the arc motion,
+
+31
+00:01:27,590 --> 00:01:30,420
+using the motion path as usual.
+
+32
+00:01:30,420 --> 00:01:32,700
+And I'm creating the easing out
+
+33
+00:01:32,700 --> 00:01:35,120
+with our curve flattening in the end
+
+34
+00:01:35,120 --> 00:01:37,990
+of the motion on frame 36 here.
+
+35
+00:01:37,990 --> 00:01:41,060
+Once I'm happy with the
+main body controller,
+
+36
+00:01:41,060 --> 00:01:42,960
+I always work on the chest.
+
+37
+00:01:42,960 --> 00:01:45,020
+So if we track the shoulder
+
+38
+00:01:45,020 --> 00:01:48,970
+that is directly influenced
+by the chest motion,
+
+39
+00:01:48,970 --> 00:01:51,400
+I've created a dragging motion,
+
+40
+00:01:51,400 --> 00:01:55,060
+mainly working on the
+rotation curve of the chest.
+
+41
+00:01:55,060 --> 00:01:57,730
+If you compare the
+tracking of the blue line
+
+42
+00:01:57,730 --> 00:01:58,850
+with the red line,
+
+43
+00:01:58,850 --> 00:02:03,010
+we can see that we get a nice
+C shape with the blue line,
+
+44
+00:02:03,010 --> 00:02:07,330
+and a nice S shape with
+the dragging chest.
+
+45
+00:02:07,330 --> 00:02:09,500
+As we use the tip of the nose
+
+46
+00:02:09,500 --> 00:02:11,280
+to track the head motion,
+
+47
+00:02:11,280 --> 00:02:13,307
+you can use the neck controller
+
+48
+00:02:13,307 --> 00:02:16,650
+to track the chest motion.
+
+49
+00:02:16,650 --> 00:02:18,810
+Note that I've hidden the limbs.
+
+50
+00:02:18,810 --> 00:02:22,431
+It makes the readability
+of the torso way better.
+
+51
+00:02:22,431 --> 00:02:23,530
+(screen whooshing)
+
+52
+00:02:23,530 --> 00:02:27,110
+When working on the head
+before I track my arc,
+
+53
+00:02:27,110 --> 00:02:28,330
+the first thing I've done
+
+54
+00:02:28,330 --> 00:02:31,580
+was to remove this bump on the z rotation.
+
+55
+00:02:31,580 --> 00:02:34,503
+It didn't fit the current
+motion of the head,
+
+56
+00:02:34,503 --> 00:02:38,080
+just adding extra noise to the movement.
+
+57
+00:02:38,080 --> 00:02:39,410
+And it doesn't make sense
+
+58
+00:02:39,410 --> 00:02:42,570
+that our character shake
+his head left to right
+
+59
+00:02:42,570 --> 00:02:45,060
+when switching to the sitting pose.
+
+60
+00:02:45,060 --> 00:02:48,240
+Motion wise, the head is
+slightly dragging compared
+
+61
+00:02:48,240 --> 00:02:49,550
+to the torso,
+
+62
+00:02:49,550 --> 00:02:52,000
+but I haven't input that much rotation
+
+63
+00:02:52,000 --> 00:02:55,200
+because I want my
+character to be in control.
+
+64
+00:02:55,200 --> 00:02:59,160
+If you input too much up and
+down rotation to the head,
+
+65
+00:02:59,160 --> 00:03:00,880
+it will feel a bit weird
+
+66
+00:03:00,880 --> 00:03:03,220
+as if the head was very heavy.
+
+67
+00:03:03,220 --> 00:03:06,140
+So we can see that the arc of the head
+
+68
+00:03:06,140 --> 00:03:10,970
+is very close to the arc
+made by the torso controller.
+
+69
+00:03:10,970 --> 00:03:13,950
+Here we can see the result
+with the body controller,
+
+70
+00:03:13,950 --> 00:03:16,400
+chest and head polished.
+
+71
+00:03:16,400 --> 00:03:19,010
+I did work on the ears and the nose
+
+72
+00:03:19,010 --> 00:03:20,609
+as in the previous video,
+
+73
+00:03:20,609 --> 00:03:23,540
+working with the straighter head method,
+
+74
+00:03:23,540 --> 00:03:27,053
+meaning that I'm
+animating quite on the fly
+
+75
+00:03:27,053 --> 00:03:29,370
+as the animation goes,
+
+76
+00:03:29,370 --> 00:03:33,530
+inputting a very, very subtle
+follow-through animation
+
+77
+00:03:33,530 --> 00:03:35,000
+to the ears.
+
+78
+00:03:35,000 --> 00:03:37,760
+And then I did the same
+with the tip of the nose.
+
+79
+00:03:37,760 --> 00:03:41,500
+Since the sitting motion is pretty slow,
+
+80
+00:03:41,500 --> 00:03:44,760
+pretty subtle, pretty light, whatever,
+
+81
+00:03:44,760 --> 00:03:46,681
+your follow-through animation
+
+82
+00:03:46,681 --> 00:03:49,730
+should be very subtle too.
+
+83
+00:03:49,730 --> 00:03:52,990
+So it's just an extra motion
+
+84
+00:03:52,990 --> 00:03:56,550
+that will give a bit more
+life to your character.
+
+85
+00:03:56,550 --> 00:03:58,730
+If you're not comfortable with this,
+
+86
+00:03:58,730 --> 00:04:02,782
+it's better not to do
+it than overdoing it.
+
+87
+00:04:02,782 --> 00:04:04,520
+Before the head turn,
+
+88
+00:04:04,520 --> 00:04:06,950
+I like to add an eye blink.
+
+89
+00:04:06,950 --> 00:04:08,810
+I oftenly use eye blink
+
+90
+00:04:08,810 --> 00:04:13,090
+whenever the character is
+changing his head stance,
+
+91
+00:04:13,090 --> 00:04:15,710
+like a big head turn in our case,
+
+92
+00:04:15,710 --> 00:04:18,290
+but also if our character is surprised
+
+93
+00:04:18,290 --> 00:04:20,820
+and push his head up very quickly,
+
+94
+00:04:20,820 --> 00:04:25,090
+I like to use the eyes to
+support this animation.
+
+95
+00:04:25,090 --> 00:04:28,180
+I'm doing the same eye
+motion on both eyes,
+
+96
+00:04:28,180 --> 00:04:31,680
+and the idea is to have a slight ease in
+
+97
+00:04:31,680 --> 00:04:33,240
+and a slight ease out.
+
+98
+00:04:33,240 --> 00:04:36,040
+Shape wise, the eye is fully open.
+
+99
+00:04:36,040 --> 00:04:39,620
+Then it's closing a bit on the next frame.
+
+100
+00:04:39,620 --> 00:04:42,900
+On the third frame, it's totally closed.
+
+101
+00:04:42,900 --> 00:04:44,397
+And then when reopening,
+
+102
+00:04:44,397 --> 00:04:46,990
+it will open just a bit
+
+103
+00:04:46,990 --> 00:04:50,263
+and then on the next
+frame, it's fully opened.
+
+104
+00:04:51,377 --> 00:04:52,210
+(screen whooshing)
+
+105
+00:04:52,210 --> 00:04:54,840
+Next step was to animate the tail.
+
+106
+00:04:54,840 --> 00:04:57,780
+In this case, the tail is not used
+
+107
+00:04:57,780 --> 00:05:01,580
+to balance or in reaction to the motion
+
+108
+00:05:01,580 --> 00:05:03,360
+of the character's body.
+
+109
+00:05:03,360 --> 00:05:06,130
+The idea was to create a wiping motion
+
+110
+00:05:06,130 --> 00:05:08,470
+before our character sit.
+
+111
+00:05:08,470 --> 00:05:11,670
+As if he was relaxing
+his tail before sitting.
+
+112
+00:05:11,670 --> 00:05:14,750
+Think a bit as if you
+were going on the beach,
+
+113
+00:05:14,750 --> 00:05:18,220
+on the sand, and you were
+just wiping your towel
+
+114
+00:05:18,220 --> 00:05:20,590
+before laying onto it.
+
+115
+00:05:20,590 --> 00:05:23,223
+That's exactly what I
+wanted to communicate here.
+
+116
+00:05:25,650 --> 00:05:29,550
+The final stage was to
+polish the hands animation
+
+117
+00:05:29,550 --> 00:05:31,550
+or front legs animation.
+
+118
+00:05:31,550 --> 00:05:34,480
+As always, the arcs are
+the most important thing
+
+119
+00:05:34,480 --> 00:05:35,610
+you have to watch for,
+
+120
+00:05:35,610 --> 00:05:39,900
+so make sure that you draw
+nice arcs with the motion path.
+
+121
+00:05:39,900 --> 00:05:41,310
+And using the rotation,
+
+122
+00:05:41,310 --> 00:05:43,600
+make the tip of the fingers
+
+123
+00:05:43,600 --> 00:05:47,210
+or the tip of the foot slightly
+dragging in the motion.
+
+124
+00:05:47,210 --> 00:05:49,000
+You can add a slight overshoot
+
+125
+00:05:49,000 --> 00:05:51,380
+when you reach the top position.
+
+126
+00:05:51,380 --> 00:05:53,070
+Beyond those classics,
+
+127
+00:05:53,070 --> 00:05:55,480
+there are two things
+you have to watch for.
+
+128
+00:05:55,480 --> 00:05:57,630
+First, avoid the twinning.
+
+129
+00:05:57,630 --> 00:06:00,450
+So we have broken the twinning in the pose
+
+130
+00:06:00,450 --> 00:06:01,730
+during the blocking,
+
+131
+00:06:01,730 --> 00:06:05,930
+making the left hand going
+higher than the right hand,
+
+132
+00:06:05,930 --> 00:06:09,110
+but it's better also to break the twinning
+
+133
+00:06:09,110 --> 00:06:10,440
+in the timing,
+
+134
+00:06:10,440 --> 00:06:15,440
+meaning that here my right
+hand hit its highest point one
+
+135
+00:06:16,410 --> 00:06:19,410
+or two frame prior than the left hand.
+
+136
+00:06:19,410 --> 00:06:22,930
+Also, the right hand is
+moving slightly faster
+
+137
+00:06:22,930 --> 00:06:24,250
+than the left hand
+
+138
+00:06:24,250 --> 00:06:26,650
+because the character is pushing with it.
+
+139
+00:06:26,650 --> 00:06:29,300
+So there is an impulsion
+on the right hand,
+
+140
+00:06:29,300 --> 00:06:32,830
+while the left hand that
+doesn't contact the ground.
+
+141
+00:06:32,830 --> 00:06:36,370
+It's just continuing the previous motion.
+
+142
+00:06:36,370 --> 00:06:39,020
+So beware of the spacing
+between the right hand
+
+143
+00:06:39,020 --> 00:06:40,360
+and the left hand.
+
+144
+00:06:40,360 --> 00:06:42,380
+The next video will be a time lapse
+
+145
+00:06:42,380 --> 00:06:46,380
+of me polishing this whole
+section of the animation.
+
+146
+00:06:46,380 --> 00:06:48,090
+Just double check the notes
+
+147
+00:06:48,090 --> 00:06:50,700
+that I have highlighted in this video
+
+148
+00:06:50,700 --> 00:06:54,573
+into the next one, and I'll
+see you in the video after.
+

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "the key phrases from the given sentence, and label each thought group extracted from the text with the type of information it contains using wh-words. will help me better understand the content and purpose of each part of the text. For example, for thought groups providing information about: A person - Use \"Who🧑‍🦲\"; A thing - Use \"What❤️\"; A place - Use \"Where⛩️\"; A time - Use \"When🕣\"; A reason - Use \"Why💡\"; A manner - Use \"How☯️\";\nhere is my sentence:\n```\n{clipboard}\n```\n",
+    "uid" : "34BB5B90-B077-462F-8CF6-0CF31250F03F",
+    "name" : "Extract Wh Questions",
+    "keyword" : "ewh"
+  }
+}

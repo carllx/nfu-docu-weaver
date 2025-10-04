@@ -1,0 +1,1149 @@
+﻿1
+00:00:00,770 --> 00:00:03,130
+- It's time to detail our idol blocking
+
+2
+00:00:03,130 --> 00:00:05,990
+and also give it a timing path.
+
+3
+00:00:05,990 --> 00:00:09,870
+Character is entering the
+shot after a run cycle.
+
+4
+00:00:09,870 --> 00:00:12,540
+Have a look around smell the air,
+
+5
+00:00:12,540 --> 00:00:16,500
+held something and flee
+into a neuron cycle.
+
+6
+00:00:16,500 --> 00:00:20,920
+The first thing I will do is
+to offset the second jump.
+
+7
+00:00:20,920 --> 00:00:23,310
+So I will select the root bone
+
+8
+00:00:23,310 --> 00:00:25,630
+and I will change the last key
+
+9
+00:00:25,630 --> 00:00:30,140
+by increasing its value
+by minus 0.7 meter.
+
+10
+00:00:30,140 --> 00:00:34,760
+This is the distance our
+character is traveling per bounce.
+
+11
+00:00:34,760 --> 00:00:37,140
+Enter the stage the route is at zero,
+
+12
+00:00:37,140 --> 00:00:40,540
+travel by minus 0.7 during the first jump
+
+13
+00:00:40,540 --> 00:00:45,540
+then stop and stays at minus
+0.7 during the second jump,
+
+14
+00:00:46,010 --> 00:00:49,870
+it will travel to minus 1.4 meters.
+
+15
+00:00:49,870 --> 00:00:52,490
+From there I will be
+working on the first pose.
+
+16
+00:00:52,490 --> 00:00:55,000
+So I will just give me some space,
+
+17
+00:00:55,000 --> 00:00:58,070
+moving the key frame
+a bit forward in time.
+
+18
+00:00:58,070 --> 00:01:02,300
+Whenever we build the breakdowns
+as we did during the cycle,
+
+19
+00:01:02,300 --> 00:01:06,950
+we mean to address any
+specific changes or big changes
+
+20
+00:01:06,950 --> 00:01:11,790
+between each key poses
+also called golden poses.
+
+21
+00:01:11,790 --> 00:01:16,080
+So the run cycle our
+characters stops on three legs
+
+22
+00:01:16,080 --> 00:01:18,170
+and is having a look around.
+
+23
+00:01:18,170 --> 00:01:21,420
+I will create two breakdowns to absorb
+
+24
+00:01:21,420 --> 00:01:23,530
+the impact of the landing
+
+25
+00:01:23,530 --> 00:01:27,404
+and define the steps
+made by the front legs.
+
+26
+00:01:27,404 --> 00:01:30,240
+It lands on both front leg
+
+27
+00:01:30,240 --> 00:01:31,940
+and then I will make him switch
+
+28
+00:01:31,940 --> 00:01:34,280
+from left leg to right leg.
+
+29
+00:01:34,280 --> 00:01:36,350
+So there is a little shuffle.
+
+30
+00:01:36,350 --> 00:01:39,330
+The most of use was to flatten the feet
+
+31
+00:01:39,330 --> 00:01:43,520
+as our character is stopping
+the feet are well-grounded.
+
+32
+00:01:43,520 --> 00:01:46,070
+As I want my character to raise one
+
+33
+00:01:46,070 --> 00:01:49,220
+of the front leg to make a step leaning
+
+34
+00:01:49,220 --> 00:01:53,400
+the character toward the foot
+in contact with the ground.
+
+35
+00:01:53,400 --> 00:01:55,510
+If you remember in the previous video
+
+36
+00:01:55,510 --> 00:01:58,170
+we were talking about balance.
+
+37
+00:01:58,170 --> 00:02:01,240
+So whenever my character
+is raising one leg
+
+38
+00:02:01,240 --> 00:02:04,400
+is shifting his weight toward the one
+
+39
+00:02:04,400 --> 00:02:06,000
+in contact with the ground.
+
+40
+00:02:06,000 --> 00:02:10,090
+So you need to input a
+bit of location offset
+
+41
+00:02:10,090 --> 00:02:14,730
+in each controller and a bit
+of rotation in each controller.
+
+42
+00:02:14,730 --> 00:02:18,440
+A bit of twisting too remember
+to use the body controller
+
+43
+00:02:18,440 --> 00:02:21,130
+as the main controller while the hips
+
+44
+00:02:21,130 --> 00:02:24,791
+and chest controller are
+here to shape our character.
+
+45
+00:02:24,791 --> 00:02:29,000
+I oftenly reset the rotation
+and location of the chest
+
+46
+00:02:29,000 --> 00:02:32,950
+and hips controller by
+pressing Alt+R and Alt+G.
+
+47
+00:02:32,950 --> 00:02:37,260
+And then re-transform them
+when I'm creating a breakdown.
+
+48
+00:02:37,260 --> 00:02:39,870
+When I'm happy with the pose
+I will slightly offset it
+
+49
+00:02:39,870 --> 00:02:43,970
+on frame 15 and insert a key
+frame on every controller.
+
+50
+00:02:43,970 --> 00:02:47,770
+Now I will refine a bit
+the pose by scrubbing back
+
+51
+00:02:47,770 --> 00:02:51,480
+and forth onto the current
+pose and the previous one.
+
+52
+00:02:51,480 --> 00:02:54,570
+I'm trying to figure
+this transition motion
+
+53
+00:02:54,570 --> 00:02:57,220
+between the new pose and the landing pose.
+
+54
+00:02:57,220 --> 00:02:59,500
+But I will make the tail drag a bit
+
+55
+00:02:59,500 --> 00:03:02,060
+by rotating it a little down.
+
+56
+00:03:02,060 --> 00:03:04,611
+And since the chest and
+head of our character
+
+57
+00:03:04,611 --> 00:03:09,611
+are also weighted or heavy I
+will make them drag a bit too.
+
+58
+00:03:10,090 --> 00:03:13,830
+So I will slightly push
+the head inward the bodys
+
+59
+00:03:13,830 --> 00:03:16,840
+quash a bit and rotate it a bit downward.
+
+60
+00:03:16,840 --> 00:03:21,440
+As the tip of the nose is
+dragging into the next pose.
+
+61
+00:03:21,440 --> 00:03:24,030
+Don't hesitate to check
+out the provided file
+
+62
+00:03:24,030 --> 00:03:26,800
+to have a better reference
+of the current pose.
+
+63
+00:03:26,800 --> 00:03:30,230
+For the next breakdown I
+will select my key pose
+
+64
+00:03:30,230 --> 00:03:33,040
+on frame 20 and duplicate it.
+
+65
+00:03:33,040 --> 00:03:37,623
+To build a nice transition
+between frame 15 and 17.
+
+66
+00:03:37,623 --> 00:03:42,610
+I will calculate the motion
+path of the body controller.
+
+67
+00:03:42,610 --> 00:03:44,830
+I've already explained you before
+
+68
+00:03:44,830 --> 00:03:48,780
+that arcs in animation are very important.
+
+69
+00:03:48,780 --> 00:03:53,500
+This is why I'm using motion
+path is to see those arcs.
+
+70
+00:03:53,500 --> 00:03:58,400
+Here we can see that the frame
+15 is higher than frame 17.
+
+71
+00:03:58,400 --> 00:04:02,840
+So I will push frame 17
+up and frame 15 down.
+
+72
+00:04:02,840 --> 00:04:07,060
+Make sure that you check your
+arcs as soon as possible.
+
+73
+00:04:07,060 --> 00:04:10,620
+This is really something
+I wish I knew before.
+
+74
+00:04:10,620 --> 00:04:13,560
+Because as soon as I've
+learned this technique
+
+75
+00:04:13,560 --> 00:04:17,420
+and I've embraced it my animation quality
+
+76
+00:04:17,420 --> 00:04:22,060
+and speed to produce it
+have leveled up very fast.
+
+77
+00:04:22,060 --> 00:04:25,670
+So even if you're blocking
+will take a little more time
+
+78
+00:04:25,670 --> 00:04:30,010
+it will be way more accurate
+and way more appealing.
+
+79
+00:04:30,010 --> 00:04:34,820
+Hence the polishing stage will
+be way easier and way faster.
+
+80
+00:04:34,820 --> 00:04:38,000
+Don't forget to check your
+arcs from every position,
+
+81
+00:04:38,000 --> 00:04:40,240
+the top the side et cetera.
+
+82
+00:04:40,240 --> 00:04:44,250
+As the body controller
+arcs looks quite right,
+
+83
+00:04:44,250 --> 00:04:48,500
+just drag a bit the chest
+the head and the front leg
+
+84
+00:04:48,500 --> 00:04:51,470
+between frame 15 and frame 20.
+
+85
+00:04:51,470 --> 00:04:55,030
+On this frame 17 I'm creating and easing
+
+86
+00:04:55,030 --> 00:04:57,470
+toward the frame 20.
+
+87
+00:04:57,470 --> 00:04:59,910
+From there I will mainly be tweaking
+
+88
+00:04:59,910 --> 00:05:03,610
+the poses on frame 15, 17 and 20,
+
+89
+00:05:03,610 --> 00:05:08,610
+20 being our key pose 15
+and 17 our breakdowns.
+
+90
+00:05:08,620 --> 00:05:10,740
+So I'm double checking the arcs
+
+91
+00:05:10,740 --> 00:05:13,603
+of the body controller from the top view,
+
+92
+00:05:13,603 --> 00:05:16,600
+And then I will mostly be refining
+
+93
+00:05:16,600 --> 00:05:18,480
+the tail of the character.
+
+94
+00:05:18,480 --> 00:05:20,570
+I want to have quite of a contrast
+
+95
+00:05:20,570 --> 00:05:22,420
+between the different poses.
+
+96
+00:05:22,420 --> 00:05:24,562
+We watch the reference the squirrel
+
+97
+00:05:24,562 --> 00:05:27,900
+has very snappy motion of the tail.
+
+98
+00:05:27,900 --> 00:05:32,090
+And it wipes it quite a lot
+even if it's a subtle motion,
+
+99
+00:05:32,090 --> 00:05:37,090
+each time it changes pose the
+tail has rapid wipe motion.
+
+100
+00:05:37,810 --> 00:05:40,400
+That's why I'm trying
+to bring some contrast
+
+101
+00:05:40,400 --> 00:05:42,660
+in the tail pose during the blocking.
+
+102
+00:05:42,660 --> 00:05:45,870
+Those poses will give
+the rhythm to the idol.
+
+103
+00:05:45,870 --> 00:05:49,517
+I will offset a big
+chunk of the animation.
+
+104
+00:05:49,517 --> 00:05:52,480
+The next step I want the character
+
+105
+00:05:52,480 --> 00:05:55,520
+to hold the pose for a second or so
+
+106
+00:05:55,520 --> 00:05:57,690
+and then jump into the one.
+
+107
+00:05:57,690 --> 00:06:01,950
+So here it's out to give you
+a tip of whatever to say,
+
+108
+00:06:01,950 --> 00:06:05,695
+hey you have to input maybe 10, 15,
+
+109
+00:06:05,695 --> 00:06:08,270
+20 frame between the two poses.
+
+110
+00:06:08,270 --> 00:06:10,650
+I'm just playing the
+animation and thinking,
+
+111
+00:06:10,650 --> 00:06:13,510
+okay will jump he will
+stop have a look around
+
+112
+00:06:13,510 --> 00:06:16,440
+and then switch to a more relaxed pose.
+
+113
+00:06:16,440 --> 00:06:18,560
+And you won't find any footage of this
+
+114
+00:06:18,560 --> 00:06:20,730
+but I'm almost acting the scene
+
+115
+00:06:20,730 --> 00:06:23,970
+I am figuring out that I
+am the squirrel I stopped,
+
+116
+00:06:23,970 --> 00:06:26,230
+I'm curious about what's around me
+
+117
+00:06:26,230 --> 00:06:28,510
+and then I relax and sit.
+
+118
+00:06:28,510 --> 00:06:32,950
+So I figured that 10 frames
+was okay for the time being
+
+119
+00:06:32,950 --> 00:06:36,810
+but holding the pose for
+10 frame is a bit too much.
+
+120
+00:06:36,810 --> 00:06:39,490
+So I will just build a new pose
+
+121
+00:06:39,490 --> 00:06:42,840
+upon the frame 20 and frame 23
+
+122
+00:06:42,840 --> 00:06:46,320
+and bring some sort of
+variation especially in the tail
+
+123
+00:06:46,320 --> 00:06:48,750
+I want to change the shape of the tail.
+
+124
+00:06:48,750 --> 00:06:52,510
+Change a bit the orientation
+of the head stuff like that.
+
+125
+00:06:52,510 --> 00:06:56,920
+I can imagine the character
+smelling the air for example.
+
+126
+00:06:56,920 --> 00:06:59,950
+As usual when I feel like the pose is okay
+
+127
+00:06:59,950 --> 00:07:02,550
+I will keep frame all the controllers
+
+128
+00:07:02,550 --> 00:07:05,383
+to avoid foot sliding and stuff like that.
+
+129
+00:07:07,960 --> 00:07:11,460
+From there we can transition
+into the next pose.
+
+130
+00:07:11,460 --> 00:07:15,720
+The pose where our character
+is sitting on his back legs.
+
+131
+00:07:15,720 --> 00:07:18,180
+We will first create an anticipation
+
+132
+00:07:18,180 --> 00:07:20,840
+where our character is crouching,
+
+133
+00:07:20,840 --> 00:07:22,630
+then we will have a transition pose
+
+134
+00:07:22,630 --> 00:07:25,070
+where the head and the
+chest will be dragging
+
+135
+00:07:25,070 --> 00:07:29,240
+while our character is
+moving backward to sit.
+
+136
+00:07:29,240 --> 00:07:32,720
+So I've started by creating
+the crouching pose,
+
+137
+00:07:32,720 --> 00:07:34,880
+the anticipation if you prefer,
+
+138
+00:07:34,880 --> 00:07:38,270
+and I'm building it from the current pose.
+
+139
+00:07:38,270 --> 00:07:41,090
+But since I'm still using the motion path
+
+140
+00:07:41,090 --> 00:07:42,870
+for the body controller
+
+141
+00:07:42,870 --> 00:07:46,670
+I know where the character
+body is going to be.
+
+142
+00:07:46,670 --> 00:07:51,220
+So I'm just pushing him
+down to create a new arc.
+
+143
+00:07:51,220 --> 00:07:55,520
+And as I build or pre-build this new pose,
+
+144
+00:07:55,520 --> 00:07:59,590
+I can create the
+intermediate pose with ease.
+
+145
+00:07:59,590 --> 00:08:01,930
+So this will be really a transition pose
+
+146
+00:08:01,930 --> 00:08:04,493
+where I start to rotate the body
+
+147
+00:08:04,493 --> 00:08:08,690
+and the chest, neck and
+head will drag behind.
+
+148
+00:08:08,690 --> 00:08:10,790
+Just imagine that your character
+
+149
+00:08:10,790 --> 00:08:13,010
+is being pulled by the hips.
+
+150
+00:08:13,010 --> 00:08:18,010
+The danger here is to overdo
+the anticipation in a way.
+
+151
+00:08:18,020 --> 00:08:21,000
+This is a pretty lightweight character.
+
+152
+00:08:21,000 --> 00:08:24,980
+So the anticipation
+should be very settled.
+
+153
+00:08:24,980 --> 00:08:26,690
+The heavier a character
+
+154
+00:08:26,690 --> 00:08:29,320
+the more energy he will have to gather
+
+155
+00:08:29,320 --> 00:08:31,900
+before moving into the next pose
+
+156
+00:08:31,900 --> 00:08:34,960
+so the bigger will be the anticipation.
+
+157
+00:08:34,960 --> 00:08:39,220
+So honestly while I'm
+recording this specific video
+
+158
+00:08:39,220 --> 00:08:43,590
+I haven't started the
+polishing of this animation.
+
+159
+00:08:43,590 --> 00:08:46,410
+It made this anticipation
+more subtle when I will switch
+
+160
+00:08:46,410 --> 00:08:49,880
+to spline and start
+polishing this animation.
+
+161
+00:08:49,880 --> 00:08:52,900
+Getting the right sense
+of weight is I believe
+
+162
+00:08:52,900 --> 00:08:56,040
+the most complicated thing in animation.
+
+163
+00:08:56,040 --> 00:08:58,970
+And also one of the most important thing
+
+164
+00:08:58,970 --> 00:09:01,980
+if you want your animation
+to be believable.
+
+165
+00:09:01,980 --> 00:09:03,640
+Even if it's stylized.
+
+166
+00:09:03,640 --> 00:09:07,553
+So I'm pretty confident I
+will get a nice animation
+
+167
+00:09:07,553 --> 00:09:09,976
+at least something appealing
+
+168
+00:09:09,976 --> 00:09:13,010
+but nailing the motion of the squirrel
+
+169
+00:09:13,010 --> 00:09:16,200
+even in a stylized animation
+
+170
+00:09:16,200 --> 00:09:18,280
+this is not something I will promise
+
+171
+00:09:18,280 --> 00:09:20,683
+but we will try our best for sure.
+
+172
+00:09:21,520 --> 00:09:24,890
+We will now detail the turn animation.
+
+173
+00:09:24,890 --> 00:09:27,890
+There are two very important
+things to look after,
+
+174
+00:09:27,890 --> 00:09:32,030
+as usual the motion arcs
+and then the body transfer.
+
+175
+00:09:32,030 --> 00:09:35,590
+The sitting pose our
+character will transition
+
+176
+00:09:35,590 --> 00:09:38,150
+into the standing up pose.
+
+177
+00:09:38,150 --> 00:09:40,370
+I will then add a couple of details
+
+178
+00:09:40,370 --> 00:09:43,630
+by making the character
+raising even a bit more
+
+179
+00:09:43,630 --> 00:09:45,880
+and smelling the air.
+
+180
+00:09:45,880 --> 00:09:49,120
+As I'm transitioning
+between those two key poses,
+
+181
+00:09:49,120 --> 00:09:52,260
+Look at the arcs drawn by the body
+
+182
+00:09:52,260 --> 00:09:54,460
+and the nose of the character.
+
+183
+00:09:54,460 --> 00:09:58,350
+I've exaggerated them a bit
+for the sake of this tutorial
+
+184
+00:09:58,350 --> 00:10:02,370
+but I'm sure it will look pretty
+decent and way better than
+
+185
+00:10:02,370 --> 00:10:06,600
+if I was doing a straight
+rotation between those two poses.
+
+186
+00:10:06,600 --> 00:10:10,520
+The second very important thing
+here is the weight shifting.
+
+187
+00:10:10,520 --> 00:10:13,070
+As the character is turning to his left,
+
+188
+00:10:13,070 --> 00:10:16,210
+I'm also translating his body controller
+
+189
+00:10:16,210 --> 00:10:21,020
+and I'm opening the left leg
+toward this new position.
+
+190
+00:10:21,020 --> 00:10:23,310
+The wider the legs are opened,
+
+191
+00:10:23,310 --> 00:10:26,000
+the more balanced will be our character.
+
+192
+00:10:26,000 --> 00:10:30,920
+Last detail on this pose is
+the right end dropping down.
+
+193
+00:10:30,920 --> 00:10:35,050
+When the character is raising
+into the left turn position
+
+194
+00:10:35,050 --> 00:10:38,008
+he drops his right hand to counter balance
+
+195
+00:10:38,008 --> 00:10:41,710
+the weight that has been
+shifting on the left side.
+
+196
+00:10:41,710 --> 00:10:45,860
+And as he's rising he
+straighten his tail horizontally
+
+197
+00:10:45,860 --> 00:10:47,550
+to get some better balance.
+
+198
+00:10:47,550 --> 00:10:50,430
+To better understand what
+I'm showing you here,
+
+199
+00:10:50,430 --> 00:10:54,430
+stand up and try to raise
+your nose as high as possible.
+
+200
+00:10:54,430 --> 00:10:58,240
+You will intuitively and
+naturally push your hands
+
+201
+00:10:58,240 --> 00:10:59,630
+towards the ground.
+
+202
+00:10:59,630 --> 00:11:02,990
+You will pull every part of your body down
+
+203
+00:11:02,990 --> 00:11:06,350
+to be able to raise as much as possible
+
+204
+00:11:06,350 --> 00:11:07,870
+the tip of your nose.
+
+205
+00:11:07,870 --> 00:11:11,150
+Your arm will be spreading
+and pointing downward
+
+206
+00:11:11,150 --> 00:11:16,150
+in order to lower your center
+of gravity and be balanced.
+
+207
+00:11:16,190 --> 00:11:21,100
+So the more you spread any
+body part closer to the ground,
+
+208
+00:11:21,100 --> 00:11:23,640
+the lower is your center of gravity,
+
+209
+00:11:23,640 --> 00:11:25,693
+the more balanced you are.
+
+210
+00:11:26,642 --> 00:11:29,290
+For the transition into the last pose
+
+211
+00:11:29,290 --> 00:11:33,080
+our character is hearing
+a node in his back.
+
+212
+00:11:33,080 --> 00:11:37,500
+So his attention is dragged behind him.
+
+213
+00:11:37,500 --> 00:11:40,260
+So beyond curiosity our character
+
+214
+00:11:40,260 --> 00:11:43,390
+might be scared or feel in danger.
+
+215
+00:11:43,390 --> 00:11:45,100
+So what I want to show you here
+
+216
+00:11:45,100 --> 00:11:48,570
+is that the head is leading the animation.
+
+217
+00:11:48,570 --> 00:11:50,470
+Parting from the previous pose,
+
+218
+00:11:50,470 --> 00:11:53,020
+we can see that on the next pose,
+
+219
+00:11:53,020 --> 00:11:56,200
+It's the head that has the broader motion.
+
+220
+00:11:56,200 --> 00:11:59,040
+And beyond this head rotation the heels
+
+221
+00:11:59,040 --> 00:12:03,330
+are also already pointing
+at the final destination.
+
+222
+00:12:03,330 --> 00:12:07,160
+When doing a head turn
+you generally first rotate
+
+223
+00:12:07,160 --> 00:12:10,150
+the eyes towards the target
+and then the head follow.
+
+224
+00:12:10,150 --> 00:12:12,740
+If you have watched cats or dogs
+
+225
+00:12:12,740 --> 00:12:17,350
+I'm sure you have already spotted
+how mobile their ears are.
+
+226
+00:12:17,350 --> 00:12:20,040
+So in those breakdowns I want to show
+
+227
+00:12:20,040 --> 00:12:24,010
+that the ears are currently
+leading the animation.
+
+228
+00:12:24,010 --> 00:12:27,260
+I've created a second
+step where the character
+
+229
+00:12:27,260 --> 00:12:30,370
+hear the noise again and
+the ears are pointing
+
+230
+00:12:30,370 --> 00:12:34,370
+toward the noise and he rotates
+his head more precisely.
+
+231
+00:12:34,370 --> 00:12:37,790
+And as he's getting scared
+I straighten the tail.
+
+232
+00:12:37,790 --> 00:12:40,570
+Again think of it and act it
+
+233
+00:12:40,570 --> 00:12:42,110
+when you are getting scared
+
+234
+00:12:42,110 --> 00:12:45,460
+you instantly get straight as a stick.
+
+235
+00:12:45,460 --> 00:12:47,740
+So from there there is no more doubt.
+
+236
+00:12:47,740 --> 00:12:50,970
+Our character is scared
+so I will transition
+
+237
+00:12:50,970 --> 00:12:53,860
+into the anticipation before the jump.
+
+238
+00:12:53,860 --> 00:12:57,120
+Here the hips are pulling
+the characters back
+
+239
+00:12:57,120 --> 00:13:00,980
+into the most squashed
+position as possible.
+
+240
+00:13:00,980 --> 00:13:03,830
+The ears are still pointing back towards
+
+241
+00:13:03,830 --> 00:13:05,600
+the source of the noise.
+
+242
+00:13:05,600 --> 00:13:08,860
+To want to put in short
+pre-data on whatever,
+
+243
+00:13:08,860 --> 00:13:11,720
+lets build last pose
+that is almost the same
+
+244
+00:13:11,720 --> 00:13:15,240
+where the character is
+squashed a little more.
+
+245
+00:13:15,240 --> 00:13:18,580
+Animation wise this pose
+will last maybe for one
+
+246
+00:13:18,580 --> 00:13:22,340
+or two frame maximum before
+the character jumps forward.
+
+247
+00:13:22,340 --> 00:13:25,780
+The last thing I've done
+to finish this blocking
+
+248
+00:13:25,780 --> 00:13:29,800
+is to duplicate the keys
+where I want my character
+
+249
+00:13:29,800 --> 00:13:31,330
+to hold the pose.
+
+250
+00:13:31,330 --> 00:13:34,100
+So that when I will switch to spline,
+
+251
+00:13:34,100 --> 00:13:36,490
+my character won't be moving
+
+252
+00:13:36,490 --> 00:13:39,710
+because I will have two identical pose.
+
+253
+00:13:39,710 --> 00:13:43,110
+So I wont have any
+interpolation between them.
+
+254
+00:13:43,110 --> 00:13:45,040
+And he will hold the pose.
+
+255
+00:13:45,040 --> 00:13:46,890
+Next video will be a time lapse
+
+256
+00:13:46,890 --> 00:13:50,083
+where I build all the
+breakdowns we have been talking.
+

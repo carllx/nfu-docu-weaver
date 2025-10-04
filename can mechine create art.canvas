@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"7d4658d003feac85","x":-160,"y":-220,"width":300,"height":60,"type":"text","text":"SP1: Defining Art and Creativity"},
+		{"id":"fc2e89051af90ebb","x":-160,"y":-100,"width":250,"height":60,"type":"text","text":"SP2: Machine Creativity"},
+		{"id":"135437ff41cfe0a4","x":-160,"y":15,"width":365,"height":60,"type":"text","text":"SP3: Human-Machine Relationship in Art"},
+		{"id":"4264193258ed9b8d","x":-160,"y":120,"width":332,"height":56,"type":"text","text":"SP4: The Role of Technology in Art"},
+		{"id":"e73a68f01e684f3b","x":-160,"y":200,"width":383,"height":50,"type":"text","text":"SP5: The Subjectivity and Objectivity in Art"},
+		{"id":"9f0798fbc26d2590","x":-160,"y":280,"width":363,"height":60,"type":"text","text":"SP6: Future Perspectives and Questions"},
+		{"id":"bdf4bc59154220c3","x":223,"y":-315,"width":372,"height":95,"type":"text","text":"SD1: 挑战了艺术和创造力的传统定义，强调了这些概念在技术进步背景下不断演变的性质。"},
+		{"id":"e2b9327f9196eb20","x":223,"y":-189,"width":353,"height":119,"type":"text","text":"SD2: 运用历史和当代美学理论，参考Collingwood和Aristotle等哲学家和研究人员，来构建关于机器艺术的辩论。"}
+	],
+	"edges":[
+		{"id":"aa72e4a9d9818f21","fromNode":"7d4658d003feac85","fromSide":"right","toNode":"bdf4bc59154220c3","toSide":"left"},
+		{"id":"95244c63d3a9913d","fromNode":"7d4658d003feac85","fromSide":"right","toNode":"e2b9327f9196eb20","toSide":"left"}
+	]
+}

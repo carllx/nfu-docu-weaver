@@ -1,0 +1,1263 @@
+﻿1
+00:00:00,830 --> 00:00:01,663
+- [Instructor] In this video,
+
+2
+00:00:01,663 --> 00:00:04,490
+we are going to polish
+the legs of the character.
+
+3
+00:00:04,490 --> 00:00:05,650
+It's pretty important
+
+4
+00:00:05,650 --> 00:00:08,380
+because it will help
+defining the silhouette
+
+5
+00:00:08,380 --> 00:00:10,152
+of our character.
+
+6
+00:00:10,152 --> 00:00:13,430
+It will also communicate
+its weight and agility.
+
+7
+00:00:13,430 --> 00:00:15,330
+Here you can see the final result
+
+8
+00:00:15,330 --> 00:00:17,705
+of the whole character polished.
+
+9
+00:00:17,705 --> 00:00:20,130
+Try to use the file
+provided as a reference.
+
+10
+00:00:20,130 --> 00:00:21,720
+Since they are the biggest,
+
+11
+00:00:21,720 --> 00:00:24,490
+I will start with the back
+legs of the character.
+
+12
+00:00:24,490 --> 00:00:27,590
+Since we are using inverse
+kinematic mechanism
+
+13
+00:00:27,590 --> 00:00:29,440
+for those leg, the location
+
+14
+00:00:29,440 --> 00:00:32,000
+are the most influential transform channel
+
+15
+00:00:32,000 --> 00:00:33,780
+for the animation of the legs.
+
+16
+00:00:33,780 --> 00:00:36,910
+This is the first channel
+we are going to edit.
+
+17
+00:00:36,910 --> 00:00:38,840
+Now the legs of our character
+
+18
+00:00:38,840 --> 00:00:41,510
+are dragging a lot toward the ground,
+
+19
+00:00:41,510 --> 00:00:43,880
+making them looks very heavy,
+
+20
+00:00:43,880 --> 00:00:48,010
+and like our character has
+a hard time raising them.
+
+21
+00:00:48,010 --> 00:00:51,151
+So we will need to rework the leg position
+
+22
+00:00:51,151 --> 00:00:52,813
+while in the air.
+
+23
+00:00:52,813 --> 00:00:55,080
+But we do need to keep a bit of delay
+
+24
+00:00:55,080 --> 00:00:56,240
+on the leg motion
+
+25
+00:00:56,240 --> 00:00:58,467
+since they are dragged by the body.
+
+26
+00:00:58,467 --> 00:01:00,130
+And the first thing I will do
+
+27
+00:01:00,130 --> 00:01:04,510
+is to offset by one frame
+all the keys on frame six,
+
+28
+00:01:04,510 --> 00:01:08,020
+putting a bit of delay
+on the air extreme pose
+
+29
+00:01:08,020 --> 00:01:09,060
+of the leg.
+
+30
+00:01:09,060 --> 00:01:12,620
+From the side view, I will
+be working on the z location
+
+31
+00:01:12,620 --> 00:01:15,280
+and y location curve of the leg.
+
+32
+00:01:15,280 --> 00:01:17,810
+So I will hide all the other channel
+
+33
+00:01:17,810 --> 00:01:20,160
+and focus on those curves.
+
+34
+00:01:20,160 --> 00:01:23,100
+And while I'm polishing
+the motion of the foot,
+
+35
+00:01:23,100 --> 00:01:25,960
+I'm watching every single frame.
+
+36
+00:01:25,960 --> 00:01:29,210
+The further you get
+from the center of mass
+
+37
+00:01:29,210 --> 00:01:32,580
+of your character, the
+biggest will be the arcs.
+
+38
+00:01:32,580 --> 00:01:35,320
+So when you are animating legs or hands
+
+39
+00:01:35,320 --> 00:01:36,820
+on a character,
+
+40
+00:01:36,820 --> 00:01:39,920
+it's very important to
+track what you are doing
+
+41
+00:01:39,920 --> 00:01:42,500
+and to polish it as much as possible
+
+42
+00:01:42,500 --> 00:01:46,250
+'cause a sudden gap in your curve
+
+43
+00:01:46,250 --> 00:01:49,410
+will make the motion of
+those parts very broad
+
+44
+00:01:49,410 --> 00:01:51,130
+or very large.
+
+45
+00:01:51,130 --> 00:01:54,550
+You will get a big glitch into the arc.
+
+46
+00:01:54,550 --> 00:01:56,900
+Another thing to remember
+is that a falling object
+
+47
+00:01:56,900 --> 00:01:59,640
+will accelerate before it hits the ground.
+
+48
+00:01:59,640 --> 00:02:01,500
+So make sure that your spacing
+
+49
+00:02:01,500 --> 00:02:04,110
+is the biggest before hitting the ground
+
+50
+00:02:04,110 --> 00:02:05,920
+and when leaving the ground.
+
+51
+00:02:05,920 --> 00:02:09,070
+And you can convert the contacting frame
+
+52
+00:02:09,070 --> 00:02:10,503
+with the ground to vector.
+
+53
+00:02:10,503 --> 00:02:13,330
+It's the best way to avoid
+easing in the first step.
+
+54
+00:02:13,330 --> 00:02:15,830
+Finally, to have a better readability
+
+55
+00:02:15,830 --> 00:02:16,990
+of the first leg,
+
+56
+00:02:16,990 --> 00:02:18,800
+what I will do is go in front view
+
+57
+00:02:18,800 --> 00:02:20,430
+and press Alt + B
+
+58
+00:02:20,430 --> 00:02:22,950
+and frame off of the character.
+
+59
+00:02:22,950 --> 00:02:25,450
+It will enable the view clipping mode.
+
+60
+00:02:25,450 --> 00:02:27,700
+It's like creating a tunnel
+
+61
+00:02:27,700 --> 00:02:30,529
+and whatever is outside of this tunnel
+
+62
+00:02:30,529 --> 00:02:33,230
+won't be shown in the 3D viewport.
+
+63
+00:02:33,230 --> 00:02:36,080
+It's support handy to cut the visibility
+
+64
+00:02:36,080 --> 00:02:38,060
+of your character in half.
+
+65
+00:02:38,060 --> 00:02:41,020
+While it's very useful
+in modeling for sure,
+
+66
+00:02:41,020 --> 00:02:43,770
+that's also very useful in animation.
+
+67
+00:02:43,770 --> 00:02:46,170
+Just press Alt + B again
+
+68
+00:02:46,170 --> 00:02:48,003
+to clear the clipping view.
+
+69
+00:02:48,982 --> 00:02:52,030
+I'll advise you to
+calculate the motion path
+
+70
+00:02:52,030 --> 00:02:54,360
+of the foot as soon as possible.
+
+71
+00:02:54,360 --> 00:02:57,900
+You can see that I have a
+very decent arc right away
+
+72
+00:02:57,900 --> 00:03:01,030
+but I will polish it
+using the motion path.
+
+73
+00:03:01,030 --> 00:03:03,300
+The main thing I will focus on here
+
+74
+00:03:03,300 --> 00:03:06,370
+is to make sure that the
+character is pulling his leg
+
+75
+00:03:06,370 --> 00:03:08,780
+as high as possible when jumping.
+
+76
+00:03:08,780 --> 00:03:10,530
+So it will drag in the beginning
+
+77
+00:03:10,530 --> 00:03:14,060
+and then it will catch up
+and even get very close
+
+78
+00:03:14,060 --> 00:03:15,110
+to its belly.
+
+79
+00:03:15,110 --> 00:03:17,750
+So as my arcs looks very smooth
+
+80
+00:03:17,750 --> 00:03:21,300
+and as I'm pretty satisfied
+with the motion of the leg,
+
+81
+00:03:21,300 --> 00:03:22,930
+I will switch to the front view
+
+82
+00:03:22,930 --> 00:03:26,840
+to work on the x location
+curve of the leg.
+
+83
+00:03:26,840 --> 00:03:28,960
+Here the method is pretty simple.
+
+84
+00:03:28,960 --> 00:03:32,103
+You want to avoid zigzagging motion.
+
+85
+00:03:32,103 --> 00:03:34,420
+And when the foot is stuck on the ground,
+
+86
+00:03:34,420 --> 00:03:37,810
+you may not have any
+left and right motion.
+
+87
+00:03:37,810 --> 00:03:39,600
+So polishing the x curve
+
+88
+00:03:39,600 --> 00:03:41,580
+is pretty straightforward.
+
+89
+00:03:41,580 --> 00:03:44,490
+We apply the same rule
+as when we are working
+
+90
+00:03:44,490 --> 00:03:45,550
+on the under curve.
+
+91
+00:03:45,550 --> 00:03:48,550
+Whenever the leg is contacting the ground,
+
+92
+00:03:48,550 --> 00:03:51,743
+I will switch the handle type to vector.
+
+93
+00:03:51,743 --> 00:03:56,060
+The next channel that
+inputs the most motion
+
+94
+00:03:56,060 --> 00:03:59,170
+into the foot then will be the x rotation.
+
+95
+00:03:59,170 --> 00:04:03,060
+So this is the next curve
+I will be working on.
+
+96
+00:04:03,060 --> 00:04:06,060
+While I was pretty satisfied on the arc
+
+97
+00:04:06,060 --> 00:04:07,240
+of the leg here,
+
+98
+00:04:07,240 --> 00:04:10,290
+I've made quite a big mistake.
+
+99
+00:04:10,290 --> 00:04:13,400
+I've worked the foot animation only
+
+100
+00:04:13,400 --> 00:04:16,950
+without root motion and that's a mistake.
+
+101
+00:04:16,950 --> 00:04:19,770
+I advise you to check your animation with
+
+102
+00:04:19,770 --> 00:04:23,118
+and without root motion
+as often as possible
+
+103
+00:04:23,118 --> 00:04:26,430
+because in the end, what
+you will be animating
+
+104
+00:04:26,430 --> 00:04:28,810
+or seeing into your animation
+
+105
+00:04:28,810 --> 00:04:31,840
+will be your character
+moving with the root motion.
+
+106
+00:04:31,840 --> 00:04:33,770
+It will be moving forward,
+
+107
+00:04:33,770 --> 00:04:36,254
+not moving on place like that.
+
+108
+00:04:36,254 --> 00:04:39,460
+And while the arc of the leg looks cool
+
+109
+00:04:39,460 --> 00:04:40,870
+without root motion,
+
+110
+00:04:40,870 --> 00:04:43,130
+when I've enabled the root motion,
+
+111
+00:04:43,130 --> 00:04:45,220
+it didn't look that great.
+
+112
+00:04:45,220 --> 00:04:49,630
+It's not going to be a major
+issue on the animation here
+
+113
+00:04:49,630 --> 00:04:52,380
+but I will have to fix it later on.
+
+114
+00:04:52,380 --> 00:04:53,950
+So that's an issue.
+
+115
+00:04:53,950 --> 00:04:57,250
+And you will save time if
+you switch to root motion
+
+116
+00:04:57,250 --> 00:04:58,610
+as soon as possible.
+
+117
+00:04:58,610 --> 00:05:00,980
+Back to our foot x rotation.
+
+118
+00:05:00,980 --> 00:05:04,350
+The main focus is to
+get a smooth transition
+
+119
+00:05:04,350 --> 00:05:05,990
+while in the air
+
+120
+00:05:05,990 --> 00:05:09,940
+and to get a pretty fast flopping motion
+
+121
+00:05:09,940 --> 00:05:11,820
+when leaving the ground.
+
+122
+00:05:11,820 --> 00:05:14,543
+The foot is pushing the body forward.
+
+123
+00:05:14,543 --> 00:05:16,840
+This is why we have a pretty big change
+
+124
+00:05:16,840 --> 00:05:19,200
+between frame two and frame four
+
+125
+00:05:19,200 --> 00:05:21,750
+and I'm polishing the
+curve between frame one
+
+126
+00:05:21,750 --> 00:05:24,910
+and frame two so that
+the foot doesn't clip
+
+127
+00:05:24,910 --> 00:05:26,040
+with the ground,
+
+128
+00:05:26,040 --> 00:05:29,580
+which is represented by the y-axis here.
+
+129
+00:05:29,580 --> 00:05:31,130
+One of my main concern
+
+130
+00:05:31,130 --> 00:05:35,110
+was to choose whether I
+would input foot roll or not.
+
+131
+00:05:35,110 --> 00:05:37,560
+And I've decided to go ahead with it.
+
+132
+00:05:37,560 --> 00:05:42,020
+That's why our character is
+landing on the ball of the foot
+
+133
+00:05:42,020 --> 00:05:44,990
+and then it switches to
+a flat foot position.
+
+134
+00:05:44,990 --> 00:05:47,340
+You can think of it as a foot roll
+
+135
+00:05:47,340 --> 00:05:49,110
+from the heel to the toes
+
+136
+00:05:49,110 --> 00:05:53,080
+but on digit grad, like
+cat, dogs or squirrel,
+
+137
+00:05:53,080 --> 00:05:55,920
+the heel is currently
+not touching the ground.
+
+138
+00:05:55,920 --> 00:05:58,670
+So I'm not here to give
+you an anatomic course
+
+139
+00:05:58,670 --> 00:06:02,040
+but it's important to take
+this into consideration
+
+140
+00:06:02,040 --> 00:06:06,310
+because you will intuitively
+translate human motion
+
+141
+00:06:06,310 --> 00:06:08,400
+onto animal motion.
+
+142
+00:06:08,400 --> 00:06:11,850
+While it can work or be a stylized choice,
+
+143
+00:06:11,850 --> 00:06:14,580
+it's important again to watch reference
+
+144
+00:06:14,580 --> 00:06:17,380
+of animal and understand the behavior
+
+145
+00:06:17,380 --> 00:06:19,980
+of the different part of their body,
+
+146
+00:06:19,980 --> 00:06:22,960
+depending on their function or purpose.
+
+147
+00:06:22,960 --> 00:06:26,340
+Here I'm polishing the x
+and y rotation of the foot.
+
+148
+00:06:26,340 --> 00:06:29,650
+The idea is to make the
+foot point a little inward
+
+149
+00:06:29,650 --> 00:06:31,540
+when it's leaving the ground
+
+150
+00:06:31,540 --> 00:06:33,660
+and point a little outward
+
+151
+00:06:33,660 --> 00:06:36,187
+when it's going to contact the ground.
+
+152
+00:06:36,187 --> 00:06:38,500
+One last thing, on the contact frame,
+
+153
+00:06:38,500 --> 00:06:42,560
+I want the foot to contact
+with the ground slightly
+
+154
+00:06:42,560 --> 00:06:44,590
+with its outer edge.
+
+155
+00:06:44,590 --> 00:06:47,200
+This is a very subtle motion you will find
+
+156
+00:06:47,200 --> 00:06:49,570
+in the foot motion of a human being
+
+157
+00:06:49,570 --> 00:06:51,260
+during a walk cycle.
+
+158
+00:06:51,260 --> 00:06:54,790
+The foot has a slight
+tilt from left to right,
+
+159
+00:06:54,790 --> 00:06:56,620
+while pushing on the ground.
+
+160
+00:06:56,620 --> 00:06:58,570
+So even if it's very subtle,
+
+161
+00:06:58,570 --> 00:07:01,200
+it's better to input this information
+
+162
+00:07:01,200 --> 00:07:04,670
+in the foot motion of
+our squirrel character.
+
+163
+00:07:04,670 --> 00:07:08,130
+When I got onto polishing
+the other back leg,
+
+164
+00:07:08,130 --> 00:07:10,100
+finally made the clearer move
+
+165
+00:07:10,100 --> 00:07:13,200
+to check my animation
+with the root motion on
+
+166
+00:07:13,200 --> 00:07:15,840
+as I told you in the
+beginning of this video.
+
+167
+00:07:15,840 --> 00:07:19,500
+And this is where I
+spotted the weird curvature
+
+168
+00:07:19,500 --> 00:07:21,847
+of my arc for the left leg.
+
+169
+00:07:21,847 --> 00:07:24,340
+You can see some kind of vertical easing
+
+170
+00:07:24,340 --> 00:07:25,427
+on the motion path.
+
+171
+00:07:25,427 --> 00:07:29,090
+We had to get back onto the
+polishing of the left leg.
+
+172
+00:07:29,090 --> 00:07:30,260
+Fix this issue.
+
+173
+00:07:30,260 --> 00:07:31,840
+And that's perfectly normal
+
+174
+00:07:31,840 --> 00:07:34,790
+that you have to refine
+every single controller
+
+175
+00:07:34,790 --> 00:07:37,530
+each time you are polishing one of them.
+
+176
+00:07:37,530 --> 00:07:40,510
+As I told before, since
+everything is connected,
+
+177
+00:07:40,510 --> 00:07:44,110
+fixing a bug somewhere
+or a bad motion somewhere
+
+178
+00:07:44,110 --> 00:07:47,250
+may modify the perception
+you have of the other part
+
+179
+00:07:47,250 --> 00:07:49,970
+and you will have to polish it again.
+
+180
+00:07:49,970 --> 00:07:53,830
+As every art form, an
+animation is never finished.
+
+181
+00:07:53,830 --> 00:07:55,960
+It's up to you and your schedule
+
+182
+00:07:55,960 --> 00:07:57,630
+to call it done.
+
+183
+00:07:57,630 --> 00:07:59,520
+The second important point
+
+184
+00:07:59,520 --> 00:08:02,220
+is to watch the silhouette
+of your character.
+
+185
+00:08:02,220 --> 00:08:05,350
+I don't think there is a
+shortcut in Blender to do so
+
+186
+00:08:05,350 --> 00:08:07,800
+but you can go to the shading option,
+
+187
+00:08:07,800 --> 00:08:11,010
+switch to flat and then object.
+
+188
+00:08:11,010 --> 00:08:15,360
+This way, your character will
+turn into a single solid color
+
+189
+00:08:15,360 --> 00:08:18,180
+that will help reading its silhouette.
+
+190
+00:08:18,180 --> 00:08:20,620
+The idea is to avoid some part of the body
+
+191
+00:08:20,620 --> 00:08:24,310
+to overlap and make the
+silhouette harder to understand.
+
+192
+00:08:24,310 --> 00:08:26,840
+For example, here if I overlay both feet,
+
+193
+00:08:26,840 --> 00:08:28,660
+one one top of each other,
+
+194
+00:08:28,660 --> 00:08:30,960
+the silhouette is harder to understand.
+
+195
+00:08:30,960 --> 00:08:32,430
+While if I separate them,
+
+196
+00:08:32,430 --> 00:08:34,600
+I can see there are two feet.
+
+197
+00:08:34,600 --> 00:08:36,600
+So this is not something you will be able
+
+198
+00:08:36,600 --> 00:08:38,210
+to manage all the time
+
+199
+00:08:38,210 --> 00:08:40,480
+because sometimes, the point of view
+
+200
+00:08:40,480 --> 00:08:43,410
+makes your body part overlapping
+
+201
+00:08:43,410 --> 00:08:45,150
+but just keep it in mind.
+
+202
+00:08:45,150 --> 00:08:47,650
+That's also why the position of the heel
+
+203
+00:08:47,650 --> 00:08:51,900
+is slightly offset so that
+we can see both heels tip.
+
+204
+00:08:51,900 --> 00:08:54,260
+On the final polishing stage,
+
+205
+00:08:54,260 --> 00:08:57,810
+I have tweaked the
+position of the pull target
+
+206
+00:08:57,810 --> 00:08:59,660
+to make sure that the legs
+
+207
+00:08:59,660 --> 00:09:02,730
+were not pointing outward too much.
+
+208
+00:09:02,730 --> 00:09:05,890
+This is not really about
+polishing any motion here.
+
+209
+00:09:05,890 --> 00:09:10,630
+It's mostly about fixing bugs
+from the inverse kinematic.
+
+210
+00:09:10,630 --> 00:09:13,030
+But I'm moving the controller in space
+
+211
+00:09:13,030 --> 00:09:14,670
+whenever I feel the need,
+
+212
+00:09:14,670 --> 00:09:16,386
+then playing with its curve.
+
+213
+00:09:16,386 --> 00:09:20,240
+So I will lead you there
+with a little time lapse
+
+214
+00:09:20,240 --> 00:09:23,400
+where I will be polishing both back legs
+
+215
+00:09:23,400 --> 00:09:26,210
+and I'll see you a little
+later in this video
+
+216
+00:09:26,210 --> 00:09:28,020
+to polish the front legs.
+
+217
+00:09:29,516 --> 00:09:32,266
+(tranquil music)
+
+218
+00:14:50,027 --> 00:14:53,150
+For the front leg, I didn't
+make the same mistake
+
+219
+00:14:53,150 --> 00:14:55,030
+as for the back leg
+
+220
+00:14:55,030 --> 00:14:57,860
+and mainly worked with root motion.
+
+221
+00:14:57,860 --> 00:15:01,550
+The process is basically the
+same as for the back leg,
+
+222
+00:15:01,550 --> 00:15:04,920
+so I will just give you the two key points
+
+223
+00:15:04,920 --> 00:15:08,130
+that you have to figure
+out for this motion.
+
+224
+00:15:08,130 --> 00:15:11,500
+The front legs are the
+first to get in contact
+
+225
+00:15:11,500 --> 00:15:14,900
+with the ground when your
+character is landing.
+
+226
+00:15:14,900 --> 00:15:17,630
+While it's important to make them drag
+
+227
+00:15:17,630 --> 00:15:19,350
+in the beginning of the jump,
+
+228
+00:15:19,350 --> 00:15:22,320
+when the character is
+then losing altitude,
+
+229
+00:15:22,320 --> 00:15:26,050
+it's important to show that
+the squirrel is in control.
+
+230
+00:15:26,050 --> 00:15:29,500
+So you may not swing the
+arms all the way around.
+
+231
+00:15:29,500 --> 00:15:32,370
+Since we want to show that our character
+
+232
+00:15:32,370 --> 00:15:35,000
+is in control of its run cycle,
+
+233
+00:15:35,000 --> 00:15:40,000
+then he will aim at the
+target point he will land on
+
+234
+00:15:40,110 --> 00:15:41,350
+with his arms.
+
+235
+00:15:41,350 --> 00:15:42,970
+If we look at this reference
+
+236
+00:15:42,970 --> 00:15:45,480
+where the character is shaking his arms
+
+237
+00:15:45,480 --> 00:15:47,550
+and legs all the way around,
+
+238
+00:15:47,550 --> 00:15:50,420
+we clearly understand
+that he's not in control
+
+239
+00:15:50,420 --> 00:15:51,470
+of the situation.
+
+240
+00:15:51,470 --> 00:15:54,270
+Again, you have ask yourself
+how to move the legs
+
+241
+00:15:54,270 --> 00:15:58,460
+but also why you will move
+them in a certain way.
+
+242
+00:15:58,460 --> 00:16:01,870
+Again, animation is
+like any other art form.
+
+243
+00:16:01,870 --> 00:16:04,760
+If you want to make it believable,
+
+244
+00:16:04,760 --> 00:16:06,220
+it has to make sense.
+
+245
+00:16:06,220 --> 00:16:09,370
+From the timing, the
+behavior of our character
+
+246
+00:16:09,370 --> 00:16:12,180
+is mainly based on its weight,
+
+247
+00:16:12,180 --> 00:16:14,090
+its agility, et cetera
+
+248
+00:16:14,090 --> 00:16:16,160
+but as we go along in this course,
+
+249
+00:16:16,160 --> 00:16:18,450
+we will try to ask also ourself
+
+250
+00:16:18,450 --> 00:16:21,180
+how does my character feel?
+
+251
+00:16:21,180 --> 00:16:24,290
+And how can we translate those emotion
+
+252
+00:16:24,290 --> 00:16:27,550
+through motion, through animation?
+
+253
+00:16:27,550 --> 00:16:31,620
+So keep this in mind whenever
+you are animating something.
+
+254
+00:16:31,620 --> 00:16:34,005
+The other thing here I want to avoid
+
+255
+00:16:34,005 --> 00:16:38,710
+is to have the legs or
+front arm over extending.
+
+256
+00:16:38,710 --> 00:16:41,370
+This current rig is stretchable
+
+257
+00:16:41,370 --> 00:16:44,650
+but it doesn't look that
+good on this character.
+
+258
+00:16:44,650 --> 00:16:48,450
+And also, even if the
+animation is a bit stylized,
+
+259
+00:16:48,450 --> 00:16:53,100
+I'd like to keep it on the
+realistic side of things.
+
+260
+00:16:53,100 --> 00:16:56,560
+I advise you to try to keep
+this animation grounded,
+
+261
+00:16:56,560 --> 00:16:58,580
+at least for this chapter
+
+262
+00:16:58,580 --> 00:16:59,890
+because later on,
+
+263
+00:16:59,890 --> 00:17:03,110
+when we will be working
+on humanoid character,
+
+264
+00:17:03,110 --> 00:17:05,610
+we will push the style a little further.
+
+265
+00:17:05,610 --> 00:17:08,673
+Realistic animation is
+a very hard exercise
+
+266
+00:17:08,673 --> 00:17:11,660
+because it's about very subtle motion.
+
+267
+00:17:11,660 --> 00:17:13,110
+Here I have a couple of frame
+
+268
+00:17:13,110 --> 00:17:16,360
+where the character has
+his front foot contacting
+
+269
+00:17:16,360 --> 00:17:17,193
+with the ground.
+
+270
+00:17:17,193 --> 00:17:20,260
+I've placed the 3D cursor as a guide
+
+271
+00:17:20,260 --> 00:17:21,890
+by Shift + right clicking
+
+272
+00:17:21,890 --> 00:17:24,090
+and tweaking the y location curve,
+
+273
+00:17:24,090 --> 00:17:27,430
+I will make sure that the
+foot is on the same position
+
+274
+00:17:27,430 --> 00:17:29,510
+on both contacting frame.
+
+275
+00:17:29,510 --> 00:17:32,980
+Then I will duplicate the
+last frame on the first one
+
+276
+00:17:32,980 --> 00:17:36,630
+so that both the first and
+last frame of the cycle
+
+277
+00:17:36,630 --> 00:17:38,510
+are the same as usual.
+
+278
+00:17:38,510 --> 00:17:43,510
+So here you have the key component
+to polish the front legs.
+
+279
+00:17:43,620 --> 00:17:46,210
+Avoid overextending limb,
+
+280
+00:17:46,210 --> 00:17:50,050
+avoid unnecessary and
+goofy motion of the limbs,
+
+281
+00:17:50,050 --> 00:17:52,220
+aim at the landing point.
+
+282
+00:17:52,220 --> 00:17:54,710
+Make sure that the feet stays in place
+
+283
+00:17:54,710 --> 00:17:56,980
+whenever there are
+contacting with the ground
+
+284
+00:17:56,980 --> 00:17:59,670
+and don't forget to check the silhouette
+
+285
+00:17:59,670 --> 00:18:02,860
+whenever you are working
+on both front legs.
+
+286
+00:18:02,860 --> 00:18:05,610
+I will leave you there
+with a little time lapse
+
+287
+00:18:05,610 --> 00:18:07,820
+of me finishing this polish
+
+288
+00:18:07,820 --> 00:18:09,710
+and I'll see you in the next video
+
+289
+00:18:09,710 --> 00:18:13,291
+where we are going to polish
+the tail of our character.
+
+290
+00:18:13,291 --> 00:18:16,041
+(tranquil music)
+

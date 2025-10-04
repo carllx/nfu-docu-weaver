@@ -1,0 +1,2 @@
+The broader context of this trend is that photography and cinema, the earliest forms of "new media" art, are becoming more computational and moving toward virtual worlds and networked spaces [147].
+这一趋势的更广泛背景是摄影和电影，最早的[[DigitalMedia]]艺术形式，正在变得更加计算化，并朝着[[Digital Space]]和网络空间发展[147]。([[[Networked Spaces(Netspaces)]])

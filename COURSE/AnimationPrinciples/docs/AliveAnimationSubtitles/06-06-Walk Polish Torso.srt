@@ -1,0 +1,734 @@
+﻿1
+00:00:00,970 --> 00:00:04,570
+- Start polishing the
+torso of our character.
+
+2
+00:00:04,570 --> 00:00:09,310
+As usual, I will start with
+the torso route controller.
+
+3
+00:00:09,310 --> 00:00:10,820
+This is something we have been doing
+
+4
+00:00:10,820 --> 00:00:13,030
+on all the previous lessons,
+
+5
+00:00:13,030 --> 00:00:16,480
+whether it was the robot
+or the squirrel character
+
+6
+00:00:16,480 --> 00:00:19,390
+or the run cycle on this character.
+
+7
+00:00:19,390 --> 00:00:23,940
+What I want to point out here
+is that the motion of the
+
+8
+00:00:23,940 --> 00:00:27,343
+torso root is one of
+the most important parts
+
+9
+00:00:27,343 --> 00:00:29,530
+of your character.
+
+10
+00:00:29,530 --> 00:00:34,420
+Define the center of gravity
+motion of your character.
+
+11
+00:00:34,420 --> 00:00:37,700
+Hence it will define the weight and rhythm
+
+12
+00:00:37,700 --> 00:00:39,220
+of your walk cycle,
+
+13
+00:00:39,220 --> 00:00:43,360
+which is the most important
+notion in body mechanic.
+
+14
+00:00:43,360 --> 00:00:47,210
+Start with the up and down
+motion, or Z location curve,
+
+15
+00:00:47,210 --> 00:00:50,110
+which is the most important
+on the walk cycle.
+
+16
+00:00:50,110 --> 00:00:53,350
+Right now, the curve
+looks very (indistinct)
+
+17
+00:00:53,350 --> 00:00:54,640
+and very smooth
+
+18
+00:00:54,640 --> 00:00:56,970
+but it seems that the extreme are
+
+19
+00:00:56,970 --> 00:00:59,420
+pretty well positioned in time.
+
+20
+00:00:59,420 --> 00:01:03,430
+Goal will be to bring contrast
+to the motion by holding
+
+21
+00:01:03,430 --> 00:01:06,930
+a bit the down pose and the up pose.
+
+22
+00:01:06,930 --> 00:01:10,470
+We will have a slight plateau
+on the highest and the lowest
+
+23
+00:01:10,470 --> 00:01:12,290
+values of the curve.
+
+24
+00:01:12,290 --> 00:01:13,640
+On the extreme up,
+
+25
+00:01:13,640 --> 00:01:17,800
+I'm trying to have the
+leg almost fully extended.
+
+26
+00:01:17,800 --> 00:01:21,220
+Here I'm comparing the
+previous pose with the new one.
+
+27
+00:01:21,220 --> 00:01:23,350
+During the pushing or up pose,
+
+28
+00:01:23,350 --> 00:01:26,910
+I'm trying to get an almost straight leg.
+
+29
+00:01:26,910 --> 00:01:29,110
+This give a better shape to the leg
+
+30
+00:01:29,110 --> 00:01:31,890
+and a better line of action to it.
+
+31
+00:01:31,890 --> 00:01:34,560
+We will talk about line
+or action in detail
+
+32
+00:01:34,560 --> 00:01:36,200
+in the next chapter.
+
+33
+00:01:36,200 --> 00:01:39,210
+To make it simple here,
+it makes the silhouette
+
+34
+00:01:39,210 --> 00:01:41,730
+of our character more readable.
+
+35
+00:01:41,730 --> 00:01:46,450
+As the straight leg supports
+the idea of verticality,
+
+36
+00:01:46,450 --> 00:01:48,280
+of pushing up.
+
+37
+00:01:48,280 --> 00:01:51,933
+So I've polished the
+first half of the motion,
+
+38
+00:01:51,933 --> 00:01:55,610
+I will first duplicate the
+extreme down on frame four
+
+39
+00:01:55,610 --> 00:02:00,360
+and move it by 16 frame of
+the length of the cycle,
+
+40
+00:02:00,360 --> 00:02:04,390
+get rid of all the key
+frame after frame 20.
+
+41
+00:02:04,390 --> 00:02:08,250
+And they will duplicate the
+polished portion of the curve
+
+42
+00:02:08,250 --> 00:02:13,230
+from frame four to frame 20
+and move it by 16 frames.
+
+43
+00:02:13,230 --> 00:02:16,850
+There I can select the key on frame 32,
+
+44
+00:02:16,850 --> 00:02:19,860
+if you don't have one and you
+can insert a key frame there
+
+45
+00:02:19,860 --> 00:02:21,900
+and move it on frame zero.
+
+46
+00:02:21,900 --> 00:02:26,900
+You treat of any keys that
+goes beyond our 32 frame rail.
+
+47
+00:02:26,940 --> 00:02:29,100
+If needed, don't forget to rotate
+
+48
+00:02:29,100 --> 00:02:33,450
+to beat the keys on frame
+zero and 32 to align the curve
+
+49
+00:02:33,450 --> 00:02:35,390
+from one cycle to the other.
+
+50
+00:02:35,390 --> 00:02:38,450
+Where you are polishing a
+specific feature or area
+
+51
+00:02:38,450 --> 00:02:39,740
+of your character,
+
+52
+00:02:39,740 --> 00:02:42,560
+don't hesitate to hide the other part.
+
+53
+00:02:42,560 --> 00:02:45,616
+So I will add that to the
+visibility properties panel
+
+54
+00:02:45,616 --> 00:02:47,550
+and I will hide arms
+
+55
+00:02:47,550 --> 00:02:50,660
+and hide the arms
+(indistinct) controllers.
+
+56
+00:02:50,660 --> 00:02:53,310
+I do so I remove visual noise
+
+57
+00:02:53,310 --> 00:02:55,800
+and I feel like the up and down motion
+
+58
+00:02:55,800 --> 00:02:59,900
+while it's properly timed
+is a bit too strong.
+
+59
+00:02:59,900 --> 00:03:02,440
+To make sure I'm using the bounding box
+
+60
+00:03:02,440 --> 00:03:06,240
+as a pivot point so that I
+can scale the whole curve
+
+61
+00:03:06,240 --> 00:03:07,900
+on an average.
+
+62
+00:03:07,900 --> 00:03:11,170
+I will simply scale the
+whole curve on the Y axis
+
+63
+00:03:11,170 --> 00:03:13,340
+by pressing S and then Y.
+
+64
+00:03:13,340 --> 00:03:17,176
+You can also move the whole
+curve along the Y axis
+
+65
+00:03:17,176 --> 00:03:20,325
+in the (indistinct) to
+either raise or lower
+
+66
+00:03:20,325 --> 00:03:23,120
+the center of gravity of your character.
+
+67
+00:03:23,120 --> 00:03:26,030
+I want my character to
+almost have a straight leg
+
+68
+00:03:26,030 --> 00:03:30,840
+whenever he is pushing so
+that it feels lightweight.
+
+69
+00:03:30,840 --> 00:03:33,370
+With the up and down motion now polished,
+
+70
+00:03:33,370 --> 00:03:35,680
+I will jump to the side to side motion,
+
+71
+00:03:35,680 --> 00:03:37,633
+working on the explication.
+
+72
+00:03:38,540 --> 00:03:42,520
+We'll add the Z location and
+display the X location curve.
+
+73
+00:03:42,520 --> 00:03:44,580
+It currently looks a bit messy.
+
+74
+00:03:44,580 --> 00:03:47,140
+We are going to fix it pretty quickly.
+
+75
+00:03:47,140 --> 00:03:50,620
+First thing we need to do
+is identify the extremes.
+
+76
+00:03:50,620 --> 00:03:53,462
+Weight mainly shift
+between the contact pose
+
+77
+00:03:53,462 --> 00:03:55,710
+and the passing pose.
+
+78
+00:03:55,710 --> 00:03:59,550
+Then the body is to decide
+during the pushing pose,
+
+79
+00:03:59,550 --> 00:04:02,820
+before the body starts
+falling on the other side
+
+80
+00:04:02,820 --> 00:04:04,083
+and accelerate,
+
+81
+00:04:04,970 --> 00:04:07,920
+shifting the weight onto the other leg.
+
+82
+00:04:07,920 --> 00:04:09,193
+To the polished curve,
+
+83
+00:04:09,193 --> 00:04:11,550
+when zero we have the contact pose,
+
+84
+00:04:11,550 --> 00:04:13,790
+and we are almost reached the extreme
+
+85
+00:04:13,790 --> 00:04:15,600
+on frame six in the curve
+
+86
+00:04:15,600 --> 00:04:17,430
+is until frame 11,
+
+87
+00:04:17,430 --> 00:04:19,160
+where we start pushing.
+
+88
+00:04:19,160 --> 00:04:21,100
+Frame 11 to frame 15,
+
+89
+00:04:21,100 --> 00:04:24,960
+we slowly shift the
+weight onto the other side
+
+90
+00:04:24,960 --> 00:04:27,780
+until the contact pose where we will have
+
+91
+00:04:27,780 --> 00:04:30,280
+a fast change in direction.
+
+92
+00:04:30,280 --> 00:04:33,710
+So you really want to shift
+the weight from side to side
+
+93
+00:04:33,710 --> 00:04:35,220
+during the fall,
+
+94
+00:04:35,220 --> 00:04:38,390
+whenever the leg is about
+to contact the ground
+
+95
+00:04:38,390 --> 00:04:40,070
+and contact the ground.
+
+96
+00:04:40,070 --> 00:04:43,680
+And as the character recover
+with this contacting leg
+
+97
+00:04:43,680 --> 00:04:45,306
+and start pushing on it,
+
+98
+00:04:45,306 --> 00:04:47,980
+it will first absorb the momentum
+
+99
+00:04:47,980 --> 00:04:50,930
+and then start pushing on the other side.
+
+100
+00:04:50,930 --> 00:04:54,732
+As usual, you can refer to the
+current curve on this plane,
+
+101
+00:04:54,732 --> 00:04:57,510
+but if you want to properly learn,
+
+102
+00:04:57,510 --> 00:05:00,670
+mostly focus on what we've just explained
+
+103
+00:05:00,670 --> 00:05:02,420
+first motion during the fall,
+
+104
+00:05:02,420 --> 00:05:05,000
+and then easing from the transition.
+
+105
+00:05:05,000 --> 00:05:07,890
+I was getting close to a convincing result
+
+106
+00:05:07,890 --> 00:05:11,870
+I want to be able to properly
+symmetrize the motion.
+
+107
+00:05:11,870 --> 00:05:13,960
+Note that this is not mandatory.
+
+108
+00:05:13,960 --> 00:05:17,170
+If you have a difference between
+the left to right motion,
+
+109
+00:05:17,170 --> 00:05:19,230
+it can be interesting
+
+110
+00:05:19,230 --> 00:05:22,810
+as a real life walk
+cycle is never perfect,
+
+111
+00:05:22,810 --> 00:05:24,780
+but I just want to show you how
+
+112
+00:05:24,780 --> 00:05:27,100
+to mirror the curve over time.
+
+113
+00:05:27,100 --> 00:05:29,974
+I will get rid of any
+curves that goes beyond
+
+114
+00:05:29,974 --> 00:05:31,770
+half of the cycle.
+
+115
+00:05:31,770 --> 00:05:35,230
+After frame 16, we select
+all the other keys,
+
+116
+00:05:35,230 --> 00:05:40,230
+duplicate them and move them
+by 16 frame on the X axis.
+
+117
+00:05:40,450 --> 00:05:44,900
+Now, my side to side motion
+repeat over 16 frame,
+
+118
+00:05:44,900 --> 00:05:47,390
+but always go onto the same side.
+
+119
+00:05:47,390 --> 00:05:50,590
+You need to symmetrize the
+value of our curve along
+
+120
+00:05:50,590 --> 00:05:54,190
+the Y axis and around the value zero,
+
+121
+00:05:54,190 --> 00:05:58,490
+we can easily do this
+by using the 2D cursor.
+
+122
+00:05:58,490 --> 00:06:01,190
+It is defined by the play at position
+
+123
+00:06:01,190 --> 00:06:03,240
+for the X value
+
+124
+00:06:03,240 --> 00:06:07,260
+and this horizontal blue
+line for the Y value.
+
+125
+00:06:07,260 --> 00:06:11,780
+Since we want to symmetrize our
+curve around the value zero,
+
+126
+00:06:11,780 --> 00:06:15,240
+we need to reposition our 2D cursor
+
+127
+00:06:15,240 --> 00:06:17,460
+horizontal value to zero.
+
+128
+00:06:17,460 --> 00:06:21,400
+Precisely set this value
+by adding to the view tab
+
+129
+00:06:21,400 --> 00:06:24,210
+where we can see the play at position
+
+130
+00:06:24,210 --> 00:06:28,260
+named cursor X value and the Y value.
+
+131
+00:06:28,260 --> 00:06:31,710
+So I would replace the
+current Y value by zero.
+
+132
+00:06:31,710 --> 00:06:35,100
+Now, I just have to
+make sure that I'm using
+
+133
+00:06:35,100 --> 00:06:37,940
+the 2D cursor as a pivot point,
+
+134
+00:06:37,940 --> 00:06:41,410
+scale on the Y axis by minus one,
+
+135
+00:06:41,410 --> 00:06:45,420
+the keys from frame 16 to frame 32.
+
+136
+00:06:45,420 --> 00:06:50,120
+This way, we make sure that
+our cycle is currently cycling.
+
+137
+00:06:50,120 --> 00:06:52,400
+And then I will clean a bit the curve,
+
+138
+00:06:52,400 --> 00:06:55,510
+removing the keys that talk
+too close one to the other,
+
+139
+00:06:55,510 --> 00:06:58,160
+and doesn't bring any information.
+
+140
+00:06:58,160 --> 00:07:01,680
+From there, we can work
+on the Y location axis
+
+141
+00:07:01,680 --> 00:07:03,203
+of our torso.
+
+142
+00:07:04,780 --> 00:07:07,620
+Polishing the Y curve is
+going to be pretty simple
+
+143
+00:07:07,620 --> 00:07:12,530
+because it has a very subtle
+influence onto our walk cycle.
+
+144
+00:07:12,530 --> 00:07:14,770
+If you don't want to play with this curve,
+
+145
+00:07:14,770 --> 00:07:16,070
+that's fine,
+
+146
+00:07:16,070 --> 00:07:19,690
+but you should always
+input a bit of motion.
+
+147
+00:07:19,690 --> 00:07:23,870
+By that is that since we
+are animating our walk cycle
+
+148
+00:07:23,870 --> 00:07:25,270
+on the spot,
+
+149
+00:07:25,270 --> 00:07:29,150
+the torso route forward and backward wise
+
+150
+00:07:29,150 --> 00:07:31,120
+should it be on the spot too.
+
+151
+00:07:31,120 --> 00:07:34,180
+There is always a bit
+of variation of our time
+
+152
+00:07:34,180 --> 00:07:38,645
+while your whole body is
+moving in a linear fashion,
+
+153
+00:07:38,645 --> 00:07:41,734
+the are variation for every single point
+
+154
+00:07:41,734 --> 00:07:43,740
+in the body of your character.
+
+155
+00:07:43,740 --> 00:07:47,330
+Thing to know is that as the
+character is falling forward,
+
+156
+00:07:47,330 --> 00:07:49,500
+just before the contact pose,
+
+157
+00:07:49,500 --> 00:07:52,300
+the body is accelerating forward.
+
+158
+00:07:52,300 --> 00:07:55,450
+And as soon as the foot
+is hitting the ground,
+
+159
+00:07:55,450 --> 00:07:59,060
+the body will slow down and move backward.
+
+160
+00:07:59,060 --> 00:08:01,410
+Double check the values of my curve.
+
+161
+00:08:01,410 --> 00:08:05,950
+You can see that the range of
+motion is very, very subtle.
+
+162
+00:08:05,950 --> 00:08:09,277
+It just brings some extra
+texture to the motion.
+
+163
+00:08:09,277 --> 00:08:11,730
+Our torso root is now polished.
+
+164
+00:08:11,730 --> 00:08:13,100
+And in the next video,
+
+165
+00:08:13,100 --> 00:08:16,333
+we are going to polish the
+other features of the torso.
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>2152B789-4294-45A2-B9D1-1B974125030C</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gs</string>
+			<key>text</key>
+			<string>Google AI Studio</string>
+			<key>url</key>
+			<string>https://aistudio.google.com/app/u/2/prompts/new_chat</string>
+		</dict>
+		<key>372D24E6-0040-4ADF-8C80-AFFB92D33980</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gn</string>
+			<key>text</key>
+			<string>Google NotebookLM</string>
+			<key>url</key>
+			<string>https://notebooklm.google.com/?_gl=1*1dgxitr*_up*MQ..*_ga*MzIxNzM4MDcuMTc0OTE5MzQ5Mg..*_ga_W0LDH41ZCB*czE3NTcyMDU4MzUkbzI0JGcwJHQxNzU3MjA1ODM1JGo2MCRsMCRoMA..&amp;gclid=CjwKCAjwt-_FBhBzEiwA7QEqyG3jz6QaTZ9JjojI8clmeGUW5iGxBCegsDyGOLIiYaoHcMo0_TQ3HRoCBrAQAvD_BwE&amp;gbraid=0AAAAA-fwSsc510vlEg2w8bGwsF9bcG3hz&amp;authuser=2</string>
+		</dict>
+		<key>E006DD0D-9279-4967-AEFE-18D2DAC43F79</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gg</string>
+			<key>text</key>
+			<string>Google Gemini</string>
+			<key>url</key>
+			<string>https://gemini.google.com/u/2/app</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,277 @@
+﻿1
+00:00:00,000 --> 00:00:02,100
+- [Instructor] Before
+we jump into animation,
+
+2
+00:00:02,100 --> 00:00:04,150
+I'd like to show you my table.
+
+3
+00:00:04,150 --> 00:00:06,170
+It's made of some exotic wood
+
+4
+00:00:06,170 --> 00:00:08,090
+and it's very useful too.
+
+5
+00:00:08,090 --> 00:00:10,200
+Nope, it's not a course about table
+
+6
+00:00:10,200 --> 00:00:12,610
+but I'd like to show you some resources
+
+7
+00:00:12,610 --> 00:00:13,920
+that could be useful.
+
+8
+00:00:13,920 --> 00:00:18,020
+The first one is obviously
+"The Animator's Survival Kit"
+
+9
+00:00:18,020 --> 00:00:19,520
+by Richard Williams.
+
+10
+00:00:19,520 --> 00:00:20,750
+This is a classic.
+
+11
+00:00:20,750 --> 00:00:24,670
+I guess all the animators have
+this book in their shelves,
+
+12
+00:00:24,670 --> 00:00:27,540
+and to be perfectly
+honest, it doesn't get old.
+
+13
+00:00:27,540 --> 00:00:29,500
+But you will find in there tons
+
+14
+00:00:29,500 --> 00:00:32,940
+of lesson about the
+principles of animation
+
+15
+00:00:32,940 --> 00:00:36,400
+and so many drawings that
+are still used to this date
+
+16
+00:00:36,400 --> 00:00:38,250
+to teach animation.
+
+17
+00:00:38,250 --> 00:00:40,830
+It also comes with a lot of stories
+
+18
+00:00:40,830 --> 00:00:43,790
+about animation a few decades ago.
+
+19
+00:00:43,790 --> 00:00:45,690
+But definitely, a must-have.
+
+20
+00:00:45,690 --> 00:00:47,250
+The next book, which is one
+
+21
+00:00:47,250 --> 00:00:51,560
+of my favorite is "Drawn to
+Life" by Walt Stanchfield.
+
+22
+00:00:51,560 --> 00:00:53,980
+This is a book that was recommended to me
+
+23
+00:00:53,980 --> 00:00:57,150
+by my animation mentor, Jeremy Collins,
+
+24
+00:00:57,150 --> 00:01:00,330
+and while it's mostly focused on drawing,
+
+25
+00:01:00,330 --> 00:01:03,940
+everything in there is
+appliable to animation,
+
+26
+00:01:03,940 --> 00:01:06,620
+especially when it comes to staging
+
+27
+00:01:06,620 --> 00:01:08,860
+and creating great poses.
+
+28
+00:01:08,860 --> 00:01:12,800
+The last book I'd like
+to advise is a classic.
+
+29
+00:01:12,800 --> 00:01:14,470
+It's "The Illusion of Life"
+
+30
+00:01:14,470 --> 00:01:17,200
+from Frank Thomas and Ollie Johnston.
+
+31
+00:01:17,200 --> 00:01:19,560
+Beyond the educational content,
+
+32
+00:01:19,560 --> 00:01:22,270
+it's fascinating to learn stories
+
+33
+00:01:22,270 --> 00:01:26,990
+about Disney, the studio that
+has almost created animation.
+
+34
+00:01:26,990 --> 00:01:29,200
+While you don't need those book,
+
+35
+00:01:29,200 --> 00:01:31,110
+I do believe that having them
+
+36
+00:01:31,110 --> 00:01:33,610
+and reading them will really help you
+
+37
+00:01:33,610 --> 00:01:36,240
+to dive into the art of animation.
+
+38
+00:01:36,240 --> 00:01:40,170
+There are tons of quality book
+about animation and drawing,
+
+39
+00:01:40,170 --> 00:01:42,800
+and it's always good to get a step back
+
+40
+00:01:42,800 --> 00:01:46,350
+from the screen and take
+a good book and chill.
+
+41
+00:01:46,350 --> 00:01:49,230
+I'd like to recommend
+you also a YouTube video
+
+42
+00:01:49,230 --> 00:01:53,960
+by Alan Becker about the
+12 principles of animation.
+
+43
+00:01:53,960 --> 00:01:56,500
+It has more than eight million of views,
+
+44
+00:01:56,500 --> 00:02:00,390
+and this is definitely because
+it's one of the best video
+
+45
+00:02:00,390 --> 00:02:03,470
+about the 12 principle of animation.
+
+46
+00:02:03,470 --> 00:02:07,320
+It's short, super well
+illustrated and explained.
+
+47
+00:02:07,320 --> 00:02:08,610
+A must-watch.
+
+48
+00:02:08,610 --> 00:02:12,800
+And finally, I truly advise
+you to use SyncSketch.
+
+49
+00:02:12,800 --> 00:02:16,090
+SyncSketch is an online media player
+
+50
+00:02:16,090 --> 00:02:20,160
+that allows you to read
+almost every video format,
+
+51
+00:02:20,160 --> 00:02:22,680
+and allows you to draw on screen,
+
+52
+00:02:22,680 --> 00:02:26,840
+to leave notes and to create
+reviews and share them.
+
+53
+00:02:26,840 --> 00:02:30,670
+Definitely one of the best
+platform to share your reviews
+
+54
+00:02:30,670 --> 00:02:34,056
+or get feedback from other animators.
+
+55
+00:02:34,056 --> 00:02:35,960
+This is the tool I use every day
+
+56
+00:02:35,960 --> 00:02:37,620
+for all my reviews,
+
+57
+00:02:37,620 --> 00:02:39,430
+and also in this course
+
+58
+00:02:39,430 --> 00:02:42,660
+whenever I'm analyzing any reference.
+
+59
+00:02:42,660 --> 00:02:45,610
+If you're looking for an offline solution,
+
+60
+00:02:45,610 --> 00:02:48,350
+I advise you Keyframe Pro media player.
+
+61
+00:02:48,350 --> 00:02:50,740
+You can get a free version of it.
+
+62
+00:02:50,740 --> 00:02:53,280
+There is also a paid version of it
+
+63
+00:02:53,280 --> 00:02:55,189
+with additional functionalities,
+
+64
+00:02:55,189 --> 00:02:58,423
+but personally, I prefer
+to use SyncSketch.
+

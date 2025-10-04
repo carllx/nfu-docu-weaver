@@ -1,0 +1,868 @@
+﻿1
+00:00:00,820 --> 00:00:02,850
+- [Instructor] Before we
+learn all the technique
+
+2
+00:00:02,850 --> 00:00:06,880
+to create the different shots
+from the first course teaser,
+
+3
+00:00:06,880 --> 00:00:09,300
+I would like to talk a bit about how
+
+4
+00:00:09,300 --> 00:00:12,110
+to plan this kind of production.
+
+5
+00:00:12,110 --> 00:00:13,680
+Gives you a couple of tricks
+
+6
+00:00:13,680 --> 00:00:16,330
+that are important regarding staging.
+
+7
+00:00:16,330 --> 00:00:18,200
+You generally start this kind
+
+8
+00:00:18,200 --> 00:00:22,000
+of production with a
+script, a story to tell.
+
+9
+00:00:22,000 --> 00:00:25,210
+The script will include
+the story and description
+
+10
+00:00:25,210 --> 00:00:29,820
+of the character and what
+happens or you tell this story.
+
+11
+00:00:29,820 --> 00:00:32,660
+And while a part of the team will work
+
+12
+00:00:32,660 --> 00:00:37,410
+on the concept art to define
+the art style of the film,
+
+13
+00:00:37,410 --> 00:00:39,120
+you as an animator
+
+14
+00:00:39,120 --> 00:00:43,190
+will generally be provided
+with a storyboard.
+
+15
+00:00:43,190 --> 00:00:45,590
+I'll teach you how create a storyboard
+
+16
+00:00:45,590 --> 00:00:48,370
+because this isn't something I usually do.
+
+17
+00:00:48,370 --> 00:00:52,320
+But depending on the scale of
+the studio you're working in
+
+18
+00:00:52,320 --> 00:00:55,910
+whether you're working
+alone or in the big team
+
+19
+00:00:55,910 --> 00:00:58,057
+you will find the storyboard artists
+
+20
+00:00:58,057 --> 00:00:59,680
+or you'll be in charge
+
+21
+00:00:59,680 --> 00:01:02,160
+of doing the storyboard yourself.
+
+22
+00:01:02,160 --> 00:01:06,610
+The storyboard shows how the
+picture has to be framed.
+
+23
+00:01:06,610 --> 00:01:10,750
+The key moment or beats of the animation,
+
+24
+00:01:10,750 --> 00:01:14,310
+and information about
+the character movement
+
+25
+00:01:14,310 --> 00:01:16,190
+and the camera movement.
+
+26
+00:01:16,190 --> 00:01:19,430
+Just imagine it as being a comic,
+
+27
+00:01:19,430 --> 00:01:22,770
+all the different picture of the same size
+
+28
+00:01:22,770 --> 00:01:25,620
+that chooses the size of the camera
+
+29
+00:01:25,620 --> 00:01:27,920
+and that explain what will happen
+
+30
+00:01:27,920 --> 00:01:30,610
+in your movie or in your shot.
+
+31
+00:01:30,610 --> 00:01:33,380
+By reading the script
+and seeing the storyboard
+
+32
+00:01:33,380 --> 00:01:37,870
+anyone should be able to
+figure what's going to happen
+
+33
+00:01:37,870 --> 00:01:40,640
+and what the movie will look like.
+
+34
+00:01:40,640 --> 00:01:42,590
+The storyboard is validated.
+
+35
+00:01:42,590 --> 00:01:45,680
+You can switch to creating an animatic
+
+36
+00:01:45,680 --> 00:01:48,450
+it's a shot with music and sound.
+
+37
+00:01:48,450 --> 00:01:52,410
+That will include the
+drawing from the storyboard
+
+38
+00:01:52,410 --> 00:01:54,630
+but with the right timing
+
+39
+00:01:54,630 --> 00:01:55,890
+though you can consider
+
+40
+00:01:55,890 --> 00:01:58,890
+this as being an animated storyboard.
+
+41
+00:01:58,890 --> 00:02:01,760
+Depending on your
+projection level and style
+
+42
+00:02:01,760 --> 00:02:05,260
+there might be other steps
+like pre visualization
+
+43
+00:02:05,260 --> 00:02:08,550
+but with those element you
+are generally good to go
+
+44
+00:02:08,550 --> 00:02:11,540
+into animating your shots.
+
+45
+00:02:11,540 --> 00:02:13,960
+A good shot or a good animation
+
+46
+00:02:13,960 --> 00:02:16,120
+depends on the staging.
+
+47
+00:02:16,120 --> 00:02:20,220
+Staging is one of the 12
+principles of animation.
+
+48
+00:02:20,220 --> 00:02:24,110
+Staging is the presentation
+of any idea in your shot.
+
+49
+00:02:24,110 --> 00:02:26,790
+It includes a lot of different concept
+
+50
+00:02:26,790 --> 00:02:28,246
+but to keep it simple,
+
+51
+00:02:28,246 --> 00:02:33,246
+think of it as making the
+action clear and understandable.
+
+52
+00:02:33,740 --> 00:02:36,800
+So it includes everything
+about your animation
+
+53
+00:02:36,800 --> 00:02:39,430
+whether it's the character movement,
+
+54
+00:02:39,430 --> 00:02:42,290
+what he's saying if it's
+a character speaking
+
+55
+00:02:42,290 --> 00:02:46,330
+but also the way you move the
+camera, you frame everything.
+
+56
+00:02:46,330 --> 00:02:49,770
+If we take the example of our shot,
+
+57
+00:02:49,770 --> 00:02:53,240
+we can immediately understand
+that we are in the forest.
+
+58
+00:02:53,240 --> 00:02:56,050
+To guide the viewer that
+something will happen
+
+59
+00:02:56,050 --> 00:02:56,940
+in this specific bush,
+
+60
+00:02:56,940 --> 00:03:00,500
+I've made it shaking a bit.
+
+61
+00:03:00,500 --> 00:03:03,370
+We have also animated our character
+
+62
+00:03:03,370 --> 00:03:05,730
+turning his head in here,
+
+63
+00:03:05,730 --> 00:03:09,970
+and then there is this
+anticipation before it goes away.
+
+64
+00:03:09,970 --> 00:03:12,300
+The other example is this trailer
+
+65
+00:03:12,300 --> 00:03:16,250
+for the game Nora I've made in 2018.
+
+66
+00:03:16,250 --> 00:03:19,570
+The first thing we want to
+say is that we are underwater
+
+67
+00:03:19,570 --> 00:03:21,900
+and we wanna make it a bit mystical
+
+68
+00:03:21,900 --> 00:03:25,040
+with those luminous and seaweed.
+
+69
+00:03:25,040 --> 00:03:26,610
+As we go through the surface,
+
+70
+00:03:26,610 --> 00:03:28,200
+we can see those quality of drops
+
+71
+00:03:28,200 --> 00:03:29,480
+on the camera lens
+
+72
+00:03:29,480 --> 00:03:32,570
+selling that we were into the water.
+
+73
+00:03:32,570 --> 00:03:35,963
+While we could have used
+the crab for appeal only
+
+74
+00:03:35,963 --> 00:03:40,280
+this character is used
+for scaling purpose.
+
+75
+00:03:40,280 --> 00:03:44,620
+This way we can understand
+that he's on a pretty big rock
+
+76
+00:03:44,620 --> 00:03:48,340
+and what will appear
+beyond it is even bigger.
+
+77
+00:03:48,340 --> 00:03:51,660
+Staging is also about composition.
+
+78
+00:03:51,660 --> 00:03:56,290
+Every shapes tend to drive the
+eye toward the center sphere
+
+79
+00:03:56,290 --> 00:03:57,410
+and on top of this,
+
+80
+00:03:57,410 --> 00:03:59,860
+this is also the element
+
+81
+00:03:59,860 --> 00:04:04,330
+with the brightest color
+and the strongest contrast.
+
+82
+00:04:04,330 --> 00:04:07,140
+So basically when you are building a shot
+
+83
+00:04:07,140 --> 00:04:09,890
+ask yourself all those questions.
+
+84
+00:04:09,890 --> 00:04:12,330
+Does the composition read well?
+
+85
+00:04:12,330 --> 00:04:16,800
+Do the audience know where
+the animation takes place
+
+86
+00:04:16,800 --> 00:04:20,000
+and if it matters?, Do we understand
+
+87
+00:04:20,000 --> 00:04:22,880
+the character motion and feeling?
+
+88
+00:04:22,880 --> 00:04:26,570
+And do we understand
+what is going to happen?
+
+89
+00:04:26,570 --> 00:04:28,750
+One last example here,
+
+90
+00:04:28,750 --> 00:04:33,260
+this character have a
+very slow breathing motion
+
+91
+00:04:33,260 --> 00:04:36,070
+and very slow motion in general,
+
+92
+00:04:36,070 --> 00:04:39,400
+that tells that he is very big.
+
+93
+00:04:39,400 --> 00:04:43,350
+Also the composition with
+this pyramid double shape
+
+94
+00:04:43,350 --> 00:04:46,640
+shows that he's an important character.
+
+95
+00:04:46,640 --> 00:04:48,680
+He's currently the King,
+
+96
+00:04:48,680 --> 00:04:52,730
+and we can see that the light
+is also supporting this.
+
+97
+00:04:52,730 --> 00:04:55,980
+Now look at the anticipation
+on the next move.
+
+98
+00:04:55,980 --> 00:04:59,310
+His whole body is moving
+to raise his fist,
+
+99
+00:04:59,310 --> 00:05:03,040
+again supporting the fact
+that the character is very big
+
+100
+00:05:03,040 --> 00:05:05,340
+and probably very strong.
+
+101
+00:05:05,340 --> 00:05:08,670
+And it also give a visual anticipation
+
+102
+00:05:08,670 --> 00:05:12,080
+on the transition toward the next shot.
+
+103
+00:05:12,080 --> 00:05:16,730
+The fingers are shaking
+communicating anger and strength
+
+104
+00:05:16,730 --> 00:05:20,510
+and the shuttering rocks
+just to confirm this.
+
+105
+00:05:20,510 --> 00:05:24,000
+It's now over loop two
+hours quilt or shot.
+
+106
+00:05:24,000 --> 00:05:26,900
+I want to give you some
+tips and some pitfall
+
+107
+00:05:26,900 --> 00:05:28,400
+you should avoid.
+
+108
+00:05:28,400 --> 00:05:32,640
+First try to keep your camera
+move as realistic as possible
+
+109
+00:05:32,640 --> 00:05:36,260
+as if it was a physical
+camera in the real world
+
+110
+00:05:36,260 --> 00:05:39,530
+and we will talk about
+camera in the next video.
+
+111
+00:05:39,530 --> 00:05:41,830
+The second thing about camera motion
+
+112
+00:05:41,830 --> 00:05:44,540
+is to avoid anticipation.
+
+113
+00:05:44,540 --> 00:05:48,930
+Here the bush moved first,
+and then I rotate the camera.
+
+114
+00:05:48,930 --> 00:05:50,100
+So you have to think
+
+115
+00:05:50,100 --> 00:05:53,720
+that the camera is catching
+up with the action.
+
+116
+00:05:53,720 --> 00:05:56,350
+It's not predicting the action.
+
+117
+00:05:56,350 --> 00:06:00,460
+So when our character is
+jumping out of the bush
+
+118
+00:06:00,460 --> 00:06:04,100
+it's like the offset is
+not centered in the shot
+
+119
+00:06:04,100 --> 00:06:05,670
+and then the camera catch up
+
+120
+00:06:05,670 --> 00:06:08,890
+and center it as being the focus point.
+
+121
+00:06:08,890 --> 00:06:11,870
+Another very important thing
+regarding the readability
+
+122
+00:06:11,870 --> 00:06:14,910
+of your animation is to make sure
+
+123
+00:06:14,910 --> 00:06:18,560
+that when you switch from
+one shot to the other
+
+124
+00:06:18,560 --> 00:06:22,960
+there is a continuity in the
+motion of your character.
+
+125
+00:06:22,960 --> 00:06:24,500
+If we have a look to the transition
+
+126
+00:06:24,500 --> 00:06:27,550
+between the first and second shot,
+
+127
+00:06:27,550 --> 00:06:31,440
+the character is
+disappearing behind the bush,
+
+128
+00:06:31,440 --> 00:06:33,720
+he's into a lending motion.
+
+129
+00:06:33,720 --> 00:06:37,110
+So we can think that
+during this transition
+
+130
+00:06:37,110 --> 00:06:39,830
+where he's hidden behind the bush
+
+131
+00:06:39,830 --> 00:06:43,390
+he's bouncing or jumping another time,
+
+132
+00:06:43,390 --> 00:06:46,430
+and when he finally reappear to the camera
+
+133
+00:06:46,430 --> 00:06:49,480
+is currently how ball
+making the transition
+
+134
+00:06:49,480 --> 00:06:51,650
+between the two shots seamless.
+
+135
+00:06:51,650 --> 00:06:55,850
+On the next one I used a
+fading between the two shots.
+
+136
+00:06:55,850 --> 00:06:58,340
+We generally use these
+to tell the audience
+
+137
+00:06:58,340 --> 00:07:01,960
+that we are changing off environments
+
+138
+00:07:01,960 --> 00:07:04,530
+where the animation takes place
+
+139
+00:07:04,530 --> 00:07:07,720
+or that sometime has elapsed.
+
+140
+00:07:07,720 --> 00:07:10,520
+And this is what I wanted
+to communicate here.
+
+141
+00:07:10,520 --> 00:07:13,320
+And you can see that there
+is a slight difference
+
+142
+00:07:13,320 --> 00:07:18,320
+of lightning between the
+previews and current composition
+
+143
+00:07:18,610 --> 00:07:21,970
+as if we were getting closer to a sunset.
+
+144
+00:07:21,970 --> 00:07:25,920
+The color are slightly more orangy.
+
+145
+00:07:25,920 --> 00:07:28,330
+Another thing about this shot
+
+146
+00:07:28,330 --> 00:07:33,330
+is that I make the birds
+appearing once our character
+
+147
+00:07:33,570 --> 00:07:35,390
+has got through the shot.
+
+148
+00:07:35,390 --> 00:07:37,340
+As he's in the background
+
+149
+00:07:37,340 --> 00:07:40,230
+if the bird were appearing first,
+
+150
+00:07:40,230 --> 00:07:42,910
+that will create a lot of visual noise
+
+151
+00:07:42,910 --> 00:07:45,823
+and we would lose the
+focus on our character.
+
+152
+00:07:46,720 --> 00:07:48,540
+But they've added those birds on purpose.
+
+153
+00:07:48,540 --> 00:07:51,680
+Once our character is disappearing,
+
+154
+00:07:51,680 --> 00:07:54,310
+it tells me to bring some appeal
+
+155
+00:07:54,310 --> 00:07:57,920
+and keep this shot for a little while.
+
+156
+00:07:57,920 --> 00:08:01,320
+So is that when I
+transition to the last shot
+
+157
+00:08:01,320 --> 00:08:03,707
+we have the feeling that the character
+
+158
+00:08:03,707 --> 00:08:08,707
+had the time to climb the tree
+and go on the current branch.
+
+159
+00:08:09,780 --> 00:08:13,000
+Finally here, both the composition
+
+160
+00:08:13,000 --> 00:08:15,470
+and the direction the birds are flying
+
+161
+00:08:15,470 --> 00:08:19,260
+focus our attention toward the sun
+
+162
+00:08:19,260 --> 00:08:21,920
+and the logo cross this line.
+
+163
+00:08:21,920 --> 00:08:25,630
+So while this course will
+focus on the animation
+
+164
+00:08:25,630 --> 00:08:27,470
+of our character,
+
+165
+00:08:27,470 --> 00:08:30,900
+the anticipation in the
+way our character move
+
+166
+00:08:30,900 --> 00:08:33,380
+also serve the staging.
+
+167
+00:08:33,380 --> 00:08:37,390
+And if your goal is to
+create your own shots films
+
+168
+00:08:37,390 --> 00:08:40,840
+for example, staging is very important.
+
+169
+00:08:40,840 --> 00:08:42,650
+It's like any form of art.
+
+170
+00:08:42,650 --> 00:08:47,060
+It's about composition,
+rhythm, mood, sound
+
+171
+00:08:47,060 --> 00:08:50,110
+why I put something here and not there.
+
+172
+00:08:50,110 --> 00:08:53,520
+Staging is here to support the idea
+
+173
+00:08:53,520 --> 00:08:56,073
+to make it as clear as possible.
+
+174
+00:08:57,270 --> 00:08:58,225
+To summarize, we have seen that staging
+
+175
+00:08:58,225 --> 00:09:03,225
+is about clarity of your shot.
+
+176
+00:09:03,320 --> 00:09:07,170
+Your character behavior
+is part of the staging
+
+177
+00:09:07,170 --> 00:09:10,020
+whether it's through anticipation,
+
+178
+00:09:10,020 --> 00:09:14,570
+his mood or whatever he has to communicate
+
+179
+00:09:14,570 --> 00:09:17,050
+the idea behind the shot.
+
+180
+00:09:17,050 --> 00:09:20,120
+Composition, camera movement, and lighting
+
+181
+00:09:20,120 --> 00:09:23,320
+are very important to make things clear
+
+182
+00:09:23,320 --> 00:09:27,553
+both your thought to guide
+the eyes of your audience.
+
+183
+00:09:28,590 --> 00:09:30,880
+Unless it's done on purpose,
+
+184
+00:09:30,880 --> 00:09:35,100
+try to think of your camera
+shot as if it was enrolled
+
+185
+00:09:35,100 --> 00:09:40,100
+by a real human being or
+using real world constraints.
+
+186
+00:09:40,530 --> 00:09:43,380
+If you are working on multiple shot
+
+187
+00:09:43,380 --> 00:09:46,490
+make sure that your
+transition makes sense.
+
+188
+00:09:46,490 --> 00:09:50,260
+Blend the motion from
+one shot to the other
+
+189
+00:09:50,260 --> 00:09:54,140
+or use transition whenever
+you are switching space
+
+190
+00:09:54,140 --> 00:09:56,020
+or switching time.
+
+191
+00:09:56,020 --> 00:09:58,640
+Don't forget it's a creative process
+
+192
+00:09:58,640 --> 00:10:01,770
+so don't be afraid to experiment.
+
+193
+00:10:01,770 --> 00:10:04,380
+And when you are working on big project
+
+194
+00:10:04,380 --> 00:10:06,800
+don't forget to write a script,
+
+195
+00:10:06,800 --> 00:10:11,500
+create a storyboard or
+even create an animatic.
+
+196
+00:10:11,500 --> 00:10:14,350
+In the next video, we
+will talk about the camera
+
+197
+00:10:14,350 --> 00:10:17,053
+so that you can create your first shot.
+

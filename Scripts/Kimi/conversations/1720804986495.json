@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cq8md7g6n7mo1mb1545g",
+    "attachments": [
+        {
+            "date": 2002,
+            "title": "Visuospatial memory and phonological loop in learning from multimedia",
+            "fileID": "cq8mc2q34pe37md2leeg",
+            "itemID": 1720,
+            "citation": "Gyselinck, V., Cornoldi, C., Dubois, V., De Beni, R., & Ehrlich, M. (2002). Visuospatial memory and phonological loop in learning from multimedia. Applied Cognitive Psychology, 16(6), 665–685. https://doi.org/10.1002/acp.823\n",
+            "citationShort": "Gyselinck et al., 2002",
+            "tags": [
+                "*non-fatal error",
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n引用分组:\n请对本文引用部分按照作者的思路进行重新分组, 便于理解和比较不同引用在本文中的作用。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Visuospatial memory and phonological loop in learning from multimedia, was published on 2002. (It can be cite this paper as Gyselinck et al., 2002 on your answer). \n\n",
+    "response": "根据您提供的文件内容，我们可以将引用分为以下几组，以便于理解和比较它们在文中的作用：\n\n### 工作记忆理论基础\n- **Baddeley (1986)**: 提出了工作记忆的多组分模型，包括视觉空间草图板和语音循环等子系统。\n- **Baddeley (1996)**: 进一步探讨了中央执行系统的功能。\n\n### 工作记忆子系统在文本和插图处理中的作用\n- **Kintsch (1988); van Dijk and Kintsch (1983)**: 提出了文本理解需要构建一个指代表征或心理模型。\n- **Johnson-Laird (1980, 1983)**: 提出了心理模型的概念，强调了模型与其所代表情境的结构同源性。\n\n### 语音循环在语言理解中的作用\n- **Baddeley et al. (1981)**: 研究了语音任务对句子语义错误检测的影响，支持语音循环参与句子处理。\n- **Waters et al. (1985)**: 研究了跟读任务对阅读理解的影响，但没有发现选择性干扰效应。\n\n### 视觉空间工作记忆在插图处理中的作用\n- **Kruler et al. (1994)**: 使用双任务范式研究了视觉空间工作记忆在文本插图理解中的在线参与。\n\n### 个体差异对工作记忆子系统的影响\n- **Daneman et al. (1995); Daneman and Stainton (1991)**: 研究了语音循环在维持句子的逐字表征中的作用。\n- **Gathercole and Baddeley (1993)**: 探讨了语音循环在工作记忆和语言理解中的作用。\n\n### 插图在文本理解中的作用\n- **Mayer and Sims (1994)**: 研究了文本与视觉动画同时呈现时空间能力的影响。\n\n### 工作记忆容量对多媒体学习的影响\n- **Shah and Miyake (1996); Daneman and Merikle (1996)**: 探讨了工作记忆容量在语言理解中的作用。\n\n### 其他相关研究\n- **Conte et al. (1995); Denis (1996); De Vega (1994); Friedman and Miyake (2000); Haenggi et al. (1995)**: 研究了空间可视化能力对描述性文本理解的影响。\n- **Hegarty and Sims (1994)**: 研究了在机械推理过程中图形处理的影响。\n\n在回答中，我将这些引用按照它们在文中的作用和主题进行了分组，以便于更好地理解和比较它们对本文的贡献。这些分组反映了不同研究者对于工作记忆在多媒体学习中作用的不同视角和发现。",
+    "refs": [
+        "cq8mc2q34pe37md2leeg"
+    ],
+    "title": "\n\nNow, Listen to me:\n引用分组:\n请对本",
+    "group_id": "cq8md7pp2k19hjunsru0",
+    "req_id": "cq8md7pp2k19hjunsrug",
+    "resp_id": "cq8md7pp2k19hjunsrv0",
+    "quection": "引用分组:\n请对本文引用部分按照作者的思路进行重新分组, 便于理解和比较不同引用在本文中的作用。"
+}

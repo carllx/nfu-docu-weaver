@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cpq1o08nsmmni1rrsu9g",
+    "attachments": [
+        {
+            "date": 2003,
+            "title": "Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter",
+            "fileID": "cpq1ne06n7mrrcve87ug",
+            "itemID": 465,
+            "citation": "Barad, K. (2003). Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter. Signs: Journal of Women in Culture and Society, 28(3), 223–239. https://doi.org/10.1086/345321\n",
+            "citationShort": "Barad, 2003",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n    As an academic expert, you excel at comparing and contrasting given papers. \n    Please provide a comprehensive and structured summary of these papers.\n    The instructions for the attachments uploaded:\n- Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter, was published on 2003. (It can be cite this paper as Barad, 2003 on your answer). \n\n    \nNow, Listen to me:\n这篇论文提出了什么， 他对什么领域有贡献？ \n\n    Your answer should be in Chinese, using the Markdown format for layout.",
+    "response": "这篇文章是Karen Barad在2003年发表的《Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter》（以下简称Barad, 2003）。以下是对这篇文章的概述和对其领域贡献的分析：\n\n### 文章概述\n\n#### 主题\nBarad, 2003提出了后人类主义的表演性理论，探讨了物质是如何成为重要的（Matter Comes to Matter）。\n\n#### 核心观点\n- 挑战了传统的表征主义（representationalism），该主义认为语言或文化表征可以准确反映现实。\n- 提出了表演性（performativity）作为一种替代的理解方式，强调实践/行为/动作而非语言或文化的表征。\n- 引入了“物质性”（materiality）和“能动性”（agency）的概念，认为物质不仅是被动的，也是世界变化的积极参与者。\n\n#### 方法论\n- 通过物理光学中的衍射（diffraction）概念来重新理解社会与科学的关系。\n- 提倡一种物质主义、自然主义和后人类主义的表演性理解，强调物质在世界变化中的积极作用。\n\n### 领域贡献\n\n#### 性别研究与女性研究\n- 对女性主义理论中关于性别构成的讨论提供了新的视角，挑战了性别作为文化表征的传统观点。\n\n#### 科学学\n- 对科学实践中的表征主义进行了批判，提出了科学知识是在实践中通过物质性实践产生的。\n\n#### 哲学\n- 对传统哲学中的语言哲学和认识论进行了挑战，提出了一种新的本体论和认识论的框架。\n\n#### 后人类主义\n- 推动了后人类主义理论的发展，质疑了人类与非人类、自然与文化的二元对立。\n\n#### 跨学科影响\n- 该理论对文学研究、剧场研究、表演研究等跨学科领域产生了影响，促进了对表演性概念的深入探讨。\n\n### 结构化总结\n\n- **作者**：Karen Barad\n- **发表年份**：2003\n- **论文标题**：Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter\n- **核心议题**：挑战表征主义，提出表演性理论，强调物质性的能动性\n- **理论贡献**：\n  - 提供了一种理解物质如何影响世界的新方式\n  - 对科学实践和性别构成的现有理论进行了批判和扩展\n- **方法论创新**：使用衍射概念来理解社会与科学的关系\n- **跨学科影响**：对性别研究、科学学、哲学等领域产生了深远影响\n\n通过这篇文章，Barad为理解物质、语言和实践在构建现实世界中的作用提供了新的理论工具，并对多个学科领域产生了重要的学术影响。",
+    "refs": [
+        "cpq1ne06n7mrrcve87ug"
+    ],
+    "title": "\n    As an academic expert, yo",
+    "group_id": "cpq1o0ecp7f41gf8gmv0",
+    "req_id": "cpq1o0ecp7f41gf8gmvg",
+    "resp_id": "cpq1o0ecp7f41gf8gn00",
+    "quection": "这篇论文提出了什么， 他对什么领域有贡献？ "
+}

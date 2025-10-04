@@ -1,0 +1,1117 @@
+﻿1
+00:00:00,710 --> 00:00:02,370
+- [Instructor] The time has finally come
+
+2
+00:00:02,370 --> 00:00:05,330
+to animate our squirrel character.
+
+3
+00:00:05,330 --> 00:00:06,570
+The first thing to do
+
+4
+00:00:06,570 --> 00:00:11,000
+is to play the Squirrel_Rig_UI.pi script.
+
+5
+00:00:11,000 --> 00:00:12,940
+It will enable our rig layer
+
+6
+00:00:12,940 --> 00:00:16,210
+and we will be able to
+hide bone groups easily.
+
+7
+00:00:16,210 --> 00:00:18,890
+You can duplicate our keying set action
+
+8
+00:00:18,890 --> 00:00:20,500
+and create a new action
+
+9
+00:00:20,500 --> 00:00:23,040
+that we call 01 Run cycle.
+
+10
+00:00:23,040 --> 00:00:25,420
+And then double check our preferences
+
+11
+00:00:25,420 --> 00:00:29,360
+by going into the Edit
+menu in the top bar,
+
+12
+00:00:29,360 --> 00:00:31,800
+Preferences, Animation
+
+13
+00:00:31,800 --> 00:00:35,110
+and check that the Only
+Insert Available is on.
+
+14
+00:00:35,110 --> 00:00:38,630
+It will override our usual
+automatic keying set,
+
+15
+00:00:38,630 --> 00:00:41,230
+making sure that we don't have any key
+
+16
+00:00:41,230 --> 00:00:42,470
+that will be written
+
+17
+00:00:42,470 --> 00:00:45,140
+if there is not an existing keyframe.
+
+18
+00:00:45,140 --> 00:00:48,040
+If I move this knee
+joint tweaker controller,
+
+19
+00:00:48,040 --> 00:00:50,440
+you can see that the auto keying is on
+
+20
+00:00:50,440 --> 00:00:55,160
+but Blender is only recording
+and writing location keyframe
+
+21
+00:00:55,160 --> 00:00:56,500
+for this controller.
+
+22
+00:00:56,500 --> 00:01:00,300
+This way, our action editor
+is clean in the keying
+
+23
+00:01:00,300 --> 00:01:01,670
+but on top of this,
+
+24
+00:01:01,670 --> 00:01:04,600
+we can still use a specific keying set.
+
+25
+00:01:04,600 --> 00:01:08,640
+And I will enable the
+whole character keying set.
+
+26
+00:01:08,640 --> 00:01:10,940
+This way, when I press the I key
+
+27
+00:01:10,940 --> 00:01:12,560
+to insert a keyframe,
+
+28
+00:01:12,560 --> 00:01:15,140
+Blender will key all the controllers
+
+29
+00:01:15,140 --> 00:01:17,410
+of my character and this is done
+
+30
+00:01:17,410 --> 00:01:20,710
+on top of the only
+available option we have set
+
+31
+00:01:20,710 --> 00:01:21,910
+in the preferences.
+
+32
+00:01:21,910 --> 00:01:24,430
+When we were blocking the
+bouncing ball animation,
+
+33
+00:01:24,430 --> 00:01:27,750
+I advised you to key all the controllers.
+
+34
+00:01:27,750 --> 00:01:29,670
+And here is the reason why.
+
+35
+00:01:29,670 --> 00:01:32,320
+I will rapidly block out a turn
+
+36
+00:01:32,320 --> 00:01:35,110
+with a change of foot position.
+
+37
+00:01:35,110 --> 00:01:37,650
+Our little friend is rotating his body
+
+38
+00:01:37,650 --> 00:01:38,810
+to look to the right
+
+39
+00:01:38,810 --> 00:01:41,670
+and he's also moving his feet accordingly.
+
+40
+00:01:41,670 --> 00:01:43,530
+During most of the animation,
+
+41
+00:01:43,530 --> 00:01:46,400
+his right front foot stays on the ground
+
+42
+00:01:46,400 --> 00:01:49,900
+and it switches position
+only on the very last frame.
+
+43
+00:01:49,900 --> 00:01:53,060
+Here I've done the blocking
+of those three poses,
+
+44
+00:01:53,060 --> 00:01:55,880
+only keying the controller I'm using.
+
+45
+00:01:55,880 --> 00:01:57,740
+It looks great in step mode
+
+46
+00:01:57,740 --> 00:02:00,530
+but as soon as I will switch to spline,
+
+47
+00:02:00,530 --> 00:02:01,950
+the right front foot
+
+48
+00:02:01,950 --> 00:02:04,740
+will be interpolating
+from the very first frame
+
+49
+00:02:04,740 --> 00:02:05,620
+to the last.
+
+50
+00:02:05,620 --> 00:02:07,260
+And it doesn't look good at all.
+
+51
+00:02:07,260 --> 00:02:09,660
+And I will have to move the keyframe,
+
+52
+00:02:09,660 --> 00:02:11,430
+insert new keyframe, et cetera.
+
+53
+00:02:11,430 --> 00:02:14,440
+While if I insert a keyframe
+on the whole character
+
+54
+00:02:14,440 --> 00:02:16,220
+on each main poses,
+
+55
+00:02:16,220 --> 00:02:18,330
+I will get a better behavior
+
+56
+00:02:18,330 --> 00:02:21,340
+and the right front foot will only move
+
+57
+00:02:21,340 --> 00:02:23,580
+from frame 20 to frame 30.
+
+58
+00:02:23,580 --> 00:02:25,580
+So you may think this is not a big deal
+
+59
+00:02:25,580 --> 00:02:29,340
+but believe me, if you
+have this kind of problem
+
+60
+00:02:29,340 --> 00:02:32,320
+on the whole character on every leg,
+
+61
+00:02:32,320 --> 00:02:34,280
+this is going to be a pain.
+
+62
+00:02:34,280 --> 00:02:36,100
+And if you have the same issue
+
+63
+00:02:36,100 --> 00:02:38,420
+with all the controller,
+the head, the hips,
+
+64
+00:02:38,420 --> 00:02:40,070
+that's gonna be a nightmare.
+
+65
+00:02:40,070 --> 00:02:44,180
+So key all your controllers
+during the blocking stage.
+
+66
+00:02:44,180 --> 00:02:46,970
+The second step is to study references.
+
+67
+00:02:46,970 --> 00:02:49,140
+You will find a link to this one
+
+68
+00:02:49,140 --> 00:02:50,590
+in the documentation.
+
+69
+00:02:50,590 --> 00:02:54,180
+It's very important to watch
+as much reference as possible
+
+70
+00:02:54,180 --> 00:02:57,140
+and honestly, nowadays,
+it's not that complicated
+
+71
+00:02:57,140 --> 00:03:00,160
+with YouTube to find good
+references of animals.
+
+72
+00:03:00,160 --> 00:03:03,120
+I guess you already know
+what I'm going to show here
+
+73
+00:03:03,120 --> 00:03:05,340
+is that the body of the squirrel
+
+74
+00:03:05,340 --> 00:03:06,890
+is like the bouncing ball.
+
+75
+00:03:06,890 --> 00:03:08,900
+Squashed when it's on the ground
+
+76
+00:03:08,900 --> 00:03:11,600
+and as soon as it's going in the air,
+
+77
+00:03:11,600 --> 00:03:12,840
+it is stretching.
+
+78
+00:03:12,840 --> 00:03:15,070
+Basically, the chest of the creature
+
+79
+00:03:15,070 --> 00:03:16,500
+is arriving first
+
+80
+00:03:16,500 --> 00:03:18,910
+and then the hips are catching up.
+
+81
+00:03:18,910 --> 00:03:20,830
+So when preparing an animation,
+
+82
+00:03:20,830 --> 00:03:23,380
+you have to make this work
+of seeing the character
+
+83
+00:03:23,380 --> 00:03:24,920
+as a whole piece.
+
+84
+00:03:24,920 --> 00:03:25,940
+Look at the curve
+
+85
+00:03:25,940 --> 00:03:28,150
+that make the body, for example.
+
+86
+00:03:28,150 --> 00:03:29,650
+Once you have the broad detail,
+
+87
+00:03:29,650 --> 00:03:32,150
+you have to go for the smaller detail.
+
+88
+00:03:32,150 --> 00:03:36,320
+Look how the front feet
+arrive at the separated time.
+
+89
+00:03:36,320 --> 00:03:39,730
+It's just one or two frame of difference
+
+90
+00:03:39,730 --> 00:03:42,560
+but it will make your animation way better
+
+91
+00:03:42,560 --> 00:03:45,900
+than if both end arrive at the same time.
+
+92
+00:03:45,900 --> 00:03:49,100
+In animation, when we
+get something symmetrical
+
+93
+00:03:49,100 --> 00:03:51,510
+or something occurring at the same time,
+
+94
+00:03:51,510 --> 00:03:53,180
+we call this twinning.
+
+95
+00:03:53,180 --> 00:03:55,577
+And this is something
+you should always avoid
+
+96
+00:03:55,577 --> 00:03:57,940
+unless it is done on purpose.
+
+97
+00:03:57,940 --> 00:04:00,210
+If you do the Hulk smashing the ground
+
+98
+00:04:00,210 --> 00:04:01,840
+with both his hands,
+
+99
+00:04:01,840 --> 00:04:04,910
+you want both to hit the
+ground at the same time.
+
+100
+00:04:04,910 --> 00:04:07,750
+It will communicate impact and strength.
+
+101
+00:04:07,750 --> 00:04:09,840
+But in the case of our squirrel,
+
+102
+00:04:09,840 --> 00:04:13,730
+look at how breaking the
+symmetry looks way more natural.
+
+103
+00:04:13,730 --> 00:04:16,120
+On the left, the character looks stiff,
+
+104
+00:04:16,120 --> 00:04:18,460
+on the right, it looks way better.
+
+105
+00:04:18,460 --> 00:04:20,949
+So don't forget to avoid twinning
+
+106
+00:04:20,949 --> 00:04:23,360
+both in timing and in shape
+
+107
+00:04:23,360 --> 00:04:25,130
+and let's get started.
+
+108
+00:04:25,130 --> 00:04:28,080
+I don't know how many
+frame I will need to block
+
+109
+00:04:28,080 --> 00:04:30,220
+or how long will be the jump
+
+110
+00:04:30,220 --> 00:04:32,580
+but I will start by aligning the feet
+
+111
+00:04:32,580 --> 00:04:33,750
+with the ground.
+
+112
+00:04:33,750 --> 00:04:35,060
+One cool feature
+
+113
+00:04:35,060 --> 00:04:37,230
+is that once I've positioned one
+
+114
+00:04:37,230 --> 00:04:38,810
+of the foot, I can select it
+
+115
+00:04:38,810 --> 00:04:39,950
+and press Control + C
+
+116
+00:04:39,950 --> 00:04:43,740
+to copy its pose and you
+will get a copied pose
+
+117
+00:04:43,740 --> 00:04:47,270
+to buffer message in
+the footer of Blender.
+
+118
+00:04:47,270 --> 00:04:49,310
+If I now press Control + Shift + V,
+
+119
+00:04:49,310 --> 00:04:52,205
+I will paste the mirrored
+pose automatically
+
+120
+00:04:52,205 --> 00:04:53,770
+on the other foot.
+
+121
+00:04:53,770 --> 00:04:56,260
+This is a shortcut I'm going to use a lot.
+
+122
+00:04:56,260 --> 00:05:00,370
+From there, I will start
+posing the pushing pose
+
+123
+00:05:00,370 --> 00:05:03,660
+when our character is preparing to jump.
+
+124
+00:05:03,660 --> 00:05:07,460
+So I have my reference
+image on a second screen.
+
+125
+00:05:07,460 --> 00:05:10,320
+So I invite you to have it always open
+
+126
+00:05:10,320 --> 00:05:12,020
+and try to find the frame
+
+127
+00:05:12,020 --> 00:05:14,780
+where the squirrel is preparing to jump.
+
+128
+00:05:14,780 --> 00:05:17,310
+His body should be very squashed
+
+129
+00:05:17,310 --> 00:05:20,710
+and the root of the
+torso almost horizontal
+
+130
+00:05:20,710 --> 00:05:21,600
+with the ground.
+
+131
+00:05:21,600 --> 00:05:23,190
+Starting with the back legs,
+
+132
+00:05:23,190 --> 00:05:25,320
+I'm slightly rotating the foot
+
+133
+00:05:25,320 --> 00:05:27,900
+toward the outside of the body.
+
+134
+00:05:27,900 --> 00:05:30,820
+This way, I'm breaking the symmetry both
+
+135
+00:05:30,820 --> 00:05:33,150
+from the side view and the front view.
+
+136
+00:05:33,150 --> 00:05:35,285
+Then I will move its front feet right
+
+137
+00:05:35,285 --> 00:05:38,110
+in between the back feet.
+
+138
+00:05:38,110 --> 00:05:40,480
+I'm also breaking the symmetry,
+
+139
+00:05:40,480 --> 00:05:43,980
+having one of the front
+leg slightly more forward
+
+140
+00:05:43,980 --> 00:05:47,500
+than the other, one slightly
+more raised than the other.
+
+141
+00:05:47,500 --> 00:05:50,000
+Then we need to squash the whole body
+
+142
+00:05:50,000 --> 00:05:52,118
+by rotating the chest controller
+
+143
+00:05:52,118 --> 00:05:54,170
+and the hips controller.
+
+144
+00:05:54,170 --> 00:05:58,970
+You can also slightly move them
+toward the center of gravity
+
+145
+00:05:58,970 --> 00:06:00,210
+of the character.
+
+146
+00:06:00,210 --> 00:06:03,560
+Just think of your character as a box
+
+147
+00:06:03,560 --> 00:06:07,120
+and this box has to
+contain the heaviest part
+
+148
+00:06:07,120 --> 00:06:10,010
+of the character, the chest and the hips.
+
+149
+00:06:10,010 --> 00:06:12,888
+The head and the tail
+counterbalance each other
+
+150
+00:06:12,888 --> 00:06:17,330
+and if we draw a straight
+line in the middle
+
+151
+00:06:17,330 --> 00:06:18,870
+of this pose, we can see
+
+152
+00:06:18,870 --> 00:06:23,460
+that our feet are more or less
+framing this contact point
+
+153
+00:06:23,460 --> 00:06:26,150
+between the vertical line and the ground,
+
+154
+00:06:26,150 --> 00:06:29,600
+offering a balanced pose to our character.
+
+155
+00:06:29,600 --> 00:06:31,360
+When blocking a character,
+
+156
+00:06:31,360 --> 00:06:32,830
+you should always start
+
+157
+00:06:32,830 --> 00:06:34,973
+with the most extreme position.
+
+158
+00:06:34,973 --> 00:06:39,160
+So I will now block the airborne position.
+
+159
+00:06:39,160 --> 00:06:41,830
+I start by moving the root controller
+
+160
+00:06:41,830 --> 00:06:44,570
+by half of the length of the jump.
+
+161
+00:06:44,570 --> 00:06:48,960
+In this case, I move it
+by 30 centimeter forward
+
+162
+00:06:48,960 --> 00:06:52,410
+and then I will use the torso controller
+
+163
+00:06:52,410 --> 00:06:54,090
+to raise the character.
+
+164
+00:06:54,090 --> 00:06:58,510
+In most cases, you will use
+the root controller only
+
+165
+00:06:58,510 --> 00:07:02,470
+to move your character
+on the y and x-axis.
+
+166
+00:07:02,470 --> 00:07:05,160
+When I do a run or walk cycle,
+
+167
+00:07:05,160 --> 00:07:06,940
+I generally deal with it
+
+168
+00:07:06,940 --> 00:07:09,180
+without moving the root bone
+
+169
+00:07:09,180 --> 00:07:11,950
+as if the character was on a treadmill.
+
+170
+00:07:11,950 --> 00:07:16,029
+But it's a bit harder to
+read the shape of the jump.
+
+171
+00:07:16,029 --> 00:07:18,600
+So during the blocking stage,
+
+172
+00:07:18,600 --> 00:07:21,530
+we will use what we call a root motion.
+
+173
+00:07:21,530 --> 00:07:23,890
+And when the animation will be finished,
+
+174
+00:07:23,890 --> 00:07:26,126
+we will get rid of this root motion
+
+175
+00:07:26,126 --> 00:07:28,280
+so that our character
+
+176
+00:07:28,280 --> 00:07:30,900
+will be jumping without moving forward.
+
+177
+00:07:30,900 --> 00:07:33,730
+This way it's gonna be
+way easier to use it
+
+178
+00:07:33,730 --> 00:07:35,610
+as a run cycle
+
+179
+00:07:35,610 --> 00:07:38,220
+and we will just have
+to move the root bone
+
+180
+00:07:38,220 --> 00:07:40,630
+wherever we want in our scene.
+
+181
+00:07:40,630 --> 00:07:42,611
+Don't worry if you don't get it right now,
+
+182
+00:07:42,611 --> 00:07:45,250
+we will do it together later on.
+
+183
+00:07:45,250 --> 00:07:46,560
+Back to our air pose.
+
+184
+00:07:46,560 --> 00:07:50,040
+You can see that I've
+slightly stretched the body.
+
+185
+00:07:50,040 --> 00:07:52,890
+So I've canceled the rotation on the hips
+
+186
+00:07:52,890 --> 00:07:56,880
+and the chest and then I'm
+resetting them by hand.
+
+187
+00:07:56,880 --> 00:07:59,120
+So this is something I advise you to do
+
+188
+00:07:59,120 --> 00:08:02,860
+when you don't have a
+major change in the pose.
+
+189
+00:08:02,860 --> 00:08:06,320
+You select the hips and
+the chest controller
+
+190
+00:08:06,320 --> 00:08:09,510
+and press Alt + R and Alt + G
+
+191
+00:08:09,510 --> 00:08:11,440
+to get rid of any rotation
+
+192
+00:08:11,440 --> 00:08:14,493
+that was recorded on the previous pose.
+
+193
+00:08:14,493 --> 00:08:17,230
+And then you create the new pose yourself.
+
+194
+00:08:17,230 --> 00:08:20,430
+Blocking a new pose from a neutral one
+
+195
+00:08:20,430 --> 00:08:24,980
+will push you to correctly
+look at your reference
+
+196
+00:08:24,980 --> 00:08:28,350
+and force you to work on
+the shape of the new one.
+
+197
+00:08:28,350 --> 00:08:32,750
+The back legs are pointing
+toward their starting point
+
+198
+00:08:32,750 --> 00:08:35,540
+while the front leg are pushing forward
+
+199
+00:08:35,540 --> 00:08:37,980
+to pull the whole body in the air.
+
+200
+00:08:37,980 --> 00:08:42,510
+Both the front and back feet
+are currently pointing inward.
+
+201
+00:08:42,510 --> 00:08:44,140
+It preserve balance
+
+202
+00:08:44,140 --> 00:08:47,020
+and aerodynamism to the character.
+
+203
+00:08:47,020 --> 00:08:48,930
+You can use the pull target
+
+204
+00:08:48,930 --> 00:08:50,389
+and the rotation controller
+
+205
+00:08:50,389 --> 00:08:54,930
+to fix the elbow and the
+knees of your character.
+
+206
+00:08:54,930 --> 00:08:57,490
+Don't forget to scrub between your first
+
+207
+00:08:57,490 --> 00:08:58,540
+and second pose
+
+208
+00:08:58,540 --> 00:09:01,990
+to kind of feel the motion, the movement.
+
+209
+00:09:01,990 --> 00:09:04,360
+Then to improve the pose,
+
+210
+00:09:04,360 --> 00:09:07,520
+I will stretch my character even more
+
+211
+00:09:07,520 --> 00:09:10,520
+and realign a bit the hips and the tail.
+
+212
+00:09:10,520 --> 00:09:12,001
+During the blocking stage,
+
+213
+00:09:12,001 --> 00:09:15,800
+figuring the overlapping
+motion of the tail
+
+214
+00:09:15,800 --> 00:09:17,340
+is pretty hard.
+
+215
+00:09:17,340 --> 00:09:21,270
+That's why I'm just working
+with the very first controller
+
+216
+00:09:21,270 --> 00:09:22,280
+of the tail.
+
+217
+00:09:22,280 --> 00:09:24,930
+We can work on the
+follow-through of the tail
+
+218
+00:09:24,930 --> 00:09:26,730
+while detailing the blocking
+
+219
+00:09:26,730 --> 00:09:30,480
+or even during the
+polishing of the animation.
+
+220
+00:09:30,480 --> 00:09:33,380
+To finish the blocking
+of those extreme pose,
+
+221
+00:09:33,380 --> 00:09:36,130
+I will have to guess the landing position.
+
+222
+00:09:36,130 --> 00:09:37,890
+On the air extreme pose,
+
+223
+00:09:37,890 --> 00:09:41,510
+I will set the root bone position to -0.3
+
+224
+00:09:41,510 --> 00:09:43,600
+and I will duplicate all the keys
+
+225
+00:09:43,600 --> 00:09:46,550
+on frame zero and move them on frame 10.
+
+226
+00:09:46,550 --> 00:09:50,330
+Since the airborne root
+position on the y-axis
+
+227
+00:09:50,330 --> 00:09:55,330
+was -0.3, I will set the landing at -0.6,
+
+228
+00:09:55,660 --> 00:09:57,040
+two time further.
+
+229
+00:09:57,040 --> 00:09:58,930
+Now I scrub through the keyframe
+
+230
+00:09:58,930 --> 00:10:00,460
+to feel the motion
+
+231
+00:10:00,460 --> 00:10:02,770
+and I feel should be a little further.
+
+232
+00:10:02,770 --> 00:10:05,500
+So I just need to select the root bone
+
+233
+00:10:05,500 --> 00:10:06,760
+and on frame five,
+
+234
+00:10:06,760 --> 00:10:09,980
+I will try a -0.4
+
+235
+00:10:09,980 --> 00:10:11,290
+and now I feel like I need
+
+236
+00:10:11,290 --> 00:10:12,840
+to tweak a bit this pose
+
+237
+00:10:12,840 --> 00:10:16,230
+to make the character a
+little more horizontal.
+
+238
+00:10:16,230 --> 00:10:18,230
+So this is something important.
+
+239
+00:10:18,230 --> 00:10:21,610
+Don't hesitate to revise your blocking.
+
+240
+00:10:21,610 --> 00:10:24,591
+The blocking stage is
+the most important stage.
+
+241
+00:10:24,591 --> 00:10:26,970
+And if you don't do it properly,
+
+242
+00:10:26,970 --> 00:10:29,430
+if you don't spend the time now,
+
+243
+00:10:29,430 --> 00:10:32,950
+you will suffer even more
+during the polishing stage.
+
+244
+00:10:32,950 --> 00:10:34,920
+I can now push my root bone
+
+245
+00:10:34,920 --> 00:10:38,960
+to the position -0.8 on the landing frame
+
+246
+00:10:38,960 --> 00:10:41,100
+and now it feels like the squirrel
+
+247
+00:10:41,100 --> 00:10:43,130
+is jumping too far away for me.
+
+248
+00:10:43,130 --> 00:10:48,130
+So I will try to find an in
+between with -0.35 and -0.7.
+
+249
+00:10:49,980 --> 00:10:51,300
+Compared to the reference,
+
+250
+00:10:51,300 --> 00:10:55,330
+our squirrel is making pretty
+large jump to move forward
+
+251
+00:10:55,330 --> 00:10:57,650
+but animation is not necessarily
+
+252
+00:10:57,650 --> 00:10:59,880
+about copying the reality.
+
+253
+00:10:59,880 --> 00:11:01,520
+It's exaggeration.
+
+254
+00:11:01,520 --> 00:11:04,260
+And this will lead us to a peel.
+
+255
+00:11:04,260 --> 00:11:08,080
+It's a but like making
+a caricature of motion.
+
+256
+00:11:08,080 --> 00:11:09,264
+When you do a caricature,
+
+257
+00:11:09,264 --> 00:11:12,320
+you try to find the cool feature
+
+258
+00:11:12,320 --> 00:11:14,880
+of the face and exaggerate them.
+
+259
+00:11:14,880 --> 00:11:17,630
+We are doing the same here with motion.
+
+260
+00:11:17,630 --> 00:11:18,780
+In the next video,
+
+261
+00:11:18,780 --> 00:11:20,930
+we will start adding breakdowns
+
+262
+00:11:20,930 --> 00:11:24,767
+to detail the blocking
+animation of our character.
+

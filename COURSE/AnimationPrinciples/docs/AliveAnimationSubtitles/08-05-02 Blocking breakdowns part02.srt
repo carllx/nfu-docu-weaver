@@ -1,0 +1,618 @@
+﻿1
+00:00:00,150 --> 00:00:02,960
+- [Instructor] As I'm
+starting a new pose, as usual,
+
+2
+00:00:02,960 --> 00:00:05,700
+I will insert a key frame
+on all the controllers
+
+3
+00:00:05,700 --> 00:00:07,990
+for both the bag and the character.
+
+4
+00:00:07,990 --> 00:00:09,550
+The pose I'm going to create,
+
+5
+00:00:09,550 --> 00:00:12,850
+is the overshoot after the right cross.
+
+6
+00:00:12,850 --> 00:00:16,570
+Since it is performed just
+after the right cross,
+
+7
+00:00:16,570 --> 00:00:18,860
+we can start by posing the bag.
+
+8
+00:00:18,860 --> 00:00:22,050
+I've just swing the bag,
+using the main controller.
+
+9
+00:00:22,050 --> 00:00:24,800
+I'm resetting the pose of
+all the other controller.
+
+10
+00:00:24,800 --> 00:00:28,240
+Then I will select the wall
+forward kinematic chain,
+
+11
+00:00:28,240 --> 00:00:31,710
+the blue controller, and
+slightly bend the bag.
+
+12
+00:00:31,710 --> 00:00:34,770
+The idea is to swing the bag
+in reaction to the punch,
+
+13
+00:00:34,770 --> 00:00:38,580
+so try to align its orientation
+with the previous pose
+
+14
+00:00:38,580 --> 00:00:41,380
+of the punch. The process
+to create the overshoot
+
+15
+00:00:41,380 --> 00:00:42,720
+is pretty straightforward.
+
+16
+00:00:42,720 --> 00:00:46,870
+You just have to push further
+any pose you've picked.
+
+17
+00:00:46,870 --> 00:00:50,060
+The chest was twisting, I twisted more.
+
+18
+00:00:50,060 --> 00:00:53,080
+I've pushed the center of gravity forward
+
+19
+00:00:53,080 --> 00:00:56,870
+and move it a bit to the
+left onto the supporting leg.
+
+20
+00:00:56,870 --> 00:01:00,380
+I'm spreading the left arm
+that was swinging back.
+
+21
+00:01:00,380 --> 00:01:03,970
+So basically I'm pushing
+the whole line of action.
+
+22
+00:01:03,970 --> 00:01:07,730
+Guarding the right arm, I'm
+slightly bending it inward.
+
+23
+00:01:07,730 --> 00:01:10,280
+The fun fact about this pose is that
+
+24
+00:01:10,280 --> 00:01:13,770
+I haven't kept it in the end,
+but because it looks like
+
+25
+00:01:13,770 --> 00:01:15,930
+the character is losing balance,
+
+26
+00:01:15,930 --> 00:01:18,660
+and I was having a hard time to transition
+
+27
+00:01:18,660 --> 00:01:21,800
+into the next pose. So
+it doesn't mean that
+
+28
+00:01:21,800 --> 00:01:24,320
+this pose doesn't work,
+but it doesn't sell
+
+29
+00:01:24,320 --> 00:01:26,290
+what I want to do with the character.
+
+30
+00:01:26,290 --> 00:01:28,490
+And as explained many time before,
+
+31
+00:01:28,490 --> 00:01:30,890
+as being a creative process,
+
+32
+00:01:30,890 --> 00:01:33,530
+animation is not a linear workflow,
+
+33
+00:01:33,530 --> 00:01:36,050
+so you may change your mind along the way.
+
+34
+00:01:36,050 --> 00:01:37,283
+That's perfectly fine.
+
+35
+00:01:38,630 --> 00:01:41,700
+Now comes the time where we
+are going to build the pose
+
+36
+00:01:41,700 --> 00:01:43,090
+just after the hook.
+
+37
+00:01:43,090 --> 00:01:44,930
+It is the moment where
+I need the character
+
+38
+00:01:44,930 --> 00:01:49,690
+to rotate around his left
+foot and put his right foot
+
+39
+00:01:49,690 --> 00:01:53,340
+behind, as being his real
+leg, before performing
+
+40
+00:01:53,340 --> 00:01:56,520
+the switch kick. Before I
+start working on the character,
+
+41
+00:01:56,520 --> 00:02:00,510
+I'm posing the bag exactly as
+I did for the previous pose.
+
+42
+00:02:00,510 --> 00:02:04,300
+And then comes the painful
+moment where we don't have any
+
+43
+00:02:04,300 --> 00:02:09,300
+reference for the next poses
+into the rest pose of God pose.
+
+44
+00:02:09,990 --> 00:02:12,810
+And this is the time where
+you have to leave your chair,
+
+45
+00:02:12,810 --> 00:02:16,130
+in the best case, shoot
+your own reference and,
+
+46
+00:02:16,130 --> 00:02:19,440
+or at least try to the
+mimic the move in front of
+
+47
+00:02:19,440 --> 00:02:24,440
+a big mirror or in front
+of nothing, and try to feel
+
+48
+00:02:24,790 --> 00:02:28,230
+how your body's moving. Super
+important, as an animator,
+
+49
+00:02:28,230 --> 00:02:31,200
+to try to act what you are animating.
+
+50
+00:02:31,200 --> 00:02:34,850
+When doing crazy combat move,
+we do know that we can't
+
+51
+00:02:34,850 --> 00:02:39,760
+do exactly the same, but just
+do it at a very slow pace.
+
+52
+00:02:39,760 --> 00:02:43,250
+Just take the pose and
+transition into the other pose
+
+53
+00:02:43,250 --> 00:02:45,190
+and your body will do the rest.
+
+54
+00:02:45,190 --> 00:02:48,920
+I'm certainly not as impressive
+as the guy on the reference,
+
+55
+00:02:48,920 --> 00:02:53,370
+but I do get enough information,
+at least some information,
+
+56
+00:02:53,370 --> 00:02:57,470
+in order to perform the next
+move and to pose my character.
+
+57
+00:02:57,470 --> 00:03:01,340
+I'm swinging back with my
+left arm after the hook.
+
+58
+00:03:01,340 --> 00:03:04,970
+My feet are rotating, but they
+are not changing location.
+
+59
+00:03:04,970 --> 00:03:09,390
+There is then a weight
+transfer upon my left leg
+
+60
+00:03:09,390 --> 00:03:11,810
+while I'm rotating the right shoulder,
+
+61
+00:03:11,810 --> 00:03:15,880
+so my whole chest toward
+the next contact pose.
+
+62
+00:03:15,880 --> 00:03:18,890
+The right foot will
+contact first, and then the
+
+63
+00:03:18,890 --> 00:03:22,950
+center of gravity will catch
+up. While rotating, my weight
+
+64
+00:03:22,950 --> 00:03:26,010
+is mostly on the left leg,
+and then, I can go into
+
+65
+00:03:26,010 --> 00:03:29,990
+the switch kick. So from there,
+I can go back into Blender
+
+66
+00:03:29,990 --> 00:03:32,040
+and start working on my pose.
+
+67
+00:03:32,040 --> 00:03:36,260
+We need to mostly shift the
+weight upon the left leg.
+
+68
+00:03:36,260 --> 00:03:40,170
+As I did many time before I
+will console any transform
+
+69
+00:03:40,170 --> 00:03:42,450
+on both the hips and the chest.
+
+70
+00:03:42,450 --> 00:03:44,180
+As explained before learning wise,
+
+71
+00:03:44,180 --> 00:03:46,850
+it's better to start your
+new pose from scratch,
+
+72
+00:03:46,850 --> 00:03:50,850
+and it's also a good way to
+avoid to inherit mistakes
+
+73
+00:03:50,850 --> 00:03:53,040
+from the previous pose.
+Adding a quick look
+
+74
+00:03:53,040 --> 00:03:56,530
+to the reference pose I've
+attached, we can clearly see
+
+75
+00:03:56,530 --> 00:03:59,540
+the line of action has a S shape.
+
+76
+00:03:59,540 --> 00:04:02,690
+The supporting leg is pushing the hips up,
+
+77
+00:04:02,690 --> 00:04:05,040
+and the hips are leading the rotation.
+
+78
+00:04:05,040 --> 00:04:08,980
+So the hips are twisted
+more than the shoulders
+
+79
+00:04:08,980 --> 00:04:13,470
+or the chest. Now, I like to
+focus on some artistic choice.
+
+80
+00:04:13,470 --> 00:04:16,320
+On the reference, we can
+see that I'm lifting my
+
+81
+00:04:16,320 --> 00:04:20,300
+right foot pretty high.
+While on the reference pose,
+
+82
+00:04:20,300 --> 00:04:24,660
+I've decided to make tip of
+the toes sliding on the ground,
+
+83
+00:04:24,660 --> 00:04:27,630
+as if my character was ice skating.
+
+84
+00:04:27,630 --> 00:04:31,520
+So I've straightened a bit
+the leg, and I make the toes
+
+85
+00:04:31,520 --> 00:04:34,990
+drag on the ground. This
+is creating a nice flow
+
+86
+00:04:34,990 --> 00:04:38,810
+to the silhouette of the
+character, but also to the move.
+
+87
+00:04:38,810 --> 00:04:42,390
+I will be able to create
+a nice arc using the foot.
+
+88
+00:04:42,390 --> 00:04:45,970
+Instead of pulling the arm
+back in guard, I've decided
+
+89
+00:04:45,970 --> 00:04:50,230
+to make them drag more. This
+will create a larger arc
+
+90
+00:04:50,230 --> 00:04:53,710
+whenever I will be pulling
+the arm, and they will form
+
+91
+00:04:53,710 --> 00:04:57,070
+an elliptic shape, so the
+whole pose is supporting
+
+92
+00:04:57,070 --> 00:04:59,680
+or drawing the rotation of the character.
+
+93
+00:04:59,680 --> 00:05:04,200
+And this is all I generally
+build my pose to get
+
+94
+00:05:04,200 --> 00:05:08,540
+very smooth motion. I try
+to respect the physicality
+
+95
+00:05:08,540 --> 00:05:12,030
+of the motion, placing
+the center of gravity upon
+
+96
+00:05:12,030 --> 00:05:16,280
+the supporting foot. I respect
+the chest and hips shape,
+
+97
+00:05:16,280 --> 00:05:19,470
+but as soon as I can, I
+try to create some kind of
+
+98
+00:05:19,470 --> 00:05:22,300
+choreographing motion, meaning that
+
+99
+00:05:22,300 --> 00:05:25,570
+I will pose the arms and the
+legs as if the character was
+
+100
+00:05:25,570 --> 00:05:29,510
+totally mastering what he's
+doing and trying to input
+
+101
+00:05:29,510 --> 00:05:31,823
+a bit of beauty in his movement.
+
+102
+00:05:32,890 --> 00:05:37,030
+From the previous pose, we
+can settle into the next pose.
+
+103
+00:05:37,030 --> 00:05:40,810
+The right foot has reach
+its final position and is
+
+104
+00:05:40,810 --> 00:05:44,240
+flatten on the ground. Now
+the center of gravity is
+
+105
+00:05:44,240 --> 00:05:47,910
+on the right foot. It's no
+longer on the left foot.
+
+106
+00:05:47,910 --> 00:05:51,490
+The chest is twisted backward,
+so the right shoulder
+
+107
+00:05:51,490 --> 00:05:55,430
+is in the back while it was
+dragging in the previous pose.
+
+108
+00:05:55,430 --> 00:05:58,870
+The left fist is forward
+while the right fist
+
+109
+00:05:58,870 --> 00:06:02,380
+is a little backward. If we
+compare the previous pose
+
+110
+00:06:02,380 --> 00:06:05,920
+and the current pose from the
+top view, we can clearly see
+
+111
+00:06:05,920 --> 00:06:08,880
+the twisting or rotation
+of the upper body,
+
+112
+00:06:08,880 --> 00:06:13,300
+leading into a big contrast
+regarding the arm poses.
+
+113
+00:06:13,300 --> 00:06:16,220
+The current pose is pretty
+close to the ideal pose
+
+114
+00:06:16,220 --> 00:06:19,480
+of the character, but the
+center of gravity is slightly
+
+115
+00:06:19,480 --> 00:06:24,480
+lower, so the character looks
+a little heavier on his feet.
+
+116
+00:06:24,960 --> 00:06:29,020
+Both feet are flattened on
+the ground, and the character
+
+117
+00:06:29,020 --> 00:06:33,110
+makes a nice C shape from
+a profile. This is a good
+
+118
+00:06:33,110 --> 00:06:36,840
+anticipation pose for the
+next move. To jump into the
+
+119
+00:06:36,840 --> 00:06:39,760
+switch kick, the character
+is gathering energy.
+
+120
+00:06:39,760 --> 00:06:42,880
+This is why we have lowered
+its center of gravity.
+
+121
+00:06:42,880 --> 00:06:46,950
+And it does a bit of a
+squat stance with his legs.
+
+122
+00:06:46,950 --> 00:06:51,020
+Think of the spine as a spring.
+If you bend it in a way,
+
+123
+00:06:51,020 --> 00:06:53,430
+when you will release
+the force, it will bend
+
+124
+00:06:53,430 --> 00:06:55,700
+the other way. From there, I just need to
+
+125
+00:06:55,700 --> 00:06:59,190
+tweak the position of the
+arms to match the reference
+
+126
+00:06:59,190 --> 00:07:02,230
+I've attached. Don't
+worry if you weren't able
+
+127
+00:07:02,230 --> 00:07:05,890
+to follow along with this
+video. The idea is to highlight
+
+128
+00:07:05,890 --> 00:07:10,300
+the important point you have
+to look after, and then I will
+
+129
+00:07:10,300 --> 00:07:14,070
+provide you a slow-paced
+time lapse, so that you can
+
+130
+00:07:14,070 --> 00:07:15,653
+see the whole process.
+

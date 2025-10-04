@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "start_time=\"00:02:00\"\nend_time=\"00:39:10\"\nvideo=\"{clipboard}\"\nvideo_name=\"${video%.mp4}\"\noutput_clip=\"${video_name}_clip.mp4\"\n\nffmpeg -i \"$video\" -t $(($(echo \"$start_time\" | awk -F: '{print $1*3600+$2*60+$3}') - 0)) -c copy \"${video_name}_temp_part1.mp4\"\n\nffmpeg -i \"$video\" -ss $(($(echo \"$end_time\" | awk -F: '{print $1*3600+$2*60+$3}') + 1)) -c copy \"${video_name}_temp_part2.mp4\"\n\necho \"file '${video_name}_temp_part1.mp4'\" > mylist.txt\necho \"file '${video_name}_temp_part2.mp4'\" >> mylist.txt\n\nffmpeg -f concat -safe 0 -i mylist.txt -c copy \"$output_clip\"\n\nrm \"${video_name}_temp_part1.mp4\"\nrm \"${video_name}_temp_part2.mp4\"\nrm mylist.txt\n\necho \"Cleanup complete. The final video is saved as '$output_clip'.\"",
+    "uid" : "BFD9B3D0-3E52-4908-8AC1-124237E0FA54",
+    "name" : "Video Cut- Remove clip",
+    "keyword" : "vcremove"
+  }
+}

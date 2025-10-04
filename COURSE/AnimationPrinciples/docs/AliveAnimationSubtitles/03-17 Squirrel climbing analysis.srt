@@ -1,0 +1,493 @@
+﻿1
+00:00:00,420 --> 00:00:02,410
+- [Instructor] The last animation we need
+
+2
+00:00:02,410 --> 00:00:05,810
+to complete our squirrel sequence
+
+3
+00:00:05,810 --> 00:00:07,930
+is the climbing animation.
+
+4
+00:00:07,930 --> 00:00:09,510
+I've already explain you
+
+5
+00:00:09,510 --> 00:00:12,530
+that studying reference was very important
+
+6
+00:00:12,530 --> 00:00:15,640
+and I found two nice references
+
+7
+00:00:15,640 --> 00:00:17,300
+for this animation.
+
+8
+00:00:17,300 --> 00:00:19,700
+And to be honest while studying them,
+
+9
+00:00:19,700 --> 00:00:21,140
+I was really surprised
+
+10
+00:00:21,140 --> 00:00:25,360
+on how the squirrel
+move while its climbing.
+
+11
+00:00:25,360 --> 00:00:27,970
+If I was to do it without reference
+
+12
+00:00:27,970 --> 00:00:31,280
+I would have not done it right for sure.
+
+13
+00:00:31,280 --> 00:00:32,960
+When studying reference,
+
+14
+00:00:32,960 --> 00:00:36,290
+it's better to study each part separately.
+
+15
+00:00:36,290 --> 00:00:39,720
+I will start with the
+silhouette of our character.
+
+16
+00:00:39,720 --> 00:00:41,670
+And I will try to draw
+
+17
+00:00:41,670 --> 00:00:44,030
+the hips, chest and head.
+
+18
+00:00:44,030 --> 00:00:46,850
+Whether it's the squirrel character
+
+19
+00:00:46,850 --> 00:00:48,850
+or a human character.
+
+20
+00:00:48,850 --> 00:00:50,680
+It's very important
+
+21
+00:00:50,680 --> 00:00:53,030
+to check out the position
+
+22
+00:00:53,030 --> 00:00:54,410
+between the hips and chest
+
+23
+00:00:54,410 --> 00:00:56,150
+and chest and head.
+
+24
+00:00:56,150 --> 00:00:58,590
+Look at how during the motion,
+
+25
+00:00:58,590 --> 00:01:02,820
+the hips, chest and head gets aligned
+
+26
+00:01:02,820 --> 00:01:06,220
+and how the space or the distance
+
+27
+00:01:06,220 --> 00:01:09,430
+between each features is growing.
+
+28
+00:01:09,430 --> 00:01:11,530
+The whole body of the character
+
+29
+00:01:11,530 --> 00:01:13,926
+is stretching toward the next part.
+
+30
+00:01:13,926 --> 00:01:14,759
+(wind howling)
+
+31
+00:01:14,759 --> 00:01:16,180
+The next thing you can do
+
+32
+00:01:16,180 --> 00:01:19,770
+to help you read the
+shape of the character,
+
+33
+00:01:19,770 --> 00:01:22,990
+is draw what we call the line of action.
+
+34
+00:01:22,990 --> 00:01:24,650
+We will have a deeper look
+
+35
+00:01:24,650 --> 00:01:27,130
+to what line of action is
+
+36
+00:01:27,130 --> 00:01:29,630
+in the mastering pose chapter,
+
+37
+00:01:29,630 --> 00:01:30,920
+but for the time being,
+
+38
+00:01:30,920 --> 00:01:33,140
+just think of a curve
+
+39
+00:01:33,140 --> 00:01:34,500
+that connects the head,
+
+40
+00:01:34,500 --> 00:01:36,730
+the chest and the hips
+
+41
+00:01:36,730 --> 00:01:41,140
+and that define simplified
+version of the curvature
+
+42
+00:01:41,140 --> 00:01:43,160
+of the body of your character.
+
+43
+00:01:43,160 --> 00:01:45,890
+This is the most simplified version
+
+44
+00:01:45,890 --> 00:01:47,340
+of the shape of the body.
+
+45
+00:01:47,340 --> 00:01:50,000
+That we're going to create.
+
+46
+00:01:50,000 --> 00:01:51,620
+It's really fascinating
+
+47
+00:01:51,620 --> 00:01:54,090
+to see how we start with an s-shape
+
+48
+00:01:54,090 --> 00:01:56,650
+and how it gets stretched
+
+49
+00:01:56,650 --> 00:01:58,680
+and get back to this s-shape.
+
+50
+00:01:58,680 --> 00:01:59,513
+(wind howling)
+
+51
+00:01:59,513 --> 00:02:01,790
+The next step is to track the hands
+
+52
+00:02:01,790 --> 00:02:03,910
+and the feet of the character.
+
+53
+00:02:03,910 --> 00:02:06,980
+While the shape is not that surprising,
+
+54
+00:02:06,980 --> 00:02:09,540
+the thing is that I don't know when
+
+55
+00:02:09,540 --> 00:02:11,380
+the feet are contacting,
+
+56
+00:02:11,380 --> 00:02:13,260
+compared to the hands,
+
+57
+00:02:13,260 --> 00:02:16,030
+and this is why I'm
+tracking those elements.
+
+58
+00:02:16,030 --> 00:02:19,340
+I'm trying to figure when
+they take off the trunk
+
+59
+00:02:19,340 --> 00:02:22,030
+and when they contact again with it.
+
+60
+00:02:22,030 --> 00:02:23,490
+And we can see that the ends
+
+61
+00:02:23,490 --> 00:02:26,940
+of the character take off very early on,
+
+62
+00:02:26,940 --> 00:02:29,560
+while the feet stays in contact.
+
+63
+00:02:29,560 --> 00:02:31,910
+There is a moment where our character
+
+64
+00:02:31,910 --> 00:02:33,490
+is totally our bones.
+
+65
+00:02:33,490 --> 00:02:36,270
+So it means that he's jumping
+
+66
+00:02:36,270 --> 00:02:38,880
+and then the hand and the feet
+
+67
+00:02:38,880 --> 00:02:43,013
+have like one frame offset or the contact.
+
+68
+00:02:43,970 --> 00:02:47,410
+If I quickly do the same
+with the second reference
+
+69
+00:02:47,410 --> 00:02:49,950
+you will find a link to the YouTube video
+
+70
+00:02:49,950 --> 00:02:51,520
+in the documentation.
+
+71
+00:02:51,520 --> 00:02:53,540
+The behavior of the character
+
+72
+00:02:53,540 --> 00:02:57,430
+is pretty close to what we
+had on the first reference,
+
+73
+00:02:57,430 --> 00:02:59,930
+the front legs or hands,
+
+74
+00:02:59,930 --> 00:03:03,100
+are taking off very early on
+
+75
+00:03:03,100 --> 00:03:06,520
+while the feet are still
+in contact with the trunk.
+
+76
+00:03:06,520 --> 00:03:07,670
+The main difference
+
+77
+00:03:07,670 --> 00:03:09,850
+compared to the previous reference
+
+78
+00:03:09,850 --> 00:03:12,530
+is the timing of the contact pose.
+
+79
+00:03:12,530 --> 00:03:13,920
+On this reference,
+
+80
+00:03:13,920 --> 00:03:15,590
+both the ends and the feet
+
+81
+00:03:15,590 --> 00:03:17,674
+seems to contact at the same time.
+
+82
+00:03:17,674 --> 00:03:18,507
+(wind howling)
+
+83
+00:03:18,507 --> 00:03:20,600
+The next thing I wanted to check
+
+84
+00:03:20,600 --> 00:03:23,290
+was the spacing of the hips
+
+85
+00:03:23,290 --> 00:03:25,520
+and the spacing of the head.
+
+86
+00:03:25,520 --> 00:03:29,080
+So I've tried to pound a point on the hips
+
+87
+00:03:29,080 --> 00:03:30,660
+that allow me to track them.
+
+88
+00:03:30,660 --> 00:03:32,840
+There was a different of color
+
+89
+00:03:32,840 --> 00:03:34,910
+in the fur of the character
+
+90
+00:03:34,910 --> 00:03:36,130
+and to track the head,
+
+91
+00:03:36,130 --> 00:03:39,586
+I've simply tracked the
+eyes of the character
+
+92
+00:03:39,586 --> 00:03:40,930
+and we can really see
+
+93
+00:03:40,930 --> 00:03:43,790
+that the head is going very fast
+
+94
+00:03:43,790 --> 00:03:46,240
+in the beginning and stops,
+
+95
+00:03:46,240 --> 00:03:47,940
+and then the hips catch up.
+
+96
+00:03:47,940 --> 00:03:50,240
+So there will be quite of a difference
+
+97
+00:03:50,240 --> 00:03:52,300
+between the hazing of the hips
+
+98
+00:03:52,300 --> 00:03:54,509
+and the hazing of the head position.
+
+99
+00:03:54,509 --> 00:03:55,342
+(wind howling)
+
+100
+00:03:55,342 --> 00:03:58,280
+The last thing I've
+checked was the distance
+
+101
+00:03:58,280 --> 00:04:00,490
+between the chest of the character
+
+102
+00:04:00,490 --> 00:04:01,920
+and the tree trunk.
+
+103
+00:04:01,920 --> 00:04:04,010
+And it's pretty surprising,
+
+104
+00:04:04,010 --> 00:04:07,100
+as the character is pushing forward,
+
+105
+00:04:07,100 --> 00:04:10,900
+his chest is getting
+closer to the tree trunk.
+
+106
+00:04:10,900 --> 00:04:13,180
+This isn't something I would have guessed
+
+107
+00:04:13,180 --> 00:04:16,970
+because when you are
+used to make run cycle,
+
+108
+00:04:16,970 --> 00:04:19,590
+you tend to push your character
+
+109
+00:04:19,590 --> 00:04:21,580
+away from the ground,
+
+110
+00:04:21,580 --> 00:04:23,560
+while he's pushing on his leg
+
+111
+00:04:23,560 --> 00:04:25,120
+to move forward.
+
+112
+00:04:25,120 --> 00:04:28,920
+While here as the character is pushing on
+
+113
+00:04:28,920 --> 00:04:31,820
+his legs is getting closer and closer
+
+114
+00:04:31,820 --> 00:04:33,050
+to the tree trunk.
+
+115
+00:04:33,050 --> 00:04:35,510
+And as you get in contact
+
+116
+00:04:35,510 --> 00:04:36,850
+with the tree trunk
+
+117
+00:04:36,850 --> 00:04:39,840
+is slightly get away from it.
+
+118
+00:04:39,840 --> 00:04:41,790
+And that's a major difference
+
+119
+00:04:41,790 --> 00:04:43,990
+compared to a run cycle.
+
+120
+00:04:43,990 --> 00:04:45,843
+Let's block this animation.
+

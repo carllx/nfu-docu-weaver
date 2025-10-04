@@ -1,0 +1,623 @@
+﻿1
+00:00:00,200 --> 00:00:02,620
+- [Instructor] If you've
+watched the previous chapter,
+
+2
+00:00:02,620 --> 00:00:05,970
+it's no surprise for you that
+the first thing we need to do
+
+3
+00:00:05,970 --> 00:00:07,740
+is search for references.
+
+4
+00:00:07,740 --> 00:00:10,550
+This video, I will show
+you what I'm looking for
+
+5
+00:00:10,550 --> 00:00:14,920
+in my references and how I
+use them to plan my animation.
+
+6
+00:00:14,920 --> 00:00:18,970
+I'm convinced that we are in
+the golden era of learning,
+
+7
+00:00:18,970 --> 00:00:21,569
+or there is a bunch of stupid
+things on the internet,
+
+8
+00:00:21,569 --> 00:00:25,480
+and you can waste your whole
+life watching funny cats
+
+9
+00:00:25,480 --> 00:00:26,380
+and stuff like that.
+
+10
+00:00:26,380 --> 00:00:28,480
+Nowadays, you can find tutorials
+
+11
+00:00:28,480 --> 00:00:30,200
+for almost everything in life.
+
+12
+00:00:30,200 --> 00:00:34,700
+You won't necessarily get good
+references from tutorials,
+
+13
+00:00:34,700 --> 00:00:38,090
+but you can learn a lot about
+the purpose of a stance,
+
+14
+00:00:38,090 --> 00:00:39,867
+the purpose of a footwork,
+
+15
+00:00:39,867 --> 00:00:41,950
+how the body's supposed to be moved
+
+16
+00:00:41,950 --> 00:00:44,610
+to land an accurate
+switch kick, for example.
+
+17
+00:00:44,610 --> 00:00:47,400
+Watching this kind of video
+would bring your attention
+
+18
+00:00:47,400 --> 00:00:51,760
+to small details, whether they
+are cultural or technical.
+
+19
+00:00:51,760 --> 00:00:55,060
+And those little details
+will bring believability
+
+20
+00:00:55,060 --> 00:00:57,590
+and authenticity to your animation.
+
+21
+00:00:57,590 --> 00:01:01,620
+So it's always a good move
+to mix your references
+
+22
+00:01:01,620 --> 00:01:03,500
+with watching tutorials.
+
+23
+00:01:03,500 --> 00:01:08,230
+And you should not limit you
+references to real life videos.
+
+24
+00:01:08,230 --> 00:01:11,270
+You can use drawings,
+you can use video games,
+
+25
+00:01:11,270 --> 00:01:12,590
+you can use movies.
+
+26
+00:01:12,590 --> 00:01:14,210
+One of the most important thing
+
+27
+00:01:14,210 --> 00:01:16,760
+is that you enjoy the
+reference you've taken
+
+28
+00:01:16,760 --> 00:01:19,897
+because whatever is appealing
+to you in this video,
+
+29
+00:01:19,897 --> 00:01:23,940
+it will stimulate you to put
+them into your own animation.
+
+30
+00:01:23,940 --> 00:01:27,450
+Finally, when it comes
+to real life references,
+
+31
+00:01:27,450 --> 00:01:31,160
+try to find the references
+from the master on their art.
+
+32
+00:01:31,160 --> 00:01:33,630
+Since I want to do a Muay Thai combo,
+
+33
+00:01:33,630 --> 00:01:36,530
+I'm watching for references
+featuring the masters
+
+34
+00:01:36,530 --> 00:01:41,530
+at this art, like Saenchai,
+Jacquot, Liam Harrison,
+
+35
+00:01:41,729 --> 00:01:43,852
+or Jonathan Haggerty.
+
+36
+00:01:43,852 --> 00:01:46,430
+Then you need to plan your own animation.
+
+37
+00:01:46,430 --> 00:01:48,160
+If you are working in the movie industry,
+
+38
+00:01:48,160 --> 00:01:51,570
+you will probably have a
+storyboard or an animatic.
+
+39
+00:01:51,570 --> 00:01:53,240
+If you're working for games,
+
+40
+00:01:53,240 --> 00:01:55,840
+you will probably have a list of moves
+
+41
+00:01:55,840 --> 00:01:57,770
+provided by the game designers.
+
+42
+00:01:57,770 --> 00:01:59,500
+And if you are working for yourself,
+
+43
+00:01:59,500 --> 00:02:02,420
+then you can choose whatever
+kind of move you want to do.
+
+44
+00:02:02,420 --> 00:02:05,730
+But I advise you to do a
+minimum of planning ahead
+
+45
+00:02:05,730 --> 00:02:08,430
+and then edit your references accordingly.
+
+46
+00:02:08,430 --> 00:02:12,110
+In my case, I want to
+do a left jab, a cross,
+
+47
+00:02:12,110 --> 00:02:15,090
+followed by a powerful hook,
+
+48
+00:02:15,090 --> 00:02:17,460
+and then going into a switch kick.
+
+49
+00:02:17,460 --> 00:02:20,750
+It's a pretty common combo
+in kickboxing and Muay Thai
+
+50
+00:02:20,750 --> 00:02:23,130
+and, animation wise, it's interesting
+
+51
+00:02:23,130 --> 00:02:26,010
+because the first two
+punches are straight,
+
+52
+00:02:26,010 --> 00:02:28,960
+then the second draw a nice curve,
+
+53
+00:02:28,960 --> 00:02:32,270
+and the last move draw
+an even bigger curve.
+
+54
+00:02:32,270 --> 00:02:35,670
+So we will have a nice contrast in shapes.
+
+55
+00:02:35,670 --> 00:02:39,920
+I've gathered multiple
+references from different people
+
+56
+00:02:39,920 --> 00:02:41,220
+doing the same move.
+
+57
+00:02:41,220 --> 00:02:44,000
+And then using a video editing software,
+
+58
+00:02:44,000 --> 00:02:45,980
+you can use a Blender, for example,
+
+59
+00:02:45,980 --> 00:02:49,330
+I make sure I'm syncing
+all the videos together.
+
+60
+00:02:49,330 --> 00:02:51,182
+And I use the extreme to do it.
+
+61
+00:02:51,182 --> 00:02:53,400
+In this case, the different hits
+
+62
+00:02:53,400 --> 00:02:54,970
+of the punches and the kick.
+
+63
+00:02:54,970 --> 00:02:58,670
+Finally, don't hesitate
+to rework the timing
+
+64
+00:02:58,670 --> 00:03:02,320
+of your references until
+you get a nice rhythm.
+
+65
+00:03:02,320 --> 00:03:07,130
+You can slow some parts,
+accelerate other, or just cut in.
+
+66
+00:03:07,130 --> 00:03:09,696
+No, listen to the hits on the reference.
+
+67
+00:03:09,696 --> 00:03:12,530
+(men yell)
+
+68
+00:03:12,530 --> 00:03:15,640
+Now, what I will do is
+that I will cut the sound
+
+69
+00:03:15,640 --> 00:03:17,651
+and only keep the impact.
+
+70
+00:03:17,651 --> 00:03:20,138
+(punches thwap)
+
+71
+00:03:20,138 --> 00:03:20,971
+(men yell)
+
+72
+00:03:20,971 --> 00:03:23,810
+And it goes like, pum-pum, pum, pum.
+
+73
+00:03:23,810 --> 00:03:26,730
+So while I was looking
+for contrast in the motion
+
+74
+00:03:26,730 --> 00:03:30,420
+of the reference, there is
+also contrast in the rhythm.
+
+75
+00:03:30,420 --> 00:03:33,300
+And if at some point you
+have some linear reason
+
+76
+00:03:33,300 --> 00:03:36,350
+into your reference, use video editing
+
+77
+00:03:36,350 --> 00:03:39,110
+to get to a mock contrasted rhythm.
+
+78
+00:03:39,110 --> 00:03:42,550
+And the best way to do it
+is to do it with your mouth.
+
+79
+00:03:42,550 --> 00:03:45,230
+Make the sound and the
+rhythm with your mouth,
+
+80
+00:03:45,230 --> 00:03:47,900
+tum, tum, tum, tum,
+
+81
+00:03:47,900 --> 00:03:51,390
+and change it to ta-tum, tum, tum.
+
+82
+00:03:51,390 --> 00:03:52,910
+Once you find a good rhythm,
+
+83
+00:03:52,910 --> 00:03:56,410
+just edit your references
+and go to the next step.
+
+84
+00:03:56,410 --> 00:03:59,300
+With my reference exported,
+the first thing I do
+
+85
+00:03:59,300 --> 00:04:02,660
+is that I load it into
+SimSketch or Keyframe Pro.
+
+86
+00:04:02,660 --> 00:04:05,310
+From there, I will
+scrub through the video.
+
+87
+00:04:05,310 --> 00:04:10,010
+And I need to identify the
+golden poses or the extreme.
+
+88
+00:04:10,010 --> 00:04:12,780
+I'm looking at the poses
+where the character
+
+89
+00:04:12,780 --> 00:04:14,500
+are the most impactful.
+
+90
+00:04:14,500 --> 00:04:17,910
+So it's generally the moment
+where they hit the bag
+
+91
+00:04:17,910 --> 00:04:20,110
+or just one frame after,
+
+92
+00:04:20,110 --> 00:04:22,770
+as the punch goes a bit through the bag.
+
+93
+00:04:22,770 --> 00:04:24,570
+For those first punches,
+
+94
+00:04:24,570 --> 00:04:27,900
+this is the moment where the
+body is fully in extension.
+
+95
+00:04:27,900 --> 00:04:30,880
+And I will then do the same with the hook
+
+96
+00:04:32,260 --> 00:04:33,163
+and the kick.
+
+97
+00:04:35,190 --> 00:04:38,520
+Then I will try to spot
+the contrasting poses.
+
+98
+00:04:38,520 --> 00:04:41,870
+In this case, the
+anticipation for the hook
+
+99
+00:04:41,870 --> 00:04:44,460
+and the anticipation for the kicks.
+
+100
+00:04:44,460 --> 00:04:48,620
+Once I spot them, we
+can analyze those poses.
+
+101
+00:04:48,620 --> 00:04:50,680
+So, as we did in the previous chapter,
+
+102
+00:04:50,680 --> 00:04:53,880
+the first thing I'm looking
+at are the line of action.
+
+103
+00:04:53,880 --> 00:04:56,320
+On the idle stance,
+the weight is generally
+
+104
+00:04:56,320 --> 00:05:00,250
+on the rear foot so that
+they can block incoming kicks
+
+105
+00:05:00,250 --> 00:05:02,955
+with the front leg or the front shin.
+
+106
+00:05:02,955 --> 00:05:06,320
+Which means the line of
+action will generally go
+
+107
+00:05:06,320 --> 00:05:10,450
+through the punching fist and
+the real leg that is pushing.
+
+108
+00:05:10,450 --> 00:05:12,740
+On the hook, the energy generally come
+
+109
+00:05:12,740 --> 00:05:14,820
+from the front leg and the hips.
+
+110
+00:05:14,820 --> 00:05:18,550
+And finally, on the kick,
+it's quite easier to identify
+
+111
+00:05:18,550 --> 00:05:21,250
+by just watching the
+silhouette of the character.
+
+112
+00:05:21,250 --> 00:05:23,260
+One goes from the pushing foot
+
+113
+00:05:23,260 --> 00:05:25,300
+and the other on the swinging leg.
+
+114
+00:05:25,300 --> 00:05:28,840
+From there, I will be looking
+at the secondary shape
+
+115
+00:05:28,840 --> 00:05:32,960
+exactly as we did during
+the previous chapter.
+
+116
+00:05:32,960 --> 00:05:36,010
+They generally help to
+define the silhouette
+
+117
+00:05:36,010 --> 00:05:39,940
+of the character once we have
+defined the line of action.
+
+118
+00:05:39,940 --> 00:05:42,230
+From there, I will go more into detail
+
+119
+00:05:42,230 --> 00:05:45,390
+and I will try to define
+the orientation of the chest
+
+120
+00:05:45,390 --> 00:05:48,908
+using the shoulder line,
+the orientation of the hips,
+
+121
+00:05:48,908 --> 00:05:52,210
+and the orientation of
+the head using the eyes.
+
+122
+00:05:52,210 --> 00:05:56,180
+I'm also drawing lines
+on the tip of the feet
+
+123
+00:05:56,180 --> 00:05:59,400
+so is that I can remember
+that I need to double check
+
+124
+00:05:59,400 --> 00:06:01,130
+the orientation of the feet.
+
+125
+00:06:01,130 --> 00:06:02,880
+It's super important.
+
+126
+00:06:02,880 --> 00:06:06,743
+It's super important to pay
+extra attention to the feet
+
+127
+00:06:06,743 --> 00:06:11,150
+because they will directly
+influence the hips' orientation.
+
+128
+00:06:11,150 --> 00:06:15,040
+And we need an extra attention
+for this specific animation
+
+129
+00:06:15,040 --> 00:06:19,870
+because footwork in combat
+sport is super important,
+
+130
+00:06:19,870 --> 00:06:23,120
+as it delivers power and balance
+
+131
+00:06:23,120 --> 00:06:26,850
+and so it will bring
+believability to your animation.
+
+132
+00:06:26,850 --> 00:06:29,340
+So once you've done this
+for your golden poses,
+
+133
+00:06:29,340 --> 00:06:32,610
+you will have to do it for
+the breakdowns, et cetera.
+
+134
+00:06:32,610 --> 00:06:35,550
+So now that know my reference workflow,
+
+135
+00:06:35,550 --> 00:06:37,640
+let's jump into the next video where we
+
+136
+00:06:37,640 --> 00:06:40,110
+will start blocking our animation,
+
+137
+00:06:40,110 --> 00:06:43,273
+using the key poses we have defined here.
+

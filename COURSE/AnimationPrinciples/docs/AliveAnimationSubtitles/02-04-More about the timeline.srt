@@ -1,0 +1,532 @@
+﻿1
+00:00:01,020 --> 00:00:02,660
+- [Pierre] As any Blender editor,
+
+2
+00:00:02,660 --> 00:00:06,560
+you can navigate in the timeline
+using your middle mouse.
+
+3
+00:00:06,560 --> 00:00:09,840
+You can move selected items by pressing G,
+
+4
+00:00:09,840 --> 00:00:11,720
+you can scale them using S,
+
+5
+00:00:11,720 --> 00:00:15,010
+which will push them
+further from the play head.
+
+6
+00:00:15,010 --> 00:00:18,030
+But pressing R won't rotate the key frame.
+
+7
+00:00:18,030 --> 00:00:19,520
+What it will do instead,
+
+8
+00:00:19,520 --> 00:00:22,210
+it will all you to change
+the key frame type.
+
+9
+00:00:22,210 --> 00:00:26,490
+Changing the key frame type
+won't affect your animation.
+
+10
+00:00:26,490 --> 00:00:30,630
+It's only a visual
+modification of your key frames
+
+11
+00:00:30,630 --> 00:00:34,500
+that may allow you to better
+organize your animation.
+
+12
+00:00:34,500 --> 00:00:37,040
+I personally never use it
+(drowned out by whooshing)
+
+13
+00:00:37,040 --> 00:00:39,900
+Pressing the zero key on the numpad
+
+14
+00:00:39,900 --> 00:00:44,350
+will center your timeline
+position around the play head.
+
+15
+00:00:44,350 --> 00:00:46,350
+When you have some key selected,
+
+16
+00:00:46,350 --> 00:00:49,390
+pressing the dot key on the numpad
+
+17
+00:00:49,390 --> 00:00:52,343
+will frame or focus the selection.
+
+18
+00:00:53,210 --> 00:00:57,740
+Pressing the home key will
+frame the whole animation
+
+19
+00:00:57,740 --> 00:01:01,660
+from the very first to
+the very last key frame.
+
+20
+00:01:01,660 --> 00:01:05,470
+You can preview a part of
+your animation by pressing P
+
+21
+00:01:05,470 --> 00:01:09,010
+and dragging and hold on the
+section you want to repeat.
+
+22
+00:01:09,010 --> 00:01:11,550
+Press Alt + P to clear the preview.
+
+23
+00:01:11,550 --> 00:01:13,610
+You can activate the preview range
+
+24
+00:01:13,610 --> 00:01:15,820
+by clicking the clock icon
+
+25
+00:01:15,820 --> 00:01:19,323
+and then setting the
+starting and ending frame.
+
+26
+00:01:24,350 --> 00:01:27,360
+You can set the beginning
+of your animation,
+
+27
+00:01:27,360 --> 00:01:29,230
+pressing Control + Home.
+
+28
+00:01:29,230 --> 00:01:32,580
+And you can set the end by
+pressing Control + Home.
+
+29
+00:01:32,580 --> 00:01:34,760
+When you activate the preview range
+
+30
+00:01:34,760 --> 00:01:37,740
+with the clock icon is
+using Control + Home
+
+31
+00:01:37,740 --> 00:01:41,670
+and Control + Home, will set
+the beginning and the end
+
+32
+00:01:41,670 --> 00:01:43,300
+of the preview range.
+
+33
+00:01:43,300 --> 00:01:46,070
+My timeline here is just showing me
+
+34
+00:01:46,070 --> 00:01:48,860
+the key frame of the selected items.
+
+35
+00:01:48,860 --> 00:01:52,660
+If I go into view and
+uncheck only key frames
+
+36
+00:01:52,660 --> 00:01:54,100
+from selected object,
+
+37
+00:01:54,100 --> 00:01:57,070
+every key frame in the
+scene will be displayed.
+
+38
+00:01:57,070 --> 00:02:00,750
+My character currently I've
+a subdivision modifier.
+
+39
+00:02:00,750 --> 00:02:03,210
+If I go to the rendering properties,
+
+40
+00:02:03,210 --> 00:02:06,740
+I can see that simplify
+has been activated.
+
+41
+00:02:06,740 --> 00:02:10,640
+It allows you to disable
+every subdivision modifier
+
+42
+00:02:10,640 --> 00:02:14,910
+in the scene, increasing
+the playback performances.
+
+43
+00:02:14,910 --> 00:02:18,600
+When deactivated, we can
+see that my frame range
+
+44
+00:02:18,600 --> 00:02:21,230
+in the top left corner turned to red
+
+45
+00:02:21,230 --> 00:02:25,430
+meaning that Blender is not
+able to reach the frame rate
+
+46
+00:02:25,430 --> 00:02:27,130
+I've set previously.
+
+47
+00:02:27,130 --> 00:02:31,320
+While this scene is supposed
+to run at 30 frames per second,
+
+48
+00:02:31,320 --> 00:02:34,270
+here I am below 14 frames per second.
+
+49
+00:02:34,270 --> 00:02:35,760
+While it is not optimal,
+
+50
+00:02:35,760 --> 00:02:38,450
+Blender allow us to drop frames
+
+51
+00:02:38,450 --> 00:02:42,000
+so that we have a bit sort
+of timing of the animation,
+
+52
+00:02:42,000 --> 00:02:44,730
+meaning that it will
+drop some of the frame
+
+53
+00:02:44,730 --> 00:02:48,330
+to make sure that the
+action run at the same speed
+
+54
+00:02:48,330 --> 00:02:51,780
+as if we were displaying
+the 30 frames per seconds.
+
+55
+00:02:51,780 --> 00:02:54,870
+To allow this, just go
+to the playback option,
+
+56
+00:02:54,870 --> 00:02:59,110
+to the no sync and choose
+whether frame drop or AV sync.
+
+57
+00:02:59,110 --> 00:03:02,170
+We can see that the
+animation timing has changed
+
+58
+00:03:02,170 --> 00:03:06,430
+and it's trying to catch
+up with its regular speed.
+
+59
+00:03:06,430 --> 00:03:09,110
+Hopefully you won't
+need to use this option
+
+60
+00:03:09,110 --> 00:03:12,550
+as I will try to provide
+pretty low poly characters
+
+61
+00:03:12,550 --> 00:03:16,200
+to be animated, but it's
+important to note it.
+
+62
+00:03:16,200 --> 00:03:18,590
+With Control + Shift, plus left click,
+
+63
+00:03:18,590 --> 00:03:23,590
+you can select all the keys
+after or before the play head.
+
+64
+00:03:24,130 --> 00:03:28,290
+You can press B click and drag
+or just left click and drag
+
+65
+00:03:28,290 --> 00:03:30,330
+to make a box selection.
+
+66
+00:03:30,330 --> 00:03:32,050
+The timeline is mainly here
+
+67
+00:03:32,050 --> 00:03:35,210
+to give you an overview of your animation.
+
+68
+00:03:35,210 --> 00:03:38,700
+I never use it to work
+on my current key frame.
+
+69
+00:03:38,700 --> 00:03:41,810
+The summary line is
+just here to let me know
+
+70
+00:03:41,810 --> 00:03:44,820
+if there are a key frame
+on the current frame.
+
+71
+00:03:44,820 --> 00:03:48,780
+Here, we can see we have a key
+frame on every single frame
+
+72
+00:03:48,780 --> 00:03:50,850
+from zero to 30.
+
+73
+00:03:50,850 --> 00:03:53,970
+This key frame belongs
+to different controller
+
+74
+00:03:53,970 --> 00:03:58,510
+of our character and are
+stored into an action
+
+75
+00:03:58,510 --> 00:04:00,930
+that is torn into the armature.
+
+76
+00:04:00,930 --> 00:04:03,770
+We will discuss about armature later on,
+
+77
+00:04:03,770 --> 00:04:07,850
+here I just want to show you
+the IRO key of the timeline.
+
+78
+00:04:07,850 --> 00:04:11,560
+If I add a cube to the scene
+and add key frames to this cube
+
+79
+00:04:11,560 --> 00:04:15,080
+you can see that now these
+keys are also displayed
+
+80
+00:04:15,080 --> 00:04:16,370
+in the timeline.
+
+81
+00:04:16,370 --> 00:04:19,520
+Selecting a key on the summary
+
+82
+00:04:19,520 --> 00:04:21,760
+will select all the corresponding keys
+
+83
+00:04:21,760 --> 00:04:23,980
+of the armature and the cube.
+
+84
+00:04:23,980 --> 00:04:28,230
+This can be great to
+offset a whole set of keys.
+
+85
+00:04:28,230 --> 00:04:31,250
+But if we want, we can
+only move, for example,
+
+86
+00:04:31,250 --> 00:04:33,793
+the X location key of the cube.
+
+87
+00:04:36,020 --> 00:04:38,730
+Another great feature of the timeline
+
+88
+00:04:38,730 --> 00:04:41,050
+is that we can add markers.
+
+89
+00:04:41,050 --> 00:04:45,440
+While you can use them only
+for organization's sake,
+
+90
+00:04:45,440 --> 00:04:49,090
+they can be very useful to switch camera.
+
+91
+00:04:49,090 --> 00:04:51,660
+When you add two camera
+into your Blender scene
+
+92
+00:04:51,660 --> 00:04:54,740
+and press zero to go into camera view,
+
+93
+00:04:54,740 --> 00:04:57,620
+you can switch from
+one camera to the other
+
+94
+00:04:57,620 --> 00:04:59,620
+into the scene options.
+
+95
+00:04:59,620 --> 00:05:02,820
+But if you will, you
+can go in the timeline
+
+96
+00:05:02,820 --> 00:05:05,640
+and add a couple of markers.
+
+97
+00:05:05,640 --> 00:05:10,370
+You can add them pressing M or
+going to Marker, Add Marker.
+
+98
+00:05:10,370 --> 00:05:13,260
+Now, with one of my camera selected
+
+99
+00:05:13,260 --> 00:05:15,480
+and one of the marker selected,
+
+100
+00:05:15,480 --> 00:05:19,400
+I will go to marker and
+bind camera to marker.
+
+101
+00:05:19,400 --> 00:05:21,990
+Now I will select the second marker,
+
+102
+00:05:21,990 --> 00:05:25,760
+select the second camera
+and repeat the process
+
+103
+00:05:25,760 --> 00:05:28,550
+or press Control + B in the timeline.
+
+104
+00:05:28,550 --> 00:05:30,550
+In the 3D viewport, pressing zero,
+
+105
+00:05:30,550 --> 00:05:32,450
+I will jump into camera view.
+
+106
+00:05:32,450 --> 00:05:35,150
+And when I will play the animation,
+
+107
+00:05:35,150 --> 00:05:37,850
+each time I will hit those marker,
+
+108
+00:05:37,850 --> 00:05:41,530
+Blender will automatically
+switch to the bound camera.
+
+109
+00:05:41,530 --> 00:05:43,860
+This is way easier and cleaner
+
+110
+00:05:43,860 --> 00:05:46,500
+than trying to animate the camera.
+
+111
+00:05:46,500 --> 00:05:49,870
+To summarize, we have seen
+that navigating the timeline
+
+112
+00:05:49,870 --> 00:05:53,280
+is close to navigating
+any Blender editors.
+
+113
+00:05:53,280 --> 00:05:56,840
+We have seen a bunch
+of different shortcuts.
+
+114
+00:05:56,840 --> 00:06:00,050
+And we have seen that we
+can create different markers
+
+115
+00:06:00,050 --> 00:06:04,220
+in the timeline and bind
+the multiple cameras to them
+
+116
+00:06:04,220 --> 00:06:07,480
+so that we can jump from
+one camera to the other
+
+117
+00:06:07,480 --> 00:06:09,953
+directly through the animation.
+

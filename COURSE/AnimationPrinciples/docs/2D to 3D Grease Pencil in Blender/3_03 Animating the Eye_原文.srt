@@ -1,0 +1,575 @@
+1
+00:00:02,420 --> 00:00:03,150
+Hello Katie
+
+2
+00:00:03,160 --> 00:00:03,850
+hello again
+
+3
+00:00:03,860 --> 00:00:05,900
+Here we are with all our lovely animated plants
+
+4
+00:00:05,920 --> 00:00:08,550
+So should we make the eyes and the mouth
+
+5
+00:00:08,880 --> 00:00:10,910
+Yeahso for the eyes
+
+6
+00:00:11,260 --> 00:00:15,640
+I could make them and draw them exactly on top of our car
+
+7
+00:00:15,920 --> 00:00:19,430
+but in reality they can be floating a bit because we are never gon na get it
+
+8
+00:00:19,570 --> 00:00:19,840
+You know
+
+9
+00:00:19,850 --> 00:00:22,070
+So lateral that we're gonna say that trick
+
+10
+00:00:22,170 --> 00:00:23,400
+So I'm gonna go
+
+11
+00:00:23,410 --> 00:00:25,070
+I'm gonna create again
+
+12
+00:00:25,400 --> 00:00:26,040
+a eraas pencil
+
+13
+00:00:26,040 --> 00:00:26,740
+gonna call it blank
+
+14
+00:00:26,830 --> 00:00:28,230
+and I'm gonna call it eyes
+
+15
+00:00:28,840 --> 00:00:31,310
+And the techniques we're going to use for this
+
+16
+00:00:31,740 --> 00:00:33,750
+we actually have been used in them
+
+17
+00:00:34,060 --> 00:00:36,310
+Everyone's going to feel quite comfortable making this one
+
+18
+00:00:36,570 --> 00:00:37,850
+if you have been following
+
+19
+00:00:37,850 --> 00:00:38,530
+welleverything
+
+20
+00:00:38,530 --> 00:00:39,550
+So I'm going to go to draw mode
+
+21
+00:00:39,890 --> 00:00:41,790
+There's one thing that we can do in drone mode
+
+22
+00:00:41,800 --> 00:00:43,190
+I'm going to go to my materials
+
+23
+00:00:43,200 --> 00:00:47,290
+I'm going to delete this and create a new one because sometimes it generate some problems there
+
+24
+00:00:47,320 --> 00:00:48,662
+I'm gonna just select the white
+
+25
+00:00:48,662 --> 00:00:50,580
+I'm gonna make the white part of the eye first
+
+26
+00:00:50,580 --> 00:00:53,074
+and you have all these shapes so we can make circles
+
+27
+00:00:53,074 --> 00:00:56,335
+If you are not very good at drawing to just make a circle like that
+
+28
+00:00:56,335 --> 00:00:57,294
+that you have an eye
+
+29
+00:00:57,294 --> 00:00:59,020
+NiceI will definitely that easy PC
+
+30
+00:00:59,020 --> 00:01:01,410
+So now that we have that there
+
+31
+00:01:01,420 --> 00:01:02,310
+I think I could press
+
+32
+00:01:02,320 --> 00:01:03,490
+I have to press enter
+
+33
+00:01:03,500 --> 00:01:08,090
+The material is the white material for the eye and the layer here
+
+34
+00:01:08,100 --> 00:01:11,640
+very important to draw in layers is the I white
+
+35
+00:01:12,710 --> 00:01:14,970
+So now that we have that one
+
+36
+00:01:14,980 --> 00:01:16,240
+we're gon na need another black
+
+37
+00:01:16,270 --> 00:01:19,220
+And you can see it's quite big because it's kind of going to be cut
+
+38
+00:01:19,710 --> 00:01:24,290
+So I'm going to make a new layer and then is the pupil the black part
+
+39
+00:01:24,300 --> 00:01:25,460
+Yeahis pupil
+
+40
+00:01:25,970 --> 00:01:34,180
+Okaynow that we have that there I'm going to generate a new material and my new material ISS going to be only a field and it's going to be black
+
+41
+00:01:34,520 --> 00:01:35,950
+I'm going to use the circle again
+
+42
+00:01:35,960 --> 00:01:38,180
+and what I'm going to do is I'm going to make my material there
+
+43
+00:01:38,190 --> 00:01:39,150
+I'm going to press enter
+
+44
+00:01:39,380 --> 00:01:41,350
+So now that we have that drone there
+
+45
+00:01:41,410 --> 00:01:43,080
+one of the things we can do is masks
+
+46
+00:01:43,300 --> 00:01:47,850
+So we can use the white of the eye to mask the black part of the eye
+
+47
+00:01:48,260 --> 00:01:48,540
+You know
+
+48
+00:01:48,540 --> 00:01:50,260
+we have the pupil in one layer
+
+49
+00:01:50,270 --> 00:01:51,820
+we have the I white in another
+
+50
+00:01:51,830 --> 00:01:52,780
+And if you see here
+
+51
+00:01:52,790 --> 00:01:54,080
+if you select the iwh
+
+52
+00:01:54,510 --> 00:01:55,700
+you can use that as a mask
+
+53
+00:01:55,830 --> 00:01:57,800
+So you see that if you select use mask
+
+54
+00:01:58,170 --> 00:01:59,480
+so we can use a mask
+
+55
+00:01:59,520 --> 00:02:01,650
+I think we need to use it on the pupil
+
+56
+00:02:01,660 --> 00:02:02,830
+We select the mask here
+
+57
+00:02:02,840 --> 00:02:03,780
+we press plus
+
+58
+00:02:03,790 --> 00:02:05,040
+and we select the I white
+
+59
+00:02:05,050 --> 00:02:09,720
+So now the pupil is going to only appear where the eye white is
+
+60
+00:02:09,730 --> 00:02:12,710
+And as soon as I do it I'm cutting one shape to another
+
+61
+00:02:13,020 --> 00:02:13,050
+okay
+
+62
+00:02:13,330 --> 00:02:17,890
+And it's amazing because it's not only that I'm cutting one shape to another because we're gonna use this in animation
+
+63
+00:02:18,040 --> 00:02:18,840
+And again
+
+64
+00:02:18,850 --> 00:02:20,570
+I started from frame 30 five-eight
+
+65
+00:02:20,570 --> 00:02:22,350
+so I'm gonna go to frame one
+
+66
+00:02:22,390 --> 00:02:24,440
+make sure that I move my shapes to frame 1
+
+67
+00:02:24,790 --> 00:02:26,648
+and I'm gonna gonna see how I do this
+
+68
+00:02:26,648 --> 00:02:28,435
+So first I'm gonna put it in position
+
+69
+00:02:28,435 --> 00:02:30,024
+I'm going go to my object mode
+
+70
+00:02:30,024 --> 00:02:32,407
+my anchor point is in the completely wrong place
+
+71
+00:02:32,407 --> 00:02:36,180
+so I'm going to make s​‌​‌​​‌‌​​‌‌​​‌‌‌​‌‌​​‌‌​‌​‌​​‌‌​​‌‌​​‌‌‌​​‌​​‌‌​​‌‌‌‌​‌​‌‌‌​​‌‌‌‌​‌‌‌​‌​‌​‌‌‌​‌​​‌‌‌‌​‌​‌‌‌‌‌​‌‌‌‌‌​​‌‌‌​​‌‌‌​‌​‌​‌​​‌‌‌‌‌‌​​‌‌​​​‌​​‌‌​​‌‌‌‌​‌‌​‌‌​​‌‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌‌​​‌‌​‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌‌‌‌​​​‌‌‌​‌‌​​‌‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌​​‌‌​​‌‌​​‌‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌​‌‌‌‌​‌​​‌‌‌‌​‌‌​​‌​​‌‌​‌‌​​​‌‌​‌​‌​​‌‌​‌‌‌‌‌​‌​‌‌​​​‌‌‌‌‌‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​‌‌‌​​‌‌‌​​‌‌‌​‌‌​​‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​​​‌​​‌‌‌​​‌​​‌‌‌​‌‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌​‌‌​​​‌‌​‌​‌​​‌‌‌​‌‌‌‌​‌‌‌​‌​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌​‌‌‌​‌​‌‌​​​‌‌‌​‌‌‌‌​‌‌‌‌​​​‌‌​‌​‌‌‌​‌‌​‌‌‌‌​‌​‌‌‌‌‌​‌​‌​‌​​‌‌​‌​‌​​‌‌​‌​‌‌‌​‌‌​​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌‌‌​‌​​‌‌​​‌‌‌​​‌​​‌‌‌‌​‌​​‌‌​‌‌‌​​‌‌‌‌​‌​​‌‌​‌‌‌‌‌​‌​‌‌​​​‌‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌‌‌​​​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌​​‌‌​​‌‌​‌​‌‌‌​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​‌​‌‌‌​‌‌​‌‌‌‌​‌‌​​‌​​‌‌‌‌‌‌​​‌‌​​‌‌​​‌‌​‌​‌​​‌‌‌‌​‌​​‌‌​​‌‌‌‌​‌‌‌‌​​​‌‌‌‌‌​​​‌‌‌​‌‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌‌​‌‌​​‌​​‌‌​‌​‌‌‌​‌​‌‌‌​​‌‌​‌‌​​​‌‌‌‌​‌‌‌​‌​‌‌‌​​‌‌‌‌‌​​​‌‌​‌​‌​​‌‌‌‌​‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌‌‌​‌​‌‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌‌‌‌​​‌‌‌‌‌‌​​‌‌​‌‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​​‌​​‌‌​​‌‌​​‌‌‌​​‌​​‌‌‌​​‌​​‌‌​‌​‌‌‌​‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ure that my anchor point is exactly aligned to my eyes
+
+72
+00:02:36,180 --> 00:02:38,406
+I'm going to deactivate my anchor point
+
+73
+00:02:38,406 --> 00:02:47,560
+I'm going to put that in front and I'm going to put my eye in a place that I like and you can rotate it in 3D so my eye can be there and I can scale it
+
+74
+00:02:47,840 --> 00:02:49,140
+And depending on what you're making
+
+75
+00:02:49,140 --> 00:02:49,310
+you know
+
+76
+00:02:49,310 --> 00:02:51,440
+you can have your eyes in different ways
+
+77
+00:02:51,640 --> 00:02:52,490
+That's looking good
+
+78
+00:02:52,500 --> 00:02:56,450
+Or maybe the eye in the reference was a bit smaller and a bit higher
+
+79
+00:02:56,460 --> 00:02:57,540
+Soso nice
+
+80
+00:02:57,550 --> 00:03:01,330
+I always love the way you add eyes to a character so is alive
+
+81
+00:03:02,120 --> 00:03:05,110
+but now what we can do is we have to have animation
+
+82
+00:03:05,110 --> 00:03:08,000
+So I know that this white of the eye is not going to be animated
+
+83
+00:03:09,170 --> 00:03:10,340
+but the black part
+
+84
+00:03:10,340 --> 00:03:11,750
+the pupil is
+
+85
+00:03:11,760 --> 00:03:13,130
+So let's see how we can do that
+
+86
+00:03:13,350 --> 00:03:17,300
+We can go to my pupil here and let's add on frame 10
+
+87
+00:03:17,310 --> 00:03:19,240
+I'm going to do a copy and paste
+
+88
+00:03:19,340 --> 00:03:24,252
+so in frame 10 I'm gon na have a different position for the pupil and we can go
+
+89
+00:03:24,252 --> 00:03:24,953
+for example
+
+90
+00:03:24,953 --> 00:03:26,591
+to in edit mode if we want
+
+91
+00:03:26,591 --> 00:03:28,228
+There are many ways of doing it
+
+92
+00:03:28,228 --> 00:03:31,940
+I can just lock my eye white and in edit mode I press A
+
+93
+00:03:31,950 --> 00:03:35,140
+so I select everything and now we can move
+
+94
+00:03:35,150 --> 00:03:36,500
+I can use my normal
+
+95
+00:03:36,500 --> 00:03:37,580
+the normal of my polygons
+
+96
+00:03:37,580 --> 00:03:40,080
+I think because I rotate it in that case
+
+97
+00:03:40,090 --> 00:03:41,620
+it kind of it goes together
+
+98
+00:03:41,870 --> 00:03:43,150
+it goes in the same direction
+
+99
+00:03:43,160 --> 00:03:45,380
+And now imagine I change the position of my eye
+
+100
+00:03:45,420 --> 00:03:46,620
+So I put my eye there
+
+101
+00:03:47,090 --> 00:03:48,880
+and now I'm going to go on frame 20
+
+102
+00:03:48,890 --> 00:03:50,200
+I'm going to copy and paste
+
+103
+00:03:50,960 --> 00:03:53,190
+I don't need to put it in frame 20 to be honest
+
+104
+00:03:53,200 --> 00:03:59,090
+I can put it a bit later and I can put a frame before frame in frame 26
+
+105
+00:03:59,090 --> 00:04:11,860
+So I'm going to hold on the same position and then from 26 to 30 I'm going to have a new position that maybe it's going to be looking down there and now I'm going to go and I'm going to go from frame 30 to frame 40
+
+106
+00:04:11,870 --> 00:04:13,290
+we're going to be in the same position
+
+107
+00:04:13,540 --> 00:04:15,860
+but from 40 to 47
+
+108
+00:04:15,980 --> 00:04:16,910
+for example
+
+109
+00:04:16,920 --> 00:04:18,860
+we're going to go and change that
+
+110
+00:04:18,990 --> 00:04:21,020
+So right now we still don't have interpolations
+
+111
+00:04:21,020 --> 00:04:22,070
+we have a little animation
+
+112
+00:04:22,070 --> 00:04:24,410
+but there is no interpolation happening between it
+
+113
+00:04:24,450 --> 00:04:25,900
+but if we want it to interpolate
+
+114
+00:04:26,090 --> 00:04:27,120
+it's really easy
+
+115
+00:04:27,430 --> 00:04:31,300
+we know that there is a transition between frame 0 and frame 10
+
+116
+00:04:31,420 --> 00:04:34,100
+so we're going to go here and going to be in drop mode
+
+117
+00:04:34,110 --> 00:04:37,770
+and we're going to do exactly what we did before interplay sequence
+
+118
+00:04:37,790 --> 00:04:41,030
+and now I'm getting an animation between one place and another
+
+119
+00:04:41,090 --> 00:04:42,170
+Now this holds
+
+120
+00:04:42,180 --> 00:04:47,110
+and now I'm going to have an animation here is going to be a bit longer through interplay sequence
+
+121
+00:04:47,110 --> 00:04:50,010
+so now I'm going to have a relationship between there and there
+
+122
+00:04:50,180 --> 00:04:51,840
+and now between there and there
+
+123
+00:04:51,850 --> 00:04:55,960
+I'm going to make it a bit longer Drew Interpolate sequence and others
+
+124
+00:04:55,960 --> 00:04:58,080
+There is an animation between there and there
+
+125
+00:04:58,260 --> 00:04:59,760
+So now my dog
+
+126
+00:05:00,160 --> 00:05:03,480
+it is looking around and I want to start once I get there
+
+127
+00:05:03,590 --> 00:05:07,220
+I should now like have an ending to this animation
+
+128
+00:05:07,220 --> 00:05:08,060
+so you can look forever
+
+129
+00:05:08,650 --> 00:05:12,620
+So I'm going to do copy and paste from up
+
+130
+00:05:12,730 --> 00:05:18,060
+Let me see from this position until 63 and 63 to 70
+
+131
+00:05:18,100 --> 00:05:24,400
+I'm liking this 70 because I go to the original position and I'm gon na double draw interplay sequence
+
+132
+00:05:24,410 --> 00:05:29,330
+So now I know that I end and frame 70 in exactly the same position where I started
+
+133
+00:05:29,330 --> 00:05:29,380
+right
+
+134
+00:05:29,540 --> 00:05:31,830
+And now you can keep going for like we did before
+
+135
+00:05:31,840 --> 00:05:33,930
+just adding a time offset modifier
+
+136
+00:05:33,940 --> 00:05:34,910
+I'm in regular mode
+
+137
+00:05:35,100 --> 00:05:38,410
+custom range 0 to 70
+
+138
+00:05:38,580 --> 00:05:40,030
+So now I know on frame 70
+
+139
+00:05:40,030 --> 00:05:41,460
+my animation starts again
+
+140
+00:05:41,470 --> 00:05:42,590
+So now when I play
+
+141
+00:05:43,130 --> 00:05:44,620
+my doggie is cooking around
+
+142
+00:05:45,540 --> 00:05:46,140
+Greatso simple
+
+143
+00:05:46,240 --> 00:05:47,820
+and you get so much character there
+
+144
+00:05:47,830 --> 00:05:48,560
+yeah

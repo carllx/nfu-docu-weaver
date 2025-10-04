@@ -1,0 +1,972 @@
+﻿1
+00:00:00,920 --> 00:00:03,460
+- In this video, we will have an overview
+
+2
+00:00:03,460 --> 00:00:05,260
+of all the curve modified.
+
+3
+00:00:05,260 --> 00:00:09,390
+In the graph-editor, whenever
+I select a curve, I can access
+
+4
+00:00:09,390 --> 00:00:13,930
+the modifier in the end
+panel or properties panel.
+
+5
+00:00:13,930 --> 00:00:17,750
+Why do we have already
+set a cycle modifier
+
+6
+00:00:17,750 --> 00:00:19,270
+in the preview video?
+
+7
+00:00:19,270 --> 00:00:21,200
+What you may haven't noticed
+
+8
+00:00:21,200 --> 00:00:26,090
+is that we already using
+modifiers prior to this.
+
+9
+00:00:26,090 --> 00:00:30,050
+As soon as we have used
+the extrapolation mode
+
+10
+00:00:30,050 --> 00:00:34,900
+whenever we press the shift +
+E and make our curve cyclic,
+
+11
+00:00:34,900 --> 00:00:38,620
+basically, we were
+adding a cycle modifier.
+
+12
+00:00:38,620 --> 00:00:42,024
+Any modifier influence can be activated
+
+13
+00:00:42,024 --> 00:00:45,060
+or deactivated by clicking the checkbox.
+
+14
+00:00:45,060 --> 00:00:47,830
+The circle modifier repeat the animation
+
+15
+00:00:47,830 --> 00:00:50,930
+from the first key to the last key.
+
+16
+00:00:50,930 --> 00:00:54,650
+We can change the modifier
+behavior before the first key
+
+17
+00:00:54,650 --> 00:00:56,920
+and after the first key, by default
+
+18
+00:00:56,920 --> 00:00:59,570
+it's repeating the animation as it is.
+
+19
+00:00:59,570 --> 00:01:04,570
+We can get rid of the cycle
+or use the cycle we've offset.
+
+20
+00:01:04,770 --> 00:01:06,180
+If I use it right now,
+
+21
+00:01:06,180 --> 00:01:10,310
+nothing will happen because
+it uses the position
+
+22
+00:01:10,310 --> 00:01:13,840
+of the last key frame as
+the new starting point.
+
+23
+00:01:13,840 --> 00:01:15,140
+But since my first
+
+24
+00:01:15,140 --> 00:01:18,470
+and last key frame are
+same, it doesn't change.
+
+25
+00:01:18,470 --> 00:01:22,500
+But as soon as I offset the
+value of the last key frame,
+
+26
+00:01:22,500 --> 00:01:26,170
+you can see that I get
+some kind of ladder motion.
+
+27
+00:01:26,170 --> 00:01:29,910
+The repeat mirror option
+will do what it says.
+
+28
+00:01:29,910 --> 00:01:31,660
+It will repeat the curve
+
+29
+00:01:31,660 --> 00:01:36,470
+but each time it will a mirror
+it based on the last frame.
+
+30
+00:01:36,470 --> 00:01:39,710
+Changing the value will
+just set the number
+
+31
+00:01:39,710 --> 00:01:44,300
+of repetition after or before
+your current animation.
+
+32
+00:01:44,300 --> 00:01:48,390
+A value of zero will make
+the cycle repeat infinitely.
+
+33
+00:01:48,390 --> 00:01:52,540
+The restrict frame range
+and use-influence properties
+
+34
+00:01:52,540 --> 00:01:56,140
+are very useful but they
+are not the most abuse
+
+35
+00:01:56,140 --> 00:01:58,810
+on the cycle modifier,
+so we will have a look
+
+36
+00:01:58,810 --> 00:02:00,390
+to it later on.
+
+37
+00:02:00,390 --> 00:02:02,680
+Let's have a look to the next modifier.
+
+38
+00:02:02,680 --> 00:02:05,150
+I will get rid of the cycle modifier,
+
+39
+00:02:05,150 --> 00:02:07,460
+and I add a built-in function.
+
+40
+00:02:07,460 --> 00:02:10,230
+My animation curve as totally changed.
+
+41
+00:02:10,230 --> 00:02:13,490
+And we now have a (indistinct) curve
+
+42
+00:02:13,490 --> 00:02:15,800
+because the default function is seen.
+
+43
+00:02:15,800 --> 00:02:18,270
+The first multiplayer will allow us
+
+44
+00:02:18,270 --> 00:02:21,270
+to modify the frequency of the curve.
+
+45
+00:02:21,270 --> 00:02:25,353
+While the amplitude will
+allow us to increase the value
+
+46
+00:02:25,353 --> 00:02:26,800
+of the curve.
+
+47
+00:02:26,800 --> 00:02:31,800
+The first offset will offset
+the curve on the X axis
+
+48
+00:02:31,840 --> 00:02:36,800
+while the value offset will
+offset the curve on the Y axis.
+
+49
+00:02:36,800 --> 00:02:39,280
+The restricted frame range option
+
+50
+00:02:39,280 --> 00:02:43,330
+is a supercool additional
+tool as it is named,
+
+51
+00:02:43,330 --> 00:02:46,600
+it will allow us to limit or restrict
+
+52
+00:02:46,600 --> 00:02:50,170
+the influence of the
+modifier on the frame range.
+
+53
+00:02:50,170 --> 00:02:53,900
+So we can set this frame range
+by tweaking the end value
+
+54
+00:02:53,900 --> 00:02:55,400
+and the start value.
+
+55
+00:02:55,400 --> 00:02:59,370
+The in and out value
+allow us to input easing,
+
+56
+00:02:59,370 --> 00:03:03,980
+meaning that we can increase
+or decrease the influence
+
+57
+00:03:03,980 --> 00:03:06,310
+of the modifier at the beginning
+
+58
+00:03:06,310 --> 00:03:09,050
+and the end of the frame range.
+
+59
+00:03:09,050 --> 00:03:12,930
+This way we can totally modify
+the behavior of the ball
+
+60
+00:03:12,930 --> 00:03:16,420
+with a non-destructive
+workflow because I'm not
+
+61
+00:03:16,420 --> 00:03:19,230
+currently working on any of the key frame,
+
+62
+00:03:19,230 --> 00:03:22,070
+but only on the modifiers
+of that I can add
+
+63
+00:03:22,070 --> 00:03:24,610
+or remove. By default The modifier
+
+64
+00:03:24,610 --> 00:03:27,730
+is replacing our current animation
+
+65
+00:03:27,730 --> 00:03:30,530
+but enabling the additive option
+
+66
+00:03:30,530 --> 00:03:35,530
+will add the modifier behavior
+on top of our animation.
+
+67
+00:03:35,970 --> 00:03:39,930
+So setting the amplitude
+of the modifier to zero is
+
+68
+00:03:39,930 --> 00:03:43,430
+like removing it when
+it's in additive mode.
+
+69
+00:03:43,430 --> 00:03:46,620
+And as soon as I increased its amplitude,
+
+70
+00:03:46,620 --> 00:03:49,240
+you can see Oh, it's affecting the curve.
+
+71
+00:03:49,240 --> 00:03:51,380
+While it works for the specific case,
+
+72
+00:03:51,380 --> 00:03:53,410
+this is not the best way to play
+
+73
+00:03:53,410 --> 00:03:55,670
+with the influence of the modifier.
+
+74
+00:03:55,670 --> 00:03:59,480
+Fortunately, we have an influence
+factor that will increase
+
+75
+00:03:59,480 --> 00:04:02,900
+or decrease the influence of
+the modifier on our curve.
+
+76
+00:04:02,900 --> 00:04:06,520
+The dropdown menu upon the
+additive would enable us
+
+77
+00:04:06,520 --> 00:04:08,750
+to change the type of functions.
+
+78
+00:04:08,750 --> 00:04:12,170
+So if you remember your
+trigonometry classes
+
+79
+00:04:12,170 --> 00:04:13,540
+you might recognize
+
+80
+00:04:13,540 --> 00:04:15,590
+the tangent causing an (indistinct) curve
+
+81
+00:04:16,510 --> 00:04:20,530
+This square root is a
+simple exponential function.
+
+82
+00:04:20,530 --> 00:04:25,080
+So you can use it to make
+your ball rise like a balloon,
+
+83
+00:04:25,080 --> 00:04:26,950
+with a constant easing,
+
+84
+00:04:26,950 --> 00:04:31,730
+the natural logarithm does
+look like the square root
+
+85
+00:04:31,730 --> 00:04:35,130
+but it has a slight
+offset and it ease more.
+
+86
+00:04:35,130 --> 00:04:39,760
+Finally, the normalized scene
+looks like the scene function
+
+87
+00:04:39,760 --> 00:04:42,090
+but it does ease very rapidly.
+
+88
+00:04:42,090 --> 00:04:43,600
+So you can change this
+
+89
+00:04:43,600 --> 00:04:47,580
+by moving the phase offset
+and the phase multiplier.
+
+90
+00:04:47,580 --> 00:04:50,840
+So it can be hard to find a specific shoes
+
+91
+00:04:50,840 --> 00:04:52,570
+for those modifiers,
+
+92
+00:04:52,570 --> 00:04:54,690
+but you have to experiment with it.
+
+93
+00:04:54,690 --> 00:04:57,100
+And when you do motion design, for example
+
+94
+00:04:57,100 --> 00:05:01,240
+they are very useful. When
+adding the envelope modifier,
+
+95
+00:05:01,240 --> 00:05:04,140
+We will see a couple of
+dotted lines appearing
+
+96
+00:05:04,140 --> 00:05:08,240
+in our graph-editor lying
+with minus one and one value.
+
+97
+00:05:08,240 --> 00:05:12,630
+These are scaling values or
+reference values, if you will.
+
+98
+00:05:12,630 --> 00:05:15,700
+I will just a couple of
+points at the beginning
+
+99
+00:05:15,700 --> 00:05:19,380
+and the end of my curve. Those
+control points will allow me
+
+100
+00:05:19,380 --> 00:05:22,330
+to change the overall shape of my curve,
+
+101
+00:05:22,330 --> 00:05:24,300
+also known as envelope.
+
+102
+00:05:24,300 --> 00:05:26,500
+Those control points are defined
+
+103
+00:05:26,500 --> 00:05:28,890
+by a minimum and maximum value
+
+104
+00:05:28,890 --> 00:05:32,940
+that appears as little white
+dot on the graph-editor,
+
+105
+00:05:32,940 --> 00:05:36,460
+they represent the current
+scale of the modifier.
+
+106
+00:05:36,460 --> 00:05:38,880
+So, if I tweak the maximum value,
+
+107
+00:05:38,880 --> 00:05:42,540
+I will see my curve scaling up and down,
+
+108
+00:05:42,540 --> 00:05:45,010
+and we can clearly see the max point
+
+109
+00:05:45,010 --> 00:05:47,810
+of the envelope modifier moving here.
+
+110
+00:05:47,810 --> 00:05:50,930
+So it might look a bit abstract right now,
+
+111
+00:05:50,930 --> 00:05:55,330
+so what I will do is that
+I will make the bonding box
+
+112
+00:05:55,330 --> 00:06:00,330
+in a way of my envelop
+modifier as big as the curve.
+
+113
+00:06:00,500 --> 00:06:03,790
+To do so I will set the
+minimum value to zero
+
+114
+00:06:03,790 --> 00:06:06,234
+like the minimum value of my key frame
+
+115
+00:06:06,234 --> 00:06:10,360
+and the maximum value around
+eight, like my key frame.
+
+116
+00:06:10,360 --> 00:06:12,970
+I will add a couple of control points
+
+117
+00:06:12,970 --> 00:06:17,490
+and I will give them the
+same value, zero and 8.4.
+
+118
+00:06:17,490 --> 00:06:19,486
+Now you can think of your curve
+
+119
+00:06:19,486 --> 00:06:22,400
+as being bound by your lattice modifier
+
+120
+00:06:22,400 --> 00:06:25,240
+or being transformed as in Photoshop,
+
+121
+00:06:25,240 --> 00:06:27,400
+we've an even transform.
+
+122
+00:06:27,400 --> 00:06:30,270
+And by moving the value
+of the control point,
+
+123
+00:06:30,270 --> 00:06:33,730
+it's like moving the
+corners of the bonding box.
+
+124
+00:06:33,730 --> 00:06:34,563
+And as into a lattice
+
+125
+00:06:34,563 --> 00:06:37,500
+we can add more than two control point.
+
+126
+00:06:37,500 --> 00:06:38,929
+I can add a control point
+
+127
+00:06:38,929 --> 00:06:42,910
+in the middle set its
+default value as the other.
+
+128
+00:06:42,910 --> 00:06:44,010
+And when I move it,
+
+129
+00:06:44,010 --> 00:06:48,340
+it will break the curve and
+deform it from its position.
+
+130
+00:06:48,340 --> 00:06:52,210
+Very powerful modifier
+to modify the amplitude
+
+131
+00:06:52,210 --> 00:06:56,210
+of the motion. The noise
+modifier is one of my favorite.
+
+132
+00:06:56,210 --> 00:06:58,890
+And guess what? It noise to your curve.
+
+133
+00:06:58,890 --> 00:07:01,210
+It's perfect to create camera shake
+
+134
+00:07:01,210 --> 00:07:03,280
+Or if you are a shaky character
+
+135
+00:07:03,280 --> 00:07:07,140
+you can use the noise
+modifier instead of Nkit.
+
+136
+00:07:07,140 --> 00:07:10,070
+The scale will change the
+frequency of the noise,
+
+137
+00:07:10,070 --> 00:07:14,070
+the phase we kind of change
+its shape or it seeds.
+
+138
+00:07:14,070 --> 00:07:17,080
+The strength is the
+amplitude of the noise,
+
+139
+00:07:17,080 --> 00:07:20,450
+the depth value is the
+smoothness of the noise.
+
+140
+00:07:20,450 --> 00:07:23,090
+To see it properly, I
+will increase the scale
+
+141
+00:07:23,090 --> 00:07:24,060
+and the strength.
+
+142
+00:07:24,060 --> 00:07:25,880
+As I reduce the depth value,
+
+143
+00:07:25,880 --> 00:07:28,010
+you can see the curves smoothing.
+
+144
+00:07:28,010 --> 00:07:30,930
+The offset, allows you to offset the noise
+
+145
+00:07:30,930 --> 00:07:33,991
+on the X axis or in time, if you prefer.
+
+146
+00:07:33,991 --> 00:07:38,420
+So, using the noise modifier
+and the restrict frame range,
+
+147
+00:07:38,420 --> 00:07:41,050
+I can create a slight shaking
+
+148
+00:07:41,050 --> 00:07:43,280
+of the ball whenever it lands.
+
+149
+00:07:43,280 --> 00:07:48,100
+The limits modifier works a
+bit as a limit constraint.
+
+150
+00:07:48,100 --> 00:07:52,370
+Setting a minimum Y value
+and maximum Y value,
+
+151
+00:07:52,370 --> 00:07:54,600
+will clump the value of the curve.
+
+152
+00:07:54,600 --> 00:07:58,480
+Any value beneath the minimum
+value will be ignored,
+
+153
+00:07:58,480 --> 00:08:02,200
+any value upon the maximum
+value will be ignored.
+
+154
+00:08:02,200 --> 00:08:04,040
+It's like creating a roof
+
+155
+00:08:04,040 --> 00:08:08,260
+and the ground that will bond
+your curve while the minimum X
+
+156
+00:08:08,260 --> 00:08:13,260
+and maximum X value will
+currently ignore any values
+
+157
+00:08:13,310 --> 00:08:18,310
+that is before the set frame
+or after the maximum set frame.
+
+158
+00:08:19,430 --> 00:08:22,810
+So, what if I set the
+X maximum value to 10,
+
+159
+00:08:22,810 --> 00:08:27,170
+any key frame value after
+the frame 10 will be ignored.
+
+160
+00:08:27,170 --> 00:08:29,530
+This can be very useful if, for example,
+
+161
+00:08:29,530 --> 00:08:32,490
+you don't want the ball
+to go under the ground.
+
+162
+00:08:32,490 --> 00:08:35,783
+The next modifier is the stepped modifier,
+
+163
+00:08:35,783 --> 00:08:39,110
+it's a very cool and intuitive modifier.
+
+164
+00:08:39,110 --> 00:08:42,310
+The step size allow you
+to change the length
+
+165
+00:08:42,310 --> 00:08:45,250
+in frame of the step in your animation.
+
+166
+00:08:45,250 --> 00:08:49,410
+So, basically, this modifier
+is converting your curve
+
+167
+00:08:49,410 --> 00:08:52,190
+as if we were blocking our animation
+
+168
+00:08:52,190 --> 00:08:53,917
+with constant interpolation
+
+169
+00:08:53,917 --> 00:08:57,260
+and it gives a fantastic stop motion style
+
+170
+00:08:57,260 --> 00:08:58,670
+to your animation.
+
+171
+00:08:58,670 --> 00:09:01,100
+So you can change the step size value,
+
+172
+00:09:01,100 --> 00:09:03,086
+you can offset it in time.
+
+173
+00:09:03,086 --> 00:09:04,970
+And this modifier comes
+
+174
+00:09:04,970 --> 00:09:08,573
+with a built-in starting
+frame and ending frame.
+
+175
+00:09:08,573 --> 00:09:11,260
+It's a bit like the frame restrict range
+
+176
+00:09:11,260 --> 00:09:15,380
+but you can consider it as an
+additional restriction layer.
+
+177
+00:09:15,380 --> 00:09:16,570
+On the full character,
+
+178
+00:09:16,570 --> 00:09:20,160
+we will need to add this
+modifier on every single curve.
+
+179
+00:09:20,160 --> 00:09:24,850
+What we can do instead is add
+the modifier on the NLA strip.
+
+180
+00:09:24,850 --> 00:09:29,090
+Don't worry. We'll talk about
+the NLA editor later on,
+
+181
+00:09:29,090 --> 00:09:31,430
+but just consider that
+we're applying the modifier
+
+182
+00:09:31,430 --> 00:09:35,210
+to the wall animation
+instead of applying it
+
+183
+00:09:35,210 --> 00:09:36,570
+to a simple curve.
+
+184
+00:09:36,570 --> 00:09:38,600
+If we have a loop to this quick animation,
+
+185
+00:09:38,600 --> 00:09:39,980
+I've made with one
+
+186
+00:09:39,980 --> 00:09:43,080
+of my students, the
+step modify your really
+
+187
+00:09:43,080 --> 00:09:46,440
+brings the stop motion
+feelings to the animation.
+
+188
+00:09:46,440 --> 00:09:51,210
+As explained before those
+modifier act as object modifiers.
+
+189
+00:09:51,210 --> 00:09:53,350
+It means that they can be layered,
+
+190
+00:09:53,350 --> 00:09:56,530
+you can add multiple curve modifiers to
+
+191
+00:09:56,530 --> 00:09:59,460
+get different results and the order
+
+192
+00:09:59,460 --> 00:10:02,970
+in which you stack those
+modifier is important.
+
+193
+00:10:02,970 --> 00:10:07,650
+If I add the limit modifier
+before the noise modifier,
+
+194
+00:10:07,650 --> 00:10:10,461
+the noise will be applied after the limit
+
+195
+00:10:10,461 --> 00:10:13,280
+and so I won't see any difference.
+
+196
+00:10:13,280 --> 00:10:15,710
+I won't see the limits applied.
+
+197
+00:10:15,710 --> 00:10:19,813
+At the time I'm recording
+this video on blender 2.91,
+
+198
+00:10:20,910 --> 00:10:23,930
+I haven't find any way
+to move the position
+
+199
+00:10:23,930 --> 00:10:25,680
+of those curve modifier.
+
+200
+00:10:25,680 --> 00:10:28,210
+Hopefully this will be updated whenever
+
+201
+00:10:28,210 --> 00:10:30,910
+you will be able to watch this video.
+
+202
+00:10:30,910 --> 00:10:33,800
+We can copy a modifier by clicking
+
+203
+00:10:33,800 --> 00:10:37,920
+on the little folder icon
+with the arrow getting inside.
+
+204
+00:10:37,920 --> 00:10:42,180
+To paste the modifier on another
+curve just select two curve
+
+205
+00:10:42,180 --> 00:10:44,370
+and click the second icon
+
+206
+00:10:44,370 --> 00:10:47,870
+with the folder shape and
+the arrow, getting out.
+
+207
+00:10:47,870 --> 00:10:50,000
+If you have multiple modifiers,
+
+208
+00:10:50,000 --> 00:10:53,660
+they will be all copy and
+pasted onto the curve.
+
+209
+00:10:53,660 --> 00:10:55,200
+To summarize, we have seen
+
+210
+00:10:55,200 --> 00:10:59,319
+that we can use modifier
+to modify our curve
+
+211
+00:10:59,319 --> 00:11:04,000
+behavior procedurally and
+in a non-destructive manner.
+
+212
+00:11:04,000 --> 00:11:06,380
+Modifier can be stacked one
+
+213
+00:11:06,380 --> 00:11:10,200
+on each other to get more advanced result.
+
+214
+00:11:10,200 --> 00:11:12,040
+Modifiers can be copied
+
+215
+00:11:12,040 --> 00:11:15,000
+and pasted from one curve to the other.
+
+216
+00:11:15,000 --> 00:11:16,660
+We can add the modifiers
+
+217
+00:11:16,660 --> 00:11:20,417
+on the whole action for the NLA editor.
+

@@ -1,0 +1,1303 @@
+﻿1
+00:00:00,060 --> 00:00:01,710
+- [Pierre] In this video,
+
+2
+00:00:01,710 --> 00:00:05,080
+we will see how Blender's
+camera work and how to use it.
+
+3
+00:00:05,080 --> 00:00:08,670
+I've created a little
+scene including a camera
+
+4
+00:00:08,670 --> 00:00:11,780
+that we can find also in the outliner.
+
+5
+00:00:11,780 --> 00:00:13,560
+To switch back into camera view,
+
+6
+00:00:13,560 --> 00:00:16,550
+you just have to press zero on the numpad.
+
+7
+00:00:16,550 --> 00:00:19,520
+We can find our camera
+object, named the camera,
+
+8
+00:00:19,520 --> 00:00:22,900
+and the camera properties
+in the properties editor.
+
+9
+00:00:22,900 --> 00:00:25,270
+You can place the camera by moving it
+
+10
+00:00:25,270 --> 00:00:28,920
+and rotating it as you will
+do with any other object.
+
+11
+00:00:28,920 --> 00:00:32,040
+Or you can frame the
+view in the 3D viewport
+
+12
+00:00:32,040 --> 00:00:34,010
+and press Control + Alt + zero
+
+13
+00:00:34,010 --> 00:00:37,913
+so that the camera view will
+match your current custom view.
+
+14
+00:00:40,060 --> 00:00:45,060
+The camera format is on the
+output size of your document.
+
+15
+00:00:45,857 --> 00:00:49,460
+Basically the ratio of the output image.
+
+16
+00:00:49,460 --> 00:00:52,240
+between its width and it's height,
+
+17
+00:00:52,240 --> 00:00:55,973
+the resolution doesn't
+matter, only the ratio matter.
+
+18
+00:00:57,690 --> 00:00:59,730
+There are different camera type.
+
+19
+00:00:59,730 --> 00:01:03,750
+By default, the camera type
+will be set to perspective
+
+20
+00:01:03,750 --> 00:01:07,100
+and the output is the same
+as in the perspective view.
+
+21
+00:01:07,100 --> 00:01:09,670
+If we switch to autographic,
+
+22
+00:01:09,670 --> 00:01:13,940
+the autographic scale will
+allow you to zoom in and out.
+
+23
+00:01:13,940 --> 00:01:16,120
+You can't zoom by moving the camera.
+
+24
+00:01:16,120 --> 00:01:19,820
+Using cycle, you can
+also switch to panoramic.
+
+25
+00:01:19,820 --> 00:01:23,880
+It won't be supported in Evi,
+because you need ray tracing.
+
+26
+00:01:23,880 --> 00:01:28,880
+It allows you to do a free
+60 degree angle point of view
+
+27
+00:01:29,100 --> 00:01:33,860
+ideal for VR experiences
+or to create your own HDRi.
+
+28
+00:01:34,980 --> 00:01:36,570
+With the prospective camera,
+
+29
+00:01:36,570 --> 00:01:38,230
+playing with the focal length
+
+30
+00:01:38,230 --> 00:01:41,290
+will allow you to zoom in and out.
+
+31
+00:01:41,290 --> 00:01:43,360
+The longer the focal length,
+
+32
+00:01:43,360 --> 00:01:46,340
+the more zoomed will be your picture.
+
+33
+00:01:46,340 --> 00:01:50,060
+And the more compressed
+will be the perspective,
+
+34
+00:01:50,060 --> 00:01:53,550
+meaning that you will
+get closer and closer
+
+35
+00:01:53,550 --> 00:01:55,110
+to an autographic view.
+
+36
+00:01:55,110 --> 00:01:57,180
+The smaller the focal length,
+
+37
+00:01:57,180 --> 00:02:01,880
+the wider will be your angle
+of view, or less zoomed,
+
+38
+00:02:01,880 --> 00:02:06,010
+and you will create a lot of
+distortion in the perspective.
+
+39
+00:02:06,010 --> 00:02:10,810
+You can shift the camera
+frame on the X and Y axis.
+
+40
+00:02:10,810 --> 00:02:14,110
+It doesn't exactly behave as a rotation.
+
+41
+00:02:14,110 --> 00:02:18,060
+It's currently of setting
+the position of the camera
+
+42
+00:02:18,060 --> 00:02:22,120
+on the left of the right, but
+we keep the same perspective
+
+43
+00:02:22,120 --> 00:02:25,220
+as when we are framing
+the center of the view.
+
+44
+00:02:25,220 --> 00:02:28,140
+I personally never used this option.
+
+45
+00:02:28,140 --> 00:02:29,840
+To better understand clipping,
+
+46
+00:02:29,840 --> 00:02:33,720
+I will go into the viewport
+display and enable limits.
+
+47
+00:02:33,720 --> 00:02:38,300
+A line appear in our 3D
+viewport, showing these limits.
+
+48
+00:02:38,300 --> 00:02:41,710
+This limit line show us
+the clipping distance.
+
+49
+00:02:41,710 --> 00:02:44,630
+If I increase the clipping start,
+
+50
+00:02:44,630 --> 00:02:48,140
+it will move away the first polygon
+
+51
+00:02:48,140 --> 00:02:49,990
+that is rendered by the camera
+
+52
+00:02:49,990 --> 00:02:54,260
+and we can see the limit
+line updating in our 3D view.
+
+53
+00:02:54,260 --> 00:02:57,130
+On the other end, changing the end value
+
+54
+00:02:57,130 --> 00:03:01,170
+will change how far a
+can be from the camera
+
+55
+00:03:01,170 --> 00:03:02,510
+and being rendered.
+
+56
+00:03:02,510 --> 00:03:06,000
+As you may know, computers,
+don't like infinity
+
+57
+00:03:06,000 --> 00:03:09,310
+and we can't render an image
+with an infinite depth.
+
+58
+00:03:09,310 --> 00:03:11,663
+The calculation would never end.
+
+59
+00:03:13,640 --> 00:03:16,510
+Real camera have a physical sensor
+
+60
+00:03:16,510 --> 00:03:19,590
+that allow them to capture the image.
+
+61
+00:03:19,590 --> 00:03:21,620
+But with our virtual camera,
+
+62
+00:03:21,620 --> 00:03:23,160
+the only thing we have to know
+
+63
+00:03:23,160 --> 00:03:26,140
+is that the zoom or angle view
+
+64
+00:03:26,140 --> 00:03:30,770
+is a ratio between the focal
+length and the sensor size.
+
+65
+00:03:30,770 --> 00:03:33,670
+So basically you may
+never change this value
+
+66
+00:03:33,670 --> 00:03:36,223
+and only play with the focal length.
+
+67
+00:03:38,110 --> 00:03:41,800
+You may not need to use
+the safe area that much.
+
+68
+00:03:41,800 --> 00:03:44,600
+When enabled, you will see frame appearing
+
+69
+00:03:44,600 --> 00:03:45,770
+in your camera view.
+
+70
+00:03:45,770 --> 00:03:50,770
+They were origin only here to
+fit different screen sizes.
+
+71
+00:03:50,840 --> 00:03:54,590
+All TV may not have the same image ratio
+
+72
+00:03:54,590 --> 00:03:57,520
+and sometime the image was clipped.
+
+73
+00:03:57,520 --> 00:03:59,750
+So you could use this to set the limit
+
+74
+00:03:59,750 --> 00:04:03,940
+between what could be cut and
+what is currently in frame.
+
+75
+00:04:03,940 --> 00:04:05,890
+But now most of our screen
+
+76
+00:04:05,890 --> 00:04:08,680
+do compensate the screen differences.
+
+77
+00:04:08,680 --> 00:04:12,400
+But they are still great
+if you want to set a title,
+
+78
+00:04:12,400 --> 00:04:16,940
+for example, in your frame or
+if you want to add subtitle,
+
+79
+00:04:16,940 --> 00:04:19,570
+knowing that a part of the picture
+
+80
+00:04:19,570 --> 00:04:22,570
+will be occluded by the subtitle
+
+81
+00:04:22,570 --> 00:04:25,660
+and making sure that you
+keep all the focal points
+
+82
+00:04:25,660 --> 00:04:28,420
+inside the inner frames.
+
+83
+00:04:28,420 --> 00:04:31,070
+You can add the background
+image as you will do
+
+84
+00:04:31,070 --> 00:04:32,660
+in the 3D viewport.
+
+85
+00:04:32,660 --> 00:04:34,300
+And under viewpoint display,
+
+86
+00:04:34,300 --> 00:04:38,000
+you can display a lot of
+information regarding your camera.
+
+87
+00:04:38,000 --> 00:04:40,810
+We can already see our creeping range,
+
+88
+00:04:40,810 --> 00:04:45,270
+but we will also be able to
+enable the limit of the mist.
+
+89
+00:04:45,270 --> 00:04:48,080
+It's currently overlaid upon the limit,
+
+90
+00:04:48,080 --> 00:04:49,610
+so it's a bit hard to see,
+
+91
+00:04:49,610 --> 00:04:52,170
+but we'll see it better just after.
+
+92
+00:04:52,170 --> 00:04:55,730
+The mist pass is to be
+used in the compositing.
+
+93
+00:04:55,730 --> 00:04:57,660
+So to be able to access it,
+
+94
+00:04:57,660 --> 00:05:00,960
+you have to go to the
+render layers and enable it.
+
+95
+00:05:00,960 --> 00:05:03,610
+Then we need to render our picture.
+
+96
+00:05:03,610 --> 00:05:05,960
+It will generate a
+black and white picture,
+
+97
+00:05:05,960 --> 00:05:08,320
+the black being the closer to the camera
+
+98
+00:05:08,320 --> 00:05:10,420
+and the white the further away.
+
+99
+00:05:10,420 --> 00:05:13,320
+Any rendered value closer to camera
+
+100
+00:05:13,320 --> 00:05:15,677
+and the start limit will be black,
+
+101
+00:05:15,677 --> 00:05:20,230
+any rendered value beyond
+the end value of the limit
+
+102
+00:05:20,230 --> 00:05:21,640
+will be white.
+
+103
+00:05:21,640 --> 00:05:25,540
+This is a path very useful
+to give depth to your render,
+
+104
+00:05:25,540 --> 00:05:30,540
+creating atmospherical
+perspective, like fog for example.
+
+105
+00:05:30,600 --> 00:05:32,210
+To change its limit,
+
+106
+00:05:32,210 --> 00:05:34,800
+you have to have it enabled in the layer
+
+107
+00:05:34,800 --> 00:05:37,240
+and then go to the world properties
+
+108
+00:05:37,240 --> 00:05:39,900
+and go in the mist path tab.
+
+109
+00:05:39,900 --> 00:05:42,560
+Here, you will Find the
+option to change the limits
+
+110
+00:05:42,560 --> 00:05:45,400
+and also the falloff behavior.
+
+111
+00:05:45,400 --> 00:05:48,570
+The sensor will display the
+focal point of the camera,
+
+112
+00:05:48,570 --> 00:05:50,890
+so we'll see that a little later.
+
+113
+00:05:50,890 --> 00:05:53,710
+The name option will display
+the name of the camera
+
+114
+00:05:53,710 --> 00:05:56,000
+just under the camera view.
+
+115
+00:05:56,000 --> 00:05:57,700
+The passepartout option
+
+116
+00:05:57,700 --> 00:06:01,920
+will allow you to increase the
+opacity of the passepartout
+
+117
+00:06:01,920 --> 00:06:05,900
+to currently occlude what's
+outside of the camera.
+
+118
+00:06:05,900 --> 00:06:09,350
+When working on the shot, I
+advise you to double check it
+
+119
+00:06:09,350 --> 00:06:11,880
+with the passepartout alpha set to one.
+
+120
+00:06:11,880 --> 00:06:13,450
+Because the fact that you see
+
+121
+00:06:13,450 --> 00:06:17,470
+beyond the boundaries of
+the camera is misleading.
+
+122
+00:06:17,470 --> 00:06:21,470
+It seems that the composition
+is wider or more open
+
+123
+00:06:21,470 --> 00:06:24,320
+and you can anticipate what's outside
+
+124
+00:06:24,320 --> 00:06:26,080
+of what you're framing.
+
+125
+00:06:26,080 --> 00:06:28,510
+And so you are mentally anticipating
+
+126
+00:06:28,510 --> 00:06:31,390
+the motion of your character
+or where he's going
+
+127
+00:06:31,390 --> 00:06:35,130
+and what is going to
+be in the camera shot,
+
+128
+00:06:35,130 --> 00:06:39,350
+which in the end, won't be
+displayed in the current shots
+
+129
+00:06:39,350 --> 00:06:40,183
+you are filming.
+
+130
+00:06:41,940 --> 00:06:43,160
+In the previous video,
+
+131
+00:06:43,160 --> 00:06:46,287
+I've explained you how
+composition was important,
+
+132
+00:06:46,287 --> 00:06:48,280
+how you have to try to give sense
+
+133
+00:06:48,280 --> 00:06:49,880
+to everything you're doing.
+
+134
+00:06:49,880 --> 00:06:53,710
+In this regard, composition
+guides are super useful.
+
+135
+00:06:53,710 --> 00:06:55,410
+You would find several of them
+
+136
+00:06:55,410 --> 00:06:58,470
+are related to different
+composition theory,
+
+137
+00:06:58,470 --> 00:07:00,110
+like the golden ratio.
+
+138
+00:07:00,110 --> 00:07:04,080
+So if you have studied composition
+through hub, for example,
+
+139
+00:07:04,080 --> 00:07:05,330
+you won't be lost.
+
+140
+00:07:05,330 --> 00:07:09,010
+If you're not that used
+to it, just use the third,
+
+141
+00:07:09,010 --> 00:07:11,350
+it's the most important thing.
+
+142
+00:07:11,350 --> 00:07:14,240
+Make sure that the
+important part of your shot
+
+143
+00:07:14,240 --> 00:07:18,110
+are inside the third or aligned with them.
+
+144
+00:07:18,110 --> 00:07:21,480
+For example, I'm aligning
+the head of my character
+
+145
+00:07:21,480 --> 00:07:23,910
+with the top right third,
+
+146
+00:07:23,910 --> 00:07:27,840
+and he's looking toward deep open third.
+
+147
+00:07:27,840 --> 00:07:30,090
+If I move him on the other side,
+
+148
+00:07:30,090 --> 00:07:32,050
+we still have a focus on him
+
+149
+00:07:32,050 --> 00:07:33,880
+but that fact that he's looking
+
+150
+00:07:33,880 --> 00:07:36,580
+at the closed side of the camera
+
+151
+00:07:36,580 --> 00:07:40,660
+leads your audience to
+watch outside of the frame.
+
+152
+00:07:40,660 --> 00:07:43,390
+And unless this is an artistic choice
+
+153
+00:07:43,390 --> 00:07:45,680
+it doesn't look great that much.
+
+154
+00:07:45,680 --> 00:07:48,800
+So what we can do is
+just rotate the character
+
+155
+00:07:48,800 --> 00:07:51,760
+and keep him aligned on those third,
+
+156
+00:07:51,760 --> 00:07:55,340
+but it will look at the
+other side of the screen
+
+157
+00:07:55,340 --> 00:07:57,210
+on the open side,
+
+158
+00:07:57,210 --> 00:07:59,950
+and then offset this
+fear on the foreground
+
+159
+00:07:59,950 --> 00:08:03,180
+because it's occluding the first third.
+
+160
+00:08:03,180 --> 00:08:06,130
+And so it becomes a point of interest
+
+161
+00:08:06,130 --> 00:08:09,420
+while it might not be
+something very interesting,
+
+162
+00:08:09,420 --> 00:08:12,850
+unless your character is
+watching it for example.
+
+163
+00:08:12,850 --> 00:08:15,350
+But simply moving it on the side
+
+164
+00:08:15,350 --> 00:08:18,020
+make the competition a little better.
+
+165
+00:08:18,020 --> 00:08:20,690
+Composition in itself is a big topic
+
+166
+00:08:20,690 --> 00:08:22,910
+and will deserve a whole course.
+
+167
+00:08:22,910 --> 00:08:25,200
+But you can start with those simple rules
+
+168
+00:08:25,200 --> 00:08:27,423
+to make opening compositions.
+
+169
+00:08:28,680 --> 00:08:31,470
+Let's now have a look to depth of field.
+
+170
+00:08:31,470 --> 00:08:34,750
+When activated, you might
+not see the different away.
+
+171
+00:08:34,750 --> 00:08:36,090
+What you have to know first
+
+172
+00:08:36,090 --> 00:08:41,000
+is that Blender is currently
+focusing on this target
+
+173
+00:08:41,000 --> 00:08:43,630
+and we can move it
+directly in the 3D viewport
+
+174
+00:08:43,630 --> 00:08:45,880
+by left clicking and dragging
+
+175
+00:08:45,880 --> 00:08:48,500
+or changing the focus distance here.
+
+176
+00:08:48,500 --> 00:08:52,550
+Using the eyedropper, you
+can also select an object,
+
+177
+00:08:52,550 --> 00:08:55,410
+asking lender to keep it in focus.
+
+178
+00:08:55,410 --> 00:09:00,130
+To make it clearer, let's
+reduce the f-stop to 0.1.
+
+179
+00:09:00,130 --> 00:09:02,770
+This will make our picture way more blurry
+
+180
+00:09:02,770 --> 00:09:05,690
+and we can see that even
+if I move the camera
+
+181
+00:09:05,690 --> 00:09:10,130
+or I move the sphere, Blender
+will keep the sphere in focus
+
+182
+00:09:10,130 --> 00:09:12,290
+meaning that it won't be blurred
+
+183
+00:09:12,290 --> 00:09:15,200
+while everything else
+around it gets blurry.
+
+184
+00:09:15,200 --> 00:09:18,990
+If I want to select
+another object to focus on
+
+185
+00:09:18,990 --> 00:09:21,860
+I can select it through the menu.
+
+186
+00:09:21,860 --> 00:09:23,610
+If I select the ground,
+
+187
+00:09:23,610 --> 00:09:26,200
+you can see that the
+focus point is aligned
+
+188
+00:09:26,200 --> 00:09:28,960
+with the origin of the ground object.
+
+189
+00:09:28,960 --> 00:09:31,950
+Not the whole object is in focus.
+
+190
+00:09:31,950 --> 00:09:34,350
+This is a pretty important information.
+
+191
+00:09:34,350 --> 00:09:37,250
+Blender will use the origin of any object
+
+192
+00:09:37,250 --> 00:09:39,610
+that is used as a focus object.
+
+193
+00:09:39,610 --> 00:09:42,850
+Finally, you can copy
+the name of the object
+
+194
+00:09:42,850 --> 00:09:43,820
+you want to focus on
+
+195
+00:09:43,820 --> 00:09:48,630
+and hovering over the focus
+object slot, press Control + V.
+
+196
+00:09:48,630 --> 00:09:50,840
+Let's talk a bit about the f-stop.
+
+197
+00:09:50,840 --> 00:09:53,450
+Here I'm focusing on the first sphere
+
+198
+00:09:53,450 --> 00:09:57,860
+so we can see the cube on the
+left is perfectly in focus.
+
+199
+00:09:57,860 --> 00:10:00,190
+If I now move away the focus point
+
+200
+00:10:00,190 --> 00:10:03,250
+we can see that the next cube is in focus.
+
+201
+00:10:03,250 --> 00:10:04,547
+I will get back to the previous
+
+202
+00:10:04,547 --> 00:10:06,930
+and we can see it's back in focus.
+
+203
+00:10:06,930 --> 00:10:10,500
+Increasing the f-stop will
+visually reduce the noise,
+
+204
+00:10:10,500 --> 00:10:12,380
+but it's not about this.
+
+205
+00:10:12,380 --> 00:10:17,380
+The f-stop value is the
+range of what is in focus.
+
+206
+00:10:17,850 --> 00:10:22,280
+The higher f-stop value,
+the higher the range
+
+207
+00:10:22,280 --> 00:10:25,970
+from the focus point will be in focus.
+
+208
+00:10:25,970 --> 00:10:30,520
+Plus the further away is the
+focal point from the camera,
+
+209
+00:10:30,520 --> 00:10:33,240
+the larger will be the focus area.
+
+210
+00:10:33,240 --> 00:10:37,490
+To give you an example, if
+I use the same f-stop value
+
+211
+00:10:37,490 --> 00:10:40,230
+and I focus on the very first cube,
+
+212
+00:10:40,230 --> 00:10:43,370
+I might add two cube in focus.
+
+213
+00:10:43,370 --> 00:10:48,080
+While if I focus on a
+cube that is further away
+
+214
+00:10:48,080 --> 00:10:52,130
+I might have four or five
+or six cube in focus.
+
+215
+00:10:52,130 --> 00:10:54,380
+So the focus range gets bigger,
+
+216
+00:10:54,380 --> 00:10:58,000
+the further away the focus point is.
+
+217
+00:10:58,000 --> 00:11:00,320
+The other concern is
+that the depth of field
+
+218
+00:11:00,320 --> 00:11:02,170
+is based on a distance.
+
+219
+00:11:02,170 --> 00:11:05,520
+So depending on the scale of your scene,
+
+220
+00:11:05,520 --> 00:11:09,290
+the blur effect behavior
+might look different
+
+221
+00:11:09,290 --> 00:11:14,000
+and you may have to play with
+a bigger range of f-stop value
+
+222
+00:11:14,000 --> 00:11:16,123
+to see a difference in the blur.
+
+223
+00:11:17,460 --> 00:11:21,550
+It's pretty common to rig
+cameras with simple objects.
+
+224
+00:11:21,550 --> 00:11:25,160
+Adding an empty, parenting
+the camera to the empty
+
+225
+00:11:25,160 --> 00:11:26,680
+and make the empty rotate
+
+226
+00:11:26,680 --> 00:11:29,330
+to create a turntable, for example.
+
+227
+00:11:29,330 --> 00:11:32,640
+Another common technique
+is to use an empty
+
+228
+00:11:32,640 --> 00:11:37,100
+and make the camera through
+constraint, tracking this empty.
+
+229
+00:11:37,100 --> 00:11:39,830
+This way you can move the camera in space
+
+230
+00:11:39,830 --> 00:11:43,930
+and it will keep focus on
+whatever you are looking at.
+
+231
+00:11:43,930 --> 00:11:46,810
+It makes the camera easier to handle
+
+232
+00:11:46,810 --> 00:11:50,310
+and also animating the
+camera a bit easier.
+
+233
+00:11:50,310 --> 00:11:51,920
+But there is an issue.
+
+234
+00:11:51,920 --> 00:11:54,520
+As we are using multiple objects,
+
+235
+00:11:54,520 --> 00:11:57,640
+if I insert a key frame
+on those both empty
+
+236
+00:11:57,640 --> 00:12:01,170
+to create some kind of
+fancy camera motion,
+
+237
+00:12:01,170 --> 00:12:05,650
+I will have two different
+action, one per empty.
+
+238
+00:12:05,650 --> 00:12:09,340
+And if I start animating
+the properties of the camera
+
+239
+00:12:09,340 --> 00:12:11,180
+like the focal length,
+
+240
+00:12:11,180 --> 00:12:15,080
+it will create even
+another animation or action
+
+241
+00:12:15,080 --> 00:12:17,420
+just for those properties.
+
+242
+00:12:17,420 --> 00:12:20,740
+Then modifying the camera
+animation will be a pain
+
+243
+00:12:20,740 --> 00:12:24,500
+because I will have to
+update different actions.
+
+244
+00:12:24,500 --> 00:12:28,300
+Fortunately, Blender comes
+with a built-in add on
+
+245
+00:12:28,300 --> 00:12:29,810
+that will greatly help you.
+
+246
+00:12:29,810 --> 00:12:33,800
+If you go to edit preferences
+and go to the add on tab,
+
+247
+00:12:33,800 --> 00:12:38,400
+search for camera and
+activate the add camera rigs.
+
+248
+00:12:38,400 --> 00:12:41,570
+From there, when you press
+Shift + A to add the camera,
+
+249
+00:12:41,570 --> 00:12:44,740
+you will have the choice
+through different camera rigs.
+
+250
+00:12:44,740 --> 00:12:47,730
+The classic camera, the Dolly camera rig
+
+251
+00:12:47,730 --> 00:12:50,120
+and the Crane camera rig.
+
+252
+00:12:50,120 --> 00:12:52,470
+There is also a 2D camera rig
+
+253
+00:12:52,470 --> 00:12:54,470
+that we won't be using in this course.
+
+254
+00:12:54,470 --> 00:12:58,090
+While the Crane camera
+rig simulates a crane,
+
+255
+00:12:58,090 --> 00:13:00,370
+the Dolly camera rig is very close
+
+256
+00:13:00,370 --> 00:13:02,680
+but there is a little more freedom to it,
+
+257
+00:13:02,680 --> 00:13:04,860
+so we will use this one.
+
+258
+00:13:04,860 --> 00:13:08,650
+The camera rig is very
+close to our character rig.
+
+259
+00:13:08,650 --> 00:13:12,640
+There is a root bone that allow
+us to move the whole camera.
+
+260
+00:13:12,640 --> 00:13:14,400
+The aim controller allow us
+
+261
+00:13:14,400 --> 00:13:18,720
+to orientate the camera
+to this controller.
+
+262
+00:13:18,720 --> 00:13:22,160
+The camera controller allow
+us to move the camera in space
+
+263
+00:13:22,160 --> 00:13:25,610
+and it will still follow the aim,
+
+264
+00:13:25,610 --> 00:13:29,260
+while the offset will allow
+us to move the camera in space
+
+265
+00:13:29,260 --> 00:13:31,600
+but it won't rotate toward the aim.
+
+266
+00:13:31,600 --> 00:13:34,970
+And in addition to this,
+we have all the option
+
+267
+00:13:34,970 --> 00:13:36,610
+of the camera properties
+
+268
+00:13:36,610 --> 00:13:39,490
+that are exposed directly in the rig.
+
+269
+00:13:39,490 --> 00:13:43,710
+So we can animate those
+properties directly using the rig
+
+270
+00:13:43,710 --> 00:13:46,450
+and it will create only one action
+
+271
+00:13:46,450 --> 00:13:50,870
+that will gather all the
+emotions of the bone controllers
+
+272
+00:13:50,870 --> 00:13:54,250
+but also all the properties of the camera.
+
+273
+00:13:54,250 --> 00:13:58,880
+So I do advise you to
+use this rig all the time
+
+274
+00:13:58,880 --> 00:14:03,880
+so that you will get used to
+it, even for simple project.
+
+275
+00:14:04,040 --> 00:14:07,130
+This way you will get
+familiar with its mechanism
+
+276
+00:14:07,130 --> 00:14:10,020
+and also some of the feature it has,
+
+277
+00:14:10,020 --> 00:14:12,800
+like this focus point creation.
+
+278
+00:14:12,800 --> 00:14:17,020
+It will bind an empty 2D aim target
+
+279
+00:14:17,020 --> 00:14:18,850
+and the aim target will allow you
+
+280
+00:14:18,850 --> 00:14:23,850
+to rotate the camera but
+also set the focus distance.
+
+281
+00:14:23,900 --> 00:14:26,440
+To summarize, we have seen
+that the camera format
+
+282
+00:14:26,440 --> 00:14:29,170
+is based on the output resolution.
+
+283
+00:14:29,170 --> 00:14:30,710
+There on different camera type
+
+284
+00:14:30,710 --> 00:14:34,750
+with perspective and
+orthographic and even panoramic
+
+285
+00:14:34,750 --> 00:14:39,460
+that allow you to do a
+360 degree angle shot.
+
+286
+00:14:39,460 --> 00:14:42,350
+You can control the zoom and angle of view
+
+287
+00:14:42,350 --> 00:14:44,130
+with the focal length.
+
+288
+00:14:44,130 --> 00:14:46,420
+You can use the composition guides
+
+289
+00:14:46,420 --> 00:14:50,200
+and the passepartout to
+better frame your shots.
+
+290
+00:14:50,200 --> 00:14:52,460
+You can control the depth of field
+
+291
+00:14:52,460 --> 00:14:57,200
+using the camera focus
+distance and the f-stop value.
+
+292
+00:14:57,200 --> 00:14:59,920
+It's highly advised to use a camera rig
+
+293
+00:14:59,920 --> 00:15:01,763
+to animate your camera.
+

@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cr3g85pmqu06tpq2a1i0",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Virtual You: How Building Your Digital Twin Will Revolutionize Medicine and Change Your Life",
+            "fileID": "cr3g1fe65ra2tbdnlgvg",
+            "itemID": 3888,
+            "citation": "Coveney, P., Highfield, R., & Ramakrishnan, V. (2023). Virtual You: How Building Your Digital Twin Will Revolutionize Medicine and Change Your Life. Princeton University Press.\n",
+            "citationShort": "Coveney et al., 2023",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual You: How Building Your Digital Twin Will Revolutionize Medicine and Change Your Life, was published on 2023. (It can be cite this paper as Coveney et al., 2023 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 前言\n- 引言\n  - 虚拟人的概念\n  - 数字孪生技术对未来医学和生活的变革\n\n## 第一部分：虚拟人体的构建基础\n### 第1章：个人数据的度量\n  - 个人数据的来源与类型\n  - 数据的标准化与可重复性\n\n### 第2章：超越培根的蚂蚁、蜘蛛和蜜蜂\n  - 科学知识的碎片化\n  - 跨学科整合的必要性\n\n### 第3章：从模拟到数字自我\n  - 模拟技术到数字模型的转变\n  - 数字模型在医学中的应用\n\n## 第二部分：数字孪生技术的发展\n### 第4章：大数据与人工智能\n  - 大数据在医学中的作用\n  - 人工智能与医学的结合\n\n### 第5章：生命模拟\n  - 计算机模拟在生命科学中的应用\n  - 从分子到器官的多尺度模拟\n\n### 第6章：虚拟细胞\n  - 细胞层面的虚拟模型\n  - 细胞模拟在疾病研究中的应用\n\n## 第三部分：数字孪生技术的应用\n### 第7章：如何创建一个人的心脏\n  - 心脏的虚拟模型\n  - 心脏疾病与个性化治疗\n\n### 第8章：虚拟身体\n  - 人体器官系统的虚拟模型\n  - 虚拟身体在医学教育和训练中的应用\n\n### 第9章：虚拟人2.0\n  - 技术进步对虚拟人的影响\n  - 未来数字孪生技术的发展\n\n## 第四部分：数字孪生技术的挑战与未来\n### 第10章：从健康预测到超人类未来\n  - 健康预测技术的发展\n  - 数字孪生技术对人类未来的展望\n\n## 附录：迈向虚拟宇宙\n- 探讨计算机模拟在更广泛领域的应用\n\n## 致谢\n- 对参与本书编写和研究的个人和机构表示感谢\n\n## 参考文献\n- 列出本书引用的所有学术文献和资料来源\n\n## 索引\n- 提供书中关键词和主题的索引列表\n\n---\n\n以上大纲目录根据Coveney et al., 2023的内容进行了逻辑结构和层次关系的划分，确保了内容的连贯性和易读性。",
+    "refs": [
+        "cr3g1fe65ra2tbdnlgvg"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "cr3g85qflk114dumfmpg",
+    "req_id": "cr3g85qflk114dumfmq0",
+    "resp_id": "cr3g85qflk114dumfmqg",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

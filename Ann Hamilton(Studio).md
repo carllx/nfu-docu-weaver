@@ -1,0 +1,1 @@
+(-- `Ann Hamilton Studio` [annhamiltonstudio](https://www.annhamiltonstudio.com/projects/armory.html))![|400](https://blog.indiewalls.com/hs-fs/hubfs/Imported_Blog_Media/1671466-poster-paa-ann-hamilton-jamesewing-4794-cp.jpg?width=600&name=1671466-poster-paa-ann-hamilton-jamesewing-4794-cp.jpg)

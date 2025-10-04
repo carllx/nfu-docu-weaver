@@ -1,0 +1,15 @@
+{
+  "showCLICommands": true,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "none",
+  "injectThemeCSS": false,
+  "customCSSFile": "/Users/yamlam/Documents/obsdiannote/.obsidian/snippets/myStyle-v2.css",
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "link",
+  "highDPIDiagrams": true,
+  "pandoc": "/Users/yamlam/opt/anaconda3/bin/pandoc",
+  "pdflatex": "/Library/TeX/texbin/pdflatex",
+  "outputFolder": "/Users/yamlam/Downloads",
+  "extraArguments": " --bibliography=/Users/yamlam/Documents/obsdiannote/zoteropapers/CSL/MyLibrary.bib\n --citeproc --csl=/Users/yamlam/Documents/obsdiannote/zoteropapers/CSL/americanjournalofscience.csl\n --reference-doc=/Users/yamlam/Documents/obsdiannote/zoteropapers/CSL/附件1课程教学大纲模板.dotx",
+  "exportFrom": "md"
+}

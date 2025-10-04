@@ -1,0 +1,5 @@
+function run(argv) {
+  var query = argv[0];
+	var Application('Finder').selection()[0].url()
+  return query;
+}

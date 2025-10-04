@@ -1,0 +1,28 @@
+{
+    "conversation_id": "cq8l2ohhd0n8iup8rd1g",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Project Starline: A high-fidelity telepresence system",
+            "fileID": "cq8l28ubi7s0p448a9b0",
+            "itemID": 1043,
+            "citation": "Joseph, Desloge, G., Fortes, T., Gomez, E. M., Häberling, S., Hoppe, H., Andy, Huibers, RICARDOMARTIN-BRUALLA, Andrew, Russell, I., Seitz, S., & Tong, K. K. (2021). Project Starline: A high-fidelity telepresence system. https://www.semanticscholar.org/paper/Project-Starline%3A-A-high-fidelity-telepresence-Joseph-Desloge/34db8aa914149bba1500c57b2f4633e925a6f6c1\n",
+            "citationShort": "Joseph et al., 2021",
+            "tags": [
+                "#Compression Techniques",
+                "#kimi",
+                "#Semantic Enrichment"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：提取所有有关视觉记忆的论点\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Project Starline: A high-fidelity telepresence system, was published on 2021. (It can be cite this paper as Joseph et al., 2021 on your answer). \n\n",
+    "response": "在Joseph等（2021）的论文《Project Starline: A high-fidelity telepresence system》中，关于视觉记忆的论点主要集中在系统如何提高远程会议中的面对面交流体验，以及如何增强用户的视觉记忆能力。以下是从原文中提取的与视觉记忆相关的论点：\n\n1. **系统介绍**：\n   - 论文介绍了一种实时双向通信系统，旨在让相隔遥远的两个人体验到仿佛面对面交谈的感觉，这种系统被证明在用户评分（例如，存在感、注意力、反应判断、参与度）和观察到的非言语行为（例如，点头、眉毛动作）方面，比2D视频会议有更好的表现（Joseph et al., 2021）。\n\n2. **视觉记忆与用户研究**：\n   - 用户研究报告指出，与2D视频会议相比，参与者在使用Starline系统后对会议内容的回忆有显著提升。这表明系统能够增强用户的视觉记忆，因为用户能够回忆起更多的会议内容（Joseph et al., 2021）。\n\n3. **视觉记忆与非言语行为**：\n   - 论文中提到，用户在使用Starline系统时展现出更多的非言语行为，如手势、点头和眉毛动作，这些行为对于人际交流至关重要，有助于传达情绪等内部状态，并通过模仿促进人际关系（Joseph et al., 2021）。\n\n4. **视觉记忆与系统设计**：\n   - 系统的设计包括物理布局、照明、面部追踪、多视图捕获、麦克风阵列、多流压缩、扬声器输出和透镜显示等元素，这些设计元素的优化有助于提高视觉记忆，因为它们增强了远程参与者的3D视觉效果和现场感（Joseph et al., 2021）。\n\n5. **视觉记忆与技术实现**：\n   - 论文中还提到了一种新颖的基于图像的几何融合算法，这种算法可以在渲染过程中融合多个深度和颜色图像，从而提供更高质量的视觉输出，有助于提高视觉记忆（Joseph et al., 2021）。\n\n6. **视觉记忆与音频效果**：\n   - 系统还包括一个高质量的音频子系统，它使用跟踪器引导的麦克风阵列进行波束形成，以及使用跟踪器/听众跟踪的虚拟音频合成，这有助于提供更自然的声音体验，从而可能辅助视觉记忆的形成（Joseph et al., 2021）。\n\n通过上述论点，我们可以看出，Joseph等（2021）在设计Project Starline系统时，充分考虑了如何通过提高视觉和音频的保真度来增强用户的视觉记忆能力。",
+    "refs": [
+        "cq8l28ubi7s0p448a9b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq8l2opldu5p0lv29i0g",
+    "req_id": "cq8l2opldu5p0lv29i10",
+    "resp_id": "cq8l2opldu5p0lv29i1g",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：提取所有有关视觉记忆的论点"
+}

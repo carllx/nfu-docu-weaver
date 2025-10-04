@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqqdqhrdf0j4b19dco40",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "中文版Adobe audition CC 2020从入门到精通",
+            "fileID": "cqmeceaul729sht1u8b0",
+            "itemID": 3542,
+            "citation": "袁诗轩. (2021). 中文版Adobe audition CC 2020从入门到精通. 清华大学出版社. https://product.dangdang.com/29236486.html\n",
+            "citationShort": "袁诗轩, 2021",
+            "tags": [
+                "#kimi",
+                "# Audition"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：介绍第1章 快速入门：了解Audition 2020的基本内容\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 中文版Adobe audition CC 2020从入门到精通, was published on 2021. (It can be cite this paper as 袁诗轩, 2021 on your answer). \n\n",
+    "response": "### 第1章 快速入门：了解Audition 2020的基本内容\n\n在《中文版Adobe Audition CC 2020从入门到精通》一书中，作者袁诗轩详细介绍了Adobe Audition 2020的基本功能和操作界面，旨在帮助读者快速掌握这款音频编辑软件的使用。以下是根据原文提取的关于Audition 2020基本内容的介绍：\n\n1. **软件界面组成**：Audition 2020提供了一个功能完善的音频与视频编辑界面，包括标题栏、菜单栏、工具栏、面板以及编辑器等部分，如图1-1所示。这些组成部分共同构成了软件的工作界面，使得用户可以全面控制音频的制作过程。\n\n2. **菜单栏功能**：菜单栏包含了“文件”、“编辑”、“多轨”、“剪辑”、“效果”、“收藏夹”、“视图”、“窗口”和“帮助”等9个菜单命令，如图1-3所示。每个菜单都包含了一系列与音频编辑相关的命令和选项，使用户能够进行新建、打开、编辑、保存等多种操作。\n\n3. **工具栏**：工具栏位于菜单栏下方，提供了控制音频文件的相关工具，如图1-13所示。其中包括波形编辑按钮、多轨编辑按钮、频谱频率显示器按钮等，这些工具使得用户可以对音频文件进行简单的编辑操作。\n\n4. **面板功能**：面板位于工作界面的左侧和下方，主要用于对当前的音频文件进行相应设置。用户可以通过选择菜单栏中的“窗口”菜单来显示相应的浮动面板，如图1-14和图1-15所示。\n\n5. **编辑器**：编辑器是Audition 2020中查看音频文件波形的主要窗口。在编辑器中，用户可以对音频素材进行编辑和剪辑工作，如图1-16和图1-17所示。\n\n6. **软件的基本操作**：包括启动与退出Audition 2020应用程序的方法，以及系统配置的了解。用户需要根据个人计算机的配置情况，进行适当的系统配置，以保证软件的正常运行。\n\n7. **安装方法**：详细介绍了如何安装Audition 2020，包括检查计算机上的旧版本、关闭其他程序、运行安装程序等步骤。\n\n8. **启动方法**：提供了多种启动Audition 2020的方法，如通过桌面图标、“开始”菜单或使用sesx文件启动。\n\n9. **退出方法**：同样提供了多种退出软件的方法，包括通过菜单命令、右键菜单或使用快捷键等。\n\n通过上述内容，读者可以对Audition 2020的基本组成和操作有一个全面的认识，为进一步深入学习和使用软件打下坚实的基础。\n\n引用文献：袁诗轩. (2021). 中文版Adobe Audition CC 2020从入门到精通. 北京：清华大学出版社.",
+    "refs": [
+        "cqmeceaul729sht1u8b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqqdqhq2jkod5aar39s0",
+    "req_id": "cqqdqhq2jkod5aar39sg",
+    "resp_id": "cqqdqhq2jkod5aar39t0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：介绍第1章 快速入门：了解Audition 2020的基本内容"
+}

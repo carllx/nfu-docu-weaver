@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cq8mvb06n7mo1mb1gvpg",
+    "attachments": [
+        {
+            "date": 2002,
+            "title": "Visuospatial memory and phonological loop in learning from multimedia",
+            "fileID": "cq8mc2q34pe37md2leeg",
+            "itemID": 1720,
+            "citation": "Gyselinck, V., Cornoldi, C., Dubois, V., De Beni, R., & Ehrlich, M. (2002). Visuospatial memory and phonological loop in learning from multimedia. Applied Cognitive Psychology, 16(6), 665–685. https://doi.org/10.1002/acp.823\n",
+            "citationShort": "Gyselinck et al., 2002",
+            "tags": [
+                "*non-fatal error",
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：解释什么是敲击任务（concurrent tapping task）?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Visuospatial memory and phonological loop in learning from multimedia, was published on 2002. (It can be cite this paper as Gyselinck et al., 2002 on your answer). \n\n",
+    "response": "敲击任务（concurrent tapping task）是一种认知心理学实验中常用的双重任务技术，其目的是在进行主要任务的同时进行另一项任务，以研究不同认知过程之间的相互影响。在Gyselinck等人的研究（2002）中，敲击任务被用来特别影响视觉空间工作记忆的容量。\n\n具体来说，在实验1中，参与者在阅读文本和理解内容的同时，需要执行敲击任务。这项任务要求参与者将手在四个按钮上方按照逆时针方向移动，这些按钮被放置在一个平行四边形的布局中。参与者需要在整个阅读时间内持续执行这项任务，大约每秒按一次按钮。这项敲击任务的目的是通过空间压制来干扰视觉空间工作记忆，从而研究视觉空间工作记忆在处理附带插图的文本中的作用。\n\n以下是对敲击任务的解释，使用Markdown格式，并引用了Gyselinck等人（2002）的研究：\n\n---\n\n### 敲击任务（Concurrent Tapping Task）\n\n敲击任务是一种在进行主要的认知任务时同时进行的次要任务，用于研究工作记忆的不同子系统如何互相影响。在Gyselinck等人（2002）的研究中，敲击任务被用来特别干扰视觉空间工作记忆，以此来探究其在理解科学文本和插图中的作用。\n\n**执行方式**：\n- 参与者在阅读科学文本的同时，需要在四个按钮上按照逆时针方向移动手部。\n- 按钮被放置成平行四边形的形状，参与者需在阅读时持续进行敲击任务，大约每秒敲击一次按钮。\n\n**目的**：\n- 通过空间压制影响视觉空间工作记忆，以检验视觉空间工作记忆在处理带有插图的文本时的参与程度。\n\n**研究发现**：\n- 在Gyselinck等人（2002）的实验中，敲击任务减少了插图对理解性能的益处，特别是在视觉空间跨度较高的参与者中，这表明视觉空间工作记忆在选择性地处理插图文本时发挥作用。\n\n---\n\n引用格式按照APA标准，可以写作：Gyselinck et al., 2002。",
+    "refs": [
+        "cq8mc2q34pe37md2leeg"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq8mvb45r38gndhpq360",
+    "req_id": "cq8mvb45r38gndhpq36g",
+    "resp_id": "cq8mvb45r38gndhpq370",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：解释什么是敲击任务（concurrent tapping task）?"
+}

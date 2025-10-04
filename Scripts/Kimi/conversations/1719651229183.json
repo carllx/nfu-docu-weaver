@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cpvsn7ofkflbcksj7vv0",
+    "attachments": [
+        {
+            "date": 2010,
+            "title": "Creativity and art: Three roads to surprise",
+            "fileID": "cpq4e64dvon4ts5tb7mg",
+            "itemID": 601,
+            "citation": "Boden, M. A. (2010). Creativity and art: Three roads to surprise. Oxford University Press.\n",
+            "citationShort": "Boden, 2010",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题： 列出所有本书所提起的所有人物\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Creativity and art: Three roads to surprise, was published on 2010. (It can be cite this paper as Boden, 2010 on your answer). \n\n",
+    "response": "根据您提供的文件内容，以下是文中提及的所有人物列表：\n\n1. Margaret A. Boden - 本书的作者。\n2. Elke, Kit, Tusia - 作者在献词中提到的人。\n3. Ron Crocombe (1929–2009) - 作者在献词中纪念的人。\n4. J. Solomon - 在致谢部分提及的编辑。\n5. Ernest A. Edmonds - 第七章的共同作者。\n6. Alan Sutcliffe - 在致谢部分提及，建议作者收集这些文章的人。\n7. Harold Cohen - 在第二章中提到，是20世纪60年代末期开始使用AARON程序套件来阐明自己创造力的抽象画家。\n8. Joseph Addison - 在引言中引用的作者，提出了关于艺术规则的观点。\n9. Anthony O’Hear - 在讨论计算机艺术时提到的哲学家，他坚持艺术涉及人与人之间的交流。\n10. Mark Rothko - 在讨论计算机艺术时提到的艺术家，他的作品在一次展览中与计算机艺术一同展出。\n11. Clyfford Still, Kenneth Noland - 在讨论计算机艺术时提到的艺术家，与Mark Rothko一同在展览中展出作品。\n12. S. Worden, L. Green, P. Thomas - 第九章早期版本的编辑。\n13. Todd and Latham - 在讨论计算机艺术时提到的艺术家，他们的作品是不断变化的图像。\n14. Edmonds - 在讨论计算机艺术时提到的艺术家，他的作品是响应观众动作的不断变化的彩色图案。\n15. Leggett - 在讨论计算机艺术时提到的作者，他的作品是互动式CD-ROM。\n16. Ken Goldberg - 在讨论网络艺术时提到的艺术家，他开发了Telegarden。\n17. McLaughlin et al. - 在讨论Telegarden时提到的研究者。\n18. Bird and Layzell - 在讨论机器人艺术时提到的研究者，他们开发了进化的传感器。\n19. Searle - 在讨论计算机艺术时提到的哲学家，他提出了关于计算机和人类心智的论点。\n20. Julian Bell - 在讨论艺术批评时提到的画家和艺术史学家。\n21. Giorgione - 在讨论艺术批评时提到的艺术家，他的作品被Julian Bell分析。\n22. Giovanni Morelli - 在讨论艺术批评时提到的艺术鉴赏家。\n23. Michelangelo, Barbara Hepworth - 在讨论概念艺术时提到的雕塑家。\n24. Jonathan Swift - 在讨论概念艺术时提到的作家，他使用了恶心的元素来挑战传统观念。\n25. Francisco Goya - 在讨论概念艺术时提到的艺术家，他的作品唤起了人们的厌恶感。\n26. George Rowlandson, William Hogarth - 在讨论概念艺术时提到的讽刺漫画家。\n27. Christopher Ofili - 在讨论概念艺术时提到的艺术家，他使用了大象粪便创作作品。\n28. Wim Delvoye - 在讨论概念艺术时提到的艺术家，他创作了名为Cloaca的作品。\n29. Tracey Emin - 在讨论概念艺术时提到的艺术家，她的作品涉及未整理的床。\n30. Damien Hirst - 在讨论概念艺术时提到的艺术家，他的作品涉及死亡和肉体。\n31. Claes Oldenburg - 在讨论概念艺术时提到的艺术家，他的作品挑战了雕塑的传统观念。\n32. Sol LeWitt - 在讨论概念艺术时提到的艺术家，他的作品涉及将艺术视为概念而非物理对象。\n33. Walter de Maria - 在讨论概念艺术时提到的艺术家，他的作品Vertical Earth Kilometer涉及了隐形的概念。\n34. Michael Heizer - 在讨论概念艺术时提到的艺术家，他的作品涉及了隐形和土地艺术。\n35. John Cage - 在讨论概念艺术时提到的音乐家，他的作品4′33′′涉及了沉默的概念。\n36. Alphonse Allais - 在讨论音乐概念时提到的法国作曲家，他创作了一首完全由沉默组成的葬礼进行曲。\n37. Vito Acconci - 在讨论表演艺术时提到的艺术家，他的作品Following Piece涉及了跟踪他人的行为。\n38. Bruce Naumann - 在讨论概念艺术时提到的艺术家，他的作品涉及了对可能或意图中的音乐的描述。\n\n这些人物在文中被提及，以支持作者对创造力、艺术和计算机艺术的讨论。",
+    "refs": [
+        "cpq4e64dvon4ts5tb7mg"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpvsn7qlnl9bkfsetsqg",
+    "req_id": "cpvsn7qlnl9bkfsetsr0",
+    "resp_id": "cpvsn7qlnl9bkfsetsrg",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题： 列出所有本书所提起的所有人物"
+}

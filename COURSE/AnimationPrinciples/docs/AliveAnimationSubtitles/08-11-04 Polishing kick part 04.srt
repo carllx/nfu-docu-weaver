@@ -1,0 +1,928 @@
+﻿1
+00:00:00,090 --> 00:00:02,052
+- [Instructor] We are
+slowly but surely making it
+
+2
+00:00:02,052 --> 00:00:06,150
+to the end of the polishing
+stage of our character
+
+3
+00:00:06,150 --> 00:00:07,770
+with the arm polishing.
+
+4
+00:00:07,770 --> 00:00:09,190
+At this stage of the course,
+
+5
+00:00:09,190 --> 00:00:12,370
+what I'm doing should not
+have any secret for you.
+
+6
+00:00:12,370 --> 00:00:15,590
+As usual, I will whether track
+the hand of the character
+
+7
+00:00:15,590 --> 00:00:18,570
+or the elbow of the character.
+
+8
+00:00:18,570 --> 00:00:21,477
+And as it's a forward kinematic chain,
+
+9
+00:00:21,477 --> 00:00:24,230
+I will start by polishing the shoulder,
+
+10
+00:00:24,230 --> 00:00:27,130
+the root of the forward kinematic chain.
+
+11
+00:00:27,130 --> 00:00:29,870
+And as we did before several time now,
+
+12
+00:00:29,870 --> 00:00:31,540
+I will make the shoulder drag,
+
+13
+00:00:31,540 --> 00:00:33,730
+especially on those movement
+
+14
+00:00:33,730 --> 00:00:35,910
+where the character is pretty relaxed.
+
+15
+00:00:35,910 --> 00:00:38,290
+What I mean here is that you have to spot
+
+16
+00:00:38,290 --> 00:00:40,550
+whether the shoulder are used
+
+17
+00:00:40,550 --> 00:00:42,400
+to drive the motion or not.
+
+18
+00:00:42,400 --> 00:00:46,620
+Whenever our character is
+walking or taking a few step back
+
+19
+00:00:46,620 --> 00:00:49,420
+and forward, he's not choosing the moment
+
+20
+00:00:49,420 --> 00:00:52,950
+of his arms to pull
+himself forward or back.
+
+21
+00:00:52,950 --> 00:00:56,080
+Generally speaking, the
+shoulder will always drag
+
+22
+00:00:56,080 --> 00:00:57,730
+compared to the chest.
+
+23
+00:00:57,730 --> 00:01:01,395
+But if you remember well,
+during the run cycle,
+
+24
+00:01:01,395 --> 00:01:03,480
+the shoulder were used
+
+25
+00:01:03,480 --> 00:01:06,340
+to pull the character up and forward.
+
+26
+00:01:06,340 --> 00:01:08,770
+So they were reaching their extreme
+
+27
+00:01:08,770 --> 00:01:11,100
+before the center of
+gravity of the character.
+
+28
+00:01:11,100 --> 00:01:13,130
+What I want to point out here
+
+29
+00:01:13,130 --> 00:01:16,400
+is that the shoulder will
+most of the time be dragging
+
+30
+00:01:16,400 --> 00:01:19,140
+but don't be too systematic
+with the way you deal
+
+31
+00:01:19,140 --> 00:01:22,030
+with the dragging because
+there are some case,
+
+32
+00:01:22,030 --> 00:01:24,670
+like the kicking of our character
+
+33
+00:01:24,670 --> 00:01:25,940
+where you want the shoulder
+
+34
+00:01:25,940 --> 00:01:28,830
+to reach their extreme a little earlier
+
+35
+00:01:28,830 --> 00:01:31,080
+as they will participate
+
+36
+00:01:31,080 --> 00:01:33,730
+in the momentum of the center of gravity,
+
+37
+00:01:33,730 --> 00:01:35,280
+and the current kick.
+
+38
+00:01:35,280 --> 00:01:37,070
+They are not leading for say,
+
+39
+00:01:37,070 --> 00:01:39,070
+but they are participating
+
+40
+00:01:39,070 --> 00:01:40,630
+to the leading force.
+
+41
+00:01:40,630 --> 00:01:42,080
+In the meantime, as you can see,
+
+42
+00:01:42,080 --> 00:01:44,660
+I've been tracking the
+elbow of my character
+
+43
+00:01:44,660 --> 00:01:49,280
+and I'm doing my best to get
+rid of any harsh angle drawn
+
+44
+00:01:49,280 --> 00:01:51,450
+by the elbow of the character
+
+45
+00:01:51,450 --> 00:01:54,110
+whether by using the graph editor
+
+46
+00:01:54,110 --> 00:01:58,070
+or by directly posing the
+character in the 3D viewport.
+
+47
+00:01:58,070 --> 00:02:01,000
+My workflow hasn't changed
+since the beginning
+
+48
+00:02:01,000 --> 00:02:02,650
+of this animation.
+
+49
+00:02:02,650 --> 00:02:04,780
+I'm focusing on the motion path,
+
+50
+00:02:04,780 --> 00:02:06,860
+rather than the graph editor.
+
+51
+00:02:06,860 --> 00:02:09,760
+My goal when the character
+is pulling the arm back
+
+52
+00:02:09,760 --> 00:02:11,340
+is to make the forearm
+
+53
+00:02:11,340 --> 00:02:14,660
+and the hand move a bit like a serpent,
+
+54
+00:02:14,660 --> 00:02:16,480
+while the elbow of the character
+
+55
+00:02:16,480 --> 00:02:18,220
+is the head of the serpent
+
+56
+00:02:18,220 --> 00:02:20,930
+and the fist is the tip of the tail.
+
+57
+00:02:20,930 --> 00:02:23,200
+This is the kind of motion that I love,
+
+58
+00:02:23,200 --> 00:02:25,630
+and I generally push them very far.
+
+59
+00:02:25,630 --> 00:02:28,500
+In this case, I've kept it pretty simple
+
+60
+00:02:28,500 --> 00:02:32,290
+and not too smooth as our
+character is contracted.
+
+61
+00:02:32,290 --> 00:02:35,800
+Once I got this chunk of
+the animation polished,
+
+62
+00:02:35,800 --> 00:02:38,020
+I've worked on the kicking move.
+
+63
+00:02:38,020 --> 00:02:40,830
+I've started by adding
+a little more bounce
+
+64
+00:02:40,830 --> 00:02:41,990
+into the shoulder
+
+65
+00:02:41,990 --> 00:02:45,310
+by dropping it whenever
+the character was jumping,
+
+66
+00:02:45,310 --> 00:02:47,776
+and then pushing it further up
+
+67
+00:02:47,776 --> 00:02:49,880
+whenever the character was going down.
+
+68
+00:02:49,880 --> 00:02:52,190
+And then during the kicking motion
+
+69
+00:02:52,190 --> 00:02:55,670
+and the hit, I've pushed
+the contrast of the curve.
+
+70
+00:02:55,670 --> 00:02:57,440
+Whenever the curve is going up,
+
+71
+00:02:57,440 --> 00:02:59,420
+I will push it a little further,
+
+72
+00:02:59,420 --> 00:03:01,110
+and whenever it's going down,
+
+73
+00:03:01,110 --> 00:03:03,290
+I will lower it a little more.
+
+74
+00:03:03,290 --> 00:03:06,970
+This will increase the swinging
+range of the whole arm,
+
+75
+00:03:06,970 --> 00:03:10,200
+and better communicates
+the power of the kick.
+
+76
+00:03:10,200 --> 00:03:14,230
+So you can clearly see me
+processing the z Euler rotation
+
+77
+00:03:14,230 --> 00:03:18,450
+on the shoulder that
+drives its swinging motion.
+
+78
+00:03:18,450 --> 00:03:21,320
+Then when the character was falling back
+
+79
+00:03:21,320 --> 00:03:23,770
+and stepping back into idle,
+
+80
+00:03:23,770 --> 00:03:27,620
+it was just a matter of
+making the shoulder drag.
+
+81
+00:03:27,620 --> 00:03:31,800
+So going a little up when the
+center of gravity's going down
+
+82
+00:03:31,800 --> 00:03:34,700
+and when the center of
+gravity is going up,
+
+83
+00:03:34,700 --> 00:03:36,520
+lower a bit the shoulder.
+
+84
+00:03:36,520 --> 00:03:38,310
+And once I'm done with the shoulder,
+
+85
+00:03:38,310 --> 00:03:41,700
+as usual, I will work
+with the arm controller.
+
+86
+00:03:41,700 --> 00:03:45,420
+As usual, I will start by
+calculating the motion path
+
+87
+00:03:45,420 --> 00:03:49,110
+of the elbow and then
+tweak the arm controller
+
+88
+00:03:49,110 --> 00:03:50,730
+during the swinging motion.
+
+89
+00:03:50,730 --> 00:03:53,420
+Generally speaking, on
+this part of the animation,
+
+90
+00:03:53,420 --> 00:03:56,150
+the motion of the elbow was a bit messy
+
+91
+00:03:56,150 --> 00:03:57,570
+and popping all around.
+
+92
+00:03:57,570 --> 00:03:59,120
+So my goal was pretty clear.
+
+93
+00:03:59,120 --> 00:04:03,540
+I wanted the elbow to rapidly
+reach its back position,
+
+94
+00:04:03,540 --> 00:04:06,770
+ease into the extreme, and then go back.
+
+95
+00:04:06,770 --> 00:04:08,170
+Once I have this space,
+
+96
+00:04:08,170 --> 00:04:09,740
+I jump into camera view
+
+97
+00:04:09,740 --> 00:04:13,330
+and I make sure that
+the arm is getting out
+
+98
+00:04:13,330 --> 00:04:15,063
+of the silhouette of the character.
+
+99
+00:04:15,063 --> 00:04:18,330
+It's not overlapping with
+the chest of the character.
+
+100
+00:04:18,330 --> 00:04:20,140
+So I can achieve this result
+
+101
+00:04:20,140 --> 00:04:23,390
+by slightly pushing the
+x rotation curve up.
+
+102
+00:04:23,390 --> 00:04:25,300
+From there, the fist is the part
+
+103
+00:04:25,300 --> 00:04:28,530
+that is going to show the
+most from the camera view.
+
+104
+00:04:28,530 --> 00:04:30,850
+So I will calculate the motion path
+
+105
+00:04:30,850 --> 00:04:35,590
+from the tip of the fist using
+the end tweak controller.
+
+106
+00:04:35,590 --> 00:04:38,680
+From there, we can see
+that from frame 80 to 82,
+
+107
+00:04:38,680 --> 00:04:41,610
+the arm is going forward way too fast.
+
+108
+00:04:41,610 --> 00:04:44,150
+I wanted it to ease backward
+
+109
+00:04:44,150 --> 00:04:47,420
+and now it's going forward
+as if it was bouncing
+
+110
+00:04:47,420 --> 00:04:48,800
+against a wall.
+
+111
+00:04:48,800 --> 00:04:52,480
+And on top of this, the motion
+path is drawing some kind
+
+112
+00:04:52,480 --> 00:04:56,350
+of V shape that doesn't
+look like a nice arc.
+
+113
+00:04:56,350 --> 00:04:59,390
+So by repositioning a
+bit the arm controller
+
+114
+00:04:59,390 --> 00:05:02,270
+and working a bit on the z rotation curve
+
+115
+00:05:02,270 --> 00:05:05,290
+on the forearm, I will
+be able to fix this.
+
+116
+00:05:05,290 --> 00:05:09,410
+So whenever I'm working
+on such a tight animation
+
+117
+00:05:09,410 --> 00:05:14,290
+or motion, meaning that it
+occurs upon a very few frame,
+
+118
+00:05:14,290 --> 00:05:18,840
+I adjusted the curve and
+often update the motion path.
+
+119
+00:05:18,840 --> 00:05:21,060
+And I'm not focusing on the character
+
+120
+00:05:21,060 --> 00:05:25,620
+but mostly on the arcs drawn
+by the tip of his fist.
+
+121
+00:05:25,620 --> 00:05:27,620
+In the end, I get a nice arc
+
+122
+00:05:27,620 --> 00:05:30,010
+with an ease-out forward.
+
+123
+00:05:30,010 --> 00:05:32,630
+So with experience, you will be better
+
+124
+00:05:32,630 --> 00:05:34,630
+at creating nice poses,
+
+125
+00:05:34,630 --> 00:05:37,680
+and then sculpting those animation arcs.
+
+126
+00:05:37,680 --> 00:05:42,170
+And this is fundamental to
+create a nice animation fast.
+
+127
+00:05:42,170 --> 00:05:45,090
+From there, I've been
+reworking the whole arm
+
+128
+00:05:45,090 --> 00:05:47,900
+during the steps back of the character.
+
+129
+00:05:47,900 --> 00:05:49,700
+But since this is something
+
+130
+00:05:49,700 --> 00:05:52,300
+we have seen multiple time before,
+
+131
+00:05:52,300 --> 00:05:55,140
+I won't be commenting it anymore.
+
+132
+00:05:55,140 --> 00:05:57,560
+Once the motion of the arm is polished,
+
+133
+00:05:57,560 --> 00:05:59,680
+you can work on your smears.
+
+134
+00:05:59,680 --> 00:06:02,140
+At this stage, what mostly matter
+
+135
+00:06:02,140 --> 00:06:05,030
+is what we are going to
+see in the camera view.
+
+136
+00:06:05,030 --> 00:06:07,780
+Even if I'm rotating around my character
+
+137
+00:06:07,780 --> 00:06:10,760
+to get a better angle to pose those tweak,
+
+138
+00:06:10,760 --> 00:06:13,030
+I always come back to the camera view
+
+139
+00:06:13,030 --> 00:06:14,560
+to double check the pose.
+
+140
+00:06:14,560 --> 00:06:16,090
+Your goal in this case
+
+141
+00:06:16,090 --> 00:06:18,820
+is to make sure that
+the current silhouette
+
+142
+00:06:18,820 --> 00:06:21,499
+of your character support the arcs.
+
+143
+00:06:21,499 --> 00:06:23,670
+When building those smears,
+
+144
+00:06:23,670 --> 00:06:26,600
+don't think of the arm as a current arm
+
+145
+00:06:26,600 --> 00:06:29,190
+but rather think of it as a whip
+
+146
+00:06:29,190 --> 00:06:31,000
+or a rubber limb.
+
+147
+00:06:31,000 --> 00:06:32,710
+Here I'm adding a little detail
+
+148
+00:06:32,710 --> 00:06:34,900
+by breaking the elbow joint
+
+149
+00:06:34,900 --> 00:06:37,590
+and slightly bending the arm backward
+
+150
+00:06:37,590 --> 00:06:41,730
+whenever it reaches its
+extreme back during the swing.
+
+151
+00:06:41,730 --> 00:06:43,640
+While having fun building those smears,
+
+152
+00:06:43,640 --> 00:06:45,480
+don't forget to track your arcs
+
+153
+00:06:45,480 --> 00:06:48,924
+because since you're
+modifying your tweaker bones,
+
+154
+00:06:48,924 --> 00:06:51,350
+their motion path will change.
+
+155
+00:06:51,350 --> 00:06:55,550
+So make sure that your
+spacing is still relevant.
+
+156
+00:06:55,550 --> 00:06:57,720
+Regarding the right arm polish,
+
+157
+00:06:57,720 --> 00:07:00,000
+there is not that much to say.
+
+158
+00:07:00,000 --> 00:07:03,300
+As usual, I will make the shoulder drag.
+
+159
+00:07:03,300 --> 00:07:05,770
+Then I will work on the arm controller,
+
+160
+00:07:05,770 --> 00:07:09,690
+making sure I have nice
+arcs from the elbows.
+
+161
+00:07:09,690 --> 00:07:11,100
+Then work on the forearm,
+
+162
+00:07:11,100 --> 00:07:14,820
+making sure that I have
+nice arcs to the wrist.
+
+163
+00:07:14,820 --> 00:07:17,990
+While you are mainly
+focusing on those arcs
+
+164
+00:07:17,990 --> 00:07:19,683
+in the spacing, don't forget
+
+165
+00:07:19,683 --> 00:07:23,367
+that if you can clear the
+silhouette of your character,
+
+166
+00:07:23,367 --> 00:07:24,750
+that's always better.
+
+167
+00:07:24,750 --> 00:07:26,940
+Like for example, avoiding the end
+
+168
+00:07:26,940 --> 00:07:29,160
+to overlap with the thigh
+
+169
+00:07:29,160 --> 00:07:32,640
+or make sure that your
+negative space allows you
+
+170
+00:07:32,640 --> 00:07:35,150
+to perfectly read the arm.
+
+171
+00:07:35,150 --> 00:07:38,170
+With all these little
+details taken care of,
+
+172
+00:07:38,170 --> 00:07:40,290
+I will call this animation done.
+
+173
+00:07:40,290 --> 00:07:43,270
+As any form of art,
+animation is never done
+
+174
+00:07:43,270 --> 00:07:46,570
+but you have to call your
+work finished and move on.
+
+175
+00:07:46,570 --> 00:07:49,040
+I personally do think that it's better
+
+176
+00:07:49,040 --> 00:07:51,630
+to get not too far into polishing
+
+177
+00:07:51,630 --> 00:07:53,180
+and finish your piece
+
+178
+00:07:53,180 --> 00:07:55,400
+than spending hundred of hours trying
+
+179
+00:07:55,400 --> 00:07:56,940
+to polish your animation,
+
+180
+00:07:56,940 --> 00:07:59,750
+getting disgusted or bored about it
+
+181
+00:07:59,750 --> 00:08:01,050
+and not publish it.
+
+182
+00:08:01,050 --> 00:08:05,140
+The best animation will sure
+bring attention on your work,
+
+183
+00:08:05,140 --> 00:08:07,816
+and in our world, it's
+better to get noticeable,
+
+184
+00:08:07,816 --> 00:08:10,090
+than the best.
+
+185
+00:08:10,090 --> 00:08:12,540
+So always try to push your animation
+
+186
+00:08:12,540 --> 00:08:14,630
+as far possible but make sure
+
+187
+00:08:14,630 --> 00:08:16,620
+that you finish what you have started.
+
+188
+00:08:16,620 --> 00:08:20,240
+And hopefully you will
+never be 100% satisfied
+
+189
+00:08:20,240 --> 00:08:22,090
+of what you have done.
+
+190
+00:08:22,090 --> 00:08:24,760
+So that there is always
+room for improvement
+
+191
+00:08:24,760 --> 00:08:27,660
+and that you will do better
+on the next animation.
+
+192
+00:08:27,660 --> 00:08:31,450
+So I would advise to set
+yourself some milestone
+
+193
+00:08:31,450 --> 00:08:34,560
+or deadlines, and this
+is exactly what I did
+
+194
+00:08:34,560 --> 00:08:35,790
+for this animation
+
+195
+00:08:35,790 --> 00:08:37,660
+where I need to publish the course
+
+196
+00:08:37,660 --> 00:08:40,400
+and I can't work forever on it.
+
+197
+00:08:40,400 --> 00:08:42,770
+So it's not as good as I would like
+
+198
+00:08:42,770 --> 00:08:45,140
+but I do believe it's good enough
+
+199
+00:08:45,140 --> 00:08:46,740
+to show my workflow,
+
+200
+00:08:46,740 --> 00:08:49,060
+and I'm really proud of this animation.
+
+201
+00:08:49,060 --> 00:08:51,810
+Even if I see some part
+that could be improved.
+
+202
+00:08:51,810 --> 00:08:55,240
+Finally, I'd like to add
+that animation is fun
+
+203
+00:08:55,240 --> 00:08:57,011
+and you should keep it fun.
+
+204
+00:08:57,011 --> 00:09:01,200
+Sometime it's painful
+because it's a lot of work
+
+205
+00:09:01,200 --> 00:09:03,890
+but if you take pleasure
+doing what you do,
+
+206
+00:09:03,890 --> 00:09:05,898
+you will progress very fast.
+
+207
+00:09:05,898 --> 00:09:07,580
+And if you have the chance
+
+208
+00:09:07,580 --> 00:09:10,480
+to make it your job, you
+will be among the few
+
+209
+00:09:10,480 --> 00:09:12,120
+that enjoy their jobs.
+
+210
+00:09:12,120 --> 00:09:14,750
+And this is sure a life changer
+
+211
+00:09:14,750 --> 00:09:17,110
+and the key to success.
+
+212
+00:09:17,110 --> 00:09:19,390
+So I wish you a lot of success
+
+213
+00:09:19,390 --> 00:09:21,593
+and I will see you in the next video.
+

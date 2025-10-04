@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqqf1p22jkod5aau7kc0",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "中文版Adobe audition CC 2020从入门到精通",
+            "fileID": "cqmeceaul729sht1u8b0",
+            "itemID": 3542,
+            "citation": "袁诗轩. (2021). 中文版Adobe audition CC 2020从入门到精通. 清华大学出版社. https://product.dangdang.com/29236486.html\n",
+            "citationShort": "袁诗轩, 2021",
+            "tags": [
+                "#kimi",
+                "# Audition"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：介绍工作区布局 \n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- 中文版Adobe audition CC 2020从入门到精通, was published on 2021. (It can be cite this paper as 袁诗轩, 2021 on your answer). \n\n",
+    "response": "在《中文版Adobe Audition CC 2020从入门到精通》一书中，作者袁诗轩详细讨论了工作区布局的相关方法和证据。以下是根据书中内容提取的有关工作区布局的介绍：\n\n### 工作区布局介绍\n\n在Adobe Audition CC 2020中，工作区布局对于提高音频编辑的效率至关重要。用户可以根据个人的工作习惯和项目需求来自定义工作区布局。以下是一些关键点，引用自袁诗轩 (2021) 的著作：\n\n1. **自定义工作区**：\n   用户可以通过“窗口”菜单中的“工作区”选项来选择预设的工作区布局，或者创建和保存自定义的工作区布局。例如，用户可以选择“音频后期制作”或“广播”等预设工作区，或者通过“另存为新工作区”来创建个人化的工作区布局。\n\n2. **面板管理**：\n   在Audition中，面板是工作区的重要组成部分，包括“编辑器”、“效果组”、“文件”等。用户可以通过“窗口”菜单来显示或隐藏不同的面板，以及调整面板的位置和大小，以优化工作流程。\n\n3. **编辑器的使用**：\n   编辑器是进行音频编辑的主要场所。用户可以在编辑器中查看和编辑音频波形。书中提到，可以通过“视图”菜单下的“波形编辑器”快速切换至波形编辑器模式（袁诗轩, 2021）。\n\n4. **多轨编辑器**：\n   多轨编辑器允许用户同时编辑多个音频轨道，适合复杂的音频项目。用户可以通过“文件”菜单下的“新建”|“多轨会话”命令来创建新的多轨会话。\n\n5. **面板的显示与隐藏**：\n   用户可以根据需要显示或隐藏特定的面板。例如，可以通过选择“窗口”|“效果组”来显示或隐藏“效果组”面板，以便对音频应用各种效果。\n\n6. **面板的组合**：\n   用户可以通过组合面板来创建更加高效的工作流程。例如，可以将“频率分析”面板与“历史”面板组合在一起，以便同时进行音频分析和历史操作的查看。\n\n7. **使用快捷键**：\n   为了快速访问和操作面板，用户可以利用快捷键。书中提供了一些快捷键的示例，如使用`Alt+1`快速显示或隐藏编辑器。\n\n通过以上方法，用户可以根据自己的偏好和项目需求来优化Audition的工作区布局，从而提高音频编辑的效率和效果。\n\n### 参考文献\n\n袁诗轩. (2021). 中文版Adobe Audition CC 2020从入门到精通. 北京：清华大学出版社.",
+    "refs": [
+        "cqmeceaul729sht1u8b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqqf1p69e5jusbjkcej0",
+    "req_id": "cqqf1p69e5jusbjkcejg",
+    "resp_id": "cqqf1p69e5jusbjkcek0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：介绍工作区布局 "
+}

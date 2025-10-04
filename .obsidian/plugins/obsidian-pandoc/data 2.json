@@ -1,0 +1,15 @@
+{
+  "showCLICommands": true,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "current",
+  "injectThemeCSS": false,
+  "customCSSFile": "/Users/yamlam/Library/Mobile Documents/iCloud~md~obsidian/Documents/.obsidian/snippets/myStyle.css",
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "link",
+  "highDPIDiagrams": true,
+  "pandoc": "/Users/yamlam/opt/anaconda3/bin/pandoc",
+  "pdflatex": "/Users/yamlam/Documents/ZoteroMyLibrary.json",
+  "outputFolder": "/Users/yamlam/Downloads",
+  "extraArguments": "",
+  "exportFrom": "html"
+}

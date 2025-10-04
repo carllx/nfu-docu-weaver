@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqi8b1ldu5gtn000fug",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n提取论文的示例以，生成一份制作伪代码的说明指南，以帮助Prompt工程师能够理解如何设计一个更好的伪代码 Prompt\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n",
+    "response": "# 伪代码提示设计指南\n\n## 1. 引言\n\n在Mishra等人的研究中（2023），提出了使用伪代码指令来提升预训练大型语言模型（LLM）的性能。本指南基于该研究，旨在帮助Prompt工程师设计更有效的伪代码提示。\n\n## 2. 理解伪代码提示的优势\n\n伪代码是一种非正式的、类似代码的结构，易于人类理解，但不一定能编译或执行。它通常用于表达复杂思想、过程和流程，相较于自然语言，伪代码更具有清晰性和简洁性。\n\n## 3. 设计伪代码提示的步骤\n\n### 3.1 定义函数原型\n\n- **描述性名称**：为函数提供一个描述性名称，总结要执行的任务。\n- **参数和返回类型**：包括所有输入变量及其数据类型和返回类型。\n\n### 3.2 编写DocString\n\n- **任务描述**：使用自然语言详细描述要执行的任务。\n- **参数列表**：列出函数接收的参数及其类型。\n- **返回值**：说明函数返回值的类型。\n\n### 3.3 构建函数定义\n\n- **子任务函数**：在函数定义中，使用子任务函数描述解决特定任务的步骤。这些子任务函数通常不定义，但应具有描述性名称、参数和变量。\n- **内联注释**：在必要时，添加内联注释说明子任务函数的作用和参数的角色。\n\n### 3.4 预处理器\n\n- **输入解析**：由于伪代码提示期望以参数形式接收输入，需要一个预处理器来解析输入数据。\n\n## 4. 示例\n\n以下是根据Mishra等人（2023）的研究中的示例，创建伪代码提示的示例：\n\n```python\ndef generate_sentiment(sentence: str) -> str:\n    \"\"\"\n    对于给定的句子，任务是预测情感。如果是积极情绪返回 \"positive\"，否则返回 \"negative\"。\n    \n    参数：\n    sentence (str): 输入句子\n    \n    返回：\n    str: 输入的情感\n    \"\"\"\n    # 预测情感\n    if sentiment_is_positive(sentence):\n        return \"positive\"\n    else:\n        return \"negative\"\n\n# 测试函数\n>>> generate_sentiment(\n    \"that has a charmingly bourbon air.\"\n)\n```\n\n## 5. 结论\n\n伪代码提示通过提供结构化的指令，有助于提高模型对任务的理解，从而提升性能。Prompt工程师应充分利用伪代码的清晰和简洁性，设计出更有效的提示。\n\n## 6. 参考文献\n\nMishra et al., 2023 提供了使用伪代码指令的研究基础，本指南在该研究的基础上进行了扩展和具体化。",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n\nNow, Listen to me:\n提取论文的示例以，",
+    "group_id": "cpqi8b07061vvculf49g",
+    "req_id": "cpqi8b07061vvculf4b0",
+    "resp_id": "cpqi8b07061vvculf4bg",
+    "quection": "提取论文的示例以，生成一份制作伪代码的说明指南，以帮助Prompt工程师能够理解如何设计一个更好的伪代码 Prompt"
+}

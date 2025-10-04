@@ -1,0 +1,144 @@
+﻿1
+00:00:00,840 --> 00:00:02,720
+- [Narrator] Welcome to chapter three.
+
+2
+00:00:02,720 --> 00:00:05,900
+You are beginning in
+animation and this chapter
+
+3
+00:00:05,900 --> 00:00:09,020
+is one of the most important chapter.
+
+4
+00:00:09,020 --> 00:00:11,760
+You will learn everything you need to know
+
+5
+00:00:11,760 --> 00:00:14,810
+to create all the squirrel animation
+
+6
+00:00:14,810 --> 00:00:17,520
+used in the first course teaser.
+
+7
+00:00:17,520 --> 00:00:21,420
+We will warm up through
+some bouncing ball exercises
+
+8
+00:00:21,420 --> 00:00:25,650
+where you will be able to
+sharpen your motion technique
+
+9
+00:00:25,650 --> 00:00:29,050
+and get familiar with
+the use of an armature
+
+10
+00:00:29,050 --> 00:00:31,410
+or a rig to animate.
+
+11
+00:00:31,410 --> 00:00:33,960
+I will mix those exercise video
+
+12
+00:00:33,960 --> 00:00:36,230
+with some theoretical videos
+
+13
+00:00:36,230 --> 00:00:39,370
+where we will explain the core concept
+
+14
+00:00:39,370 --> 00:00:42,840
+between world space and local space,
+
+15
+00:00:42,840 --> 00:00:47,830
+overlapping, follow through
+and overshoot in an animation.
+
+16
+00:00:47,830 --> 00:00:50,800
+The different steps of animation creation,
+
+17
+00:00:50,800 --> 00:00:55,180
+blocking, breakdowns, in
+between going to spline
+
+18
+00:00:55,180 --> 00:00:58,900
+and polishing the
+animation, understanding ox,
+
+19
+00:00:58,900 --> 00:01:00,880
+timing, and spacing.
+
+20
+00:01:00,880 --> 00:01:05,610
+We will also have an in-depth
+look to the NLA editor.
+
+21
+00:01:05,610 --> 00:01:08,200
+This is a very important chapter
+
+22
+00:01:08,200 --> 00:01:11,050
+as you will learn all the fundamentals
+
+23
+00:01:11,050 --> 00:01:13,750
+and as I would repeat it along the way
+
+24
+00:01:13,750 --> 00:01:18,010
+it's very important that
+you make every exercises.
+
+25
+00:01:18,010 --> 00:01:20,520
+If you want to get good at animation
+
+26
+00:01:20,520 --> 00:01:23,240
+and be able to create all those animation
+
+27
+00:01:23,240 --> 00:01:24,810
+you have to animate.
+
+28
+00:01:24,810 --> 00:01:27,150
+Watching those video won't be enough.
+
+29
+00:01:27,150 --> 00:01:29,920
+Make those animation,
+don't be afraid to fail.
+
+30
+00:01:29,920 --> 00:01:32,490
+It's a part of the learning process
+
+31
+00:01:32,490 --> 00:01:35,600
+but if you carefully
+follow the different steps
+
+32
+00:01:35,600 --> 00:01:39,380
+and understand the core
+principle, you will rapidly get
+
+33
+00:01:39,380 --> 00:01:42,513
+to a satisfying result, let's get started.
+

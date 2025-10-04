@@ -1,0 +1,820 @@
+﻿1
+00:00:00,120 --> 00:00:03,570
+- Finally, the polishing
+stage of our run cycle
+
+2
+00:00:03,570 --> 00:00:06,550
+or gem cycle animation, as you wish.
+
+3
+00:00:06,550 --> 00:00:10,380
+With all of our keys
+selected, I will press T
+
+4
+00:00:10,380 --> 00:00:13,160
+and switch to Bézier interpolation.
+
+5
+00:00:13,160 --> 00:00:16,440
+This is what we call
+splining the animation,
+
+6
+00:00:16,440 --> 00:00:18,690
+because we are just changing the curve
+
+7
+00:00:18,690 --> 00:00:20,963
+from constant to spline.
+
+8
+00:00:20,963 --> 00:00:23,390
+And I must say that from our blocking
+
+9
+00:00:23,390 --> 00:00:25,430
+it already looks pretty cool.
+
+10
+00:00:25,430 --> 00:00:28,210
+I will quickly clean up the ROOT bone.
+
+11
+00:00:28,210 --> 00:00:30,360
+So I will select it
+
+12
+00:00:30,360 --> 00:00:34,110
+and use the only selected
+option in the action editor.
+
+13
+00:00:34,110 --> 00:00:36,200
+When doing a locomotion cycle
+
+14
+00:00:36,200 --> 00:00:38,890
+it's better to have a constant speed.
+
+15
+00:00:38,890 --> 00:00:40,850
+So I just need to keep the first
+
+16
+00:00:40,850 --> 00:00:45,850
+and last key frame and switch
+them to linear interpolation.
+
+17
+00:00:46,020 --> 00:00:49,810
+Linear interpolation means constant speed.
+
+18
+00:00:49,810 --> 00:00:52,320
+And while we are polishing the animation
+
+19
+00:00:52,320 --> 00:00:55,550
+we can enable or disable the ROOT motion
+
+20
+00:00:55,550 --> 00:00:58,625
+to check the motion path of our character,
+
+21
+00:00:58,625 --> 00:01:02,010
+while moving forward or in place.
+
+22
+00:01:02,010 --> 00:01:03,430
+For the polishing stage,
+
+23
+00:01:03,430 --> 00:01:04,930
+it can be interesting
+
+24
+00:01:04,930 --> 00:01:08,370
+to use the properties I
+have created on the streak.
+
+25
+00:01:08,370 --> 00:01:09,530
+You can access them
+
+26
+00:01:09,530 --> 00:01:12,841
+selecting the property bone
+on top of the character.
+
+27
+00:01:12,841 --> 00:01:16,300
+The hide properties are
+not supposed to be keyed.
+
+28
+00:01:16,300 --> 00:01:18,230
+That's a mistake I have made.
+
+29
+00:01:18,230 --> 00:01:19,760
+So I will just try click on it
+
+30
+00:01:19,760 --> 00:01:21,940
+and choose to clear key frames.
+
+31
+00:01:21,940 --> 00:01:23,930
+Hiding the legs and hiding the tail
+
+32
+00:01:23,930 --> 00:01:26,120
+while we are polishing the torso,
+
+33
+00:01:26,120 --> 00:01:28,610
+for example, will help a lot,
+
+34
+00:01:28,610 --> 00:01:30,570
+because we won't be distracted
+
+35
+00:01:30,570 --> 00:01:33,550
+by the legs motion nor the tail motion.
+
+36
+00:01:33,550 --> 00:01:35,890
+And so we can approach the animation
+
+37
+00:01:35,890 --> 00:01:39,660
+of the torso of our
+character as a bouncing ball.
+
+38
+00:01:39,660 --> 00:01:41,920
+A very common rule in animation
+
+39
+00:01:41,920 --> 00:01:44,480
+is that everything is a bouncing ball.
+
+40
+00:01:44,480 --> 00:01:48,030
+That's why the bone simple
+exercise is so important.
+
+41
+00:01:48,030 --> 00:01:50,480
+Whenever you are learning animation.
+
+42
+00:01:50,480 --> 00:01:52,140
+Finally, as always
+
+43
+00:01:52,140 --> 00:01:55,010
+it's very important to use the motion path
+
+44
+00:01:55,010 --> 00:01:58,360
+as explained before I've
+added to my quick favorite
+
+45
+00:01:58,360 --> 00:02:02,160
+so I can rapidly access
+them, pressing the Q key
+
+46
+00:02:02,160 --> 00:02:06,033
+but you can also find it
+under the armature properties.
+
+47
+00:02:07,150 --> 00:02:10,090
+Let's starts by polishing
+the torso controller
+
+48
+00:02:10,090 --> 00:02:12,470
+or the root of the torso, if you will.
+
+49
+00:02:12,470 --> 00:02:14,050
+I've hidden the tail
+
+50
+00:02:14,050 --> 00:02:17,210
+but I advise you to also hide the legs
+
+51
+00:02:17,210 --> 00:02:20,050
+because they are a bit
+distracting in the end.
+
+52
+00:02:20,050 --> 00:02:22,770
+I've hidden them a little later on
+
+53
+00:02:22,770 --> 00:02:25,890
+but it's better to hide
+them right at the beginning.
+
+54
+00:02:25,890 --> 00:02:28,860
+I will first work on the Z location curve
+
+55
+00:02:28,860 --> 00:02:32,750
+since it's the most
+influential curve in the motion
+
+56
+00:02:32,750 --> 00:02:35,600
+of this controller, it's
+pretty straightforward
+
+57
+00:02:35,600 --> 00:02:39,430
+because it does really looks
+like our bouncing ball curve.
+
+58
+00:02:39,430 --> 00:02:41,780
+There are two main differences.
+
+59
+00:02:41,780 --> 00:02:45,500
+I've slightly scaled the upper vector.
+
+60
+00:02:45,500 --> 00:02:47,800
+So that my character is kind of
+
+61
+00:02:47,800 --> 00:02:51,030
+floating when it's
+reached its highest point.
+
+62
+00:02:51,030 --> 00:02:54,530
+So it brings a bit of
+style into my animation.
+
+63
+00:02:54,530 --> 00:02:56,060
+And the second thing is
+
+64
+00:02:56,060 --> 00:03:00,720
+that we have a slight
+easing on the contact frame
+
+65
+00:03:00,720 --> 00:03:05,700
+because the legs of our character
+are absorbing the shock.
+
+66
+00:03:05,700 --> 00:03:07,600
+So we don't have a broken vector
+
+67
+00:03:07,600 --> 00:03:10,060
+on frame zero and frame 12.
+
+68
+00:03:10,060 --> 00:03:14,580
+Remember that frame zero and
+frame 12 must be the same.
+
+69
+00:03:14,580 --> 00:03:17,070
+So I will basically revise a bit
+
+70
+00:03:17,070 --> 00:03:22,070
+the position of frame one and
+11, and then they I will scale
+
+71
+00:03:22,470 --> 00:03:24,940
+my key frame on frame six,
+
+72
+00:03:24,940 --> 00:03:26,540
+when I'm editing the curve,
+
+73
+00:03:26,540 --> 00:03:29,710
+especially this kind of broad curve.
+
+74
+00:03:29,710 --> 00:03:31,880
+I often only press the cue key
+
+75
+00:03:31,880 --> 00:03:35,250
+in the 3D view port to
+access my quick favorite.
+
+76
+00:03:35,250 --> 00:03:37,630
+And I update the motion path.
+
+77
+00:03:37,630 --> 00:03:39,730
+Don't forget to check the animation
+
+78
+00:03:39,730 --> 00:03:43,340
+both with the ROOT enabled and disabled.
+
+79
+00:03:43,340 --> 00:03:45,790
+Here the video is sped up twice
+
+80
+00:03:45,790 --> 00:03:49,500
+but you have the curve in
+reference on the top right corner.
+
+81
+00:03:49,500 --> 00:03:50,490
+And at this stage
+
+82
+00:03:50,490 --> 00:03:52,710
+you should be able to polish the curve.
+
+83
+00:03:52,710 --> 00:03:54,370
+Again as an art form,
+
+84
+00:03:54,370 --> 00:03:57,140
+I can't teach you
+everything about animation
+
+85
+00:03:57,140 --> 00:04:00,260
+because a lot of it is
+about feeling the motion.
+
+86
+00:04:00,260 --> 00:04:03,510
+So you have to feel if you
+want to hold your character
+
+87
+00:04:03,510 --> 00:04:07,510
+a little more in the air or
+make him jump a little higher,
+
+88
+00:04:07,510 --> 00:04:10,200
+a little lower, that's about you.
+
+89
+00:04:10,200 --> 00:04:12,250
+The thing I'm pretty convinced here
+
+90
+00:04:12,250 --> 00:04:14,450
+is that the leg are really distracting.
+
+91
+00:04:14,450 --> 00:04:16,850
+So don't forget to hide them right now.
+
+92
+00:04:16,850 --> 00:04:19,739
+I'm now switching to the X rotation curve
+
+93
+00:04:19,739 --> 00:04:24,700
+and the weird thing here is
+that we have our XYZ rotation
+
+94
+00:04:24,700 --> 00:04:26,850
+but also W your rotation.
+
+95
+00:04:26,850 --> 00:04:29,830
+And there is also this
+strange quaternion name.
+
+96
+00:04:29,830 --> 00:04:32,080
+Don't worry about that for the time being
+
+97
+00:04:32,080 --> 00:04:36,120
+we will be focusing on the
+X, Y, and Z rotation curve.
+
+98
+00:04:36,120 --> 00:04:40,820
+We can kind of ignore the
+W quaternion rotation curve
+
+99
+00:04:40,820 --> 00:04:42,150
+for the time being.
+
+100
+00:04:42,150 --> 00:04:46,530
+And I will explain you Euler
+and quaternion rotation later
+
+101
+00:04:46,530 --> 00:04:47,450
+in this course,
+
+102
+00:04:47,450 --> 00:04:49,860
+the X rotation curve allows us to
+
+103
+00:04:49,860 --> 00:04:53,060
+lean our character forward and backwards.
+
+104
+00:04:53,060 --> 00:04:56,620
+We can see, we have an
+important change on the rotation
+
+105
+00:04:56,620 --> 00:04:59,691
+or orientation of the
+torso of our character
+
+106
+00:04:59,691 --> 00:05:02,880
+when it's contacting
+and leaving the ground.
+
+107
+00:05:02,880 --> 00:05:05,750
+I've created a little
+plateau in the middle when
+
+108
+00:05:05,750 --> 00:05:08,090
+our character is floating in the air
+
+109
+00:05:08,090 --> 00:05:11,580
+the key on zero and 12 are identical
+
+110
+00:05:11,580 --> 00:05:13,250
+and I've rotated the angles
+
+111
+00:05:13,250 --> 00:05:16,160
+so that we have a continuous
+flow of the curve.
+
+112
+00:05:16,160 --> 00:05:18,420
+When I'm editing this rotation curve,
+
+113
+00:05:18,420 --> 00:05:23,420
+I'm thinking of how I want
+my character to behave.
+
+114
+00:05:23,470 --> 00:05:27,620
+It's a very light animal
+with a lot of agility.
+
+115
+00:05:27,620 --> 00:05:30,470
+So I want a very smooth motion.
+
+116
+00:05:30,470 --> 00:05:32,400
+So I want to shape the body
+
+117
+00:05:32,400 --> 00:05:36,920
+of my character so that it
+follows the flow of the jump.
+
+118
+00:05:36,920 --> 00:05:38,760
+And I curve the body even more
+
+119
+00:05:38,760 --> 00:05:42,780
+when the character is landing
+and pushing to jump again.
+
+120
+00:05:42,780 --> 00:05:44,070
+When I got this feeling
+
+121
+00:05:44,070 --> 00:05:46,680
+I fixed the first and last key frame
+
+122
+00:05:46,680 --> 00:05:50,280
+aligning them using the individual origin.
+
+123
+00:05:50,280 --> 00:05:54,090
+It allows you to rotate both
+key frame independently,
+
+124
+00:05:54,090 --> 00:05:57,180
+and then I've created this little plateau.
+
+125
+00:05:57,180 --> 00:06:00,330
+To have my character slightly flatter
+
+126
+00:06:00,330 --> 00:06:03,210
+or horizontal while in the air.
+
+127
+00:06:03,210 --> 00:06:05,740
+It will make it float a bit more.
+
+128
+00:06:05,740 --> 00:06:09,523
+And here is the result after
+polishing the X rotation.
+
+129
+00:06:14,290 --> 00:06:19,040
+The Y Location, motion of our
+character is barely noticeable
+
+130
+00:06:19,040 --> 00:06:20,870
+because most of the forward
+
+131
+00:06:20,870 --> 00:06:24,930
+and backward motion is
+generated by the ROOT bone.
+
+132
+00:06:24,930 --> 00:06:26,900
+And I've used the Y location
+
+133
+00:06:26,900 --> 00:06:29,400
+of the body control during the bulking
+
+134
+00:06:29,400 --> 00:06:32,680
+only for very subtle
+adjustment of the pose.
+
+135
+00:06:32,680 --> 00:06:34,100
+So I've zoomed on the curve
+
+136
+00:06:34,100 --> 00:06:36,180
+because the value are very subtle.
+
+137
+00:06:36,180 --> 00:06:39,273
+And what I will do is
+just to align the curve
+
+138
+00:06:39,273 --> 00:06:41,810
+on frame zero and frame 12.
+
+139
+00:06:41,810 --> 00:06:45,070
+This will remove any
+jitter during the cycle.
+
+140
+00:06:45,070 --> 00:06:48,244
+We can enable later on the cycle modifier
+
+141
+00:06:48,244 --> 00:06:51,320
+so that you will see the
+continuity of your curve,
+
+142
+00:06:51,320 --> 00:06:55,610
+and it might be a little
+more intuitive to edit them
+
+143
+00:06:55,610 --> 00:06:56,800
+to align them.
+
+144
+00:06:56,800 --> 00:07:01,392
+I will apply the same process
+to the Y and Z rotation curve.
+
+145
+00:07:01,392 --> 00:07:04,870
+They are here to slightly twist the torso
+
+146
+00:07:04,870 --> 00:07:09,660
+of our character and slightly
+rotate it side to side.
+
+147
+00:07:09,660 --> 00:07:13,040
+So they just communicate
+a bit, the fact that we
+
+148
+00:07:13,040 --> 00:07:16,310
+haven't been using tweening
+when our character is landing
+
+149
+00:07:16,310 --> 00:07:20,890
+meaning that his front legs
+don't land at the same time.
+
+150
+00:07:20,890 --> 00:07:22,460
+So there will be a bit
+
+151
+00:07:22,460 --> 00:07:25,850
+of twisting in the
+shoulders and in the torso
+
+152
+00:07:25,850 --> 00:07:29,760
+because everything is
+connected on our character.
+
+153
+00:07:29,760 --> 00:07:32,200
+And this is something super important
+
+154
+00:07:32,200 --> 00:07:34,540
+when you are animating a character,
+
+155
+00:07:34,540 --> 00:07:37,300
+remember that everything is connected.
+
+156
+00:07:37,300 --> 00:07:40,540
+So if you move your hand,
+it will, at some point
+
+157
+00:07:40,540 --> 00:07:42,450
+make your legs move.
+
+158
+00:07:42,450 --> 00:07:45,702
+I know it's a bit extreme,
+but just keep this in mind
+
+159
+00:07:45,702 --> 00:07:50,320
+so that you won't forget to
+kind of polish a bit everything
+
+160
+00:07:50,320 --> 00:07:53,210
+or think about it whenever you are working
+
+161
+00:07:53,210 --> 00:07:55,600
+on the extremity of your contractor.
+
+162
+00:07:55,600 --> 00:07:59,670
+So what I will do for the Y
+and Z quaternion rotation,
+
+163
+00:07:59,670 --> 00:08:02,370
+since those are very subtle motion,
+
+164
+00:08:02,370 --> 00:08:05,780
+I will just create a
+subtle flow in the curve,
+
+165
+00:08:05,780 --> 00:08:08,830
+making sure that when the curve is going
+
+166
+00:08:08,830 --> 00:08:12,000
+from one extreme frame 12 to the other
+
+167
+00:08:12,000 --> 00:08:14,970
+frame zero, it does flow properly.
+
+168
+00:08:14,970 --> 00:08:17,440
+So I create a slight overshoot
+
+169
+00:08:17,440 --> 00:08:20,910
+by pushing the key number two, a bit down.
+
+170
+00:08:20,910 --> 00:08:24,130
+The idea's to get smoother
+changes in the curve
+
+171
+00:08:24,130 --> 00:08:27,970
+instead of adding very
+brutal changes in the curve.
+
+172
+00:08:27,970 --> 00:08:30,240
+So it's a bit the same with the Z curve.
+
+173
+00:08:30,240 --> 00:08:31,400
+When I zoom on it,
+
+174
+00:08:31,400 --> 00:08:33,900
+we can see that we have a peak at the end.
+
+175
+00:08:33,900 --> 00:08:35,950
+I will smooth the curve down,
+
+176
+00:08:35,950 --> 00:08:37,955
+rotate the very last key frame,
+
+177
+00:08:37,955 --> 00:08:39,650
+duplicated it on frame one.
+
+178
+00:08:39,650 --> 00:08:42,523
+Now my curve is diving
+between frame zero and one.
+
+179
+00:08:42,523 --> 00:08:46,320
+So I will just push down a
+bit the key frame number one
+
+180
+00:08:46,320 --> 00:08:48,000
+onto the front two
+
+181
+00:08:48,000 --> 00:08:51,410
+to get a smoother curve
+on its whole shape.
+
+182
+00:08:51,410 --> 00:08:54,870
+We haven't used scaling so
+those curves are perfectly flat.
+
+183
+00:08:54,870 --> 00:08:57,150
+So the first pass of polishing is done
+
+184
+00:08:57,150 --> 00:08:58,560
+for the body controller.
+
+185
+00:08:58,560 --> 00:09:01,260
+Those curves will probably be adjusted
+
+186
+00:09:01,260 --> 00:09:03,470
+when we have polished the chest,
+
+187
+00:09:03,470 --> 00:09:05,533
+hips and head of our character.
+

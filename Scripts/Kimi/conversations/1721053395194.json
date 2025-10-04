@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cqaj1l6aofombdq8cg00",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews",
+            "fileID": "cpg56ig3r07fpupujaag",
+            "itemID": 2536,
+            "citation": "Page, M. J., Moher, D., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … McKenzie, J. E. (2021). PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews. BMJ, 372, n160. https://doi.org/10.1136/bmj.n160\n",
+            "citationShort": "Page et al., 2021",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何开发研究协议?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews, was published on 2021. (It can be cite this paper as Page et al., 2021 on your answer). \n\n",
+    "response": "开发研究协议是一个系统化的过程，需要明确规划研究的方法和目标，以确保研究的透明度和可重复性。根据Page等人在2021年发表的《PRISMA 2020解释与阐述：系统评审报告更新指导和示例》中提供的信息，以下是开发研究协议的几个关键步骤：\n\n1. **确定研究问题和目的**：\n   - 研究协议应明确阐述研究的主要问题或目标，这有助于读者理解研究的范围，并评估研究方法是否适当地解决了这些目标。\n\n2. **制定纳入和排除标准**：\n   - 应详细说明决定哪些证据符合或不符合纳入标准的标准，以便读者理解研究的范围，并核实纳入决策。\n\n3. **描述信息来源**：\n   - 应详细描述搜索或咨询的信息来源，包括数据库、注册表、网站、组织、参考文献列表等，并指定最后一次搜索或咨询的日期。\n\n4. **制定搜索策略**：\n   - 应提供所有数据库、注册表和网站的完整搜索策略，包括使用的任何过滤器和限制，并说明搜索策略的开发过程。\n\n5. **选择研究方法**：\n   - 描述用于选择符合纳入标准的研究的方法，包括多少审稿人筛选每条记录，他们是否独立工作，以及解决审稿人之间分歧的流程。\n\n6. **数据收集和风险评估**：\n   - 指定用于从报告中收集数据的方法，包括审稿人如何独立收集数据，以及解决数据收集者之间分歧的流程。同时，明确用于评估纳入研究偏倚风险的方法。\n\n7. **结果的综合**：\n   - 描述用于综合结果的方法，包括用于呈现或综合结果的统计方法，以及如何处理统计异质性。\n\n8. **确定报告格式**：\n   - 确定如何报告研究结果，包括摘要、正文、表格和图形的格式。\n\n9. **注册研究协议**：\n   - 根据PRISMA-P 2015声明，研究协议应在研究开始前进行注册，以便读者可以比较预设内容与最终报告内容，评估是否有偏差。\n\n10. **获取资金和非资金支持**：\n    - 描述研究的资金来源和支持情况，以及资助者或赞助者在研究中的作用。\n\n11. **处理利益冲突**：\n    - 声明研究作者的任何利益冲突，并说明这些冲突是如何处理的。\n\n12. **数据、代码和其他材料的公开**：\n    - 报告哪些数据、分析代码和其他材料可以公开获取，并提供它们的位置。\n\n以上步骤提供了一个系统化的方法来开发研究协议，确保了研究的透明度和完整性。在撰写研究协议时，应遵循PRISMA 2020提供的具体指导和示例，以提高研究的质量和可靠性。",
+    "refs": [
+        "cpg56ig3r07fpupujaag"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqaj1lbdqn3er6mmlor0",
+    "req_id": "cqaj1lbdqn3er6mmlorg",
+    "resp_id": "cqaj1lbdqn3er6mmlos0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何开发研究协议?"
+}

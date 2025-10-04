@@ -1,0 +1,184 @@
+{
+    "access_token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDgyMjI5MiwiaWF0IjoxNzM3MDQ2MjkyLCJqdGkiOiJjdTRqaTUxcnFwbTJ0NTZybm0zMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzdWIiOiJjbjM0Y2hrdWR1NjlhcGdtbnFiZyIsInNwYWNlX2lkIjoiY24zNGNoa3VkdTY5YXBnbW5xYjAiLCJhYnN0cmFjdF91c2VyX2lkIjoiY24zNGNoa3VkdTY5YXBnbW5xYWciLCJyb2xlcyI6WyJ2aWRlb19nZW5fYWNjZXNzIl19.GQDH-SMbJEglVI0ra1r3SkeU1W2DIIMxhPhVM7XpOlNsdtM6OaAMEoTviXLzodH-GZohpz6YG-JauRqKWnWKLg",
+    "refresh_token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTc0NDgyMjI5MiwiaWF0IjoxNzM3MDQ2MjkyLCJqdGkiOiJjdTRqaTUxcnFwbTJ0NTZybm0zZyIsInR5cCI6InJlZnJlc2giLCJhcHBfaWQiOiJraW1pIiwic3ViIjoiY24zNGNoa3VkdTY5YXBnbW5xYmciLCJzcGFjZV9pZCI6ImNuMzRjaGt1ZHU2OWFwZ21ucWIwIiwiYWJzdHJhY3RfdXNlcl9pZCI6ImNuMzRjaGt1ZHU2OWFwZ21ucWFnIiwicm9sZXMiOlsidmlkZW9fZ2VuX2FjY2VzcyJdfQ.8WMqYtIgfmHM5fgcITKgDltPaKU-rsO1qU0ZdIRe_OrjbYzzE-acG0SlyROx_pmIH3p2GWY4UcLylfUaD1agLQ",
+    "refresh_time": "2025-01-17 00:51:32",
+    "conversations": [
+        {
+            "id": "cncmsccbbvdnduh54b40",
+            "name": "Prepare for the interview01",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-02-24T12:18:57.509183689+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cncn886cp7f7i8ccqu3g",
+            "name": "Prepare for the interview01",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-02-24T12:44:16.106767849+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cncn8l1kqq4pdchdjfo0",
+            "name": "Prepare for the interview01",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-02-24T12:45:08.190576628+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlh19uaofolgfvm6ftg",
+            "name": "Fornell - 1981 - A comparative analysis of two structural equation models LISREL and PLS applied to market data.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:20:39.899209017+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlh8h4odhskbefmj8f0",
+            "name": "Fornell - 1981 - A comparative analysis of two structural equation models LISREL and PLS applied to market data.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:36:04.667136551+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhb5g3r07c0g03bi2g",
+            "name": "Fornell - 1981 - A comparative analysis of two structural equation models LISREL and PLS applied to market data.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:41:42.087272932+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhc48fkfldpe07t530",
+            "name": "Wang and Chuan\u2010Chuan Lin - 2011 - The effect of social influence on bloggers' usage intention.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:43:45.228916541+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhdm9hmfrblk8b0n70",
+            "name": "Zheng et al. - 2016 - The role of trust management in reward-based crowdfunding.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:47:05.120709851+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhiuuaofolgfvmabn0",
+            "name": "Fornell - 1981 - A comparative analysis of two structural equation models LISREL and PLS applied to market data.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:58:19.143711734+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhj8codhskbefmlkt0",
+            "name": "Davis - 1989 - Perceived usefulness, perceived ease of use, and user acceptance of information technology.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:58:57.836772086+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhjb03r0758o0e68bg",
+            "name": "Yuen and Ma - 2008 - Exploring teacher acceptance of e\u2010learning technology.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:59:08.106984683+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhjbo17fm61kuj6nt0",
+            "name": "Chen - 2016 - The effects of virtual reality learning environment on student cognitive and linguistic development.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:59:11.341842745+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhjcilnl92ku8knnf0",
+            "name": "Yang et al. - 2020 - Understanding the effects of physical experience and information integration on consumer use of onli.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:59:14.691534473+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhjducp7f06qq8pssg",
+            "name": "Al-Rahmi et al. - 2021 - The Influence of Information System Success and Technology Acceptance Model on Social Media Factors .pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T21:59:19.578022558+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhsbg3r0758o0e83h0",
+            "name": "Chen - 2016 - The effects of virtual reality learning environment on student cognitive and linguistic development.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T22:18:22.718771085+08:00",
+            "is_example": false,
+            "status": "normal"
+        },
+        {
+            "id": "cnlhsfmcp7f06qq8rpo0",
+            "name": "Chen - 2016 - The effects of virtual reality learning environment on student cognitive and linguistic development.pdf",
+            "thumb_status": {
+                "is_thumb_up": false,
+                "is_thumb_down": false
+            },
+            "created_at": "2024-03-08T22:18:38.731188321+08:00",
+            "is_example": false,
+            "status": "normal"
+        }
+    ],
+    "attachments": []
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "To create a mind map from the {given content or outline above}, structure the main topics and subtopics in a hierarchical manner, using indentation to represent the hierarchy. The indentation should be consistent, and each level of indentation should be represented by a single hyphen (-).",
+    "uid" : "1A4F769E-6ADC-4D05-9C41-EC02B19A9F69",
+    "name" : "Mindmap(-).",
+    "keyword" : "mm"
+  }
+}

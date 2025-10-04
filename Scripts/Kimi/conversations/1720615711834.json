@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cq78688967u826psb5tg",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews",
+            "fileID": "cpg56ig3r07fpupujaag",
+            "itemID": 2536,
+            "citation": "Page, M. J., Moher, D., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … McKenzie, J. E. (2021). PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews. BMJ, 372, n160. https://doi.org/10.1136/bmj.n160\n",
+            "citationShort": "Page et al., 2021",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 举例说明协议和注册 怎么写？如果我没有这个注册又该怎么样？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews, was published on 2021. (It can be cite this paper as Page et al., 2021 on your answer). \n\n",
+    "response": "在进行系统评价报告时，协议和注册是确保研究透明性和可复制性的重要部分。以下是根据Page等人（2021）的《PRISMA 2020解释与阐述：系统评价报告更新指导和示例》中相关内容的提取和回答：\n\n### 协议和注册的撰写方法：\n\n1. **注册信息提供**：在系统评价中，应提供注册信息，包括注册名称和注册号码。例如：“...this systematic review has been registered in the international prospective register of systematic reviews (PROSPERO) under the registration number: CRD42019128569”（Page et al., 2021）。\n\n2. **协议访问说明**：如果存在评价协议，应指出其可访问位置，或声明未准备协议。例如：“...this systematic review and meta-analysis protocol has been published elsewhere [citation for the protocol provided]”（Page et al., 2021）。\n\n3. **注册或协议信息的修改**：如果注册或协议信息有所修改，应详细报告这些修改，包括修改本身、修改原因以及修改实施的阶段。\n\n### 未进行注册的情况：\n\n如果系统评价没有进行注册，应明确声明这一点，以避免读者花费时间尝试查找不存在的文档。声明可以是：“...the review was not registered”（Page et al., 2021）。这有助于读者理解研究的过程，并评估可能存在的偏差。\n\n### Markdown 格式示例：\n\n```markdown\n## 协议和注册的撰写\n\n在系统评价中，注册和协议是确保透明度和可复制性的关键步骤。\n\n### 撰写方法：\n\n- **注册信息**：应提供注册的详细信息，例如：\n  - \"systematic review has been registered in PROSPERO under registration number: CRD42019128569\"。\n\n- **协议访问**：如果评价协议已发布，应提供访问方式，例如：\n  - \"systematic review and meta-analysis protocol has been published elsewhere\"。\n\n- **信息修改**：对注册或协议的任何修改都应详细记录。\n\n### 未注册的情况：\n\n如果系统评价未进行注册，应声明：\n- \"the review was not registered\"。\n```\n\n请注意，以上内容是根据Page等人（2021）的文献中关于系统评价注册和协议部分的指导进行的提取和解释。在实际撰写时，应根据具体的研究内容和情况进行调整。",
+    "refs": [
+        "cpg56ig3r07fpupujaag"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq7868mbi7saj5ru4f80",
+    "req_id": "cq7868mbi7saj5ru4f9g",
+    "resp_id": "cq7868mbi7saj5ru4fa0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 举例说明协议和注册 怎么写？如果我没有这个注册又该怎么样？"
+}

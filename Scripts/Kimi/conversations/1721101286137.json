@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cqaunpr5cfuvbk2mmpe0",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "#kimi",
+                "anatomy education",
+                "augmented reality",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "mixed reality",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education",
+                "virtual reality"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 请解释系统评价是怎么写的，比如说请你解释以这篇文章为例，作者是通过一个关键词找到了相关问题，还是分别通过不同的问题，采用不同的关键词收集文献?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "### 系统评价的撰写方法\n\n系统评价是一种科学研究方法，旨在通过全面、系统的文献收集和分析，对某一特定问题或干预措施的有效性进行评估。以下是根据Moro等人在2021年发表的系统评价和元分析文章《Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis》来解释系统评价的撰写方法。\n\n#### 1. 确定研究问题和协议\n在系统评价之初，研究者需要明确研究问题，并制定研究协议。Moro等人的研究问题是评估虚拟现实或增强现实技术对医学和科学学生在生理学和解剖学测试表现上的影响。\n\n#### 2. 制定检索策略\n研究者需要制定一个全面的检索策略，以确保能够找到所有相关的研究。Moro等人在多个数据库中进行了文献检索，包括PubMed、Embase、ERIC等，检索的起始日期为1990年，因为这是虚拟现实和增强现实设备首次广泛商业发布的年份。\n\n#### 3. 文献筛选\n系统评价要求研究者根据预定的标准筛选文献。Moro等人首先通过标题和摘要筛选文献，然后获取全文进行进一步筛选，最终确定符合条件的研究。\n\n#### 4. 资料提取和偏倚风险评估\n研究者需要从选定的研究中提取数据，并评估每项研究的偏倚风险。Moro等人使用了Cochrane Collaboration的偏倚风险评估工具，对包括随机序列生成、分配隐藏、参与者和人员的盲法、结果评估的盲法、不完整的结果数据、选择性报告等七个领域进行了评估。\n\n#### 5. 统计分析\n系统评价通常包括对数据的统计分析。Moro等人使用Review Manager软件进行了元分析，计算了效应量，并使用了随机效应模型来报告结果。\n\n#### 6. 结果解释和讨论\n研究者需要对分析结果进行解释，并在现有文献和研究背景中进行讨论。Moro等人讨论了虚拟现实和增强现实技术在医学教育中的潜在优势和局限性。\n\n#### 7. 结论\n最后，研究者需要根据收集的证据得出结论。Moro等人得出结论，虽然虚拟现实和增强现实技术并没有显著提高学生的测试表现，但它们是传统教育方法的可行替代方案。\n\n#### 8. 报告规范\n系统评价应遵循特定的报告规范，如PRISMA（Preferred Reporting Items for Systematic Reviews and Meta-Analyses）声明，以确保报告的透明度和完整性。\n\n通过上述步骤，Moro等人完成了一篇关于虚拟现实和增强现实在医学教育中应用的系统评价和元分析。在撰写过程中，他们不仅使用了特定的关键词进行文献检索，而且通过全面的方法确保了研究的系统性和科学性。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqaunq6cp7fcufd02vu0",
+    "req_id": "cqaunq6cp7fcufd02vug",
+    "resp_id": "cqaunq6cp7fcufd02vv0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 请解释系统评价是怎么写的，比如说请你解释以这篇文章为例，作者是通过一个关键词找到了相关问题，还是分别通过不同的问题，采用不同的关键词收集文献?"
+}

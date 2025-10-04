@@ -1,0 +1,1112 @@
+﻿1
+00:00:00,880 --> 00:00:01,713
+- In this video,
+
+2
+00:00:01,713 --> 00:00:05,370
+we will have a quick overview
+of the different sequences
+
+3
+00:00:05,370 --> 00:00:07,770
+and how to render and edit them
+
+4
+00:00:07,770 --> 00:00:09,730
+in the Video Sequence editor.
+
+5
+00:00:09,730 --> 00:00:14,340
+The second scene or second
+shot of our short animation
+
+6
+00:00:14,340 --> 00:00:16,010
+is super simple.
+
+7
+00:00:16,010 --> 00:00:19,500
+The camera is simply
+moving in a linear fashion,
+
+8
+00:00:19,500 --> 00:00:23,590
+using linear interpolation on the x-axis
+
+9
+00:00:23,590 --> 00:00:25,560
+following our character
+
+10
+00:00:25,560 --> 00:00:28,360
+until it disappear into a bush.
+
+11
+00:00:28,360 --> 00:00:31,050
+The character itself is simply
+
+12
+00:00:31,050 --> 00:00:34,970
+using it's run cycle
+animation that is looping.
+
+13
+00:00:34,970 --> 00:00:38,780
+And on top of this I have
+layered simple locomotion action
+
+14
+00:00:38,780 --> 00:00:43,780
+in the NLA editor that move
+by 0.7 meters every 12 frames.
+
+15
+00:00:45,940 --> 00:00:48,560
+And then choose an extrapolation filter
+
+16
+00:00:48,560 --> 00:00:51,487
+set to linear extrapolation.
+
+17
+00:00:51,487 --> 00:00:53,091
+(wind woosh effect)
+
+18
+00:00:53,091 --> 00:00:54,360
+For the next shot,
+
+19
+00:00:54,360 --> 00:00:57,730
+when our character
+start climbing the tree,
+
+20
+00:00:57,730 --> 00:01:01,110
+the root of the camera is
+still moving left to right,
+
+21
+00:01:01,110 --> 00:01:05,430
+but this time I have a bit of
+easing in the camera motion,
+
+22
+00:01:05,430 --> 00:01:07,590
+and then the camera stop.
+
+23
+00:01:07,590 --> 00:01:08,550
+In the meantime,
+
+24
+00:01:08,550 --> 00:01:10,520
+I'm using the Aim controller
+
+25
+00:01:10,520 --> 00:01:13,640
+to create down to up motion.
+
+26
+00:01:13,640 --> 00:01:16,720
+Particularly the camera
+is following the squirrel
+
+27
+00:01:16,720 --> 00:01:19,923
+and there is a slight easing
+until the end of the shot
+
+28
+00:01:19,923 --> 00:01:22,620
+that the camera looks a little more alive.
+
+29
+00:01:22,620 --> 00:01:25,440
+Also the character is not full frame.
+
+30
+00:01:25,440 --> 00:01:28,200
+He appear on a third of the camera
+
+31
+00:01:28,200 --> 00:01:31,340
+and is facing the closed side of the shot
+
+32
+00:01:31,340 --> 00:01:34,343
+so that we do feel like he's escaping.
+
+33
+00:01:35,470 --> 00:01:38,780
+For the character motion it's as usual.
+
+34
+00:01:38,780 --> 00:01:40,710
+I've combined this time,
+
+35
+00:01:40,710 --> 00:01:44,560
+the climbing cycle with locomotion action
+
+36
+00:01:44,560 --> 00:01:46,670
+using the NLA editor.
+
+37
+00:01:46,670 --> 00:01:48,700
+For the locomotion animation
+
+38
+00:01:48,700 --> 00:01:52,610
+I've only animated the
+root bone of the character.
+
+39
+00:01:52,610 --> 00:01:55,620
+Since his motion is not
+as linear as before,
+
+40
+00:01:55,620 --> 00:01:59,750
+meaning that it's likely
+changing direction on each bounce
+
+41
+00:01:59,750 --> 00:02:02,540
+but still as a constant speed,
+
+42
+00:02:02,540 --> 00:02:05,880
+I've made sure that I
+add linear interpolation
+
+43
+00:02:05,880 --> 00:02:10,070
+between each frame switching
+every handle to vector.
+
+44
+00:02:10,070 --> 00:02:13,340
+And then on each contact
+pose of the character
+
+45
+00:02:13,340 --> 00:02:16,640
+I will slightly change its orientation
+
+46
+00:02:16,640 --> 00:02:19,260
+and moving following the tree trunk.
+
+47
+00:02:19,260 --> 00:02:21,130
+You can see that from a side view
+
+48
+00:02:21,130 --> 00:02:22,770
+it might not look perfect,
+
+49
+00:02:22,770 --> 00:02:25,980
+but it does work very well
+from the camera angle.
+
+50
+00:02:25,980 --> 00:02:27,285
+So that's perfectly fine.
+
+51
+00:02:27,285 --> 00:02:28,118
+(wind woosh effect)
+
+52
+00:02:28,118 --> 00:02:31,310
+On the next shot there is no camera motion
+
+53
+00:02:31,310 --> 00:02:34,250
+so it's just about placing the camera.
+
+54
+00:02:34,250 --> 00:02:36,580
+Again, our character is framed
+
+55
+00:02:36,580 --> 00:02:39,920
+so that it follows a
+third of the camera view.
+
+56
+00:02:39,920 --> 00:02:42,880
+I am still using the
+climbing cycle animation
+
+57
+00:02:42,880 --> 00:02:44,170
+we have created,
+
+58
+00:02:44,170 --> 00:02:47,540
+but this time you can see
+there is no locomotion action.
+
+59
+00:02:47,540 --> 00:02:50,950
+Instead, I'm using a path constraint
+
+60
+00:02:50,950 --> 00:02:53,610
+on the root bone of our character.
+
+61
+00:02:53,610 --> 00:02:57,620
+We will see how to create it
+and use it in the next video.
+
+62
+00:02:57,620 --> 00:03:02,010
+But particularly our character
+is simply following a curve
+
+63
+00:03:02,010 --> 00:03:05,420
+and we can animate the
+speed at which the character
+
+64
+00:03:05,420 --> 00:03:06,870
+is following this curve.
+
+65
+00:03:06,870 --> 00:03:10,070
+While we should use a linear speed
+
+66
+00:03:10,070 --> 00:03:12,950
+I slightly edited the
+speed of the character
+
+67
+00:03:12,950 --> 00:03:14,620
+using the Graph editor,
+
+68
+00:03:14,620 --> 00:03:17,160
+inputting a bit of variation.
+
+69
+00:03:17,160 --> 00:03:19,390
+so that it looks a little more dynamic
+
+70
+00:03:19,390 --> 00:03:20,930
+from the camera angle.
+
+71
+00:03:20,930 --> 00:03:21,763
+And that was it.
+
+72
+00:03:21,763 --> 00:03:22,596
+(wind woosh effect)
+
+73
+00:03:22,596 --> 00:03:26,410
+For the very last sequence
+of our character animation
+
+74
+00:03:26,410 --> 00:03:29,235
+the camera doesn't move
+until our character
+
+75
+00:03:29,235 --> 00:03:30,740
+settle in the shot.
+
+76
+00:03:30,740 --> 00:03:32,440
+Then the root of the camera
+
+77
+00:03:32,440 --> 00:03:35,210
+is slightly moving up and forward
+
+78
+00:03:35,210 --> 00:03:40,080
+and I've animated the focal
+length and the focus distance
+
+79
+00:03:40,080 --> 00:03:44,340
+so that we are progressively
+focusing onto the horizon.
+
+80
+00:03:44,340 --> 00:03:46,160
+For the character animation.
+
+81
+00:03:46,160 --> 00:03:49,060
+I've used one cycle of the run cycle
+
+82
+00:03:49,060 --> 00:03:51,380
+combined with the locomotion,
+
+83
+00:03:51,380 --> 00:03:56,380
+which is a simple forward
+animation on 0.7 meter.
+
+84
+00:03:56,590 --> 00:04:00,320
+And then I've used our idle animation.
+
+85
+00:04:00,320 --> 00:04:04,860
+And I've cut the idle
+animation on frame 68.
+
+86
+00:04:04,860 --> 00:04:09,860
+What I did do on the very
+final version of the trailer
+
+87
+00:04:09,930 --> 00:04:14,930
+was to add a couple of additional
+animation on the very end
+
+88
+00:04:14,940 --> 00:04:17,010
+so that the character is still moving
+
+89
+00:04:17,010 --> 00:04:20,050
+while it's getting out of focus.
+
+90
+00:04:20,050 --> 00:04:22,670
+I haven't recorded the
+the animation process
+
+91
+00:04:22,670 --> 00:04:25,080
+because that will be redundant.
+
+92
+00:04:25,080 --> 00:04:28,940
+And you will still have a lot
+of animation content to watch
+
+93
+00:04:28,940 --> 00:04:30,120
+in this course.
+
+94
+00:04:30,120 --> 00:04:32,470
+But the process was exactly the same
+
+95
+00:04:32,470 --> 00:04:35,600
+as when we have made our idle animation.
+
+96
+00:04:35,600 --> 00:04:39,343
+So it's also time for you
+to try to do it on your own.
+
+97
+00:04:40,260 --> 00:04:42,220
+(wind woosh effect)
+
+98
+00:04:42,220 --> 00:04:44,490
+As you are done with animation
+
+99
+00:04:44,490 --> 00:04:46,770
+we need to render those shots.
+
+100
+00:04:46,770 --> 00:04:49,010
+If you are using the provided file,
+
+101
+00:04:49,010 --> 00:04:51,230
+I've already set up the render.
+
+102
+00:04:51,230 --> 00:04:53,310
+You just need to go to Render
+
+103
+00:04:53,310 --> 00:04:55,370
+and click Render animation
+
+104
+00:04:55,370 --> 00:04:58,020
+or press Control + F12.
+
+105
+00:04:58,020 --> 00:05:01,523
+As you do, Blender will
+render the animation scene
+
+106
+00:05:01,523 --> 00:05:03,110
+with the camera view.
+
+107
+00:05:03,110 --> 00:05:06,370
+It will start from the start
+frame till the end frame
+
+108
+00:05:06,370 --> 00:05:10,530
+and using the resolution
+set into the dimensions.
+
+109
+00:05:10,530 --> 00:05:12,430
+We don't care about frame rate,
+
+110
+00:05:12,430 --> 00:05:16,610
+unless we are exporting a
+movie like an MPEG sequence.
+
+111
+00:05:16,610 --> 00:05:20,560
+But I do advise you to render PNG files.
+
+112
+00:05:20,560 --> 00:05:22,310
+If you run in movie file,
+
+113
+00:05:22,310 --> 00:05:25,230
+there is big chances
+it will be compressed.
+
+114
+00:05:25,230 --> 00:05:28,440
+Plus, if Blender crashes before
+the end of the rendering,
+
+115
+00:05:28,440 --> 00:05:31,390
+you will have to re-render
+the whole sequence.
+
+116
+00:05:31,390 --> 00:05:33,870
+While if you are using image sequence,
+
+117
+00:05:33,870 --> 00:05:35,710
+you will just have to re-render
+
+118
+00:05:35,710 --> 00:05:37,710
+from the frame it has crashed.
+
+119
+00:05:37,710 --> 00:05:40,230
+I've set up my render
+output so that Blender
+
+120
+00:05:40,230 --> 00:05:42,300
+will create the folder, "RENDERS",
+
+121
+00:05:42,300 --> 00:05:46,620
+and the subfolder,
+"SCENE-05", 4, 3, 2 or 1.
+
+122
+00:05:46,620 --> 00:05:50,430
+And the image sequence
+will be called, "Scene-05",
+
+123
+00:05:50,430 --> 00:05:51,263
+in this case.
+
+124
+00:05:51,263 --> 00:05:54,760
+And Blender will automatically
+add a suffix number
+
+125
+00:05:54,760 --> 00:05:57,211
+corresponding to the frame number.
+
+126
+00:05:57,211 --> 00:05:58,044
+(wind woosh effect)
+
+127
+00:05:58,044 --> 00:06:02,620
+Since I generally use After
+Effects to create my sequences
+
+128
+00:06:02,620 --> 00:06:04,500
+and work on my compositing,
+
+129
+00:06:04,500 --> 00:06:06,750
+I won't do an in-depth video
+
+130
+00:06:06,750 --> 00:06:09,760
+about the Video Sequence
+editor in Blender,
+
+131
+00:06:09,760 --> 00:06:11,540
+but they will give you the foundation
+
+132
+00:06:11,540 --> 00:06:14,380
+that will allow you to
+use it without problem.
+
+133
+00:06:14,380 --> 00:06:17,870
+So let's convert both
+our 3D view and timeline
+
+134
+00:06:17,870 --> 00:06:20,590
+to the Video Sequence editor.
+
+135
+00:06:20,590 --> 00:06:22,060
+It's pretty straightforward.
+
+136
+00:06:22,060 --> 00:06:25,250
+We have different tracks
+and pressing Shift + A
+
+137
+00:06:25,250 --> 00:06:27,530
+I can add different items.
+
+138
+00:06:27,530 --> 00:06:30,320
+It can be text, sound, whatever.
+
+139
+00:06:30,320 --> 00:06:32,700
+Let's choose image sequence,
+
+140
+00:06:32,700 --> 00:06:34,800
+browse our render folder,
+
+141
+00:06:34,800 --> 00:06:35,633
+and press A
+
+142
+00:06:35,633 --> 00:06:39,770
+to select all the PNG file
+of the first sequence.
+
+143
+00:06:39,770 --> 00:06:42,333
+And press, Add image sequence.
+
+144
+00:06:43,480 --> 00:06:47,230
+Blender has automatically
+added all our image
+
+145
+00:06:47,230 --> 00:06:50,090
+as a sequence on the first track.
+
+146
+00:06:50,090 --> 00:06:53,470
+If I want to extend the
+end of the animation
+
+147
+00:06:53,470 --> 00:06:54,570
+to a further frame,
+
+148
+00:06:54,570 --> 00:06:56,730
+I just need to position the play head
+
+149
+00:06:56,730 --> 00:06:58,260
+and press Control + End
+
+150
+00:06:58,260 --> 00:07:00,340
+as we do in the timeline.
+
+151
+00:07:00,340 --> 00:07:02,330
+The image sequence is read
+
+152
+00:07:02,330 --> 00:07:05,440
+at the speed of our general frame rate.
+
+153
+00:07:05,440 --> 00:07:08,600
+To be able to preview
+our animated sequence
+
+154
+00:07:08,600 --> 00:07:11,310
+we can switch to Sequence Preview.
+
+155
+00:07:11,310 --> 00:07:15,140
+It will display our sequence
+track so we can collapse them
+
+156
+00:07:15,140 --> 00:07:18,120
+and also the current
+frames that is being read.
+
+157
+00:07:18,120 --> 00:07:21,840
+If I press the Space
+bar to preview my video,
+
+158
+00:07:21,840 --> 00:07:25,040
+we can see that the frame
+rate is not very good,
+
+159
+00:07:25,040 --> 00:07:28,700
+but this is because Blender is
+currently caching the video,
+
+160
+00:07:28,700 --> 00:07:31,990
+meaning that is kind pre-calculating it.
+
+161
+00:07:31,990 --> 00:07:35,670
+The cached sequence is
+shown into a brighter red
+
+162
+00:07:35,670 --> 00:07:37,955
+beneath the tracks.
+
+163
+00:07:37,955 --> 00:07:41,170
+Once the images are cached
+if we play it again,
+
+164
+00:07:41,170 --> 00:07:43,220
+it will play real time.
+
+165
+00:07:43,220 --> 00:07:45,370
+So what I will quickly do now
+
+166
+00:07:45,370 --> 00:07:49,700
+is repeat the process and
+import the five image sequences
+
+167
+00:07:49,700 --> 00:07:51,820
+I have created for this shot.
+
+168
+00:07:51,820 --> 00:07:55,280
+Since there is no blending
+between sequence one and two,
+
+169
+00:07:55,280 --> 00:08:00,250
+I can left click and drag
+sequence two on the first track.
+
+170
+00:08:00,250 --> 00:08:02,920
+I can do the same with sequence three,
+
+171
+00:08:02,920 --> 00:08:05,130
+moving it on the first track,
+
+172
+00:08:05,130 --> 00:08:08,200
+but I will need to cut it a bit
+
+173
+00:08:08,200 --> 00:08:10,080
+because there are some repeating frame
+
+174
+00:08:10,080 --> 00:08:13,050
+between the previous
+sequence and the current one.
+
+175
+00:08:13,050 --> 00:08:16,290
+To cut it I simply need
+to place the play head
+
+176
+00:08:16,290 --> 00:08:19,790
+wherever I want to cut and press K.
+
+177
+00:08:19,790 --> 00:08:21,880
+Then I will scrub through the timeline
+
+178
+00:08:21,880 --> 00:08:24,600
+to watch out for any repetition
+
+179
+00:08:24,600 --> 00:08:27,600
+and remove any content
+from the selected strip
+
+180
+00:08:27,600 --> 00:08:31,310
+by cutting it and then
+pressing X to delete it.
+
+181
+00:08:31,310 --> 00:08:35,570
+Now I'd like to blend the
+next sequence onto the other,
+
+182
+00:08:35,570 --> 00:08:37,640
+creating a fading.
+
+183
+00:08:37,640 --> 00:08:42,420
+The first important thing is
+to find out the right timing
+
+184
+00:08:42,420 --> 00:08:43,950
+between the moment our character
+
+185
+00:08:43,950 --> 00:08:46,900
+is getting out of the frame
+
+186
+00:08:46,900 --> 00:08:49,690
+and when he's getting back into the frame.
+
+187
+00:08:49,690 --> 00:08:53,100
+Here I feel that the
+time we wait is too long
+
+188
+00:08:53,100 --> 00:08:56,510
+before we see the
+character back into frame.
+
+189
+00:08:56,510 --> 00:08:59,690
+So I will remove a part of the sequence.
+
+190
+00:08:59,690 --> 00:09:01,350
+Then I will move it on
+top above the other,
+
+191
+00:09:01,350 --> 00:09:04,460
+so that we have overlapping sequences.
+
+192
+00:09:04,460 --> 00:09:06,000
+Pressing the N key
+
+193
+00:09:06,000 --> 00:09:09,190
+I will be able to open
+the Properties panel.
+
+194
+00:09:09,190 --> 00:09:13,100
+And in this Strip tab,
+in the Adjust panel,
+
+195
+00:09:13,100 --> 00:09:15,590
+I have an Opacity option.
+
+196
+00:09:15,590 --> 00:09:19,614
+I will click on the little dot
+icon near the opacity level,
+
+197
+00:09:19,614 --> 00:09:22,750
+and it will automatically
+insert the key frames.
+
+198
+00:09:22,750 --> 00:09:27,110
+It means that on this frame
+our strip will be fully opaque.
+
+199
+00:09:27,110 --> 00:09:30,700
+I can scrub back to the
+beginning of the strip
+
+200
+00:09:30,700 --> 00:09:33,560
+and then set the opacity to zero
+
+201
+00:09:33,560 --> 00:09:37,340
+and click this icon to
+insert a new key frame.
+
+202
+00:09:37,340 --> 00:09:40,270
+And we've just animated
+the opacity of the strip,
+
+203
+00:09:40,270 --> 00:09:42,610
+creating a natural fade.
+
+204
+00:09:42,610 --> 00:09:46,800
+From there, I can select
+our last sequence strip.
+
+205
+00:09:46,800 --> 00:09:49,860
+Left click and drag, or press G,
+
+206
+00:09:49,860 --> 00:09:53,040
+to move it just after
+the current sequence.
+
+207
+00:09:53,040 --> 00:09:53,950
+From there,
+
+208
+00:09:53,950 --> 00:09:57,000
+I advise you to cache the
+animation and double check it
+
+209
+00:09:57,000 --> 00:09:58,710
+to see if it looks natural.
+
+210
+00:09:58,710 --> 00:10:01,680
+To cache the animation just play it once.
+
+211
+00:10:01,680 --> 00:10:04,130
+The final touch will be to boost a bit
+
+212
+00:10:04,130 --> 00:10:06,680
+the contrast of our shots.
+
+213
+00:10:06,680 --> 00:10:10,600
+So we press Shift + A and
+add an adjustment layer.
+
+214
+00:10:10,600 --> 00:10:13,200
+I will move it on top of everything
+
+215
+00:10:13,200 --> 00:10:17,000
+and then I will left click
+and drag onto one of the side
+
+216
+00:10:17,000 --> 00:10:19,820
+to extend it till the end of the movie.
+
+217
+00:10:19,820 --> 00:10:22,680
+Just think of it as an empty strip.
+
+218
+00:10:22,680 --> 00:10:27,140
+But whatever adjustment
+modifier I will add on top of it
+
+219
+00:10:27,140 --> 00:10:32,060
+will be applied to any strip
+beneath this adjustment layer.
+
+220
+00:10:32,060 --> 00:10:34,730
+So if I go to the Modifier tab,
+
+221
+00:10:34,730 --> 00:10:37,040
+I can add a new modifier
+
+222
+00:10:37,040 --> 00:10:39,580
+and I will choose the Curve modifier.
+
+223
+00:10:39,580 --> 00:10:44,130
+If I now left click on the
+top right corner of the curve
+
+224
+00:10:44,130 --> 00:10:45,417
+and move this value up,
+
+225
+00:10:45,417 --> 00:10:49,230
+this will make the bright
+color of our picture
+
+226
+00:10:49,230 --> 00:10:50,360
+even brighter.
+
+227
+00:10:50,360 --> 00:10:52,960
+So just push it ever so slightly.
+
+228
+00:10:52,960 --> 00:10:54,480
+And I will then click somewhere
+
+229
+00:10:54,480 --> 00:10:56,570
+in the bottom left corner of the curve
+
+230
+00:10:56,570 --> 00:10:58,910
+and just drag it down a little bit
+
+231
+00:10:58,910 --> 00:11:02,240
+so that the darker tone
+will be a little darker.
+
+232
+00:11:02,240 --> 00:11:03,073
+So in the end,
+
+233
+00:11:03,073 --> 00:11:08,073
+we have kind of boosted a bit
+the contrast of our picture.
+
+234
+00:11:08,260 --> 00:11:11,320
+If you click back and
+forth onto the eye icon,
+
+235
+00:11:11,320 --> 00:11:12,510
+you can see your picture
+
+236
+00:11:12,510 --> 00:11:15,700
+with and without this curve modifier.
+
+237
+00:11:15,700 --> 00:11:19,570
+From there, you can add
+another modifier if you want.
+
+238
+00:11:19,570 --> 00:11:23,870
+For example, a tone
+mapping or a color balance,
+
+239
+00:11:23,870 --> 00:11:27,000
+and change a bit the colors of your shot.
+
+240
+00:11:27,000 --> 00:11:29,220
+To make it warmer, for example.
+
+241
+00:11:29,220 --> 00:11:31,640
+I won't go any further on this topic
+
+242
+00:11:31,640 --> 00:11:34,670
+because I'm not a
+specialist of compositing.
+
+243
+00:11:34,670 --> 00:11:36,720
+Just experiment a bit with those modifier
+
+244
+00:11:36,720 --> 00:11:38,853
+and see how they behave.
+
+245
+00:11:39,690 --> 00:11:42,040
+From there to render your movie,
+
+246
+00:11:42,040 --> 00:11:45,540
+simply choose a file path and output.
+
+247
+00:11:45,540 --> 00:11:49,410
+Then I advise you to
+select a movie file format
+
+248
+00:11:49,410 --> 00:11:50,263
+like ffmpeg.
+
+249
+00:11:51,340 --> 00:11:55,517
+I generally choose mp4
+and then switch to h264
+
+250
+00:11:56,760 --> 00:11:59,350
+and use a loss-less quality.
+
+251
+00:11:59,350 --> 00:12:02,210
+Then go into the Sequence editor,
+
+252
+00:12:02,210 --> 00:12:04,950
+View, Sequence Render Animation.
+
+253
+00:12:04,950 --> 00:12:07,303
+Wait, and enjoy your movie.
+

@@ -1,0 +1,10 @@
+debug-bridge failed: TypeError: query is undefined
+anonymous@jar:file:///Users/yamlam/Library/Application%20Support/Zotero/Profiles/udm8rc04.default/extensions/debug-bridge@iris-advies.com.xpi!/bootstrap.js line 185 > AsyncFunction:114:1
+init@jar:file:///Users/yamlam/Library/Application%20Support/Zotero/Profiles/udm8rc04.default/extensions/debug-bridge@iris-advies.com.xpi!/bootstrap.js:186:26
+Zotero.Server.DataListener.prototype._processEndpoint<@chrome://zotero/content/xpcom/server.js:544:35
+tryCatcher@resource://zotero/bluebird/util.js:16:23
+module.exports/PromiseSpawn.prototype._promiseFulfilled@resource://zotero/bluebird/generators.js:97:49
+module.exports/Promise.coroutine/<@resource://zotero/bluebird/generators.js:201:15
+Zotero.Server.DataListener.prototype._bodyData@chrome://zotero/content/xpcom/server.js:357:10
+Zotero.Server.DataListener.prototype._headerFinished@chrome://zotero/content/xpcom/server.js:332:10
+Zotero.Server.DataListener.prototype.onDataAvailable@chrome://zotero/content/xpcom/server.js:208:12

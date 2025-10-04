@@ -1,0 +1,830 @@
+﻿1
+00:00:00,860 --> 00:00:03,450
+- [Instructor] For this new
+segment of the animation
+
+2
+00:00:03,450 --> 00:00:06,890
+instead of polishing the
+body controller first,
+
+3
+00:00:06,890 --> 00:00:09,850
+I re-timed the feet steps.
+
+4
+00:00:09,850 --> 00:00:13,610
+The idea is to avoid the
+twinning as explained before
+
+5
+00:00:13,610 --> 00:00:17,440
+and having all the feet
+contacting with the ground
+
+6
+00:00:17,440 --> 00:00:18,600
+at the same time.
+
+7
+00:00:18,600 --> 00:00:22,650
+You can see here that each
+feet is contacting the ground
+
+8
+00:00:22,650 --> 00:00:24,563
+with an offset of one frame.
+
+9
+00:00:25,670 --> 00:00:29,480
+The goal here is not
+to polish the feet step
+
+10
+00:00:29,480 --> 00:00:32,260
+but just to refine the timing.
+
+11
+00:00:32,260 --> 00:00:35,680
+So I'm using the action in
+the tone or the graffiti tone
+
+12
+00:00:35,680 --> 00:00:37,380
+because it's easier to read.
+
+13
+00:00:37,380 --> 00:00:40,940
+I can easily find whenever
+the foot controller
+
+14
+00:00:40,940 --> 00:00:43,940
+is changing position and change the timing
+
+15
+00:00:43,940 --> 00:00:46,280
+by offsetting those key frames.
+
+16
+00:00:46,280 --> 00:00:49,310
+As usual, I haven't
+found the right timing.
+
+17
+00:00:49,310 --> 00:00:50,544
+We've made first trail
+
+18
+00:00:50,544 --> 00:00:54,200
+so I'm just playing the animation lot
+
+19
+00:00:54,200 --> 00:00:58,620
+moving the key frame until I
+feel like I have a good rhythm.
+
+20
+00:00:58,620 --> 00:01:01,370
+As soon as I was happy
+with this base rhythm
+
+21
+00:01:01,370 --> 00:01:04,340
+I started working on the body controller
+
+22
+00:01:04,340 --> 00:01:07,130
+as I have done in the previous videos.
+
+23
+00:01:07,130 --> 00:01:11,460
+As usual I'm trying to get
+a nice arc working first
+
+24
+00:01:11,460 --> 00:01:13,180
+with the location curve.
+
+25
+00:01:13,180 --> 00:01:16,330
+Since our character is moving on the side,
+
+26
+00:01:16,330 --> 00:01:18,970
+the X location and Z location curve
+
+27
+00:01:18,970 --> 00:01:21,170
+are the most influential.
+
+28
+00:01:21,170 --> 00:01:23,430
+To make the character a bit more lively,
+
+29
+00:01:23,430 --> 00:01:26,563
+I will input the slight
+overshoot on frame 82.
+
+30
+00:01:28,110 --> 00:01:31,290
+Since the motion is driven by the fear
+
+31
+00:01:31,290 --> 00:01:34,250
+and awareness of our character,
+
+32
+00:01:34,250 --> 00:01:36,680
+the head is leading the animation
+
+33
+00:01:36,680 --> 00:01:38,890
+because he has heard something.
+
+34
+00:01:38,890 --> 00:01:40,490
+So as we have seen before
+
+35
+00:01:40,490 --> 00:01:44,660
+it's even the heels of that
+are leading the animation.
+
+36
+00:01:44,660 --> 00:01:48,270
+This is why I take a
+particular care to have
+
+37
+00:01:48,270 --> 00:01:51,810
+a nice head rotation and the head pointing
+
+38
+00:01:51,810 --> 00:01:53,650
+toward the next point.
+
+39
+00:01:53,650 --> 00:01:56,730
+So as usual, I'm tracking
+the nose of the character.
+
+40
+00:01:56,730 --> 00:01:58,870
+So it might not be the best move
+
+41
+00:01:58,870 --> 00:02:02,010
+to start polishing the
+head before the chest.
+
+42
+00:02:02,010 --> 00:02:06,710
+But in this case, the chest
+motion is not that important
+
+43
+00:02:06,710 --> 00:02:10,000
+meaning that there is
+not that much influence.
+
+44
+00:02:10,000 --> 00:02:12,270
+And most of the emotion comes from
+
+45
+00:02:12,270 --> 00:02:16,020
+the main body controller
+I have already polished
+
+46
+00:02:16,020 --> 00:02:18,400
+and the head rotation controller.
+
+47
+00:02:18,400 --> 00:02:21,880
+And as usual once I'm happy
+with the head rotation
+
+48
+00:02:21,880 --> 00:02:23,560
+and I'm polishing the chest
+
+49
+00:02:23,560 --> 00:02:26,310
+I can get back onto the head rotation
+
+50
+00:02:26,310 --> 00:02:29,960
+to fix any bumps on the arcs of the head.
+
+51
+00:02:29,960 --> 00:02:33,230
+And here we can see all
+the nose motion path
+
+52
+00:02:33,230 --> 00:02:35,120
+draw a nice arc.
+
+53
+00:02:35,120 --> 00:02:38,000
+And as I move on polishing the chest
+
+54
+00:02:38,000 --> 00:02:41,320
+I'm calculating the
+motion path of the head.
+
+55
+00:02:41,320 --> 00:02:44,800
+In the previous video, I was
+using the neck controller.
+
+56
+00:02:44,800 --> 00:02:47,080
+You can use weather the head or the neck.
+
+57
+00:02:47,080 --> 00:02:48,320
+That's not the problem.
+
+58
+00:02:48,320 --> 00:02:52,910
+And since I've already polished
+the main body controller
+
+59
+00:02:52,910 --> 00:02:54,610
+you can see that the arc
+
+60
+00:02:54,610 --> 00:02:58,060
+of the root of the head
+is pretty clean already.
+
+61
+00:02:58,060 --> 00:03:02,070
+So I'm just very slightly
+refining the rotation,
+
+62
+00:03:02,070 --> 00:03:05,393
+the twisting of the chest
+to make it drag a bit.
+
+63
+00:03:06,750 --> 00:03:09,970
+There is a second step in
+this head turn animation
+
+64
+00:03:09,970 --> 00:03:14,000
+where our character is
+looking backward even more
+
+65
+00:03:14,000 --> 00:03:16,570
+because he has probably
+heard another noise.
+
+66
+00:03:16,570 --> 00:03:19,330
+So to input a bit of this fear
+
+67
+00:03:19,330 --> 00:03:21,970
+I pushed down the Z location curve
+
+68
+00:03:21,970 --> 00:03:26,650
+to create a micro anticipation
+toward the next turn.
+
+69
+00:03:26,650 --> 00:03:29,050
+So as usual for the second step,
+
+70
+00:03:29,050 --> 00:03:31,690
+I'm working first on the chest controller
+
+71
+00:03:31,690 --> 00:03:33,790
+or working on the location curves
+
+72
+00:03:33,790 --> 00:03:35,890
+and then the bit on the rotation curve
+
+73
+00:03:35,890 --> 00:03:38,030
+and then I will go ahead
+
+74
+00:03:38,030 --> 00:03:41,240
+with the chest and head rotation.
+
+75
+00:03:41,240 --> 00:03:43,820
+As I've made this micro anticipation
+
+76
+00:03:43,820 --> 00:03:45,880
+to emphasize this new movement
+
+77
+00:03:45,880 --> 00:03:47,840
+and as it is very fast,
+
+78
+00:03:47,840 --> 00:03:51,640
+I'm creating a slight bump on frame 93
+
+79
+00:03:51,640 --> 00:03:54,160
+to create a nice overshoot.
+
+80
+00:03:54,160 --> 00:03:56,510
+Those little bounces on the curve
+
+81
+00:03:56,510 --> 00:03:58,460
+tend to bring a bit of texture
+
+82
+00:03:58,460 --> 00:04:01,743
+into the animation and make
+our character less robotic.
+
+83
+00:04:03,190 --> 00:04:07,750
+Later on, I've worked on
+the head location curve
+
+84
+00:04:07,750 --> 00:04:11,430
+to slightly extend the
+neck of the character.
+
+85
+00:04:11,430 --> 00:04:13,580
+So I (mumbles) the head up.
+
+86
+00:04:13,580 --> 00:04:16,380
+It's really changed the
+silhouette of the character
+
+87
+00:04:16,380 --> 00:04:19,000
+and we can better even read the tension,
+
+88
+00:04:19,000 --> 00:04:21,420
+the fear, the alert of the character.
+
+89
+00:04:21,420 --> 00:04:23,750
+I've also added a slight bump
+
+90
+00:04:23,750 --> 00:04:26,300
+on the Z curve on frame 93,
+
+91
+00:04:26,300 --> 00:04:28,443
+creating a subtle head bounce.
+
+92
+00:04:29,470 --> 00:04:31,420
+Working on the feet was very close
+
+93
+00:04:31,420 --> 00:04:33,530
+to what we have already seen before.
+
+94
+00:04:33,530 --> 00:04:36,440
+Since those are very short steps,
+
+95
+00:04:36,440 --> 00:04:40,760
+X and Y location curve are almost linear
+
+96
+00:04:40,760 --> 00:04:43,330
+or there is a very short easing
+
+97
+00:04:43,330 --> 00:04:45,620
+in the beginning of the motion,
+
+98
+00:04:45,620 --> 00:04:49,690
+making the foot accelerating
+toward the next position.
+
+99
+00:04:49,690 --> 00:04:51,650
+While making the next step
+
+100
+00:04:51,650 --> 00:04:54,880
+make sure that you don't
+trace the foot that much
+
+101
+00:04:54,880 --> 00:04:59,880
+because every motion uses
+energy and we are all lazy.
+
+102
+00:05:00,270 --> 00:05:02,890
+So it's the same for this character.
+
+103
+00:05:02,890 --> 00:05:05,490
+We need to make those steps very subtle
+
+104
+00:05:05,490 --> 00:05:10,010
+and then we can make the
+foot drag through rotation.
+
+105
+00:05:10,010 --> 00:05:13,800
+So it's exactly as in the previous videos
+
+106
+00:05:13,800 --> 00:05:17,030
+we raise the foot as less as possible.
+
+107
+00:05:17,030 --> 00:05:19,620
+We set the end-all to vector whenever
+
+108
+00:05:19,620 --> 00:05:22,060
+the foot is taking off
+
+109
+00:05:22,060 --> 00:05:24,360
+and contacting with the ground,
+
+110
+00:05:24,360 --> 00:05:27,640
+because in those case the
+foot should be accelerating
+
+111
+00:05:27,640 --> 00:05:29,460
+before contacting the ground.
+
+112
+00:05:29,460 --> 00:05:33,030
+We then use the rotation
+of the foot to create
+
+113
+00:05:33,030 --> 00:05:35,570
+a nice dragging motion.
+
+114
+00:05:35,570 --> 00:05:38,070
+And as the foot is contacting the ground
+
+115
+00:05:38,070 --> 00:05:41,690
+I keep it rotated on frame 80 for example
+
+116
+00:05:41,690 --> 00:05:46,690
+and then it gets flat one
+frame later on frame 81
+
+117
+00:05:46,860 --> 00:05:51,023
+so that we get this nice slapping
+of the foot on the ground.
+
+118
+00:05:52,360 --> 00:05:55,150
+As I was happy with the back leg motion,
+
+119
+00:05:55,150 --> 00:05:58,100
+I then focus on the pole controllers
+
+120
+00:05:58,100 --> 00:06:01,430
+that will allow us to change
+the orientation of the knee
+
+121
+00:06:01,430 --> 00:06:03,830
+and the ankle of the back feet.
+
+122
+00:06:03,830 --> 00:06:07,350
+The idea here is just
+to input a bit of delay
+
+123
+00:06:07,350 --> 00:06:10,690
+in the knee motion so that
+we have a bit of dragging.
+
+124
+00:06:10,690 --> 00:06:13,570
+The knees pointing toward the next point.
+
+125
+00:06:13,570 --> 00:06:17,580
+And then it settles just
+after the contacting frame
+
+126
+00:06:17,580 --> 00:06:21,290
+so that we will have a
+little shaking in the legs
+
+127
+00:06:21,290 --> 00:06:23,020
+that will look more natural.
+
+128
+00:06:23,020 --> 00:06:25,810
+I did the same with the left back leg
+
+129
+00:06:25,810 --> 00:06:28,470
+but with away most subtle motion
+
+130
+00:06:28,470 --> 00:06:31,370
+since the foot doesn't move that much.
+
+131
+00:06:31,370 --> 00:06:34,550
+I haven't polished those
+pole target controller
+
+132
+00:06:34,550 --> 00:06:36,630
+that much on this animation
+
+133
+00:06:36,630 --> 00:06:38,855
+and the gain it's a matter of time.
+
+134
+00:06:38,855 --> 00:06:40,589
+If you want to spend time
+
+135
+00:06:40,589 --> 00:06:44,534
+to add those subtle
+detail to your animation,
+
+136
+00:06:44,534 --> 00:06:46,280
+it will sure look better.
+
+137
+00:06:46,280 --> 00:06:49,020
+As any craft the more time you will input
+
+138
+00:06:49,020 --> 00:06:52,577
+into your animation the
+better it should look.
+
+139
+00:06:52,577 --> 00:06:56,160
+For the front leg, it's
+the same story as usual
+
+140
+00:06:56,160 --> 00:06:59,490
+try to make good ox, avoid twinning.
+
+141
+00:06:59,490 --> 00:07:01,720
+So we have offset the footstep
+
+142
+00:07:01,720 --> 00:07:05,450
+in the beginning of the
+video in putting one frame
+
+143
+00:07:05,450 --> 00:07:07,166
+between the contact in the pose
+
+144
+00:07:07,166 --> 00:07:10,860
+of the right front leg
+and the left front leg.
+
+145
+00:07:10,860 --> 00:07:14,820
+And then I use rotation
+to input some dragging
+
+146
+00:07:14,820 --> 00:07:17,050
+into the motion of the feet.
+
+147
+00:07:17,050 --> 00:07:21,110
+Then I've tried reworking
+the main body controller
+
+148
+00:07:21,110 --> 00:07:23,310
+and the chest rotation
+
+149
+00:07:23,310 --> 00:07:27,650
+to avoid the front right
+leg to be over extended.
+
+150
+00:07:27,650 --> 00:07:30,540
+It makes the character looking unbalanced
+
+151
+00:07:30,540 --> 00:07:32,140
+which I don't like,
+
+152
+00:07:32,140 --> 00:07:35,980
+but after a few trial, I've
+decided to add a new step
+
+153
+00:07:35,980 --> 00:07:37,270
+to the front right leg.
+
+154
+00:07:37,270 --> 00:07:42,080
+So that's perfectly fine to
+add new poses to your cat
+
+155
+00:07:42,080 --> 00:07:43,740
+while you are polishing.
+
+156
+00:07:43,740 --> 00:07:48,220
+I've created these new
+foot pose on frame 95
+
+157
+00:07:48,220 --> 00:07:52,760
+and I've duplicated the
+curve until frame 99.
+
+158
+00:07:52,760 --> 00:07:55,060
+Then I'm scrubbing through the animation
+
+159
+00:07:55,060 --> 00:07:58,540
+to check the timing and
+spacing of this new step.
+
+160
+00:07:58,540 --> 00:08:00,760
+And from there I will polish it
+
+161
+00:08:00,760 --> 00:08:04,950
+as we usually do working
+first on the location curve
+
+162
+00:08:04,950 --> 00:08:07,000
+and then on the rotation curve.
+
+163
+00:08:07,000 --> 00:08:10,390
+Those little additional
+footstep are very relevant
+
+164
+00:08:10,390 --> 00:08:13,250
+for this kind of small mammals.
+
+165
+00:08:13,250 --> 00:08:17,600
+It communicate the thrust
+and tension of our character
+
+166
+00:08:17,600 --> 00:08:19,060
+hearing some noise,
+
+167
+00:08:19,060 --> 00:08:22,540
+but also their fast paced metabolism.
+
+168
+00:08:22,540 --> 00:08:25,750
+If you watch mouse or cat references
+
+169
+00:08:25,750 --> 00:08:28,873
+you will see that they moved
+their feet all the time.
+
+170
+00:08:30,130 --> 00:08:32,420
+I've policed the heaps last
+
+171
+00:08:32,420 --> 00:08:35,230
+and I've slightly changed
+the pose of the heaps
+
+172
+00:08:35,230 --> 00:08:38,210
+by raising the back of the character.
+
+173
+00:08:38,210 --> 00:08:41,220
+I felt like when I raised
+a bit of my character
+
+174
+00:08:41,220 --> 00:08:44,470
+help you looks more aware
+and more ready to flee
+
+175
+00:08:44,470 --> 00:08:46,690
+if any danger is coming
+
+176
+00:08:46,690 --> 00:08:48,380
+then the second polish stage
+
+177
+00:08:48,380 --> 00:08:51,400
+is mostly working on those rotation curve.
+
+178
+00:08:51,400 --> 00:08:54,890
+Make sure that I have smooth rotation
+
+179
+00:08:54,890 --> 00:08:58,200
+and make sure that the
+silhouette of my character
+
+180
+00:08:58,200 --> 00:09:01,610
+and the shape of your spine looks natural.
+
+181
+00:09:01,610 --> 00:09:05,850
+As usual, the final stage is
+to work on the tail rotation.
+
+182
+00:09:05,850 --> 00:09:09,520
+So I always start working
+with the root of the tail,
+
+183
+00:09:09,520 --> 00:09:11,910
+working with its rotation axis
+
+184
+00:09:11,910 --> 00:09:14,710
+and then I go along onto the chain.
+
+185
+00:09:14,710 --> 00:09:17,810
+As usual, you can study
+the full time lapse
+
+186
+00:09:17,810 --> 00:09:20,930
+of this polishing stage in the next video.
+
+187
+00:09:20,930 --> 00:09:23,870
+I will see you in the video afterwards,
+
+188
+00:09:23,870 --> 00:09:26,510
+that is going to be the very last video
+
+189
+00:09:26,510 --> 00:09:28,603
+of this idle animation.
+

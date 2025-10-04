@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cqai478967u4ac9klpfg",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "#kimi",
+                "anatomy education",
+                "augmented reality",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "mixed reality",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education",
+                "virtual reality"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何开发开发了研究协议?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "根据您提供的文件《Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis》中的信息，以下是对如何开发研究协议的概述：\n\n### 开发研究协议的方法：\n\n1. **遵循系统评价的标准流程**：\n   - 根据系统评价和元分析的首选报告项目（PRISMA）声明来制定评价的大纲。\n\n2. **前瞻性协议注册**：\n   - 研究协议被开发并提交至Prospero，即国际前瞻性系统评价注册（International Prospective Register of Systematic Reviews）。\n\n3. **明确纳入和排除标准**：\n   - 包括任何设计（例如平行、集群）的随机对照试验，涉及健康科学或医学专业大学生。\n   - 研究必须比较使用头戴式显示设备的虚拟现实或增强现实作为教学工具，与传统教学方法。\n\n4. **文献搜索策略**：\n   - 确定搜索数据库，包括PubMed、Embase、ERIC等，并从1990年1月开始搜索至2019年11月19日。\n\n5. **数据提取和风险评估**：\n   - 由两位作者独立进行文献筛选、全文审查和数据提取，如有分歧则通过讨论或第三方作者介入解决。\n   - 使用Cochrane协作风险评估工具对纳入研究的偏倚风险进行评估。\n\n6. **统计分析**：\n   - 使用Review Manager软件进行元分析，计算效应量，报告均值差异及95%置信区间，并使用随机效应模型。\n\n7. **敏感性分析**：\n   - 对具有高风险偏倚领域的研究进行敏感性分析，以确定其对总体结果的影响。\n\n8. **结果解释和讨论**：\n   - 根据提取的数据和统计分析结果，对研究结果进行解释，并讨论其对教育实践的潜在影响。\n\n9. **遵守版权和使用条款**：\n   - 确保研究和文章的使用符合Wiley关于自存档版本的使用条款。\n\n以上步骤摘自Moro等人在2021年发表的论文，该研究通过系统评价和元分析的方法，评估了虚拟现实或增强现实对医学和科学学生在临床前生理学和解剖学知识获取的影响。在回答中，我们引用了该论文（Moro et al., 2021）。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqai47aul727s3og9ja0",
+    "req_id": "cqai47aul727s3og9jag",
+    "resp_id": "cqai47aul727s3og9jb0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何开发开发了研究协议?"
+}

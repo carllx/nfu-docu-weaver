@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Think like a prompt engineer, who makes prompts for AI and specialize in AI prompt writing. You know how LLM  and users work together. Look at the text provided and write a short, flexible prompt. It should help GPT make the content better in many ways. Keep your words plain and clear.\n\nNow, please design a prompt that will enable GPT to perform the following task:\"\"\"\n{clipboard}\n\"\"\"",
+    "uid" : "145F08E9-773F-4A9F-9C4C-A007B48DFB32",
+    "name" : "generate_prompt_from_answer",
+    "keyword" : "Reverse"
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "conversation_id": "ctnmm0cbcdrs28vmlqb0",
+    "attachments": [
+        {
+            "date": 2018,
+            "title": "Streaming Volumetric Images Online",
+            "fileID": "ctnmg4in7540vmd61g00",
+            "itemID": 4054,
+            "citation": "Jamhoury, L. (2018, July 24). Streaming Volumetric Images Online. Medium. https://lisajamhoury.medium.com/streaming-volumetric-images-online-a04d68703973\n",
+            "citationShort": "Jamhoury, 2018",
+            "tags": [
+                "#kimi"
+            ]
+        },
+        {
+            "date": 2020,
+            "title": "An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC)",
+            "fileID": "cnt8m9817fm92pgfl76g",
+            "itemID": 1031,
+            "citation": "Graziosi, D. B., Nakagami, O., Kuma, S., Zaghetto, A., Suzuki, T., & Tabatabai, A. (2020). An overview of ongoing point cloud compression standardization activities: Video-based (V-PCC) and geometry-based (G-PCC). APSIPA Transactions on Signal and Information Processing, 9(1). https://doi.org/10.1017/atsip.2020.12\n",
+            "citationShort": "Graziosi et al., 2020",
+            "tags": [
+                "#3D Reconstruction",
+                "#Compression Techniques",
+                "Point cloud compression",
+                "G-PCC",
+                "Geometry-based point cloud compression",
+                "Immersive media",
+                "ISO/IEC 23090-5",
+                "ISO/IEC 23090-9",
+                "MPEG-I",
+                "V-PCC",
+                "Video-based point cloud compression",
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：从这两篇论文看是否可以从Streaming Volumetric Images Online 中突出一种创新思路, 如果请列举 10 个创新思路\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Streaming Volumetric Images Online, was published on 2018. (It can be cite this paper as Jamhoury, 2018 on your answer). \n- An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC), was published on 2020. (It can be cite this paper as Graziosi et al., 2020 on your answer). \n\n",
+    "response": "根据您提供的两篇论文内容，以下是从“Streaming Volumetric Images Online”（Jamhoury, 2018）中可以提取的10个创新思路：\n\n1. **跨平台3D数据流**：开发了一个开源工具Kinectron，该工具能够将Kinect V2的数据通过网络传输，使得3D色度和深度图像能在浏览器客户端使用（Jamhoury, 2018）。\n\n2. **13-bit深度图像处理**：将Kinect的13-bit原始深度数据映射到8-bit图像中，以便于网络传输（Jamhoury, 2018）。\n\n3. **RGBA格式存储深度数据**：通过将13-bit深度数据分散到R和G通道，而将B和A通道留空，实现了在RGBA格式中存储深度数据的方法（Jamhoury, 2018）。\n\n4. **深度与彩色图像的分辨率对齐**：解决了Kinect的深度和彩色相机不同分辨率的问题，通过图像配准技术将两者的分辨率统一（Jamhoury, 2018）。\n\n5. **WebP图像格式的应用**：选择了WebP作为图像压缩格式，因为它支持alpha通道，且文件大小比PNG更小（Jamhoury, 2018）。\n\n6. **基于WebRTC的数据通道**：使用WebRTC数据通道通过网络发送色度和深度图像，利用UDP协议的优势进行数据流传输（Jamhoury, 2018）。\n\n7. **Three.js中的点云渲染**：在Three.js中使用内置的点几何来构建点云，展示了如何将深度和彩色数据作为两个图像通过网络传输并在浏览器中渲染（Jamhoury, 2018）。\n\n8. **自定义着色器加速处理**：为了加速客户端处理，编写了自定义着色器在Three.js中处理来自两个不同源的色度和深度数据流（Jamhoury, 2018）。\n\n9. **多源数据流处理**：处理来自两个不同Kinect服务器的数据流，展示了如何通过网络将两个RGBD图像作为一个数据流传输（Jamhoury, 2018）。\n\n10. **Three-Kinectron插件开发**：Or Fleisher创建了Three-Kinectron插件，该插件使得在Three.js中处理Kinectron流式传输的RGBD数据变得更加容易（Jamhoury, 2018）。\n\n以上创新思路体现了Jamhoury（2018）在流式传输体积图像方面的技术探索和创新实践。这些方法不仅推动了3D数据在网络中的实时传输技术，也为未来的3D图像处理和网络传输提供了新的思路和工具。",
+    "refs": [
+        "ctnmg4in7540vmd61g00",
+        "cnt8m9817fm92pgfl76g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "ctnmm0an7540vmd9r6jg",
+    "req_id": "ctnmm0an7540vmd9r6l0",
+    "resp_id": "ctnmm0an7540vmd9r6lg",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：从这两篇论文看是否可以从Streaming Volumetric Images Online 中突出一种创新思路, 如果请列举 10 个创新思路"
+}

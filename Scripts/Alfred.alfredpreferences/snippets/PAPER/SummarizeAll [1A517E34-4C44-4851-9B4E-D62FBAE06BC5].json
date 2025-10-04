@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Could you provide a comprehensive overview of the paper, including a TL;DR abstract of the given essay, key questions and answers, strengths and weaknesses from {a researcher who studies related fields}, a hypothetical conversation discussing the main points between {two researchers from two different research directions, with some experience in the cross-cutting field of the subject area}, practical steps or recommendations, definitions of technical terms used, and suggestions for similar articles related to the main topic?",
+    "uid" : "1A517E34-4C44-4851-9B4E-D62FBAE06BC5",
+    "name" : "SummarizeAll",
+    "keyword" : "all"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "CHROME_PATH": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "ThemePath": "/99_Meta/MarpThemes",
+  "EnableHTML": true,
+  "MathTypesettings": "katex",
+  "HTMLExportMode": "bare",
+  "EXPORT_PATH": "",
+  "EnableSyncPreview": true,
+  "EnableMarkdownItPlugins": true
+}

@@ -1,0 +1,655 @@
+﻿1
+00:00:00,420 --> 00:00:02,001
+- [Instructor] We are slowly
+but surely getting close
+
+2
+00:00:02,001 --> 00:00:03,910
+to the end of this chapter,
+
+3
+00:00:03,910 --> 00:00:07,400
+as we just need to polish
+the arm of our character.
+
+4
+00:00:07,400 --> 00:00:09,940
+It's gonna be very easy
+because we will deal
+
+5
+00:00:09,940 --> 00:00:13,550
+with the arms as a simple,
+overlapping motion,
+
+6
+00:00:13,550 --> 00:00:16,850
+animating the shoulders
+in reaction to the torso
+
+7
+00:00:16,850 --> 00:00:19,433
+the arms in reaction to the shoulders,
+
+8
+00:00:19,433 --> 00:00:22,390
+and the forearm, hands and fingers
+
+9
+00:00:22,390 --> 00:00:25,553
+in reaction of their parents in the chain.
+
+10
+00:00:26,680 --> 00:00:30,650
+To polish the shoulder, I
+prefer to hide the arms.
+
+11
+00:00:30,650 --> 00:00:33,140
+They bring a lot of motion to the screen,
+
+12
+00:00:33,140 --> 00:00:34,837
+and that could be distracting.
+
+13
+00:00:34,837 --> 00:00:38,663
+As usual, for most of our
+forward kinematic controllers,
+
+14
+00:00:38,663 --> 00:00:41,380
+I will start with the rotation.
+
+15
+00:00:41,380 --> 00:00:44,922
+The X rotation channel drives the rotation
+
+16
+00:00:44,922 --> 00:00:48,100
+that goes up and down on the shoulders,
+
+17
+00:00:48,100 --> 00:00:51,300
+while the Z rotation drive the forward
+
+18
+00:00:51,300 --> 00:00:53,570
+and backward motion of the shoulder.
+
+19
+00:00:53,570 --> 00:00:56,950
+We will then slightly
+adjust to Y rotation curve,
+
+20
+00:00:56,950 --> 00:01:00,715
+but without that much amplitude,
+because if you remember
+
+21
+00:01:00,715 --> 00:01:03,540
+in the rotation video, I explained
+
+22
+00:01:03,540 --> 00:01:07,340
+that if we go too far
+with this third axis,
+
+23
+00:01:07,340 --> 00:01:09,950
+we may encounter gimble lock.
+
+24
+00:01:09,950 --> 00:01:13,320
+Here, I'm starting with
+the X rotation curve
+
+25
+00:01:13,320 --> 00:01:16,559
+that drives the up and down
+motion of the shoulder.
+
+26
+00:01:16,559 --> 00:01:19,330
+Editing this curve will be
+pretty straight forward,
+
+27
+00:01:19,330 --> 00:01:22,356
+as we are animating the
+shoulders in reaction
+
+28
+00:01:22,356 --> 00:01:24,410
+to the torso motion.
+
+29
+00:01:24,410 --> 00:01:28,473
+Whenever the torso is raising,
+I will lower the shoulder,
+
+30
+00:01:28,473 --> 00:01:31,730
+and whenever the torso is falling,
+
+31
+00:01:31,730 --> 00:01:33,400
+I will raise the shoulder,
+
+32
+00:01:33,400 --> 00:01:37,371
+and we need to bring extra
+contrast on the extremes.
+
+33
+00:01:37,371 --> 00:01:41,280
+(mumbles) polishing the chest
+for the open-and-down motion,
+
+34
+00:01:41,280 --> 00:01:46,280
+we generally mirror or repeat
+the cycle over 16 frames,
+
+35
+00:01:47,090 --> 00:01:50,240
+as the chest is aligned
+with the center of gravity,
+
+36
+00:01:50,240 --> 00:01:54,310
+whether we were stepping with
+the left foot or right foot,
+
+37
+00:01:54,310 --> 00:01:57,260
+we had the same up-and-down behavior,
+
+38
+00:01:57,260 --> 00:02:00,640
+but in the case of the shoulder,
+there will be a difference
+
+39
+00:02:00,640 --> 00:02:03,510
+whenever we are hitting
+with the right foot
+
+40
+00:02:03,510 --> 00:02:06,330
+or the left foot, since the chest
+
+41
+00:02:06,330 --> 00:02:09,623
+is leaning left or right in those cases.
+
+42
+00:02:10,500 --> 00:02:14,200
+This is why I'm polishing
+the whole X curve,
+
+43
+00:02:14,200 --> 00:02:17,143
+not only the frame from zero to 16.
+
+44
+00:02:18,200 --> 00:02:20,940
+Goal is to add a bit of overlapping motion
+
+45
+00:02:20,940 --> 00:02:24,320
+to have a relaxed shoulder behavior.
+
+46
+00:02:24,320 --> 00:02:27,730
+We'll add extra bounce
+using the Z location curve
+
+47
+00:02:27,730 --> 00:02:28,923
+a little later on.
+
+48
+00:02:29,910 --> 00:02:32,089
+The Z rotation curve on the shoulder
+
+49
+00:02:32,089 --> 00:02:34,970
+(indistinct) drive the
+forward-to-backward motion
+
+50
+00:02:34,970 --> 00:02:37,290
+is way easier to understand.
+
+51
+00:02:37,290 --> 00:02:41,160
+It looks like curve that we
+have already edited before.
+
+52
+00:02:41,160 --> 00:02:44,530
+The fast transition
+motion, before we ease,
+
+53
+00:02:44,530 --> 00:02:48,610
+whether in the forward position
+or the backward position.
+
+54
+00:02:48,610 --> 00:02:51,857
+Boom, there is a slight
+plateau to hold the pose.
+
+55
+00:02:51,857 --> 00:02:55,200
+(indistincT) bell-shaped
+curve will give you
+
+56
+00:02:55,200 --> 00:02:59,610
+a very smooth motion,
+while a more stepped curve
+
+57
+00:02:59,610 --> 00:03:02,660
+will you give you more contrast in motion.
+
+58
+00:03:02,660 --> 00:03:04,600
+My preference goes generally
+
+59
+00:03:04,600 --> 00:03:08,550
+toward a more contrasting motion,
+which is more interesting.
+
+60
+00:03:08,550 --> 00:03:11,313
+The curve is just about the
+twisting of the shoulder,
+
+61
+00:03:12,550 --> 00:03:15,260
+which on a human being, is super subtle.
+
+62
+00:03:15,260 --> 00:03:17,160
+Bend is like a few degrees.
+
+63
+00:03:17,160 --> 00:03:19,890
+In this regard, I'm
+mainly smoothing the curve
+
+64
+00:03:19,890 --> 00:03:22,880
+so that this wide rotation curve
+
+65
+00:03:22,880 --> 00:03:25,860
+doesn't show that much on the animation
+
+66
+00:03:25,860 --> 00:03:28,580
+and we don't get any popping issues.
+
+67
+00:03:28,580 --> 00:03:32,150
+While I would like to add
+extra motion to the shoulder,
+
+68
+00:03:32,150 --> 00:03:36,940
+using its Z location to bring
+a bit of up-and-down bounce,
+
+69
+00:03:36,940 --> 00:03:39,420
+I've decided to mirror the motion
+
+70
+00:03:39,420 --> 00:03:42,650
+onto the other shoulder right away.
+
+71
+00:03:42,650 --> 00:03:43,760
+The idea is just to check
+
+72
+00:03:43,760 --> 00:03:46,530
+if the current polishing of the shoulder
+
+73
+00:03:46,530 --> 00:03:50,220
+is satisfying before
+I bring extra details.
+
+74
+00:03:50,220 --> 00:03:51,720
+I've done this a lot of time.
+
+75
+00:03:51,720 --> 00:03:54,400
+You can complete the
+curve from one shoulder,
+
+76
+00:03:54,400 --> 00:03:55,770
+then go on to the other.
+
+77
+00:03:55,770 --> 00:03:58,690
+Press control shift to V to paste them
+
+78
+00:03:58,690 --> 00:04:00,891
+with the mirror option,
+and then duplicate them
+
+79
+00:04:00,891 --> 00:04:04,400
+on the whole length by 32 frame
+
+80
+00:04:04,400 --> 00:04:07,403
+and offset them back by minus 16 frame.
+
+81
+00:04:08,780 --> 00:04:09,730
+As explained before,
+
+82
+00:04:09,730 --> 00:04:11,870
+I want to bring a bit of extra motion
+
+83
+00:04:11,870 --> 00:04:13,810
+with the shoulder bounce.
+
+84
+00:04:13,810 --> 00:04:17,880
+This might not be a good idea
+on a very slim character,
+
+85
+00:04:17,880 --> 00:04:20,000
+but since our character
+is pretty muscular,
+
+86
+00:04:20,000 --> 00:04:23,920
+it will bring extra
+weight to the shoulders
+
+87
+00:04:23,920 --> 00:04:26,103
+and they will look very relaxed.
+
+88
+00:04:27,110 --> 00:04:29,943
+So I have isolated the Z location curve
+
+89
+00:04:29,943 --> 00:04:32,450
+by IDing all the other ones.
+
+90
+00:04:32,450 --> 00:04:35,130
+Try to focus on the chest motion.
+
+91
+00:04:35,130 --> 00:04:36,243
+As the chest go down,
+
+92
+00:04:36,243 --> 00:04:39,110
+we will make the shoulder drag up.
+
+93
+00:04:39,110 --> 00:04:41,740
+There is a lot of compression, or impact,
+
+94
+00:04:41,740 --> 00:04:43,900
+on the chest on frame four.
+
+95
+00:04:43,900 --> 00:04:47,239
+So I'm hitting the lowest
+position for the shoulder
+
+96
+00:04:47,239 --> 00:04:50,080
+two frames later on frame six.
+
+97
+00:04:50,080 --> 00:04:54,280
+Then the character hit its
+highest point around frame 10.
+
+98
+00:04:54,280 --> 00:04:59,280
+So again, I'm pulling the
+shoulder up at its highest point
+
+99
+00:04:59,490 --> 00:05:02,780
+around the frame 12, two frames later.
+
+100
+00:05:02,780 --> 00:05:05,080
+There is no impact on the up pose.
+
+101
+00:05:05,080 --> 00:05:10,080
+This is why I have a hold on
+the pose, or a slight plateau.
+
+102
+00:05:10,269 --> 00:05:14,710
+The shoulder hits its extreme
+high pose around the frame 12,
+
+103
+00:05:14,710 --> 00:05:18,280
+and then it drags as
+the body is going down.
+
+104
+00:05:18,280 --> 00:05:21,720
+So it's keeping its up pose a bit
+
+105
+00:05:21,720 --> 00:05:24,310
+while the lowest (indistinct)
+changing the curve
+
+106
+00:05:24,310 --> 00:05:26,430
+on frame six and 22,
+
+107
+00:05:26,430 --> 00:05:30,160
+mark the impact after
+the contacting frame.
+
+108
+00:05:30,160 --> 00:05:35,160
+Again, our curve doesn't
+perfectly repeat along 16 frame,
+
+109
+00:05:35,350 --> 00:05:39,110
+since the torso is leaning left or right
+
+110
+00:05:39,110 --> 00:05:41,670
+during those 32 frames.
+
+111
+00:05:41,670 --> 00:05:45,820
+So as the torso is leaning to
+the right of the character,
+
+112
+00:05:45,820 --> 00:05:50,230
+I'm (indistinct) the up
+pose of the left shoulder.
+
+113
+00:05:50,230 --> 00:05:53,460
+I feel like I've reached
+a satisfying motion
+
+114
+00:05:53,460 --> 00:05:54,600
+for the shoulder.
+
+115
+00:05:54,600 --> 00:05:57,150
+I've run a strength test.
+
+116
+00:05:57,150 --> 00:05:59,830
+So basically, I will increase or decrease
+
+117
+00:05:59,830 --> 00:06:04,010
+the scale of the current
+curve and see how it looks.
+
+118
+00:06:04,010 --> 00:06:05,050
+It will increase
+
+119
+00:06:05,050 --> 00:06:08,250
+or decrease the up-and-down
+motion of the shoulder
+
+120
+00:06:08,250 --> 00:06:10,224
+and make it more or less noticeable.
+
+121
+00:06:10,224 --> 00:06:14,038
+To do so, we will need
+to use the 2D cursor
+
+122
+00:06:14,038 --> 00:06:15,960
+as a pivot point.
+
+123
+00:06:15,960 --> 00:06:18,480
+So I will first position it properly
+
+124
+00:06:18,480 --> 00:06:23,480
+by going into the view tab and
+setting its Y value to zero.
+
+125
+00:06:24,610 --> 00:06:26,790
+Then in the pivot point selection,
+
+126
+00:06:26,790 --> 00:06:30,950
+I will select the 2D cursor
+as being the pivot point.
+
+127
+00:06:30,950 --> 00:06:33,230
+With all the control points selected,
+
+128
+00:06:33,230 --> 00:06:37,070
+I can press S to scale and
+Y to constrain the scaling
+
+129
+00:06:37,070 --> 00:06:39,810
+along the Y axis of the curve.
+
+130
+00:06:39,810 --> 00:06:41,620
+Increasing the Y scale
+
+131
+00:06:41,620 --> 00:06:45,110
+will increase the amplitude of the motion
+
+132
+00:06:45,110 --> 00:06:47,260
+and make it more noticeable.
+
+133
+00:06:47,260 --> 00:06:50,000
+Decreasing it will make it more subtle.
+
+134
+00:06:50,000 --> 00:06:52,690
+What I advise you is to scale the curve
+
+135
+00:06:52,690 --> 00:06:54,860
+while playing the animation.
+
+136
+00:06:54,860 --> 00:06:57,250
+This way, you can have
+a real-time feedback,
+
+137
+00:06:57,250 --> 00:07:01,200
+that generally feels better
+than modifying the curve
+
+138
+00:07:01,200 --> 00:07:03,320
+and then playing the motion.
+
+139
+00:07:03,320 --> 00:07:05,190
+Once I'm happy with the result,
+
+140
+00:07:05,190 --> 00:07:08,930
+I will mirror the curve
+onto the other shoulder.
+
+141
+00:07:08,930 --> 00:07:12,552
+Don't forget to check your
+motion from every angle.
+
+142
+00:07:12,552 --> 00:07:15,750
+For the up-and-down motion,
+we can clearly see it
+
+143
+00:07:15,750 --> 00:07:17,760
+from the back view of the character.
+
+144
+00:07:17,760 --> 00:07:21,520
+It's great to make this
+up-and-down motion noticeable;
+
+145
+00:07:21,520 --> 00:07:23,280
+don't overdo it, though.
+
+146
+00:07:23,280 --> 00:07:26,190
+In the next video, we are
+going to polish the arm
+
+147
+00:07:26,190 --> 00:07:27,623
+for arms and hands.
+

@@ -1,0 +1,877 @@
+﻿1
+00:00:00,640 --> 00:00:03,110
+- Before I start working on the next pose,
+
+2
+00:00:03,110 --> 00:00:06,800
+the anticipation for the
+kick, I will pose the bag.
+
+3
+00:00:06,800 --> 00:00:10,060
+Since our character is
+pretty close to the bag
+
+4
+00:00:10,060 --> 00:00:13,740
+just after the hook, and as
+you will need a bit of room
+
+5
+00:00:13,740 --> 00:00:16,350
+to execute the anticipation
+of the switch key,
+
+6
+00:00:16,350 --> 00:00:18,697
+we can rotate the bag farther away
+
+7
+00:00:18,697 --> 00:00:21,830
+as the hook was a very powerful punch.
+
+8
+00:00:21,830 --> 00:00:24,620
+Just make sure that you push the bag away
+
+9
+00:00:24,620 --> 00:00:26,440
+in the right direction.
+
+10
+00:00:26,440 --> 00:00:28,010
+While the jab and the cross
+
+11
+00:00:28,010 --> 00:00:31,130
+were pushing the bag along the y-axis,
+
+12
+00:00:31,130 --> 00:00:34,820
+the hook tend to push it along the x-axis.
+
+13
+00:00:34,820 --> 00:00:36,780
+The second thing I'd like to note
+
+14
+00:00:36,780 --> 00:00:40,110
+is that the left foot is now back
+
+15
+00:00:40,110 --> 00:00:41,760
+on the stance of the character.
+
+16
+00:00:41,760 --> 00:00:44,900
+So it will be able to
+throw the kick directly.
+
+17
+00:00:44,900 --> 00:00:47,440
+As the benefit of the foot shuffle,
+
+18
+00:00:47,440 --> 00:00:49,770
+is to get the kicking leg back
+
+19
+00:00:49,770 --> 00:00:51,400
+and before you throw the kick.
+
+20
+00:00:51,400 --> 00:00:54,350
+But if our character was to throw the kick
+
+21
+00:00:54,350 --> 00:00:57,940
+from this position, it will be pretty weak
+
+22
+00:00:57,940 --> 00:01:02,100
+because all his weight is
+supported by the left leg.
+
+23
+00:01:02,100 --> 00:01:05,550
+So can you throw a kick with your left leg
+
+24
+00:01:05,550 --> 00:01:08,640
+if most of your weight is on this leg?
+
+25
+00:01:08,640 --> 00:01:10,010
+When you throw a hook,
+
+26
+00:01:10,010 --> 00:01:13,570
+it's a classic to pivot
+around your left leg.
+
+27
+00:01:13,570 --> 00:01:16,730
+It's where you can reposition
+your right leg back
+
+28
+00:01:16,730 --> 00:01:20,510
+and return to what we
+call the orthodox stance,
+
+29
+00:01:20,510 --> 00:01:24,660
+where the left foot is the
+leading foot so it's in front,
+
+30
+00:01:24,660 --> 00:01:28,320
+and the right leg is the
+rear foot and is in the back.
+
+31
+00:01:28,320 --> 00:01:30,390
+With this in mind, we can start working
+
+32
+00:01:30,390 --> 00:01:33,150
+on our anticipation pose for the kick.
+
+33
+00:01:33,150 --> 00:01:36,120
+And that's not a problem
+if our feet position
+
+34
+00:01:36,120 --> 00:01:37,350
+is not perfect.
+
+35
+00:01:37,350 --> 00:01:40,470
+We will be able to reposition
+our whole character
+
+36
+00:01:40,470 --> 00:01:42,240
+later on if needed.
+
+37
+00:01:42,240 --> 00:01:44,080
+But as repeated many time,
+
+38
+00:01:44,080 --> 00:01:46,710
+animation is not a linear workflow,
+
+39
+00:01:46,710 --> 00:01:49,000
+and you will need to go back and forth
+
+40
+00:01:49,000 --> 00:01:51,050
+onto your different poses.
+
+41
+00:01:51,050 --> 00:01:54,360
+Now focusing on the pose, as usual,
+
+42
+00:01:54,360 --> 00:01:56,800
+I first moved the feet.
+
+43
+00:01:56,800 --> 00:01:59,150
+And once I have my contact define,
+
+44
+00:01:59,150 --> 00:02:02,639
+I can work on the toes
+or root orientation.
+
+45
+00:02:02,639 --> 00:02:07,110
+Here, fully have a look the
+orientation of the feet.
+
+46
+00:02:07,110 --> 00:02:09,980
+Look how the right foot is opened.
+
+47
+00:02:09,980 --> 00:02:13,460
+By opening the right foot
+to the outside at this way,
+
+48
+00:02:13,460 --> 00:02:16,940
+it's gonna be way easier
+to rotate the hips,
+
+49
+00:02:16,940 --> 00:02:21,270
+to pull the left leg and
+kick with full power.
+
+50
+00:02:21,270 --> 00:02:24,720
+Now, I've looked to the
+twisting of the whole torso.
+
+51
+00:02:24,720 --> 00:02:28,780
+The chest is twisting to
+the right to its maximum
+
+52
+00:02:28,780 --> 00:02:30,620
+and the left arm and left shoulder
+
+53
+00:02:30,620 --> 00:02:33,180
+are also orientated this way.
+
+54
+00:02:33,180 --> 00:02:36,910
+This allow to load energy before the kick
+
+55
+00:02:36,910 --> 00:02:39,410
+and during the kick release,
+
+56
+00:02:39,410 --> 00:02:41,920
+the arm will swing the opposite way.
+
+57
+00:02:41,920 --> 00:02:45,580
+By swinging left, the
+arm will input energy
+
+58
+00:02:45,580 --> 00:02:49,150
+into the hips and push
+them to swing right,
+
+59
+00:02:49,150 --> 00:02:51,290
+and pull the left leg forward.
+
+60
+00:02:51,290 --> 00:02:55,210
+The weight of our character
+is shifting to the right leg.
+
+61
+00:02:55,210 --> 00:02:56,640
+Right foot is flat
+
+62
+00:02:56,640 --> 00:02:59,660
+while the left foot
+heel is slightly raised.
+
+63
+00:02:59,660 --> 00:03:02,280
+The whole shape of our character,
+
+64
+00:03:02,280 --> 00:03:04,480
+it's silhouette and line affection,
+
+65
+00:03:04,480 --> 00:03:09,010
+clearly finds that he's
+going to kick forward
+
+66
+00:03:09,010 --> 00:03:11,550
+and trying to raise his whole body.
+
+67
+00:03:11,550 --> 00:03:13,650
+We now need to work on what I believe
+
+68
+00:03:13,650 --> 00:03:17,220
+will be the strongest pose
+of our whole animation,
+
+69
+00:03:17,220 --> 00:03:18,800
+the kicking pose.
+
+70
+00:03:18,800 --> 00:03:21,600
+As usual, I've look to
+the video reference.
+
+71
+00:03:21,600 --> 00:03:25,600
+Look at how the right food
+rotates during the heat.
+
+72
+00:03:25,600 --> 00:03:27,870
+Also, the right heel is raised.
+
+73
+00:03:27,870 --> 00:03:31,460
+It helps rotating around the right foot,
+
+74
+00:03:31,460 --> 00:03:34,550
+but it also allows to bring more power
+
+75
+00:03:34,550 --> 00:03:37,797
+to the kick because you
+are both pushing forward
+
+76
+00:03:37,797 --> 00:03:40,260
+by the twist of the whole body
+
+77
+00:03:40,260 --> 00:03:42,550
+and pushing hip with the supporting leg.
+
+78
+00:03:42,550 --> 00:03:45,500
+I've immediately decided to push the pose
+
+79
+00:03:45,500 --> 00:03:46,852
+and kick higher.
+
+80
+00:03:46,852 --> 00:03:48,480
+This will give a better
+
+81
+00:03:48,480 --> 00:03:51,650
+and more dynamical shape to our character.
+
+82
+00:03:51,650 --> 00:03:55,020
+Also, it's a pretty
+classic move from the Thai.
+
+83
+00:03:55,020 --> 00:03:57,670
+Instead of trying to hit the rib cage,
+
+84
+00:03:57,670 --> 00:03:59,700
+they often kick into the arm
+
+85
+00:03:59,700 --> 00:04:02,740
+so that will drop your
+guard because of the pain.
+
+86
+00:04:02,740 --> 00:04:06,280
+If you watch more reference
+of roundhouse kicking,
+
+87
+00:04:06,280 --> 00:04:08,650
+the first mistake to avoid is to think
+
+88
+00:04:08,650 --> 00:04:11,100
+that the leg is kicking upward.
+
+89
+00:04:11,100 --> 00:04:13,120
+Powerful kick should be thrown
+
+90
+00:04:13,120 --> 00:04:15,270
+as horizontal as possible,
+
+91
+00:04:15,270 --> 00:04:19,340
+or even by getting down
+during the heat pose.
+
+92
+00:04:19,340 --> 00:04:21,700
+So you need to give the proper orientation
+
+93
+00:04:21,700 --> 00:04:22,970
+to the kicking foot.
+
+94
+00:04:22,970 --> 00:04:27,540
+The top of the kicking foot
+should be whether horizontal
+
+95
+00:04:27,540 --> 00:04:30,690
+or even pointing a little downward,
+
+96
+00:04:30,690 --> 00:04:34,020
+and so should be the
+knee of your character.
+
+97
+00:04:34,020 --> 00:04:36,790
+Also, we are not kicking with the foot,
+
+98
+00:04:36,790 --> 00:04:38,750
+but we are kicking with the shin
+
+99
+00:04:38,750 --> 00:04:40,950
+because it's way harder.
+
+100
+00:04:40,950 --> 00:04:42,970
+Think of the leg as a saw
+
+101
+00:04:42,970 --> 00:04:46,030
+that need to cut through the bag.
+
+102
+00:04:46,030 --> 00:04:48,420
+Here's another concept
+that is very important
+
+103
+00:04:48,420 --> 00:04:49,940
+into our kicking pose
+
+104
+00:04:49,940 --> 00:04:53,780
+is that we are not snapping
+onto the surface of the bag,
+
+105
+00:04:53,780 --> 00:04:56,770
+but we are trying to kick through the bag.
+
+106
+00:04:56,770 --> 00:05:00,130
+So the whole body is
+leaning into the kick.
+
+107
+00:05:00,130 --> 00:05:02,710
+And so, the leg is not fully extended,
+
+108
+00:05:02,710 --> 00:05:05,520
+giving a bit of additional range
+
+109
+00:05:05,520 --> 00:05:07,620
+to push the bag even further.
+
+110
+00:05:07,620 --> 00:05:10,610
+As usual, don't forget to
+rotate around your character
+
+111
+00:05:10,610 --> 00:05:13,780
+to make sure that the pose
+work from every angle,
+
+112
+00:05:13,780 --> 00:05:16,280
+that the line affection
+is clearly defined,
+
+113
+00:05:16,280 --> 00:05:19,000
+and that you push the
+pose as much as you can
+
+114
+00:05:19,000 --> 00:05:23,100
+to sell the impact and to
+communicate, as well as possible,
+
+115
+00:05:23,100 --> 00:05:24,560
+the will of your character.
+
+116
+00:05:24,560 --> 00:05:27,140
+This is also the pose where the bag
+
+117
+00:05:27,140 --> 00:05:29,240
+will be the most deformed,
+
+118
+00:05:29,240 --> 00:05:32,800
+as it was a swinging back
+towards the character.
+
+119
+00:05:32,800 --> 00:05:34,550
+And we are now applying
+
+120
+00:05:34,550 --> 00:05:37,800
+a very brutal force the opposite way.
+
+121
+00:05:37,800 --> 00:05:39,470
+While I'd like the animation
+
+122
+00:05:39,470 --> 00:05:41,520
+to be at least semi-realistical
+
+123
+00:05:41,520 --> 00:05:44,060
+because this is a better way to learn
+
+124
+00:05:44,060 --> 00:05:47,430
+than going fully stylized directly.
+
+125
+00:05:47,430 --> 00:05:49,670
+That's perfectly fine to exaggerate
+
+126
+00:05:49,670 --> 00:05:51,960
+what's happening with the punching bag.
+
+127
+00:05:51,960 --> 00:05:55,180
+So while the character will
+be recovering from the kick,
+
+128
+00:05:55,180 --> 00:05:58,500
+I think that will be great
+to sell power of the kick.
+
+129
+00:05:58,500 --> 00:06:01,780
+That instead of just
+swinging the punching bag,
+
+130
+00:06:01,780 --> 00:06:03,150
+we throw it away.
+
+131
+00:06:03,150 --> 00:06:05,110
+I will swing it a lot.
+
+132
+00:06:05,110 --> 00:06:08,190
+I will even create a nice curve to it.
+
+133
+00:06:08,190 --> 00:06:10,030
+And then, I will simply move
+
+134
+00:06:10,030 --> 00:06:12,840
+the root controller of the bag.
+
+135
+00:06:12,840 --> 00:06:15,550
+After the kick, we can
+see that the free fighters
+
+136
+00:06:15,550 --> 00:06:17,140
+are taking a step back,
+
+137
+00:06:17,140 --> 00:06:20,440
+and then transition into their idle pose.
+
+138
+00:06:20,440 --> 00:06:23,380
+First, they pivot back from the kick
+
+139
+00:06:23,380 --> 00:06:24,830
+into the contact pose,
+
+140
+00:06:24,830 --> 00:06:28,100
+with the weight mostly on the right leg.
+
+141
+00:06:28,100 --> 00:06:30,470
+And this is the pose
+we are going to build.
+
+142
+00:06:30,470 --> 00:06:34,030
+We could consider this as
+some kind of down pose,
+
+143
+00:06:34,030 --> 00:06:35,600
+if it was a work cycle.
+
+144
+00:06:35,600 --> 00:06:38,190
+The character is pretty relaxed
+
+145
+00:06:38,190 --> 00:06:42,000
+and slowly shifting his
+weight back onto the left leg,
+
+146
+00:06:42,000 --> 00:06:43,960
+the one that has just kicked.
+
+147
+00:06:43,960 --> 00:06:48,600
+But the weight is still
+mostly upon the right leg
+
+148
+00:06:48,600 --> 00:06:52,800
+while the right foot has been
+rotated, it doesn't move.
+
+149
+00:06:52,800 --> 00:06:55,120
+I haven't changed its location.
+
+150
+00:06:55,120 --> 00:06:57,510
+Once I've roughly posed my feet,
+
+151
+00:06:57,510 --> 00:06:58,830
+I will pose the torso.
+
+152
+00:06:58,830 --> 00:07:02,570
+And as I did for most
+of the previous poses,
+
+153
+00:07:02,570 --> 00:07:05,880
+I will first console any transformation
+
+154
+00:07:05,880 --> 00:07:08,310
+on the chest and hips controller.
+
+155
+00:07:08,310 --> 00:07:12,110
+As usual, take the time to
+look at the line of action
+
+156
+00:07:12,110 --> 00:07:13,630
+on the reference pose.
+
+157
+00:07:13,630 --> 00:07:15,650
+It's more subtle than usual
+
+158
+00:07:15,650 --> 00:07:18,250
+because it's a slow paced movement,
+
+159
+00:07:18,250 --> 00:07:20,230
+but it is still there.
+
+160
+00:07:20,230 --> 00:07:22,890
+Watch the position of
+the center of gravity
+
+161
+00:07:22,890 --> 00:07:24,310
+compared to the feet.
+
+162
+00:07:24,310 --> 00:07:28,280
+It's slightly more on
+top of the right foot.
+
+163
+00:07:28,280 --> 00:07:30,590
+And finally, watch for extra details
+
+164
+00:07:30,590 --> 00:07:33,660
+like the hips and chest orientation,
+
+165
+00:07:33,660 --> 00:07:35,230
+the line of the shoulder,
+
+166
+00:07:35,230 --> 00:07:38,230
+the position of the
+hands, their orientation.
+
+167
+00:07:38,230 --> 00:07:42,260
+Every detail that will help
+you to identify the pose
+
+168
+00:07:42,260 --> 00:07:44,603
+and reproduce it at your side.
+
+169
+00:07:45,560 --> 00:07:47,940
+The final pose will be the idle pose,
+
+170
+00:07:47,940 --> 00:07:49,760
+and it's gonna be pretty close
+
+171
+00:07:49,760 --> 00:07:51,550
+to what we have on frame five.
+
+172
+00:07:51,550 --> 00:07:53,400
+But before I pose the character,
+
+173
+00:07:53,400 --> 00:07:56,010
+I'm working on the punching bag.
+
+174
+00:07:56,010 --> 00:08:00,310
+I'm just trying to guess where
+it would land after the kick.
+
+175
+00:08:00,310 --> 00:08:01,760
+Walking from the front view
+
+176
+00:08:01,760 --> 00:08:04,441
+and scrubbing through the
+different poses of the bag
+
+177
+00:08:04,441 --> 00:08:07,940
+will help me figure out its orientation
+
+178
+00:08:07,940 --> 00:08:09,440
+when it's flying away.
+
+179
+00:08:09,440 --> 00:08:11,320
+That's not super important
+
+180
+00:08:11,320 --> 00:08:14,100
+if the current pose is not perfect,
+
+181
+00:08:14,100 --> 00:08:16,910
+as we will use later on motion path
+
+182
+00:08:16,910 --> 00:08:20,150
+to better track the position of the bag.
+
+183
+00:08:20,150 --> 00:08:21,820
+Regarding the character pose,
+
+184
+00:08:21,820 --> 00:08:23,960
+I won't dive that much into detail
+
+185
+00:08:23,960 --> 00:08:26,620
+because it a pose that is very similar
+
+186
+00:08:26,620 --> 00:08:28,970
+to the very first pose we have build.
+
+187
+00:08:28,970 --> 00:08:32,360
+The only specific tip
+you have to check here
+
+188
+00:08:32,360 --> 00:08:36,372
+is that I've only pulled
+the right leg back
+
+189
+00:08:36,372 --> 00:08:41,070
+because the left leg is not
+supposed to change location.
+
+190
+00:08:41,070 --> 00:08:45,470
+Because while it's getting
+back into idle pose,
+
+191
+00:08:45,470 --> 00:08:48,510
+his shifting his whole
+weight on the left leg
+
+192
+00:08:48,510 --> 00:08:50,790
+to pull the right leg back.
+
+193
+00:08:50,790 --> 00:08:54,860
+And once the right leg
+will be settled back,
+
+194
+00:08:54,860 --> 00:08:57,950
+the weight will shift onto the right leg.
+
+195
+00:08:57,950 --> 00:09:01,400
+And so the weight is
+removed from the left foot,
+
+196
+00:09:01,400 --> 00:09:06,210
+so we can slightly raise
+the heel into the idle pose,
+
+197
+00:09:06,210 --> 00:09:10,640
+with the left leg ready to
+block any incoming kick.
+
+198
+00:09:10,640 --> 00:09:14,320
+The incoming video will
+be a slow paced time-lapse
+
+199
+00:09:14,320 --> 00:09:17,990
+of the whole blocking
+process we've done so far.
+
+200
+00:09:17,990 --> 00:09:19,620
+And in the further video,
+
+201
+00:09:19,620 --> 00:09:23,213
+we are going to continue
+on blocking our animation.
+

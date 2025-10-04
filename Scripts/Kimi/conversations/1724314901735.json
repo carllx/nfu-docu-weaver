@@ -1,0 +1,32 @@
+{
+    "conversation_id": "cr3fa5hivtd38grtvteg",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Build Your Own Metaverse with Unity: A Practical Guide to Developing Your Own Cross-Platform Metaverse with Unity3D and Firebase",
+            "fileID": "cr3evb33vddu5mtkq6g0",
+            "itemID": 3864,
+            "citation": "Nadales, D. C. (2023). Build Your Own Metaverse with Unity: A Practical Guide to Developing Your Own Cross-Platform Metaverse with Unity3D and Firebase. Packt Publishing, Limited.\n",
+            "citationShort": "Nadales, 2023",
+            "tags": [
+                "#kimi",
+                "Computers / Interactive & Multimedia",
+                "Computers / Languages / C#",
+                "Computers / Programming / Games",
+                "Computers / Software Development & Engineering / Computer Graphics",
+                "Computers / Virtual & Augmented Reality",
+                "Technology & Engineering / Engineering (General)"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Build Your Own Metaverse with Unity: A Practical Guide to Developing Your Own Cross-Platform Metaverse with Unity3D and Firebase, was published on 2023. (It can be cite this paper as Nadales, 2023 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 第一部分：入门\n\n### 第1章：Unity与Firebase入门\n- Unity3D和Firebase的介绍\n- 创建跨平台元宇宙的实用指南\n- 技术要求\n- Unity编辑器的基本使用\n- Firebase服务概览\n- Firebase项目配置\n\n### 第2章：准备我们的玩家\n- 技术要求\n- 创建第三人称控制器\n- 移动平台支持\n- 测试玩家\n\n### 第3章：准备我们的甜蜜家园（第一部分）\n- 技术要求\n- 定制人行道\n- 理解中心枢纽概念\n- 设计场景\n\n### 第4章：准备我们的甜蜜家园（第二部分）\n- 技术要求\n- 优化场景\n- 添加第一个世界到Firebase数据库\n\n### 第5章：准备旅行的新世界\n- 技术要求\n- 设计场景\n- 动态添加对象\n- 优化动态场景\n\n## 第二部分：现在，让它成为元宇宙！\n\n### 第6章：为我们的用户添加注册和登录表单\n- 技术要求\n- 创建登录屏幕\n- 创建注册屏幕\n\n### 第7章：构建允许我们旅行的NPC\n- 技术要求\n- 选择方面\n- 将NPC带入生活\n\n### 第8章：获取房屋\n- 技术要求\n- 家庭概念\n- 启用用户获取房屋\n\n### 第9章：将我们的世界变成多人房间\n- 技术要求\n- 使用Photon SDK\n- 创建网络逻辑脚本\n\n### 第10章：为房间添加文本和语音聊天\n- 技术要求\n- 使用Photon Voice和Photon Chat\n\n## 第三部分：在编译前添加有趣的功能\n\n### 第11章：创建允许我们更改外观的NPC\n- 技术要求\n- 显示可用化身的窗口\n\n### 第12章：像电影院一样流式传输视频\n- 技术要求\n- 播放视频\n- 介绍VideoPlayer类\n\n### 第13章：为Meta Quest 2添加兼容性\n- 技术要求\n- 准备眼镜\n- 配置我们的项目\n\n### 第14章：分发\n- 技术要求\n- 为不同平台编译\n\n## 附录\n- 索引\n- 你可能喜欢的其他书籍\n\n## 参考文献\n- Nadales, D. C. (2023). Build Your Own Metaverse with Unity: A Practical Guide to Developing Your Own Cross-Platform Metaverse with Unity3D and Firebase. Packt Publishing.",
+    "refs": [
+        "cr3evb33vddu5mtkq6g0"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "cr3fa5hmqu06tppqc500",
+    "req_id": "cr3fa5hmqu06tppqc50g",
+    "resp_id": "cr3fa5hmqu06tppqc510",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

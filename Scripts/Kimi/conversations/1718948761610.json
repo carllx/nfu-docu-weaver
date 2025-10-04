@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqh76u768j2bn4k6l80",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题：作者的方法会提高语言模型的响应速度吗？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n",
+    "response": "根据Mishra等人在2023年发表的论文《Prompting with Pseudo-Code Instructions》，作者们探讨了使用伪代码指令来提示预训练的大型语言模型（LLM）是否会提高其性能。然而，论文中并没有直接提及这种方法是否会提高语言模型的响应速度。相反，它主要关注的是使用伪代码指令来减少自然语言提示中固有的歧义，并提高模型在特定任务上的性能。\n\n论文中指出，使用伪代码指令可以带来以下好处：\n- 在分类任务中F1分数平均提高了7-16个百分点。\n- 在所有任务中，ROUGE-L分数的相对提高了12-38%。\n\n这些改进表明，伪代码指令可能有助于提高语言模型在特定任务上的准确性和生成文本的质量。尽管这些改进可能会间接影响响应速度，因为更准确的模型可能需要更少的时间来生成正确的响应，但论文并没有直接测量或讨论响应速度的变化。\n\n总的来说，虽然论文没有直接回答伪代码指令是否会提高响应速度，但它确实提供了证据表明这种方法可以显著提高模型在特定任务上的性能。如果性能的提升可以转化为更快的响应时间，那么可以推断这种方法可能对响应速度有积极的影响。然而，这需要进一步的研究来验证。",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpqh770nsmmh76nbf7hg",
+    "req_id": "cpqh770nsmmh76nbf7i0",
+    "resp_id": "cpqh770nsmmh76nbf7ig",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题：作者的方法会提高语言模型的响应速度吗？"
+}

@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqhnq1ldu5gtn7tha8g",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题：提取论文的案例以及结论， 归纳一份制作伪代码的说明指南，以帮助Prompt工程师能够理解如何设计一个更好的伪代码 Prompt\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n",
+    "response": "## 伪代码提示制作指南\n\n### 1. 引言\n在利用大型语言模型（LLM）时，使用自然语言指令进行提示已成为一种流行的方法。然而，自然语言的歧义性促使研究者探索使用伪代码这种较少歧义的提示风格。Mishra等人在2023年的研究表明，使用伪代码指令可以显著提高预训练语言模型的性能。\n\n### 2. 伪代码提示的优势\n- **结构化提示**：伪代码的结构化特性，如函数声明、文档字符串（docstrings）、内联注释等，有助于模型更好地理解任务。\n- **减少歧义**：与自然语言相比，伪代码的表达更为精确，减少了模型解释指令时的歧义性。\n- **性能提升**：在分类任务中，使用伪代码指令平均提高了7-16点的F1分数，在所有任务中相对提高了12-38%的ROUGE-L分数。\n\n### 3. 制作伪代码提示的步骤\n- **定义函数原型**：创建描述性函数名和参数列表，明确输入输出类型。\n- **编写文档字符串**：提供任务的自然语言描述，包括参数列表和返回类型。\n- **构建函数定义**：详细描述解决任务的步骤，使用子任务函数和内联注释增加可读性。\n- **预处理器**：编写用于解析输入的Python预处理器。\n\n### 4. 实验结果\n- **分类任务**：伪代码提示在分类任务中表现出显著的性能提升。\n- **问答任务**：特别是对于多项选择问题（MCQ），伪代码提示的性能优于自然语言提示。\n- **语言生成任务**：在某些情况下，伪代码提示同样能够提高语言生成任务的性能。\n\n### 5. 结构对性能的影响\n- **函数声明**：使用函数声明可以提升模型对任务的理解。\n- **文档字符串和注释**：包含这些元素的伪代码提示有助于提高性能，因为它们提供了额外的辅助文本。\n\n### 6. 结论\nMishra等人的研究首次展示了伪代码提示如何帮助提高预训练语言模型的性能。研究表明，伪代码的提示不仅在代码模型上有效，在设计用于自然语言任务的模型上同样有效。这为Prompt工程师提供了一种新的方法，通过精心设计的伪代码提示来提升模型对指令的遵循能力和在未见任务上的表现。\n\n### 参考文献\nMishra et al., 2023 提供了这一领域的开创性研究，其工作不仅强调了利用伪代码进行提示的重要性，还揭示了伪代码中特定元素对观察到的改进的贡献。",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpqhnq5vbf6ipijl3270",
+    "req_id": "cpqhnq5vbf6ipijl3280",
+    "resp_id": "cpqhnq5vbf6ipijl328g",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题：提取论文的案例以及结论， 归纳一份制作伪代码的说明指南，以帮助Prompt工程师能够理解如何设计一个更好的伪代码 Prompt"
+}

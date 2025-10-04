@@ -1,0 +1,1508 @@
+﻿1
+00:00:01,670 --> 00:00:02,503
+- [Pierrick] In this video,
+
+2
+00:00:02,503 --> 00:00:05,720
+we are going to learn our first pose
+
+3
+00:00:05,720 --> 00:00:10,720
+and I will teach you some tips
+about good posing workflow.
+
+4
+00:00:10,870 --> 00:00:12,880
+You will find in the documentation
+
+5
+00:00:12,880 --> 00:00:15,470
+a link to my Pinterest collection.
+
+6
+00:00:15,470 --> 00:00:19,290
+It includes a lot of
+different poses from sports,
+
+7
+00:00:19,290 --> 00:00:23,750
+martial arts, that you can
+use to repeat this exercise.
+
+8
+00:00:23,750 --> 00:00:26,470
+The more you will do,
+the better you will get.
+
+9
+00:00:26,470 --> 00:00:30,690
+It's perfectly fine to
+use drawing references
+
+10
+00:00:30,690 --> 00:00:33,350
+whenever you are creating your poses
+
+11
+00:00:33,350 --> 00:00:36,470
+or searching for references
+for your animation.
+
+12
+00:00:36,470 --> 00:00:38,000
+But for this exercise,
+
+13
+00:00:38,000 --> 00:00:40,410
+I advise you to use a photo
+
+14
+00:00:40,410 --> 00:00:44,490
+because if you are using drawing
+references or illustration,
+
+15
+00:00:44,490 --> 00:00:46,660
+there is big chance that the artist
+
+16
+00:00:46,660 --> 00:00:50,280
+has already pushed the pose,
+like on this one, for example.
+
+17
+00:00:50,280 --> 00:00:52,700
+So again, I truly encourage you
+
+18
+00:00:52,700 --> 00:00:56,480
+to watch as much illustration
+and drawing as possible,
+
+19
+00:00:56,480 --> 00:00:59,790
+even try to reproduce those poses.
+
+20
+00:00:59,790 --> 00:01:02,410
+But for the sake of learning,
+
+21
+00:01:02,410 --> 00:01:05,770
+I think it's better to
+use photo references.
+
+22
+00:01:05,770 --> 00:01:09,610
+Here is the first pose
+we are going to work on.
+
+23
+00:01:09,610 --> 00:01:12,300
+you will find the link
+in the documentation.
+
+24
+00:01:12,300 --> 00:01:14,020
+Here is what we have to look for
+
+25
+00:01:14,020 --> 00:01:16,360
+whenever we start working on a new pose.
+
+26
+00:01:16,360 --> 00:01:18,800
+First of all, the line of action.
+
+27
+00:01:18,800 --> 00:01:21,440
+In this case, it's super obvious.
+
+28
+00:01:21,440 --> 00:01:24,040
+It goes from the right foot to the head.
+
+29
+00:01:24,040 --> 00:01:28,820
+So, we definitely need to
+define this line of action
+
+30
+00:01:28,820 --> 00:01:30,010
+in our posing.
+
+31
+00:01:30,010 --> 00:01:32,580
+Then I'm looking for secondary shapes.
+
+32
+00:01:32,580 --> 00:01:35,120
+Look at the flow in the arms.
+
+33
+00:01:35,120 --> 00:01:39,060
+It creates a nice S shape
+with shoulders aligned.
+
+34
+00:01:39,060 --> 00:01:42,160
+Then I'm looking at the leg flow,
+
+35
+00:01:42,160 --> 00:01:45,440
+creating a nice angle with the body.
+
+36
+00:01:45,440 --> 00:01:49,640
+And finally, the torso creates
+this nice and smooth curve.
+
+37
+00:01:49,640 --> 00:01:53,080
+So, those lines are the
+one we need to identify
+
+38
+00:01:53,080 --> 00:01:56,400
+and clearly define in our posing.
+
+39
+00:01:56,400 --> 00:01:58,880
+Third thing I like to do on my references
+
+40
+00:01:58,880 --> 00:02:01,550
+is try to define the orientation
+
+41
+00:02:01,550 --> 00:02:05,470
+of the main features of the
+body, especially the torso.
+
+42
+00:02:05,470 --> 00:02:07,780
+I will quickly draw some lines
+
+43
+00:02:07,780 --> 00:02:11,360
+that defines the orientation of the torso
+
+44
+00:02:11,360 --> 00:02:16,210
+and its main shape, as if I
+was sketching the current pose.
+
+45
+00:02:16,210 --> 00:02:19,800
+The simple thing of doing
+this is writing in my brain
+
+46
+00:02:19,800 --> 00:02:21,690
+what I will have to look for.
+
+47
+00:02:21,690 --> 00:02:24,230
+So, whenever you are using a reference,
+
+48
+00:02:24,230 --> 00:02:26,910
+just draw some line on top of it,
+
+49
+00:02:26,910 --> 00:02:30,150
+trying to identify the
+shoulder orientation,
+
+50
+00:02:30,150 --> 00:02:33,480
+the eye orientation and
+the torso orientation.
+
+51
+00:02:33,480 --> 00:02:36,110
+Let's get started and prepare our file.
+
+52
+00:02:36,110 --> 00:02:38,040
+I'm starting where we left
+
+53
+00:02:38,040 --> 00:02:40,170
+with our run cycle finished
+
+54
+00:02:40,170 --> 00:02:43,580
+and then will search for the keying action
+
+55
+00:02:43,580 --> 00:02:44,870
+in the action editor.
+
+56
+00:02:44,870 --> 00:02:47,010
+I will duplicate this action
+
+57
+00:02:47,010 --> 00:02:52,010
+with our character in a rest
+pose and rename it 04-post-01.
+
+58
+00:02:53,110 --> 00:02:55,210
+Don't forget to click the shield icon,
+
+59
+00:02:55,210 --> 00:02:56,870
+I've just forgotten to do it.
+
+60
+00:02:56,870 --> 00:03:00,800
+Then on my second 3D view,
+I will rework the shading
+
+61
+00:03:00,800 --> 00:03:03,870
+and set it to flat, object color,
+
+62
+00:03:03,870 --> 00:03:06,070
+get rid of cavity and shadows
+
+63
+00:03:06,070 --> 00:03:09,370
+so that I get a raw
+silhouette of my character.
+
+64
+00:03:09,370 --> 00:03:12,170
+I will go back to my main 3D view
+
+65
+00:03:12,170 --> 00:03:16,440
+and in object mode, I will
+press Shift + A to add a camera.
+
+66
+00:03:16,440 --> 00:03:19,400
+Now, the camera should appear in outliner
+
+67
+00:03:19,400 --> 00:03:22,330
+on the root of the scene collection.
+
+68
+00:03:22,330 --> 00:03:24,200
+With my 3D viewport view
+
+69
+00:03:24,200 --> 00:03:27,130
+aligned with the front of the character
+
+70
+00:03:27,130 --> 00:03:31,600
+I will press Control +
+Alt + zero on the numpad
+
+71
+00:03:31,600 --> 00:03:35,360
+to set this as being the camera view.
+
+72
+00:03:35,360 --> 00:03:37,970
+I really clean the
+camera transform channels
+
+73
+00:03:37,970 --> 00:03:41,870
+so that there is no offset
+on the X-axis location
+
+74
+00:03:41,870 --> 00:03:45,213
+and no rotation but on the X-axis.
+
+75
+00:03:45,213 --> 00:03:47,470
+I will hover over my second 3D view
+
+76
+00:03:47,470 --> 00:03:50,350
+and press zero to switch to camera view.
+
+77
+00:03:50,350 --> 00:03:52,473
+And then instead of the outliner,
+
+78
+00:03:52,473 --> 00:03:57,100
+I will open the image editor
+and load the reference.
+
+79
+00:03:57,100 --> 00:03:59,300
+You will find it in the files,
+
+80
+00:03:59,300 --> 00:04:01,850
+or you can download it from Pinterest
+
+81
+00:04:01,850 --> 00:04:03,960
+or download any other reference
+
+82
+00:04:03,960 --> 00:04:06,570
+if you want to work on another reference.
+
+83
+00:04:06,570 --> 00:04:09,680
+Now what I'm doing is
+positioning the camera.
+
+84
+00:04:09,680 --> 00:04:11,880
+I'm having a look to the reference
+
+85
+00:04:11,880 --> 00:04:15,270
+and it seems that the
+person taking the picture
+
+86
+00:04:15,270 --> 00:04:18,120
+is slightly higher than the character,
+
+87
+00:04:18,120 --> 00:04:20,160
+as we can see the top of the shoulders
+
+88
+00:04:20,160 --> 00:04:22,490
+and the top of the head of the character.
+
+89
+00:04:22,490 --> 00:04:24,160
+So from a side view,
+
+90
+00:04:24,160 --> 00:04:27,710
+I will slightly raise
+the camera to 1.4 meters.
+
+91
+00:04:28,905 --> 00:04:31,482
+I will push it to the character
+
+92
+00:04:31,482 --> 00:04:35,837
+and reduce a bit the focal
+length to 40 millimeters
+
+93
+00:04:35,837 --> 00:04:37,440
+to get a wider angle.
+
+94
+00:04:37,440 --> 00:04:41,500
+We will revise the camera
+a bit later on if needed.
+
+95
+00:04:41,500 --> 00:04:44,240
+The last thing I will
+do is go back to my rig,
+
+96
+00:04:44,240 --> 00:04:46,830
+press Control + Tab to
+switch to pose mode,
+
+97
+00:04:46,830 --> 00:04:49,090
+I will go to the rig properties panel,
+
+98
+00:04:49,090 --> 00:04:51,150
+search for HEAD-FOLLOW and NECK-FOLLOW,
+
+99
+00:04:51,150 --> 00:04:54,540
+set the NECK-FOLLOW to one
+and the HEAD-FOLLOW to zero.
+
+100
+00:04:54,540 --> 00:04:56,440
+That's a personal preference.
+
+101
+00:04:56,440 --> 00:04:58,340
+But they feel like my characters
+
+102
+00:04:58,340 --> 00:05:01,310
+generally have a better behavior
+
+103
+00:05:01,310 --> 00:05:02,960
+with the neck following the chest
+
+104
+00:05:02,960 --> 00:05:05,980
+and the head being free
+of any rotation hierarchy.
+
+105
+00:05:05,980 --> 00:05:08,880
+For me, the most important controllers
+
+106
+00:05:08,880 --> 00:05:12,380
+whenever you are posting a
+character that is on the ground
+
+107
+00:05:12,380 --> 00:05:15,430
+are the torso controller and the feet.
+
+108
+00:05:15,430 --> 00:05:19,640
+And the torso controller or
+center of gravity controller
+
+109
+00:05:19,640 --> 00:05:22,570
+is the main and most important controller,
+
+110
+00:05:22,570 --> 00:05:24,860
+whatever the pose you are doing.
+
+111
+00:05:24,860 --> 00:05:26,710
+So the first thing you have to do
+
+112
+00:05:26,710 --> 00:05:29,580
+is pose the torso controller.
+
+113
+00:05:29,580 --> 00:05:31,010
+I'm lowering it
+
+114
+00:05:31,010 --> 00:05:35,320
+and I'm rotating it to the
+side on its local Z-axis
+
+115
+00:05:35,320 --> 00:05:38,310
+by pressing R and Z twice,
+
+116
+00:05:38,310 --> 00:05:42,960
+so that I can manipulate the
+controller in its local space
+
+117
+00:05:42,960 --> 00:05:47,590
+since by default my pivot
+point is set to global.
+
+118
+00:05:47,590 --> 00:05:50,440
+Then the most important controllers
+
+119
+00:05:50,440 --> 00:05:52,500
+are the feet controllers.
+
+120
+00:05:52,500 --> 00:05:55,480
+I am using inverse kinematic as usual,
+
+121
+00:05:55,480 --> 00:06:00,480
+and I'm manipulating those
+controllers on the Y and X-axis
+
+122
+00:06:00,890 --> 00:06:03,040
+so that they stick to the ground.
+
+123
+00:06:03,040 --> 00:06:07,090
+Before even watching the
+whole shapes of the leg,
+
+124
+00:06:07,090 --> 00:06:09,590
+I'm watching the orientation of the feet.
+
+125
+00:06:09,590 --> 00:06:13,270
+One of the big benefit of 3D animation
+
+126
+00:06:13,270 --> 00:06:16,790
+is that we can focus on each
+feature of the character
+
+127
+00:06:16,790 --> 00:06:17,760
+one by one.
+
+128
+00:06:17,760 --> 00:06:22,760
+So I first make sure that my
+feet are properly oriented
+
+129
+00:06:23,180 --> 00:06:26,010
+and properly matching the reference.
+
+130
+00:06:26,010 --> 00:06:29,760
+Then, as we need to adjust to torso shape,
+
+131
+00:06:29,760 --> 00:06:33,948
+just make sure that you use at 90%,
+
+132
+00:06:33,948 --> 00:06:37,300
+the center of gravity or
+the torso root controller,
+
+133
+00:06:37,300 --> 00:06:41,907
+and then slightly tweak the
+chest and hips by rotating them.
+
+134
+00:06:41,907 --> 00:06:45,730
+As I'm still at working
+on the chest, hips,
+
+135
+00:06:45,730 --> 00:06:49,200
+and torso controller,
+just look at the knees.
+
+136
+00:06:49,200 --> 00:06:52,320
+I've also posed the pole target
+
+137
+00:06:52,320 --> 00:06:54,540
+so that the right leg knee
+
+138
+00:06:54,540 --> 00:06:58,380
+point a bit inward toward the camera
+
+139
+00:06:58,380 --> 00:07:02,930
+while the left leg knee
+point a bit on the outside.
+
+140
+00:07:02,930 --> 00:07:04,440
+At the end of the posting,
+
+141
+00:07:04,440 --> 00:07:07,890
+almost every single
+controller of the character
+
+142
+00:07:07,890 --> 00:07:09,400
+will be posed.
+
+143
+00:07:09,400 --> 00:07:12,863
+As any form of art, there
+is a lot of back and forth.
+
+144
+00:07:14,510 --> 00:07:17,100
+You need to watch your
+character from every angle
+
+145
+00:07:17,100 --> 00:07:18,780
+to make sure that it looks good.
+
+146
+00:07:18,780 --> 00:07:21,580
+Since the legs and the
+torso of my character
+
+147
+00:07:21,580 --> 00:07:23,290
+are more or less posed,
+
+148
+00:07:23,290 --> 00:07:26,600
+I can now rework a bit
+the camera position.
+
+149
+00:07:26,600 --> 00:07:29,620
+I press Control + Tab
+to get out of pose mode.
+
+150
+00:07:29,620 --> 00:07:33,670
+And then I can click the
+outer edges of the camera view
+
+151
+00:07:33,670 --> 00:07:34,780
+to select it.
+
+152
+00:07:34,780 --> 00:07:35,730
+Then from this view,
+
+153
+00:07:35,730 --> 00:07:39,410
+you can press G and Z
+twice to zoom in and out.
+
+154
+00:07:39,410 --> 00:07:43,860
+Or press R and the axis of your
+choice to rotate the camera.
+
+155
+00:07:43,860 --> 00:07:47,130
+I've slightly lowered the
+camera as it was too high
+
+156
+00:07:47,130 --> 00:07:50,453
+and rotated it so that I can
+nicely frame the character.
+
+157
+00:07:50,453 --> 00:07:54,683
+Here you can see the actual
+transform values of the camera.
+
+158
+00:07:56,830 --> 00:07:57,850
+From the camera view,
+
+159
+00:07:57,850 --> 00:08:02,400
+I can slightly adjust the
+center of gravity position
+
+160
+00:08:02,400 --> 00:08:05,430
+and also work a bit on
+the hips controller.
+
+161
+00:08:05,430 --> 00:08:07,013
+Note that the hips controller
+
+162
+00:08:07,013 --> 00:08:10,420
+will have a lot of impact
+on your legs shape.
+
+163
+00:08:10,420 --> 00:08:12,490
+Watch for the groin alignment
+
+164
+00:08:12,490 --> 00:08:15,350
+and the chest alignment of the reference.
+
+165
+00:08:15,350 --> 00:08:17,570
+You can see it's leaning a bit forward,
+
+166
+00:08:17,570 --> 00:08:20,460
+so I'm adjusting it accordingly.
+
+167
+00:08:20,460 --> 00:08:22,220
+As for life drawing,
+
+168
+00:08:22,220 --> 00:08:25,270
+watch your reference as often as possible.
+
+169
+00:08:25,270 --> 00:08:27,430
+Don't over-focus on your character
+
+170
+00:08:27,430 --> 00:08:30,210
+and forget that you have
+to check the reference.
+
+171
+00:08:30,210 --> 00:08:32,460
+Once I feel like I have a good pose,
+
+172
+00:08:32,460 --> 00:08:34,830
+I will check my center of gravity
+
+173
+00:08:34,830 --> 00:08:37,230
+by checking my character from the bottom
+
+174
+00:08:37,230 --> 00:08:39,210
+and checking the feet alignment
+
+175
+00:08:39,210 --> 00:08:42,900
+compared to the center of
+gravity, or from a side view.
+
+176
+00:08:42,900 --> 00:08:46,540
+And it feels like my character
+is a bit out of balance.
+
+177
+00:08:46,540 --> 00:08:51,100
+His center of gravity is
+a bit too far on his back.
+
+178
+00:08:51,100 --> 00:08:54,280
+So I feel like the character
+will fall on this bottom.
+
+179
+00:08:54,280 --> 00:08:55,170
+To fix this,
+
+180
+00:08:55,170 --> 00:08:59,710
+I simply need to push the
+center of gravity a bit forward.
+
+181
+00:08:59,710 --> 00:09:03,310
+This is why it's very
+important to check your pose
+
+182
+00:09:03,310 --> 00:09:04,400
+from every angle,
+
+183
+00:09:04,400 --> 00:09:07,940
+because this is something
+I wouldn't be able to see
+
+184
+00:09:07,940 --> 00:09:09,760
+through the camera view only.
+
+185
+00:09:09,760 --> 00:09:12,710
+3D posing is like freaky sculpting,
+
+186
+00:09:12,710 --> 00:09:14,810
+and you won't be sculpting a character
+
+187
+00:09:14,810 --> 00:09:18,090
+without turning around
+it most of the time.
+
+188
+00:09:18,090 --> 00:09:22,510
+And this is also why
+sculpting and drawing,
+
+189
+00:09:22,510 --> 00:09:24,470
+while they are not mandatory,
+
+190
+00:09:24,470 --> 00:09:26,750
+will make you a better animator
+
+191
+00:09:26,750 --> 00:09:29,800
+because you will learn to
+better pose your characters.
+
+192
+00:09:29,800 --> 00:09:31,150
+One thing I've noticed
+
+193
+00:09:31,150 --> 00:09:34,270
+is that I've rotated the
+neck too much forward.
+
+194
+00:09:34,270 --> 00:09:36,780
+As being a continuity of the spine
+
+195
+00:09:36,780 --> 00:09:38,680
+that goes through the chest,
+
+196
+00:09:38,680 --> 00:09:42,460
+try to keep your neck slightly
+aligned with the chest
+
+197
+00:09:42,460 --> 00:09:43,673
+for a better flow.
+
+198
+00:09:45,660 --> 00:09:47,160
+And then I can rotate the head
+
+199
+00:09:47,160 --> 00:09:49,200
+to try too match the final pole.
+
+200
+00:09:49,200 --> 00:09:52,910
+I didn't work on the shoulder
+or the arm on purpose
+
+201
+00:09:52,910 --> 00:09:56,290
+so that we can focus on legs and torso.
+
+202
+00:09:56,290 --> 00:09:59,970
+Don't hesitate to hide
+the arms to rig the pose.
+
+203
+00:09:59,970 --> 00:10:01,710
+Your brain will do the job
+
+204
+00:10:01,710 --> 00:10:04,680
+of figuring out where the arms should be
+
+205
+00:10:04,680 --> 00:10:07,580
+and you can have a clear
+view of your current pose.
+
+206
+00:10:07,580 --> 00:10:11,450
+So I can now pose the arm,
+I will display them again,
+
+207
+00:10:11,450 --> 00:10:14,190
+and I will start with the shoulders.
+
+208
+00:10:14,190 --> 00:10:17,250
+The shoulders are clearly
+raised on the character,
+
+209
+00:10:17,250 --> 00:10:18,760
+so I would rotate them,
+
+210
+00:10:18,760 --> 00:10:21,010
+and then I would start
+posing the left arm.
+
+211
+00:10:21,010 --> 00:10:22,850
+When posing the forearm,
+
+212
+00:10:22,850 --> 00:10:27,230
+do remember that your elbow
+can rotate only on one axis,
+
+213
+00:10:27,230 --> 00:10:29,250
+the local Z-axis.
+
+214
+00:10:29,250 --> 00:10:31,950
+Whenever I need to change
+the orientation of the arm,
+
+215
+00:10:31,950 --> 00:10:36,030
+I will twist the arm controller,
+not the forearm controller.
+
+216
+00:10:36,030 --> 00:10:37,860
+And then I pose my character
+
+217
+00:10:37,860 --> 00:10:40,780
+following the chain of hierarchy.
+
+218
+00:10:40,780 --> 00:10:43,810
+First the shoulder, then the
+arm, and finally the forearm.
+
+219
+00:10:43,810 --> 00:10:46,630
+Then I will work on the other arm.
+
+220
+00:10:46,630 --> 00:10:49,920
+And when I've run the reference analysis,
+
+221
+00:10:49,920 --> 00:10:52,930
+I've tried to figure where the elbow was
+
+222
+00:10:52,930 --> 00:10:54,000
+beneath those clothes
+
+223
+00:10:54,000 --> 00:10:56,890
+so that they can then
+select the arm controller
+
+224
+00:10:56,890 --> 00:11:00,960
+and twist it accordingly so
+that the elbow is pointing down.
+
+225
+00:11:00,960 --> 00:11:04,850
+Then as usual, I will go down
+the chain and pose the hand
+
+226
+00:11:04,850 --> 00:11:08,033
+so that it's slightly
+open towards the sky.
+
+227
+00:11:09,620 --> 00:11:12,650
+From there, I can turn around my character
+
+228
+00:11:12,650 --> 00:11:16,330
+and spot that the arm is not
+aligned with the shoulder,
+
+229
+00:11:16,330 --> 00:11:19,910
+and it generates a weird
+angle that doesn't look good
+
+230
+00:11:19,910 --> 00:11:22,410
+and that is not anatomically correct.
+
+231
+00:11:22,410 --> 00:11:24,170
+If you hold your shoulder
+
+232
+00:11:24,170 --> 00:11:27,150
+and try to rotate your arm backward
+
+233
+00:11:27,150 --> 00:11:29,320
+with your elbow pointing down,
+
+234
+00:11:29,320 --> 00:11:31,840
+you won't be able to reach this angle.
+
+235
+00:11:31,840 --> 00:11:34,150
+So I will fix a bit the pose,
+
+236
+00:11:34,150 --> 00:11:36,810
+and now look at the flow
+between the two arms.
+
+237
+00:11:36,810 --> 00:11:40,180
+But most of the time you
+want your arms to flow
+
+238
+00:11:40,180 --> 00:11:41,490
+in a nice curve.
+
+239
+00:11:41,490 --> 00:11:43,890
+You may think of your arms building
+
+240
+00:11:43,890 --> 00:11:46,240
+a second line of action in a way.
+
+241
+00:11:46,240 --> 00:11:47,530
+We are almost done.
+
+242
+00:11:47,530 --> 00:11:50,550
+Now I'm just double checking
+the different features.
+
+243
+00:11:50,550 --> 00:11:53,040
+You can see that my head orientation
+
+244
+00:11:53,040 --> 00:11:54,820
+doesn't match the reference.
+
+245
+00:11:54,820 --> 00:11:59,250
+So rotating a bit the neck
+and the head, I can adjust it.
+
+246
+00:11:59,250 --> 00:12:02,300
+It's also a good idea
+to pose a bit the eyes.
+
+247
+00:12:02,300 --> 00:12:05,700
+Just check both controller
+on top of the eyebrows.
+
+248
+00:12:05,700 --> 00:12:07,310
+By simply moving them,
+
+249
+00:12:07,310 --> 00:12:11,310
+you will be able to set
+pre-made shapes for the eyebrows
+
+250
+00:12:11,310 --> 00:12:15,320
+that will all you to reach
+appealing pose pretty quickly.
+
+251
+00:12:15,320 --> 00:12:17,380
+As I'm almost done with the pose,
+
+252
+00:12:17,380 --> 00:12:19,990
+I'm double checking
+the different features.
+
+253
+00:12:19,990 --> 00:12:23,360
+Slightly repositioning the
+foot and reorienting them.
+
+254
+00:12:23,360 --> 00:12:25,130
+And I will just put another problem
+
+255
+00:12:25,130 --> 00:12:28,150
+regarding the relationship
+between the left shoulder
+
+256
+00:12:28,150 --> 00:12:29,350
+and the left arm.
+
+257
+00:12:29,350 --> 00:12:32,080
+This angle here is impossible to reach
+
+258
+00:12:32,080 --> 00:12:34,750
+between the shoulder and the arm.
+
+259
+00:12:34,750 --> 00:12:37,520
+Basically, with your shoulder at rest
+
+260
+00:12:37,520 --> 00:12:41,410
+you can't have your elbow
+getting upper than the shoulder.
+
+261
+00:12:41,410 --> 00:12:45,500
+As soon as you want to rotate
+the arm beyond the T pose,
+
+262
+00:12:45,500 --> 00:12:47,160
+the rotation is done by the shoulder,
+
+263
+00:12:47,160 --> 00:12:50,050
+creating a nice straight line
+
+264
+00:12:50,050 --> 00:12:52,170
+between the shoulder and the arm.
+
+265
+00:12:52,170 --> 00:12:55,410
+So this is really something
+you have to remember.
+
+266
+00:12:55,410 --> 00:12:59,140
+Don't forget that the arm
+rotation has a lot of limitation
+
+267
+00:12:59,140 --> 00:13:01,500
+and you need to compensate
+with the shorter.
+
+268
+00:13:01,500 --> 00:13:03,930
+That's a beginner mistake I see a lot.
+
+269
+00:13:03,930 --> 00:13:07,333
+So I can fix this issue
+and now pose the hands.
+
+270
+00:13:08,970 --> 00:13:12,800
+One of the most important
+controller regarding the hand
+
+271
+00:13:12,800 --> 00:13:14,690
+is the palm controller.
+
+272
+00:13:14,690 --> 00:13:17,630
+This is this little controller
+on the side of the hand.
+
+273
+00:13:17,630 --> 00:13:18,860
+When rotating it,
+
+274
+00:13:18,860 --> 00:13:19,853
+it will curl the hand
+
+275
+00:13:19,853 --> 00:13:23,320
+with a nice fall off between
+the different pan bones.
+
+276
+00:13:23,320 --> 00:13:26,650
+First beginner mistake
+to absolutely avoid,
+
+277
+00:13:26,650 --> 00:13:30,570
+hands are never flat, unless
+you are pushing on a wall.
+
+278
+00:13:30,570 --> 00:13:33,960
+So please always input a bit of rotation
+
+279
+00:13:33,960 --> 00:13:35,790
+in this palm controller.
+
+280
+00:13:35,790 --> 00:13:38,330
+As for the elbow and the arms,
+
+281
+00:13:38,330 --> 00:13:41,340
+the fingers have limitation
+in their rotation.
+
+282
+00:13:41,340 --> 00:13:45,520
+Remember that your finger
+root can tilt a bit
+
+283
+00:13:45,520 --> 00:13:47,900
+or rotate side to side.
+
+284
+00:13:47,900 --> 00:13:50,900
+They can curl, but they
+can't really twist.
+
+285
+00:13:50,900 --> 00:13:54,290
+When it comes to next
+joint into your fingers,
+
+286
+00:13:54,290 --> 00:13:58,320
+which are manipulated using
+the second controller here,
+
+287
+00:13:58,320 --> 00:14:01,080
+they should only be able to curl.
+
+288
+00:14:01,080 --> 00:14:03,960
+So while everything is
+possible in animation,
+
+289
+00:14:03,960 --> 00:14:08,120
+try to match those anatomical constraints
+
+290
+00:14:08,120 --> 00:14:10,520
+whenever you are posing your character.
+
+291
+00:14:10,520 --> 00:14:12,300
+Then while moving,
+
+292
+00:14:12,300 --> 00:14:15,840
+we may need to bend the
+limbs of our character
+
+293
+00:14:15,840 --> 00:14:19,230
+in a weird way, just to follow
+the flow of the animation.
+
+294
+00:14:19,230 --> 00:14:24,230
+But currently, just try to
+respect anatomical constraints.
+
+295
+00:14:24,340 --> 00:14:26,170
+Now regarding the finger pose,
+
+296
+00:14:26,170 --> 00:14:27,910
+look at how they are grouped.
+
+297
+00:14:27,910 --> 00:14:31,790
+The index and the middle
+finger are linked together,
+
+298
+00:14:31,790 --> 00:14:35,870
+while the ring finger is
+slightly getting away,
+
+299
+00:14:35,870 --> 00:14:40,260
+and the pinky is the one that
+is the most on the outside
+
+300
+00:14:40,260 --> 00:14:41,810
+and opening the hand.
+
+301
+00:14:41,810 --> 00:14:45,020
+Finally, don't hesitate
+to change the location
+
+302
+00:14:45,020 --> 00:14:46,530
+of the controller too.
+
+303
+00:14:46,530 --> 00:14:48,570
+You can move them by grabbing them
+
+304
+00:14:48,570 --> 00:14:51,200
+if you feel like the rig is breaking
+
+305
+00:14:51,200 --> 00:14:54,580
+or you can't reach the pose
+you are currently looking at.
+
+306
+00:14:54,580 --> 00:14:57,150
+There is no rule of thumb (chuckles)
+
+307
+00:14:57,150 --> 00:14:58,927
+whenever you are opposing the hands.
+
+308
+00:14:58,927 --> 00:15:02,050
+Also, you see, while I'm pushing you
+
+309
+00:15:02,050 --> 00:15:04,550
+to follow the constraint of the body
+
+310
+00:15:04,550 --> 00:15:06,520
+whenever you're opposing your character,
+
+311
+00:15:06,520 --> 00:15:08,490
+what's matter is the shape.
+
+312
+00:15:08,490 --> 00:15:12,440
+So if you can't reach the
+correct shape for the fingers
+
+313
+00:15:12,440 --> 00:15:17,440
+using an anatomically correct
+behavior with the controllers,
+
+314
+00:15:18,130 --> 00:15:20,770
+just cheat and move them a bit.
+
+315
+00:15:20,770 --> 00:15:24,150
+Even if those controllers
+are called bones,
+
+316
+00:15:24,150 --> 00:15:27,080
+they don't behave like
+a real life skeleton.
+
+317
+00:15:27,080 --> 00:15:30,830
+Plus you have to take into
+account the flesh, the muscle,
+
+318
+00:15:30,830 --> 00:15:33,530
+the fat on top of the body
+
+319
+00:15:33,530 --> 00:15:36,260
+that will currently shape your character.
+
+320
+00:15:36,260 --> 00:15:38,730
+So just move them as you want
+
+321
+00:15:38,730 --> 00:15:41,800
+so that you can reach the nice pose.
+
+322
+00:15:41,800 --> 00:15:46,800
+While I do advise you to
+follow anatomical constraint,
+
+323
+00:15:47,710 --> 00:15:51,130
+if you can't reach the pose
+you want, just cheat a bit.
+
+324
+00:15:51,130 --> 00:15:55,060
+So my advice is to always
+follow an anatomical constraint,
+
+325
+00:15:55,060 --> 00:15:58,320
+especially if the rig is built on them.
+
+326
+00:15:58,320 --> 00:16:00,830
+Which is more or less the
+case with this rigging.
+
+327
+00:16:00,830 --> 00:16:03,520
+But the most important
+thing is the result,
+
+328
+00:16:03,520 --> 00:16:07,310
+this is what your customer,
+the viewer, will see.
+
+329
+00:16:07,310 --> 00:16:08,570
+So if you need,
+
+330
+00:16:08,570 --> 00:16:11,750
+cheat with the rig to
+get to the right result.
+
+331
+00:16:11,750 --> 00:16:15,470
+An example here, I'm
+using this ankle tweaker
+
+332
+00:16:15,470 --> 00:16:19,770
+just to break a bit the odd
+angle I have on the ankle
+
+333
+00:16:19,770 --> 00:16:21,730
+that doesn't look right.
+
+334
+00:16:21,730 --> 00:16:23,500
+This is not anatomically correct,
+
+335
+00:16:23,500 --> 00:16:25,310
+that will be pretty painful,
+
+336
+00:16:25,310 --> 00:16:27,550
+but in the end it looks a bit better.
+
+337
+00:16:27,550 --> 00:16:31,970
+So some with small adjustment,
+we can call this posing done.
+
+338
+00:16:31,970 --> 00:16:32,940
+In the next video,
+
+339
+00:16:32,940 --> 00:16:36,180
+we are going to see how
+we can push this pose
+
+340
+00:16:36,180 --> 00:16:38,133
+to make it even more appealing.
+

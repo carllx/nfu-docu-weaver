@@ -1,0 +1,615 @@
+﻿1
+00:00:00,230 --> 00:00:02,240
+- [Instructor] We are
+hitting the final part
+
+2
+00:00:02,240 --> 00:00:03,770
+of our polishing stage,
+
+3
+00:00:03,770 --> 00:00:06,060
+where we are going to polish the kick.
+
+4
+00:00:06,060 --> 00:00:09,310
+At this stage, you should
+already have guessed that
+
+5
+00:00:09,310 --> 00:00:10,840
+we are going to start with
+
+6
+00:00:10,840 --> 00:00:13,710
+the torso route controller
+of our character.
+
+7
+00:00:13,710 --> 00:00:16,450
+The first thing that might
+be a bit disturbing is that
+
+8
+00:00:16,450 --> 00:00:21,450
+since our character has rotated
+in space during the hook,
+
+9
+00:00:22,010 --> 00:00:25,510
+the side to side motion
+of his center of gravity
+
+10
+00:00:25,510 --> 00:00:28,840
+is no longer driven by the X location,
+
+11
+00:00:28,840 --> 00:00:30,780
+but the Y location curve.
+
+12
+00:00:30,780 --> 00:00:33,350
+This is because our torso controller
+
+13
+00:00:33,350 --> 00:00:35,400
+is aligned with world space.
+
+14
+00:00:35,400 --> 00:00:39,940
+So as our character is rotated
+by more or less 90 degrees,
+
+15
+00:00:39,940 --> 00:00:42,995
+its local left to right
+motion is now aligned with
+
+16
+00:00:42,995 --> 00:00:46,500
+the world space forward
+and backward motion.
+
+17
+00:00:46,500 --> 00:00:49,320
+As usual, you don't need
+to think about all of this.
+
+18
+00:00:49,320 --> 00:00:51,810
+The important thing is
+just to test the curve,
+
+19
+00:00:51,810 --> 00:00:55,540
+see how your character
+behave and start from there.
+
+20
+00:00:55,540 --> 00:00:56,730
+As we did before,
+
+21
+00:00:56,730 --> 00:00:59,640
+I'm moving the center of
+gravity of the character
+
+22
+00:00:59,640 --> 00:01:01,890
+based on the steps it's taking.
+
+23
+00:01:01,890 --> 00:01:04,920
+I'm pushing the center of
+gravity on the left leg,
+
+24
+00:01:04,920 --> 00:01:08,570
+whenever the character
+is freeing his right foot
+
+25
+00:01:08,570 --> 00:01:10,340
+to be able to pull it back.
+
+26
+00:01:10,340 --> 00:01:13,380
+And then we have this
+micro anticipation before
+
+27
+00:01:13,380 --> 00:01:15,200
+the jump into the switch.
+
+28
+00:01:15,200 --> 00:01:18,900
+The weight of the character is
+shifting upon the right leg.
+
+29
+00:01:18,900 --> 00:01:22,610
+And we are holding don't
+pose for a couple of frames.
+
+30
+00:01:22,610 --> 00:01:24,428
+Then as our character is jumping,
+
+31
+00:01:24,428 --> 00:01:28,500
+the value of the Z curve
+is raising pretty fast.
+
+32
+00:01:28,500 --> 00:01:32,149
+And since our character has no
+more contact with the ground,
+
+33
+00:01:32,149 --> 00:01:36,050
+I'm making the Y curve almost linear
+
+34
+00:01:36,050 --> 00:01:38,063
+because our character is not able
+
+35
+00:01:38,063 --> 00:01:41,930
+to apply any forces to accelerate
+
+36
+00:01:41,930 --> 00:01:45,650
+on its X or Y axis while in the air.
+
+37
+00:01:45,650 --> 00:01:47,840
+When your character is airborn,
+
+38
+00:01:47,840 --> 00:01:49,313
+The only axis that gets a lot
+of variation is the Z axis,
+
+39
+00:01:51,710 --> 00:01:53,040
+the up and down.
+
+40
+00:01:53,040 --> 00:01:55,660
+As the lens, the reason
+micro anticipation,
+
+41
+00:01:55,660 --> 00:01:58,333
+so a little down pose over fret 74.
+
+42
+00:01:59,530 --> 00:02:01,366
+From there, I will give a quick polish to
+
+43
+00:02:01,366 --> 00:02:04,440
+the X location curve of our character.
+
+44
+00:02:04,440 --> 00:02:07,200
+Remember that the feet travels faster
+
+45
+00:02:07,200 --> 00:02:08,900
+than the center of gravity.
+
+46
+00:02:08,900 --> 00:02:10,867
+So when the character is stepping back,
+
+47
+00:02:10,867 --> 00:02:15,867
+I will hold his center of
+gravity upon the left foot until
+
+48
+00:02:15,980 --> 00:02:19,130
+the right foot reaches its contact pose.
+
+49
+00:02:19,130 --> 00:02:21,220
+And then the center of gravity travels
+
+50
+00:02:21,220 --> 00:02:22,940
+toward the right foot
+
+51
+00:02:22,940 --> 00:02:26,090
+and as I did before with
+the Y location curve,
+
+52
+00:02:26,090 --> 00:02:29,820
+during the jump, I will
+make the curve more linear
+
+53
+00:02:29,820 --> 00:02:33,660
+by simply removing the unnecessary keys.
+
+54
+00:02:33,660 --> 00:02:37,320
+Once I got the satisfying arc
+for the jump of the character,
+
+55
+00:02:37,320 --> 00:02:41,650
+I will try to push him back
+and down as far as possible
+
+56
+00:02:41,650 --> 00:02:45,300
+to contrast with the position
+whenever it's kicking.
+
+57
+00:02:45,300 --> 00:02:47,437
+From there, I didn't have that much work
+
+58
+00:02:47,437 --> 00:02:50,060
+regarding the kick itself
+
+59
+00:02:50,060 --> 00:02:53,210
+because it was already polished a lot
+
+60
+00:02:53,210 --> 00:02:57,770
+during the blocking stage, since
+we have animate it on once.
+
+61
+00:02:57,770 --> 00:02:58,620
+So from there,
+
+62
+00:02:58,620 --> 00:03:03,280
+I will be mainly working on
+the step back of the character.
+
+63
+00:03:03,280 --> 00:03:04,570
+And as usual,
+
+64
+00:03:04,570 --> 00:03:09,490
+I will make sure that the center
+of gravity of my character
+
+65
+00:03:09,490 --> 00:03:12,530
+is aligned with the contacting foot
+
+66
+00:03:12,530 --> 00:03:15,120
+and that the weight shifts
+
+67
+00:03:15,120 --> 00:03:18,500
+upon the new contacting foot
+
+68
+00:03:18,500 --> 00:03:22,820
+as soon as the current
+foot contact the ground.
+
+69
+00:03:22,820 --> 00:03:26,090
+So first the foot contact the ground
+
+70
+00:03:26,090 --> 00:03:30,330
+then the center of gravity
+shift toward the foot
+
+71
+00:03:30,330 --> 00:03:34,240
+and to be able to move the
+food, the character need
+
+72
+00:03:34,240 --> 00:03:36,770
+to raise his center of gravity.
+
+73
+00:03:36,770 --> 00:03:40,830
+So the center of gravity
+will both shift to what the
+
+74
+00:03:40,830 --> 00:03:44,866
+supporting leg and raise
+while the opposite foot
+
+75
+00:03:44,866 --> 00:03:48,910
+is moving to its next contact pose.
+
+76
+00:03:48,910 --> 00:03:53,050
+And as it reaches its next contact pose,
+
+77
+00:03:53,050 --> 00:03:56,360
+the center of gravity start to get down
+
+78
+00:03:56,360 --> 00:03:59,440
+and toward this new contact pose.
+
+79
+00:03:59,440 --> 00:04:01,570
+Very common mistake is to move
+
+80
+00:04:01,570 --> 00:04:04,720
+the center of gravity
+in sync with the foot.
+
+81
+00:04:04,720 --> 00:04:06,995
+As explained before, the
+center of gravity and
+
+82
+00:04:06,995 --> 00:04:10,140
+the feet don't move at the same speed
+
+83
+00:04:10,140 --> 00:04:12,610
+because at some point
+the center of gravity
+
+84
+00:04:12,610 --> 00:04:15,410
+needs to be supported by the foot
+
+85
+00:04:15,410 --> 00:04:17,730
+and at some point the center of gravity
+
+86
+00:04:17,730 --> 00:04:21,190
+needs to free the foot
+so that it can move.
+
+87
+00:04:21,190 --> 00:04:23,200
+So just try to keep this in mind,
+
+88
+00:04:23,200 --> 00:04:26,153
+this mechanism where the
+center of gravity will shift
+
+89
+00:04:26,153 --> 00:04:28,181
+towards the available foot,
+
+90
+00:04:28,181 --> 00:04:30,910
+the ones that doesn't move anymore.
+
+91
+00:04:30,910 --> 00:04:32,840
+When it comes to rotation,
+
+92
+00:04:32,840 --> 00:04:35,130
+as soon as the character is pulling back,
+
+93
+00:04:35,130 --> 00:04:37,660
+I am making the torso drag in a bit
+
+94
+00:04:37,660 --> 00:04:42,270
+so that I will rotate it
+toward its previous position.
+
+95
+00:04:42,270 --> 00:04:44,050
+When the character is moving back,
+
+96
+00:04:44,050 --> 00:04:47,000
+I will make him slightly leaning forward.
+
+97
+00:04:47,000 --> 00:04:49,220
+Compared to what has been outputted
+
+98
+00:04:49,220 --> 00:04:50,720
+from the detailed blocking,
+
+99
+00:04:50,720 --> 00:04:53,150
+I'm not touching the curve that much.
+
+100
+00:04:53,150 --> 00:04:55,760
+It's mostly about revising a bit,
+
+101
+00:04:55,760 --> 00:04:58,700
+the timing of the
+rotation of the character,
+
+102
+00:04:58,700 --> 00:05:01,090
+then reworking his current poses.
+
+103
+00:05:01,090 --> 00:05:05,170
+And you can notice that I
+generally have a very smooth curve
+
+104
+00:05:05,170 --> 00:05:09,231
+with some plateau whenever the
+character is moving his foot.
+
+105
+00:05:09,231 --> 00:05:12,096
+And then the little acceleration of twist
+
+106
+00:05:12,096 --> 00:05:16,665
+as soon as the foot has reached
+its contact pose as for the
+
+107
+00:05:16,665 --> 00:05:20,530
+X and Y location, whenever
+the character is jumping,
+
+108
+00:05:20,530 --> 00:05:24,948
+he will have a hard time to
+create any variation in its
+
+109
+00:05:24,948 --> 00:05:28,010
+rotation speed while airborn.
+
+110
+00:05:28,010 --> 00:05:29,420
+To be able to accelerate or
+
+111
+00:05:29,420 --> 00:05:32,288
+decelerate, you need to apply forces.
+
+112
+00:05:32,288 --> 00:05:36,090
+And if your body is not
+in contact with a surface,
+
+113
+00:05:36,090 --> 00:05:38,180
+you can't push to create this force.
+
+114
+00:05:38,180 --> 00:05:40,400
+This is why my curves get small linear
+
+115
+00:05:40,400 --> 00:05:41,940
+on during the jump.
+
+116
+00:05:41,940 --> 00:05:43,950
+From there, I will walk on the rotation
+
+117
+00:05:43,950 --> 00:05:45,920
+as I did on the location.
+
+118
+00:05:45,920 --> 00:05:49,866
+I will try to push the
+extreme of the anticipation
+
+119
+00:05:49,866 --> 00:05:54,318
+as far as possible so that
+I get a very strong contrast
+
+120
+00:05:54,318 --> 00:05:56,970
+compared to the kick release.
+
+121
+00:05:56,970 --> 00:05:59,030
+So I'm leaning the character back
+
+122
+00:05:59,030 --> 00:06:01,220
+and twisting toward its left leg
+
+123
+00:06:01,220 --> 00:06:04,449
+and then I will twist the
+body toward the right leg
+
+124
+00:06:04,449 --> 00:06:07,760
+and lean the character into the kick.
+
+125
+00:06:07,760 --> 00:06:11,180
+Then when the character
+is coming back into idle,
+
+126
+00:06:11,180 --> 00:06:14,710
+I'm mainly tweaking and
+smoothing the existing curve,
+
+127
+00:06:14,710 --> 00:06:16,278
+making sure that the body is dragging
+
+128
+00:06:16,278 --> 00:06:19,210
+as the foot reaches its contact pose,
+
+129
+00:06:19,210 --> 00:06:21,620
+and then the body catch up.
+
+130
+00:06:21,620 --> 00:06:23,900
+Exactly as we did for the location.
+
+131
+00:06:23,900 --> 00:06:27,547
+As usual, I will provide
+you a slow paced time-lapse
+
+132
+00:06:27,547 --> 00:06:30,760
+so that you can watch it almost real time.
+
+133
+00:06:30,760 --> 00:06:34,220
+Note that entire of the
+animation, I've given me like
+
+134
+00:06:34,220 --> 00:06:38,470
+five or six additional frame,
+just to ease into the idle,
+
+135
+00:06:38,470 --> 00:06:40,710
+instead of having art stop,
+
+136
+00:06:40,710 --> 00:06:43,650
+I will deal with almost all
+the controller this way,
+
+137
+00:06:43,650 --> 00:06:48,150
+creating some kind of moving
+old until the last frame.
+
+138
+00:06:48,150 --> 00:06:50,770
+He will be easing into his final post
+
+139
+00:06:50,770 --> 00:06:52,473
+and that should look right.
+

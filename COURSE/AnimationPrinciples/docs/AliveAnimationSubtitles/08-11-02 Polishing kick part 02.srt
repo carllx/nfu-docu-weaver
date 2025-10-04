@@ -1,0 +1,1208 @@
+﻿1
+00:00:00,140 --> 00:00:01,861
+- [Instructor] As usual, once I'm done
+
+2
+00:00:01,861 --> 00:00:05,240
+with polishing the torso
+or the center of gravity,
+
+3
+00:00:05,240 --> 00:00:08,200
+I work on the contact
+points of the character.
+
+4
+00:00:08,200 --> 00:00:11,020
+So I will work on the feet as always.
+
+5
+00:00:11,020 --> 00:00:12,560
+I will start with the right leg
+
+6
+00:00:12,560 --> 00:00:14,770
+as it's going to be pretty fast.
+
+7
+00:00:14,770 --> 00:00:16,360
+First of all, I want to make sure
+
+8
+00:00:16,360 --> 00:00:18,670
+that the leg gets fully extended
+
+9
+00:00:18,670 --> 00:00:20,360
+before the foot leave the ground.
+
+10
+00:00:20,360 --> 00:00:22,380
+So I will simply delay by a couple
+
+11
+00:00:22,380 --> 00:00:24,600
+of frame the moment the
+foot leave the ground.
+
+12
+00:00:24,600 --> 00:00:26,686
+From there, I will make sure that the foot
+
+13
+00:00:26,686 --> 00:00:30,100
+is drawing a nice arc in space,
+
+14
+00:00:30,100 --> 00:00:34,520
+and then I will slightly
+push the z location curve
+
+15
+00:00:34,520 --> 00:00:38,400
+to create the up pose of the
+foot right in the middle.
+
+16
+00:00:38,400 --> 00:00:41,660
+I will then switch the handles to vector
+
+17
+00:00:41,660 --> 00:00:44,240
+for the starting point and ending point
+
+18
+00:00:44,240 --> 00:00:46,630
+of the z location and x location.
+
+19
+00:00:46,630 --> 00:00:48,480
+This way I make sure that the foot
+
+20
+00:00:48,480 --> 00:00:50,630
+is accelerating when leaving the ground
+
+21
+00:00:50,630 --> 00:00:53,810
+and when it's about to contact the ground.
+
+22
+00:00:53,810 --> 00:00:56,930
+Then I can revise the heel orientation
+
+23
+00:00:56,930 --> 00:01:00,190
+or heel rotation using
+the heel controller,
+
+24
+00:01:00,190 --> 00:01:03,090
+raising the heel just before
+the foot leave the ground
+
+25
+00:01:03,090 --> 00:01:05,040
+and flattening the foot a couple
+
+26
+00:01:05,040 --> 00:01:07,100
+of frame after the contact pose.
+
+27
+00:01:07,100 --> 00:01:10,850
+Then I'm also working on
+the toes of the character.
+
+28
+00:01:10,850 --> 00:01:13,330
+So as usual, I will make them drag,
+
+29
+00:01:13,330 --> 00:01:15,610
+meaning that they will be pointing
+
+30
+00:01:15,610 --> 00:01:17,920
+toward their previous position.
+
+31
+00:01:17,920 --> 00:01:19,030
+On the contact pose,
+
+32
+00:01:19,030 --> 00:01:20,490
+I will raise the toes
+
+33
+00:01:20,490 --> 00:01:23,890
+and then I will slap them on
+the ground one frame later.
+
+34
+00:01:23,890 --> 00:01:26,640
+And I will convert the contacting key
+
+35
+00:01:26,640 --> 00:01:28,330
+of the toes to vector
+
+36
+00:01:28,330 --> 00:01:30,450
+so that I'm sure that
+they are accelerating
+
+37
+00:01:30,450 --> 00:01:31,990
+before they hit the ground,
+
+38
+00:01:31,990 --> 00:01:35,090
+even if it's over only one frame.
+
+39
+00:01:35,090 --> 00:01:37,730
+Then I will work on the jumping motion.
+
+40
+00:01:37,730 --> 00:01:39,040
+So I will make sure
+
+41
+00:01:39,040 --> 00:01:42,360
+that the foot leave the ground late enough
+
+42
+00:01:42,360 --> 00:01:45,100
+so that I get an extended leg.
+
+43
+00:01:45,100 --> 00:01:46,610
+And as I move the foot,
+
+44
+00:01:46,610 --> 00:01:49,760
+I will also work on
+its quaternion rotation
+
+45
+00:01:49,760 --> 00:01:50,860
+to make it drag.
+
+46
+00:01:50,860 --> 00:01:53,240
+So the ball of the foot will be pointing
+
+47
+00:01:53,240 --> 00:01:55,550
+toward its previous position,
+
+48
+00:01:55,550 --> 00:01:57,450
+and then while in the air,
+
+49
+00:01:57,450 --> 00:01:59,470
+I will make it transition
+
+50
+00:01:59,470 --> 00:02:02,420
+toward its next position,
+
+51
+00:02:02,420 --> 00:02:04,790
+toward the contacting pose.
+
+52
+00:02:04,790 --> 00:02:08,100
+I will slightly open the
+foot just before the impact
+
+53
+00:02:08,100 --> 00:02:11,840
+so that the character land
+on the edge of the foot,
+
+54
+00:02:11,840 --> 00:02:15,070
+and it slightly pivot while the weight
+
+55
+00:02:15,070 --> 00:02:16,790
+is shifting onto the foot.
+
+56
+00:02:16,790 --> 00:02:19,600
+Then I will work on the kicking motion
+
+57
+00:02:19,600 --> 00:02:21,290
+of this current foot,
+
+58
+00:02:21,290 --> 00:02:23,760
+the foot that is contacting the ground.
+
+59
+00:02:23,760 --> 00:02:25,600
+It has a specific rotation,
+
+60
+00:02:25,600 --> 00:02:27,780
+as we have see in the reference.
+
+61
+00:02:27,780 --> 00:02:29,850
+It twist to follow the hips
+
+62
+00:02:29,850 --> 00:02:32,270
+and then just after the impact,
+
+63
+00:02:32,270 --> 00:02:34,150
+it twist backward very fast.
+
+64
+00:02:34,150 --> 00:02:37,260
+So we have this very fast
+back and forth motion
+
+65
+00:02:37,260 --> 00:02:39,510
+of the heel toward the target.
+
+66
+00:02:39,510 --> 00:02:43,460
+In this case, it's driven
+by the W quaternion rotation
+
+67
+00:02:43,460 --> 00:02:46,250
+for my foot, and I'm creating this V shape
+
+68
+00:02:46,250 --> 00:02:47,160
+with the curve
+
+69
+00:02:47,160 --> 00:02:49,180
+where when it's going down,
+
+70
+00:02:49,180 --> 00:02:51,690
+it rotates toward the target,
+
+71
+00:02:51,690 --> 00:02:55,046
+and after frame 81, it rotates back.
+
+72
+00:02:55,046 --> 00:02:57,279
+To make this motion less linear,
+
+73
+00:02:57,279 --> 00:02:59,990
+I will hold the pose
+for a couple of frames
+
+74
+00:02:59,990 --> 00:03:03,750
+by adding a new key on frame 80 and 81.
+
+75
+00:03:03,750 --> 00:03:08,150
+And then I will make the
+foot ease into its rest pose,
+
+76
+00:03:08,150 --> 00:03:10,800
+just before the left foot enter contact
+
+77
+00:03:10,800 --> 00:03:11,690
+with the ground.
+
+78
+00:03:11,690 --> 00:03:12,737
+Once I'm done with this,
+
+79
+00:03:12,737 --> 00:03:15,800
+I will work on the last step backward
+
+80
+00:03:15,800 --> 00:03:19,000
+with the same checkpoint
+in mind as before.
+
+81
+00:03:19,000 --> 00:03:22,400
+I want to make sure that
+the leg extend a bit
+
+82
+00:03:22,400 --> 00:03:24,860
+before the foot leave the ground.
+
+83
+00:03:24,860 --> 00:03:27,340
+And that the foot contact the ground
+
+84
+00:03:27,340 --> 00:03:31,470
+before the weight of the
+character starts to shift
+
+85
+00:03:31,470 --> 00:03:34,060
+toward the current foot.
+
+86
+00:03:34,060 --> 00:03:37,560
+So as usual, I'm often delaying the moment
+
+87
+00:03:37,560 --> 00:03:39,580
+where the foot is leaving the ground.
+
+88
+00:03:39,580 --> 00:03:41,970
+In this case, by two frames.
+
+89
+00:03:41,970 --> 00:03:45,040
+And then I switch the
+contacting pose to vector
+
+90
+00:03:45,040 --> 00:03:47,155
+so that I get a hard contact.
+
+91
+00:03:47,155 --> 00:03:51,240
+And I input a bit of up pose in between
+
+92
+00:03:51,240 --> 00:03:54,890
+using the z location to make
+the foot raise in space.
+
+93
+00:03:54,890 --> 00:03:56,520
+From there, as usual,
+
+94
+00:03:56,520 --> 00:03:59,840
+I will refine a bit the heel controller
+
+95
+00:03:59,840 --> 00:04:01,950
+to make sure that the heel is raising
+
+96
+00:04:01,950 --> 00:04:04,420
+whenever the foot is getting pulled,
+
+97
+00:04:04,420 --> 00:04:07,090
+and that it's at it highest point
+
+98
+00:04:07,090 --> 00:04:09,170
+just before the contact frame.
+
+99
+00:04:09,170 --> 00:04:11,760
+Then I will switch to the foot rotation
+
+100
+00:04:11,760 --> 00:04:15,180
+and see if I can make
+it drag a little bit.
+
+101
+00:04:15,180 --> 00:04:16,400
+And as I did before,
+
+102
+00:04:16,400 --> 00:04:19,830
+I want the foot to rotate
+a bit after the contact
+
+103
+00:04:19,830 --> 00:04:24,000
+as the weight of the character
+is shifting upon this foot.
+
+104
+00:04:24,000 --> 00:04:27,600
+And also, contact first
+with the inner edge
+
+105
+00:04:27,600 --> 00:04:30,990
+of the foot, and then the foot will tilt
+
+106
+00:04:30,990 --> 00:04:32,320
+to become flat.
+
+107
+00:04:32,320 --> 00:04:35,550
+This create a slight roll on the ground
+
+108
+00:04:35,550 --> 00:04:38,430
+of the foot that looks more natural
+
+109
+00:04:38,430 --> 00:04:41,720
+than the foot getting flattened
+directly on the ground
+
+110
+00:04:41,720 --> 00:04:43,360
+as it contacts.
+
+111
+00:04:43,360 --> 00:04:45,520
+As the final detail, as usual,
+
+112
+00:04:45,520 --> 00:04:47,490
+I will work on the toes.
+
+113
+00:04:47,490 --> 00:04:49,730
+Whenever the foot is leaving the ground,
+
+114
+00:04:49,730 --> 00:04:52,210
+I will make the toes drag
+
+115
+00:04:52,210 --> 00:04:54,700
+and eventually, when
+it contacts the ground,
+
+116
+00:04:54,700 --> 00:04:55,980
+I will raise them a bit
+
+117
+00:04:55,980 --> 00:04:59,280
+so that they slap the
+frame after the contact.
+
+118
+00:04:59,280 --> 00:05:01,900
+Another detail I wanted
+to add is the friction
+
+119
+00:05:01,900 --> 00:05:03,440
+of the toes on the ground
+
+120
+00:05:03,440 --> 00:05:06,320
+when the character is
+twisting to throw the kick.
+
+121
+00:05:06,320 --> 00:05:08,760
+If you flatten your hand on the table
+
+122
+00:05:08,760 --> 00:05:11,980
+and you push on the hand
+and try to twist it,
+
+123
+00:05:11,980 --> 00:05:14,290
+you will see your fingers dragging
+
+124
+00:05:14,290 --> 00:05:16,350
+in the opposite direction as the twist
+
+125
+00:05:16,350 --> 00:05:18,690
+because of the friction and the resistance
+
+126
+00:05:18,690 --> 00:05:20,970
+on the ground, or on the table.
+
+127
+00:05:20,970 --> 00:05:23,070
+So this is what I'm doing here
+
+128
+00:05:23,070 --> 00:05:25,420
+using the z Euler rotation.
+
+129
+00:05:25,420 --> 00:05:28,930
+I rotate them toward
+their previous position.
+
+130
+00:05:28,930 --> 00:05:32,830
+It's the same principle
+as when we lift the foot
+
+131
+00:05:32,830 --> 00:05:35,470
+but in this case, the
+motion is side to side
+
+132
+00:05:35,470 --> 00:05:38,233
+instead of being up and down.
+
+133
+00:05:38,233 --> 00:05:41,377
+From there, I've worked on the left foot.
+
+134
+00:05:41,377 --> 00:05:44,550
+At this point, the
+workflow is pretty linear.
+
+135
+00:05:44,550 --> 00:05:47,880
+I hope you understand what
+I've been doing before
+
+136
+00:05:47,880 --> 00:05:51,290
+and if not, you should rewatch the videos.
+
+137
+00:05:51,290 --> 00:05:53,380
+I know how confusing it can be
+
+138
+00:05:53,380 --> 00:05:54,920
+to read the graph editor,
+
+139
+00:05:54,920 --> 00:05:58,250
+especially for beginners
+where you are not comfortable
+
+140
+00:05:58,250 --> 00:05:59,580
+with the tools.
+
+141
+00:05:59,580 --> 00:06:03,760
+So talking about poses, rhythm and spacing
+
+142
+00:06:03,760 --> 00:06:07,730
+might not translate for
+you watching those curve.
+
+143
+00:06:07,730 --> 00:06:11,010
+If it's the case, jump back
+to the squirrel chapter
+
+144
+00:06:11,010 --> 00:06:13,940
+and make sure that you
+practice with this character.
+
+145
+00:06:13,940 --> 00:06:14,860
+During the switch,
+
+146
+00:06:14,860 --> 00:06:17,330
+I'm mainly reworking the up pose
+
+147
+00:06:17,330 --> 00:06:21,190
+so that it's smallest in
+the middle of the motion
+
+148
+00:06:21,190 --> 00:06:24,150
+of the foot toward its new position.
+
+149
+00:06:24,150 --> 00:06:27,820
+And as you can see, I deal
+with the z curve a bit
+
+150
+00:06:27,820 --> 00:06:29,720
+like with the bouncing ball
+
+151
+00:06:29,720 --> 00:06:32,850
+with vector handles when the
+foot is leaving the ground
+
+152
+00:06:32,850 --> 00:06:34,340
+and hitting the ground
+
+153
+00:06:34,340 --> 00:06:36,750
+and a scale key in between.
+
+154
+00:06:36,750 --> 00:06:38,080
+Now, as you have guessed,
+
+155
+00:06:38,080 --> 00:06:41,250
+most of the work was during the kicking,
+
+156
+00:06:41,250 --> 00:06:44,720
+first, make sure that you
+calculate your motion path.
+
+157
+00:06:44,720 --> 00:06:46,790
+The first choice I did
+
+158
+00:06:46,790 --> 00:06:50,320
+was to make the foot to stay on the ground
+
+159
+00:06:50,320 --> 00:06:52,040
+as long as possible.
+
+160
+00:06:52,040 --> 00:06:53,760
+This way we do get the feeling
+
+161
+00:06:53,760 --> 00:06:56,490
+that the hips is pulling the leg
+
+162
+00:06:56,490 --> 00:06:58,430
+as strong as possible.
+
+163
+00:06:58,430 --> 00:07:02,450
+But also, it will all
+need to get less frames
+
+164
+00:07:02,450 --> 00:07:03,390
+to throw the kick
+
+165
+00:07:03,390 --> 00:07:05,400
+so that it will be very fast,
+
+166
+00:07:05,400 --> 00:07:06,530
+and very snappy.
+
+167
+00:07:06,530 --> 00:07:08,450
+So as the foot is leaving the ground,
+
+168
+00:07:08,450 --> 00:07:10,680
+I make sure that it's very close
+
+169
+00:07:10,680 --> 00:07:13,070
+to its initial pose
+
+170
+00:07:13,070 --> 00:07:15,172
+so that I will have a big spacing
+
+171
+00:07:15,172 --> 00:07:19,780
+between the starting frame
+and the contacting frame.
+
+172
+00:07:19,780 --> 00:07:22,550
+We will have a big acceleration,
+
+173
+00:07:22,550 --> 00:07:24,170
+so for the in between,
+
+174
+00:07:24,170 --> 00:07:27,040
+I'm favorizing the first position,
+
+175
+00:07:27,040 --> 00:07:29,750
+so that the spacing get bigger and bigger
+
+176
+00:07:29,750 --> 00:07:31,490
+and we do feel the acceleration
+
+177
+00:07:31,490 --> 00:07:33,380
+of the foot before the contact pose.
+
+178
+00:07:33,380 --> 00:07:34,930
+Once I feel good with this,
+
+179
+00:07:34,930 --> 00:07:37,450
+I will make sure that my arcs are clean,
+
+180
+00:07:37,450 --> 00:07:39,910
+especially on the impact frame.
+
+181
+00:07:39,910 --> 00:07:42,990
+I will slightly tweak
+the position of the foot
+
+182
+00:07:42,990 --> 00:07:44,590
+from the camera view
+
+183
+00:07:44,590 --> 00:07:48,500
+so that it perfectly wrap
+around the punching bag,
+
+184
+00:07:48,500 --> 00:07:50,300
+creating a nice arc.
+
+185
+00:07:50,300 --> 00:07:52,900
+Since the punching bag is an accessory,
+
+186
+00:07:52,900 --> 00:07:56,190
+I will pose the bag later on,
+
+187
+00:07:56,190 --> 00:07:57,878
+paste on the foot motion.
+
+188
+00:07:57,878 --> 00:08:01,300
+But it's not hard for
+me to create a nice arc
+
+189
+00:08:01,300 --> 00:08:02,430
+from the camera view,
+
+190
+00:08:02,430 --> 00:08:04,430
+considering that the punching bag
+
+191
+00:08:04,430 --> 00:08:05,940
+will be more or less there
+
+192
+00:08:05,940 --> 00:08:08,660
+since we have blocked everything before.
+
+193
+00:08:08,660 --> 00:08:11,040
+Then when the leg is pulled back,
+
+194
+00:08:11,040 --> 00:08:14,080
+I will make sure that
+I get a very clean arc
+
+195
+00:08:14,080 --> 00:08:17,830
+and that the foot is
+accelerating toward the ground.
+
+196
+00:08:17,830 --> 00:08:21,043
+Beyond being bound to your graph editor,
+
+197
+00:08:21,043 --> 00:08:26,043
+you should be more watching
+and analyzing your motion path.
+
+198
+00:08:26,520 --> 00:08:30,110
+This is the tool that perfectly
+translate to you the arcs
+
+199
+00:08:30,110 --> 00:08:32,212
+and the spacing of your animation.
+
+200
+00:08:32,212 --> 00:08:34,810
+Then with experience, you will be able
+
+201
+00:08:34,810 --> 00:08:38,230
+to read this also into your graph editor.
+
+202
+00:08:38,230 --> 00:08:41,490
+As usual, from there, I will
+work on the heel controller.
+
+203
+00:08:41,490 --> 00:08:43,260
+That's pretty straightforward.
+
+204
+00:08:43,260 --> 00:08:44,850
+As the foot is leaving the ground,
+
+205
+00:08:44,850 --> 00:08:46,310
+I'm raising the heel.
+
+206
+00:08:46,310 --> 00:08:47,630
+The only tricky thing
+
+207
+00:08:47,630 --> 00:08:50,100
+is that our character just jumped
+
+208
+00:08:50,100 --> 00:08:52,620
+into the anticipation for the kick.
+
+209
+00:08:52,620 --> 00:08:54,220
+So the heel is going down
+
+210
+00:08:54,220 --> 00:08:56,840
+and then he's pushing to throw the kick.
+
+211
+00:08:56,840 --> 00:08:58,380
+So the heel is raising.
+
+212
+00:08:58,380 --> 00:09:01,210
+There is this slight
+plateau at some point.
+
+213
+00:09:01,210 --> 00:09:05,180
+From there it's all about
+building the smear frames.
+
+214
+00:09:05,180 --> 00:09:08,180
+Don't hesitate to work
+with all the controllers,
+
+215
+00:09:08,180 --> 00:09:10,270
+like the toe controller, for example,
+
+216
+00:09:10,270 --> 00:09:11,463
+to make the foot longer
+
+217
+00:09:11,463 --> 00:09:14,530
+as it's getting pulled from the ground.
+
+218
+00:09:14,530 --> 00:09:16,070
+The trajectory of the knee
+
+219
+00:09:16,070 --> 00:09:17,490
+will also be crucial,
+
+220
+00:09:17,490 --> 00:09:20,060
+so it's very important to track the arc
+
+221
+00:09:20,060 --> 00:09:22,520
+of the knee and from there,
+
+222
+00:09:22,520 --> 00:09:24,360
+build the shape of the leg.
+
+223
+00:09:24,360 --> 00:09:26,670
+Just think of the leg as a whip.
+
+224
+00:09:26,670 --> 00:09:29,360
+You want to create a nice curly shape
+
+225
+00:09:29,360 --> 00:09:30,940
+with the whole leg
+
+226
+00:09:30,940 --> 00:09:34,240
+that is going toward the kicking position.
+
+227
+00:09:34,240 --> 00:09:36,910
+Make sure that the foot orientation,
+
+228
+00:09:36,910 --> 00:09:40,700
+make it drags toward
+its previous position.
+
+229
+00:09:40,700 --> 00:09:44,660
+And take advantage again
+of all the controllers.
+
+230
+00:09:44,660 --> 00:09:46,990
+There are tweaker on the top of the toes,
+
+231
+00:09:46,990 --> 00:09:50,760
+so do not hesitate to
+make those toes dragging.
+
+232
+00:09:50,760 --> 00:09:53,240
+At this stage, it's not about animating
+
+233
+00:09:53,240 --> 00:09:55,460
+but really sculpting your pose.
+
+234
+00:09:55,460 --> 00:09:58,490
+There are only three
+frames of your character.
+
+235
+00:09:58,490 --> 00:10:00,040
+They must be perfect.
+
+236
+00:10:00,040 --> 00:10:01,740
+One tip to get this muscle shape
+
+237
+00:10:01,740 --> 00:10:04,370
+is to hide the heel of the character
+
+238
+00:10:04,370 --> 00:10:05,900
+from the camera point of view.
+
+239
+00:10:05,900 --> 00:10:09,720
+You can easily do this by
+using the ankle tweaker
+
+240
+00:10:09,720 --> 00:10:12,420
+instead of trying to rotate the foot.
+
+241
+00:10:12,420 --> 00:10:15,790
+I'm trying my best to get
+a smooth shape for the leg.
+
+242
+00:10:15,790 --> 00:10:19,790
+There are limitation due to
+the anatomy of the character
+
+243
+00:10:19,790 --> 00:10:22,780
+but also the resolution of his mesh
+
+244
+00:10:22,780 --> 00:10:25,270
+and the number of controllers in the rig.
+
+245
+00:10:25,270 --> 00:10:28,570
+On the frame, just after
+the contact with the bag,
+
+246
+00:10:28,570 --> 00:10:31,430
+I will scale on one axis the sheen
+
+247
+00:10:31,430 --> 00:10:33,110
+and the foot so that it feels
+
+248
+00:10:33,110 --> 00:10:35,490
+like they are squashing on the bag.
+
+249
+00:10:35,490 --> 00:10:37,700
+It's like creating an explosion.
+
+250
+00:10:37,700 --> 00:10:40,510
+You start with a thin shape
+
+251
+00:10:40,510 --> 00:10:42,312
+and then you make it very big.
+
+252
+00:10:42,312 --> 00:10:47,312
+And this visual pop will bring more impact
+
+253
+00:10:47,540 --> 00:10:49,080
+to your animation.
+
+254
+00:10:49,080 --> 00:10:51,960
+And this is exactly what
+we want for the kick.
+
+255
+00:10:51,960 --> 00:10:54,490
+When it's done over one frame like that,
+
+256
+00:10:54,490 --> 00:10:57,840
+it's barely viewable or noticeable
+
+257
+00:10:57,840 --> 00:10:59,390
+but it will feel for sure.
+
+258
+00:10:59,390 --> 00:11:01,670
+For this kind of shape,
+
+259
+00:11:01,670 --> 00:11:05,110
+I don't really have any rules to tell you
+
+260
+00:11:05,110 --> 00:11:06,940
+or to explain you.
+
+261
+00:11:06,940 --> 00:11:10,370
+What I do advise you is
+to search for references,
+
+262
+00:11:10,370 --> 00:11:12,610
+like in anime, for example,
+
+263
+00:11:12,610 --> 00:11:15,717
+where they do deform a lot the character
+
+264
+00:11:15,717 --> 00:11:19,250
+to get crazy perspective
+
+265
+00:11:19,250 --> 00:11:23,000
+or crazy impactful shapes like that.
+
+266
+00:11:23,000 --> 00:11:25,970
+You will also find this
+kind of crazy shape
+
+267
+00:11:25,970 --> 00:11:27,840
+in kids cartoon.
+
+268
+00:11:27,840 --> 00:11:32,000
+I think that's a very,
+very interesting source
+
+269
+00:11:32,000 --> 00:11:36,460
+of inspiration whenever it
+comes to stylized animation
+
+270
+00:11:36,460 --> 00:11:40,220
+because I guess that
+as the target are kids,
+
+271
+00:11:40,220 --> 00:11:43,010
+we consider that they are more fantasy
+
+272
+00:11:43,010 --> 00:11:45,960
+or more imagination than adults.
+
+273
+00:11:45,960 --> 00:11:50,090
+And so they would react
+positively to crazy shapes.
+
+274
+00:11:50,090 --> 00:11:53,650
+But in the end, if you
+input it in your animation
+
+275
+00:11:53,650 --> 00:11:55,180
+and it's subtle enough,
+
+276
+00:11:55,180 --> 00:11:58,360
+it will work for any
+public or any audience.
+
+277
+00:11:58,360 --> 00:12:01,840
+For the last step of this
+polishing stage on the left leg,
+
+278
+00:12:01,840 --> 00:12:04,340
+there is nothing we haven't seen already
+
+279
+00:12:04,340 --> 00:12:06,300
+or we haven't talked about
+
+280
+00:12:06,300 --> 00:12:08,810
+while working on the other foot.
+
+281
+00:12:08,810 --> 00:12:11,080
+So now we need to polish the hips,
+
+282
+00:12:11,080 --> 00:12:14,039
+the chest, neck, head and then the arms
+
+283
+00:12:14,039 --> 00:12:15,456
+of the character.
+

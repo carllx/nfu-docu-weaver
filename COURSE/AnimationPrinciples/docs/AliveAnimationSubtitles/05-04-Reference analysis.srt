@@ -1,0 +1,1082 @@
+﻿1
+00:00:00,810 --> 00:00:02,340
+- [Instructor] Before we start creating
+
+2
+00:00:02,340 --> 00:00:04,480
+our run cycle animation.
+
+3
+00:00:04,480 --> 00:00:07,370
+We need to study a bit some references.
+
+4
+00:00:07,370 --> 00:00:09,890
+You can easily find some breakdowns
+
+5
+00:00:09,890 --> 00:00:12,800
+of run cycle animation online
+
+6
+00:00:12,800 --> 00:00:16,410
+but it's always a good thing
+to study some references
+
+7
+00:00:16,410 --> 00:00:17,770
+to train your eyes,
+
+8
+00:00:17,770 --> 00:00:21,540
+to learn what to look for
+and to avoid mistakes.
+
+9
+00:00:21,540 --> 00:00:25,720
+While I will make a
+slightly stylized run cycle,
+
+10
+00:00:25,720 --> 00:00:27,810
+the physicality and principle
+
+11
+00:00:27,810 --> 00:00:31,440
+of a realistic run cycles still apply.
+
+12
+00:00:31,440 --> 00:00:35,490
+Only the rhythm and the
+amplitude or the exaggeration
+
+13
+00:00:35,490 --> 00:00:37,170
+will make the difference.
+
+14
+00:00:37,170 --> 00:00:40,520
+You will find the link to
+different reference videos,
+
+15
+00:00:40,520 --> 00:00:43,880
+I've picked on YouTube
+in the documentation.
+
+16
+00:00:43,880 --> 00:00:46,600
+I will use since sketch to currently study
+
+17
+00:00:46,600 --> 00:00:48,590
+the ones I'm showing you right now.
+
+18
+00:00:48,590 --> 00:00:50,150
+When working on the run cycle,
+
+19
+00:00:50,150 --> 00:00:52,570
+we will mainly focus on for poses.
+
+20
+00:00:52,570 --> 00:00:56,230
+So down or passing pose, the push,
+
+21
+00:00:56,230 --> 00:01:00,790
+the up pose and finally,
+the straight leg just before
+
+22
+00:01:00,790 --> 00:01:02,990
+the contact and the end of the cycle.
+
+23
+00:01:02,990 --> 00:01:05,460
+when working on the cycle analogies,
+
+24
+00:01:05,460 --> 00:01:09,690
+I advise you to focus on
+one feature at a time.
+
+25
+00:01:09,690 --> 00:01:11,580
+The first thing I will check here
+
+26
+00:01:11,580 --> 00:01:15,940
+is the shape of the spine and
+the overall line of action
+
+27
+00:01:15,940 --> 00:01:18,630
+between the contact
+pose and the down pose,
+
+28
+00:01:18,630 --> 00:01:21,530
+we can see how the whole characters spine
+
+29
+00:01:21,530 --> 00:01:26,490
+and line of action from the
+foot form some kind of S shape.
+
+30
+00:01:26,490 --> 00:01:27,670
+So from the front view,
+
+31
+00:01:27,670 --> 00:01:31,546
+if we isolate the spine from
+the hips and the shoulder,
+
+32
+00:01:31,546 --> 00:01:33,700
+it creates a C shape.
+
+33
+00:01:33,700 --> 00:01:35,400
+And from the side view,
+
+34
+00:01:35,400 --> 00:01:38,230
+it does create a C shape for what too,
+
+35
+00:01:38,230 --> 00:01:41,040
+during the down pose or passing pose,
+
+36
+00:01:41,040 --> 00:01:43,330
+the shape is almost the same,
+
+37
+00:01:43,330 --> 00:01:46,400
+but it's getting slightly straighter.
+
+38
+00:01:46,400 --> 00:01:50,070
+I think the pushing pose is
+one of the most iconic pose
+
+39
+00:01:50,070 --> 00:01:52,500
+during a run because the line of action
+
+40
+00:01:52,500 --> 00:01:54,500
+is super easy to read,
+
+41
+00:01:54,500 --> 00:01:58,450
+creating both from the side
+view and the front view,
+
+42
+00:01:58,450 --> 00:02:01,110
+a nice elongated arc.
+
+43
+00:02:01,110 --> 00:02:02,740
+During the up pose,
+
+44
+00:02:02,740 --> 00:02:05,290
+our character's spine from the front view
+
+45
+00:02:05,290 --> 00:02:07,270
+is almost straight
+
+46
+00:02:07,270 --> 00:02:09,620
+and from the side view while the character
+
+47
+00:02:09,620 --> 00:02:11,730
+is slightly leaning forward,
+
+48
+00:02:11,730 --> 00:02:14,970
+the spine is also looking a bit straight.
+
+49
+00:02:14,970 --> 00:02:18,130
+This is the time where we
+will be mirroring the cycle
+
+50
+00:02:18,130 --> 00:02:22,610
+in a way and shifting
+the shape of the torso
+
+51
+00:02:22,610 --> 00:02:23,903
+onto the other side.
+
+52
+00:02:24,770 --> 00:02:28,620
+One of the most important thing
+to get right when animating
+
+53
+00:02:28,620 --> 00:02:32,550
+a character is the relation
+between the shoulders
+
+54
+00:02:32,550 --> 00:02:33,840
+and the hips.
+
+55
+00:02:33,840 --> 00:02:35,900
+The thing you must keep in mind,
+
+56
+00:02:35,900 --> 00:02:39,270
+whenever you are posing
+the torso of your character
+
+57
+00:02:39,270 --> 00:02:42,710
+is counter posing or contra posto.
+
+58
+00:02:42,710 --> 00:02:46,640
+The human spine is a bull of a
+very little compression sense
+
+59
+00:02:46,640 --> 00:02:49,470
+to the discs we have between our bones.
+
+60
+00:02:49,470 --> 00:02:53,670
+And when aging those
+discs get a little stiffer
+
+61
+00:02:53,670 --> 00:02:54,950
+and a little smaller,
+
+62
+00:02:54,950 --> 00:02:58,040
+this is why when getting
+old you often lose
+
+63
+00:02:58,040 --> 00:02:59,590
+like one centimeter.
+
+64
+00:02:59,590 --> 00:03:00,423
+In this case,
+
+65
+00:03:00,423 --> 00:03:03,100
+you don't really need to
+think about the relationship
+
+66
+00:03:03,100 --> 00:03:05,740
+between your shoulder
+position and the hips.
+
+67
+00:03:05,740 --> 00:03:08,500
+But when you are leaning on a side,
+
+68
+00:03:08,500 --> 00:03:12,160
+you will generally
+compensate this rotation
+
+69
+00:03:12,160 --> 00:03:15,810
+by pushing onto your leg
+to support the weight
+
+70
+00:03:15,810 --> 00:03:17,290
+that has shifted.
+
+71
+00:03:17,290 --> 00:03:19,410
+As you trying to keep balance,
+
+72
+00:03:19,410 --> 00:03:22,370
+your hips will be raising upon the tool
+
+73
+00:03:22,370 --> 00:03:23,880
+of the lean shoulder.
+
+74
+00:03:23,880 --> 00:03:26,100
+So when you're posing your character,
+
+75
+00:03:26,100 --> 00:03:30,320
+always think of a V-shape
+formed by the plane
+
+76
+00:03:30,320 --> 00:03:33,660
+of the shoulders and
+the plane of the hips.
+
+77
+00:03:33,660 --> 00:03:34,493
+From the side view,
+
+78
+00:03:34,493 --> 00:03:37,170
+we will have exactly the same behavior.
+
+79
+00:03:37,170 --> 00:03:39,260
+If you lean forward to pick something
+
+80
+00:03:39,260 --> 00:03:41,290
+on the ground for example,
+
+81
+00:03:41,290 --> 00:03:44,310
+your hips will naturally
+rotate the opposite way
+
+82
+00:03:44,310 --> 00:03:46,160
+so that you keep balance.
+
+83
+00:03:46,160 --> 00:03:47,290
+Just make a test,
+
+84
+00:03:47,290 --> 00:03:50,610
+try bending forward and
+rotate your hips backwards,
+
+85
+00:03:50,610 --> 00:03:53,600
+you will have a very
+hard time keeping balance
+
+86
+00:03:53,600 --> 00:03:56,260
+and you will tend to
+move your whole body back
+
+87
+00:03:56,260 --> 00:03:59,540
+so that your feet are
+aligned with your neck.
+
+88
+00:03:59,540 --> 00:04:02,220
+So the relation between your shoulders,
+
+89
+00:04:02,220 --> 00:04:07,200
+your hips and your feet is
+always about keeping balance.
+
+90
+00:04:07,200 --> 00:04:11,060
+And counter posing also
+helps here during a twist.
+
+91
+00:04:11,060 --> 00:04:14,320
+If you twist your upper body right,
+
+92
+00:04:14,320 --> 00:04:17,450
+there are big chances that
+you will slightly compensate
+
+93
+00:04:17,450 --> 00:04:18,850
+with your hips.
+
+94
+00:04:18,850 --> 00:04:21,770
+So if we now get back to our references,
+
+95
+00:04:21,770 --> 00:04:23,900
+it will be kind of obvious.
+
+96
+00:04:23,900 --> 00:04:26,910
+When the left side of
+the hips of Usain Bolt
+
+97
+00:04:26,910 --> 00:04:29,090
+are twisted forward
+
+98
+00:04:29,090 --> 00:04:33,110
+his right shoulder is twisting
+forward to compensate.
+
+99
+00:04:33,110 --> 00:04:35,250
+And you can observe exactly the same thing
+
+100
+00:04:35,250 --> 00:04:36,363
+on the front view.
+
+101
+00:04:37,380 --> 00:04:39,170
+If we get a little further in the video,
+
+102
+00:04:39,170 --> 00:04:41,430
+we can clearly see this twisting
+
+103
+00:04:41,430 --> 00:04:44,300
+with the left shoulder forward while
+
+104
+00:04:44,300 --> 00:04:46,730
+the hips are twisting the opposite way.
+
+105
+00:04:46,730 --> 00:04:49,220
+If we have a look at some of the key poses
+
+106
+00:04:49,220 --> 00:04:50,880
+of our characters,
+
+107
+00:04:50,880 --> 00:04:54,010
+we will easily find our V-shapes during
+
+108
+00:04:55,023 --> 00:04:55,856
+the passing or down pose
+
+109
+00:04:55,856 --> 00:04:57,550
+all the weight is on one foot,
+
+110
+00:04:57,550 --> 00:04:59,600
+pushing the hips upward.
+
+111
+00:04:59,600 --> 00:05:03,140
+If you have a hard time
+distinguishing the hips
+
+112
+00:05:03,140 --> 00:05:06,020
+you can use the silhouette
+of the character.
+
+113
+00:05:06,020 --> 00:05:09,960
+So we can see the hips
+raising from left to right
+
+114
+00:05:09,960 --> 00:05:13,690
+and the shoulder leaning
+down from left to right.
+
+115
+00:05:13,690 --> 00:05:15,700
+During the up pose where both feet
+
+116
+00:05:15,700 --> 00:05:16,990
+are no longer on the ground,
+
+117
+00:05:16,990 --> 00:05:20,370
+we generally have almost a straight hips
+
+118
+00:05:20,370 --> 00:05:22,150
+and straight shoulders.
+
+119
+00:05:22,150 --> 00:05:24,870
+Some kind of parallel hips and shoulders,
+
+120
+00:05:24,870 --> 00:05:28,990
+since the body is no longer
+supporting any weight,
+
+121
+00:05:28,990 --> 00:05:33,400
+but prepare to transition
+into bending the other way.
+
+122
+00:05:33,400 --> 00:05:35,910
+But as we transitioned
+to the contact pose,
+
+123
+00:05:35,910 --> 00:05:39,224
+we can see the hips and
+shoulder counter posing again
+
+124
+00:05:39,224 --> 00:05:40,858
+into a V-shape.
+
+125
+00:05:40,858 --> 00:05:42,090
+And from there,
+
+126
+00:05:42,090 --> 00:05:45,240
+we'll be transitioning
+into a new passing pose
+
+127
+00:05:45,240 --> 00:05:48,310
+where the leg is pushing the hips upward
+
+128
+00:05:48,310 --> 00:05:50,623
+and the shoulders are compensating.
+
+129
+00:05:52,580 --> 00:05:53,780
+In the run cycle,
+
+130
+00:05:53,780 --> 00:05:56,940
+one of the most important
+thing is up and down
+
+131
+00:05:56,940 --> 00:05:58,780
+of the center of gravity.
+
+132
+00:05:58,780 --> 00:06:03,037
+But the most common mistake
+I see on beginners run cycle
+
+133
+00:06:03,037 --> 00:06:05,190
+are the left to right motion.
+
+134
+00:06:05,190 --> 00:06:07,880
+The first very important
+thing to think about
+
+135
+00:06:07,880 --> 00:06:12,180
+is that the faster you run,
+the less left to right motion
+
+136
+00:06:12,180 --> 00:06:13,200
+you will have.
+
+137
+00:06:13,200 --> 00:06:17,400
+And this is why run cycles
+are easier than walk cycle
+
+138
+00:06:17,400 --> 00:06:20,440
+is that you don't have
+to think that much about
+
+139
+00:06:20,440 --> 00:06:22,870
+the weight shifting from left to right,
+
+140
+00:06:22,870 --> 00:06:25,630
+but there is still a bit of it.
+
+141
+00:06:25,630 --> 00:06:30,050
+The side to side motion
+will reach its extreme
+
+142
+00:06:30,050 --> 00:06:32,960
+a bit after the contact pose.
+
+143
+00:06:32,960 --> 00:06:37,070
+When the athlete is
+pushing on his leg to jump,
+
+144
+00:06:37,070 --> 00:06:40,950
+his leg is pushing on
+the opposite direction.
+
+145
+00:06:40,950 --> 00:06:43,430
+So when pushing on the right leg,
+
+146
+00:06:43,430 --> 00:06:46,780
+his body is translating to the left
+
+147
+00:06:46,780 --> 00:06:51,620
+and it will take a couple of
+frame after the contact pose
+
+148
+00:06:51,620 --> 00:06:55,860
+for the body to absorb this translation
+
+149
+00:06:55,860 --> 00:06:58,380
+and then go back into a pushing pose
+
+150
+00:06:58,380 --> 00:07:01,410
+that will push the body the opposite way.
+
+151
+00:07:01,410 --> 00:07:03,860
+And it's gonna be a bit
+of the same regarding
+
+152
+00:07:03,860 --> 00:07:04,980
+the up and down.
+
+153
+00:07:04,980 --> 00:07:08,450
+While it's pretty easy to spot the up pose
+
+154
+00:07:08,450 --> 00:07:10,310
+when the character is air bound
+
+155
+00:07:10,310 --> 00:07:13,640
+the down pose doesn't occur
+whenever the character
+
+156
+00:07:13,640 --> 00:07:15,680
+is contacting with the
+ground but a few frame after,
+
+157
+00:07:15,680 --> 00:07:20,680
+because again that the body
+needs some time to compensate
+
+158
+00:07:22,060 --> 00:07:23,853
+the weight and the momentum.
+
+159
+00:07:25,310 --> 00:07:28,800
+The relationship between
+the hands and the legs
+
+160
+00:07:28,800 --> 00:07:30,820
+is not that complicated.
+
+161
+00:07:30,820 --> 00:07:32,960
+As for the hips and the shoulder,
+
+162
+00:07:32,960 --> 00:07:35,240
+they behave the opposite way,
+
+163
+00:07:35,240 --> 00:07:37,610
+when the right leg is moving forward,
+
+164
+00:07:37,610 --> 00:07:39,850
+the left hand is moving forward.
+
+165
+00:07:39,850 --> 00:07:41,910
+When the right hand is back,
+
+166
+00:07:41,910 --> 00:07:43,800
+the left foot is back
+
+167
+00:07:43,800 --> 00:07:46,810
+and we will find the same kind of behavior
+
+168
+00:07:46,810 --> 00:07:48,740
+during a walk cycle.
+
+169
+00:07:48,740 --> 00:07:53,290
+But there is a subtle but
+very important difference.
+
+170
+00:07:53,290 --> 00:07:57,440
+In the run cycle hands are
+not reacting to the motion,
+
+171
+00:07:57,440 --> 00:07:59,410
+but they are leading the motion.
+
+172
+00:07:59,410 --> 00:08:02,170
+If we track the left hand of Usain Bolt
+
+173
+00:08:02,170 --> 00:08:06,590
+we can see that it reaches
+its extreme forward pose
+
+174
+00:08:06,590 --> 00:08:10,030
+or upward pose before the right foot.
+
+175
+00:08:10,030 --> 00:08:14,370
+And as the foot reaches
+its extreme forward pose,
+
+176
+00:08:14,370 --> 00:08:19,280
+the left fist has already
+started swinging backward.
+
+177
+00:08:19,280 --> 00:08:20,870
+So during the forward motion,
+
+178
+00:08:20,870 --> 00:08:25,860
+the fist arrives first and
+pulls the body up and forward.
+
+179
+00:08:25,860 --> 00:08:28,690
+And then it swings backward
+
+180
+00:08:28,690 --> 00:08:32,330
+so that the left hand can arrive first
+
+181
+00:08:32,330 --> 00:08:34,200
+compared that to the left hand.
+
+182
+00:08:34,200 --> 00:08:36,830
+And when we hit the passing pose,
+
+183
+00:08:36,830 --> 00:08:41,240
+we can see that the left hand
+is already a bit backward
+
+184
+00:08:41,240 --> 00:08:43,710
+compared to the right foot.
+
+185
+00:08:43,710 --> 00:08:45,640
+And this is why sprint athletes tend
+
+186
+00:08:45,640 --> 00:08:48,420
+to have a very muscular upper body.
+
+187
+00:08:48,420 --> 00:08:51,390
+It allows them to
+generate a lot of momentum
+
+188
+00:08:51,390 --> 00:08:55,310
+and energy using their arms
+to pull their whole body.
+
+189
+00:08:55,310 --> 00:08:56,143
+Again here,
+
+190
+00:08:56,143 --> 00:08:59,210
+we can see the left fist moving forward
+
+191
+00:08:59,210 --> 00:09:02,560
+while the right leg is still dragging back
+
+192
+00:09:02,560 --> 00:09:04,940
+and now the leg is catching up.
+
+193
+00:09:04,940 --> 00:09:08,800
+So you need to remember that
+to get a believable run cycle,
+
+194
+00:09:08,800 --> 00:09:11,979
+whether it's stylized or not.
+
+195
+00:09:11,979 --> 00:09:14,310
+Arms are leading the motion,
+
+196
+00:09:14,310 --> 00:09:17,430
+shoulder and hands are leading the motion.
+
+197
+00:09:17,430 --> 00:09:18,483
+To wrap up this video,
+
+198
+00:09:18,483 --> 00:09:22,140
+we will have a quick look
+to the arc made by the legs.
+
+199
+00:09:22,140 --> 00:09:24,842
+Here, I've traced the left leg motion,
+
+200
+00:09:24,842 --> 00:09:27,600
+which using a sprint
+athlete as a reference
+
+201
+00:09:27,600 --> 00:09:29,960
+can be a little misleading depending
+
+202
+00:09:29,960 --> 00:09:33,080
+on what kind of front
+cycle you want to do.
+
+203
+00:09:33,080 --> 00:09:35,440
+If you're an average person like me,
+
+204
+00:09:35,440 --> 00:09:38,090
+there is very little
+chance that when you run,
+
+205
+00:09:38,090 --> 00:09:40,200
+you hit this kind of pose.
+
+206
+00:09:40,200 --> 00:09:43,730
+So never forget that when
+you are studying references,
+
+207
+00:09:43,730 --> 00:09:46,000
+put them in their context.
+
+208
+00:09:46,000 --> 00:09:47,610
+What are you looking at?
+
+209
+00:09:47,610 --> 00:09:50,850
+So in the context of the
+more classic run cycle,
+
+210
+00:09:50,850 --> 00:09:53,230
+even if it is a bit athletic,
+
+211
+00:09:53,230 --> 00:09:56,840
+your motion path will
+mostly looks like that.
+
+212
+00:09:56,840 --> 00:09:58,870
+We can also see that those athletes
+
+213
+00:09:58,870 --> 00:10:00,600
+are very light on their feet,
+
+214
+00:10:00,600 --> 00:10:03,900
+mostly running on the tip of their feet
+
+215
+00:10:03,900 --> 00:10:05,965
+while we may furtherize a rolling foot
+
+216
+00:10:05,965 --> 00:10:10,965
+from the heel to the tip when
+we will do our own cycle.
+
+217
+00:10:10,970 --> 00:10:15,040
+It will be also important to
+study the shape of the arm.
+
+218
+00:10:15,040 --> 00:10:17,370
+Look at when it reaches the back,
+
+219
+00:10:17,370 --> 00:10:21,510
+it's mostly angled and
+then it gets straight
+
+220
+00:10:21,510 --> 00:10:23,360
+during the passing pose.
+
+221
+00:10:23,360 --> 00:10:28,360
+And then it gets very angled
+when reaching its higher pose.
+
+222
+00:10:28,680 --> 00:10:31,640
+We've the elbow leading the motion,
+
+223
+00:10:31,640 --> 00:10:36,600
+meaning that the elbow
+will reach its extreme pose
+
+224
+00:10:36,600 --> 00:10:40,150
+a little before the hand, maybe one frame.
+
+225
+00:10:40,150 --> 00:10:43,230
+Since we will be using forward kinematics
+
+226
+00:10:43,230 --> 00:10:44,850
+to animate the arms,
+
+227
+00:10:44,850 --> 00:10:48,580
+we don't really need to track
+the arc on the reference.
+
+228
+00:10:48,580 --> 00:10:49,940
+You can do it,
+
+229
+00:10:49,940 --> 00:10:54,220
+but I believe that the
+pose is more important.
+
+230
+00:10:54,220 --> 00:10:57,410
+A final thought is the
+position of the foot
+
+231
+00:10:57,410 --> 00:10:58,850
+when landing on the ground.
+
+232
+00:10:58,850 --> 00:11:01,820
+You can see on the right reference that
+
+233
+00:11:01,820 --> 00:11:05,900
+the foot will be slightly
+shifting to the inside
+
+234
+00:11:05,900 --> 00:11:07,690
+when hitting the ground.
+
+235
+00:11:07,690 --> 00:11:11,650
+These are little details
+that can make your run cycle
+
+236
+00:11:11,650 --> 00:11:14,520
+way more believable or interesting.
+
+237
+00:11:14,520 --> 00:11:18,070
+Also you should avoid
+to make a straight line
+
+238
+00:11:18,070 --> 00:11:19,740
+with the foot motion.
+
+239
+00:11:19,740 --> 00:11:23,290
+You should make a slight
+left to right arch
+
+240
+00:11:23,290 --> 00:11:25,020
+during the passing pose,
+
+241
+00:11:25,020 --> 00:11:28,660
+where the foot we get to
+the side during the passing
+
+242
+00:11:28,660 --> 00:11:33,110
+and get a little centered
+during the contact frame.
+
+243
+00:11:33,110 --> 00:11:36,220
+We could analyze those reference forever.
+
+244
+00:11:36,220 --> 00:11:38,300
+So what we will do is that we will jump
+
+245
+00:11:38,300 --> 00:11:41,610
+into the blocking of our run cycle
+
+246
+00:11:41,610 --> 00:11:42,950
+and for each pose,
+
+247
+00:11:42,950 --> 00:11:46,723
+we will try to think
+about all those details.
+

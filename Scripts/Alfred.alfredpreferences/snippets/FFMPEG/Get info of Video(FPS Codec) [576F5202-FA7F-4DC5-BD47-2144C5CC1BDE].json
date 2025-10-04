@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "video_file=\"{clipboard}\"\n\nfps=$(ffprobe -v error -select_streams v:0 -show_entries stream=avg_frame_rate -of default=noprint_wrappers=1:nokey=1 \"$video_file\")\n# get fps\nfps=$(ffprobe -v error -select_streams v:0 -show_entries stream=avg_frame_rate -of default=noprint_wrappers=1:nokey=1 \"$video_file\")\nfps_num=${fps%\/*}\nfps_den=${fps#*\/}\nfps=$(($fps_num \/ $fps_den))\n\n# get codec\ncodec=$(ffprobe -v error -select_streams v:0 -show_entries stream=codec_name -of default=noprint_wrappers=1:nokey=1 \"$video_file\")\n\n# get resolution\nwidth=$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=noprint_wrappers=1:nokey=1 \"$video_file\")\nheight=$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=noprint_wrappers=1:nokey=1 \"$video_file\")\nresolution=\"$width\"\"x$height\"\n\n# get bit_rate in bps\nbit_rate=$(ffprobe -v error -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 \"$video_file\")\n# convert bit_rate to Mbps\nbit_rate_mbps=$(echo \"scale=2; $bit_rate \/ 1000000\" | bc)\n\n# show bitrate with unit Mbps\necho \"bit_rate: $bit_rate_mbps Mbps\"\necho \"fps: $fps\"\necho \"codec: $codec\" \necho \"resolution: $resolution\"",
+    "uid" : "576F5202-FA7F-4DC5-BD47-2144C5CC1BDE",
+    "name" : "Get info of Video(FPS, Codec)",
+    "keyword" : "info"
+  }
+}

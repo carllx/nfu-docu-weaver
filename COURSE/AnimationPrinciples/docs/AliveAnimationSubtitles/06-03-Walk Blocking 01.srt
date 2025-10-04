@@ -1,0 +1,694 @@
+﻿1
+00:00:00,830 --> 00:00:04,230
+- Let's start the blocking
+of our walk cycle.
+
+2
+00:00:04,230 --> 00:00:07,860
+I will start where I've
+left in the last chapter
+
+3
+00:00:07,860 --> 00:00:10,220
+and I will create a new action.
+
+4
+00:00:10,220 --> 00:00:12,750
+So, I will go into Pose mode,
+
+5
+00:00:12,750 --> 00:00:14,200
+select my character,
+
+6
+00:00:14,200 --> 00:00:18,610
+and press this icon to
+duplicate the run cycle.
+
+7
+00:00:18,610 --> 00:00:22,090
+From there, I can rename it
+and click the shield icon
+
+8
+00:00:22,090 --> 00:00:24,960
+to make sure I won't lose this data
+
+9
+00:00:24,960 --> 00:00:26,880
+whenever I restart Blender.
+
+10
+00:00:26,880 --> 00:00:29,270
+Now I will select all the key frames
+
+11
+00:00:29,270 --> 00:00:31,050
+but the one on frame zero
+
+12
+00:00:31,050 --> 00:00:33,440
+and I will press X to delete them.
+
+13
+00:00:33,440 --> 00:00:36,660
+Now we need to make sure
+that we have clean channels.
+
+14
+00:00:36,660 --> 00:00:39,910
+Since we have worked in the
+graph editor on many curves,
+
+15
+00:00:39,910 --> 00:00:43,290
+I need to make sure that
+I reset those curves.
+
+16
+00:00:43,290 --> 00:00:44,810
+In my action editor,
+
+17
+00:00:44,810 --> 00:00:48,760
+I will press Control+Tab to
+switch to the graph editor,
+
+18
+00:00:48,760 --> 00:00:51,380
+and enable "show hidden."
+
+19
+00:00:51,380 --> 00:00:54,090
+I will then press Alt+H to make sure
+
+20
+00:00:54,090 --> 00:00:56,744
+that I reveal all the curves.
+
+21
+00:00:56,744 --> 00:00:59,520
+And from there, I will
+press A to select them all,
+
+22
+00:00:59,520 --> 00:01:03,240
+press the T key and switch
+everything to Bezier.
+
+23
+00:01:03,240 --> 00:01:05,010
+Then I will press the V key
+
+24
+00:01:05,010 --> 00:01:07,410
+and switch everything to Autoclamp.
+
+25
+00:01:07,410 --> 00:01:09,660
+Now, everything is reset.
+
+26
+00:01:09,660 --> 00:01:11,950
+If you have a look to the key frames,
+
+27
+00:01:11,950 --> 00:01:14,570
+we can see that they have a round shape,
+
+28
+00:01:14,570 --> 00:01:17,203
+meaning that they are
+all set to Autoclamp.
+
+29
+00:01:18,430 --> 00:01:20,490
+If I switched to Vector, for example,
+
+30
+00:01:20,490 --> 00:01:22,070
+they become square.
+
+31
+00:01:22,070 --> 00:01:23,510
+If I switch to Align,
+
+32
+00:01:23,510 --> 00:01:26,950
+they will have this kind of diamond shape.
+
+33
+00:01:26,950 --> 00:01:30,290
+Now, we need to reset
+the pose of our character
+
+34
+00:01:30,290 --> 00:01:32,150
+before we start working.
+
+35
+00:01:32,150 --> 00:01:33,323
+So, I will make sure
+
+36
+00:01:33,323 --> 00:01:36,960
+that I have all my controllers available.
+
+37
+00:01:36,960 --> 00:01:40,050
+And as you can see
+here, my UI didn't load,
+
+38
+00:01:40,050 --> 00:01:43,220
+So what I will do is open the text editor
+
+39
+00:01:43,220 --> 00:01:45,950
+and with trident rig script selected,
+
+40
+00:01:45,950 --> 00:01:47,760
+I will press the play button.
+
+41
+00:01:47,760 --> 00:01:49,290
+Now to make sure that
+
+42
+00:01:49,290 --> 00:01:52,620
+it automatically play
+whenever I reload the file,
+
+43
+00:01:52,620 --> 00:01:56,160
+I will go to Text, and enable Registered.
+
+44
+00:01:56,160 --> 00:01:57,730
+From there, in the rig UI,
+
+45
+00:01:57,730 --> 00:02:02,730
+I will enable all the layers
+and press A in the 3D view
+
+46
+00:02:03,120 --> 00:02:05,870
+to select all my controllers.
+
+47
+00:02:05,870 --> 00:02:10,690
+And I will press Alt+R, Alt+G and Alt+S
+
+48
+00:02:10,690 --> 00:02:14,180
+to reset the rotation scale and location
+
+49
+00:02:14,180 --> 00:02:16,110
+of all the controllers.
+
+50
+00:02:16,110 --> 00:02:17,480
+Once I'm done with that,
+
+51
+00:02:17,480 --> 00:02:20,070
+I can hide the controller
+we won't be using.
+
+52
+00:02:20,070 --> 00:02:21,760
+So we can hide the root,
+
+53
+00:02:21,760 --> 00:02:23,960
+the torso tweak from the time being,
+
+54
+00:02:23,960 --> 00:02:25,620
+all the face controller,
+
+55
+00:02:25,620 --> 00:02:29,170
+keep the leg I-case,
+keep the arm eighth-case.
+
+56
+00:02:29,170 --> 00:02:32,250
+While we will be using
+them, we can hide the hands.
+
+57
+00:02:32,250 --> 00:02:36,000
+And we will hide every
+weapons controllers.
+
+58
+00:02:36,000 --> 00:02:37,330
+I will just rotate a bit
+
+59
+00:02:37,330 --> 00:02:39,330
+the arm of the characters so that he looks
+
+60
+00:02:39,330 --> 00:02:42,150
+a bit more relaxed and we can get started.
+
+61
+00:02:42,150 --> 00:02:45,700
+The first pose we are going
+to build is the contact pose.
+
+62
+00:02:45,700 --> 00:02:47,900
+Let's have a quick look to the references
+
+63
+00:02:47,900 --> 00:02:51,220
+to spot the key features of this pose.
+
+64
+00:02:51,220 --> 00:02:54,590
+This is the moment where both
+feet are contacting the ground
+
+65
+00:02:54,590 --> 00:02:58,160
+and are further away, one from the other.
+
+66
+00:02:58,160 --> 00:03:00,050
+Both are on the extreme.
+
+67
+00:03:00,050 --> 00:03:02,580
+One on the heel, one on the toes.
+
+68
+00:03:02,580 --> 00:03:05,520
+The hips are slightly tilted up
+
+69
+00:03:05,520 --> 00:03:08,020
+from the back leg that is pushing.
+
+70
+00:03:08,020 --> 00:03:11,040
+The chest is slightly tilting the same way
+
+71
+00:03:11,040 --> 00:03:13,660
+as it is transitioning into the next pose
+
+72
+00:03:13,660 --> 00:03:15,920
+where we will have the contrapposto.
+
+73
+00:03:15,920 --> 00:03:17,940
+But it's twisted the opposite way
+
+74
+00:03:17,940 --> 00:03:20,560
+compared to the hips toward the front arm.
+
+75
+00:03:20,560 --> 00:03:22,520
+Toward the front arm,
+
+76
+00:03:22,520 --> 00:03:25,740
+the center of gravity is almost centered,
+
+77
+00:03:25,740 --> 00:03:29,620
+but it's a bit favorizing the back foot.
+
+78
+00:03:29,620 --> 00:03:33,170
+Note that the reference on
+the right is showing someone
+
+79
+00:03:33,170 --> 00:03:34,860
+with an athletic walk,
+
+80
+00:03:34,860 --> 00:03:38,510
+so the arm swing motion is a bit extreme.
+
+81
+00:03:38,510 --> 00:03:42,270
+We will keep our walk cycle
+a little more relaxed,
+
+82
+00:03:42,270 --> 00:03:43,970
+with less amplitude.
+
+83
+00:03:43,970 --> 00:03:47,670
+We will start our first
+pose by posing the feet.
+
+84
+00:03:47,670 --> 00:03:49,100
+You may choose to push
+
+85
+00:03:49,100 --> 00:03:51,480
+whether the left or right foot forward
+
+86
+00:03:51,480 --> 00:03:53,240
+and the other one backward.
+
+87
+00:03:53,240 --> 00:03:56,090
+Then we can use the role controller
+
+88
+00:03:56,090 --> 00:03:59,020
+to raise the toes for the front leg
+
+89
+00:03:59,020 --> 00:04:01,680
+and raise the heel for the back leg.
+
+90
+00:04:01,680 --> 00:04:04,110
+I will lower a bit the center of gravity
+
+91
+00:04:04,110 --> 00:04:07,000
+to make sure that the
+legs are not stretching.
+
+92
+00:04:07,000 --> 00:04:10,440
+Don't forget to pose the
+toes on the front foot
+
+93
+00:04:10,440 --> 00:04:13,680
+as they are dragging a bit
+before they contact the ground.
+
+94
+00:04:13,680 --> 00:04:15,610
+On this walk cycle animation,
+
+95
+00:04:15,610 --> 00:04:18,270
+I will try not to rotate on the side
+
+96
+00:04:18,270 --> 00:04:21,160
+or twist the torso root controller.
+
+97
+00:04:21,160 --> 00:04:23,260
+I will slightly rotate it forward
+
+98
+00:04:23,260 --> 00:04:26,980
+to give a more dynamic
+pose to our character.
+
+99
+00:04:26,980 --> 00:04:31,340
+But we will mainly use
+this root torso controller
+
+100
+00:04:31,340 --> 00:04:34,840
+for the up-and-down and
+side-to-side motion.
+
+101
+00:04:34,840 --> 00:04:38,540
+I have twisted the hips
+toward the front foot
+
+102
+00:04:38,540 --> 00:04:42,260
+and I'm twisting the chest
+toward the front arm.
+
+103
+00:04:42,260 --> 00:04:45,710
+Remember to pose the arms
+the opposite way as the foot.
+
+104
+00:04:45,710 --> 00:04:49,620
+When the left foot is forward,
+the right arm is forward.
+
+105
+00:04:49,620 --> 00:04:53,070
+Also remember that your
+elbow is supposed to rotate
+
+106
+00:04:53,070 --> 00:04:55,410
+only on its local Z axis.
+
+107
+00:04:55,410 --> 00:04:59,470
+You can't rotate your
+elbow around multiple axes.
+
+108
+00:04:59,470 --> 00:05:01,790
+So when it comes to posing the arm,
+
+109
+00:05:01,790 --> 00:05:06,330
+I mainly use the arm controller
+to orientate the arm.
+
+110
+00:05:06,330 --> 00:05:08,440
+Another thing to double check so that
+
+111
+00:05:08,440 --> 00:05:12,030
+we don't get the same problem
+as during the run cycle
+
+112
+00:05:12,030 --> 00:05:15,230
+is to make sure that
+both the neck and head
+
+113
+00:05:15,230 --> 00:05:17,670
+have their rotation fully disabled.
+
+114
+00:05:17,670 --> 00:05:20,070
+As usual, I'm showing the final pose
+
+115
+00:05:20,070 --> 00:05:22,300
+we are supposed to reach.
+
+116
+00:05:22,300 --> 00:05:25,630
+Don't forget to slightly shift
+the weight of the character
+
+117
+00:05:25,630 --> 00:05:30,070
+on its back leg by selecting
+the torso root controller
+
+118
+00:05:30,070 --> 00:05:33,150
+and slightly move it on the X axis.
+
+119
+00:05:33,150 --> 00:05:36,460
+Left to right motion
+will be more pronounced
+
+120
+00:05:36,460 --> 00:05:39,490
+on the walk cycle than on the run cycle.
+
+121
+00:05:39,490 --> 00:05:41,950
+Here you can see me
+fighting a bit with the pose
+
+122
+00:05:41,950 --> 00:05:43,480
+of the hips and the chest
+
+123
+00:05:43,480 --> 00:05:46,080
+because I wasn't looking at the reference.
+
+124
+00:05:46,080 --> 00:05:49,230
+So I was trying to set a contrapposto
+
+125
+00:05:49,230 --> 00:05:52,190
+while the chest should
+be almost horizontal.
+
+126
+00:05:52,190 --> 00:05:54,710
+The only contrapposto that occur
+
+127
+00:05:54,710 --> 00:05:56,160
+is the twisting.
+
+128
+00:05:56,160 --> 00:05:57,260
+I'm tweaking the pose
+
+129
+00:05:57,260 --> 00:06:00,240
+to make sure that my
+character look balanced.
+
+130
+00:06:00,240 --> 00:06:02,670
+Take the time to properly
+refine this pose,
+
+131
+00:06:02,670 --> 00:06:04,950
+because this is the
+one we are going to use
+
+132
+00:06:04,950 --> 00:06:06,950
+to build the other ones.
+
+133
+00:06:06,950 --> 00:06:10,680
+And it will communicate a
+lot about your character.
+
+134
+00:06:10,680 --> 00:06:13,720
+From there, I will
+re-enable the hand layer
+
+135
+00:06:13,720 --> 00:06:16,200
+and I will slightly pose the hands.
+
+136
+00:06:16,200 --> 00:06:20,120
+So I will build a default
+pose on one of the hand,
+
+137
+00:06:20,120 --> 00:06:24,680
+by slightly curving the palm
+controller and each finger
+
+138
+00:06:24,680 --> 00:06:28,030
+to make the hand pose a bit more relaxed.
+
+139
+00:06:28,030 --> 00:06:31,230
+Then I will select all
+the left hand controllers.
+
+140
+00:06:31,230 --> 00:06:33,150
+Press Control+C to copy the pose
+
+141
+00:06:33,150 --> 00:06:35,850
+and Control+Shift+V to paste it,
+
+142
+00:06:35,850 --> 00:06:37,840
+mirrored on the other side.
+
+143
+00:06:37,840 --> 00:06:41,030
+So as I explained before,
+after watching my references
+
+144
+00:06:41,030 --> 00:06:45,320
+I've decided to slightly
+realign the chest,
+
+145
+00:06:45,320 --> 00:06:47,680
+to have my shoulders more into
+
+146
+00:06:47,680 --> 00:06:50,750
+an horizontal line as on the reference.
+
+147
+00:06:50,750 --> 00:06:53,440
+Don't forget to double
+check the arm position,
+
+148
+00:06:53,440 --> 00:06:56,140
+the hands position, using the reference,
+
+149
+00:06:56,140 --> 00:06:59,610
+as this is the extreme pose for both arms.
+
+150
+00:06:59,610 --> 00:07:03,790
+Then you can push a little bit
+the feet toward the inside.
+
+151
+00:07:03,790 --> 00:07:07,340
+It will look a little more
+natural and less robotic.
+
+152
+00:07:07,340 --> 00:07:10,230
+The more you push the
+feet toward the inside
+
+153
+00:07:10,230 --> 00:07:13,230
+on a central line, the more feminine.
+
+154
+00:07:13,230 --> 00:07:18,230
+So if you were to animate
+a stereotyped sexy woman,
+
+155
+00:07:18,240 --> 00:07:22,210
+you would push the feet
+toward a central line.
+
+156
+00:07:22,210 --> 00:07:26,170
+This is the kind of pose you
+will see in a fashion show.
+
+157
+00:07:26,170 --> 00:07:28,360
+But it doesn't really fit our character
+
+158
+00:07:28,360 --> 00:07:31,933
+so let's cancel this and
+jump into the next video.
+

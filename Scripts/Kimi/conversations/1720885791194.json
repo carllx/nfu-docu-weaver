@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cq9a4p6768j16cl5bbng",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "#kimi",
+                "anatomy education",
+                "augmented reality",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "mixed reality",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education",
+                "virtual reality"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n引用分组:\n请对本文引用部分按照作者的思路进行重新分组, 便于理解和比较不同引用在本文中的作用。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "根据您提供的文件内容，我们可以将引用分组为以下几个类别，以便于理解和比较不同引用在本文中的作用：\n\n### 1. 虚拟和增强现实技术在医学教育中的应用概述\n- Birt et al., 2018; Moro et al., 2017; Kuehn, 2018\n\n### 2. 解剖学教育中三维空间理解的重要性\n- Pandey and Zimitat, 2007; Gonzales et al., 2020\n\n### 3. 传统教学方法与技术增强资源的比较\n- Estai and Bunt, 2016; Moro et al., 2020c\n\n### 4. 虚拟和增强现实技术对学习成效的影响评估\n- Bork et al., 2019; Cao and Cerfolio, 2019; Elmqaddem, 2019\n\n### 5. 教育实践中对新技术的采纳与挑战\n- Liu et al., 2020; Losco et al., 2017; Boyles, 2017\n\n### 6. 系统评价和元分析方法论\n- Higgins et al., 2019; Moher et al., 2009\n\n### 7. 特定研究中虚拟和增强现实使用的案例\n- Albrecht et al., 2013; Barmaki et al., 2019; Ekstrand et al., 2018; Küçük et al., 2016; Maresky et al., 2019; Moro et al., 2017; Noll et al., 2017; Stepan et al., 2017\n\n### 8. 教育技术研究方法和理论框架\n- Reeves, 1995, 2004, 2015; McKenney and Reeves, 2019\n\n### 9. 其他相关研究和文献\n这个分组包括其他所有未在上述分组中提及的引用。\n\n通过以上分组，我们能够更清晰地看到Moro et al., 2021在研究中引用了哪些文献来支持其研究假设、方法论以及结论，并比较不同文献对于研究的贡献和作用。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n引用分组:\n请对本",
+    "group_id": "cq9a4p4dvon9sdj06990",
+    "req_id": "cq9a4p4dvon9sdj0699g",
+    "resp_id": "cq9a4p4dvon9sdj069a0",
+    "quection": "引用分组:\n请对本文引用部分按照作者的思路进行重新分组, 便于理解和比较不同引用在本文中的作用。"
+}

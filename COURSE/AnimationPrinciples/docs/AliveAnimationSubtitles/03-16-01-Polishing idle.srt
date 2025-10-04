@@ -1,0 +1,2464 @@
+﻿1
+00:00:00,750 --> 00:00:03,520
+- [Instructor] It's time
+to finally start polishing
+
+2
+00:00:03,520 --> 00:00:06,400
+our squirrel idle animation.
+
+3
+00:00:06,400 --> 00:00:08,060
+It will be kind of similar
+
+4
+00:00:08,060 --> 00:00:11,710
+as when we have been
+polishing the run cycle.
+
+5
+00:00:11,710 --> 00:00:14,820
+We will start with the
+most influential controller
+
+6
+00:00:14,820 --> 00:00:19,310
+of our character like the
+torso or the body controller,
+
+7
+00:00:19,310 --> 00:00:22,390
+then polish the contact paws, the feet
+
+8
+00:00:22,390 --> 00:00:24,360
+and then all secondary motion
+
+9
+00:00:24,360 --> 00:00:27,460
+and follow through like
+the tail and the face.
+
+10
+00:00:27,460 --> 00:00:29,980
+You can choose whether to polish fully
+
+11
+00:00:29,980 --> 00:00:32,290
+each controller one by one
+
+12
+00:00:32,290 --> 00:00:35,860
+but when I work on long
+sequences like that
+
+13
+00:00:35,860 --> 00:00:38,480
+I prefer to work by chunk,
+
+14
+00:00:38,480 --> 00:00:42,690
+like working on the first
+two paws and polish them
+
+15
+00:00:42,690 --> 00:00:45,220
+and then go to the paws three and four
+
+16
+00:00:45,220 --> 00:00:47,180
+and polish them, et cetera.
+
+17
+00:00:47,180 --> 00:00:50,240
+I think it's a little more motivating
+
+18
+00:00:50,240 --> 00:00:51,870
+when you do this by chunk
+
+19
+00:00:51,870 --> 00:00:53,990
+because doing a long shot like that
+
+20
+00:00:53,990 --> 00:00:56,350
+and polishing only one controller
+
+21
+00:00:56,350 --> 00:00:58,850
+will show results only on the long-term
+
+22
+00:00:58,850 --> 00:01:02,350
+and sometime it can be
+hard to stay motivated.
+
+23
+00:01:02,350 --> 00:01:05,510
+But this is really a
+matter of personal choice
+
+24
+00:01:05,510 --> 00:01:08,970
+so you can work the
+whole animation at once
+
+25
+00:01:08,970 --> 00:01:12,470
+focusing first on the
+torso and then the legs,
+
+26
+00:01:12,470 --> 00:01:14,750
+and then all the secondary motion
+
+27
+00:01:14,750 --> 00:01:19,555
+or do as I will polishing
+each segment of the animation.
+
+28
+00:01:19,555 --> 00:01:20,388
+(air whooshing)
+
+29
+00:01:20,388 --> 00:01:21,800
+Just a big warning in here
+
+30
+00:01:21,800 --> 00:01:25,680
+I selected all the key frame
+and switch them to busy.
+
+31
+00:01:25,680 --> 00:01:28,670
+And this is a mistake since my root motion
+
+32
+00:01:28,670 --> 00:01:31,740
+is supposed to use a linear interpolation.
+
+33
+00:01:31,740 --> 00:01:35,200
+This is not a big deal, but
+it leads to some mistakes
+
+34
+00:01:35,200 --> 00:01:39,790
+into my transition between the
+run cycle and the idle pose,
+
+35
+00:01:39,790 --> 00:01:42,620
+so make sure you select
+your root controller
+
+36
+00:01:42,620 --> 00:01:44,780
+and press T and switch it back
+
+37
+00:01:44,780 --> 00:01:47,010
+to linear before going further.
+
+38
+00:01:47,010 --> 00:01:48,500
+When I play the animation
+
+39
+00:01:48,500 --> 00:01:52,370
+it doesn't look that bad when
+we switch to spline mode.
+
+40
+00:01:52,370 --> 00:01:56,020
+And this is because we have
+detailed a lot our blocking.
+
+41
+00:01:56,020 --> 00:01:58,870
+But there is definitely
+something weird happening
+
+42
+00:01:58,870 --> 00:02:00,690
+about the head rotation.
+
+43
+00:02:00,690 --> 00:02:03,230
+The head of our character is twisting
+
+44
+00:02:03,230 --> 00:02:04,690
+or flipping the wrong way.
+
+45
+00:02:04,690 --> 00:02:06,710
+This is a super classic bug
+
+46
+00:02:06,710 --> 00:02:09,344
+whenever you switch to spline
+
+47
+00:02:09,344 --> 00:02:10,843
+and we will see how to fix this.
+
+48
+00:02:10,843 --> 00:02:13,650
+I will explain our rotation behavior
+
+49
+00:02:13,650 --> 00:02:17,170
+in a more detailed video
+in the next chapter.
+
+50
+00:02:17,170 --> 00:02:19,610
+So before we even start polishing class
+
+51
+00:02:19,610 --> 00:02:21,460
+we'll go into the graph editor
+
+52
+00:02:21,460 --> 00:02:25,810
+and we will fix it when you
+get this kind of bug, it's 100%
+
+53
+00:02:25,810 --> 00:02:29,470
+because of the curves as we
+are using quaternion rotation
+
+54
+00:02:29,470 --> 00:02:34,200
+for the neck and head, we
+have four rotation channels.
+
+55
+00:02:34,200 --> 00:02:37,640
+And when I frame my curve
+pressing the dot key
+
+56
+00:02:37,640 --> 00:02:41,333
+on the num pad, we can see this
+huge drop on the W channel.
+
+57
+00:02:42,330 --> 00:02:44,880
+And basically what's happening is Blender
+
+58
+00:02:44,880 --> 00:02:47,710
+using the shortest path to turn the head.
+
+59
+00:02:47,710 --> 00:02:49,470
+So instead of rotating
+
+60
+00:02:49,470 --> 00:02:52,860
+with the nose facing the
+front part of the character
+
+61
+00:02:52,860 --> 00:02:57,290
+it's going back because the
+turn is short term this way
+
+62
+00:02:57,290 --> 00:03:00,920
+and this is the common
+problem with quaternions.
+
+63
+00:03:00,920 --> 00:03:04,610
+To fix this I didn't
+really fix the curve first
+
+64
+00:03:04,610 --> 00:03:08,230
+and then try to match the previous pose.
+
+65
+00:03:08,230 --> 00:03:11,780
+So I will simply push this W curve up
+
+66
+00:03:11,780 --> 00:03:14,380
+so that it has a better continuity.
+
+67
+00:03:14,380 --> 00:03:17,540
+And then I will slightly
+tweak the other curve
+
+68
+00:03:17,540 --> 00:03:21,802
+so that the head is getting
+back to its original position.
+
+69
+00:03:21,802 --> 00:03:24,770
+When you get this kind of curve dropped,
+
+70
+00:03:24,770 --> 00:03:27,090
+you generally have a whole chunk
+
+71
+00:03:27,090 --> 00:03:30,460
+of your animations that
+is slightly offsetting.
+
+72
+00:03:30,460 --> 00:03:33,750
+So I will select the Z rotation curve
+
+73
+00:03:33,750 --> 00:03:35,840
+and push it a little up.
+
+74
+00:03:35,840 --> 00:03:38,900
+So I'm guessing it's the Z rotation curve
+
+75
+00:03:38,900 --> 00:03:42,540
+because I have a huge drop
+on the Z rotation curve too.
+
+76
+00:03:42,540 --> 00:03:46,527
+And I can see that
+between frame 72 and 95,
+
+77
+00:03:46,527 --> 00:03:49,940
+the head was offset compared
+to what I have done before.
+
+78
+00:03:49,940 --> 00:03:53,330
+So the trick here is to test each curve
+
+79
+00:03:53,330 --> 00:03:56,830
+and see which one is
+bugging and then offset it.
+
+80
+00:03:56,830 --> 00:03:58,750
+So that it's betterly aligned
+
+81
+00:03:58,750 --> 00:04:01,860
+with the previous key frame of this curve.
+
+82
+00:04:01,860 --> 00:04:04,920
+So I'm just tweaking the
+position of the curve.
+
+83
+00:04:04,920 --> 00:04:07,290
+And I just focus on the pose
+
+84
+00:04:07,290 --> 00:04:10,170
+of my character on the current key frames.
+
+85
+00:04:10,170 --> 00:04:12,400
+I am fixing the pose.
+
+86
+00:04:12,400 --> 00:04:15,300
+I'm not thinking about the animation,
+
+87
+00:04:15,300 --> 00:04:18,570
+the interpolation of
+the curve or whatever.
+
+88
+00:04:18,570 --> 00:04:23,490
+I'm just kind of reshaping
+the poses of my character.
+
+89
+00:04:23,490 --> 00:04:27,500
+And so if you're happy with
+the current poses I have
+
+90
+00:04:27,500 --> 00:04:29,610
+meaning that they are close
+
+91
+00:04:29,610 --> 00:04:32,000
+to what I have during the blocking stage.
+
+92
+00:04:32,000 --> 00:04:34,113
+I can move on and start polishing.
+
+93
+00:04:34,963 --> 00:04:35,796
+(air whooshing)
+
+94
+00:04:35,796 --> 00:04:39,110
+So this is something that
+is becoming very common
+
+95
+00:04:39,110 --> 00:04:42,140
+into this course is that
+the first thing I do
+
+96
+00:04:42,140 --> 00:04:46,310
+is work on the torso root of my character.
+
+97
+00:04:46,310 --> 00:04:49,100
+Because as I've explained before,
+
+98
+00:04:49,100 --> 00:04:50,760
+this is one of the controller
+
+99
+00:04:50,760 --> 00:04:53,930
+that will add the most
+influence onto the character
+
+100
+00:04:54,930 --> 00:04:58,160
+and to get a good
+visualization of the spacing
+
+101
+00:04:58,160 --> 00:05:01,510
+and the arcs I've
+calculated the motion path.
+
+102
+00:05:01,510 --> 00:05:03,870
+The first thing I'm working on
+
+103
+00:05:03,870 --> 00:05:08,180
+is the follow through
+animation after the landing.
+
+104
+00:05:08,180 --> 00:05:11,510
+This is why I've pushed my curve down
+
+105
+00:05:11,510 --> 00:05:15,060
+in an overshoot just
+after the contact pose
+
+106
+00:05:15,060 --> 00:05:19,090
+our character has a huge speed going down.
+
+107
+00:05:19,090 --> 00:05:23,460
+So we need to absorb the
+impact and then it recovered
+
+108
+00:05:23,460 --> 00:05:27,130
+and we have our Z location
+getting stabilized.
+
+109
+00:05:27,130 --> 00:05:29,350
+So we have just created some kind
+
+110
+00:05:29,350 --> 00:05:34,070
+of overshoot and now I will
+switch on to the Y curve
+
+111
+00:05:34,070 --> 00:05:36,330
+and I will do exactly the same
+
+112
+00:05:36,330 --> 00:05:39,206
+as our character is contacting the ground
+
+113
+00:05:39,206 --> 00:05:42,310
+while we're moving forward
+he's absorbing the inertia.
+
+114
+00:05:42,310 --> 00:05:45,360
+So I do create a slight overshoot here,
+
+115
+00:05:45,360 --> 00:05:48,830
+so whatever the trend
+form channel you are using
+
+116
+00:05:48,830 --> 00:05:52,910
+you will see this kind of
+shape in my curves very often.
+
+117
+00:05:52,910 --> 00:05:55,670
+This is really the archetype shape
+
+118
+00:05:55,670 --> 00:05:59,590
+of a curve for a follow
+through or an overshoot.
+
+119
+00:05:59,590 --> 00:06:02,200
+So it doesn't apply for impacts
+
+120
+00:06:02,200 --> 00:06:06,760
+where the curve will stop
+right on the contact pose.
+
+121
+00:06:06,760 --> 00:06:09,720
+But as soon as you have a
+lot of verticality in a curve
+
+122
+00:06:09,720 --> 00:06:14,270
+that means that the motion is
+very fast or very important.
+
+123
+00:06:14,270 --> 00:06:16,260
+So as soon as it stop,
+
+124
+00:06:16,260 --> 00:06:18,820
+you will have a bit of overshoot
+
+125
+00:06:18,820 --> 00:06:20,480
+or follow through animation,
+
+126
+00:06:20,480 --> 00:06:23,450
+meaning that there is a bit of inertia
+
+127
+00:06:23,450 --> 00:06:27,970
+and you can apply it to
+scaling rotation and location.
+
+128
+00:06:27,970 --> 00:06:29,600
+The more you will input
+
+129
+00:06:29,600 --> 00:06:32,310
+and the longer there
+will be, the more weight
+
+130
+00:06:32,310 --> 00:06:35,690
+and lack of control, you will get,
+
+131
+00:06:35,690 --> 00:06:39,550
+the tighter and smaller those overshoots,
+
+132
+00:06:39,550 --> 00:06:43,980
+the lighter or controlled
+the motion will look like.
+
+133
+00:06:43,980 --> 00:06:48,020
+As the main body controller
+arc start to look decent,
+
+134
+00:06:48,020 --> 00:06:52,570
+I can now switch to the
+rotation of this controller.
+
+135
+00:06:52,570 --> 00:06:54,970
+I always apply the same rule.
+
+136
+00:06:54,970 --> 00:06:58,310
+I start with the X rotation curve
+
+137
+00:06:58,310 --> 00:07:03,310
+because it's the most
+influential into this motion.
+
+138
+00:07:03,320 --> 00:07:05,760
+So I'm kind of tracking the head,
+
+139
+00:07:05,760 --> 00:07:07,620
+when I'm rotating the whole body
+
+140
+00:07:07,620 --> 00:07:11,000
+because this is what will
+give you the curvature
+
+141
+00:07:11,000 --> 00:07:12,190
+of the whole body.
+
+142
+00:07:12,190 --> 00:07:14,950
+And as I polish, the X rotation,
+
+143
+00:07:14,950 --> 00:07:18,470
+which shows the most from a profile view,
+
+144
+00:07:18,470 --> 00:07:22,610
+I also rework the Y location.
+
+145
+00:07:22,610 --> 00:07:25,080
+So when I'm polishing my curve,
+
+146
+00:07:25,080 --> 00:07:28,780
+it happened that I offset a lot of them.
+
+147
+00:07:28,780 --> 00:07:31,460
+This way I'm retiming the animation.
+
+148
+00:07:31,460 --> 00:07:35,150
+If I feel like the landing
+animation is too long,
+
+149
+00:07:35,150 --> 00:07:40,150
+I can offset a bunch of
+key frame by one frame back
+
+150
+00:07:40,720 --> 00:07:43,440
+and it will happen a little faster.
+
+151
+00:07:43,440 --> 00:07:46,270
+In front view, I'm
+working on the Y rotation
+
+152
+00:07:46,270 --> 00:07:48,530
+which is the twisting of my character.
+
+153
+00:07:48,530 --> 00:07:52,320
+When he lands, I twist
+toward the left hand
+
+154
+00:07:52,320 --> 00:07:54,840
+which is the first contacting the ground
+
+155
+00:07:54,840 --> 00:07:58,300
+and where the character
+will put his weight
+
+156
+00:07:58,300 --> 00:08:02,440
+and when he's raising on the right hand
+
+157
+00:08:02,440 --> 00:08:05,983
+I'm twisting toward this point too.
+
+158
+00:08:05,983 --> 00:08:07,660
+With the Z rotation curve,
+
+159
+00:08:07,660 --> 00:08:11,980
+I'm creating the side-to-side rotation
+
+160
+00:08:11,980 --> 00:08:13,560
+and what I will do here
+
+161
+00:08:13,560 --> 00:08:17,230
+as I have a drastic
+change in the orientation
+
+162
+00:08:17,230 --> 00:08:21,990
+of my character is input
+a very slight overshoot.
+
+163
+00:08:21,990 --> 00:08:25,340
+So creating those
+overshoot, or follow through
+
+164
+00:08:25,340 --> 00:08:28,470
+in the curve is not an automatism,
+
+165
+00:08:28,470 --> 00:08:31,730
+but when you see this kind
+of shape in your curve,
+
+166
+00:08:31,730 --> 00:08:34,930
+meaning that it's going
+down or high very fast
+
+167
+00:08:34,930 --> 00:08:38,110
+and then it stopped creating a plateau.
+
+168
+00:08:38,110 --> 00:08:40,710
+Just try to add a bit of an overshoot
+
+169
+00:08:40,710 --> 00:08:43,730
+and see if it does fit your animation.
+
+170
+00:08:43,730 --> 00:08:46,610
+Again, I can't tell you
+this is the way to go
+
+171
+00:08:46,610 --> 00:08:50,180
+because animation, as any form of art,
+
+172
+00:08:50,180 --> 00:08:52,206
+is about experimentation
+
+173
+00:08:52,206 --> 00:08:57,206
+and what we work for this
+specific squirrel animation,
+
+174
+00:08:57,260 --> 00:08:59,800
+won't work for all the squirrel animation
+
+175
+00:08:59,800 --> 00:09:01,920
+you're going to be doing.
+
+176
+00:09:01,920 --> 00:09:05,410
+This might not fit the type of style
+
+177
+00:09:05,410 --> 00:09:07,580
+you are looking for into your animation
+
+178
+00:09:07,580 --> 00:09:09,530
+whether it's super realistic
+
+179
+00:09:09,530 --> 00:09:11,510
+or it's super stylized.
+
+180
+00:09:11,510 --> 00:09:13,170
+But what I want to say here,
+
+181
+00:09:13,170 --> 00:09:16,560
+is that it's a matter of experience.
+
+182
+00:09:16,560 --> 00:09:19,010
+I'm giving you the foundation
+
+183
+00:09:19,010 --> 00:09:21,820
+to create this kind of animation,
+
+184
+00:09:21,820 --> 00:09:23,810
+and then you have to train your eyes
+
+185
+00:09:23,810 --> 00:09:26,620
+by animating and animating again.
+
+186
+00:09:26,620 --> 00:09:29,520
+But this is a cool tip
+you should keep in mind
+
+187
+00:09:29,520 --> 00:09:31,660
+and when you get more experience
+
+188
+00:09:31,660 --> 00:09:33,780
+you will know when you have to dial
+
+189
+00:09:33,780 --> 00:09:37,270
+the intensity of your
+overshoot, get rid of them
+
+190
+00:09:37,270 --> 00:09:39,660
+or add even more of them.
+
+191
+00:09:39,660 --> 00:09:43,600
+On the specific pose I'm
+rotating the body controller
+
+192
+00:09:43,600 --> 00:09:48,400
+and lowering it and also
+rotating the chest controller
+
+193
+00:09:48,400 --> 00:09:50,470
+to avoid the right leg
+
+194
+00:09:50,470 --> 00:09:53,990
+contacting the ground to be overextended.
+
+195
+00:09:53,990 --> 00:09:57,050
+This is something you can also fix
+
+196
+00:09:57,050 --> 00:10:01,070
+in the second time using the
+little tweaker controller
+
+197
+00:10:01,070 --> 00:10:04,960
+the small sphere on the
+elbow of the character.
+
+198
+00:10:04,960 --> 00:10:07,710
+Unless this is something
+you are looking for
+
+199
+00:10:07,710 --> 00:10:09,500
+if you're doing on purpose
+
+200
+00:10:09,500 --> 00:10:14,500
+having a stretch, lean on
+your character, very straight,
+
+201
+00:10:14,950 --> 00:10:17,570
+will look stiffened,
+won't look that natural.
+
+202
+00:10:17,570 --> 00:10:19,150
+So here I'm not saying
+
+203
+00:10:19,150 --> 00:10:24,150
+that you can't have this leg
+fully stretch as I am here
+
+204
+00:10:24,370 --> 00:10:29,370
+but I will not all the pose
+with the lean totally stretched.
+
+205
+00:10:29,560 --> 00:10:34,560
+So I've done whatever I could
+to fix the shape of the arm.
+
+206
+00:10:35,420 --> 00:10:40,350
+But if I can, then I'm totally
+fine using the tweaker bone
+
+207
+00:10:40,350 --> 00:10:44,760
+pushing it back a little to
+have a slight bend in the arm.
+
+208
+00:10:44,760 --> 00:10:48,470
+Even if in the end, it's a
+little longer than it should be,
+
+209
+00:10:48,470 --> 00:10:49,357
+we won't see it
+
+210
+00:10:49,357 --> 00:10:51,165
+and the silhouette will look better.
+
+211
+00:10:51,165 --> 00:10:51,998
+(air whooshing)
+
+212
+00:10:51,998 --> 00:10:53,280
+When polishing the head,
+
+213
+00:10:53,280 --> 00:10:56,380
+the first thing I do is to track the nose.
+
+214
+00:10:56,380 --> 00:11:00,270
+So here I have a controller
+for the nose, so that perfect.
+
+215
+00:11:00,270 --> 00:11:03,330
+I will calculate the motion path onto it.
+
+216
+00:11:03,330 --> 00:11:06,270
+As usual, I start with the X rotation
+
+217
+00:11:06,270 --> 00:11:09,060
+because it's the most
+influential controller
+
+218
+00:11:09,060 --> 00:11:11,630
+on this part of the character.
+
+219
+00:11:11,630 --> 00:11:14,970
+And the idea here is to
+make the head dragging
+
+220
+00:11:14,970 --> 00:11:17,010
+compared to the rest of the body.
+
+221
+00:11:17,010 --> 00:11:19,880
+So since the head is further away
+
+222
+00:11:19,880 --> 00:11:23,140
+from the center of
+gravity of our character,
+
+223
+00:11:23,140 --> 00:11:27,560
+that is represented by
+the main body controller,
+
+224
+00:11:27,560 --> 00:11:32,100
+it will kind of drag, it
+will be delayed in its motion
+
+225
+00:11:32,100 --> 00:11:35,000
+but I want to make this subtle again.
+
+226
+00:11:35,000 --> 00:11:38,470
+We are working on the very light character
+
+227
+00:11:38,470 --> 00:11:42,470
+so I don't want its head to
+wobble all the way around.
+
+228
+00:11:42,470 --> 00:11:45,580
+It will drag, but just a touch.
+
+229
+00:11:45,580 --> 00:11:49,650
+The overshoot must be
+as short as possible.
+
+230
+00:11:49,650 --> 00:11:53,100
+If we were animating a baby, for example,
+
+231
+00:11:53,100 --> 00:11:56,010
+it would lack of control in its head.
+
+232
+00:11:56,010 --> 00:12:01,010
+So that will be a great moment
+to make it drag a lot more,
+
+233
+00:12:01,440 --> 00:12:04,180
+build stronger overshoot,
+
+234
+00:12:04,180 --> 00:12:06,820
+and even made the head wobble.
+
+235
+00:12:06,820 --> 00:12:09,770
+But this is not the case for our character
+
+236
+00:12:09,770 --> 00:12:12,280
+is currently very agile.
+
+237
+00:12:12,280 --> 00:12:15,730
+And I want to show that
+he's controlling his landing
+
+238
+00:12:15,730 --> 00:12:18,610
+and his head is more driven by curiosity
+
+239
+00:12:19,800 --> 00:12:21,620
+than its own weight.
+
+240
+00:12:21,620 --> 00:12:24,410
+As soon as the rotation are fixed
+
+241
+00:12:24,410 --> 00:12:28,430
+and I've done it also on the
+chest controller previously,
+
+242
+00:12:28,430 --> 00:12:31,020
+I work on the location curve of the head.
+
+243
+00:12:31,020 --> 00:12:34,380
+The idea is to squash
+the head inside the body
+
+244
+00:12:34,380 --> 00:12:36,570
+whenever he is raising very fast.
+
+245
+00:12:36,570 --> 00:12:39,030
+And then when he get curious
+
+246
+00:12:39,030 --> 00:12:44,030
+or when he hit its final
+poses, I push the head forward.
+
+247
+00:12:44,910 --> 00:12:46,680
+One very important thing
+
+248
+00:12:46,680 --> 00:12:48,710
+is that squash and stretch
+
+249
+00:12:48,710 --> 00:12:51,902
+is not only about scaling something
+
+250
+00:12:51,902 --> 00:12:54,730
+or really squashing it.
+
+251
+00:12:54,730 --> 00:12:57,330
+It can be represented by the distance
+
+252
+00:12:57,330 --> 00:12:59,930
+between two controllers in this case,
+
+253
+00:12:59,930 --> 00:13:02,940
+the head getting more into the body
+
+254
+00:13:02,940 --> 00:13:05,240
+but the head doesn't get squashed.
+
+255
+00:13:05,240 --> 00:13:07,950
+The neck does get squashed a bit
+
+256
+00:13:07,950 --> 00:13:11,260
+but we currently don't
+really see a deformation
+
+257
+00:13:11,260 --> 00:13:15,380
+but the silhouette of our
+character overall get shortened.
+
+258
+00:13:15,380 --> 00:13:18,220
+So it gets squashed a bit.
+
+259
+00:13:18,220 --> 00:13:20,870
+So here you can see that
+I'm playing in the plane
+
+260
+00:13:20,870 --> 00:13:23,140
+and throbbing through my timeline,
+
+261
+00:13:23,140 --> 00:13:26,320
+playing with the Y and Z location curve,
+
+262
+00:13:26,320 --> 00:13:29,240
+just to get this slight head bop
+
+263
+00:13:29,240 --> 00:13:32,500
+when it comes to its extreme pose,
+
+264
+00:13:32,500 --> 00:13:35,840
+creating the slight shake of the head
+
+265
+00:13:35,840 --> 00:13:39,100
+using the location
+instead of the rotation,
+
+266
+00:13:39,100 --> 00:13:40,603
+as we explained before,
+
+267
+00:13:41,860 --> 00:13:44,430
+won't translate a lack of control
+
+268
+00:13:44,430 --> 00:13:48,440
+because our character eyes are stable.
+
+269
+00:13:48,440 --> 00:13:51,420
+He's looking at a point in space.
+
+270
+00:13:51,420 --> 00:13:55,680
+While if we were doing this
+overshoot with the rotation
+
+271
+00:13:55,680 --> 00:13:58,410
+the eye will be kind of jiggling
+
+272
+00:13:58,410 --> 00:14:00,980
+in the space, in the screen space,
+
+273
+00:14:00,980 --> 00:14:03,880
+on what we are seeing in our animation.
+
+274
+00:14:03,880 --> 00:14:07,490
+And it will then look like
+our character is controlling
+
+275
+00:14:07,490 --> 00:14:08,700
+what he's doing.
+
+276
+00:14:08,700 --> 00:14:12,120
+As I'm getting close to
+having the head polished,
+
+277
+00:14:12,120 --> 00:14:16,230
+look at how I slightly move
+this point on the curve.
+
+278
+00:14:16,230 --> 00:14:20,350
+So I don't want to get a
+perfect plateau of the curve.
+
+279
+00:14:20,350 --> 00:14:23,210
+I want to keep very subtle movement
+
+280
+00:14:23,210 --> 00:14:25,203
+that we call moving holds.
+
+281
+00:14:25,203 --> 00:14:26,711
+(air whooshing)
+
+282
+00:14:26,711 --> 00:14:27,930
+As I'm pretty happy with my head motion,
+
+283
+00:14:27,930 --> 00:14:31,610
+I will now be working on
+the nose of the character.
+
+284
+00:14:31,610 --> 00:14:34,630
+The idea here is to
+create a secondary motion.
+
+285
+00:14:34,630 --> 00:14:37,960
+So the nose will simply be dragging a bit
+
+286
+00:14:37,960 --> 00:14:40,770
+while our character is raising the head.
+
+287
+00:14:40,770 --> 00:14:44,810
+If we watch the motion path
+from frame 14 to frame 17
+
+288
+00:14:44,810 --> 00:14:47,410
+we can see that we have a lot spacing
+
+289
+00:14:47,410 --> 00:14:49,630
+meaning that the head is moving fast.
+
+290
+00:14:49,630 --> 00:14:52,020
+So this is where the nose of our character
+
+291
+00:14:52,020 --> 00:14:53,580
+will be dragging the most.
+
+292
+00:14:53,580 --> 00:14:57,090
+And it does show onto the curve here.
+
+293
+00:14:57,090 --> 00:15:00,280
+So I'm not using the graphing
+tool to control the nose.
+
+294
+00:15:00,280 --> 00:15:03,040
+I am moving it directly into space.
+
+295
+00:15:03,040 --> 00:15:04,990
+And then I may use the graph editor
+
+296
+00:15:04,990 --> 00:15:08,730
+just to slightly polish
+the position of the nose.
+
+297
+00:15:08,730 --> 00:15:13,150
+On frame 19, I've created
+a little bump in the curve
+
+298
+00:15:13,150 --> 00:15:16,990
+so that we have some kind of
+bouncing motion of the nose
+
+299
+00:15:16,990 --> 00:15:21,640
+as our character reaches its
+highest point with the head
+
+300
+00:15:21,640 --> 00:15:26,240
+all those little element give
+texture to our animation,
+
+301
+00:15:26,240 --> 00:15:30,090
+small details and I will be
+doing the same with the eyes.
+
+302
+00:15:30,090 --> 00:15:32,670
+I won't be animating the night blink
+
+303
+00:15:32,670 --> 00:15:35,410
+but then we'll very
+slightly close the eyes,
+
+304
+00:15:35,410 --> 00:15:38,060
+our character is raising his head.
+
+305
+00:15:38,060 --> 00:15:42,210
+All of these little details
+are like squash and stretch.
+
+306
+00:15:42,210 --> 00:15:44,740
+They are supporting the animation.
+
+307
+00:15:44,740 --> 00:15:48,620
+So I haven't been using the
+squash and stretch controller
+
+308
+00:15:48,620 --> 00:15:51,070
+on top of the head of the character
+
+309
+00:15:51,070 --> 00:15:53,430
+because it doesn't really fit
+
+310
+00:15:53,430 --> 00:15:56,070
+what I wanted for this animation,
+
+311
+00:15:56,070 --> 00:15:58,900
+but using the eyes and the tip of the nose
+
+312
+00:15:58,900 --> 00:16:02,820
+and slightly dragging them
+backward kind of input
+
+313
+00:16:02,820 --> 00:16:06,270
+this squash and stretch
+feeling of the motion.
+
+314
+00:16:06,270 --> 00:16:08,303
+I will proceed the same with the ears.
+
+315
+00:16:08,303 --> 00:16:11,970
+I will make them drag whenever
+there is a fast motion
+
+316
+00:16:11,970 --> 00:16:14,695
+and I will create a slight overshoot
+
+317
+00:16:14,695 --> 00:16:16,960
+or jiggling of the heels.
+
+318
+00:16:16,960 --> 00:16:21,200
+Very subtle whenever there
+is a stop into the motion.
+
+319
+00:16:21,200 --> 00:16:24,040
+So I've been animating the nose,
+
+320
+00:16:24,040 --> 00:16:28,410
+the ears and the eyes using
+the straight-ahead method.
+
+321
+00:16:28,410 --> 00:16:32,350
+And it's ideal for this
+kind of secondary motion
+
+322
+00:16:32,350 --> 00:16:34,260
+where you can't really predict
+
+323
+00:16:34,260 --> 00:16:37,610
+where the heels are going to be rotating,
+
+324
+00:16:37,610 --> 00:16:39,830
+where the nose is going to be,
+
+325
+00:16:39,830 --> 00:16:44,580
+while you have all the other
+controllers to polish first.
+
+326
+00:16:44,580 --> 00:16:47,770
+This is the kind of motion
+that is really hard to block
+
+327
+00:16:47,770 --> 00:16:49,360
+or to predict.
+
+328
+00:16:49,360 --> 00:16:51,800
+This is a technique that I use a lot
+
+329
+00:16:51,800 --> 00:16:55,450
+whenever I'm animating
+fingers, for example,
+
+330
+00:16:55,450 --> 00:16:58,700
+I will shape the end
+ring, the blocking stage
+
+331
+00:16:58,700 --> 00:17:02,500
+but I won't necessarily
+put a lot of detail
+
+332
+00:17:02,500 --> 00:17:05,630
+during the breakdowns and stuff like that.
+
+333
+00:17:05,630 --> 00:17:08,900
+Since a lot of things can
+happen in the animation
+
+334
+00:17:08,900 --> 00:17:11,830
+of the eyes, the fingers, the ears,
+
+335
+00:17:11,830 --> 00:17:14,080
+the ponytail, whatever,
+
+336
+00:17:14,080 --> 00:17:18,300
+all those secondary
+elements of a character,
+
+337
+00:17:18,300 --> 00:17:22,380
+I oftenly animate them using
+the straight ahead method
+
+338
+00:17:22,380 --> 00:17:27,090
+meaning that I've blocked my
+character, or least most of it.
+
+339
+00:17:27,090 --> 00:17:32,090
+And then on top of this, I will
+add those additional motion
+
+340
+00:17:32,540 --> 00:17:34,890
+or additional animation
+
+341
+00:17:34,890 --> 00:17:38,520
+that are currently following the broad
+
+342
+00:17:38,520 --> 00:17:41,170
+and main animation of your character.
+
+343
+00:17:41,170 --> 00:17:44,010
+And you've probably,
+haven't seen me working
+
+344
+00:17:44,010 --> 00:17:46,120
+on each curve of those controllers
+
+345
+00:17:46,120 --> 00:17:48,110
+and that's perfectly fine.
+
+346
+00:17:48,110 --> 00:17:51,870
+At some point you don't
+need to polish each curve.
+
+347
+00:17:51,870 --> 00:17:55,440
+You can simply watch the
+animation and watch the spacing
+
+348
+00:17:55,440 --> 00:17:59,320
+in the 3D viewport and
+see if it does work.
+
+349
+00:17:59,320 --> 00:18:02,350
+Curved editing is super important
+
+350
+00:18:02,350 --> 00:18:06,400
+but it's not mandatory
+for every controllers.
+
+351
+00:18:06,400 --> 00:18:08,750
+So I rapidly polish the hips
+
+352
+00:18:08,750 --> 00:18:11,650
+because it was mainly compensating
+
+353
+00:18:11,650 --> 00:18:13,290
+the motion of the character
+
+354
+00:18:13,290 --> 00:18:15,200
+or the movement of the character.
+
+355
+00:18:15,200 --> 00:18:17,510
+And I can now switch my attention
+
+356
+00:18:17,510 --> 00:18:18,685
+to the feet of the character.
+
+357
+00:18:18,685 --> 00:18:19,568
+(air whooshing)
+
+358
+00:18:19,568 --> 00:18:22,430
+I tend to be kind of
+lazy whenever I'm working
+
+359
+00:18:22,430 --> 00:18:23,970
+on the feet of character.
+
+360
+00:18:23,970 --> 00:18:26,170
+And that's a very big mistake.
+
+361
+00:18:26,170 --> 00:18:27,940
+So this is one of the thing
+
+362
+00:18:27,940 --> 00:18:31,120
+I'm trying to improve in my animation.
+
+363
+00:18:31,120 --> 00:18:33,820
+Feet tend to have a lot of motion
+
+364
+00:18:33,820 --> 00:18:38,710
+and a lot of beginner tend to
+keep them still on the ground.
+
+365
+00:18:38,710 --> 00:18:40,300
+So you should avoid it.
+
+366
+00:18:40,300 --> 00:18:43,290
+Whenever you feel like your
+character is losing balance
+
+367
+00:18:43,290 --> 00:18:45,310
+maybe offset a bit the foot
+
+368
+00:18:45,310 --> 00:18:48,800
+and create some kind of very small step.
+
+369
+00:18:48,800 --> 00:18:52,380
+One of the very important
+thing regarding walks
+
+370
+00:18:52,380 --> 00:18:54,800
+and whatever kind of steps you are doing,
+
+371
+00:18:54,800 --> 00:18:58,810
+is that any character,
+whether it's an animal
+
+372
+00:18:58,810 --> 00:19:02,460
+or a human being will try to put as less
+
+373
+00:19:02,460 --> 00:19:05,170
+energy into it as possible,
+
+374
+00:19:05,170 --> 00:19:10,090
+meaning that you will raise
+your leg as less as possible.
+
+375
+00:19:10,090 --> 00:19:12,330
+When we see the original motion path
+
+376
+00:19:12,330 --> 00:19:13,750
+shown on the screen right now,
+
+377
+00:19:13,750 --> 00:19:16,920
+we can see that I had
+the very eye position
+
+378
+00:19:16,920 --> 00:19:18,950
+of the foot on frame 14.
+
+379
+00:19:18,950 --> 00:19:21,940
+This is why I edited the Z curve
+
+380
+00:19:21,940 --> 00:19:23,530
+of the location of the foot.
+
+381
+00:19:23,530 --> 00:19:24,410
+And when I update,
+
+382
+00:19:24,410 --> 00:19:27,870
+you can see that now the
+curve is looking a bit better.
+
+383
+00:19:27,870 --> 00:19:30,630
+The forward spacing is a little weird
+
+384
+00:19:30,630 --> 00:19:33,660
+because I have a big
+acceleration on the Y curve
+
+385
+00:19:33,660 --> 00:19:35,367
+and then it slowed down.
+
+386
+00:19:35,367 --> 00:19:39,040
+So I'm kind of flattening
+them with the Y curve
+
+387
+00:19:39,040 --> 00:19:43,550
+and also lowering the foot
+just before the contact pose.
+
+388
+00:19:43,550 --> 00:19:45,800
+When the foot was moving forward,
+
+389
+00:19:45,800 --> 00:19:47,830
+I edited the rotation of the curve
+
+390
+00:19:47,830 --> 00:19:52,200
+so that it just drags a bit backward.
+
+391
+00:19:52,200 --> 00:19:54,740
+And then when it's
+contacting on the ground,
+
+392
+00:19:54,740 --> 00:19:57,920
+I will slightly raise it to have this kind
+
+393
+00:19:57,920 --> 00:20:00,840
+of slap motion only on one frame.
+
+394
+00:20:00,840 --> 00:20:02,430
+That's perfectly fine,
+
+395
+00:20:02,430 --> 00:20:05,380
+but we will feel this
+is a very important tip
+
+396
+00:20:05,380 --> 00:20:07,950
+that will make your animation
+looks a little better.
+
+397
+00:20:07,950 --> 00:20:10,030
+Whenever you are doing a step
+
+398
+00:20:10,030 --> 00:20:13,820
+whether for a whole cycle
+or an animation like that,
+
+399
+00:20:13,820 --> 00:20:17,980
+you should avoid flat curve
+on the rotation channels
+
+400
+00:20:17,980 --> 00:20:21,250
+during the contact pose on frame 16.
+
+401
+00:20:21,250 --> 00:20:25,590
+Having it flat on the next
+frame is totally fine.
+
+402
+00:20:25,590 --> 00:20:29,530
+There is always a bit of
+control of foot slapping
+
+403
+00:20:29,530 --> 00:20:33,600
+on one or two frame, and
+then the curve get flat.
+
+404
+00:20:33,600 --> 00:20:36,350
+So as this first step is polished,
+
+405
+00:20:36,350 --> 00:20:39,620
+I can work on the elbow
+joint of my character
+
+406
+00:20:39,620 --> 00:20:42,200
+as the front leg get over extended.
+
+407
+00:20:42,200 --> 00:20:44,700
+It seems to be bending the wrong way,
+
+408
+00:20:44,700 --> 00:20:48,860
+so I will just frame by
+frame, push a bit back
+
+409
+00:20:48,860 --> 00:20:53,600
+this tweaker your controller,
+just to get a slight bending.
+
+410
+00:20:53,600 --> 00:20:56,160
+I don't need to care about the curve here,
+
+411
+00:20:56,160 --> 00:20:59,187
+I'm just caring about the
+shape of my character.
+
+412
+00:20:59,187 --> 00:21:00,020
+(air whooshing)
+
+413
+00:21:00,020 --> 00:21:02,520
+All right, let's move
+on the left front leg
+
+414
+00:21:02,520 --> 00:21:04,290
+or left hand if you will.
+
+415
+00:21:04,290 --> 00:21:06,490
+The first thing I will do as usual
+
+416
+00:21:06,490 --> 00:21:09,500
+is calculate the path of this hand
+
+417
+00:21:09,500 --> 00:21:11,750
+and it has really become an automatism
+
+418
+00:21:11,750 --> 00:21:14,880
+for me to use the motion
+path in production.
+
+419
+00:21:14,880 --> 00:21:16,950
+With it, I can see right away
+
+420
+00:21:16,950 --> 00:21:20,710
+that the motion of the
+foot is not correct.
+
+421
+00:21:20,710 --> 00:21:22,610
+The arc as in it's shape
+
+422
+00:21:22,610 --> 00:21:26,730
+where I'd like it to have
+more of a C-shape forward.
+
+423
+00:21:26,730 --> 00:21:29,400
+I'd like to create a foot roll motion
+
+424
+00:21:29,400 --> 00:21:33,060
+on the next frame from
+the tip of the foot.
+
+425
+00:21:33,060 --> 00:21:34,370
+So from the side view,
+
+426
+00:21:34,370 --> 00:21:38,760
+I shift right click on
+to the tip of the foot.
+
+427
+00:21:38,760 --> 00:21:40,890
+Then I will switch the pivot point
+
+428
+00:21:40,890 --> 00:21:43,030
+to be using the 3D cursor.
+
+429
+00:21:43,030 --> 00:21:45,930
+And I will rotate the foot forward.
+
+430
+00:21:45,930 --> 00:21:49,050
+Since this is a pose I would spend time
+
+431
+00:21:49,050 --> 00:21:51,570
+to get right, using the graph editor.
+
+432
+00:21:51,570 --> 00:21:55,210
+It's better to pose it
+directly in the 3D view.
+
+433
+00:21:55,210 --> 00:21:59,010
+So is that Blender will
+write the curves for me.
+
+434
+00:21:59,010 --> 00:22:02,900
+And then I just need to polish
+using this in-between curve
+
+435
+00:22:02,900 --> 00:22:04,570
+we've just created.
+
+436
+00:22:04,570 --> 00:22:07,020
+From there, I have enough information
+
+437
+00:22:07,020 --> 00:22:08,810
+to start polishing the curve
+
+438
+00:22:08,810 --> 00:22:12,480
+working first on the Z and Y location,
+
+439
+00:22:12,480 --> 00:22:16,320
+here I'm building a slight
+overshoot on the Y axis
+
+440
+00:22:16,320 --> 00:22:19,980
+so that the character will
+push his hand forward.
+
+441
+00:22:19,980 --> 00:22:24,039
+And then the back as it
+reaches the highest point
+
+442
+00:22:24,039 --> 00:22:26,900
+and they will update my motion path to see
+
+443
+00:22:26,900 --> 00:22:29,390
+if my arch is looking good.
+
+444
+00:22:29,390 --> 00:22:31,736
+And then I will slightly tweak
+
+445
+00:22:31,736 --> 00:22:36,270
+the plateau shape of the Y and Z curve
+
+446
+00:22:36,270 --> 00:22:40,510
+to avoid having a pure holding here.
+
+447
+00:22:40,510 --> 00:22:43,530
+I want to add a slight moving hold
+
+448
+00:22:43,530 --> 00:22:47,560
+so that the hand feels
+connected to the body
+
+449
+00:22:47,560 --> 00:22:49,270
+that is still moving.
+
+450
+00:22:49,270 --> 00:22:53,900
+The left-to-right motion of the
+front foot is pretty subtle.
+
+451
+00:22:53,900 --> 00:22:57,240
+So I will just smooth out the curve
+
+452
+00:22:57,240 --> 00:23:01,130
+and input a bit of an
+overshoot on frame 20
+
+453
+00:23:01,130 --> 00:23:04,710
+and a bit up jiggle on frame 25.
+
+454
+00:23:04,710 --> 00:23:07,643
+So when I polish to location
+channel, for example,
+
+455
+00:23:07,643 --> 00:23:11,510
+I always double check my animation
+through different angles.
+
+456
+00:23:11,510 --> 00:23:13,630
+I also play the hold section.
+
+457
+00:23:13,630 --> 00:23:15,050
+I'm polishing to make sure
+
+458
+00:23:15,050 --> 00:23:19,440
+that everything looks
+connected and relevant.
+
+459
+00:23:19,440 --> 00:23:22,010
+From there, I can work on the rotation.
+
+460
+00:23:22,010 --> 00:23:27,010
+So why the rotation is the
+main motion of this front leg
+
+461
+00:23:27,300 --> 00:23:29,800
+on this part on the animation,
+
+462
+00:23:29,800 --> 00:23:33,030
+polishing the rotation of
+the front foot or the hand
+
+463
+00:23:33,030 --> 00:23:37,000
+of the character will
+really improve the motion.
+
+464
+00:23:37,000 --> 00:23:40,550
+So I'm just mainly working on the X
+
+465
+00:23:40,550 --> 00:23:45,340
+but only on rotation first,
+adding a bit of dragging.
+
+466
+00:23:45,340 --> 00:23:49,480
+Then I work on the Y and
+Z pattern on rotation
+
+467
+00:23:49,480 --> 00:23:53,580
+just to add a bit of twisting
+and a bit of dragging
+
+468
+00:23:53,580 --> 00:23:56,830
+on the left and right motion of the hand.
+
+469
+00:23:56,830 --> 00:23:57,940
+And the here again,
+
+470
+00:23:57,940 --> 00:24:01,550
+I will bend a slight
+overshoot on the curve.
+
+471
+00:24:01,550 --> 00:24:04,850
+So you can see that curve
+wise in the graph editor
+
+472
+00:24:05,850 --> 00:24:09,830
+you will often get the same kind of shape
+
+473
+00:24:09,830 --> 00:24:12,370
+the same curve behavior.
+
+474
+00:24:12,370 --> 00:24:14,993
+So don't be afraid by the graph editor
+
+475
+00:24:14,993 --> 00:24:18,400
+this is something you will
+get used to very fast,
+
+476
+00:24:18,400 --> 00:24:19,639
+if you practice.
+
+477
+00:24:19,639 --> 00:24:20,472
+(air whooshing)
+
+478
+00:24:20,472 --> 00:24:22,730
+Polishing the tail was
+pretty straightforward
+
+479
+00:24:22,730 --> 00:24:26,650
+as it is mostly a follow
+through animation.
+
+480
+00:24:26,650 --> 00:24:29,510
+So I do believe you now understand
+
+481
+00:24:29,510 --> 00:24:32,070
+that I always work with the channel
+
+482
+00:24:32,070 --> 00:24:34,700
+that input the most motion.
+
+483
+00:24:34,700 --> 00:24:39,060
+This is why I stopped
+with the X rotation curve.
+
+484
+00:24:39,060 --> 00:24:41,490
+So this is a pretty different behavior
+
+485
+00:24:41,490 --> 00:24:43,960
+compared with the run cycle
+
+486
+00:24:43,960 --> 00:24:47,230
+or the gym cycle we've made before.
+
+487
+00:24:47,230 --> 00:24:50,660
+Here, I want faster whipping motion,
+
+488
+00:24:50,660 --> 00:24:53,540
+meaning that the motion of the tail
+
+489
+00:24:53,540 --> 00:24:57,680
+is not supporting the
+movement of the character.
+
+490
+00:24:57,680 --> 00:25:00,171
+It's not drawing the shape
+
+491
+00:25:00,171 --> 00:25:04,600
+and the path of the
+character through space.
+
+492
+00:25:04,600 --> 00:25:09,550
+I'm using the tail here with
+fast and snapping motion
+
+493
+00:25:09,550 --> 00:25:12,160
+to show the attitude of the character.
+
+494
+00:25:12,160 --> 00:25:13,980
+When we watched the reference,
+
+495
+00:25:13,980 --> 00:25:16,860
+we can see that the tail move very quickly
+
+496
+00:25:16,860 --> 00:25:18,640
+and then just stop.
+
+497
+00:25:18,640 --> 00:25:23,640
+So I want those the little wavey
+motion to happen very fast.
+
+498
+00:25:24,570 --> 00:25:27,410
+On the first contact,
+the motion of the tail
+
+499
+00:25:27,410 --> 00:25:30,790
+is here to balance the character.
+
+500
+00:25:30,790 --> 00:25:32,490
+But as soon as he stop,
+
+501
+00:25:32,490 --> 00:25:37,490
+the tail motion will be mostly
+used to show the character
+
+502
+00:25:37,530 --> 00:25:39,890
+the emotion of our character
+
+503
+00:25:39,890 --> 00:25:43,280
+whether he's happy, curious, or whatever.
+
+504
+00:25:43,280 --> 00:25:46,240
+And having those rapid change
+
+505
+00:25:46,240 --> 00:25:47,920
+in the shape of the tail
+
+506
+00:25:47,920 --> 00:25:51,110
+really translate the fast pace
+
+507
+00:25:51,110 --> 00:25:56,110
+of the metabolism of small
+mammals, like the squirrel,
+
+508
+00:25:56,220 --> 00:25:58,460
+the mouse, et cetera.
+
+509
+00:25:58,460 --> 00:26:02,480
+If you think of the tail
+of a cow or an elephant
+
+510
+00:26:02,480 --> 00:26:07,000
+it can move quickly, but
+it won't stop instantly.
+
+511
+00:26:07,000 --> 00:26:08,470
+There will be inertia.
+
+512
+00:26:08,470 --> 00:26:11,060
+There will be follow through animation.
+
+513
+00:26:11,060 --> 00:26:13,140
+While on this character,
+
+514
+00:26:13,140 --> 00:26:14,820
+the follow through might be like
+
+515
+00:26:14,820 --> 00:26:16,600
+on two or three frame maximum
+
+516
+00:26:16,600 --> 00:26:19,010
+and you just freezing the hair.
+
+517
+00:26:19,010 --> 00:26:22,100
+So I'm repeating the same
+concept again and again
+
+518
+00:26:22,100 --> 00:26:24,620
+but all of those follow through animation
+
+519
+00:26:24,620 --> 00:26:27,670
+can translate the weight of your character
+
+520
+00:26:27,670 --> 00:26:29,330
+or the stiffness.
+
+521
+00:26:29,330 --> 00:26:33,300
+Here, for example, while
+the tail is very flexible
+
+522
+00:26:33,300 --> 00:26:35,784
+at some point it's full of muscle
+
+523
+00:26:35,784 --> 00:26:39,750
+and our character can
+kind of hold it in place.
+
+524
+00:26:39,750 --> 00:26:42,360
+Like whip it's tail and it stop it.
+
+525
+00:26:42,360 --> 00:26:45,470
+And I think this is a very specific motion
+
+526
+00:26:45,470 --> 00:26:49,080
+of the squirrel tail that
+will make it more believable
+
+527
+00:26:49,080 --> 00:26:54,070
+or at least that will input
+this squirrel-like motion
+
+528
+00:26:54,070 --> 00:26:56,840
+to our digital character.
+
+529
+00:26:56,840 --> 00:26:59,520
+On those fast-paced motion,
+
+530
+00:26:59,520 --> 00:27:03,390
+It's pretty hard to get a nice tail shape.
+
+531
+00:27:03,390 --> 00:27:06,160
+And this is why on this specific part
+
+532
+00:27:06,160 --> 00:27:08,653
+I'm almost animating on the ones.
+
+533
+00:27:09,570 --> 00:27:14,210
+It means that I have a key
+frame on almost each frame.
+
+534
+00:27:14,210 --> 00:27:17,370
+This is what animating on ones means,
+
+535
+00:27:17,370 --> 00:27:19,960
+is that you will have a different pose
+
+536
+00:27:19,960 --> 00:27:24,580
+or different key frame on
+each frame of your animation.
+
+537
+00:27:24,580 --> 00:27:26,920
+When animating digitally,
+
+538
+00:27:26,920 --> 00:27:30,020
+we kind of always animate on ones
+
+539
+00:27:30,020 --> 00:27:31,587
+meaning that our character
+
+540
+00:27:31,587 --> 00:27:34,520
+has a different pose on each frame
+
+541
+00:27:34,520 --> 00:27:39,490
+but when animating traditionally
+or making 2D drawings
+
+542
+00:27:39,490 --> 00:27:43,370
+it happened sometime that you
+will keep the same drawing
+
+543
+00:27:43,370 --> 00:27:45,710
+on one, two or three frames.
+
+544
+00:27:45,710 --> 00:27:49,860
+In this case, you will be
+animating on two or on three.
+
+545
+00:27:49,860 --> 00:27:53,530
+So it's not correct to say
+that I'm animating on ones
+
+546
+00:27:53,530 --> 00:27:57,280
+because I'm putting a
+key frame on each frame
+
+547
+00:27:57,280 --> 00:28:00,460
+but that's kind of a way of talking
+
+548
+00:28:00,460 --> 00:28:02,730
+or saying that at some point,
+
+549
+00:28:02,730 --> 00:28:07,380
+you might need to detail
+your animation on ones
+
+550
+00:28:07,380 --> 00:28:10,410
+and insert a key frame on every frame.
+
+551
+00:28:10,410 --> 00:28:15,410
+And for each of those poses,
+especially on action motion
+
+552
+00:28:16,540 --> 00:28:18,370
+or on very fast motion
+
+553
+00:28:18,370 --> 00:28:21,080
+like the tail motion of your character.
+
+554
+00:28:21,080 --> 00:28:25,020
+In the end of polishing the
+segment of the animation
+
+555
+00:28:25,020 --> 00:28:28,760
+I've been working with the
+tweaker bone of the back leg
+
+556
+00:28:28,760 --> 00:28:33,290
+to keep the back leg
+slightly bent the right way,
+
+557
+00:28:33,290 --> 00:28:35,360
+slightly bent forward.
+
+558
+00:28:35,360 --> 00:28:39,510
+That was kind of a long video
+with a lot of information.
+
+559
+00:28:39,510 --> 00:28:42,653
+I will keep the next one
+as short as possible.
+

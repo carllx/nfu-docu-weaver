@@ -1,0 +1,18 @@
+章节,周次,sequence,文件名,TLDR,简化路径
+1,1,1,交互产品综合创作工具链,构建具备教学深度与行业广度的交互产品综合创作工具链，介绍多路径、重批判的课程框架,/src/epic_01_2d_plane/交互产品综合创作工具链.md
+1,1,1,00 引导(Figma),Figma UI/UX设计基础学习的知识框架，包含7个核心学习模块的概述,/src/epic_01_2d_plane/week_01_figma_basics/00 引导(Figma).md
+1,1,1.1,005 - what-we-are-making-in-this-figma-course,介绍本课程中将制作的项目和设计内容,/src/epic_01_2d_plane/week_01_figma_basics/005 - what-we-are-making-in-this-figma-course.md
+1,1,1.12,Figma 教育认证,对比Figma免费版与专业版的功能差异，介绍教育认证的获取方法和优势,/src/epic_01_2d_plane/Figma 教育认证.md
+1,1,2,004 - whats-the-difference-between-ui-and-ux-in-figma,解释Figma中UI和UX的区别，以及它们在设计中的应用,/src/epic_01_2d_plane/week_01_figma_basics/004 - whats-the-difference-between-ui-and-ux-in-figma.md
+1,1,2.1,007 - what-is-lo-fi-wireframe-vs-high-fidelity-in-figma,解释Figma中低保真线框图与高保真设计的区别和应用场景,/src/epic_01_2d_plane/week_01_figma_basics/007 - what-is-lo-fi-wireframe-vs-high-fidelity-in-figma.md
+1,1,2.2,003 - what-is-figma-for-does-it-do-the-coding,解释Figma的功能定位，说明其与代码开发的关系,/src/epic_01_2d_plane/week_01_figma_basics/003 - what-is-figma-for-does-it-do-the-coding.md
+1,1,2.3,"Book_UX - The Design of Everyday Things_ Revised and Expanded Edition -- Norman, Don -- 2013",介绍唐·诺曼的设计理论核心概念，包括示能、意符和概念模型，以及它们在用户体验设计中的应用,"/src/epic_01_2d_plane/Book_UX - The Design of Everyday Things_ Revised and Expanded Edition -- Norman, Don -- 2013.md"
+1,1,3,课程设计报告,交互产品综合创作课程的详细设计报告，包含课程定位、教学目标和实施方案,/src/epic_01_2d_plane/课程设计报告.md
+1,1,3,001 - introduction-to-figma-essentials-training-course,Figma基础介绍，概述课程内容和学习目标,/src/epic_01_2d_plane/week_01_figma_basics/001 - introduction-to-figma-essentials-training-course.md
+1,1,3.1,002 - getting-started-with-figma-training,Figma入门教程，介绍基本界面和操作方法,/src/epic_01_2d_plane/week_01_figma_basics/002 - getting-started-with-figma-training.md
+1,1,3.2,015 - frames-vs-groups-in-figma,解释Figma中的画框与组的区别，以及如何正确使用它们组织设计元素,/src/epic_01_2d_plane/week_01_figma_basics/015 - frames-vs-groups-in-figma.md
+1,1,3.3,008 - creating-our-design-file-introducing-frames-in-figma,介绍如何在Figma中创建设计文件和画框，掌握基础布局功能,/src/epic_01_2d_plane/week_01_figma_basics/008 - creating-our-design-file-introducing-frames-in-figma.md
+1,1,3.4,009 - the-basics-of-type-fonts-in-figma,介绍Figma中的字体和文本处理基础知识，包括字体选择和应用,/src/epic_01_2d_plane/week_01_figma_basics/009 - the-basics-of-type-fonts-in-figma.md
+1,1,3.5,010 - rectangles-circles-buttons-rounded-corners-in-figma,介绍Figma中的基本形状工具，包括矩形、圆形、按钮和圆角处理,/src/epic_01_2d_plane/week_01_figma_basics/010 - rectangles-circles-buttons-rounded-corners-in-figma.md
+1,1,4,006 - class-project-001-create-your-own-brief,第一个课程项目：创建自己的设计简报，学习如何定义设计目标和需求,/src/epic_01_2d_plane/week_01_figma_basics/006 - class-project-001-create-your-own-brief.md
+1,1,4.1,016 - class-project-002-wireframe,第二个课程项目：使用Figma创建线框图，应用所学的基础设计知识,/src/epic_01_2d_plane/week_01_figma_basics/016 - class-project-002-wireframe.md

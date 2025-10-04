@@ -1,0 +1,1382 @@
+﻿1
+00:00:01,250 --> 00:00:02,890
+- [Instructor] Time to move on to the arms
+
+2
+00:00:02,890 --> 00:00:06,060
+to finish the polishing
+of the hook portion
+
+3
+00:00:06,060 --> 00:00:07,760
+of this animation.
+
+4
+00:00:07,760 --> 00:00:09,760
+As explained in the previous video,
+
+5
+00:00:09,760 --> 00:00:12,690
+when it comes to the arm,
+I don't rely that much
+
+6
+00:00:12,690 --> 00:00:14,150
+on the graph editor,
+
+7
+00:00:14,150 --> 00:00:17,730
+but more on the motion
+path drawn by the elbow
+
+8
+00:00:17,730 --> 00:00:19,627
+and the wrist of the character.
+
+9
+00:00:19,627 --> 00:00:21,370
+But I will repeat myself here,
+
+10
+00:00:21,370 --> 00:00:24,930
+when it come to the torso
+routes or the torso in general,
+
+11
+00:00:24,930 --> 00:00:27,193
+using the graph editor is super important
+
+12
+00:00:27,193 --> 00:00:29,830
+because the position
+curved for the torso route
+
+13
+00:00:29,830 --> 00:00:31,860
+or even defeat absence.
+
+14
+00:00:31,860 --> 00:00:35,140
+But when it comes to the
+quaternion rotation of the arm,
+
+15
+00:00:35,140 --> 00:00:37,580
+it becomes a little more abstract.
+
+16
+00:00:37,580 --> 00:00:40,630
+I'm not saying here that
+it doesn't make sense,
+
+17
+00:00:40,630 --> 00:00:43,420
+but since we are mixing orientation
+
+18
+00:00:43,420 --> 00:00:46,820
+and no longer rotation
+as when using eulers,
+
+19
+00:00:46,820 --> 00:00:49,750
+quaternions behavior is not linear
+
+20
+00:00:49,750 --> 00:00:52,680
+and might change depending on the space
+
+21
+00:00:52,680 --> 00:00:54,530
+you are animating your character.
+
+22
+00:00:54,530 --> 00:00:56,650
+For example, in our case,
+
+23
+00:00:56,650 --> 00:01:00,600
+the arms are not following
+the rotation of the torso
+
+24
+00:01:00,600 --> 00:01:04,570
+based on the orientation of
+the character and ward space,
+
+25
+00:01:04,570 --> 00:01:08,410
+the behavior of the quaternion
+curves of the arm may change.
+
+26
+00:01:08,410 --> 00:01:11,600
+Again, we don't need to know
+all the technical details
+
+27
+00:01:11,600 --> 00:01:13,710
+of all quaternion behaves.
+
+28
+00:01:13,710 --> 00:01:18,230
+The curve will make sense
+on portion of your animation
+
+29
+00:01:18,230 --> 00:01:22,100
+and your goal is to get
+nice arc and nice spacing,
+
+30
+00:01:22,100 --> 00:01:24,060
+so just focus on this.
+
+31
+00:01:24,060 --> 00:01:27,550
+In time I started polishing
+the right shoulder.
+
+32
+00:01:27,550 --> 00:01:30,110
+Everything here is about tweaking the X
+
+33
+00:01:30,110 --> 00:01:31,781
+and Z rotation curves,
+
+34
+00:01:31,781 --> 00:01:35,760
+avoiding to touch the Y
+rotation curve that much,
+
+35
+00:01:35,760 --> 00:01:37,780
+even if you can touch it.
+
+36
+00:01:37,780 --> 00:01:40,470
+And make sure that the
+shoulder are droppings,
+
+37
+00:01:40,470 --> 00:01:43,160
+so whenever the torso is twisting back,
+
+38
+00:01:43,160 --> 00:01:46,260
+the shoulder will be delayed forward.
+
+39
+00:01:46,260 --> 00:01:49,801
+When the torso is going down,
+the shoulder will raise a bit.
+
+40
+00:01:49,801 --> 00:01:52,660
+And when the torso is going up,
+
+41
+00:01:52,660 --> 00:01:54,740
+the shoulder will lower a bit.
+
+42
+00:01:54,740 --> 00:01:57,530
+Here, I'm working on
+the rotation of the arm
+
+43
+00:01:57,530 --> 00:01:59,140
+from the camera point of view.
+
+44
+00:01:59,140 --> 00:02:02,370
+Before I do so, I've
+calculated the motion paths
+
+45
+00:02:02,370 --> 00:02:03,310
+of the wrist.
+
+46
+00:02:03,310 --> 00:02:06,450
+And as you can see, it
+makes a jagged stroke
+
+47
+00:02:06,450 --> 00:02:09,330
+instead of having a nice C shape curve.
+
+48
+00:02:09,330 --> 00:02:12,010
+I will mix the use of the graph editor,
+
+49
+00:02:12,010 --> 00:02:16,140
+but also directly posing
+the arm in the 3D view,
+
+50
+00:02:16,140 --> 00:02:19,610
+until I get the smooth arc in the 3D view.
+
+51
+00:02:19,610 --> 00:02:22,440
+I'm mixing the rotation
+of the arm controller
+
+52
+00:02:22,440 --> 00:02:24,350
+with the forearm controller
+
+53
+00:02:24,350 --> 00:02:28,510
+whenever I need to open a
+little more the forearm.
+
+54
+00:02:28,510 --> 00:02:32,232
+Regarding the forearm, since
+it's using euler rotation,
+
+55
+00:02:32,232 --> 00:02:35,710
+the graph editor does
+make a little more sense.
+
+56
+00:02:35,710 --> 00:02:38,600
+So whenever the elbow is going back,
+
+57
+00:02:38,600 --> 00:02:41,770
+I will bend the arm inward.
+
+58
+00:02:41,770 --> 00:02:46,460
+And as the elbow stop and go
+back, I will open the arm.
+
+59
+00:02:46,460 --> 00:02:50,070
+The idea is to make the hand
+drag compared to the elbow.
+
+60
+00:02:50,070 --> 00:02:52,090
+And after a few additional tweak,
+
+61
+00:02:52,090 --> 00:02:54,830
+even if I don't get a perfect result,
+
+62
+00:02:54,830 --> 00:02:56,870
+I get a way better arc,
+
+63
+00:02:56,870 --> 00:03:00,150
+and it will drastically
+improve my animation.
+
+64
+00:03:00,150 --> 00:03:02,560
+Another thing that I have taken care of
+
+65
+00:03:02,560 --> 00:03:05,130
+and we might not see in this recalled,
+
+66
+00:03:05,130 --> 00:03:08,900
+is that the right arm is
+no longer crossing the eyes
+
+67
+00:03:08,900 --> 00:03:12,004
+of the character when getting
+back in front of the head.
+
+68
+00:03:12,004 --> 00:03:14,220
+It's still crossing the head,
+
+69
+00:03:14,220 --> 00:03:17,000
+but they've kept the arm
+from being awkwardly did
+
+70
+00:03:17,000 --> 00:03:18,100
+by the right arm.
+
+71
+00:03:18,100 --> 00:03:20,650
+Regarding the arm tweaking,
+you can see that here,
+
+72
+00:03:20,650 --> 00:03:23,980
+I'm executing exactly
+the same thing as before.
+
+73
+00:03:23,980 --> 00:03:27,710
+I'm polishing the arc so that
+it looks a little better.
+
+74
+00:03:27,710 --> 00:03:29,360
+So I'm tweaking the position of the arm
+
+75
+00:03:29,360 --> 00:03:32,400
+until I get a smoother arc.
+
+76
+00:03:32,400 --> 00:03:35,010
+From there, I will switch
+back to the camera view
+
+77
+00:03:35,010 --> 00:03:39,090
+and work a bit on the forearm
+during the stroke of the hook.
+
+78
+00:03:39,090 --> 00:03:42,250
+The idea is to make sure
+that the current pose
+
+79
+00:03:42,250 --> 00:03:46,440
+is blending as well as
+possible with the next pose.
+
+80
+00:03:46,440 --> 00:03:49,610
+So, I need to lead a bit
+the motion of the arm
+
+81
+00:03:49,610 --> 00:03:51,610
+with the elbow by raising it.
+
+82
+00:03:51,610 --> 00:03:54,430
+And from there, I will start
+to use the tweaker bone
+
+83
+00:03:54,430 --> 00:03:59,430
+of the arms to slightly curve
+the arm into the next shape.
+
+84
+00:03:59,830 --> 00:04:02,820
+It's like I'm starting
+to blurred the smear,
+
+85
+00:04:02,820 --> 00:04:04,090
+but just to touch.
+
+86
+00:04:04,090 --> 00:04:05,890
+The arm is starting to work,
+
+87
+00:04:05,890 --> 00:04:08,970
+but it's still have some
+kind of natural shape.
+
+88
+00:04:08,970 --> 00:04:11,600
+From there, I've been
+tweaking all the controllers
+
+89
+00:04:11,600 --> 00:04:15,310
+one by one to create the
+recoil of the right arm
+
+90
+00:04:15,310 --> 00:04:17,700
+just after the hook hit the bag.
+
+91
+00:04:17,700 --> 00:04:20,450
+Just after the hook hits the back,
+
+92
+00:04:20,450 --> 00:04:23,220
+the right shoulder is projected back.
+
+93
+00:04:23,220 --> 00:04:27,290
+And then, when we've one frame
+of delay, so does the elbow.
+
+94
+00:04:27,290 --> 00:04:30,220
+All these secondary movement
+will happen upon four
+
+95
+00:04:30,220 --> 00:04:31,290
+to five frame.
+
+96
+00:04:31,290 --> 00:04:34,800
+To keep it as clean as
+possible, I will do as usual.
+
+97
+00:04:34,800 --> 00:04:37,420
+I will start with the base of the chain
+
+98
+00:04:37,420 --> 00:04:39,820
+and then go further along.
+
+99
+00:04:39,820 --> 00:04:43,400
+So, I will start with the
+shoulder and a couple of frame
+
+100
+00:04:43,400 --> 00:04:46,130
+after the punch contact with the bag,
+
+101
+00:04:46,130 --> 00:04:48,780
+I will push the shoulder backward.
+
+102
+00:04:48,780 --> 00:04:51,480
+And then two or three frames later,
+
+103
+00:04:51,480 --> 00:04:55,620
+the shoulder will get back to
+some kind of normal position.
+
+104
+00:04:55,620 --> 00:04:59,180
+From there, I can work on
+the right arm controller.
+
+105
+00:04:59,180 --> 00:05:01,100
+And to other point of reference,
+
+106
+00:05:01,100 --> 00:05:03,090
+I will track the right elbow.
+
+107
+00:05:03,090 --> 00:05:07,200
+For the time being, the right
+elbow draws a pretty nice arc,
+
+108
+00:05:07,200 --> 00:05:09,213
+but what I want to try to do,
+
+109
+00:05:09,213 --> 00:05:13,350
+is to reduce the spacing between
+those different key frames.
+
+110
+00:05:13,350 --> 00:05:16,460
+If from the camera view I'm able to group
+
+111
+00:05:16,460 --> 00:05:20,590
+those different point in
+space into a single point
+
+112
+00:05:20,590 --> 00:05:23,240
+or making them very
+close one to the other,
+
+113
+00:05:23,240 --> 00:05:26,150
+it will feel like the
+elbow is pin in place.
+
+114
+00:05:26,150 --> 00:05:29,790
+And it will increase the
+sensation of popping of the elbow.
+
+115
+00:05:29,790 --> 00:05:32,520
+This is typically the kind
+of thing we want to avoid
+
+116
+00:05:32,520 --> 00:05:34,090
+whenever we are animating,
+
+117
+00:05:34,090 --> 00:05:38,140
+to a have bunch of keys gather
+one on top of the other,
+
+118
+00:05:38,140 --> 00:05:42,500
+but in this case, I want
+to have this pop on screen
+
+119
+00:05:42,500 --> 00:05:44,570
+so that it brings more impact.
+
+120
+00:05:44,570 --> 00:05:46,780
+Another little detail we can't see here,
+
+121
+00:05:46,780 --> 00:05:50,420
+is that both arm are
+overlapping one on the other,
+
+122
+00:05:50,420 --> 00:05:52,130
+so it will make the
+silhouette of the character
+
+123
+00:05:52,130 --> 00:05:53,840
+a little odder to rip.
+
+124
+00:05:53,840 --> 00:05:57,420
+So upon the one frame, I will
+just spread a bit the arms,
+
+125
+00:05:57,420 --> 00:05:59,430
+so that they separate better.
+
+126
+00:05:59,430 --> 00:06:00,993
+At least on one frame.
+
+127
+00:06:02,380 --> 00:06:05,290
+It's now time to work on the left arm,
+
+128
+00:06:05,290 --> 00:06:07,760
+and on the first frame until the hook,
+
+129
+00:06:07,760 --> 00:06:09,600
+I didn't do that much.
+
+130
+00:06:09,600 --> 00:06:14,080
+I did find two examples, is I
+did move a bit the curve here
+
+131
+00:06:14,080 --> 00:06:15,990
+and there are to try different timing,
+
+132
+00:06:15,990 --> 00:06:19,770
+but in the end, I stick
+to what I add already
+
+133
+00:06:19,770 --> 00:06:21,080
+from the broken stage.
+
+134
+00:06:21,080 --> 00:06:24,250
+So, let's jump a little
+further to the current hook.
+
+135
+00:06:24,250 --> 00:06:26,640
+To be able to track the
+alchemy by the shoulder,
+
+136
+00:06:26,640 --> 00:06:29,360
+I've used the tweaker
+bones that is attached
+
+137
+00:06:29,360 --> 00:06:31,070
+on the route of the arm.
+
+138
+00:06:31,070 --> 00:06:33,810
+Note that the camera shake
+can be a bit disturbing
+
+139
+00:06:33,810 --> 00:06:37,713
+to be able to properly follow
+the arc of the shoulder.
+
+140
+00:06:37,713 --> 00:06:42,240
+A little reminder, you can
+temporarily disable a modifier
+
+141
+00:06:42,240 --> 00:06:46,170
+by simply selecting the
+bones at all the modifier,
+
+142
+00:06:46,170 --> 00:06:48,900
+and click on the little wrench icon.
+
+143
+00:06:48,900 --> 00:06:51,690
+This will mute all the modifier assign
+
+144
+00:06:51,690 --> 00:06:53,530
+to the current transformed channel,
+
+145
+00:06:53,530 --> 00:06:56,370
+and make the current frame
+a little easier to read.
+
+146
+00:06:56,370 --> 00:07:00,010
+Click the wrench icon again to
+re-enable all the modifiers.
+
+147
+00:07:00,010 --> 00:07:02,150
+So back into my 3D scene,
+
+148
+00:07:02,150 --> 00:07:05,650
+I will select the tweaker
+bone and calculate its arc.
+
+149
+00:07:05,650 --> 00:07:08,070
+So, I really want it to push the shoulder
+
+150
+00:07:08,070 --> 00:07:11,980
+as fast possible just
+after the fist hit the bag.
+
+151
+00:07:11,980 --> 00:07:14,520
+And I'm working the pose from camera view.
+
+152
+00:07:14,520 --> 00:07:17,330
+This is some things that
+will really need to be read
+
+153
+00:07:17,330 --> 00:07:18,730
+from the camera angle.
+
+154
+00:07:18,730 --> 00:07:21,280
+Then you can turn around
+your character to make sure
+
+155
+00:07:21,280 --> 00:07:23,390
+that it doesn't goes too crazy.
+
+156
+00:07:23,390 --> 00:07:25,540
+And right after this overshoot,
+
+157
+00:07:25,540 --> 00:07:28,680
+I'm pulling the shoulder
+back so that we do feel
+
+158
+00:07:28,680 --> 00:07:30,870
+that the bag is resisting.
+
+159
+00:07:30,870 --> 00:07:34,580
+This will create super odd
+angle in the motion path,
+
+160
+00:07:34,580 --> 00:07:36,180
+just up to a frame 47,
+
+161
+00:07:36,180 --> 00:07:38,980
+then it will bounce back on frame 49
+
+162
+00:07:38,980 --> 00:07:41,880
+before recovering on frame 52.
+
+163
+00:07:41,880 --> 00:07:44,870
+So, I have an overshoot over one frame,
+
+164
+00:07:44,870 --> 00:07:47,080
+then a bounce over two frame,
+
+165
+00:07:47,080 --> 00:07:50,060
+and then a recover over three frames.
+
+166
+00:07:50,060 --> 00:07:52,720
+This will create a nice shoulder bounce
+
+167
+00:07:52,720 --> 00:07:56,463
+that will better sell the
+impact again of the hook.
+
+168
+00:07:57,300 --> 00:08:00,620
+From there, we can start
+working on the arm controller.
+
+169
+00:08:00,620 --> 00:08:04,100
+So as usual, we need to track the elbow
+
+170
+00:08:04,100 --> 00:08:06,770
+and see if we get clean arcs.
+
+171
+00:08:06,770 --> 00:08:10,500
+One thing that struck me
+here is that the elbow
+
+172
+00:08:10,500 --> 00:08:14,260
+is traveling faster than the
+shoulder on this specific part
+
+173
+00:08:14,260 --> 00:08:15,660
+of the animation.
+
+174
+00:08:15,660 --> 00:08:19,710
+So, I do need to make the
+elbow or the arm controller
+
+175
+00:08:19,710 --> 00:08:20,543
+to drag.
+
+176
+00:08:20,543 --> 00:08:24,000
+In the graph editor, it means
+that I will push my curve
+
+177
+00:08:24,000 --> 00:08:26,160
+toward the previous value.
+
+178
+00:08:26,160 --> 00:08:29,230
+And if I feel like I can't
+reach the pose I want
+
+179
+00:08:29,230 --> 00:08:32,360
+using the curve, I can
+simply pose by hand.
+
+180
+00:08:32,360 --> 00:08:34,890
+From there, I will be
+tracking the hand controller.
+
+181
+00:08:34,890 --> 00:08:38,070
+You can also track the
+elbow as same before.
+
+182
+00:08:38,070 --> 00:08:42,740
+And here, what I want to
+do is try to avoid the hand
+
+183
+00:08:42,740 --> 00:08:45,610
+to overlap on the eyes of my character.
+
+184
+00:08:45,610 --> 00:08:48,490
+This is something to consider exclusively
+
+185
+00:08:48,490 --> 00:08:49,610
+from the camera view,
+
+186
+00:08:49,610 --> 00:08:52,930
+since this is what your
+audience is going to see.
+
+187
+00:08:52,930 --> 00:08:55,694
+Once I fixed this little issue,
+
+188
+00:08:55,694 --> 00:08:59,380
+everything will be
+about getting a nice arc
+
+189
+00:08:59,380 --> 00:09:01,900
+and respecting the hierarchy.
+
+190
+00:09:01,900 --> 00:09:05,300
+So in this case, making
+the hand drag a bit
+
+191
+00:09:05,300 --> 00:09:06,480
+compared to the elbow.
+
+192
+00:09:06,480 --> 00:09:09,110
+At some point, creating
+this dragging effect
+
+193
+00:09:09,110 --> 00:09:10,990
+became pretty subtle.
+
+194
+00:09:10,990 --> 00:09:13,450
+It's just about rotating a bit the hand
+
+195
+00:09:13,450 --> 00:09:15,330
+toward its previous position.
+
+196
+00:09:15,330 --> 00:09:18,880
+Then I'm checking the
+arcs made around frame 40.
+
+197
+00:09:18,880 --> 00:09:22,010
+The keys are grouping a
+bit in the camera view
+
+198
+00:09:22,010 --> 00:09:23,140
+and that's okay,
+
+199
+00:09:23,140 --> 00:09:26,330
+but I will see if I can
+refine a bit the arc
+
+200
+00:09:26,330 --> 00:09:28,510
+using the forearm controller.
+
+201
+00:09:28,510 --> 00:09:31,810
+That's okay to have grouped
+points here in space,
+
+202
+00:09:31,810 --> 00:09:34,150
+but if you can make a smoother arc,
+
+203
+00:09:34,150 --> 00:09:37,800
+that's always a little
+improvement of your animation.
+
+204
+00:09:37,800 --> 00:09:42,280
+The keys here are bunched up
+because we are into moving hold
+
+205
+00:09:42,280 --> 00:09:45,500
+and we don't want the forearm to overshoot
+
+206
+00:09:45,500 --> 00:09:49,090
+because our character is
+getting very contracted.
+
+207
+00:09:49,090 --> 00:09:51,290
+So it's controlling its arm.
+
+208
+00:09:51,290 --> 00:09:55,090
+Its arm is not lose, be very
+cautious we've overshoot.
+
+209
+00:09:55,090 --> 00:09:56,960
+When I was a younger animator,
+
+210
+00:09:56,960 --> 00:09:59,140
+I tend to put them everywhere.
+
+211
+00:09:59,140 --> 00:10:01,150
+So it looks fun and cool,
+
+212
+00:10:01,150 --> 00:10:04,600
+but at some point it doesn't
+really translate everything
+
+213
+00:10:04,600 --> 00:10:06,310
+in your animation correctly.
+
+214
+00:10:06,310 --> 00:10:10,290
+In certain case, you want
+hard stop in your emotion
+
+215
+00:10:10,290 --> 00:10:14,180
+or sharp angled arcs as we did
+for the shoulder overshoot,
+
+216
+00:10:14,180 --> 00:10:15,890
+just after the impact.
+
+217
+00:10:15,890 --> 00:10:18,530
+Here, on this mirror
+frame, I'm scaling a bit
+
+218
+00:10:18,530 --> 00:10:21,910
+the tweaker bones to get a
+better silhouette of the arm.
+
+219
+00:10:21,910 --> 00:10:25,370
+On the next frame, I will
+elongate a bit the forearm
+
+220
+00:10:25,370 --> 00:10:27,180
+using the tweaker bones.
+
+221
+00:10:27,180 --> 00:10:29,280
+I will also stretch the hand.
+
+222
+00:10:29,280 --> 00:10:31,540
+This has a couple of benefits.
+
+223
+00:10:31,540 --> 00:10:34,830
+First, we better see the
+left eye of the character.
+
+224
+00:10:34,830 --> 00:10:37,870
+Second, it increased speed feeling.
+
+225
+00:10:37,870 --> 00:10:42,690
+So, I'm stretching the fast
+moving part exactly as we did
+
+226
+00:10:42,690 --> 00:10:45,820
+with the bouncing ball in
+the very first chapters.
+
+227
+00:10:45,820 --> 00:10:48,538
+Now, from there, let's get to be creative.
+
+228
+00:10:48,538 --> 00:10:51,368
+Instead of simply punching the bag,
+
+229
+00:10:51,368 --> 00:10:54,816
+we will squash the arm against the bag.
+
+230
+00:10:54,816 --> 00:10:58,820
+And I want to create some
+kind of shockwave effect
+
+231
+00:10:58,820 --> 00:11:00,340
+within the forearm.
+
+232
+00:11:00,340 --> 00:11:02,910
+If you watch carefully
+these frame by frame,
+
+233
+00:11:02,910 --> 00:11:05,810
+you can see the elbow getting bigger.
+
+234
+00:11:05,810 --> 00:11:09,950
+And then this big shape
+traveling through the forearm
+
+235
+00:11:09,950 --> 00:11:12,280
+until it reaches the fist.
+
+236
+00:11:12,280 --> 00:11:15,000
+A bit as in the old school cartoon,
+
+237
+00:11:15,000 --> 00:11:17,780
+when a character was swallowing something,
+
+238
+00:11:17,780 --> 00:11:21,010
+or when someone was
+shooting with a big cannon.
+
+239
+00:11:21,010 --> 00:11:23,370
+Again, here, there is no magical trick.
+
+240
+00:11:23,370 --> 00:11:27,560
+I'm just sculpting the arm of
+the character frame by frame.
+
+241
+00:11:27,560 --> 00:11:30,610
+There is no magical
+graph editor shenanigans
+
+242
+00:11:30,610 --> 00:11:32,920
+to get to this kind of result.
+
+243
+00:11:32,920 --> 00:11:36,260
+So as we did before, I will
+select all the tweaker bone
+
+244
+00:11:36,260 --> 00:11:39,270
+and I will insert the key
+frame on all the frame
+
+245
+00:11:39,270 --> 00:11:42,107
+of the specific section of the animation.
+
+246
+00:11:42,107 --> 00:11:46,030
+This way we are sure that there
+won't be any interpolation
+
+247
+00:11:46,030 --> 00:11:49,700
+of those controller if we forget to reset
+
+248
+00:11:49,700 --> 00:11:51,190
+their transformed channels.
+
+249
+00:11:51,190 --> 00:11:54,940
+From there, frame by frame,
+I will start by scaling
+
+250
+00:11:54,940 --> 00:11:56,380
+the elbow area,
+
+251
+00:11:56,380 --> 00:11:59,150
+then the middle of the forearm.
+
+252
+00:11:59,150 --> 00:12:01,170
+And finally, the fist.
+
+253
+00:12:01,170 --> 00:12:04,210
+Another thing I will do during this stage,
+
+254
+00:12:04,210 --> 00:12:08,610
+is to make sure that the
+wrist doesn't move that much
+
+255
+00:12:08,610 --> 00:12:13,140
+in space, as if the
+fist was hitting a wall.
+
+256
+00:12:13,140 --> 00:12:16,030
+And we will be able to see
+this on the motion path
+
+257
+00:12:16,030 --> 00:12:17,530
+of the wrist controller.
+
+258
+00:12:17,530 --> 00:12:21,400
+As keys will be bunched
+toward the area of the punch.
+
+259
+00:12:21,400 --> 00:12:24,549
+In this section, the camera
+shake is a bit distracting.
+
+260
+00:12:24,549 --> 00:12:28,470
+So what I will do is that
+I will exit pose mode
+
+261
+00:12:28,470 --> 00:12:30,160
+with our character.
+
+262
+00:12:30,160 --> 00:12:32,950
+I will end eyed to dolly camera rig,
+
+263
+00:12:32,950 --> 00:12:35,200
+I will select the aim controller
+
+264
+00:12:35,200 --> 00:12:37,310
+that hold the noise modifier,
+
+265
+00:12:37,310 --> 00:12:41,810
+and I will click the wrench
+icon to disable the modifier.
+
+266
+00:12:41,810 --> 00:12:44,000
+This way it's a little more comfortable
+
+267
+00:12:44,000 --> 00:12:47,330
+to double check my animation
+from the camera view.
+
+268
+00:12:47,330 --> 00:12:50,350
+From there, I can use
+the wrist tweaker bone
+
+269
+00:12:50,350 --> 00:12:53,320
+and stabilize the position of the fist
+
+270
+00:12:53,320 --> 00:12:55,330
+in the camera view space.
+
+271
+00:12:55,330 --> 00:12:59,100
+If needed, we can also tweak
+a bit the position of the arm.
+
+272
+00:12:59,100 --> 00:13:02,670
+The idea is to influence
+the tip of the chain,
+
+273
+00:13:02,670 --> 00:13:04,770
+which is our fist, actually.
+
+274
+00:13:04,770 --> 00:13:09,770
+From there, I spent most of the
+time trying to clean the arm
+
+275
+00:13:09,790 --> 00:13:14,790
+and fist trajectory so that I
+have no glitches into my arcs
+
+276
+00:13:15,320 --> 00:13:17,120
+or into the motion path.
+
+277
+00:13:17,120 --> 00:13:20,970
+Especially when the character
+was pulling his fist back
+
+278
+00:13:20,970 --> 00:13:24,320
+because we have been sculpting the poses
+
+279
+00:13:24,320 --> 00:13:28,550
+during the punch frame by
+frame so there is no surprise.
+
+280
+00:13:28,550 --> 00:13:31,930
+But we haven't checked the
+next step in this animation,
+
+281
+00:13:31,930 --> 00:13:35,190
+which is when the character
+is pulling his arm back.
+
+282
+00:13:35,190 --> 00:13:38,940
+So here, I'm making sure
+that the elbow leads
+
+283
+00:13:38,940 --> 00:13:40,470
+the motion backwards.
+
+284
+00:13:40,470 --> 00:13:44,690
+So the elbow drops first
+and then the fist follow.
+
+285
+00:13:44,690 --> 00:13:47,170
+I will recalculate the motion paths
+
+286
+00:13:47,170 --> 00:13:50,254
+from the wrist tweaker controller.
+
+287
+00:13:50,254 --> 00:13:53,770
+And here, I want to get rid of the zigzag
+
+288
+00:13:53,770 --> 00:13:55,210
+in the motion path.
+
+289
+00:13:55,210 --> 00:13:58,800
+It will create a little
+visual glitch while the fist
+
+290
+00:13:58,800 --> 00:14:03,370
+of our character is slowing
+down as he's pulling it.
+
+291
+00:14:03,370 --> 00:14:05,650
+It's not a fast action.
+
+292
+00:14:05,650 --> 00:14:08,900
+So as explain before, when
+we have a very fast action,
+
+293
+00:14:08,900 --> 00:14:12,810
+it's okay to have harsh
+angles into our arcs,
+
+294
+00:14:12,810 --> 00:14:15,393
+but here, it doesn't look really good.
+
+295
+00:14:16,640 --> 00:14:20,000
+Exit, I will be manipulating
+both the forearm controller
+
+296
+00:14:20,000 --> 00:14:23,680
+and the arm controller to
+make sure that I don't mess
+
+297
+00:14:23,680 --> 00:14:24,676
+with the elbow.
+
+298
+00:14:24,676 --> 00:14:27,990
+I have calculated the
+motion path of the elbow,
+
+299
+00:14:27,990 --> 00:14:29,860
+but also of the wrist.
+
+300
+00:14:29,860 --> 00:14:34,120
+And look at the arcs, all
+I'm slowly smoothing them.
+
+301
+00:14:34,120 --> 00:14:37,310
+As soon as I will be done
+with polishing those arcs,
+
+302
+00:14:37,310 --> 00:14:40,730
+I will be able to jump
+in the very last segment
+
+303
+00:14:40,730 --> 00:14:44,510
+of the animation, which is
+the switch and the kick.
+
+304
+00:14:44,510 --> 00:14:45,500
+For the time being,
+
+305
+00:14:45,500 --> 00:14:49,710
+I will let you with a
+time-lapse of the full process
+
+306
+00:14:49,710 --> 00:14:51,390
+for the hook polishing.
+
+307
+00:14:51,390 --> 00:14:53,343
+And I will see you in the next video.
+

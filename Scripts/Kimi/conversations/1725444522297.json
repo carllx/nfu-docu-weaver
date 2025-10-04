@@ -1,0 +1,26 @@
+{
+    "conversation_id": "crc34lr7p38a4l73q480",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Unity Certified Programmer Exam Guide - Second Edition: Pass the Unity certification exam with the help of expert tips and techniques",
+            "fileID": "crc32ua1jcjm56eqj310",
+            "itemID": 3978,
+            "citation": "Walker, P. (2022). Unity Certified Programmer Exam Guide - Second Edition: Pass the Unity certification exam with the help of expert tips and techniques (2nd ed. edition). Packt Publishing.\n",
+            "citationShort": "Walker, 2022",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Unity Certified Programmer Exam Guide - Second Edition: Pass the Unity certification exam with the help of expert tips and techniques, was published on 2022. (It can be cite this paper as Walker, 2022 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 前言\n- 出版信息\n  - 版权声明\n  - 责任声明\n  - 商标信息\n- 出版团队\n  - 产品管理\n  - 编辑与校对\n  - 设计与营销\n- 首次出版与再版信息\n\n## 第一部分：Unity认证程序员考试指南概览\n### 第1章：设置和构建我们的项目\n- 核心考试技能\n  - 技术要求\n  - 六大核心目标\n- 设计模式概述\n  - 建造者模式\n  - 单例模式\n  - 抽象工厂模式\n  - 原型模式\n  - 对象池模式\n  - 依赖注入\n- SOLID原则\n  - 单一职责原则\n  - 开闭原则\n  - 里氏替换原则\n  - 接口隔离原则\n  - 依赖倒置原则\n- 设计“杀手波”游戏\n  - 游戏设计简报\n  - 游戏框架\n\n## 第二部分：Unity核心技能与实践\n### 第2章：添加和操作对象\n- 核心考试技能\n- 技术要求\n- 设置Unity项目\n- 创建预制件\n- 添加刚体组件和修复游戏对象\n- 保存和发布工作\n- Unity编辑器布局\n- 设置灯光\n- 介绍接口和ScriptableObject\n- 创建PlayerSpawner和EnemySpawner脚本\n\n### 第3章：管理脚本和模拟测试\n- 核心考试技能\n- 技术要求\n- 添加单例设计模式\n- 添加ResetScene()、GameOver()和BeginGame()方法\n- 创建玩家生命值\n- 计分敌方命中\n- 准备ScoreManager脚本\n- 创建玩家子弹声音\n\n### 第4章：应用艺术、动画和粒子\n- 核心考试技能\n- 技术要求\n- 为玩家飞船添加视觉效果\n- 创建材质\n- 应用粒子效果\n- 设置粒子系统的各个部分\n- 导入和动画背景\n\n### 第5章：为我们的游戏创建商店场景\n- 核心考试技能\n- 技术要求\n- 介绍商店脚本\n- 导入和校准精灵游戏对象\n- 显示信用点\n- 自定义商店选择\n- 使用射线选择游戏对象\n\n### 第6章：购买游戏内物品和广告\n- 核心考试技能\n- 技术要求\n- 为玩家飞船购买升级\n- 更新玩家飞船的视觉表示\n- 准备玩家飞船在游戏中使用\n- 设置购买按钮和广告观看按钮\n\n### 第7章：创建游戏循环和模拟测试\n- 核心考试技能\n- 技术要求\n- 过渡玩家飞船\n- 添加PlayerTransition脚本\n- 扩展ScenesManager脚本\n- 添加游戏关卡计时器\n- 准备循环游戏\n\n### 第8章：添加自定义字体和UI\n- 核心考试技能\n- 技术要求\n- 介绍Canvas和UI\n- 应用文本和图像到场景\n- 改进标题场景\n- 准备动画UI游戏对象\n\n### 第9章：创建2D商店界面和游戏内HUD\n- 核心考试技能\n- 技术要求\n- 设置HUD\n- 显示玩家生命值和得分\n- 创建小地图\n- 支持不同屏幕比例的商店场景\n\n### 第10章：暂停游戏、调整声音和模拟测试\n- 核心考试技能\n- 技术要求\n- 应用和调整关卡音乐\n- 更新GameManager prefab\n- 创建暂停屏幕\n- 添加音量UI滑块\n\n### 第11章：存储数据和音频混合器\n- 核心考试技能\n- 技术要求\n- 使用音频混合器\n- 存储数据\n- 使用PlayerPrefs和JSON\n\n### 第12章：NavMesh、Timeline和模拟测试\n- 核心考试技能\n- 技术要求\n- 准备最终场景\n- 开发AI使用NavMesh\n- 探索Timeline\n- 扩展Timeline功能\n\n### 第13章：效果、测试、性能和替代控制\n- 核心考试技能\n- 技术要求\n- 应用物理与Rigidbody\n- 定制不同平台\n- 扩展屏幕比例支持\n- 准备构建Killer Wave游戏\n\n### 第14章：完整的Unity程序员模拟考试\n- 完整的模拟考试\n\n## 附录\n- 开发虚拟现实\n- 游戏/考试的结束建议\n- 渲染路径\n- 添加/优化Killer Wave\n- 模拟答案\n\n## 其他书籍推荐\n\n## 参考文献\n- Walker, P. (2022). Unity Certified Programmer Exam Guide - Second Edition. Packt Publishing.",
+    "refs": [
+        "crc32ua1jcjm56eqj310"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "crc34lrf4kmitedruhsg",
+    "req_id": "crc34lrf4kmitedruht0",
+    "resp_id": "crc34lrf4kmitedruhtg",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

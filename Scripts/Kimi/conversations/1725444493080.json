@@ -1,0 +1,26 @@
+{
+    "conversation_id": "crc333m65rac6o6pjop0",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Basic Math for Game Development with Unity 3D: A Beginner's Guide to Mathematical Foundations",
+            "fileID": "crc32pieseph1uf58jt0",
+            "itemID": 3982,
+            "citation": "Sung, K., & Smith, G. (2023). Basic Math for Game Development with Unity 3D: A Beginner’s Guide to Mathematical Foundations (2nd edition). Apress.\n",
+            "citationShort": "⁨Sung⁩ and ⁨Smith⁩, 2023",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Basic Math for Game Development with Unity 3D: A Beginner's Guide to Mathematical Foundations, was published on 2023. (It can be cite this paper as ⁨Sung⁩ and ⁨Smith⁩, 2023 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 第1章：Unity 3D 游戏开发基础数学\n1.1 引言\n   - 书籍目的与读者对象\n   - 数学在游戏开发中的重要性\n\n1.2 Unity 引擎的选择\n   - Unity 引擎的特点\n   - Unity 对数学概念的支持\n\n1.3 开发环境设置\n   - Unity 编辑器的介绍\n   - 安装 Unity 和集成开发环境（IDE）\n\n1.4 Unity 编辑器环境\n   - 打开 Unity 项目\n   - Unity 编辑器的工作方式\n\n1.5 如何使用本书\n   - 学习资源和额外材料\n   - 总结与参考资料\n\n## 第2章：区间和边界框\n2.1 引言\n2.2 笛卡尔坐标系回顾\n2.3 区间：最小-最大范围\n   - 一维区间示例\n\n2.4 轴对齐边界框\n   - 三维区间示例\n\n2.5 区间碰撞\n   - 区间边界交集示例\n\n2.6 边界框碰撞\n   - 边界框边界交集示例\n\n2.7 边界框的最终思考\n   - Unity 边界框类\n\n## 第3章：距离和边界球体\n3.1 引言\n3.2 位置间的距离\n3.3 球体碰撞器或边界球体\n   - 球体边界示例\n\n3.4 边界球体碰撞\n   - 球体边界交集示例\n\n3.5 Unity 边界球体类\n\n## 第4章：向量\n4.1 引言\n4.2 向量：关联两个点\n4.3 位置向量\n   - 跟随向量示例\n\n4.4 向量代数：缩放\n   - 向量缩放和归一化示例\n\n4.5 向量应用：速度\n   - 速度和瞄准示例\n\n4.6 向量代数：加法和减法\n   - 向量加减示例\n\n4.7 向量代数应用\n   - 风向条件示例\n\n## 第5章：向量点积\n5.1 引言\n5.2 向量点积：关联两个向量\n5.3 向量点积性质\n5.4 两个向量之间的角度\n   - 向量角度示例\n\n5.5 向量投影\n   - 向量投影示例\n\n5.6 线段表示\n   - 线段内部-外部测试示例\n\n5.7 线到点距离\n   - 线到点距离示例\n\n5.8 线到线距离\n   - 线到线距离示例\n\n## 第6章：向量叉积和二维平面\n6.1 引言\n6.2 三维坐标系统约定\n6.3 向量叉积：垂直方向\n6.4 向量叉积的几何解释\n6.5 向量叉积性质\n6.6 向量平面方程\n   - 位置 Pn 在平面上\n   - 给定平面上的位置\n\n6.7 轴框架和二维区域\n   - 边界上的轴框架和二维区域示例\n\n6.8 对二维平面的投影\n   - 点到平面投影示例\n\n6.9 线到平面交点\n   - 线平面交点示例\n\n6.10 镜像反射穿过平面\n   - 反射方向示例\n\n## 第7章：轴框架和向量分量\n7.1 引言\n7.2 笛卡尔坐标系中的坐标位置\n7.3 一般轴框架中的位置\n   - 一般轴框架中的位置向量示例\n\n7.4 轴框架中的向量分量\n   - 任何框架中的向量分量示例\n\n7.5 轴框架中的运动控制\n   - 轴框架中的运动示例\n\n7.6 Unity 中的轴框架\n\n## 第8章：四元数和旋转\n8.1 引言\n8.2 旋转术语\n8.3 四元数：四个元组\n   - 角度和轴的编码\n\n8.4 旋转操作\n8.5 四元数旋转限制\n8.6 旋转位置和向量\n   - 使用四元数旋转示例\n\n8.7 四元数串联\n   - 四元数串联示例\n\n8.8 对齐向量方向\n   - 对齐向量方向示例\n\n8.9 插值和追逐行为\n   - 插值：逐渐变化示例\n\n8.10 对齐轴框架\n   - Unity 四元数类\n\n## 第9章：结论\n9.1 最终综合示例\n   - 场景检查\n   - 控制器 MyScript 组件分析\n   - 示例交互\n\n9.2 接下来做什么\n\n## 附录\n- 索引\n- 作者简介\n\n## 参考文献\n- ⁨Sung⁩ 和 ⁨Smith⁩, 2023",
+    "refs": [
+        "crc32pieseph1uf58jt0"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "crc333gjcvqjgj3eugjg",
+    "req_id": "crc333gjcvqjgj3eugk0",
+    "resp_id": "crc333gjcvqjgj3eugkg",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

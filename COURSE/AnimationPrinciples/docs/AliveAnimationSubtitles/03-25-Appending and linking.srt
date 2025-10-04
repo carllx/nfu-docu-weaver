@@ -1,0 +1,654 @@
+﻿1
+00:00:00,788 --> 00:00:01,621
+- [Pierre] In this video,
+
+2
+00:00:01,621 --> 00:00:05,270
+we'll see how to append
+or link our character
+
+3
+00:00:05,270 --> 00:00:07,870
+into a new Blender scene.
+
+4
+00:00:07,870 --> 00:00:10,130
+At the time I'm recording this video,
+
+5
+00:00:10,130 --> 00:00:13,710
+the linking system is
+still under development.
+
+6
+00:00:13,710 --> 00:00:15,830
+So I will just give you the very basic
+
+7
+00:00:15,830 --> 00:00:19,540
+to be able to input your
+character in a new scene
+
+8
+00:00:19,540 --> 00:00:21,780
+to create whatever shots you want.
+
+9
+00:00:21,780 --> 00:00:23,460
+You can use two different methods.
+
+10
+00:00:23,460 --> 00:00:26,570
+The first one will be
+to append our assets.
+
+11
+00:00:26,570 --> 00:00:28,400
+I have a new Blender scene open.
+
+12
+00:00:28,400 --> 00:00:32,030
+I will get rid of everything,
+go to File, Append.
+
+13
+00:00:32,030 --> 00:00:35,580
+From there, I can search
+into the file folder
+
+14
+00:00:35,580 --> 00:00:38,020
+for the final squirrel file.
+
+15
+00:00:38,020 --> 00:00:40,380
+Blender files are containers,
+
+16
+00:00:40,380 --> 00:00:42,993
+and as soon as I will select it,
+
+17
+00:00:42,993 --> 00:00:45,640
+a bunch of folders will appear.
+
+18
+00:00:45,640 --> 00:00:49,570
+You can contender the
+blend file as zipped file.
+
+19
+00:00:49,570 --> 00:00:52,030
+You will find a hierarchy of folders
+
+20
+00:00:52,030 --> 00:00:54,740
+containing all the assets you have
+
+21
+00:00:54,740 --> 00:00:57,250
+in your original Blender file.
+
+22
+00:00:57,250 --> 00:01:00,260
+Wherever it's your mesh
+data, the scene options,
+
+23
+00:01:00,260 --> 00:01:03,150
+the materials, the world, et cetera.
+
+24
+00:01:03,150 --> 00:01:05,360
+And it also includes the collection.
+
+25
+00:01:05,360 --> 00:01:06,870
+So if I click my collection
+
+26
+00:01:06,870 --> 00:01:09,260
+and import my squirrel collection,
+
+27
+00:01:09,260 --> 00:01:11,440
+Blender will append
+the squirrel collection
+
+28
+00:01:11,440 --> 00:01:15,230
+including the squeal
+object and the armature.
+
+29
+00:01:15,230 --> 00:01:19,270
+And it will also append
+everything used by this collection
+
+30
+00:01:19,270 --> 00:01:22,530
+whether it's the material of our squirrel
+
+31
+00:01:22,530 --> 00:01:26,330
+or the widget object I've
+used to create the rig.
+
+32
+00:01:26,330 --> 00:01:30,140
+So I can select all of those
+objects in the collection
+
+33
+00:01:30,140 --> 00:01:34,290
+and in the 3D viewport,
+press X to delete them.
+
+34
+00:01:34,290 --> 00:01:37,710
+From there I can use the rig
+and the squirrel character,
+
+35
+00:01:37,710 --> 00:01:40,660
+as we will do, in the original file.
+
+36
+00:01:40,660 --> 00:01:43,520
+If I open the action editor now,
+
+37
+00:01:43,520 --> 00:01:47,620
+Blender has imported the
+run cycle only animation
+
+38
+00:01:47,620 --> 00:01:50,890
+because it was the one
+that was used in the file.
+
+39
+00:01:50,890 --> 00:01:54,670
+Since all the action were
+not assigned to the armature
+
+40
+00:01:54,670 --> 00:01:58,170
+on the origin file, they were not used
+
+41
+00:01:58,170 --> 00:02:00,020
+and hence not imported.
+
+42
+00:02:00,020 --> 00:02:02,960
+So I can go to File and Append again
+
+43
+00:02:02,960 --> 00:02:06,860
+and browse for the action
+in our squirrel file.
+
+44
+00:02:06,860 --> 00:02:10,070
+And I can choose whatever
+action I want to import.
+
+45
+00:02:10,070 --> 00:02:13,170
+Now I can find them in my action library
+
+46
+00:02:13,170 --> 00:02:15,240
+but they have no users.
+
+47
+00:02:15,240 --> 00:02:17,720
+So remember, if you want to keep them
+
+48
+00:02:17,720 --> 00:02:20,220
+while saving and closing your file,
+
+49
+00:02:20,220 --> 00:02:22,500
+you need to add a fake user.
+
+50
+00:02:22,500 --> 00:02:25,250
+So basically, appending an asset
+
+51
+00:02:25,250 --> 00:02:28,993
+is like copy and pasting
+it from another file.
+
+52
+00:02:30,210 --> 00:02:32,690
+Let's now have a look to linking.
+
+53
+00:02:32,690 --> 00:02:34,060
+In an empty Blender file,
+
+54
+00:02:34,060 --> 00:02:38,890
+I will go to File, Link and
+browse for my original file.
+
+55
+00:02:38,890 --> 00:02:42,350
+Go into the collection
+and link the collection.
+
+56
+00:02:42,350 --> 00:02:43,720
+I get something pretty close
+
+57
+00:02:43,720 --> 00:02:47,430
+to what we had when I've
+appended the collection.
+
+58
+00:02:47,430 --> 00:02:49,880
+I can see my squirrel, I can see the rig,
+
+59
+00:02:49,880 --> 00:02:53,430
+when I go into preview mode
+to material seems to work.
+
+60
+00:02:53,430 --> 00:02:55,082
+In the action editor,
+
+61
+00:02:55,082 --> 00:02:57,880
+there seems to be the
+animation in the library.
+
+62
+00:02:57,880 --> 00:02:59,570
+The main difference we can here
+
+63
+00:02:59,570 --> 00:03:03,140
+is that our characters seems
+to be attached to an empty
+
+64
+00:03:03,140 --> 00:03:06,090
+and it's currently an empty object.
+
+65
+00:03:06,090 --> 00:03:10,490
+And this empty object
+is currently instancing
+
+66
+00:03:10,490 --> 00:03:13,160
+the collection of our squirrel.
+
+67
+00:03:13,160 --> 00:03:16,440
+So it's not an independent
+copy of the collection
+
+68
+00:03:16,440 --> 00:03:18,860
+but currently some kind of a clone
+
+69
+00:03:18,860 --> 00:03:23,120
+where I can't edit in, I only
+have access to object mode.
+
+70
+00:03:23,120 --> 00:03:24,810
+And it's the same for the action.
+
+71
+00:03:24,810 --> 00:03:25,900
+If I unfold it,
+
+72
+00:03:25,900 --> 00:03:29,030
+you can see that the key
+frame are not exposed
+
+73
+00:03:29,030 --> 00:03:30,950
+and I can't modify them.
+
+74
+00:03:30,950 --> 00:03:32,980
+To be able to access our rig,
+
+75
+00:03:32,980 --> 00:03:35,240
+we need to go into the collection
+
+76
+00:03:35,240 --> 00:03:39,530
+and find our collection under
+the collection instance.
+
+77
+00:03:39,530 --> 00:03:42,930
+This little chain icon is here to tell us
+
+78
+00:03:42,930 --> 00:03:44,660
+this is a linked data.
+
+79
+00:03:44,660 --> 00:03:48,000
+Right click on it and under ID data,
+
+80
+00:03:48,000 --> 00:03:51,490
+go to add library override hierarchy.
+
+81
+00:03:51,490 --> 00:03:55,560
+It has created a new
+collection called Squirrel
+
+82
+00:03:55,560 --> 00:03:59,650
+with a new icon showing a
+chain across by an arrow.
+
+83
+00:03:59,650 --> 00:04:01,900
+Those are still a linked asset,
+
+84
+00:04:01,900 --> 00:04:05,600
+but we can now access our squirrel object
+
+85
+00:04:05,600 --> 00:04:08,310
+and also our squirrel armature.
+
+86
+00:04:08,310 --> 00:04:12,050
+So I can get rid of my squirrel instance.
+
+87
+00:04:12,050 --> 00:04:14,690
+The cool thing is that I
+can now go into pause mode
+
+88
+00:04:14,690 --> 00:04:18,250
+onto my armature and they
+can manipulate my character
+
+89
+00:04:18,250 --> 00:04:20,460
+as we will do in your original file.
+
+90
+00:04:20,460 --> 00:04:23,920
+But if I want to edit
+my character, I can't.
+
+91
+00:04:23,920 --> 00:04:27,070
+Blender will output an error message
+
+92
+00:04:27,070 --> 00:04:30,170
+because I can't did the data of my object
+
+93
+00:04:30,170 --> 00:04:32,430
+nor the data of the mesh.
+
+94
+00:04:32,430 --> 00:04:35,300
+We can see that the data are grayed out.
+
+95
+00:04:35,300 --> 00:04:38,670
+So basically, they don't
+belong to this Blender file
+
+96
+00:04:38,670 --> 00:04:40,410
+but to another Blender file.
+
+97
+00:04:40,410 --> 00:04:44,800
+So we can use those data,
+but we can't modify them.
+
+98
+00:04:44,800 --> 00:04:46,920
+And it's the same with the armature,
+
+99
+00:04:46,920 --> 00:04:49,170
+I can't go into edit mode.
+
+100
+00:04:49,170 --> 00:04:52,510
+And it's also the same
+with animation data,
+
+101
+00:04:52,510 --> 00:04:55,230
+we can't edit the current animation.
+
+102
+00:04:55,230 --> 00:04:57,500
+But since we can access our rig
+
+103
+00:04:57,500 --> 00:05:00,720
+we can create new animation if we want.
+
+104
+00:05:00,720 --> 00:05:01,880
+And the cool thing
+
+105
+00:05:01,880 --> 00:05:06,160
+is that we can make the
+current animation local
+
+106
+00:05:06,160 --> 00:05:09,520
+so I can import all the link an animation
+
+107
+00:05:09,520 --> 00:05:11,440
+we have made previously,
+
+108
+00:05:11,440 --> 00:05:15,290
+make it local So is that
+it's currently a copy
+
+109
+00:05:15,290 --> 00:05:18,700
+of the animation and we
+can modify it at will.
+
+110
+00:05:18,700 --> 00:05:22,037
+To make it local, just select the action
+
+111
+00:05:22,037 --> 00:05:23,590
+and click on the chain.
+
+112
+00:05:23,590 --> 00:05:26,330
+It will become a local action,
+
+113
+00:05:26,330 --> 00:05:29,140
+or you can simply duplicate the action
+
+114
+00:05:29,140 --> 00:05:31,840
+and it will create a local action
+
+115
+00:05:31,840 --> 00:05:35,270
+that is exactly the
+same as the linked one.
+
+116
+00:05:35,270 --> 00:05:39,070
+The big benefit of used linked assets
+
+117
+00:05:39,070 --> 00:05:43,848
+is that if the asset gets
+modified in the original file,
+
+118
+00:05:43,848 --> 00:05:46,699
+it will be updated in our scene.
+
+119
+00:05:46,699 --> 00:05:49,990
+To do so, I just need to
+go in your original file,
+
+120
+00:05:49,990 --> 00:05:53,140
+modify the color of the
+character for example,
+
+121
+00:05:53,140 --> 00:05:55,540
+or its shape, save it.
+
+122
+00:05:55,540 --> 00:05:57,800
+Then in the Blender
+file where we are using
+
+123
+00:05:57,800 --> 00:06:01,570
+those linked data, We can
+save this file for example,
+
+124
+00:06:01,570 --> 00:06:04,270
+and just revert it or reload it
+
+125
+00:06:04,270 --> 00:06:07,380
+so that it will update
+all the linked data.
+
+126
+00:06:07,380 --> 00:06:09,530
+So while, as animators,
+
+127
+00:06:09,530 --> 00:06:13,890
+we want to be able to create
+a new animation, which we can,
+
+128
+00:06:13,890 --> 00:06:18,680
+we may not want to mess up with
+the rig all with the object.
+
+129
+00:06:18,680 --> 00:06:20,590
+And if in the meantime,
+
+130
+00:06:20,590 --> 00:06:24,850
+the character artist is
+updating our character,
+
+131
+00:06:24,850 --> 00:06:29,480
+Whenever we go back to the
+scene to continue on animating
+
+132
+00:06:29,480 --> 00:06:31,800
+it will update automatically.
+
+133
+00:06:31,800 --> 00:06:36,800
+So using linked asset is
+super powerful in production.
+
+134
+00:06:37,450 --> 00:06:41,550
+To summarize, we have seen
+that when we append data
+
+135
+00:06:41,550 --> 00:06:44,020
+from one Blender file to another,
+
+136
+00:06:44,020 --> 00:06:48,870
+it creates an original copy,
+it's like using copy and paste.
+
+137
+00:06:48,870 --> 00:06:53,680
+When we link asset it will
+currently create an empty object
+
+138
+00:06:53,680 --> 00:06:56,560
+with an instance of the asset.
+
+139
+00:06:56,560 --> 00:06:58,870
+To be able to use those assets
+
+140
+00:06:58,870 --> 00:07:02,200
+we need to create a library override.
+
+141
+00:07:02,200 --> 00:07:04,850
+The big benefit of library override
+
+142
+00:07:04,850 --> 00:07:09,160
+is that we can use the
+data from those assets
+
+143
+00:07:09,160 --> 00:07:13,180
+but we can't edit them, so
+they are kind of protected.
+
+144
+00:07:13,180 --> 00:07:16,180
+And whenever the source
+file is getting updated
+
+145
+00:07:17,110 --> 00:07:21,120
+our current file will be updated too,
+
+146
+00:07:21,120 --> 00:07:24,500
+making it perfect for team work.
+
+147
+00:07:24,500 --> 00:07:27,270
+So using a linked asset library
+
+148
+00:07:27,270 --> 00:07:31,183
+is perfect for teamwork
+or large-scale projects.
+

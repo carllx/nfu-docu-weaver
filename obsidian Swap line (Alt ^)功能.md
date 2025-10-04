@@ -1,0 +1,1 @@
+move a line -- Obsidian>> Setting >> Hotkey >> Search >> `Swap line up`  or `Swap line down`

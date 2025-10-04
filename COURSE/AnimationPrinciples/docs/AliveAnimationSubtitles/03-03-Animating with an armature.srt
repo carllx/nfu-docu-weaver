@@ -1,0 +1,770 @@
+﻿1
+00:00:00,720 --> 00:00:01,870
+- [Instructor] From the time being,
+
+2
+00:00:01,870 --> 00:00:04,820
+we've been animating only object.
+
+3
+00:00:04,820 --> 00:00:08,330
+And we have seen that each
+time we try to animate
+
+4
+00:00:08,330 --> 00:00:11,190
+a new object, the new animation
+
+5
+00:00:11,190 --> 00:00:14,100
+or a new action data is created.
+
+6
+00:00:14,100 --> 00:00:17,000
+And when it comes to animating an object,
+
+7
+00:00:17,000 --> 00:00:21,390
+we are currently only animating
+at point, its origin point.
+
+8
+00:00:21,390 --> 00:00:23,700
+But what if we want to animate
+
+9
+00:00:23,700 --> 00:00:26,370
+a more complex object or a character,
+
+10
+00:00:26,370 --> 00:00:30,400
+will we have to create an
+action for each finger,
+
+11
+00:00:30,400 --> 00:00:34,500
+or do you bend an armor if
+it's not a separated object?
+
+12
+00:00:34,500 --> 00:00:37,240
+There is one tool that
+allow us to do this,
+
+13
+00:00:37,240 --> 00:00:40,070
+and you've probably
+already heard about it.
+
+14
+00:00:40,070 --> 00:00:42,520
+It's a rig or an armature.
+
+15
+00:00:42,520 --> 00:00:45,980
+So if you think of a
+human with character rig,
+
+16
+00:00:45,980 --> 00:00:48,290
+it's generally a skeleton
+
+17
+00:00:48,290 --> 00:00:51,140
+with a bunch of constraints and mechanism
+
+18
+00:00:51,140 --> 00:00:54,960
+that allow the animator to
+manipulate the character
+
+19
+00:00:54,960 --> 00:00:56,707
+in an intuitive fashion.
+
+20
+00:00:56,707 --> 00:00:58,910
+And you can rig absolutely anything.
+
+21
+00:00:58,910 --> 00:01:01,450
+Here is a new version
+of our bouncing ball.
+
+22
+00:01:01,450 --> 00:01:03,380
+So there is a new object in my scene,
+
+23
+00:01:03,380 --> 00:01:05,420
+I can find my ball object,
+
+24
+00:01:05,420 --> 00:01:09,150
+but I also can find this
+ball armature object,
+
+25
+00:01:09,150 --> 00:01:12,260
+and as an object, it has
+transformed channels.
+
+26
+00:01:12,260 --> 00:01:13,643
+And as any other object,
+
+27
+00:01:13,643 --> 00:01:16,290
+it's a container with specific data,
+
+28
+00:01:16,290 --> 00:01:19,620
+we can't find armature data and bone data.
+
+29
+00:01:19,620 --> 00:01:23,920
+Also as a specific object,
+it has a specific mode,
+
+30
+00:01:23,920 --> 00:01:28,060
+an edition mode, that
+allow to bird the armature,
+
+31
+00:01:28,060 --> 00:01:30,300
+and that is used by a riggers,
+
+32
+00:01:30,300 --> 00:01:34,210
+so you won't need to enter
+edit mode at any time
+
+33
+00:01:34,210 --> 00:01:38,010
+and a pose mode, that is
+the mode that will allow us
+
+34
+00:01:38,010 --> 00:01:42,560
+to manipulate the armature
+and animate whatever character
+
+35
+00:01:42,560 --> 00:01:46,100
+or object that is bound to this armature.
+
+36
+00:01:46,100 --> 00:01:49,330
+We can change mode from object to pose
+
+37
+00:01:49,330 --> 00:01:51,300
+by pressing Control + Tab.
+
+38
+00:01:51,300 --> 00:01:54,560
+So let's have a closer look
+to this rig or armature.
+
+39
+00:01:54,560 --> 00:01:57,890
+When in pose mode, you can
+select whatever controller
+
+40
+00:01:57,890 --> 00:02:01,930
+you want, those are called
+bones, and you can consider them
+
+41
+00:02:01,930 --> 00:02:05,110
+as being sub object of the armature.
+
+42
+00:02:05,110 --> 00:02:06,750
+It means that each bone
+
+43
+00:02:06,750 --> 00:02:09,960
+will have its own transformed channels
+
+44
+00:02:09,960 --> 00:02:14,960
+and each bone have a specific
+behavior or a specific task
+
+45
+00:02:15,060 --> 00:02:17,040
+such as being created by the rigor.
+
+46
+00:02:17,040 --> 00:02:20,140
+On our bone domain
+controller is called the root
+
+47
+00:02:20,140 --> 00:02:22,670
+and allow us to move the entire ball.
+
+48
+00:02:22,670 --> 00:02:25,500
+Moving the green controllers allow us
+
+49
+00:02:25,500 --> 00:02:27,720
+to use squash and stretch,
+
+50
+00:02:27,720 --> 00:02:31,070
+the yellow controller allow
+us to rotate the ball.
+
+51
+00:02:31,070 --> 00:02:34,020
+So instead of transforming
+the ball directly,
+
+52
+00:02:34,020 --> 00:02:36,400
+here we are using those controllers
+
+53
+00:02:36,400 --> 00:02:38,690
+to create those transformation.
+
+54
+00:02:38,690 --> 00:02:42,610
+And it will allow us to
+create way more complex
+
+55
+00:02:42,610 --> 00:02:45,390
+transformation on to a character
+
+56
+00:02:45,390 --> 00:02:48,320
+than animating simple objects,
+
+57
+00:02:48,320 --> 00:02:52,303
+because the armature can deform the object
+
+58
+00:02:52,303 --> 00:02:54,300
+that is bound to it.
+
+59
+00:02:54,300 --> 00:02:58,340
+The armature is actually a simple modifier
+
+60
+00:02:58,340 --> 00:03:01,020
+that deform our object.
+
+61
+00:03:01,020 --> 00:03:05,320
+So a versatile armature
+or rig will allow you
+
+62
+00:03:05,320 --> 00:03:08,640
+to give the pose you
+want for your character
+
+63
+00:03:08,640 --> 00:03:11,770
+and the good rig will give you the maximum
+
+64
+00:03:11,770 --> 00:03:15,950
+of posing possibilities
+with intuitive fashion.
+
+65
+00:03:15,950 --> 00:03:19,720
+So before we start animating
+this query character,
+
+66
+00:03:19,720 --> 00:03:21,820
+I will give you some good practice
+
+67
+00:03:21,820 --> 00:03:25,443
+when it comes to animating
+using an armature.
+
+68
+00:03:25,443 --> 00:03:26,330
+(swooshing slide)
+
+69
+00:03:26,330 --> 00:03:31,150
+With my ball rig file open,
+I will enable the Auto King
+
+70
+00:03:31,150 --> 00:03:35,110
+and I will switch to pose mode
+by pressing Control + Tab.
+
+71
+00:03:35,110 --> 00:03:37,730
+As soon as I transform
+one of the controller
+
+72
+00:03:37,730 --> 00:03:41,570
+by selecting it pressing G, S or R
+
+73
+00:03:41,570 --> 00:03:43,640
+as I will do for any object,
+
+74
+00:03:43,640 --> 00:03:47,800
+I can see that my Auto King
+is recording what I'm doing
+
+75
+00:03:47,800 --> 00:03:50,570
+and Blender is creating a keyframe
+
+76
+00:03:50,570 --> 00:03:53,370
+for the transform channels
+of the controllers.
+
+77
+00:03:53,370 --> 00:03:57,070
+The first awesome thing is that
+if I switch to the doc sheet
+
+78
+00:03:57,070 --> 00:04:00,160
+in the action editor and switch to see
+
+79
+00:04:00,160 --> 00:04:02,740
+all the keyed channel, I can see that
+
+80
+00:04:02,740 --> 00:04:05,810
+all the different manipulator animation
+
+81
+00:04:05,810 --> 00:04:08,920
+are stored into a single action
+
+82
+00:04:08,920 --> 00:04:13,920
+because the action is associated
+to the armature object
+
+83
+00:04:14,307 --> 00:04:17,010
+and we can consider each manipulator
+
+84
+00:04:17,010 --> 00:04:21,150
+as being a sub object
+that can be animated.
+
+85
+00:04:21,150 --> 00:04:22,680
+And as for any object,
+
+86
+00:04:22,680 --> 00:04:26,840
+I can see that each of the
+manipulator has their location,
+
+87
+00:04:26,840 --> 00:04:30,847
+rotation and scale key, but
+each of those controller
+
+88
+00:04:30,847 --> 00:04:35,100
+has a specific desk, for example,
+this rotation controller,
+
+89
+00:04:35,100 --> 00:04:38,320
+if I try to move it or scale it, I can't.
+
+90
+00:04:38,320 --> 00:04:40,290
+And when I try to rotate it,
+
+91
+00:04:40,290 --> 00:04:43,820
+it only rotates around its x-axis.
+
+92
+00:04:43,820 --> 00:04:48,090
+So instead of having a keyframe
+for every transform channel,
+
+93
+00:04:48,090 --> 00:04:51,460
+that couldn't be better
+if I add only a keyframe
+
+94
+00:04:51,460 --> 00:04:54,830
+on its x rotation, since I won't be using
+
+95
+00:04:54,830 --> 00:04:57,090
+any other of its transform channel.
+
+96
+00:04:57,090 --> 00:05:00,270
+So I've selected all the
+transform channel I don't want,
+
+97
+00:05:00,270 --> 00:05:03,170
+And I will simply press
+X to get rid of them.
+
+98
+00:05:03,170 --> 00:05:05,680
+Now, I will go a little further in time
+
+99
+00:05:05,680 --> 00:05:08,380
+and I will try to rotate the ball.
+
+100
+00:05:08,380 --> 00:05:11,300
+As soon as I rotate to
+rotation controller,
+
+101
+00:05:11,300 --> 00:05:15,760
+I can see Auto King is on and
+the x value being arranged,
+
+102
+00:05:15,760 --> 00:05:18,720
+meaning that it's being
+transformed but not recorded.
+
+103
+00:05:18,720 --> 00:05:23,390
+But as soon as I release the
+transform Blender, right again,
+
+104
+00:05:23,390 --> 00:05:26,300
+a keyframe on all the transform channels,
+
+105
+00:05:26,300 --> 00:05:28,570
+and I can go ahead for
+a long time like that,
+
+106
+00:05:28,570 --> 00:05:30,390
+removing the keyframe I don't want
+
+107
+00:05:30,390 --> 00:05:33,170
+and whenever I try to
+transform this manipulator,
+
+108
+00:05:33,170 --> 00:05:35,570
+Blender writes a keyframe on everything.
+
+109
+00:05:35,570 --> 00:05:37,800
+So to get rid of this issue,
+
+110
+00:05:37,800 --> 00:05:41,150
+we need to create what we call a king set.
+
+111
+00:05:41,150 --> 00:05:45,920
+To access the king option, we
+need to go into the timeline.
+
+112
+00:05:45,920 --> 00:05:49,330
+So the first thing I do
+is renaming the action
+
+113
+00:05:49,330 --> 00:05:52,240
+and call it zero zero
+so that it will be first
+
+114
+00:05:52,240 --> 00:05:55,640
+in the alphabetic order, king set ball.
+
+115
+00:05:55,640 --> 00:05:58,390
+Now I will check each controller
+
+116
+00:05:58,390 --> 00:06:01,560
+and for each transform
+channel that is locked,
+
+117
+00:06:01,560 --> 00:06:05,010
+I will get rid of the
+corresponding keyframe
+
+118
+00:06:05,010 --> 00:06:07,670
+because these are the only keys
+
+119
+00:06:07,670 --> 00:06:11,030
+that will really serve
+the animation of the ball.
+
+120
+00:06:11,030 --> 00:06:14,730
+In the end I only have
+14 keyframes remaining
+
+121
+00:06:14,730 --> 00:06:17,480
+instead of the 36 initial I had.
+
+122
+00:06:17,480 --> 00:06:20,140
+So my action editor and my graph editor
+
+123
+00:06:20,140 --> 00:06:24,640
+will sure be way cleaner, I
+now need to open the timeline.
+
+124
+00:06:24,640 --> 00:06:29,070
+So I will drag a new editor
+and switch to the timeline.
+
+125
+00:06:29,070 --> 00:06:32,530
+In the timeline header I
+will go to the king set
+
+126
+00:06:32,530 --> 00:06:34,100
+and in the active king,
+
+127
+00:06:34,100 --> 00:06:37,520
+I can see that I have a
+lot of different options.
+
+128
+00:06:37,520 --> 00:06:40,440
+So I will choose rotation
+and I will try rotating
+
+129
+00:06:40,440 --> 00:06:43,830
+my manipulator then
+Blender is still recording
+
+130
+00:06:43,830 --> 00:06:46,300
+all the keyframe, and this is because
+
+131
+00:06:46,300 --> 00:06:49,400
+we need to tell Blender
+to use this king set
+
+132
+00:06:49,400 --> 00:06:53,380
+by clicking the arrow near
+the auto recording button
+
+133
+00:06:53,380 --> 00:06:56,250
+and choose only active king set.
+
+134
+00:06:56,250 --> 00:06:59,130
+Now when I try transforming
+my manipulator,
+
+135
+00:06:59,130 --> 00:07:01,910
+all the rotation channel will be keyframe.
+
+136
+00:07:01,910 --> 00:07:03,130
+So we are getting close,
+
+137
+00:07:03,130 --> 00:07:06,050
+I will get rid of the unwanted keyframe
+
+138
+00:07:06,050 --> 00:07:08,280
+and if we go back into the king set,
+
+139
+00:07:08,280 --> 00:07:10,860
+we can see that there is a lot of option
+
+140
+00:07:10,860 --> 00:07:14,620
+and the one that is interesting
+for us is available.
+
+141
+00:07:14,620 --> 00:07:19,240
+From there Blender will only
+auto record the keyframe
+
+142
+00:07:19,240 --> 00:07:22,570
+that has already been written,
+meaning that to channel
+
+143
+00:07:22,570 --> 00:07:27,570
+where we have inserted a keyframe
+file to use this king set.
+
+144
+00:07:28,180 --> 00:07:30,500
+If you haven't set the first keyframe
+
+145
+00:07:30,500 --> 00:07:33,030
+before applying the king set,
+
+146
+00:07:33,030 --> 00:07:36,050
+then the Auto King
+won't write any keyframe
+
+147
+00:07:36,050 --> 00:07:39,030
+and if I try inserting a
+new keyframe pressing I,
+
+148
+00:07:39,030 --> 00:07:41,170
+I will get this error message.
+
+149
+00:07:41,170 --> 00:07:45,290
+Basically, I can't write a
+keyframe with the actual setup.
+
+150
+00:07:45,290 --> 00:07:49,360
+To fix that, we only need to
+insert a keyframe directly
+
+151
+00:07:49,360 --> 00:07:51,810
+into the transform channel panel,
+
+152
+00:07:51,810 --> 00:07:55,180
+then I can get rid of the
+two channels I don't want,
+
+153
+00:07:55,180 --> 00:07:57,000
+the Y and Z channel.
+
+154
+00:07:57,000 --> 00:07:59,800
+There is another way to set the Auto King
+
+155
+00:07:59,800 --> 00:08:04,520
+on available by default, it's
+by going into the preferences,
+
+156
+00:08:04,520 --> 00:08:07,450
+animation, only insert available.
+
+157
+00:08:07,450 --> 00:08:10,650
+It's really a matter of
+personal preferences.
+
+158
+00:08:10,650 --> 00:08:13,140
+I personally use the king filter,
+
+159
+00:08:13,140 --> 00:08:17,870
+please note that I'm
+using Blender 2.92 Alpha,
+
+160
+00:08:17,870 --> 00:08:21,670
+so the position of the
+different option might change.
+
+161
+00:08:21,670 --> 00:08:25,320
+All right, now you are ready
+to animate using an armature.
+
+162
+00:08:25,320 --> 00:08:27,670
+We have seen that we can use an armature
+
+163
+00:08:27,670 --> 00:08:30,690
+to perform more complex transformation,
+
+164
+00:08:30,690 --> 00:08:35,650
+that an armature can deform
+the object that is bound to it.
+
+165
+00:08:35,650 --> 00:08:39,370
+So the armature object
+is made of super object
+
+166
+00:08:39,370 --> 00:08:44,370
+and called bone, each of those
+controller bone can be king,
+
+167
+00:08:44,490 --> 00:08:47,630
+but Blender will create a single action
+
+168
+00:08:47,630 --> 00:08:50,860
+that will hold the different key
+
+169
+00:08:50,860 --> 00:08:54,200
+of all the controller
+of a single armature.
+
+170
+00:08:54,200 --> 00:08:58,970
+It is highly recommended to
+create a king set to keep
+
+171
+00:08:58,970 --> 00:09:02,753
+your dopesheet and graph
+editor as clean as possible.
+

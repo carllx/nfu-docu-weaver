@@ -1,0 +1,355 @@
+﻿1
+00:00:01,019 --> 00:00:01,980
+- [Instructor] This is the last video
+
+2
+00:00:01,980 --> 00:00:04,590
+to create the base motion of our robot
+
+3
+00:00:04,590 --> 00:00:07,640
+where we will add some side to side motion
+
+4
+00:00:07,640 --> 00:00:10,960
+to the torso and the
+beat of hips rotation.
+
+5
+00:00:10,960 --> 00:00:13,300
+So I'm starting with the root top.
+
+6
+00:00:13,300 --> 00:00:18,180
+So controller selected and the
+X location curve available.
+
+7
+00:00:18,180 --> 00:00:20,660
+The motion is pretty simple.
+
+8
+00:00:20,660 --> 00:00:23,900
+When the character is
+raising one of its leg
+
+9
+00:00:23,900 --> 00:00:26,610
+and putting its weight onto the other,
+
+10
+00:00:26,610 --> 00:00:29,180
+its whole body will shift to towards
+
+11
+00:00:29,180 --> 00:00:31,630
+the foots that is in
+contact with the ground.
+
+12
+00:00:31,630 --> 00:00:34,530
+So basically if we have
+a look to the curve
+
+13
+00:00:34,530 --> 00:00:38,660
+the weight will shift to
+what the robot left side
+
+14
+00:00:38,660 --> 00:00:42,350
+until frame 14 and which
+is the passing pose
+
+15
+00:00:42,350 --> 00:00:46,360
+where the right leg is in
+the middle of the robot.
+
+16
+00:00:46,360 --> 00:00:51,360
+On frame 14 to frame 22, the
+body will slightly move back
+
+17
+00:00:51,450 --> 00:00:55,730
+to the right by the
+weight of the right foot.
+
+18
+00:00:55,730 --> 00:00:57,580
+And we have an acceleration
+
+19
+00:00:57,580 --> 00:00:59,810
+of the right foot contact the ground
+
+20
+00:00:59,810 --> 00:01:03,300
+and the whole body is falling down.
+
+21
+00:01:03,300 --> 00:01:08,300
+It's also shifting rapidly to
+wild the new contacting foot
+
+22
+00:01:08,620 --> 00:01:12,380
+transferring it's weight
+onto it's right leg.
+
+23
+00:01:12,380 --> 00:01:15,110
+Since we have a symmetrical cycle
+
+24
+00:01:15,110 --> 00:01:19,390
+we can then reproduce this
+motion in the other way.
+
+25
+00:01:19,390 --> 00:01:22,400
+Again, there is not that much more to say
+
+26
+00:01:22,400 --> 00:01:27,400
+and to get this concept about
+rhythm and weight shifting.
+
+27
+00:01:27,710 --> 00:01:30,660
+It's just a matter of
+playing with the curve
+
+28
+00:01:30,660 --> 00:01:34,400
+to get the right momentum,
+to get the right motion.
+
+29
+00:01:34,400 --> 00:01:37,250
+Then with this method,
+the layer and method,
+
+30
+00:01:37,250 --> 00:01:41,200
+just try to keep your
+curves as clean as possible.
+
+31
+00:01:41,200 --> 00:01:44,260
+Not adding too much key frames
+
+32
+00:01:44,260 --> 00:01:48,290
+especially if they are useless,
+is that you can easily tweak
+
+33
+00:01:48,290 --> 00:01:51,240
+and adjust those values later on.
+
+34
+00:01:51,240 --> 00:01:54,150
+When you're happy with
+the result, don't forget
+
+35
+00:01:54,150 --> 00:01:57,830
+to align the very first
+key and the very last
+
+36
+00:01:57,830 --> 00:02:00,300
+so that you get a proper cycle.
+
+37
+00:02:00,300 --> 00:02:03,330
+To create the rotation motion of the hips,
+
+38
+00:02:03,330 --> 00:02:05,250
+I've used the same method.
+
+39
+00:02:05,250 --> 00:02:07,330
+I've started from the front view
+
+40
+00:02:07,330 --> 00:02:10,800
+working on the Y axis of the hips.
+
+41
+00:02:10,800 --> 00:02:14,030
+It's the left to right twisting motion.
+
+42
+00:02:14,030 --> 00:02:17,430
+When you are putting
+your weight onto one leg
+
+43
+00:02:17,430 --> 00:02:22,160
+as you straighten this
+leg, your hips will raise.
+
+44
+00:02:22,160 --> 00:02:26,170
+So the hips doesn't only react
+to the weight of the body
+
+45
+00:02:26,170 --> 00:02:29,580
+but also to the contact
+of the foot on the ground.
+
+46
+00:02:29,580 --> 00:02:33,340
+So we could think that they
+are following the motion.
+
+47
+00:02:33,340 --> 00:02:36,020
+But they also lead the animation
+
+48
+00:02:36,020 --> 00:02:39,780
+since they are used to pull the foot up.
+
+49
+00:02:39,780 --> 00:02:41,800
+When the robot would be on one foot
+
+50
+00:02:41,800 --> 00:02:44,600
+the hips will tilt towards this foot.
+
+51
+00:02:44,600 --> 00:02:47,770
+And as the opposite foot
+will leave the ground,
+
+52
+00:02:47,770 --> 00:02:52,040
+the hips will start rotating
+towards the raising foot.
+
+53
+00:02:52,040 --> 00:02:56,910
+But still farther raising
+the foot on the ground.
+
+54
+00:02:56,910 --> 00:03:01,050
+And as our robot character hit the ground
+
+55
+00:03:01,050 --> 00:03:06,050
+with the opposite foot, then
+the hips will rapidly shift
+
+56
+00:03:06,790 --> 00:03:11,210
+to one, the foot that just enter
+in contact with the ground.
+
+57
+00:03:11,210 --> 00:03:14,620
+And what I did is that
+I had a little bounce
+
+58
+00:03:14,620 --> 00:03:18,040
+in the curve to create an hip shake
+
+59
+00:03:18,040 --> 00:03:22,990
+that make our robot who came
+more clunky and robotic.
+
+60
+00:03:22,990 --> 00:03:25,980
+As we did before with the toes.
+
+61
+00:03:25,980 --> 00:03:27,520
+When they was done with that,
+
+62
+00:03:27,520 --> 00:03:30,410
+I worked on the rotation curve.
+
+63
+00:03:30,410 --> 00:03:32,750
+I kept it very simple,
+
+64
+00:03:32,750 --> 00:03:35,960
+just imaging the hips, pulling the foot.
+
+65
+00:03:35,960 --> 00:03:39,170
+So when the right foot is forward
+
+66
+00:03:39,170 --> 00:03:42,319
+and hit the ground into its contact pose,
+
+67
+00:03:42,319 --> 00:03:47,319
+the hips controller is rotating
+towards the other foot.
+
+68
+00:03:47,480 --> 00:03:52,030
+And has reach it's extreme
+pose a couple of frame before
+
+69
+00:03:52,030 --> 00:03:55,520
+because it's leading the
+animation, pulling the feet.
+
+70
+00:03:55,520 --> 00:04:00,090
+So the hips rotate toward the
+left to pull the right leg
+
+71
+00:04:00,090 --> 00:04:03,270
+and as the right foot contact
+the ground, the hips has
+
+72
+00:04:03,270 --> 00:04:07,250
+already started rotating
+the other way a little bit.
+
+73
+00:04:07,250 --> 00:04:10,020
+The next video will be a short time-lapse
+
+74
+00:04:10,020 --> 00:04:11,440
+showing you those steps.
+
+75
+00:04:11,440 --> 00:04:14,060
+I've just explained if needed.
+
+76
+00:04:14,060 --> 00:04:17,480
+And then we will see different techniques
+
+77
+00:04:17,480 --> 00:04:20,030
+on all to use the base motion.
+
+78
+00:04:20,030 --> 00:04:22,630
+We have created to add it
+
+79
+00:04:22,630 --> 00:04:25,643
+to the different parts of the robot.
+

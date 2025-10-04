@@ -1,0 +1,966 @@
+﻿1
+00:00:00,250 --> 00:00:02,500
+- [Instructor] We have left last video
+
+2
+00:00:02,500 --> 00:00:06,160
+with our happy bouncing
+ball, bouncing and bouncing.
+
+3
+00:00:06,160 --> 00:00:09,910
+But now, I'd like it
+to move forward a bit.
+
+4
+00:00:09,910 --> 00:00:11,720
+So let's do that together.
+
+5
+00:00:11,720 --> 00:00:14,610
+The first thing I will do is to press
+
+6
+00:00:14,610 --> 00:00:17,780
+three on my num pad to
+switch to side view.
+
+7
+00:00:17,780 --> 00:00:22,600
+Now, instead of making my
+animation loop over 24 frame,
+
+8
+00:00:22,600 --> 00:00:25,750
+I'd like to make the
+animation a little bit longer.
+
+9
+00:00:25,750 --> 00:00:28,470
+So I will re-open my timeline,
+
+10
+00:00:28,470 --> 00:00:31,850
+and I'd like to repeat
+the animation four time.
+
+11
+00:00:31,850 --> 00:00:35,700
+So I can tie in all time 24 frames
+
+12
+00:00:35,700 --> 00:00:38,250
+to get to the right frame number.
+
+13
+00:00:38,250 --> 00:00:41,270
+But the problem is that
+my bouncing ball animation
+
+14
+00:00:41,270 --> 00:00:44,430
+is not repeating over those 96 frames.
+
+15
+00:00:44,430 --> 00:00:47,510
+So the more logical
+method to make it repeat
+
+16
+00:00:47,510 --> 00:00:50,420
+will be to select all my keyframe,
+
+17
+00:00:50,420 --> 00:00:52,783
+duplicate them by pressing Shift + D,
+
+18
+00:00:53,842 --> 00:00:56,920
+X to move them on the x-axis,
+
+19
+00:00:56,920 --> 00:01:00,310
+and type in 24 so that they will be moved
+
+20
+00:01:00,310 --> 00:01:03,250
+by 24 frame on the x-axis.
+
+21
+00:01:03,250 --> 00:01:07,430
+Then, I can press Shift +
+R to repeat the operation.
+
+22
+00:01:07,430 --> 00:01:09,800
+The problem with this
+method is that if we have
+
+23
+00:01:09,800 --> 00:01:13,410
+any modification to be
+added to the animation,
+
+24
+00:01:13,410 --> 00:01:16,250
+we will have to reduplicate everything
+
+25
+00:01:16,250 --> 00:01:18,550
+or modify it on each bounce.
+
+26
+00:01:18,550 --> 00:01:22,720
+While it's not super painful
+on such a simple animation
+
+27
+00:01:22,720 --> 00:01:24,700
+duplicating only four time,
+
+28
+00:01:24,700 --> 00:01:27,130
+this is not an efficient way to do it.
+
+29
+00:01:27,130 --> 00:01:29,240
+So I will reset what I've done
+
+30
+00:01:29,240 --> 00:01:32,450
+and with all my keys and curves selected,
+
+31
+00:01:32,450 --> 00:01:35,190
+I will press Shift + E to open
+
+32
+00:01:35,190 --> 00:01:37,740
+the keyframe extrapolation menu.
+
+33
+00:01:37,740 --> 00:01:41,370
+By default our keyframe
+extrapolation is set to constant.
+
+34
+00:01:41,370 --> 00:01:43,320
+It means that whenever I reach
+
+35
+00:01:43,320 --> 00:01:46,530
+the very last keyframe in my animation,
+
+36
+00:01:46,530 --> 00:01:48,620
+the value won't be changing anymore.
+
+37
+00:01:48,620 --> 00:01:50,500
+That's why we get flat curve.
+
+38
+00:01:50,500 --> 00:01:52,980
+But judging by this extrapolation menu,
+
+39
+00:01:52,980 --> 00:01:54,590
+we can see that we can switch it
+
+40
+00:01:54,590 --> 00:01:58,630
+to linear extrapolation
+or even make a cycle.
+
+41
+00:01:58,630 --> 00:02:02,550
+You can also access the
+extrapolation operation
+
+42
+00:02:02,550 --> 00:02:06,440
+through channel panel in the
+header of the graph editor.
+
+43
+00:02:06,440 --> 00:02:08,290
+With all the curves selected,
+
+44
+00:02:08,290 --> 00:02:10,560
+let's choose make cyclic.
+
+45
+00:02:10,560 --> 00:02:12,940
+Boom, our animation is now
+
+46
+00:02:12,940 --> 00:02:15,800
+cycling infinitely on the timeline.
+
+47
+00:02:15,800 --> 00:02:18,830
+And the cool thing about
+using extrapolation
+
+48
+00:02:18,830 --> 00:02:23,290
+is that modifying our
+animation will be repeating
+
+49
+00:02:23,290 --> 00:02:25,497
+and updating the along the whole timeline.
+
+50
+00:02:25,497 --> 00:02:26,330
+(graphic swooshes)
+
+51
+00:02:26,330 --> 00:02:27,630
+With this problem fixed,
+
+52
+00:02:27,630 --> 00:02:30,480
+I'd like my ball to move forward in space.
+
+53
+00:02:30,480 --> 00:02:34,120
+So I'd like to animate
+the y-axis of the ball.
+
+54
+00:02:34,120 --> 00:02:38,010
+So I will insert a single
+keyframe on the y-axis,
+
+55
+00:02:38,010 --> 00:02:42,810
+go to frame 24, move the
+ball by about nine meters,
+
+56
+00:02:42,810 --> 00:02:45,070
+go back onto the transform channel,
+
+57
+00:02:45,070 --> 00:02:48,160
+right-click and insert a single keyframe.
+
+58
+00:02:48,160 --> 00:02:50,380
+If I now play the animation,
+
+59
+00:02:50,380 --> 00:02:51,960
+the ball will move forward
+
+60
+00:02:51,960 --> 00:02:54,560
+only on the keyframe we have inserted,
+
+61
+00:02:54,560 --> 00:02:57,490
+and since Blender is creating by default
+
+62
+00:02:57,490 --> 00:02:59,840
+a new keyframe with the bezier mode,
+
+63
+00:02:59,840 --> 00:03:02,840
+we have an acceleration and a deceleration
+
+64
+00:03:02,840 --> 00:03:05,920
+of the ball so it doesn't
+look super unnatural.
+
+65
+00:03:05,920 --> 00:03:08,120
+While this kind of locomotion
+
+66
+00:03:08,120 --> 00:03:10,750
+could be a little more complex,
+
+67
+00:03:10,750 --> 00:03:12,820
+we will consider that our ball
+
+68
+00:03:12,820 --> 00:03:15,540
+is moving at a constant speed.
+
+69
+00:03:15,540 --> 00:03:18,180
+So I will select both handle,
+
+70
+00:03:18,180 --> 00:03:21,390
+press the V key and switch them to vector.
+
+71
+00:03:21,390 --> 00:03:24,260
+You could have chosen to press the T key
+
+72
+00:03:24,260 --> 00:03:26,133
+and switch to linear interpolation,
+
+73
+00:03:27,110 --> 00:03:29,863
+but I prefer to use vector interpolation
+
+74
+00:03:29,863 --> 00:03:32,030
+to keep the handles available.
+
+75
+00:03:32,030 --> 00:03:33,450
+When I watch this motion,
+
+76
+00:03:33,450 --> 00:03:36,320
+I feel like the ball should
+move a little further.
+
+77
+00:03:36,320 --> 00:03:39,140
+So I can take my last control point
+
+78
+00:03:39,140 --> 00:03:41,250
+and move it a bit up more
+
+79
+00:03:41,250 --> 00:03:44,460
+or insert a new value
+in the transform channel
+
+80
+00:03:44,460 --> 00:03:47,173
+and don't forget to insert the keyframe.
+
+81
+00:03:47,173 --> 00:03:50,760
+Or we can directly change
+the value of the keyframe
+
+82
+00:03:50,760 --> 00:03:54,080
+by going into the F-Curve properties
+
+83
+00:03:54,080 --> 00:03:57,890
+and enter 10 meters in
+the value of the keyframe.
+
+84
+00:03:57,890 --> 00:04:00,070
+This is a good method when you want
+
+85
+00:04:00,070 --> 00:04:02,480
+to enter very precise values.
+
+86
+00:04:02,480 --> 00:04:07,230
+Now, I'd like my ball to continue
+moving on on each bounce.
+
+87
+00:04:07,230 --> 00:04:10,770
+So I could duplicate the
+last keyframe, offset it
+
+88
+00:04:10,770 --> 00:04:14,660
+or insert a new a keyframe
+and set it to 20 meter.
+
+89
+00:04:14,660 --> 00:04:19,070
+But again, if we want to modify
+the timing of our animation
+
+90
+00:04:19,070 --> 00:04:21,090
+making the jump a bit a longer,
+
+91
+00:04:21,090 --> 00:04:23,470
+I will have to modify those, too.
+
+92
+00:04:23,470 --> 00:04:25,680
+And on a more complex animation,
+
+93
+00:04:25,680 --> 00:04:27,370
+that would be very painful.
+
+94
+00:04:27,370 --> 00:04:31,420
+So let's get rid of this
+and find another solution.
+
+95
+00:04:31,420 --> 00:04:33,700
+If we go back to the extrapolation menu,
+
+96
+00:04:33,700 --> 00:04:36,480
+we will find an option that allow us
+
+97
+00:04:36,480 --> 00:04:39,163
+to create a linear extrapolation.
+
+98
+00:04:39,163 --> 00:04:43,090
+Blender will take the last
+two keyframe of an animation,
+
+99
+00:04:43,090 --> 00:04:45,440
+and it will do an extrapolation
+
+100
+00:04:45,440 --> 00:04:48,640
+based on the value
+differences between those two.
+
+101
+00:04:48,640 --> 00:04:52,150
+So that's a great step
+forward in our animation,
+
+102
+00:04:52,150 --> 00:04:54,030
+but there is something that bother me.
+
+103
+00:04:54,030 --> 00:04:56,180
+When our ball hit the ground,
+
+104
+00:04:56,180 --> 00:04:58,900
+it stays on the ground for a few frame.
+
+105
+00:04:58,900 --> 00:05:01,860
+The problem is that
+it's sliding currently,
+
+106
+00:05:01,860 --> 00:05:03,790
+and it doesn't look good.
+
+107
+00:05:03,790 --> 00:05:05,200
+I'd like the ball to stay
+
+108
+00:05:05,200 --> 00:05:06,927
+where it is when it's on the ground
+
+109
+00:05:06,927 --> 00:05:09,980
+and move forward whenever it's airborne.
+
+110
+00:05:09,980 --> 00:05:13,940
+To fix it, I can simply
+duplicate the very first frame
+
+111
+00:05:13,940 --> 00:05:16,050
+and move it on frame three,
+
+112
+00:05:16,050 --> 00:05:17,910
+but I need this new motion
+
+113
+00:05:17,910 --> 00:05:20,600
+to repeat along the full animation.
+
+114
+00:05:20,600 --> 00:05:24,990
+So I will press Shift + E and
+choose constant extrapolation
+
+115
+00:05:24,990 --> 00:05:27,890
+to get rid of the linear extrapolation.
+
+116
+00:05:27,890 --> 00:05:30,840
+But now, my animation
+is no longer repeating,
+
+117
+00:05:30,840 --> 00:05:34,920
+and whenever I'm re-adding
+a linear extrapolation,
+
+118
+00:05:34,920 --> 00:05:39,730
+it will just continue on
+moving instead of stopping
+
+119
+00:05:39,730 --> 00:05:42,150
+whenever the ball is
+contacting the ground.
+
+120
+00:05:42,150 --> 00:05:45,170
+So I can try using a cyclic extrapolation,
+
+121
+00:05:45,170 --> 00:05:47,930
+but the problem is that
+the ball will get back
+
+122
+00:05:47,930 --> 00:05:51,740
+to its original position after each cycle.
+
+123
+00:05:51,740 --> 00:05:54,740
+So I'd like it to cycle
+but with an offset.
+
+124
+00:05:54,740 --> 00:05:57,720
+And what we can do is
+select one of the key
+
+125
+00:05:57,720 --> 00:06:01,740
+of the curve an go to
+the modifier tabs here.
+
+126
+00:06:01,740 --> 00:06:05,130
+And we can add a cycles modifier.
+
+127
+00:06:05,130 --> 00:06:08,180
+So it works exactly as if we were
+
+128
+00:06:08,180 --> 00:06:10,580
+adding the cyclic extrapolation,
+
+129
+00:06:10,580 --> 00:06:15,320
+but we do now have option
+on the cycle behavior.
+
+130
+00:06:15,320 --> 00:06:19,740
+I can change the way it act
+before and after the cycle.
+
+131
+00:06:19,740 --> 00:06:22,560
+So if I go onto the after,
+
+132
+00:06:22,560 --> 00:06:26,450
+I can ask Blender to use
+the repeat with offset.
+
+133
+00:06:26,450 --> 00:06:31,420
+And what it does is that it
+takes the very last keyframe
+
+134
+00:06:31,420 --> 00:06:34,590
+and use it as a new starting point.
+
+135
+00:06:34,590 --> 00:06:39,040
+So offsetting the animation
+is currently adding it
+
+136
+00:06:39,040 --> 00:06:41,978
+on top of the latest keyframe.
+
+137
+00:06:41,978 --> 00:06:43,030
+(graphic swooshes)
+An extra motion
+
+138
+00:06:43,030 --> 00:06:44,090
+is missing, though.
+
+139
+00:06:44,090 --> 00:06:45,740
+If we watch this video,
+
+140
+00:06:45,740 --> 00:06:48,860
+you'll find the link in the resources PDF,
+
+141
+00:06:48,860 --> 00:06:51,880
+I'd like you to focus on the body shape
+
+142
+00:06:51,880 --> 00:06:54,890
+and orientation of this lynx.
+
+143
+00:06:54,890 --> 00:06:56,810
+During this gorgeous motion,
+
+144
+00:06:56,810 --> 00:06:59,950
+we can see the squashing and stretching,
+
+145
+00:06:59,950 --> 00:07:03,720
+but we can also see some
+rotation of the body.
+
+146
+00:07:03,720 --> 00:07:08,720
+The body in the beginning is
+oriented toward the up point
+
+147
+00:07:08,750 --> 00:07:12,540
+and then oriented toward
+the landing point.
+
+148
+00:07:12,540 --> 00:07:15,470
+So we do need to input those information
+
+149
+00:07:15,470 --> 00:07:17,400
+on our bouncing ball.
+
+150
+00:07:17,400 --> 00:07:19,786
+To get a better preview
+of the motion of the ball,
+
+151
+00:07:19,786 --> 00:07:20,619
+(graphic swooshes)
+
+152
+00:07:20,619 --> 00:07:22,430
+I will calculate the motion path.
+
+153
+00:07:22,430 --> 00:07:24,420
+As seen in the previous video,
+
+154
+00:07:24,420 --> 00:07:27,010
+I will go into the object option,
+
+155
+00:07:27,010 --> 00:07:29,990
+motion path and click calculate the path.
+
+156
+00:07:29,990 --> 00:07:33,230
+I will change the path type to in range
+
+157
+00:07:33,230 --> 00:07:36,330
+and change the end frame to 96.
+
+158
+00:07:36,330 --> 00:07:39,740
+This will give us the
+motion path of our ball,
+
+159
+00:07:39,740 --> 00:07:41,900
+and it's going to be easier for us
+
+160
+00:07:41,900 --> 00:07:45,150
+to figure out how much
+we have to rotate it.
+
+161
+00:07:45,150 --> 00:07:48,350
+The idea is to simply rotate the ball
+
+162
+00:07:48,350 --> 00:07:53,350
+toward its next position
+or its next frame position.
+
+163
+00:07:53,390 --> 00:07:56,180
+And once we have past the highest point,
+
+164
+00:07:56,180 --> 00:08:00,113
+we will make the ball pointing
+toward the previous frame.
+
+165
+00:08:01,190 --> 00:08:03,303
+Since our first frame is exactly the same
+
+166
+00:08:03,303 --> 00:08:04,430
+(graphic swooshes)
+
+167
+00:08:04,430 --> 00:08:07,130
+as the latest frame, or frame 24,
+
+168
+00:08:07,130 --> 00:08:09,510
+I will jump to frame 24
+
+169
+00:08:09,510 --> 00:08:12,360
+and give the correct
+orientation to the ball.
+
+170
+00:08:12,360 --> 00:08:15,830
+It seems that 11 degrees looks fine.
+
+171
+00:08:15,830 --> 00:08:19,920
+Then, I will right-click and
+insert a single keyframe.
+
+172
+00:08:19,920 --> 00:08:23,160
+A new channel has appeared
+in the graph editor.
+
+173
+00:08:23,160 --> 00:08:25,650
+It's our X ruler rotation.
+
+174
+00:08:25,650 --> 00:08:27,510
+So I will now go back to the frame
+
+175
+00:08:27,510 --> 00:08:30,750
+where the ball is currently
+leaving the ground
+
+176
+00:08:30,750 --> 00:08:35,750
+and rotate it by minus 12.5
+degree toward its next position.
+
+177
+00:08:37,030 --> 00:08:39,740
+So now as we have did before,
+
+178
+00:08:39,740 --> 00:08:42,380
+I will duplicate the last frame,
+
+179
+00:08:42,380 --> 00:08:45,540
+frame 24 of this ruler rotation,
+
+180
+00:08:45,540 --> 00:08:48,350
+and move it onto frame zero,
+
+181
+00:08:48,350 --> 00:08:53,120
+pressing Shift + D, X and
+moving it with the mouse.
+
+182
+00:08:53,120 --> 00:08:55,520
+Now that the initial frame zero
+
+183
+00:08:55,520 --> 00:08:58,330
+and final frame 24 are the same,
+
+184
+00:08:58,330 --> 00:08:59,830
+I can select my curve
+
+185
+00:08:59,830 --> 00:09:03,690
+and press Shift + E and make it cyclic,
+
+186
+00:09:03,690 --> 00:09:06,600
+and it already looks pretty cool.
+
+187
+00:09:06,600 --> 00:09:08,400
+So while the motion I'm seeing
+
+188
+00:09:08,400 --> 00:09:11,310
+right now is pretty satisfying,
+
+189
+00:09:11,310 --> 00:09:14,980
+you know that we need to
+check it frame-by-frame.
+
+190
+00:09:14,980 --> 00:09:18,887
+As any craft, a perfect
+animation doesn't exist,
+
+191
+00:09:18,887 --> 00:09:21,330
+and the level of quality you will reach
+
+192
+00:09:21,330 --> 00:09:25,530
+depend on the time you can
+spend on your animation.
+
+193
+00:09:25,530 --> 00:09:29,770
+In this case, I'd like to polish
+the animation a little more
+
+194
+00:09:29,770 --> 00:09:33,370
+by making frame number one pretty flat,
+
+195
+00:09:33,370 --> 00:09:35,430
+because I don't really like the fact
+
+196
+00:09:35,430 --> 00:09:38,190
+that the ball is slightly leaning backward
+
+197
+00:09:38,190 --> 00:09:41,760
+when it's getting in
+its flattest position.
+
+198
+00:09:41,760 --> 00:09:43,130
+In the graph editor
+
+199
+00:09:43,130 --> 00:09:46,130
+with the X ruler rotation curve selected,
+
+200
+00:09:46,130 --> 00:09:49,480
+I will press I to insert a new keyframe
+
+201
+00:09:49,480 --> 00:09:51,970
+and choose only selected.
+
+202
+00:09:51,970 --> 00:09:53,630
+This way, Blender won't add
+
+203
+00:09:53,630 --> 00:09:56,700
+any additional keyframes
+on the other curves
+
+204
+00:09:56,700 --> 00:09:59,770
+and our graph editor will remain clean.
+
+205
+00:09:59,770 --> 00:10:04,130
+Then, I can grab this key,
+move it on the y-axis,
+
+206
+00:10:04,130 --> 00:10:07,470
+holding Shift to get a
+more precise movement.
+
+207
+00:10:07,470 --> 00:10:11,540
+And I will call this first
+bouncing ball animation done.
+
+208
+00:10:11,540 --> 00:10:14,290
+The technique we have used in this video,
+
+209
+00:10:14,290 --> 00:10:18,900
+adding a rotation motion
+based on the location motion,
+
+210
+00:10:18,900 --> 00:10:21,430
+the up and down motion of the ball,
+
+211
+00:10:21,430 --> 00:10:24,050
+is called the layered approach.
+
+212
+00:10:24,050 --> 00:10:26,370
+It means that you add layers
+
+213
+00:10:26,370 --> 00:10:30,310
+and layers of motion
+during the polishing stage,
+
+214
+00:10:30,310 --> 00:10:32,290
+not during the blocking stage.
+
+215
+00:10:32,290 --> 00:10:36,400
+And we'll study this technique
+more in depth later on.
+
+216
+00:10:36,400 --> 00:10:38,795
+To summarize, we have seen that we
+
+217
+00:10:38,795 --> 00:10:41,090
+(graphic swooshes)
+can create cycles using
+
+218
+00:10:41,090 --> 00:10:45,650
+the Shift + E shortcut and
+choose different extrapolation.
+
+219
+00:10:45,650 --> 00:10:50,650
+We can access more advanced
+cycle option using modifiers.
+
+220
+00:10:51,990 --> 00:10:56,140
+We can use current motion
+of the ball as the guide
+
+221
+00:10:56,140 --> 00:11:00,723
+to add new motion to it
+in a layered approach.
+

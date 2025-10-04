@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "ffmpeg -i \"{clipboard}\" \"{clipboard}.mp3\"",
+    "uid" : "744F0C1A-E9D7-4C79-BB48-5CF189B3C410",
+    "name" : "Convert media to mp3",
+    "keyword" : "tomp3"
+  }
+}

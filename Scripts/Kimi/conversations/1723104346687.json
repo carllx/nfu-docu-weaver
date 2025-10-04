@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cqq7on2lnl9e8u5njej0",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "Adobe audition CC 经典教程（第2版）",
+            "fileID": "cqo3a9m9e5jhdcrea0mg",
+            "itemID": 3597,
+            "citation": "马克西姆·亚戈, Maxim, & Jago. (2020). Adobe audition CC 经典教程（第2版）. 人民邮电出版社. https://product.dangdang.com/28524032.html\n",
+            "citationShort": "马克西姆·亚戈 et al., 2020",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：从书中提取所有支撑以下知识点与要求的详细内容信息, 生成一个演讲计划, 注意需要包含:\n\nAudition 2020软件界面认识**\n\n1. Audition 2020软件界面认识\n2. 音乐制作基础知识\n3. 项目文件的基本操作\n\n**教学要求：** 通过本章的学习，学生应能够：\n\n1. 熟悉Audition 2020的工作界面布局。\n2. 掌握音乐制作的基本概念和术语。\n3. 进行项目文件的新建、保存和导出。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe audition CC 经典教程（第2版）, was published on 2020. (It can be cite this paper as 马克西姆·亚戈 et al., 2020 on your answer). \n\n",
+    "response": "# 演讲计划：Audition 2020软件界面认识与音乐制作基础\n\n## 引言\n在本次演讲中，我们将深入探讨Adobe Audition 2020软件的工作界面，了解音乐制作的基础知识，并掌握项目文件的基本操作。通过本章学习，参与者将能够熟悉Audition 2020的工作流程，为进一步的音频编辑和音乐创作打下坚实基础。\n\n## 一、Audition 2020软件界面认识\n\n### 1. 界面布局\n- 根据《Adobe Audition CC 经典教程（第2版）》（马克西姆·亚戈 et al., 2020），Audition 2020的界面由多个窗口构成，用户可以自定义工作区，选择由哪些窗口构成工作区，并可以增加或删除窗口。\n\n### 2. 工作区的自定义\n- 引用原文：“Audition很独特的一面是它将原本需要两个程序实现的功能融合在一个软件中”，这表明Audition 2020界面设计允许用户根据特定需求进行个性化设置。\n\n### 3. 面板与帧的操作\n- 面板和帧是工作区中的主要元素，用户可以按照特定需求对其进行排列，例如：“你可以通过用鼠标左键选中面板下框并向下拖曳来增加面板高度”。\n\n## 二、音乐制作基础知识\n\n### 1. 音乐制作的基本概念\n- 音乐制作涉及音频的录制、编辑、混音等多个环节。《Adobe Audition CC 经典教程（第2版）》提供了全面的指导，帮助用户理解音乐制作的各个方面。\n\n### 2. 术语理解\n- 掌握音乐制作中的专业术语，例如“混音”、“母带处理”等，这些术语在教程中均有详细解释。\n\n### 3. 音频编辑技巧\n- 学习音频编辑的基本技巧，如剪切、粘贴、混音等，这些技巧在《Adobe Audition CC 经典教程（第2版）》中有详细的指导。\n\n## 三、项目文件的基本操作\n\n### 1. 新建项目文件\n- 根据教程指导，学习如何创建新的项目文件：“选择‘文件$\\u003e$新建$\\u003e$音频文件’”。\n\n### 2. 保存项目文件\n- 掌握保存项目文件的方法，确保工作成果不会丢失：“选择‘文件$\\u003e$保存’或‘另存为’”。\n\n### 3. 导出项目文件\n- 学习如何将完成的项目导出为不同格式的音频文件，以适应不同的使用场景：“选择‘文件$\\u003e$导出$\\u003e$多轨混音’”。\n\n## 结语\n通过本次演讲，我们希望每位参与者都能够对Audition 2020软件的工作界面有更深入的了解，掌握音乐制作的基本知识，并能够熟练进行项目文件的基本操作。让我们一起开启音乐制作的旅程，创造出更多优秀的音频作品。\n\n---\n\n**备注：** 本演讲计划根据《Adobe Audition CC 经典教程（第2版）》（马克西姆·亚戈 et al., 2020）相关内容制定。",
+    "refs": [
+        "cqo3a9m9e5jhdcrea0mg"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqq7on3f4kmhe7ba20a0",
+    "req_id": "cqq7on3f4kmhe7ba20ag",
+    "resp_id": "cqq7on3f4kmhe7ba20b0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：从书中提取所有支撑以下知识点与要求的详细内容信息, 生成一个演讲计划, 注意需要包含:\n\nAudition 2020软件界面认识**\n\n1. Audition 2020软件界面认识\n2. 音乐制作基础知识\n3. 项目文件的基本操作\n\n**教学要求：** 通过本章的学习，学生应能够：\n\n1. 熟悉Audition 2020的工作界面布局。\n2. 掌握音乐制作的基本概念和术语。\n3. 进行项目文件的新建、保存和导出。"
+}

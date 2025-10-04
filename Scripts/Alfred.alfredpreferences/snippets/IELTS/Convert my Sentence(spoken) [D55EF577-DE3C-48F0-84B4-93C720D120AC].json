@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Please correct the content I have provided below. You can make some minor changes to the sentence structure to improve the fluency and clarity. I want my sentence to be more smooth and coherent.\nMy content:\n```\n{clipboard}\n```",
+    "uid" : "D55EF577-DE3C-48F0-84B4-93C720D120AC",
+    "name" : "Convert my Sentence(spoken)",
+    "keyword" : "cvs"
+  }
+}

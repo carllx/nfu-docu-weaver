@@ -1,0 +1,39 @@
+{
+    "conversation_id": "cq7eefbjfihfufi7qoqg",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review",
+            "fileID": "cpg9jb3df0jc3ksj2s9g",
+            "itemID": 2528,
+            "citation": "Queiroz, M. M., Ivanov, D., Dolgui, A., & Fosso Wamba, S. (2022). Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review. Annals of Operations Research, 319(1), 1159–1196. https://doi.org/10.1007/s10479-020-03685-7\n",
+            "citationShort": "Queiroz et al., 2022",
+            "tags": [
+                "#kimi",
+                "Adaptation",
+                "COVID-19",
+                "Digitalization",
+                "Epidemic outbreaks",
+                "Influenza",
+                "Pandemic",
+                "Preparedness",
+                "Recovery",
+                "Resilience",
+                "Ripple effect",
+                "Structured literature review",
+                "Supply chain",
+                "Sustainability"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：列出作者使用的所有统计方法以及R公式\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review, was published on 2022. (It can be cite this paper as Queiroz et al., 2022 on your answer). \n\n",
+    "response": "根据您提供的文件内容，以下是对您问题的回答：\n\n### 统计方法和R公式\n\n在Queiroz et al., 2022的研究中，作者使用了以下统计方法和工具来进行文献综述和数据分析：\n\n1. **系统性文献综述（Systematic Literature Review, SLR）**：\n   - 这是一种用于假设检验、总结现有研究结果和评估以往研究一致性的技术。在这项研究中，SLR用于系统性地分析与疫情爆发对供应链影响相关的文献。\n\n2. **内容分析（Content Analysis）**：\n   - 内容分析技术被用于提供通过编码方案方法的效度、客观性和可靠性。作者通过这种方法对选定的论文进行了分类和分析。\n\n3. **多对应分析（Multiple Correspondence Analysis, MCA）**：\n   - MCA是一种数据简化技术，用于构建科学概念结构的地图。在研究中，MCA用于展示文献中使用的词汇的分布相似性，并在二维图形地图上进行表示。\n\n4. **R工具软件应用（R-tool software application）**：\n   - 文中提到了使用R工具软件进行数据分析，特别是Bibliometrix和MAXQDA软件。Bibliometrix是一个开源应用程序，可以从不同的数据源（如Scopus和Clarivate Analytics’ Web of Science）导入数据，并在科学制图方面提供支持。\n\n5. **量化软件MAXQDA**：\n   - MAXQDA是一款定性分析软件，用于辅助数据提取和探索论文。\n\n6. **Bibliometrix**：\n   - Bibliometrix是一个R工具，用于科学制图和分析，它支持从不同的数据源导入数据，并在文献综述中用于提供稳健性和可靠性。\n\n在提供的文件内容中，并没有明确列出具体的R公式。通常，R公式会在统计分析或数据可视化的上下文中被使用，但在这份文献的摘要或引言部分并未提及具体的R公式实例。如果需要进一步了解R公式的使用情况，可能需要查看研究中方法论部分的详细描述或附录部分，这些可能包含了实际使用的R代码或公式。由于当前提供的内容限制，无法提供具体的R公式。",
+    "refs": [
+        "cpg9jb3df0jc3ksj2s9g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq7eefcascdkaupdgfe0",
+    "req_id": "cq7eefcascdkaupdgfeg",
+    "resp_id": "cq7eefcascdkaupdgff0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：列出作者使用的所有统计方法以及R公式"
+}

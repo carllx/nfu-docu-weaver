@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "# zsh\n# Covert an fps: 60 codec: h264 resolution: 4320x2160 mp4 to HEVC (H.265) for VR180 on OSX using ffmpeg\n# - Since hardware acceleration with 'VideoToolbox' on M1, is not optimized for quality, but for speed and efficiency.\n# - Add -movflags +faststart to place metadata at start of file for faster playback starting.\n# -Consider enabling multi-threading with the -threads option if your system has multiple CPU cores. This will speed up encoding significantly. For example: -threads 8\n# - Using the lanczos scaling algorithm is great quality, but bilinear is faster for the GPU to process if speed is a concern.\n# canceled -vf \"scale=3024:1512:flags=lanczos\" `\n\n# # Windows Powershell\n$mediaPath = {clipboard}\n$mediaName = $mediaPath -replace \"\\.[^.]*$\",\"\"\nffmpeg -i \"$mediaName.mp4\" `\n    -c:v libx265 -crf 21 -preset medium `\n    -c:a aac `\n    -b:a 128k `\n    -pix_fmt yuv420p10le `\n    -metadata \"stereo_mode=left_right\"  `\n    -movflags +faststart `\n    \"$mediaName-HEVC.mp4\"\n\n\n# Mac Terminal\n# replce the file extension with nothing and set it to a variable 'mediaName'\n# '-sseof -60': before the input file, seek to the last 60 seconds of the video\n# -t -60 \n# trim the last 60 seconds of video\n# -vf \"scale=2560:1280:flags=lanczos\" `\n# copy follow\nmediaName=\"{clipboard}\"\nmediaName=\"${mediaName%.*}\"\nffmpeg -i \"$mediaName.mp4\" \\\n    -c:v libx265 -crf 21 -preset medium \\\n    -c:a aac -b:a 128k \\\n    -pix_fmt yuv420p10le \\\n    -metadata \"stereo_mode=left_right\" \\\n    -movflags +faststart \\\n    \"$mediaName-HEVC-VR.mp4\"",
+    "uid" : "2BD4FCF6-043A-4DE0-A47C-9C1CA8728623",
+    "name" : "Covert HEVC for 180",
+    "keyword" : "180"
+  }
+}

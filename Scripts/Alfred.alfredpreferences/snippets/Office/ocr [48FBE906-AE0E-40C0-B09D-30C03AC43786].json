@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "myfolder=\"{clipboard}\"\routput_file=\"$myfolder\/output.txt\"\recho \"开始处理文件...\"\r\r\rpage_number=1\r\rfor f in \"$myfolder\"\/*; do\r    \r    if [[ -f \"$f\" ]]; then\r        \r        filename=$(basename \"$f\")\r        echo \"正在处理: $filename\"\r                \r        if tesseract \"$f\" stdout -l eng+jpn >> \"$output_file\"; then\r            echo \"OCR处理成功并追加到输出文件: $filename\"\r        else\r            echo \"错误：OCR处理失败: $filename\" >&2\r        fi\r                \r        echo \"----- Page $page_number -----\" >> \"$output_file\"\r        ((page_number++))\r    fi\rdone\recho \"所有文件处理完毕。\"\recho \"结果已保存到 $output_file\"\recho \"输出文件大小: $(wc -c < \"$output_file\") 字节\"\n\n\n#jpn#chi_sim#chi_sim",
+    "uid" : "48FBE906-AE0E-40C0-B09D-30C03AC43786",
+    "name" : "ocr",
+    "keyword" : ""
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cqaj1s03r071cvg3s8j0",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "#kimi",
+                "anatomy education",
+                "augmented reality",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "mixed reality",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education",
+                "virtual reality"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何开发研究协议?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "在开发研究协议的过程中，可以借鉴Moro等人在2021年发表的系统评价和元分析中所采用的方法。以下是根据原文提取的步骤和证据，以中文Markdown格式呈现：\n\n### 开发研究协议的步骤：\n\n1. **确定研究目的和问题**：\n   - 明确研究旨在解决的问题，例如Moro等人的研究目的是评估虚拟现实或增强现实对医学和科学学生在临床前生理学和解剖学知识获取的影响。\n\n2. **制定研究计划**：\n   - 根据研究目的，制定详细的研究计划，包括研究设计、参与者的选择、干预措施和比较组的确定。\n\n3. **文献搜索策略**：\n   - 确定数据库和搜索词，例如PubMed、Embase、ERIC等，并从1990年开始搜索，因为这是虚拟现实头戴式显示器和增强现实设备首次广泛商业发布的年份。\n\n4. **研究选择和数据提取**：\n   - 由两位研究者独立进行文献筛选，首先通过标题/摘要，然后在全文中进行筛选，解决分歧通过讨论或第三方介入。\n\n5. **风险偏倚评估**：\n   - 使用Cochrane Collaboration的风险偏倚工具对纳入研究的风险偏倚进行独立评估。\n\n6. **统计分析**：\n   - 使用Review Manager软件进行元分析，计算效应量，报告均值差异和95%置信区间，并使用随机效应模型。\n\n7. **结果解释和讨论**：\n   - 对结果进行解释，讨论可能的异质性来源，并根据结果提出未来研究方向。\n\n8. **撰写和提交协议**：\n   - 将研究协议撰写成文档，并提交至系统评价的国际前瞻性注册机构，如Prospero。\n\n### 证据：\n\n- Moro等人的研究协议在2019年11月11日提交至Prospero，注册号为158040。\n- 研究包括随机对照试验，涉及健康科学或医学专业的大学生，使用头戴式显示器的虚拟现实或增强现实与传统教学方法进行比较。\n- 研究评估了通过考试或测验分数来衡量的学生学习成果，主要结果是临床前知识分数，次要结果是技能分数。\n\n### 引用格式：\n\n在回答中引用此论文时，可以按照APA格式进行引用：Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368-376. https://doi.org/10.1002/ase.2049\n\n通过以上步骤和证据，可以开发出一个结构化、透明且可复制的研究协议，以确保研究的质量和可靠性。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqaj1sakg1a3n57hgneg",
+    "req_id": "cqaj1sakg1a3n57hgnf0",
+    "resp_id": "cqaj1sakg1a3n57hgnfg",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：如何开发研究协议?"
+}

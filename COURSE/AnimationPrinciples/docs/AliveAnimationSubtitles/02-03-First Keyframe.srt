@@ -1,0 +1,710 @@
+﻿1
+00:00:00,150 --> 00:00:02,540
+- [Pierre] Now that we
+have a better understanding
+
+2
+00:00:02,540 --> 00:00:06,280
+of object transformation,
+let's start animating.
+
+3
+00:00:06,280 --> 00:00:08,890
+We will work on the classic bouncing ball.
+
+4
+00:00:08,890 --> 00:00:12,870
+Since I'd like to be able to
+squash and stretch the ball
+
+5
+00:00:12,870 --> 00:00:14,557
+during the animation,
+
+6
+00:00:14,557 --> 00:00:19,557
+using its very center as a
+pivot point is not ideal.
+
+7
+00:00:19,970 --> 00:00:24,100
+What I'd like to do instead
+is adding its origin point
+
+8
+00:00:24,100 --> 00:00:26,230
+on the base of the ball
+
+9
+00:00:26,230 --> 00:00:29,880
+as this is going to be the
+contacting point of the ball
+
+10
+00:00:29,880 --> 00:00:32,320
+with our imaginary ground.
+
+11
+00:00:32,320 --> 00:00:34,880
+So I will simply enter edit mode,
+
+12
+00:00:34,880 --> 00:00:39,880
+select every vertices
+and press G, Z, and one
+
+13
+00:00:40,130 --> 00:00:43,940
+to move everything off
+one meter on the Z axis.
+
+14
+00:00:43,940 --> 00:00:45,980
+When they get back into object mode,
+
+15
+00:00:45,980 --> 00:00:48,130
+I still have the same sphere,
+
+16
+00:00:48,130 --> 00:00:51,600
+but its origin is now on its place.
+
+17
+00:00:51,600 --> 00:00:54,390
+By default, the timeline in Blender
+
+18
+00:00:54,390 --> 00:00:56,350
+is in the bottom of the screen.
+
+19
+00:00:56,350 --> 00:00:57,890
+When you press space,
+
+20
+00:00:57,890 --> 00:01:01,120
+you can see that we are
+playing an animation,
+
+21
+00:01:01,120 --> 00:01:05,030
+meaning that blender is going
+through the different frame
+
+22
+00:01:05,030 --> 00:01:06,400
+of the document.
+
+23
+00:01:06,400 --> 00:01:10,290
+The play head in the
+timeline indicate which frame
+
+24
+00:01:10,290 --> 00:01:12,220
+you are currently reading.
+
+25
+00:01:12,220 --> 00:01:15,000
+We can change the length of the animation
+
+26
+00:01:15,000 --> 00:01:18,700
+by setting the end frame
+and the beginning frame.
+
+27
+00:01:18,700 --> 00:01:21,420
+I will set the beginning frame to zero
+
+28
+00:01:21,420 --> 00:01:23,560
+and end frame to 24.
+
+29
+00:01:23,560 --> 00:01:25,170
+When I press play,
+
+30
+00:01:25,170 --> 00:01:29,280
+we can see the play head
+moving till frame 24
+
+31
+00:01:29,280 --> 00:01:31,680
+and getting back to frame zero.
+
+32
+00:01:31,680 --> 00:01:34,260
+This value indicates
+you in the current frame
+
+33
+00:01:34,260 --> 00:01:37,940
+that is also alight on
+top of the play head.
+
+34
+00:01:37,940 --> 00:01:41,400
+Animation in Blender
+is basically recording
+
+35
+00:01:41,400 --> 00:01:46,050
+a different transformation
+to an object in time,
+
+36
+00:01:46,050 --> 00:01:48,380
+meaning that we can recall the location,
+
+37
+00:01:48,380 --> 00:01:52,410
+rotation or scale of an
+object on different frames.
+
+38
+00:01:52,410 --> 00:01:54,190
+To insert a key frame,
+
+39
+00:01:54,190 --> 00:01:58,610
+we simply need to have our
+object selected in space
+
+40
+00:01:58,610 --> 00:02:00,500
+and press the I key.
+
+41
+00:02:00,500 --> 00:02:02,810
+A menu will pop up asking you
+
+42
+00:02:02,810 --> 00:02:05,520
+which kind of key frame you want to write.
+
+43
+00:02:05,520 --> 00:02:08,790
+Basically, do you want
+to recall the location,
+
+44
+00:02:08,790 --> 00:02:11,480
+the rotation, the scale of the object
+
+45
+00:02:11,480 --> 00:02:13,610
+or a combination of those?
+
+46
+00:02:13,610 --> 00:02:15,610
+When I select location,
+
+47
+00:02:15,610 --> 00:02:19,740
+we can see that in the
+transform channel of my object,
+
+48
+00:02:19,740 --> 00:02:22,490
+the location input turn to yellow.
+
+49
+00:02:22,490 --> 00:02:27,160
+And on the timeline, I get
+a little yellow indicator
+
+50
+00:02:27,160 --> 00:02:30,810
+that tells me we have
+recorded a key frame.
+
+51
+00:02:30,810 --> 00:02:34,800
+The key frame is a simple
+registered value in time.
+
+52
+00:02:34,800 --> 00:02:39,570
+In our case, we have registered
+or recorded the location
+
+53
+00:02:39,570 --> 00:02:42,740
+of our object on frame zero.
+
+54
+00:02:42,740 --> 00:02:45,220
+I will place to play head on frame 10
+
+55
+00:02:45,220 --> 00:02:50,220
+and move my object higher and
+insert a location key frame.
+
+56
+00:02:50,420 --> 00:02:53,820
+Now I can see a new key
+frame on my timeline,
+
+57
+00:02:53,820 --> 00:02:58,170
+and as soon as I move the
+play head from left to right,
+
+58
+00:02:58,170 --> 00:03:02,720
+I can see sphere moving
+from its previous position
+
+59
+00:03:02,720 --> 00:03:06,770
+on frame zero, to the next
+position we have key framed
+
+60
+00:03:06,770 --> 00:03:07,990
+on frame 10.
+
+61
+00:03:07,990 --> 00:03:11,920
+We have recorded two position
+on two different frame
+
+62
+00:03:11,920 --> 00:03:16,280
+and what we are seeing now
+is Blender interpolating
+
+63
+00:03:16,280 --> 00:03:18,910
+or creating an interpolation
+
+64
+00:03:18,910 --> 00:03:22,310
+between those two position in space.
+
+65
+00:03:22,310 --> 00:03:26,160
+key frames can be manipulated
+in the timeline as objects,
+
+66
+00:03:26,160 --> 00:03:28,550
+so you can move them using G,
+
+67
+00:03:28,550 --> 00:03:31,580
+you can press Shift + D to duplicate them.
+
+68
+00:03:31,580 --> 00:03:35,330
+You can box select them,
+press X to delete them.
+
+69
+00:03:35,330 --> 00:03:38,520
+You can insert a new key
+frame by simply hovering over
+
+70
+00:03:39,370 --> 00:03:42,290
+a transformed channel and pressing I
+
+71
+00:03:42,290 --> 00:03:46,780
+or right-clicking and choose
+between insert key frame
+
+72
+00:03:46,780 --> 00:03:49,370
+or insert single key frame
+
+73
+00:03:49,370 --> 00:03:51,910
+if you just want to add a key frame
+
+74
+00:03:51,910 --> 00:03:54,600
+on the X location, for example.
+
+75
+00:03:54,600 --> 00:03:56,850
+Right clicking will also hollow you
+
+76
+00:03:56,850 --> 00:04:01,010
+to delete all the key frames
+from the selected channel
+
+77
+00:04:01,010 --> 00:04:04,560
+or choose delete only single key frame
+
+78
+00:04:04,560 --> 00:04:08,440
+to delete a specific X, Y, or Z channel.
+
+79
+00:04:08,440 --> 00:04:11,420
+So let's start our exercise on frame zero
+
+80
+00:04:11,420 --> 00:04:13,640
+and insert a key frame.
+
+81
+00:04:13,640 --> 00:04:16,570
+Let's moved the play head to frame 12
+
+82
+00:04:16,570 --> 00:04:21,370
+and then move our sphere
+or ball on the Z axis
+
+83
+00:04:21,370 --> 00:04:23,620
+by eight meters.
+
+84
+00:04:23,620 --> 00:04:27,590
+We can see that our transformed
+channels have changed color.
+
+85
+00:04:27,590 --> 00:04:30,380
+The X and Y are still on green,
+
+86
+00:04:30,380 --> 00:04:34,420
+meaning that they have
+been key framed previously
+
+87
+00:04:34,420 --> 00:04:37,310
+and their values haven't changed.
+
+88
+00:04:37,310 --> 00:04:41,160
+And the Z key frame as turned to orange,
+
+89
+00:04:41,160 --> 00:04:45,780
+meaning that we have
+transformed the Z value,
+
+90
+00:04:45,780 --> 00:04:47,970
+but it's not recorded yet.
+
+91
+00:04:47,970 --> 00:04:49,520
+And this is a big warning,
+
+92
+00:04:49,520 --> 00:04:52,300
+because as soon as I
+will move the play head,
+
+93
+00:04:52,300 --> 00:04:56,780
+my ball will return to its
+first key frame position,
+
+94
+00:04:56,780 --> 00:04:59,860
+meaning that I have lost
+the Z transformation
+
+95
+00:04:59,860 --> 00:05:04,110
+I've performed on frame 12
+because I haven't recorded it.
+
+96
+00:05:04,110 --> 00:05:06,070
+So I will jump back to frame 12,
+
+97
+00:05:06,070 --> 00:05:09,050
+move my sphere of eight meters
+
+98
+00:05:09,050 --> 00:05:12,040
+and then press I to insert a key frame.
+
+99
+00:05:12,040 --> 00:05:15,350
+If I now scrub through
+frame zero to frame 12,
+
+100
+00:05:15,350 --> 00:05:17,730
+I can see the ball rising in the air.
+
+101
+00:05:17,730 --> 00:05:20,680
+So transformed channels
+are colored in yellow
+
+102
+00:05:20,680 --> 00:05:23,470
+whenever I'm hitting a key frame
+
+103
+00:05:23,470 --> 00:05:26,710
+and they are green whenever I'm in between
+
+104
+00:05:26,710 --> 00:05:28,700
+or during an interpolation.
+
+105
+00:05:28,700 --> 00:05:30,640
+I can select the first key frame,
+
+106
+00:05:30,640 --> 00:05:34,920
+press Shift + D and move
+it onto the very last frame
+
+107
+00:05:34,920 --> 00:05:37,570
+so that I have a looping action.
+
+108
+00:05:37,570 --> 00:05:40,440
+To create a loop you just
+have to make your first
+
+109
+00:05:40,440 --> 00:05:43,070
+and last frames being the same.
+
+110
+00:05:43,070 --> 00:05:45,410
+You can move from frame to frame
+
+111
+00:05:45,410 --> 00:05:48,580
+by pressing the left and right arrow.
+
+112
+00:05:48,580 --> 00:05:51,810
+Whenever you will press
+the up and down arrow,
+
+113
+00:05:51,810 --> 00:05:56,000
+you will jump from the
+previous to the next key frame.
+
+114
+00:05:56,000 --> 00:05:58,970
+Pressing Shift + right and Shift + left
+
+115
+00:05:58,970 --> 00:06:03,070
+will bring you to the very last
+of the very first key frame.
+
+116
+00:06:03,070 --> 00:06:06,670
+You can perform all those
+play head manipulation
+
+117
+00:06:06,670 --> 00:06:10,320
+using the UI in the
+header of the timeline.
+
+118
+00:06:10,320 --> 00:06:12,060
+As we have seen before,
+
+119
+00:06:12,060 --> 00:06:15,060
+anytime while I'm moving
+our object somewhere,
+
+120
+00:06:15,060 --> 00:06:17,160
+we need to insert a key frame
+
+121
+00:06:17,160 --> 00:06:20,270
+or we will lose the
+manipulation we have done.
+
+122
+00:06:20,270 --> 00:06:22,980
+While it might be okay to press I
+
+123
+00:06:22,980 --> 00:06:25,950
+each time we perform a manual manipulation
+
+124
+00:06:25,950 --> 00:06:28,100
+on the single bouncing ball,
+
+125
+00:06:28,100 --> 00:06:31,100
+when you will start
+animating a full character
+
+126
+00:06:31,100 --> 00:06:35,310
+with thousands of controls,
+that's gonna be very tedious.
+
+127
+00:06:35,310 --> 00:06:39,460
+Fortunately, there is
+the record button here
+
+128
+00:06:39,460 --> 00:06:43,630
+that allow us to auto
+key any transformation.
+
+129
+00:06:43,630 --> 00:06:45,220
+As soon as I move the sphere,
+
+130
+00:06:45,220 --> 00:06:49,020
+you can see that new
+keys are being recorded
+
+131
+00:06:49,020 --> 00:06:51,747
+for every channel of
+this fear automatically.
+
+132
+00:06:51,747 --> 00:06:54,540
+Not that whenever you
+are using this option
+
+133
+00:06:54,540 --> 00:06:56,750
+and moving your object in space,
+
+134
+00:06:56,750 --> 00:07:00,110
+you are warned that there
+is an auto keying going on
+
+135
+00:07:00,110 --> 00:07:03,090
+on the top right corner
+of your (indistinct)
+
+136
+00:07:03,090 --> 00:07:04,740
+As explained in the beginning,
+
+137
+00:07:04,740 --> 00:07:09,460
+we can keep frame mostly every
+kind of value in Blender,
+
+138
+00:07:09,460 --> 00:07:11,450
+and it can be a color.
+
+139
+00:07:11,450 --> 00:07:14,970
+If I select the material
+preview of my sphere
+
+140
+00:07:14,970 --> 00:07:18,060
+and I click this little rounded icon,
+
+141
+00:07:18,060 --> 00:07:21,870
+it will add a key frame
+on the color value.
+
+142
+00:07:21,870 --> 00:07:24,520
+And I can find this key
+frame on the timeline.
+
+143
+00:07:24,520 --> 00:07:27,840
+If I go a little further
+now and change the color,
+
+144
+00:07:27,840 --> 00:07:29,843
+since the auto keying is on,
+
+145
+00:07:29,843 --> 00:07:33,690
+it will insert a new key
+frame of this new color.
+
+146
+00:07:33,690 --> 00:07:36,700
+And whenever I scrub through the timeline,
+
+147
+00:07:36,700 --> 00:07:40,483
+I can see the color
+interpolation of the sphere.
+
+148
+00:07:43,680 --> 00:07:46,800
+To summarize, we have seen
+that we can use the timeline
+
+149
+00:07:46,800 --> 00:07:49,520
+to navigate through the different frames.
+
+150
+00:07:49,520 --> 00:07:52,330
+We have seen that we
+can create a key frame
+
+151
+00:07:52,330 --> 00:07:56,560
+by recording any value, whether
+it's a transformed channel,
+
+152
+00:07:56,560 --> 00:08:00,010
+a color or whatever we
+want onto a specific frame.
+
+153
+00:08:00,010 --> 00:08:03,490
+Blender will automatically
+create an interpolation
+
+154
+00:08:03,490 --> 00:08:05,200
+between two key frames.
+
+155
+00:08:05,200 --> 00:08:08,420
+Key framed values appear in yellow,
+
+156
+00:08:08,420 --> 00:08:11,050
+animated values appear in green
+
+157
+00:08:11,050 --> 00:08:15,380
+unrecording value changes
+are shown in orange
+
+158
+00:08:15,380 --> 00:08:18,353
+and gray value are just unanimated values.
+

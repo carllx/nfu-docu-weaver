@@ -1,0 +1,8 @@
+{
+  "ribbonIcon": true,
+  "ribbonCommandUsesCode": true,
+  "executeTemplate": "\"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code\" \"{{vaultpath}}/{{filepath}}\" || \"C:\\Users\\carll\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"{{vaultpath}}/{{filepath}}\"",
+  "openFile": true,
+  "workspacePath": "{{vaultpath}}",
+  "useUrlInsiders": false
+}

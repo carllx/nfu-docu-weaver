@@ -1,0 +1,1281 @@
+﻿1
+00:00:00,840 --> 00:00:04,570
+In this video, we will start
+blocking a new animation.
+
+2
+00:00:04,570 --> 00:00:08,340
+This is going to be an idle
+animation of the squirrel.
+
+3
+00:00:08,340 --> 00:00:11,340
+But we need our character to transition
+
+4
+00:00:11,340 --> 00:00:13,910
+from the run cycle into a stop,
+
+5
+00:00:13,910 --> 00:00:17,700
+do the idle, and then get
+back into the run cycle.
+
+6
+00:00:17,700 --> 00:00:19,860
+At least to make our character
+
+7
+00:00:19,860 --> 00:00:22,900
+checking the surrounding environment.
+
+8
+00:00:22,900 --> 00:00:25,250
+And then as it hears some noise
+
+9
+00:00:25,250 --> 00:00:29,900
+maybe it will go back into the
+run cycle to flee the danger.
+
+10
+00:00:29,900 --> 00:00:33,290
+It is going to be a
+very fun idle to animate
+
+11
+00:00:33,290 --> 00:00:36,940
+and the first step is always
+to check out references.
+
+12
+00:00:36,940 --> 00:00:40,520
+Looking for some specific information.
+
+13
+00:00:40,520 --> 00:00:42,900
+First one is the rhythm of the character.
+
+14
+00:00:42,900 --> 00:00:45,990
+You can see how we jumped
+from a pose to another
+
+15
+00:00:45,990 --> 00:00:49,530
+in a very fast motion
+and sometimes just stop.
+
+16
+00:00:49,530 --> 00:00:52,520
+And then it almost stay still.
+
+17
+00:00:52,520 --> 00:00:55,210
+Those various snappy motion really brings
+
+18
+00:00:55,210 --> 00:00:58,525
+the fact that our
+character is lightweight.
+
+19
+00:00:58,525 --> 00:01:02,570
+Squirrels use their tails also
+to communicate their feelings
+
+20
+00:01:02,570 --> 00:01:04,770
+and to communicate between them.
+
+21
+00:01:04,770 --> 00:01:08,680
+So we can use the tail to
+communicate surprise or fear,
+
+22
+00:01:08,680 --> 00:01:10,110
+to our character.
+
+23
+00:01:10,110 --> 00:01:13,350
+The last thing that really
+shines through those reference
+
+24
+00:01:13,350 --> 00:01:15,700
+is the briefing pattern of the character.
+
+25
+00:01:15,700 --> 00:01:19,090
+It is really fast paced
+and he does show a lot
+
+26
+00:01:19,090 --> 00:01:21,970
+when the character is
+not moving that much.
+
+27
+00:01:21,970 --> 00:01:23,770
+We'll be blocking five poses.
+
+28
+00:01:23,770 --> 00:01:26,550
+The first one where our characters stop
+
+29
+00:01:26,550 --> 00:01:28,360
+and look at the side.
+
+30
+00:01:28,360 --> 00:01:32,550
+Then it will raise on its back
+leg and maybe smell the air.
+
+31
+00:01:32,550 --> 00:01:36,010
+We will then pull his
+attention to the other side.
+
+32
+00:01:36,010 --> 00:01:39,090
+Then he will turn his head
+in a more grounding pose
+
+33
+00:01:39,090 --> 00:01:42,160
+because he heard something,
+transition into a pose
+
+34
+00:01:42,160 --> 00:01:45,320
+where he will start
+running to flee the danger.
+
+35
+00:01:45,320 --> 00:01:48,380
+Since we are going to
+transition from the run cycle
+
+36
+00:01:48,380 --> 00:01:51,556
+the first thing I will do
+is clean the run cycle.
+
+37
+00:01:51,556 --> 00:01:56,210
+So I will select older
+curve and press the Shift+E
+
+38
+00:01:56,210 --> 00:01:58,990
+and clear the cyclic modifier.
+
+39
+00:01:58,990 --> 00:02:03,410
+Then I will select the root
+bone and I will press Shift+E
+
+40
+00:02:03,410 --> 00:02:05,960
+and get clear of the linear extrapolation
+
+41
+00:02:05,960 --> 00:02:08,510
+by choosing constant extrapolation.
+
+42
+00:02:08,510 --> 00:02:11,030
+Make sure you have all your keys selected
+
+43
+00:02:11,030 --> 00:02:12,740
+when removing your modifiers
+
+44
+00:02:12,740 --> 00:02:16,850
+or your character will be
+kind of behaving weirdly.
+
+45
+00:02:16,850 --> 00:02:18,280
+At least it looks pretty fun
+
+46
+00:02:18,280 --> 00:02:20,620
+but it will be hard to work with that.
+
+47
+00:02:20,620 --> 00:02:24,190
+So once I'm done, I will
+duplicate my run cycle.
+
+48
+00:02:24,190 --> 00:02:26,960
+So that I have a new action to work with
+
+49
+00:02:26,960 --> 00:02:28,800
+that I will call idle.
+
+50
+00:02:28,800 --> 00:02:31,740
+And I will keep the run cycle animation
+
+51
+00:02:31,740 --> 00:02:34,460
+at the beginning of this new animation.
+
+52
+00:02:34,460 --> 00:02:37,220
+This will help us creating the transition
+
+53
+00:02:37,220 --> 00:02:41,040
+between the idle animation
+and the run cycle.
+
+54
+00:02:41,040 --> 00:02:44,610
+We'll have to animate our
+character transitioning
+
+55
+00:02:44,610 --> 00:02:46,940
+from the run cycle to the idle.
+
+56
+00:02:46,940 --> 00:02:50,700
+But as we did for any
+of our animation so far,
+
+57
+00:02:50,700 --> 00:02:54,295
+I will go on frame 15
+and I will stop blocking
+
+58
+00:02:54,295 --> 00:02:57,250
+the first pose of our idle.
+
+59
+00:02:57,250 --> 00:03:01,050
+The first thing I do is to
+flatten the feet of the character
+
+60
+00:03:01,050 --> 00:03:04,770
+because they're on the ground
+and since you will have
+
+61
+00:03:04,770 --> 00:03:09,310
+some kind of still pose we
+need him to be grounded.
+
+62
+00:03:09,310 --> 00:03:11,650
+And to make our life a little easier
+
+63
+00:03:11,650 --> 00:03:14,660
+I will keep the back feet on the ground.
+
+64
+00:03:14,660 --> 00:03:16,970
+In the same position they had
+
+65
+00:03:16,970 --> 00:03:20,450
+when he land at the end of the run cycle.
+
+66
+00:03:20,450 --> 00:03:23,510
+You can do the pose you
+want, but, I believe
+
+67
+00:03:23,510 --> 00:03:26,870
+it will be better for you
+to follow what I'm doing
+
+68
+00:03:26,870 --> 00:03:28,700
+so that you won't be lost
+
+69
+00:03:28,700 --> 00:03:31,300
+if you're not use to animate that much.
+
+70
+00:03:31,300 --> 00:03:34,287
+As I block the character
+pose I will give you
+
+71
+00:03:34,287 --> 00:03:37,940
+the key component I'm
+looking for when doing so.
+
+72
+00:03:37,940 --> 00:03:40,990
+I don't want my character
+to stay on his four leg
+
+73
+00:03:40,990 --> 00:03:42,660
+in the straight pose.
+
+74
+00:03:42,660 --> 00:03:46,130
+If you raise the one of your
+leg you will automatically
+
+75
+00:03:46,130 --> 00:03:49,690
+shift your weight towards the other one.
+
+76
+00:03:49,690 --> 00:03:51,990
+This way you will keep balance.
+
+77
+00:03:51,990 --> 00:03:55,180
+And we can clearly see that
+on the reference poses.
+
+78
+00:03:55,180 --> 00:03:58,380
+Our character has turned
+to its right side.
+
+79
+00:03:58,380 --> 00:04:01,380
+His whole chest is slightly shifting
+
+80
+00:04:01,380 --> 00:04:04,320
+to be right under his front leg.
+
+81
+00:04:04,320 --> 00:04:08,420
+This way his center of mass
+is aligned with the front leg
+
+82
+00:04:08,420 --> 00:04:11,590
+is aligned with these contact points.
+
+83
+00:04:11,590 --> 00:04:14,930
+If we were to see our
+character from beneath,
+
+84
+00:04:14,930 --> 00:04:17,220
+we can see that the three contact points
+
+85
+00:04:17,220 --> 00:04:22,080
+the three legs contacting the
+ground are shaping a triangle.
+
+86
+00:04:22,080 --> 00:04:24,880
+And the center of mass of our character
+
+87
+00:04:24,880 --> 00:04:28,270
+is more or less centered
+with this triangle.
+
+88
+00:04:28,270 --> 00:04:31,230
+This way our characters looks balanced.
+
+89
+00:04:31,230 --> 00:04:33,230
+And this is a very important thing
+
+90
+00:04:33,230 --> 00:04:36,200
+when you are doing these
+kind of idle poses.
+
+91
+00:04:36,200 --> 00:04:40,650
+Since there is no more
+inertia like motion forward
+
+92
+00:04:40,650 --> 00:04:44,060
+as in the run cycle, you
+need to make your character
+
+93
+00:04:44,060 --> 00:04:46,578
+look in balance on each pose.
+
+94
+00:04:46,578 --> 00:04:50,020
+The other very important
+thing to do is to twist
+
+95
+00:04:50,020 --> 00:04:52,760
+the character to while the contact point.
+
+96
+00:04:52,760 --> 00:04:55,750
+Looking at the reference again
+we can see that the shoulder
+
+97
+00:04:55,750 --> 00:04:59,090
+are pointing down towards
+the contact point.
+
+98
+00:04:59,090 --> 00:05:03,960
+And as in most cases you want
+to create an opposite twist
+
+99
+00:05:03,960 --> 00:05:05,120
+with the hips.
+
+100
+00:05:05,120 --> 00:05:08,570
+The cool trick to remember
+is to create a V shape,
+
+101
+00:05:08,570 --> 00:05:11,790
+with the line of the shoulder
+and the line of the hips.
+
+102
+00:05:11,790 --> 00:05:16,330
+We then try to give a nice
+curved shape to the tail.
+
+103
+00:05:16,330 --> 00:05:19,383
+And when I feel like the
+pose is looking all right,
+
+104
+00:05:21,122 --> 00:05:22,550
+I will use the tweak controllers
+
+105
+00:05:22,550 --> 00:05:25,040
+to fix the shape of the front leg.
+
+106
+00:05:25,040 --> 00:05:28,750
+On the current pose, the front
+leg contacting the ground
+
+107
+00:05:28,750 --> 00:05:32,170
+is bending forward and
+it looks a bit weird.
+
+108
+00:05:32,170 --> 00:05:36,110
+So I'm using this tweaker
+controller to fix it.
+
+109
+00:05:36,110 --> 00:05:37,700
+Checking the rotation first
+
+110
+00:05:37,700 --> 00:05:40,513
+and then just moving the
+joint a bit backward.
+
+111
+00:05:42,220 --> 00:05:45,290
+As we did before, during
+this blocking stage
+
+112
+00:05:45,290 --> 00:05:49,433
+I'm absolutely not considering
+the timing of the animation.
+
+113
+00:05:50,680 --> 00:05:53,210
+I'm just setting the key poses
+
+114
+00:05:53,210 --> 00:05:57,060
+or golden poses every five frame.
+
+115
+00:05:57,060 --> 00:06:01,330
+I've seen people setting those
+key poses, every one frame
+
+116
+00:06:01,330 --> 00:06:05,280
+and then moving them when they
+knew their first timing path.
+
+117
+00:06:05,280 --> 00:06:07,310
+For the next two poses,
+
+118
+00:06:07,310 --> 00:06:11,603
+I want my character to
+kind of relax and sit.
+
+119
+00:06:12,450 --> 00:06:15,960
+On the first pose our
+character is transitioning
+
+120
+00:06:15,960 --> 00:06:19,760
+from the previous pose
+watching to his right.
+
+121
+00:06:19,760 --> 00:06:22,690
+And then I want him to watch to his left
+
+122
+00:06:22,690 --> 00:06:26,800
+so that we have a cool rotation
+and the change in the pose.
+
+123
+00:06:26,800 --> 00:06:31,120
+So, as usual, try to avoid
+the twinning in your poses.
+
+124
+00:06:31,120 --> 00:06:33,620
+Think of the silhouette of your character.
+
+125
+00:06:33,620 --> 00:06:34,850
+Does it read well?
+
+126
+00:06:34,850 --> 00:06:37,630
+And think of the balance of your character
+
+127
+00:06:37,630 --> 00:06:39,550
+and his emotional state.
+
+128
+00:06:39,550 --> 00:06:43,670
+Is he relaxed, curious,
+in danger, stressed?
+
+129
+00:06:43,670 --> 00:06:47,480
+As I'm building the
+very first sitting pose,
+
+130
+00:06:47,480 --> 00:06:51,340
+I will kind of squash a
+bit the character backward.
+
+131
+00:06:51,340 --> 00:06:54,110
+So I'm watching references from the video
+
+132
+00:06:54,110 --> 00:06:58,090
+I've linked in the documentation,
+to check the curvature
+
+133
+00:06:58,090 --> 00:07:00,490
+of the body of the character, for example.
+
+134
+00:07:00,490 --> 00:07:03,100
+So I'm using both rotation
+
+135
+00:07:03,100 --> 00:07:06,010
+and location of the different controller.
+
+136
+00:07:06,010 --> 00:07:08,680
+Don't hesitate to move the controllers.
+
+137
+00:07:08,680 --> 00:07:12,380
+A lot of people, especially
+beginners, tend to use
+
+138
+00:07:12,380 --> 00:07:15,469
+only rotation, especially
+for the spine bone
+
+139
+00:07:15,469 --> 00:07:19,530
+or the arm bone when
+using forward kinematic.
+
+140
+00:07:19,530 --> 00:07:23,567
+And a lot of rig doesn't
+allow to move the joint,
+
+141
+00:07:23,567 --> 00:07:26,300
+using the location channels.
+
+142
+00:07:26,300 --> 00:07:30,530
+While this behavior can
+be physically correct
+
+143
+00:07:30,530 --> 00:07:33,410
+because you can't really move your bone
+
+144
+00:07:33,410 --> 00:07:35,400
+you can only rotate them,
+
+145
+00:07:35,400 --> 00:07:39,200
+animation wise it's not
+necessarily relevant.
+
+146
+00:07:39,200 --> 00:07:42,910
+Because unless you have a
+rig that perfectly simulate
+
+147
+00:07:42,910 --> 00:07:45,990
+the physical behavior of your character,
+
+148
+00:07:45,990 --> 00:07:48,970
+with the bones, the fat and everything,
+
+149
+00:07:48,970 --> 00:07:51,200
+you may not get an interesting shape
+
+150
+00:07:51,200 --> 00:07:54,310
+or a believable shape of
+the body of your character
+
+151
+00:07:54,310 --> 00:07:56,720
+by only rotating the controllers.
+
+152
+00:07:56,720 --> 00:07:59,860
+Especially with this
+kind of fluffy character.
+
+153
+00:07:59,860 --> 00:08:03,060
+Because you're not currently
+animating it's skeleton
+
+154
+00:08:03,060 --> 00:08:06,850
+you're animating everything
+from the skeleton,
+
+155
+00:08:06,850 --> 00:08:10,100
+the muscles and the bones and the fur.
+
+156
+00:08:10,100 --> 00:08:13,660
+So as usual, think of the
+shape of your character,
+
+157
+00:08:13,660 --> 00:08:15,470
+think of its silhouette,
+
+158
+00:08:15,470 --> 00:08:18,550
+and think of what you want to communicate.
+
+159
+00:08:18,550 --> 00:08:22,330
+Here, I want him to be
+chilling on its back leg.
+
+160
+00:08:22,330 --> 00:08:24,610
+So I'm compressing him a bit.
+
+161
+00:08:24,610 --> 00:08:27,610
+A reminder, don't forget to set your keys
+
+162
+00:08:27,610 --> 00:08:29,650
+to constant interpolation,
+
+163
+00:08:29,650 --> 00:08:33,140
+and don't forget to key
+your whole character
+
+164
+00:08:33,140 --> 00:08:37,240
+to avoid foot sliding and
+all this kind of shenanigans.
+
+165
+00:08:37,240 --> 00:08:40,540
+For the third pose, I
+want my character to be
+
+166
+00:08:40,540 --> 00:08:44,374
+kind of curious to what's
+happening in his environment.
+
+167
+00:08:44,374 --> 00:08:49,140
+So I will turn him the other
+side so that we have contrast
+
+168
+00:08:49,140 --> 00:08:52,780
+between the previous
+pose and the current one.
+
+169
+00:08:52,780 --> 00:08:56,990
+One of the key component of
+this next pose is curiosity.
+
+170
+00:08:56,990 --> 00:09:00,640
+I want the character to be
+smelling the air around him,
+
+171
+00:09:00,640 --> 00:09:03,770
+as if something was
+catching his attention.
+
+172
+00:09:03,770 --> 00:09:08,620
+This is why I will give to
+his body a more extended pose.
+
+173
+00:09:08,620 --> 00:09:12,600
+He's pulling his head
+apart to smell the air.
+
+174
+00:09:12,600 --> 00:09:17,600
+His body is kind of stretched
+or pulled by his curiosity.
+
+175
+00:09:18,080 --> 00:09:22,120
+And since the pose is
+slightly bending forward,
+
+176
+00:09:22,120 --> 00:09:24,600
+I've laid the tail backward
+
+177
+00:09:24,600 --> 00:09:27,120
+so that the character is balanced.
+
+178
+00:09:27,120 --> 00:09:31,110
+There is more weight of his
+head forward and the tail
+
+179
+00:09:31,110 --> 00:09:35,240
+is counterbalancing the
+weight of the head backward.
+
+180
+00:09:35,240 --> 00:09:38,380
+From my experience an unbalanced pose
+
+181
+00:09:38,380 --> 00:09:39,750
+doesn't look right at all.
+
+182
+00:09:39,750 --> 00:09:42,280
+So, before being appealing,
+
+183
+00:09:42,280 --> 00:09:44,910
+I feel like a pose must be balanced.
+
+184
+00:09:44,910 --> 00:09:47,980
+Like, we can feel that the
+character is well grounded
+
+185
+00:09:47,980 --> 00:09:50,030
+and it won't be falling down.
+
+186
+00:09:50,030 --> 00:09:54,450
+So when creating your pose,
+think first of the goal
+
+187
+00:09:54,450 --> 00:09:58,060
+of your character, the purpose
+of the pose, his feeling.
+
+188
+00:09:58,060 --> 00:10:00,770
+Then, think of the appeal of the pose,
+
+189
+00:10:00,770 --> 00:10:02,940
+the silhouette, et cetera.
+
+190
+00:10:02,940 --> 00:10:07,250
+And for any still pose or
+pose with very slight motion
+
+191
+00:10:07,250 --> 00:10:09,880
+where there is not that much inertia,
+
+192
+00:10:09,880 --> 00:10:12,930
+always think to balance your character.
+
+193
+00:10:12,930 --> 00:10:16,180
+As I'm getting close to the pose I want,
+
+194
+00:10:16,180 --> 00:10:19,270
+I can't think to fix the secondary shape
+
+195
+00:10:19,270 --> 00:10:22,420
+like the elbow orientation,
+the knee orientation
+
+196
+00:10:22,420 --> 00:10:24,260
+and all this kind of stuff.
+
+197
+00:10:24,260 --> 00:10:26,710
+From there I've made a personal choice.
+
+198
+00:10:26,710 --> 00:10:30,370
+I'm not sure that squirrel
+can really rotate their ears.
+
+199
+00:10:30,370 --> 00:10:32,610
+Watching the reference, it seems that
+
+200
+00:10:32,610 --> 00:10:35,170
+there is a slight rotation of the ears.
+
+201
+00:10:35,170 --> 00:10:39,010
+And watching other video I
+can see a bit of rotation,
+
+202
+00:10:39,010 --> 00:10:42,680
+but I'm not sure how much
+they can rotate their ears.
+
+203
+00:10:42,680 --> 00:10:47,670
+But the ears are a fantastic
+feature to communicate emotion,
+
+204
+00:10:47,670 --> 00:10:49,730
+to communicate curiosity.
+
+205
+00:10:49,730 --> 00:10:52,420
+Think of the motion of a cat's ears
+
+206
+00:10:52,420 --> 00:10:54,070
+when they've heard a noise
+
+207
+00:10:54,070 --> 00:10:57,830
+their ear rotates almost 180 degrees.
+
+208
+00:10:57,830 --> 00:11:02,210
+They can show also fear,
+aggressivity, et cetera.
+
+209
+00:11:02,210 --> 00:11:05,410
+So I'm perfectly fine
+if this motion is wrong
+
+210
+00:11:05,410 --> 00:11:10,270
+because I'm not here to
+reproduce a realistic motion.
+
+211
+00:11:10,270 --> 00:11:14,520
+I'm here to give life to this
+character through emotions.
+
+212
+00:11:14,520 --> 00:11:17,050
+I feel like, the pose
+look believable enough.
+
+213
+00:11:17,050 --> 00:11:19,770
+Here I'm starting to work on the next pose
+
+214
+00:11:19,770 --> 00:11:22,470
+and at first I also made a pose
+
+215
+00:11:22,470 --> 00:11:25,230
+where the character was
+staying on his back legs.
+
+216
+00:11:25,230 --> 00:11:28,700
+But it was way too similar
+to the current pose,
+
+217
+00:11:28,700 --> 00:11:31,480
+so in the end, I've modified this pose.
+
+218
+00:11:31,480 --> 00:11:34,480
+I wanted the character to feel surprised
+
+219
+00:11:34,480 --> 00:11:37,100
+by some kind of noise or whatever,
+
+220
+00:11:37,100 --> 00:11:39,010
+and scared at the same time.
+
+221
+00:11:39,010 --> 00:11:41,010
+We will jump directly to the next pose
+
+222
+00:11:41,010 --> 00:11:45,180
+and then we will see how I
+reworked the current one.
+
+223
+00:11:45,180 --> 00:11:47,370
+Since the next pose is the last one
+
+224
+00:11:47,370 --> 00:11:50,740
+before our character run
+again, I have duplicated
+
+225
+00:11:50,740 --> 00:11:54,453
+all the key frame of the run
+cycle and them onto frame 35.
+
+226
+00:11:55,448 --> 00:11:59,110
+I will also duplicate
+the last route motion key
+
+227
+00:11:59,110 --> 00:12:02,360
+and put it on the first
+one of the second cycle.
+
+228
+00:12:02,360 --> 00:12:06,520
+This way I don't get root
+motion on the second cycle.
+
+229
+00:12:06,520 --> 00:12:09,630
+We will get rid of the
+root motion in the end,
+
+230
+00:12:09,630 --> 00:12:12,580
+but it's important to have
+it, for the transition
+
+231
+00:12:12,580 --> 00:12:15,960
+between the run cycle and
+the first pose of the idle.
+
+232
+00:12:15,960 --> 00:12:19,370
+Here, I'm creating the anticipation pose.
+
+233
+00:12:19,370 --> 00:12:22,270
+The next video will be a
+more in depth explanation
+
+234
+00:12:22,270 --> 00:12:25,450
+of anticipation, but
+basically it's the moment
+
+235
+00:12:25,450 --> 00:12:28,350
+where the character is compressing himself
+
+236
+00:12:28,350 --> 00:12:32,560
+to gather energy before jumping
+forward into the run cycle.
+
+237
+00:12:32,560 --> 00:12:35,200
+So I flatten the foot on the ground
+
+238
+00:12:35,200 --> 00:12:37,160
+so that he's very stable.
+
+239
+00:12:37,160 --> 00:12:41,280
+I'm pushing the chest
+backward and the hips forward
+
+240
+00:12:41,280 --> 00:12:44,260
+to compress the torso as much as possible.
+
+241
+00:12:44,260 --> 00:12:47,260
+And I'm also pushing the head inward.
+
+242
+00:12:47,260 --> 00:12:49,200
+It's like squashing a spring
+
+243
+00:12:49,200 --> 00:12:51,700
+before releasing to make it jump.
+
+244
+00:12:51,700 --> 00:12:55,090
+I'm shaping the tail into
+a knock because I know
+
+245
+00:12:55,090 --> 00:12:59,530
+that when he will be jumping
+he will whip the tail downward.
+
+246
+00:12:59,530 --> 00:13:02,250
+So I'm kind of shaping the body
+
+247
+00:13:02,250 --> 00:13:06,280
+the opposite way it will
+react on the next pose.
+
+248
+00:13:06,280 --> 00:13:08,220
+I'm compressing it a lot
+
+249
+00:13:08,220 --> 00:13:12,650
+while it will be stretched
+When the character is jumping.
+
+250
+00:13:12,650 --> 00:13:16,810
+As explained before I'm
+revising the previous pose
+
+251
+00:13:16,810 --> 00:13:19,850
+before the anticipation
+because I wasn't happy
+
+252
+00:13:19,850 --> 00:13:24,350
+with him staying on his back
+legs while I wanted him to be
+
+253
+00:13:24,350 --> 00:13:27,980
+kind of scared by some
+noise, or something,
+
+254
+00:13:27,980 --> 00:13:31,110
+just before he decide to run away.
+
+255
+00:13:31,110 --> 00:13:35,590
+So I want the squirrel to be
+well-grounded on his four legs.
+
+256
+00:13:35,590 --> 00:13:38,880
+Slightly closer to the
+ground ready to jump
+
+257
+00:13:38,880 --> 00:13:43,880
+and with the ears, head and
+torso pointing toward the noise.
+
+258
+00:13:43,890 --> 00:13:46,250
+The tail is counterbalancing the pose
+
+259
+00:13:46,250 --> 00:13:49,290
+creating a nice curve of the whole body.
+
+260
+00:13:49,290 --> 00:13:52,660
+Again, I'm making sure that
+the character is well-balanced
+
+261
+00:13:52,660 --> 00:13:57,190
+that's why I moving the right
+front leg a bit on the side.
+
+262
+00:13:57,190 --> 00:13:59,790
+As explained before, as any art form
+
+263
+00:13:59,790 --> 00:14:03,380
+don't hesitate to try to
+improve your animation.
+
+264
+00:14:03,380 --> 00:14:06,480
+Revise them, change your mind, et cetera.
+
+265
+00:14:06,480 --> 00:14:09,460
+If you are not convinced
+about what you are doing,
+
+266
+00:14:09,460 --> 00:14:10,610
+then change it.
+
+267
+00:14:10,610 --> 00:14:13,560
+If you don't feel like you're
+communicating anything,
+
+268
+00:14:13,560 --> 00:14:14,600
+change it.
+
+269
+00:14:14,600 --> 00:14:16,890
+If it's boring, change it.
+
+270
+00:14:16,890 --> 00:14:18,690
+But if you can't figure why,
+
+271
+00:14:18,690 --> 00:14:21,890
+don't hesitate to ask anybody around you.
+
+272
+00:14:21,890 --> 00:14:24,450
+One of the cool thing
+about animation is that
+
+273
+00:14:24,450 --> 00:14:27,680
+most of the people connect with animation.
+
+274
+00:14:27,680 --> 00:14:30,500
+And while your mother might not be able
+
+275
+00:14:30,500 --> 00:14:33,870
+to tell you what you have to
+do to improve your animation,
+
+276
+00:14:33,870 --> 00:14:38,340
+she might point out things
+that looks weird to her.
+
+277
+00:14:38,340 --> 00:14:41,050
+Or what she doesn't like
+about your animation.
+
+278
+00:14:41,050 --> 00:14:44,580
+And then you can make
+the choice to modify it,
+
+279
+00:14:44,580 --> 00:14:48,750
+or it can put you on the way
+to improve the animation.
+
+280
+00:14:48,750 --> 00:14:51,600
+And if you know any professional animator
+
+281
+00:14:51,600 --> 00:14:54,560
+that can give you
+feedback, don't hesitate.
+
+282
+00:14:54,560 --> 00:14:58,753
+Or put your animation on
+forums, that's very important.
+

@@ -1,0 +1,28 @@
+{
+    "conversation_id": "cq8m26rdf0jfensuupa0",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Project Starline: A high-fidelity telepresence system",
+            "fileID": "cq8l28ubi7s0p448a9b0",
+            "itemID": 1043,
+            "citation": "Joseph, Desloge, G., Fortes, T., Gomez, E. M., Häberling, S., Hoppe, H., Andy, Huibers, RICARDOMARTIN-BRUALLA, Andrew, Russell, I., Seitz, S., & Tong, K. K. (2021). Project Starline: A high-fidelity telepresence system. https://www.semanticscholar.org/paper/Project-Starline%3A-A-high-fidelity-telepresence-Joseph-Desloge/34db8aa914149bba1500c57b2f4633e925a6f6c1\n",
+            "citationShort": "Joseph et al., 2021",
+            "tags": [
+                "#Compression Techniques",
+                "#kimi",
+                "#Semantic Enrichment"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n引用分组:\n请对本文引用部分按照作者的思路进行重新分组, 便于理解和比较不同引用在本文中的作用。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Project Starline: A high-fidelity telepresence system, was published on 2021. (It can be cite this paper as Joseph et al., 2021 on your answer). \n\n",
+    "response": "根据提供的文件内容，我们可以将文中的引用按照其在论文中的作用和主题进行重新分组。以下是按照作者的思路进行的分组，使用Markdown格式进行布局：\n\n### 视频会议技术发展\n- Sterling, C. H., & Shiers, G. (2000). History of Telecommunications Technology.\n- Draper, J. V., Kaber, D. B., & Usher, J. M. (1998). Telepresence.\n- Gibbs, S. J., Arapis, C., & Breiteneder, C. J. (1999). TELEPORT – Towards immersive copresence.\n\n### 3D 远程呈现技术\n- Baker, H. H., et al. (2002). The Coliseum immersive teleconferencing system.\n- Maimone, A., et al. (2012). Enhanced personal autostereoscopic telepresence system using commodity depth cameras.\n- Zhang, Z., et al. (2013). Viewport: A distributed, immersive teleconferencing system with infrared dot pattern.\n\n### 3D 音频和空间化音频技术\n- Gardner, W. (1997). Head tracked 3-D audio using loudspeakers.\n- Lentz, T. (2006). Dynamic crosstalk cancellation for binaural synthesis in virtual reality environments.\n- Pulkki, V. (1997). Virtual sound source positioning using vector base amplitude panning.\n\n### 3D 显示和自动立体显示技术\n- Dodgson, N. A. (2005). Autostereoscopic 3D displays.\n- Borner, R., et al. (2000). A family of single-user autostereoscopic displays with headtracking capabilities.\n\n### 面部追踪和动画技术\n- Mingsong, D., et al. (2016). Fusion4D: Real-time performance capture of challenging scenes.\n- Lombardi, S., et al. (2018). Deep appearance models for face rendering.\n- Wei, S.-E., et al. (2019). VR facial animation via multiview image translation.\n\n### 视频压缩和传输技术\n- Johnston, A. B., & Burnett, D. C. (2012). WebRTC: APIs and RTCWEB Protocols of the HTML5 Real-Time Web.\n- Vetro, A., et al. (2011). Overview of the stereo and multiview video coding extensions of the H.264/MPEG-4 AVC standard.\n\n### 用户体验和行为研究\n- Argyle, M., & Cook, M. (1976). Gaze and mutual gaze.\n- Aron, A., et al. (1997). The experimental generation of interpersonal closeness: A procedure and some preliminary findings.\n- Hall, J. A., et al. (2019). Nonverbal communication.\n\n### 系统设计与实现\n- Chen, Y., et al. (2004). QoS requirements of network applications on the Internet.\n- Hesch, J. A., et al. (2008). Mirror-based extrinsic camera calibration.\n- Jurk, S., & de la Barré, R. (2014). A new tracking approach for XYZ-user-adaptation of stereoscopic content.\n\n请注意，以上分组是基于文中引用的上下文和主题进行的，可能并不完全涵盖文中所有引用，但提供了一个便于理解和比较不同引用在本文中作用的概览。在实际引用时，请根据具体的出版格式要求进行调整。",
+    "refs": [
+        "cq8l28ubi7s0p448a9b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n引用分组:\n请对本",
+    "group_id": "cq8m270nsmmm10jbn6fg",
+    "req_id": "cq8m270nsmmm10jbn6g0",
+    "resp_id": "cq8m270nsmmm10jbn6gg",
+    "quection": "引用分组:\n请对本文引用部分按照作者的思路进行重新分组, 便于理解和比较不同引用在本文中的作用。"
+}

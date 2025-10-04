@@ -1,0 +1,69 @@
+﻿1
+00:00:00,330 --> 00:00:01,510
+- [Tutor] Welcome to chapter six.
+
+2
+00:00:01,510 --> 00:00:04,900
+In this chapter, we are
+going to build another cycle
+
+3
+00:00:04,900 --> 00:00:07,860
+and it's going to be vanilla walk cycle.
+
+4
+00:00:07,860 --> 00:00:11,160
+As explained before, we
+are doing this walk cycle
+
+5
+00:00:11,160 --> 00:00:15,270
+after the run cycle, because
+it's a little bit harder,
+
+6
+00:00:15,270 --> 00:00:19,400
+since it's more subtle to
+get an appealing result.
+
+7
+00:00:19,400 --> 00:00:22,890
+As usual, we'll go through
+a reference analysis
+
+8
+00:00:22,890 --> 00:00:27,250
+and we'll try to identify
+the main mechanism involved
+
+9
+00:00:27,250 --> 00:00:29,460
+into a good walk cycle.
+
+10
+00:00:29,460 --> 00:00:33,350
+Starting from scratch, we'll
+build the main key poses
+
+11
+00:00:33,350 --> 00:00:38,350
+of the walk cycle, and then
+we'll mix our post to pose
+
+12
+00:00:38,380 --> 00:00:41,700
+and layered approach to polish the walk.
+
+13
+00:00:41,700 --> 00:00:45,070
+I will guide you through the whole process
+
+14
+00:00:45,070 --> 00:00:49,290
+from polishing the feet to
+the fingers of the character.
+
+15
+00:00:49,290 --> 00:00:50,493
+Let's get started.
+

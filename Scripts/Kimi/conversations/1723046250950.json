@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cqppiratnn0hkg3d908g",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "Adobe audition CC 经典教程（第2版）",
+            "fileID": "cqo3a9m9e5jhdcrea0mg",
+            "itemID": 3597,
+            "citation": "马克西姆·亚戈, Maxim, & Jago. (2020). Adobe audition CC 经典教程（第2版）. 人民邮电出版社. https://product.dangdang.com/28524032.html\n",
+            "citationShort": "马克西姆·亚戈 et al., 2020",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：为学生讲第一节课的大纲, 解释声音的价值以及认识声音处理的价值, 提高学生对本教程的积极性.\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe audition CC 经典教程（第2版）, was published on 2020. (It can be cite this paper as 马克西姆·亚戈 et al., 2020 on your answer). \n\n",
+    "response": "在准备第一节课的大纲时，我们可以从《Adobe Audition CC 经典教程（第2版）》中提取关键信息，以激发学生对声音和声音处理价值的认识，从而提高他们对本教程的积极性。以下是课程大纲的草案：\n\n### 第一节课：声音与声音处理的价值\n\n#### 1. 引言\n- 介绍声音在我们日常生活中的重要性。\n- 强调声音处理在现代媒体制作中的作用。\n\n#### 2. 声音的价值\n- **引用原文**：“本书由Adobe公司编写，是Adobe Audition CC软件的正规学习用书。”\n  - *说明*：Adobe公司作为行业领导者，其编写的教程代表了声音处理领域的权威性，体现了声音学习的价值。\n\n#### 3. 认识声音处理的重要性\n- **引用原文**：“全书共分15课，内容包括：在多轨混合环境下处理音频、编辑单声道和立体声音频文件、向视频文件添加音频特效、改善劣质音频、导出到CD和MP3、针对Web应用优化音频。”\n  - *说明*：通过展示声音处理的多样性和应用范围，让学生了解掌握声音处理技能的广泛用途。\n\n#### 4. 提高学生积极性的方法\n- **引用原文**：“书中给出了大量的提示和技巧，能大大提高您对Audition的使用效率。”\n  - *说明*：通过提供实用技巧和提高使用效率，激发学生学习的兴趣和动力。\n\n#### 5. 课程目标与成果\n- **引用原文**：“特别适合Audition新手阅读；有一定使用经验的用户从中也可学到大量高级功能和Audition CC新增的功能。”\n  - *说明*：明确告知学生，无论他们的起点如何，本教程都能提供适合他们水平的深度学习内容。\n\n#### 6. 实践与应用\n- **引用原文**：“本书语言通俗易懂并配以大量的图示，特别适合Audition新手阅读。”\n  - *说明*：通过实践和图示，学生可以更直观地理解声音处理的概念和技术。\n\n#### 7. 结语\n- 强调声音处理技能对未来职业发展的潜在价值。\n- 鼓励学生积极参与课程，探索声音的无限可能。\n\n#### 8. 互动环节\n- 邀请学生分享他们对声音处理的初步看法和期望。\n- 开放式问题讨论，例如：“你如何看待声音设计在未来媒体制作中的角色？”\n\n通过上述大纲，我们希望能够激发学生对声音处理的兴趣，并认识到学习Adobe Audition CC的价值。引用的原文信息提供了课程内容的权威性和实用性，有助于增强学生的学习动力。",
+    "refs": [
+        "cqo3a9m9e5jhdcrea0mg"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqppircodhsn125kr7i0",
+    "req_id": "cqppircodhsn125kr7ig",
+    "resp_id": "cqppircodhsn125kr7j0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：为学生讲第一节课的大纲, 解释声音的价值以及认识声音处理的价值, 提高学生对本教程的积极性."
+}

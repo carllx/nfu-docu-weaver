@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqhiamcp7f7fcr0ms0g",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题：作者使用 BLOOM 与其他模型相比得出什么显著的结论？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n",
+    "response": "根据Mishra等人在2023年发表的论文《Prompting with Pseudo-Code Instructions》，作者通过实验得出了一些关于BLOOM模型与其他模型相比较的显著结论：\n\n1. **伪代码提示的性能提升**：在使用伪代码指令进行提示时，BLOOM模型在分类任务上的F1分数平均提高了7-16点，在所有任务上的ROUGE-L分数相对提高了12-38%。这表明伪代码指令相较于自然语言指令，能够显著提高模型性能（参见论文中的第4.4.1节）。\n\n2. **模型规模对性能的影响**：在0-shot设置中，随着模型规模的增加，使用伪代码指令的性能得到了提升。然而，当使用自然语言指令时，这种提升并不明显。这可能表明，未经指令微调的模型在处理自然语言指令时，规模的增加可能会加剧模型倾向于语言补全的倾向（参见论文中的第4.5节）。\n\n3. **代码模型与自然语言模型的比较**：研究发现，即使是在非编程任务上，为编程应用设计的CodeGen模型在使用自然语言指令时也比BLOOM模型表现得更好。这表明CodeGen模型可能更适合利用伪代码提示，而不是BLOOM模型（参见论文中的第4.4.1节）。\n\n4. **结构化提示的贡献**：论文中的实验还探讨了伪代码提示中的结构化元素（如函数声明、docstrings、内联注释等）对性能的贡献。结果显示，尽管这些元素有帮助，但使用完整的伪代码提示最有效（参见论文中的第4.4.2节）。\n\n5. **伪代码文档的影响**：研究还发现，伪代码指令中的注释和docstrings有助于提高性能，这表明模型不仅利用了提示的结构，还依赖于文档中的附加辅助文本（参见论文中的第4.4.3节）。\n\n总结来说，BLOOM模型在使用伪代码指令时表现出性能上的显著提升，尤其是在分类任务和需要结构化提示的任务上。此外，CodeGen模型在利用伪代码指令方面比BLOOM模型更为有效，这为未来的研究提供了使用代码模型进行自然语言处理任务的新思路。",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpqhiag6n7ms10717p3g",
+    "req_id": "cpqhiag6n7ms10717p40",
+    "resp_id": "cpqhiag6n7ms10717p4g",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题：作者使用 BLOOM 与其他模型相比得出什么显著的结论？"
+}

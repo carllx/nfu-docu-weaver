@@ -1,0 +1,1214 @@
+﻿1
+00:00:00,500 --> 00:00:01,333
+- [Instructor] In this video,
+
+2
+00:00:01,333 --> 00:00:04,170
+we will see how to use a curve as a path
+
+3
+00:00:04,170 --> 00:00:06,950
+as in the tree climbing sequence.
+
+4
+00:00:06,950 --> 00:00:08,500
+In the corresponding file,
+
+5
+00:00:08,500 --> 00:00:11,587
+I have two collections, one
+including a simple arrow
+
+6
+00:00:11,587 --> 00:00:15,230
+and the other one including
+our squirrel character
+
+7
+00:00:15,230 --> 00:00:16,140
+and the tree.
+
+8
+00:00:16,140 --> 00:00:18,270
+Getting back to the arrow collection,
+
+9
+00:00:18,270 --> 00:00:19,780
+I will press Shift + A
+
+10
+00:00:19,780 --> 00:00:22,260
+to add a curve, Bezier curve.
+
+11
+00:00:22,260 --> 00:00:24,520
+As any other object added to your scene,
+
+12
+00:00:24,520 --> 00:00:26,940
+it is spawned onto the 3D cursor.
+
+13
+00:00:26,940 --> 00:00:28,390
+It has an origin point
+
+14
+00:00:28,390 --> 00:00:31,070
+and if I press Tab to enter edit mode,
+
+15
+00:00:31,070 --> 00:00:33,830
+I can access the handles of the curve.
+
+16
+00:00:33,830 --> 00:00:36,650
+It's pretty close to the handles we have
+
+17
+00:00:36,650 --> 00:00:38,000
+in the graph editor.
+
+18
+00:00:38,000 --> 00:00:39,740
+Curves have an orientation,
+
+19
+00:00:39,740 --> 00:00:42,000
+meaning that they have a starting point
+
+20
+00:00:42,000 --> 00:00:43,800
+and an ending point.
+
+21
+00:00:43,800 --> 00:00:46,620
+To see it, we can go into the overlay
+
+22
+00:00:46,620 --> 00:00:49,480
+and display the normals of the curve.
+
+23
+00:00:49,480 --> 00:00:51,670
+Arrows will be displayed along the curve,
+
+24
+00:00:51,670 --> 00:00:54,040
+showing you the orientation of flow
+
+25
+00:00:54,040 --> 00:00:57,540
+of the curve, also called
+normals of the curve.
+
+26
+00:00:57,540 --> 00:01:00,140
+In edit mode, you can
+manipulate the handles,
+
+27
+00:01:00,140 --> 00:01:01,210
+as I explained before,
+
+28
+00:01:01,210 --> 00:01:03,930
+using G, R and S.
+
+29
+00:01:03,930 --> 00:01:05,800
+You can change the handle type
+
+30
+00:01:05,800 --> 00:01:07,970
+as you will do in the graph editor,
+
+31
+00:01:07,970 --> 00:01:09,710
+pressing the V key.
+
+32
+00:01:09,710 --> 00:01:11,640
+Then you will get the same behavior
+
+33
+00:01:11,640 --> 00:01:13,750
+as the one we have in the graph editor
+
+34
+00:01:13,750 --> 00:01:16,100
+but this time for a 3D object.
+
+35
+00:01:16,100 --> 00:01:18,560
+And with any curve point selected,
+
+36
+00:01:18,560 --> 00:01:21,980
+you can press E to extrude a new point.
+
+37
+00:01:21,980 --> 00:01:24,750
+As any object, we can access the curve
+
+38
+00:01:24,750 --> 00:01:27,390
+that are in the properties panel.
+
+39
+00:01:27,390 --> 00:01:29,130
+You can give a bit of thickness
+
+40
+00:01:29,130 --> 00:01:33,250
+or geometry to your curve
+going into the geometry panel.
+
+41
+00:01:33,250 --> 00:01:37,100
+The simple extrude will
+generate a rebound-like shape,
+
+42
+00:01:37,100 --> 00:01:39,220
+while the bevel will allow you
+
+43
+00:01:39,220 --> 00:01:42,020
+to create some kind of pipe.
+
+44
+00:01:42,020 --> 00:01:44,513
+While we don't need
+geometry for animation,
+
+45
+00:01:45,440 --> 00:01:49,000
+it makes the curve more
+readable in the 3D space.
+
+46
+00:01:49,000 --> 00:01:51,670
+In object mode, I can
+select my arrow object,
+
+47
+00:01:51,670 --> 00:01:53,970
+then select the curve to make it active.
+
+48
+00:01:53,970 --> 00:01:57,130
+Press Control + P and choose Follow Path.
+
+49
+00:01:57,130 --> 00:01:59,530
+Now if I scrub into the timeline,
+
+50
+00:01:59,530 --> 00:02:02,610
+I can see the arrow following the curve.
+
+51
+00:02:02,610 --> 00:02:05,710
+In the path animation option of the curve,
+
+52
+00:02:05,710 --> 00:02:08,170
+we can see the value frames.
+
+53
+00:02:08,170 --> 00:02:11,520
+And it is set to 100 frames.
+
+54
+00:02:11,520 --> 00:02:13,930
+It means that the object
+
+55
+00:02:13,930 --> 00:02:16,030
+that is parented to the curve
+
+56
+00:02:16,030 --> 00:02:18,370
+with the follow path option
+
+57
+00:02:18,370 --> 00:02:20,550
+will take 100 frames to get
+
+58
+00:02:20,550 --> 00:02:24,030
+from the beginning of the curve
+'til the end of the curve.
+
+59
+00:02:24,030 --> 00:02:26,570
+Switching to 50 frame value,
+
+60
+00:02:26,570 --> 00:02:29,820
+you can see that now
+my arrow get to the end
+
+61
+00:02:29,820 --> 00:02:32,410
+of the curve on frame 50.
+
+62
+00:02:32,410 --> 00:02:35,540
+As our arrow object is currently a child
+
+63
+00:02:35,540 --> 00:02:37,800
+of the curve, we can move it at will.
+
+64
+00:02:37,800 --> 00:02:40,260
+It will still follow the path.
+
+65
+00:02:40,260 --> 00:02:42,380
+And we can see that by default,
+
+66
+00:02:42,380 --> 00:02:45,250
+our arrow object will rotate
+
+67
+00:02:45,250 --> 00:02:48,000
+to follow the curvature of the path.
+
+68
+00:02:48,000 --> 00:02:50,090
+If I go into the option of the curve
+
+69
+00:02:50,090 --> 00:02:53,480
+to the path animation and uncheck Follow,
+
+70
+00:02:53,480 --> 00:02:56,870
+the object is no longer rotating
+
+71
+00:02:56,870 --> 00:02:59,220
+to follow the orientation of the curve.
+
+72
+00:02:59,220 --> 00:03:03,523
+The curve path only affect
+the location of the object.
+
+73
+00:03:03,523 --> 00:03:05,430
+Let's restart from scratch.
+
+74
+00:03:05,430 --> 00:03:07,860
+I have removed any
+influence from the curve.
+
+75
+00:03:07,860 --> 00:03:09,630
+I will reselect the arrow,
+
+76
+00:03:09,630 --> 00:03:11,900
+then the curve, press Control + P
+
+77
+00:03:11,900 --> 00:03:15,290
+and this time, choose Path Constraint.
+
+78
+00:03:15,290 --> 00:03:17,750
+This will add a path
+constraint to the arrow
+
+79
+00:03:17,750 --> 00:03:20,320
+that we can see in the Constraint tab
+
+80
+00:03:20,320 --> 00:03:22,230
+of the properties editor.
+
+81
+00:03:22,230 --> 00:03:26,330
+From there, if I scrub into
+the timeline, nothing happened.
+
+82
+00:03:26,330 --> 00:03:29,470
+Our object gets stuck on the initial point
+
+83
+00:03:29,470 --> 00:03:30,510
+of the curve.
+
+84
+00:03:30,510 --> 00:03:33,350
+If I click the Animate Path button,
+
+85
+00:03:33,350 --> 00:03:36,810
+now our object is
+traveling along the curve
+
+86
+00:03:36,810 --> 00:03:40,560
+and you can see that
+it takes it 100 frames
+
+87
+00:03:40,560 --> 00:03:43,300
+to follow the curve, as before.
+
+88
+00:03:43,300 --> 00:03:45,860
+It still use the frame's value
+
+89
+00:03:45,860 --> 00:03:47,770
+from the curve properties.
+
+90
+00:03:47,770 --> 00:03:50,020
+Let's go back onto our arrow object
+
+91
+00:03:50,020 --> 00:03:52,170
+and check out the constraint.
+
+92
+00:03:52,170 --> 00:03:55,740
+We can see the forward
+axis and up axis option.
+
+93
+00:03:55,740 --> 00:03:57,260
+To better understand it,
+
+94
+00:03:57,260 --> 00:04:00,100
+I will display the axis on my object.
+
+95
+00:04:00,100 --> 00:04:02,150
+So we can see that our arrow
+
+96
+00:04:02,150 --> 00:04:04,690
+is pointing in its y direction
+
+97
+00:04:04,690 --> 00:04:07,490
+and the up axis is the z-axis,
+
+98
+00:04:07,490 --> 00:04:10,430
+exactly as set into the constraint.
+
+99
+00:04:10,430 --> 00:04:13,860
+So if I now click the Follow Curve option,
+
+100
+00:04:13,860 --> 00:04:17,130
+the orientation of the arrow will change.
+
+101
+00:04:17,130 --> 00:04:18,900
+It will follow the curve.
+
+102
+00:04:18,900 --> 00:04:23,060
+Its y-axis will be aligned
+with the curve path
+
+103
+00:04:23,060 --> 00:04:25,980
+and the z-axis will still be pointing up
+
+104
+00:04:25,980 --> 00:04:28,130
+as set in the constraint.
+
+105
+00:04:28,130 --> 00:04:31,090
+If I switch the orientation to -y,
+
+106
+00:04:31,090 --> 00:04:35,150
+it will flip the arrow but it
+will still follow the curve
+
+107
+00:04:35,150 --> 00:04:38,980
+and so if I choose the
+x-axis, for example,
+
+108
+00:04:38,980 --> 00:04:41,540
+logically you can't use the same channel
+
+109
+00:04:41,540 --> 00:04:44,100
+as a forward and up axis.
+
+110
+00:04:44,100 --> 00:04:46,040
+It will deactivate the constraint
+
+111
+00:04:46,040 --> 00:04:48,365
+and it will no longer work.
+
+112
+00:04:48,365 --> 00:04:51,970
+The offset value have
+two different behavior.
+
+113
+00:04:51,970 --> 00:04:53,710
+Let's move to frame 20
+
+114
+00:04:53,710 --> 00:04:57,270
+and in the offset value,
+set the value to 10.
+
+115
+00:04:57,270 --> 00:05:00,520
+Our arrow is moved back on the curve.
+
+116
+00:05:00,520 --> 00:05:05,297
+Its current position is
+frame 20, -10 frames.
+
+117
+00:05:06,220 --> 00:05:10,270
+The offset value is how
+we delay the position
+
+118
+00:05:10,270 --> 00:05:12,450
+of the arrow in time.
+
+119
+00:05:12,450 --> 00:05:15,880
+Basically, we are
+subtracting the offset value
+
+120
+00:05:15,880 --> 00:05:18,580
+to the frame's value of the curve.
+
+121
+00:05:18,580 --> 00:05:20,750
+So if I set it to -10,
+
+122
+00:05:20,750 --> 00:05:23,640
+it will currently move the arrow forward,
+
+123
+00:05:23,640 --> 00:05:26,530
+10 frame earlier in time.
+
+124
+00:05:26,530 --> 00:05:31,530
+Exactly as if I was on
+frame 30 without any offset.
+
+125
+00:05:31,816 --> 00:05:34,120
+If I now enable the fixed position,
+
+126
+00:05:34,120 --> 00:05:36,180
+our arrow object will be stuck
+
+127
+00:05:36,180 --> 00:05:37,760
+to the beginning of the curve.
+
+128
+00:05:37,760 --> 00:05:40,850
+Now the offset value is
+no longer a value in frame
+
+129
+00:05:40,850 --> 00:05:43,260
+but a value that goes from zero to one
+
+130
+00:05:43,260 --> 00:05:45,360
+and indicate the position
+
+131
+00:05:45,360 --> 00:05:48,510
+between the beginning
+and the end of the curve.
+
+132
+00:05:48,510 --> 00:05:52,220
+Finally, if I enable
+the curve radius option,
+
+133
+00:05:52,220 --> 00:05:54,620
+our constraint object scale
+
+134
+00:05:54,620 --> 00:05:57,620
+will depend on the curve radius.
+
+135
+00:05:57,620 --> 00:05:59,700
+So if I now go into edit mode
+
+136
+00:05:59,700 --> 00:06:02,670
+onto the curve and press Alt + S
+
+137
+00:06:02,670 --> 00:06:05,550
+with one of the control points selected,
+
+138
+00:06:05,550 --> 00:06:09,440
+I will be able to change
+the radius of the curve
+
+139
+00:06:09,440 --> 00:06:11,570
+and this will influence the scale
+
+140
+00:06:11,570 --> 00:06:13,380
+of our arrow objects.
+
+141
+00:06:13,380 --> 00:06:14,980
+Finally, in edit mode,
+
+142
+00:06:14,980 --> 00:06:16,860
+when working on the curve,
+
+143
+00:06:16,860 --> 00:06:19,030
+with a control point selected,
+
+144
+00:06:19,030 --> 00:06:21,460
+I can change the tilt value
+
+145
+00:06:21,460 --> 00:06:26,050
+and I will see my curve
+twisting or tilting.
+
+146
+00:06:26,050 --> 00:06:28,080
+And so will the object
+
+147
+00:06:28,080 --> 00:06:30,000
+that is constrained by the curve,
+
+148
+00:06:30,000 --> 00:06:32,870
+creating very nice animations.
+
+149
+00:06:32,870 --> 00:06:36,413
+We can tilt the curve with
+the Control + T shortcut.
+
+150
+00:06:37,600 --> 00:06:40,170
+Let's now see how we can use this trick
+
+151
+00:06:40,170 --> 00:06:42,830
+to animate our squirrel character.
+
+152
+00:06:42,830 --> 00:06:45,187
+I will display the squirrel collection.
+
+153
+00:06:45,187 --> 00:06:46,020
+I will move the current curve
+into the arrow collection
+
+154
+00:06:49,849 --> 00:06:52,140
+and I will press the
+Shift + A in object mode
+
+155
+00:06:52,140 --> 00:06:53,770
+to add a new curve.
+
+156
+00:06:53,770 --> 00:06:57,450
+This is going to be our squirrel path.
+
+157
+00:06:57,450 --> 00:07:02,000
+This time, instead of
+constraining the squirrel object,
+
+158
+00:07:02,000 --> 00:07:05,610
+I will constrain the root
+bone of our character.
+
+159
+00:07:05,610 --> 00:07:09,040
+In pose mode, I can go
+to the bone constraint,
+
+160
+00:07:09,040 --> 00:07:10,720
+not the object constraint
+
+161
+00:07:10,720 --> 00:07:13,530
+and add a follow path constraint
+
+162
+00:07:13,530 --> 00:07:16,070
+and source our curve.
+
+163
+00:07:16,070 --> 00:07:18,900
+Now the root bone of
+our character gets stuck
+
+164
+00:07:18,900 --> 00:07:20,770
+at the beginning of the curve.
+
+165
+00:07:20,770 --> 00:07:23,110
+If I click the Follow Curve option,
+
+166
+00:07:23,110 --> 00:07:26,620
+I can see my character
+getting align with the curve
+
+167
+00:07:26,620 --> 00:07:30,220
+and if I now scrub, I can't see it moving
+
+168
+00:07:30,220 --> 00:07:33,860
+because we need to click
+the Animate Path button.
+
+169
+00:07:33,860 --> 00:07:35,630
+And by default, our character
+
+170
+00:07:35,630 --> 00:07:39,980
+will follow the curve and
+reach the end on frame 100.
+
+171
+00:07:39,980 --> 00:07:43,010
+To give a proper orientation
+to our character,
+
+172
+00:07:43,010 --> 00:07:48,010
+we need to switch to -y
+as being the forward axis.
+
+173
+00:07:48,220 --> 00:07:52,020
+Now our character is
+properly following the path.
+
+174
+00:07:52,020 --> 00:07:53,470
+A big warning here.
+
+175
+00:07:53,470 --> 00:07:56,063
+Whenever you are using a curve modifier,
+
+176
+00:07:56,063 --> 00:07:58,411
+make sure that the constraint object
+
+177
+00:07:58,411 --> 00:08:02,310
+has its origin aligned with world space,
+
+178
+00:08:02,310 --> 00:08:05,640
+meaning that its origin is reset
+
+179
+00:08:05,640 --> 00:08:07,270
+because if you offset the object,
+
+180
+00:08:07,270 --> 00:08:10,110
+the constraint will behave weirdly.
+
+181
+00:08:10,110 --> 00:08:12,310
+You can move the curve as you want.
+
+182
+00:08:12,310 --> 00:08:14,760
+The constraint object will follow
+
+183
+00:08:14,760 --> 00:08:16,720
+but make sure that the constraint object
+
+184
+00:08:16,720 --> 00:08:19,593
+has all its transform channels reset.
+
+185
+00:08:20,560 --> 00:08:23,540
+Now that you understand
+the curve constraint,
+
+186
+00:08:23,540 --> 00:08:25,560
+you can go into edit mode
+
+187
+00:08:25,560 --> 00:08:27,860
+and start building your motion path
+
+188
+00:08:27,860 --> 00:08:29,610
+for your character.
+
+189
+00:08:29,610 --> 00:08:31,580
+I'm doing it into a little time lapse
+
+190
+00:08:31,580 --> 00:08:34,610
+because I'm using a simple rotation scale
+
+191
+00:08:34,610 --> 00:08:36,930
+and extrude functions.
+
+192
+00:08:36,930 --> 00:08:41,350
+My main advice is use as
+less point as possible
+
+193
+00:08:41,350 --> 00:08:44,950
+and try to have your curve
+as smooth as possible.
+
+194
+00:08:44,950 --> 00:08:47,400
+Also, you can use the bevel option
+
+195
+00:08:47,400 --> 00:08:49,880
+to give a bit of thickness to your curve
+
+196
+00:08:49,880 --> 00:08:53,490
+so that it's easier to
+read along the tree trunk.
+
+197
+00:08:53,490 --> 00:08:56,850
+The less control point
+you set onto your curve,
+
+198
+00:08:56,850 --> 00:08:59,690
+the easier it will be to keep it smooth
+
+199
+00:08:59,690 --> 00:09:01,900
+and so the animation of your character
+
+200
+00:09:01,900 --> 00:09:03,750
+will also be smooth.
+
+201
+00:09:03,750 --> 00:09:06,900
+If you create hard
+angles or too curvy path,
+
+202
+00:09:06,900 --> 00:09:08,810
+then the animation of your character
+
+203
+00:09:08,810 --> 00:09:12,810
+will look weird unless you
+heavily edit the animation
+
+204
+00:09:12,810 --> 00:09:14,690
+on top of the cycle.
+
+205
+00:09:14,690 --> 00:09:16,730
+When you're satisfied with the path,
+
+206
+00:09:16,730 --> 00:09:20,470
+you can zoom in and tweak
+the tilt and position
+
+207
+00:09:20,470 --> 00:09:21,680
+of the control point
+
+208
+00:09:21,680 --> 00:09:25,180
+so that your character
+feet stick to the trunk
+
+209
+00:09:25,180 --> 00:09:26,790
+and you avoid the clipping.
+
+210
+00:09:26,790 --> 00:09:29,540
+Don't forget to double
+check from camera view
+
+211
+00:09:29,540 --> 00:09:32,160
+because sometimes, even if your character
+
+212
+00:09:32,160 --> 00:09:34,690
+is a bit floating, that's perfectly fine,
+
+213
+00:09:34,690 --> 00:09:39,080
+'til it looks good from the
+camera point of view as usual.
+
+214
+00:09:39,080 --> 00:09:40,310
+Back to object mode,
+
+215
+00:09:40,310 --> 00:09:42,410
+we need to set the correct speed
+
+216
+00:09:42,410 --> 00:09:44,730
+for our character to climb the tree
+
+217
+00:09:44,730 --> 00:09:48,360
+and we can do it by
+modifying the frame's value
+
+218
+00:09:48,360 --> 00:09:50,520
+into the curve's option.
+
+219
+00:09:50,520 --> 00:09:52,350
+As the feet are moving backward,
+
+220
+00:09:52,350 --> 00:09:54,950
+it means that our character animation
+
+221
+00:09:54,950 --> 00:09:57,150
+is faster than the locomotion.
+
+222
+00:09:57,150 --> 00:10:00,250
+So I need to reduce the frame's value.
+
+223
+00:10:00,250 --> 00:10:04,070
+With a value of 70, it
+seems that now the feet
+
+224
+00:10:04,070 --> 00:10:06,060
+are sliding forward.
+
+225
+00:10:06,060 --> 00:10:09,510
+So our character locomotion is too fast.
+
+226
+00:10:09,510 --> 00:10:12,220
+So it's just a matter of trial and error
+
+227
+00:10:12,220 --> 00:10:14,430
+to find the correct value.
+
+228
+00:10:14,430 --> 00:10:17,960
+A value of 85 seems to work well for me.
+
+229
+00:10:17,960 --> 00:10:20,240
+And it depends on the curve length.
+
+230
+00:10:20,240 --> 00:10:22,713
+So you may not have the same value.
+
+231
+00:10:23,820 --> 00:10:26,000
+Another way to control the speed
+
+232
+00:10:26,000 --> 00:10:28,380
+at which our character is moving
+
+233
+00:10:28,380 --> 00:10:30,000
+is to use the offset.
+
+234
+00:10:30,000 --> 00:10:32,240
+We can enable the fixed position.
+
+235
+00:10:32,240 --> 00:10:34,910
+Now our character is no longer moving
+
+236
+00:10:34,910 --> 00:10:38,840
+and insert a keyframe
+on the offset factor.
+
+237
+00:10:38,840 --> 00:10:41,610
+I'm setting a value of zero on frame zero
+
+238
+00:10:41,610 --> 00:10:45,170
+and on frame 85, a value of one.
+
+239
+00:10:45,170 --> 00:10:47,440
+If I now go into the graph editor,
+
+240
+00:10:47,440 --> 00:10:49,690
+I will be able to see the curve
+
+241
+00:10:49,690 --> 00:10:51,860
+of this animated value
+
+242
+00:10:51,860 --> 00:10:54,120
+and we can see that there is easing in
+
+243
+00:10:54,120 --> 00:10:55,120
+and easing out,
+
+244
+00:10:55,120 --> 00:10:58,740
+so our character is slowing
+down and accelerating.
+
+245
+00:10:58,740 --> 00:11:00,250
+What I do need to do
+
+246
+00:11:00,250 --> 00:11:03,150
+is whether change the
+interpolation of the curve
+
+247
+00:11:03,150 --> 00:11:05,880
+to linear or select all the handles,
+
+248
+00:11:05,880 --> 00:11:08,060
+press V, and switch to vector.
+
+249
+00:11:08,060 --> 00:11:10,440
+The cool thing about choosing this method
+
+250
+00:11:10,440 --> 00:11:12,920
+is that I can insert a keyframe
+
+251
+00:11:12,920 --> 00:11:16,040
+whenever my character is about to jump.
+
+252
+00:11:16,040 --> 00:11:19,680
+Then another keyframe
+when he's just landing
+
+253
+00:11:19,680 --> 00:11:22,630
+and then I can offset a
+bit the landing keyframe
+
+254
+00:11:22,630 --> 00:11:25,543
+if I want my character
+to make a larger jump.
+
+255
+00:11:26,400 --> 00:11:28,220
+The only thing not to forget
+
+256
+00:11:28,220 --> 00:11:31,670
+is to also offset the latest keyframe
+
+257
+00:11:31,670 --> 00:11:34,700
+so that the interpolation
+between those two keyframe
+
+258
+00:11:34,700 --> 00:11:39,700
+doesn't change, and so our
+character speed remain the same.
+
+259
+00:11:39,860 --> 00:11:43,800
+But between frame 22 and frame 29 here,
+
+260
+00:11:43,800 --> 00:11:46,670
+the speed of my character
+is no longer the same
+
+261
+00:11:46,670 --> 00:11:49,550
+and it seems he's doing a bigger jump.
+
+262
+00:11:49,550 --> 00:11:51,800
+This is a little trick that will allow you
+
+263
+00:11:51,800 --> 00:11:54,350
+to break the rhythm of your animation
+
+264
+00:11:54,350 --> 00:11:56,530
+and make it more appealing.
+
+265
+00:11:56,530 --> 00:11:57,723
+At least, less linear.
+
+266
+00:11:58,910 --> 00:12:00,680
+This is the end of this chapter.
+
+267
+00:12:00,680 --> 00:12:02,794
+You now know everything to be able
+
+268
+00:12:02,794 --> 00:12:05,680
+to create the same shot as I did.
+
+269
+00:12:05,680 --> 00:12:09,360
+Don't forget that failing
+is a part of the process
+
+270
+00:12:09,360 --> 00:12:12,140
+but giving up is not
+a part of the process.
+
+271
+00:12:12,140 --> 00:12:13,830
+Stay strong, repeat
+
+272
+00:12:13,830 --> 00:12:16,000
+and I will see you in the next chapter
+
+273
+00:12:16,000 --> 00:12:19,250
+where we will learn new
+animation techniques.
+
+274
+00:12:19,250 --> 00:12:22,800
+To summarize, we have seen
+that we can use a 3D curve
+
+275
+00:12:22,800 --> 00:12:27,000
+as an animated path for
+an object to follow.
+
+276
+00:12:27,000 --> 00:12:30,070
+We can use parenting or path constraint.
+
+277
+00:12:30,070 --> 00:12:33,200
+The frames' value determines the time
+
+278
+00:12:33,200 --> 00:12:35,940
+to travel along the whole curve.
+
+279
+00:12:35,940 --> 00:12:40,940
+We can use the offset value
+to delay the path animation.
+
+280
+00:12:41,090 --> 00:12:42,840
+We can use the curve to scale
+
+281
+00:12:42,840 --> 00:12:45,520
+and tilt the constrained object.
+
+282
+00:12:45,520 --> 00:12:48,150
+We can use the constraint on a bone.
+
+283
+00:12:48,150 --> 00:12:51,320
+Make sure the origin of
+the constrained object
+
+284
+00:12:51,320 --> 00:12:53,770
+is reset to world origin
+
+285
+00:12:53,770 --> 00:12:56,913
+before applying the curve constraint.
+

@@ -1,0 +1,47 @@
+---
+title: "`r params$query`"
+params:
+  query: "Augmented Reality"
+  src: "/Users/yamlam/Documents/obsdiannote/🧪 Script Labs/wos_biliometriex/Thematic/"
+output_format: "md_document"
+output: 
+  md_document: 
+    variant: "markdown_strict+pipe_tables+backtick_code_blocks+task_lists+implicit_header_references-definition_lists"
+    pandoc_args: ["--standalone", "--from=markdown+emoji", "--wrap=preserve"]
+---
+
+```{r, setup, include=FALSE}
+Sys.setenv(LANG = "en")
+library(bibliometrix)
+library(rmarkdown)
+library(png)
+library(knitr)
+library(ggplot2)
+library(magrittr)
+library(dplyr) 
+library(here) 
+# install.packages("dplyr")
+rmarkdown::find_pandoc(version = "2.12")
+rmarkdown::find_pandoc(dir = "/Users/yamlam/opt/anaconda3/bin/")
+
+# get the relative path of the current file
+# pathwd <- dirname(rstudioapi::getActiveDocumentContext()$path)
+
+# Find files with specific permissions and names
+# pathwd<-sub("get_yearly_publication_report.R","",system("find -perm -g=w -type f -name 'filename'",intern=T)[1])
+# setwd(pathwd)# files <- files[1] # Select the first file if it exists
+Dir_sting <- utils::getSrcDirectory(function(){})[1]
+src_file_string <- utils::getSrcFilename(function() {}, full.names = TRUE)[1]
+# source("get_yearly_publication_report.R") # works on Terminal
+source("../src/get_yearly_publication_report.R") # works on Terminal
+# get_yearly_publication_report
+test_string <- test()
+here_String <- here()
+here_gettwd <- getwd()
+# source(file.path(path_getwd, "../src/get_yearly_publication_report.R"))
+```
+
+`r test_string`
+`r Dir_sting`
+`r src_file_string`
+`r here_gettwd`

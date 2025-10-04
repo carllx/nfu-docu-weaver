@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Given the following passage, identify the sentence stems and create a word bank of key vocabulary. \n\nPassage: ```\n{clipboard}\n```\n\n1. Sentence Stems: \n2. Word Bank: ",
+    "uid" : "5689631B-8BB7-49DA-A950-17DB2DDF24B5",
+    "name" : "estem",
+    "keyword" : "estem"
+  }
+}

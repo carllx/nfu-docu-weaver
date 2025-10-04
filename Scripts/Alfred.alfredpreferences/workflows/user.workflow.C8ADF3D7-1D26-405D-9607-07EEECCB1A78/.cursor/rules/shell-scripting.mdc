@@ -1,0 +1,86 @@
+---
+globs: *.sh,*.bash,*.zsh
+description: Shell scripting standards for Alfred workflows
+---
+
+# Shell Scripting Standards for Alfred Workflows
+
+## Shebang Lines
+- Use `#!/bin/bash` for general scripts
+- Use `#!/bin/zsh --no-rcs` for zsh-specific features (recommended for Alfred)
+- Use `#!/usr/bin/env osascript -l JavaScript` for JXA scripts
+
+## Script Structure
+```bash
+#!/bin/bash
+set -e  # Exit on any error
+set -u  # Exit on undefined variables
+
+# Script description and usage
+# Usage: script_name [options] arguments
+
+# Constants
+readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly WORKFLOW_DIR="${alfred_workflow_directory:-$SCRIPT_DIR}"
+
+# Main function
+main() {
+    # Implementation here
+}
+
+# Error handling
+error_exit() {
+    echo "Error: $1" >&2
+    exit 1
+}
+
+# Call main function
+main "$@"
+```
+
+## Alfred Workflow Integration
+- Always change to workflow directory: `cd "${alfred_workflow_directory}"`
+- Use relative paths from workflow root: `./src/cli/script.sh`
+- Handle missing environment variables gracefully
+- Use `${variable:-default}` for optional variables
+
+## Error Handling
+- Use `set -e` to exit on errors
+- Provide meaningful error messages
+- Log errors to stderr: `echo "Error" >&2`
+- Use appropriate exit codes (0=success, 1+=error)
+
+## Variable Handling
+- Quote all variable expansions: `"$variable"`
+- Use `readonly` for constants
+- Use `local` for function variables
+- Check for required variables: `${variable:?Error message}`
+
+## Path Management
+- Use absolute paths for external commands
+- Quote paths with spaces: `"$path_with_spaces"`
+- Use basename/dirname for path manipulation
+- Prefer `$(command)` over backticks
+
+## Function Guidelines
+- Use descriptive function names
+- Document function purpose and parameters
+- Use local variables within functions
+- Return meaningful exit codes
+
+## Alfred-Specific Patterns
+```bash
+# Standard Alfred script initialization
+cd "${alfred_workflow_directory}" || error_exit "Cannot change to workflow directory"
+
+# Execute relative script
+./src/cli/upload_screenshot.sh
+
+# Handle Alfred debugging
+if [[ "${alfred_debug:-}" == "1" ]]; then
+    echo "Debug: Processing workflow step" >&2
+fi
+
+# Output for Alfred consumption
+echo "Result for Alfred"
+```

@@ -1,0 +1,275 @@
+﻿1
+00:00:00,750 --> 00:00:01,954
+- [Instructor] And you
+work on an animation
+
+2
+00:00:01,954 --> 00:00:04,820
+and get back to it with fresh eyes,
+
+3
+00:00:04,820 --> 00:00:07,653
+it's pretty common to have
+a less satisfying feeling
+
+4
+00:00:07,653 --> 00:00:08,894
+about what you are seeing.
+
+5
+00:00:08,894 --> 00:00:12,871
+And I was feeling that the
+animation was too fast.
+
+6
+00:00:12,871 --> 00:00:16,060
+I wanted to show more the
+effort made by the character
+
+7
+00:00:16,060 --> 00:00:17,350
+to climb the tree.
+
+8
+00:00:17,350 --> 00:00:18,266
+Bring more contrast,
+
+9
+00:00:18,266 --> 00:00:21,253
+I need to make the
+cycle a bit less linear,
+
+10
+00:00:21,253 --> 00:00:24,940
+and add some Hold on one pose.
+
+11
+00:00:24,940 --> 00:00:27,726
+And I wanted to add one frame
+into the elbow and pose.
+
+12
+00:00:27,726 --> 00:00:30,501
+Why I got back to the action in it all,
+
+13
+00:00:30,501 --> 00:00:34,200
+I can select the frame of five to nine
+
+14
+00:00:34,200 --> 00:00:36,350
+and offset them by one frame.
+
+15
+00:00:36,350 --> 00:00:38,930
+Then it instantly feels better,
+
+16
+00:00:38,930 --> 00:00:40,934
+because we have this
+moment where the character
+
+17
+00:00:40,934 --> 00:00:43,907
+is clearly squashing together energy
+
+18
+00:00:43,907 --> 00:00:46,680
+and then is holding a beat in the air
+
+19
+00:00:46,680 --> 00:00:47,884
+with its stretched pose.
+
+20
+00:00:47,884 --> 00:00:51,840
+And this little contrast in the timing
+
+21
+00:00:51,840 --> 00:00:55,490
+and the shape of the character
+make it feels better.
+
+22
+00:00:55,490 --> 00:00:58,221
+And since our animation was very detailed,
+
+23
+00:00:58,221 --> 00:01:02,306
+meaning that we almost have
+a key frame on each frame,
+
+24
+00:01:02,306 --> 00:01:05,755
+the offset looks almost okay.
+
+25
+00:01:05,755 --> 00:01:09,922
+So the first step is to
+revise in sliding issue
+
+26
+00:01:09,922 --> 00:01:13,190
+since we have increased
+the animation by one frame,
+
+27
+00:01:13,190 --> 00:01:18,190
+and we still have a linear
+interpolation of the bone.
+
+28
+00:01:19,610 --> 00:01:23,300
+To fix the speed at which
+the feet of our character
+
+29
+00:01:23,300 --> 00:01:24,507
+are sliding on the tree trunk,
+
+30
+00:01:24,507 --> 00:01:29,314
+we just need to slightly adjust
+the value of the Y location
+
+31
+00:01:29,314 --> 00:01:31,521
+of each feet of the character
+
+32
+00:01:31,521 --> 00:01:34,170
+using the same method as before,
+
+33
+00:01:34,170 --> 00:01:35,456
+just make sure that the first key frame
+
+34
+00:01:35,456 --> 00:01:38,740
+and the last key frame are the same.
+
+35
+00:01:38,740 --> 00:01:41,980
+And you can use the 3D cursor as a marker
+
+36
+00:01:41,980 --> 00:01:45,050
+to know where the foot
+is during the motion.
+
+37
+00:01:45,050 --> 00:01:45,883
+Most of the work
+
+38
+00:01:45,883 --> 00:01:48,293
+is just about going
+through every controller
+
+39
+00:01:48,293 --> 00:01:49,936
+you have already polished
+
+40
+00:01:49,936 --> 00:01:52,772
+and kind of slightly fixed the curve.
+
+41
+00:01:52,772 --> 00:01:55,048
+Honestly, that's very fast.
+
+42
+00:01:55,048 --> 00:01:57,116
+It took me like 20 minutes
+to fix the whole character,
+
+43
+00:01:57,116 --> 00:02:00,980
+because the pose we have chosen
+
+44
+00:02:00,980 --> 00:02:04,010
+to be extended a bit in time
+
+45
+00:02:04,010 --> 00:02:06,450
+is kind of a hold in the air
+
+46
+00:02:06,450 --> 00:02:09,030
+where the motion of the character,
+
+47
+00:02:09,030 --> 00:02:12,980
+the pose of the character
+doesn't change that much.
+
+48
+00:02:12,980 --> 00:02:15,900
+So I'm slightly rotating the curve
+
+49
+00:02:15,900 --> 00:02:19,140
+and the angles just to get a nice
+
+50
+00:02:19,140 --> 00:02:20,860
+and smooth curve.
+
+51
+00:02:20,860 --> 00:02:21,693
+In the end,
+
+52
+00:02:21,693 --> 00:02:24,980
+adding this little frame really helps
+
+53
+00:02:24,980 --> 00:02:28,737
+also polishing the foot and
+getting a better motion path.
+
+54
+00:02:28,737 --> 00:02:32,160
+The previous version of
+the animation was good,
+
+55
+00:02:32,160 --> 00:02:35,130
+but this time adding this little detail,
+
+56
+00:02:35,130 --> 00:02:38,340
+this little more range to work on
+
+57
+00:02:38,340 --> 00:02:42,450
+really helped smoothing
+out the whole animation
+
+58
+00:02:42,450 --> 00:02:47,430
+and contrasting the strength
+put into it by our character.
+
+59
+00:02:47,430 --> 00:02:49,050
+You can watch the whole process
+
+60
+00:02:49,050 --> 00:02:51,253
+in the next time lapse video.
+
+61
+00:02:51,253 --> 00:02:52,889
+I will see you in the video after,
+
+62
+00:02:52,889 --> 00:02:56,460
+where we will add all the secondary motion
+
+63
+00:02:56,460 --> 00:03:00,103
+like the ears the nose
+and also polish the tail.
+

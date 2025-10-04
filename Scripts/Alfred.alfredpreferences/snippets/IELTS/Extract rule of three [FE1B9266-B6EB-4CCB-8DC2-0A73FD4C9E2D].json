@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "**Prompt for IELTS teacher:**\n\nIn the IELTS speaking test, it is crucial to convey ideas clearly and effectively. One way to achieve this is by employing the Rule of Three. This principle posits that information presented in groups of three is more likely to be retained and recalled.\n\n**Task:**\n\n1. Read the provided text carefully.\n2. Extract three key points from the text.\n3. Articulate your three key points in accordance with the Rule of Three.\n\n**Feedback:**\n\n* If the student's three key points do not adhere to the Rule of Three, the teacher can provide suggestions for how the student can improve their use of the Rule of Three.\n* The teacher can also provide feedback on the student's use of clear and concise language, tone, and proofreading.\n\nMy text:```\n{clipboard}\n```",
+    "uid" : "FE1B9266-B6EB-4CCB-8DC2-0A73FD4C9E2D",
+    "name" : "Extract rule of three",
+    "keyword" : "er3"
+  }
+}

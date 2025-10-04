@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "# create a clip from the video starting at \"00:02:00\" and ending at \"00:39:37\", and save it as \"_clip.mp4\".\nstart_time=\"00:02:00\"\nend_time=\"00:39:10\"\nvideo=\"{clipboard}\"\n# remove '.mp4' from the end of the video name\nvideo_name=\"${video%.mp4}\"\noutput_clip=\"${video_name}_clip.mp4\"\n\nffmpeg -ss $start_time -to $end_time -i \"$video\" -c copy \"$output_clip\"\n",
+    "uid" : "579B6827-5E16-41BF-9CE4-A4687BF05383",
+    "name" : "Video Cut- trim mp4 264 Extract clip by start & end",
+    "keyword" : "trim_mp4"
+  }
+}

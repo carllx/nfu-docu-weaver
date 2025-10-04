@@ -1,0 +1,473 @@
+﻿1
+00:00:00,890 --> 00:00:03,060
+- I will show you a quick method
+
+2
+00:00:03,060 --> 00:00:04,760
+to double-check your timing.
+
+3
+00:00:04,760 --> 00:00:07,060
+First we will check with root motion
+
+4
+00:00:07,060 --> 00:00:09,370
+and then without root motion.
+
+5
+00:00:09,370 --> 00:00:11,510
+I've already made a quick timing pass
+
+6
+00:00:11,510 --> 00:00:14,300
+in the previous video
+without explaining it,
+
+7
+00:00:14,300 --> 00:00:16,600
+because it wasn't very good.
+
+8
+00:00:16,600 --> 00:00:18,380
+The idea was just to check
+
+9
+00:00:18,380 --> 00:00:20,300
+the follow of the different poses
+
+10
+00:00:20,300 --> 00:00:23,600
+but you don't need to
+work on timing for this.
+
+11
+00:00:23,600 --> 00:00:25,670
+Now is the timing path
+
+12
+00:00:25,670 --> 00:00:28,430
+before I switch to spline.
+
+13
+00:00:28,430 --> 00:00:29,840
+So to check it,
+
+14
+00:00:29,840 --> 00:00:31,550
+since I have root motion
+
+15
+00:00:31,550 --> 00:00:34,460
+I've kept my root activated,
+
+16
+00:00:34,460 --> 00:00:38,630
+and I will now simply use
+my quick favorite menu
+
+17
+00:00:38,630 --> 00:00:41,800
+to calculate the motion
+path of the root bone
+
+18
+00:00:41,800 --> 00:00:44,300
+setting it from frame zero to frame 12.
+
+19
+00:00:44,300 --> 00:00:46,570
+This way I will be able to see
+
+20
+00:00:46,570 --> 00:00:49,610
+the spacing of my root bone
+
+21
+00:00:49,610 --> 00:00:52,770
+between the different
+poses we have created.
+
+22
+00:00:52,770 --> 00:00:57,770
+And since the root bone is
+supposed to have a linear motion
+
+23
+00:00:58,130 --> 00:01:00,740
+since we are doing a cycle,
+
+24
+00:01:00,740 --> 00:01:04,560
+I can try to make the
+spacing match the timing.
+
+25
+00:01:04,560 --> 00:01:06,330
+If we have a loop to the spacing
+
+26
+00:01:06,330 --> 00:01:09,370
+between frame three and frame five,
+
+27
+00:01:09,370 --> 00:01:11,550
+we can see that the position of
+
+28
+00:01:11,550 --> 00:01:14,610
+the root bone hasn't changed that much.
+
+29
+00:01:14,610 --> 00:01:18,093
+It means that since we have
+a linear interpolation,
+
+30
+00:01:19,660 --> 00:01:22,270
+those two keyframes should be very close,
+
+31
+00:01:22,270 --> 00:01:23,260
+one to the other.
+
+32
+00:01:23,260 --> 00:01:27,230
+So I will offset the frame
+five onto frame four.
+
+33
+00:01:27,230 --> 00:01:31,860
+Now if I keep this mindset
+to analyze my spacing
+
+34
+00:01:31,860 --> 00:01:35,420
+I can see that from
+frame zero to frame one,
+
+35
+00:01:35,420 --> 00:01:37,840
+I have a pretty large spacing
+
+36
+00:01:37,840 --> 00:01:39,790
+and I have the same spacing
+
+37
+00:01:39,790 --> 00:01:42,350
+between frame one and frame three.
+
+38
+00:01:42,350 --> 00:01:44,090
+So I have the same spacing
+
+39
+00:01:44,090 --> 00:01:45,820
+between those two poses
+
+40
+00:01:45,820 --> 00:01:48,040
+or almost the same spacing
+
+41
+00:01:48,040 --> 00:01:49,720
+but the timing is different.
+
+42
+00:01:49,720 --> 00:01:51,850
+The first one is on one frame,
+
+43
+00:01:51,850 --> 00:01:53,940
+the second one on two frames.
+
+44
+00:01:53,940 --> 00:01:56,170
+So I will offset my keyframes
+
+45
+00:01:56,170 --> 00:01:59,180
+from frame three to frame two.
+
+46
+00:01:59,180 --> 00:02:01,260
+So in the end I am animating
+
+47
+00:02:01,260 --> 00:02:03,993
+in those first four poses onwards.
+
+48
+00:02:04,980 --> 00:02:06,740
+And during the polishing stage
+
+49
+00:02:06,740 --> 00:02:09,120
+I will be able to revise a bit
+
+50
+00:02:09,120 --> 00:02:11,810
+the spacing between the
+different part of the body.
+
+51
+00:02:11,810 --> 00:02:13,830
+From there I can evaluate
+
+52
+00:02:13,830 --> 00:02:18,360
+the distance between the
+frame seven and the frame 10,
+
+53
+00:02:18,360 --> 00:02:20,810
+and the frame three and the frame seven.
+
+54
+00:02:20,810 --> 00:02:23,620
+And the spacing is quite the same as
+
+55
+00:02:23,620 --> 00:02:25,870
+between frame zero and frame two,
+
+56
+00:02:25,870 --> 00:02:29,800
+so timing-wise I think that
+I should have two frames
+
+57
+00:02:29,800 --> 00:02:32,170
+between my airborne pose
+
+58
+00:02:32,170 --> 00:02:34,410
+and the contacting poses.
+
+59
+00:02:34,410 --> 00:02:37,100
+So I will move my airborne pose
+
+60
+00:02:37,100 --> 00:02:39,530
+from frame seven to frame five,
+
+61
+00:02:39,530 --> 00:02:41,260
+and then I should be moving
+
+62
+00:02:41,260 --> 00:02:43,440
+frame 10, 11, and 12
+
+63
+00:02:43,440 --> 00:02:46,270
+on frame seven or frame eight.
+
+64
+00:02:46,270 --> 00:02:49,230
+Again the timing and spacing of
+
+65
+00:02:49,230 --> 00:02:52,670
+the animation will be refined during
+
+66
+00:02:52,670 --> 00:02:56,510
+the polishing stage in spline modes,
+
+67
+00:02:56,510 --> 00:02:59,250
+but this is a good way
+
+68
+00:02:59,250 --> 00:03:04,070
+if you can't feel your
+timing to check it out.
+
+69
+00:03:04,070 --> 00:03:06,041
+Try to make it logical.
+
+70
+00:03:06,041 --> 00:03:08,150
+And it does show case again
+
+71
+00:03:08,150 --> 00:03:10,500
+that having a detailed blocking
+
+72
+00:03:10,500 --> 00:03:13,780
+can really help the animation process.
+
+73
+00:03:13,780 --> 00:03:16,280
+If you have animated your character
+
+74
+00:03:16,280 --> 00:03:19,140
+without moving the root bone
+
+75
+00:03:19,140 --> 00:03:22,030
+then use the features of your character
+
+76
+00:03:22,030 --> 00:03:24,820
+that are contacting the tree trunk
+
+77
+00:03:24,820 --> 00:03:26,630
+to guess the spacing.
+
+78
+00:03:26,630 --> 00:03:30,350
+When I check the back-right
+foot of my character,
+
+79
+00:03:30,350 --> 00:03:31,800
+I have the same spacing
+
+80
+00:03:31,800 --> 00:03:34,110
+between frame zero and one
+
+81
+00:03:34,110 --> 00:03:36,970
+and between frame one and three.
+
+82
+00:03:36,970 --> 00:03:40,120
+So I can choose to move
+the pose number three
+
+83
+00:03:40,120 --> 00:03:41,820
+onto frame number two.
+
+84
+00:03:41,820 --> 00:03:44,870
+And when I see the different of spacing
+
+85
+00:03:44,870 --> 00:03:47,570
+between the current pose and the next one,
+
+86
+00:03:47,570 --> 00:03:51,430
+it's even smaller so
+this change of position
+
+87
+00:03:51,430 --> 00:03:54,340
+should happen within one frame,
+
+88
+00:03:54,340 --> 00:03:55,820
+even less than one frame
+
+89
+00:03:55,820 --> 00:03:58,230
+so I will move it onto frame three.
+
+90
+00:03:58,230 --> 00:04:01,000
+Then I want my character to float a bit
+
+91
+00:04:01,000 --> 00:04:04,350
+so I will keep in airborne for two frames,
+
+92
+00:04:04,350 --> 00:04:06,510
+for example, I can track
+
+93
+00:04:06,510 --> 00:04:10,640
+the front hands to see
+the different of spacing
+
+94
+00:04:10,640 --> 00:04:12,520
+between those two frames,
+
+95
+00:04:12,520 --> 00:04:16,730
+and I believe that this
+airborne position will be
+
+96
+00:04:16,730 --> 00:04:19,440
+the extreme so it will
+be quite of right in
+
+97
+00:04:19,440 --> 00:04:21,050
+the middle of the jump,
+
+98
+00:04:21,050 --> 00:04:23,150
+so I can move frame 10
+
+99
+00:04:23,150 --> 00:04:24,850
+and all the next poses
+
+100
+00:04:24,850 --> 00:04:26,290
+onto frame seven.
+
+101
+00:04:26,290 --> 00:04:29,640
+So in the end, during our blocking stage
+
+102
+00:04:29,640 --> 00:04:34,640
+we have created almost
+a pose for each frame,
+
+103
+00:04:34,900 --> 00:04:37,050
+and this is because we are working
+
+104
+00:04:37,050 --> 00:04:40,250
+on the fast motion animation.
+
+105
+00:04:40,250 --> 00:04:44,310
+And this will happen when
+you work on combat animation
+
+106
+00:04:44,310 --> 00:04:46,890
+for example, where your character
+
+107
+00:04:46,890 --> 00:04:48,890
+change poses very fast.
+
+108
+00:04:48,890 --> 00:04:51,630
+You can't keep an empty frame
+
+109
+00:04:51,630 --> 00:04:55,110
+if there is a lot movement
+that happen in this frame,
+
+110
+00:04:55,110 --> 00:04:57,430
+you will have to detail your blocking.
+
+111
+00:04:57,430 --> 00:04:59,350
+The good news here is that
+
+112
+00:04:59,350 --> 00:05:03,283
+it's going to be way easier
+to polish this animation.
+

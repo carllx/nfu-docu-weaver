@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "# Mac Terminal\n# PC\n$mediaPath = \"G:\\Media\\VR\\Batch\"\nGet-ChildItem $mediaPath -Filter *.mp4 | ForEach-Object {\n    $mediaName = $_.FullName -replace \"\\.[^.]*$\",\"\"\n    ffmpeg -i \"$mediaName.mp4\" `\n    -c:v libx265 -crf 21 -preset medium `\n    -c:a aac `\n    -b:a 128k `\n    -pix_fmt yuv420p10le `\n    -metadata \"stereo_mode=left_right\"  `\n    -movflags +faststart `\n    \"$mediaName-HEVC.mp4\" `\n} \n\n\n# MacOs\nmediaPath=\"\/Volumes\/_MacOS Batch\"\nfor f in $mediaPath\/*.mp4; do\n  name=\"${f%.mp4}\"\n  ffmpeg -i \"$f\"  \\\n    -c:v libx265 -crf 21 -preset medium \\\n    -c:a aac -b:a 128k \\\n    -pix_fmt yuv420p10le \\\n    -metadata \"stereo_mode=left_right\" \\\n    -movflags +faststart \\\n    \"${name}-HEVC.mp4\"\ndone\n\n# If you don't need to scale the videos and want to keep them at their original resolution\n# removing this line between '-pix_fmt' and '-movflags'\n# -vf \"scale=3024:1512:flags=lanczos\"",
+    "uid" : "F9113822-4B3F-4298-B73B-65972CC9C451",
+    "name" : "Batch to HEVC(libx265)",
+    "keyword" : "b180"
+  }
+}

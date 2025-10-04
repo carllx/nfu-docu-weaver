@@ -1,0 +1,28 @@
+{
+    "conversation_id": "cq8leqg04rj1qntundpg",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Project Starline: A high-fidelity telepresence system",
+            "fileID": "cq8l28ubi7s0p448a9b0",
+            "itemID": 1043,
+            "citation": "Joseph, Desloge, G., Fortes, T., Gomez, E. M., Häberling, S., Hoppe, H., Andy, Huibers, RICARDOMARTIN-BRUALLA, Andrew, Russell, I., Seitz, S., & Tong, K. K. (2021). Project Starline: A high-fidelity telepresence system. https://www.semanticscholar.org/paper/Project-Starline%3A-A-high-fidelity-telepresence-Joseph-Desloge/34db8aa914149bba1500c57b2f4633e925a6f6c1\n",
+            "citationShort": "Joseph et al., 2021",
+            "tags": [
+                "#Compression Techniques",
+                "#kimi",
+                "#Semantic Enrichment"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：列出第2节所有Related Work\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Project Starline: A high-fidelity telepresence system, was published on 2021. (It can be cite this paper as Joseph et al., 2021 on your answer). \n\n",
+    "response": "根据您提供的文件内容，以下是第2节 \"Related Work\" 中提及的相关研究工作，按照Markdown格式列出：\n\n```markdown\n### 2 相关工作\n\n- **视频会议系统** (Videoconferencing): 一些商业产品使用定制家具和特别设计的显示、摄像头、麦克风和扬声器配置，以增强与远程场所共享空间的感觉 [Cisco Systems, Inc. 2011; DVE 2014; Hewlett-Packard 2005; Plantronics Inc. 2019; Sony 2008; Szigeti et al. 2009]。\n\n- **3D 远程呈现** (3D telepresence): 提供更丰富的3D深度线索（例如立体视觉、运动视差和自然比例）可以提供更强的沉浸感和共存感 [Gibbs et al. 1999; Muhlbach et al. 1995]。一个重要的目标是实现相互眼神交流，这是人类交流中的关键非言语线索 [Argyle and Cook 1976; Macrae et al. 2002; Muhlbach et al. 1995]。几十年来，研究人员一直在探索远程呈现系统 [Baker et al 2002; De Silva et al. 1995; Dou et al. 2012; Fuchs et al. 2014; Gibbs et al. 1999; Kauff and Schreer 2002; Lanier 2001; Maimone et al. 2012; Maimone and Fuchs 2011; Majumder et al. 1999; Pejsa et al. 2016; Raskar et al. 1998; Schreer et al. 2001; Yang et al. 2002; Zhang et al. 2013]。\n\n- **使用头戴式显示设备的远程呈现** (Telepresence using HMDs): 虚拟现实和增强现实头戴式显示设备的好处包括更沉浸式的体验和更便携、经济的设备 [Maimone et al. 2013; Orts-Escolano et al. 2016; Wei et al. 2019]。主要困难是在用户的面部被头戴式设备遮挡时获得高质量的实时3D面部捕捉 [Chu et al. 2020; Frueh et al. 2017; Lombardi et al. 2018, 2019; Richard et al. 2021; Wei et al. 2019]。\n\n- **眼神重定向** (Gaze redirection): 一些技术通过数字改变感知到的注视方向，改善了传统2D视频中面部的眼神交流 [Criminisi et al. 2003; Ganin et al. 2016; He et al. 2019; Kononenko and Lempitsky 2015; Wolf et al. 2010; Yang and Zhang 2002]。我们的系统通过准确再现每个用户的3D外观，从对方的视角看，实现了相互眼神交流，而无需对眼睛区域进行特殊处理。\n\n- **远程会议中的沉浸式音频** (Immersive audio in teleconferencing): 多人远程会议中的空间化音频通常涉及广泛分布的麦克风和扬声器 [Plantronics Inc. 2019]。Zhang et al. [2013] 使用两个扬声器，就像我们的系统一样，实现了3D沉浸式音频。尽管他们提到了头跟踪音频渲染和串音消除的可能性，但他们的系统采用了基于增益和延迟扫描的更简单的空间化方法。我们的系统使用说话者跟踪的麦克风阵列波束形成来增强音频捕捉，并使用说话者/听者跟踪的虚拟空间化以及听者跟踪的双耳串音消除来提高现实感。\n\n- **自动立体显示** (Autostereoscopic display): 一些立体显示技术在不需要眼镜的情况下，向每只眼睛显示不同的图像 [Chen et al. 2014; Dodgson 2005; Wetzstein et al. 2012]。我们系统中使用的透镜显示在2D显示前放置了一个透镜阵列 [Borner et al. 2000; Matusik and Pfister 2004]。透镜阵列类似于视差屏障，向每只眼睛显示不同的显示像素子集，但透镜在光学上更有效。透镜显示可以与活动头部跟踪结合使用，在头部运动期间将立体图像引导到单个用户的眼前。这是通过调整立体图像到底层2D显示的交错映射，作为眼睛位置的函数来实现的 [Boev et al. 2008; Jurk and de la Barré 2014]。\n```\n\n请注意，以上内容是根据您提供的文件内容摘录并翻译的，可能并不完整，具体细节和上下文请参考原文件。在引用时，您可以按照要求引用为 Joseph et al., 2021。",
+    "refs": [
+        "cq8l28ubi7s0p448a9b0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq8leqrdf0jfensu7gqg",
+    "req_id": "cq8leqrdf0jfensu7gs0",
+    "resp_id": "cq8leqrdf0jfensu7gsg",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：列出第2节所有Related Work"
+}

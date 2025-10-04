@@ -1,0 +1,51 @@
+---
+description: Browser debugging requests using MCP Playwright
+---
+
+# Browser Debugging with MCP Playwright
+
+When the user requests browser element debugging or browser automation, follow these specific procedures:
+
+## Chrome Remote Debugging Setup
+
+1. **Primary Connection**: First attempt to connect to `ws://localhost:9222`
+
+2. **If port 9222 is not available**: 
+   - Ask the user about their operating system
+   - Provide the appropriate Chrome launch command with remote debugging enabled:
+     - **macOS**: `open -a "Google Chrome" --args --remote-debugging-port=9222 --profile-directory="Default"`
+     - **Windows**: `"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --profile-directory="Default"`
+     - **Linux**: `google-chrome --remote-debugging-port=9222 --profile-directory="Default"`
+   - Wait for user confirmation before executing the command
+
+3. **If user cannot restart Chrome**: Launch a new instance using their user data directory to preserve login state
+
+## Google Account Login Workflow
+
+When accessing Google services:
+
+1. **Navigate to**: `accounts.google.com`
+2. **Email prefill**: Use `carllllllllx@gmail.com`
+3. **Authentication priority**: Use passkey login when available
+4. **System verification**: 
+   - Pause and wait for user confirmation on their local machine
+   - DO NOT request passwords or verification codes
+   - Wait for user to complete local authentication
+5. **Session management**: Maintain session after successful login for continued operations
+
+## MCP Playwright Usage
+
+- Use MCP Playwright tools for all browser interactions
+- Prioritize accessibility snapshots over screenshots for element interaction
+- Handle dialogs and prompts appropriately
+- Capture console messages and network requests when debugging
+- Use proper element references from page snapshots for interactions
+
+## Error Handling
+
+- If browser installation is missing, use the browser install tool
+- Handle authentication dialogs gracefully
+- Provide clear feedback on connection status
+- Respect user's security preferences (no password requests)
+
+This rule ensures secure, user-controlled browser debugging with proper authentication flow preservation.

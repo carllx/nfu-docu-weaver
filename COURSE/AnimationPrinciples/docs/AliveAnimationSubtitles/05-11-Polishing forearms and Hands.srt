@@ -1,0 +1,516 @@
+﻿1
+00:00:00,400 --> 00:00:03,780
+- So this is the final
+stage of this animation,
+
+2
+00:00:03,780 --> 00:00:07,350
+where we will polish the
+forearms and the hands.
+
+3
+00:00:07,350 --> 00:00:09,070
+As we did before with the arm,
+
+4
+00:00:09,070 --> 00:00:13,000
+I advise you to use the
+wrist tweaker controller
+
+5
+00:00:13,000 --> 00:00:14,420
+to track the arcs.
+
+6
+00:00:14,420 --> 00:00:17,780
+If we have a look to the final
+version of this run cycle,
+
+7
+00:00:17,780 --> 00:00:21,710
+we can see that the
+forearm eats it's extreme
+
+8
+00:00:21,710 --> 00:00:23,850
+at frame three when moving back.
+
+9
+00:00:23,850 --> 00:00:27,250
+This is the moment where
+the elbow is the most open.
+
+10
+00:00:27,250 --> 00:00:29,390
+Then when we're studying the reference,
+
+11
+00:00:29,390 --> 00:00:33,600
+we have seen that as the
+elbow is reaching its extreme
+
+12
+00:00:33,600 --> 00:00:35,470
+on frame eight,
+
+13
+00:00:35,470 --> 00:00:39,370
+the four arm is bending
+inward to compensate.
+
+14
+00:00:39,370 --> 00:00:44,370
+After frame eight, the elbow
+or arm start to rotate forward
+
+15
+00:00:44,830 --> 00:00:49,400
+and the forearm is still
+closing until frame 11
+
+16
+00:00:49,400 --> 00:00:52,540
+and from frame 12 to frame 15,
+
+17
+00:00:52,540 --> 00:00:56,660
+the forearm is slightly
+open before closing again,
+
+18
+00:00:56,660 --> 00:01:00,000
+while it reaches its highest point.
+
+19
+00:01:00,000 --> 00:01:01,980
+So as we watch the references,
+
+20
+00:01:01,980 --> 00:01:05,430
+we understand that it's
+a little more complex
+
+21
+00:01:05,430 --> 00:01:08,090
+than a simple follow-through animation.
+
+22
+00:01:08,090 --> 00:01:11,730
+Forearm polished, we can
+now jump to the hands.
+
+23
+00:01:11,730 --> 00:01:14,820
+Only play with the rotation
+channels of the hands.
+
+24
+00:01:14,820 --> 00:01:18,330
+There is not that much to
+track regarding the hands.
+
+25
+00:01:18,330 --> 00:01:22,500
+We could track one of the knuckle joints,
+
+26
+00:01:22,500 --> 00:01:26,890
+if we do want to track the
+arcs of the tip of the hands.
+
+27
+00:01:26,890 --> 00:01:30,460
+In my case, I jumped back to the reference
+
+28
+00:01:30,460 --> 00:01:33,810
+and I'm really focusing
+on using both hands.
+
+29
+00:01:33,810 --> 00:01:38,110
+You can see how it dives
+inward as if he was swimming.
+
+30
+00:01:38,110 --> 00:01:42,480
+So my goal is not to have
+this level of exaggeration,
+
+31
+00:01:42,480 --> 00:01:44,560
+in this kind of swimming motion,
+
+32
+00:01:44,560 --> 00:01:47,830
+where he's really trying
+to pull himself forward.
+
+33
+00:01:47,830 --> 00:01:50,620
+Again, it does show us that the hand
+
+34
+00:01:50,620 --> 00:01:54,160
+is not only dragging
+back during the motion.
+
+35
+00:01:54,160 --> 00:01:55,870
+So instead of showing you all,
+
+36
+00:01:55,870 --> 00:01:59,290
+I've pushed each controller
+in the rough editor.
+
+37
+00:01:59,290 --> 00:02:02,320
+We'll have a look to the
+final results on the right.
+
+38
+00:02:02,320 --> 00:02:04,380
+When the hand is moving forward,
+
+39
+00:02:04,380 --> 00:02:06,950
+as it reaches the passing pose,
+
+40
+00:02:06,950 --> 00:02:10,040
+it's relaxed as it is dragging a bit.
+
+41
+00:02:10,040 --> 00:02:14,040
+This is the time where the
+Z value is at its maximum.
+
+42
+00:02:14,040 --> 00:02:18,020
+Then as the arm reaches
+its extreme pose forward,
+
+43
+00:02:18,020 --> 00:02:20,710
+the hand curves toward the head
+
+44
+00:02:20,710 --> 00:02:24,710
+and as the arm comes down,
+the hand drags a bit.
+
+45
+00:02:24,710 --> 00:02:27,620
+So on frame zero 24,
+
+46
+00:02:27,620 --> 00:02:30,420
+the hand is reaching its opposite extreme
+
+47
+00:02:30,420 --> 00:02:34,430
+where the thumb is getting
+closer to the forearm
+
+48
+00:02:34,430 --> 00:02:36,310
+by rotating the wrist.
+
+49
+00:02:36,310 --> 00:02:40,500
+Then the Z curve makes a
+quick bump on frame three.
+
+50
+00:02:40,500 --> 00:02:44,180
+This is where the hand is
+trying to reach backward
+
+51
+00:02:44,180 --> 00:02:46,910
+to get this kind of swimming pose,
+
+52
+00:02:46,910 --> 00:02:50,890
+as if the character was trying
+to pull himself forward.
+
+53
+00:02:50,890 --> 00:02:54,740
+The wrist and forearm are almost aligned.
+
+54
+00:02:54,740 --> 00:02:59,420
+And then as the arm reaches
+its extreme on the back,
+
+55
+00:02:59,420 --> 00:03:00,810
+the hand is curving forward
+
+56
+00:03:00,810 --> 00:03:03,340
+as if it was compensating the movement
+
+57
+00:03:03,340 --> 00:03:06,920
+of the elbow and get
+ready to dive forward.
+
+58
+00:03:06,920 --> 00:03:08,440
+So from the side view,
+
+59
+00:03:08,440 --> 00:03:11,390
+mostly working on the Z turn and rotation,
+
+60
+00:03:11,390 --> 00:03:13,920
+we can see that it's a little more complex
+
+61
+00:03:13,920 --> 00:03:16,430
+than a simple drag again.
+
+62
+00:03:16,430 --> 00:03:18,020
+If we now have a close look
+
+63
+00:03:18,020 --> 00:03:21,120
+to the Y and X rotation curves,
+
+64
+00:03:21,120 --> 00:03:25,010
+we can see they have a sinusoidal shape
+
+65
+00:03:25,010 --> 00:03:28,150
+because they will mainly
+influence the twisting
+
+66
+00:03:28,150 --> 00:03:31,720
+of the wrist and its left to right motion.
+
+67
+00:03:31,720 --> 00:03:35,480
+So they are mainly used to
+keep a nice shape of the wrist
+
+68
+00:03:35,480 --> 00:03:37,760
+that doesn't look too broken.
+
+69
+00:03:37,760 --> 00:03:42,760
+The hand is slightly more
+rotated inward around frame 14
+
+70
+00:03:42,860 --> 00:03:46,040
+during the passing as if it was pointing
+
+71
+00:03:46,040 --> 00:03:48,660
+toward the place it wants to be.
+
+72
+00:03:48,660 --> 00:03:52,120
+So, that's not super complicated
+when it comes to work
+
+73
+00:03:52,120 --> 00:03:56,500
+from the front view, just try
+not to have two broken wrists.
+
+74
+00:03:56,500 --> 00:04:00,440
+And if you have something to
+remember about this polishing
+
+75
+00:04:00,440 --> 00:04:04,280
+it's that the hand is
+not necessarily dragging
+
+76
+00:04:04,280 --> 00:04:08,343
+during the run cycle animation,
+which is a common mistake.
+
+77
+00:04:09,240 --> 00:04:12,470
+From there, we will be
+able to mirror the motion
+
+78
+00:04:12,470 --> 00:04:15,040
+of the left arm onto the right arm.
+
+79
+00:04:15,040 --> 00:04:19,710
+So I've pressed Alt + H
+to unhide all the curves.
+
+80
+00:04:19,710 --> 00:04:24,160
+And then I will select all the
+controllers of the left arm,
+
+81
+00:04:24,160 --> 00:04:25,540
+the shoulder, arm, forearm,
+
+82
+00:04:25,540 --> 00:04:29,400
+and the hand controller we have polished.
+
+83
+00:04:29,400 --> 00:04:31,070
+In the graph editor press eight,
+
+84
+00:04:31,070 --> 00:04:32,660
+to select all the curves,
+
+85
+00:04:32,660 --> 00:04:35,730
+press Control + C to copy the curves.
+
+86
+00:04:35,730 --> 00:04:38,540
+And then I will jump onto the other arm,
+
+87
+00:04:38,540 --> 00:04:42,510
+select the shoulder, arm,
+forearm, and hand controller.
+
+88
+00:04:42,510 --> 00:04:45,600
+Select all the keys but
+the one on frame zero
+
+89
+00:04:45,600 --> 00:04:47,830
+and delete them and then select
+
+90
+00:04:47,830 --> 00:04:49,790
+all the keys on frame zero
+
+91
+00:04:49,790 --> 00:04:52,130
+and press Control + Shift + V
+
+92
+00:04:52,130 --> 00:04:54,540
+to paste the mirrored animation.
+
+93
+00:04:54,540 --> 00:04:57,160
+Then, as we did for the previous cycles,
+
+94
+00:04:57,160 --> 00:05:00,960
+I will duplicate over the
+curve by pressing Shift + D,
+
+95
+00:05:00,960 --> 00:05:02,720
+X and 24
+
+96
+00:05:02,720 --> 00:05:06,220
+to offset them by 24 frames on the x-axis.
+
+97
+00:05:06,220 --> 00:05:08,660
+Then I will press eight
+to select everything,
+
+98
+00:05:08,660 --> 00:05:11,950
+press G X minus 12,
+
+99
+00:05:11,950 --> 00:05:15,000
+to offset them back by 12 frames.
+
+100
+00:05:15,000 --> 00:05:17,860
+This way we have a 12 frames offset
+
+101
+00:05:17,860 --> 00:05:20,100
+between the right arm and the left arm.
+
+102
+00:05:20,100 --> 00:05:23,010
+Finally, I will move the
+play head on frame zero.
+
+103
+00:05:23,010 --> 00:05:26,600
+Press I to insert the key
+frame on all controllers,
+
+104
+00:05:26,600 --> 00:05:29,910
+then select all the keys I
+just returned on frame zero.
+
+105
+00:05:29,910 --> 00:05:32,690
+Press V and set the angles to three.
+
+106
+00:05:32,690 --> 00:05:35,270
+I will then select them again,
+
+107
+00:05:35,270 --> 00:05:37,960
+press Shift + D and 24
+
+108
+00:05:37,960 --> 00:05:41,110
+to duplicate them on frame 24.
+
+109
+00:05:41,110 --> 00:05:44,450
+And now I can get rid of any key frames
+
+110
+00:05:44,450 --> 00:05:48,710
+before and after frame zero and frame 24
+
+111
+00:05:48,710 --> 00:05:52,070
+and our run cycle is finally done.
+
+112
+00:05:52,070 --> 00:05:55,290
+In the next video I will just
+share with you a few tips
+
+113
+00:05:55,290 --> 00:05:59,190
+on how you can change a bit
+your run cycle with ease.
+
+114
+00:05:59,190 --> 00:06:01,440
+As always when it comes to art,
+
+115
+00:06:01,440 --> 00:06:04,870
+you will have to make multiple run cycles
+
+116
+00:06:04,870 --> 00:06:06,983
+until you get them right.
+

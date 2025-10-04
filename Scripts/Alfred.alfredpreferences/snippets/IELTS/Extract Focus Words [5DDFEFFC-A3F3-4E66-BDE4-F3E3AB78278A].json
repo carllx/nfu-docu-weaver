@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Please identify and extract the focused words and prominent phrases from the given paragraph. \nThen, find an emoji that represents the meaning of each extracted word. Finally, rewrite the paragraph with extracted words and emojis, and emoji representations of each chunk of Thought Group.\nMy paragraph:\n```\n{clipboard}\n```",
+    "uid" : "5DDFEFFC-A3F3-4E66-BDE4-F3E3AB78278A",
+    "name" : "Extract Focus Words",
+    "keyword" : "efw"
+  }
+}

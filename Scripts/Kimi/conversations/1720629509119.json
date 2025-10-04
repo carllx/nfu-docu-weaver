@@ -1,0 +1,39 @@
+{
+    "conversation_id": "cq7bi1rdqn3089d3dpt0",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review",
+            "fileID": "cpg9jb3df0jc3ksj2s9g",
+            "itemID": 2528,
+            "citation": "Queiroz, M. M., Ivanov, D., Dolgui, A., & Fosso Wamba, S. (2022). Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review. Annals of Operations Research, 319(1), 1159–1196. https://doi.org/10.1007/s10479-020-03685-7\n",
+            "citationShort": "Queiroz et al., 2022",
+            "tags": [
+                "#kimi",
+                "Adaptation",
+                "COVID-19",
+                "Digitalization",
+                "Epidemic outbreaks",
+                "Influenza",
+                "Pandemic",
+                "Preparedness",
+                "Recovery",
+                "Resilience",
+                "Ripple effect",
+                "Structured literature review",
+                "Supply chain",
+                "Sustainability"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review, was published on 2022. (It can be cite this paper as Queiroz et al., 2022 on your answer). \n\n",
+    "response": "## 导读\n\n### 核心主题\n本文的核心主题是探讨流行病疫情对供应链的影响，并在COVID-19大流行期间通过结构化文献综述来绘制研究议程。文章集中讨论了流行病对全球供应链的破坏性影响，特别是在COVID-19疫情下，如何通过现有文献的系统分析来理解商业供应链中的大流行影响，并提出了未来研究方向。\n\n### 关键论点/故事线\n作者通过以下几个关键论点展开讨论：\n1. **流行病对供应链的影响**：强调了COVID-19等流行病对全球供应链造成的严重破坏。\n2. **研究缺口**：指出尽管人道主义物流文献广泛研究了流行病的影响，但在商业供应链中对大流行影响的理解存在研究缺口。\n3. **文献综述的发现**：通过结构化文献综述，发现流感是报道最多的流行病疫情，资源配置和分配优化是最流行的研究主题。\n4. **研究框架**：提出了一个针对COVID-19大流行时期的操作和供应链管理的框架，涵盖适应性、数字化、准备性、恢复力、连锁效应和可持续性六个视角。\n\n### 特定段落或部分\n文章中的关键部分包括：\n- **系统分析方法**：介绍了如何通过结构化文献综述来系统地分析现有文献。\n- **研究缺口和新出现的研究张力**：揭示了新的研究问题和分类/分类法。\n- **未来研究方向**：基于文献综述的结果，提出了一系列开放性研究问题。\n\n### 语言特点/写作风格\n作者在文章中运用了专业且精确的语言来传达复杂的供应链管理概念。通过使用图表和模型，如Word TreeMap和多对应分析（MCA），作者巧妙地展示了关键概念和研究领域之间的关系。此外，文章采用了逻辑清晰的结构，使得复杂的研究内容易于理解和跟进。\n\n### 阅读时的问题\n- **论点构建**：作者如何构建他的论点，使用了哪些方法和理论来支持他的分析？\n- **与数字媒体及艺术领域的联系**：这些论点如何与数字媒体以及艺术领域相联系，特别是在供应链管理和流行病应对策略的背景下？\n\n### 总结\n带着这些问题进入阅读，学生将能够更高效地吸收和理解文章内容，深入探讨流行病对供应链的复杂影响，并理解在不断变化的全球环境中构建弹性供应链的重要性。\n\n---\n\n**引用格式示例**：\n在您的回答中，您可以这样引用上述文章：Queiroz et al., 2022。",
+    "refs": [
+        "cpg9jb3df0jc3ksj2s9g"
+    ],
+    "title": "\n\nNow, Listen to me:\n导读\n作为一个引导",
+    "group_id": "cq7bi1tdl8mmjapeps60",
+    "req_id": "cq7bi1tdl8mmjapeps6g",
+    "resp_id": "cq7bi1tdl8mmjapeps70",
+    "quection": "导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。"
+}

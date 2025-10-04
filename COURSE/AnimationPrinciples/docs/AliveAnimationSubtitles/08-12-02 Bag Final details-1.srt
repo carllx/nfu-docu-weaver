@@ -1,0 +1,608 @@
+﻿1
+00:00:01,120 --> 00:00:04,170
+- Once the bag rotation master controller
+
+2
+00:00:04,170 --> 00:00:05,890
+and the root were done,
+
+3
+00:00:05,890 --> 00:00:07,920
+I've locked their transformed channels
+
+4
+00:00:07,920 --> 00:00:11,740
+so that I was sure I would
+not edit them by mistake.
+
+5
+00:00:11,740 --> 00:00:14,420
+From there, I will select
+all the other controller
+
+6
+00:00:14,420 --> 00:00:17,950
+and get rid of all the keys
+but the very first one.
+
+7
+00:00:17,950 --> 00:00:21,110
+Since the bag deformations are very fast,
+
+8
+00:00:21,110 --> 00:00:24,960
+it's easier for me to
+rework them from scratch
+
+9
+00:00:24,960 --> 00:00:26,550
+then trying to work from
+
+10
+00:00:26,550 --> 00:00:27,940
+what we have blocked before.
+
+11
+00:00:27,940 --> 00:00:30,450
+Whenever I want to create a
+pose, I will make sure that
+
+12
+00:00:30,450 --> 00:00:33,580
+the previous key frame is currently keyed.
+
+13
+00:00:33,580 --> 00:00:38,010
+This way, I'm sure to avoid
+any undesired interpolations,
+
+14
+00:00:38,010 --> 00:00:41,510
+On frame 12, I will kind of sculpt the bag
+
+15
+00:00:41,510 --> 00:00:44,400
+as it receive the first jab
+
+16
+00:00:44,400 --> 00:00:46,490
+by pushing the tweaker controller.
+
+17
+00:00:46,490 --> 00:00:48,730
+And then a couple of frames later,
+
+18
+00:00:48,730 --> 00:00:50,930
+I will just console all the transforms
+
+19
+00:00:50,930 --> 00:00:53,920
+so that the bag recovers its shape.
+
+20
+00:00:53,920 --> 00:00:55,620
+Then a frame later, I will pull a bit
+
+21
+00:00:55,620 --> 00:00:58,310
+the controller that was hit by the punch
+
+22
+00:00:58,310 --> 00:01:01,750
+so that we get a very
+subtle shake feeling.
+
+23
+00:01:01,750 --> 00:01:04,100
+Then I will repeat the
+process for the next punch.
+
+24
+00:01:04,100 --> 00:01:06,557
+I will key the controller on frame 16,
+
+25
+00:01:06,557 --> 00:01:10,310
+the frame prior to the hit or impact.
+
+26
+00:01:10,310 --> 00:01:13,990
+Then on frame 17, I will sculpt the bag
+
+27
+00:01:13,990 --> 00:01:15,710
+by pushing the tweaker bone,
+
+28
+00:01:15,710 --> 00:01:18,570
+but also scaling them on one axis
+
+29
+00:01:18,570 --> 00:01:22,010
+and then scaling them down
+on the opposite taxis.
+
+30
+00:01:22,010 --> 00:01:25,440
+I'm trying to preserve
+the volume of the bag.
+
+31
+00:01:25,440 --> 00:01:27,230
+From there, four frames later,
+
+32
+00:01:27,230 --> 00:01:29,850
+I will console all the transform, and then
+
+33
+00:01:29,850 --> 00:01:33,510
+I will refine the shape
+of the bag frame-by-frame.
+
+34
+00:01:33,510 --> 00:01:36,310
+Since the the hitting
+frames are pretty short,
+
+35
+00:01:36,310 --> 00:01:38,730
+it's a very fast process.
+
+36
+00:01:38,730 --> 00:01:41,600
+Rebuilding the whole
+animation for the whole bag
+
+37
+00:01:41,600 --> 00:01:44,060
+took me about half an hour.
+
+38
+00:01:44,060 --> 00:01:47,150
+Then, I started over again with the hook,
+
+39
+00:01:47,150 --> 00:01:51,111
+Sculpting the pose from scratch
+using the tweaker bones.
+
+40
+00:01:51,111 --> 00:01:53,530
+As soon as I was done with the hook,
+
+41
+00:01:53,530 --> 00:01:54,630
+guess what I did.
+
+42
+00:01:54,630 --> 00:01:57,380
+Exactly the same thing with the kick.
+
+43
+00:01:57,380 --> 00:01:59,920
+I've exclusively started working
+
+44
+00:01:59,920 --> 00:02:03,500
+on those deformation frames
+using the tweaker bones.
+
+45
+00:02:03,500 --> 00:02:04,910
+That's pretty important because
+
+46
+00:02:04,910 --> 00:02:06,800
+they are very easy to use,
+
+47
+00:02:06,800 --> 00:02:11,040
+and to sculpt those specific impacts.
+
+48
+00:02:11,040 --> 00:02:14,580
+Then I start working using
+the blue controllers.
+
+49
+00:02:14,580 --> 00:02:17,070
+Those are the forward kinematic controls
+
+50
+00:02:17,070 --> 00:02:20,490
+that will also us to
+slightly bend the bag.
+
+51
+00:02:20,490 --> 00:02:22,960
+We could spend hours in the graffiti tool
+
+52
+00:02:22,960 --> 00:02:24,640
+polishing those controllers,
+
+53
+00:02:24,640 --> 00:02:27,020
+but instead I've kept the process
+
+54
+00:02:27,020 --> 00:02:28,730
+as simple as possible,
+
+55
+00:02:28,730 --> 00:02:31,010
+keying as less frames as possible
+
+56
+00:02:31,010 --> 00:02:34,510
+and letting blender interpolate
+between those frames.
+
+57
+00:02:34,510 --> 00:02:37,160
+So I'm selecting all the
+controllers from the one,
+
+58
+00:02:37,160 --> 00:02:40,860
+just upon the impact frame,
+toward the tip of the bag.
+
+59
+00:02:40,860 --> 00:02:44,100
+Then make sure that you are
+using individual origin,
+
+60
+00:02:44,100 --> 00:02:45,820
+so is that we will be able to bend
+
+61
+00:02:45,820 --> 00:02:48,050
+all the controller at once.
+
+62
+00:02:48,050 --> 00:02:53,000
+And just bend the bag toward
+its previous position,
+
+63
+00:02:53,000 --> 00:02:56,280
+as if it was dragging as less as possible.
+
+64
+00:02:56,280 --> 00:02:59,510
+If you bend it too much,
+it won't look realistic
+
+65
+00:02:59,510 --> 00:03:01,930
+because it will look too smooth.
+
+66
+00:03:01,930 --> 00:03:04,860
+From there, if you don't
+jump into the graffiti tool,
+
+67
+00:03:04,860 --> 00:03:07,840
+that's gonna be hard to make it look good.
+
+68
+00:03:07,840 --> 00:03:10,550
+As soon as I reached
+the next impact frame,
+
+69
+00:03:10,550 --> 00:03:14,100
+I'm keying the frame before the impact,
+
+70
+00:03:14,100 --> 00:03:16,400
+and then I'm slightly increasing
+
+71
+00:03:16,400 --> 00:03:19,640
+the curvature of the bag on the impact.
+
+72
+00:03:19,640 --> 00:03:22,730
+Then, when the hook is about to happen,
+
+73
+00:03:22,730 --> 00:03:26,070
+this is the time where the
+bag is traveling the fastest,
+
+74
+00:03:26,070 --> 00:03:29,950
+so I will slightly bend it toward, again,
+
+75
+00:03:29,950 --> 00:03:31,780
+it's previous position.
+
+76
+00:03:31,780 --> 00:03:33,800
+And this is all you create
+
+77
+00:03:33,800 --> 00:03:36,870
+this subtle dragging, almost for free.
+
+78
+00:03:36,870 --> 00:03:38,100
+The trick is to make sure
+
+79
+00:03:38,100 --> 00:03:40,460
+that you manipulate all the bone
+
+80
+00:03:40,460 --> 00:03:42,500
+in the chain at the same time.
+
+81
+00:03:42,500 --> 00:03:46,320
+Since they have a parent
+and child relationship,
+
+82
+00:03:46,320 --> 00:03:47,800
+you rotate the parent,
+
+83
+00:03:47,800 --> 00:03:50,510
+that makes the child rotating too,
+
+84
+00:03:50,510 --> 00:03:52,330
+and then you apply on top of this
+
+85
+00:03:52,330 --> 00:03:56,170
+a bit of rotation on the
+child, et cetera, et cetera.
+
+86
+00:03:56,170 --> 00:03:59,670
+It generates a slight bend in the bags
+
+87
+00:03:59,670 --> 00:04:01,250
+that looks very natural.
+
+88
+00:04:01,250 --> 00:04:03,260
+The only moment where I had to be
+
+89
+00:04:03,260 --> 00:04:05,860
+a little more creative was on the kick,
+
+90
+00:04:05,860 --> 00:04:09,040
+where I posed the bones frame by frame.
+
+91
+00:04:09,040 --> 00:04:10,740
+On the frame prior to the kick,
+
+92
+00:04:10,740 --> 00:04:13,430
+I've just made the whole bag dragging.
+
+93
+00:04:13,430 --> 00:04:15,080
+And then, on the impact,
+
+94
+00:04:15,080 --> 00:04:18,340
+I first made the top part of the bag
+
+95
+00:04:18,340 --> 00:04:21,790
+to rotate the right, behind
+the leg of the character
+
+96
+00:04:21,790 --> 00:04:25,060
+while the lower part of
+the bag will be dragging.
+
+97
+00:04:25,060 --> 00:04:27,530
+So I will invert it's rotation
+
+98
+00:04:27,530 --> 00:04:29,610
+and rotate it a bit backwards.
+
+99
+00:04:29,610 --> 00:04:32,250
+Since the bag is arriving very fast
+
+100
+00:04:32,250 --> 00:04:35,310
+and we kicking it the opposite direction,
+
+101
+00:04:35,310 --> 00:04:37,970
+there is a lot of deformation in the bag.
+
+102
+00:04:37,970 --> 00:04:40,680
+Then, as it is projected by the kick,
+
+103
+00:04:40,680 --> 00:04:43,430
+I will slightly bend it backward
+
+104
+00:04:43,430 --> 00:04:45,540
+toward its previous position
+
+105
+00:04:45,540 --> 00:04:47,600
+to make it drag a bit.
+
+106
+00:04:47,600 --> 00:04:50,070
+Finally, as as it hits the ground,
+
+107
+00:04:50,070 --> 00:04:52,860
+I bend it toward its previous direction
+
+108
+00:04:52,860 --> 00:04:54,830
+so is that it is dragging again.
+
+109
+00:04:54,830 --> 00:04:56,900
+And then I will console the rotation
+
+110
+00:04:56,900 --> 00:04:58,560
+a couple of frame after
+
+111
+00:04:58,560 --> 00:05:00,750
+and convert all the landing keys
+
+112
+00:05:00,750 --> 00:05:02,490
+and the keys after to vectors
+
+113
+00:05:02,490 --> 00:05:05,710
+so that I have a hard slap on the ground.
+
+114
+00:05:05,710 --> 00:05:07,860
+One final touch I've added is that
+
+115
+00:05:07,860 --> 00:05:09,540
+I've used the tweaker control root
+
+116
+00:05:09,540 --> 00:05:11,360
+to squash the bag on the ground.
+
+117
+00:05:11,360 --> 00:05:13,680
+In the end, it's barely noticeable,
+
+118
+00:05:13,680 --> 00:05:16,140
+because I've kept it very subtle.
+
+119
+00:05:16,140 --> 00:05:18,270
+I selected all the tweaker bone,
+
+120
+00:05:18,270 --> 00:05:21,070
+inserted a key frame on the key prior
+
+121
+00:05:21,070 --> 00:05:23,460
+to squash the bag so that I don't get any
+
+122
+00:05:23,460 --> 00:05:25,670
+weird interpolation,
+
+123
+00:05:25,670 --> 00:05:27,920
+then I've scaled them up a bit
+
+124
+00:05:27,920 --> 00:05:31,360
+on the X and Y axis, and flatten it,
+
+125
+00:05:31,360 --> 00:05:34,560
+scaling it down on the Z axis.
+
+126
+00:05:34,560 --> 00:05:36,450
+Then two or three frame later,
+
+127
+00:05:36,450 --> 00:05:39,800
+I've consoled any scale by pressing alt+S.
+
+128
+00:05:39,800 --> 00:05:42,430
+One final detail I have revised,
+
+129
+00:05:42,430 --> 00:05:44,910
+but I'm not sure I've captured it,
+
+130
+00:05:44,910 --> 00:05:46,530
+is the rotation of the bag
+
+131
+00:05:46,530 --> 00:05:48,690
+just after the right cross.
+
+132
+00:05:48,690 --> 00:05:51,460
+I've slightly lowered
+the level of rotation
+
+133
+00:05:51,460 --> 00:05:54,730
+of the bag so that it stays on screen
+
+134
+00:05:54,730 --> 00:05:57,380
+while we are rotating
+around the character.
+
+135
+00:05:57,380 --> 00:05:59,560
+This is typically the kind of detail
+
+136
+00:05:59,560 --> 00:06:02,700
+I wouldn't have taken care of a year ago,
+
+137
+00:06:02,700 --> 00:06:05,440
+for example, but it's
+very important because
+
+138
+00:06:05,440 --> 00:06:09,890
+it does improve the
+readability of your animation.
+
+139
+00:06:09,890 --> 00:06:11,830
+This is typically the kind of detail
+
+140
+00:06:11,830 --> 00:06:16,060
+that will bring you to a
+professional level of animation,
+
+141
+00:06:16,060 --> 00:06:19,970
+because it shows that you
+care for your audience,
+
+142
+00:06:19,970 --> 00:06:21,870
+and make sure that they will get
+
+143
+00:06:21,870 --> 00:06:23,913
+everything about your animation.
+

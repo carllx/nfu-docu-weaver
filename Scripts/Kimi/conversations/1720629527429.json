@@ -1,0 +1,39 @@
+{
+    "conversation_id": "cq7bifs5r38lekb4vma0",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review",
+            "fileID": "cpg9jb3df0jc3ksj2s9g",
+            "itemID": 2528,
+            "citation": "Queiroz, M. M., Ivanov, D., Dolgui, A., & Fosso Wamba, S. (2022). Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review. Annals of Operations Research, 319(1), 1159–1196. https://doi.org/10.1007/s10479-020-03685-7\n",
+            "citationShort": "Queiroz et al., 2022",
+            "tags": [
+                "#kimi",
+                "Adaptation",
+                "COVID-19",
+                "Digitalization",
+                "Epidemic outbreaks",
+                "Influenza",
+                "Pandemic",
+                "Preparedness",
+                "Recovery",
+                "Resilience",
+                "Ripple effect",
+                "Structured literature review",
+                "Supply chain",
+                "Sustainability"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n论点论据\n分析本论文中的核心主旨以及所有的论点以及分论点. \n要求:\n- 论点, 清晰表明这些论点与文章主旨之间的关系，\n- 分论点, 列出分论点如何支撑论点, 例如递进还是并列或是其他关系。\n- 最后总结论点并指出其优劣。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Impacts of epidemic outbreaks on supply chains: Mapping a research agenda amid the COVID-19 pandemic through a structured literature review, was published on 2022. (It can be cite this paper as Queiroz et al., 2022 on your answer). \n\n",
+    "response": "### 核心主旨\n本文的核心主旨是通过系统性文献综述，分析疫情爆发对供应链（Supply Chains, SC）的影响，并在COVID-19大流行期间构建一个研究议程。研究旨在揭示商业供应链在疫情冲击下的表现，探讨现有文献中的研究空白，并提出未来研究方向。\n\n### 论点及分论点\n\n#### 主论点1：疫情对全球供应链造成严重破坏\n- **分论点1.1**：COVID-19作为一种高度传染性的冠状病毒，对供应链产生了毁灭性影响。\n- **分论点1.2**：供应链中断导致94%的财富1000强公司面临挑战。\n\n  - *关系*：递进关系，从COVID-19的影响扩展到具体企业层面的影响。\n\n#### 主论点2：现有文献集中在流感疫情对供应链的影响\n- **分论点2.1**：流感是报道最多的疫情爆发类型。\n- **分论点2.2**：优化资源分配和分配是最受欢迎的研究主题。\n\n  - *关系*：并列关系，两个分论点共同支撑主论点，指出研究的焦点。\n\n#### 主论点3：提出COVID-19大流行期间供应链管理的框架\n- **分论点3.1**：适应性（Adaptation）\n- **分论点3.2**：数字化（Digitalization）\n- **分论点3.3**：准备性（Preparedness）\n- **分论点3.4**：恢复力（Recovery）\n- **分论点3.5**：连锁反应（Ripple effect）\n- **分论点3.6**：可持续性（Sustainability）\n\n  - *关系*：并列关系，六个分论点并列支撑主论点，构成供应链管理的综合框架。\n\n#### 主论点4：供应链管理研究的未来方向\n- **分论点4.1**：优化模型的开发，考虑动态变化环境。\n- **分论点4.2**：人道主义行动的优化响应。\n- **分论点4.3**：新兴技术在供应链中的应用。\n\n  - *关系*：并列关系，提出不同领域的未来研究方向。\n\n### 论点总结及优劣\n\n**总结**：\n文章通过系统性文献综述，明确了疫情对供应链的多方面影响，特别是在COVID-19大流行期间。提出了一个全面的框架，包括适应性、数字化、准备性、恢复力、连锁反应和可持续性六个方面，为未来供应链管理研究提供了方向。\n\n**优点**：\n1. 全面性：涵盖了供应链管理在疫情冲击下的多个关键方面。\n2. 系统性：通过文献综述方法，系统地分析和归纳现有研究。\n3. 前瞻性：提出了未来研究的具体方向和问题。\n\n**缺点**：\n1. 可能存在地域或行业局限性，研究可能未能覆盖所有类型的供应链。\n2. 文献综述可能受限于数据库搜索策略，可能遗漏某些相关研究。\n3. 框架虽然全面，但具体实施和操作性细节需要进一步研究。\n\n在引用本文时，请按照要求使用以下格式：Queiroz et al., 2022。",
+    "refs": [
+        "cpg9jb3df0jc3ksj2s9g"
+    ],
+    "title": "\n\nNow, Listen to me:\n论点论据\n分析本论",
+    "group_id": "cq7bifonsmmndm67som0",
+    "req_id": "cq7bifonsmmndm67somg",
+    "resp_id": "cq7bifonsmmndm67son0",
+    "quection": "论点论据\n分析本论文中的核心主旨以及所有的论点以及分论点. \n要求:\n- 论点, 清晰表明这些论点与文章主旨之间的关系，\n- 分论点, 列出分论点如何支撑论点, 例如递进还是并列或是其他关系。\n- 最后总结论点并指出其优劣。"
+}

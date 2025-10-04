@@ -1,0 +1,664 @@
+﻿1
+00:00:00,260 --> 00:00:02,400
+- With our golden poses done,
+
+2
+00:00:02,400 --> 00:00:04,880
+it's time to add some breakdowns.
+
+3
+00:00:04,880 --> 00:00:07,810
+The goal of those
+additional poses is to have
+
+4
+00:00:07,810 --> 00:00:11,120
+a better grasp on the
+flow of the animation.
+
+5
+00:00:11,120 --> 00:00:14,340
+We will build the first step into the jab,
+
+6
+00:00:14,340 --> 00:00:16,490
+which is the anticipation of the jab.
+
+7
+00:00:16,490 --> 00:00:19,860
+Then the transition into the right cross
+
+8
+00:00:19,860 --> 00:00:21,800
+and the right cross overshoot
+
+9
+00:00:21,800 --> 00:00:25,040
+really help to communicate
+the power into dispatch.
+
+10
+00:00:25,040 --> 00:00:28,190
+Then we will add a couple
+of poses after the hook
+
+11
+00:00:28,190 --> 00:00:30,940
+to show the steps taken by the character
+
+12
+00:00:30,940 --> 00:00:34,240
+to get back into idle before
+performing the switch kick.
+
+13
+00:00:34,240 --> 00:00:36,450
+We'll create the transition jump
+
+14
+00:00:36,450 --> 00:00:39,140
+into the anticipation of the switch kick
+
+15
+00:00:39,140 --> 00:00:40,250
+that is already blocked.
+
+16
+00:00:40,250 --> 00:00:41,950
+After the kicking pose
+
+17
+00:00:41,950 --> 00:00:44,270
+we will add an overshoot of the leg
+
+18
+00:00:44,270 --> 00:00:46,570
+that will sell the power of the kick.
+
+19
+00:00:46,570 --> 00:00:49,630
+And finally, we will add a transition pose
+
+20
+00:00:49,630 --> 00:00:54,630
+before the two steps we have
+already blocked back into idle.
+
+21
+00:00:54,950 --> 00:00:56,300
+Before building those poses,
+
+22
+00:00:56,300 --> 00:00:57,950
+I've watched the reference and
+
+23
+00:00:57,950 --> 00:01:01,300
+I've spot the frame that
+were interesting to me.
+
+24
+00:01:01,300 --> 00:01:05,150
+Like this pose in between
+the idle and the first jab
+
+25
+00:01:05,150 --> 00:01:07,530
+character is lowering
+his center of gravity
+
+26
+00:01:07,530 --> 00:01:09,370
+and also pushing forward.
+
+27
+00:01:09,370 --> 00:01:12,030
+So it will be a great anticipation.
+
+28
+00:01:12,030 --> 00:01:15,710
+I've also noticed that the
+character is slightly dropping
+
+29
+00:01:15,710 --> 00:01:17,820
+his hands during this anticipation.
+
+30
+00:01:17,820 --> 00:01:20,196
+As a person pose for a walk cycle,
+
+31
+00:01:20,196 --> 00:01:23,580
+I'm trying to find a good break down
+
+32
+00:01:23,580 --> 00:01:26,680
+and the time where the character
+is pulling his left hand
+
+33
+00:01:26,680 --> 00:01:28,750
+and pushing with the right hand
+
+34
+00:01:28,750 --> 00:01:30,830
+seems to be pretty nice.
+
+35
+00:01:30,830 --> 00:01:33,030
+Also adding notes as a reminder,
+
+36
+00:01:33,030 --> 00:01:36,630
+that the torso is twisting
+a lot on this pose,
+
+37
+00:01:36,630 --> 00:01:38,810
+Then I will spot the overshoot.
+
+38
+00:01:38,810 --> 00:01:41,710
+If your reference doesn't
+show the next move,
+
+39
+00:01:41,710 --> 00:01:44,330
+just put note on top of this and make sure
+
+40
+00:01:44,330 --> 00:01:46,830
+that you look for new reference later on.
+
+41
+00:01:46,830 --> 00:01:49,900
+So this is something I've
+been doing for every poses
+
+42
+00:01:49,900 --> 00:01:53,050
+I wanted to add into the blocking stage.
+
+43
+00:01:53,050 --> 00:01:55,260
+As in the previous videos our goal
+
+44
+00:01:55,260 --> 00:02:00,260
+is not necessarily to copy
+100% the exact same poses.
+
+45
+00:02:00,610 --> 00:02:04,500
+But to check the body
+mechanisms that are involved
+
+46
+00:02:04,500 --> 00:02:07,880
+and then push them to make our animation
+
+47
+00:02:07,880 --> 00:02:10,280
+more exaggerated and more appealing.
+
+48
+00:02:10,280 --> 00:02:13,640
+So let's work the step
+forward into the jab.
+
+49
+00:02:13,640 --> 00:02:16,860
+As usual, I will try to
+define the line of action.
+
+50
+00:02:16,860 --> 00:02:20,740
+The simple C shape the front
+foot is currently raising
+
+51
+00:02:20,740 --> 00:02:22,520
+while the back foot is pushing.
+
+52
+00:02:22,520 --> 00:02:26,890
+So as before I generally scrub
+around the current frame to
+
+53
+00:02:26,890 --> 00:02:30,550
+check out the motion of the
+different parts of the body,
+
+54
+00:02:30,550 --> 00:02:32,770
+the hands, the head, the feet,
+
+55
+00:02:32,770 --> 00:02:34,490
+so that I don't forget to put them.
+
+56
+00:02:34,490 --> 00:02:38,110
+And also I could choose whether
+I favorite the front foot
+
+57
+00:02:38,110 --> 00:02:40,870
+to move further away or to be closer,
+
+58
+00:02:40,870 --> 00:02:44,190
+to drop more the feet, to lean
+more the character forward,
+
+59
+00:02:44,190 --> 00:02:47,840
+make any choice to
+exaggerate the current pose.
+
+60
+00:02:47,840 --> 00:02:50,750
+Now in blender I will insert a key frame
+
+61
+00:02:50,750 --> 00:02:52,997
+for all the controllers
+of both the character
+
+62
+00:02:52,997 --> 00:02:54,980
+and the bag on the frame seven.
+
+63
+00:02:54,980 --> 00:02:58,200
+Again, at this stage, we
+don't care about timing.
+
+64
+00:02:58,200 --> 00:03:00,910
+We can do it on frame seven
+or eight doesn't matter.
+
+65
+00:03:00,910 --> 00:03:03,870
+Then I want to get rid of the rest pose
+
+66
+00:03:03,870 --> 00:03:05,420
+we have on frame zero.
+
+67
+00:03:05,420 --> 00:03:08,520
+So I will duplicate
+frame five on frame zero.
+
+68
+00:03:08,520 --> 00:03:10,114
+When working on an animation,
+
+69
+00:03:10,114 --> 00:03:12,880
+if it's not a gameplay animation,
+
+70
+00:03:12,880 --> 00:03:16,540
+I you advise you to keep five
+frames also in the beginning
+
+71
+00:03:16,540 --> 00:03:19,840
+in the still pose so
+that you can get prepared
+
+72
+00:03:19,840 --> 00:03:22,200
+to what is coming next.
+
+73
+00:03:22,200 --> 00:03:24,660
+If you start your
+animation from frame zero,
+
+74
+00:03:24,660 --> 00:03:27,460
+sometime it's a bit hard to read.
+
+75
+00:03:27,460 --> 00:03:29,530
+The difference between this new pose
+
+76
+00:03:29,530 --> 00:03:32,220
+and the previous one won't be that big.
+
+77
+00:03:32,220 --> 00:03:35,070
+First I want to lower
+the center of gravity
+
+78
+00:03:35,070 --> 00:03:39,610
+as our character is gathering
+energy to throw the punch.
+
+79
+00:03:39,610 --> 00:03:43,010
+Then I pushed the center
+of gravity forward.
+
+80
+00:03:43,010 --> 00:03:46,228
+As our character is
+already moving forward.
+
+81
+00:03:46,228 --> 00:03:50,180
+The left foot is raised a little bit and
+
+82
+00:03:50,180 --> 00:03:52,740
+slightly rotated towards the inside
+
+83
+00:03:52,740 --> 00:03:56,160
+because it's going to leave
+the ground on the next frame.
+
+84
+00:03:56,160 --> 00:03:59,850
+And so the center of gravity
+will shift a bit to the left.
+
+85
+00:03:59,850 --> 00:04:04,010
+The character is pushing
+toward his left foot
+
+86
+00:04:04,010 --> 00:04:05,330
+with his right foot.
+
+87
+00:04:05,330 --> 00:04:08,320
+So you have to move the
+cog a bit to the left.
+
+88
+00:04:08,320 --> 00:04:11,080
+Then I do a few adjustment with the arm,
+
+89
+00:04:11,080 --> 00:04:13,000
+making them dragging it.
+
+90
+00:04:13,000 --> 00:04:16,250
+So I raised the shoulder
+as the center of gravity
+
+91
+00:04:16,250 --> 00:04:17,820
+is getting lower.
+
+92
+00:04:17,820 --> 00:04:22,050
+I open the hand as the
+whole body's moving forward
+
+93
+00:04:22,050 --> 00:04:26,890
+as if there was wind blowing
+into the palm of the character
+
+94
+00:04:26,890 --> 00:04:29,420
+and I do the same with
+the neck and the head.
+
+95
+00:04:29,420 --> 00:04:33,093
+As it drop into the step
+I slightly raise his chin.
+
+96
+00:04:34,089 --> 00:04:35,130
+(swishing noise)
+
+97
+00:04:35,130 --> 00:04:37,670
+When we watch the reference
+for the next pose,
+
+98
+00:04:37,670 --> 00:04:40,860
+we can see that the character
+is currently pulling
+
+99
+00:04:40,860 --> 00:04:45,170
+the left arm and bring it close
+to his chin to protect it.
+
+100
+00:04:45,170 --> 00:04:47,720
+In the meantime, the
+right arm is traveling
+
+101
+00:04:47,720 --> 00:04:49,240
+towards the target.
+
+102
+00:04:49,240 --> 00:04:51,130
+The hips are twisting a lot.
+
+103
+00:04:51,130 --> 00:04:54,840
+The center of gravity too
+and the chest is twisting,
+
+104
+00:04:54,840 --> 00:04:56,710
+but dragging a little bit.
+
+105
+00:04:56,710 --> 00:05:00,010
+Finally, the right foot is rotating a lot.
+
+106
+00:05:00,010 --> 00:05:03,320
+So those are the main point
+we are going to address
+
+107
+00:05:03,320 --> 00:05:05,260
+into our breakdown pose.
+
+108
+00:05:05,260 --> 00:05:07,700
+As for the previous pose
+I will add a key frame
+
+109
+00:05:07,700 --> 00:05:09,700
+on all the controllers of the bag
+
+110
+00:05:09,700 --> 00:05:11,830
+and the character on frame 12.
+
+111
+00:05:11,830 --> 00:05:14,910
+Again, at this stage, we
+don't care about timing.
+
+112
+00:05:14,910 --> 00:05:17,480
+Since the location of
+the feet doesn't change
+
+113
+00:05:17,480 --> 00:05:20,090
+between the previous and the next pose
+
+114
+00:05:20,090 --> 00:05:23,190
+we can directly work on
+the center of gravity
+
+115
+00:05:23,190 --> 00:05:24,023
+of the character.
+
+116
+00:05:24,023 --> 00:05:26,800
+As the character is twisting to his left,
+
+117
+00:05:26,800 --> 00:05:31,640
+his center of gravity is also
+shifting to the left foot.
+
+118
+00:05:31,640 --> 00:05:33,950
+So we need to twist the center of gravity
+
+119
+00:05:33,950 --> 00:05:36,520
+but we also need to move it to the left.
+
+120
+00:05:36,520 --> 00:05:39,530
+Just imagine that the character is diving
+
+121
+00:05:39,530 --> 00:05:43,040
+into the next punch
+with his left shoulder.
+
+122
+00:05:43,040 --> 00:05:46,163
+As seen in the reference the
+right foot is rotating a lot.
+
+123
+00:05:46,163 --> 00:05:51,163
+So I rotate it even more and
+I will raise it with the heel.
+
+124
+00:05:51,490 --> 00:05:55,740
+Don't forget to adjust the
+position of the hips accordingly.
+
+125
+00:05:55,740 --> 00:05:58,360
+Now we can twist a bit the chest,
+
+126
+00:05:58,360 --> 00:06:00,980
+but don't forget that
+the hips are leading.
+
+127
+00:06:00,980 --> 00:06:04,410
+So the chest may not
+twist as much as the hips
+
+128
+00:06:04,410 --> 00:06:05,641
+for the time being.
+
+129
+00:06:05,641 --> 00:06:07,832
+Once the punch is thrown,
+
+130
+00:06:07,832 --> 00:06:10,930
+the chest will catch up with the hips.
+
+131
+00:06:10,930 --> 00:06:14,264
+And as the weight is getting
+on the front left foot,
+
+132
+00:06:14,264 --> 00:06:17,950
+I'm slightly tilting it to the left
+
+133
+00:06:17,950 --> 00:06:20,010
+and I'm slightly pushing it down.
+
+134
+00:06:20,010 --> 00:06:23,180
+This will mimic the compression
+of the foot on the ground.
+
+135
+00:06:23,180 --> 00:06:26,230
+For this breakdown I decided to not go
+
+136
+00:06:26,230 --> 00:06:29,500
+too into the orthodox boxing pose with
+
+137
+00:06:29,500 --> 00:06:32,244
+the left fist very close to the chin.
+
+138
+00:06:32,244 --> 00:06:36,340
+I've kept the left arm
+slightly more opened.
+
+139
+00:06:36,340 --> 00:06:40,490
+This way we have a nice circular
+flow between the two arms.
+
+140
+00:06:40,490 --> 00:06:41,410
+As I explained before,
+
+141
+00:06:41,410 --> 00:06:44,980
+remember to move the arms with
+the anatomical constraint,
+
+142
+00:06:44,980 --> 00:06:47,670
+rotating the elbow on neuron one axis,
+
+143
+00:06:47,670 --> 00:06:49,550
+and don't forget to pose the bag.
+
+144
+00:06:49,550 --> 00:06:51,540
+That's not the most important thing,
+
+145
+00:06:51,540 --> 00:06:53,960
+but it will help you read your animation.
+
+146
+00:06:53,960 --> 00:06:56,490
+To do so I reset all the
+controller of the bag,
+
+147
+00:06:56,490 --> 00:06:58,922
+and then I slightly rotated it backward
+
+148
+00:06:58,922 --> 00:07:01,220
+just after the little jab
+
+149
+00:07:01,220 --> 00:07:05,253
+as if the jab has pushed it a
+bit and the bag is swinging.
+

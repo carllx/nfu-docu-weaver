@@ -1,0 +1,935 @@
+﻿1
+00:00:00,200 --> 00:00:02,890
+- [Instructor] Now that the
+torso root of our character
+
+2
+00:00:02,890 --> 00:00:04,790
+and the feet are polished,
+
+3
+00:00:04,790 --> 00:00:08,360
+we can start polishing the
+whole chain of the torso,
+
+4
+00:00:08,360 --> 00:00:10,580
+the hips, the chest, neck and head.
+
+5
+00:00:10,580 --> 00:00:13,870
+As usual, I will start
+with the hips rotation.
+
+6
+00:00:13,870 --> 00:00:16,460
+And as explained in the
+previous animation chunk,
+
+7
+00:00:16,460 --> 00:00:19,350
+I'm mainly following
+the motion of the feet
+
+8
+00:00:19,350 --> 00:00:22,370
+to figure out the rotation of the hips.
+
+9
+00:00:22,370 --> 00:00:26,470
+Also since we add a
+very detailed blocking,
+
+10
+00:00:26,470 --> 00:00:29,160
+generally the stage is pretty fast
+
+11
+00:00:29,160 --> 00:00:33,410
+as we mostly have to smooth
+out the motion of the hips
+
+12
+00:00:33,410 --> 00:00:36,080
+based on what is already blocked.
+
+13
+00:00:36,080 --> 00:00:38,590
+For example, here I'm slightly reducing
+
+14
+00:00:38,590 --> 00:00:40,040
+the tilting of the hips
+
+15
+00:00:40,040 --> 00:00:42,770
+so that they are more facing the character
+
+16
+00:00:42,770 --> 00:00:46,750
+and facing the orientation
+of the center of gravity,
+
+17
+00:00:46,750 --> 00:00:48,890
+because this is the transition motion
+
+18
+00:00:48,890 --> 00:00:52,590
+and our character is
+settling just after the hook.
+
+19
+00:00:52,590 --> 00:00:54,780
+Then I'm reworking the step back.
+
+20
+00:00:54,780 --> 00:00:58,600
+So I make sure that the character
+hips don't tilt too much
+
+21
+00:00:58,600 --> 00:01:00,430
+and it looks too feminine.
+
+22
+00:01:00,430 --> 00:01:03,310
+I'm also making sure that the hips twist
+
+23
+00:01:03,310 --> 00:01:04,800
+follow the right leg.
+
+24
+00:01:04,800 --> 00:01:07,540
+But remember that the
+hips are pulling the legs
+
+25
+00:01:07,540 --> 00:01:09,880
+that are not in contact with the ground
+
+26
+00:01:09,880 --> 00:01:13,700
+while the supporting leg
+are pushing on the hips.
+
+27
+00:01:13,700 --> 00:01:16,620
+This should gives you a broad idea
+
+28
+00:01:16,620 --> 00:01:19,030
+on how to tilt the hips.
+
+29
+00:01:19,030 --> 00:01:20,740
+The character is pushing for the jump,
+
+30
+00:01:20,740 --> 00:01:24,200
+I make sure that the bit
+is oriented backward.
+
+31
+00:01:24,200 --> 00:01:27,270
+The hips are oriented
+forward towards the groin
+
+32
+00:01:27,270 --> 00:01:28,960
+during the anticipation
+
+33
+00:01:28,960 --> 00:01:31,860
+and oriented backward toward the bit
+
+34
+00:01:31,860 --> 00:01:33,200
+during the pushing pose.
+
+35
+00:01:33,200 --> 00:01:36,980
+Then I will fix the overall
+orientation of the hips
+
+36
+00:01:36,980 --> 00:01:40,180
+during the jump as they look delayed here.
+
+37
+00:01:40,180 --> 00:01:41,900
+Whenever I'm working on the hips,
+
+38
+00:01:41,900 --> 00:01:43,740
+it's often a matter of feeling
+
+39
+00:01:43,740 --> 00:01:46,020
+whether the pose looks right or not,
+
+40
+00:01:46,020 --> 00:01:48,150
+that's pretty hard to explain.
+
+41
+00:01:48,150 --> 00:01:50,250
+Hopefully when you're watching this video,
+
+42
+00:01:50,250 --> 00:01:53,960
+you can see the improvement
+whenever I'm moving a key
+
+43
+00:01:53,960 --> 00:01:56,870
+over the different rotation axis.
+
+44
+00:01:56,870 --> 00:02:00,230
+One part that definitely
+needed some refinement
+
+45
+00:02:00,230 --> 00:02:01,660
+is the kicking part.
+
+46
+00:02:01,660 --> 00:02:06,580
+As I have initially blocked
+a very odd recoil of the hips
+
+47
+00:02:06,580 --> 00:02:09,960
+and it generates a very odd visual glitch.
+
+48
+00:02:09,960 --> 00:02:12,010
+You can see the difference of rotation
+
+49
+00:02:12,010 --> 00:02:15,100
+between frame 79 and frame 80.
+
+50
+00:02:15,100 --> 00:02:19,630
+There is a big jump in the
+value of the Z quaternion curve.
+
+51
+00:02:19,630 --> 00:02:23,410
+And so what I've decided
+is to average the value
+
+52
+00:02:23,410 --> 00:02:27,660
+over frame 80 and switch on frame 81.
+
+53
+00:02:27,660 --> 00:02:29,520
+Having this big change of value
+
+54
+00:02:29,520 --> 00:02:32,010
+over two frames instead of one
+
+55
+00:02:32,010 --> 00:02:34,350
+really improved the animation in the end.
+
+56
+00:02:34,350 --> 00:02:36,510
+From there, here you can see the hips
+
+57
+00:02:36,510 --> 00:02:38,360
+are really twisted backward,
+
+58
+00:02:38,360 --> 00:02:40,340
+pulling the left leg.
+
+59
+00:02:40,340 --> 00:02:44,230
+And then it was just about
+tweaking the existing curve
+
+60
+00:02:44,230 --> 00:02:47,050
+as we had no extreme motion,
+
+61
+00:02:47,050 --> 00:02:51,780
+making sure that the hips tilt
+up upon the supporting leg,
+
+62
+00:02:51,780 --> 00:02:55,110
+making sure that the
+twisting follows the foot
+
+63
+00:02:55,110 --> 00:02:58,780
+that was in error whenever the
+character is stepping back.
+
+64
+00:02:58,780 --> 00:03:02,330
+The chest was a little more
+interesting to work on.
+
+65
+00:03:02,330 --> 00:03:05,340
+Not that it is more
+important than the hips,
+
+66
+00:03:05,340 --> 00:03:08,050
+but visually it creates more variation
+
+67
+00:03:08,050 --> 00:03:09,830
+in the shape of the character.
+
+68
+00:03:09,830 --> 00:03:11,680
+And during this polishing stage,
+
+69
+00:03:11,680 --> 00:03:13,880
+I will be able to push even more
+
+70
+00:03:13,880 --> 00:03:16,550
+the pose of the anticipation of the kick
+
+71
+00:03:16,550 --> 00:03:18,140
+and the kick itself.
+
+72
+00:03:18,140 --> 00:03:21,950
+On the initial part of this
+chunk, just after the hook,
+
+73
+00:03:21,950 --> 00:03:24,840
+I'm tracking the axis
+from the base of the neck,
+
+74
+00:03:24,840 --> 00:03:28,200
+and I will mainly make the chest drag
+
+75
+00:03:28,200 --> 00:03:31,520
+based on the center of gravity motion.
+
+76
+00:03:31,520 --> 00:03:34,990
+So whenever the center
+of gravity is moving up,
+
+77
+00:03:34,990 --> 00:03:37,890
+I will slightly lean
+the character forward.
+
+78
+00:03:37,890 --> 00:03:41,400
+Whenever the center of gravity
+is twisting to the right,
+
+79
+00:03:41,400 --> 00:03:44,920
+I will slightly twist
+the chest to the left
+
+80
+00:03:44,920 --> 00:03:48,470
+so that there is a bit of
+delay in the chest motion
+
+81
+00:03:48,470 --> 00:03:52,740
+compared to the center of
+gravity and the leading hips.
+
+82
+00:03:52,740 --> 00:03:56,100
+Even when the character
+is initiating the jump,
+
+83
+00:03:56,100 --> 00:03:58,210
+we keep the same mechanism.
+
+84
+00:03:58,210 --> 00:03:59,620
+If the body is going up,
+
+85
+00:03:59,620 --> 00:04:02,710
+I will slightly lean
+the character forward.
+
+86
+00:04:02,710 --> 00:04:06,140
+But then when the character
+is airborne and about
+
+87
+00:04:06,140 --> 00:04:08,890
+to land just before throwing the kick,
+
+88
+00:04:08,890 --> 00:04:13,260
+the character starts to use
+his chest for the anticipation
+
+89
+00:04:13,260 --> 00:04:14,940
+to load energy.
+
+90
+00:04:14,940 --> 00:04:18,910
+So I will make sure that it
+twists as far as possible,
+
+91
+00:04:18,910 --> 00:04:22,070
+the opposite direction
+than the kick release,
+
+92
+00:04:22,070 --> 00:04:25,670
+as if the shoulder were going
+to pull the hips forward.
+
+93
+00:04:25,670 --> 00:04:26,980
+So from the camera view,
+
+94
+00:04:26,980 --> 00:04:29,740
+I just make sure that I
+push the line of faction
+
+95
+00:04:29,740 --> 00:04:31,330
+as far as possible,
+
+96
+00:04:31,330 --> 00:04:33,310
+tilting the chest to the right
+
+97
+00:04:33,310 --> 00:04:36,740
+and bending the character
+backward as far as possible.
+
+98
+00:04:36,740 --> 00:04:40,710
+Then the whole chest will
+be moving toward the kick
+
+99
+00:04:40,710 --> 00:04:44,380
+as if the character was
+trying to give a headbutt
+
+100
+00:04:44,380 --> 00:04:47,980
+to another bag that is side
+to side with the current bag.
+
+101
+00:04:47,980 --> 00:04:50,550
+So in the end, if you
+watch my current curve,
+
+102
+00:04:50,550 --> 00:04:51,600
+it's pretty noisy.
+
+103
+00:04:51,600 --> 00:04:53,570
+There is a lot of ups and downs.
+
+104
+00:04:53,570 --> 00:04:56,820
+And at the end of the polishing
+stage of this very part,
+
+105
+00:04:56,820 --> 00:04:59,960
+you will see that I have
+a way smoother curve.
+
+106
+00:04:59,960 --> 00:05:03,560
+And it does show in the arc
+of the base of the neck,
+
+107
+00:05:03,560 --> 00:05:05,070
+which is pretty nice.
+
+108
+00:05:05,070 --> 00:05:08,130
+Then I will break a bit the smoothness
+
+109
+00:05:08,130 --> 00:05:11,470
+of the X rotation curve around frame 82
+
+110
+00:05:11,470 --> 00:05:15,380
+to create the recoil
+effect after the kick.
+
+111
+00:05:15,380 --> 00:05:19,070
+But while the character was
+really leaning into the kick
+
+112
+00:05:19,070 --> 00:05:21,980
+now that he has lost momentum,
+
+113
+00:05:21,980 --> 00:05:25,560
+he needed to get
+straighter to find balance.
+
+114
+00:05:25,560 --> 00:05:28,360
+And once I've recovered this balance
+
+115
+00:05:28,360 --> 00:05:32,920
+during these short transitions
+between frame 82 and 85,
+
+116
+00:05:32,920 --> 00:05:36,500
+it's just about making
+the chest drag a bit
+
+117
+00:05:36,500 --> 00:05:40,940
+while the character is
+taking a few step backwards.
+
+118
+00:05:40,940 --> 00:05:43,370
+Then to improve the animation,
+
+119
+00:05:43,370 --> 00:05:47,350
+what I did is that I've modified
+the location of the chest
+
+120
+00:05:47,350 --> 00:05:48,410
+during the kick.
+
+121
+00:05:48,410 --> 00:05:51,420
+The idea was to create some chest shake
+
+122
+00:05:51,420 --> 00:05:53,760
+while the character was hitting the bag.
+
+123
+00:05:53,760 --> 00:05:56,660
+So I will be pushing the chest forward
+
+124
+00:05:56,660 --> 00:06:00,150
+just after the impact on frame 79
+
+125
+00:06:00,150 --> 00:06:02,390
+and a couple of frame later,
+
+126
+00:06:02,390 --> 00:06:05,310
+I will pull the chest backward
+
+127
+00:06:05,310 --> 00:06:09,750
+until it recovers around frame 85.
+
+128
+00:06:09,750 --> 00:06:13,090
+This will create a quick
+back and forth motion
+
+129
+00:06:13,090 --> 00:06:14,840
+as if the torso was shaking
+
+130
+00:06:14,840 --> 00:06:16,890
+because of the impact of the kick.
+
+131
+00:06:16,890 --> 00:06:20,170
+This is pretty similar to
+what we did to the shoulders
+
+132
+00:06:20,170 --> 00:06:23,089
+and the head of the character
+during the hook motion.
+
+133
+00:06:23,089 --> 00:06:24,840
+(swooshing)
+
+134
+00:06:24,840 --> 00:06:26,350
+Once I'm done with the chest,
+
+135
+00:06:26,350 --> 00:06:28,870
+I always go further in the chain.
+
+136
+00:06:28,870 --> 00:06:31,250
+So I will be working on the neck
+
+137
+00:06:31,250 --> 00:06:33,980
+as we did for the
+previous animation chunk.
+
+138
+00:06:33,980 --> 00:06:37,470
+As usual, I will be mostly
+making the head drag.
+
+139
+00:06:37,470 --> 00:06:40,110
+Since the neck is a tride of the chest,
+
+140
+00:06:40,110 --> 00:06:42,090
+quaternion rotation behavior
+
+141
+00:06:42,090 --> 00:06:45,100
+is pretty close to
+euler rotation behavior.
+
+142
+00:06:45,100 --> 00:06:46,450
+So from the side view,
+
+143
+00:06:46,450 --> 00:06:49,600
+I will be working on
+the X rotation channel.
+
+144
+00:06:49,600 --> 00:06:51,590
+I will make sure to track my axis
+
+145
+00:06:51,590 --> 00:06:53,960
+using the base of the neck.
+
+146
+00:06:53,960 --> 00:06:56,320
+And then when the character is going down,
+
+147
+00:06:56,320 --> 00:06:58,380
+I will slightly raise the neck.
+
+148
+00:06:58,380 --> 00:07:00,730
+And when the character is pushing up,
+
+149
+00:07:00,730 --> 00:07:03,360
+I will make sure that
+the neck is going down.
+
+150
+00:07:03,360 --> 00:07:05,690
+This is something we have already done
+
+151
+00:07:05,690 --> 00:07:06,910
+during the blocking stage.
+
+152
+00:07:06,910 --> 00:07:10,270
+So here I'm just revising
+some of the poses
+
+153
+00:07:10,270 --> 00:07:11,900
+that may not be clean.
+
+154
+00:07:11,900 --> 00:07:15,870
+Like this little drop on the
+y-axis that doesn't make sense
+
+155
+00:07:15,870 --> 00:07:20,040
+since the character is moving
+pretty linearly to the side.
+
+156
+00:07:20,040 --> 00:07:22,440
+Polishing the neck is mostly about
+
+157
+00:07:22,440 --> 00:07:24,810
+the X and Y rotation curve
+
+158
+00:07:24,810 --> 00:07:28,130
+as they drive the tilting
+and leaning of the head.
+
+159
+00:07:28,130 --> 00:07:31,690
+While my wheel is to make the head drag,
+
+160
+00:07:31,690 --> 00:07:34,450
+the polishing stage is
+also the opportunity
+
+161
+00:07:34,450 --> 00:07:36,250
+to fix some of the poses.
+
+162
+00:07:36,250 --> 00:07:39,120
+And my go-to for this
+is to watch my character
+
+163
+00:07:39,120 --> 00:07:42,640
+and make sure that the head
+doesn't feel too uncomfortable.
+
+164
+00:07:42,640 --> 00:07:44,640
+I'm just watching the relationship
+
+165
+00:07:44,640 --> 00:07:46,630
+between the chest and the neck.
+
+166
+00:07:46,630 --> 00:07:51,527
+And whenever the pose feels
+uncomfortable, I fix it.
+
+167
+00:07:51,527 --> 00:07:52,730
+(swooshing)
+
+168
+00:07:52,730 --> 00:07:53,920
+Regarding the head,
+
+169
+00:07:53,920 --> 00:07:58,280
+I haven't anything to add that
+we haven't covered already.
+
+170
+00:07:58,280 --> 00:08:01,380
+For all the transition
+between the punches,
+
+171
+00:08:01,380 --> 00:08:04,900
+the steps or any motion
+that is not that fast,
+
+172
+00:08:04,900 --> 00:08:08,920
+I will make the head slightly
+dragging as we did before.
+
+173
+00:08:08,920 --> 00:08:12,240
+I will jump directly
+to the kicking moment.
+
+174
+00:08:12,240 --> 00:08:14,670
+And at this stage of the animation,
+
+175
+00:08:14,670 --> 00:08:17,430
+my goal is not to make
+the head drag that much
+
+176
+00:08:17,430 --> 00:08:20,360
+because the character is
+focusing on the target,
+
+177
+00:08:20,360 --> 00:08:22,570
+and it might not be as relaxed
+
+178
+00:08:22,570 --> 00:08:25,230
+as in between the different punches.
+
+179
+00:08:25,230 --> 00:08:28,420
+Your goal here is to make
+sure that the character
+
+180
+00:08:28,420 --> 00:08:31,310
+is watching the target
+from the camera angle,
+
+181
+00:08:31,310 --> 00:08:35,300
+or at least that we feel like
+he's watching the target.
+
+182
+00:08:35,300 --> 00:08:37,650
+So, I'm orientating the head
+
+183
+00:08:37,650 --> 00:08:41,090
+so that it's looking at the same point
+
+184
+00:08:41,090 --> 00:08:42,763
+during the whole kick.
+
+185
+00:08:43,930 --> 00:08:45,870
+Once I'm done with the rotation,
+
+186
+00:08:45,870 --> 00:08:48,430
+I will play with the location of the head
+
+187
+00:08:48,430 --> 00:08:50,930
+to improve the impact of the kick.
+
+188
+00:08:50,930 --> 00:08:54,360
+First, I track the head
+tweaker on the top of the head.
+
+189
+00:08:54,360 --> 00:08:58,240
+And my goal is to clean the
+arc from the camera view,
+
+190
+00:08:58,240 --> 00:09:00,570
+for example, on frame 78,
+
+191
+00:09:00,570 --> 00:09:02,760
+you can see that the
+arc is going a bit down
+
+192
+00:09:02,760 --> 00:09:03,810
+and then going up.
+
+193
+00:09:03,810 --> 00:09:07,070
+So I will raise the head so
+that I get a cleaner arc,
+
+194
+00:09:07,070 --> 00:09:10,780
+and then after impact I
+will push the head forward.
+
+195
+00:09:10,780 --> 00:09:13,440
+And after I've pushed the head forward,
+
+196
+00:09:13,440 --> 00:09:16,840
+because of the momentum of
+the kicks that just stop
+
+197
+00:09:16,840 --> 00:09:19,910
+so the head is continuing
+to travel forward.
+
+198
+00:09:19,910 --> 00:09:23,260
+I will try to bunch a bit
+the different keys here,
+
+199
+00:09:23,260 --> 00:09:25,800
+this way just after the kick contact,
+
+200
+00:09:25,800 --> 00:09:29,280
+the head will stabilize a
+bit from the camera view
+
+201
+00:09:29,280 --> 00:09:31,690
+and we will be able to see it clearly.
+
+202
+00:09:31,690 --> 00:09:35,970
+And it will improve the
+recoil feeling of the kick.
+
+203
+00:09:35,970 --> 00:09:39,190
+Finally, I will add a bit
+of stretching in the head
+
+204
+00:09:39,190 --> 00:09:41,460
+when it's moving down super fast
+
+205
+00:09:41,460 --> 00:09:43,420
+using the top head tweaker,
+
+206
+00:09:43,420 --> 00:09:47,730
+only working on the Z location
+axis of the head tweaker.
+
+207
+00:09:47,730 --> 00:09:49,320
+And just after the stretch,
+
+208
+00:09:49,320 --> 00:09:51,810
+I will squash it a little bit
+
+209
+00:09:51,810 --> 00:09:53,360
+a couple of frames later
+
+210
+00:09:53,360 --> 00:09:57,273
+before it settles again two frames later.
+

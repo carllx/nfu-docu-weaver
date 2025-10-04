@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqbmhphhmfr9lj3m8210",
+    "attachments": [
+        {
+            "date": 1975,
+            "title": "“mini-mental state”: A practical method for grading the cognitive state of patients for the clinician",
+            "fileID": "cnne7s9hmfr44fkb9pq0",
+            "itemID": 1923,
+            "citation": "Folstein, M. F., Folstein, S. E., & McHugh, P. R. (1975). “mini-mental state”: A practical method for grading the cognitive state of patients for the clinician. Journal of Psychiatric Research, 12(3), 189–198.\n",
+            "citationShort": "Folstein et al., 1975",
+            "tags": [
+                "#kimi",
+                "#Classical"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- “mini-mental state”: A practical method for grading the cognitive state of patients for the clinician, was published on 1975. This paper serves as the dominant theoretical frameworks for all subsequent papers included in the appendix. (It can be cite this paper as Folstein et al., 1975 on your answer). \n\n",
+    "response": "## 导读\n\n### 核心主题\n本文的核心主题是介绍一种名为“迷你精神状态”（Mini-Mental State，简称MMS）的实用方法，用于评估患者的认识状态。这种方法特别适用于临床医生对患者进行快速、简便的认知功能评估。\n\n### 关键论点/故事线\n- **开发背景**：作者指出，传统的心理状态评估方法耗时较长，不适用于老年患者，尤其是那些有谵妄或痴呆综合症的患者。因此，他们设计了MMS，这是一种简化的、评分形式的认知心理状态检查方法。\n- **MMS的描述**：详细介绍了MMS的组成，包括11个问题，分为两个部分。第一部分主要评估患者的定向、记忆和注意力，第二部分测试患者的命名能力、执行口头和书面命令、自发书写句子以及复制复杂多边形的能力。\n- **方法**：描述了如何将MMS应用于两组人群（样本A和样本B），并详细说明了样本的构成和诊断标准。\n- **结果**：展示了MMS在区分不同诊断组（如痴呆、抑郁症伴认知障碍、未伴认知障碍的抑郁症等）方面的有效性，并讨论了其在治疗前后的变化。\n- **可靠性和有效性**：通过24小时或28天的重测，证明了MMS的可靠性。同时，通过与韦氏成人智力量表（WAIS）的分数相关性，证明了其有效性。\n- **讨论**：讨论了MMS在临床实践中的应用价值，强调了它在评估认知功能、记录认知变化以及教育精神病学住院医师方面的重要性。\n\n### 特定段落或部分\n- **第一段**：介绍了MMS的背景和开发原因，强调了其在临床应用中的实用性。\n- **“DESCRIPTION OF THE MMS”**：详细描述了MMS的具体内容和评分方法，是理解MMS如何操作的关键部分。\n- **“METHODS”**：介绍了如何将MMS应用于不同样本，并说明了诊断标准，这部分对于理解MMS的适用范围和有效性至关重要。\n- **“RESULTS”**：展示了MMS在实际应用中的表现，包括其在不同诊断组中的得分分布，以及治疗前后的变化，是评估MMS有效性的关键证据。\n- **“DISCUSSION”**：深入讨论了MMS的临床价值和应用，这部分对于理解MMS在实际医疗环境中的作用非常重要。\n\n### 语言特点/写作风格\n- **客观性**：文章采用了客观、科学的叙述方式，强调了研究的严谨性和可靠性。\n- **清晰性**：语言简洁明了，易于理解，有助于读者快速把握文章的核心内容。\n- **逻辑性**：文章结构清晰，论点之间逻辑严密，有助于读者理解MMS的科学依据和临床应用。\n\n### 阅读问题\n- **作者如何构建他的论点？** 作者首先介绍了MMS的开发背景，然后详细描述了MMS的内容和评分方法，接着通过实际应用的数据展示了其有效性和可靠性，最后讨论了其在临床实践中的应用价值。\n- **这些论点如何与数字媒体以及艺术领域相联系？** 虽然本文主要关注医学领域，但MMS作为一种评估工具，其科学性和客观性可以为其他领域的评估方法提供借鉴，例如在数字媒体和艺术领域的评估中也可以采用类似的量化评估方法。\n\n希望这些导读能帮助学生更高效地吸收和理解文章内容。在阅读过程中，可以特别关注上述提到的特定段落或部分，以及作者在语言特点和写作风格上的巧妙运用。",
+    "refs": [
+        "cnne7s9hmfr44fkb9pq0"
+    ],
+    "title": "\n\nNow, Listen to me:\n导读\n作为一个引导",
+    "group_id": "cqbmhpprdij1tm5ui9kg",
+    "req_id": "cqbmhpprdij1tm5ui9l0",
+    "resp_id": "cqbmhpprdij1tm5ui9lg",
+    "quection": "导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。"
+}

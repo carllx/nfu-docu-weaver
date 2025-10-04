@@ -1,0 +1,723 @@
+﻿1
+00:00:00,090 --> 00:00:03,810
+- In this video, we will start
+to Detailing our Blocking.
+
+2
+00:00:03,810 --> 00:00:05,850
+It currently looked like that
+
+3
+00:00:05,850 --> 00:00:09,730
+and our goal is to add
+as many poses as possible
+
+4
+00:00:09,730 --> 00:00:13,013
+to avoid any interpretation
+of the Blocking.
+
+5
+00:00:13,013 --> 00:00:16,410
+Here you can see the result
+of this Detailed Blocking
+
+6
+00:00:16,410 --> 00:00:18,000
+or Blocking plus.
+
+7
+00:00:18,000 --> 00:00:20,590
+Your objective when you're
+doing the Blocking plus
+
+8
+00:00:20,590 --> 00:00:24,220
+or Detailed Blocking is
+to spot any big changes
+
+9
+00:00:24,220 --> 00:00:26,860
+in the silhouette or
+pose of your character
+
+10
+00:00:26,860 --> 00:00:30,870
+and create an intermediate
+pose or a transition pose.
+
+11
+00:00:30,870 --> 00:00:34,900
+This is also the moment where
+you will lock the anticipation
+
+12
+00:00:34,900 --> 00:00:36,170
+and your overshoot.
+
+13
+00:00:36,170 --> 00:00:38,970
+So, that when you will switch into Spline,
+
+14
+00:00:38,970 --> 00:00:43,110
+you will have as less floating
+and timing issue compared
+
+15
+00:00:43,110 --> 00:00:44,720
+to the Blocking as possible.
+
+16
+00:00:44,720 --> 00:00:48,320
+The first pose I'm going
+to work on is the overshoot
+
+17
+00:00:48,320 --> 00:00:49,930
+of the right cross.
+
+18
+00:00:49,930 --> 00:00:53,400
+The current post we are seeing
+is the extreme we have built
+
+19
+00:00:53,400 --> 00:00:56,360
+during the Blocking stage
+and here is you overshoot.
+
+20
+00:00:56,360 --> 00:00:59,070
+I'm extending the whole body on one frame.
+
+21
+00:00:59,070 --> 00:01:02,600
+I'm creating this pose one
+frame after the extreme.
+
+22
+00:01:02,600 --> 00:01:06,016
+It'll create a visual
+pop that will better sell
+
+23
+00:01:06,016 --> 00:01:07,730
+the speed of the punch.
+
+24
+00:01:07,730 --> 00:01:10,050
+It's a pretty easy pose to achieve.
+
+25
+00:01:10,050 --> 00:01:13,880
+Just twist a bit more the
+chest, align the hips,
+
+26
+00:01:13,880 --> 00:01:17,930
+move the torso controller
+forward and then extend the arm.
+
+27
+00:01:17,930 --> 00:01:20,980
+But we can lean a bit more
+the head into the shot
+
+28
+00:01:20,980 --> 00:01:23,410
+and spread the left arm backward
+
+29
+00:01:23,410 --> 00:01:26,350
+as it was swinging in the previous post.
+
+30
+00:01:26,350 --> 00:01:29,070
+From there it's all about exaggeration.
+
+31
+00:01:29,070 --> 00:01:32,520
+Take the chest controller
+and move it on the y-axis.
+
+32
+00:01:32,520 --> 00:01:36,160
+Don't rotate it but
+currently change its location
+
+33
+00:01:36,160 --> 00:01:37,730
+and do the same with the arm.
+
+34
+00:01:37,730 --> 00:01:41,860
+I'm taking each controller
+and I'm moving them forward
+
+35
+00:01:41,860 --> 00:01:44,300
+on their local Y-axis.
+
+36
+00:01:44,300 --> 00:01:47,960
+When you're pushing the pose
+or you are pushing the rig,
+
+37
+00:01:47,960 --> 00:01:50,710
+it might generate some visual artifact,
+
+38
+00:01:50,710 --> 00:01:54,100
+especially regarding the
+deformation of the chest.
+
+39
+00:01:54,100 --> 00:01:55,780
+This is the time where you can use
+
+40
+00:01:55,780 --> 00:01:59,390
+the torso three controller,
+move them and scale them a bit
+
+41
+00:01:59,390 --> 00:02:02,850
+to fix the shape of the
+torso and its silhouette.
+
+42
+00:02:02,850 --> 00:02:04,710
+As explained in the previous chapter,
+
+43
+00:02:04,710 --> 00:02:07,373
+I was not really satisfied
+with the frame 21.
+
+44
+00:02:08,380 --> 00:02:11,180
+Because it feels like the
+character is falling forward.
+
+45
+00:02:11,180 --> 00:02:13,580
+So, I've decided to remove this pose
+
+46
+00:02:13,580 --> 00:02:16,620
+and we will create a better pose later on.
+
+47
+00:02:16,620 --> 00:02:18,480
+Before I delete the key frame,
+
+48
+00:02:18,480 --> 00:02:21,830
+I will simply move them away
+at the end of the animation
+
+49
+00:02:21,830 --> 00:02:25,700
+so, that I can watch the
+animation without this pose
+
+50
+00:02:25,700 --> 00:02:28,000
+and then put it back in if needed.
+
+51
+00:02:28,000 --> 00:02:30,520
+Or if I want I can switch the poses
+
+52
+00:02:30,520 --> 00:02:33,850
+by simply moving the key frame in and out
+
+53
+00:02:33,850 --> 00:02:36,890
+and play the animation and
+choose the one I prefer.
+
+54
+00:02:36,890 --> 00:02:38,420
+Once my choice is made,
+
+55
+00:02:38,420 --> 00:02:41,570
+I can get rid of the pose
+I don't need anymore.
+
+56
+00:02:41,570 --> 00:02:43,610
+The next pose I need to build
+
+57
+00:02:43,610 --> 00:02:47,540
+is the Transition into
+the hook anticipation.
+
+58
+00:02:47,540 --> 00:02:50,150
+So, basically at the
+end of the right cross,
+
+59
+00:02:50,150 --> 00:02:51,940
+the right foot is catching up
+
+60
+00:02:51,940 --> 00:02:55,160
+and our characters need
+to pull its right arm
+
+61
+00:02:55,160 --> 00:02:56,710
+back into it's guard.
+
+62
+00:02:56,710 --> 00:03:00,000
+The center of gravity is
+still mainly supported
+
+63
+00:03:00,000 --> 00:03:04,840
+by the left foot but it's
+shifting towards the right foot.
+
+64
+00:03:04,840 --> 00:03:07,720
+As I often do whenever
+I am building a pose
+
+65
+00:03:07,720 --> 00:03:10,590
+that is very different
+from the previous one,
+
+66
+00:03:10,590 --> 00:03:13,480
+I will cancel the
+rotation on the chest hips
+
+67
+00:03:13,480 --> 00:03:17,410
+and even on the center of
+gravity or torso root controller.
+
+68
+00:03:17,410 --> 00:03:20,320
+I've also canceled the
+old transform on the neck,
+
+69
+00:03:20,320 --> 00:03:22,750
+on the head, on the
+shoulders and the arms.
+
+70
+00:03:22,750 --> 00:03:24,710
+But if we have a look
+at the reference pose,
+
+71
+00:03:24,710 --> 00:03:27,700
+we can see that the center
+of gravity is mostly
+
+72
+00:03:27,700 --> 00:03:28,940
+upon the left leg.
+
+73
+00:03:28,940 --> 00:03:31,910
+While the hips are
+mostly pointing forward,
+
+74
+00:03:31,910 --> 00:03:36,030
+the chest is slightly dragging
+and so does the right arm.
+
+75
+00:03:36,030 --> 00:03:38,790
+So, it's a bit extended Transitioning
+
+76
+00:03:38,790 --> 00:03:41,290
+into the hook anticipation.
+
+77
+00:03:41,290 --> 00:03:43,610
+We will sure need additional poses
+
+78
+00:03:43,610 --> 00:03:45,590
+to Detail this Transition,
+
+79
+00:03:45,590 --> 00:03:48,580
+but it already improve
+a lot the readability
+
+80
+00:03:48,580 --> 00:03:49,690
+of the animation.
+
+81
+00:03:49,690 --> 00:03:52,330
+Make sure that the top
+of the body's delayed
+
+82
+00:03:52,330 --> 00:03:53,970
+compared to the hips
+
+83
+00:03:53,970 --> 00:03:56,933
+so, that the chest and the
+arms are dragging a bit.
+
+84
+00:03:59,230 --> 00:04:02,350
+Since we have a foot position change
+
+85
+00:04:02,350 --> 00:04:06,210
+between the current pose
+and the hook anticipation,
+
+86
+00:04:06,210 --> 00:04:09,370
+I you advise you to create
+the pose where the foot
+
+87
+00:04:09,370 --> 00:04:12,760
+is currently contacting
+with its new location.
+
+88
+00:04:12,760 --> 00:04:16,170
+During the Blocking stage,
+you should create a pose
+
+89
+00:04:16,170 --> 00:04:18,970
+each time a foot is contacting the ground.
+
+90
+00:04:18,970 --> 00:04:21,970
+So, what I will do is that
+on the anticipation pose
+
+91
+00:04:21,970 --> 00:04:23,820
+with the foot controller selected,
+
+92
+00:04:23,820 --> 00:04:26,480
+I will press Ctrl+C to copy its pose.
+
+93
+00:04:26,480 --> 00:04:27,880
+Since this is the moment
+
+94
+00:04:27,880 --> 00:04:29,930
+where the foot is contacting the ground,
+
+95
+00:04:29,930 --> 00:04:34,490
+I will make sure that it
+touches it with its inner edge,
+
+96
+00:04:34,490 --> 00:04:38,010
+and they will slightly
+raise the tip of the toes
+
+97
+00:04:38,010 --> 00:04:39,850
+and rotate the toes backwards.
+
+98
+00:04:39,850 --> 00:04:41,890
+But whenever you're trying to raise a leg,
+
+99
+00:04:41,890 --> 00:04:46,010
+your center of gravity will
+shift toward the supporting leg.
+
+100
+00:04:46,010 --> 00:04:50,550
+So, I've pushed the center of
+gravity on to the right foot.
+
+101
+00:04:50,550 --> 00:04:54,200
+Finally, our character was
+still pulling his right arm back
+
+102
+00:04:54,200 --> 00:04:56,160
+and his left arm in front.
+
+103
+00:04:56,160 --> 00:04:59,180
+So, the chest will be
+slightly rotating backward
+
+104
+00:04:59,180 --> 00:05:01,540
+and the left arm is
+raised near the temples
+
+105
+00:05:01,540 --> 00:05:03,470
+of the character in guard.
+
+106
+00:05:03,470 --> 00:05:05,640
+Whenever you think
+you're done with a pose,
+
+107
+00:05:05,640 --> 00:05:08,290
+don't forget to scrub
+through your animation
+
+108
+00:05:08,290 --> 00:05:12,120
+and see how it flows between
+the previous and the next one.
+
+109
+00:05:12,120 --> 00:05:14,370
+You will most likely feel the need
+
+110
+00:05:14,370 --> 00:05:17,230
+to whether fix the pose you're working on
+
+111
+00:05:17,230 --> 00:05:19,937
+or rework the previous or next pose.
+
+112
+00:05:19,937 --> 00:05:22,430
+The pose you will have the
+clearer will be the flow
+
+113
+00:05:22,430 --> 00:05:23,670
+of your animation.
+
+114
+00:05:23,670 --> 00:05:27,110
+So, you will not surely
+retract the arcs of the ends
+
+115
+00:05:27,110 --> 00:05:29,370
+of the head of the chest of your character
+
+116
+00:05:29,370 --> 00:05:32,170
+and maybe fine tune the different poses
+
+117
+00:05:32,170 --> 00:05:35,000
+so, that those arc currently looks good.
+
+118
+00:05:35,000 --> 00:05:37,000
+As you can see, I have a big gap
+
+119
+00:05:37,000 --> 00:05:39,920
+between the current
+anticipation of the hook
+
+120
+00:05:39,920 --> 00:05:41,480
+and the hook itself.
+
+121
+00:05:41,480 --> 00:05:43,740
+To better sell the power of the hook,
+
+122
+00:05:43,740 --> 00:05:46,010
+I want this long anticipation.
+
+123
+00:05:46,010 --> 00:05:48,030
+So, we need to hold the current pose
+
+124
+00:05:48,030 --> 00:05:50,800
+and so, we will create a moving hold.
+
+125
+00:05:50,800 --> 00:05:55,000
+So, basically it's a pose that
+is very close to what we have
+
+126
+00:05:55,000 --> 00:05:59,550
+on the frame 35, but I'm just
+pushing it a little more.
+
+127
+00:05:59,550 --> 00:06:03,430
+Animation wise, it will
+look as if we were holding
+
+128
+00:06:03,430 --> 00:06:06,680
+the pose 35 for five frames,
+
+129
+00:06:06,680 --> 00:06:08,940
+but our character will still be moving.
+
+130
+00:06:08,940 --> 00:06:11,910
+This why we called this a moving hold.
+
+131
+00:06:11,910 --> 00:06:15,390
+Also, they really help to
+lock your anticipation.
+
+132
+00:06:15,390 --> 00:06:18,130
+So, that whenever we will switch to spline
+
+133
+00:06:18,130 --> 00:06:21,740
+our character won't be
+transitioning from the anticipation
+
+134
+00:06:21,740 --> 00:06:25,200
+directly into the hook in a slow motion,
+
+135
+00:06:25,200 --> 00:06:28,330
+but he will hold the current anticipation
+
+136
+00:06:28,330 --> 00:06:30,820
+and rapidly transition into the hook.
+
+137
+00:06:30,820 --> 00:06:33,630
+Note that there is a
+difference between this
+
+138
+00:06:33,630 --> 00:06:34,850
+and an overshoot.
+
+139
+00:06:34,850 --> 00:06:37,480
+Here I am not making the arms dragging
+
+140
+00:06:37,480 --> 00:06:39,250
+instead I'm contracting them.
+
+141
+00:06:39,250 --> 00:06:42,620
+So, I'm slightly closing
+the shape on the arms.
+
+142
+00:06:42,620 --> 00:06:46,253
+It's not a reaction to the
+momentum of the previous pose.
+
+143
+00:06:47,770 --> 00:06:51,380
+At some point, don't forget
+to also pose the bag.
+
+144
+00:06:51,380 --> 00:06:54,020
+The most important poses are the poses
+
+145
+00:06:54,020 --> 00:06:56,630
+where the bag is in contact
+with your character.
+
+146
+00:06:56,630 --> 00:06:59,830
+If the other poses are not
+right, that's not a big deal.
+
+147
+00:06:59,830 --> 00:07:04,340
+We will be able to almost
+animate them in straightforward
+
+148
+00:07:04,340 --> 00:07:07,380
+once we have polished
+our character animation.
+
+149
+00:07:07,380 --> 00:07:09,830
+It will be way easier
+to play with the curve
+
+150
+00:07:09,830 --> 00:07:14,220
+to get our pendulum right
+than trying to block it.
+
+151
+00:07:14,220 --> 00:07:15,750
+But if you are motivated,
+
+152
+00:07:15,750 --> 00:07:18,990
+I advise you to try to block
+the motion of the back.
+
+153
+00:07:18,990 --> 00:07:22,750
+At least that's a good training
+because you will have to try
+
+154
+00:07:22,750 --> 00:07:26,130
+to figure out the position
+of the bag in space,
+
+155
+00:07:26,130 --> 00:07:28,990
+based on the pose of your character
+
+156
+00:07:28,990 --> 00:07:32,710
+and the timing between one
+punch and the next, for example.
+
+157
+00:07:32,710 --> 00:07:36,060
+Also it will improve your
+Blocking readability.
+
+158
+00:07:36,060 --> 00:07:38,360
+But again, this is not mandatory
+
+159
+00:07:38,360 --> 00:07:40,160
+if you're not comfortable with this.
+

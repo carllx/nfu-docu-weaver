@@ -1,0 +1,106 @@
+﻿1
+00:00:01,270 --> 00:00:03,350
+- [Instructor] Welcome to chapter eight.
+
+2
+00:00:03,350 --> 00:00:04,710
+In this chapter,
+
+3
+00:00:04,710 --> 00:00:08,380
+we will apply everything
+we have learned so far
+
+4
+00:00:08,380 --> 00:00:12,670
+to create this 4 Hit Combo animation.
+
+5
+00:00:12,670 --> 00:00:16,380
+I will give you my best
+advice to find good references
+
+6
+00:00:16,380 --> 00:00:19,750
+whenever you're starting
+this animation process.
+
+7
+00:00:19,750 --> 00:00:22,040
+And I will also teach you some tricks
+
+8
+00:00:22,040 --> 00:00:26,290
+on how to use those reference
+to plan your animation.
+
+9
+00:00:26,290 --> 00:00:28,470
+Then as we did in the previous chapter,
+
+10
+00:00:28,470 --> 00:00:30,330
+we'll go into the analysis
+
+11
+00:00:30,330 --> 00:00:33,230
+of the different poses
+we are going to build.
+
+12
+00:00:33,230 --> 00:00:37,060
+From there, I will guide you
+through the whole process
+
+13
+00:00:37,060 --> 00:00:39,790
+of creating this kind of animation
+
+14
+00:00:39,790 --> 00:00:43,370
+from the base blocking,
+breakdown to creation,
+
+15
+00:00:43,370 --> 00:00:46,120
+and first pass of timing, blocking plus
+
+16
+00:00:46,120 --> 00:00:47,930
+adding even more poses
+
+17
+00:00:47,930 --> 00:00:52,340
+so that our animation is
+perfectly readable in steady mode
+
+18
+00:00:52,340 --> 00:00:56,770
+to polishing our animation
+and take it to the next level.
+
+19
+00:00:56,770 --> 00:00:58,740
+But this is a big chapter
+
+20
+00:00:58,740 --> 00:01:03,000
+and you should expect 10
+to 20 hours of animation
+
+21
+00:01:03,000 --> 00:01:04,630
+to get to this result.
+
+22
+00:01:04,630 --> 00:01:07,180
+So stay strong, don't be afraid to fail
+
+23
+00:01:07,180 --> 00:01:08,970
+and let's get started.
+
+24
+00:01:08,970 --> 00:01:11,553
+(bag punching)
+

@@ -1,0 +1,2 @@
+With emerging tools targeting virtual human creation such as Metahuman and detailed 3D-scan libraries such as Quixel Megascans, high-quality CGI creation will become even more accessible to creators.  
+随着针对虚拟人类创作的新兴工具（例如 [[Metahuman]]）和详细的 3D 扫描库（例如 Quixel Megascans），创作者将更容易获得高质量的 CGI 创作。

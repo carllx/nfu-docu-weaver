@@ -1,0 +1,974 @@
+﻿1
+00:00:00,870 --> 00:00:02,010
+- [Instructor] This video, we are going
+
+2
+00:00:02,010 --> 00:00:06,410
+to finish our walk cycle
+animation, polishing the arms.
+
+3
+00:00:06,410 --> 00:00:09,480
+If you want to track your arcs on the arm,
+
+4
+00:00:09,480 --> 00:00:12,470
+I suggest you track the tweaker controller
+
+5
+00:00:12,470 --> 00:00:13,530
+of the elbow.
+
+6
+00:00:13,530 --> 00:00:16,440
+Then we can select our arm controller
+
+7
+00:00:16,440 --> 00:00:19,143
+and we can isolate the rotation channels.
+
+8
+00:00:19,143 --> 00:00:22,020
+For the whole chain down to the fingers,
+
+9
+00:00:22,020 --> 00:00:25,590
+we will only be playing
+with rotation channels
+
+10
+00:00:25,590 --> 00:00:26,860
+from now on.
+
+11
+00:00:26,860 --> 00:00:30,650
+The most influential channel
+for the rotation of the arm
+
+12
+00:00:30,650 --> 00:00:34,690
+in our swinging motion is
+the z quaternion rotation.
+
+13
+00:00:34,690 --> 00:00:36,300
+Again, polishing this curve
+
+14
+00:00:36,300 --> 00:00:38,370
+is gonna be pretty straightforward.
+
+15
+00:00:38,370 --> 00:00:40,330
+It is mostly about cleaning the curve
+
+16
+00:00:40,330 --> 00:00:42,850
+than really reworking the animation
+
+17
+00:00:42,850 --> 00:00:44,770
+or the motion of the arm.
+
+18
+00:00:44,770 --> 00:00:46,700
+From view, I will press Alt + B
+
+19
+00:00:46,700 --> 00:00:49,252
+and frame half of my character
+
+20
+00:00:49,252 --> 00:00:52,660
+so that I won't be
+distracted by the right arm
+
+21
+00:00:52,660 --> 00:00:55,963
+in the back when walking
+from the side view.
+
+22
+00:00:55,963 --> 00:00:57,280
+The idea is to make sure
+
+23
+00:00:57,280 --> 00:00:59,440
+that we hold a bit the arm forward
+
+24
+00:00:59,440 --> 00:01:02,640
+and backward when it reaches its extreme.
+
+25
+00:01:02,640 --> 00:01:05,110
+While the arms were leading the animation
+
+26
+00:01:05,110 --> 00:01:07,090
+during the run cycle,
+
+27
+00:01:07,090 --> 00:01:09,460
+in the case of a walk cycle,
+
+28
+00:01:09,460 --> 00:01:12,620
+especially this relaxed walk cycle,
+
+29
+00:01:12,620 --> 00:01:15,890
+the arm are swinging in
+reaction to the fall.
+
+30
+00:01:15,890 --> 00:01:18,750
+So they will be delayed
+compared to the motion
+
+31
+00:01:18,750 --> 00:01:20,040
+of the foot.
+
+32
+00:01:20,040 --> 00:01:24,250
+Just make sure that your
+arms hit their extreme a bit
+
+33
+00:01:24,250 --> 00:01:26,151
+after the contact post.
+
+34
+00:01:26,151 --> 00:01:29,880
+In our case, we have our
+contact pose on frame zero
+
+35
+00:01:29,880 --> 00:01:32,233
+and the extreme is on frame two.
+
+36
+00:01:33,150 --> 00:01:36,840
+Once you get a decent result
+using the z-quaternion curve,
+
+37
+00:01:36,840 --> 00:01:39,720
+you should switch to
+the y-quaternion curve.
+
+38
+00:01:39,720 --> 00:01:42,710
+My case, it add almost the same behavior
+
+39
+00:01:42,710 --> 00:01:45,110
+as the z-quaternion curve
+
+40
+00:01:45,110 --> 00:01:49,250
+and its motion was added
+upon the z-quaternion curve.
+
+41
+00:01:49,250 --> 00:01:51,350
+Polishing this curve allows us
+
+42
+00:01:51,350 --> 00:01:53,086
+to refine the swing motion,
+
+43
+00:01:53,086 --> 00:01:57,450
+especially on the easing
+toward both extreme.
+
+44
+00:01:57,450 --> 00:02:00,230
+That animation is not a linear workflow.
+
+45
+00:02:00,230 --> 00:02:03,750
+Based on your blocking, you
+may not have the same result
+
+46
+00:02:03,750 --> 00:02:05,840
+as what I have on screen.
+
+47
+00:02:05,840 --> 00:02:07,830
+This is why it can be hard sometime
+
+48
+00:02:07,830 --> 00:02:09,540
+to follow an animation course
+
+49
+00:02:09,540 --> 00:02:13,930
+where you may not have exactly
+the same behavior curve wise.
+
+50
+00:02:13,930 --> 00:02:16,970
+So your goal is not to focus on the curve
+
+51
+00:02:16,970 --> 00:02:19,360
+but on the motion itself.
+
+52
+00:02:19,360 --> 00:02:22,550
+In my case, when I reached the extreme,
+
+53
+00:02:22,550 --> 00:02:26,150
+especially when the arm was swinging back,
+
+54
+00:02:26,150 --> 00:02:28,910
+it feels like it was hitting a wall.
+
+55
+00:02:28,910 --> 00:02:31,430
+It was reaching its extreme back
+
+56
+00:02:31,430 --> 00:02:34,070
+and then kind of bouncing forward.
+
+57
+00:02:34,070 --> 00:02:37,410
+Polishing the y-curve did fix the problem.
+
+58
+00:02:37,410 --> 00:02:40,610
+This rotation curve allows
+us to move the elbow away
+
+59
+00:02:40,610 --> 00:02:42,800
+from the chest of our character.
+
+60
+00:02:42,800 --> 00:02:46,930
+So basically, when the elbow
+is passing by the chest,
+
+61
+00:02:46,930 --> 00:02:49,140
+you would move it away
+
+62
+00:02:49,140 --> 00:02:51,810
+and when it's in the back of the chest
+
+63
+00:02:51,810 --> 00:02:54,440
+or forward in both extreme,
+
+64
+00:02:54,440 --> 00:02:56,473
+we will move it a bit inward.
+
+65
+00:02:59,440 --> 00:03:00,660
+With the arm polished,
+
+66
+00:03:00,660 --> 00:03:03,090
+we can jump onto the forearm.
+
+67
+00:03:03,090 --> 00:03:04,550
+As advised before,
+
+68
+00:03:04,550 --> 00:03:07,520
+if you want to track
+your arcs on the forearm,
+
+69
+00:03:07,520 --> 00:03:12,420
+I advise you to track the
+arcs of the wrist controller.
+
+70
+00:03:12,420 --> 00:03:14,420
+The cool thing about the forearm
+
+71
+00:03:14,420 --> 00:03:16,460
+is that generally speaking,
+
+72
+00:03:16,460 --> 00:03:18,760
+it can only rotate around one axis.
+
+73
+00:03:18,760 --> 00:03:22,360
+So we will only have to polish one curve,
+
+74
+00:03:22,360 --> 00:03:24,270
+the z rotation curve.
+
+75
+00:03:24,270 --> 00:03:28,120
+That might not be the case
+for a very stylized animation
+
+76
+00:03:28,120 --> 00:03:31,150
+where you want to break the
+limbs or stuff like that
+
+77
+00:03:31,150 --> 00:03:33,760
+to create stylized motion.
+
+78
+00:03:33,760 --> 00:03:35,070
+Basically, we want the hand
+
+79
+00:03:35,070 --> 00:03:36,870
+to drag compared to the elbow.
+
+80
+00:03:36,870 --> 00:03:39,710
+So as the arm is swinging forward,
+
+81
+00:03:39,710 --> 00:03:44,120
+I will bend the forearm a big backward.
+
+82
+00:03:44,120 --> 00:03:48,350
+We will reach the extreme
+as the arm is almost passing
+
+83
+00:03:48,350 --> 00:03:50,550
+on frame number eight.
+
+84
+00:03:50,550 --> 00:03:53,910
+As the elbow hits its forward position,
+
+85
+00:03:53,910 --> 00:03:55,500
+the hand will catch up
+
+86
+00:03:55,500 --> 00:03:57,740
+and the elbow will bend the other way.
+
+87
+00:03:57,740 --> 00:04:02,530
+The forearm will reach the
+other extreme on frame 21
+
+88
+00:04:02,530 --> 00:04:05,653
+as the arm starts to swing backward.
+
+89
+00:04:06,550 --> 00:04:08,640
+It's pretty easy to polish this curve
+
+90
+00:04:08,640 --> 00:04:11,820
+and you should have something
+quite similar to mine.
+
+91
+00:04:11,820 --> 00:04:13,450
+It might be offset in time,
+
+92
+00:04:13,450 --> 00:04:16,490
+depending on the timing of your walk cycle
+
+93
+00:04:16,490 --> 00:04:19,940
+and also depending on
+the amount of rotation
+
+94
+00:04:19,940 --> 00:04:21,270
+you are inputting,
+
+95
+00:04:21,270 --> 00:04:24,550
+the amount of dragging
+you're inputting to.
+
+96
+00:04:24,550 --> 00:04:26,380
+The more the hand is dragging,
+
+97
+00:04:26,380 --> 00:04:29,217
+the more the forearm will look loose
+
+98
+00:04:29,217 --> 00:04:34,217
+and the more your walk
+cycle will feel relaxed.
+
+99
+00:04:34,350 --> 00:04:37,660
+From there, we can jump
+into polishing the hand.
+
+100
+00:04:37,660 --> 00:04:39,690
+It's gonna be exactly the same process
+
+101
+00:04:39,690 --> 00:04:42,640
+but this time on multiple axis.
+
+102
+00:04:42,640 --> 00:04:45,890
+Polishing the hand rotation
+won't be a difficult task.
+
+103
+00:04:45,890 --> 00:04:48,240
+I'm first trying to figure out
+
+104
+00:04:48,240 --> 00:04:50,350
+which channel does what
+
+105
+00:04:50,350 --> 00:04:54,000
+and I will start by
+polishing the z channel.
+
+106
+00:04:54,000 --> 00:04:57,160
+Orientate the hand forward or backward.
+
+107
+00:04:57,160 --> 00:04:58,500
+So from our side view,
+
+108
+00:04:58,500 --> 00:05:02,320
+this is the first most
+influential channel.
+
+109
+00:05:02,320 --> 00:05:04,960
+The goal is to make the hand rotate
+
+110
+00:05:04,960 --> 00:05:07,970
+with a bit of delay
+compared to the forearm.
+
+111
+00:05:07,970 --> 00:05:10,880
+One major mistake you should avoid
+
+112
+00:05:10,880 --> 00:05:14,280
+is to bend the hand too much backward.
+
+113
+00:05:14,280 --> 00:05:18,080
+Try it yourself and rotate
+your own hand along this axis.
+
+114
+00:05:18,080 --> 00:05:19,650
+You will see that when it comes
+
+115
+00:05:19,650 --> 00:05:21,890
+to rotating the hand backward,
+
+116
+00:05:21,890 --> 00:05:24,170
+you are pretty limited in the range
+
+117
+00:05:24,170 --> 00:05:26,160
+of rotation you can reach.
+
+118
+00:05:26,160 --> 00:05:28,817
+And it's even worth the other way.
+
+119
+00:05:28,817 --> 00:05:32,843
+So don't overdo this backward
+and forward rotation.
+
+120
+00:05:34,360 --> 00:05:36,660
+Regarding the x-quaternion rotation,
+
+121
+00:05:36,660 --> 00:05:38,930
+the inward and outward rotation
+
+122
+00:05:38,930 --> 00:05:41,080
+or orientation of the hand,
+
+123
+00:05:41,080 --> 00:05:43,890
+the motion range is not really a problem.
+
+124
+00:05:43,890 --> 00:05:47,800
+From the front view, whenever
+the arm is swinging outward,
+
+125
+00:05:47,800 --> 00:05:50,380
+I make sure to make the hand drag a bit
+
+126
+00:05:50,380 --> 00:05:52,810
+by rotating it inward
+
+127
+00:05:52,810 --> 00:05:55,850
+and as the arm swing inward,
+
+128
+00:05:55,850 --> 00:05:58,810
+I make sure to rotate
+the hand a bit backward
+
+129
+00:05:58,810 --> 00:06:00,133
+toward the outside.
+
+130
+00:06:01,070 --> 00:06:04,070
+Note that I have a bit
+of clipping on my model.
+
+131
+00:06:04,070 --> 00:06:05,580
+During the passing pose,
+
+132
+00:06:05,580 --> 00:06:08,940
+the sum is crossing the
+psi and cut the mesh.
+
+133
+00:06:08,940 --> 00:06:12,250
+So I will have to slightly open the arms
+
+134
+00:06:12,250 --> 00:06:15,853
+during the passing pose
+by pushing the x curve.
+
+135
+00:06:16,827 --> 00:06:18,780
+So while the motion may feel good,
+
+136
+00:06:18,780 --> 00:06:21,620
+I need to fix a bit this kind of problem.
+
+137
+00:06:21,620 --> 00:06:25,720
+So I will increase the
+x rotation amplitude
+
+138
+00:06:25,720 --> 00:06:28,910
+of the arms so that it
+move a bit more away
+
+139
+00:06:28,910 --> 00:06:33,610
+from the thigh and I will also
+slightly offset my x curve
+
+140
+00:06:33,610 --> 00:06:37,180
+for the hand so that I
+also move the hand away
+
+141
+00:06:37,180 --> 00:06:38,340
+from the side.
+
+142
+00:06:38,340 --> 00:06:41,540
+Don't forget to check your
+animation from every angle.
+
+143
+00:06:41,540 --> 00:06:43,230
+So animate from the side view,
+
+144
+00:06:43,230 --> 00:06:45,150
+front view and back view
+
+145
+00:06:45,150 --> 00:06:48,030
+and often turn around your character.
+
+146
+00:06:48,030 --> 00:06:52,082
+You should also check your
+animation in perspective mode.
+
+147
+00:06:52,082 --> 00:06:55,880
+Not only in autographic mode.
+
+148
+00:06:55,880 --> 00:06:59,600
+After that, I worked a bit
+on the y-rotation curve,
+
+149
+00:06:59,600 --> 00:07:02,370
+which makes the hand twist.
+
+150
+00:07:02,370 --> 00:07:06,450
+There is not much twisting
+in this walk animation
+
+151
+00:07:06,450 --> 00:07:08,630
+but still, it's important to polish it
+
+152
+00:07:08,630 --> 00:07:11,790
+so that we have a smooth movement.
+
+153
+00:07:11,790 --> 00:07:16,460
+I've also worked on the
+W-quaternion rotation curve.
+
+154
+00:07:16,460 --> 00:07:20,400
+The idea is not that it will
+influence that much the pose
+
+155
+00:07:20,400 --> 00:07:23,820
+of our character or the motion of the hand
+
+156
+00:07:23,820 --> 00:07:25,270
+but I just want to make sure
+
+157
+00:07:25,270 --> 00:07:27,220
+that it flows perfectly
+
+158
+00:07:27,220 --> 00:07:30,790
+and that it blends from
+one cycle to the other.
+
+159
+00:07:30,790 --> 00:07:33,590
+So the idea is mostly to clean the curve
+
+160
+00:07:33,590 --> 00:07:37,383
+than to improve the current
+motion or modify it.
+
+161
+00:07:38,710 --> 00:07:42,160
+I often don't work on the
+w-quaternion rotation,
+
+162
+00:07:42,160 --> 00:07:45,160
+especially for such subtle motion
+
+163
+00:07:45,160 --> 00:07:47,060
+but especially on cycles,
+
+164
+00:07:47,060 --> 00:07:50,480
+it can sometime input some glitches
+
+165
+00:07:50,480 --> 00:07:52,240
+if you don't have a good flow
+
+166
+00:07:52,240 --> 00:07:55,240
+between your very first
+and very last keys.
+
+167
+00:07:55,240 --> 00:07:58,098
+As soon as I add the
+satisfying hand motion,
+
+168
+00:07:58,098 --> 00:08:02,770
+so basically our whole
+arm moving in space,
+
+169
+00:08:02,770 --> 00:08:05,640
+I decided to mirror the motion
+
+170
+00:08:05,640 --> 00:08:08,950
+onto the other arm to
+have a better overview
+
+171
+00:08:08,950 --> 00:08:11,080
+of our current walk cycle.
+
+172
+00:08:11,080 --> 00:08:14,150
+I won't show you again how to copy
+
+173
+00:08:14,150 --> 00:08:16,650
+and paste mirrored a curve
+
+174
+00:08:16,650 --> 00:08:19,510
+or several curves onto the other side
+
+175
+00:08:19,510 --> 00:08:20,900
+of your character
+
+176
+00:08:20,900 --> 00:08:24,230
+since we've been doing
+this several time already.
+
+177
+00:08:24,230 --> 00:08:25,760
+And both the arms in action
+
+178
+00:08:25,760 --> 00:08:28,580
+makes the walk cycle looks really cool.
+
+179
+00:08:28,580 --> 00:08:31,000
+The final touch will be to work a bit
+
+180
+00:08:31,000 --> 00:08:34,760
+on the palm deformation and the fingers.
+
+181
+00:08:34,760 --> 00:08:36,800
+We can input a bit more details
+
+182
+00:08:36,800 --> 00:08:41,010
+into our motion by
+slightly animating the palm
+
+183
+00:08:41,010 --> 00:08:42,470
+and the fingers.
+
+184
+00:08:42,470 --> 00:08:43,610
+Regarding the palm,
+
+185
+00:08:43,610 --> 00:08:47,110
+I will only be playing
+with the z rotation,
+
+186
+00:08:47,110 --> 00:08:49,440
+compressing a bit the bones
+
+187
+00:08:49,440 --> 00:08:52,380
+and simply inputting a bit of delay
+
+188
+00:08:52,380 --> 00:08:55,980
+in the rotation of this
+pastor palm controller.
+
+189
+00:08:55,980 --> 00:08:59,530
+So I'm only using the z Euler rotation.
+
+190
+00:08:59,530 --> 00:09:02,100
+Whenever the hand is swinging forward,
+
+191
+00:09:02,100 --> 00:09:04,550
+I will slightly open the palm.
+
+192
+00:09:04,550 --> 00:09:07,910
+Whenever the hand is swinging backward,
+
+193
+00:09:07,910 --> 00:09:10,350
+I will slightly close the palm.
+
+194
+00:09:10,350 --> 00:09:13,830
+Then I will just make sure
+that my curve cycle properly
+
+195
+00:09:13,830 --> 00:09:14,833
+and I'm done.
+
+196
+00:09:15,705 --> 00:09:17,990
+To add on with the palm
+bone can be interesting
+
+197
+00:09:17,990 --> 00:09:20,870
+to add a bit of rotation in the fingers
+
+198
+00:09:20,870 --> 00:09:22,173
+and in the thumb.
+
+199
+00:09:23,280 --> 00:09:26,100
+Again, it's just about making the thumb
+
+200
+00:09:26,100 --> 00:09:28,330
+and the fingers drag a bit.
+
+201
+00:09:28,330 --> 00:09:31,350
+So whenever the hand is moving forward,
+
+202
+00:09:31,350 --> 00:09:36,130
+I make the fingers rotate
+backward and vice versa.
+
+203
+00:09:36,130 --> 00:09:37,660
+The only thing you have to check
+
+204
+00:09:37,660 --> 00:09:42,507
+and figure out is on which
+axis your fingers can rotate.
+
+205
+00:09:42,507 --> 00:09:44,000
+And the best way to do it
+
+206
+00:09:44,000 --> 00:09:46,630
+is just to check your own hand.
+
+207
+00:09:46,630 --> 00:09:49,540
+Your thumb can rotate along every axis
+
+208
+00:09:49,540 --> 00:09:53,250
+but the y-axis, you can't
+really twist your thumb.
+
+209
+00:09:53,250 --> 00:09:55,640
+You can easily curl your finger
+
+210
+00:09:55,640 --> 00:09:57,430
+but when it comes to twisting,
+
+211
+00:09:57,430 --> 00:09:59,490
+it's almost impossible
+
+212
+00:09:59,490 --> 00:10:04,250
+and they have a very small
+range of side-to-side motion,
+
+213
+00:10:04,250 --> 00:10:07,380
+so you can input a bit
+of side-to-side motion
+
+214
+00:10:07,380 --> 00:10:10,930
+into your finger as a dragging motion
+
+215
+00:10:10,930 --> 00:10:13,140
+but it has to be every subtle.
+
+216
+00:10:13,140 --> 00:10:17,180
+I will favorize the hand close/open motion
+
+217
+00:10:17,180 --> 00:10:18,590
+of the fingers.
+
+218
+00:10:18,590 --> 00:10:21,900
+Since there is not that much to explain
+
+219
+00:10:21,900 --> 00:10:25,940
+about animating the fingers
+for this walk cycle,
+
+220
+00:10:25,940 --> 00:10:28,110
+I will let you with a bit of music
+
+221
+00:10:28,110 --> 00:10:30,650
+to finish this little time lapse
+
+222
+00:10:30,650 --> 00:10:33,700
+and have our whole walk cycle done.
+
+223
+00:10:33,700 --> 00:10:35,480
+See you in the next chapter
+
+224
+00:10:35,480 --> 00:10:38,430
+where we will learn
+how to create appealing
+
+225
+00:10:38,430 --> 00:10:40,003
+and convincing poses.
+
+226
+00:10:43,512 --> 00:10:46,262
+(tranquil music)
+

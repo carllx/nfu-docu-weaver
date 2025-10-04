@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cqmg3siesepsa7pio350",
+    "attachments": [
+        {
+            "date": 2022,
+            "title": "Adobe Premiere Pro CC For Dummies",
+            "fileID": "cqmfdn9ivtd4195rk24g",
+            "itemID": 3558,
+            "citation": "Carucci, J. (2022). Adobe Premiere Pro CC For Dummies (1st edition). For Dummies.\n",
+            "citationShort": "Carucci, 2022",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 根据本书的内容设计，18周的课程大纲，每周是三个课时\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Adobe Premiere Pro CC For Dummies, was published on 2022. (It can be cite this paper as Carucci, 2022 on your answer). \n\n",
+    "response": "根据《Adobe Premiere Pro CC For Dummies》这本书的内容设计，我们可以制定一个18周的课程大纲，每周包含三个课时。以下是根据书中内容制定的课程安排：\n\n### 第1周：课程介绍与软件概览\n- 第1课时：课程介绍与期望成果概述\n- 第2课时：《Adobe Premiere Pro CC For Dummies》书籍概览（Carucci, 2022）\n- 第3课时：Adobe Premiere Pro CC软件界面熟悉\n\n### 第2周：工作区与工具栏\n- 第1课时：理解Premiere Pro工作区（Carucci, 2022, 第1章）\n- 第2课时：工具栏的使用与自定义\n- 第3课时：面板讨论与工作区需求分析\n\n### 第3周：项目设置与工作站要求\n- 第1课时：项目设置基础（Carucci, 2022, 第3章）\n- 第2课时：工作站硬件要求与配置\n- 第3课时：额外存储空间与计算机组件管理\n\n### 第4周：视频制作基础\n- 第1课时：数字化视频定义与数字视频基础知识（Carucci, 2022, 第4章）\n- 第2课时：捕捉高质量视频技巧\n- 第3课时：视频项目准备与序列制作（Carucci, 2022, 第5章）\n\n### 第5周：媒体导入与管理\n- 第1课时：项目媒体导入（Carucci, 2022, 第6章）\n- 第2课时：媒体组织与素材管理\n- 第3课时：Adobe Bridge使用与媒体审查\n\n### 第6周：视频编辑基础\n- 第1课时：准备视频进行编辑（Carucci, 2022, 第7章）\n- 第2课时：工作流程中的进出点设置\n- 第3课时：剪辑修改与序列构建\n\n### 第7周：时间线编辑\n- 第1课时：时间线管理与序列调整（Carucci, 2022, 第8章）\n- 第2课时：剪辑微调与高级时间线技巧\n- 第3课时：时间线技巧实践与反馈\n\n### 第8周：视频转场与合成\n- 第1课时：转场选择与效果应用（Carucci, 2022, 第9章）\n- 第2课时：转场技术入门与高级技巧\n- 第3课时：视频合成理解与关键帧使用（Carucci, 2022, 第11章）\n\n### 第9周：视频效果与音频处理\n- 第1课时：视频效果理解与应用（Carucci, 2022, 第12章）\n- 第2课时：音频需求识别与录制\n- 第3课时：电影中音频工作与声音面板导航（Carucci, 2022, 第13章）\n\n### 第10周：标题、图形与动画\n- 第1课时：标题与运动图形理解（Carucci, 2022, 第14章）\n- 第2课时：使用文本转语音与图形编辑\n- 第3课时：动画图形制作与应用\n\n### 第11周：项目最终化\n- 第1课时：项目质量控制与时间线审查（Carucci, 2022, 第15章）\n- 第2课时：视频导出前微调\n- 第3课时：导出设置与格式选择\n\n### 第12周：视频导出与格式\n- 第1课时：导出电影（Carucci, 2022, 第16章）\n- 第2课时：选择合适的文件格式\n- 第3课时：导出设置的高级调整\n\n### 第13周：全球分享你的电影\n- 第1课时：展示你的电影\n- 第2课时：使用社交媒体与全球最大的放映室\n- 第3课时：分享你的电影与回归传统\n\n### 第14至18周：十大技巧与项目实践\n- 每周深入探讨《The Part of Tens》章节中的两个主题，结合实践项目，应用书中提到的技巧，进行电影制作。\n\n请注意，这个课程大纲是基于《Adobe Premiere Pro CC For Dummies》这本书的内容设计的，实际操作中可能需要根据学生的进度和理解能力进行适当调整。",
+    "refs": [
+        "cqmfdn9ivtd4195rk24g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqmg3si2jko34aae2nm0",
+    "req_id": "cqmg3si2jko34aae2nn0",
+    "resp_id": "cqmg3si2jko34aae2nng",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 根据本书的内容设计，18周的课程大纲，每周是三个课时"
+}

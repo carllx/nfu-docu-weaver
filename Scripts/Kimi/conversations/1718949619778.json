@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqhdtalnl94am8j0sog",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题：该方法有效的提高了 大语言模型理解用户诉求的精确度，但并不会提高模型自身的 推断的正确率？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n",
+    "response": "根据Mishra等人在2023年的研究《Prompting with Pseudo-Code Instructions》，使用伪代码指令提示是一种提高大型语言模型（LLM）性能的有效方法。然而，这项研究并没有直接说明这种方法会提高模型对用户诉求理解的精确度而不提高模型自身的推断正确率。不过，我们可以从研究结果中推断出一些相关的信息：\n\n1. **使用伪代码指令可以提高任务性能**：研究表明，使用伪代码指令提示可以在分类任务中平均提高F1分数7-16点，在所有任务中相对提高了12-38%的ROUGE-L分数。这表明伪代码指令有助于提高模型对任务的理解和执行能力。\n\n2. **伪代码的结构性有助于性能提升**：研究中的详细消融研究指出，代码注释、文档字符串以及伪代码中编码的结构线索都有助于提高性能。这意味着伪代码的结构性可能帮助模型更清晰地理解任务指令，从而更准确地响应用户诉求。\n\n3. **不同模型对伪代码的反应不同**：实验显示，即使是设计用于处理自然语言任务的模型（如BLOOM），使用伪代码指令也比使用自然语言指令有更好的性能。这可能意味着伪代码作为一种提示方式，能够使模型以一种更接近于编程逻辑的方式理解任务，这可能提高了对用户诉求的理解精确度。\n\n4. **模型规模对性能的影响**：研究发现，使用伪代码指令时，模型规模的增加有助于提高性能。然而，使用自然语言指令时，并没有观察到同样的趋势。这可能表明伪代码指令能够更好地利用模型的规模优势来提高任务性能。\n\n综上所述，虽然研究没有直接说明伪代码指令会提高模型对用户诉求理解的精确度而不提高推断正确率，但研究结果表明，伪代码指令通过其结构性和清晰性，有助于提高模型对任务的理解，这可能间接提高了对用户诉求的理解精确度。同时，模型规模的增加对于使用伪代码指令的性能提升有积极影响。\n\n```markdown\n### 引用格式\nMishra et al., 2023\n```",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpqhdtf2337p5uccefmg",
+    "req_id": "cpqhdtf2337p5uccefq0",
+    "resp_id": "cpqhdtf2337p5uccefqg",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题：该方法有效的提高了 大语言模型理解用户诉求的精确度，但并不会提高模型自身的 推断的正确率？"
+}

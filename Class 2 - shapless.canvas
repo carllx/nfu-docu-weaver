@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"781d043141952275","x":-260,"y":-320,"width":250,"height":60,"type":"text","text":"Input (shapless)"},
+		{"id":"98567edfb1062bd6","x":-564,"y":-320,"width":250,"height":60,"type":"text","text":"Attributes"},
+		{"id":"c9be3c02165d5f4d","x":-260,"y":-80,"width":250,"height":60,"type":"text","text":"Output (Value)"},
+		{"id":"53545390c685e91a","x":-564,"y":-80,"width":250,"height":60,"type":"text","text":"Substance"},
+		{"id":"e1d33e4922ecca37","x":-564,"y":-440,"width":250,"height":60,"type":"text","text":"[[Baruch Spinoza]]\n"},
+		{"id":"761ec917941d0cac","x":-260,"y":-200,"width":250,"height":60,"type":"text","text":"Form "},
+		{"id":"577d5d4a25e98564","x":51,"y":-170,"width":250,"height":60,"type":"text","text":"Digital Logic"},
+		{"id":"e04c01b062be837b","x":-564,"y":-200,"width":250,"height":60,"type":"text","text":"modes"},
+		{"id":"307eefbcf74e57ed","x":51,"y":-278,"width":400,"height":78,"type":"file","file":"Randomness - 随机与偶然性.md"},
+		{"id":"f9cb6ddd156d108b","x":-260,"y":-660,"width":500,"height":300,"type":"text","text":"用 IO 作为数字行为术语.\n将digital objects(数字对象)的的运作组成, 分解为Input, Form, Output是开发者将数字仿生学(Biological)是一门通过参考自然界的设计和过程的理解方式.\neg. 生物感官理解为传感器的 Input, 生物的意识与行为逻辑理解为系统中的函数, 生物从感官获得信号所做出的的反应理解为Output.\n我认为, I/O 是一种有效的开发模式, 开发者通过仿生学(Biological)的理解, 从自然获得创作指导, 确保数字对象拥有良好的交互方式; 让数字物获得生命般的价值。"}
+	],
+	"edges":[
+		{"id":"dca839a1ec8b08ec","fromNode":"761ec917941d0cac","fromSide":"right","toNode":"577d5d4a25e98564","toSide":"left"},
+		{"id":"beadf58d91dc3fd8","fromNode":"761ec917941d0cac","fromSide":"right","toNode":"307eefbcf74e57ed","toSide":"left"}
+	]
+}

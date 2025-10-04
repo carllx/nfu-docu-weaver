@@ -1,0 +1,392 @@
+﻿1
+00:00:00,081 --> 00:00:01,400
+- [Narrator] The tail motion is
+
+2
+00:00:01,400 --> 00:00:03,576
+almost exclusively follow through.
+
+3
+00:00:03,576 --> 00:00:06,470
+It is supporting the ax made by the body
+
+4
+00:00:06,470 --> 00:00:09,950
+of the character when it's
+jumping and moving forward.
+
+5
+00:00:09,950 --> 00:00:12,480
+On such a character, the tail is used
+
+6
+00:00:12,480 --> 00:00:14,356
+to balance the motion.
+
+7
+00:00:14,356 --> 00:00:16,083
+As explained in the previous video,
+
+8
+00:00:16,083 --> 00:00:20,830
+if I want to show that my
+character is balanced and agile,
+
+9
+00:00:20,830 --> 00:00:23,800
+I won't make the tail wobbling around.
+
+10
+00:00:23,800 --> 00:00:28,220
+But I'd rather try to make
+it having a smooth movement.
+
+11
+00:00:28,220 --> 00:00:31,540
+So as usual, I'm starting
+with the X rotation
+
+12
+00:00:31,540 --> 00:00:35,060
+because it's the most
+influential transform channel
+
+13
+00:00:35,060 --> 00:00:36,810
+on the motion of the tail.
+
+14
+00:00:36,810 --> 00:00:40,091
+As the tail is using
+forward kinematic mechanism,
+
+15
+00:00:40,091 --> 00:00:43,300
+it's better to start polishing the base
+
+16
+00:00:43,300 --> 00:00:45,400
+of the tail or the root of the tail,
+
+17
+00:00:45,400 --> 00:00:48,790
+and then go along until
+the tip of the tail.
+
+18
+00:00:48,790 --> 00:00:52,261
+So I've been mainly
+smoothing the rotation curve,
+
+19
+00:00:52,261 --> 00:00:56,300
+and we have a bigger gap
+whenever our character
+
+20
+00:00:56,300 --> 00:00:57,747
+is hitting the ground.
+
+21
+00:00:57,747 --> 00:01:00,380
+Protect pose occur on frame 11,
+
+22
+00:01:00,380 --> 00:01:04,040
+and the rotation of the tail
+is offset by one or two frames.
+
+23
+00:01:04,040 --> 00:01:05,130
+During the blocking,
+
+24
+00:01:05,130 --> 00:01:08,730
+I've also input a slight location change
+
+25
+00:01:08,730 --> 00:01:11,690
+in the tail to support the
+shape and the silhouette
+
+26
+00:01:11,690 --> 00:01:12,970
+of the character.
+
+27
+00:01:12,970 --> 00:01:15,110
+I'm just editing a bit the curve so
+
+28
+00:01:15,110 --> 00:01:18,690
+that it transitions mostly
+from one key to the other.
+
+29
+00:01:18,690 --> 00:01:21,340
+So I'm mostly doing this
+to avoid any glitches
+
+30
+00:01:21,340 --> 00:01:22,330
+in the animation.
+
+31
+00:01:22,330 --> 00:01:24,540
+The Z rotation curve allow us
+
+32
+00:01:24,540 --> 00:01:26,894
+to swing the tail from left to right.
+
+33
+00:01:26,894 --> 00:01:29,850
+And this is typically the kind of motion
+
+34
+00:01:29,850 --> 00:01:33,920
+that will translate the lack
+of balance from your character.
+
+35
+00:01:33,920 --> 00:01:36,340
+If you're walking on a thin line
+
+36
+00:01:36,340 --> 00:01:38,118
+and you try to keep your balance,
+
+37
+00:01:38,118 --> 00:01:41,236
+you will spread your arms on each side.
+
+38
+00:01:41,236 --> 00:01:44,860
+So that you could use
+them as a counter weight.
+
+39
+00:01:44,860 --> 00:01:47,730
+And the more your body
+will move left to right
+
+40
+00:01:47,730 --> 00:01:49,008
+when you are moving forward,
+
+41
+00:01:49,008 --> 00:01:52,950
+the more you will translate
+this lack of balance.
+
+42
+00:01:52,950 --> 00:01:55,867
+When put a very subtle
+left to right motion just
+
+43
+00:01:55,867 --> 00:01:58,880
+to support the line of the body.
+
+44
+00:01:58,880 --> 00:02:01,352
+This will support the line of action,
+
+45
+00:02:01,352 --> 00:02:04,310
+and the realism of our character.
+
+46
+00:02:04,310 --> 00:02:06,630
+We will have a more in depth discussion
+
+47
+00:02:06,630 --> 00:02:09,561
+about the line of action
+later on in this course.
+
+48
+00:02:09,561 --> 00:02:11,280
+But you should understand
+
+49
+00:02:11,280 --> 00:02:16,280
+that this slight tilt brings
+some kind of randomness
+
+50
+00:02:16,340 --> 00:02:19,698
+or make the character a little more uneven
+
+51
+00:02:19,698 --> 00:02:22,810
+and make it this way more realistic.
+
+52
+00:02:22,810 --> 00:02:25,860
+Don't forget on your cycle
+to make sure that the first
+
+53
+00:02:25,860 --> 00:02:27,780
+and last key frame are the same
+
+54
+00:02:27,780 --> 00:02:30,730
+and that their vector are
+aligned with the curve
+
+55
+00:02:30,730 --> 00:02:32,640
+to get a smooth transition.
+
+56
+00:02:32,640 --> 00:02:35,131
+Now we can jump onto
+the second controller.
+
+57
+00:02:35,131 --> 00:02:40,130
+And what I will do is that I
+will re input the root motion
+
+58
+00:02:40,130 --> 00:02:41,061
+to my character
+
+59
+00:02:41,061 --> 00:02:44,910
+and calculate the motion
+pass to see how it goes.
+
+60
+00:02:44,910 --> 00:02:47,670
+I don't want to repeat
+the mistakes I've made
+
+61
+00:02:47,670 --> 00:02:51,240
+in the previous video where
+I've checked the motion
+
+62
+00:02:51,240 --> 00:02:55,140
+of my character with the root
+motion on a bit too late,
+
+63
+00:02:55,140 --> 00:02:57,330
+and I had to fix a lot of things.
+
+64
+00:02:57,330 --> 00:03:00,800
+As for the root of the tail
+around the impact frame,
+
+65
+00:03:00,800 --> 00:03:04,480
+we will have some kind of
+big change in the curve.
+
+66
+00:03:04,480 --> 00:03:08,630
+And then it will be mostly
+smoothing out the shape
+
+67
+00:03:08,630 --> 00:03:12,660
+of the tail so that it
+follow the flow of the body
+
+68
+00:03:12,660 --> 00:03:15,180
+or the motion of the body in space.
+
+69
+00:03:15,180 --> 00:03:18,400
+Think of it as a train or as a ribbon.
+
+70
+00:03:18,400 --> 00:03:22,320
+As the root of the ribbon is
+throwing shape in the air,
+
+71
+00:03:22,320 --> 00:03:26,090
+the rest of it is following
+in the same motion.
+
+72
+00:03:26,090 --> 00:03:26,923
+The same flow,
+
+73
+00:03:26,923 --> 00:03:28,060
+the same arc,
+
+74
+00:03:28,060 --> 00:03:29,300
+the same path.
+
+75
+00:03:29,300 --> 00:03:31,930
+This way you are really
+supporting the motion
+
+76
+00:03:31,930 --> 00:03:33,730
+of your character in space.
+
+77
+00:03:33,730 --> 00:03:37,400
+And it give more freedity, more smoothness
+
+78
+00:03:37,400 --> 00:03:39,040
+to the jumping motion.
+
+79
+00:03:39,040 --> 00:03:41,900
+This kind of fall through
+animation is pretty easy
+
+80
+00:03:41,900 --> 00:03:45,860
+to set up on such a cycle animation,
+
+81
+00:03:45,860 --> 00:03:48,330
+and on such a smooth animation.
+
+82
+00:03:48,330 --> 00:03:50,550
+But it's kind of more complicated
+
+83
+00:03:50,550 --> 00:03:53,530
+as soon as you get a more snappy animation
+
+84
+00:03:53,530 --> 00:03:56,980
+or a lot of big variation into the motion.
+
+85
+00:03:56,980 --> 00:03:58,700
+On same note with this joint,
+
+86
+00:03:58,700 --> 00:04:00,470
+I will jump on the last one.
+
+87
+00:04:00,470 --> 00:04:02,910
+So this is all I have for this video,
+
+88
+00:04:02,910 --> 00:04:05,055
+and I will see you in the next one.
+
+89
+00:04:05,055 --> 00:04:07,472
+(soft music)
+

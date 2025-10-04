@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "\n\n#!\/bin\/zsh\n\n# Get the clipboard contents as the directory path\n# Create the render directory if it doesn't exist\n# Loop through all files in the directory\n\n  # Check if it's an mp4 file\n    # Get the basename\n    # Convert the mp4\n    # Copy original creation time\ndirPath=\"{cilpboard}\"\n\n\nrenderDir=\"$dirPath\/render\"\n    \nmkdir -p \"$renderDir\"\n\n\nfor file in \"$dirPath\/\"* ; do\n  if [[ $file =~ \\.mp4$ ]]; then\n    fileName=$(basename \"$file\")\n    fileName=\"${fileName%.*}\"\n    ffmpeg -i \"$file\" -c copy \"$renderDir\/$fileName-opt.mp4\"\n    touch -r \"$file\" \"$renderDir\/$fileName-opt.mp4\"\n\n  fi\n\ndone",
+    "uid" : "E4D99520-5A1F-4B61-9CC4-BEE839A7BC07",
+    "name" : "Batch Opt to Mp4",
+    "keyword" : "batchmp4"
+  }
+}

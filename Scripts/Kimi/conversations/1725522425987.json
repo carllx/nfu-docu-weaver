@@ -1,0 +1,26 @@
+{
+    "conversation_id": "crcm41pldu5mr1b1ni80",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Changing the world with AR | Unity for Humanity",
+            "fileID": "crcltss5r38va3n0fkl0",
+            "itemID": 4000,
+            "citation": "Unity (Director). (2021, November 4). Changing the world with AR | Unity for Humanity [Video recording]. https://www.youtube.com/watch?v=CrG8GkeFCog\n",
+            "citationShort": "Unity, 2021",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Changing the world with AR | Unity for Humanity, was published on 2021. (It can be cite this paper as Unity, 2021 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 前言\n- 引言\n  - 增强现实（AR）技术概述\n  - Unity在AR领域的作用\n\n## 第一章：Unity与增强现实技术\n1. Unity在AR领域的应用\n   - 社会变革\n   - 教育\n   - 环境保护\n2. AR技术的社会影响\n   - 教育与意识提升\n   - 环境倡导\n\n## 第二章：AR技术的教育与社会价值\n1. 通过AR技术促进教育\n   - 互动故事书\n   - 多元文化代表\n2. AR技术在社会价值教育中的应用\n   - 同理心与社会技能\n   - 接受多样性的重要性\n\n## 第三章：Unity的AR Foundation\n1. AR Foundation简介\n   - 跨平台AR开发\n   - 设备兼容性\n2. AR Foundation的功能\n   - 人物遮挡\n   - 身体追踪\n   - 协作会话\n\n## 第四章：创建你的首个AR应用\n1. Unity Hub与Unity Editor的安装\n2. 构建模块的设置\n   - Android与iOS支持\n3. AR功能包的安装\n   - AR Foundation\n   - AR Core与ARKit\n4. 创建AR会话与原点\n5. 导入3D模型\n   - 模型缩放与定位\n\n## 第五章：为Android和iOS构建应用\n1. Android应用构建\n   - 项目设置\n   - 插件启用\n   - 构建与部署\n2. iOS应用构建\n   - Mac与Xcode要求\n   - 构建设置调整\n   - 设备信任与部署\n\n## 第六章：使用Unity创建简单的AR应用\n1. 图像标记与模型生成\n   - AR跟踪图像管理器\n   - 图像库的创建\n2. 模型与标记的关联\n   - 预制体的生成\n   - 模型在标记上的定位\n\n## 第七章：Unity Mars与智能AR应用开发\n1. Unity Mars介绍\n   - 工具与工作流程\n   - 模拟视图\n2. 开发复杂AR应用的挑战\n   - 功能构建的时间成本\n   - 测试的物理空间限制\n3. Unity Mars的优势\n   - 虚拟环境测试\n   - 大规模环境的模拟\n\n## 结语\n- Unity在AR领域的未来展望\n- 鼓励开发者加入AR开发社区\n\n## 附录\n- 参考文献\n  - Unity, 2021\n- 术语表\n- 进一步学习资源\n  - Unity Learn平台\n  - 社区论坛与教程\n\n以上大纲目录根据提供的材料内容，按照逻辑结构和层次关系进行了组织，确保了结构的清晰性和易读性。",
+    "refs": [
+        "crcltss5r38va3n0fkl0"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "crcm423dqn3asj06mo4g",
+    "req_id": "crcm423dqn3asj06mo50",
+    "resp_id": "crcm423dqn3asj06mo5g",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

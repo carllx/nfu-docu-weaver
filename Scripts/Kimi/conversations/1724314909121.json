@@ -1,0 +1,31 @@
+{
+    "conversation_id": "cr3facaesepvr09ptmng",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Making a Metaverse That Matters: From Snow Crash & Second Life to A Virtual World Worth Fighting For",
+            "fileID": "cr3f9k21jcjksj1rgv1g",
+            "itemID": 3860,
+            "citation": "Au, W. J. (2023). Making a Metaverse That Matters: From Snow Crash & Second Life to A Virtual World Worth Fighting For. John Wiley & Sons.\n",
+            "citationShort": "Au, 2023",
+            "tags": [
+                "#kimi",
+                "Business & Economics / E-Commerce / Digital Marketing",
+                "Business & Economics / Industries / Computers & Information Technology",
+                "Computers / Computer Science",
+                "Computers / Internet / General",
+                "Computers / Social Aspects"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Making a Metaverse That Matters: From Snow Crash & Second Life to A Virtual World Worth Fighting For, was published on 2023. (It can be cite this paper as Au, 2023 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## 第一部分：构想（Part I: Conception）\n### 第1章：速成课——一个复杂概念的简单历史（Chapter 1: Crash Course—A Simple History of a Complex Idea）\n- 雪崩后的元宇宙创造\n- 从源头重申元宇宙的定义\n\n### 第2章：第二人生和第一个元宇宙平台的谜团（Chapter 2: Second Life and the Mystery of the First Metaverse Platform）\n- 第一部分：兴衰\n  - 燃烧的元宇宙\n  - 游戏之外\n  - 元宇宙化\n  - 新兴文化与崛起的创作者\n  - 无法保留用户\n  - 开放与关闭\n  - 林登的“道”与第二人生的解构\n- 第二部分：事后分析\n  - 结束游戏\n  - 名字的意义\n  - 选择你自己的惯性\n- 第三部分：第二人生永恒\n\n## 第二部分：实现（Part II: Realization）\n### 第3章：儿童用品：Minecraft和Roblox的崛起（Chapter 3: Kid Stuff: Minecraft, and the Rise of Roblox）\n- Minecraft、元宇宙一代和元宇宙电视的兴起\n- 积木化身如何鼓励创造力\n- 年轻牙买加女性艺术家的肖像\n- 元宇宙中儿童的问题\n- 在Roblox中开始\n\n### 第4章：堡垒之夜的元宇宙之战（Chapter 4: Battle Royale for the Fortnite Metaverse）\n- 联盟内部\n- 在创作者社区中启动联盟\n- 堡垒之夜创意作为元宇宙平台的限制\n- 给品牌的建议\n- 给创作者——尤其是女性——的建议\n\n### 第5章：Neal Stephenson进入元宇宙——Lamina1、区块链和所有权的乌托邦（Chapter 5: Neal Stephenson Enters the Metaverse—Lamina1, Blockchain, and the Utopia of Ownership）\n- 想象元宇宙即服务\n- 用元宇宙创造者重新定义元宇宙\n- 加密空间的简史\n- Lamina1的价值理论\n- 一个文学弧线到Lamina1\n\n### 第6章：VRChat和寻找毛茸茸的动漫乌托邦（Chapter 6: VRChat and Finding Furry Anime Utopia）\n- 屈服\n- 信任游戏\n- 社区创造社区\n- 社区无尽创造\n- EAC和元宇宙社区管理的讽刺挑战\n- VRChat吞噬互联网\n- 市场的诱惑和VRChat的未来\n- 开始\n\n## 第三部分：承诺与危险（Part III: Promises and Perils）\n### 第7章：VR、互操作性、Web3和其他元宇宙神话（Chapter 7: VR, Interoperability, Web3, and Other Metaverse Myths）\n- 神话：VR对元宇宙至关重要\n- 神话：元宇宙必须包含增强现实\n- 神话：Web3是元宇宙的一部分（或反之亦然）\n- 神话：逼真的人类化身和世界图形是元宇宙的最终目标\n- 神话：元宇宙必须在互联网上互操作\n- 神话：元宇宙适合所有人\n- 神话：只存在一个元宇宙\n\n### 第8章：性、滥用和永恒的内容审核挑战（Chapter 8: Sex, Abuse, and the Eternal Content Moderation Challenge）\n- 元宇宙永恒问题：性、捣乱和骚扰以及未成年用户\n- 虚拟性爱和不可避免的TTP问题\n- 捣乱和骚扰\n- 儿童\n- 构建更好的审核元宇宙\n- 保护儿童\n- 允许虚拟性爱但禁止在公共空间——包括虚拟世界之外\n\n## 第四部分：值得为之奋斗的元宇宙（Part IV: A Metaverse Worth Fighting For）\n### 第9章：元宇宙实际用例——区分实质与炒作（Chapter 9: Metaverse Real-World Use Cases—Separating Substance from Hype）\n- 理解真正的元宇宙用例：清单\n- 避免不可扩展的轶事的诱惑\n- 避免仅在孤立情况下引人注目的用例\n- 小心自我反驳的福音主义\n- 区分元宇宙邻近和元宇宙本身应用\n- 承认并解决盈利用例的限制\n\n### 第10章：克服元宇宙年龄悬崖和沉浸漏斗（Chapter 10: Overcoming the Metaverse Age Cliff and the Immersion Funnel）\n- 老化\n- 沉浸漏斗内\n- 扩大漏斗\n- 搭建年龄悬崖的桥梁\n- 与Jenova Chen一起跨越年龄悬崖\n- 元宇宙市场份额和新的状态\n\n### 第11章：未来路径（Chapter 11: Future Paths）\n- Jenova Chen和元宇宙主题公园\n- 跨代连接\n- AI和元宇宙\n- 在我们的手中流式传输元宇宙\n- 寻找一个前倾的元宇宙\n\n### 第12章：未来的陷阱——操纵、取缔和体验机器（Chapter 12: Future Pitfalls—Manipulation, Takedowns, and the Experience Machine）\n- 未受监管的元宇宙的危险\n- 通过化身操纵用户\n- 操纵用户数据和新的格拉斯-斯蒂格尔法案\n- 企业侵犯用户创造力\n- 面对体验机器\n\n### 第13章：为未来30年的元宇宙课程（Chapter 13: Metaverse Lessons for the Next 30 Years）\n- 社区创造价值——而不是相反\n- 可访问性不是可选的；它是基本的\n- 首先是游戏\n- 协作，内部创作仍然是黄金标准\n- 时间转移和社交媒体对元宇宙至关重要\n- 化身塑造文化\n- 社区和公司必须共同成长\n\n## 后记（Afterword）\n- 虚拟世界中本书平台和人物的现状\n\n## 术语表（Glossary）\n\n## 附录A：化身激进分子和改革者规则（Appendix A: Rules for Avatar Radicals and Reformers）\n\n## 附录B：给元宇宙记者的建议（Appendix B: Advice for Metaverse Reporters）\n\n## 致谢（Acknowledgments）\n\n## 关于作者（About the Author）\n\n## 索引（Index）",
+    "refs": [
+        "cr3f9k21jcjksj1rgv1g"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "cr3facb3vddu5mtntvo0",
+    "req_id": "cr3facb3vddu5mtntvog",
+    "resp_id": "cr3facb3vddu5mtntvp0",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

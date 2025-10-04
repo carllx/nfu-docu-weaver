@@ -1,0 +1,2 @@
+Since the frequency band of human brain waves, such as “a wave” and “b wave”, fluctuates depending on the activity state, the purpose is to use them for controlling CG characters and robots by reading them 
+由于“a波”和“b波”等人类脑电波的频带会根据活动状态而波动，因此目的是通过读取它们来控制CG角色和机器人

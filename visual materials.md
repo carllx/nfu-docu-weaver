@@ -1,0 +1,2 @@
+visual materials (视觉材料) -- Visual resources include **photographs, film, video, paintings, drawings, cartoons, prints, designs, and three-dimensional art such as sculpture and architecture** and can be categorized as fine art or documentary record
+-- Visual Materials - Primary Sources - Research Guides at New York University [nyu](https://guides.nyu.edu/primary/primary-sources/visual-materials)

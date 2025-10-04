@@ -1,0 +1,1 @@
+SSIM（Structural Similarity Index）：结构相似性（SSIM） 是一种常用的图像失真度度量方法，可以用来测量压缩后图像与原始图像之间的差异。SSIM值越接近1，图像质量越高。

@@ -1,0 +1,1112 @@
+﻿1
+00:00:01,020 --> 00:00:03,292
+- [Pierre] In this video,
+we are going to create
+
+2
+00:00:03,292 --> 00:00:06,410
+the artillery shot animation.
+
+3
+00:00:06,410 --> 00:00:10,130
+Again, we will rely a lot
+on the space switching
+
+4
+00:00:10,130 --> 00:00:11,480
+to achieve it.
+
+5
+00:00:11,480 --> 00:00:15,600
+We can start from our cling
+action and duplicate it.
+
+6
+00:00:15,600 --> 00:00:17,608
+The idea is to have our robot standing
+
+7
+00:00:17,608 --> 00:00:21,290
+with its two feet planted in the ground.
+
+8
+00:00:21,290 --> 00:00:22,510
+I've renamed the action
+
+9
+00:00:22,510 --> 00:00:24,518
+and I will click the little shield icon
+
+10
+00:00:24,518 --> 00:00:27,520
+to make sure that I
+won't lose the animation.
+
+11
+00:00:27,520 --> 00:00:30,709
+Since the rotation range of
+the cannon is a bit limited,
+
+12
+00:00:30,709 --> 00:00:33,940
+I will also select the
+head of the character
+
+13
+00:00:33,940 --> 00:00:36,000
+and slightly rotate it back.
+
+14
+00:00:36,000 --> 00:00:38,755
+The process is the same
+as for the walk cycle.
+
+15
+00:00:38,755 --> 00:00:41,199
+I will first create a base motion
+
+16
+00:00:41,199 --> 00:00:45,730
+and then we will propagate
+each using space switching.
+
+17
+00:00:45,730 --> 00:00:47,780
+The shot is a very fast action,
+
+18
+00:00:47,780 --> 00:00:49,860
+so I will jump on frame four
+
+19
+00:00:49,860 --> 00:00:53,470
+and I will pull back the recoil control.
+
+20
+00:00:53,470 --> 00:00:55,940
+What I noticed while playing the animation
+
+21
+00:00:55,940 --> 00:00:57,520
+is that it was repeating,
+
+22
+00:00:57,520 --> 00:01:00,540
+there is probably a cycling quantifier.
+
+23
+00:01:00,540 --> 00:01:03,840
+So I will select all the
+keys of all the controllers
+
+24
+00:01:03,840 --> 00:01:06,910
+and press shift E and clear cyclic.
+
+25
+00:01:06,910 --> 00:01:07,743
+From there.
+
+26
+00:01:07,743 --> 00:01:11,350
+I will directly jump into the
+graph editor and I we'll work
+
+27
+00:01:11,350 --> 00:01:14,500
+on the curve of the record controller.
+
+28
+00:01:14,500 --> 00:01:17,550
+Since it's kind of an instant motion
+
+29
+00:01:17,550 --> 00:01:21,480
+I will select the first
+key frame of the recalling
+
+30
+00:01:21,480 --> 00:01:24,920
+controller and convert it to vector.
+
+31
+00:01:24,920 --> 00:01:27,540
+The idea is that the
+controller is pushed back
+
+32
+00:01:27,540 --> 00:01:28,560
+at full speed
+
+33
+00:01:28,560 --> 00:01:31,950
+right at the beginning,
+the moment where we shoot
+
+34
+00:01:31,950 --> 00:01:34,020
+With the artillery, it gets
+
+35
+00:01:34,020 --> 00:01:36,897
+Very fast to its extreme on frame four.
+
+36
+00:01:36,897 --> 00:01:41,690
+And then I will duplicate the
+very first frame onto frame 10
+
+37
+00:01:41,690 --> 00:01:46,000
+so that the controller gets
+back into its position.
+
+38
+00:01:46,000 --> 00:01:48,980
+Then I played the
+animation a couple of time
+
+39
+00:01:48,980 --> 00:01:50,440
+and tweaked the curve.
+
+40
+00:01:50,440 --> 00:01:53,880
+In the end, I set the extreme on frame two
+
+41
+00:01:53,880 --> 00:01:57,880
+and reset the position of
+the controller on frame seven
+
+42
+00:01:57,880 --> 00:02:01,380
+Played the animation a
+couple of more time, and then
+
+43
+00:02:01,380 --> 00:02:05,080
+decided it was better
+to sit in final position
+
+44
+00:02:05,080 --> 00:02:06,320
+on frame nine.
+
+45
+00:02:06,320 --> 00:02:09,360
+So we have the base motion of the Canon.
+
+46
+00:02:09,360 --> 00:02:13,960
+Now we need to move the root
+of the torso of the robot to
+
+47
+00:02:13,960 --> 00:02:15,580
+keep the exercise simple.
+
+48
+00:02:15,580 --> 00:02:18,344
+I will just walk on the Y axis.
+
+49
+00:02:18,344 --> 00:02:21,670
+We've my torso root controller selected.
+
+50
+00:02:21,670 --> 00:02:25,770
+I will directly jump into
+the graph editor and hide
+
+51
+00:02:25,770 --> 00:02:29,210
+everything but the Y location axis,
+
+52
+00:02:29,210 --> 00:02:31,040
+since the recall controller,
+
+53
+00:02:31,040 --> 00:02:34,913
+or Canon controller reach
+it's extreme on frame two
+
+54
+00:02:34,913 --> 00:02:38,870
+I will take the very first
+frame of the route controller
+
+55
+00:02:38,870 --> 00:02:41,049
+and duplicate it on frame two.
+
+56
+00:02:41,049 --> 00:02:43,040
+The ideas that the record
+
+57
+00:02:43,040 --> 00:02:48,040
+motion start when the Canon is
+pushing the whole body back.
+
+58
+00:02:48,740 --> 00:02:51,700
+Now we can add a key frame on frame 10
+
+59
+00:02:51,700 --> 00:02:55,880
+and move the curve up so
+that our character torso
+
+60
+00:02:55,880 --> 00:02:57,380
+is moving back.
+
+61
+00:02:57,380 --> 00:03:00,140
+Then I will reset the pose of
+
+62
+00:03:00,140 --> 00:03:03,060
+The character around frame 23.
+
+63
+00:03:03,060 --> 00:03:05,400
+Again, this is a creative process.
+
+64
+00:03:05,400 --> 00:03:08,440
+If you want, you can use other values.
+
+65
+00:03:08,440 --> 00:03:11,800
+I'm here to teach you in
+the method, not all to
+
+66
+00:03:11,800 --> 00:03:14,430
+make this specific animation.
+
+67
+00:03:14,430 --> 00:03:17,840
+I will create a more
+easing on the back position
+
+68
+00:03:17,840 --> 00:03:19,360
+by scaling the curve.
+
+69
+00:03:19,360 --> 00:03:24,120
+And I will make the first angle
+to be vector because again
+
+70
+00:03:24,120 --> 00:03:29,050
+I don't want any easing into
+the recoil, the recoil start
+
+71
+00:03:29,050 --> 00:03:30,160
+at full speed.
+
+72
+00:03:30,160 --> 00:03:35,160
+Then it eases into frame
+10, and it finally gets back
+
+73
+00:03:35,270 --> 00:03:37,860
+with easing onto frame 23.
+
+74
+00:03:37,860 --> 00:03:41,630
+As I watch the motion, I feel
+like the robot is a bit out
+
+75
+00:03:41,630 --> 00:03:43,990
+of balance, so I will
+select the whole curve
+
+76
+00:03:43,990 --> 00:03:46,360
+and slightly offset it down.
+
+77
+00:03:46,360 --> 00:03:49,720
+But the character is positioned
+more forward onto his feet.
+
+78
+00:03:49,720 --> 00:03:52,980
+When he's going to shoot,
+it's important to watch out
+
+79
+00:03:52,980 --> 00:03:55,670
+for the center of gravity
+of your character, so
+
+80
+00:03:55,670 --> 00:03:58,200
+that it looks balanced when shooting.
+
+81
+00:03:58,200 --> 00:04:00,830
+And so the shot looks more believable
+
+82
+00:04:03,403 --> 00:04:04,450
+(Wooshing Noises)
+
+83
+00:04:04,450 --> 00:04:08,300
+Before we start animating
+the head of the character,
+
+84
+00:04:08,300 --> 00:04:12,042
+I will just add a very
+slight rotation to the Canon.
+
+85
+00:04:12,042 --> 00:04:15,140
+In the end, we will use
+also space switching to
+
+86
+00:04:15,140 --> 00:04:17,710
+add more emotion to the Canon
+
+87
+00:04:17,710 --> 00:04:20,410
+but the idea is just to have some kind
+
+88
+00:04:20,410 --> 00:04:22,560
+of passive motion or rate.
+
+89
+00:04:22,560 --> 00:04:26,590
+I don't think it's necessary
+though, but it's very fast.
+
+90
+00:04:26,590 --> 00:04:31,275
+It's just one key frame on
+frame four or five, to get a bit
+
+91
+00:04:31,275 --> 00:04:36,260
+of rotation back and switch
+the first handle to vector.
+
+92
+00:04:36,260 --> 00:04:37,971
+Then I will dial the angle
+
+93
+00:04:37,971 --> 00:04:41,810
+by reducing the amplitude
+of the curve and we are done
+
+94
+00:04:41,810 --> 00:04:44,520
+and we can jump onto the head controller.
+
+95
+00:04:44,520 --> 00:04:47,410
+In this video, we are
+going to repeat a lot
+
+96
+00:04:47,410 --> 00:04:50,598
+of thing we have done
+during the walk cycle
+
+97
+00:04:50,598 --> 00:04:52,920
+meaning that we will use a lot
+
+98
+00:04:52,920 --> 00:04:56,900
+of copy location and a lot of end space.
+
+99
+00:04:56,900 --> 00:04:58,630
+The only things that will change is
+
+100
+00:04:58,630 --> 00:05:02,000
+all we offset the curve in time.
+
+101
+00:05:02,000 --> 00:05:04,387
+Instead of creating a delay
+
+102
+00:05:04,387 --> 00:05:07,180
+we will make the curve move back
+
+103
+00:05:07,180 --> 00:05:09,780
+in time so that the head motion
+
+104
+00:05:09,780 --> 00:05:13,430
+occurs before the bud in motion, this way
+
+105
+00:05:13,430 --> 00:05:18,370
+we will fake the fact that
+the motion is led by the head.
+
+106
+00:05:18,370 --> 00:05:20,790
+First let's work with the location of yet.
+
+107
+00:05:20,790 --> 00:05:23,040
+I've added an empty, I will make sure
+
+108
+00:05:23,040 --> 00:05:27,330
+that it's displayed in
+front and on the armature
+
+109
+00:05:27,330 --> 00:05:31,040
+in the armature viewpoint
+display, I will enable names
+
+110
+00:05:31,040 --> 00:05:35,850
+and axis it will just help us
+identifying the bone with ease
+
+111
+00:05:35,850 --> 00:05:39,370
+Back on my empty, I
+will add a copy location
+
+112
+00:05:39,370 --> 00:05:44,130
+as usual source our armature,
+and then the head controller.
+
+113
+00:05:44,130 --> 00:05:45,610
+I will bake the action
+
+114
+00:05:45,610 --> 00:05:50,180
+For this specific animation,
+I've used 30 frames on it.
+
+115
+00:05:50,180 --> 00:05:53,220
+Then get rid of the user's
+curve, If you want a gain.
+
+116
+00:05:53,220 --> 00:05:54,890
+It doesn't matter.
+
+117
+00:05:54,890 --> 00:05:57,680
+DMT is following the add motion.
+
+118
+00:05:57,680 --> 00:06:00,210
+Let's now reverse the constraint
+
+119
+00:06:00,210 --> 00:06:02,980
+go to the head bone inputs mode
+
+120
+00:06:02,980 --> 00:06:07,690
+add to it a copy location,
+constraint and source the empty.
+
+121
+00:06:07,690 --> 00:06:10,800
+We can now get back to
+the empty and instead
+
+122
+00:06:10,800 --> 00:06:15,090
+of offsetting the curve to
+the right filtering time
+
+123
+00:06:15,090 --> 00:06:17,770
+we'll offset to the left back in time.
+
+124
+00:06:17,770 --> 00:06:21,230
+And now the head moves before the torso.
+
+125
+00:06:21,230 --> 00:06:23,960
+I will offset it back by one key frame.
+
+126
+00:06:23,960 --> 00:06:28,090
+So is that there is a bit
+of delay between the shot
+
+127
+00:06:28,090 --> 00:06:32,390
+and the head motion, but
+the head motions still occur
+
+128
+00:06:32,390 --> 00:06:36,960
+before the torso root motion,
+as I'm happy with the result
+
+129
+00:06:36,960 --> 00:06:40,090
+I will bake the action
+onto the head, boom.
+
+130
+00:06:40,090 --> 00:06:42,953
+And now we can work on the head rotation
+
+131
+00:06:42,953 --> 00:06:45,810
+since the Canon is a child of the head
+
+132
+00:06:45,810 --> 00:06:49,510
+whenever the head will rotate,
+the cannon will rotate too.
+
+133
+00:06:49,510 --> 00:06:51,260
+And I don't really want that
+
+134
+00:06:51,260 --> 00:06:54,730
+because the Canon was supposed
+to lead the animation.
+
+135
+00:06:54,730 --> 00:06:59,290
+So what I will do is that I
+will create an aim constraint
+
+136
+00:06:59,290 --> 00:07:01,870
+or tracking constraint for the gun
+
+137
+00:07:01,870 --> 00:07:06,200
+and we will keep this constraint
+to the end of the animation
+
+138
+00:07:06,200 --> 00:07:10,270
+so that the gun will always
+be pointing at the same target
+
+139
+00:07:10,270 --> 00:07:13,890
+while we are working on the
+different part of the robot.
+
+140
+00:07:13,890 --> 00:07:15,710
+So you should know the process now
+
+141
+00:07:15,710 --> 00:07:19,901
+but I will repeat it either way
+first, add a copy, transform
+
+142
+00:07:19,901 --> 00:07:23,160
+to the empty, then press control-A
+
+143
+00:07:23,160 --> 00:07:25,690
+and apply the visual transform.
+
+144
+00:07:25,690 --> 00:07:28,460
+From there, We can get treated of the copy
+
+145
+00:07:28,460 --> 00:07:33,460
+transform constraint and move
+the empty on its local Y axis.
+
+146
+00:07:34,310 --> 00:07:39,150
+Then we need to make it a
+child of the artillery pivot
+
+147
+00:07:39,150 --> 00:07:42,690
+so that it will follow its current motion.
+
+148
+00:07:42,690 --> 00:07:44,440
+So I will select it.
+
+149
+00:07:44,440 --> 00:07:48,480
+Use a child of constraint,
+source the armature
+
+150
+00:07:48,480 --> 00:07:51,830
+and then the Archer re-pivot controller.
+
+151
+00:07:51,830 --> 00:07:55,080
+We will click setting verse
+to reset it's position
+
+152
+00:07:55,080 --> 00:07:57,140
+and bake it's action.
+
+153
+00:07:57,140 --> 00:08:01,610
+Now I will select the
+artillery pivot controller
+
+154
+00:08:01,610 --> 00:08:05,800
+and I will add to it a
+locked truck constraint
+
+155
+00:08:05,800 --> 00:08:08,320
+targeting the empty.
+
+156
+00:08:08,320 --> 00:08:09,630
+The gun is pointing
+
+157
+00:08:09,630 --> 00:08:12,950
+On it's minus Y axis
+
+158
+00:08:12,950 --> 00:08:16,410
+and rotating around its X axis.
+
+159
+00:08:16,410 --> 00:08:19,740
+As soon as I saw the empty, the gun
+
+160
+00:08:19,740 --> 00:08:23,950
+We'll always aim an empty
+and whatever the motion
+
+161
+00:08:23,950 --> 00:08:27,560
+of the head cannon will point a DMT.
+
+162
+00:08:27,560 --> 00:08:30,310
+We've the limitation of the hydraulics
+
+163
+00:08:30,310 --> 00:08:33,970
+and the rotation angle of its controller.
+
+164
+00:08:33,970 --> 00:08:35,900
+So we can keep this constraint
+
+165
+00:08:35,900 --> 00:08:39,320
+and now work on the rotation of the head.
+
+166
+00:08:39,320 --> 00:08:42,260
+Since this is something
+we have done a lot of time
+
+167
+00:08:42,260 --> 00:08:44,490
+I will slightly speed up the video.
+
+168
+00:08:44,490 --> 00:08:46,430
+I've created a new empty
+
+169
+00:08:46,430 --> 00:08:49,380
+I will add to it, a copy transform.
+
+170
+00:08:49,380 --> 00:08:53,550
+Source the armature then source
+the head controller apply
+
+171
+00:08:53,550 --> 00:08:57,500
+its visual transform and get
+treated of the constraint.
+
+172
+00:08:57,500 --> 00:09:01,610
+But the trick here is that I
+won't be upsetting it forward
+
+173
+00:09:01,610 --> 00:09:06,610
+on the y-axis since we don't
+have any upended motion
+
+174
+00:09:06,860 --> 00:09:09,460
+but I will offset to down.
+
+175
+00:09:09,460 --> 00:09:12,620
+As the body moves back and
+forth, it's better to get
+
+176
+00:09:12,620 --> 00:09:17,620
+to this pendulum motion based
+on the Z axis from there
+
+177
+00:09:18,040 --> 00:09:21,980
+the process will be exactly
+the same as what we did before.
+
+178
+00:09:21,980 --> 00:09:24,020
+During the walk cycle.
+
+179
+00:09:24,020 --> 00:09:25,840
+First, I will add a child
+
+180
+00:09:25,840 --> 00:09:29,730
+of constraint to DMT target the armature.
+
+181
+00:09:29,730 --> 00:09:32,650
+Then you hit controller set inverse.
+
+182
+00:09:32,650 --> 00:09:36,836
+They take the action, then
+select the head controller
+
+183
+00:09:36,836 --> 00:09:41,836
+add a dumped truck, constraint
+and target the empty.
+
+184
+00:09:42,900 --> 00:09:47,180
+But this time I will use the minus Z axis
+
+185
+00:09:47,180 --> 00:09:51,860
+of the head controller
+instead of the minus Y axis.
+
+186
+00:09:51,860 --> 00:09:55,137
+And now I can offset the curve in time.
+
+187
+00:09:55,137 --> 00:09:58,980
+So as usual, you have to
+experiment, try offsetting
+
+188
+00:09:58,980 --> 00:10:01,290
+to the left so that the rotation will
+
+189
+00:10:01,290 --> 00:10:04,148
+occur before the translation of the head
+
+190
+00:10:04,148 --> 00:10:08,450
+or try the other way, offset
+the curves to the right
+
+191
+00:10:08,450 --> 00:10:13,450
+so that the head rotation
+is based on its translation.
+
+192
+00:10:13,450 --> 00:10:16,740
+Plus the position of the target, our empty
+
+193
+00:10:16,740 --> 00:10:21,610
+with variants under or,
+upon the head will kind
+
+194
+00:10:21,610 --> 00:10:26,009
+of change the behavior
+sometimes, delaying the curve.
+
+195
+00:10:26,009 --> 00:10:29,367
+We'll make the head kind of moving
+
+196
+00:10:29,367 --> 00:10:32,520
+before it's current translation.
+
+197
+00:10:32,520 --> 00:10:37,120
+Why if DMT was upon the
+head and we were targeting
+
+198
+00:10:37,120 --> 00:10:41,114
+toward the positive Z
+axis in the constraint
+
+199
+00:10:41,114 --> 00:10:45,210
+offsetting the curve the
+same way we'll kind of
+
+200
+00:10:45,210 --> 00:10:48,250
+reversed the head rotation.
+
+201
+00:10:48,250 --> 00:10:53,250
+So you have to experiment the
+reason, no like golden method
+
+202
+00:10:53,560 --> 00:10:56,130
+try offsetting the curve left to right
+
+203
+00:10:56,130 --> 00:10:59,670
+check out the behavior of the controller.
+
+204
+00:10:59,670 --> 00:11:02,030
+And then just guess all you want to
+
+205
+00:11:02,030 --> 00:11:06,780
+work the final touch here
+was to edit the empty curve
+
+206
+00:11:06,780 --> 00:11:10,307
+to get a slight overshoot
+of the head rotation
+
+207
+00:11:10,307 --> 00:11:13,770
+and this loose motion of the rotation.
+
+208
+00:11:13,770 --> 00:11:17,418
+So I've used the baked curve as a guide.
+
+209
+00:11:17,418 --> 00:11:21,195
+And then I reworked the
+curve by removing most
+
+210
+00:11:21,195 --> 00:11:25,320
+of the key frame and
+smoothing the curve shape
+
+211
+00:11:25,320 --> 00:11:28,350
+as we did during the walk cycle.
+
+212
+00:11:28,350 --> 00:11:30,220
+So as usual, it's a matter
+
+213
+00:11:30,220 --> 00:11:33,100
+of spending time on to your animation
+
+214
+00:11:33,100 --> 00:11:37,080
+but the location motion of
+the head is the snap here.
+
+215
+00:11:37,080 --> 00:11:41,210
+And then since the rotation
+is kind of reacting to this
+
+216
+00:11:41,210 --> 00:11:42,975
+I've made it quite smooth.
+
+217
+00:11:42,975 --> 00:11:44,940
+Now you also want to show
+
+218
+00:11:44,940 --> 00:11:48,810
+that this robot is made to
+shoot with the artillery.
+
+219
+00:11:48,810 --> 00:11:49,980
+So I bring a bit
+
+220
+00:11:49,980 --> 00:11:53,170
+of smoothness to the motion
+showing more control than
+
+221
+00:11:53,170 --> 00:11:55,510
+If it was wobbling all around.
+
+222
+00:11:55,510 --> 00:11:57,680
+From there, I've repeated the process
+
+223
+00:11:57,680 --> 00:12:02,140
+for the body controller, the
+arms, the hips, et cetera
+
+224
+00:12:02,140 --> 00:12:06,840
+this way I've slowly
+propagated the recoil motion
+
+225
+00:12:06,840 --> 00:12:11,360
+from the gunshot on to the
+whole body of the character.
+
+226
+00:12:11,360 --> 00:12:16,360
+The final touch was to add a
+very subtle up and down motion
+
+227
+00:12:16,570 --> 00:12:21,230
+to one of the feet as if
+the robot was pushed back
+
+228
+00:12:21,230 --> 00:12:25,100
+by the recoil and kind of
+losing a bit of balance.
+
+229
+00:12:25,100 --> 00:12:26,830
+I've made this motion only
+
+230
+00:12:26,830 --> 00:12:30,350
+on one foot to break the
+twinning in the animation.
+
+231
+00:12:30,350 --> 00:12:32,370
+and make it look more natural
+
+232
+00:12:32,370 --> 00:12:35,080
+more random in a way to do so.
+
+233
+00:12:35,080 --> 00:12:38,420
+I've just walked a beat
+on the Hill controller
+
+234
+00:12:38,420 --> 00:12:41,630
+and then animated the
+front two in reaction.
+
+235
+00:12:41,630 --> 00:12:43,007
+This is very simple.
+
+236
+00:12:43,007 --> 00:12:46,710
+So I will let you there
+with this animation.
+
+237
+00:12:46,710 --> 00:12:48,440
+And in the next video
+
+238
+00:12:48,440 --> 00:12:53,300
+you will find a slow paced
+time-lapse of the whole process.
+
+239
+00:12:53,300 --> 00:12:55,710
+This is something we have repeated a lot
+
+240
+00:12:55,710 --> 00:12:57,230
+in the previous videos.
+
+241
+00:12:57,230 --> 00:12:59,310
+So if you don't feel comfortable
+
+242
+00:12:59,310 --> 00:13:02,988
+do not hesitate to rewatch
+the work cycle process
+
+243
+00:13:02,988 --> 00:13:06,407
+as we are using exactly the same process.
+
+244
+00:13:06,407 --> 00:13:11,035
+And don't forget to check
+out the axis I'm using
+
+245
+00:13:11,035 --> 00:13:14,580
+depending on the controller, I'm moving
+
+246
+00:13:14,580 --> 00:13:19,020
+for these specific animation
+regarding the body controllers.
+
+247
+00:13:19,020 --> 00:13:23,440
+I was mostly using in space, downward
+
+248
+00:13:23,440 --> 00:13:27,910
+and space downward on the minus Z axis
+
+249
+00:13:27,910 --> 00:13:32,200
+so that I can source the back
+and forth motion of the body.
+

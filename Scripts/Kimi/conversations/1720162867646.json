@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cq3pkd9kqq4lgd474s40",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Unleashing the power of generative artificial intelligence: Exploring its boundless potential and overcoming challenges in academic environments",
+            "fileID": "cq3pfrhrdijfdme3oob0",
+            "itemID": 3099,
+            "citation": "Fegade, A., Raut, R., Deshpande, A., Mittal, A., Kaul, N., & Khanna, V. (2023). Unleashing the power of generative artificial intelligence: Exploring its boundless potential and overcoming challenges in academic environments. 2023 6th International Conference on Contemporary Computing and Informatics (IC3I), 6, 1243–1249. https://ieeexplore.ieee.org/abstract/document/10397917/\n",
+            "citationShort": "Fegade et al., 2023",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：GAI的接受度与信任度的结果都是正向的? 请 举一个例子详细解释这两个变量 在测量任务中怎么使用？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Unleashing the power of generative artificial intelligence: Exploring its boundless potential and overcoming challenges in academic environments, was published on 2023. (It can be cite this paper as Fegade et al., 2023 on your answer). \n\n",
+    "response": "在研究论文《Fegade et al., 2023》中，作者探讨了生成性人工智能（Generative Artificial Intelligence, GAI）在学术环境中的潜力、应用以及所面临的挑战。研究中特别关注了两个关键的间接变量：感知易用性（Perceived Ease of Use, PEOU）和感知信任度（Perceived Trust, PT），以及它们对直接变量——学术环境中生成性人工智能的采纳（Adoption of Generative Artificial Intelligence in Academics, AGAI）的影响。\n\n### 感知易用性（PEOU）与感知信任度（PT）的正向结果\n\n根据研究结果，PEOU和PT对AGAI都具有正向影响。具体来说：\n\n- **感知易用性（PEOU）**：PEOU的均值为3.03，这表明大多数受访者认为GAI需要帮助才能容易使用。随着对GAI的熟悉度提高，预计使用GAI的容易程度将随之提高。\n- **感知信任度（PT）**：PT的均值为3.67，表明大多数受访者对GAI持有信任态度。\n\n研究中通过回归分析验证了以下假设：\n\n- **H1**：PEOU正向影响AGAI的采纳。\n- **H2**：在控制PEOU的情况下，PT对AGAI具有预测能力。\n\n### 测量任务中的使用示例\n\n在测量任务中，研究者设计了一个基于Likert量表的问卷，以评估PEOU和PT对AGAI的影响。以下是这两个变量在测量任务中的使用示例：\n\n1. **感知易用性（PEOU）**：问卷中可能包含诸如“我觉得使用GAI工具非常直观”或“我很容易就能掌握GAI工具的使用”等项目，受访者需要根据他们的体验在Likert量表上做出评分，例如从1（非常不同意）到5（非常同意）。\n\n2. **感知信任度（PT）**：问卷可能包括“我相信GAI工具提供的信息是可靠的”或“我信任GAI工具的输出结果”等项目，同样，受访者需要在Likert量表上进行评分。\n\n通过对这些项目的综合评分，研究者能够量化PEOU和PT对AGAI采纳的影响。例如，如果一个受访者在PEOU相关的项目上给出了较高的评分，这表明他们认为GAI工具易于使用，这可能会正向影响他们采纳GAI的意愿。同样，如果受访者在PT相关的项目上给出了高分，这表明他们对GAI的信任度高，这也可能会促进他们采纳GAI。\n\n通过这种测量方法，研究者能够收集数据并进行统计分析，最终得出PEOU和PT对AGAI采纳具有显著正向影响的结论。这为GAI工具的开发者和教育政策制定者提供了重要的见解，帮助他们了解如何提高GAI在学术环境中的接受度和信任度。",
+    "refs": [
+        "cq3pfrhrdijfdme3oob0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq3pkd9ldu5otl76f3b0",
+    "req_id": "cq3pkd9ldu5otl76f3bg",
+    "resp_id": "cq3pkd9ldu5otl76f3c0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：GAI的接受度与信任度的结果都是正向的? 请 举一个例子详细解释这两个变量 在测量任务中怎么使用？"
+}

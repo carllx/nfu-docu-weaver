@@ -1,0 +1,1 @@
+- we were especially keen to cover those life-forms that do encounter freezing (the ice transition), rather than those that survive at low temperatures per se (as in hibernation and chill tolerance).报道那些确实遇到冰冻（冰转变）的生命[[Forms(形式)]]，而不是那些在低温下生存的生命形式（如冬眠和耐寒）。

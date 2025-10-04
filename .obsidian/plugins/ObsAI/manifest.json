@@ -1,0 +1,10 @@
+{
+  "id": "obsai-research-assistant",
+  "name": "ObsAI Research Assistant",
+  "version": "1.0.3",
+  "minAppVersion": "1.4.16",
+  "description": "AI Research and Writing Assistant for macOS",
+  "author": "YamLam",
+  "isDesktopOnly": false
+}
+

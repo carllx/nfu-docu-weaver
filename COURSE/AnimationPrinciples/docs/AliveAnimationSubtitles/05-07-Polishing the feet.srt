@@ -1,0 +1,1547 @@
+﻿1
+00:00:00,230 --> 00:00:01,110
+- In this video,
+
+2
+00:00:01,110 --> 00:00:03,720
+we will start planning our animation.
+
+3
+00:00:03,720 --> 00:00:07,470
+Starting by polishing the up
+and down of the torso root.
+
+4
+00:00:07,470 --> 00:00:09,570
+And then the feet motion.
+
+5
+00:00:09,570 --> 00:00:13,080
+The first obvious step
+is to go into pause mode
+
+6
+00:00:13,080 --> 00:00:14,150
+into our rig.
+
+7
+00:00:14,150 --> 00:00:15,930
+Select all our keys,
+
+8
+00:00:15,930 --> 00:00:20,030
+press the T key and switch
+to busy interpolation.
+
+9
+00:00:20,030 --> 00:00:22,480
+You can switch between the action editor
+
+10
+00:00:22,480 --> 00:00:25,130
+and the graph editor
+by pressing control tab
+
+11
+00:00:25,130 --> 00:00:28,280
+and we to make sure all
+the curves are exposed
+
+12
+00:00:28,280 --> 00:00:31,130
+by clicking on the show hidden option.
+
+13
+00:00:31,130 --> 00:00:34,050
+You may also press Alt + H to make sure
+
+14
+00:00:34,050 --> 00:00:37,900
+that there is no curves
+that is manually hidden.
+
+15
+00:00:37,900 --> 00:00:38,733
+From there,
+
+16
+00:00:38,733 --> 00:00:41,060
+I will press eight to select all the curve
+
+17
+00:00:41,060 --> 00:00:46,060
+and then press Shift + E
+and choose make cyclic.
+
+18
+00:00:46,320 --> 00:00:49,600
+Now all of our curve get this modifier
+
+19
+00:00:49,600 --> 00:00:53,800
+and our whole animation will
+be cycling in time infinitely.
+
+20
+00:00:53,800 --> 00:00:57,420
+I often start polishing
+my animation with the feet
+
+21
+00:00:57,420 --> 00:01:00,410
+and go back and forth with the torso.
+
+22
+00:01:00,410 --> 00:01:01,360
+In this case,
+
+23
+00:01:01,360 --> 00:01:04,320
+we will start by polishing the Z location
+
+24
+00:01:04,320 --> 00:01:06,030
+of the torsal roots.
+
+25
+00:01:06,030 --> 00:01:09,480
+This is the most important
+channel during a run cycle.
+
+26
+00:01:09,480 --> 00:01:11,210
+The up and down motion.
+
+27
+00:01:11,210 --> 00:01:13,210
+If we know playing our animation,
+
+28
+00:01:13,210 --> 00:01:15,780
+we are no longer in step mode
+
+29
+00:01:15,780 --> 00:01:17,760
+and while there are some glitches,
+
+30
+00:01:17,760 --> 00:01:19,310
+it doesn't look that bad.
+
+31
+00:01:19,310 --> 00:01:21,890
+Here is our current Z curve
+
+32
+00:01:21,890 --> 00:01:24,350
+and here is what we are
+going to do with it.
+
+33
+00:01:24,350 --> 00:01:28,510
+The idea is to bring
+contrast to our up and down
+
+34
+00:01:28,510 --> 00:01:33,220
+or a heavy character you
+will, favorize the down pose
+
+35
+00:01:33,220 --> 00:01:36,600
+for a light energized character like ours,
+
+36
+00:01:36,600 --> 00:01:39,920
+You will favorize the up pose meaning that
+
+37
+00:01:39,920 --> 00:01:43,820
+we will hold our character
+in the air little bit.
+
+38
+00:01:43,820 --> 00:01:46,840
+The idea is to bring
+contrast to the motion.
+
+39
+00:01:46,840 --> 00:01:51,460
+So we will, I have a slight
+plateau in the top position
+
+40
+00:01:51,460 --> 00:01:55,430
+and then a fast down
+pose with a fast bounce,
+
+41
+00:01:55,430 --> 00:01:59,440
+meaning that the curve
+will rapidly get back
+
+42
+00:01:59,440 --> 00:02:01,390
+to its up position.
+
+43
+00:02:01,390 --> 00:02:03,040
+You really have to focus on
+
+44
+00:02:03,040 --> 00:02:05,450
+the up and down motion of your character
+
+45
+00:02:05,450 --> 00:02:09,660
+and if needed you can hide
+the legs and the arms.
+
+46
+00:02:09,660 --> 00:02:12,860
+Since our character is
+bouncing twice during
+
+47
+00:02:12,860 --> 00:02:15,473
+the 24 frame of its cycle,
+
+48
+00:02:15,473 --> 00:02:18,820
+I have refined the keys from zero to 12
+
+49
+00:02:18,820 --> 00:02:22,930
+and then duplicated those
+keys from zero to 12
+
+50
+00:02:22,930 --> 00:02:25,030
+onto 12 to 24.
+
+51
+00:02:25,030 --> 00:02:27,210
+Then I can trade off any keys
+
+52
+00:02:27,210 --> 00:02:29,850
+that were remaining previously.
+
+53
+00:02:29,850 --> 00:02:34,080
+This way the base up and down
+motion of my root is done
+
+54
+00:02:34,080 --> 00:02:36,920
+and I can switch to the feet motion
+
+55
+00:02:36,920 --> 00:02:41,010
+as explained many times animation
+is not a linear workflow.
+
+56
+00:02:41,010 --> 00:02:44,670
+So we will probably have to
+get back to the root motion
+
+57
+00:02:44,670 --> 00:02:48,400
+and switch between route
+and feet, root and torso,
+
+58
+00:02:48,400 --> 00:02:49,500
+et cetera.
+
+59
+00:02:49,500 --> 00:02:54,070
+This up and down motion is
+mostly put upon a feeling,
+
+60
+00:02:54,070 --> 00:02:57,320
+but I've shaped it so that my character
+
+61
+00:02:57,320 --> 00:02:59,500
+is holding a bit in here.
+
+62
+00:02:59,500 --> 00:03:04,060
+And the speed at which he's
+going down and going up
+
+63
+00:03:04,060 --> 00:03:06,090
+is not exactly the same.
+
+64
+00:03:06,090 --> 00:03:08,730
+When you are doing a jump or an eye blink,
+
+65
+00:03:08,730 --> 00:03:11,810
+it's always good to have contrast between
+
+66
+00:03:11,810 --> 00:03:14,290
+the up motion and the down motion,
+
+67
+00:03:14,290 --> 00:03:17,740
+even if it's just about one frame.
+
+68
+00:03:17,740 --> 00:03:20,840
+When I polish the feet
+whether it's for a cycle.
+
+69
+00:03:20,840 --> 00:03:22,580
+or for another animation,
+
+70
+00:03:22,580 --> 00:03:25,570
+I always start with the location,
+
+71
+00:03:25,570 --> 00:03:28,830
+or I often polish the feet pretty early on
+
+72
+00:03:28,830 --> 00:03:31,690
+because a lot of the torso motion,
+
+73
+00:03:31,690 --> 00:03:33,543
+the hips motion is based
+on the feet motion.
+
+74
+00:03:33,543 --> 00:03:38,170
+The first thing I want to define
+
+75
+00:03:38,170 --> 00:03:40,920
+is the contacting in position of the feet.
+
+76
+00:03:40,920 --> 00:03:44,650
+To get a nice looking and
+dynamic whole run cycle
+
+77
+00:03:44,650 --> 00:03:48,720
+it's good to have a straight
+leg during the contact.
+
+78
+00:03:48,720 --> 00:03:50,644
+So as mentioned produced in this case
+
+79
+00:03:50,644 --> 00:03:54,180
+my character is a bit
+too far from the ground
+
+80
+00:03:54,180 --> 00:03:55,960
+to get a good pose
+
+81
+00:03:55,960 --> 00:03:58,380
+so I can switch back to the root control
+
+82
+00:03:58,380 --> 00:04:02,290
+and offset to the whole as Z curve down.
+
+83
+00:04:02,290 --> 00:04:04,480
+As I define my contact pose,
+
+84
+00:04:04,480 --> 00:04:07,320
+it's important to also define the moment
+
+85
+00:04:07,320 --> 00:04:09,820
+the feet will leave the ground.
+
+86
+00:04:09,820 --> 00:04:11,360
+And as you may remember,
+
+87
+00:04:11,360 --> 00:04:14,200
+in the previous cycle we have created
+
+88
+00:04:14,200 --> 00:04:17,150
+the interpolation of the foot while
+
+89
+00:04:17,150 --> 00:04:19,690
+it's on the ground should be linear
+
+90
+00:04:19,690 --> 00:04:21,330
+because the ones on the ground,
+
+91
+00:04:21,330 --> 00:04:24,470
+the feet will travel at a constant speed.
+
+92
+00:04:24,470 --> 00:04:28,600
+I can convert the keys on
+frame two and frame five
+
+93
+00:04:28,600 --> 00:04:31,890
+by selecting them and pressing the V key
+
+94
+00:04:31,890 --> 00:04:34,240
+and switching to vector.
+
+95
+00:04:34,240 --> 00:04:38,610
+Then we can delete any key
+between frame two and frame five.
+
+96
+00:04:38,610 --> 00:04:39,490
+We'll have to do these
+
+97
+00:04:39,490 --> 00:04:42,317
+for all the location curves Z Y and X .
+
+98
+00:04:42,317 --> 00:04:45,730
+For the time being we
+are focusing on Z and Y .
+
+99
+00:04:45,730 --> 00:04:49,070
+Once done both curve
+between frame two and five
+
+100
+00:04:49,070 --> 00:04:52,280
+are linear making a straight line.
+
+101
+00:04:52,280 --> 00:04:55,230
+This is the kind of obvious moment
+
+102
+00:04:55,230 --> 00:04:57,510
+While the polishing feet.
+
+103
+00:04:57,510 --> 00:05:01,220
+From there I will then focus
+on getting a good feeling
+
+104
+00:05:01,220 --> 00:05:03,290
+for the rest of the motion.
+
+105
+00:05:03,290 --> 00:05:07,020
+As the foot leaves the
+ground it still have momentum
+
+106
+00:05:07,020 --> 00:05:09,850
+from the moment it was
+traveling on the ground.
+
+107
+00:05:09,850 --> 00:05:12,560
+This is why I like to push it back.
+
+108
+00:05:12,560 --> 00:05:16,870
+I want to favorise the
+backward and forward position
+
+109
+00:05:16,870 --> 00:05:19,880
+and have a quick motion
+during the passing pose.
+
+110
+00:05:19,880 --> 00:05:23,710
+The passing pose doesn't
+read as well as the up pose
+
+111
+00:05:23,710 --> 00:05:25,240
+and the pushing pose.
+
+112
+00:05:25,240 --> 00:05:28,680
+Covering the airborne
+poses of our character,
+
+113
+00:05:28,680 --> 00:05:32,490
+his run will feel more agile and light.
+
+114
+00:05:32,490 --> 00:05:33,330
+While in the end,
+
+115
+00:05:33,330 --> 00:05:38,280
+I have a tight spacing around
+frame 12 and frame zero,
+
+116
+00:05:38,280 --> 00:05:42,930
+as the feet ease or slow
+down into the extreme pose.
+
+117
+00:05:42,930 --> 00:05:46,625
+And then I will accelerate
+during the passing poses.
+
+118
+00:05:46,625 --> 00:05:51,390
+Another thing I like to do is
+to have a great acceleration
+
+119
+00:05:51,390 --> 00:05:53,330
+just before the contact pose.
+
+120
+00:05:53,330 --> 00:05:57,300
+So that we can feel that the
+foot is smashing on the ground
+
+121
+00:05:57,300 --> 00:05:59,330
+and then pushing backward.
+
+122
+00:05:59,330 --> 00:06:02,500
+And we can see this
+acceleration between frame zero
+
+123
+00:06:02,500 --> 00:06:03,790
+and frame two,
+
+124
+00:06:03,790 --> 00:06:07,190
+where our curve gets
+more and more vertical.
+
+125
+00:06:07,190 --> 00:06:11,510
+As usual, here you can see
+the final polished curve
+
+126
+00:06:11,510 --> 00:06:14,490
+of the Y and Z location of the feet.
+
+127
+00:06:14,490 --> 00:06:18,270
+Try to match the motion path
+you can see on this one screen
+
+128
+00:06:18,270 --> 00:06:20,060
+you can pause the video there.
+
+129
+00:06:20,060 --> 00:06:22,963
+Next step is polishing the
+forward rotation of the foot.
+
+130
+00:06:24,690 --> 00:06:27,630
+To do so As explained during debulking,
+
+131
+00:06:27,630 --> 00:06:31,850
+I always have arrived using
+the foot roll controller.
+
+132
+00:06:31,850 --> 00:06:34,890
+I will make sure that I
+have a nice heel contact
+
+133
+00:06:34,890 --> 00:06:36,120
+on frame two
+
+134
+00:06:36,120 --> 00:06:40,390
+and that I have at least
+one frame with a flat foot.
+
+135
+00:06:40,390 --> 00:06:43,480
+Rotation of this controller
+must be set to zero
+
+136
+00:06:43,480 --> 00:06:44,750
+around frame foot.
+
+137
+00:06:44,750 --> 00:06:49,120
+Might not be the case if you
+should use printer references,
+
+138
+00:06:49,120 --> 00:06:51,800
+where on there are mostly
+contacting with the bowl
+
+139
+00:06:51,800 --> 00:06:52,860
+of their foot.
+
+140
+00:06:52,860 --> 00:06:56,240
+As they are constantly
+accelerating forward.
+
+141
+00:06:56,240 --> 00:06:59,880
+But for a constant speed run cycle,
+
+142
+00:06:59,880 --> 00:07:02,333
+it's better to contact with the heel.
+
+143
+00:07:02,333 --> 00:07:04,020
+It will look better,
+
+144
+00:07:04,020 --> 00:07:06,950
+you will have more contrast
+into to your motion
+
+145
+00:07:06,950 --> 00:07:10,000
+and the idea is to transition smoothly
+
+146
+00:07:10,000 --> 00:07:12,060
+from the heel to the toe.
+
+147
+00:07:12,060 --> 00:07:14,950
+So that the character keeps momentum.
+
+148
+00:07:14,950 --> 00:07:17,330
+As I'm reworking the heel position,
+
+149
+00:07:17,330 --> 00:07:20,490
+the leg is less straight
+during the pushing pose.
+
+150
+00:07:20,490 --> 00:07:24,610
+So I can slightly offset
+the wheel location curve
+
+151
+00:07:26,132 --> 00:07:29,500
+of the foot and then get
+back onto my heel controller.
+
+152
+00:07:29,500 --> 00:07:32,340
+Again, we are not into
+a linear work workflow,
+
+153
+00:07:32,340 --> 00:07:34,330
+and we need to go back and forth
+
+154
+00:07:34,330 --> 00:07:35,860
+to the different controllers
+
+155
+00:07:35,860 --> 00:07:37,540
+who hit better poses.
+
+156
+00:07:37,540 --> 00:07:41,390
+Now, I will get back to to
+the torso route controller
+
+157
+00:07:41,390 --> 00:07:44,590
+and select all the keys
+of the wide location
+
+158
+00:07:44,590 --> 00:07:47,530
+and move them down to push the whole body
+
+159
+00:07:47,530 --> 00:07:49,480
+of my character forward
+
+160
+00:07:49,480 --> 00:07:51,773
+and get a more dynamic pose.
+
+161
+00:07:51,773 --> 00:07:55,220
+From there I will select
+again my foot controller
+
+162
+00:07:55,220 --> 00:07:58,080
+and move it's Y curves slightly down
+
+163
+00:07:58,080 --> 00:08:01,660
+on the contact pose and
+on the pushing pose.
+
+164
+00:08:01,660 --> 00:08:05,280
+So we are always refining the
+position of our character.
+
+165
+00:08:05,280 --> 00:08:08,680
+Now I can get back to work onto the heel
+
+166
+00:08:08,680 --> 00:08:11,860
+and make sure I have a nice roll of foot.
+
+167
+00:08:11,860 --> 00:08:13,510
+Here you can see again,
+
+168
+00:08:13,510 --> 00:08:15,320
+the curve has a reference
+
+169
+00:08:15,320 --> 00:08:18,041
+and use it to Polish your own curve,
+
+170
+00:08:18,041 --> 00:08:21,810
+but you may focus on your own run cycle
+
+171
+00:08:21,810 --> 00:08:26,620
+because this specific curve
+match my specific animation
+
+172
+00:08:26,620 --> 00:08:30,652
+and if you have differences
+regarding your feet position
+
+173
+00:08:30,652 --> 00:08:34,660
+or the eighth of the torso controller,
+
+174
+00:08:34,660 --> 00:08:36,500
+you will have variation.
+
+175
+00:08:36,500 --> 00:08:38,140
+They are used to make the tip
+
+176
+00:08:38,140 --> 00:08:41,250
+of the foot slightly
+pointing backward and down
+
+177
+00:08:41,250 --> 00:08:45,720
+during the passing pose to
+get this nice dragging motion
+
+178
+00:08:45,720 --> 00:08:48,970
+and transition into having the heel down
+
+179
+00:08:48,970 --> 00:08:52,280
+while the foot is about to hit the ground.
+
+180
+00:08:52,280 --> 00:08:55,251
+Next, we will polish the toe controllers.
+
+181
+00:08:55,251 --> 00:08:57,222
+This animation,
+
+182
+00:08:57,222 --> 00:08:59,500
+I've only used the main toe controller
+
+183
+00:08:59,500 --> 00:09:02,760
+since the big toe controller
+move along with it
+
+184
+00:09:02,760 --> 00:09:04,360
+that's perfectly fine.
+
+185
+00:09:04,360 --> 00:09:07,250
+This part of the animation
+is pretty straight forward.
+
+186
+00:09:07,250 --> 00:09:08,083
+First of all,
+
+187
+00:09:08,083 --> 00:09:13,000
+we will only be animating using
+the X Euler rotation curve
+
+188
+00:09:13,000 --> 00:09:15,870
+is to create a nice
+follow through animation
+
+189
+00:09:15,870 --> 00:09:18,360
+of the toes, dragging something similar
+
+190
+00:09:18,360 --> 00:09:22,150
+to what we did with the tail
+of the squirrel character.
+
+191
+00:09:22,150 --> 00:09:25,680
+It's important to console
+the rotation while the foot
+
+192
+00:09:25,680 --> 00:09:28,260
+is on the ground so that
+the toes won't click
+
+193
+00:09:28,260 --> 00:09:29,230
+with the ground.
+
+194
+00:09:29,230 --> 00:09:32,190
+This is why the keys
+on frame four and five
+
+195
+00:09:32,190 --> 00:09:34,140
+are switched to vector.
+
+196
+00:09:34,140 --> 00:09:36,720
+One interesting subtlety I've done,
+
+197
+00:09:36,720 --> 00:09:40,180
+delay by one frame the
+moment the toes get flat
+
+198
+00:09:40,180 --> 00:09:41,013
+on the ground.
+
+199
+00:09:41,013 --> 00:09:43,670
+The foot gets flattened on frame three
+
+200
+00:09:43,670 --> 00:09:46,810
+and the toes follow through on frame four.
+
+201
+00:09:46,810 --> 00:09:48,680
+When the foot leaves the ground,
+
+202
+00:09:48,680 --> 00:09:52,743
+the toes are pointing
+toward the previous pose,
+
+203
+00:09:53,842 --> 00:09:55,830
+when the foot is moving forward to toes
+
+204
+00:09:57,473 --> 00:09:58,306
+are slightly pointing backward.
+
+205
+00:09:58,306 --> 00:10:01,860
+One thing you can use to help
+yourself is the motion path
+
+206
+00:10:01,860 --> 00:10:03,580
+of the foot we have on screen.
+
+207
+00:10:03,580 --> 00:10:08,250
+The toes should be pointing
+to what the previous frame
+
+208
+00:10:08,250 --> 00:10:09,660
+during the cycle.
+
+209
+00:10:09,660 --> 00:10:13,720
+These in most cases, will
+bend them way too much,
+
+210
+00:10:13,720 --> 00:10:16,820
+but then you just have
+to adjust their curvature
+
+211
+00:10:16,820 --> 00:10:20,350
+so that the foot have a
+nice and natural pose.
+
+212
+00:10:20,350 --> 00:10:23,485
+Here is the final curve of the X rotation
+
+213
+00:10:23,485 --> 00:10:26,000
+of the toe controller.
+
+214
+00:10:26,000 --> 00:10:28,350
+As usual, you can pause the video there
+
+215
+00:10:28,350 --> 00:10:30,450
+to compare this curve with your
+
+216
+00:10:30,450 --> 00:10:34,090
+and again, this is the
+curve of my animation.
+
+217
+00:10:34,090 --> 00:10:36,470
+Yours might be a bit different.
+
+218
+00:10:36,470 --> 00:10:39,630
+We've been mostly working on
+the foot from the side view.
+
+219
+00:10:39,630 --> 00:10:42,743
+Its time to revise it from the front view
+
+220
+00:10:42,743 --> 00:10:44,573
+with the X location curve
+
+221
+00:10:44,573 --> 00:10:49,020
+by selecting back the foot
+controller, hidden all the keys,
+
+222
+00:10:49,020 --> 00:10:50,460
+but the X location.
+
+223
+00:10:50,460 --> 00:10:53,650
+And we will mark on the
+side to side motion.
+
+224
+00:10:53,650 --> 00:10:56,410
+Remember what I told you
+regarding the location
+
+225
+00:10:56,410 --> 00:10:58,611
+of the foot when hitting the ground.
+
+226
+00:10:58,611 --> 00:11:00,360
+Linear interpolation,
+
+227
+00:11:00,360 --> 00:11:03,080
+and regarding the side to side motion,
+
+228
+00:11:03,080 --> 00:11:04,720
+we need a flat curve,
+
+229
+00:11:04,720 --> 00:11:08,880
+meaning that the foot will
+move on to a straight line.
+
+230
+00:11:08,880 --> 00:11:09,713
+To do so,
+
+231
+00:11:09,713 --> 00:11:14,170
+I will convert keys on
+frame two and five to vector
+
+232
+00:11:14,170 --> 00:11:16,710
+and get rid of any keys in between.
+
+233
+00:11:16,710 --> 00:11:20,900
+While I was originally planning
+to make the foot push inward
+
+234
+00:11:20,900 --> 00:11:22,640
+when leaving the ground
+
+235
+00:11:22,640 --> 00:11:26,300
+and then during the passing
+pose getting on the outside,
+
+236
+00:11:26,300 --> 00:11:30,450
+decided during this polishing
+stage to do the inverse,
+
+237
+00:11:30,450 --> 00:11:32,980
+as I told you before this motion can vary
+
+238
+00:11:32,980 --> 00:11:36,500
+from people to people depending
+on anatomic attribute,
+
+239
+00:11:36,500 --> 00:11:39,920
+but also the skill to
+run from this person.
+
+240
+00:11:39,920 --> 00:11:43,240
+Since my character is agile and skilled,
+
+241
+00:11:43,240 --> 00:11:45,890
+it might be better to kind of follow
+
+242
+00:11:45,890 --> 00:11:48,200
+the motion of an athlete.
+
+243
+00:11:48,200 --> 00:11:49,033
+In this case,
+
+244
+00:11:49,033 --> 00:11:52,338
+the foot is getting outside
+while getting off the ground
+
+245
+00:11:52,338 --> 00:11:54,770
+inside during the passing pose,
+
+246
+00:11:54,770 --> 00:11:57,520
+a bit outside during the up pose
+
+247
+00:11:57,520 --> 00:12:00,666
+and finally hit it's contacting pose.
+
+248
+00:12:00,666 --> 00:12:05,120
+You should keep the side to
+side motion pretty subtle.
+
+249
+00:12:05,120 --> 00:12:07,510
+If the motion is too contrasted,
+
+250
+00:12:07,510 --> 00:12:11,180
+the run will look a bit
+sloppy as if your character
+
+251
+00:12:11,180 --> 00:12:13,170
+was lacking of control.
+
+252
+00:12:13,170 --> 00:12:15,000
+So beyond the motion here,
+
+253
+00:12:15,000 --> 00:12:17,500
+we are defining the character,
+
+254
+00:12:17,500 --> 00:12:21,560
+we are defining the finding who
+he is and how skilled he is.
+
+255
+00:12:21,560 --> 00:12:23,840
+And this is what makes the difference
+
+256
+00:12:23,840 --> 00:12:26,290
+between motion and animation.
+
+257
+00:12:26,290 --> 00:12:27,170
+As you roll,
+
+258
+00:12:27,170 --> 00:12:31,660
+here is the final X location
+curve on the foot controller.
+
+259
+00:12:31,660 --> 00:12:32,950
+Once you're done with this,
+
+260
+00:12:32,950 --> 00:12:36,750
+you can call the foot
+splining and polishing done
+
+261
+00:12:36,750 --> 00:12:40,480
+or you can stay with me for
+a couple of extra minutes
+
+262
+00:12:40,480 --> 00:12:44,340
+where we will add some
+extra super subtle rotation
+
+263
+00:12:44,340 --> 00:12:47,940
+to the foot to bring its
+motion to the next level.
+
+264
+00:12:47,940 --> 00:12:49,910
+To do so I will use first
+
+265
+00:12:49,910 --> 00:12:52,920
+the Y quaternion rotation of foot.
+
+266
+00:12:52,920 --> 00:12:55,990
+I don't want it to rotate
+while on the ground.
+
+267
+00:12:55,990 --> 00:12:56,970
+So as usual,
+
+268
+00:12:56,970 --> 00:13:01,970
+I will create a flat curve
+bound by two vector handles.
+
+269
+00:13:02,070 --> 00:13:05,640
+We will use the Y rotation
+curve to slightly twist
+
+270
+00:13:05,640 --> 00:13:08,123
+the foot toward another target.
+
+271
+00:13:09,463 --> 00:13:10,780
+Check the orientation of the center,
+
+272
+00:13:10,780 --> 00:13:12,550
+while I'm rotating the foot
+
+273
+00:13:12,550 --> 00:13:14,070
+during this polition state,
+
+274
+00:13:14,070 --> 00:13:18,240
+I am pushing it inward while
+the foot is leaving the ground
+
+275
+00:13:18,240 --> 00:13:20,180
+and during the passing pose,
+
+276
+00:13:20,180 --> 00:13:23,620
+and then I'm slightly
+pushing it on the outside
+
+277
+00:13:23,620 --> 00:13:26,650
+while the foot is about
+to contact the ground.
+
+278
+00:13:26,650 --> 00:13:29,200
+Since the foot is using quaternions,
+
+279
+00:13:29,200 --> 00:13:33,083
+we need to play on both
+the Y and Z rotation curve
+
+280
+00:13:33,083 --> 00:13:36,510
+to properly orientate the foot.
+
+281
+00:13:36,510 --> 00:13:39,840
+Just scrub through this reference video,
+
+282
+00:13:39,840 --> 00:13:43,060
+focusing on the orientation of the foot,
+
+283
+00:13:43,060 --> 00:13:45,600
+we'll find a link to the YouTube video
+
+284
+00:13:45,600 --> 00:13:47,171
+in the documentation as usual.
+
+285
+00:13:47,171 --> 00:13:50,270
+You have the final shape of the Z
+
+286
+00:13:50,270 --> 00:13:54,200
+and Y quaternion rotation
+curve of the foot controller.
+
+287
+00:13:54,200 --> 00:13:55,812
+From there,
+
+288
+00:13:55,812 --> 00:13:56,970
+there is another thing we need to fix.
+
+289
+00:13:56,970 --> 00:13:58,790
+It's the pull target of the knee.
+
+290
+00:13:58,790 --> 00:13:59,623
+Here again,
+
+291
+00:13:59,623 --> 00:14:02,690
+we could work a lot on the left
+to right motion of the knee,
+
+292
+00:14:02,690 --> 00:14:06,630
+which is super subtle during
+the run cycle but still exists.
+
+293
+00:14:06,630 --> 00:14:10,790
+Since our character is
+pretty light on his feet,
+
+294
+00:14:10,790 --> 00:14:14,510
+I will just try to keep the
+knees align with the run.
+
+295
+00:14:14,510 --> 00:14:17,330
+So I'm just going frame to frame
+
+296
+00:14:17,330 --> 00:14:21,270
+and adjusting the X location
+of the pull controller,
+
+297
+00:14:21,270 --> 00:14:23,470
+so that it looks a little cleaner.
+
+298
+00:14:23,470 --> 00:14:27,200
+Having the knees almost align
+with the feet and the hips
+
+299
+00:14:27,200 --> 00:14:29,803
+will look better and more dynamical.
+
+300
+00:14:29,803 --> 00:14:32,563
+The intimate detail before
+we mirror on the motion
+
+301
+00:14:32,563 --> 00:14:34,820
+on to the other foot,
+
+302
+00:14:34,820 --> 00:14:38,810
+is the bank or side to
+side rotation of the foot.
+
+303
+00:14:38,810 --> 00:14:41,930
+From a front view when
+the foot hit the ground,
+
+304
+00:14:41,930 --> 00:14:43,970
+it's not perfectly flat.
+
+305
+00:14:43,970 --> 00:14:45,750
+When the foot hit the ground,
+
+306
+00:14:45,750 --> 00:14:50,660
+it's generally slightly
+rotated toward its outer edge,
+
+307
+00:14:50,660 --> 00:14:55,350
+and it will roll onto the
+thumb while pushing backwards,
+
+308
+00:14:55,350 --> 00:14:56,600
+this is not a big deal,
+
+309
+00:14:56,600 --> 00:14:58,130
+but this is the kind of detail
+
+310
+00:14:58,130 --> 00:15:01,318
+that will make your run
+cycle look a little better.
+
+311
+00:15:01,318 --> 00:15:02,151
+From there,
+
+312
+00:15:02,151 --> 00:15:06,020
+we can mirror the animation
+onto the other legs controller.
+
+313
+00:15:06,020 --> 00:15:09,340
+First, we need to select all
+the right click controller.
+
+314
+00:15:09,340 --> 00:15:10,640
+we've just polished.
+
+315
+00:15:10,640 --> 00:15:13,330
+Then in the graph editor press Alt + H
+
+316
+00:15:13,330 --> 00:15:16,390
+to make sure you don't
+have any hidden curve.
+
+317
+00:15:16,390 --> 00:15:19,320
+From there press eight
+to select all the curve
+
+318
+00:15:19,320 --> 00:15:22,470
+and then Ctrl + C to copy those curve.
+
+319
+00:15:22,470 --> 00:15:26,440
+Then we can select all the
+controllers on the left leg.
+
+320
+00:15:26,440 --> 00:15:29,640
+And from there in the
+graph editor, press Alt + H
+
+321
+00:15:29,640 --> 00:15:32,530
+to make sure you don't
+have any hidden curve.
+
+322
+00:15:32,530 --> 00:15:36,730
+Now select all the keys
+but the one on frame zero
+
+323
+00:15:36,730 --> 00:15:40,330
+from there, make sure that
+the play head is on frame zero
+
+324
+00:15:40,330 --> 00:15:45,210
+and press Ctrl + Shift + V
+to paste the mirrored curves.
+
+325
+00:15:45,210 --> 00:15:47,360
+Now we have this fun animation,
+
+326
+00:15:47,360 --> 00:15:50,180
+where both leg do the same motion
+
+327
+00:15:50,180 --> 00:15:51,890
+and we need to offset it.
+
+328
+00:15:51,890 --> 00:15:55,070
+To do so, in the graph,
+editor press Shift + D
+
+329
+00:15:55,070 --> 00:15:57,330
+to duplicate all the frames.
+
+330
+00:15:57,330 --> 00:16:02,303
+Don't press enter, then
+press the X and 24.
+
+331
+00:16:03,210 --> 00:16:06,353
+This will move those newly
+created frame by 24 frame
+
+332
+00:16:06,353 --> 00:16:09,120
+on the right.
+
+333
+00:16:09,120 --> 00:16:13,180
+If we now move those keys
+in time left to right
+
+334
+00:16:13,180 --> 00:16:14,810
+while playing the animation,
+
+335
+00:16:14,810 --> 00:16:19,190
+we can see that we are
+currently offsetting the motion.
+
+336
+00:16:19,190 --> 00:16:22,610
+So if I press G X minus 12,
+
+337
+00:16:22,610 --> 00:16:26,830
+now the left leg motion
+is offset by 12 frames.
+
+338
+00:16:26,830 --> 00:16:31,100
+So of the length of the
+cycle with the right leg
+
+339
+00:16:31,100 --> 00:16:32,640
+and our cycle is done.
+
+340
+00:16:32,640 --> 00:16:34,240
+To make this clean,
+
+341
+00:16:34,240 --> 00:16:37,690
+I will go on frame
+zero, press I an insert,
+
+342
+00:16:37,690 --> 00:16:39,970
+and key frame on all channels,
+
+343
+00:16:39,970 --> 00:16:43,370
+select all the keys on
+frames zero, press V
+
+344
+00:16:43,370 --> 00:16:45,530
+and switch them to free.
+
+345
+00:16:45,530 --> 00:16:47,410
+Then they will duplicate them
+
+346
+00:16:47,410 --> 00:16:51,920
+with Shift and D and
+move them on frame 24.
+
+347
+00:16:51,920 --> 00:16:56,010
+We can now delete any keys after frame 24
+
+348
+00:16:56,010 --> 00:16:58,190
+and before frame zero
+
+349
+00:16:58,190 --> 00:17:02,453
+and both our leg now
+cycling and are polished.
+

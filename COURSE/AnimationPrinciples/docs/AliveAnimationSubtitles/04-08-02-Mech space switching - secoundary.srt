@@ -1,0 +1,1265 @@
+﻿1
+00:00:00,870 --> 00:00:01,703
+- [Instructor] In this video,
+
+2
+00:00:01,703 --> 00:00:03,830
+we will continue on using space switching
+
+3
+00:00:03,830 --> 00:00:07,120
+to finish the animation of our character.
+
+4
+00:00:07,120 --> 00:00:09,140
+I will slightly speed up the video
+
+5
+00:00:09,140 --> 00:00:12,460
+since it's going to be
+very repetitive based
+
+6
+00:00:12,460 --> 00:00:14,550
+on what we have done just before.
+
+7
+00:00:14,550 --> 00:00:16,500
+We will start with the antenna.
+
+8
+00:00:16,500 --> 00:00:18,960
+They can only rotate on one axis
+
+9
+00:00:18,960 --> 00:00:20,270
+and they can't move.
+
+10
+00:00:20,270 --> 00:00:23,850
+So we will directly use
+a tracking constraint.
+
+11
+00:00:23,850 --> 00:00:25,640
+First, we need to align our empty,
+
+12
+00:00:25,640 --> 00:00:27,620
+so we add a copy transform.
+
+13
+00:00:27,620 --> 00:00:29,810
+We source one of the antenna,
+
+14
+00:00:29,810 --> 00:00:31,970
+apply the visual transform,
+
+15
+00:00:31,970 --> 00:00:35,070
+get rid of the constraint
+and then offset the empty
+
+16
+00:00:35,070 --> 00:00:36,430
+on the y-axis.
+
+17
+00:00:36,430 --> 00:00:38,930
+Then add to it a child of constraint,
+
+18
+00:00:38,930 --> 00:00:41,150
+source the rig and source
+one of the antenna,
+
+19
+00:00:41,150 --> 00:00:45,340
+click the set inverse
+and bake the animation.
+
+20
+00:00:45,340 --> 00:00:48,230
+From there, select the first antenna,
+
+21
+00:00:48,230 --> 00:00:52,490
+add a locked track
+constraint, source the empty.
+
+22
+00:00:52,490 --> 00:00:54,597
+The track axis is positive y
+
+23
+00:00:54,597 --> 00:00:58,240
+and we want to rotate around the x-axis.
+
+24
+00:00:58,240 --> 00:01:02,560
+From there, we can get rid of
+all the undesired channels.
+
+25
+00:01:02,560 --> 00:01:04,880
+Make the Z location curve cycling
+
+26
+00:01:04,880 --> 00:01:07,490
+and offset it by a couple of frames.
+
+27
+00:01:07,490 --> 00:01:10,980
+Then you can play on the
+influence of the constraint
+
+28
+00:01:10,980 --> 00:01:14,450
+if you want to reduce the
+amplitude of the motion.
+
+29
+00:01:14,450 --> 00:01:16,810
+Remember that offsetting the curve
+
+30
+00:01:16,810 --> 00:01:18,738
+will change the timing
+
+31
+00:01:18,738 --> 00:01:21,930
+and changing the influence
+of the constraint
+
+32
+00:01:21,930 --> 00:01:25,440
+will change the spacing or
+the amplitude of the motion.
+
+33
+00:01:25,440 --> 00:01:28,260
+From there, we can bake
+the action onto the bone,
+
+34
+00:01:28,260 --> 00:01:31,420
+get rid of the useless transform channels
+
+35
+00:01:31,420 --> 00:01:35,790
+and since both antennas
+were originally aligned,
+
+36
+00:01:35,790 --> 00:01:38,863
+we can directly constraint the big antenna
+
+37
+00:01:38,863 --> 00:01:40,320
+with the empty.
+
+38
+00:01:40,320 --> 00:01:43,900
+Just go back into pose
+mode on to the armature,
+
+39
+00:01:43,900 --> 00:01:46,590
+select the antenna, go
+into the bone constraint,
+
+40
+00:01:46,590 --> 00:01:49,020
+add a locked track constraint,
+
+41
+00:01:49,020 --> 00:01:51,860
+source the empty, track with y,
+
+42
+00:01:51,860 --> 00:01:55,610
+rotate along x and check the animation.
+
+43
+00:01:55,610 --> 00:01:58,120
+Since this antenna is slightly bigger,
+
+44
+00:01:58,120 --> 00:02:00,400
+it will have a bit more motion
+
+45
+00:02:00,400 --> 00:02:04,420
+and I've also decided to
+offset the empty curve
+
+46
+00:02:04,420 --> 00:02:06,210
+by one additional frame.
+
+47
+00:02:06,210 --> 00:02:10,530
+This way, the big antenna will
+be slightly delayed compared
+
+48
+00:02:10,530 --> 00:02:13,040
+to the motion of the small antenna.
+
+49
+00:02:13,040 --> 00:02:16,010
+And we will have a more
+interesting motion.
+
+50
+00:02:16,010 --> 00:02:17,960
+Then I've baked the action
+
+51
+00:02:17,960 --> 00:02:19,670
+and cleaned my curve.
+
+52
+00:02:19,670 --> 00:02:22,230
+Now that the antennas are done,
+
+53
+00:02:22,230 --> 00:02:24,720
+I will unhide all the controllers,
+
+54
+00:02:24,720 --> 00:02:27,860
+select my visibility property bone
+
+55
+00:02:27,860 --> 00:02:29,390
+and display the arms
+
+56
+00:02:29,390 --> 00:02:31,930
+and we will work on both arms.
+
+57
+00:02:31,930 --> 00:02:34,960
+The idea is to input a
+slight rotation delay
+
+58
+00:02:34,960 --> 00:02:37,320
+on the shoulders of the robot.
+
+59
+00:02:37,320 --> 00:02:40,600
+To do so, we will again use aim space
+
+60
+00:02:40,600 --> 00:02:43,290
+and a locked track constraint.
+
+61
+00:02:43,290 --> 00:02:46,230
+I will first align my empty
+
+62
+00:02:46,230 --> 00:02:50,070
+by adding to it a copy
+transform constraint.
+
+63
+00:02:50,070 --> 00:02:51,800
+To work a little faster,
+
+64
+00:02:51,800 --> 00:02:55,700
+I've just copied the name
+of the arm controller.
+
+65
+00:02:55,700 --> 00:02:59,200
+This way, when I'm adding
+the copy transform constraint
+
+66
+00:02:59,200 --> 00:03:01,730
+to the empty, I can source the rig
+
+67
+00:03:01,730 --> 00:03:05,650
+and then just paste the
+name in the bone field.
+
+68
+00:03:05,650 --> 00:03:08,830
+As the empty is now aligned
+with the arm controller,
+
+69
+00:03:08,830 --> 00:03:11,480
+I will apply the visual transform,
+
+70
+00:03:11,480 --> 00:03:14,090
+then get rid of its constraint
+
+71
+00:03:14,090 --> 00:03:18,070
+and offset it on the x-axis on the side.
+
+72
+00:03:18,070 --> 00:03:22,510
+Then as usual, I will add
+a child of constraint,
+
+73
+00:03:22,510 --> 00:03:26,190
+source the armature, then the arm.r,
+
+74
+00:03:26,190 --> 00:03:30,060
+click the set inverse
+to reset the position
+
+75
+00:03:30,060 --> 00:03:31,810
+and bake the action.
+
+76
+00:03:31,810 --> 00:03:34,120
+I will get rid of the useless curve
+
+77
+00:03:34,120 --> 00:03:35,930
+and then for the remaining one,
+
+78
+00:03:35,930 --> 00:03:37,480
+I will make them cycle,
+
+79
+00:03:37,480 --> 00:03:41,260
+pressing Shift + E, click make cyclic.
+
+80
+00:03:41,260 --> 00:03:44,430
+Then we will get back to our controller,
+
+81
+00:03:44,430 --> 00:03:46,900
+go to the bone constraint
+
+82
+00:03:46,900 --> 00:03:51,380
+and we need to add a locked
+track constraint pointing
+
+83
+00:03:51,380 --> 00:03:56,380
+toward the negative x-axis and
+rotating around the y-axis.
+
+84
+00:03:57,320 --> 00:04:00,010
+So in the constraint, I
+will source the empty,
+
+85
+00:04:00,010 --> 00:04:02,310
+choose the track axis minus X
+
+86
+00:04:02,310 --> 00:04:06,020
+and choose the locked axis y-axis.
+
+87
+00:04:06,020 --> 00:04:08,720
+Now I believe that you
+do know the process.
+
+88
+00:04:08,720 --> 00:04:12,700
+Whenever I move the empty,
+the arm will follow.
+
+89
+00:04:12,700 --> 00:04:17,060
+So I can offset the
+animation curve of the empty
+
+90
+00:04:17,060 --> 00:04:19,810
+and then bake back the motion.
+
+91
+00:04:19,810 --> 00:04:21,450
+Don't hesitate to play a bit
+
+92
+00:04:21,450 --> 00:04:24,270
+with the animation curve of the empty.
+
+93
+00:04:24,270 --> 00:04:28,040
+If you scale it on the y-axis
+using the bounding box,
+
+94
+00:04:28,040 --> 00:04:30,930
+you will increase the
+amplitude of the motion.
+
+95
+00:04:30,930 --> 00:04:33,480
+Don't hesitate to experiment again.
+
+96
+00:04:33,480 --> 00:04:36,453
+If you fail, you just
+need to rebake the motion.
+
+97
+00:04:36,453 --> 00:04:38,910
+So as I'm happy with the result,
+
+98
+00:04:38,910 --> 00:04:43,800
+I will bake the action onto
+the arm right controller,
+
+99
+00:04:43,800 --> 00:04:46,110
+get rid of the transform channels
+
+100
+00:04:46,110 --> 00:04:49,380
+that are useless and I
+will repeat the process
+
+101
+00:04:49,380 --> 00:04:51,650
+on the left arm
+
+102
+00:04:51,650 --> 00:04:55,490
+and also the connection
+between the rocket launcher
+
+103
+00:04:55,490 --> 00:04:57,230
+and the left arm.
+
+104
+00:04:57,230 --> 00:05:00,470
+So I will leave you there
+with a little time lapse
+
+105
+00:05:00,470 --> 00:05:03,093
+and we'll go ahead at 7:54.
+
+106
+00:05:05,111 --> 00:05:07,861
+(tranquil music)
+
+107
+00:07:55,780 --> 00:07:57,740
+Now we can work on the mini gun.
+
+108
+00:07:57,740 --> 00:08:00,510
+It has already a track mechanism.
+
+109
+00:08:00,510 --> 00:08:03,970
+So we can go ahead with
+a simple copy location
+
+110
+00:08:03,970 --> 00:08:07,240
+of the empty, source the mini gun target
+
+111
+00:08:07,240 --> 00:08:08,670
+and bake the motion.
+
+112
+00:08:08,670 --> 00:08:10,870
+As the action is baked on the empty,
+
+113
+00:08:10,870 --> 00:08:13,440
+I will select the mini gun controller,
+
+114
+00:08:13,440 --> 00:08:15,640
+add a copy location constraint
+
+115
+00:08:15,640 --> 00:08:17,230
+and source the empty.
+
+116
+00:08:17,230 --> 00:08:18,607
+As we did for the head,
+
+117
+00:08:18,607 --> 00:08:22,020
+I'd like to remove a bit
+of the bounce we have
+
+118
+00:08:22,020 --> 00:08:24,410
+on the Z location axis
+
+119
+00:08:24,410 --> 00:08:25,970
+for the mini gun
+
+120
+00:08:25,970 --> 00:08:29,255
+because it looked like
+it's not very controlled
+
+121
+00:08:29,255 --> 00:08:30,930
+by the robot.
+
+122
+00:08:30,930 --> 00:08:34,700
+So having a bit of
+follow-through motion is okay
+
+123
+00:08:34,700 --> 00:08:38,460
+but too much make it looks
+like it's very clanky
+
+124
+00:08:38,460 --> 00:08:40,990
+and not a very reliable weapon.
+
+125
+00:08:40,990 --> 00:08:45,520
+So what I'm doing, I'm first
+smoothing the Z location curve
+
+126
+00:08:45,520 --> 00:08:46,840
+of the empty.
+
+127
+00:08:46,840 --> 00:08:49,140
+Getting rid of the bumps.
+
+128
+00:08:49,140 --> 00:08:54,140
+And since we have two up and
+down motion over the 72 frame,
+
+129
+00:08:54,670 --> 00:08:57,160
+I can work on half of this curve
+
+130
+00:08:57,160 --> 00:09:00,200
+and then remove the second half.
+
+131
+00:09:00,200 --> 00:09:02,680
+The cyclic modifier will take care
+
+132
+00:09:02,680 --> 00:09:06,020
+of repeating the curve seamlessly.
+
+133
+00:09:06,020 --> 00:09:07,850
+So what you need to understand
+
+134
+00:09:07,850 --> 00:09:10,800
+is the time you will
+save using this method
+
+135
+00:09:10,800 --> 00:09:12,930
+for this kind of motion.
+
+136
+00:09:12,930 --> 00:09:15,950
+We will use space switching
+later in the course
+
+137
+00:09:15,950 --> 00:09:18,540
+to smooth some animation
+
+138
+00:09:18,540 --> 00:09:20,960
+but for this kind of robotic motion,
+
+139
+00:09:20,960 --> 00:09:22,850
+that's so handy.
+
+140
+00:09:22,850 --> 00:09:26,330
+I will repeat the process
+on the X location curve
+
+141
+00:09:26,330 --> 00:09:30,410
+to kind of remove a bit of the
+noise we have in the motion.
+
+142
+00:09:30,410 --> 00:09:34,320
+So this time, I will have
+to work on the whole curve
+
+143
+00:09:34,320 --> 00:09:36,870
+because the left to left motion uses
+
+144
+00:09:36,870 --> 00:09:41,870
+the 72 frame of the whole
+cycle to be performed.
+
+145
+00:09:42,110 --> 00:09:43,690
+The idea is just to get rid
+
+146
+00:09:43,690 --> 00:09:46,420
+of the few glitches we have on the curve.
+
+147
+00:09:46,420 --> 00:09:49,400
+What is so powerful about aim space
+
+148
+00:09:49,400 --> 00:09:50,640
+and this technique
+
+149
+00:09:50,640 --> 00:09:53,640
+is that even if the root of the mini gun,
+
+150
+00:09:53,640 --> 00:09:57,580
+the point where it is
+attached is very shaky
+
+151
+00:09:57,580 --> 00:10:01,120
+because we add a lot of
+noise and secondary motion,
+
+152
+00:10:01,120 --> 00:10:04,040
+if we have a smooth motion of the target,
+
+153
+00:10:04,040 --> 00:10:09,030
+then the tip of the gun will
+have a very smooth motion
+
+154
+00:10:09,030 --> 00:10:13,710
+and so you can create very
+complex animation with ease
+
+155
+00:10:13,710 --> 00:10:16,360
+while that will be almost impossible
+
+156
+00:10:16,360 --> 00:10:19,620
+to counter animate in a classic fashion.
+
+157
+00:10:19,620 --> 00:10:22,540
+For the rocket launcher cap motion,
+
+158
+00:10:22,540 --> 00:10:26,620
+I will simply use a
+locked track constraint.
+
+159
+00:10:26,620 --> 00:10:28,810
+It's gonna be the usual process,
+
+160
+00:10:28,810 --> 00:10:30,920
+so I will repeat it for you.
+
+161
+00:10:30,920 --> 00:10:34,080
+First, we need to add a
+copy transform to the empty,
+
+162
+00:10:34,080 --> 00:10:35,940
+apply the visual transform,
+
+163
+00:10:35,940 --> 00:10:37,460
+get rid of the constraint,
+
+164
+00:10:37,460 --> 00:10:40,950
+offset it, in this case, on the y-axis,
+
+165
+00:10:40,950 --> 00:10:43,310
+add a child of constraint.
+
+166
+00:10:43,310 --> 00:10:45,290
+As a target, choose the armature
+
+167
+00:10:45,290 --> 00:10:48,370
+and the cap controller, set inverse
+
+168
+00:10:48,370 --> 00:10:50,260
+and then bake the action.
+
+169
+00:10:50,260 --> 00:10:52,000
+Get rid of the useless curve.
+
+170
+00:10:52,000 --> 00:10:54,050
+Again, you don't need to do it.
+
+171
+00:10:54,050 --> 00:10:57,480
+I prefer to do it for
+demonstration purpose.
+
+172
+00:10:57,480 --> 00:10:59,430
+Then onto the controller,
+
+173
+00:10:59,430 --> 00:11:01,800
+add a locked track constraint.
+
+174
+00:11:01,800 --> 00:11:04,030
+From there, I get back onto the empty
+
+175
+00:11:04,030 --> 00:11:06,320
+and make the Z curve cycling.
+
+176
+00:11:06,320 --> 00:11:09,680
+Offset it in time and see happened.
+
+177
+00:11:09,680 --> 00:11:11,520
+The only little difference here
+
+178
+00:11:11,520 --> 00:11:15,620
+is that our controller
+has already a constraint
+
+179
+00:11:15,620 --> 00:11:17,190
+that belong to the rig.
+
+180
+00:11:17,190 --> 00:11:20,190
+So this time when I will bake the action,
+
+181
+00:11:20,190 --> 00:11:23,210
+I will uncheck the clear constraint box.
+
+182
+00:11:23,210 --> 00:11:25,330
+It will bake the action as usual
+
+183
+00:11:25,330 --> 00:11:27,240
+but now I can manually get rid
+
+184
+00:11:27,240 --> 00:11:30,350
+of the locked track constraint
+
+185
+00:11:30,350 --> 00:11:33,620
+without losing the original constraint
+
+186
+00:11:33,620 --> 00:11:36,600
+that has been put there
+by your lovely rigger.
+
+187
+00:11:36,600 --> 00:11:40,350
+The last step is to work
+on our artillery piece,
+
+188
+00:11:40,350 --> 00:11:42,430
+so using the visibility bone,
+
+189
+00:11:42,430 --> 00:11:46,220
+I will enable the
+visibility of the artillery.
+
+190
+00:11:46,220 --> 00:11:48,720
+It can move up and down and rotate a bit.
+
+191
+00:11:48,720 --> 00:11:51,630
+So what we will do is
+that we will first use
+
+192
+00:11:51,630 --> 00:11:53,860
+our copy location constraint
+
+193
+00:11:53,860 --> 00:11:57,680
+to create the up and down
+follow-through motion
+
+194
+00:11:57,680 --> 00:12:01,200
+and then a tracking constraint
+to get the rotation.
+
+195
+00:12:01,200 --> 00:12:02,810
+With my empty selected,
+
+196
+00:12:02,810 --> 00:12:05,440
+I've added a copy location constraint.
+
+197
+00:12:05,440 --> 00:12:08,170
+I've sourced the armature,
+
+198
+00:12:08,170 --> 00:12:11,530
+then sourced the
+artillery pivot controller
+
+199
+00:12:11,530 --> 00:12:13,150
+and baked the action.
+
+200
+00:12:13,150 --> 00:12:15,580
+We can then reverse the constraint,
+
+201
+00:12:15,580 --> 00:12:18,260
+meaning that I will select the controller,
+
+202
+00:12:18,260 --> 00:12:20,420
+add a copy location constraint
+
+203
+00:12:20,420 --> 00:12:21,940
+and source the empty.
+
+204
+00:12:21,940 --> 00:12:24,550
+Now I feel like I've repeated this enough
+
+205
+00:12:24,550 --> 00:12:27,010
+but I will go ahead either way.
+
+206
+00:12:27,010 --> 00:12:30,449
+I will slightly offset
+the Z location curve
+
+207
+00:12:30,449 --> 00:12:33,558
+just after I've made it cycling.
+
+208
+00:12:33,558 --> 00:12:35,050
+I like the result,
+
+209
+00:12:35,050 --> 00:12:39,350
+so I will bake this action
+onto the controller.
+
+210
+00:12:39,350 --> 00:12:41,567
+So I need to select my armature,
+
+211
+00:12:41,567 --> 00:12:44,630
+select the controller, click bake action
+
+212
+00:12:44,630 --> 00:12:47,100
+and this time, I can get
+rid of the constraint
+
+213
+00:12:47,100 --> 00:12:50,520
+by checking the clear constraint option.
+
+214
+00:12:50,520 --> 00:12:52,710
+Let's now work in aim space.
+
+215
+00:12:52,710 --> 00:12:55,920
+So I will select back the empty,
+
+216
+00:12:55,920 --> 00:12:58,770
+add to it a copy transform constraint
+
+217
+00:12:58,770 --> 00:13:03,770
+to align it with the controller
+of the artillery piece.
+
+218
+00:13:04,030 --> 00:13:08,350
+Then as usual, I will
+apply the visual transform,
+
+219
+00:13:08,350 --> 00:13:10,410
+get rid of the constraint
+
+220
+00:13:10,410 --> 00:13:13,620
+and offset it on the y-axis.
+
+221
+00:13:13,620 --> 00:13:16,160
+Then we need to add a child of constraint,
+
+222
+00:13:16,160 --> 00:13:20,620
+source the armature, source
+the artillery pivot controller,
+
+223
+00:13:20,620 --> 00:13:23,290
+click the set inverse to rest the position
+
+224
+00:13:23,290 --> 00:13:25,530
+and bake the action.
+
+225
+00:13:25,530 --> 00:13:29,050
+Then I need to use a
+locked track constraint
+
+226
+00:13:29,050 --> 00:13:30,380
+onto the artillery
+
+227
+00:13:30,380 --> 00:13:34,660
+since it can only rotate around its x-axis
+
+228
+00:13:34,660 --> 00:13:38,000
+and the forward axis will be -y
+
+229
+00:13:38,000 --> 00:13:40,720
+and the rotation axis will be x.
+
+230
+00:13:40,720 --> 00:13:43,540
+From there, I will
+repeat the process I did
+
+231
+00:13:43,540 --> 00:13:45,130
+on the mini gun.
+
+232
+00:13:45,130 --> 00:13:49,870
+I want to show that this piece
+of artillery is very heavy.
+
+233
+00:13:49,870 --> 00:13:52,400
+So I don't want too much glitches
+
+234
+00:13:52,400 --> 00:13:55,800
+and too much bounces onto its animation.
+
+235
+00:13:55,800 --> 00:13:58,440
+Since we are using the up and down motion,
+
+236
+00:13:58,440 --> 00:14:01,590
+we can work on half of the curve
+
+237
+00:14:01,590 --> 00:14:04,300
+and then what I will do
+is that I will remove
+
+238
+00:14:04,300 --> 00:14:08,420
+as much keys as needed to smooth the curve
+
+239
+00:14:08,420 --> 00:14:12,030
+and get a very smooth motion of the tip
+
+240
+00:14:12,030 --> 00:14:14,400
+of the artillery cannon.
+
+241
+00:14:14,400 --> 00:14:18,120
+Again and again don't
+hesitate to remove keys.
+
+242
+00:14:18,120 --> 00:14:19,850
+Don't hesitate to fail
+
+243
+00:14:19,850 --> 00:14:22,430
+because you can just rebake the action
+
+244
+00:14:22,430 --> 00:14:24,250
+and start over again.
+
+245
+00:14:24,250 --> 00:14:25,870
+That's very fast.
+
+246
+00:14:25,870 --> 00:14:28,490
+It's a very iterative process
+
+247
+00:14:28,490 --> 00:14:31,480
+until you get to the results you want
+
+248
+00:14:31,480 --> 00:14:33,410
+and that's a very easy process.
+
+249
+00:14:33,410 --> 00:14:36,210
+So in a way, that's very creative.
+
+250
+00:14:36,210 --> 00:14:38,910
+What is super interesting about this piece
+
+251
+00:14:38,910 --> 00:14:41,680
+is again the root or the pace
+
+252
+00:14:41,680 --> 00:14:44,360
+of the artillery is shaking a lot
+
+253
+00:14:44,360 --> 00:14:46,850
+while the tip of the artillery
+
+254
+00:14:46,850 --> 00:14:49,854
+will be moving in a smoother fashion.
+
+255
+00:14:49,854 --> 00:14:54,350
+This bring a lot of
+texture to your animation.
+
+256
+00:14:54,350 --> 00:14:56,600
+And while it can be very subtle,
+
+257
+00:14:56,600 --> 00:14:58,540
+all those little variation
+
+258
+00:14:58,540 --> 00:15:00,543
+in the motion of your character
+
+259
+00:15:00,543 --> 00:15:03,610
+will make this robot believable.
+
+260
+00:15:03,610 --> 00:15:06,090
+And while it's a piece of machinery,
+
+261
+00:15:06,090 --> 00:15:10,680
+it's also a way to put
+life into this character.
+
+262
+00:15:10,680 --> 00:15:12,640
+What makes it alive
+
+263
+00:15:12,640 --> 00:15:16,570
+is that this robot is
+communicating something.
+
+264
+00:15:16,570 --> 00:15:19,560
+Weight, strength, power,
+
+265
+00:15:19,560 --> 00:15:23,200
+that's some kind of dreadful
+character we have here.
+
+266
+00:15:23,200 --> 00:15:26,220
+So as we are almost done
+with this animation,
+
+267
+00:15:26,220 --> 00:15:29,380
+take the time to watch it entirely.
+
+268
+00:15:29,380 --> 00:15:33,470
+I feel like the head
+motion is a bit too strong.
+
+269
+00:15:33,470 --> 00:15:38,005
+So what I can do now is simply
+take the head controller
+
+270
+00:15:38,005 --> 00:15:42,406
+and reduce the amplitude
+of the curve I want.
+
+271
+00:15:42,406 --> 00:15:45,860
+In this case, I feel like
+the up and down motion
+
+272
+00:15:45,860 --> 00:15:46,960
+is a bit too strong.
+
+273
+00:15:46,960 --> 00:15:50,145
+So I will head up to the Z location curve
+
+274
+00:15:50,145 --> 00:15:53,070
+and I can see that my 2D cursor
+
+275
+00:15:53,070 --> 00:15:56,380
+is currently aligned with the value zero,
+
+276
+00:15:56,380 --> 00:15:58,620
+which means no motion.
+
+277
+00:15:58,620 --> 00:16:01,960
+So I can switch to the 2D cursor pivot
+
+278
+00:16:01,960 --> 00:16:06,030
+and scale the curve down on the y-axis
+
+279
+00:16:06,030 --> 00:16:08,380
+and it will reduce the amplitude
+
+280
+00:16:08,380 --> 00:16:11,330
+of the up and down motion of the head.
+
+281
+00:16:11,330 --> 00:16:13,780
+And since we've baked all the motion
+
+282
+00:16:13,780 --> 00:16:17,220
+of all the other parts
+in their local space
+
+283
+00:16:17,220 --> 00:16:21,020
+and they are kind of
+attached one to the other,
+
+284
+00:16:21,020 --> 00:16:24,550
+whenever we modify one piece in this way,
+
+285
+00:16:24,550 --> 00:16:26,020
+the other follow.
+
+286
+00:16:26,020 --> 00:16:30,302
+So if I want, I can select
+the cap of the rocket launcher
+
+287
+00:16:30,302 --> 00:16:34,160
+and increase the amplitude of the rotation
+
+288
+00:16:34,160 --> 00:16:36,150
+and get more motion.
+
+289
+00:16:36,150 --> 00:16:38,570
+I can also offset the whole curve
+
+290
+00:16:38,570 --> 00:16:43,570
+on the y-axis and change the
+whole orientation of the cap.
+
+291
+00:16:43,710 --> 00:16:46,980
+And here we are, in a very short time,
+
+292
+00:16:46,980 --> 00:16:50,613
+we were able to animate
+this full character
+
+293
+00:16:50,613 --> 00:16:55,363
+with a lot of variety, texture
+and interesting motions.
+

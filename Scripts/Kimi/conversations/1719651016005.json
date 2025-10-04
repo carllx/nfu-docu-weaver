@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cpvslib3vddjh6ebhfd0",
+    "attachments": [
+        {
+            "date": 2010,
+            "title": "Creativity and art: Three roads to surprise",
+            "fileID": "cpq4e64dvon4ts5tb7mg",
+            "itemID": 601,
+            "citation": "Boden, M. A. (2010). Creativity and art: Three roads to surprise. Oxford University Press.\n",
+            "citationShort": "Boden, 2010",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题： 提取所有本书所涉及的艺术家以及 作者引用这位艺术家所支持的论点\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Creativity and art: Three roads to surprise, was published on 2010. (It can be cite this paper as Boden, 2010 on your answer). \n\n",
+    "response": "根据您提供的文件《Creativity and Art: Three Roads to Surprise》（Boden, 2010），以下是文中提及的艺术家及相关论点的概述：\n\n1. **Harold Cohen** - 他是在20世纪60年代末，作为一位高度赞誉的抽象画家，开始了他的AARON程序系列，以期阐明自己的创造力（Cohen 1981, 1995, 2002）。这支持了计算机艺术可以揭示人类创造力的观点。\n\n2. **Eduardo Kac** - 通过创造一个基因工程改造的、在紫外线下会发出荧光的白色兔子，挑战了人们对艺术的传统观念（Boden, 2010: Introduction 7）。这体现了概念艺术的创新性和挑战性。\n\n3. **Finnegan’s Wake** - 虽然不是艺术家，但这本书通过其文学手法，展示了创新组合的惊人之处，即使这些组合可能令人感到震惊或愤怒。\n\n4. **Joseph Addison** (1714) - 他的观点是，有时候违反艺术规则比遵守规则更能显示出判断力，这支持了创造性可能与对规则的偏离有关。\n\n5. **Anthony O’Hear** (1995) - 他认为艺术涉及人与人之间的交流，如果艺术作品是由计算机生成的，那么它就不是真正的艺术作品。这代表了一种对计算机艺术持怀疑态度的观点。\n\n6. **Mark Rothko** 和其他ColorField画家 - 他们的作品被用来庆祝ColorField画家的60周年纪念展览，包括在华盛顿特区的展览中，这表明计算机艺术可以被传统艺术界接受并视为艺术（Boden, 2010: Introduction 7）。\n\n7. **Ken Goldberg** - 通过他的Telegarden项目，展示了网络艺术（N-Art）的可能性，这个项目允许全球的用户通过网络远程参与到一个实际的花园的种植与维护中（Boden, 2010: Introduction 12）。\n\n8. **E. A. Edmonds** - 与Boden共同撰写了第七章“生成艺术是什么？”，提供了对计算机艺术领域的新颖分类，并讨论了伴随这些类别的哲学问题。\n\n9. **Todd and Latham** (1992) - 他们通过创建不断变化的图像，展示了计算机艺术的动态性和互动性。\n\n10. **Edmonds** (2007) - 通过他的“Mimetic Starfish”项目，展示了互动艺术如何对观众的行为做出反应，引发了关于艺术与观众之间互动的美学问题。\n\n请注意，上述列表可能不全面，因为文档内容非常丰富，可能还有其他艺术家及其作品在文中被提及。这些艺术家和他们的作品被用来支持作者关于创造性、艺术以及计算机艺术的论点。",
+    "refs": [
+        "cpq4e64dvon4ts5tb7mg"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpvslij3vddjh6ebhfg0",
+    "req_id": "cpvslij3vddjh6ebhfgg",
+    "resp_id": "cpvslij3vddjh6ebhfh0",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题： 提取所有本书所涉及的艺术家以及 作者引用这位艺术家所支持的论点"
+}

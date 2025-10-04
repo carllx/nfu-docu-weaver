@@ -1,0 +1,111 @@
+# 教学一致性检查清单
+# 版本: 1.1
+# 触发条件: 教学设计师完成 lesson-plan.md 后自动执行
+
+checklist:
+  name: "教学一致性检查清单"
+  description: "确保教学设计文档之间的一致性和质量"
+  trigger: "教学设计师完成 lesson-plan.md 后自动执行"
+  version: "1.1"
+  
+  # 检查项目定义
+  items:
+    - id: "objective-alignment"
+      category: "目标一致性"
+      description: "lesson-plan 中的所有教学活动是否都直接服务于 story.md 的教学目标？"
+      severity: "critical"
+      check_type: "content_validation"
+      validation_rules:
+        - rule: "每个教学活动必须在 lesson-plan.md 中明确关联到 story.md 中的学习目标"
+        - rule: "教学活动的描述必须包含预期的学习成果"
+        - rule: "活动的难度级别必须符合 story.md 中定义的学生能力水平"
+      failure_action: "必须向用户报告并请求修正教学活动设计"
+      
+    - id: "time-allocation"
+      category: "时间分配"
+      description: "lesson-plan 中规划的时间分配是否合理？"
+      severity: "major"
+      check_type: "logical_validation"
+      validation_rules:
+        - rule: "每个教学环节的时间分配必须在合理范围内（5-90分钟）"
+        - rule: "总课时必须与 story.md 中定义的课时长度一致"
+        - rule: "重点难点内容的时间分配应占总课时的 60% 以上"
+        - rule: "必须预留适当的互动和答疑时间（不少于总课时的 15%）"
+      failure_action: "必须向用户报告时间分配问题并建议调整"
+      
+    - id: "assessment-alignment"
+      category: "评估一致性"
+      description: "关联的 rubrics.md 中的评分项是否能有效衡量 story.md 中定义的学生能力？"
+      severity: "critical"
+      check_type: "alignment_validation"
+      validation_rules:
+        - rule: "每个评分项必须直接对应 story.md 中的一个或多个学习目标"
+        - rule: "评分标准必须覆盖知识、技能、态度三个维度"
+        - rule: "评分等级必须清晰定义，避免模糊描述"
+        - rule: "高分标准必须体现高阶思维能力的运用"
+      failure_action: "必须重新设计评分标准以确保有效评估"
+      
+    - id: "upstream-consistency"
+      category: "上游一致性"
+      description: "是否存在与上游 prd.md 或 syllabus.md 的明显冲突？"
+      severity: "critical"
+      check_type: "consistency_validation"
+      validation_rules:
+        - rule: "教学目标必须与 prd.md 中的课程目标保持一致"
+        - rule: "教学内容不能超出 syllabus.md 中定义的范围"
+        - rule: "教学方法必须符合 prd.md 中规定的教学策略"
+        - rule: "评估方式必须与 syllabus.md 中的评估体系兼容"
+      failure_action: "必须向上游文档维护者报告冲突并请求协调"
+      
+    - id: "pedagogical-soundness"
+      category: "教学合理性"
+      description: "教学设计是否符合教育理论原则？"
+      severity: "major"
+      check_type: "theory_validation"
+      validation_rules:
+        - rule: "教学活动设计必须体现加涅九段教学法的原则"
+        - rule: "学习活动必须考虑学生的认知负荷"
+        - rule: "教学顺序必须符合从简单到复杂的认知规律"
+        - rule: "必须包含适当的反馈和强化机制"
+      failure_action: "必须根据教育理论重新设计教学活动"
+      
+    - id: "practical-feasibility"
+      category: "实施可行性"
+      description: "教学设计在实际教学中是否可行？"
+      severity: "minor"
+      check_type: "feasibility_validation"
+      validation_rules:
+        - rule: "所需的教学资源必须在合理范围内可获得"
+        - rule: "技术要求和设备需求必须明确且可实现"
+        - rule: "学生人数和班级规模必须考虑在内"
+        - rule: "教师的工作负荷必须在可承受范围内"
+      failure_action: "建议调整教学设计以提高实施可行性"
+
+  # 检查执行配置
+  execution:
+    auto_trigger: true
+    trigger_conditions:
+      - "lesson-plan.md 文件被创建或修改"
+      - "story.md 文件被创建或修改"
+    execution_order: "sequential"
+    stop_on_failure: true
+    
+  # 报告配置
+  reporting:
+    format: "structured_report"
+    include_recommendations: true
+    severity_levels:
+      critical: "必须修正，否则不能继续后续工作"
+      major: "强烈建议修正，可能影响教学质量"
+      minor: "建议修正，以优化教学效果"
+    
+  # 自动化操作
+  automation:
+    on_success:
+      - "允许继续执行后续智能体任务"
+      - "记录检查通过状态"
+    on_failure:
+      - "暂停后续智能体执行"
+      - "向用户显示详细的错误报告"
+      - "提供修正建议和示例"
+      - "等待用户确认修正完成后重新检查"

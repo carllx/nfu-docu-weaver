@@ -1,0 +1,731 @@
+﻿1
+00:00:00,110 --> 00:00:02,530
+- [Instructor] We still
+have a couple of breakdowns
+
+2
+00:00:02,530 --> 00:00:04,960
+to add to our current animation,
+
+3
+00:00:04,960 --> 00:00:07,708
+but before we do so
+I'd like to give myself
+
+4
+00:00:07,708 --> 00:00:10,370
+some space on the action editor.
+
+5
+00:00:10,370 --> 00:00:12,660
+As explained before, for the time being,
+
+6
+00:00:12,660 --> 00:00:14,900
+I'm not working on the timing
+
+7
+00:00:14,900 --> 00:00:17,900
+of my animation, only the poses.
+
+8
+00:00:17,900 --> 00:00:20,800
+So I want to move all
+the poses of my character
+
+9
+00:00:20,800 --> 00:00:23,970
+and the punching bag every five frames.
+
+10
+00:00:23,970 --> 00:00:27,240
+So instead of working on
+the action of the character
+
+11
+00:00:27,240 --> 00:00:30,170
+and the action of the bag separately,
+
+12
+00:00:30,170 --> 00:00:32,280
+I will switch to the dope sheet.
+
+13
+00:00:32,280 --> 00:00:36,190
+The dope sheet will expose me
+all the keys frame available
+
+14
+00:00:36,190 --> 00:00:38,000
+in the actual blender scene.
+
+15
+00:00:38,000 --> 00:00:41,360
+If I collapse the action
+details in the dope sheet,
+
+16
+00:00:41,360 --> 00:00:45,450
+we can see that both the Trident
+and punching bag armature
+
+17
+00:00:45,450 --> 00:00:49,560
+are listed in the dope sheet,
+along with their own actions.
+
+18
+00:00:49,560 --> 00:00:53,090
+And since we were posing
+those two in sync,
+
+19
+00:00:53,090 --> 00:00:55,060
+their key frame are aligned.
+
+20
+00:00:55,060 --> 00:00:57,640
+So by clicking the summary key,
+
+21
+00:00:57,640 --> 00:01:00,638
+I can select all the
+keys for both the action
+
+22
+00:01:00,638 --> 00:01:02,719
+and offset them in time.
+
+23
+00:01:02,719 --> 00:01:06,470
+From there, back onto
+my current animation,
+
+24
+00:01:06,470 --> 00:01:09,730
+I will select the summary keys
+
+25
+00:01:09,730 --> 00:01:13,470
+and position them every five frames.
+
+26
+00:01:13,470 --> 00:01:16,670
+This is a good moment to
+review the different poses
+
+27
+00:01:16,670 --> 00:01:19,480
+and see how they flow one with the other.
+
+28
+00:01:19,480 --> 00:01:21,060
+And this is generally the time
+
+29
+00:01:21,060 --> 00:01:23,740
+where I find tweak some of the poses.
+
+30
+00:01:23,740 --> 00:01:26,130
+I may push them a little more.
+
+31
+00:01:26,130 --> 00:01:28,997
+You may spot weird poses of the shoulder
+
+32
+00:01:28,997 --> 00:01:31,910
+or the shape of the arms or the position
+
+33
+00:01:31,910 --> 00:01:33,880
+of the center of gravity compared
+
+34
+00:01:33,880 --> 00:01:36,280
+to the previous or next pose.
+
+35
+00:01:36,280 --> 00:01:38,650
+Since it's a creative process,
+
+36
+00:01:38,650 --> 00:01:43,610
+it's sometimes hard to
+clearly explain what I'm doing
+
+37
+00:01:43,610 --> 00:01:46,400
+because it's a lot about feeling.
+
+38
+00:01:46,400 --> 00:01:49,670
+And when you scrub through
+your different poses,
+
+39
+00:01:49,670 --> 00:01:52,970
+you may feel that something
+is wrong or that something
+
+40
+00:01:52,970 --> 00:01:55,710
+could be improving the flow of your poses,
+
+41
+00:01:55,710 --> 00:01:58,653
+and the blocking stage
+is the moment to do it.
+
+42
+00:02:00,050 --> 00:02:03,690
+The next breakdown I'm
+going to do is the jump
+
+43
+00:02:03,690 --> 00:02:05,800
+during the switch for the switch kick.
+
+44
+00:02:05,800 --> 00:02:09,110
+I'm going to do a pose where
+are both feet are in the air.
+
+45
+00:02:09,110 --> 00:02:10,960
+Depending on the reference and watching
+
+46
+00:02:10,960 --> 00:02:13,480
+distance might be more or less opened.
+
+47
+00:02:13,480 --> 00:02:17,250
+Liam Narissan on the left
+side has a crazy open stance
+
+48
+00:02:17,250 --> 00:02:20,320
+because he's going to
+throw a very powerful kick.
+
+49
+00:02:20,320 --> 00:02:23,682
+There a very quick and subtle
+moment during the switch
+
+50
+00:02:23,682 --> 00:02:28,682
+where the body is making a C
+shape toward the left shoulder.
+
+51
+00:02:28,870 --> 00:02:33,050
+And then as a spring, the
+body bent the opposite way,
+
+52
+00:02:33,050 --> 00:02:36,880
+and this is what I want to
+achieve with this breakdown pose.
+
+53
+00:02:36,880 --> 00:02:39,680
+I'm not sure if it's super accurate,
+
+54
+00:02:39,680 --> 00:02:41,170
+but it does seem to work.
+
+55
+00:02:41,170 --> 00:02:43,100
+And if it doesn't work in the end,
+
+56
+00:02:43,100 --> 00:02:44,830
+I can change it to later on.
+
+57
+00:02:44,830 --> 00:02:48,000
+One super important detail
+that I want you to spot
+
+58
+00:02:48,000 --> 00:02:49,830
+before posing your character
+
+59
+00:02:49,830 --> 00:02:51,900
+is the position of the right foot.
+
+60
+00:02:51,900 --> 00:02:54,910
+Look, how much it is open to the outside
+
+61
+00:02:54,910 --> 00:02:56,670
+whenever it hits the ground.
+
+62
+00:02:56,670 --> 00:03:00,030
+With this position, as
+soon as the left foot
+
+63
+00:03:00,030 --> 00:03:03,590
+will leave the ground, the
+hips will naturally twist
+
+64
+00:03:03,590 --> 00:03:07,470
+towards the right foot,
+increasing the power of the kick.
+
+65
+00:03:07,470 --> 00:03:10,660
+So when I'm posing the
+right foot I make sure that,
+
+66
+00:03:10,660 --> 00:03:14,200
+even in the air, it starts to open a bit.
+
+67
+00:03:14,200 --> 00:03:17,360
+The foot doesn't rotate
+when it hits the ground,
+
+68
+00:03:17,360 --> 00:03:19,970
+but just before, when it is in the air.
+
+69
+00:03:19,970 --> 00:03:22,100
+Keeping the right foot pretty flat
+
+70
+00:03:22,100 --> 00:03:25,060
+while the left foot will land on its tip.
+
+71
+00:03:25,060 --> 00:03:28,000
+So I make sure that the
+tip of the left foot
+
+72
+00:03:28,000 --> 00:03:31,180
+is pointing toward its landing zone.
+
+73
+00:03:31,180 --> 00:03:34,870
+The left arm is raising,
+the right arm is dropping.
+
+74
+00:03:34,870 --> 00:03:37,520
+So I make a bit the forearm dragging,
+
+75
+00:03:37,520 --> 00:03:40,939
+meaning that the left arm
+will be slightly straighter
+
+76
+00:03:40,939 --> 00:03:44,290
+while the right arm will be slightly bent.
+
+77
+00:03:44,290 --> 00:03:48,470
+Finally, I've exaggerated
+the C shape of the torso,
+
+78
+00:03:48,470 --> 00:03:49,910
+maybe a bit too much.
+
+79
+00:03:49,910 --> 00:03:51,680
+I will see that later on.
+
+80
+00:03:51,680 --> 00:03:52,630
+For the next pose.
+
+81
+00:03:52,630 --> 00:03:54,716
+I wanted to create the overshoot
+
+82
+00:03:54,716 --> 00:03:57,420
+just after the leg hit the bag.
+
+83
+00:03:57,420 --> 00:04:00,210
+At this point, the leg is almost straight
+
+84
+00:04:00,210 --> 00:04:02,500
+as the kicker is trying
+to get through the bag
+
+85
+00:04:02,500 --> 00:04:03,930
+or through the pose.
+
+86
+00:04:03,930 --> 00:04:06,840
+What's interesting is
+that at this very stage,
+
+87
+00:04:06,840 --> 00:04:10,140
+the hips already start to twist backwards
+
+88
+00:04:10,140 --> 00:04:12,010
+and then the shoulders will follow.
+
+89
+00:04:12,010 --> 00:04:13,880
+And if you watch the right heel,
+
+90
+00:04:13,880 --> 00:04:15,880
+it seems it's hitting a wall.
+
+91
+00:04:15,880 --> 00:04:19,350
+This is also a moment
+where I am going to build
+
+92
+00:04:19,350 --> 00:04:21,650
+a little smear on the left leg.
+
+93
+00:04:21,650 --> 00:04:24,920
+Using the tweaker bone, I
+slightly the break the joint
+
+94
+00:04:24,920 --> 00:04:29,500
+to bend it into a knock that
+is the opposite direction
+
+95
+00:04:29,500 --> 00:04:31,750
+a leg normally bend.
+
+96
+00:04:31,750 --> 00:04:33,570
+While the body of our character
+
+97
+00:04:33,570 --> 00:04:35,550
+is not supposed to move that much,
+
+98
+00:04:35,550 --> 00:04:39,420
+this recreate a nice contrast
+in the shapes of the leg
+
+99
+00:04:39,420 --> 00:04:42,863
+and will better communicate
+the strength of the impact.
+
+100
+00:04:43,960 --> 00:04:45,240
+As it is an overshoot,
+
+101
+00:04:45,240 --> 00:04:50,230
+I want to push for one beat
+and then we need to twist it
+
+102
+00:04:50,230 --> 00:04:54,270
+back a little bit in reaction
+to the impact with the bag.
+
+103
+00:04:54,270 --> 00:04:56,480
+We need to do the same with the hips
+
+104
+00:04:56,480 --> 00:04:58,050
+and the chest controller.
+
+105
+00:04:58,050 --> 00:04:59,990
+This is the time where the right foot
+
+106
+00:04:59,990 --> 00:05:03,740
+hit its extreme toward the target,
+
+107
+00:05:03,740 --> 00:05:06,370
+so I rotate it a bit to the left.
+
+108
+00:05:06,370 --> 00:05:09,110
+Since the left arm was swinging back,
+
+109
+00:05:09,110 --> 00:05:12,180
+I will rotate it a bit backward.
+
+110
+00:05:12,180 --> 00:05:15,410
+And since the right arm
+was rotating forward,
+
+111
+00:05:15,410 --> 00:05:18,150
+I will rotate eat a little more forward.
+
+112
+00:05:18,150 --> 00:05:21,320
+Regarding the left leg, I
+want to exaggerate its pose,
+
+113
+00:05:21,320 --> 00:05:24,830
+so I will push the left foot controller
+
+114
+00:05:24,830 --> 00:05:26,820
+further away from the hips.
+
+115
+00:05:26,820 --> 00:05:29,160
+I've also repositioned the pull target
+
+116
+00:05:29,160 --> 00:05:31,850
+to make sure that the knee's not flipping.
+
+117
+00:05:31,850 --> 00:05:35,450
+It's totally fine to have
+some stretching in the leg,
+
+118
+00:05:35,450 --> 00:05:38,000
+because whenever we are
+building a smear frame,
+
+119
+00:05:38,000 --> 00:05:40,860
+it won't last more than one or two frames.
+
+120
+00:05:40,860 --> 00:05:44,000
+If you were supposed to feel
+this beyond, not see it.
+
+121
+00:05:44,000 --> 00:05:45,530
+You want to the knock that will
+
+122
+00:05:45,530 --> 00:05:47,760
+wrap around the punching bag,
+
+123
+00:05:47,760 --> 00:05:51,520
+so I'm even rotating the
+toes in this direction.
+
+124
+00:05:51,520 --> 00:05:55,260
+I've enabled the trochlear
+of the leg in the read UI.
+
+125
+00:05:55,260 --> 00:05:57,960
+And from there, I will
+move them one by one
+
+126
+00:05:57,960 --> 00:06:00,110
+to shape the leg into a knock.
+
+127
+00:06:00,110 --> 00:06:01,800
+Start with the new controller,
+
+128
+00:06:01,800 --> 00:06:04,560
+as it allows you to bend the knee backward
+
+129
+00:06:04,560 --> 00:06:06,730
+and then use the smaller tweaker bone
+
+130
+00:06:06,730 --> 00:06:09,850
+to create a the arc with
+the sheen of the character.
+
+131
+00:06:09,850 --> 00:06:12,190
+As I was building the pose and rotating
+
+132
+00:06:12,190 --> 00:06:14,380
+a lot around my character,
+
+133
+00:06:14,380 --> 00:06:17,750
+I've noticed that the
+punching bag was not reacting
+
+134
+00:06:17,750 --> 00:06:19,650
+in the right direction.
+
+135
+00:06:19,650 --> 00:06:23,110
+Eventually, I fixed this by reworking
+
+136
+00:06:23,110 --> 00:06:25,170
+all the pose after the kick.
+
+137
+00:06:25,170 --> 00:06:29,096
+Slowly but surely, and even
+without working on the timing,
+
+138
+00:06:29,096 --> 00:06:33,620
+our animation flow is
+getting better and better.
+
+139
+00:06:33,620 --> 00:06:37,250
+The very last pose I've created
+for this breakdown stage
+
+140
+00:06:37,250 --> 00:06:39,360
+is the transition into idle.
+
+141
+00:06:39,360 --> 00:06:42,070
+It's the moment where
+the left leg is dropping,
+
+142
+00:06:42,070 --> 00:06:45,100
+almost straight, into a nice arc.
+
+143
+00:06:45,100 --> 00:06:46,760
+All the weight is on the right foot
+
+144
+00:06:46,760 --> 00:06:49,210
+and counter balancing the left leg.
+
+145
+00:06:49,210 --> 00:06:53,830
+So the body is creating a
+nice C shape to the right.
+
+146
+00:06:53,830 --> 00:06:56,960
+This is not a very difficult pose to build
+
+147
+00:06:56,960 --> 00:06:59,226
+since it's really flowing between
+
+148
+00:06:59,226 --> 00:07:02,630
+the kicking pose and the next pose.
+
+149
+00:07:02,630 --> 00:07:04,950
+Don't forget to also rework the bag
+
+150
+00:07:04,950 --> 00:07:07,050
+and move some of these poses.
+
+151
+00:07:07,050 --> 00:07:09,937
+It doesn't matter if you have
+a hard time with the bag.
+
+152
+00:07:09,937 --> 00:07:12,940
+The most important pose
+are the contact pose
+
+153
+00:07:12,940 --> 00:07:14,170
+with the character.
+
+154
+00:07:14,170 --> 00:07:17,314
+If at this stage, you have
+a hard time figuring out
+
+155
+00:07:17,314 --> 00:07:20,550
+all the poses of the bag,
+that's not a problem.
+
+156
+00:07:20,550 --> 00:07:22,900
+For the time being, keep
+the poses of the bag
+
+157
+00:07:22,900 --> 00:07:25,650
+and the character synchronized.
+
+158
+00:07:25,650 --> 00:07:27,820
+When we will on the
+timing of the character,
+
+159
+00:07:27,820 --> 00:07:32,820
+it will be easier to figure
+out the timing for the bag too.
+
+160
+00:07:33,390 --> 00:07:35,620
+Regarding the current pose, to be honest,
+
+161
+00:07:35,620 --> 00:07:37,500
+I don't really know what to say
+
+162
+00:07:37,500 --> 00:07:40,130
+since it's a pretty simple pose.
+
+163
+00:07:40,130 --> 00:07:41,750
+You have the reference,
+
+164
+00:07:41,750 --> 00:07:44,840
+just try your best to
+fit what you are seeing.
+
+165
+00:07:44,840 --> 00:07:47,670
+In the next video we are going to give
+
+166
+00:07:47,670 --> 00:07:50,443
+a first pass to the
+timing of our blocking.
+

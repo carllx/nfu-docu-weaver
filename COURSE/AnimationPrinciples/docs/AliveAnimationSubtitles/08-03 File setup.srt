@@ -1,0 +1,686 @@
+﻿1
+00:00:00,133 --> 00:00:00,966
+- [Instructor] It's time
+
+2
+00:00:00,966 --> 00:00:02,800
+to prepare our Blender file.
+
+3
+00:00:02,800 --> 00:00:06,489
+First, let's get rid of
+everything by pressing A
+
+4
+00:00:06,489 --> 00:00:09,580
+to select all the object
+and X to delete them.
+
+5
+00:00:09,580 --> 00:00:13,120
+From there, we need to link our first rig.
+
+6
+00:00:13,120 --> 00:00:16,840
+So while you go to File,
+Link, go into the folder
+
+7
+00:00:16,840 --> 00:00:18,200
+of chapter eight
+
+8
+00:00:18,200 --> 00:00:20,630
+and select the, "Punching Bag" file.
+
+9
+00:00:20,630 --> 00:00:22,250
+Choose the, "Collection" folder
+
+10
+00:00:22,250 --> 00:00:25,330
+and here you will find
+only one collection.
+
+11
+00:00:25,330 --> 00:00:27,220
+Just double click it.
+
+12
+00:00:27,220 --> 00:00:28,560
+Click the arrow next
+
+13
+00:00:28,560 --> 00:00:31,580
+to the orange collection to unfold it
+
+14
+00:00:31,580 --> 00:00:34,350
+and right click on the sub-collection,
+
+15
+00:00:34,350 --> 00:00:35,780
+go to ID data,
+
+16
+00:00:35,780 --> 00:00:39,240
+and choose make library
+override hierarchy.
+
+17
+00:00:39,240 --> 00:00:41,500
+Now both the punching bag object
+
+18
+00:00:41,500 --> 00:00:43,420
+and armature are available.
+
+19
+00:00:43,420 --> 00:00:45,230
+In the viewport changing option,
+
+20
+00:00:45,230 --> 00:00:47,130
+I will enable textures.
+
+21
+00:00:47,130 --> 00:00:49,550
+Now I will select the armature
+
+22
+00:00:49,550 --> 00:00:52,450
+and press control tab
+to enter, "Poles Mode."
+
+23
+00:00:52,450 --> 00:00:55,000
+The main rotation
+controller will allow you
+
+24
+00:00:55,000 --> 00:00:56,740
+to swing the punching bag.
+
+25
+00:00:56,740 --> 00:00:58,410
+The blue controllers are
+
+26
+00:00:58,410 --> 00:01:00,520
+a forward kinematic chain.
+
+27
+00:01:00,520 --> 00:01:03,870
+You are free to rotate,
+scale or move them.
+
+28
+00:01:03,870 --> 00:01:06,927
+The yellow controller
+on the tree curve bone.
+
+29
+00:01:06,927 --> 00:01:08,910
+They are perfect to
+create the impact frames.
+
+30
+00:01:08,910 --> 00:01:12,040
+There is also a controller
+to move the chains,
+
+31
+00:01:12,040 --> 00:01:14,770
+but I don't think we are
+going to move this one.
+
+32
+00:01:14,770 --> 00:01:15,603
+Finally,
+
+33
+00:01:15,603 --> 00:01:16,970
+you will find a root controller
+
+34
+00:01:16,970 --> 00:01:19,290
+to move the whole rig in space.
+
+35
+00:01:19,290 --> 00:01:21,250
+We need to link our character
+
+36
+00:01:21,250 --> 00:01:23,840
+so we can go to file link.
+
+37
+00:01:23,840 --> 00:01:25,800
+I will go in the folder
+
+38
+00:01:25,800 --> 00:01:27,657
+of chapter five and click the,
+
+39
+00:01:27,657 --> 00:01:29,893
+"Trident Rig" final file.
+
+40
+00:01:35,690 --> 00:01:37,750
+From there going to collection
+
+41
+00:01:37,750 --> 00:01:40,630
+and choose, "Trident
+Character Collection",
+
+42
+00:01:40,630 --> 00:01:42,030
+no click the arrow next
+
+43
+00:01:42,030 --> 00:01:44,830
+to, "Trident Character Collection"
+
+44
+00:01:44,830 --> 00:01:46,840
+and right cheek on the sub collection,
+
+45
+00:01:46,840 --> 00:01:48,587
+go to ID data and choose,
+
+46
+00:01:48,587 --> 00:01:51,032
+"Make library override hierarchy."
+
+47
+00:01:51,032 --> 00:01:52,820
+We now need to load
+
+48
+00:01:52,820 --> 00:01:54,890
+our rig script
+
+49
+00:01:54,890 --> 00:01:56,010
+to do so.
+
+50
+00:01:56,010 --> 00:01:59,470
+Open the text editor
+instead of the timeline.
+
+51
+00:01:59,470 --> 00:02:01,560
+Then in the middle of the top bar
+
+52
+00:02:01,560 --> 00:02:02,750
+of the detail.
+
+53
+00:02:02,750 --> 00:02:05,120
+Click the folder to open
+
+54
+00:02:05,120 --> 00:02:07,310
+the punching bag rig UI.
+
+55
+00:02:07,310 --> 00:02:09,620
+Once the script is open,
+
+56
+00:02:09,620 --> 00:02:12,870
+go to text and click the register option.
+
+57
+00:02:12,870 --> 00:02:13,703
+From there,
+
+58
+00:02:13,703 --> 00:02:15,010
+you can press the play button
+
+59
+00:02:15,010 --> 00:02:17,640
+in the top bar of the text editor.
+
+60
+00:02:17,640 --> 00:02:20,450
+This will enable the
+UI of the punching bag,
+
+61
+00:02:20,450 --> 00:02:23,490
+which is very busy with a few layers.
+
+62
+00:02:23,490 --> 00:02:24,323
+From there.
+
+63
+00:02:24,323 --> 00:02:25,590
+Repeat the process and go
+
+64
+00:02:25,590 --> 00:02:27,530
+to folder number five and search
+
+65
+00:02:27,530 --> 00:02:29,340
+for the Trident rig script.
+
+66
+00:02:29,340 --> 00:02:31,680
+Again, go to text register
+
+67
+00:02:31,680 --> 00:02:33,590
+and then press the play button.
+
+68
+00:02:33,590 --> 00:02:34,423
+From there.
+
+69
+00:02:34,423 --> 00:02:36,500
+Let's open the action detail
+
+70
+00:02:36,500 --> 00:02:37,640
+where we will be able
+
+71
+00:02:37,640 --> 00:02:39,410
+to access the king set
+
+72
+00:02:39,410 --> 00:02:41,490
+of our different rigs.
+
+73
+00:02:41,490 --> 00:02:43,670
+I will start with the character.
+
+74
+00:02:43,670 --> 00:02:47,370
+I will switch from dope
+sheet to action editor,
+
+75
+00:02:47,370 --> 00:02:51,200
+and I will simply
+duplicate decaying action,
+
+76
+00:02:51,200 --> 00:02:52,330
+but I will rename
+
+77
+00:02:52,330 --> 00:02:54,490
+the action combo blocking
+
+78
+00:02:54,490 --> 00:02:55,700
+on there in the field of view,
+
+79
+00:02:55,700 --> 00:02:56,980
+I will press control tab
+
+80
+00:02:56,980 --> 00:02:59,340
+to get back into, "Object Mode,"
+
+81
+00:02:59,340 --> 00:03:02,950
+select the rig off our punching bag
+
+82
+00:03:02,950 --> 00:03:04,930
+and do the same process.
+
+83
+00:03:04,930 --> 00:03:07,490
+Duplicate the current action
+
+84
+00:03:07,490 --> 00:03:11,030
+and rename it, "Combo blocking back."
+
+85
+00:03:11,030 --> 00:03:15,200
+Then I will go back onto the Trident rig
+
+86
+00:03:15,200 --> 00:03:16,920
+and in the rig properties,
+
+87
+00:03:16,920 --> 00:03:21,160
+I will disable the visibility
+of all the weapons.
+
+88
+00:03:21,160 --> 00:03:23,370
+Then I will hide the controllers
+
+89
+00:03:23,370 --> 00:03:24,620
+of the weapons.
+
+90
+00:03:24,620 --> 00:03:26,729
+And in the head and neck properties
+
+91
+00:03:26,729 --> 00:03:27,810
+I will make sure
+
+92
+00:03:27,810 --> 00:03:29,813
+that the, "Head follow," is disabled
+
+93
+00:03:29,813 --> 00:03:32,220
+and the, "Neck follow," is enabled.
+
+94
+00:03:32,220 --> 00:03:33,440
+This animation we are going
+
+95
+00:03:33,440 --> 00:03:35,870
+to use arm forward kinematic
+
+96
+00:03:35,870 --> 00:03:37,830
+with the, "Arm follow," disabled
+
+97
+00:03:37,830 --> 00:03:39,920
+on both arms.
+
+98
+00:03:39,920 --> 00:03:41,300
+From there let's position,
+
+99
+00:03:41,300 --> 00:03:43,200
+the heavy bag or punching bag.
+
+100
+00:03:43,200 --> 00:03:44,467
+I will switch to object mode,
+
+101
+00:03:44,467 --> 00:03:46,310
+select it and press control tab
+
+102
+00:03:46,310 --> 00:03:48,340
+to switch to, "Post Mode."
+
+103
+00:03:48,340 --> 00:03:49,890
+Let's select the root bone
+
+104
+00:03:49,890 --> 00:03:54,150
+and set it's Z position to 0.2 meters
+
+105
+00:03:54,150 --> 00:03:58,821
+and Y position to minus 1.5 meters.
+
+106
+00:03:58,821 --> 00:03:59,654
+(swoosh)
+
+107
+00:03:59,654 --> 00:04:01,980
+Now I like to change the model preview,
+
+108
+00:04:01,980 --> 00:04:04,720
+so I will go to the
+viewport shading option,
+
+109
+00:04:04,720 --> 00:04:08,500
+switch to flat and enable
+cavity and shadows.
+
+110
+00:04:08,500 --> 00:04:11,230
+I think it offers a better readability
+
+111
+00:04:11,230 --> 00:04:12,300
+of the models.
+
+112
+00:04:12,300 --> 00:04:15,330
+A little tip here, select a both armature
+
+113
+00:04:15,330 --> 00:04:17,820
+in object mode, then press control tab,
+
+114
+00:04:17,820 --> 00:04:19,700
+and you will be in pause mode
+
+115
+00:04:19,700 --> 00:04:22,260
+on both amateur at the same time.
+
+116
+00:04:22,260 --> 00:04:25,010
+This way, no need to jump back and forth
+
+117
+00:04:25,010 --> 00:04:28,110
+into object mode to be able to select one
+
+118
+00:04:28,110 --> 00:04:29,600
+or the other armature.
+
+119
+00:04:29,600 --> 00:04:31,470
+As soon as you are selecting one
+
+120
+00:04:31,470 --> 00:04:33,240
+or the other armature,
+
+121
+00:04:33,240 --> 00:04:35,370
+the, "Action editor" will update.
+
+122
+00:04:35,370 --> 00:04:37,760
+As for our previous exercises,
+
+123
+00:04:37,760 --> 00:04:40,514
+I will open a new window on the right side
+
+124
+00:04:40,514 --> 00:04:43,650
+of the screen and create a new 3D view
+
+125
+00:04:43,650 --> 00:04:46,600
+to preview our poses from another angle.
+
+126
+00:04:46,600 --> 00:04:48,380
+One last thing I'd like to add
+
+127
+00:04:48,380 --> 00:04:51,770
+before we get started is a ground object.
+
+128
+00:04:51,770 --> 00:04:52,780
+This will help us
+
+129
+00:04:52,780 --> 00:04:55,050
+to define the contact pose of the feet.
+
+130
+00:04:55,050 --> 00:04:57,280
+So I will press control tab to go back
+
+131
+00:04:57,280 --> 00:04:59,900
+into, "Object Mode." Press shift A
+
+132
+00:04:59,900 --> 00:05:01,100
+and add the plane.
+
+133
+00:05:01,100 --> 00:05:04,280
+I will scale it up and press control A
+
+134
+00:05:04,280 --> 00:05:06,310
+to apply all the transformations.
+
+135
+00:05:06,310 --> 00:05:09,020
+From there, I will create a new material
+
+136
+00:05:09,020 --> 00:05:10,130
+for this ground object
+
+137
+00:05:10,130 --> 00:05:12,120
+that I will call, "The Ground."
+
+138
+00:05:12,120 --> 00:05:15,150
+I will give it a dark gray color,
+
+139
+00:05:15,150 --> 00:05:18,890
+and I will reduce the specularity to 0.1.
+
+140
+00:05:18,890 --> 00:05:21,110
+This way we won't have any visual noise.
+
+141
+00:05:21,110 --> 00:05:23,650
+Whenever we are previewing our render
+
+142
+00:05:23,650 --> 00:05:25,290
+with fancy reflections
+
+143
+00:05:25,290 --> 00:05:26,380
+and stuff like that.
+
+144
+00:05:26,380 --> 00:05:28,040
+From there, I will add up
+
+145
+00:05:28,040 --> 00:05:31,060
+to the viewport display option and set it
+
+146
+00:05:31,060 --> 00:05:32,620
+to a dark gray color
+
+147
+00:05:32,620 --> 00:05:35,100
+so that it's not too distract-ive
+
+148
+00:05:35,100 --> 00:05:37,460
+and not too aggressive to the eyes.
+
+149
+00:05:37,460 --> 00:05:40,910
+I will rename this flat object ground
+
+150
+00:05:40,910 --> 00:05:43,630
+and I will move it in the scene collection
+
+151
+00:05:43,630 --> 00:05:44,950
+in the, "Filter Menu,"
+
+152
+00:05:44,950 --> 00:05:48,160
+I will enable the selection restriction
+
+153
+00:05:48,160 --> 00:05:50,620
+and they will make the ground unselectable
+
+154
+00:05:50,620 --> 00:05:53,170
+so that we won't be
+selecting it by accident.
+
+155
+00:05:53,170 --> 00:05:56,710
+Now, the final tip to be
+able to pose our character
+
+156
+00:05:56,710 --> 00:05:58,440
+from the bottom view is
+
+157
+00:05:58,440 --> 00:06:00,760
+to head up to the shading option
+
+158
+00:06:00,760 --> 00:06:03,840
+and enable, "Back face culling,"
+
+159
+00:06:03,840 --> 00:06:06,510
+This way, whenever we
+are facing the back face
+
+160
+00:06:06,510 --> 00:06:08,940
+of the plane, it becomes transparent.
+
+161
+00:06:08,940 --> 00:06:11,690
+From there, you can
+reorganize your collection,
+
+162
+00:06:11,690 --> 00:06:14,010
+get treated of any useless collection
+
+163
+00:06:14,010 --> 00:06:17,130
+so that we just have our
+character collection,
+
+164
+00:06:17,130 --> 00:06:19,990
+heavy bag collection
+and our ground object.
+
+165
+00:06:19,990 --> 00:06:21,140
+And we can get started.
+

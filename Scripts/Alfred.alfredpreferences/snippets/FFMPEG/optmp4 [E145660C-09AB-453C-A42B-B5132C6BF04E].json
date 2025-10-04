@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "# !\/bin\/zsh\n# covert video to mp4 and copy the creation time to the new file\n# create a folder name 'render' on the same level as the original file, if it doesn't exist\ninputFile=\"{clipboard}\"\nmediaDir=$(dirname \"$inputFile\")\nmediaName=$(basename \"$inputFile\")\nmediaName=\"${mediaName%.*}\"\nrenderDir=\"$mediaDir\/render\"\nmkdir -p \"$renderDir\"  \nffmpeg -i \"$inputFile\" -c copy \"$renderDir\/$mediaName-opt.mp4\" \ntouch -r \"$inputFile\" \"$renderDir\/$mediaName-opt.mp4\"",
+    "uid" : "E145660C-09AB-453C-A42B-B5132C6BF04E",
+    "name" : "optmp4",
+    "keyword" : "optmp4"
+  }
+}

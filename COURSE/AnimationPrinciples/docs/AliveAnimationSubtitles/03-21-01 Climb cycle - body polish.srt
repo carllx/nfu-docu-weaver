@@ -1,0 +1,1208 @@
+﻿1
+00:00:00,940 --> 00:00:02,410
+- [Instructor] It's now time to switch
+
+2
+00:00:02,410 --> 00:00:06,120
+to spline and polish our
+climbing cycle animation
+
+3
+00:00:06,120 --> 00:00:07,750
+and then will be to remove the linear
+
+4
+00:00:07,750 --> 00:00:12,193
+feeling of the cycle and
+get this hopping motion.
+
+5
+00:00:13,050 --> 00:00:14,090
+So as usual
+
+6
+00:00:14,090 --> 00:00:18,180
+the first thing we will do is
+select all of our controllers.
+
+7
+00:00:18,180 --> 00:00:22,520
+Then in the action editor,
+select all the keys.
+
+8
+00:00:22,520 --> 00:00:25,250
+Press the T key and switch to busiest
+
+9
+00:00:25,250 --> 00:00:28,070
+so that we are now in spline mode.
+
+10
+00:00:28,070 --> 00:00:30,980
+You can then press control tab to switch
+
+11
+00:00:30,980 --> 00:00:35,320
+to the graph editor, enable
+the display all filter,
+
+12
+00:00:35,320 --> 00:00:39,320
+press alt+H to make sure
+that there is no curve hidden
+
+13
+00:00:39,320 --> 00:00:44,320
+and press shift E to apply
+the make cycle modifier.
+
+14
+00:00:44,370 --> 00:00:47,023
+Now the animation will be cycling forever.
+
+15
+00:00:48,280 --> 00:00:50,590
+As we have seen in the previous cycle,
+
+16
+00:00:50,590 --> 00:00:52,910
+we need to clean the root spoon, meaning
+
+17
+00:00:52,910 --> 00:00:57,080
+that we want a linear
+interpolation of the root ball.
+
+18
+00:00:57,080 --> 00:00:59,890
+The first thing to do is to
+select all the key frames
+
+19
+00:00:59,890 --> 00:01:02,500
+of the root bone and remove all of them
+
+20
+00:01:02,500 --> 00:01:04,200
+but the first and last.
+
+21
+00:01:04,200 --> 00:01:06,889
+Then you can either press the T key
+
+22
+00:01:06,889 --> 00:01:10,890
+and switch to linear interpolation
+
+23
+00:01:10,890 --> 00:01:12,950
+or select all the key frame
+
+24
+00:01:12,950 --> 00:01:16,840
+press the V key, and
+switch to vector handles.
+
+25
+00:01:16,840 --> 00:01:20,938
+This way we will also have
+a linear interpolation.
+
+26
+00:01:20,938 --> 00:01:23,860
+To enable the linear extrapolation,
+
+27
+00:01:23,860 --> 00:01:27,520
+we first need to get rid
+of the cyclic modifier.
+
+28
+00:01:27,520 --> 00:01:30,040
+Select all the keys of the root bone
+
+29
+00:01:30,040 --> 00:01:33,650
+press shift E clear cyclic modifier.
+
+30
+00:01:33,650 --> 00:01:38,440
+Then press shift E again, and
+choose linear extrapolation.
+
+31
+00:01:38,440 --> 00:01:41,770
+Now our character will be moving forward
+
+32
+00:01:41,770 --> 00:01:43,220
+in a linear fashion.
+
+33
+00:01:43,220 --> 00:01:46,370
+At this stage, you probably
+have some foot sliding
+
+34
+00:01:46,370 --> 00:01:47,750
+and that's perfectly normal.
+
+35
+00:01:47,750 --> 00:01:51,373
+We will fix and place the feet later on.
+
+36
+00:01:52,270 --> 00:01:54,720
+As explained in the
+beginning of this video,
+
+37
+00:01:54,720 --> 00:01:56,930
+the big deal here will be to get rid
+
+38
+00:01:56,930 --> 00:01:59,300
+of the linear feeling of the motion.
+
+39
+00:01:59,300 --> 00:02:03,560
+All contacting frames for the
+feet will still be linear.
+
+40
+00:02:03,560 --> 00:02:06,040
+Also the root motion will be linear.
+
+41
+00:02:06,040 --> 00:02:08,760
+So we need to play with the body,
+
+42
+00:02:08,760 --> 00:02:12,600
+the chest of our character,
+to input some hopping
+
+43
+00:02:12,600 --> 00:02:16,780
+and contrast into this climbing animation.
+
+44
+00:02:16,780 --> 00:02:21,120
+As usual, I'm working with the
+main controller of the body.
+
+45
+00:02:21,120 --> 00:02:23,798
+I will start with the
+location channels first.
+
+46
+00:02:23,798 --> 00:02:26,420
+And while I generally start
+
+47
+00:02:26,420 --> 00:02:28,470
+with the Z location channel,
+
+48
+00:02:28,470 --> 00:02:31,200
+the up and down, here I will start
+
+49
+00:02:31,200 --> 00:02:33,070
+with the Y location channel
+
+50
+00:02:33,070 --> 00:02:36,760
+because since our character
+is rotated upward,
+
+51
+00:02:36,760 --> 00:02:39,940
+the Y rotation channel kind of become
+
+52
+00:02:39,940 --> 00:02:42,050
+the up and down channel.
+
+53
+00:02:42,050 --> 00:02:44,830
+And this is the one where we must input
+
+54
+00:02:44,830 --> 00:02:47,240
+as much contrast as possible.
+
+55
+00:02:47,240 --> 00:02:50,220
+So the first thing I had
+done was to push the pause.
+
+56
+00:02:50,220 --> 00:02:52,920
+Push the Y value higher
+so that the character
+
+57
+00:02:52,920 --> 00:02:55,420
+is pushing backward more.
+
+58
+00:02:55,420 --> 00:02:58,120
+Since we are working on
+the cycle, I make sure
+
+59
+00:02:58,120 --> 00:03:01,570
+that I always duplicate
+the first key frame
+
+60
+00:03:01,570 --> 00:03:03,910
+and move it onto the last key frame.
+
+61
+00:03:03,910 --> 00:03:05,690
+To bring contrast to the motion,
+
+62
+00:03:05,690 --> 00:03:10,160
+the thing to avoid is to create
+a perfect sinusoidal shape.
+
+63
+00:03:10,160 --> 00:03:12,570
+This is why I have almost a plateau
+
+64
+00:03:12,570 --> 00:03:14,369
+between frame zero and one.
+
+65
+00:03:14,369 --> 00:03:15,890
+And I will also push
+
+66
+00:03:15,890 --> 00:03:18,160
+from eight to slightly higher.
+
+67
+00:03:18,160 --> 00:03:22,510
+This way I'm pulling my
+character back upon eight frame.
+
+68
+00:03:22,510 --> 00:03:26,150
+And then I transition
+forward on the other frames.
+
+69
+00:03:26,150 --> 00:03:27,800
+I can even increase the contrast
+
+70
+00:03:27,800 --> 00:03:30,770
+by lowering the value of
+the curve on frame three.
+
+71
+00:03:30,770 --> 00:03:33,100
+In the end, we get the fast variation
+
+72
+00:03:33,100 --> 00:03:35,420
+from frame two to frame four,
+
+73
+00:03:35,420 --> 00:03:37,400
+then some kind of lower plateau
+
+74
+00:03:37,400 --> 00:03:40,370
+and then it transitions
+smoothly to frame nine.
+
+75
+00:03:40,370 --> 00:03:43,620
+And these back and forth
+motion will be amplified
+
+76
+00:03:43,620 --> 00:03:45,230
+by the back and forth motion
+
+77
+00:03:45,230 --> 00:03:47,136
+of the chest, head, and hips.
+
+78
+00:03:47,136 --> 00:03:49,210
+Regarding the Z location curve,
+
+79
+00:03:49,210 --> 00:03:52,860
+the amplitude of the
+motion is more subtle.
+
+80
+00:03:52,860 --> 00:03:54,967
+I'm mainly cleaning the shape
+
+81
+00:03:54,967 --> 00:03:57,887
+of the curve so that
+it's a little smoother.
+
+82
+00:03:57,887 --> 00:04:00,770
+And don't forget that when your character
+
+83
+00:04:00,770 --> 00:04:02,810
+is pushing forward his body
+
+84
+00:04:02,810 --> 00:04:05,380
+is getting closer to the tree trunk.
+
+85
+00:04:05,380 --> 00:04:07,400
+So he's losing altitude.
+
+86
+00:04:07,400 --> 00:04:10,480
+And when he's grabbing back the tree trunk
+
+87
+00:04:10,480 --> 00:04:13,120
+then he's getting more altitude.
+
+88
+00:04:13,120 --> 00:04:15,780
+At some point, I flattened
+the curve to make sure
+
+89
+00:04:15,780 --> 00:04:17,470
+that the belly of the character
+
+90
+00:04:17,470 --> 00:04:20,590
+wasn't clipping with the
+surface of the tree trunk.
+
+91
+00:04:20,590 --> 00:04:22,520
+For the X location channel,
+
+92
+00:04:22,520 --> 00:04:26,560
+I just got rid off any variation
+by flattening the curve.
+
+93
+00:04:26,560 --> 00:04:29,870
+I will input a little bit
+of twisting on the chest
+
+94
+00:04:29,870 --> 00:04:33,070
+of the character in the
+final stage of the polishing.
+
+95
+00:04:33,070 --> 00:04:36,400
+The rotation motion is also pretty subtle.
+
+96
+00:04:36,400 --> 00:04:39,450
+As usual, I'll start with the X rotation
+
+97
+00:04:39,450 --> 00:04:41,770
+because it's the most influential.
+
+98
+00:04:41,770 --> 00:04:44,870
+And I've mainly been polishing the curve,
+
+99
+00:04:44,870 --> 00:04:47,186
+making it smoother, and making sure
+
+100
+00:04:47,186 --> 00:04:52,030
+that the character is
+diving down into the jump.
+
+101
+00:04:52,030 --> 00:04:53,540
+As you go along again
+
+102
+00:04:53,540 --> 00:04:55,570
+don't forget to duplicate your frames
+
+103
+00:04:55,570 --> 00:04:57,660
+in row on your last frame.
+
+104
+00:04:57,660 --> 00:05:00,400
+And don't forget that
+when you're ready to curve
+
+105
+00:05:00,400 --> 00:05:04,770
+you might be going back onto
+it whenever you are polishing
+
+106
+00:05:04,770 --> 00:05:08,450
+other controllers, because
+everything is connected.
+
+107
+00:05:08,450 --> 00:05:12,480
+So modifying the torse
+now might quite have
+
+108
+00:05:12,480 --> 00:05:16,016
+changed the behavior of the
+chest, of the head, et cetera.
+
+109
+00:05:16,016 --> 00:05:19,570
+And when you're polishing a
+specific part of the character
+
+110
+00:05:19,570 --> 00:05:21,660
+don't forget to isolate it
+
+111
+00:05:21,660 --> 00:05:25,167
+to check the motion this
+way you will get rid
+
+112
+00:05:25,167 --> 00:05:26,700
+of all the visual noise
+
+113
+00:05:26,700 --> 00:05:29,270
+and will get something more readable.
+
+114
+00:05:29,270 --> 00:05:33,240
+The animation now looks
+less linear than before,
+
+115
+00:05:33,240 --> 00:05:35,380
+and I'm slowly getting the "oomph"
+
+116
+00:05:35,380 --> 00:05:36,970
+of the pushing of the character.
+
+117
+00:05:36,970 --> 00:05:40,787
+Another way to see it is
+obviously to calculate
+
+118
+00:05:40,787 --> 00:05:44,710
+the motion path of the main
+controller of the body.
+
+119
+00:05:44,710 --> 00:05:46,460
+And from there, we can clearly see
+
+120
+00:05:46,460 --> 00:05:49,320
+that the spacing is
+getting bigger whenever
+
+121
+00:05:49,320 --> 00:05:53,430
+our character is pushing
+forward on this straight line.
+
+122
+00:05:53,430 --> 00:05:55,685
+And then I have a tighter spacing.
+
+123
+00:05:55,685 --> 00:06:00,135
+The character body is kind
+of slowing down in space.
+
+124
+00:06:00,135 --> 00:06:02,513
+Whenever it's catching up.
+
+125
+00:06:03,530 --> 00:06:06,940
+I can now switch to the chest controller.
+
+126
+00:06:06,940 --> 00:06:09,110
+I'm first clearing the motion path
+
+127
+00:06:09,110 --> 00:06:13,079
+from the main controller to
+have a cleaner workspace.
+
+128
+00:06:13,079 --> 00:06:16,510
+And as I oftenly do with
+the chest controller,
+
+129
+00:06:16,510 --> 00:06:20,830
+I will work first on the X
+quaternion rotation channel.
+
+130
+00:06:20,830 --> 00:06:25,210
+I won't be polishing the Y and
+Z quaternion on rotation yet.
+
+131
+00:06:25,210 --> 00:06:27,810
+This is something I
+will do at the very end
+
+132
+00:06:27,810 --> 00:06:29,590
+of the polishing stage,
+
+133
+00:06:29,590 --> 00:06:32,960
+based on the contact pose of the feet.
+
+134
+00:06:32,960 --> 00:06:35,950
+To get a better readability
+of what I'm doing,
+
+135
+00:06:35,950 --> 00:06:39,460
+I will select the neck bone
+and calculate the motion path.
+
+136
+00:06:39,460 --> 00:06:43,000
+The neck controller is
+directly attached to the chest.
+
+137
+00:06:43,000 --> 00:06:46,560
+It makes this motion path relevant.
+
+138
+00:06:46,560 --> 00:06:50,220
+The idea here is to
+emphasize the previous motion
+
+139
+00:06:50,220 --> 00:06:54,090
+we have created with the main
+body controller, making sure
+
+140
+00:06:54,090 --> 00:06:59,090
+that our character is kind of
+sliding along the tree trunk.
+
+141
+00:06:59,150 --> 00:07:02,810
+And making sure we emphasize
+the pushing motion.
+
+142
+00:07:02,810 --> 00:07:07,670
+If we watch the final cycle
+again, just check the distance
+
+143
+00:07:07,670 --> 00:07:11,580
+between the hips connection
+and the shoulder connection.
+
+144
+00:07:11,580 --> 00:07:15,010
+This way we can clearly
+see how I stretched
+
+145
+00:07:15,010 --> 00:07:17,410
+the body of the character to show
+
+146
+00:07:17,410 --> 00:07:21,570
+that he's curling his whole
+body using his shoulders
+
+147
+00:07:21,570 --> 00:07:23,210
+and his chest.
+
+148
+00:07:23,210 --> 00:07:25,380
+And this is something I've achieved
+
+149
+00:07:25,380 --> 00:07:29,560
+by reworking the Y and Z location curve.
+
+150
+00:07:29,560 --> 00:07:34,060
+I advise you to work on both
+curves at the same time time
+
+151
+00:07:34,060 --> 00:07:37,140
+because we are working
+on the chest controller
+
+152
+00:07:37,140 --> 00:07:40,370
+which is a child of the main controller.
+
+153
+00:07:40,370 --> 00:07:43,000
+So we are working on local space
+
+154
+00:07:43,000 --> 00:07:44,310
+so you will need to play
+
+155
+00:07:44,310 --> 00:07:47,330
+on both curves to get a straight motion.
+
+156
+00:07:47,330 --> 00:07:50,440
+The Y location curve will
+have the main influence
+
+157
+00:07:50,440 --> 00:07:52,180
+on this animation.
+
+158
+00:07:52,180 --> 00:07:55,450
+I have, I can trust that
+frame zero to three,
+
+159
+00:07:55,450 --> 00:07:58,540
+this is the pushing
+motion or pulling motion
+
+160
+00:07:58,540 --> 00:08:01,510
+as you wish, where the body is stretching.
+
+161
+00:08:01,510 --> 00:08:04,430
+Then as the character is airborne
+
+162
+00:08:04,430 --> 00:08:07,890
+the main body is slowly
+catching up with the chest.
+
+163
+00:08:07,890 --> 00:08:10,540
+So I'm reducing the stretching
+
+164
+00:08:10,540 --> 00:08:12,771
+by lowering slightly the curve.
+
+165
+00:08:12,771 --> 00:08:17,030
+And finally, we have a
+more radical squishing
+
+166
+00:08:17,030 --> 00:08:21,650
+or compression of the chest
+when our character is contacting
+
+167
+00:08:21,650 --> 00:08:22,780
+with the tree trunk.
+
+168
+00:08:22,780 --> 00:08:27,090
+And I get a fast modification
+of the curve value.
+
+169
+00:08:27,090 --> 00:08:30,830
+The Z curve is mainly here to correct
+
+170
+00:08:30,830 --> 00:08:33,410
+the orientation of the chest.
+
+171
+00:08:33,410 --> 00:08:35,960
+Finally, I flattened the X location curve
+
+172
+00:08:35,960 --> 00:08:39,743
+because I don't want the chest
+to move left to right yet.
+
+173
+00:08:41,470 --> 00:08:44,130
+Next I've placed the head controller.
+
+174
+00:08:44,130 --> 00:08:46,810
+So it's a pretty classic workflow again.
+
+175
+00:08:46,810 --> 00:08:49,810
+And the curve editing from
+the head will be very close
+
+176
+00:08:49,810 --> 00:08:52,700
+to what I just did for the chest.
+
+177
+00:08:52,700 --> 00:08:55,610
+As I always do whenever I'm tracking head,
+
+178
+00:08:55,610 --> 00:08:59,740
+I will use the nose controller
+to calculate the motion path.
+
+179
+00:08:59,740 --> 00:09:03,310
+The idea, as usual, is to keep our arc
+
+180
+00:09:03,310 --> 00:09:04,693
+as smooth as possible.
+
+181
+00:09:06,440 --> 00:09:09,240
+Again, I'm starting by working on the X,
+
+182
+00:09:09,240 --> 00:09:11,555
+what's our normal
+rotation of the character.
+
+183
+00:09:11,555 --> 00:09:15,810
+The idea is to make the
+head slightly diving
+
+184
+00:09:15,810 --> 00:09:19,630
+or dragging into the jump forward.
+
+185
+00:09:19,630 --> 00:09:23,139
+But as explained during the run cycle
+
+186
+00:09:23,139 --> 00:09:26,490
+I try to avoid too much rotation
+
+187
+00:09:26,490 --> 00:09:30,350
+because I don't want the
+head to wobble up and down.
+
+188
+00:09:30,350 --> 00:09:35,020
+This will communicate a lack
+of control from our character.
+
+189
+00:09:35,020 --> 00:09:39,600
+And since he's very light and
+agile, we don't want this.
+
+190
+00:09:39,600 --> 00:09:43,970
+I play on the Y and Z
+location curve early on
+
+191
+00:09:43,970 --> 00:09:47,068
+because I do want to get this compression
+
+192
+00:09:47,068 --> 00:09:50,864
+and stretching of the
+head as soon as possible.
+
+193
+00:09:50,864 --> 00:09:54,236
+And I'm using the X quaternion rotation
+
+194
+00:09:54,236 --> 00:09:56,854
+to fix the arc of the nose.
+
+195
+00:09:56,854 --> 00:10:01,854
+In the end, I get almost the
+same curve as for the chest
+
+196
+00:10:01,920 --> 00:10:05,660
+but with one frame of offset.
+
+197
+00:10:05,660 --> 00:10:09,040
+In the end, I was going
+back and forth onto the head
+
+198
+00:10:09,040 --> 00:10:12,134
+and the chest controller to get rid of
+
+199
+00:10:12,134 --> 00:10:16,340
+this little glitch on the
+motion path of the nose.
+
+200
+00:10:16,340 --> 00:10:18,230
+Since I have a bit of physics lag
+
+201
+00:10:18,230 --> 00:10:20,980
+on the last frame of the motion path,
+
+202
+00:10:20,980 --> 00:10:22,200
+I spend some time
+
+203
+00:10:22,200 --> 00:10:26,640
+on the three last frames
+to try to smooth this out.
+
+204
+00:10:26,640 --> 00:10:29,530
+Then I add the loop to my
+animation in front view.
+
+205
+00:10:29,530 --> 00:10:34,140
+And I saw that I got a
+slight rotation left to right
+
+206
+00:10:34,140 --> 00:10:36,360
+on the motion path of the nose.
+
+207
+00:10:36,360 --> 00:10:38,530
+So I've made a first pass
+
+208
+00:10:38,530 --> 00:10:43,110
+of polishing onto the
+chest and the head rotation
+
+209
+00:10:43,110 --> 00:10:47,200
+on the left and right axis,
+the Z quaternion rotation.
+
+210
+00:10:47,200 --> 00:10:49,710
+Those are very subtle modification.
+
+211
+00:10:49,710 --> 00:10:52,630
+I've kept the curve pretty smooth.
+
+212
+00:10:52,630 --> 00:10:54,990
+And the idea is to rotate the torso
+
+213
+00:10:54,990 --> 00:10:57,110
+toward the contacting point.
+
+214
+00:10:57,110 --> 00:11:00,130
+And when the character
+is pushing, for example,
+
+215
+00:11:00,130 --> 00:11:03,699
+with his right hand, you push the chest
+
+216
+00:11:03,699 --> 00:11:07,543
+in the other direction,
+in the opposite direction.
+
+217
+00:11:07,543 --> 00:11:10,881
+So when he's contacting
+with the right hand,
+
+218
+00:11:10,881 --> 00:11:14,687
+you push the chest toward the right hand.
+
+219
+00:11:14,687 --> 00:11:19,687
+And when the hand this pushing,
+or pulling in this case,
+
+220
+00:11:19,790 --> 00:11:23,980
+to get up there, the chest
+is getting moved away
+
+221
+00:11:23,980 --> 00:11:26,372
+from the hand, just make it super subtle
+
+222
+00:11:26,372 --> 00:11:28,843
+and keep the curve as smooth as possible.
+
+223
+00:11:30,060 --> 00:11:34,420
+On this specific animation,
+the hips are very important.
+
+224
+00:11:34,420 --> 00:11:37,440
+Hips controller is generally
+something you have to
+
+225
+00:11:37,440 --> 00:11:41,300
+spend time on because it
+really defines the way
+
+226
+00:11:41,300 --> 00:11:43,960
+a character is contacting with the ground.
+
+227
+00:11:43,960 --> 00:11:46,260
+The way he's gathering energy,
+
+228
+00:11:46,260 --> 00:11:50,300
+pushing and pulling his body
+off the contact surface.
+
+229
+00:11:50,300 --> 00:11:54,480
+Think of the hips as a
+catapult for the legs.
+
+230
+00:11:54,480 --> 00:11:57,230
+Starting with the X rotation
+curve I will make sure
+
+231
+00:11:57,230 --> 00:12:01,350
+that when the character is
+projecting his leg backward,
+
+232
+00:12:01,350 --> 00:12:05,570
+I have a very aggressive
+motion of the hips.
+
+233
+00:12:05,570 --> 00:12:07,940
+And I tried to push the curve as much
+
+234
+00:12:07,940 --> 00:12:11,180
+as possible sometime
+it kinds of look weird
+
+235
+00:12:11,180 --> 00:12:13,810
+so I will tune it down a bit.
+
+236
+00:12:13,810 --> 00:12:17,390
+But I want really to push
+the paws as far as possible
+
+237
+00:12:17,390 --> 00:12:20,650
+because we do need to see this rotation
+
+238
+00:12:20,650 --> 00:12:23,950
+of the hips backward whenever
+the character is pushing.
+
+239
+00:12:23,950 --> 00:12:27,281
+And then when our character
+is contacting with the ground,
+
+240
+00:12:27,281 --> 00:12:30,180
+the hips are really rotating
+
+241
+00:12:30,180 --> 00:12:33,400
+inward toward the contacting frame.
+
+242
+00:12:33,400 --> 00:12:37,230
+And these very contrasted
+motion does translate
+
+243
+00:12:37,230 --> 00:12:38,080
+on the curve.
+
+244
+00:12:38,080 --> 00:12:42,783
+You can see that the curve goes
+down and up pretty quickly.
+
+245
+00:12:44,590 --> 00:12:47,050
+The next channel will obviously be
+
+246
+00:12:47,050 --> 00:12:49,400
+the Y and Z location curves.
+
+247
+00:12:49,400 --> 00:12:53,040
+We have already seen our squash
+and stretch was important
+
+248
+00:12:53,040 --> 00:12:54,380
+into this animation.
+
+249
+00:12:54,380 --> 00:12:56,880
+So I will just emphasize this.
+
+250
+00:12:56,880 --> 00:13:00,400
+And then we do need an
+offset between the stretching
+
+251
+00:13:00,400 --> 00:13:03,990
+and squashing of the hips
+compared to the chest.
+
+252
+00:13:03,990 --> 00:13:07,120
+The hips are dragging backwards.
+
+253
+00:13:07,120 --> 00:13:10,240
+So on the first two to three frames
+
+254
+00:13:10,240 --> 00:13:13,070
+the hips are kind of squashed.
+
+255
+00:13:13,070 --> 00:13:18,070
+And as our character is jumping,
+they get stretched a lot
+
+256
+00:13:18,080 --> 00:13:23,080
+and they will slowly catch up
+during the airborne position
+
+257
+00:13:23,440 --> 00:13:26,023
+but mostly on the contact frame.
+
+258
+00:13:27,050 --> 00:13:30,138
+The hips curves shape
+are slightly smoother
+
+259
+00:13:30,138 --> 00:13:32,660
+than the chest and the head
+
+260
+00:13:32,660 --> 00:13:37,500
+because since the head and
+chest are leading the animation
+
+261
+00:13:37,500 --> 00:13:40,610
+this is where we need to
+bring the most contrast.
+
+262
+00:13:40,610 --> 00:13:44,880
+And as the hips are kind
+of following, are dragging
+
+263
+00:13:44,880 --> 00:13:49,310
+and catching up, we can give
+them a slightly smooth curve.
+
+264
+00:13:49,310 --> 00:13:52,820
+They are kind of following
+the main body controller
+
+265
+00:13:52,820 --> 00:13:54,100
+chest and head motion.
+
+266
+00:13:54,100 --> 00:13:57,690
+With have the whole body
+of how our character
+
+267
+00:13:57,690 --> 00:14:01,275
+polished the animation does
+look way better already.
+
+268
+00:14:01,275 --> 00:14:03,070
+So in the next video
+
+269
+00:14:03,070 --> 00:14:07,117
+you will have a full time
+lapse of this polishing stage
+
+270
+00:14:07,117 --> 00:14:11,353
+and then we'll start polishing
+the legs in the next video.
+

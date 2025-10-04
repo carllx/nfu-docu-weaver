@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqbua1ilnl96fp0ccmkg",
+    "attachments": [
+        {
+            "date": 1988,
+            "title": "Statistical power analysis for the behavioral sciences",
+            "fileID": "co0iumecp7fbf460dccg",
+            "itemID": 1926,
+            "citation": "Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Routledge. http://gen.lib.rus.ec/book/index.php?md5=aaa90371cd9c588dc5530cfeb909f3f2\n",
+            "citationShort": "Cohen, 1988",
+            "tags": [
+                "#kimi",
+                "#Classical"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Statistical power analysis for the behavioral sciences, was published on 1988. This paper serves as the dominant theoretical frameworks for all subsequent papers included in the appendix. (It can be cite this paper as Cohen, 1988 on your answer). \n\n",
+    "response": "## 导读\n\n### 核心主题\n《社会科学的统计功效分析》（Cohen, 1988）是一篇在行为科学领域具有重要影响力的论文，它为后续附录中包含的所有论文提供了主导的理论框架。本文的核心主题是探讨统计功效分析的重要性及其在行为科学研究中的应用。\n\n### 关键论点/故事线\n作者通过以下几个关键论点展开讨论：\n1. **统计功效的概念**：解释了统计功效（power）的定义，即在实际存在效应的情况下，统计测试能够正确拒绝零假设（null hypothesis）的概率。\n2. **效应量（Effect Size）**：讨论了效应量的概念及其在确定研究设计和样本量时的重要性。\n3. **样本量与功效的关系**：分析了样本量大小如何影响统计测试的功效，以及如何根据预期的效应量和显著性水平（significance level）来确定所需的样本量。\n4. **显著性测试**：探讨了显著性测试的原理和方法，以及如何使用功效表来评估研究结果的显著性。\n\n### 特定段落或部分\n文章中特别重要的部分包括：\n- **第1章：功效分析的概念**（Chapter 1. The Concepts of Power Analysis）：这一章节详细介绍了统计功效分析的基本概念和重要性。\n- **第2章：均值的t检验**（Chapter 2. The t Test for Means）：讨论了在比较两个独立样本均值时，如何使用t检验并考虑功效分析。\n- **第3章：积差相关系数r的显著性**（Chapter 3. The Significance of a Product Moment r）：分析了在评估两个变量之间相关性时，如何利用积差相关系数r进行显著性测试。\n\n### 语言特点/写作风格\n作者在论文中采用了清晰、逻辑性强的语言，通过具体的例子和详细的表格来阐述复杂的概念。此外，作者还巧妙地使用了比较和对比的方法，帮助读者理解不同统计方法之间的差异和联系。\n\n### 阅读时的问题\n在阅读本文时，学生应该思考以下问题：\n- 作者是如何构建他的论点的？他是如何通过统计学原理来支持他的观点的？\n- 这些论点如何与数字媒体以及艺术领域相联系？例如，在艺术研究中，如何应用统计功效分析来评估不同艺术作品的影响力？\n- 如何更高效地吸收和理解文章内容？是否可以通过实际案例来加深对统计功效分析的理解？\n\n通过这些问题的引导，学生可以更深入地理解文章内容，并将其应用于自己的研究和实践中。",
+    "refs": [
+        "co0iumecp7fbf460dccg"
+    ],
+    "title": "\n\nNow, Listen to me:\n导读\n作为一个引导",
+    "group_id": "cqbua1n2337t91ocsbt0",
+    "req_id": "cqbua1n2337t91ocsbtg",
+    "resp_id": "cqbua1n2337t91ocsbu0",
+    "quection": "导读\n作为一个引导学生阅读的学术专家，请你认真阅读所提供的文章，告诉学生其核心主题，作者通过什么[关键论点/故事线]展开讨论。特别注意文章的[特定段落或部分]，那里包含了支持主题的关键论据和深入分析。此外，留意作者在[语言特点/写作风格]上的巧妙运用，这将帮助学生更好地把握文章的深层含义。带着哪些问题进入阅读：作者如何构建他的论点？这些论点如何与数字媒体以及艺术领域相联系？帮助学生更高效地吸收和理解文章内容。"
+}

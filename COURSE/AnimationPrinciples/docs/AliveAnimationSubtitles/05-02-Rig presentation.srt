@@ -1,0 +1,976 @@
+﻿1
+00:00:00,590 --> 00:00:02,730
+- Let me present to you the new character
+
+2
+00:00:02,730 --> 00:00:05,650
+we will be using called Tridents.
+
+3
+00:00:05,650 --> 00:00:09,950
+You will find in the
+chapter five file folder,
+
+4
+00:00:09,950 --> 00:00:13,140
+the file called Trident rig final.
+
+5
+00:00:13,140 --> 00:00:16,811
+It's a new character rig
+that is quite more complex
+
+6
+00:00:16,811 --> 00:00:19,490
+that one we add before.
+
+7
+00:00:19,490 --> 00:00:23,490
+Fortunately, the UI has
+been properly organized
+
+8
+00:00:23,490 --> 00:00:24,980
+by my friend, Fin.
+
+9
+00:00:24,980 --> 00:00:27,400
+If you don't get this specific UI,
+
+10
+00:00:27,400 --> 00:00:29,530
+just open the text editor,
+
+11
+00:00:29,530 --> 00:00:33,250
+open the TRIDENT_riggy.py
+
+12
+00:00:33,250 --> 00:00:35,430
+search for the file in the library
+
+13
+00:00:35,430 --> 00:00:37,150
+and press the play button.
+
+14
+00:00:37,150 --> 00:00:41,100
+The register option under
+text should be enabled.
+
+15
+00:00:41,100 --> 00:00:45,240
+You will find a UI that is
+very close to what we add from
+
+16
+00:00:45,240 --> 00:00:47,334
+the squirrel character and the Mac,
+
+17
+00:00:47,334 --> 00:00:50,060
+allowing us to show our ID,
+
+18
+00:00:50,060 --> 00:00:52,910
+the different controllers
+of the character.
+
+19
+00:00:52,910 --> 00:00:55,640
+Starting with the root bone as usual.
+
+20
+00:00:55,640 --> 00:00:59,400
+But before, let's have
+a look at the outliner.
+
+21
+00:00:59,400 --> 00:01:03,300
+We have a master collection
+called Trident character,
+
+22
+00:01:03,300 --> 00:01:06,070
+including two secondary collection.
+
+23
+00:01:06,070 --> 00:01:09,290
+One including the rig and the other
+
+24
+00:01:09,290 --> 00:01:12,690
+including the different
+parts of the character.
+
+25
+00:01:12,690 --> 00:01:14,640
+The character himself,
+
+26
+00:01:14,640 --> 00:01:17,990
+but also the weapons he has.
+
+27
+00:01:17,990 --> 00:01:22,330
+By default, the character
+is shaded in solid mode,
+
+28
+00:01:22,330 --> 00:01:25,350
+showing its diffuse texture.
+
+29
+00:01:25,350 --> 00:01:27,660
+You can switch to previous mode
+
+30
+00:01:27,660 --> 00:01:30,680
+to see the full rendered character.
+
+31
+00:01:30,680 --> 00:01:34,330
+If at some point you
+see a bright pink color,
+
+32
+00:01:34,330 --> 00:01:37,930
+it means that one of the texture is lost.
+
+33
+00:01:37,930 --> 00:01:40,640
+All the character's textures can be find
+
+34
+00:01:40,640 --> 00:01:45,030
+in the textures folder
+of chapter five folder.
+
+35
+00:01:45,030 --> 00:01:48,040
+The texture path is set to relative,
+
+36
+00:01:48,040 --> 00:01:52,760
+so if you keep your blend file
+close to the texture folder,
+
+37
+00:01:52,760 --> 00:01:54,140
+you will never lose them.
+
+38
+00:01:54,140 --> 00:01:55,800
+Let's have a look to the rig.
+
+39
+00:01:55,800 --> 00:01:59,100
+For this rig, I've created
+two different roots.
+
+40
+00:01:59,100 --> 00:02:02,280
+One master and a secondary root.
+
+41
+00:02:02,280 --> 00:02:05,310
+It can be useful in certain cases.
+
+42
+00:02:05,310 --> 00:02:06,840
+Let's have a look to the torso.
+
+43
+00:02:06,840 --> 00:02:11,740
+We have a master controller
+as for our squirrel character
+
+44
+00:02:11,740 --> 00:02:14,390
+and then the controller for the hips
+
+45
+00:02:14,390 --> 00:02:16,740
+and a controller for the chest.
+
+46
+00:02:16,740 --> 00:02:19,840
+You will also find a
+controller for the neck
+
+47
+00:02:19,840 --> 00:02:20,930
+and the head.
+
+48
+00:02:20,930 --> 00:02:23,910
+All those controllers
+can be freely rotated,
+
+49
+00:02:23,910 --> 00:02:26,270
+scaled, or translated.
+
+50
+00:02:26,270 --> 00:02:28,853
+When activating the torso tweak layer,
+
+51
+00:02:28,853 --> 00:02:33,810
+you will be able to access
+those yellow round controllers.
+
+52
+00:02:33,810 --> 00:02:38,320
+These are tweaker bone that
+will allow you to modify
+
+53
+00:02:38,320 --> 00:02:41,600
+the shape of each joint of the character.
+
+54
+00:02:41,600 --> 00:02:43,810
+It's perfect to fix some poses
+
+55
+00:02:43,810 --> 00:02:46,560
+or create squash and stretch effects.
+
+56
+00:02:46,560 --> 00:02:49,030
+All the yellow controllers
+on the character
+
+57
+00:02:50,057 --> 00:02:51,470
+are tweaker bones.
+
+58
+00:02:51,470 --> 00:02:54,810
+This torso tweak layer
+also give you access
+
+59
+00:02:54,810 --> 00:02:57,590
+to secondary controller of the torso
+
+60
+00:02:57,590 --> 00:03:01,470
+that uses a forward
+kinematic for each joint.
+
+61
+00:03:01,470 --> 00:03:04,700
+Splitting the hips
+controller into two parts,
+
+62
+00:03:04,700 --> 00:03:07,430
+the chest controller into three parts,
+
+63
+00:03:07,430 --> 00:03:10,260
+the neck and head in one part each.
+
+64
+00:03:10,260 --> 00:03:12,120
+The face layer will give you access
+
+65
+00:03:12,120 --> 00:03:15,340
+to the main face controllers,
+including the jaw,
+
+66
+00:03:15,340 --> 00:03:17,830
+the nose, the mouth, the cheek
+
+67
+00:03:17,830 --> 00:03:19,990
+that can be moved individually
+
+68
+00:03:19,990 --> 00:03:22,620
+to shape the face of
+the character at will.
+
+69
+00:03:22,620 --> 00:03:25,600
+The eyes and eyebrow of the character
+
+70
+00:03:25,600 --> 00:03:27,850
+have automated shapes.
+
+71
+00:03:27,850 --> 00:03:32,490
+They can be moved up and
+down or on the local y-axis
+
+72
+00:03:32,490 --> 00:03:36,040
+to get to different
+shape, like a happy face
+
+73
+00:03:36,040 --> 00:03:37,586
+a frown, a surprise,
+
+74
+00:03:37,586 --> 00:03:41,870
+following you to rapidly
+create different stereotyped
+
+75
+00:03:41,870 --> 00:03:44,410
+expressions for your character.
+
+76
+00:03:44,410 --> 00:03:47,040
+The face secondary, will give you access
+
+77
+00:03:47,040 --> 00:03:49,650
+to all the face tweaker bone.
+
+78
+00:03:49,650 --> 00:03:52,340
+Allowing you to shape the eyes at will,
+
+79
+00:03:52,340 --> 00:03:55,873
+rework the brow shape to
+draw whatever you want.
+
+80
+00:03:56,730 --> 00:03:58,700
+By default, the legs of the character
+
+81
+00:03:58,700 --> 00:04:01,430
+use inverse kinematic mechanism,
+
+82
+00:04:01,430 --> 00:04:03,700
+meaning that if you move the foot,
+
+83
+00:04:03,700 --> 00:04:06,300
+the knee will automatically bend.
+
+84
+00:04:06,300 --> 00:04:08,700
+It's the same behavior we had
+
+85
+00:04:08,700 --> 00:04:11,320
+with the squirrel character controllers.
+
+86
+00:04:11,320 --> 00:04:14,060
+The poles controller will allow you
+
+87
+00:04:14,060 --> 00:04:16,100
+to orientate the knee at will.
+
+88
+00:04:16,100 --> 00:04:19,600
+There is also a forward kinematic layer
+
+89
+00:04:19,600 --> 00:04:22,170
+and we will see or we
+can switch from inverse
+
+90
+00:04:22,170 --> 00:04:24,990
+to forward kinematic a little later on.
+
+91
+00:04:24,990 --> 00:04:29,490
+You will also find our
+yellow tweaker bones.
+
+92
+00:04:29,490 --> 00:04:33,800
+The biggest one on the main
+joint, like the ankles,
+
+93
+00:04:33,800 --> 00:04:37,740
+knee and hips will allow
+you to reshape the whole leg
+
+94
+00:04:37,740 --> 00:04:40,790
+based on its natural joint.
+
+95
+00:04:40,790 --> 00:04:44,570
+While the secondary controllers
+will allow you to completely
+
+96
+00:04:44,570 --> 00:04:48,420
+modify the shape of the
+leg to create rubber limbs.
+
+97
+00:04:48,420 --> 00:04:51,580
+Very nice for cartoony animations.
+
+98
+00:04:51,580 --> 00:04:53,730
+There are also a couple of controllers
+
+99
+00:04:53,730 --> 00:04:56,387
+to reshape the butt of the character.
+
+100
+00:04:56,387 --> 00:04:59,520
+And we will find the
+same kind of arrow key
+
+101
+00:04:59,520 --> 00:05:01,343
+on the arm of the character.
+
+102
+00:05:02,324 --> 00:05:03,460
+We will find the shoulder bones
+
+103
+00:05:03,460 --> 00:05:05,830
+as being the root of the arms
+
+104
+00:05:05,830 --> 00:05:09,030
+and then forward kinematic controllers,
+
+105
+00:05:09,030 --> 00:05:10,840
+tweaker bones, etc.
+
+106
+00:05:10,840 --> 00:05:13,270
+It's also possible there to switch
+
+107
+00:05:13,270 --> 00:05:16,860
+between the forward kinematic
+and inverse kinematic.
+
+108
+00:05:16,860 --> 00:05:18,860
+We will check that in a few second
+
+109
+00:05:18,860 --> 00:05:21,610
+when looking at the rig properties.
+
+110
+00:05:21,610 --> 00:05:24,579
+The finger controller are
+pretty straightforward.
+
+111
+00:05:24,579 --> 00:05:29,290
+Near the pinkie, you will
+find this master pan bone
+
+112
+00:05:29,290 --> 00:05:30,540
+that will allow you
+
+113
+00:05:30,540 --> 00:05:34,550
+to curve the whole palm of each hands.
+
+114
+00:05:34,550 --> 00:05:37,155
+the same root will allow you to orientate
+
+115
+00:05:37,155 --> 00:05:42,155
+the thumb and each finger
+as its own master bone.
+
+116
+00:05:42,360 --> 00:05:46,600
+On each finger, rotating
+the second joint bone
+
+117
+00:05:46,600 --> 00:05:51,600
+will allow you to bend both
+the second and third joint.
+
+118
+00:05:51,960 --> 00:05:55,480
+Finally, each joint
+can be rotated, scaled,
+
+119
+00:05:55,480 --> 00:05:57,630
+and moved at will.
+
+120
+00:05:57,630 --> 00:06:01,550
+The different weapons,
+are all both the same way.
+
+121
+00:06:01,550 --> 00:06:04,800
+You will find a master
+bone that more or less
+
+122
+00:06:04,800 --> 00:06:07,400
+have the shape of the current weapon.
+
+123
+00:06:07,400 --> 00:06:11,400
+Allowing you to orientate
+Eaton's space and move it.
+
+124
+00:06:11,400 --> 00:06:14,721
+Then, you will find a
+forward kinematic chain
+
+125
+00:06:14,721 --> 00:06:19,460
+that is ideal to curve the
+weapons and give them nice shape
+
+126
+00:06:19,460 --> 00:06:23,240
+whenever you are doing stylized animation.
+
+127
+00:06:23,240 --> 00:06:28,240
+And as usual, the yellow bones
+will be our tweaker bones.
+
+128
+00:06:28,310 --> 00:06:33,310
+Moving them with allow you to
+modify the shape of each joint
+
+129
+00:06:33,495 --> 00:06:35,870
+of the different weapons.
+
+130
+00:06:35,870 --> 00:06:39,560
+You can hide or unhide all
+the tweaker controllers
+
+131
+00:06:39,560 --> 00:06:43,870
+and layers using the eye
+icon on the top right corner.
+
+132
+00:06:43,870 --> 00:06:45,920
+Let's have a look to the rig property.
+
+133
+00:06:45,920 --> 00:06:49,230
+The head follow and neck follow sliders
+
+134
+00:06:49,230 --> 00:06:51,780
+allows you to enable or disable the fact
+
+135
+00:06:51,780 --> 00:06:54,950
+that the neck is following the orientation
+
+136
+00:06:54,950 --> 00:06:56,460
+of the chest or not.
+
+137
+00:06:56,460 --> 00:07:00,690
+It's the same principle
+regarding the head and the neck.
+
+138
+00:07:00,690 --> 00:07:04,780
+If I disable the head follow
+and I rotate the neck,
+
+139
+00:07:04,780 --> 00:07:07,920
+the head stay in the same orientation.
+
+140
+00:07:07,920 --> 00:07:11,410
+This is super useful for dance animations
+
+141
+00:07:11,410 --> 00:07:13,561
+or run cycles, for example.
+
+142
+00:07:13,561 --> 00:07:16,170
+And then we will find the same option
+
+143
+00:07:16,170 --> 00:07:19,030
+for the arm and the legs.
+
+144
+00:07:19,030 --> 00:07:22,810
+When enabling arm follow,
+we can see that now
+
+145
+00:07:22,810 --> 00:07:26,980
+the arms are following the
+rotation of the shoulders.
+
+146
+00:07:26,980 --> 00:07:30,790
+While when disabled, they will
+keep their own orientation,
+
+147
+00:07:30,790 --> 00:07:35,150
+making it easier to
+stabilize their orientation.
+
+148
+00:07:35,150 --> 00:07:38,800
+By default, the legs are
+set to inverse kinematic.
+
+149
+00:07:38,800 --> 00:07:42,160
+This is perfect for any
+contacting controller.
+
+150
+00:07:42,160 --> 00:07:46,160
+In this case, the legs
+contacting with the ground.
+
+151
+00:07:46,160 --> 00:07:48,680
+But we can switch to forward kinematic
+
+152
+00:07:48,680 --> 00:07:50,960
+by switching this value to zero.
+
+153
+00:07:50,960 --> 00:07:55,300
+We can see the leg snapping
+into another position
+
+154
+00:07:55,300 --> 00:07:57,770
+following the orientation
+
+155
+00:07:57,770 --> 00:08:00,180
+of the forward kinematic controller,
+
+156
+00:08:00,180 --> 00:08:03,950
+so it can be enabled in the layer system.
+
+157
+00:08:03,950 --> 00:08:06,670
+This can be useful to draw nice arcs
+
+158
+00:08:06,670 --> 00:08:09,980
+whenever your character
+is making big jumps
+
+159
+00:08:09,980 --> 00:08:12,170
+or kicking something for example.
+
+160
+00:08:12,170 --> 00:08:15,900
+We will find exactly the same
+mechanism for the other leg,
+
+161
+00:08:15,900 --> 00:08:17,740
+but also for the arms.
+
+162
+00:08:17,740 --> 00:08:19,780
+Setting the values to zero,
+
+163
+00:08:19,780 --> 00:08:22,210
+will switch to forward kinematic.
+
+164
+00:08:22,210 --> 00:08:25,230
+To one, will switch to inverse kinematic.
+
+165
+00:08:25,230 --> 00:08:29,480
+By default the arm are using
+forward kinematic mechanism,
+
+166
+00:08:29,480 --> 00:08:32,360
+but you can switch to inverse kinematic.
+
+167
+00:08:32,360 --> 00:08:36,060
+Again, this is super useful
+whenever your character
+
+168
+00:08:36,060 --> 00:08:38,120
+is contacting with something.
+
+169
+00:08:38,120 --> 00:08:40,320
+When doing push ups, for example,
+
+170
+00:08:40,320 --> 00:08:43,360
+or interacting with another character.
+
+171
+00:08:43,360 --> 00:08:47,420
+You will find the parent option
+for the legs and the arms.
+
+172
+00:08:47,420 --> 00:08:50,280
+By default the leg inverse
+kinematic controller
+
+173
+00:08:50,280 --> 00:08:53,230
+are parented to the
+root, so they don't move
+
+174
+00:08:53,230 --> 00:08:55,120
+whenever the torso is moved.
+
+175
+00:08:55,120 --> 00:08:57,400
+And the pose target is independent.
+
+176
+00:08:57,400 --> 00:09:00,680
+When switching the parenting value to one,
+
+177
+00:09:00,680 --> 00:09:03,940
+the pole will be parented
+to the foot controller.
+
+178
+00:09:03,940 --> 00:09:08,080
+Meaning that rotating the foot
+will also rotate the knee.
+
+179
+00:09:08,080 --> 00:09:10,890
+This is the method I generally use.
+
+180
+00:09:10,890 --> 00:09:15,720
+Switching the value to two
+will also parent the foot
+
+181
+00:09:15,720 --> 00:09:19,830
+to the torso controller,
+but not to the hips.
+
+182
+00:09:19,830 --> 00:09:21,700
+That can be useful whenever
+
+183
+00:09:21,700 --> 00:09:24,560
+you make your character jump for example.
+
+184
+00:09:24,560 --> 00:09:27,280
+You will find the same option regarding
+
+185
+00:09:27,280 --> 00:09:30,300
+the inverse kinematic arms controller,
+
+186
+00:09:30,300 --> 00:09:34,048
+but only when one value
+that allow you to parent
+
+187
+00:09:34,048 --> 00:09:38,770
+the inverse kinematic
+controllers to the torso root.
+
+188
+00:09:38,770 --> 00:09:41,090
+Again, they won't follow the chest,
+
+189
+00:09:41,090 --> 00:09:43,370
+but they will follow the torso root.
+
+190
+00:09:43,370 --> 00:09:47,052
+I've heard the same kind of
+mechanism for the weapons.
+
+191
+00:09:47,052 --> 00:09:51,360
+Allowing you to whether
+snap them to the left hand,
+
+192
+00:09:51,360 --> 00:09:54,910
+right hand or not snap them at all
+
+193
+00:09:54,910 --> 00:09:57,780
+so that they can move freely in space.
+
+194
+00:09:57,780 --> 00:09:58,920
+This can be useful
+
+195
+00:09:58,920 --> 00:10:02,400
+whenever you want to throw
+the weapon for example.
+
+196
+00:10:02,400 --> 00:10:05,630
+The weapon emit option
+will allow you to play
+
+197
+00:10:05,630 --> 00:10:09,260
+with the strength of the
+emission shader on the weapons.
+
+198
+00:10:09,260 --> 00:10:10,680
+If you press play, you can see
+
+199
+00:10:10,680 --> 00:10:13,610
+that the shader is currently animated.
+
+200
+00:10:13,610 --> 00:10:16,910
+Bringing a magical touch to those weapons.
+
+201
+00:10:16,910 --> 00:10:20,780
+On top of this, you will
+find a weapon spawn option
+
+202
+00:10:20,780 --> 00:10:23,300
+that will allow you to make the weapons
+
+203
+00:10:23,300 --> 00:10:26,770
+progressively disappear or appear
+
+204
+00:10:26,770 --> 00:10:28,913
+with a nice dissolve effect.
+
+205
+00:10:29,750 --> 00:10:31,550
+As for the squirrel character,
+
+206
+00:10:31,550 --> 00:10:34,080
+you will find visibility properties
+
+207
+00:10:34,080 --> 00:10:38,290
+that allows you do hide
+different part of the character,
+
+208
+00:10:38,290 --> 00:10:41,450
+making its silhouette easier to read
+
+209
+00:10:41,450 --> 00:10:46,080
+or allowing you to focus on
+specific part when animating.
+
+210
+00:10:46,080 --> 00:10:50,960
+Last but not least you
+will find a snap utilities.
+
+211
+00:10:50,960 --> 00:10:52,620
+This will allow you to change
+
+212
+00:10:52,620 --> 00:10:55,740
+from inverse kinematic
+to forward kinematic
+
+213
+00:10:55,740 --> 00:10:58,880
+and also align the controllers together.
+
+214
+00:10:58,880 --> 00:11:03,040
+Allowing a seamless switch
+between the two mechanisms.
+
+215
+00:11:03,040 --> 00:11:05,910
+A disclaimer here. Due to the complexity
+
+216
+00:11:05,910 --> 00:11:09,490
+of the rig mechanism and
+the rubber limbs system,
+
+217
+00:11:09,490 --> 00:11:13,070
+it can be sometimes not 100% accurate
+
+218
+00:11:13,070 --> 00:11:15,590
+but the pose can be fixed in one second.
+
+219
+00:11:15,590 --> 00:11:18,120
+And this is way faster
+than trying to align
+
+220
+00:11:18,120 --> 00:11:19,680
+the controller by hand.
+
+221
+00:11:19,680 --> 00:11:21,840
+I'm not used to have this in production
+
+222
+00:11:21,840 --> 00:11:23,463
+so this is really a bonus.
+

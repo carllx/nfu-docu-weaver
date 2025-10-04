@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cqamif1ldu5qvkmjftsg",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "virtual reality",
+                "#kimi",
+                "augmented reality",
+                "mixed reality",
+                "anatomy education",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者如何制定搜索策略\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "根据您提供的文件内容，以下是作者在制定搜索策略方面的描述：\n\n```markdown\n在制定搜索策略时，作者遵循了系统评价和元分析的首选报告项目（PRISMA）声明。搜索策略涵盖了多个数据库，包括PubMed、Embase、ERIC以及临床试验注册平台等，时间范围从1990年1月到2019年11月19日。搜索的起始日期被限制在1990年，因为这一年见证了第一个广泛商业化的虚拟现实头戴式显示器和增强现实设备的发布。此外，还包括了对纳入研究的前向和后向引用搜索。只有全文发表的研究被纳入；仅作为摘要发表的研究（例如会议摘要）被排除在外。没有应用语言限制。\n\n具体的搜索策略如下：\n- 数据库搜索包括PubMed（美国国家医学图书馆，Bethesda MD）、Embase（Elsevier，阿姆斯特丹，荷兰）、Cochrane Central Register of Controlled Trials (CENTRAL, Cochrane, 伦敦，英国)、教育资源信息中心（ERIC, Institute of Education Sciences (IES), 华盛顿特区）、以及临床试验注册（美国国家医学图书馆，Bethesda MD）和世界卫生组织的国际临床试验注册平台（ICTRP, World Health Organization, 日内瓦，瑞士）。\n- 搜索开始日期：1990年1月。\n- 搜索结束日期：2019年11月19日。\n- 纳入标准：随机对照试验，涉及健康科学或医学专业的大学生，使用头戴式显示器的虚拟现实或增强现实作为教学工具，并与传统教学方法进行比较。\n- 排除标准：基于模拟、模拟病人、临床技能或临床环境的研究，因为这些不是当代生理学和解剖学的核心组成部分。\n- 研究选择和数据提取：由两位作者独立进行文献筛选，首先是通过标题/摘要，然后在全文中进行。如有分歧，通过讨论或必要时参考第三作者的意见解决。\n- 风险评估：使用Cochrane Collaboration的风险评估工具，由两位作者独立进行评估。\n\n以上是Moro等人在制定搜索策略时所采取的方法（Moro et al., 2021）。\n```\n\n请注意，以上内容是根据您提供的文件内容进行的总结，并且使用了Markdown格式进行布局。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqamif03r071cvg9v44g",
+    "req_id": "cqamif03r071cvg9v450",
+    "resp_id": "cqamif03r071cvg9v45g",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者如何制定搜索策略"
+}

@@ -1,0 +1,133 @@
+{
+    "props": {
+        "pageProps": {
+            "host": "typeset.io",
+            "fssConfig": {
+                "filter_details": {
+                    "config": [
+                        {
+                            "key": "record_type",
+                            "type": "multi_select",
+                            "display_name": "Type",
+                            "default_value": [],
+                            "has_search": false,
+                            "description": null,
+                            "options": [
+                                {
+                                    "full_slug": "PDF",
+                                    "display_name": "My PDF files"
+                                },
+                                {
+                                    "full_slug": "PAPER",
+                                    "display_name": "Bookmarked Papers"
+                                },
+                                {
+                                    "full_slug": "RESOURCE",
+                                    "display_name": "Bookmarked web pages"
+                                }
+                            ]
+                        }
+                    ],
+                    "order": [
+                        "record_type"
+                    ]
+                },
+                "sort_details": {
+                    "config": [
+                        {
+                            "key": "newest_first",
+                            "display_name": "Newest First",
+                            "default": null
+                        },
+                        {
+                            "key": "last_accessed",
+                            "display_name": "Date Opened",
+                            "default": null
+                        },
+                        {
+                            "key": "oldest_first",
+                            "display_name": "Oldest First",
+                            "default": null
+                        },
+                        {
+                            "key": "alpha",
+                            "display_name": "A - Z",
+                            "default": null
+                        },
+                        {
+                            "key": "-alpha",
+                            "display_name": "Z - A",
+                            "default": null
+                        }
+                    ],
+                    "order": [
+                        "newest_first",
+                        "last_accessed",
+                        "oldest_first",
+                        "alpha",
+                        "-alpha"
+                    ]
+                }
+            },
+            "collectionData": {
+                "name": "Backup Folder",
+                "full_slug": "backup-folder-2g1ks4gz",
+                "created_at": "2024-02-05T17:41:36.093Z",
+                "updated_at": "2024-02-05T17:41:36.093Z",
+                "last_accessed": "2024-02-08T14:10:53.158Z",
+                "total_records": null
+            },
+            "auth": {
+                "user": {
+                    "profile_pic": "https://typeset-prod-media-server.s3.amazonaws.com/users/J2F860ig9I3UrKf02AKvcR5doeT/profile/profile.jpg",
+                    "user_id": "J2F860ig9I3UrKf02AKvcR5doeT",
+                    "email": "carllllllllx@gmail.com",
+                    "full_name": "Yam Lam"
+                },
+                "is_onboarding_complete": true,
+                "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiAiSjJGODYwaWc5STNVcktmMDJBS3ZjUjVkb2VUIiwgInR5cCI6ICJTQ0lTUEFDRV9VU0VSIiwgImlzcyI6ICJodHRwczovL3R5cGVzZXQuaW8vIiwgImlhdCI6IDE3MDc0MDYwOTgsICJleHAiOiAxNzE2MDQ2MDk4fQ.ZdMvl8XTISP4dI6BMDvI7PC9dMNz5lCsjcvkWq-pVPeB8tB26Og0a-GQSSC5UjVWIcoFH3M1D8pHGsSY9Vm-VKAE-rLRwqg04MEP4hUv4z9bmdzqvzZXWCBkjemn3jULEa7Pf_jHz5MwEAAXIWlIOlDET4nKMvydOaLiDZDskbKW5mwQQ80onmy0kHsBnoBLxrtvYkrBq4pKLu-wJB5UTrne9XGMv1r6wwVAf08gb9nk4GEAvwZwR-DrB7Fo98BOeV0BGnJqH68iK_T1jlaH-9WKV7Iyo5ov7p6jZ6J_RIMzr3NrsEGJVhsNgCjiJzrrjisdIPRQjOROUD4uoMvHMw",
+                "user_id": "J2F860ig9I3UrKf02AKvcR5doeT",
+                "userIdHash": "ccea84a67a2ea998605f050196f60a8ec552a8f11b0ccd853cf29ee263c36e13"
+            },
+            "displayRibbon": false,
+            "_sentryTraceData": "e53420bf3b494b31b97c5616be5f8f26-9106c6c24f3b3d88-1",
+            "_sentryBaggage": "sentry-environment=production,sentry-release=qZnz2TwcjP4rWp8bgJIXy,sentry-public_key=d70b5b2643de49f8b0273e9d5ffda837,sentry-trace_id=e53420bf3b494b31b97c5616be5f8f26,sentry-sample_rate=1,sentry-transaction=%2Flibrary%2Ffolder%2F%5Bcollection_slug%5D,sentry-sampled=true"
+        },
+        "__N_SSP": true
+    },
+    "page": "/library/folder/[collection_slug]",
+    "query": {
+        "collection_slug": "backup-folder-2g1ks4gz"
+    },
+    "buildId": "qZnz2TwcjP4rWp8bgJIXy",
+    "assetPrefix": "https://d5a9y5rnan99s.cloudfront.net/agg-view-server/assets",
+    "runtimeConfig": {
+        "isProd": true,
+        "gaId": "G-877LY0S3L6",
+        "heapId": "2801219066",
+        "openReplayAPIKey": "hGLhTeybdyZItdMCKrGX",
+        "openReplayAPIHost": "https://rec.typeset.io/ingest",
+        "googleClientId": "473235436218-oceknrpicphsds5jdsjeebdb90vmk2d5.apps.googleusercontent.com",
+        "amplitudeId": "5bff562365c4d4eee98b37d757dd16cb",
+        "metaPixelId": "1859158837849720",
+        "tallyIdParaphraser": "mYRDD0",
+        "tallyIdSummary": "wk9dor",
+        "tallyIdAIDetector": "npdbpP",
+        "tallyIdGlobalInsights": "meDoKq",
+        "tallyIdGlobalInsightsLibrary": "mDkojl",
+        "tallyIdUninstallExtension": "3qLxo8",
+        "featureFlags": {
+            "messageFollowupQuestionEnabled": true
+        },
+        "tallyIdCopilot": "mVjQJN",
+        "guestUserPdfMessageLimit": 6,
+        "enableSentryOpenReplayIntegration": false,
+        "intercomAppId": "jtijbv5y",
+        "hocuspocusHost": "wss://typeset.io/collaboration",
+        "enablePlausible": true
+    },
+    "isFallback": false,
+    "isExperimentalCompile": false,
+    "gssp": true,
+    "scriptLoader": []
+}

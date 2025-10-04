@@ -1,0 +1,1368 @@
+﻿1
+00:00:00,670 --> 00:00:03,480
+- [Instructor] Before we
+start animating our character,
+
+2
+00:00:03,480 --> 00:00:06,410
+I'd like to talk a bit about rotations
+
+3
+00:00:06,410 --> 00:00:10,880
+and how Blender and 3D application
+in general, and all them.
+
+4
+00:00:10,880 --> 00:00:12,940
+One key component to understand
+
+5
+00:00:12,940 --> 00:00:17,410
+is that orientation and rotation
+are two different things.
+
+6
+00:00:17,410 --> 00:00:20,420
+Rotation is the action or the motion
+
+7
+00:00:20,420 --> 00:00:24,970
+of rotating around an
+axis or multiple axes
+
+8
+00:00:24,970 --> 00:00:29,040
+while orientation is the
+result of those rotation
+
+9
+00:00:29,040 --> 00:00:32,140
+at a specific moment in time.
+
+10
+00:00:32,140 --> 00:00:34,390
+In this example, the orientation
+
+11
+00:00:34,390 --> 00:00:37,460
+is where the arrow is pointing at.
+
+12
+00:00:37,460 --> 00:00:40,490
+It's currently oriented straight up
+
+13
+00:00:40,490 --> 00:00:43,520
+because it has no rotation values.
+
+14
+00:00:43,520 --> 00:00:47,800
+So what we see per frames
+are just orientation.
+
+15
+00:00:47,800 --> 00:00:51,570
+And when we have different
+orientation in sequence,
+
+16
+00:00:51,570 --> 00:00:54,480
+we can simulate a rotation.
+
+17
+00:00:54,480 --> 00:00:55,780
+In this example,
+
+18
+00:00:55,780 --> 00:00:58,770
+I have a bunch of different arrow object
+
+19
+00:00:58,770 --> 00:01:00,330
+with different colors,
+
+20
+00:01:00,330 --> 00:01:03,440
+and they all have different orientation
+
+21
+00:01:03,440 --> 00:01:07,200
+and they will appear only
+on one frame at a time.
+
+22
+00:01:07,200 --> 00:01:09,220
+But if I played the animation
+
+23
+00:01:09,220 --> 00:01:12,240
+and I displayed those different arrows
+
+24
+00:01:12,240 --> 00:01:15,380
+with different orientation in sequence,
+
+25
+00:01:15,380 --> 00:01:18,720
+we feel like there is a rotating arrow.
+
+26
+00:01:18,720 --> 00:01:21,550
+Don't worry, you don't
+need to think about this
+
+27
+00:01:21,550 --> 00:01:23,320
+whenever you're animating.
+
+28
+00:01:23,320 --> 00:01:26,480
+What I'm just pointing out here
+
+29
+00:01:26,480 --> 00:01:30,620
+is that you can bring
+the feeling of rotation
+
+30
+00:01:30,620 --> 00:01:34,930
+or rotating motion in different ways.
+
+31
+00:01:34,930 --> 00:01:39,930
+And sometime your graph editor
+might not exactly reflect
+
+32
+00:01:39,960 --> 00:01:42,830
+the sensation of rotation you have
+
+33
+00:01:42,830 --> 00:01:44,730
+playing in your animation.
+
+34
+00:01:44,730 --> 00:01:46,390
+In this next example,
+
+35
+00:01:46,390 --> 00:01:50,650
+I have two arrows with
+exactly the same orientation,
+
+36
+00:01:50,650 --> 00:01:55,020
+but one is rotated by a
+360 degrees on the X axis
+
+37
+00:01:55,020 --> 00:01:58,100
+while the other one has no rotation.
+
+38
+00:01:58,100 --> 00:01:59,750
+And if I insert a keyframe
+
+39
+00:01:59,750 --> 00:02:02,950
+for the rotation channels
+of those two arrows,
+
+40
+00:02:02,950 --> 00:02:05,690
+we can see that for the same orientation,
+
+41
+00:02:05,690 --> 00:02:07,540
+we have two different values.
+
+42
+00:02:07,540 --> 00:02:09,440
+So the rotation motion
+
+43
+00:02:09,440 --> 00:02:13,050
+would be a variation of
+those values over time.
+
+44
+00:02:13,050 --> 00:02:17,710
+But if in this case I do a 360 degree turn
+
+45
+00:02:17,710 --> 00:02:19,820
+over only one frame,
+
+46
+00:02:19,820 --> 00:02:22,370
+I don't see any rotation on screen.
+
+47
+00:02:22,370 --> 00:02:24,650
+So it's kind of a stupid example,
+
+48
+00:02:24,650 --> 00:02:26,970
+but my goal here is to show you
+
+49
+00:02:26,970 --> 00:02:29,200
+that even if the graph editor
+
+50
+00:02:29,200 --> 00:02:31,780
+is outputting a rotation motion,
+
+51
+00:02:31,780 --> 00:02:36,640
+the feeling on screen or in
+your output might be different.
+
+52
+00:02:36,640 --> 00:02:38,910
+And so it's very important
+
+53
+00:02:38,910 --> 00:02:41,260
+to check your motion path,
+
+54
+00:02:41,260 --> 00:02:43,490
+your arcs, and your spacing
+
+55
+00:02:43,490 --> 00:02:46,160
+whenever you are animating a rotation.
+
+56
+00:02:46,160 --> 00:02:49,980
+In the end, when we are
+manipulating rotation curve,
+
+57
+00:02:49,980 --> 00:02:54,690
+99% of the time it does
+make sense and it's logical
+
+58
+00:02:54,690 --> 00:02:57,430
+but sometime, especially with quaternions,
+
+59
+00:02:57,430 --> 00:02:59,410
+it won't be logical at all
+
+60
+00:02:59,410 --> 00:03:02,280
+and it's better to focus on the output
+
+61
+00:03:02,280 --> 00:03:04,770
+than how you got there.
+
+62
+00:03:04,770 --> 00:03:07,550
+Let's have a quick look to
+the different rotation types
+
+63
+00:03:07,550 --> 00:03:09,270
+and when to use them.
+
+64
+00:03:09,270 --> 00:03:11,120
+You can change the rotation type
+
+65
+00:03:11,120 --> 00:03:14,170
+of most item in the transform panel
+
+66
+00:03:14,170 --> 00:03:16,980
+by clicking in the rotation menu.
+
+67
+00:03:16,980 --> 00:03:20,020
+We will find quaternions rotation mode,
+
+68
+00:03:20,020 --> 00:03:22,300
+different Euler rotation,
+
+69
+00:03:22,300 --> 00:03:24,550
+and finally the axis angle mode
+
+70
+00:03:24,550 --> 00:03:26,150
+that we won't be talking about
+
+71
+00:03:26,150 --> 00:03:28,945
+because I never ever use it.
+
+72
+00:03:28,945 --> 00:03:30,570
+Eulers are very cool
+
+73
+00:03:30,570 --> 00:03:33,620
+because they are very easy to understand
+
+74
+00:03:33,620 --> 00:03:37,380
+especially when
+manipulating only one axis.
+
+75
+00:03:37,380 --> 00:03:38,990
+You can input the value you want
+
+76
+00:03:38,990 --> 00:03:41,310
+on the rotation axis of your choice
+
+77
+00:03:41,310 --> 00:03:44,920
+and the object will
+rotate around this axis.
+
+78
+00:03:44,920 --> 00:03:48,220
+For example here, around the X axis.
+
+79
+00:03:48,220 --> 00:03:52,400
+And the cool thing about
+Euler rotation on one axis
+
+80
+00:03:52,400 --> 00:03:54,320
+is that it's very easy
+
+81
+00:03:54,320 --> 00:03:57,600
+and logical to read in the graph editor.
+
+82
+00:03:57,600 --> 00:04:02,210
+To illustrate it, I will create
+a full revolution animation
+
+83
+00:04:02,210 --> 00:04:04,303
+around the X axis.
+
+84
+00:04:04,303 --> 00:04:09,303
+A revolution around one axis
+is a 360 degree rotation.
+
+85
+00:04:09,500 --> 00:04:12,470
+In this case, around the X axis.
+
+86
+00:04:12,470 --> 00:04:16,550
+I will then add an empty that
+I will parent to the arrow,
+
+87
+00:04:16,550 --> 00:04:19,130
+placing it on the tip of the arrow
+
+88
+00:04:19,130 --> 00:04:21,350
+and calculate its motion path
+
+89
+00:04:21,350 --> 00:04:26,150
+so that we can see the spacing
+of our revolution motion.
+
+90
+00:04:26,150 --> 00:04:28,040
+When we now watch the result,
+
+91
+00:04:28,040 --> 00:04:31,220
+we can clearly see the
+difference of spacing
+
+92
+00:04:31,220 --> 00:04:32,610
+around frame 15
+
+93
+00:04:32,610 --> 00:04:36,460
+where the curve has the
+most value variation
+
+94
+00:04:36,460 --> 00:04:39,770
+while around frame 0 and frame 30,
+
+95
+00:04:39,770 --> 00:04:41,600
+we have some easing.
+
+96
+00:04:41,600 --> 00:04:45,030
+So single axis Euler rotation curve
+
+97
+00:04:45,030 --> 00:04:47,140
+are super easy to read
+
+98
+00:04:47,140 --> 00:04:48,950
+and they are the perfect choice
+
+99
+00:04:48,950 --> 00:04:51,430
+whenever you are using a controller
+
+100
+00:04:51,430 --> 00:04:54,430
+that need to rotate only on one axis
+
+101
+00:04:54,430 --> 00:04:59,080
+like elbows, finger joints,
+foot roll, or knees.
+
+102
+00:04:59,080 --> 00:05:00,870
+Since Eulers are awesome,
+
+103
+00:05:00,870 --> 00:05:03,450
+why don't we use them all the time?
+
+104
+00:05:03,450 --> 00:05:07,640
+Let's input a bit of Y
+rotation into our arrow.
+
+105
+00:05:07,640 --> 00:05:10,370
+With this 30 degree
+rotation on the Y axis,
+
+106
+00:05:10,370 --> 00:05:12,620
+I changed the orientation of the arrow.
+
+107
+00:05:12,620 --> 00:05:15,200
+So how will be its motion now?
+
+108
+00:05:15,200 --> 00:05:18,760
+Will it still rotate around its X axis?
+
+109
+00:05:18,760 --> 00:05:20,300
+Well, not exactly.
+
+110
+00:05:20,300 --> 00:05:25,300
+It's still doing a revolution,
+but the axis has changed.
+
+111
+00:05:25,510 --> 00:05:29,870
+It's like we have given
+it a new orientation
+
+112
+00:05:29,870 --> 00:05:33,500
+before we start the revolution motion.
+
+113
+00:05:33,500 --> 00:05:38,230
+When we input a Y value,
+it's like we are changing
+
+114
+00:05:38,230 --> 00:05:41,780
+the initial orientation of our arrow
+
+115
+00:05:41,780 --> 00:05:46,270
+and while the arrow, it's still
+doing a revolution motion,
+
+116
+00:05:46,270 --> 00:05:51,270
+it's not doing it anymore
+around the same visual axis.
+
+117
+00:05:51,920 --> 00:05:55,093
+So why is that and how can we handle this?
+
+118
+00:05:55,093 --> 00:05:59,010
+Basically, to define the
+orientation of the arrow.
+
+119
+00:05:59,010 --> 00:06:03,950
+Blender is reading the Euler
+rotation value in sequence
+
+120
+00:06:03,950 --> 00:06:06,700
+and this is why we can
+change different type
+
+121
+00:06:06,700 --> 00:06:08,690
+of Euler rotation.
+
+122
+00:06:08,690 --> 00:06:12,720
+It will simply change the
+order of the sequence.
+
+123
+00:06:12,720 --> 00:06:15,160
+When I say in sequence, I mean that,
+
+124
+00:06:15,160 --> 00:06:17,950
+Blender will first read in this case,
+
+125
+00:06:17,950 --> 00:06:19,370
+the Z rotation axis,
+
+126
+00:06:20,476 --> 00:06:22,745
+then the Y rotation axis,
+
+127
+00:06:22,745 --> 00:06:25,580
+and finally the X rotation axis.
+
+128
+00:06:25,580 --> 00:06:28,350
+So basically, it start by the end.
+
+129
+00:06:28,350 --> 00:06:33,060
+For the XYZ Euler rotation,
+it will first read Z,
+
+130
+00:06:33,060 --> 00:06:35,600
+then Y and finally X.
+
+131
+00:06:35,600 --> 00:06:38,910
+For a ZYX Euler rotation,
+
+132
+00:06:38,910 --> 00:06:42,830
+it will first read X then Y and finally Z,
+
+133
+00:06:42,830 --> 00:06:44,770
+and this is why, in a way,
+
+134
+00:06:44,770 --> 00:06:47,960
+we feel like the Z axis and the Y axis
+
+135
+00:06:47,960 --> 00:06:50,410
+are giving a different orientation
+
+136
+00:06:50,410 --> 00:06:55,000
+while we are executing the
+revolution around the X axis.
+
+137
+00:06:55,000 --> 00:06:57,170
+But this is not exactly true.
+
+138
+00:06:57,170 --> 00:07:00,563
+And what happen if we input some motion
+
+139
+00:07:00,563 --> 00:07:02,420
+onto those two axes?
+
+140
+00:07:02,420 --> 00:07:06,130
+If I get rid of the rotation on the Z axis
+
+141
+00:07:06,130 --> 00:07:10,640
+and I'll input some rotation
+motion onto the Y axis
+
+142
+00:07:10,640 --> 00:07:14,343
+while maintaining the rotation
+motion onto the Y axis,
+
+143
+00:07:15,230 --> 00:07:18,660
+we can see we get a very weird motion.
+
+144
+00:07:18,660 --> 00:07:22,430
+And if I track now the tip of my arrow,
+
+145
+00:07:22,430 --> 00:07:24,430
+it's super strange.
+
+146
+00:07:24,430 --> 00:07:27,200
+I will get rid of the
+interpolation of my curve,
+
+147
+00:07:27,200 --> 00:07:29,750
+so that we have a linear motion,
+
+148
+00:07:29,750 --> 00:07:32,440
+and now if I mute the Y axis,
+
+149
+00:07:32,440 --> 00:07:35,450
+I see my classical rotation
+
+150
+00:07:35,450 --> 00:07:39,020
+but as I mute the X axis
+
+151
+00:07:39,020 --> 00:07:41,580
+and have only the Y rotation,
+
+152
+00:07:41,580 --> 00:07:46,580
+we can see that the rotation
+or revolution on the Y
+
+153
+00:07:47,000 --> 00:07:49,520
+depends on the value on the X
+
+154
+00:07:49,520 --> 00:07:53,030
+and it totally changed
+the behavior of the arrow.
+
+155
+00:07:53,030 --> 00:07:57,880
+So this is one of the main
+issue regarding Euler rotation
+
+156
+00:07:57,880 --> 00:08:02,090
+and it's linked to the gimbal lock.
+
+157
+00:08:02,090 --> 00:08:04,200
+To illustrate the gimbal lock,
+
+158
+00:08:04,200 --> 00:08:05,870
+we will use this Suzanne head.
+
+159
+00:08:05,870 --> 00:08:08,540
+I have three different rotation object.
+
+160
+00:08:08,540 --> 00:08:12,750
+Each object can rotate
+only on one single axis.
+
+161
+00:08:12,750 --> 00:08:16,260
+Red is X, green is Y, and blue is Z.
+
+162
+00:08:16,260 --> 00:08:19,720
+And I will parent the
+monkey head to the red one,
+
+163
+00:08:19,720 --> 00:08:20,653
+the red one to the green one,
+
+164
+00:08:20,653 --> 00:08:22,770
+and the green one to the blue one,
+
+165
+00:08:22,770 --> 00:08:26,900
+so that we can rotate them
+in sequence as with Eulers.
+
+166
+00:08:26,900 --> 00:08:30,480
+So rotating the X object
+will make the head rotate.
+
+167
+00:08:30,480 --> 00:08:32,670
+If I rotate the Y object,
+
+168
+00:08:32,670 --> 00:08:35,470
+both the head and the red one will rotate,
+
+169
+00:08:35,470 --> 00:08:38,970
+and finally, rotating Z
+will rotate everything.
+
+170
+00:08:38,970 --> 00:08:41,690
+I can easily create revolution animation
+
+171
+00:08:41,690 --> 00:08:45,270
+or any rotation animation
+around the X axis.
+
+172
+00:08:45,270 --> 00:08:47,090
+If I rotate a bit Y,
+
+173
+00:08:47,090 --> 00:08:50,280
+it will change the
+initial orientation of X,
+
+174
+00:08:50,280 --> 00:08:53,040
+thus, the revolution axis of the head.
+
+175
+00:08:53,040 --> 00:08:56,530
+The problem is with this
+evaluation of orientation
+
+176
+00:08:56,530 --> 00:09:01,480
+through sequence, if I
+rotate Y by 90 degrees,
+
+177
+00:09:01,480 --> 00:09:04,540
+then X and Z will be aligned
+
+178
+00:09:04,540 --> 00:09:08,140
+and from there, rotating whether Z or X,
+
+179
+00:09:08,140 --> 00:09:11,690
+won't change the behavior of our head
+
+180
+00:09:11,690 --> 00:09:14,000
+and this is what we call a gimbal lock.
+
+181
+00:09:14,000 --> 00:09:16,960
+We have isolated one rotation axis
+
+182
+00:09:16,960 --> 00:09:20,470
+in this case, the original X axis.
+
+183
+00:09:20,470 --> 00:09:24,170
+So to keep things simple,
+whenever you are using Euler,
+
+184
+00:09:24,170 --> 00:09:28,360
+just forget about the
+middle axis in the sequence
+
+185
+00:09:28,360 --> 00:09:31,930
+and use Eulers only for one or two
+
+186
+00:09:31,930 --> 00:09:34,680
+axis rotation controllers.
+
+187
+00:09:34,680 --> 00:09:37,560
+If your controller is
+supposed to rotate freely
+
+188
+00:09:37,560 --> 00:09:39,070
+around the three axes,
+
+189
+00:09:39,070 --> 00:09:41,310
+we will favorize quaternions.
+
+190
+00:09:41,310 --> 00:09:42,580
+When I need to choose
+
+191
+00:09:42,580 --> 00:09:45,940
+which type of Euler
+sequence I'm going to use,
+
+192
+00:09:45,940 --> 00:09:49,050
+I make sure that the first in the sequence
+
+193
+00:09:49,050 --> 00:09:51,230
+is the most important axis
+
+194
+00:09:51,230 --> 00:09:54,040
+the one that will rotate the most.
+
+195
+00:09:54,040 --> 00:09:57,360
+The one in the middle is
+the one I want to isolate,
+
+196
+00:09:57,360 --> 00:10:00,020
+the one I don't want to use,
+
+197
+00:10:00,020 --> 00:10:03,860
+and the third one is
+kind of a secondary axis.
+
+198
+00:10:03,860 --> 00:10:06,390
+On the foot roll controller, for example,
+
+199
+00:10:06,390 --> 00:10:09,520
+I will favorize the X axis,
+
+200
+00:10:09,520 --> 00:10:13,330
+and the Z axis will
+come in second position,
+
+201
+00:10:13,330 --> 00:10:16,770
+and I don't want to
+rotate around the Y axis.
+
+202
+00:10:16,770 --> 00:10:19,290
+For the shoulder, it's a bit the same.
+
+203
+00:10:19,290 --> 00:10:23,730
+The X axis will be the main rotation axis,
+
+204
+00:10:23,730 --> 00:10:25,630
+the Z the secondary.
+
+205
+00:10:25,630 --> 00:10:28,240
+I keep the Y axis available
+
+206
+00:10:28,240 --> 00:10:31,490
+because I know we can
+do find the tweaking,
+
+207
+00:10:31,490 --> 00:10:35,543
+but those are going to be
+very low angle adjustments.
+
+208
+00:10:36,660 --> 00:10:38,330
+Let's have a look to quaternions.
+
+209
+00:10:38,330 --> 00:10:39,910
+With my arrow selected,
+
+210
+00:10:39,910 --> 00:10:43,220
+I will choose in the
+Rotation Menu, Quaternions.
+
+211
+00:10:43,220 --> 00:10:45,590
+We now have four channels.
+
+212
+00:10:45,590 --> 00:10:48,640
+When I changed the value on X, Y, or Z,
+
+213
+00:10:48,640 --> 00:10:52,580
+the arrow rotate around
+the X, Y, or Z axis.
+
+214
+00:10:52,580 --> 00:10:55,980
+So it seems to behave as it did before,
+
+215
+00:10:55,980 --> 00:10:58,060
+but that's not exactly the case.
+
+216
+00:10:58,060 --> 00:11:00,440
+We generally use quaternions
+
+217
+00:11:00,440 --> 00:11:03,210
+from a value of 1 to minus 1.
+
+218
+00:11:03,210 --> 00:11:06,770
+If I set the value on the Y axis to 1,
+
+219
+00:11:06,770 --> 00:11:11,770
+I will see my arrow rotated by
+90 degree around the Y axis,
+
+220
+00:11:12,110 --> 00:11:15,550
+and minus Y will be minus 90 degree.
+
+221
+00:11:15,550 --> 00:11:20,550
+But if I want to do a 180
+degree rotation on the Y axis,
+
+222
+00:11:21,710 --> 00:11:23,240
+I will get stuck.
+
+223
+00:11:23,240 --> 00:11:27,120
+As I go beyond a value
+of 1 which I can do,
+
+224
+00:11:27,120 --> 00:11:30,660
+the arrow will go beyond
+the 90 degree angle
+
+225
+00:11:30,660 --> 00:11:32,470
+but there is a lot of easing
+
+226
+00:11:32,470 --> 00:11:35,428
+and the closer I get to 180 degree,
+
+227
+00:11:35,428 --> 00:11:38,390
+the more and more I need
+to increase the value
+
+228
+00:11:38,390 --> 00:11:42,910
+and I won't be able to get
+to this 180 degree angle
+
+229
+00:11:42,910 --> 00:11:46,370
+even if I push the value to the infinite.
+
+230
+00:11:46,370 --> 00:11:50,110
+If I now try to reach
+this orientation manually
+
+231
+00:11:50,110 --> 00:11:53,460
+instead of using the value inputs,
+
+232
+00:11:53,460 --> 00:11:58,210
+we can see our Y value
+changing as expected,
+
+233
+00:11:58,210 --> 00:12:01,250
+but also the W value.
+
+234
+00:12:01,250 --> 00:12:04,880
+These values that was 1 got to 0
+
+235
+00:12:04,880 --> 00:12:07,500
+and is now getting to minus 1,
+
+236
+00:12:07,500 --> 00:12:11,400
+while the Y value is also
+changing at the same time.
+
+237
+00:12:11,400 --> 00:12:15,000
+And this is because those
+are not rotation values,
+
+238
+00:12:15,000 --> 00:12:19,140
+but each channels equal an orientation.
+
+239
+00:12:19,140 --> 00:12:23,430
+And the values we are
+manipulating are the quantity
+
+240
+00:12:23,430 --> 00:12:28,250
+or the weight of each of those
+orientation we are giving
+
+241
+00:12:28,250 --> 00:12:31,890
+to set the final
+orientation of our object.
+
+242
+00:12:31,890 --> 00:12:34,620
+This is something that
+was super well explained
+
+243
+00:12:34,620 --> 00:12:36,870
+on the sociamix YouTube channel,
+
+244
+00:12:36,870 --> 00:12:40,130
+and I will put the link
+in the documentation.
+
+245
+00:12:40,130 --> 00:12:42,470
+Here, I have four different object,
+
+246
+00:12:42,470 --> 00:12:44,190
+each one has a value of 1
+
+247
+00:12:44,190 --> 00:12:47,160
+on one of the quaternions input.
+
+248
+00:12:47,160 --> 00:12:51,740
+If I set a value of 0.5 on W and on X,
+
+249
+00:12:51,740 --> 00:12:54,780
+you can see our object pointing down.
+
+250
+00:12:54,780 --> 00:12:57,690
+It's half way the orientation on W,
+
+251
+00:12:57,690 --> 00:13:00,680
+and half way the orientation on X.
+
+252
+00:13:00,680 --> 00:13:03,910
+I can repeat the process with W and Z,
+
+253
+00:13:03,910 --> 00:13:06,440
+and now the object will be facing us.
+
+254
+00:13:06,440 --> 00:13:08,770
+So I believe it can be
+a little bit abstract,
+
+255
+00:13:08,770 --> 00:13:10,920
+and it is also for me.
+
+256
+00:13:10,920 --> 00:13:12,850
+The benefit of quaternions
+
+257
+00:13:12,850 --> 00:13:15,670
+is that it will take the shortest path
+
+258
+00:13:15,670 --> 00:13:18,170
+from one orientation to another.
+
+259
+00:13:18,170 --> 00:13:20,560
+So if I use my initial arrow,
+
+260
+00:13:20,560 --> 00:13:24,420
+and I will key different
+orientation in space,
+
+261
+00:13:24,420 --> 00:13:28,300
+and I will then set my curve
+to linear interpolation
+
+262
+00:13:28,300 --> 00:13:30,220
+and calculate the motion path,
+
+263
+00:13:30,220 --> 00:13:32,150
+you can see those clean arcs
+
+264
+00:13:32,150 --> 00:13:35,010
+going from one position to the other.
+
+265
+00:13:35,010 --> 00:13:37,330
+While if I switch to Euler rotation
+
+266
+00:13:37,330 --> 00:13:41,610
+and key exactly the same
+orientation at the same time,
+
+267
+00:13:41,610 --> 00:13:44,400
+you will see that my curve change,
+
+268
+00:13:44,400 --> 00:13:48,160
+and it is kind of zigzagging
+in a smooth manner.
+
+269
+00:13:48,160 --> 00:13:50,730
+So the big strength of quaternion
+
+270
+00:13:50,730 --> 00:13:53,600
+is to not have any gimbal lock
+
+271
+00:13:53,600 --> 00:13:56,510
+and being able to go to one orientation
+
+272
+00:13:56,510 --> 00:13:58,460
+to the other flawlessly.
+
+273
+00:13:58,460 --> 00:14:01,010
+It's perfect for any tracking motion
+
+274
+00:14:01,010 --> 00:14:05,800
+like the head, the arm, the
+wrist, or even the spine,
+
+275
+00:14:05,800 --> 00:14:07,820
+but it has some limitation.
+
+276
+00:14:07,820 --> 00:14:12,410
+You can't do a proper
+revolution with quaternions,
+
+277
+00:14:12,410 --> 00:14:16,260
+it's very complicated to
+read the curve interpolation
+
+278
+00:14:16,260 --> 00:14:20,250
+since it's generally a
+mixture of all the channels
+
+279
+00:14:20,250 --> 00:14:22,090
+at the same time.
+
+280
+00:14:22,090 --> 00:14:24,940
+So the best way to deal with quaternions
+
+281
+00:14:24,940 --> 00:14:26,640
+is to track your arcs
+
+282
+00:14:26,640 --> 00:14:29,610
+whenever you are polishing your animation.
+
+283
+00:14:29,610 --> 00:14:31,530
+A classic bug with quaternions
+
+284
+00:14:31,530 --> 00:14:34,220
+is when you're trying to do a revolution
+
+285
+00:14:34,220 --> 00:14:37,150
+and see the orientation flipping.
+
+286
+00:14:37,150 --> 00:14:38,740
+This can happen often
+
+287
+00:14:38,740 --> 00:14:42,610
+especially if you don't go
+into a very detailed blocking,
+
+288
+00:14:42,610 --> 00:14:45,020
+and the simplest way to fix it
+
+289
+00:14:45,020 --> 00:14:48,560
+is to animate on once
+whenever you are transitioning
+
+290
+00:14:48,560 --> 00:14:50,450
+from one orientation to the other
+
+291
+00:14:50,450 --> 00:14:52,630
+and you have these flipping problem.
+
+292
+00:14:52,630 --> 00:14:54,940
+We will probably face these issues
+
+293
+00:14:54,940 --> 00:14:56,550
+in the incoming chapters.
+
+294
+00:14:56,550 --> 00:14:58,440
+Don't worry if it's a bit confusing,
+
+295
+00:14:58,440 --> 00:15:00,600
+you don't need to know all these theory
+
+296
+00:15:00,600 --> 00:15:02,510
+to become a good animator.
+
+297
+00:15:02,510 --> 00:15:05,820
+To summarize, we have
+seen that the orientation
+
+298
+00:15:05,820 --> 00:15:09,370
+is the result of any rotation
+
+299
+00:15:09,370 --> 00:15:11,810
+at a specific moment in time.
+
+300
+00:15:11,810 --> 00:15:14,700
+A sequence of different orientation
+
+301
+00:15:14,700 --> 00:15:19,050
+can give the impression
+of rotation motion.
+
+302
+00:15:19,050 --> 00:15:21,270
+You should use Euler rotation
+
+303
+00:15:21,270 --> 00:15:26,270
+whenever you are rotating
+around one or two axis maximum.
+
+304
+00:15:26,558 --> 00:15:30,450
+Eulers are awesome because
+they are very easy to read
+
+305
+00:15:30,450 --> 00:15:33,380
+and edit in the graph editor,
+
+306
+00:15:33,380 --> 00:15:36,550
+and you can do a full
+revolution with them.
+
+307
+00:15:36,550 --> 00:15:39,580
+But they can have confusing behavior
+
+308
+00:15:39,580 --> 00:15:41,900
+whenever you are trying to manipulate
+
+309
+00:15:41,900 --> 00:15:44,680
+multiple axes at the same time,
+
+310
+00:15:44,680 --> 00:15:48,820
+and you may also encounter
+gimbal lock trouble.
+
+311
+00:15:48,820 --> 00:15:51,670
+Quaternions won't have any gimbal lock.
+
+312
+00:15:51,670 --> 00:15:53,600
+They have a consistent behavior
+
+313
+00:15:53,600 --> 00:15:57,410
+no matter the orientation
+you are trying to reach,
+
+314
+00:15:57,410 --> 00:16:01,530
+but the graph editor
+can be a bit confusing.
+
+315
+00:16:01,530 --> 00:16:03,420
+You can't, or it's very hard
+
+316
+00:16:03,420 --> 00:16:06,893
+to execute in your
+revolution using quaternions.
+

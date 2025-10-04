@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "Please rewrite the following article in the same words and language style, but with the theme changed to be about the: ```{{city of Florence}}```.\nArticle: \n```\n{clipboard}\n```",
+    "uid" : "A930022E-034F-42F8-8C31-ADB1F2B99A69",
+    "name" : "Rewrite with Theme",
+    "keyword" : "rwwt"
+  }
+}

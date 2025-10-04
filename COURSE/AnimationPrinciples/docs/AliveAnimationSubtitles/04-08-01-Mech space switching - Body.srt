@@ -1,0 +1,1581 @@
+﻿1
+00:00:00,980 --> 00:00:01,813
+- [Instructor] In this video,
+
+2
+00:00:01,813 --> 00:00:05,690
+we are going to work on
+the body secondary motion
+
+3
+00:00:05,690 --> 00:00:07,500
+using space switching.
+
+4
+00:00:07,500 --> 00:00:10,130
+We will work where we have left before
+
+5
+00:00:10,130 --> 00:00:12,690
+with our base body motion done.
+
+6
+00:00:12,690 --> 00:00:15,310
+The hips are slightly rotating.
+
+7
+00:00:15,310 --> 00:00:18,070
+We will start by working on the body part
+
+8
+00:00:18,070 --> 00:00:19,620
+of the character.
+
+9
+00:00:19,620 --> 00:00:20,820
+To help yourself,
+
+10
+00:00:20,820 --> 00:00:23,480
+you can go into the armature option,
+
+11
+00:00:23,480 --> 00:00:28,480
+viewport display and
+display the names and axes.
+
+12
+00:00:28,580 --> 00:00:32,580
+Screen controller axis will
+help us kind of guessing
+
+13
+00:00:32,580 --> 00:00:36,920
+which axis we need to use
+when working with aim space.
+
+14
+00:00:36,920 --> 00:00:38,390
+Let's press Control + Tab
+
+15
+00:00:38,390 --> 00:00:41,120
+to switch back to object mode
+
+16
+00:00:41,120 --> 00:00:45,210
+and I will press then
+Shift + A to add an empty.
+
+17
+00:00:45,210 --> 00:00:48,500
+To make sure that we see
+the empty whatsoever,
+
+18
+00:00:48,500 --> 00:00:52,450
+we will go into the
+object option of the empty
+
+19
+00:00:52,450 --> 00:00:55,200
+and we will activate
+in the viewport display
+
+20
+00:00:55,200 --> 00:00:57,160
+the in front option.
+
+21
+00:00:57,160 --> 00:00:58,340
+Finally, to be sure
+
+22
+00:00:58,340 --> 00:01:00,570
+that we are not selecting
+the different parts
+
+23
+00:01:00,570 --> 00:01:01,630
+of the robot,
+
+24
+00:01:01,630 --> 00:01:03,800
+we can disable the selectability
+
+25
+00:01:03,800 --> 00:01:06,870
+by clicking the mouse cursor icon.
+
+26
+00:01:06,870 --> 00:01:08,410
+If you can't find it,
+
+27
+00:01:08,410 --> 00:01:11,920
+make sure that it's
+enabled in the filter menu.
+
+28
+00:01:11,920 --> 00:01:15,410
+We will start by working
+on the up and down motion
+
+29
+00:01:15,410 --> 00:01:16,610
+of the body.
+
+30
+00:01:16,610 --> 00:01:18,600
+So with my empty selected,
+
+31
+00:01:18,600 --> 00:01:21,930
+I've added a copy location to it.
+
+32
+00:01:21,930 --> 00:01:25,400
+The target will be our MECH Armature
+
+33
+00:01:25,400 --> 00:01:28,400
+and the bone will be the body controller.
+
+34
+00:01:28,400 --> 00:01:31,730
+We can set the baking frame range directly
+
+35
+00:01:31,730 --> 00:01:33,110
+during the baking.
+
+36
+00:01:33,110 --> 00:01:34,950
+But to make our life easier,
+
+37
+00:01:34,950 --> 00:01:38,960
+I will set the end of
+the animation to frame 72
+
+38
+00:01:38,960 --> 00:01:42,840
+since our cycle goes from
+frame zero to frame 72.
+
+39
+00:01:42,840 --> 00:01:45,930
+Then pressing Q to
+access my quick favorite,
+
+40
+00:01:45,930 --> 00:01:48,360
+I will choose bake action.
+
+41
+00:01:48,360 --> 00:01:51,010
+You can access it by pressing F3
+
+42
+00:01:51,010 --> 00:01:52,837
+and searching for bake
+
+43
+00:01:52,837 --> 00:01:55,140
+and I advise you to
+create a quick favorite
+
+44
+00:01:55,140 --> 00:01:58,050
+since we will use this
+command all the time.
+
+45
+00:01:58,050 --> 00:02:00,000
+Enable visual keying,
+
+46
+00:02:00,000 --> 00:02:02,130
+clear constraint and press OK.
+
+47
+00:02:02,130 --> 00:02:06,170
+Now we do have animation
+that are for our empty
+
+48
+00:02:06,170 --> 00:02:08,183
+following the motion of the body.
+
+49
+00:02:09,065 --> 00:02:10,670
+With all its curves selected,
+
+50
+00:02:10,670 --> 00:02:13,620
+I will press Shift + E and make it cycle.
+
+51
+00:02:13,620 --> 00:02:15,860
+From there, we need to use this empty
+
+52
+00:02:15,860 --> 00:02:19,440
+to constraint the body
+controller of our robot.
+
+53
+00:02:19,440 --> 00:02:20,960
+Select the armature,
+
+54
+00:02:20,960 --> 00:02:23,570
+go back into pose mode, select the bone,
+
+55
+00:02:23,570 --> 00:02:25,440
+go into the bone constraint,
+
+56
+00:02:25,440 --> 00:02:28,740
+add a copy location and source the empty.
+
+57
+00:02:28,740 --> 00:02:30,720
+Now I can get out of pose mode,
+
+58
+00:02:30,720 --> 00:02:33,160
+select the empty and when I move it,
+
+59
+00:02:33,160 --> 00:02:34,300
+the body follow.
+
+60
+00:02:34,300 --> 00:02:35,770
+In the graph editor,
+
+61
+00:02:35,770 --> 00:02:39,320
+I will offset the animation by two frames.
+
+62
+00:02:39,320 --> 00:02:40,970
+That should be enough.
+
+63
+00:02:40,970 --> 00:02:44,130
+So now we get our follow-through animation
+
+64
+00:02:44,130 --> 00:02:45,250
+of the body.
+
+65
+00:02:45,250 --> 00:02:46,960
+While I like the timing,
+
+66
+00:02:46,960 --> 00:02:50,200
+I feel that the motion is a bit extreme.
+
+67
+00:02:50,200 --> 00:02:52,700
+So I can go back onto the armature,
+
+68
+00:02:52,700 --> 00:02:54,190
+go into pose mode,
+
+69
+00:02:54,190 --> 00:02:58,160
+tweak the influence of the
+copy location constraint
+
+70
+00:02:58,160 --> 00:02:59,710
+and cut it in half.
+
+71
+00:02:59,710 --> 00:03:02,830
+This way we keep our
+follow-through animation
+
+72
+00:03:02,830 --> 00:03:05,100
+but with less influence,
+
+73
+00:03:05,100 --> 00:03:08,380
+meaning that we have less
+amplitude in the motion.
+
+74
+00:03:08,380 --> 00:03:10,090
+So it's a matter of tweaking
+
+75
+00:03:10,090 --> 00:03:13,740
+and testing whatever
+value fits your animation.
+
+76
+00:03:13,740 --> 00:03:16,790
+When I'm happy with the
+motion, I will bake it.
+
+77
+00:03:16,790 --> 00:03:19,840
+With my bone selected,
+I've pressed the Q key
+
+78
+00:03:19,840 --> 00:03:21,570
+to access my quick favorite
+
+79
+00:03:21,570 --> 00:03:23,980
+and choose bake action
+
+80
+00:03:23,980 --> 00:03:27,220
+and I will check the
+Override Current Action.
+
+81
+00:03:27,220 --> 00:03:29,970
+The body controller is
+no longer a constraint
+
+82
+00:03:29,970 --> 00:03:33,280
+but it has written all
+the keyframes needed
+
+83
+00:03:33,280 --> 00:03:35,230
+to have the same animation.
+
+84
+00:03:35,230 --> 00:03:37,110
+We will now use aim space
+
+85
+00:03:37,110 --> 00:03:40,130
+to add a bit of rotation to the body.
+
+86
+00:03:40,130 --> 00:03:43,100
+First, we need to align the empty
+
+87
+00:03:43,100 --> 00:03:44,960
+to the body controller.
+
+88
+00:03:44,960 --> 00:03:48,780
+To do so, you can get rid of
+the current animation curve
+
+89
+00:03:48,780 --> 00:03:50,740
+but it's not mandatory.
+
+90
+00:03:50,740 --> 00:03:54,280
+What we need to so is
+to add a copy transform,
+
+91
+00:03:54,280 --> 00:03:55,970
+source the armature
+
+92
+00:03:55,970 --> 00:03:58,740
+and source our body controller.
+
+93
+00:03:58,740 --> 00:04:00,340
+Then in the 3D view,
+
+94
+00:04:00,340 --> 00:04:02,240
+we will press Control + A
+
+95
+00:04:02,240 --> 00:04:05,210
+and apply the visual transform.
+
+96
+00:04:05,210 --> 00:04:07,690
+From there, we can get
+rid of the constraint.
+
+97
+00:04:07,690 --> 00:04:10,250
+We now need to offset the empty.
+
+98
+00:04:10,250 --> 00:04:13,127
+So I will use the local space axis
+
+99
+00:04:13,127 --> 00:04:16,940
+and as you can see, I need to move forward
+
+100
+00:04:16,940 --> 00:04:19,010
+onto the y-axis.
+
+101
+00:04:19,010 --> 00:04:21,460
+The further you will move the empty,
+
+102
+00:04:21,460 --> 00:04:23,560
+the less influence it will have
+
+103
+00:04:23,560 --> 00:04:27,440
+because we are using
+location to drive a rotation.
+
+104
+00:04:27,440 --> 00:04:30,650
+So for a given up and down motion,
+
+105
+00:04:30,650 --> 00:04:34,500
+the further I am, the
+less rotation I will get.
+
+106
+00:04:34,500 --> 00:04:37,370
+So this is something you
+will have to play with
+
+107
+00:04:37,370 --> 00:04:38,750
+to get used to.
+
+108
+00:04:38,750 --> 00:04:40,380
+In our specific case,
+
+109
+00:04:40,380 --> 00:04:44,630
+we don't really care since
+we can move the empty
+
+110
+00:04:44,630 --> 00:04:47,270
+after we have baked its motion.
+
+111
+00:04:47,270 --> 00:04:51,560
+But to bake it, we need to
+make it a child of the body.
+
+112
+00:04:51,560 --> 00:04:55,160
+So I will add to it a child of constraint,
+
+113
+00:04:55,160 --> 00:04:57,400
+source the armature,
+
+114
+00:04:57,400 --> 00:04:59,610
+then source the body bone,
+
+115
+00:04:59,610 --> 00:05:04,330
+click the set inverse option
+to reset its position.
+
+116
+00:05:04,330 --> 00:05:06,137
+It now follows the body
+
+117
+00:05:06,137 --> 00:05:09,770
+and I can press Q to bake the action.
+
+118
+00:05:09,770 --> 00:05:12,250
+From there, I can select all the curve,
+
+119
+00:05:12,250 --> 00:05:15,050
+press Shift + E and make cycle.
+
+120
+00:05:15,050 --> 00:05:16,050
+For the time being,
+
+121
+00:05:16,050 --> 00:05:19,290
+I will only display the Z location curve
+
+122
+00:05:19,290 --> 00:05:23,220
+and I will jump onto the
+controller of my body,
+
+123
+00:05:23,220 --> 00:05:25,560
+go to the bone constraint
+
+124
+00:05:25,560 --> 00:05:28,530
+and add a dump truck constraint.
+
+125
+00:05:28,530 --> 00:05:30,950
+As a target, we will source the empty
+
+126
+00:05:30,950 --> 00:05:32,920
+and we can see the body flipped
+
+127
+00:05:32,920 --> 00:05:34,680
+and that's perfectly normal
+
+128
+00:05:34,680 --> 00:05:38,320
+since the y-axis is pointing backward
+
+129
+00:05:38,320 --> 00:05:40,480
+in its positive direction.
+
+130
+00:05:40,480 --> 00:05:42,560
+To fix this, we simply need
+
+131
+00:05:42,560 --> 00:05:46,540
+to choose the minus y-axis as the track.
+
+132
+00:05:46,540 --> 00:05:48,480
+I can now press Control + Tab
+
+133
+00:05:48,480 --> 00:05:51,010
+to get back into object mode,
+
+134
+00:05:51,010 --> 00:05:55,530
+select the empty and
+play with the z curve,
+
+135
+00:05:55,530 --> 00:05:57,730
+so I will frame the curve
+
+136
+00:05:57,730 --> 00:06:01,990
+and I will offset it
+by two to three frame.
+
+137
+00:06:01,990 --> 00:06:04,162
+And we now get a bit of rotation
+
+138
+00:06:04,162 --> 00:06:06,830
+in our follow-through motion
+
+139
+00:06:06,830 --> 00:06:08,620
+and that's very cool.
+
+140
+00:06:08,620 --> 00:06:10,270
+What will be nice too
+
+141
+00:06:10,270 --> 00:06:14,130
+is to add a bit of side-to-side motion.
+
+142
+00:06:14,130 --> 00:06:17,950
+So I will head up to the x location curve
+
+143
+00:06:17,950 --> 00:06:21,390
+and I will offset it by only one frame
+
+144
+00:06:21,390 --> 00:06:23,650
+to keep it very subtle.
+
+145
+00:06:23,650 --> 00:06:25,860
+Again, it's a creative process.
+
+146
+00:06:25,860 --> 00:06:28,620
+If you want more left-to-right motion,
+
+147
+00:06:28,620 --> 00:06:32,080
+it's up to you to increase
+the offset of the curve.
+
+148
+00:06:32,080 --> 00:06:35,270
+But since the weapon are
+attached to the body,
+
+149
+00:06:35,270 --> 00:06:40,270
+I feel like we may not input
+too much left to right motion.
+
+150
+00:06:40,440 --> 00:06:44,760
+So from there, I can bake
+the action on the body.
+
+151
+00:06:44,760 --> 00:06:45,840
+For the time being,
+
+152
+00:06:45,840 --> 00:06:48,230
+then I will always create keyframes
+
+153
+00:06:48,230 --> 00:06:50,280
+on all the transformed channels,
+
+154
+00:06:50,280 --> 00:06:53,530
+including the scale that we don't use.
+
+155
+00:06:53,530 --> 00:06:55,670
+So we can get rid of those.
+
+156
+00:06:55,670 --> 00:06:58,500
+I'm pretty happy with
+the body motion results,
+
+157
+00:06:58,500 --> 00:07:01,190
+so I will now work on the hips.
+
+158
+00:07:01,190 --> 00:07:04,100
+We have already animated
+it a bit previously
+
+159
+00:07:04,100 --> 00:07:06,790
+but now I'd like to add a bit
+
+160
+00:07:06,790 --> 00:07:09,420
+of follow-through in its location
+
+161
+00:07:09,420 --> 00:07:13,150
+and also in its up and down rotation.
+
+162
+00:07:13,150 --> 00:07:14,623
+Let's repeat the process.
+
+163
+00:07:14,623 --> 00:07:16,720
+With the empty selected,
+
+164
+00:07:16,720 --> 00:07:20,475
+I will go to the constraint
+and add the copy location.
+
+165
+00:07:20,475 --> 00:07:23,800
+I will source as the target the armature
+
+166
+00:07:23,800 --> 00:07:26,580
+and as the bone, the hips bone.
+
+167
+00:07:26,580 --> 00:07:30,940
+If you can't find it, it's
+just further down in the list.
+
+168
+00:07:30,940 --> 00:07:34,540
+From there, we can press Q
+to access our quick favorite
+
+169
+00:07:34,540 --> 00:07:37,750
+and bake the action of the empty.
+
+170
+00:07:37,750 --> 00:07:39,800
+Then select back the armature,
+
+171
+00:07:39,800 --> 00:07:43,660
+go into pose mode and with
+the hips bone selected,
+
+172
+00:07:43,660 --> 00:07:45,380
+go to the bone constraint
+
+173
+00:07:45,380 --> 00:07:48,690
+and add a copy location constraint
+
+174
+00:07:48,690 --> 00:07:50,490
+and source the empty.
+
+175
+00:07:50,490 --> 00:07:52,880
+From there, let's exit pose mode
+
+176
+00:07:52,880 --> 00:07:54,440
+by pressing Control + Tab,
+
+177
+00:07:54,440 --> 00:07:57,490
+select DMT, select all its curve,
+
+178
+00:07:57,490 --> 00:08:00,300
+press Shift + E to make it cycle
+
+179
+00:08:00,300 --> 00:08:03,510
+and now I can select the Z location curve
+
+180
+00:08:03,510 --> 00:08:06,450
+by isolating the other ones.
+
+181
+00:08:06,450 --> 00:08:09,810
+And just offset it by a couple of frames.
+
+182
+00:08:09,810 --> 00:08:13,780
+Now again it's a matter
+of taste and choice.
+
+183
+00:08:13,780 --> 00:08:15,710
+I feel like the amplitude
+
+184
+00:08:15,710 --> 00:08:19,240
+of the up and down motion
+is a bit too extreme,
+
+185
+00:08:19,240 --> 00:08:22,640
+so I will get back onto the hips bone
+
+186
+00:08:22,640 --> 00:08:24,760
+by selecting the armature,
+
+187
+00:08:24,760 --> 00:08:26,668
+going back into pose mode
+
+188
+00:08:26,668 --> 00:08:29,000
+and in the constraint panel,
+
+189
+00:08:29,000 --> 00:08:31,050
+I will reduce the influence to 0.5
+
+190
+00:08:32,190 --> 00:08:34,300
+and double check how it looks.
+
+191
+00:08:34,300 --> 00:08:36,520
+I will test at 0.5
+
+192
+00:08:36,520 --> 00:08:39,320
+and then increase it a bit around 0.6
+
+193
+00:08:40,200 --> 00:08:43,430
+and since I'm quite happy with the result,
+
+194
+00:08:43,430 --> 00:08:45,300
+I will bake the action
+
+195
+00:08:45,300 --> 00:08:47,800
+by pressing Q, bake action
+
+196
+00:08:47,800 --> 00:08:50,570
+and overwrite current action.
+
+197
+00:08:50,570 --> 00:08:53,370
+We can now refine the
+rotation of the hips.
+
+198
+00:08:53,370 --> 00:08:55,697
+So I will go back to the empty
+
+199
+00:08:55,697 --> 00:08:59,494
+and hide all the curve
+and get rid of them.
+
+200
+00:08:59,494 --> 00:09:03,518
+Add onto it a copy transform constraint
+
+201
+00:09:03,518 --> 00:09:05,590
+and then in the 3D view,
+
+202
+00:09:05,590 --> 00:09:08,010
+I will press Control + A
+
+203
+00:09:08,010 --> 00:09:11,910
+and apply the visual transform.
+
+204
+00:09:11,910 --> 00:09:13,210
+We can see that the hips
+
+205
+00:09:13,210 --> 00:09:17,036
+are pointing forward
+on their local y-axis.
+
+206
+00:09:17,036 --> 00:09:20,310
+So I will move the empty on the y-axis
+
+207
+00:09:20,310 --> 00:09:23,130
+but first, we need to
+remove the constraint.
+
+208
+00:09:23,130 --> 00:09:26,700
+If you want, you can also
+enable the axis display
+
+209
+00:09:26,700 --> 00:09:28,150
+of the empty.
+
+210
+00:09:28,150 --> 00:09:31,600
+That should help you to
+figure on which axis you have
+
+211
+00:09:31,600 --> 00:09:32,700
+to offset it
+
+212
+00:09:32,700 --> 00:09:35,420
+but again, it's the y-axis.
+
+213
+00:09:35,420 --> 00:09:38,500
+We now need to make it
+a child of the hips,
+
+214
+00:09:38,500 --> 00:09:40,210
+so we will go to the constraint,
+
+215
+00:09:40,210 --> 00:09:41,980
+add a child of constraint,
+
+216
+00:09:41,980 --> 00:09:45,350
+source the armature, source the hips bone
+
+217
+00:09:45,350 --> 00:09:48,980
+and don't forget to click
+the set inverse button
+
+218
+00:09:48,980 --> 00:09:50,750
+to reset its position.
+
+219
+00:09:50,750 --> 00:09:53,410
+Then we can bake its action
+
+220
+00:09:53,410 --> 00:09:56,660
+and with all the curves
+selected, press Shift + E
+
+221
+00:09:56,660 --> 00:09:58,490
+and choose make cycle.
+
+222
+00:09:58,490 --> 00:10:00,710
+I will now use a tracking constraint
+
+223
+00:10:00,710 --> 00:10:02,460
+to make the hips rotating
+
+224
+00:10:02,460 --> 00:10:05,400
+but since we have already animated them,
+
+225
+00:10:05,400 --> 00:10:07,730
+rotating from side to side,
+
+226
+00:10:07,730 --> 00:10:10,650
+instead of a dump truck constraint,
+
+227
+00:10:10,650 --> 00:10:13,360
+we will use a locked try constraint
+
+228
+00:10:13,360 --> 00:10:16,770
+and rotate around the x-axis of the hips.
+
+229
+00:10:16,770 --> 00:10:17,930
+With the rig selected,
+
+230
+00:10:17,930 --> 00:10:20,020
+I will get back into pose mode,
+
+231
+00:10:20,020 --> 00:10:23,760
+select the hips, go to the bone constraint
+
+232
+00:10:23,760 --> 00:10:26,560
+and add a locked track constraint.
+
+233
+00:10:26,560 --> 00:10:29,370
+I will source as a target the empty
+
+234
+00:10:29,370 --> 00:10:32,420
+and we want to point on the -y-axis
+
+235
+00:10:32,420 --> 00:10:35,660
+and rotate around the x-axis.
+
+236
+00:10:35,660 --> 00:10:38,970
+With this constraint, we
+will only have the rotation
+
+237
+00:10:38,970 --> 00:10:41,970
+around the local x-axis of the hips,
+
+238
+00:10:41,970 --> 00:10:44,120
+the up and down rotation.
+
+239
+00:10:44,120 --> 00:10:45,860
+We can go back to object mode
+
+240
+00:10:45,860 --> 00:10:47,570
+and select the empty
+
+241
+00:10:47,570 --> 00:10:51,560
+and offset the Z location
+curve of the empty.
+
+242
+00:10:51,560 --> 00:10:54,159
+This will create a slight
+follow-through animation
+
+243
+00:10:54,159 --> 00:10:56,070
+of the hips.
+
+244
+00:10:56,070 --> 00:10:59,530
+I've used a 223 frame of offset.
+
+245
+00:10:59,530 --> 00:11:02,310
+As usual, you can choose
+the offset you want.
+
+246
+00:11:02,310 --> 00:11:04,840
+You can choose the influence you want
+
+247
+00:11:04,840 --> 00:11:06,890
+and then just press Q
+
+248
+00:11:06,890 --> 00:11:10,130
+and bake the action onto the hips.
+
+249
+00:11:10,130 --> 00:11:13,240
+As I'm done, I will get
+rid of the scale keyframe
+
+250
+00:11:13,240 --> 00:11:15,090
+because we don't need them.
+
+251
+00:11:15,090 --> 00:11:17,453
+From there, let's move onto the head.
+
+252
+00:11:19,330 --> 00:11:22,440
+We will repeat exactly the same workflow.
+
+253
+00:11:22,440 --> 00:11:26,530
+First, select the empty,
+get rid of all the curves.
+
+254
+00:11:26,530 --> 00:11:30,173
+Then add to it a copy location constraint,
+
+255
+00:11:30,173 --> 00:11:34,490
+source the armature, then
+source the head controller.
+
+256
+00:11:34,490 --> 00:11:38,950
+Then press Q and bake
+the action on the empty.
+
+257
+00:11:38,950 --> 00:11:42,670
+Then go back onto the armature.
+
+258
+00:11:42,670 --> 00:11:44,670
+Select the head controller.
+
+259
+00:11:44,670 --> 00:11:46,800
+Go to the bone constraint,
+
+260
+00:11:46,800 --> 00:11:50,030
+add a copy location, source the empty,
+
+261
+00:11:50,030 --> 00:11:52,130
+go back onto the empty,
+
+262
+00:11:52,130 --> 00:11:54,120
+make all the curves cycling
+
+263
+00:11:54,120 --> 00:11:57,840
+by pressing Shift + E, make cycle
+
+264
+00:11:57,840 --> 00:11:59,770
+and then you can offset the curve
+
+265
+00:11:59,770 --> 00:12:02,020
+to get the follow-through motion.
+
+266
+00:12:02,020 --> 00:12:04,020
+So in the case of the head,
+
+267
+00:12:04,020 --> 00:12:07,950
+I prefer to offset the z-axis only
+
+268
+00:12:07,950 --> 00:12:12,100
+because I don't want to create
+too much left to right swivel
+
+269
+00:12:12,100 --> 00:12:13,510
+of the head.
+
+270
+00:12:13,510 --> 00:12:17,180
+So I will reset the offset of the curve,
+
+271
+00:12:17,180 --> 00:12:20,090
+then select only the Z curve
+
+272
+00:12:20,090 --> 00:12:25,090
+and offset it by two or
+three frame later in time.
+
+273
+00:12:25,220 --> 00:12:28,930
+Then I will select the x location curve
+
+274
+00:12:28,930 --> 00:12:31,770
+and I will offset it by only one frame
+
+275
+00:12:31,770 --> 00:12:35,020
+to get a bit of delay
+or follow-through motion
+
+276
+00:12:35,020 --> 00:12:37,470
+on the left to right axis
+
+277
+00:12:37,470 --> 00:12:41,380
+but not as important as the up and down.
+
+278
+00:12:41,380 --> 00:12:45,110
+Try not to overdo all
+those follow-through motion
+
+279
+00:12:45,110 --> 00:12:48,640
+or your robot will
+really look very clanky.
+
+280
+00:12:48,640 --> 00:12:51,010
+So it might be a look you are aiming for
+
+281
+00:12:51,010 --> 00:12:52,930
+but if you want to make it robust,
+
+282
+00:12:52,930 --> 00:12:55,550
+don't overdo all those
+follow-through motion.
+
+283
+00:12:55,550 --> 00:12:59,300
+When I'm happy with the
+timing of this follow-through,
+
+284
+00:12:59,300 --> 00:13:02,450
+I can play with the
+influence of the constraint
+
+285
+00:13:02,450 --> 00:13:05,930
+to reduce the amplitude of the motion.
+
+286
+00:13:05,930 --> 00:13:10,850
+So it seems I was happy
+with an influence of 0.6
+
+287
+00:13:10,850 --> 00:13:12,680
+for the head motion.
+
+288
+00:13:12,680 --> 00:13:17,080
+So from there, I will get into pose mode
+
+289
+00:13:17,080 --> 00:13:20,210
+and press Q to bake the action
+
+290
+00:13:20,210 --> 00:13:22,500
+of the copy location constraint
+
+291
+00:13:22,500 --> 00:13:24,080
+onto the head bone.
+
+292
+00:13:24,080 --> 00:13:26,710
+Now, we will switch to aim space
+
+293
+00:13:26,710 --> 00:13:28,640
+to add a bit of rotation.
+
+294
+00:13:28,640 --> 00:13:30,920
+So I will select the empty,
+
+295
+00:13:30,920 --> 00:13:33,090
+get rid of all the curves,
+
+296
+00:13:33,090 --> 00:13:36,290
+add a copy transform constraint.
+
+297
+00:13:36,290 --> 00:13:39,130
+As a target, I will choose the armature
+
+298
+00:13:39,130 --> 00:13:41,000
+and the head bone.
+
+299
+00:13:41,000 --> 00:13:42,190
+Then in the 3D view,
+
+300
+00:13:42,190 --> 00:13:45,710
+I will press Control + A
+and choose visual transform.
+
+301
+00:13:45,710 --> 00:13:47,840
+Get rid of the constraint.
+
+302
+00:13:47,840 --> 00:13:50,930
+Offset the empty on the y-axis.
+
+303
+00:13:50,930 --> 00:13:55,120
+Then we need to add to
+it a child of constraint.
+
+304
+00:13:55,120 --> 00:13:57,737
+So I will select it, go to the constraint,
+
+305
+00:13:57,737 --> 00:14:01,750
+add the child of, source again our rig,
+
+306
+00:14:01,750 --> 00:14:03,950
+the head bone controller.
+
+307
+00:14:03,950 --> 00:14:06,420
+Set inverse to reset its position
+
+308
+00:14:06,420 --> 00:14:08,900
+and bake the action of the empty.
+
+309
+00:14:08,900 --> 00:14:12,320
+Now the empty's following
+the motion of the head.
+
+310
+00:14:12,320 --> 00:14:14,157
+Now we can select the head,
+
+311
+00:14:14,157 --> 00:14:17,290
+add a dump truck constraint,
+
+312
+00:14:17,290 --> 00:14:18,940
+source the empty
+
+313
+00:14:18,940 --> 00:14:22,000
+and then flip the bone constraint
+
+314
+00:14:22,000 --> 00:14:24,820
+to the -y-axis.
+
+315
+00:14:24,820 --> 00:14:27,360
+I will select back the empty,
+
+316
+00:14:27,360 --> 00:14:29,130
+make all the curve cycle
+
+317
+00:14:29,130 --> 00:14:32,050
+and isolate the Z location curve.
+
+318
+00:14:32,050 --> 00:14:34,710
+I will offset it by four frame
+
+319
+00:14:34,710 --> 00:14:38,040
+to get enough amplitude of motion
+
+320
+00:14:38,040 --> 00:14:39,970
+but now what I'd like to do
+
+321
+00:14:39,970 --> 00:14:41,820
+is to smooth the curve.
+
+322
+00:14:41,820 --> 00:14:45,150
+We will have a smoother
+rotation of the head
+
+323
+00:14:45,150 --> 00:14:47,460
+that will looks way heavier
+
+324
+00:14:47,460 --> 00:14:51,520
+but will also make the
+robot look more robust.
+
+325
+00:14:51,520 --> 00:14:54,630
+If you want to have more
+amplitude in the motion,
+
+326
+00:14:54,630 --> 00:14:59,570
+what you can do is switch
+the curve editing pivot point
+
+327
+00:14:59,570 --> 00:15:04,570
+to bounding box and
+scale it on the y-axis.
+
+328
+00:15:04,760 --> 00:15:07,980
+This will slightly increase
+the up and down motion
+
+329
+00:15:07,980 --> 00:15:11,770
+of the empty and the rotation of the head.
+
+330
+00:15:11,770 --> 00:15:15,810
+Now I will try to spot these
+little bounds in the curve.
+
+331
+00:15:15,810 --> 00:15:18,230
+You can then duplicate one of the keys
+
+332
+00:15:18,230 --> 00:15:20,490
+or add a key manually
+
+333
+00:15:20,490 --> 00:15:22,410
+and to get a smooth result,
+
+334
+00:15:22,410 --> 00:15:24,770
+I will select all the keys,
+
+335
+00:15:24,770 --> 00:15:28,380
+press V to set them to auto clamped.
+
+336
+00:15:28,380 --> 00:15:32,180
+From there, it will be pretty
+easy to smooth the curve.
+
+337
+00:15:32,180 --> 00:15:35,650
+We just need to get rid
+of some of the keys.
+
+338
+00:15:35,650 --> 00:15:38,560
+Just keep the keys that
+are on the extreme.
+
+339
+00:15:38,560 --> 00:15:42,760
+Since our handle are
+all set to auto clamped,
+
+340
+00:15:42,760 --> 00:15:45,520
+whenever we get rid of a keyframe,
+
+341
+00:15:45,520 --> 00:15:48,520
+Blender will automatically
+try to keep the curve
+
+342
+00:15:48,520 --> 00:15:50,640
+as smooth as possible
+
+343
+00:15:50,640 --> 00:15:53,493
+without changing the extreme values.
+
+344
+00:15:53,493 --> 00:15:56,900
+So from there, you can
+try to simplify the curve.
+
+345
+00:15:56,900 --> 00:16:00,350
+You can edit it, moving
+the keys a little lower
+
+346
+00:16:00,350 --> 00:16:04,160
+or a little higher if you
+want a bit more motion.
+
+347
+00:16:04,160 --> 00:16:08,420
+Just make sure that the
+curve cycle on 72 frame,
+
+348
+00:16:08,420 --> 00:16:09,970
+meaning that the very first
+
+349
+00:16:09,970 --> 00:16:12,930
+and very last keys must be the same
+
+350
+00:16:12,930 --> 00:16:14,890
+and don't be afraid to fail.
+
+351
+00:16:14,890 --> 00:16:18,268
+If you fail, you just
+need to rebake the curve.
+
+352
+00:16:18,268 --> 00:16:19,980
+So with this process,
+
+353
+00:16:19,980 --> 00:16:22,531
+you can be very creative for free.
+
+354
+00:16:22,531 --> 00:16:24,740
+So from there, what I wanted
+
+355
+00:16:24,740 --> 00:16:29,150
+is just to add a very
+subtle left to right motion.
+
+356
+00:16:29,150 --> 00:16:32,420
+So I've slightly offset
+the X location curve
+
+357
+00:16:32,420 --> 00:16:34,500
+of the empty so that the head
+
+358
+00:16:34,500 --> 00:16:36,970
+is dragging a bit left to right.
+
+359
+00:16:36,970 --> 00:16:40,030
+I used like one or two frame offset.
+
+360
+00:16:40,030 --> 00:16:41,990
+When you're happy with the result,
+
+361
+00:16:41,990 --> 00:16:45,350
+as usual, select back the armature,
+
+362
+00:16:45,350 --> 00:16:46,837
+go back into pose mode
+
+363
+00:16:46,837 --> 00:16:49,359
+and with the head bone selected,
+
+364
+00:16:49,359 --> 00:16:51,790
+just bake the action
+
+365
+00:16:51,790 --> 00:16:54,110
+and then clean any keyframes
+
+366
+00:16:54,110 --> 00:16:58,750
+that is unwanted, like on the
+scale channel, for example.
+
+367
+00:16:58,750 --> 00:17:00,750
+I hope you're getting more familiar
+
+368
+00:17:00,750 --> 00:17:03,010
+with the space switching process.
+
+369
+00:17:03,010 --> 00:17:06,830
+In the next video, we will
+do all the remaining pieces
+
+370
+00:17:06,830 --> 00:17:08,533
+of the robot the same way.
+

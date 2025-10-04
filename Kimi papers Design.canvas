@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"f91f5600cb0ed73c","type":"group","x":-480,"y":-595,"width":360,"height":415,"color":"1","label":"zotero"},
+		{"id":"ef335404f5894b7a","type":"group","x":-100,"y":-602,"width":290,"height":180,"label":"Kimi"},
+		{"id":"33a5c8c3450bfb4a","type":"group","x":220,"y":-602,"width":240,"height":185,"color":"6","label":"Obsidian"},
+		{"id":"44109ac8c46f23fa","x":-416,"y":-884,"width":586,"height":337,"type":"file","file":"Executing script between Zotero and Alfred remotely.md"},
+		{"id":"f746aa1f64525451","type":"text","text":"Canvas","x":260,"y":-577,"width":120,"height":60},
+		{"id":"54538a069cd53da5","type":"text","text":"md note (Tfiles)","x":240,"y":-497,"width":200,"height":60},
+		{"id":"267dc9e27e4bbcef","type":"text","text":"chat with pdf_id","x":-80,"y":-502,"width":250,"height":60},
+		{"id":"1ddfa69ece76282b","type":"text","text":"upload pdf => pdf id","x":-80,"y":-582,"width":250,"height":50},
+		{"id":"ae47479779b232d8","type":"text","text":"PDF ","x":-440,"y":-577,"width":120,"height":60},
+		{"id":"0ca3a2335624e518","type":"text","text":"PDF  annotations","x":-440,"y":-502,"width":160,"height":50},
+		{"id":"0c29fd2a2d70d0f0","type":"text","text":"Alfred","x":-80,"y":-320,"width":270,"height":100}
+	],
+	"edges":[
+		{"id":"4860015fb6927e52","fromNode":"ae47479779b232d8","fromSide":"right","toNode":"1ddfa69ece76282b","toSide":"left"}
+	]
+}

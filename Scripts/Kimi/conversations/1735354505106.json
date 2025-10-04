@@ -1,0 +1,49 @@
+{
+    "conversation_id": "ctnmh2te09n99gjj7v10",
+    "attachments": [
+        {
+            "date": 2018,
+            "title": "Streaming Volumetric Images Online",
+            "fileID": "ctnmg4in7540vmd61g00",
+            "itemID": 4054,
+            "citation": "Jamhoury, L. (2018, July 24). Streaming Volumetric Images Online. Medium. https://lisajamhoury.medium.com/streaming-volumetric-images-online-a04d68703973\n",
+            "citationShort": "Jamhoury, 2018",
+            "tags": [
+                "#kimi"
+            ]
+        },
+        {
+            "date": 2020,
+            "title": "An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC)",
+            "fileID": "cnt8m9817fm92pgfl76g",
+            "itemID": 1031,
+            "citation": "Graziosi, D. B., Nakagami, O., Kuma, S., Zaghetto, A., Suzuki, T., & Tabatabai, A. (2020). An overview of ongoing point cloud compression standardization activities: Video-based (V-PCC) and geometry-based (G-PCC). APSIPA Transactions on Signal and Information Processing, 9(1). https://doi.org/10.1017/atsip.2020.12\n",
+            "citationShort": "Graziosi et al., 2020",
+            "tags": [
+                "#3D Reconstruction",
+                "#Compression Techniques",
+                "Point cloud compression",
+                "G-PCC",
+                "Geometry-based point cloud compression",
+                "Immersive media",
+                "ISO/IEC 23090-5",
+                "ISO/IEC 23090-9",
+                "MPEG-I",
+                "V-PCC",
+                "Video-based point cloud compression",
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：Streaming Volumetric Images Online 与 mpeg vpcc gpcc 的差别?\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Streaming Volumetric Images Online, was published on 2018. (It can be cite this paper as Jamhoury, 2018 on your answer). \n- An overview of ongoing point cloud compression standardization activities: video-based (V-PCC) and geometry-based (G-PCC), was published on 2020. (It can be cite this paper as Graziosi et al., 2020 on your answer). \n\n",
+    "response": "### Streaming Volumetric Images Online 与 MPEG V-PCC 和 G-PCC 的差别\n\n在探讨 \"Streaming Volumetric Images Online\"（Jamhoury, 2018）与 MPEG 的 V-PCC 和 G-PCC 标准（Graziosi et al., 2020）之间的差异时，我们可以从以下几个方面进行对比：\n\n#### 1. 技术实现和目标\n\n- **Streaming Volumetric Images Online**：\n  - 该研究主要关注于如何通过网络实时传输体积图像，特别是使用 Kinect V2 设备捕获的彩色和深度图像。\n  - 作者通过将深度图像从 13-bit 转换为 8-bit，并利用 RGBA 格式存储，以便在网络上传输（Jamhoury, 2018）。\n\n- **MPEG V-PCC 和 G-PCC**：\n  - V-PCC（视频基点云压缩）和 G-PCC（几何基点云压缩）是 MPEG 组织制定的国际标准，旨在为点云数据提供压缩标准。\n  - V-PCC 通过将点云数据从 3D 转换为 2D 投影，利用现有的视频编码技术进行压缩（Graziosi et al., 2020）。\n  - G-PCC 直接在 3D 空间中对点云内容进行编码，使用如八叉树等数据结构（Graziosi et al., 2020）。\n\n#### 2. 压缩方法\n\n- **Streaming Volumetric Images Online**：\n  - 该研究中，作者提到了将深度图像和彩色图像分别存储和传输的方法，以及将它们合并为一个 RGBD 图像进行传输的方法（Jamhoury, 2018）。\n\n- **MPEG V-PCC**：\n  - V-PCC 利用 3D 到 2D 的投影，通过分割点云为多个相连区域（3D patches），然后将每个区域独立投影到 2D 补丁中（Graziosi et al., 2020）。\n\n- **MPEG G-PCC**：\n  - G-PCC 使用八叉树结构来表示点云的几何形状，并且可以采用表面近似方法如 trisoup 来改善低比特率下的主观质量（Graziosi et al., 2020）。\n\n#### 3. 应用场景\n\n- **Streaming Volumetric Images Online**：\n  - 该研究主要针对的是实时网络传输，特别是在浏览器端的应用，如在线游戏、虚拟会议等（Jamhoury, 2018）。\n\n- **MPEG V-PCC 和 G-PCC**：\n  - V-PCC 和 G-PCC 标准适用于多种应用场景，包括虚拟现实/增强现实（VR/AR）、远程presence、自动驾驶和文化遗产存档等（Graziosi et al., 2020）。\n\n#### 4. 标准化程度\n\n- **Streaming Volumetric Images Online**：\n  - 这是一个具体的技术实现案例，没有形成行业标准。\n\n- **MPEG V-PCC 和 G-PCC**：\n  - 这两个是 MPEG 组织制定的正式标准，具有广泛的行业认可和应用前景。\n\n综上所述，\"Streaming Volumetric Images Online\" 更侧重于实际的网络传输实现，而 MPEG 的 V-PCC 和 G-PCC 则是更为系统和全面的点云压缩标准，涵盖了更广泛的应用场景，并得到了国际标准化组织的认证。",
+    "refs": [
+        "ctnmg4in7540vmd61g00",
+        "cnt8m9817fm92pgfl76g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "ctnmh2ug0jb35jm9p73g",
+    "req_id": "ctnmh2ug0jb35jm9p740",
+    "resp_id": "ctnmh2ug0jb35jm9p74g",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：Streaming Volumetric Images Online 与 mpeg vpcc gpcc 的差别?"
+}

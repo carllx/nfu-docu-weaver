@@ -1,0 +1,36 @@
+{
+    "conversation_id": "cqamp8g3r071cvga34eg",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis",
+            "fileID": "cq9a3sm0atp3uvgo6lv0",
+            "itemID": 3284,
+            "citation": "Moro, C., Birt, J., Stromberga, Z., Phelps, C., Clark, J., Glasziou, P., & Scott, A. M. (2021). Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis. Anatomical Sciences Education, 14(3), 368–376. https://doi.org/10.1002/ase.2049\n",
+            "citationShort": "Moro et al., 2021",
+            "tags": [
+                "virtual reality",
+                "#kimi",
+                "augmented reality",
+                "mixed reality",
+                "anatomy education",
+                "health sciences education",
+                "medical education",
+                "meta-analysis",
+                "physiology education",
+                "systematic review",
+                "technology-enhanced education"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者如何设计搜索文献关键词(用英语表示)\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Virtual and augmented reality enhancements to medical and science student physiology and anatomy test performance: A systematic review and meta-analysis, was published on 2021. (It can be cite this paper as Moro et al., 2021 on your answer). \n\n",
+    "response": "在Moro等人于2021年发表的系统综述和元分析中，作者们为了评估虚拟现实或增强现实对医学和科学学生在临床前生理学和解剖学知识获取的影响，设计了一套详尽的文献搜索策略。以下是根据原文提取的关于搜索文献关键词设计的信息：\n\n```markdown\n在Moro等人（2021）的研究中，作者们遵循了系统综述和元分析的首选报告项目声明（PRISMA）的指导，并在2019年11月11日将协议提交至Prospero，即系统综述的国际前瞻性注册数据库。文献搜索涵盖了多个数据库，包括PubMed、Embase、ERIC等，搜索时间从1990年1月到2019年11月19日。搜索的起始日期被限制在1990年，因为这一年见证了虚拟现实头戴式显示器消费头戴设备和增强现实设备的首次广泛商业发布。\n\n具体的搜索策略包括但不限于以下关键词和数据库的组合使用：\n- PubMed\n- Embase\n- ERIC (教育科学研究所)\n- Cochrane Central Register of Controlled Trials (CENTRAL)\n- 临床试验注册数据库（U.S. National Library of Medicine）\n- WHO国际临床试验注册平台 (ICTRP)\n\n搜索的关键词和概念集中在评估虚拟现实或增强现实技术在医学和健康科学教育中的应用，尤其是在生理学和解剖学的学习或知识获取方面。搜索时没有应用语言限制，并且包括了前向和后向引用搜索，以确保涵盖所有相关文献。\n```\n请注意，上述信息是根据您提供的文件内容进行的总结，具体的搜索策略和使用的关键词可能需要进一步查看原文的补充材料附录部分来获取更详尽的信息。在引用时，请按照指示使用“Moro et al., 2021”作为引用格式。",
+    "refs": [
+        "cq9a3sm0atp3uvgo6lv0"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqamp8m0atp9nfilbrng",
+    "req_id": "cqamp8m0atp9nfilbro0",
+    "resp_id": "cqamp8m0atp9nfilbrog",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：作者如何设计搜索文献关键词(用英语表示)"
+}

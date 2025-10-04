@@ -1,0 +1,1 @@
+[[Alexander Calder]]: 通过 [[kinetic Art]]将运动引入艺术作品的一个关键人物，他创造了移动的机械雕塑 Calder was a key figure in introducing movement into works of art, creating mobile, mechanical sculptures[3](https://magazine.artland.com/top-ten-kinetic-art-artists-and-pioneers/).

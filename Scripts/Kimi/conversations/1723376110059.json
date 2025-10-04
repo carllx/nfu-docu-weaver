@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cqsa3rsjot6oqck7gtag",
+    "attachments": [
+        {
+            "date": 2012,
+            "title": "Listening and voice: Phenomenologies of sound, second edition",
+            "fileID": "cqsa3fdfc7u76bppfj20",
+            "itemID": 3746,
+            "citation": "Ihde, D. (2012). Listening and voice: Phenomenologies of sound, second edition. State University of New York Press.\n",
+            "citationShort": "Ihde, 2012",
+            "tags": [
+                "#kimi",
+                "Philosophy / General"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：### 声 vs 音 vs 乐\n\n凡音之起，由人心之动，物使之然也。感于物而动，故形于声。\n\n凡音者，生人心者也。情动于中，故形于声。声成文，谓之音。是故治世之音安以乐，其政和。\n\n乱世之音怨以怒，其政乖。亡国之音哀以思，其民困。\n\n凡音者，生于人心者也。乐者，通伦理者也。是故知声而不知音者，禽兽是也；知音而不知乐者，众庶是也。唯君子为能知乐。是故审声以知音，审音以知乐，审乐以知政，而治道备矣。是故不知声者不可与言音，不知音者不可与言乐。知乐则几于礼矣。礼乐皆得，谓之有德。德者得也。\n\n乐者，心之动也；声者，乐之象也。文采节奏，声之饰也。君子动其本。\n\n一一《礼记-乐记》\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Listening and voice: Phenomenologies of sound, second edition, was published on 2012. (It can be cite this paper as Ihde, 2012 on your answer). \n\n",
+    "response": "在《礼记·乐记》中，古人对“声”、“音”、“乐”三者的关系进行了深刻的阐释，认为它们是相互联系且有层次区分的。以下是根据《礼记·乐记》中的观点，结合Ihde (2012)《Listening and Voice: Phenomenologies of Sound》一书中的相关讨论，对“声”、“音”、“乐”三者关系的分析。\n\n### 声（Sound）\n\n“声”在《乐记》中被描述为由人心之动而产生的最基本表现形式。它是由外界事物激发的情感反应，是内心情感的直接表达。在Ihde (2012)的著作中，声可以被理解为最初的听觉现象，是听觉体验的起点。它不仅仅是物理上的波动，更是人类情感和内心世界的直接映射。\n\n### 音（Tone）\n\n“音”则是“声”经过组织和文饰后的产物。《乐记》中提到“声成文，谓之音”，意味着“音”是对“声”的进一步加工和艺术化，它具有了一定的结构和形式，能够更深刻地传达情感和思想。Ihde (2012)在他的书中探讨了声音如何通过不同的文化和艺术形式被赋予意义，这与“音”的概念相呼应，强调了声音在传达人类情感和社会文化中的复杂性。\n\n### 乐（Music）\n\n“乐”是“音”的高级形式，它不仅承载了情感和意义，还与伦理和社会秩序相联系。《乐记》中说“乐者，通伦理者也”，表明“乐”是一种能够引导社会和谐与秩序的力量。在Ihde (2012)的分析中，“乐”可以被视为一种高级的听觉艺术，它通过声音的组织和节奏，影响听者的情感和行为，甚至能够反映和塑造社会价值观。\n\n### 总结\n\n根据《礼记·乐记》和Ihde (2012)的讨论，我们可以得出以下结论：\n\n- “声”是自然产生的、直接表达情感的听觉现象。\n- “音”是对“声”的艺术化加工，具有结构和形式，能够更丰富地传达人类的情感和思想。\n- “乐”是“音”的进一步发展，它不仅是艺术形式，还是一种社会文化的反映和塑造者，与伦理和社会秩序紧密相连。\n\n通过这样的分析，我们可以看到，从“声”到“音”再到“乐”，是一个由自然到文化、由个体到社会的逐步升华过程。这一过程不仅体现了声音本身的美学价值，也反映了声音在人类社会生活中的重要角色。",
+    "refs": [
+        "cqsa3fdfc7u76bppfj20"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cqsa3s2tnn0hsbvmceug",
+    "req_id": "cqsa3s2tnn0hsbvmcev0",
+    "resp_id": "cqsa3s2tnn0hsbvmcevg",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：### 声 vs 音 vs 乐\n\n凡音之起，由人心之动，物使之然也。感于物而动，故形于声。\n\n凡音者，生人心者也。情动于中，故形于声。声成文，谓之音。是故治世之音安以乐，其政和。\n\n乱世之音怨以怒，其政乖。亡国之音哀以思，其民困。\n\n凡音者，生于人心者也。乐者，通伦理者也。是故知声而不知音者，禽兽是也；知音而不知乐者，众庶是也。唯君子为能知乐。是故审声以知音，审音以知乐，审乐以知政，而治道备矣。是故不知声者不可与言音，不知音者不可与言乐。知乐则几于礼矣。礼乐皆得，谓之有德。德者得也。\n\n乐者，心之动也；声者，乐之象也。文采节奏，声之饰也。君子动其本。\n\n一一《礼记-乐记》"
+}

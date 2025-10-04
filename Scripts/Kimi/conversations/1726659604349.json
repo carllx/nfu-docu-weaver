@@ -1,0 +1,26 @@
+{
+    "conversation_id": "crlbo5hhmfr1mvaf6dtg",
+    "attachments": [
+        {
+            "date": 2020,
+            "title": "Walter Murch's The Rule of Six: What is the perfect cut from one shot to another?",
+            "fileID": "crkof935cfuts69gbk2g",
+            "itemID": 4016,
+            "citation": "Standertskjöld, A. (2020). Walter Murch’s The Rule of Six: What is the perfect cut from one shot to another? https://www.theseus.fi/handle/10024/341190\n",
+            "citationShort": "Standertskjöld, 2020",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：as you are a prompt enginner, 请从Rule of six 生成一个prompt 让一个能分析video 的AI 帮助剪接师分析视频 \n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Walter Murch's The Rule of Six: What is the perfect cut from one shot to another?, was published on 2020. (It can be cite this paper as Standertskjöld, 2020 on your answer). \n\n",
+    "response": "根据您的要求，我将使用Markdown格式创建一个prompt，以便一个能分析视频的AI使用Walter Murch的“六规则”来帮助剪辑师分析视频。\n\n```markdown\n## 视频剪辑分析Prompt\n\n### 目标\n使用Walter Murch的“六规则”分析指定视频片段中的剪辑质量。\n\n### 规则说明\n根据Standertskjöld (2020)的研究，以下是Walter Murch提出的“六规则”作为剪辑分析的依据：\n\n1. **情感（Emotion）** - 剪辑是否传达了场景中的正确情感？\n2. **故事（Story）** - 剪辑是否以有意义的方式推进了故事？\n3. **节奏（Rhythm）** - 剪辑是否在节奏上有趣且恰到好处？\n4. **视线追踪（Eye trace）** - 剪辑是否考虑了观众视线在画面中的移动？\n5. **二维画面平面（Two-dimensional plane of screen）** - 剪辑是否尊重了画面的平面语法，如180度规则？\n6. **三维行动空间（Three-dimensional space of action）** - 剪辑是否保持了三维空间的连续性？\n\n### 分析步骤\n请按照以下步骤分析视频片段：\n\n1. **情感分析** - 观察剪辑点前后的情感变化，判断是否与场景情感相匹配。\n2. **故事连贯性检查** - 确保剪辑点有助于故事的流畅性和连贯性。\n3. **节奏评估** - 分析剪辑的节奏，确定是否与场景的情绪和故事节奏相协调。\n4. **视线追踪测试** - 观察观众的视线是否会自然地从一个镜头转移到下一个镜头。\n5. **二维画面检查** - 确保剪辑没有违反画面平面的规则，如错误的视角转换。\n6. **三维空间连续性** - 检查剪辑是否保持了场景中人物和物体的三维空间关系。\n\n### 结论\n在完成上述分析后，请提供对视频剪辑质量的总体评价，并提出可能的改进建议。\n\n### 引用\nStandertskjöld, A. (2020). Walter Murch’s The Rule of Six - What is the perfect cut from one shot to another? Degree Thesis, Arcada.\n```\n\n这个prompt为AI提供了一个结构化的分析框架，以便它能够根据Walter Murch的“六规则”来评估和提供反馈关于视频剪辑的质量。",
+    "refs": [
+        "crkof935cfuts69gbk2g"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "crlbo5gdh3nci2at0djg",
+    "req_id": "crlbo5gdh3nci2at0dk0",
+    "resp_id": "crlbo5gdh3nci2at0dkg",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题：as you are a prompt enginner, 请从Rule of six 生成一个prompt 让一个能分析video 的AI 帮助剪接师分析视频 "
+}

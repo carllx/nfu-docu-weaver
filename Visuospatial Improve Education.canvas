@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"d19cdd91e0f2ceae","type":"file","file":"The role of visuo‐spatial abilities in environment learning from maps and navigation over the adult lifespan.md","x":300,"y":-380,"width":307,"height":100,"color":"1"},
+		{"id":"e0ad40d5a028e98f","type":"file","file":"Virtual Dissection- An Interactive Anatomy Learning Tool.md","x":300,"y":-240,"width":307,"height":130,"color":"1"},
+		{"id":"384f6d7cc31fff25","type":"text","text":"**心理操纵能力**\n研究表明，具有较高视觉空间能力的人往往在需要空间思维(spatial thinking)和视觉信息心理操纵(mental manipulation)的任务中表现更好. ([Huk,2006](https://scite.ai/reports/who-benefits-from-learning-with-e8Zg5p))\n```\n\"...Experimental evidence supports the assumption of a selective involvement of visuospatial working memory while learning with multimedia material (Gyselinck et al 2002)....\"\n```\n\"Who benefits from learning with 3D models? the case of spatial ability\"([Huk,2006](https://scite.ai/reports/who-benefits-from-learning-with-e8Zg5p))\n","x":-190,"y":-600,"width":440,"height":120,"color":"1"},
+		{"id":"2ca2172eae0824a9","type":"text","text":"**空间认知**\n视觉空间能力与环境学习、导航和空间认知的改善有关（Muffato 等人，2019）。研究还表明，视觉空间训练（visuospatial training 例如通过视频游戏）可以提高视觉空间评估的表现，并有可能改善与视觉空间能力直接相关的领域的学习成果，例如科学学习（Sanchez，2011）。使用交互式和虚拟学习工具（例如虚拟解剖和虚拟现实）已被证明可以有效提高学习成果，特别是对于具有不同视觉空间能力水平的个人而言（Wainman 等人，2020）。\n","x":-190,"y":-380,"width":430,"height":280},
+		{"id":"f0f9f24495aeff4f","type":"text","text":"**结构性理解**","x":-220,"y":-780,"width":250,"height":60},
+		{"id":"1837335d602ca534","type":"text","text":"**Spatial Abilities Assessment**: 学前纳入SpatialAbilitiesAssessment, 定制 3D 点云体验或为空间能力 (spatialabilities) 较低的用户提供额外支持 #Inspiration💡 ","x":-207,"y":340,"width":465,"height":120,"color":"2"},
+		{"id":"48baf885eb0c2778","type":"text","text":"**ComparativeAnalysis**: 正如论文将 VR 与物理模型进行比较一样，可以包括传统1.现场教学, 2.2D 视频教育内容 与 3.3D 点云平台的比较研究。 #Inspiration💡 ","x":-206,"y":487,"width":465,"height":100,"color":"2"},
+		{"id":"2f78937e19d69aa3","x":-226,"y":0,"width":466,"height":300,"color":"1","type":"file","file":"2020 Virtual Dissection - An Interactive Anatomy Learning Tool 1.md"}
+	],
+	"edges":[
+		{"id":"5a9940f004fbd472","fromNode":"2ca2172eae0824a9","fromSide":"right","toNode":"d19cdd91e0f2ceae","toSide":"left"},
+		{"id":"b9ce9f4207cdac1f","fromNode":"2ca2172eae0824a9","fromSide":"right","toNode":"e0ad40d5a028e98f","toSide":"left"}
+	]
+}

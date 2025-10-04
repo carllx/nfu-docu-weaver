@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "folder_name=\"{clipboard}\"\nfile_name=$(basename \"$folder_name\")\ndir=$(dirname \"$folder_name\")\ndir_concat=\"${dir}\/${file_name}\/concat.txt\"\nrm -f \"$dir_concat\"\n\nwhile IFS= read -r -d $'\\0' file; do\n    if [[ \"$file\" != \"${dir}\/${file_name}\/.DS_Store\" && \"$file\" != *.txt ]]; then\n        echo \"file '$file'\" >> \"$dir_concat\"\n    fi\ndone < <(find \"$folder_name\" -type f -print0 | sort -z -V)\n\noutput_file=\"${dir}\/${file_name}_merged.mp4\"\nffmpeg -f concat -safe 0 -i \"$dir_concat\" -c copy \"$output_file\"\n\n\n## PC\n$folderPath = \"{clipboard}\"\n$fileName = Split-Path -Leaf $folderPath\n$dir = Split-Path -Parent $folderPath\n\n$concatFilePath = Join-Path $dir \"$fileName\/concat.txt\"\n$outputFilePath = Join-Path $dir \"${fileName}_merged.mp4\"\n\nRemove-Item $concatFilePath -Force -ErrorAction SilentlyContinue\n\nGet-ChildItem -Path $folderPath -File -Recurse | Where-Object { $_.Name -ne \".DS_Store\" -and $_.Extension -ne \".txt\" } | ForEach-Object {\n    Add-Content $concatFilePath \"file '$($_.FullName)'\"\n}\n\nffmpeg -f concat -safe 0 -i $concatFilePath -c copy $outputFilePath",
+    "uid" : "D484B519-8790-44B5-9326-1EC92E9F910F",
+    "name" : "VideoCut - merge video in folder",
+    "keyword" : "mergevideoinfolder"
+  }
+}

@@ -1,0 +1,678 @@
+﻿1
+00:00:00,130 --> 00:00:00,963
+- [Teacher] In this video,
+
+2
+00:00:00,963 --> 00:00:03,620
+we will start to blocking our animation
+
+3
+00:00:03,620 --> 00:00:05,740
+using the extreme poses.
+
+4
+00:00:05,740 --> 00:00:09,320
+We have a spot and
+define on the reference.
+
+5
+00:00:09,320 --> 00:00:12,520
+As we did when we were animating
+the squirrel character,
+
+6
+00:00:12,520 --> 00:00:16,430
+I will create those key
+poses every five frames.
+
+7
+00:00:16,430 --> 00:00:20,270
+So for the time being, we
+don't care about timing at all.
+
+8
+00:00:20,270 --> 00:00:23,240
+And to make sure that I
+have no sliding controllers,
+
+9
+00:00:23,240 --> 00:00:25,760
+I will insert the key
+frame on all controllers
+
+10
+00:00:25,760 --> 00:00:29,130
+for both the character
+and the punching bag.
+
+11
+00:00:29,130 --> 00:00:32,450
+Since our character will
+be doing a lot of footwork,
+
+12
+00:00:32,450 --> 00:00:35,780
+and that generally the
+knees align with the foot
+
+13
+00:00:35,780 --> 00:00:37,140
+in the rig properties,
+
+14
+00:00:37,140 --> 00:00:40,380
+I will make sure that the
+leg parent is set to one.
+
+15
+00:00:40,380 --> 00:00:44,240
+Meaning that the pole target
+is now following the foot.
+
+16
+00:00:44,240 --> 00:00:47,520
+And as we rotate the feet,
+the knee will follow.
+
+17
+00:00:47,520 --> 00:00:50,600
+So let's now build our first pose;
+
+18
+00:00:50,600 --> 00:00:52,010
+the idle pose.
+
+19
+00:00:52,010 --> 00:00:55,200
+The right leg or back leg
+is open to the outside,
+
+20
+00:00:55,200 --> 00:00:58,750
+meaning that the foot
+is rotated to the right.
+
+21
+00:00:58,750 --> 00:01:01,300
+The weight of the character is supporting
+
+22
+00:01:01,300 --> 00:01:02,950
+mostly by this leg.
+
+23
+00:01:02,950 --> 00:01:06,110
+So I'm pushing the center
+of gravity backward
+
+24
+00:01:06,110 --> 00:01:07,800
+and onto the right leg.
+
+25
+00:01:07,800 --> 00:01:11,110
+If we watch the reference and
+look at the line affection,
+
+26
+00:01:11,110 --> 00:01:13,200
+we can see that the whole body
+
+27
+00:01:13,200 --> 00:01:15,030
+is slightly leaning forward,
+
+28
+00:01:15,030 --> 00:01:18,090
+creating a nice C curve forward
+
+29
+00:01:18,090 --> 00:01:20,850
+from the supporting foot to the head.
+
+30
+00:01:20,850 --> 00:01:23,370
+Generally the front leg or left leg
+
+31
+00:01:23,370 --> 00:01:25,810
+is not supporting that much weight.
+
+32
+00:01:25,810 --> 00:01:27,900
+and the character is supposed to be
+
+33
+00:01:27,900 --> 00:01:29,520
+on the tip of his toes.
+
+34
+00:01:29,520 --> 00:01:31,770
+You will often see muay Thai fighter
+
+35
+00:01:31,770 --> 00:01:34,390
+making slight bounce with the front leg.
+
+36
+00:01:34,390 --> 00:01:37,530
+It's a way to input rhythm into the fight
+
+37
+00:01:37,530 --> 00:01:39,880
+and they keep their front leg ready
+
+38
+00:01:39,880 --> 00:01:43,330
+to block any kick using their left shin.
+
+39
+00:01:43,330 --> 00:01:44,780
+When posing the arms,
+
+40
+00:01:44,780 --> 00:01:47,740
+don't forget that you
+can't rotate your elbow
+
+41
+00:01:47,740 --> 00:01:50,330
+in any other axis then the Z-axis
+
+42
+00:01:50,330 --> 00:01:53,030
+and that the arm bone can't rotate upward
+
+43
+00:01:53,030 --> 00:01:55,400
+than the line made by the shoulders.
+
+44
+00:01:55,400 --> 00:01:59,200
+So it's super important to
+currently pose the shoulders.
+
+45
+00:01:59,200 --> 00:02:01,080
+I see too many beginners
+
+46
+00:02:01,080 --> 00:02:02,950
+not playing with the shoulder controller
+
+47
+00:02:02,950 --> 00:02:04,930
+while they are very important
+
+48
+00:02:04,930 --> 00:02:08,170
+and critically influence the
+silhouette of your character.
+
+49
+00:02:08,170 --> 00:02:10,770
+Now ask yourself, why on the reference,
+
+50
+00:02:10,770 --> 00:02:13,300
+the character have the shoulders so high?
+
+51
+00:02:13,300 --> 00:02:17,210
+We are not here to only
+answers mechanical properties
+
+52
+00:02:17,210 --> 00:02:21,270
+of the body, but also
+the purpose of the pose.
+
+53
+00:02:21,270 --> 00:02:24,190
+Again, as explained in
+the previous chapter,
+
+54
+00:02:24,190 --> 00:02:27,940
+if you give a clear goal
+to the current pose,
+
+55
+00:02:27,940 --> 00:02:31,140
+it will communicate the
+will of the character.
+
+56
+00:02:31,140 --> 00:02:33,150
+And as soon as you do that,
+
+57
+00:02:33,150 --> 00:02:35,500
+you're giving life to your character.
+
+58
+00:02:35,500 --> 00:02:38,690
+In muay Thai and in boxing in general,
+
+59
+00:02:38,690 --> 00:02:42,070
+shoulder are raised a
+lot to protect the head
+
+60
+00:02:42,070 --> 00:02:44,950
+of the character, especially the chin,
+
+61
+00:02:44,950 --> 00:02:49,670
+because a shot in the chin
+can knock you out instantly.
+
+62
+00:02:49,670 --> 00:02:53,230
+If you were to animate
+some beginner in boxing,
+
+63
+00:02:53,230 --> 00:02:55,910
+maybe you should drop the shoulders
+
+64
+00:02:55,910 --> 00:02:59,980
+so that you communicate a
+big mistake boxing wise.
+
+65
+00:02:59,980 --> 00:03:03,130
+Here I want my character to show mastery
+
+66
+00:03:03,130 --> 00:03:05,110
+in the art of boxing.
+
+67
+00:03:05,110 --> 00:03:07,900
+So I will try to mimic the reference pose
+
+68
+00:03:07,900 --> 00:03:09,660
+and even push it more;
+
+69
+00:03:09,660 --> 00:03:12,640
+pushing the head deep into the shoulders.
+
+70
+00:03:12,640 --> 00:03:16,450
+As usual, the step between
+a good pose and a great pose
+
+71
+00:03:16,450 --> 00:03:19,730
+is pretty long and it's
+about a lot of tweaking.
+
+72
+00:03:19,730 --> 00:03:23,090
+But why it might be more
+natural to have open hands
+
+73
+00:03:23,090 --> 00:03:25,680
+whenever you're not wearing gloves?
+
+74
+00:03:25,680 --> 00:03:27,240
+Especially in muay Thai,
+
+75
+00:03:27,240 --> 00:03:29,820
+where you can catch your opponent
+
+76
+00:03:29,820 --> 00:03:31,210
+and go into the clinch,
+
+77
+00:03:31,210 --> 00:03:34,020
+I've decided to close the left hand
+
+78
+00:03:34,020 --> 00:03:38,450
+because both my hand were
+posed a bit the same way,
+
+79
+00:03:38,450 --> 00:03:40,610
+and I had some twinning in the post
+
+80
+00:03:40,610 --> 00:03:43,200
+and it didn't look that interesting.
+
+81
+00:03:43,200 --> 00:03:47,210
+So I will close the fist
+and I will slide the scale,
+
+82
+00:03:47,210 --> 00:03:50,980
+the palm fingers on the local X axis
+
+83
+00:03:50,980 --> 00:03:53,070
+to make them slightly larger
+
+84
+00:03:53,070 --> 00:03:56,210
+as if the fist was a bit squashed
+
+85
+00:03:56,210 --> 00:03:58,620
+by the pressure of the closing hand.
+
+86
+00:03:58,620 --> 00:04:01,350
+Don't forget that you can
+refer back to the video
+
+87
+00:04:01,350 --> 00:04:02,993
+about posing the hands.
+
+88
+00:04:03,830 --> 00:04:06,030
+Don't forget to pose
+the neck and the head,
+
+89
+00:04:06,030 --> 00:04:08,430
+but don't over-rotate those controllers.
+
+90
+00:04:08,430 --> 00:04:11,730
+And as a final touch, you
+can use the face controller
+
+91
+00:04:11,730 --> 00:04:13,270
+to shape a bit the eyes.
+
+92
+00:04:13,270 --> 00:04:16,440
+Now our character is
+ready to kick some ass.
+
+93
+00:04:16,440 --> 00:04:20,810
+So don't forget to rotate
+a lot around your character
+
+94
+00:04:20,810 --> 00:04:23,130
+to check if the center of gravity
+
+95
+00:04:23,130 --> 00:04:26,570
+is properly aligned and
+your character, balanced.
+
+96
+00:04:26,570 --> 00:04:29,040
+And don't forget to check
+the overall silhouette
+
+97
+00:04:29,040 --> 00:04:31,470
+of the character of from different angles.
+
+98
+00:04:31,470 --> 00:04:33,980
+Again, remember that you can refer to the
+
+99
+00:04:33,980 --> 00:04:36,600
+previous chapter to
+double-check the method
+
+100
+00:04:36,600 --> 00:04:38,210
+to get a good pose.
+
+101
+00:04:38,210 --> 00:04:41,110
+Before you start posing the jab pose,
+
+102
+00:04:41,110 --> 00:04:43,310
+double check the video reference.
+
+103
+00:04:43,310 --> 00:04:46,260
+You can see that both
+feet are moving forward
+
+104
+00:04:46,260 --> 00:04:47,580
+during this punch.
+
+105
+00:04:47,580 --> 00:04:50,070
+Beyond rotating the feet, don't forget
+
+106
+00:04:50,070 --> 00:04:53,170
+to change their rotation
+while posing the jab.
+
+107
+00:04:53,170 --> 00:04:56,700
+So the first thing I will do
+is to move the feet forward.
+
+108
+00:04:56,700 --> 00:04:59,380
+Now, as we watch carefully the reference,
+
+109
+00:04:59,380 --> 00:05:03,730
+we can see that the weight is
+shifting onto the front feet
+
+110
+00:05:03,730 --> 00:05:07,390
+and the whole chest is
+twisting to the right.
+
+111
+00:05:07,390 --> 00:05:09,170
+And so does the feet.
+
+112
+00:05:09,170 --> 00:05:12,720
+So, since we have weight
+on the front foot,
+
+113
+00:05:12,720 --> 00:05:14,690
+I will flatten it a bit,
+
+114
+00:05:14,690 --> 00:05:18,150
+and then I will raise the back foot
+
+115
+00:05:18,150 --> 00:05:20,040
+using the heel controller.
+
+116
+00:05:20,040 --> 00:05:22,750
+And then we would rotate
+both feet to the right.
+
+117
+00:05:22,750 --> 00:05:26,090
+But when you punch left,
+your feet turns to the right.
+
+118
+00:05:26,090 --> 00:05:29,890
+When you punch with the right,
+your feet turn to the left.
+
+119
+00:05:29,890 --> 00:05:32,740
+But I haven't pushed this pose too much
+
+120
+00:05:32,740 --> 00:05:35,350
+because the next punch will also be
+
+121
+00:05:35,350 --> 00:05:37,660
+a straight punch forward.
+
+122
+00:05:37,660 --> 00:05:39,990
+And if we go too much forward
+
+123
+00:05:39,990 --> 00:05:42,890
+and too much into a horizontal pose
+
+124
+00:05:42,890 --> 00:05:46,610
+for this initial punch,
+we will lose the contrast
+
+125
+00:05:46,610 --> 00:05:48,470
+with the next one.
+
+126
+00:05:48,470 --> 00:05:51,110
+And so our pose may look good,
+
+127
+00:05:51,110 --> 00:05:55,910
+but the animation won't because
+it will lack of contrast
+
+128
+00:05:55,910 --> 00:05:59,170
+between the first pose
+and the second pose.
+
+129
+00:05:59,170 --> 00:06:00,850
+Another thing I'm doing though,
+
+130
+00:06:00,850 --> 00:06:04,790
+is that I'm slightly spreading
+the arms of the character.
+
+131
+00:06:04,790 --> 00:06:07,270
+While it might not be a super good idea
+
+132
+00:06:07,270 --> 00:06:08,680
+whenever you are boxing,
+
+133
+00:06:08,680 --> 00:06:11,460
+because you are exposing your chin,
+
+134
+00:06:11,460 --> 00:06:15,040
+this improve a bit, the
+readability of the pose
+
+135
+00:06:15,040 --> 00:06:19,220
+and it slightly extend
+the overall silhouette
+
+136
+00:06:19,220 --> 00:06:22,493
+of the character when
+we follow the shoulders.
+
+137
+00:06:25,810 --> 00:06:29,640
+Finally, don't forget
+that you also have to pose
+
+138
+00:06:29,640 --> 00:06:30,810
+the punching bag.
+
+139
+00:06:30,810 --> 00:06:34,090
+Don't push it too far and
+don't use that much controller.
+
+140
+00:06:34,090 --> 00:06:36,680
+Moving all the controllers
+won't necessarily
+
+141
+00:06:36,680 --> 00:06:37,840
+give you better result.
+
+142
+00:06:37,840 --> 00:06:41,130
+While we do agree that
+everything is connected
+
+143
+00:06:41,130 --> 00:06:44,280
+so everything should be
+moving; keep it simple.
+
+144
+00:06:44,280 --> 00:06:47,240
+Your audience will mainly
+focus on the character.
+
+145
+00:06:47,240 --> 00:06:49,520
+So you want to avoid any glitches
+
+146
+00:06:49,520 --> 00:06:52,410
+on the bag by moving too much controller
+
+147
+00:06:52,410 --> 00:06:53,400
+at the same time.
+
+148
+00:06:53,400 --> 00:06:56,360
+Once done, don't forget to
+key all your controllers
+
+149
+00:06:56,360 --> 00:06:58,420
+and don't forget to add subtle
+
+150
+00:06:58,420 --> 00:07:00,690
+rotation details to the feet.
+
+151
+00:07:00,690 --> 00:07:02,100
+When we watch the reference,
+
+152
+00:07:02,100 --> 00:07:05,490
+we can see that there is a
+subtle tilting during the punch.
+
+153
+00:07:05,490 --> 00:07:08,733
+Don't forget to add it
+during the blocking state.
+

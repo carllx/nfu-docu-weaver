@@ -1,0 +1,26 @@
+{
+    "conversation_id": "cq7852gfkflf3b1e9980",
+    "attachments": [
+        {
+            "date": 2021,
+            "title": "PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews",
+            "fileID": "cpg56ig3r07fpupujaag",
+            "itemID": 2536,
+            "citation": "Page, M. J., Moher, D., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … McKenzie, J. E. (2021). PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews. BMJ, 372, n160. https://doi.org/10.1136/bmj.n160\n",
+            "citationShort": "Page et al., 2021",
+            "tags": [
+                "#kimi"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 举例说明协议和注册 怎么写呢？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews, was published on 2021. (It can be cite this paper as Page et al., 2021 on your answer). \n\n",
+    "response": "在撰写系统评审的协议和注册时，应当遵循一定的标准和流程，以确保研究的透明度和可复制性。以下是根据Page等人在2021年发表的《PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews》中提供的信息，关于如何撰写协议和注册的示例和说明。\n\n### 协议撰写\n\n协议是系统评审的蓝图，它详细描述了评审的目标、方法和预期的结果。在撰写协议时，应包括以下要素：\n\n- **评审注册信息**：包括评审的名称、注册号码或DOI，例如：“...this systematic review has been registered in the international prospective register of systematic reviews (PROSPERO) under the registration number: CRD42019128569”（Page et al., 2021）。\n- **研究问题和目标**：明确评审要解决的问题和主要目标。\n- **纳入和排除标准**：详细说明哪些研究将被包括在评审中，哪些将被排除。\n- **文献搜索策略**：描述将使用的数据库、关键词和搜索限制条件。\n- **数据收集和提取方法**：阐明如何收集和提取数据，包括数据项和数据提取表。\n- **风险偏倚评估**：说明将如何评估纳入研究的风险偏倚。\n- **统计分析计划**：描述将使用的统计方法和软件。\n\n### 注册\n\n注册系统评审是为了减少选择性报告和提高研究的透明度。注册应包括以下信息：\n\n- **注册平台**：说明评审将在哪个注册平台进行注册，如PROSPERO或Open Science Framework。\n- **注册信息**：提供注册时的详细信息，包括评审的标题、研究问题、目标和预期的研究类型。\n- **注册证明**：提供注册确认或号码，以证明评审的注册状态。\n\n### 示例\n\n以下是一个系统评审协议的示例摘要：\n\n```\n系统评审协议摘要：\n- 评审名称：《Effects of Multiple Micronutrient Fortification on General Population Health Outcomes》\n- 注册信息：已在PROSPERO注册，注册号为CRD42019128569\n- 研究问题：探讨多种微量营养素强化对普通人群健康结果的影响\n- 纳入标准：随机对照试验，涉及至少一种微量营养素的强化\n- 排除标准：非人类研究、观察性研究\n- 文献搜索策略：将在PubMed、EMBASE等数据库中使用特定关键词进行搜索\n- 数据收集和提取方法：使用标准化的数据提取表，由两位独立评审员进行数据提取\n- 风险偏倚评估：使用Cochrane风险偏倚工具进行评估\n- 统计分析计划：使用Review Manager软件进行数据合成分析\n```\n\n在实际撰写时，应根据具体的研究问题和目标进行调整，并确保所有信息的准确性和完整性。同时，应遵循相关的报告准则，如PRISMA-P 2015，以确保协议的质量。",
+    "refs": [
+        "cpg56ig3r07fpupujaag"
+    ],
+    "title": "\n\nNow, Listen to me:\n基于对书中主题和讨",
+    "group_id": "cq7852m0atpet33q35r0",
+    "req_id": "cq7852m0atpet33q35rg",
+    "resp_id": "cq7852m0atpet33q35s0",
+    "quection": "基于对书中主题和讨论的理解, 请从原文提取不同有利的方法或证据回答一下问题： 举例说明协议和注册 怎么写呢？"
+}

@@ -1,0 +1,29 @@
+{
+    "conversation_id": "cr1n6u4ubmsamjlgbf6g",
+    "attachments": [
+        {
+            "date": 2019,
+            "title": "The Oxford Handbook of Sound and Imagination, Volume 1",
+            "fileID": "cr1n44dfc7u9afs63png",
+            "itemID": 3811,
+            "citation": "Grimshaw-Aagaard, M., Walther-Hansen, M., & Knakkergaard, M. (2019). The Oxford Handbook of Sound and Imagination, Volume 1. Oxford University Press.\n",
+            "citationShort": "Grimshaw-Aagaard et al., 2019",
+            "tags": [
+                "#kimi",
+                "Music / Genres & Styles / General",
+                "Performing Arts / General",
+                "Technology & Engineering / Acoustics & Sound"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- The Oxford Handbook of Sound and Imagination, Volume 1, was published on 2019. (It can be cite this paper as Grimshaw-Aagaard et al., 2019 on your answer). \n\n",
+    "response": "# 大纲目录\n\n## I. 引言\n   - 1.1 编辑团队与出版背景\n   - 1.2 研究动机与手册目标\n   - 1.3 手册结构与内容概述\n\n## II. 致谢\n   - 2.1 对出版过程中的支持与贡献的认可\n\n## III. 撰稿人介绍\n   - 3.1 各领域专家与学者的简要介绍\n\n## IV. 配套网站与资源\n   - 4.1 网站内容与使用指南\n\n## V. 第一部分：基础\n   - 5.1 第一章：声音作为绝对概念的想象\n     - 5.1.1 Saam Trivedi对Sarangadeva的分析\n   - 5.2 第二章：声音与想象的历史视角\n     - 5.2.1 Sven Hroar Klempe的历史哲学追踪\n   - 5.3 第三章至第七章：声音想象多维度探讨\n     - 5.3.1 声音本身的想象（Malcolm Riddoch）\n     - 5.3.2 听觉想象的现象学视角（Daniel A. Schmicking）\n     - 5.3.3 声音想象的模糊性与歧义性（Mark Grimshaw-Aagaard）\n     - 5.3.4 听与想象（Marcel Cobussen）\n     - 5.3.5 声音、多模态与想象（Joaquim Braga）\n   - 5.4 第八章：声音意象的预期性、运动性与动态性\n     - 5.4.1 Timothy L. Hubbard的研究\n\n## VI. 第二部分：社会与身份\n   - 6.1 第九章至第十八章：声音与社会身份构建\n     - 6.1.1 战争声音的想象（Michael Bull）\n     - 6.1.2 音乐知识与学习的隐喻转变（Petter Dyndahl）\n     - 6.1.3 音乐偏好与想象自我（Alexandra Lamont）\n     - 6.1.4 缅甸精灵崇拜与自我转变（Judith Becker）\n     - 6.1.5 南非歌剧与政治（Christopher Ballantine）\n     - 6.1.6 史前纪念碑声音环境的争议（Odd Are Berkaak）\n     - 6.1.7 法律想象中的声音与暴力（Veit Erlmann）\n     - 6.1.8 声音与音乐共建世界（Kai Tuuri 和 Henna-Riikka Peltola）\n     - 6.1.9 声音品牌：从品牌形象到品牌想象（Clara Gustafsson）\n     - 6.1.10 广播想象中的音乐、空间与广播（Morten Michelsen）\n\n## VII. 第三部分：语言\n   - 7.1 第二十章至第二十五章：声音与语言的关系\n     - 7.1.1 内心的声音诗学（Seán Street）\n     - 7.1.2 东亚的听觉想象（Kerim Yasar）\n     - 7.1.3 声音故事的想象（Vincent Meelberg）\n     - 7.1.4 声音质量、语言与认知隐喻（Mads Walther-Hansen）\n     - 7.1.5 语音、声音与技术（Johannes Mulder 和 Theo van Leeuwen）\n   - 7.2 第二十六章：早期声音体验的分歧形象\n     - 7.2.1 Michael Forrester的研究\n\n## VIII. 第四部分：图像\n   - 8.1 第二十六章至第三十一章：声音与视觉艺术的结合\n     - 8.1.1 漫画艺术中的听觉维度（Marco Pellitteri）\n     - 8.1.2 声音、博物馆与想象的调节（William Whittington）\n     - 8.1.3 电影作为社会知识（François Ribac）\n     - 8.1.4 电影中音乐的图标意义（Michael Chanan）\n     - 8.1.5 身体化的听觉：想象的移动维度（Martine Huvenne）\n     - 8.1.6 音乐、意义与测量的声音（Ola Stockfelt）\n\n## IX. 第五部分：空间与地点\n   - 9.1 第三十二章至第三十九章：声音与空间地点的想象\n     - 9.1.1 通过听与声学生态学想象声学空间（Barry Truax）\n     - 9.1.2 存在、环境与声音及想象的角色（Mark Grimshaw-Aagaard）\n     - 9.1.3 音乐地点：听觉的想象运输（Judy I. Lochhead）\n     - 9.1.4 声音的灯塔（Martin Knakkergaard）\n     - 9.1.5 音乐如何想象难以想象空间（Zohar Eitan 和 Hila Tamir-Ostrover）\n     - 9.1.6 听觉镜像：听觉政治（Sabine Sanio）\n     - 9.1.7 你听到的就是你所在的地方（Linda-Ruth Salter）\n     - 9.1.8 通过声音和音乐桥接其他现实（Tom A. Garner）\n\n## X. 结语\n   - 10.1 编辑团队对手册内容的总结与反思\n\n## 附录\n   - A.1 索引\n\n## 参考文献\n   - B.1 引用文献详细列表\n\n## 引用格式\nGrimshaw-Aagaard et al., 2019 《牛津声音与想象手册 第一卷》\n（请注意：以上大纲为示例，具体章节标题和内容应根据实际材料进行调整。）",
+    "refs": [
+        "cr1n44dfc7u9afs63png"
+    ],
+    "title": "\n\nNow, Listen to me:\n// 大纲目录\n请",
+    "group_id": "cr1n6u1hmfrbo0616c00",
+    "req_id": "cr1n6u1hmfrbo0616c0g",
+    "resp_id": "cr1n6u1hmfrbo0616c10",
+    "quection": "// 大纲目录\n请仔细分析提供的材料内容，并按照以下步骤生成一个完整的大纲目录:\n\n1. 识别主要主题和关键概念\n2. 确定逻辑结构和层次关系\n3. 创建清晰的章节标题和子标题\n4. 使用数字或字母编号系统组织各个部分\n5. 确保大纲结构清晰、连贯且易于理解\n6. 适当调整细节层级，以平衡概括性和具体性\n\n请生成一个包含主要章节和相关子部分的完整大纲。大纲应该反映材料的整体结构和主要内容，同时保持逻辑性和易读性。"
+}

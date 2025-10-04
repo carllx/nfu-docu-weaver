@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "abde2162e7e65a3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6055c3b96570ac17",
+        "type": "leaf",
+        "dimension": 26.201269265639166,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "python && Blender.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "befe4c4006183e74",
+        "type": "leaf",
+        "dimension": 73.79873073436083,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CLASS/Class1.1 数字速塑训练.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a4837288a8318750",
+    "type": "split",
+    "children": [
+      {
+        "id": "27eb66c1d9735984",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eae2f802ee203782",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "605e25a0d0cb4453",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "雕刻",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0e708bb2e458a40b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5
+  },
+  "right": {
+    "id": "de10f002fde45117",
+    "type": "split",
+    "children": [
+      {
+        "id": "5948187a02512026",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b95f150781b481f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CLASS/Class1.1 数字速塑训练.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "1da2a88ae401e96c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0d19110c62838d6f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CLASS/Class1.1 数字速塑训练.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "87840d2d811b3e03",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8961d52364dce16",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CLASS/Class1.1 数字速塑训练.md"
+              }
+            }
+          },
+          {
+            "id": "a61be213338c3339",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 100,
+    "collapsed": true
+  },
+  "active": "befe4c4006183e74",
+  "lastOpenFiles": [
+    "python && Blender.md",
+    "Kinect scan.md",
+    "CLASS/Class1.1 数字速塑训练.md",
+    "IP 造型设计.md",
+    "Artisti/John Cage.md",
+    "UV 拆分.md",
+    "Artisti/Morris Louis.md",
+    "20 公共艺术同学 数字雕塑创作.md",
+    "Untitled.md",
+    "罗凤欣.md"
+  ]
+}

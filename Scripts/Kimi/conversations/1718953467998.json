@@ -1,0 +1,27 @@
+{
+    "conversation_id": "cpqibvjdf0jcbtbojvs0",
+    "attachments": [
+        {
+            "date": 2023,
+            "title": "Prompting with pseudo-code instructions",
+            "fileID": "cpqgq99ldu5gtn7qb8m0",
+            "itemID": 2730,
+            "citation": "Mishra, M., Kumar, P., Bhat, R., Murthy V, R., Contractor, D., & Tamilselvam, S. (2023). Prompting with pseudo-code instructions (No. arXiv:2305.11790). arXiv. https://doi.org/10.48550/arXiv.2305.11790\n",
+            "citationShort": "Mishra et al., 2023",
+            "tags": [
+                "#kimi",
+                "Computer Science - Computation and Language"
+            ]
+        }
+    ],
+    "prompt": "\n\nNow, Listen to me:\n请从原文提取不同有利的方法或证据回答一下问题：语言生成任务中是否并不那么理想？\n\nYour answer should be in Chinese, using the Markdown format for layout.\nThe instructions for the attachments uploaded:\n- Prompting with pseudo-code instructions, was published on 2023. (It can be cite this paper as Mishra et al., 2023 on your answer). \n\n",
+    "response": "根据Mishra等人在2023年的研究《Prompting with Pseudo-Code Instructions》中的实验结果，我们可以对语言生成任务中使用伪代码指令的效果进行以下分析：\n\n1. **实验结果显示**：在使用伪代码指令（pseudo-code instructions）进行语言生成任务时，相对于自然语言指令，伪代码指令在整体上带来了7-16点F1分数的绝对增益，以及12-38%的相对ROUGE-L分数提升。\n\n2. **具体到语言生成任务**：虽然伪代码在分类任务和问答（QA）任务中表现出色，但文中并没有特别指出语言生成任务的表现不如其他任务类型。实际上，文中提到的整体性能提升是涵盖了所有任务类型的，包括语言生成任务。\n\n3. **结构性线索的贡献**：文中的详细消融研究指出，代码注释、文档字符串以及伪代码中编码的结构性线索都有助于提升性能。这意味着，即使是在语言生成任务中，这些结构性元素也可能发挥了积极作用。\n\n4. **模型的适应性**：研究中使用的两个大型语言模型家族——BLOOM和CodeGen，都经过了自然语言和代码数据的训练。这表明，即使是设计用于处理代码的CodeGen模型，也能在语言生成任务中利用伪代码指令获得性能上的提升。\n\n5. **结论**：根据Mishra等人的研究，我们不能断言伪代码指令在语言生成任务中不理想。相反，研究表明，伪代码指令在多种NLP任务中普遍提高了模型的性能，包括语言生成任务。\n\n综上所述，根据Mishra等人的研究结果，我们没有足够的证据表明伪代码指令在语言生成任务中表现不佳。相反，研究结果倾向于表明伪代码指令能够在语言生成任务中带来性能上的提升。",
+    "refs": [
+        "cpqgq99ldu5gtn7qb8m0"
+    ],
+    "title": "\n\nNow, Listen to me:\n请从原文提取不同有",
+    "group_id": "cpqibvg967ucqh15l930",
+    "req_id": "cpqibvg967ucqh15l93g",
+    "resp_id": "cpqibvg967ucqh15l940",
+    "quection": "请从原文提取不同有利的方法或证据回答一下问题：语言生成任务中是否并不那么理想？"
+}

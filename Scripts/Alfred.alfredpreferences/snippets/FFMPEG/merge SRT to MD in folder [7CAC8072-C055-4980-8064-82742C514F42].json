@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "folder_dir={clipboard}\nfind \"$folder_dir\" -type f -name \"*.srt\" | sort | while read srt_file; do\n    if [[ -f \"$srt_file\" ]]; then\n        txt_file=\"${srt_file%.srt}.txt\"\n        \n        awk '\/^[0-9]+\/ { next }\/^[0-9]{2}:[0-9]{2}:[0-9]{2}\/ { next }\/^.+\/ { print }' \"$srt_file\" > \"$txt_file\"\n    fi\ndone\n\n\nparent_dir=$(dirname \"$folder_dir\")\nfile_name=$(basename \"$folder_dir\")\noutput_file=\"${parent_dir}\/${file_name}.md\"\n\nfind \"$folder_dir\" -type f -name \"*.txt\" | sort | while read file; do\n    if [ -f \"$file\" ]; then\n        echo \"正在处理: $file\"\n        echo \"文件名: $(basename \"$file\")\" >> \"$output_file\"\n        echo \"------------------------\" >> \"$output_file\"\n        cat \"$file\" >> \"$output_file\"\n        echo -e \"\\n\\n\" >> \"$output_file\"\n    fi\ndone\n\necho \"所有 txt 文件已合并到 $output_file\"",
+    "uid" : "7CAC8072-C055-4980-8064-82742C514F42",
+    "name" : "merge SRT to MD in folder",
+    "keyword" : "mergesrtfolder"
+  }
+}
