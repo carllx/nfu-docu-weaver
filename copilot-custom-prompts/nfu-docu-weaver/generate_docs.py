@@ -10,6 +10,193 @@ import argparse
 from pathlib import Path
 from tqdm import tqdm
 
+class DataValidator:
+    """数据验证器 - 验证 YAML 数据文件的完整性"""
+    
+    def __init__(self):
+        self.errors = []
+        self.warnings = []
+    
+    def validate_yaml_syntax(self, file_path):
+        """验证 YAML 文件语法是否正确
+        
+        Returns:
+            tuple: (is_valid, data_or_error)
+        """
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+                if data is None:
+                    return False, "YAML 文件为空"
+                if not isinstance(data, dict):
+                    return False, "YAML 根节点必须是字典类型"
+                return True, data
+        except yaml.YAMLError as e:
+            return False, f"YAML 语法错误: {str(e)}"
+        except FileNotFoundError:
+            return False, "文件不存在"
+        except Exception as e:
+            return False, f"读取文件错误: {str(e)}"
+    
+    def extract_placeholders(self, doc):
+        """从模板文档中提取所有占位符
+        
+        Args:
+            doc: python-docx Document 对象
+            
+        Returns:
+            set: 占位符键名集合（不含 {{}} 符号）
+        """
+        placeholders = set()
+        pattern = r'\{\{([^}]+)\}\}'
+        
+        # 从段落中提取
+        for paragraph in doc.paragraphs:
+            matches = re.findall(pattern, paragraph.text)
+            placeholders.update(matches)
+        
+        # 从表格中提取
+        for table in doc.tables:
+            for row in table.rows:
+                for cell in row.cells:
+                    for paragraph in cell.paragraphs:
+                        matches = re.findall(pattern, paragraph.text)
+                        placeholders.update(matches)
+        
+        return placeholders
+    
+    def validate_required_keys(self, data, required_keys):
+        """验证数据中是否包含所有必需的键
+        
+        Args:
+            data: YAML 数据（字典）
+            required_keys: 必需的键集合
+            
+        Returns:
+            tuple: (is_valid, missing_keys, extra_keys)
+        """
+        data_keys = set(self._get_all_keys(data))
+        missing_keys = required_keys - data_keys
+        extra_keys = data_keys - required_keys
+        
+        is_valid = len(missing_keys) == 0
+        return is_valid, missing_keys, extra_keys
+    
+    def _get_all_keys(self, data, prefix=''):
+        """递归获取所有键（包括嵌套键，使用点号表示）"""
+        keys = []
+        if isinstance(data, dict):
+            for key, value in data.items():
+                full_key = f"{prefix}.{key}" if prefix else key
+                keys.append(full_key)
+                if isinstance(value, dict):
+                    keys.extend(self._get_all_keys(value, full_key))
+        return keys
+    
+    def validate_single_file(self, data_file, template_path):
+        """验证单个数据文件
+        
+        Returns:
+            dict: 验证结果
+        """
+        result = {
+            "file": str(data_file),
+            "valid": True,
+            "errors": [],
+            "warnings": []
+        }
+        
+        # 1. 验证 YAML 语法
+        is_valid, data_or_error = self.validate_yaml_syntax(data_file)
+        if not is_valid:
+            result["valid"] = False
+            result["errors"].append({
+                "type": "yaml_syntax",
+                "message": data_or_error,
+                "severity": "error"
+            })
+            return result
+        
+        data = data_or_error
+        
+        # 2. 提取模板占位符
+        try:
+            from docx import Document
+            doc = Document(template_path)
+            required_keys = self.extract_placeholders(doc)
+        except Exception as e:
+            result["valid"] = False
+            result["errors"].append({
+                "type": "template_error",
+                "message": f"无法读取模板: {str(e)}",
+                "severity": "error"
+            })
+            return result
+        
+        # 3. 验证必需键
+        is_valid, missing_keys, extra_keys = self.validate_required_keys(data, required_keys)
+        
+        if missing_keys:
+            result["valid"] = False
+            for key in missing_keys:
+                result["errors"].append({
+                    "type": "missing_key",
+                    "message": f"缺少必需的键: '{key}'",
+                    "key": key,
+                    "severity": "error"
+                })
+        
+        if extra_keys:
+            for key in extra_keys:
+                result["warnings"].append({
+                    "type": "extra_key",
+                    "message": f"未使用的数据键: '{key}'",
+                    "key": key,
+                    "severity": "warning"
+                })
+        
+        return result
+    
+    def validate_batch(self, data_dir, template_path):
+        """批量验证数据文件
+        
+        Returns:
+            dict: 批量验证结果
+        """
+        dir_path = Path(data_dir)
+        yaml_files = sorted(list(dir_path.glob('*.yml')) + list(dir_path.glob('*.yaml')))
+        
+        if not yaml_files:
+            return {
+                "success": False,
+                "error": f"未在目录中找到 YAML 文件: {data_dir}",
+                "total": 0,
+                "valid": 0,
+                "invalid": 0
+            }
+        
+        results = []
+        valid_count = 0
+        invalid_count = 0
+        
+        for data_file in yaml_files:
+            result = self.validate_single_file(data_file, template_path)
+            results.append(result)
+            
+            if result["valid"]:
+                valid_count += 1
+            else:
+                invalid_count += 1
+        
+        return {
+            "success": invalid_count == 0,
+            "total": len(yaml_files),
+            "valid": valid_count,
+            "invalid": invalid_count,
+            "results": results
+        }
+
+
 class DocumentGenerator:
     def __init__(self):
         self.debug = False
@@ -554,6 +741,70 @@ class DocumentGenerator:
                 print(f"生成文档时出错: {str(e)}")
             return False
 
+def cmd_validate(args):
+    """validate 命令处理函数"""
+    validator = DataValidator()
+    
+    if args.data_file:
+        # 验证单个文件
+        result = validator.validate_single_file(args.data_file, args.template)
+        
+        # 输出结果
+        if result["valid"]:
+            print(f"✅ 验证通过: {args.data_file}")
+            if result["warnings"]:
+                print(f"\n⚠️  警告 ({len(result['warnings'])}):")
+                for warning in result["warnings"]:
+                    print(f"  - {warning['message']}")
+        else:
+            print(f"❌ 验证失败: {args.data_file}")
+            print(f"\n错误 ({len(result['errors'])}):")
+            for error in result["errors"]:
+                print(f"  - {error['message']}")
+            
+            if result["warnings"]:
+                print(f"\n⚠️  警告 ({len(result['warnings'])}):")
+                for warning in result["warnings"]:
+                    print(f"  - {warning['message']}")
+        
+        # JSON 输出
+        print("\n" + json.dumps(result, ensure_ascii=False, indent=2))
+        
+        return 0 if result["valid"] else 1
+    
+    else:
+        # 批量验证
+        result = validator.validate_batch(args.data_dir, args.template)
+        
+        if not result.get("success", False) and "error" in result:
+            print(f"❌ 错误: {result['error']}")
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return 1
+        
+        # 输出汇总
+        print("=" * 60)
+        print("数据验证完成!")
+        print(f"  ✅ 有效: {result['valid']}")
+        print(f"  ❌ 无效: {result['invalid']}")
+        print(f"  📊 总计: {result['total']}")
+        print("=" * 60)
+        
+        # 显示详细错误
+        if result['invalid'] > 0:
+            print("\n详细错误:")
+            for file_result in result['results']:
+                if not file_result['valid']:
+                    print(f"\n❌ {file_result['file']}:")
+                    for error in file_result['errors']:
+                        print(f"   - {error['message']}")
+        
+        # JSON 输出
+        print("\n" + "=" * 60)
+        print("详细结果 (JSON):")
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        
+        return 0 if result['success'] else 1
+
 def cmd_analyze(args):
     """analyze 命令处理函数"""
     generator = DocumentGenerator()
@@ -634,6 +885,12 @@ def main():
   # 分析目录中的YAML文件
   python generate_docs.py analyze ./test_data
   
+  # 验证单个数据文件
+  python generate_docs.py validate lesson1.yml template.docx
+  
+  # 批量验证数据文件
+  python generate_docs.py validate --batch ./test_data template.docx
+  
   # 生成单个文档
   python generate_docs.py generate lesson1.yml template.docx output/
   
@@ -657,6 +914,13 @@ def main():
     parser_analyze.add_argument('-r', '--recursive', action='store_true', 
                                help='递归扫描子目录')
     parser_analyze.set_defaults(func=cmd_analyze)
+    
+    # validate 子命令
+    parser_validate = subparsers.add_parser('validate', help='验证数据文件完整性')
+    parser_validate.add_argument('data_file', nargs='?', help='YAML数据文件路径（单文件模式）')
+    parser_validate.add_argument('template', help='Word模板文件路径')
+    parser_validate.add_argument('--batch', dest='data_dir', help='数据文件目录路径（批量模式）')
+    parser_validate.set_defaults(func=cmd_validate)
     
     # generate 子命令
     parser_generate = subparsers.add_parser('generate', help='生成单个文档')
