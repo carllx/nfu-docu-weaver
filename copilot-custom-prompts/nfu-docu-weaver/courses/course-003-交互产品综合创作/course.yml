@@ -11,11 +11,11 @@
 # ============================================================
 course_id: course-003
 course_name: 交互产品综合创作
-course_code: 待补充  # 例如: DES-301
-instructor: 林昕
-semester: 2025-2026 第一学期
+course_code: CNFU004790
+instructor: 林昕、杨柳燕
+semester: 2025-2026学年第一学期
 total_weeks: 15
-total_hours: 60  # 默认 15周 × 4学时/周，可根据实际调整
+total_hours: 60
 credits: 3
 
 # ============================================================
@@ -48,70 +48,104 @@ config:
 status:
   outline_completed: false
   cover_completed: false
-  lessons_completed: 0
+  lessons_completed: 4
   lessons_total: 15
-  lessons_to_create: "1-15"  # 需要创建第1-15周的教案
+  lessons_to_create: "5-15"  # 需要创建第5-15周的教案
   last_updated: '2025-10-05'
 
 # ============================================================
 # 课程描述
 # ============================================================
-description: '待补充：请简要描述课程的核心内容、教学方法和培养目标'
-course_type: 待补充  # 例如：专业必修课、专业选修课
-target_major: 待补充  # 例如：数字媒体艺术
-prerequisite: 待补充  # 例如：无，或列出先修课程
+description: '本课程聚焦新时代数字媒体艺术领域对交互产品设计与开发的核心需求，以 "设计思维 + 技术实现 + 行业落地" 为三维培养目标，通过理论讲授、工具实操与项目驱动相结合的教学模式，系统提升学生在交互产品全链路创作中的综合能力。课程内容分为四大模块：专业级UI/UX设计（Figma）、沉浸式三维网页创作（Spline）、交互设计理论与心理学、综合项目实践。'
+course_type: 专业必修课
+target_major: 数字媒体艺术（专升本）
+prerequisite: 无
 
 objectives:
   knowledge:
-    - 待补充：知识目标1
-    - 待补充：知识目标2
+    - '掌握Figma的核心功能，包括自动布局、约束、组件与变体、交互原型制作等'
+    - '掌握Spline的基础操作，包括3D建模、材质灯光、状态事件、物理引擎和变量动画'
+    - '理解交互设计背后的心理学原理，如格式塔原则、情感化设计及主流交互设计定律'
+    - '了解Apple HIG、Google Material Design等行业主流UI/UX设计语言的特点与应用'
+    - '识记交互产品从概念到发布的基本流程与方法'
   
   ability:
-    - 待补充：能力目标1
-    - 待补充：能力目标2
+    - '能够应用Figma独立完成符合行业规范的2D网页或移动应用界面的高保真设计与原型制作'
+    - '能够应用Spline创作出具有丰富交互性和视觉吸引力的3D网页作品'
+    - '具备分析并应用交互设计理论与心理学原则的能力，以优化产品易用性和用户体验'
+    - '具备综合运用2D UI设计与3D交互技术的能力，创造出统一、连贯的综合性交互产品'
+    - '具备独立完成产品调研、策划、设计迭代及项目展示的综合项目实践能力'
   
   quality:
-    - 待补充：素质目标1
-    - 待补充：素质目标2
+    - '培养学生树立以用户为中心的设计思维，具备通过设计解决实际问题的意识'
+    - '培养学生具备批判性思维与创新精神，能够探索新颖的交互体验形式，并对新兴技术（如AI）有批判性的理解'
+    - '培养学生具备团队协作精神与良好的沟通能力，适应现代设计工作流程'
+    - '培养学生树立设计师的职业道德和社会责任感，理解并践行包容性设计与无障碍设计原则，抵制"暗黑模式"等不道德设计，以科技向善为准则，创作有益于社会发展的数字内容'
 
 # ============================================================
 # 课程内容结构
 # ============================================================
 chapters:
   - chapter_number: 1
-    chapter_title: 待补充
-    hours: 4
-    theory_hours: 2
+    chapter_title: Figma - 专业级UI/UX设计与协作
+    hours: 28
+    theory_hours: 5
+    practice_hours: 11
+    description: '掌握Figma的核心功能，包括基础操作、布局系统、组件化设计、高级交互与原型制作，完成响应式网页设计项目'
+  
+  - chapter_number: 2
+    chapter_title: Spline - 沉浸式3D网页创作
+    hours: 16
+    theory_hours: 5
+    practice_hours: 11
+    description: '学习Spline的3D建模、材质灯光、物理引擎、状态事件和变量动画，创作交互式3D网页作品'
+  
+  - chapter_number: 3
+    chapter_title: 交互设计理论与心理学
+    hours: 8
+    theory_hours: 6
     practice_hours: 2
-    description: 待补充
+    description: '理解格式塔原则、情感化设计、交互设计定律，分析主流设计系统（Apple HIG, Material Design等）'
+  
+  - chapter_number: 4
+    chapter_title: 综合项目实践与前沿探索
+    hours: 20
+    theory_hours: 4
+    practice_hours: 16
+    description: '完成综合交互产品项目，整合Figma与Spline技术，进行项目规划、设计迭代和最终展示'
 
 # ============================================================
 # 课程资源
 # ============================================================
 resources:
   textbook:
-    - 待补充：主要教材信息
+    - '威凤教育.数字媒体交互设计原理与方法.人民邮电出版社,2021'
+    - '刘月磊,卢芷仪,王培翔.交互思维与实战：Figma+Principle UI设计实用教程.东华大学出版社,2024'
   
   reference_books:
-    - 待补充：参考书目
+    - '郑娅峰.网页设计与开发——HTML、CSS、JavaScript实例教程.清华大学出版社，2021.7'
   
   software:
-    - name: 待补充
-      description: 待补充
+    - name: 'Figma'
+      description: '专业级UI/UX设计与协作工具'
+    - name: 'Spline'
+      description: '3D网页设计与交互创作工具'
+    - name: 'Visual Studio Code'
+      description: '代码编辑器，用于网页开发'
 
 # ============================================================
 # 评分标准
 # ============================================================
 grading:
-  formative_assessment: 30  # 平时成绩
-  final_assessment: 70      # 课程考核成绩
+  formative_assessment: 50  # 平时成绩
+  final_assessment: 50      # 课程考核成绩
   
   formative_breakdown:
     attendance: 10           # 考勤
-    assignment_test: 10      # 作业/测试
+    assignment_test: 30      # 命题测试
     chapter_test: 10         # 章节测试
   
-  final_assessment_description: 待补充：期末考核方式描述
+  final_assessment_description: '考查。以课程所讲授的Figma、Spline软件操作为基础，进行综合交互项目实践创作'
 
 # ============================================================
 # 元数据
@@ -121,4 +155,4 @@ metadata:
   updated_at: '2025-10-05'
   version: '2.0'
   created_by: 'lesson-weaver-agent'
-  notes: '新创建的课程，需要准备 15 周教案数据'
+  notes: '课程已有前4周教案内容（通过Gemini提取），需要创建第5-15周教案框架'

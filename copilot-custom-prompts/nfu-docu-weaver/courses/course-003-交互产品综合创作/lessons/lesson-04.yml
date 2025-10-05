@@ -1,0 +1,128 @@
+# ===================================================================
+# 第 4 周教案 - Figma的基础操作与网页设计
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第1章 Figma的基础操作与网页设计
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "4"
+lesson_title: "Figma的基础操作与网页设计"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第1章 Figma的基础操作与网页设计"
+
+lesson_content:
+  value: "1.6 高级交互与动效；作业实践练习"
+
+class_schedule:
+  value: "第 4 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：掌握Figma界面与核心工具，理解线框图设计与原型制作等内容。支撑课程知识目标（1），对应毕业要求2、4。
+    2. 能力目标：能够独立完成一个具有响应式布局和复杂交互的2D网页设计项目。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：树立以用户为中心的设计理念，增强无障碍设计意识，培养人文关怀与社会责任感。支撑课程素质目标（1），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: '理解 Figma 中的高级交互（触发条件、过渡效果、智能动画）和动效原理。掌握交互设计在提升用户体验中的作用。'
+  ability_aim: "能够独立使用Figma完成网页设计与交互原型制作，初步建立系统化的UI设计方法。"
+  quality_aim: "强化以用户为中心和包容性设计的价值观，理解设计服务社会的意义。"
+  process_and_method_aim:
+    value: '1. 案例驱动法：通过分析优秀网页设计案例，帮助学生理解"响应式布局""组件化设计"的价值；2. 演示引导法：在课堂中分步演示Figma操作，学生同步跟进，降低学习门槛；3. 任务驱动法：以"完成一个响应式网页首页设计"为核心任务，将知识点融入任务目标；4. 反思总结法：在课堂与作业中引导学生反思设计选择与社会责任的关系，强化价值导向。'
+
+key_and_difficult_points:
+  key_points: "高级交互操作（触发器、动作、过渡方式）。智能动画（Smart Animate）的应用。"
+  difficult_points: "动效设计的逻辑性与节奏把控。在保持美观的同时兼顾实用性与用户体验。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①什么是"响应式设计"？为什么它在当今网页设计中如此重要？②如何通过"组件"实现设计的高效性与一致性？③无障碍设计在网页UI设计中具体可以如何体现？'
+  other_pre_class_preparation:
+    value: "[4] Figma交互动效插件。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+案例分析+总结"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师介绍本次课学习目标与任务安排，展示优秀的交互动效案例，引导学生思考交互设计在用户体验中的价值。"
+    design_details:
+      organization: "教师介绍并展示案例。"
+      methods: "提问引导+案例展示"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"你平时浏览网页时最关注哪些设计细节？"'
+      ideological_integration: '强调设计的社会责任，引出"无障碍设计"理念，培养学生关注用户体验的意识。'
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "提问回顾：什么是组件与变体？它们如何帮助实现设计系统化？通过学生回答检查对上节课内容的掌握情况。"
+    design_details:
+      organization: "教师提问，学生回答。"
+      methods: "提问+总结"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"上节课我们学习了组件与变体，解决了"如何让设计模块化与系统化"；本节课将进入高级交互与动效，让设计"活起来"，提升用户体验。"'
+      ideological_integration: "培养学生学习迁移能力和系统化思维。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "回顾交互设计基础（页面链接、简单过渡）；详细讲解高级交互功能：触发条件（Trigger：点击、悬浮、按下等）、动作（Action：导航、打开叠加层等）、过渡方式（Transition：瞬间、溶解、滑动等）；讲解智能动画（Smart Animate）的原理与设计原则：保持图层命名一致、合理使用缓动曲线（Easing）、控制动画时长；演示如何创建按钮悬停效果、页面切换动画、叠加层动画等。"
+    design_details:
+      organization: "教师讲解与演示，学生跟随操作。"
+      methods: "讲授+演示+互动提问"
+      time_arrangement: "45分钟"
+      in_class_thinking: '"如何通过组件系统提升团队协作效率？"'
+      ideological_integration: '在讲解组件设计时强调"包容性设计"，动效要考虑弱视用户和使用辅助技术的用户，培养学生社会责任意识。'
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课此环节融入实践环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: '学生跟随教师演示进行实操练习，完成高级交互与动效的创建任务：为按钮组件添加悬停和点击动画，创建页面切换的智能动画效果，制作叠加层（Overlay）的弹出与关闭动画。教师巡回指导，引导学生思考"如何实现一个完整交互动效？"强调动效的运用需要兼顾美观与效率，不能为炫技而牺牲用户体验。'
+    design_details:
+      organization: "学生实操，教师个别辅导。"
+      methods: "演示引导+任务驱动+个别辅导"
+      time_arrangement: "120分钟（每节45分钟，共约2.5节）"
+      in_class_thinking: '"如何实现一个完整交互动效？"'
+      ideological_integration: '动效的运用需要兼顾美观与效率，不能为炫技而牺牲用户体验，这类似"润物细无声"的理念，让整体设计更和谐统一，培养学生人文关怀精神。'
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本次课重点内容：高级交互的触发与动作、智能动画的应用；强调交互动效在提升用户体验中的价值，同时要避免过度设计；布置第一章综合作业：完成一个响应式网页首页设计（包含导航、Banner、内容区、页脚），使用Figma完成，需体现自动布局、组件系统与交互原型，提交Figma链接与设计说明文档；预告下次课内容（进入第二章 Spline 3D设计）。"
+    design_details:
+      organization: "教师总结，学生记录要点。"
+      methods: "讲授+任务说明"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"本节课你最大的收获是什么？"'
+      ideological_integration: '高级交互与动效类似"润物细无声"，让整体设计更和谐统一，强调设计的人文关怀价值。'
+
+after_class_assignments:
+  value: "完成一个响应式网页首页设计（包含导航、Banner、内容区、页脚），使用Figma完成，需体现自动布局、组件系统与交互原型。提交Figma链接与设计说明文档。"
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""

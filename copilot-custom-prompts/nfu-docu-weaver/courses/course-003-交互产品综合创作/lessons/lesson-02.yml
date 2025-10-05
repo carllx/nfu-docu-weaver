@@ -1,0 +1,128 @@
+# ===================================================================
+# 第 2 周教案 - Figma的基础操作与网页设计
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第1章 Figma的基础操作与网页设计
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "2"
+lesson_title: "Figma的基础操作与网页设计"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第1章 Figma的基础操作与网页设计"
+
+lesson_content:
+  value: "1.3 视觉设计核心：样式、栅格系统；1.4 精通布局：自动布局与约束"
+
+class_schedule:
+  value: "第 2 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：掌握Figma界面与核心工具，理解线框图设计与原型制作等内容。支撑课程知识目标（1），对应毕业要求2、4。
+    2. 能力目标：能够独立完成一个具有响应式布局和复杂交互的2D网页设计项目。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：树立以用户为中心的设计理念，增强无障碍设计意识，培养人文关怀与社会责任感。支撑课程素质目标（1），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: '了解 Figma 中的样式（颜色、文本、效果等）的作用与设置方法。掌握栅格系统（Grid System）在网页与UI设计中的基本原理和使用。理解自动布局（Auto Layout）和约束（Constraints）的功能及区别。'
+  ability_aim: "能够运用栅格系统进行排版，保证页面的层次感和一致性。"
+  quality_aim: '培养学生追求美观与规范统一的设计意识。提升学生解决网页与移动端跨设备适配问题的能力。强化团队协作中统一设计语言的职业素养。培养包容性设计的价值观，理解设计服务社会的意义。'
+  process_and_method_aim:
+    value: '1. 案例驱动法：临摹网页设计中使用的自动布局内容；2. 演示引导法：在课堂中分步演示Figma操作，学生同步跟进，降低学习门槛；3. 任务驱动法：以"完成一个响应式网页首页设计"为核心任务，将知识点融入任务目标；4. 反思总结法：在课堂与作业中引导学生反思设计选择与社会责任的关系，强化价值导向。'
+
+key_and_difficult_points:
+  key_points: "Figma 中的样式创建与应用，自动布局实际操作。"
+  difficult_points: "理解栅格系统在不同屏幕尺寸中的适配，自动布局与约束的结合使用，实现复杂的响应式设计。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①什么是"自动布局"？为什么它在当今网页设计中如此重要？②如何通过自动布局实现网页布局自适应？③无障碍设计在网页UI设计中具体可以如何体现？'
+  other_pre_class_preparation:
+    value: "[4] 登录Figma账号界面，准备笔记与课前小练习（临摹自动布局、栅格系统案例）。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+案例分析+讨论+任务驱动+反思总结"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "展示一份没有规范与有栅格系统的网页对比，引发学生对设计规范重要性的思考。引导学生讨论规范化设计的价值。"
+    design_details:
+      organization: "教师展示对比案例，提出问题。"
+      methods: "提问引导+案例展示"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"怎样为网页端添加栅格系统和自动布局？"'
+      ideological_integration: '强调设计的社会责任，引出"无障碍设计"理念，培养学生关注用户体验的意识。'
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾 Figma 基础操作：界面介绍、工具栏功能、图层与画板的使用。通过提问检查学生对上节课内容的掌握情况。"
+    design_details:
+      organization: "教师提问，学生回答。"
+      methods: "提问法"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"如何在 Figma 中新建一个 Frame（画板）？"'
+      ideological_integration: "培养学生独立思考的能力和知识迁移能力。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "详细讲解样式系统（颜色样式、文本样式、效果样式）的创建与应用方法；讲解栅格系统的原理，包括网格（Grid）、列（Columns）、行（Rows）的设置与使用；讲解自动布局（Auto Layout）的核心概念：方向（Direction）、间距（Spacing）、内边距（Padding）；讲解约束（Constraints）系统：居中、固定边、缩放等选项；演示如何结合自动布局与约束实现响应式设计。"
+    design_details:
+      organization: "教师讲解与演示，学生跟随操作。"
+      methods: "讲授+演示+互动提问"
+      time_arrangement: "90分钟（每节45分钟，共2节）"
+      in_class_thinking: '"如何通过栅格系统提升团队协作效率？"'
+      ideological_integration: '在Figma中统一的样式与栅格系统，就像社会生活中的"制度与规范"，只有遵守规则，团队协作才能高效，培养学生的规范意识和协作精神。'
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课此环节融入实践环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生跟随教师演示进行实操练习，完成阶段性任务：制作一个包含导航栏、内容区、页脚的简易网页布局，并通过自动布局等内容实现自适应效果。教师巡回指导，帮助学生解决实际操作中的问题。"
+    design_details:
+      organization: "学生实操，教师个别辅导。"
+      methods: "演示引导+任务驱动+个别辅导"
+      time_arrangement: "90分钟（每节45分钟，共2节）"
+      in_class_thinking: '"如何制作一个包含导航栏、内容区、页脚的简易网页布局，并通过自动布局等内容实现自适应效果？"'
+      ideological_integration: "自动布局与约束帮助我们从整体出发，保证设计在不同场景下的统一性，培养学生系统化思维和全局观念。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本节课重点内容：样式系统的价值、栅格系统的应用、自动布局与约束的使用方法；强调规范化设计在团队协作中的重要性；预告下次课内容（组件与变体）。"
+    design_details:
+      organization: "教师总结，学生记录要点。"
+      methods: "讲授+任务说明"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"本节课你最大的收获是什么？"'
+      ideological_integration: "强调设计不仅是为了美观，更是为了解决问题、服务社会，培养学生的职业素养。"
+
+after_class_assignments:
+  value: "无"
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""

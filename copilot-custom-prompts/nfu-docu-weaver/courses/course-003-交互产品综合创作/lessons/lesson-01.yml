@@ -1,0 +1,128 @@
+# ===================================================================
+# 第 1 周教案 - Figma的基础操作与网页设计
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第1章 Figma的基础操作与网页设计
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "1"
+lesson_title: "Figma的基础操作与网页设计"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第1章 Figma的基础操作与网页设计"
+
+lesson_content:
+  value: "1.1 Figma界面基础与核心工具（画框、形状、文本、颜色）；1.2 线框图与原型制作入门"
+
+class_schedule:
+  value: "第 1 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论2，实践2）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：掌握Figma界面与核心工具，理解线框图设计与原型制作等内容。支撑课程知识目标（1），对应毕业要求2、4。
+    2. 能力目标：能够独立完成一个具有响应式布局和复杂交互的2D网页设计项目。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：树立以用户为中心的设计理念，增强无障碍设计意识，培养人文关怀与社会责任感。支撑课程素质目标（1），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: "了解Figma的特点、应用场景与协作优势。熟练掌握Figma的界面工具、线框图绘制。理解网页设计的基本原则（对齐、留白、层级、色彩与排版）。"
+  ability_aim: "能够独立完成简单的界面框架设计。"
+  quality_aim: "提高学生的信息化素养与审美能力。"
+  process_and_method_aim:
+    value: '1. 讲授法：结合演示，逐步讲解工具与功能；2. 案例法：分析优秀网页设计案例，讲解布局与交互逻辑；3. 任务驱动法：以"完成一个响应式网页首页设计"为核心任务，将知识点融入任务目标；4. 讨论法：引导学生思考用户体验与视觉美感的平衡。'
+
+key_and_difficult_points:
+  key_points: "掌握Figma布局的基础功能。网页设计的基础构成要素与排版规范。"
+  difficult_points: "从零开始构建完整的网页设计原型。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①什么是"响应式设计"？为什么它在当今网页设计中如此重要？②Figma软件制作网页的流程有哪些？有什么核心功能可以很好的实现网页交互？'
+  other_pre_class_preparation:
+    value: "[4] 安装并注册Figma账号，准备笔记与赏析优秀网页设计案例。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+案例分析+讨论+任务驱动+反思总结"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师介绍本章学习目标与任务安排，展示优秀网页设计案例，引导学生思考网页设计中的关键要素。"
+    design_details:
+      organization: "教师介绍并展示案例，学生观察并思考。"
+      methods: "提问引导+案例展示"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"你平时浏览网页时最关注哪些设计细节？"'
+      ideological_integration: '强调设计的社会责任，引出"无障碍设计"理念，培养学生关注特殊群体需求的意识。'
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "由于是第一次课，此环节用于介绍课程整体架构、学习方式、考核要求等内容。"
+    design_details:
+      organization: "教师介绍课程结构与考核要求，学生记录要点并表达个人期待。"
+      methods: "讲解+问答"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "讲解课程能力要求、考核规定；详细讲解Figma基础操作，包括界面介绍、核心工具（画框Frame、形状工具、文本工具、颜色系统）的使用方法；讲解线框图设计原理与网页设计基本原则（对齐、留白、层级、色彩与排版）；演示如何使用Figma创建基础线框图。"
+    design_details:
+      organization: "教师讲解并演示Figma操作，学生跟随练习基础工具。"
+      methods: "讲授+互动提问+演示"
+      time_arrangement: "90分钟（每节45分钟，共2节）"
+      in_class_thinking: '"如何通过Figma软件来提升团队协作效率？"'
+      ideological_integration: "强调设计不仅是美学追求，更是服务用户、服务社会的工具，培养学生的社会责任感。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课此环节融入实践环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生跟随教师演示进行实操练习，完成阶段性任务：使用Figma创建一个简单的网页线框图，包含导航栏、内容区和页脚。教师巡回指导，解答学生操作中遇到的问题。"
+    design_details:
+      organization: "学生独立实操，教师个别辅导。"
+      methods: "演示引导+任务驱动+个别辅导"
+      time_arrangement: "90分钟（每节45分钟，共2节）"
+      in_class_thinking: '"Figma的一整个使用流程是怎样的？"'
+      ideological_integration: "引导学生独立自主的思考能力，了解Figma操作与网页设计原则，培养学生的自主学习意识。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "教师总结本节课重点内容：Figma界面与核心工具、线框图设计方法、网页设计基本原则；强调响应式设计的重要性；预告下次课内容（样式系统与栅格布局）。"
+    design_details:
+      organization: "教师总结，学生记录要点。"
+      methods: "讲授+任务说明"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"本节课你最大的收获是什么？"'
+      ideological_integration: "强调设计不仅是为了美观，更是为了解决问题、服务社会，培养学生的职业道德观。"
+
+after_class_assignments:
+  value: "无"
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
