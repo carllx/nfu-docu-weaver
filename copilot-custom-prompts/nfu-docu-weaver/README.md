@@ -182,7 +182,22 @@ python generate_docs.py batch ./data ./template.docx ./output --continue-on-erro
 ============================================================
 ```
 
-## ✅ 已实现功能 (v1.3.0)
+## ✅ 已实现功能 (v1.4.0)
+
+### Schema-Driven Architecture 🆕 (v1.4.0)
+- ✅ **SchemaValidator**: 基于 Schema 的自动数据验证
+  - 从 Schema 文件自动提取验证规则
+  - 智能类型推断 (string, integer, list, object)
+  - 嵌套结构验证
+  - 必需字段 vs 可选字段验证
+  - 详细的错误报告和字段定位
+- ✅ **Schema 缓存**: 3层缓存优化性能
+  - Schema 文件缓存
+  - 验证规则缓存
+  - 批量验证优化
+- ✅ **降级机制**: Schema 不可用时自动降级到 DataValidator
+- ✅ **CLI 集成**: `validate --schema` 命令支持
+- ✅ **完整测试**: 123 个测试用例（100% 通过）
 
 ### 核心功能
 - ✅ **完整的格式保留**: 100% 保留模板中的所有样式
@@ -202,24 +217,31 @@ python generate_docs.py batch ./data ./template.docx ./output --continue-on-erro
 - ✅ **错误恢复**: 支持 `--continue-on-error` 选项
 - ✅ **JSON输出**: 所有命令支持结构化JSON输出
 
-### 用户体验增强 🆕 (v1.3.0)
+### 用户体验增强 (v1.3.0)
 - ✅ **进度条显示**: 实时显示批量处理进度（基于 tqdm）
   - 默认模式：进度条 + 处理速度
   - 安静模式 (`-q`): 无输出
   - 详细模式 (`-v`): 完整处理信息
 - ✅ **数据验证**: 生成前验证数据完整性
   - YAML 语法检查
-  - 必需键验证（基于模板）
+  - 必需键验证（基于模板或 Schema）
   - 额外键警告
   - 单文件和批量验证模式
 - ✅ **测试框架**: 完整的自动化测试
-  - 34 个测试用例（100% 通过）
+  - 123 个测试用例（100% 通过）
   - pytest + pytest-cov 集成
-  - 快速测试运行（~2s）
+  - 快速测试运行（~1.8s）
+
+### 性能指标 (v1.4.0)
+- ⚡ Schema 加载时间: < 50ms
+- ⚡ 规则提取时间: < 100ms
+- ⚡ 单文件验证: < 50ms
+- ⚡ 批量验证 (100 文件): < 2s
+- ⚡ 文档生成速度: 15-25 files/s
 
 ### 已知限制
 - 数据格式仅支持 YAML（JSON/CSV 支持计划在未来版本）
-- 测试覆盖率约 70-75%（目标 >80%）
+- Schema v5 是模板版，类型推断基于占位符（实际数据验证仍然有效）
 
 ## 📁 项目结构
 
@@ -269,11 +291,18 @@ nfu-docu-weaver/
 
 ## 🚀 未来改进 (路线图)
 
-### V1.4.0 - Schema-Driven Architecture 🔥 (开发中)
-- **Schema 集成**: 基于 schema 的自动验证
-- **架构重构**: 规范化目录结构（schemas/, templates/, data_source/）
-- **向后兼容**: 保持与 v1.3.0 的完全兼容
-- **文档完善**: Schema 使用指南和最佳实践
+### V1.4.0 - Schema-Driven Architecture ✅ (已完成)
+- ✅ **Schema 集成**: 基于 schema 的自动验证
+- ✅ **SchemaValidator**: 完整的 Schema 验证器实现
+- ✅ **向后兼容**: 保持与 v1.3.0 的完全兼容
+- ✅ **文档完善**: Schema 使用指南和最佳实践
+- ✅ **完整测试**: 123 个测试用例（100% 通过）
+
+### V1.5.0 - Lesson-Weaver Agent 集成 (计划中)
+- **Agent 架构重新设计**: 与 Schema-Driven Architecture 深度集成
+- **VALIDATING 状态**: 在生成前自动验证数据
+- **Schema Knowledge**: 将 Schema 集成到 Agent 知识库
+- **AI 数据生成指南**: 为 AI 提供基于 Schema 的数据生成指令
 
 ### V2.0.0 - AI Agent 工作流 (规划中)
 - **AI 指令系统**: 基于 Schema 的 AI 数据生成

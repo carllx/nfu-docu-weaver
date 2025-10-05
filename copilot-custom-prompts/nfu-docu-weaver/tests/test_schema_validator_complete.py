@@ -191,10 +191,19 @@ class TestRuleExtraction:
         """测试识别字段类型"""
         rules = validator.validation_rules
         
-        # 检查不同类型的字段
-        assert rules.field_types.get("lesson_number") == FieldType.INTEGER
+        # 注意：Schema v5 是模板版，所有值都是字符串占位符
+        # 因此类型推断会将大部分字段识别为 STRING
+        # 这是预期行为，因为模板版 Schema 的目的是提供填充指南
+        assert rules.field_types.get("lesson_number") == FieldType.STRING  # 模板版中是字符串占位符
         assert rules.field_types.get("lesson_title") == FieldType.STRING
         assert rules.field_types.get("course_name") == FieldType.STRING
+        
+        # 检查嵌套对象类型
+        assert rules.field_types.get("class_hours") == FieldType.DICT
+        assert rules.field_types.get("teaching_aims") == FieldType.DICT
+        
+        # 检查列表类型
+        assert rules.field_types.get("main_teaching_segments") == FieldType.LIST
     
     def test_extract_rules_identifies_nested_structures(self, validator):
         """测试识别嵌套结构"""

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1485af14579a911c",
+        "id": "df159fa2b254037a",
         "type": "tabs",
         "children": [
           {
-            "id": "b29a52595efd57b8",
+            "id": "fc81ad13981d2a79",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled 1"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Untitled 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled 1"
             }
           },
           {
@@ -178,6 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Untitled 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,7 +211,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Untitled 1"
             }
           },
           {
@@ -262,28 +268,36 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b29a52595efd57b8",
+  "active": "fc81ad13981d2a79",
   "lastOpenFiles": [
+    "copilot-custom-prompts/nfu-docu-weaver/template/~$教案参考模板.dotx",
+    "copilot-custom-prompts/nfu-docu-weaver/template/~$教案参考模板.docx",
+    "copilot-custom-prompts/nfu-docu-weaver/docs/architecture/7-lesson-weaver-integration.md",
+    "copilot-custom-prompts/nfu-docu-weaver/docs/ARCHITECT_REVIEW_v1.4.0.md",
+    "copilot-custom-prompts/nfu-docu-weaver/docs/QA_SIGNOFF_v1.4.0.md",
+    "copilot-custom-prompts/nfu-docu-weaver/tests/__pycache__/test_validator.cpython-313-pytest-8.4.1.pyc",
+    "copilot-custom-prompts/nfu-docu-weaver/tests/__pycache__/test_schema_validator_complete.cpython-313-pytest-8.4.1.pyc",
+    "copilot-custom-prompts/nfu-docu-weaver/tests/__pycache__/test_schema_validator.cpython-313-pytest-8.4.1.pyc",
+    "copilot-custom-prompts/nfu-docu-weaver/__pycache__/generate_docs.cpython-313.pyc",
+    "copilot-custom-prompts/nfu-docu-weaver/__pycache__",
+    "copilot-custom-prompts/nfu-docu-weaver/tests/__pycache__/test_generator.cpython-313-pytest-8.4.1.pyc",
+    "copilot-custom-prompts/nfu-docu-weaver/tests/__pycache__/test_cli.cpython-313-pytest-8.4.1.pyc",
+    "copilot-custom-prompts/nfu-docu-weaver/tests/integration/__pycache__/test_schema_validation_flow.cpython-313-pytest-8.4.1.pyc",
+    "copilot-custom-prompts/nfu-docu-weaver/tests/integration/__pycache__",
+    "copilot-custom-prompts/nfu-docu-weaver/PROJECT_STATUS_SUMMARY_2025-10-05.md",
+    "copilot-custom-prompts/nfu-docu-weaver/docs/PO_EXECUTIVE_SUMMARY_2025-10-05.md",
+    "copilot-custom-prompts/nfu-docu-weaver/docs/PO_TASK_PLAN_2025-10-05.md",
+    "Untitled 1.md",
     "copilot-custom-prompts/nfu-docu-weaver/CLEANUP_CHECKLIST.md",
     "copilot-custom-prompts/nfu-docu-weaver/STORY_2.7_PHASE_0-5_SUMMARY.md",
     "copilot-custom-prompts/nfu-docu-weaver/PHASE_5_TEST_COMPLETION_REPORT.md",
-    "copilot-custom-prompts/nfu-docu-weaver/tests/__pycache__/test_schema_validator_complete.cpython-313-pytest-8.4.1.pyc",
-    "copilot-custom-prompts/nfu-docu-weaver/tests/test_schema_validator_complete.py",
     "copilot-custom-prompts/nfu-docu-weaver/GIT_COMMIT_CHECKLIST.md",
     "copilot-custom-prompts/nfu-docu-weaver/PHASE_1_TO_4_COMPLETION_REPORT.md",
-    "copilot-custom-prompts/nfu-docu-weaver/test_data/~$mplate.docx",
-    "copilot-custom-prompts/nfu-docu-weaver/test_cli_integration.py",
-    "copilot-custom-prompts/nfu-docu-weaver/test_schema_validator_basic.py",
     "copilot-custom-prompts/nfu-docu-weaver/docs/QA_DELIVERABLES_STORY_2.7.md",
-    "copilot-custom-prompts/nfu-docu-weaver/tests/integration/__pycache__/test_schema_validation_flow.cpython-313-pytest-8.4.1.pyc",
-    "copilot-custom-prompts/nfu-docu-weaver/tests/integration/__pycache__",
-    "copilot-custom-prompts/nfu-docu-weaver/tests/__pycache__/test_schema_validator.cpython-313-pytest-8.4.1.pyc",
     "copilot-custom-prompts/nfu-docu-weaver/tests/README.md",
     "copilot-custom-prompts/nfu-docu-weaver/docs/QA_QUICK_START.md",
-    "copilot-custom-prompts/nfu-docu-weaver/run_schema_tests.sh",
     "copilot-custom-prompts/nfu-docu-weaver/docs/PO_ACTION_SUMMARY_2025-10-04.md",
     "copilot-custom-prompts/nfu-docu-weaver/docs/QA_TEST_PREP_STORY_2.7.md",
-    "copilot-custom-prompts/nfu-docu-weaver/tests/fixtures/test_data.yml",
     "copilot-custom-prompts/nfu-docu-weaver/docs/DEV_NOTIFICATION_STORY_2.7.md",
     "copilot-custom-prompts/nfu-docu-weaver/docs/DEV_TASK_STORY_2.7.md",
     "copilot-custom-prompts/nfu-docu-weaver/docs/architecture/README_STORY_2.7.md",
@@ -292,14 +306,6 @@
     "copilot-custom-prompts/nfu-docu-weaver/docs/TECH_REVIEW_SCHEMA_VALIDATOR.md",
     "copilot-custom-prompts/nfu-docu-weaver/docs/architecture/schema-validator-design.md",
     "copilot-custom-prompts/nfu-docu-weaver/docs/DOCUMENTATION_UPDATE_SUMMARY.md",
-    "copilot-custom-prompts/nfu-docu-weaver/docs/architecture/6-schema-driven-architecture.md",
-    "copilot-custom-prompts/nfu-docu-weaver/schemas/README.md",
-    "copilot-custom-prompts/nfu-docu-weaver/RELEASE_NOTES_v1.3.0.md",
-    "copilot-custom-prompts/nfu-docu-weaver/docs/SPRINT3_PLAN.md",
-    "copilot-custom-prompts/nfu-docu-weaver/BMAD_COMPLIANCE_REPORT.md",
-    "copilot-custom-prompts/nfu-docu-weaver/docs/README.md",
-    "copilot-custom-prompts/nfu-docu-weaver/docs/architecture.md",
-    "copilot-custom-prompts/nfu-docu-weaver/docs/SPRINT_PROGRESS.md",
     "Pasted image 20251003152052.png",
     "Pasted image 20251003144550.png",
     "Pasted image 20251002111040.png",
