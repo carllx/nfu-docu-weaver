@@ -66,7 +66,8 @@ main_teaching_segments:
 
   - segment_title: "上次课复习"
     segment_type: "review"
-    process_description: "回顾上节课内容：格式塔原则、情感化设计、唐纳德·诺曼的设计心理学。学生分享"好设计"和"坏设计"的案例（2-3位学生）。"
+    process_description: |
+      回顾上节课内容：格式塔原则、情感化设计、唐纳德·诺曼的设计心理学。学生分享"好设计"和"坏设计"的案例（2-3位学生）。
     design_details:
       organization: "教师提问，学生分享案例并分析。"
       methods: "提问复习+案例分享+分析讨论"
@@ -76,7 +77,8 @@ main_teaching_segments:
 
   - segment_title: "新课讲授"
     segment_type: "lecture"
-    process_description: '详细讲解交互设计七大定律，每个定律都结合实际案例：菲茨定律（Fitts\' Law）：移动端底部导航、大按钮设计；希克定律（Hick\'s Law）：简化菜单、渐进式披露；米勒定律（Miller\'s Law）：电话号码分段、导航项数量限制；雅各布定律（Jakob\'s Law）：标准化设计模式、用户习惯；泰思勒定律（Tesler\'s Law）：复杂度转移、智能默认设置；席克定律（Zeigarnik Effect）：进度条、未完成提示；峰终定律（Peak-End Rule）：关键时刻设计、结束体验。详细分析三大主流设计系统：Apple HIG：设计原则（清晰、一致、直接）、典型组件（Tab Bar、Navigation Bar）、案例分析；Google Material Design：设计哲学（材料隐喻、大胆色彩、有意义的动画）、组件系统、设计工具；Microsoft Fluent Design：五大支柱（Light、Depth、Motion、Material、Scale）、跨平台设计、典型应用。讲解道德设计与暗黑模式（Dark Patterns）：什么是暗黑模式：诱骗、强迫、操纵用户的设计；常见暗黑模式类型：隐藏取消按钮、误导性措辞、强制注册、虚假紧迫感等；道德设计原则：透明、尊重用户选择、保护隐私、科技向善；案例分析：批判性分析一些知名产品的暗黑模式。'
+    process_description: |
+      详细讲解交互设计七大定律，每个定律都结合实际案例：菲茨定律（Fitts' Law）: 移动端底部导航、大按钮设计；希克定律（Hick's Law）：简化菜单、渐进式披露；米勒定律（Miller's Law）：电话号码分段、导航项数量限制；雅各布定律（Jakob's Law）：标准化设计模式、用户习惯；泰思勒定律（Tesler's Law）：复杂度转移、智能默认设置；席克定律（Zeigarnik Effect）：进度条、未完成提示；峰终定律（Peak-End Rule）：关键时刻设计、结束体验。详细分析三大主流设计系统：Apple HIG：设计原则（清晰、一致、直接）、典型组件（Tab Bar、Navigation Bar）、案例分析；Google Material Design：设计哲学（材料隐喻、大胆色彩、有意义的动画）、组件系统、设计工具；Microsoft Fluent Design：五大支柱（Light、Depth、Motion、Material、Scale）、跨平台设计、典型应用。讲解道德设计与暗黑模式（Dark Patterns）：什么是暗黑模式：诱骗、强迫、操纵用户的设计；常见暗黑模式类型：隐藏取消按钮、误导性措辞、强制注册、虚假紧迫感等；道德设计原则：透明、尊重用户选择、保护隐私、科技向善；案例分析：批判性分析一些知名产品的暗黑模式。
     design_details:
       organization: "教师讲解理论并结合案例分析，学生记录要点并参与讨论。"
       methods: "讲授+案例分析+互动讨论"
