@@ -40,3 +40,18 @@ def sample_data_dir():
     """Return path to directory with sample data files"""
     return Path(__file__).parent.parent / "test_data" / "batch"
 
+@pytest.fixture
+def schema_file():
+    """Return path to schema file"""
+    return Path(__file__).parent.parent / "schemas" / "lesson_data_schema.yml"
+
+@pytest.fixture
+def test_schemas_file(fixtures_dir):
+    """Return path to test schemas fixture file"""
+    return fixtures_dir / "test_schemas.yml"
+
+@pytest.fixture
+def test_data_file(fixtures_dir):
+    """Return path to test data fixture file"""
+    return fixtures_dir / "test_data.yml"
+

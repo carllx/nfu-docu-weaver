@@ -361,13 +361,13 @@ $ python generate_docs.py validate --batch ./data template.docx
 
 ## [Unreleased]
 
-### v1.4.0 - Schema-Driven Architecture (开发中)
+### v1.4.0 - Schema-Driven Architecture (🔥 Sprint 4 开发中)
 
 **Theme**: 模式驱动架构升级
 
 #### 🏗️ BUILD - 架构变更
 
-**新增: Schema 数据契约层** 🆕
+**Story 2.6: Schema 基础设施建设** ✅ 已完成
 - 创建 `schemas/` 目录作为数据契约层
 - 添加 `lesson_data_schema.yml` v2 - 课程教案数据结构规范
 - Schema 成为系统架构的第一级组件
@@ -385,19 +385,65 @@ $ python generate_docs.py validate --batch ./data template.docx
 2. **数据验证标准**: 为数据验证提供标准规范
 3. **文档生成参考**: 为字段映射提供参考文档
 
+---
+
+**Story 2.7: Schema 验证器集成** 🔥 开发中
+- **Status**: In Progress
+- **Assigned**: @dev.mdc (Developer)
+- **Started**: 2025-10-04
+- **Target**: 2025-10-07
+
+**Architect 设计交付** ✅:
+- ✅ 完整技术设计文档（986行，13章节）
+- ✅ 实现示例代码（500+行）
+- ✅ 技术评审文档
+- ✅ 执行摘要和交付清单
+- ✅ Developer 任务清单和通知文档
+
+**计划实现功能**:
+- [ ] SchemaValidator 核心类
+- [ ] 从 Schema 文件自动提取验证规则
+- [ ] 智能类型推断（从示例值推断类型）
+- [ ] 嵌套结构验证支持
+- [ ] 必需字段 vs 可选字段验证
+- [ ] CLI validate 命令集成
+- [ ] 向后兼容（保留 DataValidator 降级方案）
+- [ ] 性能优化（Schema 缓存机制）
+- [ ] 完整单元测试（覆盖率 > 85%）
+
+**技术亮点**:
+- 📐 递归 Schema 解析算法（O(n) 时间复杂度）
+- 🧠 智能类型推断策略
+- ⚡ 3层缓存优化（Schema + 规则 + 批量）
+- 🔄 降级机制（Schema 不可用时使用 DataValidator）
+- 📊 详细的验证报告和错误定位
+
+**进度**: Phase 0 准备中
+
+---
+
 #### 📚 Documentation
 
+**已完成**:
 - 新增 `schemas/README.md` - Schema 使用指南
 - 新增 `docs/architecture/6-schema-driven-architecture.md` - 架构文档
+- 新增 `docs/architecture/schema-validator-design.md` - SchemaValidator 技术设计
+- 新增 `docs/architecture/schema-validator-implementation-example.py` - 实现示例代码
+- 新增 `docs/TECH_REVIEW_SCHEMA_VALIDATOR.md` - 技术评审文档
+- 新增 `docs/EXECUTIVE_SUMMARY_STORY_2.7.md` - 执行摘要
+- 新增 `docs/ARCHITECT_DELIVERABLES_STORY_2.7.md` - Architect 交付清单
+- 新增 `docs/architecture/README_STORY_2.7.md` - Story 2.7 文档索引
+- 新增 `docs/DEV_TASK_STORY_2.7.md` - Developer 详细任务清单
+- 新增 `docs/DEV_NOTIFICATION_STORY_2.7.md` - Developer 开发通知
 - 更新 `README.md` - 添加 Schema-Driven Architecture 说明
-- 更新架构文档索引
+- 更新 `docs/SPRINT_PROGRESS.md` - Sprint 4 进度跟踪
 
 ---
 
 ### Planned for v1.4.0
-- [ ] 实现 SchemaValidator 类（基于 schema 的验证）
-- [ ] 集成 Schema 到 validate 命令
-- [ ] 目录结构规范化（template → templates, test_data → data_source）
+- [x] Story 2.6: Schema 基础设施建设 ✅
+- [ ] Story 2.7: Schema 验证器集成 🔥 开发中
+- [ ] Story 2.8: 目录结构规范化（可选）
 - [ ] 向后兼容性保证
 
 ### Planned for v2.0.0

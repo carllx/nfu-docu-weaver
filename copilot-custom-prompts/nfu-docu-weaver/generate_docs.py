@@ -9,13 +9,529 @@ from docx.enum.text import WD_COLOR_INDEX
 import argparse
 from pathlib import Path
 from tqdm import tqdm
+from dataclasses import dataclass, field
+from typing import List, Dict, Set, Any, Optional
+from datetime import datetime
+from enum import Enum
+
+
+# ============================================================================
+# 数据类定义 (Data Classes)
+# ============================================================================
+
+class FieldType(Enum):
+    """字段类型枚举"""
+    STRING = "string"
+    INTEGER = "integer"
+    FLOAT = "float"
+    BOOLEAN = "boolean"
+    LIST = "list"
+    DICT = "dict"
+    UNKNOWN = "unknown"
+
+
+@dataclass
+class ValidationRules:
+    """验证规则数据类
+    
+    从 Schema 提取的验证规则集合
+    
+    Attributes:
+        required_fields: 必需字段集合（字段路径）
+        optional_fields: 可选字段集合（字段路径）
+        field_types: 字段类型映射 {字段路径: FieldType}
+        nested_structures: 嵌套结构定义 {字段路径: 子结构}
+        list_fields: 列表类型字段集合
+    """
+    required_fields: Set[str] = field(default_factory=set)
+    optional_fields: Set[str] = field(default_factory=set)
+    field_types: Dict[str, FieldType] = field(default_factory=dict)
+    nested_structures: Dict[str, Any] = field(default_factory=dict)
+    list_fields: Set[str] = field(default_factory=set)
+
+
+@dataclass
+class ValidationError:
+    """验证错误数据类
+    
+    Attributes:
+        field_path: 字段路径（如 "class_hours.total"）
+        error_type: 错误类型（如 "missing_required_field", "type_mismatch"）
+        message: 错误消息
+        severity: 严重级别（"error" 或 "warning"）
+    """
+    field_path: str
+    error_type: str
+    message: str
+    severity: str = "error"
+    
+    def to_dict(self) -> dict:
+        """转换为字典格式"""
+        return {
+            "type": self.error_type,
+            "field": self.field_path,
+            "message": self.message,
+            "severity": self.severity
+        }
+
+
+@dataclass
+class ValidationResult:
+    """验证结果数据类
+    
+    Attributes:
+        file_path: 被验证文件的路径
+        is_valid: 是否通过验证（无错误）
+        errors: 错误列表
+        warnings: 警告列表
+        timestamp: 验证时间戳
+        schema_version: 使用的 Schema 版本
+        checked_fields: 已检查的字段数
+    """
+    file_path: str
+    is_valid: bool
+    errors: List[ValidationError] = field(default_factory=list)
+    warnings: List[ValidationError] = field(default_factory=list)
+    timestamp: datetime = field(default_factory=datetime.now)
+    schema_version: str = "1.0.0"
+    checked_fields: int = 0
+    
+    def to_dict(self) -> dict:
+        """转换为字典格式（用于 JSON 输出）"""
+        return {
+            "file": self.file_path,
+            "valid": self.is_valid,
+            "errors": [e.to_dict() for e in self.errors],
+            "warnings": [w.to_dict() for w in self.warnings],
+            "timestamp": self.timestamp.isoformat(),
+            "schema_version": self.schema_version,
+            "checked_fields": self.checked_fields
+        }
+
+
+# ============================================================================
+# 异常类定义 (Exception Classes)
+# ============================================================================
+
+class SchemaValidationError(Exception):
+    """Schema 验证相关异常基类"""
+    pass
+
+
+class SchemaLoadError(SchemaValidationError):
+    """Schema 加载失败异常"""
+    pass
+
+
+class SchemaVersionError(SchemaValidationError):
+    """Schema 版本不兼容异常"""
+    pass
+
+
+class SchemaNotLoadedError(SchemaValidationError):
+    """Schema 未加载就尝试验证异常"""
+    pass
+
+
+class DataParseError(SchemaValidationError):
+    """数据解析失败异常"""
+    pass
+
+
+# ============================================================================
+# SchemaValidator 类
+# ============================================================================
+
+class SchemaValidator:
+    """基于 Schema 的验证器 - 从 Schema 文件提取规则并验证数据
+    
+    核心职责：
+    - 加载并解析 Schema 定义
+    - 从 Schema 提取验证规则
+    - 执行数据验证
+    - 生成详细的验证报告
+    """
+    
+    def __init__(self, schema_path: Optional[str] = None):
+        """初始化 Schema 验证器
+        
+        Args:
+            schema_path: Schema 文件路径（可选，可后续通过 load_schema 加载）
+        """
+        self.schema_path: Optional[Path] = Path(schema_path) if schema_path else None
+        self.schema: Optional[dict] = None
+        self.validation_rules: Optional[ValidationRules] = None
+        self._schema_cache: Dict[str, dict] = {}  # Schema 缓存
+        
+        if schema_path:
+            self.load_schema(schema_path)
+    
+    def load_schema(self, schema_path: str) -> dict:
+        """加载 Schema 定义
+        
+        Args:
+            schema_path: Schema YAML 文件路径
+            
+        Returns:
+            dict: 解析后的 Schema 数据
+            
+        Raises:
+            SchemaLoadError: Schema 加载失败
+        """
+        schema_path = Path(schema_path)
+        
+        # 检查缓存
+        cache_key = str(schema_path.resolve())
+        if cache_key in self._schema_cache:
+            self.schema = self._schema_cache[cache_key]
+            self.schema_path = schema_path
+            self.validation_rules = self.extract_rules(self.schema)
+            return self.schema
+        
+        if not schema_path.exists():
+            raise SchemaLoadError(f"Schema 文件不存在: {schema_path}")
+        
+        try:
+            with open(schema_path, 'r', encoding='utf-8') as f:
+                self.schema = yaml.safe_load(f)
+            
+            if self.schema is None:
+                raise SchemaLoadError("Schema 文件为空")
+            
+            if not isinstance(self.schema, dict):
+                raise SchemaLoadError("Schema 根节点必须是字典类型")
+            
+            self.schema_path = schema_path
+            # 缓存 Schema
+            self._schema_cache[cache_key] = self.schema
+            # 加载后立即提取规则
+            self.validation_rules = self.extract_rules(self.schema)
+            
+            return self.schema
+            
+        except yaml.YAMLError as e:
+            raise SchemaLoadError(f"Schema 文件格式错误: {str(e)}")
+    
+    def extract_rules(self, schema: dict) -> ValidationRules:
+        """从 Schema 提取验证规则
+        
+        Args:
+            schema: Schema 字典
+            
+        Returns:
+            ValidationRules: 验证规则对象，包含：
+                - required_fields: 必需字段集合
+                - field_types: 字段类型映射
+                - nested_structures: 嵌套结构定义
+                - list_fields: 列表类型字段
+        """
+        rules = ValidationRules()
+        
+        # 递归提取所有字段和类型信息
+        self._extract_fields_recursive(schema, "", rules)
+        
+        return rules
+    
+    def _extract_fields_recursive(self, data: Any, prefix: str, rules: ValidationRules) -> None:
+        """递归提取字段信息
+        
+        Args:
+            data: 当前层级的数据
+            prefix: 字段路径前缀（如 "class_hours" 或 "design_details"）
+            rules: ValidationRules 对象（会被修改）
+        """
+        if not isinstance(data, dict):
+            return
+        
+        for key, value in data.items():
+            # 跳过注释字段（以 # 开头的键不是实际数据字段）
+            if key.startswith('#'):
+                continue
+            
+            # 构建完整的字段路径
+            full_key = f"{prefix}.{key}" if prefix else key
+            
+            # 所有在 schema 中出现的字段都视为必需字段
+            # （除非值为 None 或空字符串，这些可能是可选的）
+            if value is not None and value != "":
+                rules.required_fields.add(full_key)
+            else:
+                rules.optional_fields.add(full_key)
+            
+            # 确定字段类型
+            if isinstance(value, dict):
+                rules.field_types[full_key] = FieldType.DICT
+                rules.nested_structures[full_key] = value
+                # 递归处理嵌套结构
+                self._extract_fields_recursive(value, full_key, rules)
+            elif isinstance(value, list):
+                rules.field_types[full_key] = FieldType.LIST
+                rules.list_fields.add(full_key)
+                # 如果列表包含字典，处理第一个元素作为模板
+                if value and isinstance(value[0], dict):
+                    rules.nested_structures[full_key] = value[0]
+                    # 为列表项创建模板验证规则
+                    self._extract_fields_recursive(value[0], f"{full_key}[]", rules)
+            elif isinstance(value, bool):
+                # 注意：bool 检查必须在 int 之前，因为 bool 是 int 的子类
+                rules.field_types[full_key] = FieldType.BOOLEAN
+            elif isinstance(value, int):
+                rules.field_types[full_key] = FieldType.INTEGER
+            elif isinstance(value, float):
+                rules.field_types[full_key] = FieldType.FLOAT
+            elif isinstance(value, str):
+                rules.field_types[full_key] = FieldType.STRING
+            else:
+                rules.field_types[full_key] = FieldType.UNKNOWN
+    
+    def validate_against_schema(self, data: dict, file_path: str = "", schema: Optional[dict] = None) -> ValidationResult:
+        """根据 Schema 验证数据
+        
+        Args:
+            data: 要验证的数据（字典）
+            file_path: 数据文件路径（用于结果展示）
+            schema: Schema 定义（可选，默认使用已加载的 schema）
+            
+        Returns:
+            ValidationResult: 验证结果对象
+            
+        Raises:
+            SchemaNotLoadedError: Schema 未加载
+        """
+        if schema is None:
+            if self.schema is None:
+                raise SchemaNotLoadedError("未加载 Schema，请先调用 load_schema()")
+            schema = self.schema
+        
+        # 如果传入了新的 schema，重新提取规则
+        if schema != self.schema:
+            rules = self.extract_rules(schema)
+        else:
+            rules = self.validation_rules
+        
+        # 创建验证结果对象
+        result = ValidationResult(
+            file_path=file_path,
+            is_valid=True,
+            errors=[],
+            warnings=[]
+        )
+        
+        # 1. 检查必需字段是否存在
+        data_fields = self._get_all_data_fields(data)
+        
+        # 过滤掉列表模板字段（包含 [] 的）
+        required_fields_filtered = {
+            f for f in rules.required_fields 
+            if "[]" not in f
+        }
+        
+        missing_fields = required_fields_filtered - data_fields
+        
+        for field in missing_fields:
+            error = ValidationError(
+                field_path=field,
+                error_type="missing_required_field",
+                message=f"缺少必需字段: '{field}'",
+                severity="error"
+            )
+            result.errors.append(error)
+            result.is_valid = False
+        
+        # 2. 检查字段类型是否匹配
+        for field in data_fields:
+            result.checked_fields += 1
+            
+            # 跳过不在 schema 中的字段（会在后面的额外字段检查中处理）
+            if field not in rules.field_types:
+                continue
+            
+            expected_type = rules.field_types[field]
+            actual_value = self._get_nested_value(data, field)
+            
+            # 类型验证
+            type_valid, type_error = self._validate_field_type(
+                field, actual_value, expected_type
+            )
+            
+            if not type_valid:
+                error = ValidationError(
+                    field_path=field,
+                    error_type="type_mismatch",
+                    message=type_error,
+                    severity="error"
+                )
+                result.errors.append(error)
+                result.is_valid = False
+        
+        # 3. 检查额外字段（可能的拼写错误）
+        extra_fields = data_fields - required_fields_filtered - rules.optional_fields
+        
+        for field in extra_fields:
+            # 检查是否是列表项的字段（如 main_teaching_segments[0].segment_title）
+            # 这些不应该被标记为额外字段
+            if self._is_list_item_field(field, rules.list_fields):
+                continue
+            
+            warning = ValidationError(
+                field_path=field,
+                error_type="extra_field",
+                message=f"数据中存在 Schema 未定义的字段: '{field}' (可能是拼写错误或多余字段)",
+                severity="warning"
+            )
+            result.warnings.append(warning)
+        
+        # 4. 验证嵌套结构完整性（针对列表类型）
+        for list_field in rules.list_fields:
+            if list_field in data_fields:
+                list_value = self._get_nested_value(data, list_field)
+                if isinstance(list_value, list) and list_value:
+                    # 验证列表中的每个对象
+                    self._validate_list_items(
+                        list_field, list_value, rules, result
+                    )
+        
+        return result
+    
+    def _get_all_data_fields(self, data, prefix=''):
+        """递归获取数据中的所有字段路径"""
+        fields = set()
+        
+        if isinstance(data, dict):
+            for key, value in data.items():
+                full_key = f"{prefix}.{key}" if prefix else key
+                fields.add(full_key)
+                
+                if isinstance(value, dict):
+                    fields.update(self._get_all_data_fields(value, full_key))
+                elif isinstance(value, list):
+                    # 对于列表，检查第一个元素的结构
+                    if value and isinstance(value[0], dict):
+                        # 添加列表项的字段
+                        for item in value:
+                            if isinstance(item, dict):
+                                fields.update(self._get_all_data_fields(item, full_key))
+        
+        return fields
+    
+    def _get_nested_value(self, data, key_path):
+        """获取嵌套字典中的值"""
+        keys = key_path.split('.')
+        value = data
+        
+        try:
+            for key in keys:
+                if isinstance(value, dict):
+                    value = value.get(key)
+                    if value is None:
+                        return None
+                else:
+                    return None
+            return value
+        except (KeyError, TypeError):
+            return None
+    
+    def _validate_field_type(self, field: str, value: Any, expected_type: FieldType) -> tuple[bool, Optional[str]]:
+        """验证字段类型
+        
+        Args:
+            field: 字段路径
+            value: 实际值
+            expected_type: 期望的字段类型（FieldType 枚举）
+            
+        Returns:
+            tuple: (is_valid, error_message)
+        """
+        if value is None:
+            return True, None  # None 值在必需字段检查中处理
+        
+        # 映射 FieldType 枚举到 Python 类型
+        type_checks = {
+            FieldType.STRING: (str, "字符串"),
+            FieldType.INTEGER: (int, "整数"),
+            FieldType.FLOAT: ((int, float), "数字"),
+            FieldType.BOOLEAN: (bool, "布尔值"),
+            FieldType.LIST: (list, "列表"),
+            FieldType.DICT: (dict, "对象/字典"),
+        }
+        
+        if expected_type in type_checks:
+            expected_python_type, type_name = type_checks[expected_type]
+            if not isinstance(value, expected_python_type):
+                actual_type = type(value).__name__
+                return False, f"字段 '{field}' 类型错误: 期望 {type_name}，实际为 {actual_type}"
+        
+        return True, None
+    
+    def _is_list_item_field(self, field, list_fields):
+        """判断字段是否是列表项的子字段"""
+        for list_field in list_fields:
+            if field.startswith(list_field + "."):
+                return True
+        return False
+    
+    def _validate_list_items(self, list_field: str, list_value: list, rules: ValidationRules, result: ValidationResult) -> None:
+        """验证列表项的结构完整性
+        
+        Args:
+            list_field: 列表字段路径
+            list_value: 列表值
+            rules: 验证规则对象
+            result: 验证结果对象（会被修改）
+        """
+        template_key = f"{list_field}[]"
+        
+        # 获取列表项应该有的字段
+        expected_item_fields = set()
+        for field in rules.required_fields:
+            if field.startswith(template_key + "."):
+                # 提取字段名（去掉 list_field[] 前缀）
+                item_field = field.replace(template_key + ".", "")
+                expected_item_fields.add(item_field)
+        
+        # 如果没有定义列表项结构，跳过
+        if not expected_item_fields:
+            return
+        
+        # 验证每个列表项
+        for idx, item in enumerate(list_value):
+            if not isinstance(item, dict):
+                continue
+            
+            item_fields = set(item.keys())
+            missing_in_item = expected_item_fields - item_fields
+            
+            for missing_field in missing_in_item:
+                warning = ValidationError(
+                    field_path=f"{list_field}[{idx}].{missing_field}",
+                    error_type="incomplete_list_item",
+                    message=f"列表项 {list_field}[{idx}] 缺少字段: '{missing_field}'",
+                    severity="warning"
+                )
+                result.warnings.append(warning)
+
 
 class DataValidator:
     """数据验证器 - 验证 YAML 数据文件的完整性"""
     
-    def __init__(self):
+    def __init__(self, schema_path=None):
+        """初始化数据验证器
+        
+        Args:
+            schema_path: Schema 文件路径（可选）。如果提供，将使用 schema 验证
+        """
         self.errors = []
         self.warnings = []
+        self.schema_validator = None
+        
+        # 如果提供了 schema_path，初始化 SchemaValidator
+        if schema_path:
+            try:
+                self.schema_validator = SchemaValidator(schema_path)
+            except Exception as e:
+                # Schema 加载失败不影响基本验证功能
+                print(f"警告: 无法加载 Schema: {str(e)}")
+                self.schema_validator = None
     
     def validate_yaml_syntax(self, file_path):
         """验证 YAML 文件语法是否正确
@@ -119,41 +635,88 @@ class DataValidator:
         
         data = data_or_error
         
-        # 2. 提取模板占位符
-        try:
-            from docx import Document
-            doc = Document(template_path)
-            required_keys = self.extract_placeholders(doc)
-        except Exception as e:
-            result["valid"] = False
-            result["errors"].append({
-                "type": "template_error",
-                "message": f"无法读取模板: {str(e)}",
-                "severity": "error"
-            })
-            return result
-        
-        # 3. 验证必需键
-        is_valid, missing_keys, extra_keys = self.validate_required_keys(data, required_keys)
-        
-        if missing_keys:
-            result["valid"] = False
-            for key in missing_keys:
-                result["errors"].append({
-                    "type": "missing_key",
-                    "message": f"缺少必需的键: '{key}'",
-                    "key": key,
-                    "severity": "error"
-                })
-        
-        if extra_keys:
-            for key in extra_keys:
+        # 2. 如果有 SchemaValidator，使用 schema 验证（优先）
+        if self.schema_validator:
+            try:
+                # 调用 SchemaValidator 进行验证
+                schema_result = self.schema_validator.validate_against_schema(
+                    data, 
+                    file_path=str(data_file)
+                )
+                
+                # 将 ValidationResult 转换为字典并合并结果
+                result["errors"].extend([e.to_dict() for e in schema_result.errors])
+                result["warnings"].extend([w.to_dict() for w in schema_result.warnings])
+                
+                if not schema_result.is_valid:
+                    result["valid"] = False
+                
+                # 添加 schema 验证的额外信息
+                result["schema_validation"] = {
+                    "enabled": True,
+                    "checked_fields": schema_result.checked_fields,
+                    "schema_version": schema_result.schema_version,
+                    "timestamp": schema_result.timestamp.isoformat()
+                }
+                
+            except SchemaNotLoadedError as e:
                 result["warnings"].append({
-                    "type": "extra_key",
-                    "message": f"未使用的数据键: '{key}'",
-                    "key": key,
+                    "type": "schema_not_loaded",
+                    "message": f"Schema 未加载: {str(e)}",
                     "severity": "warning"
                 })
+            except SchemaValidationError as e:
+                result["warnings"].append({
+                    "type": "schema_validation_error",
+                    "message": f"Schema 验证失败: {str(e)}",
+                    "severity": "warning"
+                })
+            except Exception as e:
+                result["warnings"].append({
+                    "type": "unexpected_error",
+                    "message": f"验证过程发生错误: {str(e)}",
+                    "severity": "warning"
+                })
+        else:
+            # 3. 回退到基于模板的验证（向后兼容）
+            try:
+                from docx import Document
+                doc = Document(template_path)
+                required_keys = self.extract_placeholders(doc)
+            except Exception as e:
+                result["valid"] = False
+                result["errors"].append({
+                    "type": "template_error",
+                    "message": f"无法读取模板: {str(e)}",
+                    "severity": "error"
+                })
+                return result
+            
+            # 验证必需键
+            is_valid, missing_keys, extra_keys = self.validate_required_keys(data, required_keys)
+            
+            if missing_keys:
+                result["valid"] = False
+                for key in missing_keys:
+                    result["errors"].append({
+                        "type": "missing_key",
+                        "message": f"缺少必需的键: '{key}'",
+                        "key": key,
+                        "severity": "error"
+                    })
+            
+            if extra_keys:
+                for key in extra_keys:
+                    result["warnings"].append({
+                        "type": "extra_key",
+                        "message": f"未使用的数据键: '{key}'",
+                        "key": key,
+                        "severity": "warning"
+                    })
+            
+            result["schema_validation"] = {
+                "enabled": False
+            }
         
         return result
     
@@ -743,7 +1306,23 @@ class DocumentGenerator:
 
 def cmd_validate(args):
     """validate 命令处理函数"""
-    validator = DataValidator()
+    # 确定 schema 路径
+    schema_path = getattr(args, 'schema', None)
+    
+    # 如果没有指定 schema，尝试使用默认路径
+    if not schema_path:
+        default_schema = Path(__file__).parent / "schemas" / "lesson_data_schema.yml"
+        if default_schema.exists():
+            schema_path = str(default_schema)
+    
+    # 初始化验证器（带或不带 schema）
+    validator = DataValidator(schema_path=schema_path)
+    
+    # 输出验证模式信息
+    if schema_path and validator.schema_validator:
+        print(f"ℹ️  使用 Schema 验证: {schema_path}")
+    else:
+        print("ℹ️  使用模板占位符验证（未启用 Schema 验证）")
     
     if args.data_file:
         # 验证单个文件
@@ -920,6 +1499,7 @@ def main():
     parser_validate.add_argument('data_file', nargs='?', help='YAML数据文件路径（单文件模式）')
     parser_validate.add_argument('template', help='Word模板文件路径')
     parser_validate.add_argument('--batch', dest='data_dir', help='数据文件目录路径（批量模式）')
+    parser_validate.add_argument('--schema', help='Schema 文件路径（可选，默认使用 schemas/lesson_data_schema.yml）')
     parser_validate.set_defaults(func=cmd_validate)
     
     # generate 子命令

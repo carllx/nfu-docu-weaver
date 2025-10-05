@@ -1,110 +1,110 @@
 # ===================================================================
-#           课程教案结构化数据契约与模板 (YAML Schema v2)
-#      Structure Data Schema & Template for Lesson Plan (Version 2)
+#           课程教案结构化数据模板 (YAML Schema v5 - 模板版)
+#      Structure Data Schema & Template for Lesson Plan (Version 5 - Template)
 # ===================================================================
 #
 # 说明 (Instructions):
-# v2 版本补充了文档页脚的签名信息，并优化了教学环节的结构，使其更加健壮。
-# ... (原有说明保持不变) ...
+# v5 版本转变为一个纯粹的“填充模板”。
+# 1. 所有值都替换为占位符，用于AI填充。
+# 2. 模板中的固定文本标签（非替换项）已作为注释添加到每个参数旁，用于指导程序生成最终文档。
 
-# --- 课程与课次基本信息 (Basic Course and Lesson Information) ---
-# ... (此部分无变化) ...
-lesson_number: 1
-lesson_title: "第一次课教案"
-course_name: "字体艺术"
+# --- 课程与课次基本信息 ---
+lesson_number: "<请填写课程的数字序号, 例如: 1>"
+lesson_title: "<请填写本次课的完整标题, 例如: '第一次课教案'>"
+course_name: "<请填写课程名称>"
 
-# --- 课次核心内容定义 (Core Lesson Content Definition) ---
-# ... (此部分无变化) ...
-chapter_info: "第一章 字体设计概述（上）"
-lesson_content: "1.1 字体设计的概念；1.2 字体的源流；"
-class_schedule: "第 1 周，星期 四 ，第 12-15 节"
+# --- 课次核心内容定义 ---
+# 对应: “授课章节”
+chapter_info: "<请填写授课章节的标题>"
+
+# 对应: “授课内容”
+lesson_content: "<请填写授课内容要点, 例如: '1.1 ...；1.2 ...；'>"
+
+# 对应: “授课时间”
+class_schedule: "<请填写授课时间, 例如: '第 1 周，星期 四 ，第 12-15 节'>"
+
+# 对应: “学时数”
 class_hours:
-  total: "4学时"
-  breakdown: "（理论3，实践1）"
-supported_course_objectives:
-  - description: "掌握字体设计的基本概念与功能，理解字体在视觉传达、品牌识别与文化传播中的作用。"
-    supports: "支撑课程知识目标（1），对应毕业要求2、3。"
-  - description: "了解汉字与西文字体的历史源流，能够比较不同文字体系的演变特征，认识文字发展与社会文化变迁之间的关系。"
-    supports: "支撑课程知识目标（3），对应毕业要求5、8。"
+  total: "<总学时>"
+  breakdown: "<学时分配, 例如: '（理论3，实践1）'>"
+
+# 对应: “支撑课程目标”
+# 上下文关联: 内容要求严格对应“教案首页”的“课程目标”与“毕业要求”表格。
+# 格式特征: 多段落字符串。每个目标为一段，段落之间用换行符分隔。每个段落前使用阿拉伯数字加点号 "1.", "2." 作为序号。
+supported_course_objectives: "<请按照格式特征和上下文关联要求，填写支撑课程目标>"
+
+# 对应: “教学目标与要求”
 teaching_aims:
-  knowledge_aim: "掌握字体设计的基本概念与功能，了解汉字与西文字体的源流。"
-  ability_aim: "能够分析字体的形态特征和应用场景，具备小组合作收集与整理字体案例的能力。"
-  quality_aim: "树立文化自信，增强对文字文化的理解与尊重；培养合作精神、责任意识与设计理观念。"
-  process_and_method_aim: "1.学生在教师讲授中建立字体概念框架；2.通过案例分析理解字体演变规律；..."
+  knowledge_aim: "<请填写本次课的知识目标>"
+  ability_aim: "<请填写本次课的能力目标>"
+  quality_aim: "<请填写本次课的素质目标>"
+  process_and_method_aim: "<请填写本次课的过程与方法，若有多点，请用 '1.', '2.' 等序号组织>"
+
+# 对应: “教学重点与难点”
 key_and_difficult_points:
-  key_points: "字体设计的概念与功能；汉字和西文字体的历史源流。"
-  difficult_points: "在比较中理解中西文字体的差异及其文化背景。"
-pre_class_preparation:
-  required_reading:
-    - "[1] 周峰：《字体设计》[M]. 中国美术学院出版社，2024年，第1章字体设计概述之1.1节、1.2节（第3–31页）。"
-  optional_reading:
-    - "[2] 无（第一周课程为开篇基础，教材内容已充分涵盖核心知识点，暂不指定选读材料。)"
-  thinking_questions:
-    - "我们日常生活中随处可见字体设计的身影，字体设计究竟在何种意义上影响着信息传达？"
-    - "汉字作为传承几千年的文字，其发展演变过程中体现了怎样的文化精神？相比之下，西文字母的发展有何不同？"
-  other_preparations: "无特殊要求。"
-teaching_methods: "讲授法+案例分析法+多媒体教学法+小组讨论法"
+  key_points: "<请填写教学重点>"
+  difficult_points: "<请填写教学难点>"
+
+# 对应: “学生课前阅读材料与其他准备”
+# 上下文关联: 教案首页的教材和主要参考资料
+# 格式特征: 多段落字符串。段落间用换行符分隔。段落前使用指定序号：
+pre_class_preparation: 
+  # 对应: 1.必读书目, [1] [序号] 作者: 书名, 年份, 相关的第几章节...
+  required_reading_list: "<请按照格式特征，填写课前准备内容>"
+  # 对应: 2.选读书目, [2]  [序号] 作者: 书名, 年份, 相关的第几章节...
+  recommended_reading_list: "<请按照格式特征，填写课前准备内容>"
+  # 对应: 3.思考问题用, "①", "②"。
+  pre_class_reflection_questions: "<请按照格式特征，填写课前准备内容>"
+  # 对应: 4.其他课前准备, 无特殊要求。
+  other_pre_class_preparation: "<请按照格式特征，填写课前准备内容>"
+
+
+# 对应: “教学方法”
+teaching_methods: "<请填写本次课采用的教学方法，用 '+' 连接, es.讲授法+案例分析法+多媒体教学法+小组讨论法>"
 
 # --- 主要教学环节设计 (Main Teaching Segments Design) ---
-
-# 特征: 对象列表 (List of Objects)
-# 对应: “主要教学环节设计” 表格
-# 格式: ... (原有说明保持不变) ...
-# v2 优化: 新增 segment_type 字段，用于标识环节类型，方便程序进行逻辑判断。
-# (v2 Update: Added 'segment_type' for logical processing.)
+# 特征: 对象列表 (List of Objects)。请根据实际教学设计增删环节。
 main_teaching_segments:
-  - segment_title: "课程导入"
-    # 新增字段 (New Field)
-    segment_type: "introduction" # 可选值: introduction, review, lecture, discussion, practice, summary, other
-    process_description: "教师展示一组广告、包装、数字界面中的典型字体案例..."
+  - segment_title: "<环节一标题, 例如: '课程导入'>"
+    segment_type: "<环节类型: introduction, review, lecture, discussion, practice, summary, other>"
+    # 对应: “课堂教学进程” 列中的描述
+    process_description: "<请填写此环节的详细教学过程描述>"
+    # 对应: “课堂教学设计” 列中的结构化内容
     design_details:
-      organization: "教师展示案例与视频，提出启发问题；学生观察、回答并交流。"
-      methods: "情境引入 + 案例演示 + 提问互动。"
-      time_arrangement: "10分钟"
-      in_class_thinking: "“同一句话换不同字体，会带来怎样不同的气质与情绪？”"
-      ideological_integration: "强调文字在文明传承中的价值，培养学生尊重文字文化与民族自豪感。"
-
-  - segment_title: "上次课复习"
-    # 新增字段 (New Field) - 第一次课的特殊情况
-    segment_type: "review_special_case" # 特殊类型，用于标识“名为复习，实为介绍”的场景
-    process_description: "因课程为首次授课，无复习环节。教师改为介绍课程整体架构与学习方式..."
+      # 脚本生成时会添加前缀: "【教学组织】"
+      organization: "<请填写此环节的教学组织安排>"
+      # 脚本生成时会添加前缀: "【教学方法】"
+      methods: "<请填写此环节使用的具体教学方法>"
+      # 脚本生成时会添加前缀: "【时间安排】"
+      time_arrangement: "<请填写此环节的时间安排, 例如: '10分钟'>"
+      # 脚本生成时会添加前缀: "【课堂思考】"
+      in_class_thinking: "<请填写此环节引导学生思考的问题>"
+      # 脚本生成时会添加前缀: "【课程思政融入点】"
+      ideological_integration: "<请填写此环节的思政融入点>"
+  - segment_title: "<环节二标题, 例如: '上次课复习'>"
+    segment_type: "<环节类型>"
+    process_description: "<请填写此环节的详细教学过程描述>"
     design_details:
-      organization: "教师介绍课程结构与考核要求，学生记录要点并表达个人期待。"
-      methods: "讲解 + 问答。"
-      time_arrangement: "10分钟"
-      in_class_thinking: "“你希望通过本课程获得哪些方面的成长？”"
-      ideological_integration: "强调学习与职业发展的联系，引导学生形成诚信学习与终身学习的意识。"
+      organization: "<请填写此环节的教学组织安排>"
+      methods: "<请填写此环节使用的具体教学方法>"
+      time_arrangement: "<请填写此环节的时间安排>"
+      in_class_thinking: "<请填写此环节引导学生思考的问题>"
+      ideological_integration: "<请填写此环节的思政融入点>"
+  # --- 可根据需要添加更多教学环节 ---
 
-  # ... 其他环节也应补充 segment_type 字段 ...
+# --- 课后作业 ---
+# 对应: “课后作业”
+# 格式特征: 多段落字符串。每个作业项为一段，段落之间用换行符分隔。每个段落前使用阿拉伯数字加点号 "1.", "2." 作为序号。如果无作业，请填写“无”。
+after_class_assignments: "<请按照格式特征，填写课后作业>"
 
-  - segment_title: "课堂小结"
-    # 新增字段 (New Field)
-    segment_type: "summary"
-    process_description: "教师回顾本节重点内容..."
-    design_details:
-      organization: "教师总结，学生记录要点。"
-      methods: "要点归纳 + 提问答疑。"
-      time_arrangement: "10分钟"
-      in_class_thinking: "“今天学习的哪一点最能帮助你理解字体设计的意义？”"
-      ideological_integration: "鼓励学生养成总结反思习惯，培养终身学习意识。"
-
-
-# --- 课后作业 (After-class Assignments) ---
-# ... (此部分无变化) ...
-after_class_assignments:
-  - "字体设计案例收集与学习日志。各学习小组需在课后协作完成不少于50组字体设计案例的收集与分类整理..."
-  - "预习第1章1.3、1.4，整理3个易混概念并准备分享。"
-
-
-# --- 页脚签名信息 (Footer Signature Information) ---
-# v2 新增部分 (v2 New Section)
-
-# 特征: 对象 (Object)
-# 对应: 文档末尾的签名区域
-# 格式: 每个子项均为单行文本，无换行，无序号。
+# --- 页脚签名信息 ---
 signature_info:
-  author_name: "王加号" # 填表人
-  author_date: "2025年09月08日" # 填表日期
-  approver_name: "张三" # 专业负责人/教研室主任
-  approver_date: "2025年09月09日" # 审批日期
+  # 对应: “填表人（签名）”
+  author_name: "<请填写填表人姓名>"
+  # 对应: “年   月    日”
+  author_date: "<请填写填表日期>"
+  # 对应: “专业负责人/教研室主任（签名）”
+  approver_name: "<请填写审批人姓名>"
+  # 对应: “年   月    日”
+  approver_date: "<请填写审批日期>"
 
