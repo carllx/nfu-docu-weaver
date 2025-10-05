@@ -1,0 +1,133 @@
+# ===================================================================
+# 第 15 周教案 - 综合项目展示与课程总结
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第4章 综合项目实践与前沿探索
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "15"
+lesson_title: "第十五次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第4章 综合项目实践与前沿探索"
+
+lesson_content:
+  value: "4.6 综合项目最终展示；4.7 课程总结与前沿展望；4.8 期末考核说明"
+
+class_schedule:
+  value: "第 15 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：总结课程的完整知识体系，了解交互设计与3D网页的前沿发展趋势。支撑课程知识目标（1-5），对应毕业要求2、4。
+    2. 能力目标：能够完整地展示和阐述设计作品，具备项目汇报和沟通的能力。支撑课程能力目标（5），对应毕业要求3、4。
+    3. 素质目标：培养自信表达和公开演讲的能力，树立终身学习和持续进步的意识。支撑课程素质目标（2、3），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: '掌握项目展示的方法与技巧。理解交互设计与3D网页的前沿发展趋势：AI赋能设计（AI生成UI、智能布局）、WebXR与元宇宙、低代码/无代码工具、设计系统的演进。了解行业职业发展路径与学习资源。'
+  ability_aim: "能够清晰、完整地展示和阐述设计作品。能够总结项目经验并进行反思。能够评价和欣赏他人的作品。具备持续学习和自我提升的能力。"
+  quality_aim: "培养自信表达和公开演讲的能力。提升审美鉴赏和批判性思维能力。树立终身学习和持续进步的意识。培养对前沿技术的敏感度和探索精神。"
+  process_and_method_aim:
+    value: '1. 项目展示法：通过公开展示锻炼表达能力；2. 同伴评价法：通过互评学习他人优点；3. 总结反思法：系统回顾课程内容和个人成长；4. 前瞻展望法：了解行业趋势和发展方向。'
+
+key_and_difficult_points:
+  key_points: "项目展示的方法与技巧。课程知识体系的总结。前沿技术与发展趋势。"
+  difficult_points: "在展示中清晰表达设计思路和亮点。系统总结课程收获和个人成长。规划未来的学习和发展方向。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①如何在5-8分钟内充分展示你的项目？展示的重点是什么？②通过这门课程，你最大的收获是什么？③你对交互设计和3D网页的未来发展有什么看法？'
+  other_pre_class_preparation:
+    value: "[4] 完成项目的最终版本。准备好展示PPT或演示文稿。充分练习项目展示（控制时间在5-8分钟）。撰写项目总结与反思。"
+
+teaching_methods:
+  value: "项目展示+同伴评价+教师点评+课程总结+前沿展望"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师致开场词，祝贺学生完成课程学习和项目创作。介绍本次课的流程：项目展示→评价与反馈→课程总结→前沿展望→期末考核说明。强调展示的评分标准和注意事项。营造轻松、积极的展示氛围。"
+    design_details:
+      organization: "教师讲话，激励和放松学生。"
+      methods: "开场致辞+流程说明"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"我准备好展示了吗？如何在展示中展现最好的自己？"'
+      ideological_integration: "鼓励学生自信表达，肯定他们的努力和成长。"
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "简要回顾项目实施阶段的关键活动：设计迭代、同伴评审、问题解决。为项目展示做好过渡。"
+    design_details:
+      organization: "教师快速回顾。"
+      methods: "知识回顾"
+      time_arrangement: "5分钟"
+      in_class_thinking: '"我的项目从初版到最终版有哪些改进？"'
+      ideological_integration: "强化迭代和持续改进的意识。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "本节课的讲授环节融入后续的总结与展望环节。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课的讨论与反馈环节主要在项目展示中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: '综合项目最终展示：每位学生（或小组）依次进行项目展示（5-8分钟/人）：展示内容：项目背景与目标、设计思路与方法、关键功能演示、技术实现亮点、遇到的挑战与解决方案、项目总结与反思。展示方式：PPT讲解+实际操作演示。评价环节：观众（其他学生）进行评分和反馈（使用评分表）；教师进行点评：肯定亮点、指出不足、提供改进建议、给予鼓励。展示氛围：积极、支持、建设性，鼓励提问和讨论。'
+    design_details:
+      organization: "学生轮流展示，观众评分反馈，教师点评。"
+      methods: "项目展示+实际演示+同伴评价+教师点评"
+      time_arrangement: "140分钟（每节45分钟，共约3.1节）"
+      in_class_thinking: '"别人的项目有什么值得学习的地方？我的项目相比之下有什么特色？"'
+      ideological_integration: "培养学生的表达能力、自信心、欣赏他人的能力和开放心态。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: '课程总结与前沿展望：总结课程的完整知识体系：第1章：Figma - 从基础操作到高级交互、设计系统；第2章：Spline - 从3D建模到交互动画、网页集成；第3章：交互设计理论 - 心理学原理、设计定律、主流设计系统、道德设计；第4章：综合项目实践 - 从规划到实施、从设计到展示。前沿技术展望：AI赋能设计：介绍Figma AI、Midjourney等工具，讨论AI对设计师的影响；WebXR与元宇宙：展示WebXR案例，探讨虚拟现实网页的未来；低代码/无代码工具：介绍Webflow、Framer等工具，讨论设计与开发的边界；设计系统的演进：讨论未来设计系统的发展方向。职业发展路径与学习资源：UI/UX设计师、交互设计师、产品设计师等职业方向；推荐学习资源：Dribbble、Behance、Awwwards等设计社区；鼓励持续学习和实践。期末考核说明：考核方式：综合项目作品评分（占期末成绩50%）；评分标准：设计质量、技术实现、创新性、完整性、展示效果；提交要求：项目文件（Figma链接、Spline文件）、项目文档、项目总结；提交截止时间。课程结束语：感谢学生的参与和努力；肯定学生的成长和进步；鼓励学生继续探索和创作；表达对学生未来发展的期望和祝福。'
+    design_details:
+      organization: "教师总结并展望，学生记录要点并思考未来方向。"
+      methods: "课程总结+前沿展望+职业指导+考核说明+结束致辞"
+      time_arrangement: "25分钟"
+      in_class_thinking: '"通过这门课程，我获得了哪些能力？我的下一步学习计划是什么？"'
+      ideological_integration: "引导学生树立终身学习意识，规划职业发展，追求持续进步，为社会做出贡献。"
+
+after_class_assignments:
+  value: |
+    1. 提交综合项目最终版本（期末考核）：项目文件：Figma设计文件链接（需设置为可查看）、Spline 3D场景文件或导出链接、整合后的完整项目（网页链接或演示视频）；项目文档：项目规划书、设计说明、用户研究材料、技术实现文档；项目总结：项目总结与反思（1000字以上）、项目亮点说明、自我评价。
+    2. 撰写课程学习总结（1500字）：课程收获：知识、技能、思维方式的提升；最难忘的学习经历和最大的挑战；对课程的评价和建议；未来学习计划和职业规划。
+    3. 提交截止时间：[具体日期]
+    4. （可选）继续优化和完善项目，添加到个人作品集中。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

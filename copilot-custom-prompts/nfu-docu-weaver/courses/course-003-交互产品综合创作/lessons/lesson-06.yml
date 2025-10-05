@@ -1,0 +1,132 @@
+# ===================================================================
+# 第 6 周教案 - 设计系统与高级交互（下）
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第1章 Figma的基础操作与网页设计
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "6"
+lesson_title: "第六次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第1章 Figma的基础操作与网页设计"
+
+lesson_content:
+  value: "1.9 微交互与动画设计：自定义缓动、交互式组件；1.10 智能动画高级应用"
+
+class_schedule:
+  value: "第 6 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：深入理解微交互的价值，掌握自定义缓动曲线和智能动画的高级应用。支撑课程知识目标（1），对应毕业要求2、4。
+    2. 能力目标：能够创建精细的微交互效果，提升产品的用户体验和视觉吸引力。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：培养对交互细节的敏感度，理解"细节决定成败"的设计理念。支撑课程素质目标（1），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: '理解微交互（Micro-interactions）的概念与价值。掌握Figma中的缓动曲线（Easing Curves）自定义方法。理解交互式组件（Interactive Components）的原理与应用。深入掌握智能动画（Smart Animate）的高级技巧。'
+  ability_aim: "能够为界面元素添加精细的微交互效果。能够使用交互式组件简化原型制作流程。能够创建流畅自然的动画效果。"
+  quality_aim: "培养对交互细节的关注和追求卓越的设计态度。理解微交互对用户体验的影响。"
+  process_and_method_aim:
+    value: '1. 案例驱动法：分析优秀应用中的微交互设计；2. 演示引导法：分步演示Figma高级动画技术；3. 任务驱动法：以"创建具有精美微交互的界面"为核心任务；4. 对比实验法：对比有无微交互的用户体验差异。'
+
+key_and_difficult_points:
+  key_points: "微交互的设计原则。自定义缓动曲线的方法。交互式组件的创建与应用。智能动画的高级技巧。"
+  difficult_points: "理解不同缓动曲线对动画节奏的影响。掌握交互式组件的变体切换逻辑。创建多层次、多元素的复杂智能动画。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①什么是微交互？你在日常使用的应用中注意到哪些微交互细节？②不同的动画缓动（如线性、缓入、缓出）会给用户带来什么样的感受？'
+  other_pre_class_preparation:
+    value: "[4] 观察并收集至少3个优秀的微交互案例，准备在课堂上分享。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+案例分析+对比实验"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: '教师展示优秀应用中的微交互案例（如iPhone的滑动解锁、下拉刷新、按钮反馈等），引导学生思考微交互的价值。介绍"细节决定成败"的设计理念。'
+    design_details:
+      organization: "教师展示案例并提问，学生观察并分享自己的案例。"
+      methods: "案例展示+小组分享"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"微交互如何提升用户体验？哪些微交互细节让你印象深刻？"'
+      ideological_integration: '强调"细节决定成败"的理念，培养学生精益求精的工匠精神和对用户的人文关怀。'
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾上节课内容：设计系统的构建、团队库的使用、高级原型技术。通过提问检查学生对设计系统的理解和掌握情况。"
+    design_details:
+      organization: "教师提问，学生回答并展示作业。"
+      methods: "提问复习+作业展示"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"你的设计系统包含哪些组件？如何确保设计的一致性？"'
+      ideological_integration: "培养学生知识迁移能力和系统化思维。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: '详细讲解微交互的概念、价值与设计原则；讲解缓动曲线（Easing Curves）的类型：线性（Linear）、缓入（Ease In）、缓出（Ease Out）、缓入缓出（Ease In Out）等；演示如何在Figma中自定义缓动曲线，使用Spring动画；讲解交互式组件（Interactive Components）的概念与创建方法；演示如何结合变体与交互式组件创建复杂的组件行为；讲解智能动画（Smart Animate）的高级技巧：元素匹配规则、图层命名策略、多层次动画编排；演示创建复杂的页面转场动画和元素变形动画。'
+    design_details:
+      organization: "教师讲解与演示，学生跟随操作并实验不同的缓动效果。"
+      methods: "讲授+演示+互动实验"
+      time_arrangement: "80分钟（每节45分钟，共约1.8节）"
+      in_class_thinking: '"不同的缓动曲线对动画的感觉有什么影响？如何选择合适的缓动类型？"'
+      ideological_integration: "微交互是设计师对用户的细致关怀，培养学生的同理心和服务意识。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课此环节融入实践环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: '学生跟随教师演示进行实操练习，完成阶段性任务：为按钮组件添加精细的微交互效果（悬浮、点击、加载状态）；创建一个交互式组件（如切换开关、下拉菜单等）；使用智能动画创建一个复杂的页面转场效果。教师巡回指导，引导学生思考"如何让动画更自然、更符合物理规律"。'
+    design_details:
+      organization: "学生实操，教师个别辅导。"
+      methods: "任务驱动+个别辅导+同伴互评"
+      time_arrangement: "90分钟（每节45分钟，共2节）"
+      in_class_thinking: '"如何让动画更自然？动画的时长和缓动应该如何选择？"'
+      ideological_integration: "追求动画的自然与流畅，体现对用户体验的尊重和对细节的执着，培养学生的专业精神。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: '总结本节课重点内容：微交互的价值、缓动曲线的选择、交互式组件的应用、智能动画的技巧；强调"细节决定成败"的设计理念；预告下次课内容（项目交付与协作）。'
+    design_details:
+      organization: "教师总结，学生记录要点并展示优秀作品。"
+      methods: "讲授+作品展示"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"本节课你最大的收获是什么？你认为微交互对用户体验有多重要？"'
+      ideological_integration: "强调设计师应该关注每一个细节，追求卓越，为用户创造更好的体验。"
+
+after_class_assignments:
+  value: |
+    1. 选择一个常用应用，分析其中至少5个微交互设计，撰写分析报告（包括截图、描述、优缺点分析）。
+    2. 创建一个包含至少3个交互式组件的原型。
+    3. 使用智能动画创建一个完整的应用登录流程（启动页→登录页→主页），要求动画流畅自然。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

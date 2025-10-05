@@ -1,0 +1,132 @@
+# ===================================================================
+# 第 10 周教案 - Spline高级交互与网页集成
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第2章 Spline - 沉浸式3D网页创作
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "10"
+lesson_title: "第十次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第2章 Spline - 沉浸式3D网页创作"
+
+lesson_content:
+  value: "2.6 高级效果：粒子系统与变量（Variables）；2.7 组件化与相机控制；2.8 网页导出与优化"
+
+class_schedule:
+  value: "第 10 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：掌握Spline的高级效果和优化技巧，理解3D内容的网页集成方法。支撑课程知识目标（2），对应毕业要求2、4。
+    2. 能力目标：能够创作具有复杂效果的3D场景，并将其集成到网页项目中。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：培养性能优化意识和工程化思维，理解设计与开发的结合。支撑课程素质目标（3），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: '掌握粒子系统（Particles）的使用方法。理解变量（Variables）系统的概念与应用。掌握组件化思维：创建可复用的3D组件。理解3D相机的控制方法：轨道相机、跟随相机等。掌握场景导出与网页嵌入的方法。了解3D场景的性能优化策略。'
+  ability_aim: "能够使用粒子系统创建特效。能够使用变量实现复杂的交互逻辑。能够创建可复用的3D组件。能够将Spline场景导出并嵌入到网页中。能够进行基础的性能优化。"
+  quality_aim: "培养工程化思维和性能意识。理解设计与技术实现的平衡。提升解决实际问题的综合能力。"
+  process_and_method_aim:
+    value: '1. 案例驱动法：展示Spline与网页结合的实际项目；2. 演示引导法：演示高级功能和导出流程；3. 任务驱动法：以"创建并发布一个3D网页"为核心任务；4. 问题解决法：引导学生思考和解决性能优化问题。'
+
+key_and_difficult_points:
+  key_points: "粒子系统的应用。变量系统的使用。场景导出与网页集成。性能优化方法。"
+  difficult_points: "理解变量系统的逻辑关系。掌握性能优化的技巧。处理3D场景在不同设备上的适配问题。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 郑娅峰，《网页设计与开发——HTML、CSS、JavaScript实例教程》，清华大学出版社，2021年7月。"
+  pre_class_reflection_questions:
+    value: '[3] ①如何将3D内容嵌入到网页中？②为什么3D场景需要进行性能优化？③你认为3D网页的加载速度对用户体验有多重要？'
+  other_pre_class_preparation:
+    value: "[4] 完成上周的交互式3D产品展示作业，准备进行导出和发布。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+案例分析+问题解决"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示Spline与Webflow、Framer等网页工具结合的实际项目案例。讨论3D内容在网页中的应用趋势和挑战（如性能、加载速度等）。"
+    design_details:
+      organization: "教师展示案例并提问，学生观察并思考。"
+      methods: "案例展示+问题讨论"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"3D网页的优势和挑战分别是什么？如何平衡视觉效果与性能？"'
+      ideological_integration: "强调技术与艺术的平衡，培养学生的工程化思维和实践能力。"
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾上节课内容：物理引擎、状态与事件系统。学生展示交互式3D产品展示作业（2-3位学生），演示交互效果。"
+    design_details:
+      organization: "教师提问，学生展示并演示交互。"
+      methods: "提问复习+作品展示+交互演示"
+      time_arrangement: "20分钟"
+      in_class_thinking: '"你的交互设计中最成功的是哪一点？如果重新设计，你会如何改进？"'
+      ideological_integration: "培养学生的反思能力和持续改进意识。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "详细讲解粒子系统（Particles）：粒子发射器、粒子属性（生命周期、速度、大小、颜色等）、粒子应用场景（烟雾、火花、雪花等）；讲解变量（Variables）系统：变量类型（数字、布尔值、字符串等）、变量的创建与使用、通过变量控制对象属性、变量在交互中的应用；讲解组件化思维：创建可复用的3D组件、组件的管理与复用；讲解3D相机控制：相机类型（轨道相机、跟随相机、固定相机）、相机动画、用户控制相机的权限设置；详细讲解场景导出：导出格式选择、导出设置（质量、压缩）、导出代码片段；演示如何将Spline场景嵌入到HTML网页、Webflow、Framer等平台；讲解性能优化策略：减少多边形数量、优化纹理大小、合理使用光源、场景分级加载等；演示使用浏览器开发者工具分析性能。"
+    design_details:
+      organization: "教师讲解与演示，学生跟随操作并记录关键点。"
+      methods: "讲授+演示+互动提问"
+      time_arrangement: "80分钟（每节45分钟，共约1.8节）"
+      in_class_thinking: '"如何选择合适的导出设置？如何判断场景是否需要优化？"'
+      ideological_integration: "性能优化体现对用户的尊重，培养学生的用户体验意识和技术素养。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课此环节融入实践环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生跟随教师演示进行实操练习，完成阶段性任务：在现有3D场景中添加粒子效果（如光点、烟雾等）；尝试使用变量控制对象的动画或属性；创建一个可复用的3D组件；将Spline场景导出并嵌入到简单的HTML网页中（教师提供HTML模板）；使用浏览器开发者工具检查场景的加载时间和性能，尝试进行优化。教师巡回指导，帮助学生解决导出和集成中的问题。"
+    design_details:
+      organization: "学生实操，教师个别辅导。"
+      methods: "任务驱动+个别辅导+技术调试"
+      time_arrangement: "80分钟（每节45分钟，共约1.8节）"
+      in_class_thinking: '"我的场景在网页中加载流畅吗？如何进一步优化性能？"'
+      ideological_integration: "技术实现需要不断调试和优化，培养学生的耐心和解决问题的能力。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本节课重点内容：粒子系统、变量系统、场景导出与网页集成、性能优化；回顾Spline单元（第8-10周）的完整学习内容：从基础建模→材质光源→物理交互→高级效果→网页集成；预告下周开始进入第三章：交互设计理论与心理学。"
+    design_details:
+      organization: "教师总结，学生记录要点。"
+      methods: "讲授+知识回顾"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"通过Spline单元的学习，你掌握了哪些3D设计与交互技能？"'
+      ideological_integration: "引导学生进行阶段性总结，培养自我反思和知识整合能力。"
+
+after_class_assignments:
+  value: |
+    1. 完成Spline综合项目：创建一个完整的交互式3D网页场景，要求：包含至少5个3D对象，至少3种材质，至少2种交互方式，添加粒子效果或高级动画，导出并嵌入到网页中。
+    2. 对自己的3D场景进行性能优化，记录优化前后的加载时间和性能指标。
+    3. 撰写Spline单元学习总结（500字），包括：主要收获、技能提升、创作心得、改进方向。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

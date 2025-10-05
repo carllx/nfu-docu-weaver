@@ -1,0 +1,133 @@
+# ===================================================================
+# 第 12 周教案 - 交互设计定律与主流设计系统
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第3章 交互设计理论与心理学
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "12"
+lesson_title: "第十二次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第3章 交互设计理论与心理学"
+
+lesson_content:
+  value: "3.3 交互设计七大定律；3.4 主流设计系统分析：Apple HIG、Google Material Design、Microsoft Fluent Design"
+
+class_schedule:
+  value: "第 12 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论3，实践1）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：掌握交互设计的经典定律，了解主流设计系统的特点与规范。支撑课程知识目标（3、4），对应毕业要求2、4。
+    2. 能力目标：能够应用交互设计定律优化设计方案，能够分析和借鉴主流设计系统。支撑课程能力目标（3），对应毕业要求3、4。
+    3. 素质目标：培养设计规范意识和批判性思维，理解道德设计与用户能量策略。支撑课程素质目标（2、4），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: "掌握交互设计七大定律：菲茨定律、希克定律、米勒定律、雅各布定律、泰思勒定律、席克定律、峰终定律。理解主流设计系统的设计哲学与规范：Apple HIG（简洁、一致、反馈）、Google Material Design（材料隐喻、大胆色彩、有意义动画）、Microsoft Fluent Design（光感、深度、动效、材质、缩放）。了解用户能量策略与道德设计，避免暗黑模式，践行科技向善。"
+  ability_aim: "能够应用交互设计定律分析和改进设计方案。能够识别并借鉴主流设计系统的优秀实践。能够评估设计的道德性和用户友好度。"
+  quality_aim: "培养设计规范意识和行业视野。树立道德设计和社会责任感。培养批判性思维和创新精神。"
+  process_and_method_aim:
+    value: '1. 理论讲授法：系统讲解交互设计定律；2. 案例分析法：分析主流设计系统的实际应用；3. 对比法：对比不同设计系统的设计哲学；4. 批判性讨论法：讨论暗黑模式和道德设计问题。'
+
+key_and_difficult_points:
+  key_points: "交互设计七大定律的理解与应用。主流设计系统的特点与差异。道德设计与暗黑模式。"
+  difficult_points: "理解抽象的设计定律并应用到实际设计中。分析不同设计系统背后的设计哲学。识别设计中的道德问题。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: '[2] Laws of UX（用户体验定律）网站：https://lawsofux.com/'
+  pre_class_reflection_questions:
+    value: '[3] ①你在使用产品时，遇到过哪些"故意设计得让人困惑"的界面？②为什么Apple、Google、Microsoft都要制定设计规范？③你认为设计师有社会责任吗？'
+  other_pre_class_preparation:
+    value: "[4] 浏览Apple HIG、Google Material Design、Microsoft Fluent Design的官方网站，了解其设计理念。收集1-2个你认为违反用户利益的设计案例（暗黑模式）。"
+
+teaching_methods:
+  value: "讲授+案例分析+对比学习+批判性讨论"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: '教师展示一些经典的交互设计案例（如大按钮vs小按钮、简单选择vs复杂选择），引导学生思考"为什么有些设计更有效"。介绍交互设计定律的重要性。'
+    design_details:
+      organization: "教师展示案例并提问，学生观察并思考。"
+      methods: "案例展示+问题引导"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"为什么手机上的按钮设计在底部？为什么有些网站让你很难找到取消订阅的按钮？"'
+      ideological_integration: "设计定律是对用户行为的尊重，道德设计是设计师的责任，培养学生的职业道德和社会责任感。"
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾上节课内容：格式塔原则、情感化设计、唐纳德·诺曼的设计心理学。学生分享"好设计"和"坏设计"的案例（2-3位学生）。"
+    design_details:
+      organization: "教师提问，学生分享案例并分析。"
+      methods: "提问复习+案例分享+分析讨论"
+      time_arrangement: "20分钟"
+      in_class_thinking: '"你分享的案例中应用了哪些设计心理学原理？"'
+      ideological_integration: "培养学生的批判性思维和分析能力。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: '详细讲解交互设计七大定律，每个定律都结合实际案例：菲茨定律（Fitts\' Law）：移动端底部导航、大按钮设计；希克定律（Hick\'s Law）：简化菜单、渐进式披露；米勒定律（Miller\'s Law）：电话号码分段、导航项数量限制；雅各布定律（Jakob\'s Law）：标准化设计模式、用户习惯；泰思勒定律（Tesler\'s Law）：复杂度转移、智能默认设置；席克定律（Zeigarnik Effect）：进度条、未完成提示；峰终定律（Peak-End Rule）：关键时刻设计、结束体验。详细分析三大主流设计系统：Apple HIG：设计原则（清晰、一致、直接）、典型组件（Tab Bar、Navigation Bar）、案例分析；Google Material Design：设计哲学（材料隐喻、大胆色彩、有意义的动画）、组件系统、设计工具；Microsoft Fluent Design：五大支柱（Light、Depth、Motion、Material、Scale）、跨平台设计、典型应用。讲解道德设计与暗黑模式（Dark Patterns）：什么是暗黑模式：诱骗、强迫、操纵用户的设计；常见暗黑模式类型：隐藏取消按钮、误导性措辞、强制注册、虚假紧迫感等；道德设计原则：透明、尊重用户选择、保护隐私、科技向善；案例分析：批判性分析一些知名产品的暗黑模式。'
+    design_details:
+      organization: "教师讲解理论并结合案例分析，学生记录要点并参与讨论。"
+      methods: "讲授+案例分析+互动讨论"
+      time_arrangement: "110分钟（每节45分钟，共约2.4节）"
+      in_class_thinking: '"你能从日常使用的产品中找到这些设计定律的应用吗？你如何看待暗黑模式？"'
+      ideological_integration: "强调设计师的社会责任和职业道德，抵制不道德设计，践行科技向善，培养学生的价值观和责任感。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: '批判性讨论活动：话题1："暗黑模式的边界在哪里？"学生分组讨论一些有争议的设计案例，辩论是否属于暗黑模式。话题2："如何平衡商业目标与用户体验？"讨论设计师在公司要求与用户利益之间如何抉择。各小组派代表分享观点，教师引导讨论并总结。'
+    design_details:
+      organization: "学生分组讨论，代表发言，教师引导。"
+      methods: "小组讨论+辩论+教师引导"
+      time_arrangement: "40分钟"
+      in_class_thinking: '"作为设计师，你会如何在商业压力和用户利益之间做出选择？"'
+      ideological_integration: "培养学生的批判性思维、道德判断力和职业素养，树立正确的价值观。"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "本节课的实践环节融入讨论环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本节课重点内容：交互设计七大定律、主流设计系统特点、道德设计与暗黑模式；强调设计师的社会责任；回顾交互设计理论单元（第11-12周）的学习内容；预告下周开始进入第四章：综合项目实践。"
+    design_details:
+      organization: "教师总结，学生记录要点。"
+      methods: "讲授+知识回顾"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"通过理论学习，你对交互设计有了哪些新的认识？"'
+      ideological_integration: "引导学生将理论与实践结合，树立正确的设计价值观。"
+
+after_class_assignments:
+  value: |
+    1. 选择一个你常用的应用或网站，分析其设计中应用了哪些交互设计定律（至少分析3个定律），撰写分析报告（800字）。
+    2. 对比分析Apple HIG、Google Material Design、Microsoft Fluent Design三大设计系统，总结它们的异同点和各自的设计哲学（1000字）。
+    3. 收集3个暗黑模式案例，分析其设计手法和负面影响，并提出道德设计的改进建议（配截图和说明）。
+    4. 开始构思综合项目：整合Figma与Spline，设计一个完整的交互产品（可以是网页、应用原型等），撰写项目规划书（包括：项目主题、目标用户、核心功能、技术方案）。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

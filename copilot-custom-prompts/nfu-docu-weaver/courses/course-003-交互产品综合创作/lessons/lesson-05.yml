@@ -1,0 +1,132 @@
+# ===================================================================
+# 第 5 周教案 - 设计系统与高级交互（上）
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第1章 Figma的基础操作与网页设计
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "5"
+lesson_title: "第五次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第1章 Figma的基础操作与网页设计"
+
+lesson_content:
+  value: "1.7 设计系统基础：组件高级应用与团队库；1.8 高级原型技术：悬浮提示、弹出层与滚动定位"
+
+class_schedule:
+  value: "第 5 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：深入理解设计系统的价值与构建方法，掌握团队库的使用与管理。支撑课程知识目标（1），对应毕业要求2、4。
+    2. 能力目标：能够构建完整的设计系统，使用高级原型技术实现复杂交互效果。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：培养系统化思维和团队协作意识，理解设计规范在团队中的价值。支撑课程素质目标（3），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: "深入理解设计系统的概念、价值与构建方法。掌握Figma团队库（Team Libraries）的使用与管理。理解高级原型技术：悬浮提示（Tooltip）、弹出层（Overlay）、页面内滚动定位的原理与应用场景。"
+  ability_aim: "能够构建完整的设计系统，包含组件库、颜色系统、文本样式等。能够使用高级原型技术实现复杂的交互效果。"
+  quality_aim: "培养系统化思维，理解设计规范在团队协作中的重要性。提升对用户体验细节的关注度。"
+  process_and_method_aim:
+    value: '1. 案例驱动法：分析优秀设计系统案例（Material Design、Apple HIG等）；2. 演示引导法：分步演示Figma高级功能操作；3. 任务驱动法：以"构建完整的设计系统"为核心任务；4. 协作实践法：引导学生体验团队库的协作流程。'
+
+key_and_difficult_points:
+  key_points: "设计系统的构建方法。团队库的使用与管理。高级原型技术的应用。"
+  difficult_points: "理解设计系统的层级结构和命名规范。掌握弹出层与滚动定位的交互逻辑。团队库的发布与版本管理。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①什么是设计系统？为什么大型团队需要设计系统？②Figma的团队库如何帮助团队协作？③你在使用网页或应用时，注意到哪些悬浮提示或弹出层的交互细节？'
+  other_pre_class_preparation:
+    value: "[4] 预习Figma团队库功能，准备笔记本记录设计系统的构建方法。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+案例分析+协作实践"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示Material Design、Apple HIG等知名设计系统案例，引导学生思考设计系统的价值。介绍本次课的学习目标与任务安排。"
+    design_details:
+      organization: "教师展示案例并提问，学生观察并思考。"
+      methods: "案例展示+提问引导"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"为什么Google、Apple等公司要花费大量资源构建设计系统？"'
+      ideological_integration: "强调规范与标准在团队协作中的价值，培养学生的系统化思维和职业素养。"
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾上节课内容：高级交互与动效的制作方法。通过提问检查学生对智能动画（Smart Animate）的掌握情况。"
+    design_details:
+      organization: "教师提问，学生回答并演示。"
+      methods: "提问复习+学生演示"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"智能动画（Smart Animate）的原理是什么？如何确保动画效果正确触发？"'
+      ideological_integration: "培养学生知识迁移能力，强化系统化学习意识。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "详细讲解设计系统的概念、价值与构建方法；演示如何在Figma中构建设计系统，包括组件库、颜色系统、文本样式、间距规范等；讲解团队库（Team Libraries）的创建、发布与版本管理；讲解高级原型技术：悬浮提示（Tooltip）的实现方法、弹出层（Overlay）的显示与关闭逻辑、页面内滚动定位的设置；演示如何结合组件与高级原型技术创建复杂交互。"
+    design_details:
+      organization: "教师讲解与演示，学生跟随操作并记录要点。"
+      methods: "讲授+演示+互动提问"
+      time_arrangement: "90分钟（每节45分钟，共2节）"
+      in_class_thinking: '"如何为团队制定合理的设计规范？悬浮提示应该在什么场景下使用？"'
+      ideological_integration: "强调设计系统是团队协作的基础，就像社会规范是社会运行的基础，培养学生的规则意识和协作精神。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课此环节融入实践环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生跟随教师演示进行实操练习，完成阶段性任务：构建一个包含至少5个组件的设计系统（按钮、输入框、卡片、导航栏、页脚）；为组件添加完整的颜色和文本样式；创建一个包含悬浮提示和弹出层的高级原型。教师巡回指导，解答学生操作中的问题。"
+    design_details:
+      organization: "学生实操，教师个别辅导。"
+      methods: "任务驱动+个别辅导+小组协作"
+      time_arrangement: "90分钟（每节45分钟，共2节）"
+      in_class_thinking: '"如何确保设计系统的一致性？如何让弹出层的交互更符合用户预期？"'
+      ideological_integration: "设计系统的构建需要耐心和细致，培养学生精益求精的工匠精神和系统化思维。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本节课重点内容：设计系统的价值与构建方法、团队库的使用、高级原型技术；强调设计规范在实际项目中的重要性；预告下次课内容（设计系统与高级交互（下）：微交互与智能动画）。"
+    design_details:
+      organization: "教师总结，学生记录要点。"
+      methods: "讲授+任务说明"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"本节课你最大的收获是什么？你认为设计系统对团队协作有什么帮助？"'
+      ideological_integration: "强调设计师的职业素养，理解设计规范在团队中的价值，培养学生的责任意识。"
+
+after_class_assignments:
+  value: |
+    1. 完善课堂上创建的设计系统，至少包含8个组件类型。
+    2. 为设计系统编写一份简单的使用说明文档（包括组件命名规范、颜色使用规范等）。
+    3. 创建一个包含至少3种高级原型技术（悬浮提示、弹出层、滚动定位）的交互原型。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

@@ -1,0 +1,132 @@
+# ===================================================================
+# 第 13 周教案 - 综合项目启动与需求分析
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第4章 综合项目实践与前沿探索
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "13"
+lesson_title: "第十三次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第4章 综合项目实践与前沿探索"
+
+lesson_content:
+  value: "4.1 综合项目规划：主题确立、用户研究、技术方案设计；4.2 项目启动与初步设计"
+
+class_schedule:
+  value: "第 13 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：理解项目规划的流程与方法，掌握用户研究和技术方案设计的基本技能。支撑课程知识目标（5），对应毕业要求2、4。
+    2. 能力目标：能够独立完成项目规划，整合Figma与Spline技术，设计完整的交互产品。支撑课程能力目标（4、5），对应毕业要求3、4。
+    3. 素质目标：培养项目管理能力和综合解决问题的能力，提升团队协作和自主学习能力。支撑课程素质目标（3），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: "理解产品开发的完整流程：需求分析→设计→开发→测试→发布。掌握用户研究的基本方法：用户画像、用户旅程地图、需求优先级排序。理解技术方案设计的要素：功能架构、技术选型、实现路径。了解项目管理的基本方法：任务分解、时间规划、风险管理。"
+  ability_aim: "能够进行基础的用户研究和需求分析。能够制定合理的项目规划和技术方案。能够整合Figma（2D UI）与Spline（3D元素）设计完整产品。能够进行项目时间管理和任务优先级排序。"
+  quality_aim: "培养项目管理能力和系统化思维。提升独立解决问题和自主学习能力。培养团队协作精神和沟通能力。"
+  process_and_method_aim:
+    value: '1. 项目驱动法：以完整项目为核心，贯穿全过程；2. 案例分析法：分析优秀项目的规划与实施；3. 任务分解法：将大项目分解为可管理的小任务；4. 个别辅导法：针对不同学生的项目提供个性化指导。'
+
+key_and_difficult_points:
+  key_points: "项目主题的确立与需求分析。用户研究方法的应用。技术方案的设计与可行性评估。Figma与Spline的整合应用。"
+  difficult_points: "确定合适的项目范围（不过大也不过小）。进行有效的用户研究和需求分析。平衡设计理想与技术实现的可行性。整合2D与3D元素形成统一体验。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①你的综合项目想做什么主题？为什么选择这个主题？②你的目标用户是谁？他们有什么需求和痛点？③你计划如何整合Figma和Spline技术？'
+  other_pre_class_preparation:
+    value: "[4] 完成项目规划书初稿（包括：项目主题、目标用户、核心功能、技术方案）。收集项目相关的参考资料和灵感。"
+
+teaching_methods:
+  value: "讲授+案例分析+项目实践+个别辅导"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示往届优秀综合项目案例，分析项目的主题选择、设计亮点、技术实现。介绍综合项目的要求和评分标准。激发学生的创作热情。"
+    design_details:
+      organization: "教师展示案例并讲解，学生观察并思考自己的项目方向。"
+      methods: "案例展示+要求说明"
+      time_arrangement: "20分钟"
+      in_class_thinking: '"看了这些优秀项目，你有什么启发？你的项目有什么独特之处？"'
+      ideological_integration: "优秀项目展示激发学生的创新精神和追求卓越的态度。"
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾交互设计理论单元的学习内容：设计心理学、交互设计定律、主流设计系统、道德设计。强调如何将理论应用到综合项目中。"
+    design_details:
+      organization: "教师引导总结，学生回顾并思考理论与实践的结合。"
+      methods: "知识回顾+理论应用指导"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"你将如何在项目中应用所学的设计理论和原则？"'
+      ideological_integration: "强化理论与实践结合的意识，培养应用能力。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "详细讲解项目规划的流程与方法：项目主题确立：兴趣导向、问题导向、技术导向；主题范围的把握（可行性、创新性、完整性）；讲解用户研究方法：用户画像（Persona）：年龄、职业、需求、痛点、使用场景；用户旅程地图（User Journey Map）：关键接触点、用户情绪、机会点；需求优先级排序：必须有（Must have）、应该有（Should have）、可以有（Could have）；讲解技术方案设计：功能架构：核心功能、辅助功能、功能流程图；技术选型：Figma用于2D UI、Spline用于3D元素、整合方案；实现路径：设计阶段、开发阶段、测试阶段、优化阶段；讲解项目管理方法：任务分解（WBS）：将大项目分解为小任务；时间规划：设定里程碑、制定时间表；风险管理：识别潜在问题、制定应对方案；展示项目规划文档模板，讲解如何撰写规划书。"
+    design_details:
+      organization: "教师讲解并展示案例，学生记录要点并思考自己的项目。"
+      methods: "讲授+案例展示+模板讲解"
+      time_arrangement: "60分钟（每节45分钟，共约1.3节）"
+      in_class_thinking: '"如何确定项目的合理范围？如何进行有效的用户研究？"'
+      ideological_integration: "项目规划体现系统化思维和专业素养，培养学生的项目管理能力。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "学生展示项目规划：每位学生（或小组）用3-5分钟展示项目规划（主题、用户、功能、技术方案）。其他学生和教师提供反馈和建议：主题是否合理？范围是否可行？技术方案是否清晰？有哪些潜在问题和改进建议？教师针对每个项目给出具体指导。"
+    design_details:
+      organization: "学生轮流展示，其他学生和教师提供反馈。"
+      methods: "项目展示+同伴反馈+教师指导"
+      time_arrangement: "60分钟（每节45分钟，共约1.3节）"
+      in_class_thinking: '"我的项目规划是否合理？别人的反馈对我有什么启发？"'
+      ideological_integration: "培养学生的表达能力、倾听能力和接受批评的开放心态。"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生根据反馈修改和完善项目规划书。开始进行初步设计工作：绘制草图或低保真线框图；创建用户画像和用户旅程地图；列出功能清单和任务分解表。教师巡回指导，帮助学生解决规划中的问题。"
+    design_details:
+      organization: "学生独立工作，教师个别辅导。"
+      methods: "独立实践+个别辅导"
+      time_arrangement: "40分钟"
+      in_class_thinking: '"我的项目有哪些关键任务？如何安排时间和优先级？"'
+      ideological_integration: "培养学生的自主学习能力和独立解决问题的能力。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本节课重点内容：项目规划流程、用户研究方法、技术方案设计、项目管理；强调项目的时间节点和下周的任务；布置下周任务：完善项目规划书、开始设计阶段（Figma UI设计）。"
+    design_details:
+      organization: "教师总结，学生记录任务和时间节点。"
+      methods: "讲授+任务布置"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"本节课我明确了项目方向吗？下周我需要完成哪些任务？"'
+      ideological_integration: "培养学生的时间管理能力和计划执行能力。"
+
+after_class_assignments:
+  value: |
+    1. 完善项目规划书（2000字以上），包括：项目主题与背景、目标用户与用户研究、核心功能与特性、技术方案与实现路径、项目时间表与任务分解、预期成果与创新点。
+    2. 创建用户画像（至少1个）和用户旅程地图。
+    3. 开始进行Figma UI设计：创建设计稿的基础框架、建立设计系统（颜色、字体、组件）、完成至少2个关键页面的设计。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

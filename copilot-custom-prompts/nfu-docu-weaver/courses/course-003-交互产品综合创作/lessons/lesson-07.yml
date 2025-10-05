@@ -1,0 +1,133 @@
+# ===================================================================
+# 第 7 周教案 - Figma项目交付与协作
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第1章 Figma的基础操作与网页设计
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "7"
+lesson_title: "第七次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第1章 Figma的基础操作与网页设计"
+
+lesson_content:
+  value: "1.11 设计交付与开发协作；1.12 资源导出与文件管理；Figma综合项目总结"
+
+class_schedule:
+  value: "第 7 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：理解设计交付流程，掌握与开发工程师的协作方法。支撑课程知识目标（1），对应毕业要求2、4。
+    2. 能力目标：能够完整地交付设计方案，包括标注、切图、文档编写等。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：培养跨职能协作能力，理解设计师在团队中的角色与责任。支撑课程素质目标（3），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: '理解设计交付（Design Handoff）的流程与最佳实践。掌握Figma的标注功能与代码预览功能。理解与开发工程师的协作模式。掌握资源导出的方法：多格式图片导出、切片工具、批量导出。了解文件管理与分享的技巧。'
+  ability_aim: "能够为开发工程师提供完整、清晰的设计交付文档。能够正确导出各种格式的设计资源。能够有效地与团队成员协作和沟通。"
+  quality_aim: "培养跨职能协作意识和沟通能力。理解设计师在团队中的责任。培养严谨细致的工作态度。"
+  process_and_method_aim:
+    value: '1. 案例驱动法：分析真实项目的设计交付流程；2. 演示引导法：演示完整的交付流程和工具使用；3. 角色扮演法：模拟设计师与开发工程师的协作场景；4. 项目总结法：回顾Figma单元的学习内容，进行知识整合。'
+
+key_and_difficult_points:
+  key_points: "设计交付的流程与规范。标注与代码预览的使用。资源导出的方法与格式选择。"
+  difficult_points: "理解开发工程师的需求，提供准确的设计规范。处理复杂的资源导出需求（如不同分辨率、不同平台）。有效沟通设计意图。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①设计师和开发工程师是如何协作的？②设计师应该向开发工程师提供哪些信息？③为什么需要导出不同分辨率的图片资源？'
+  other_pre_class_preparation:
+    value: "[4] 整理前6周的学习笔记，准备项目总结和反思。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+角色扮演+项目总结"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师介绍设计交付在产品开发流程中的重要性，展示真实项目的交付案例。引导学生思考设计师与开发工程师的协作关系。"
+    design_details:
+      organization: "教师讲解并展示案例，学生观察并思考。"
+      methods: "案例展示+提问引导"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"为什么设计交付对产品开发如此重要？设计师和开发工程师各自的关注点有什么不同？"'
+      ideological_integration: "强调团队协作的重要性，培养学生的跨职能沟通能力和职业素养。"
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾上节课内容：微交互与动画设计。通过提问和作业展示检查学生对微交互设计的掌握情况。"
+    design_details:
+      organization: "教师提问，学生展示微交互作业并互相评价。"
+      methods: "提问复习+作业展示+同伴互评"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"你的微交互设计中最满意的是哪一个？为什么？"'
+      ideological_integration: "培养学生的批判性思维和自我反思能力。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: '详细讲解设计交付（Design Handoff）的流程：设计完成→内部评审→标注与规范→开发交接→跟进与调整；演示Figma的标注功能：尺寸标注、间距标注、颜色与样式查看；讲解代码预览功能：CSS、iOS、Android代码的查看与复制；讲解资源导出：单个元素导出、切片工具使用、批量导出设置、不同分辨率导出（@1x, @2x, @3x）；讲解文件管理与分享：修改文件封面、创建演示文稿、分享权限设置；总结Figma单元学习内容，回顾从基础操作到高级交互的完整知识体系。'
+    design_details:
+      organization: "教师讲解与演示，学生跟随操作并记录关键点。"
+      methods: "讲授+演示+互动提问"
+      time_arrangement: "80分钟（每节45分钟，共约1.8节）"
+      in_class_thinking: '"如何确保交付的设计信息准确无误？如何选择合适的图片导出格式？"'
+      ideological_integration: "强调设计师的责任心和严谨态度，设计交付是对团队和项目的承诺。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: '组织角色扮演活动：学生分组，一部分扮演设计师，一部分扮演开发工程师，模拟设计交付与协作场景。设计师需要向"开发工程师"解释设计方案、提供必要的资源和说明。教师观察并点评沟通效果。'
+    design_details:
+      organization: "学生分组角色扮演，教师观察并点评。"
+      methods: "角色扮演+小组讨论+教师点评"
+      time_arrangement: "30分钟"
+      in_class_thinking: '"如何更清晰地向开发工程师传达设计意图？沟通中遇到了哪些问题？"'
+      ideological_integration: "培养学生的沟通能力和同理心，理解不同职能角色的需求和关注点。"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: '学生完成Figma综合项目的最后整理和交付准备：完善前几周创建的响应式网页设计项目；为项目添加完整的标注和说明；导出所需的设计资源（图标、图片等）；创建项目演示文稿，准备在下次课进行展示。教师巡回指导，帮助学生完善项目细节。'
+    design_details:
+      organization: "学生实操，教师个别辅导。"
+      methods: "项目实践+个别辅导"
+      time_arrangement: "60分钟（每节45分钟，共约1.3节）"
+      in_class_thinking: '"我的项目是否符合交付标准？还有哪些细节需要完善？"'
+      ideological_integration: "培养学生的项目管理能力和完整交付意识，强化责任心和职业素养。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本节课重点内容：设计交付流程、标注与资源导出、团队协作；回顾Figma单元（第1-7周）的完整学习内容：从基础操作→布局系统→组件化→交互动效→设计系统→项目交付；布置下次课任务：准备项目展示，每人3-5分钟；预告下周开始进入第二章：Spline 3D设计。"
+    design_details:
+      organization: "教师总结，学生记录要点。"
+      methods: "讲授+知识回顾+任务说明"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"通过Figma单元的学习，你掌握了哪些核心技能？你认为自己在哪些方面还需要提升？"'
+      ideological_integration: "引导学生进行自我反思和总结，培养终身学习意识和自我提升能力。"
+
+after_class_assignments:
+  value: |
+    1. 完成Figma综合项目的最终版本，确保所有细节完善。
+    2. 为项目准备完整的交付文档：设计说明、标注截图、导出的资源文件清单。
+    3. 准备项目展示PPT或演示文稿（3-5分钟），包括：设计思路、关键功能、技术亮点、遇到的挑战与解决方案。
+    4. 撰写Figma单元学习总结（500字），包括：主要收获、技能提升、自我评价、改进方向。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

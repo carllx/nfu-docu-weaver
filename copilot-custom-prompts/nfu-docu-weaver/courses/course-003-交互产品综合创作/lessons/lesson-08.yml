@@ -1,0 +1,132 @@
+# ===================================================================
+# 第 8 周教案 - Spline入门与基础建模
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第2章 Spline - 沉浸式3D网页创作
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "8"
+lesson_title: "第八次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第2章 Spline - 沉浸式3D网页创作"
+
+lesson_content:
+  value: "2.1 Spline界面与基础操控；2.2 3D建模基础：几何体、路径、雕刻；2.3 材质、光源与场景构建"
+
+class_schedule:
+  value: "第 8 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：掌握Spline的界面与基础操控方法，理解3D空间的基本概念。支撑课程知识目标（2），对应毕业要求2、4。
+    2. 能力目标：能够使用Spline创建基础的3D模型和场景。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：培养三维空间思维能力，提升艺术审美和创新意识。支撑课程素质目标（2），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: '了解Spline的特点、应用场景与行业应用。熟练掌握Spline的界面布局、视图操控（旋转、平移、缩放）。理解3D空间的基本概念：坐标系、轴向、视角。掌握基础建模方法：几何体创建、路径工具、3D雕刻。理解材质、光源、阴影在3D场景中的作用。'
+  ability_aim: "能够熟练操控Spline的3D视图。能够创建和编辑基础3D几何体。能够为模型添加材质和光源效果。能够构建简单的3D场景。"
+  quality_aim: "培养三维空间思维能力。提升对光影和材质的审美感知。激发对3D设计的兴趣和创新精神。"
+  process_and_method_aim:
+    value: '1. 案例驱动法：展示优秀的Spline 3D网页作品，激发学习兴趣；2. 演示引导法：分步演示Spline基础操作，学生同步跟进；3. 任务驱动法：以"创建一个3D场景"为核心任务；4. 对比法：对比2D与3D设计的差异，帮助学生理解3D思维。'
+
+key_and_difficult_points:
+  key_points: "Spline界面与视图操控。基础建模工具的使用。材质与光源的基本应用。"
+  difficult_points: "理解和掌握3D空间的操控（旋转、视角切换）。理解光源对场景氛围的影响。从2D思维过渡到3D思维。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①你在网页上见过哪些3D效果？它们是如何增强用户体验的？②3D设计与2D设计有什么本质区别？③为什么越来越多的网页开始使用3D元素？'
+  other_pre_class_preparation:
+    value: "[4] 注册Spline账号，浏览Spline官网的案例库，收集至少2个令你感兴趣的3D网页案例。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+案例分析+对比学习"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示优秀的Spline 3D网页作品（如Apple、Nike等品牌网站的3D元素），引导学生思考3D在网页设计中的价值。介绍Spline的特点与应用场景。展示Figma与Spline的结合应用案例。"
+    design_details:
+      organization: "教师展示案例并提问，学生观察并分享自己收集的案例。"
+      methods: "案例展示+提问引导+学生分享"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"3D元素如何增强网页的吸引力和交互性？你认为3D网页的未来发展趋势是什么？"'
+      ideological_integration: "强调技术创新对设计领域的推动作用，培养学生的创新意识和前瞻性思维。"
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾Figma单元的学习内容，总结从2D UI设计到3D设计的过渡。学生展示Figma综合项目（2-3位学生，每人3分钟）。"
+    design_details:
+      organization: "教师引导总结，学生展示项目并互相点评。"
+      methods: "知识回顾+项目展示+同伴互评"
+      time_arrangement: "20分钟"
+      in_class_thinking: '"Figma单元中你掌握了哪些核心技能？这些技能如何应用到3D设计中？"'
+      ideological_integration: "培养学生的知识迁移能力和系统化思维，理解2D与3D设计的联系。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "详细讲解Spline的界面布局：工具栏、属性面板、场景树、视口；演示3D视图的操控方法：鼠标操作（旋转、平移、缩放）、视角切换（前、后、左、右、顶、底视图）；讲解3D空间的基本概念：X/Y/Z轴、世界坐标与本地坐标；演示基础建模工具：几何体（立方体、球体、圆柱体等）的创建与编辑、路径工具（Path Tool）的使用、3D雕刻（Sculpting）的基础操作；讲解材质系统：颜色、纹理、金属度、粗糙度等属性；讲解光源类型：环境光、点光源、聚光灯、方向光；演示如何构建一个简单的3D场景。"
+    design_details:
+      organization: "教师讲解与演示，学生跟随操作并实验不同的参数。"
+      methods: "讲授+演示+互动实验"
+      time_arrangement: "70分钟（每节45分钟，共约1.5节）"
+      in_class_thinking: '"如何在3D空间中准确定位和操控对象？不同的光源类型对场景氛围有什么影响？"'
+      ideological_integration: "3D设计需要耐心和空间想象力，培养学生的探索精神和创新思维。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课此环节融入实践环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生跟随教师演示进行实操练习，完成阶段性任务：熟悉Spline界面和视图操控；使用几何体创建一个简单的3D场景（如桌面场景：桌子+物品）；为场景中的对象添加不同的材质（木质、金属、玻璃等）；添加光源并调整光照效果，营造氛围。教师巡回指导，帮助学生解决操控和建模中的问题。"
+    design_details:
+      organization: "学生实操，教师个别辅导。"
+      methods: "任务驱动+个别辅导+实验探索"
+      time_arrangement: "90分钟（每节45分钟，共2节）"
+      in_class_thinking: '"如何让3D场景看起来更真实？材质和光源如何配合才能达到理想效果？"'
+      ideological_integration: "3D创作需要不断尝试和调整，培养学生的耐心、毅力和精益求精的态度。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本节课重点内容：Spline界面与操控、基础建模方法、材质与光源应用；强调3D思维与2D思维的差异；预告下次课内容（交互核心：状态与事件）。"
+    design_details:
+      organization: "教师总结，学生记录要点并展示部分作品。"
+      methods: "讲授+作品展示"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"本节课你最大的收获是什么？3D设计给你带来了什么新的思考？"'
+      ideological_integration: "鼓励学生拥抱新技术，培养创新精神和学习能力。"
+
+after_class_assignments:
+  value: |
+    1. 完善课堂上创建的3D场景，增加更多细节和元素。
+    2. 创建一个主题3D场景（如：咖啡桌场景、工作台场景、展示柜场景等），要求：至少包含5个3D对象，使用至少3种不同材质，合理设置光源。
+    3. 浏览Spline官网的案例库和教程，学习并模仿一个简单的3D效果。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

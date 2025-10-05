@@ -1,0 +1,132 @@
+# ===================================================================
+# 第 9 周教案 - Spline交互核心：状态与事件
+# ===================================================================
+# 课程: 交互产品综合创作
+# 章节: 第2章 Spline - 沉浸式3D网页创作
+# 授课教师: 林昕
+# ===================================================================
+
+lesson_number: "9"
+lesson_title: "第九次课教案"
+course_name: "交互产品综合创作"
+
+chapter_info:
+  value: "第2章 Spline - 沉浸式3D网页创作"
+
+lesson_content:
+  value: "2.4 动态物理：物理引擎与克隆模块；2.5 交互核心：状态（States）与事件（Events）系统"
+
+class_schedule:
+  value: "第 9 周，星期 一、二 ，第2-5、8-11 节"
+
+class_hours:
+  total: "4"
+  breakdown: "（理论1，实践3）"
+
+supported_course_objectives:
+  value: |
+    1. 知识目标：理解Spline的物理引擎和交互系统原理，掌握状态与事件的应用方法。支撑课程知识目标（2），对应毕业要求2、4。
+    2. 能力目标：能够创建具有物理效果和交互功能的3D场景。支撑课程能力目标（2），对应毕业要求3、4。
+    3. 素质目标：培养对交互逻辑的理解能力，提升创作交互式3D体验的综合能力。支撑课程素质目标（2），对应毕业要求4、9。
+
+teaching_aims:
+  knowledge_aim: '理解Spline的物理引擎原理（重力、碰撞、刚体）。掌握克隆模块（Cloner）的使用方法。深入理解状态（States）系统：多状态管理、状态转换。掌握事件（Events）系统：鼠标事件、滚动事件、时间事件等。理解状态与事件的结合应用：如何通过事件触发状态切换。'
+  ability_aim: "能够为3D对象添加物理效果。能够使用克隆模块创建重复元素。能够创建多状态的交互对象。能够设置事件响应，实现用户交互。"
+  quality_aim: "培养交互逻辑思维能力。提升用户体验设计意识。激发创造交互式3D体验的创新精神。"
+  process_and_method_aim:
+    value: '1. 案例驱动法：展示优秀的交互式3D网页案例；2. 演示引导法：分步演示状态与事件的设置方法；3. 任务驱动法：以"创建一个交互式3D场景"为核心任务；4. 逻辑分析法：引导学生分析交互逻辑，设计状态转换流程。'
+
+key_and_difficult_points:
+  key_points: "物理引擎的基本应用。克隆模块的使用。状态系统的创建与管理。事件系统的设置与触发。"
+  difficult_points: "理解状态转换的逻辑关系。掌握事件触发条件的设置。实现复杂的交互效果（多对象、多状态、多事件）。"
+
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 威凤教育，《数字媒体交互设计原理与方法》，人民邮电出版社，2021年。"
+  recommended_reading_list:
+    value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
+  pre_class_reflection_questions:
+    value: '[3] ①你体验过哪些交互式3D网页？它们的交互方式是什么？②什么是"状态"？一个交互对象可以有哪些不同的状态？③如何设计一个符合用户直觉的3D交互？'
+  other_pre_class_preparation:
+    value: "[4] 完成上周的3D场景作业，准备在此基础上添加交互功能。"
+
+teaching_methods:
+  value: "讲授+演示+实操练习+案例分析+逻辑分析"
+
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示交互式3D网页案例，演示不同的交互方式（点击、悬浮、拖拽、滚动等）。引导学生思考交互设计在3D场景中的重要性。"
+    design_details:
+      organization: "教师展示案例并演示交互，学生体验并思考。"
+      methods: "案例展示+交互演示+提问引导"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"这些3D交互如何增强用户的参与感和沉浸感？哪种交互方式最自然、最直观？"'
+      ideological_integration: "强调以用户为中心的交互设计理念，培养学生的同理心和用户体验意识。"
+
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "回顾上节课内容：Spline基础建模、材质与光源。学生展示作业中的3D场景（2-3位学生），互相评价场景的视觉效果和氛围营造。"
+    design_details:
+      organization: "教师提问，学生展示作品并互相点评。"
+      methods: "提问复习+作品展示+同伴互评"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"你的3D场景中哪个材质或光源效果最满意？为什么？"'
+      ideological_integration: "培养学生的审美能力和批判性思维。"
+
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "详细讲解Spline的物理引擎：重力（Gravity）、碰撞（Collision）、刚体（Rigid Body）等属性；演示物理效果的应用：物体下落、碰撞反弹、堆叠等；讲解克隆模块（Cloner）：线性克隆、网格克隆、径向克隆等方式；详细讲解状态（States）系统：什么是状态、如何创建多个状态、状态之间的差异如何定义；讲解事件（Events）系统：事件类型（鼠标点击、鼠标悬浮、鼠标按下/释放、滚动、键盘等）、事件触发的动作（状态切换、播放动画、显示/隐藏等）；演示如何结合状态与事件创建交互：点击切换状态、悬浮高亮、拖拽移动等；演示一个完整的交互案例：可交互的3D产品展示。"
+    design_details:
+      organization: "教师讲解与演示，学生跟随操作并实验不同的交互效果。"
+      methods: "讲授+演示+互动实验"
+      time_arrangement: "80分钟（每节45分钟，共约1.8节）"
+      in_class_thinking: '"如何设计状态之间的过渡？如何选择合适的事件类型？"'
+      ideological_integration: "交互设计需要逻辑思维和创新思维的结合，培养学生的综合能力。"
+
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "本节课此环节融入实践环节中进行。"
+    design_details:
+      organization: "无"
+      methods: "无"
+      time_arrangement: "无"
+      in_class_thinking: "无"
+      ideological_integration: "无"
+
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生跟随教师演示进行实操练习，完成阶段性任务：在上周创建的3D场景基础上添加物理效果（如物体下落、碰撞等）；使用克隆模块创建重复元素（如一排书籍、一组按钮等）；为场景中的对象创建多个状态（如正常状态、悬浮状态、点击状态）；设置事件响应，实现交互效果（至少实现2种交互：点击和悬浮）。教师巡回指导，帮助学生调试交互逻辑。"
+    design_details:
+      organization: "学生实操，教师个别辅导。"
+      methods: "任务驱动+个别辅导+逻辑调试"
+      time_arrangement: "80分钟（每节45分钟，共约1.8节）"
+      in_class_thinking: '"我的交互逻辑是否清晰？用户能否直观地理解如何与场景交互？"'
+      ideological_integration: "创建交互需要换位思考、站在用户角度，培养学生的同理心和用户思维。"
+
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "总结本节课重点内容：物理引擎、克隆模块、状态与事件系统；强调交互逻辑的重要性；预告下次课内容（高级交互与网页集成）。"
+    design_details:
+      organization: "教师总结，学生记录要点并演示部分交互效果。"
+      methods: "讲授+交互演示"
+      time_arrangement: "10分钟"
+      in_class_thinking: '"本节课你最大的收获是什么？你创建的交互中哪个最成功？"'
+      ideological_integration: "鼓励学生不断尝试和创新，培养探索精神和创造力。"
+
+after_class_assignments:
+  value: |
+    1. 完善课堂上创建的交互式3D场景，增加更多交互细节。
+    2. 创建一个完整的交互式3D产品展示（如手机、耳机、手表等），要求：至少包含3个可交互对象，每个对象至少有2个状态，实现至少3种不同的交互方式（点击、悬浮、拖拽等）。
+    3. 分析一个优秀的交互式3D网页，撰写分析报告：交互方式、状态设计、用户体验优缺点（300字）。
+
+signature_info:
+  author_name:
+    value: ""
+  author_date:
+    value: ""
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+
