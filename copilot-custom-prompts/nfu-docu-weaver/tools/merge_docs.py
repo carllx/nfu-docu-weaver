@@ -9,16 +9,13 @@ import os
 import sys
 from pathlib import Path
 from docx import Document
-
-
-def add_page_break(doc):
-    """在文档末尾添加分页符"""
-    doc.add_page_break()
+from docx.oxml import parse_xml
+from docx.oxml.ns import qn
 
 
 def merge_documents(input_files, output_file):
     """
-    合并多个 Word 文档
+    直接合并多个 Word 文档（在 XML 层面合并，保留所有格式）
     
     Args:
         input_files: 输入文件路径列表
@@ -34,19 +31,29 @@ def merge_documents(input_files, output_file):
     merged_doc = Document(input_files[0])
     print(f"✓ 已加载基础文档: {os.path.basename(input_files[0])}")
     
+    # 获取主文档的 body 元素
+    merged_body = merged_doc.element.body
+    
     # 合并其余文档
     for i, file_path in enumerate(input_files[1:], start=2):
         print(f"正在合并 ({i}/{len(input_files)}): {os.path.basename(file_path)}")
         
         # 添加分页符
-        add_page_break(merged_doc)
+        page_break = parse_xml(r'<w:p xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">'
+                              r'<w:r><w:br w:type="page"/></w:r></w:p>')
+        merged_body.append(page_break)
         
         # 读取要合并的文档
         sub_doc = Document(file_path)
         
-        # 复制所有段落
+        # 直接追加所有 body 元素（段落、表格等）
         for element in sub_doc.element.body:
-            merged_doc.element.body.append(element)
+            # 跳过 sectPr（节属性），避免影响文档结构
+            if element.tag.endswith('sectPr'):
+                continue
+            
+            # 直接追加元素到主文档
+            merged_body.append(element)
     
     # 保存合并后的文档
     output_path = Path(output_file)

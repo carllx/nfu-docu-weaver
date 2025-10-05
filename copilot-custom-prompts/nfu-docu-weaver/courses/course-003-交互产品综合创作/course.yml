@@ -1,0 +1,124 @@
+# ===================================================================
+# 课程元数据 - 交互产品综合创作
+# ===================================================================
+# 版本: v2.0
+# Schema: ../../schemas/course_schema.yml
+# 最后更新: 2025-10-05
+# ===================================================================
+
+# ============================================================
+# 课程基本信息
+# ============================================================
+course_id: course-003
+course_name: 交互产品综合创作
+course_code: 待补充  # 例如: DES-301
+instructor: 林昕
+semester: 2025-2026 第一学期
+total_weeks: 15
+total_hours: 60  # 默认 15周 × 4学时/周，可根据实际调整
+credits: 3
+
+# ============================================================
+# 配置信息 (相对于项目根目录)
+# ============================================================
+config:
+  # Schema 文件路径
+  schemas:
+    course: schemas/course_schema.yml
+    lesson: schemas/lesson_schema.yml
+    cover: schemas/cover_schema.yml
+    outline: schemas/outline_schema.yml
+  
+  # Word 模板文件路径
+  templates:
+    lesson: templates/lesson/lesson.docx
+    cover: templates/cover/cover.docx
+    outline: templates/outline/outline.docx
+  
+  # 课程数据目录 (相对于课程目录)
+  data_dirs:
+    lessons: lessons/
+    cover: cover/
+    outline: outline/
+    output: output/
+
+# ============================================================
+# 课程状态
+# ============================================================
+status:
+  outline_completed: false
+  cover_completed: false
+  lessons_completed: 0
+  lessons_total: 15
+  lessons_to_create: "1-15"  # 需要创建第1-15周的教案
+  last_updated: '2025-10-05'
+
+# ============================================================
+# 课程描述
+# ============================================================
+description: '待补充：请简要描述课程的核心内容、教学方法和培养目标'
+course_type: 待补充  # 例如：专业必修课、专业选修课
+target_major: 待补充  # 例如：数字媒体艺术
+prerequisite: 待补充  # 例如：无，或列出先修课程
+
+objectives:
+  knowledge:
+    - 待补充：知识目标1
+    - 待补充：知识目标2
+  
+  ability:
+    - 待补充：能力目标1
+    - 待补充：能力目标2
+  
+  quality:
+    - 待补充：素质目标1
+    - 待补充：素质目标2
+
+# ============================================================
+# 课程内容结构
+# ============================================================
+chapters:
+  - chapter_number: 1
+    chapter_title: 待补充
+    hours: 4
+    theory_hours: 2
+    practice_hours: 2
+    description: 待补充
+
+# ============================================================
+# 课程资源
+# ============================================================
+resources:
+  textbook:
+    - 待补充：主要教材信息
+  
+  reference_books:
+    - 待补充：参考书目
+  
+  software:
+    - name: 待补充
+      description: 待补充
+
+# ============================================================
+# 评分标准
+# ============================================================
+grading:
+  formative_assessment: 30  # 平时成绩
+  final_assessment: 70      # 课程考核成绩
+  
+  formative_breakdown:
+    attendance: 10           # 考勤
+    assignment_test: 10      # 作业/测试
+    chapter_test: 10         # 章节测试
+  
+  final_assessment_description: 待补充：期末考核方式描述
+
+# ============================================================
+# 元数据
+# ============================================================
+metadata:
+  created_at: '2025-10-05'
+  updated_at: '2025-10-05'
+  version: '2.0'
+  created_by: 'lesson-weaver-agent'
+  notes: '新创建的课程，需要准备 15 周教案数据'
