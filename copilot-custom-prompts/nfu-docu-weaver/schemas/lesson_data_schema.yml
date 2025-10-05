@@ -63,10 +63,10 @@ pre_class_preparation:
 teaching_methods: "<请填写本次课采用的教学方法，用 '+' 连接, es.讲授法+案例分析法+多媒体教学法+小组讨论法>"
 
 # --- 主要教学环节设计 (Main Teaching Segments Design) ---
-# 特征: 对象列表 (List of Objects)。请根据实际教学设计增删环节。
+# 特征: 固定六个环节的对象列表 (List of Objects)。
 main_teaching_segments:
-  - segment_title: "<环节一标题, 例如: '课程导入'>"
-    segment_type: "<环节类型: introduction, review, lecture, discussion, practice, summary, other>"
+  - segment_title: "课程导入"
+    segment_type: "introduction"
     # 对应: “课堂教学进程” 列中的描述
     process_description: "<请填写此环节的详细教学过程描述>"
     # 对应: “课堂教学设计” 列中的结构化内容
@@ -81,16 +81,86 @@ main_teaching_segments:
       in_class_thinking: "<请填写此环节引导学生思考的问题>"
       # 脚本生成时会添加前缀: "【课程思政融入点】"
       ideological_integration: "<请填写此环节的思政融入点>"
-  - segment_title: "<环节二标题, 例如: '上次课复习'>"
-    segment_type: "<环节类型>"
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    # 对应: “课堂教学进程” 列中的描述
     process_description: "<请填写此环节的详细教学过程描述>"
+    # 对应: “课堂教学设计” 列中的结构化内容
     design_details:
+      # 脚本生成时会添加前缀: "【教学组织】"
       organization: "<请填写此环节的教学组织安排>"
+      # 脚本生成时会添加前缀: "【教学方法】"
       methods: "<请填写此环节使用的具体教学方法>"
+      # 脚本生成时会添加前缀: "【时间安排】"
       time_arrangement: "<请填写此环节的时间安排>"
+      # 脚本生成时会添加前缀: "【课堂思考】"
       in_class_thinking: "<请填写此环节引导学生思考的问题>"
+      # 脚本生成时会添加前缀: "【课程思政融入点】"
       ideological_integration: "<请填写此环节的思政融入点>"
-  # --- 可根据需要添加更多教学环节 ---
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    # 对应: “课堂教学进程” 列中的描述
+    process_description: "<请填写此环节的详细教学过程描述>"
+    # 对应: “课堂教学设计” 列中的结构化内容
+    design_details:
+      # 脚本生成时会添加前缀: "【教学组织】"
+      organization: "<请填写此环节的教学组织安排>"
+      # 脚本生成时会添加前缀: "【教学方法】"
+      methods: "<请填写此环节使用的具体教学方法>"
+      # 脚本生成时会添加前缀: "【时间安排】"
+      time_arrangement: "<请填写此环节的时间安排>"
+      # 脚本生成时会添加前缀: "【课堂思考】"
+      in_class_thinking: "<请填写此环节引导学生思考的问题>"
+      # 脚本生成时会添加前缀: "【课程思政融入点】"
+      ideological_integration: "<请填写此环节的思政融入点>"
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    # 对应: “课堂教学进程” 列中的描述
+    process_description: "<请填写此环节的详细教学过程描述>"
+    # 对应: “课堂教学设计” 列中的结构化内容
+    design_details:
+      # 脚本生成时会添加前缀: "【教学组织】"
+      organization: "<请填写此环节的教学组织安排>"
+      # 脚本生成时会添加前缀: "【教学方法】"
+      methods: "<请填写此环节使用的具体教学方法>"
+      # 脚本生成时会添加前缀: "【时间安排】"
+      time_arrangement: "<请填写此环节的时间安排>"
+      # 脚本生成时会添加前缀: "【课堂思考】"
+      in_class_thinking: "<请填写此环节引导学生思考的问题>"
+      # 脚本生成时会添加前缀: "【课程思政融入点】"
+      ideological_integration: "<请填写此环节的思政融入点>"
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    # 对应: “课堂教学进程” 列中的描述
+    process_description: "<请填写此环节的详细教学过程描述>"
+    # 对应: “课堂教学设计” 列中的结构化内容
+    design_details:
+      # 脚本生成时会添加前缀: "【教学组织】"
+      organization: "<请填写此环节的教学组织安排>"
+      # 脚本生成时会添加前缀: "【教学方法】"
+      methods: "<请填写此环节使用的具体教学方法>"
+      # 脚本生成时会添加前缀: "【时间安排】"
+      time_arrangement: "<请填写此环节的时间安排>"
+      # 脚本生成时会添加前缀: "【课堂思考】"
+      in_class_thinking: "<请填写此环节引导学生思考的问题>"
+      # 脚本生成时会添加前缀: "【课程思政融入点】"
+      ideological_integration: "<请填写此环节的思政融入点>"
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    # 对应: “课堂教学进程” 列中的描述
+    process_description: "<请填写此环节的详细教学过程描述>"
+    # 对应: “课堂教学设计” 列中的结构化内容
+    design_details:
+      # 脚本生成时会添加前缀: "【教学组织】"
+      organization: "<请填写此环节的教学组织安排>"
+      # 脚本生成时会添加前缀: "【教学方法】"
+      methods: "<请填写此环节使用的具体教学方法>"
+      # 脚本生成时会添加前缀: "【时间安排】"
+      time_arrangement: "<请填写此环节的时间安排>"
+      # 脚本生成时会添加前缀: "【课堂思考】"
+      in_class_thinking: "<请填写此环节引导学生思考的问题>"
+      # 脚本生成时会添加前缀: "【课程思政融入点】"
+      ideological_integration: "<请填写此环节的思政融入点>"
 
 # --- 课后作业 ---
 # 对应: “课后作业”
