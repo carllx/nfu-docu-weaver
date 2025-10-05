@@ -1,8 +1,0 @@
-lesson_title: "第十次课教案"
-course_name: "Deep Learning Essentials"
-chapter_title: "第三章 Neural Networks"
-lesson_content: "3.1 感知机模型；\n3.2 反向传播算法；"
-class_period: "第 3 周，星期 三  ，第 7-10　节；"
-total_class_hours: "4学时（理论2，实践2）"
-learning_objectives: "- **Build** basic neural networks.\n\n- Implement backpropagation from scratch."
-

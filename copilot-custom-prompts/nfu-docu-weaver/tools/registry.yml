@@ -1,0 +1,395 @@
+# 工具注册表 (Tool Registry)
+# 
+# 本文件定义了 Lesson-Weaver Agent 可以使用的所有工具
+# Agent 通过读取此文件来发现和调用工具
+#
+# 版本: v1.0
+# 更新日期: 2025-10-05
+
+version: "1.0"
+description: "Lesson-Weaver 工具注册表"
+
+tools:
+  # ============================================================================
+  # 课程管理工具
+  # ============================================================================
+  - id: course_manager
+    name: "课程管理工具"
+    description: "创建、管理课程工作空间"
+    script: "tools/course_manager.py"
+    status: "active"
+    version: "1.0.0"
+    
+    capabilities:
+      - create_course      # 创建新课程
+      - list_courses       # 列出所有课程
+      - get_course_info    # 获取课程信息
+      - update_course      # 更新课程元数据
+    
+    functions:
+      - name: create_course
+        description: "创建新课程工作空间"
+        command: "create"
+        inputs:
+          - name: course_name
+            type: string
+            required: true
+            description: "课程名称"
+            example: "字体设计基础"
+          
+          - name: course_code
+            type: string
+            required: false
+            description: "课程代码"
+            example: "ART-101"
+          
+          - name: instructor
+            type: string
+            required: false
+            description: "授课教师"
+            example: "张三"
+          
+          - name: total_weeks
+            type: integer
+            required: false
+            default: 16
+            description: "总周次"
+            example: 16
+        
+        outputs:
+          - name: course_id
+            type: string
+            description: "生成的课程 ID"
+            example: "course-001"
+          
+          - name: course_path
+            type: string
+            description: "课程目录路径"
+            example: "courses/course-001-typography"
+        
+        example: |
+          python tools/course_manager.py create \
+            --name "字体设计基础" \
+            --code "ART-101" \
+            --instructor "张三" \
+            --weeks 16
+      
+      - name: list_courses
+        description: "列出所有课程"
+        command: "list"
+        inputs: []
+        outputs:
+          - name: courses
+            type: array
+            description: "课程列表"
+        example: |
+          python tools/course_manager.py list
+      
+      - name: get_course_info
+        description: "获取课程信息"
+        command: "info"
+        inputs:
+          - name: course_id
+            type: string
+            required: true
+            description: "课程 ID"
+        outputs:
+          - name: course_info
+            type: object
+            description: "课程详细信息"
+        example: |
+          python tools/course_manager.py info course-001
+
+  # ============================================================================
+  # 大纲生成工具
+  # ============================================================================
+  - id: outline_generator
+    name: "大纲生成工具"
+    description: "从用户提供的内容生成课程大纲"
+    script: "tools/outline_generator.py"
+    status: "planned"
+    version: "0.1.0"
+    
+    capabilities:
+      - from_markdown      # 从 Markdown 生成
+      - from_docx          # 从 Word 文档生成
+      - from_text          # 从纯文本生成
+    
+    functions:
+      - name: from_markdown
+        description: "从 Markdown 文件生成大纲数据"
+        command: "from-markdown"
+        inputs:
+          - name: source_file
+            type: string
+            required: true
+            description: "Markdown 文件路径"
+          
+          - name: course_id
+            type: string
+            required: true
+            description: "课程 ID"
+        
+        outputs:
+          - name: outline_data
+            type: string
+            description: "生成的 outline.yml 路径"
+          
+          - name: outline_doc
+            type: string
+            description: "生成的 outline.docx 路径"
+        
+        example: |
+          python tools/outline_generator.py from-markdown \
+            --source user-content.md \
+            --course course-001
+
+  # ============================================================================
+  # 文档生成工具
+  # ============================================================================
+  - id: doc_generator
+    name: "文档生成工具"
+    description: "从 YAML 数据生成 Word 文档"
+    script: "tools/doc_generator.py"
+    status: "active"
+    version: "1.4.0"
+    
+    capabilities:
+      - generate           # 生成单个文档
+      - batch_generate     # 批量生成文档
+      - validate           # 验证数据
+    
+    functions:
+      - name: generate
+        description: "生成单个文档"
+        command: "generate"
+        inputs:
+          - name: data_file
+            type: string
+            required: true
+            description: "YAML 数据文件"
+          
+          - name: template
+            type: string
+            required: true
+            description: "Word 模板文件"
+          
+          - name: output
+            type: string
+            required: true
+            description: "输出文件路径"
+        
+        outputs:
+          - name: success
+            type: boolean
+            description: "是否成功"
+          
+          - name: output_path
+            type: string
+            description: "生成的文档路径"
+        
+        example: |
+          python tools/doc_generator.py generate \
+            courses/course-001/lessons/week-01.yml \
+            templates/lesson/default-lesson.docx \
+            courses/course-001/output/week-01.docx
+      
+      - name: batch_generate
+        description: "批量生成文档"
+        command: "batch"
+        inputs:
+          - name: data_dir
+            type: string
+            required: true
+            description: "数据文件目录"
+          
+          - name: template
+            type: string
+            required: true
+            description: "Word 模板文件"
+          
+          - name: output_dir
+            type: string
+            required: true
+            description: "输出目录"
+        
+        outputs:
+          - name: success
+            type: boolean
+            description: "是否全部成功"
+          
+          - name: total
+            type: integer
+            description: "总文件数"
+          
+          - name: succeeded
+            type: integer
+            description: "成功数"
+          
+          - name: failed
+            type: integer
+            description: "失败数"
+        
+        example: |
+          python tools/doc_generator.py batch \
+            courses/course-001/lessons/ \
+            templates/lesson/default-lesson.docx \
+            courses/course-001/output/
+
+  # ============================================================================
+  # 数据验证工具
+  # ============================================================================
+  - id: validator
+    name: "数据验证工具"
+    description: "基于 Schema 验证 YAML 数据"
+    script: "tools/validator.py"
+    status: "active"
+    version: "1.4.0"
+    
+    capabilities:
+      - validate_file      # 验证单个文件
+      - validate_batch     # 批量验证
+    
+    functions:
+      - name: validate_file
+        description: "验证单个数据文件"
+        command: "validate"
+        inputs:
+          - name: data_file
+            type: string
+            required: true
+            description: "YAML 数据文件"
+          
+          - name: schema
+            type: string
+            required: true
+            description: "Schema 文件"
+        
+        outputs:
+          - name: valid
+            type: boolean
+            description: "是否通过验证"
+          
+          - name: errors
+            type: array
+            description: "错误列表"
+        
+        example: |
+          python tools/validator.py validate \
+            courses/course-001/lessons/week-01.yml \
+            schemas/lesson_schema.yml
+      
+      - name: validate_batch
+        description: "批量验证数据文件"
+        command: "validate"
+        inputs:
+          - name: data_dir
+            type: string
+            required: true
+            description: "数据文件目录"
+          
+          - name: schema
+            type: string
+            required: true
+            description: "Schema 文件"
+        
+        outputs:
+          - name: valid_count
+            type: integer
+            description: "通过验证的文件数"
+          
+          - name: invalid_count
+            type: integer
+            description: "未通过验证的文件数"
+        
+        example: |
+          python tools/validator.py validate --batch \
+            courses/course-001/lessons/ \
+            schemas/lesson_schema.yml
+
+  # ============================================================================
+  # AI 数据生成工具
+  # ============================================================================
+  - id: ai_data_generator
+    name: "AI 数据生成工具"
+    description: "使用 AI 生成结构化数据"
+    script: "tools/ai_data_generator.py"
+    status: "planned"
+    version: "0.1.0"
+    
+    capabilities:
+      - generate_lesson    # 生成教案数据
+      - generate_cover     # 生成首页数据
+    
+    functions:
+      - name: generate_lesson
+        description: "生成教案数据"
+        command: "generate-lesson"
+        inputs:
+          - name: course_id
+            type: string
+            required: true
+            description: "课程 ID"
+          
+          - name: week
+            type: integer
+            required: true
+            description: "周次"
+          
+          - name: context_files
+            type: array
+            required: false
+            description: "上下文文件列表"
+        
+        outputs:
+          - name: data_file
+            type: string
+            description: "生成的 YAML 文件路径"
+        
+        example: |
+          python tools/ai_data_generator.py generate-lesson \
+            --course course-001 \
+            --week 3 \
+            --context outline.yml cover.yml week-01.yml week-02.yml
+
+  # ============================================================================
+  # 数据转换工具
+  # ============================================================================
+  - id: data_converter
+    name: "数据转换工具"
+    description: "在不同格式之间转换数据"
+    script: "tools/data_converter.py"
+    status: "planned"
+    version: "0.1.0"
+    
+    capabilities:
+      - markdown_to_yaml   # Markdown → YAML
+      - docx_to_yaml       # Word → YAML
+      - json_to_yaml       # JSON → YAML
+    
+    functions:
+      - name: markdown_to_yaml
+        description: "将 Markdown 转换为 YAML"
+        command: "md2yaml"
+        inputs:
+          - name: source
+            type: string
+            required: true
+            description: "Markdown 文件路径"
+          
+          - name: output
+            type: string
+            required: true
+            description: "输出 YAML 文件路径"
+        
+        example: |
+          python tools/data_converter.py md2yaml \
+            source.md output.yml
+
+# ============================================================================
+# 工具状态说明
+# ============================================================================
+# - active: 已实现并可用
+# - planned: 计划开发
+# - deprecated: 已弃用
+# - experimental: 实验性功能

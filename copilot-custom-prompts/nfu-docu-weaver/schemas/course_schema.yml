@@ -1,0 +1,59 @@
+# 课程元数据 Schema
+# 
+# 用途: 定义课程的基本信息和元数据结构
+# 文件位置: courses/{course-id}/course.yml
+# 版本: v1.0
+# 更新日期: 2025-10-05
+
+# 课程基本信息
+course_id: "course-001"                    # 课程唯一标识符
+course_name: "字体设计基础"                 # 课程名称
+course_code: "ART-101"                     # 课程代码
+instructor: "张三"                          # 授课教师
+semester: "2024-2025 第一学期"              # 学期
+total_weeks: 16                            # 总周次
+
+# 课程描述
+description: "本课程介绍字体设计的基础知识和实践技能"
+objectives:                                # 课程目标
+  - "掌握字体设计的基本原理"
+  - "了解不同字体的历史和应用"
+  - "能够设计基础的字体"
+
+# 课程状态
+status:
+  outline_completed: true                  # 大纲是否完成
+  cover_completed: true                    # 首页是否完成
+  lessons_completed: 8                     # 已完成的教案数
+  lessons_total: 16                        # 总教案数
+  last_updated: "2024-10-05"              # 最后更新日期
+
+# 模板配置
+templates:
+  outline: "templates/outline/default-outline.docx"
+  cover: "templates/cover/default-cover.docx"
+  lesson: "templates/lesson/default-lesson.docx"
+
+# 课程资源
+resources:
+  textbook: "《字体设计基础》"              # 教材
+  reference_books:                         # 参考书
+    - "《西文字体》"
+    - "《中文字体设计》"
+  online_resources:                        # 在线资源
+    - url: "https://example.com/fonts"
+      description: "字体设计资源库"
+
+# 评分标准
+grading:
+  attendance: 10                           # 出勤 10%
+  homework: 30                             # 作业 30%
+  midterm: 20                              # 期中 20%
+  final: 40                                # 期末 40%
+
+# 元数据
+metadata:
+  created_at: "2024-10-01"                 # 创建时间
+  updated_at: "2024-10-05"                 # 更新时间
+  version: "1.0"                           # 版本号
+  created_by: "lesson-weaver-agent"        # 创建者

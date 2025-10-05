@@ -1,0 +1,54 @@
+# 课程元数据模板
+# 
+# 此文件在创建新课程时会被复制并填充实际数据
+# 请勿直接修改此模板文件
+
+# 课程基本信息
+course_id: "{{COURSE_ID}}"                 # 将被替换为实际的课程 ID
+course_name: "{{COURSE_NAME}}"             # 将被替换为实际的课程名称
+course_code: "{{COURSE_CODE}}"             # 将被替换为实际的课程代码
+instructor: "{{INSTRUCTOR}}"               # 将被替换为实际的授课教师
+semester: "{{SEMESTER}}"                   # 将被替换为实际的学期
+total_weeks: 16                            # 将被替换为实际的总周次
+
+# 课程描述
+description: ""
+objectives:
+  - ""
+
+# 课程状态
+status:
+  outline_completed: false
+  cover_completed: false
+  lessons_completed: 0
+  lessons_total: 15
+  last_updated: "{{CREATED_AT}}"
+
+# 模板配置
+templates:
+  outline: "templates/outline/default-outline.docx"
+  cover: "templates/cover/default-cover.docx"
+  lesson: "templates/lesson/default-lesson.docx"
+
+# 课程资源
+resources:
+  textbook: ""
+  reference_books:
+    - ""
+  online_resources:
+    - url: ""
+      description: ""
+
+# 评分标准
+grading:
+  attendance: 10
+  homework: 30
+  midterm: 20
+  final: 40
+
+# 元数据
+metadata:
+  created_at: "{{CREATED_AT}}"
+  updated_at: "{{CREATED_AT}}"
+  version: "1.0"
+  created_by: "course_manager"
