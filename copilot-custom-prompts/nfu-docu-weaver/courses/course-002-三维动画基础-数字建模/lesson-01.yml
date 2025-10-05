@@ -1,0 +1,135 @@
+# ===================================================================
+#           第1周教案 - 认识MAYA
+# ===================================================================
+# 课程: 三维动画基础-数字建模
+# 章节: 第1章 认识MAYA
+# 学时: 4学时（理论2，实践2）
+# ===================================================================
+
+# --- 课程与课次基本信息 ---
+lesson_number: "1"
+lesson_title: "第一次课教案"
+course_name: "三维动画基础-数字建模"
+
+# --- 课次核心内容定义 ---
+chapter_info:
+  value: "第1章 认识MAYA"
+lesson_content:
+  value: "1.1MAYA的应用领域；1.2MAYA的界面布局；1.3MAYA的个性化设置"
+class_schedule:
+  value: "第 1周，星期 二、四、五 ，第12-15、2-5、8-11节；"
+class_hours:
+  total: "4"
+  breakdown: "（理论2学时，实践2学时）"
+
+# --- 教学目标体系 ---
+supported_course_objectives:
+  value: |
+    1. 理解MAYA的基础概念及其在影视、游戏、建筑可视化等领域的应用。支持课程知识目标（1），对应毕业要求2、8。
+    2. 熟悉MAYA用户界面，包括菜单栏、工具栏、视图窗口等核心功能模块。支持课程知识目标（1），对应毕业要求2。
+    3. 掌握MAYA基本操作技能，包括对象选择、移动、旋转、缩放及相关快捷键。支撑课程能力目标（1），对应毕业要求2。
+    4. 了解MAYA的个性化设置方法，能够调整界面布局与操作偏好。支撑课程能力目标（1），对应毕业要求2、4。
+    5. 通过案例制作，培养初步的三维创作能力，为后续建模、动画学习奠定基础。支撑课程素质目标（1），对应毕业要1、2、3、9。
+teaching_aims:
+  knowledge_aim: "掌握MAYA基础概念、界面与操作技能，了解其在影视、游戏等领域的应用及个性化设置方法。"
+  ability_aim: "熟练使用MAYA基本模块和快捷键，高效操作界面，初步三维创作，为建模、动画学习基础。"
+  quality_aim: "培养细致观察与耐心操作的职业素养，养成技术学习中的严谨态度； 通过案例分析，增强对文化创意产业的责任感与使命感；在个性化设置中融入中华传统文化元素，激发文化自信与创新精神。"
+  process_and_method_aim:
+    value: |
+      1. 采用理论与实践相结合，课堂讲授、案例制作与课堂点评相结合；
+      2. 通过"讲解-示范-实操-评改"四步法，强化学生对MAYA界面的理解与操作能力；
+      3. 鼓励学生利用实验室电脑、图书馆及实践工坊查阅资料，培养自主学习能力。
+key_and_difficult_points:
+  key_points: "MAYA基本模块的使用（选择、移动、旋转、缩放工具）；快捷键的操作与应用。"
+  difficult_points: "MAYA界面功能的灵活使用（如视图切换、工具栏操作）；理解界面布局的复杂性及个性化设置的实际应用。"
+
+# --- 课前准备 ---
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 来阳.《中文版Maya 2024基础培训教程》[M]. 北京：人民邮电出版社, 2025.08.（第1章相关内容）。"
+  recommended_reading_list:
+    value: "[2] 周哲言.《AI+Maya2025从新手到高手（微课版）》[M]. 北京：清华大学出版社，2025.05（界面与基础操作部分）。"
+  pre_class_reflection_questions:
+    value: "[3] ①MAYA在哪些领域有广泛应用？②如何通过快捷键提高操作效率？③个性化设置如何提升工作流？"
+  other_pre_class_preparation:
+    value: "[4] 确保学生电脑已安装MAYA 2024，检查软件运行环境；准备实验室电脑、投影设备及MAYA快捷键参考表；学生预习MAYA应用领域（如影视、游戏案例），了解基本界面术语。"
+
+# --- 教学方法与过程设计 ---
+teaching_methods:
+  value: "课堂讲授+案例制作+课堂点评"
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示 Maya 在影视、游戏、动画和产品设计中的实际案例（如电影《阿凡达》的角色建模、游戏《赛博朋克2077》的场景设计），通过图片和短视频介绍 Maya 的功能与行业应用。"
+    design_details:
+      organization: "通过展示MAYA在影视（如《阿凡达》）、游戏（如《赛博朋克2077》）中的应用案例，介绍其在文化创意产业中的重要性。"
+      methods: "情境导入法+播放短视频+展示图片案例"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"MAYA在哪些领域有广泛应用？如何助力文化创意产业发展？"'
+      ideological_integration: "引导学生关注MAYA在文化创意产业中的作用，激发对文化产业的责任感与使命感。"
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "因课程为首次授课，无复习环节。教师改为介绍课程整体架构与学习方式：说明课程模块（概述—认知—创造—应用）、作业布置及考核要求，引导学生建立学习目标与路径，并请学生分享对课程的期待。"
+    design_details:
+      organization: "教师介绍课程结构与考核要求，学生记录要点并表达个人期待。"
+      methods: "讲解+问答"
+      time_arrangement: "15分钟"
+      in_class_thinking: '"你希望通过本课程获得哪些方面的成长？"'
+      ideological_integration: "强调学习与职业发展的联系，引导学生形成诚信学习与终身学习的意识"
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "播放一段预录制的 Maya 操作视频，通过视频演示，帮助学生熟悉 Maya 的界面结构和基本操作逻辑，初步理解工具如何影响创作结果。"
+    design_details:
+      organization: "1. 讲解MAYA基础概念及应用领域（1.1），结合案例分析其在影视、游戏中的作用。2. 演示MAYA界面布局（1.2），包括菜单栏、工具栏、视图窗口等，重点讲解选择、移动、旋转、缩放工具及快捷键（W、E、R）。3. 介绍个性化设置（1.3），如调整界面布局、自定义快捷键，演示保存个人工作空间。4. 实操环节：学生创建立方体，练习移动、旋转、缩放操作，使用快捷键完成简单任务。5. 课堂点评：学生展示操作成果，教师反馈并纠正常见错误（如视图切换错误）。"
+      methods: "课堂讲授+演示与实操结合+任务驱动法+课堂点评"
+      time_arrangement: "80分钟"
+      in_class_thinking: |
+        "1. 如何通过快捷键提高操作效率？
+        2. 个性化设置如何提升工作流？
+        3. 如何将传统文化元素融入简单几何体设计？"
+      ideological_integration: "通过操作练习培养细致观察与耐心操作的职业素养，鼓励学生在个性化设置中融入中华传统文化元素（如传统图案），增强文化自信。"
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: '学生以4-6人小组为单位，开展一场"Maya应用探索之旅"。他们需要结合课前搜集的资料和自身的生活经验，共同挖掘并分析Maya（三维动画、建模、渲染软件）在哪些我们熟悉的领域"大显身手"。'
+    design_details:
+      organization: '组织学生分组讨论 "MAYA 在生活中的应用场景"，每组推选代表分享；'
+      methods: "分组讨论法"
+      time_arrangement: "20分钟"
+      in_class_thinking: '"如何将 MAYA 技术与中华传统文化元素结合？"'
+      ideological_integration: "引导学生思考数字技术对传统文化传播的助力，培养文化传承意识。"
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生在教师指导下打开 Maya 软件，完成以下任务：熟悉界面：调整视窗视角，探索菜单栏和工具架。创建一个立方体，使用移动、旋转、缩放工具进行基本变换。尝试调整模型的顶点或应用简单材质，观察视觉效果变化。通过动手操作，让学生建立对 Maya 界面的感性认识，增强学习信心，同时初步体验工具操作对创作的影响。"
+    design_details:
+      organization: "学生在教师分步演示与巡回指导下，通过个人动手操作完成一系列由浅入深的Maya基础任务；"
+      methods: "任务驱动法+探究式学习法"
+      time_arrangement: "20分钟"
+      in_class_thinking: '"引导学生思考"不同的工具操作（如变换、编辑顶点）是如何直接导致视觉结果变化的？"。"'
+      ideological_integration: "通过从零到一的基础建模体验，培养学生脚踏实地、精益求精的工匠精神起点。"
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "请以思维导图或结构图的形式，将本节课体验的基本操作（如视图导航、对象变换）与常用工具（如移动、旋转、缩放工具）进行归纳总结，并简要注明其核心功能。"
+    design_details:
+      organization: "梳理 MAYA 应用领域与界面布局核心知识点，强调重点内容；"
+      methods: "归纳总结法"
+      time_arrangement: "10 分钟"
+      in_class_thinking: '"回顾本节课内容，哪些知识点需要进一步巩固？"'
+      ideological_integration: "鼓励学生以严谨态度对待软件学习，为后续专业技能提升打下坚实基础。"
+
+# --- 课后作业 ---
+after_class_assignments:
+  value: |
+    1. 复习5个常用快捷键及其功能。
+    2. 查阅MAYA在影视或游戏中的应用案例。
+
+# --- 页脚签名信息 ---
+signature_info:
+  author_name:
+    value: "SHIU LUO SARA(肖咏兰)"
+  author_date:
+    value: "2025年10月5日"
+  approver_name:
+    value: "<请填写审批人姓名>"
+  approver_date:
+    value: "<请填写审批日期>"
+
