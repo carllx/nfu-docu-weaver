@@ -1,8 +1,8 @@
 # ===================================================================
-# 第 5 周教案 - 设计系统与高级交互（上）
+# 第 5 周教案 - Spline界面基础与3D建模入门
 # ===================================================================
 # 课程: 交互产品综合创作
-# 章节: 第1章 Figma的基础操作与网页设计
+# 章节: 第2章 Spline的基本操作与3D网站设计
 # 授课教师: 林昕
 # ===================================================================
 
@@ -11,10 +11,10 @@ lesson_title: "第五次课教案"
 course_name: "交互产品综合创作"
 
 chapter_info:
-  value: "第1章 Figma的基础操作与网页设计"
+  value: "第2章 Spline的基本操作与3D网站设计"
 
 lesson_content:
-  value: "1.7 设计系统基础：组件高级应用与团队库；1.8 高级原型技术：悬浮提示、弹出层与滚动定位"
+  value: "2.1 Spline界面与操控：界面布局、视图操控、3D空间基本概念；基础形状与建模：几何体创建、路径工具、3D雕刻入门"
 
 class_schedule:
   value: "第 5 周，星期 一、二 ，第2-5、8-11 节"
@@ -25,20 +25,20 @@ class_hours:
 
 supported_course_objectives:
   value: |
-    1. 知识目标：深入理解设计系统的价值与构建方法，掌握团队库的使用与管理。支撑课程知识目标（1），对应毕业要求2、4。
-    2. 能力目标：能够构建完整的设计系统，使用高级原型技术实现复杂交互效果。支撑课程能力目标（2），对应毕业要求3、4。
-    3. 素质目标：培养系统化思维和团队协作意识，理解设计规范在团队中的价值。支撑课程素质目标（3），对应毕业要求4、9。
+    1. 知识目标：掌握Spline的基础操作，包括3D建模、界面操控、3D空间基本概念。支撑课程知识目标（2），对应毕业要求2.2跨学科知识整合、4.1专业技术实现能力。
+    2. 能力目标：能够应用Spline创作出具有视觉吸引力的3D网页作品，掌握基础几何体建模技能。支撑课程能力目标（2），对应毕业要求3.3批判性思维、4.1专业技术实现能力。
+    3. 素质目标：培养空间思维与创新精神，理解3D技术在文化传播、科学教育等领域的应用价值。支撑课程素质目标（2），对应毕业要求3.3批判性思维、8.2前沿技术跟踪。
 
 teaching_aims:
-  knowledge_aim: "深入理解设计系统的概念、价值与构建方法。掌握Figma团队库（Team Libraries）的使用与管理。理解高级原型技术：悬浮提示（Tooltip）、弹出层（Overlay）、页面内滚动定位的原理与应用场景。"
-  ability_aim: "能够构建完整的设计系统，包含组件库、颜色系统、文本样式等。能够使用高级原型技术实现复杂的交互效果。"
-  quality_aim: "培养系统化思维，理解设计规范在团队协作中的重要性。提升对用户体验细节的关注度。"
+  knowledge_aim: "理解Spline的界面布局、核心工具面板及3D空间的基本概念（X/Y/Z轴、透视与正交视图）。掌握视图操控技能（平移、旋转、缩放）。理解基础几何体的创建与编辑方法，学习路径工具和3D雕刻入门。"
+  ability_aim: "能够熟练操作Spline界面，流畅切换3D视角。能够使用基础几何体、路径工具创建简单的3D场景与模型。"
+  quality_aim: "培养从2D到3D的空间思维转换能力，激发学生探索新技术的创新精神。理解3D技术在文化遗产保护、科学可视化等领域的社会价值，树立'科技向善'的理念。"
   process_and_method_aim:
-    value: '1. 案例驱动法：分析优秀设计系统案例（Material Design、Apple HIG等）；2. 演示引导法：分步演示Figma高级功能操作；3. 任务驱动法：以"构建完整的设计系统"为核心任务；4. 协作实践法：引导学生体验团队库的协作流程。'
+    value: '1. 案例驱动法：展示Spline优秀作品（Apple Vision Pro、Stripe等）；2. 演示引导法：分步演示Spline界面操作与建模技巧；3. 对比教学法：对比2D与3D设计思维的差异；4. 实践探索法：引导学生通过创作简单场景掌握3D建模逻辑。'
 
 key_and_difficult_points:
-  key_points: "设计系统的构建方法。团队库的使用与管理。高级原型技术的应用。"
-  difficult_points: "理解设计系统的层级结构和命名规范。掌握弹出层与滚动定位的交互逻辑。团队库的发布与版本管理。"
+  key_points: "Spline界面布局与核心工具面板的认知。3D空间坐标系统（X/Y/Z轴）的理解。视图操控技能：平移、旋转、缩放。基础几何体的创建与编辑。"
+  difficult_points: "从2D设计思维转换到3D空间思维。3D视图的多角度切换与相机控制。路径工具在3D空间中的应用。"
 
 pre_class_preparation:
   required_reading_list:
@@ -46,9 +46,9 @@ pre_class_preparation:
   recommended_reading_list:
     value: "[2] 刘月磊等，《交互思维与实战：Figma+Principle UI设计实用教程》，东华大学出版社，2024年。"
   pre_class_reflection_questions:
-    value: '[3] ①什么是设计系统？为什么大型团队需要设计系统？②Figma的团队库如何帮助团队协作？③你在使用网页或应用时，注意到哪些悬浮提示或弹出层的交互细节？'
+    value: '[3] ①你见过哪些令人印象深刻的3D网页设计案例？②3D网页与传统2D网页相比有哪些优势？③你对3D空间的X/Y/Z轴有怎样的理解？'
   other_pre_class_preparation:
-    value: "[4] 预习Figma团队库功能，准备笔记本记录设计系统的构建方法。"
+    value: "[4] 注册Spline账号（spline.design），浏览官方案例库，准备笔记本记录3D建模要点。"
 
 teaching_methods:
   value: "讲授+演示+实操练习+案例分析+协作实践"
@@ -56,33 +56,33 @@ teaching_methods:
 main_teaching_segments:
   - segment_title: "课程导入"
     segment_type: "introduction"
-    process_description: "教师展示Material Design、Apple HIG等知名设计系统案例，引导学生思考设计系统的价值。介绍本次课的学习目标与任务安排。"
+    process_description: "教师展示Spline优秀案例（Apple Vision Pro官网、Stripe支付页面、Atmos 3D展示等），引导学生感受3D技术在现代网页设计中的应用。介绍Spline与Figma的互补关系，说明本次课的学习目标与任务安排。"
     design_details:
       organization: "教师展示案例并提问，学生观察并思考。"
-      methods: "案例展示+提问引导"
+      methods: "案例展示+对比分析+提问引导"
       time_arrangement: "10分钟"
-      in_class_thinking: '"为什么Google、Apple等公司要花费大量资源构建设计系统？"'
-      ideological_integration: "强调规范与标准在团队协作中的价值，培养学生的系统化思维和职业素养。"
+      in_class_thinking: '"3D网页与传统2D网页相比有哪些独特优势？3D技术可以在哪些场景中增强用户体验？"'
+      ideological_integration: "引入3D技术的社会应用价值，如文化遗产数字化保护、科学知识可视化，培养学生'科技向善'的理念和创新精神。"
 
   - segment_title: "上次课复习"
     segment_type: "review"
-    process_description: "回顾上节课内容：高级交互与动效的制作方法。通过提问检查学生对智能动画（Smart Animate）的掌握情况。"
+    process_description: "回顾上节课内容：Figma高级交互与动效的制作方法。强调Figma与Spline的互补关系：Figma负责2D界面设计与原型，Spline负责3D元素创作与交互。"
     design_details:
-      organization: "教师提问，学生回答并演示。"
-      methods: "提问复习+学生演示"
+      organization: "教师提问，学生回答。"
+      methods: "提问复习+知识迁移"
       time_arrangement: "10分钟"
-      in_class_thinking: '"智能动画（Smart Animate）的原理是什么？如何确保动画效果正确触发？"'
-      ideological_integration: "培养学生知识迁移能力，强化系统化学习意识。"
+      in_class_thinking: '"Figma的2D设计能力如何与Spline的3D能力结合，创造出更丰富的用户体验？"'
+      ideological_integration: "培养学生融会贯通的能力，理解'技术整合'在现代设计中的重要性。"
 
   - segment_title: "新课讲授"
     segment_type: "lecture"
-    process_description: "详细讲解设计系统的概念、价值与构建方法；演示如何在Figma中构建设计系统，包括组件库、颜色系统、文本样式、间距规范等；讲解团队库（Team Libraries）的创建、发布与版本管理；讲解高级原型技术：悬浮提示（Tooltip）的实现方法、弹出层（Overlay）的显示与关闭逻辑、页面内滚动定位的设置；演示如何结合组件与高级原型技术创建复杂交互。"
+    process_description: "详细讲解Spline界面布局（工具栏、场景树、属性面板、时间轴、视口）；讲解3D空间的坐标系统（X/Y/Z轴、世界坐标与局部坐标）；演示视图操控技能：平移（鼠标中键/空格+拖拽）、旋转（右键拖拽/Alt+拖拽）、缩放（滚轮/双指缩放）；讲解透视视图与正交视图的区别与切换；演示基础几何体的创建（Cube、Sphere、Cylinder、Torus、Cone等）；演示对象的移动、旋转、缩放操作（移动工具、旋转工具、缩放工具）；讲解路径工具（Path Tool）的使用：绘制2D路径并拉伸为3D形状；介绍3D雕刻的基础概念：布尔运算（Union、Subtract、Intersect）。"
     design_details:
       organization: "教师讲解与演示，学生跟随操作并记录要点。"
-      methods: "讲授+演示+互动提问"
+      methods: "讲授+演示+对比教学（2D vs 3D）+互动提问"
       time_arrangement: "90分钟（每节45分钟，共2节）"
-      in_class_thinking: '"如何为团队制定合理的设计规范？悬浮提示应该在什么场景下使用？"'
-      ideological_integration: "强调设计系统是团队协作的基础，就像社会规范是社会运行的基础，培养学生的规则意识和协作精神。"
+      in_class_thinking: '"为什么3D空间需要三个轴（X/Y/Z）？透视视图和正交视图各适合什么场景？如何通过视图切换更好地观察和编辑3D模型？"'
+      ideological_integration: "强调空间思维的培养，引导学生突破二维局限，勇于探索新领域。结合3D技术的社会应用，培养'知行合一'的创新精神。"
 
   - segment_title: "讨论与反馈"
     segment_type: "discussion"
@@ -96,29 +96,29 @@ main_teaching_segments:
 
   - segment_title: "实践环节"
     segment_type: "practice"
-    process_description: "学生跟随教师演示进行实操练习，完成阶段性任务：构建一个包含至少5个组件的设计系统（按钮、输入框、卡片、导航栏、页脚）；为组件添加完整的颜色和文本样式；创建一个包含悬浮提示和弹出层的高级原型。教师巡回指导，解答学生操作中的问题。"
+    process_description: "学生跟随教师演示进行实操练习，完成阶段性任务：练习视图操控，能够流畅地从不同角度观察场景（至少5个不同视角）；使用基础几何体创建简单的3D场景（主题可选：书桌场景、咖啡厅一角、未来建筑、太空站模块等），要求至少包含8个3D对象；尝试使用路径工具创建至少1个自定义形状；尝试使用布尔运算创建1个组合形状。教师巡回指导，解答学生操作中的问题，鼓励学生发挥创意。"
     design_details:
-      organization: "学生实操，教师个别辅导。"
-      methods: "任务驱动+个别辅导+小组协作"
+      organization: "学生实操，教师个别辅导，学生间相互观摩。"
+      methods: "任务驱动+个别辅导+创意工作坊"
       time_arrangement: "90分钟（每节45分钟，共2节）"
-      in_class_thinking: '"如何确保设计系统的一致性？如何让弹出层的交互更符合用户预期？"'
-      ideological_integration: "设计系统的构建需要耐心和细致，培养学生精益求精的工匠精神和系统化思维。"
+      in_class_thinking: '"如何通过切换视角更好地理解3D空间？如何利用基础几何体组合出更复杂的形态？"'
+      ideological_integration: "3D创作需要空间想象力和实践探索精神，培养学生勇于尝试、不怕失败的创新品质。"
 
   - segment_title: "课堂小结"
     segment_type: "summary"
-    process_description: "总结本节课重点内容：设计系统的价值与构建方法、团队库的使用、高级原型技术；强调设计规范在实际项目中的重要性；预告下次课内容（设计系统与高级交互（下）：微交互与智能动画）。"
+    process_description: "总结本节课重点内容：Spline界面操作要点、3D空间坐标系统、视图操控技能、基础几何体建模；强调从2D到3D思维转换的重要性；展示部分学生的课堂作品并点评；预告下次课内容（材质、光源与阴影的应用）。"
     design_details:
-      organization: "教师总结，学生记录要点。"
-      methods: "讲授+任务说明"
+      organization: "教师总结，展示学生作品，学生记录要点。"
+      methods: "讲授+作品展示+任务说明"
       time_arrangement: "10分钟"
-      in_class_thinking: '"本节课你最大的收获是什么？你认为设计系统对团队协作有什么帮助？"'
-      ideological_integration: "强调设计师的职业素养，理解设计规范在团队中的价值，培养学生的责任意识。"
+      in_class_thinking: '"本节课你对3D空间的理解有什么变化？你觉得3D建模的魅力在哪里？"'
+      ideological_integration: "强调突破思维局限的重要性，鼓励学生持续探索新技术，树立终身学习的意识。"
 
 after_class_assignments:
   value: |
-    1. 完善课堂上创建的设计系统，至少包含8个组件类型。
-    2. 为设计系统编写一份简单的使用说明文档（包括组件命名规范、颜色使用规范等）。
-    3. 创建一个包含至少3种高级原型技术（悬浮提示、弹出层、滚动定位）的交互原型。
+    1. 完善课堂上创建的3D场景，确保至少包含10个3D对象，并从至少3个不同视角截图提交。
+    2. 浏览Spline官方案例库（spline.design/community），选择2个你喜欢的作品，分析它们的建模技巧与视觉表现，撰写不少于200字的观察心得。
+    3. 尝试创作一个新的3D场景（主题自选），要求使用至少1次路径工具和1次布尔运算，提交Spline项目链接或导出的静态截图。
 
 signature_info:
   author_name:

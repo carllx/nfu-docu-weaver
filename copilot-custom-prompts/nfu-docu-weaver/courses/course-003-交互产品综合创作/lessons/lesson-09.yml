@@ -11,10 +11,10 @@ lesson_title: "第九次课教案"
 course_name: "交互产品综合创作"
 
 chapter_info:
-  value: "第2章 Spline - 沉浸式3D网页创作"
+  value: "第3章 交互设计心理学与设计规范"
 
 lesson_content:
-  value: "2.4 动态物理：物理引擎与克隆模块；2.5 交互核心：状态（States）与事件（Events）系统"
+  value: "3.1 情感化设计三层次：本能层、行为层、反思层；3.2 格式塔心理学原则在界面布局中的应用（邻近、相似、连续、闭合、简单）；唐纳德·诺曼设计心理学基础"
 
 class_schedule:
   value: "第 9 周，星期 一、二 ，第2-5、8-11 节"

@@ -11,10 +11,10 @@ lesson_title: "第八次课教案"
 course_name: "交互产品综合创作"
 
 chapter_info:
-  value: "第2章 Spline - 沉浸式3D网页创作"
+  value: "第2章 Spline的基本操作与3D网站设计"
 
 lesson_content:
-  value: "2.1 Spline界面与基础操控；2.2 3D建模基础：几何体、路径、雕刻；2.3 材质、光源与场景构建"
+  value: "2.4 事件（Events）系统与交互实现；2.5 高级交互：变量（Variables）系统、粒子系统；2.6 网页导出与场景优化、性能优化策略"
 
 class_schedule:
   value: "第 8 周，星期 一、二 ，第2-5、8-11 节"
