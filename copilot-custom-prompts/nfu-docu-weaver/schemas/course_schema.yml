@@ -1,59 +1,219 @@
-# 课程元数据 Schema
-# 
-# 用途: 定义课程的基本信息和元数据结构
-# 文件位置: courses/{course-id}/course.yml
+# ===================================================================
+# 课程元数据 Schema (Course Metadata Schema)
+# ===================================================================
 # 版本: v1.0
+# 用途: 定义 course.yml 的数据结构，确保课程配置的一致性和完整性
 # 更新日期: 2025-10-05
+# 
+# Schema 说明:
+# - 本 Schema 定义了课程工作空间的元数据结构
+# - 所有路径均相对于项目根目录（而非课程目录）
+# - Schema 和 Template 路径指向项目级共享资源
+# - Data 目录路径相对于课程目录本身
+# ===================================================================
 
-# 课程基本信息
-course_id: "course-001"                    # 课程唯一标识符
-course_name: "字体设计基础"                 # 课程名称
-course_code: "ART-101"                     # 课程代码
-instructor: "张三"                          # 授课教师
-semester: "2024-2025 第一学期"              # 学期
-total_weeks: 16                            # 总周次
+# ============================================================
+# 课程基本信息 (Basic Information)
+# ============================================================
+course_id: "course-001"
+  # 类型: string (required)
+  # 格式: course-NNN (3位数字)
+  # 说明: 唯一课程标识符，由 course_manager 自动生成
 
-# 课程描述
-description: "本课程介绍字体设计的基础知识和实践技能"
-objectives:                                # 课程目标
-  - "掌握字体设计的基本原理"
-  - "了解不同字体的历史和应用"
-  - "能够设计基础的字体"
+course_name: "字体设计基础"
+  # 类型: string (required)
+  # 说明: 课程的完整名称
 
-# 课程状态
+course_code: "ART-101"
+  # 类型: string (optional)
+  # 说明: 课程代码，用于教务系统识别
+
+instructor: "张三"
+  # 类型: string (required)
+  # 说明: 授课教师姓名
+
+semester: "2025-2026 第一学期"
+  # 类型: string (required)
+  # 格式: YYYY-YYYY 第X学期
+  # 说明: 课程开设学期
+
+total_weeks: 16
+  # 类型: integer (required)
+  # 范围: 1-20
+  # 说明: 课程总周次，通常为 16 或 18
+
+# ============================================================
+# 配置信息 (Configuration)
+# ============================================================
+config:
+  
+  # Schema 文件路径配置
+  # 说明: 所有路径相对于项目根目录
+  schemas:
+    course: "schemas/course_schema.yml"
+      # 类型: string (path, required)
+      # 说明: 课程元数据 Schema
+    
+    lesson: "schemas/lesson_schema.yml"
+      # 类型: string (path, required)
+      # 说明: 教案数据 Schema
+    
+    cover: "schemas/cover_schema.yml"
+      # 类型: string (path, required)
+      # 说明: 首页数据 Schema
+    
+    outline: "schemas/outline_schema.yml"
+      # 类型: string (path, required)
+      # 说明: 大纲数据 Schema
+  
+  # Word 模板文件路径配置
+  # 说明: 所有路径相对于项目根目录
+  # 特殊情况: 如需课程特定模板，可覆盖这些路径
+  templates:
+    lesson: "templates/lesson/lesson.docx"
+      # 类型: string (path, required)
+      # 说明: 教案 Word 模板文件
+    
+    cover: "templates/cover/cover.docx"
+      # 类型: string (path, required)
+      # 说明: 首页 Word 模板文件
+    
+    outline: "templates/outline/outline.docx"
+      # 类型: string (path, required)
+      # 说明: 大纲 Word 模板文件
+  
+  # 课程数据目录配置
+  # 说明: 所有路径相对于课程目录（course.yml 所在目录）
+  data_dirs:
+    lessons: "lessons/"
+      # 类型: string (path, required)
+      # 说明: 教案数据文件存放目录
+    
+    cover: "cover/"
+      # 类型: string (path, required)
+      # 说明: 首页数据文件存放目录
+    
+    outline: "outline/"
+      # 类型: string (path, required)
+      # 说明: 大纲数据文件存放目录
+    
+    output: "output/"
+      # 类型: string (path, required)
+      # 说明: 生成的 Word 文档输出目录
+
+# ============================================================
+# 课程状态跟踪 (Status Tracking)
+# ============================================================
 status:
-  outline_completed: true                  # 大纲是否完成
-  cover_completed: true                    # 首页是否完成
-  lessons_completed: 8                     # 已完成的教案数
-  lessons_total: 16                        # 总教案数
-  last_updated: "2024-10-05"              # 最后更新日期
+  outline_completed: false
+    # 类型: boolean (required)
+    # 说明: 课程大纲是否已完成
+  
+  cover_completed: false
+    # 类型: boolean (required)
+    # 说明: 课程首页是否已完成
+  
+  lessons_completed: 0
+    # 类型: integer (required)
+    # 说明: 已完成的教案数量
+  
+  lessons_total: 16
+    # 类型: integer (required)
+    # 说明: 计划的教案总数（通常等于 total_weeks）
+  
+  last_updated: "2025-10-05"
+    # 类型: string (date, required)
+    # 格式: YYYY-MM-DD
+    # 说明: 最后更新日期
 
-# 模板配置
-templates:
-  outline: "templates/outline/default-outline.docx"
-  cover: "templates/cover/default-cover.docx"
-  lesson: "templates/lesson/default-lesson.docx"
+# ============================================================
+# 课程描述和目标 (Description & Objectives)
+# ============================================================
+description: "本课程介绍字体设计的基础知识和实践技能"
+  # 类型: string (optional)
+  # 说明: 课程简介，用于课程说明文档
 
-# 课程资源
+objectives:
+  # 类型: list[string] (optional)
+  # 说明: 课程教学目标列表
+  - "理解字体设计的基本原理"
+  - "掌握字体设计工具的使用"
+  - "能够独立设计简单的字体"
+
+# ============================================================
+# 课程资源 (Resources) - 可选
+# ============================================================
 resources:
-  textbook: "《字体设计基础》"              # 教材
-  reference_books:                         # 参考书
-    - "《西文字体》"
-    - "《中文字体设计》"
-  online_resources:                        # 在线资源
-    - url: "https://example.com/fonts"
-      description: "字体设计资源库"
+  textbook: "《字体设计基础》，张三著，出版社，2024"
+    # 类型: string (optional)
+    # 说明: 主教材信息
+  
+  reference_books:
+    # 类型: list[string] (optional)
+    # 说明: 参考书目列表
+    - "《西文字体设计》，李四著"
+    - "《中文字体设计》，王五著"
+  
+  online_resources:
+    # 类型: list[object] (optional)
+    # 说明: 在线资源列表
+    - url: "https://fonts.google.com"
+      description: "Google Fonts - 开源字体库"
+    - url: "https://www.typewolf.com"
+      description: "Typewolf - 字体设计灵感"
 
-# 评分标准
+# ============================================================
+# 评分标准 (Grading) - 可选
+# ============================================================
 grading:
-  attendance: 10                           # 出勤 10%
-  homework: 30                             # 作业 30%
-  midterm: 20                              # 期中 20%
-  final: 40                                # 期末 40%
+  attendance: 10
+    # 类型: integer (optional)
+    # 范围: 0-100
+    # 说明: 出勤分数占比（百分比）
+  
+  homework: 30
+    # 类型: integer (optional)
+    # 说明: 作业分数占比
+  
+  midterm: 20
+    # 类型: integer (optional)
+    # 说明: 期中考试占比
+  
+  final: 40
+    # 类型: integer (optional)
+    # 说明: 期末考试占比
+  
+  # 注意: 所有占比之和应等于 100
 
-# 元数据
+# ============================================================
+# 元数据 (Metadata)
+# ============================================================
 metadata:
-  created_at: "2024-10-01"                 # 创建时间
-  updated_at: "2024-10-05"                 # 更新时间
-  version: "1.0"                           # 版本号
-  created_by: "lesson-weaver-agent"        # 创建者
+  created_at: "2025-10-05"
+    # 类型: string (date, required)
+    # 格式: YYYY-MM-DD
+    # 说明: 课程创建日期
+  
+  updated_at: "2025-10-05"
+    # 类型: string (date, required)
+    # 格式: YYYY-MM-DD
+    # 说明: 最后修改日期
+  
+  version: "2.0"
+    # 类型: string (required)
+    # 格式: major.minor
+    # 说明: course.yml 格式版本号
+  
+  created_by: "course_manager"
+    # 类型: string (required)
+    # 说明: 创建者（通常是工具名或用户名）
+
+# ===================================================================
+# Schema 版本历史
+# ===================================================================
+# v1.0 (2025-10-05):
+#   - 初始版本
+#   - 定义基本课程元数据结构
+#   - 明确路径引用规则
+#   - 集成 Schema-Driven Architecture
+# ===================================================================

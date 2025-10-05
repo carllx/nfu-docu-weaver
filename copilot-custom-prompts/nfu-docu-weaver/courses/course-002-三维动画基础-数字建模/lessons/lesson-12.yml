@@ -1,0 +1,128 @@
+# ===================================================================
+#           第12周教案 - 材质与纹理（下）+ 渲染与输出（上）
+# ===================================================================
+# 课程: 三维动画基础-数字建模
+# 章节: 第5章 材质与纹理（续2学时）+ 第6章 渲染与输出（前2学时）
+# 学时: 4学时（理论2，实践2）
+# ===================================================================
+
+# --- 课程与课次基本信息 ---
+lesson_number: "12"
+lesson_title: "第12次课教案"
+course_name: "三维动画基础-数字建模"
+
+# --- 课次核心内容定义 ---
+chapter_info:
+  value: "第5章 材质与纹理（续）+ 第6章 渲染与输出"
+lesson_content:
+  value: "5.3 纹理与UV；6.1 软件渲染器概述；6.2 Arnold Renderer基础"
+class_schedule:
+  value: "第 12周，星期 二、四、五 ，第12-15、2-5、8-11节；"
+class_hours:
+  total: "4"
+  breakdown: "（理论2学时，实践2学时）"
+
+# --- 教学目标体系 ---
+supported_course_objectives:
+  value: |
+    1. 掌握纹理贴图和UV映射的基本概念，理解纹理在材质表现中的作用；了解Arnold渲染器的基本原理和工作流程。支持课程知识目标(3)(4)，对应毕业要求2、3。
+    2. 能够为模型展开UV并应用纹理贴图；掌握Arnold渲染器的基本设置和渲染输出方法。支撑课程能力目标(2)(3)，对应毕业要求4。
+    3. 培养学生对纹理细节的关注和处理能力；理解渲染设置对最终画质的影响。支撑课程素质目标(1)(4)，对应毕业要求3。
+    4. 在实践中养成规范化的UV制作和渲染输出流程习惯。支撑课程素质目标(4)，对应毕业要求1。
+teaching_aims:
+  knowledge_aim: "了解UV映射的概念和原理；掌握纹理贴图的类型（漫反射贴图、法线贴图、粗糙度贴图等）；理解Arnold渲染器的工作原理和基本设置；掌握渲染输出的格式和参数。"
+  ability_aim: "能够使用Maya的UV编辑器展开和调整UV；能够应用纹理贴图到材质通道；能够设置Arnold渲染参数并输出高质量图像；能够解决基本的UV变形和渲染问题。"
+  quality_aim: "培养对纹理细节和画面质量的高标准要求；学会在UV制作和渲染设置中权衡质量与效率；在实践中体会完整工作流程的重要性。"
+  process_and_method_aim:
+    value: '1. 采用理论讲解与实例操作相结合，逐步建立完整的材质-纹理-渲染工作流认知；2. 运用"演示-实践-问题解决"教学法，培养学生的实际操作能力；3. 鼓励学生总结UV制作和渲染输出的规范流程。'
+key_and_difficult_points:
+  key_points: "UV映射的概念和展开方法；纹理贴图的应用流程；Arnold渲染器的核心设置（采样、光追、降噪）；渲染输出的格式和参数选择。"
+  difficult_points: "如何展开UV减少变形和接缝；如何正确连接纹理节点到材质通道；如何平衡渲染质量与渲染时间；如何解决常见的渲染问题（噪点、黑块等）。"
+
+# --- 课前准备 ---
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 周京.《Maya Arnold材质灯光渲染技术从入门到实践》[M].北京：清华大学出版社,2025.01. (UV与纹理、Arnold渲染器章节)。"
+  recommended_reading_list:
+    value: "[2] 来阳.《中文版Maya 2024基础培训教程》[M].北京：人民邮电出版社,2025.08. (纹理与UV、渲染输出章节)。"
+  pre_class_reflection_questions:
+    value: "[3] ①思考：为什么三维模型需要UV展开？②什么因素会影响最终渲染图的质量？"
+  other_pre_class_preparation:
+    value: "[4] 准备好上周完成的材质作品，准备为其添加纹理贴图并进行最终渲染。"
+
+# --- 教学方法与过程设计 ---
+teaching_methods:
+  value: "讲授法+演示法+任务驱动法+问题解决法"
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示两组对比：一组是只有纯色材质的模型；另一组是应用了丰富纹理贴图（木纹、金属划痕、布料纤维等）的同一模型。引导学生观察纹理对材质真实感和细节表现的巨大提升作用。同时展示不同渲染质量设置下的图像对比，让学生感受渲染设置的重要性。"
+    design_details:
+      organization: "教师展示对比案例，引导观察；学生讨论纹理和渲染质量的影响。"
+      methods: "对比展示+案例分析+观察讨论"
+      time_arrangement: "10分钟"
+      in_class_thinking: "纹理贴图和材质参数，哪个对模型的最终表现更重要？渲染质量的提升需要付出什么代价？"
+      ideological_integration: "通过纹理细节的展示，引导学生认识细节对品质的决定性作用；培养精益求精的职业态度。"
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "快速回顾上周学习的材质基础知识，展示部分学生的材质作业。提问：我们已经学会了用参数控制材质，但如何让材质有更丰富的细节和真实感？引出纹理贴图这个关键技术。同时提问：做好了模型、材质、灯光和镜头，最后一步是什么？引出渲染输出的主题。"
+    design_details:
+      organization: "教师提问并展示作品，学生回答和思考。"
+      methods: "问答法+作品点评+承上启下"
+      time_arrangement: "10分钟"
+      in_class_thinking: "从建模到最终成片，我们已经学习了哪些环节？还差什么？"
+      ideological_integration: "强调完整工作流程的重要性，培养学生的系统性思维和全局观念。"
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "【第一部分：纹理与UV（50分钟）】1. UV映射基础：讲解UV的概念（将3D表面展平到2D平面），演示UV编辑器的基本操作。2. UV展开方法：演示自动展开、平面投影、圆柱投影等方法，讲解如何减少UV变形。3. 纹理应用：在Maya中演示如何创建File节点，连接纹理贴图到材质的Base Color通道，演示纹理在模型上的显示效果。4. 多通道纹理：讲解漫反射贴图、法线贴图、粗糙度贴图等不同类型贴图的作用和应用方法。【第二部分：Arnold渲染器（30分钟）】1. 渲染器概述：简要介绍软件渲染与硬件渲染的区别，Arnold渲染器的特点。2. 渲染设置：在Render Settings中演示Arnold的核心参数（Camera AA采样、Diffuse/Specular/Transmission采样、光追深度、降噪器设置）。3. 渲染输出：讲解图像格式选择（PNG、EXR、JPG）、分辨率设置、输出路径配置。4. IPR vs 最终渲染：对比交互式渲染和批渲染的使用场景。"
+    design_details:
+      organization: "教师结合Maya软件进行理论讲解和实时演示，展示操作步骤和效果变化。"
+      methods: "讲授法+软件演示+分步教学"
+      time_arrangement: "80分钟"
+      in_class_thinking: "UV展开的目的是什么？为什么要用多张不同的贴图？渲染采样数越高越好吗？"
+      ideological_integration: "通过讲解UV和渲染的技术原理，培养学生的科学思维；强调在质量与效率之间寻找平衡的智慧。"
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "教师提出讨论问题：如果要为一个有机模型（如人物角色）和一个机械模型（如机器人）制作纹理，UV展开的策略有什么不同？渲染它们时需要注意什么差异？学生分组讨论并分享见解。"
+    design_details:
+      organization: "学生分组讨论，分享经验和想法，教师引导和总结。"
+      methods: "问题讨论+经验分享+对比分析"
+      time_arrangement: "15分钟"
+      in_class_thinking: "不同类型的模型，在UV制作和渲染上有什么共性和差异？"
+      ideological_integration: "通过分类思考培养学生的分析能力和灵活应变能力；引导学生理解具体问题具体分析的方法论。"
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "综合实践任务：学生选择一个简单模型（可以是之前的作业），完成完整的纹理-渲染流程：1. 展开UV（如果还没有）。2. 在PS或其他软件中准备简单的纹理贴图，或使用网络资源。3. 在Maya中应用纹理到材质。4. 设置Arnold渲染参数（中等质量）。5. 渲染输出一张最终图像。教师巡回指导，重点帮助学生解决UV变形和渲染问题。"
+    design_details:
+      organization: "学生独立完成完整流程，教师巡回指导，提供技术支持和问题解决建议。"
+      methods: "任务驱动法+完整流程实践+问题解决指导"
+      time_arrangement: "60分钟"
+      in_class_thinking: "我的UV展开是否合理？纹理是否正确显示？渲染质量是否达到预期？如果有问题，原因是什么？"
+      ideological_integration: "在完整流程实践中培养学生的项目管理能力和问题解决能力；通过克服技术难题增强自信心。"
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "教师总结本节课的核心内容：UV映射的概念和方法、纹理贴图的应用、Arnold渲染器的基本设置和输出流程。展示2-3位学生的课堂渲染作品，点评纹理应用和渲染质量。预告下周将继续深入渲染技术，并开始综合实践项目。"
+    design_details:
+      organization: "教师总结，展示优秀作品，学生记录要点。"
+      methods: "归纳总结法+作品展示+点评激励"
+      time_arrangement: "5分钟"
+      in_class_thinking: "今天学习的UV和渲染知识，让我对完整的三维制作流程有了什么新的认识？"
+      ideological_integration: "鼓励学生建立完整的工作流程意识，强调每个环节对最终结果的贡献；培养全局思维和系统化工作习惯。"
+
+# --- 课后作业 ---
+after_class_assignments:
+  value: |
+    1. 为自己的作品制作完整的纹理贴图集（至少包含漫反射和粗糙度贴图），应用到模型并渲染高质量成品图。
+    2. 总结UV制作和Arnold渲染的规范流程，撰写操作要点笔记。
+
+# --- 页脚签名信息 ---
+signature_info:
+  author_name:
+    value: "林昕"
+  author_date:
+    value: "2025年10月"
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

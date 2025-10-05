@@ -887,13 +887,14 @@ class DocumentGenerator:
             if 'font_color' in base_format:
                 run.font.color.rgb = base_format['font_color']
             
-            # 粗体、斜体、下划线（保留 None 状态）
-            if 'font_bold' in base_format:
-                run.font.bold = base_format['font_bold']
-            if 'font_italic' in base_format:
-                run.font.italic = base_format['font_italic']
-            if 'font_underline' in base_format:
-                run.font.underline = base_format['font_underline']
+            # 🔑 关键修复：不继承粗体、斜体、下划线格式，避免格式污染
+            # 注释掉以下代码，防止替换文本继承前面的格式
+            # if 'font_bold' in base_format:
+            #     run.font.bold = base_format['font_bold']
+            # if 'font_italic' in base_format:
+            #     run.font.italic = base_format['font_italic']
+            # if 'font_underline' in base_format:
+            #     run.font.underline = base_format['font_underline']
             
             # 其他格式
             if 'font_strike' in base_format:
@@ -946,20 +947,117 @@ class DocumentGenerator:
     
     def add_formatted_text_to_paragraph(self, paragraph, text, base_format):
         """向段落添加格式化文本"""
+        # 🔑 关键修复：在清空内容前保存原始段落格式
+        original_format = None
+        if paragraph.paragraph_format:
+            original_format = {
+                'left_indent': paragraph.paragraph_format.left_indent,
+                'right_indent': paragraph.paragraph_format.right_indent,
+                'first_line_indent': paragraph.paragraph_format.first_line_indent,
+                'alignment': paragraph.paragraph_format.alignment,
+                'space_before': paragraph.paragraph_format.space_before,
+                'space_after': paragraph.paragraph_format.space_after,
+                'line_spacing': paragraph.paragraph_format.line_spacing
+            }
+        
         # 清空现有内容
         paragraph.clear()
         
-        # 按行分割文本（保持 \n 作为换行）
-        lines = text.split('\n')
+        # 🔑 关键修复：恢复段落格式，确保缩进保持一致
+        if original_format and paragraph.paragraph_format:
+            target_format = paragraph.paragraph_format
+            if original_format['left_indent'] is not None:
+                target_format.left_indent = original_format['left_indent']
+            if original_format['right_indent'] is not None:
+                target_format.right_indent = original_format['right_indent']
+            if original_format['first_line_indent'] is not None:
+                target_format.first_line_indent = original_format['first_line_indent']
+            if original_format['alignment'] is not None:
+                target_format.alignment = original_format['alignment']
+            if original_format['space_before'] is not None:
+                target_format.space_before = original_format['space_before']
+            if original_format['space_after'] is not None:
+                target_format.space_after = original_format['space_after']
+            if original_format['line_spacing'] is not None:
+                target_format.line_spacing = original_format['line_spacing']
         
-        for i, line in enumerate(lines):
-            if i > 0:
-                # 添加换行符，并应用基础格式（保持缩进和字体）
-                newline_run = paragraph.add_run('\n')
-                self.apply_run_format(newline_run, base_format)
+        # 🔑 关键修复：处理换行符的正确方式
+        # 如果文本包含换行符，需要特殊处理以保持缩进
+        # 注意：这里检测的是实际的换行符，不是字符串 '\n'
+        if '\n' in text:
+            # 🔑 新思路：将多行文本分割成多个独立的段落
+            # 每个段落都有自己的首行缩进，这样能确保每行都正确缩进
+            lines = text.split('\n')
             
-            # 解析Markdown格式
-            segments = self.parse_markdown_formatting(line)
+            # 处理第一行
+            first_line = lines[0]
+            segments = self.parse_markdown_formatting(first_line)
+            
+            for segment in segments:
+                run = paragraph.add_run(segment['text'])
+                
+                # 应用基础格式
+                self.apply_run_format(run, base_format)
+                
+                # 应用Markdown格式（只在有 Markdown 标记时覆盖）
+                if segment['bold']:
+                    run.font.bold = True
+                if segment['italic']:
+                    run.font.italic = True
+            
+            # 处理后续行，每行创建一个新段落
+            for line in lines[1:]:
+                if line.strip():  # 跳过空行
+                    # 🔑 关键修复：在表格单元格中正确创建新段落
+                    # 获取当前段落的父容器
+                    parent = paragraph._element.getparent()
+                    
+                    # 创建新段落元素
+                    from docx.oxml import OxmlElement
+                    from docx.oxml.ns import qn
+                    
+                    new_para_elem = OxmlElement('w:p')
+                    parent.append(new_para_elem)
+                    
+                    # 创建段落对象
+                    from docx.text.paragraph import Paragraph
+                    new_para = Paragraph(new_para_elem, parent)
+                    
+                    # 复制段落格式
+                    if original_format and new_para.paragraph_format:
+                        target_format = new_para.paragraph_format
+                        if original_format['left_indent'] is not None:
+                            target_format.left_indent = original_format['left_indent']
+                        if original_format['right_indent'] is not None:
+                            target_format.right_indent = original_format['right_indent']
+                        if original_format['first_line_indent'] is not None:
+                            target_format.first_line_indent = original_format['first_line_indent']
+                        if original_format['alignment'] is not None:
+                            target_format.alignment = original_format['alignment']
+                        if original_format['space_before'] is not None:
+                            target_format.space_before = original_format['space_before']
+                        if original_format['space_after'] is not None:
+                            target_format.space_after = original_format['space_after']
+                        if original_format['line_spacing'] is not None:
+                            target_format.line_spacing = original_format['line_spacing']
+                    
+                    # 添加文本到新段落
+                    segments = self.parse_markdown_formatting(line)
+                    
+                    for segment in segments:
+                        run = new_para.add_run(segment['text'])
+                        
+                        # 应用基础格式
+                        self.apply_run_format(run, base_format)
+                        
+                        # 应用Markdown格式（只在有 Markdown 标记时覆盖）
+                        if segment['bold']:
+                            run.font.bold = True
+                        if segment['italic']:
+                            run.font.italic = True
+        else:
+            # 没有换行符，正常处理
+            segments = self.parse_markdown_formatting(text)
             
             for segment in segments:
                 run = paragraph.add_run(segment['text'])
@@ -981,24 +1079,365 @@ class DocumentGenerator:
         original_text = paragraph.text
         self.log(f"处理段落: {original_text[:50]}...")
         
-        # ⚠️ 关键：在 clear() 之前获取格式，因为 clear() 会删除所有 runs
-        base_format = self.get_base_run_format(paragraph)
+        # 🔑 关键修复：检查是否包含占位符
+        if '{{' not in original_text or '}}' not in original_text:
+            return False
         
-        # 替换占位符
-        processed_text = self.replace_placeholders(original_text, data)
+        # 🔑 关键修复：只替换占位符，保留前后文字和格式
+        return self.replace_placeholders_in_runs(paragraph, data)
+    
+    def replace_placeholders_in_runs(self, paragraph, data):
+        """在段落中替换占位符，精确保留每个run的格式
         
-        if processed_text != original_text:
-            self.log(f"文本已替换: {processed_text[:50]}...")
+        关键改进：
+        1. 处理跨run的占位符（Word经常将{{key}}拆分成多个run）
+        2. 保留每个run的独立格式（粗体、斜体等）
+        3. 占位符前后的文字格式不受影响
+        4. 占位符替换值使用其自身格式，不继承前面的装饰性格式
+        """
+        import re
+        from docx.oxml import OxmlElement
+        from docx.text.paragraph import Paragraph
+        
+        placeholder_pattern = r'\{\{([^}]+)\}\}'
+        
+        # 保存段落格式
+        original_para_format = None
+        if paragraph.paragraph_format:
+            original_para_format = {
+                'left_indent': paragraph.paragraph_format.left_indent,
+                'right_indent': paragraph.paragraph_format.right_indent,
+                'first_line_indent': paragraph.paragraph_format.first_line_indent,
+                'alignment': paragraph.paragraph_format.alignment,
+                'space_before': paragraph.paragraph_format.space_before,
+                'space_after': paragraph.paragraph_format.space_after,
+                'line_spacing': paragraph.paragraph_format.line_spacing
+            }
+        
+        # 先合并所有run的文本，检查是否包含占位符
+        full_text = paragraph.text
+        if not re.search(placeholder_pattern, full_text):
+            return False
+        
+        self.log(f"处理段落: {full_text[:100]}...")
+        
+        # 收集所有run及其格式信息和文本位置
+        runs_info = []
+        current_pos = 0
+        for run in paragraph.runs:
+            run_text = run.text
+            run_format = {
+                'font_name': run.font.name,
+                'font_size': run.font.size,
+                'font_bold': run.font.bold,
+                'font_italic': run.font.italic,
+                'font_underline': run.font.underline,
+                'font_color': run.font.color.rgb if run.font.color.rgb else None,
+            }
+            runs_info.append({
+                'text': run_text,
+                'format': run_format,
+                'start_pos': current_pos,
+                'end_pos': current_pos + len(run_text)
+            })
+            current_pos += len(run_text)
+        
+        # 找到所有占位符的位置
+        placeholder_matches = list(re.finditer(placeholder_pattern, full_text))
+        
+        # 构建新的run数据
+        new_runs_data = []
+        last_processed_pos = 0
+        
+        for match in placeholder_matches:
+            match_start = match.start()
+            match_end = match.end()
+            key_path = match.group(1)
             
-            # 检查是否需要分割段落（\n\n 表示段落分割）
-            if '\n\n' in processed_text:
-                return self.split_into_multiple_paragraphs(paragraph, processed_text, base_format, data)
-            else:
-                # 单段落处理
-                self.add_formatted_text_to_paragraph(paragraph, processed_text, base_format)
-                return True
+            # 1. 添加占位符前的文本（保留原格式）
+            if match_start > last_processed_pos:
+                before_text = full_text[last_processed_pos:match_start]
+                # 找到这段文本对应的run格式
+                for run_info in runs_info:
+                    if run_info['start_pos'] <= last_processed_pos < run_info['end_pos']:
+                        # 从这个run开始
+                        segment_start = last_processed_pos
+                        while segment_start < match_start:
+                            # 找到当前位置对应的run
+                            for ri in runs_info:
+                                if ri['start_pos'] <= segment_start < ri['end_pos']:
+                                    # 提取这个run范围内的文本
+                                    segment_end = min(match_start, ri['end_pos'])
+                                    segment_text = full_text[segment_start:segment_end]
+                                    if segment_text:
+                                        new_runs_data.append({
+                                            'text': segment_text,
+                                            'format': ri['format'].copy()
+                                        })
+                                    segment_start = segment_end
+                                    break
+                        break
+            
+            # 2. 添加替换值（使用占位符位置的格式，但去除装饰）
+            replacement_value = self.get_nested_value(data, key_path)
+            
+            if replacement_value:
+                # 找到占位符所在位置的格式（取占位符开始位置的格式）
+                placeholder_format = None
+                for run_info in runs_info:
+                    if run_info['start_pos'] <= match_start < run_info['end_pos']:
+                        placeholder_format = run_info['format'].copy()
+                        break
+                
+                # 如果没找到，使用最后一个非空run的格式
+                if not placeholder_format:
+                    for run_info in reversed(runs_info):
+                        if run_info['format'].get('font_name'):
+                            placeholder_format = run_info['format'].copy()
+                            break
+                
+                # 确保有格式
+                if not placeholder_format:
+                    placeholder_format = {}
+                
+                # 去除装饰性格式
+                placeholder_format['font_bold'] = False
+                placeholder_format['font_italic'] = False
+                placeholder_format['font_underline'] = False
+                
+                # 处理换行符
+                if '\n' in replacement_value:
+                    lines = replacement_value.split('\n')
+                    
+                    # 第一行添加到当前段落
+                    if lines[0]:
+                        new_runs_data.append({
+                            'text': lines[0],
+                            'format': placeholder_format,
+                            'is_replacement': True
+                        })
+                    
+                    # 后续行创建新段落
+                    for line in lines[1:]:
+                        if line.strip():
+                            new_runs_data.append({
+                                'text': line,
+                                'format': placeholder_format,
+                                'is_replacement': True,
+                                'new_paragraph': True
+                            })
+                else:
+                    new_runs_data.append({
+                        'text': replacement_value,
+                        'format': placeholder_format,
+                        'is_replacement': True
+                    })
+            
+            last_processed_pos = match_end
         
-        return False
+        # 3. 添加最后一个占位符之后的文本
+        if last_processed_pos < len(full_text):
+            after_text = full_text[last_processed_pos:]
+            segment_start = last_processed_pos
+            while segment_start < len(full_text):
+                for ri in runs_info:
+                    if ri['start_pos'] <= segment_start < ri['end_pos']:
+                        segment_end = min(len(full_text), ri['end_pos'])
+                        segment_text = full_text[segment_start:segment_end]
+                        if segment_text:
+                            new_runs_data.append({
+                                'text': segment_text,
+                                'format': ri['format'].copy()
+                            })
+                        segment_start = segment_end
+                        break
+        
+        # 重建段落内容
+        paragraph.clear()
+        
+        # 恢复段落格式
+        if original_para_format and paragraph.paragraph_format:
+            target_format = paragraph.paragraph_format
+            for key, value in original_para_format.items():
+                if value is not None:
+                    setattr(target_format, key, value)
+        
+        # 添加run到段落
+        current_paragraph = paragraph
+        
+        for run_data in new_runs_data:
+            # 如果需要创建新段落
+            if run_data.get('new_paragraph'):
+                parent = paragraph._element.getparent()
+                new_para_elem = OxmlElement('w:p')
+                parent.append(new_para_elem)
+                current_paragraph = Paragraph(new_para_elem, parent)
+                
+                # 复制段落格式
+                if original_para_format and current_paragraph.paragraph_format:
+                    target_format = current_paragraph.paragraph_format
+                    for key, value in original_para_format.items():
+                        if value is not None:
+                            setattr(target_format, key, value)
+            
+            # 添加run
+            run = current_paragraph.add_run(run_data['text'])
+            
+            # 应用格式
+            run_format = run_data['format']
+            if run_format.get('font_name'):
+                run.font.name = run_format['font_name']
+                
+                # 设置所有字体类型（确保中文显示正确）
+                from docx.oxml.shared import OxmlElement
+                from docx.oxml.ns import qn
+                
+                rPr = run._element.get_or_add_rPr()
+                rFonts = rPr.find(qn('w:rFonts'))
+                if rFonts is None:
+                    rFonts = OxmlElement('w:rFonts')
+                    rPr.append(rFonts)
+                
+                font_name = run_format['font_name']
+                rFonts.set(qn('w:ascii'), font_name)
+                rFonts.set(qn('w:hAnsi'), font_name)
+                rFonts.set(qn('w:eastAsia'), font_name)
+                rFonts.set(qn('w:cs'), font_name)
+            
+            if run_format.get('font_size'):
+                run.font.size = run_format['font_size']
+            
+            if run_format.get('font_color'):
+                run.font.color.rgb = run_format['font_color']
+            
+            # 只在明确为True时设置粗体、斜体、下划线
+            if run_format.get('font_bold') is True:
+                run.font.bold = True
+            elif run_format.get('font_bold') is False:
+                run.font.bold = False
+            
+            if run_format.get('font_italic') is True:
+                run.font.italic = True
+            elif run_format.get('font_italic') is False:
+                run.font.italic = False
+            
+            if run_format.get('font_underline'):
+                run.font.underline = run_format['font_underline']
+        
+        self.log(f"替换完成，共创建 {len([r for r in new_runs_data if not r.get('new_paragraph')])} 个run")
+        return True
+    
+    def replace_text_in_runs(self, paragraph, start_pos, end_pos, replacement_value, base_format):
+        """在指定的位置替换文本"""
+        # 🔑 简化逻辑：直接替换占位符文本
+        # 找到包含占位符的 run 并替换
+        current_pos = 0
+        
+        for run in paragraph.runs:
+            run_start = current_pos
+            run_end = current_pos + len(run.text)
+            
+            if run_start <= start_pos and run_end >= end_pos:
+                # 这个 run 包含占位符
+                before_text = run.text[:start_pos - run_start]
+                after_text = run.text[end_pos - run_start:]
+                
+                # 替换文本
+                run.text = before_text + (replacement_value or '') + after_text
+                break
+            
+            current_pos = run_end
+    
+    def copy_run_format(self, source_run, target_run):
+        """复制 run 的格式"""
+        try:
+            # 复制字体格式
+            if source_run.font.name:
+                target_run.font.name = source_run.font.name
+            if source_run.font.size:
+                target_run.font.size = source_run.font.size
+            if source_run.font.bold is not None:
+                target_run.font.bold = source_run.font.bold
+            if source_run.font.italic is not None:
+                target_run.font.italic = source_run.font.italic
+            if source_run.font.underline is not None:
+                target_run.font.underline = source_run.font.underline
+            if source_run.font.color.rgb:
+                target_run.font.color.rgb = source_run.font.color.rgb
+        except Exception as e:
+            self.log(f"复制run格式时出错: {str(e)}")
+    
+    def create_replacement_runs(self, paragraph, replacement_value, base_format):
+        """创建替换文本的 runs"""
+        runs = []
+        
+        if not replacement_value:
+            return runs
+        
+        # 如果包含换行符，需要特殊处理
+        if '\n' in replacement_value:
+            lines = replacement_value.split('\n')
+            
+            for i, line in enumerate(lines):
+                if line.strip():  # 跳过空行
+                    # 创建新段落（如果需要）
+                    if i > 0:
+                        # 获取当前段落的格式
+                        original_format = None
+                        if paragraph.paragraph_format:
+                            original_format = {
+                                'left_indent': paragraph.paragraph_format.left_indent,
+                                'right_indent': paragraph.paragraph_format.right_indent,
+                                'first_line_indent': paragraph.paragraph_format.first_line_indent,
+                                'alignment': paragraph.paragraph_format.alignment,
+                                'space_before': paragraph.paragraph_format.space_before,
+                                'space_after': paragraph.paragraph_format.space_after,
+                                'line_spacing': paragraph.paragraph_format.line_spacing
+                            }
+                        
+                        # 创建新段落
+                        parent = paragraph._element.getparent()
+                        from docx.oxml import OxmlElement
+                        new_para_elem = OxmlElement('w:p')
+                        parent.append(new_para_elem)
+                        
+                        from docx.text.paragraph import Paragraph
+                        new_para = Paragraph(new_para_elem, parent)
+                        
+                        # 复制段落格式
+                        if original_format and new_para.paragraph_format:
+                            target_format = new_para.paragraph_format
+                            if original_format['left_indent'] is not None:
+                                target_format.left_indent = original_format['left_indent']
+                            if original_format['right_indent'] is not None:
+                                target_format.right_indent = original_format['right_indent']
+                            if original_format['first_line_indent'] is not None:
+                                target_format.first_line_indent = original_format['first_line_indent']
+                            if original_format['alignment'] is not None:
+                                target_format.alignment = original_format['alignment']
+                            if original_format['space_before'] is not None:
+                                target_format.space_before = original_format['space_before']
+                            if original_format['space_after'] is not None:
+                                target_format.space_after = original_format['space_after']
+                            if original_format['line_spacing'] is not None:
+                                target_format.line_spacing = original_format['line_spacing']
+                        
+                        # 在新段落中添加文本
+                        run = new_para.add_run(line)
+                        self.apply_run_format(run, base_format)
+                        runs.append(run)
+                    else:
+                        # 第一行，在当前段落中添加
+                        run = paragraph.add_run(line)
+                        self.apply_run_format(run, base_format)
+                        runs.append(run)
+        else:
+            # 没有换行符，正常处理
+            run = paragraph.add_run(replacement_value)
+            self.apply_run_format(run, base_format)
+            runs.append(run)
+        
+        return runs
     
     def split_into_multiple_paragraphs(self, original_paragraph, text, base_format, data):
         """将文本分割成多个段落"""
@@ -1075,22 +1514,63 @@ class DocumentGenerator:
         return result
     
     def get_nested_value(self, data, key_path):
-        """获取嵌套字典中的值"""
-        keys = key_path.strip().split('.')
+        """获取嵌套字典中的值，支持数组索引"""
+        # 处理数组索引，如 main_teaching_segments[0].design_details.organization
+        keys = []
+        parts = key_path.strip().split('.')
+        
+        for part in parts:
+            if '[' in part and ']' in part:
+                # 处理数组索引
+                field_name = part.split('[')[0]
+                index_str = part.split('[')[1].split(']')[0]
+                try:
+                    index = int(index_str)
+                    keys.append((field_name, index))
+                except ValueError:
+                    return f'{{{{{key_path}}}}}'
+            else:
+                keys.append(part)
+        
         value = data
         
         try:
             for key in keys:
-                if isinstance(value, dict):
-                    value = value.get(key, f'{{{{{key_path}}}}}')
+                if isinstance(key, tuple):
+                    # 处理数组索引
+                    field_name, index = key
+                    if isinstance(value, dict) and field_name in value:
+                        if isinstance(value[field_name], list) and 0 <= index < len(value[field_name]):
+                            value = value[field_name][index]
+                        else:
+                            return f'{{{{{key_path}}}}}'
+                    else:
+                        return f'{{{{{key_path}}}}}'
                 else:
-                    return f'{{{{{key_path}}}}}'
+                    # 处理普通字段
+                    if isinstance(value, dict):
+                        value = value.get(key, f'{{{{{key_path}}}}}')
+                    else:
+                        return f'{{{{{key_path}}}}}'
             
             # 如果值是列表，转换为换行分隔的字符串
             if isinstance(value, list):
                 return '\n'.join(str(item) for item in value)
             
-            return str(value) if value is not None else f'{{{{{key_path}}}}}'
+            # 处理字符串值
+            if isinstance(value, str):
+                # 处理转义符：将 \n 转换为实际换行符
+                processed_value = value.replace('\\n', '\n')
+                return processed_value
+            
+            # 处理其他类型
+            if value is not None:
+                # 如果是字典，尝试提取 value 字段
+                if isinstance(value, dict) and 'value' in value:
+                    return str(value['value']).replace('\\n', '\n')
+                return str(value).replace('\\n', '\n')
+            
+            return f'{{{{{key_path}}}}}'
         
         except Exception as e:
             self.log(f"获取值时出错 {key_path}: {str(e)}")

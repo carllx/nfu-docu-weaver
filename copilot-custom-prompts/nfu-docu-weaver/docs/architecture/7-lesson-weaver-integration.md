@@ -1,14 +1,20 @@
 # 7. Lesson-Weaver Agent Integration (Agent 集成架构)
 
-**版本**: v2.0 (设计稿)  
-**更新日期**: 2025-10-05  
-**状态**: 📝 Design Phase
+**文档版本**: v2.0  
+**最后更新**: 2025-10-05  
+**状态**: ✅ Current  
+**维护者**: @architect.mdc
 
 ---
 
 ## 7.1 概述 (Overview)
 
-本文档定义了 **Lesson-Weaver Agent v2.0** 的架构设计，核心目标是将 **Schema-Driven Architecture** 集成到 AI Agent 工作流中，实现从课程大纲到最终文档的完全自动化、智能化生成流程。
+本文档定义了 **Lesson-Weaver Agent v2.0** 的架构设计与使用指南，核心目标是将 **Schema-Driven Architecture** 和 **主动引导机制** 集成到 AI Agent 工作流中，实现从课程大纲到最终文档的完全自动化、智能化生成流程。
+
+**v2.0核心升级**:
+- ✅ **主动引导**: Agent不仅生成数据，更引导工作流
+- ✅ **状态感知**: 读取course.yml，了解课程上下文
+- ✅ **Schema驱动**: 严格遵循Schema契约生成数据
 
 ### 设计目标
 

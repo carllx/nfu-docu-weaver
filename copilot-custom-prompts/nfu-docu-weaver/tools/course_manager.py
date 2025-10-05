@@ -8,7 +8,12 @@
 - 获取课程信息
 - 更新课程元数据
 
-版本: v1.0.0
+架构:
+- Schema-Driven: 基于 course_schema.yml 的课程元数据管理
+- v2.0 格式: 包含 config 配置节，明确 Schema 和 Template 路径
+- 路径规范: 所有项目级资源路径相对于项目根目录
+
+版本: v2.0.0
 作者: Lesson-Weaver Team
 日期: 2025-10-05
 """
@@ -143,7 +148,7 @@ class CourseManager:
             with open(course_yml_path, 'r', encoding='utf-8') as f:
                 course_data = yaml.safe_load(f)
             
-            # 填充实际数据
+            # 填充实际数据 (v2.0 格式)
             current_time = datetime.now().strftime("%Y-%m-%d")
             
             course_data["course_id"] = course_id
@@ -156,6 +161,7 @@ class CourseManager:
             course_data["status"]["last_updated"] = current_time
             course_data["metadata"]["created_at"] = current_time
             course_data["metadata"]["updated_at"] = current_time
+            course_data["metadata"]["version"] = "2.0"
             
             # 写回 course.yml
             with open(course_yml_path, 'w', encoding='utf-8') as f:

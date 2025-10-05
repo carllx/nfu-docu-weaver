@@ -1,0 +1,128 @@
+# ===================================================================
+#           第11周教案 - 材质与纹理（上）
+# ===================================================================
+# 课程: 三维动画基础-数字建模
+# 章节: 第5章 材质与纹理
+# 学时: 4学时（理论2，实践2）
+# ===================================================================
+
+# --- 课程与课次基本信息 ---
+lesson_number: "11"
+lesson_title: "第11次课教案"
+course_name: "三维动画基础-数字建模"
+
+# --- 课次核心内容定义 ---
+chapter_info:
+  value: "第5章 材质与纹理"
+lesson_content:
+  value: "5.1 材质概述；5.2 材质制作基础；Arnold材质系统简介"
+class_schedule:
+  value: "第 11周，星期 二、四、五 ，第12-15、2-5、8-11节；"
+class_hours:
+  total: "4"
+  breakdown: "（理论2学时，实践2学时）"
+
+# --- 教学目标体系 ---
+supported_course_objectives:
+  value: |
+    1. 掌握三维材质的基本概念、分类和属性，理解材质在模型质感表现中的关键作用。支持课程知识目标(3)，对应毕业要求2、3。
+    2. 熟练掌握Maya Arnold材质系统的基本操作，能够创建和调整常见材质类型。支撑课程能力目标(2)，对应毕业要求4。
+    3. 培养学生对物体表面质感的观察力和表现力，提升作品的真实感和艺术感。支撑课程素质目标(1)，对应毕业要求3。
+    4. 在实践中养成精确调整材质参数的工作习惯，理解材质与灯光的协同关系。支撑课程素质目标(4)，对应毕业要求1。
+teaching_aims:
+  knowledge_aim: "了解材质的基本概念和物理基础（漫反射、镜面反射、折射等）；掌握Arnold材质系统的核心节点（aiStandardSurface等）；理解材质各属性（Base Color、Metalness、Roughness等）的作用。"
+  ability_aim: "能够在Maya中创建和应用Arnold材质；能够调整材质参数实现不同质感（如金属、塑料、木材、布料等）；能够使用基础纹理贴图增强材质表现力。"
+  quality_aim: "培养对真实世界材质的细致观察能力；学会用材质语言表达物体的质感和特性；在实践中体会细节对作品质量的影响。"
+  process_and_method_aim:
+    value: '1. 采用理论讲解与实物对比的教学方法，培养学生的材质观察能力；2. 运用"概念-演示-实践-对比"四步教学法，强化参数调整的理解；3. 鼓励学生拍摄和收集生活中的材质参考，培养自主学习和观察习惯。'
+key_and_difficult_points:
+  key_points: "材质的物理基础概念（PBR工作流）；Arnold aiStandardSurface材质节点的核心参数；常见材质类型的参数配置方法；材质与灯光的协同关系。"
+  difficult_points: "理解Metalness和Roughness对材质外观的影响；如何通过参数调整准确表现真实世界的材质质感；材质在不同灯光环境下的表现差异。"
+
+# --- 课前准备 ---
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 周京.《Maya Arnold材质灯光渲染技术从入门到实践》[M].北京：清华大学出版社,2025.01. (材质基础章节)。"
+  recommended_reading_list:
+    value: "[2] 来阳.《中文版Maya 2024基础培训教程》[M].北京：人民邮电出版社,2025.08. (材质与纹理章节)。"
+  pre_class_reflection_questions:
+    value: "[3] ①观察你周围的物体（如金属杯、木桌、塑料笔），它们的表面有什么不同特点？②为什么有些材质看起来光滑，有些看起来粗糙？"
+  other_pre_class_preparation:
+    value: "[4] 拍摄或收集3-5张不同材质的参考图片，准备用于课堂材质制作练习。"
+
+# --- 教学方法与过程设计 ---
+teaching_methods:
+  value: "讲授法+实物演示法+对比教学法+任务驱动法"
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示两组对比：一组是只有模型和灯光、没有材质的三维场景（模型呈现灰白色）；另一组是添加了丰富材质的同一场景（金属、木材、玻璃等）。同时展示真实世界的照片对比。引导学生感受材质对视觉真实感和艺术表现力的决定性作用。提问：为什么说材质是赋予模型生命的关键？"
+    design_details:
+      organization: "教师展示对比案例，提出思考问题；学生观察、感受并讨论。"
+      methods: "对比导入+案例展示+提问互动"
+      time_arrangement: "15分钟"
+      in_class_thinking: "为什么同一个模型，在有材质和没有材质时，给人的感觉完全不同？"
+      ideological_integration: "通过材质对作品质量的影响，引导学生认识细节和品质的重要性；培养精益求精、追求卓越的工匠精神。"
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: "快速回顾上周学习的摄影机技术要点，展示部分学生的镜头设计作业。提问：一个有好灯光和好镜头的场景，如果模型材质不真实，最终效果会怎样？引出本周主题——材质，这个决定模型真实感的关键因素。"
+    design_details:
+      organization: "教师提问并展示作品，学生回答和思考。"
+      methods: "问答法+作品点评+承上启下"
+      time_arrangement: "10分钟"
+      in_class_thinking: "建模、灯光、镜头、材质，这些环节中哪一个可以被忽略？它们是如何互相影响的？"
+      ideological_integration: "强调创作中细节的累积效应，培养学生对质量的执着追求和对工作的认真态度。"
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "1. 材质物理基础：讲解光与物体表面的交互原理（漫反射、镜面反射、折射），介绍PBR（基于物理的渲染）工作流的核心概念。2. Arnold材质系统：在Maya中演示aiStandardSurface材质节点，详细讲解核心参数组：Base（基础色）、Specular（镜面反射）、Metalness（金属度）、Roughness（粗糙度）、Transmission（透射）等。3. 常见材质制作：逐一演示如何制作金属材质（高Metalness）、塑料材质（低Metalness+中等Roughness）、哑光材质（高Roughness）。4. 材质预览：讲解IPR渲染的使用，实时查看材质调整效果。"
+    design_details:
+      organization: "教师结合PPT讲解理论，同时在Maya中实时演示参数调整和效果变化。"
+      methods: "讲授法+软件演示+实时渲染预览"
+      time_arrangement: "80分钟"
+      in_class_thinking: "Metalness和Roughness这两个参数，分别控制材质的什么特性？它们如何共同决定材质的外观？"
+      ideological_integration: "通过讲解材质的科学原理，培养学生的理工思维；强调技术参数背后的物理规律，引导学生理解技术与自然的关系。"
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "教师展示3-4种真实世界物体的照片（如不锈钢勺、木质餐桌、塑料瓶、陶瓷杯），让学生分组讨论：如果要在Maya中重现这些材质，应该如何设置aiStandardSurface的参数？每组选择一种材质进行分析并分享。教师点评并总结材质观察和分析的方法。"
+    design_details:
+      organization: "学生分组讨论并分析真实材质，代表发言，教师引导和总结。"
+      methods: "实物分析+分组讨论+参数推理"
+      time_arrangement: "20分钟"
+      in_class_thinking: "观察真实材质时，应该关注哪些特征？如何将视觉观察转化为参数设置？"
+      ideological_integration: "通过对真实世界的观察和分析，培养学生的科学观察精神；引导学生在艺术创作中尊重客观规律，追求真实表达。"
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "基础材质制作练习：学生选择课堂提供的简单模型（如球体、立方体组合），或使用自己之前的建模作品，完成以下任务：1. 为模型创建至少3种不同材质（金属、塑料、哑光）。2. 调整参数，使材质看起来尽可能真实。3. 使用IPR实时查看调整效果。4. 渲染最终效果图。教师巡回指导，帮助学生理解参数与视觉效果的对应关系。"
+    design_details:
+      organization: "学生独立操作，教师巡回指导，提供参数调整建议和技术支持。"
+      methods: "任务驱动法+实践操作+个性化指导"
+      time_arrangement: "50分钟"
+      in_class_thinking: "我制作的材质是否足够真实？与参考图片相比，差距在哪里？如何调整参数来缩小这个差距？"
+      ideological_integration: "在反复调试中培养学生的耐心和专注力；通过追求材质的真实感，体会工匠精神和对细节的执着。"
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "教师总结本节课的核心知识点：材质的物理基础、aiStandardSurface的核心参数、常见材质的制作方法。展示2-3位学生的课堂材质作品，点评材质表现的准确性和改进建议。预告下周将继续学习纹理贴图和UV，让材质表现更加丰富细腻。"
+    design_details:
+      organization: "教师总结，展示优秀作品，学生记录要点。"
+      methods: "归纳总结法+作品展示+点评激励"
+      time_arrangement: "5分钟"
+      in_class_thinking: "今天学习的材质知识，如何能帮助我让作品更真实、更有质感？"
+      ideological_integration: "鼓励学生在日常生活中持续观察和学习，将学习融入生活；强调持续进步和终身学习的重要性。"
+
+# --- 课后作业 ---
+after_class_assignments:
+  value: |
+    1. 为自己的模型作品创建一套完整的材质方案，至少包含5种不同材质类型，渲染最终效果图。
+    2. 拍摄生活中3种材质的照片，分析其视觉特征，撰写材质分析报告（包括可能的参数设置）。
+
+# --- 页脚签名信息 ---
+signature_info:
+  author_name:
+    value: "林昕"
+  author_date:
+    value: "2025年10月"
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

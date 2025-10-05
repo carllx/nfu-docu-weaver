@@ -1,0 +1,128 @@
+# ===================================================================
+#           第8周教案 - 灯光技术（上）
+# ===================================================================
+# 课程: 三维动画基础-数字建模
+# 章节: 第3章 灯光技术
+# 学时: 4学时（理论2，实践2）
+# ===================================================================
+
+# --- 课程与课次基本信息 ---
+lesson_number: "8"
+lesson_title: "第8次课教案"
+course_name: "三维动画基础-数字建模"
+
+# --- 课次核心内容定义 ---
+chapter_info:
+  value: "第3章 灯光技术"
+lesson_content:
+  value: "3.1 灯光概述；3.2 Arnold灯光"
+class_schedule:
+  value: "第 8周，星期 二、四、五 ，第12-15、2-5、8-11节；"
+class_hours:
+  total: "4"
+  breakdown: "（理论2学时，实践2学时）"
+
+# --- 教学目标体系 ---
+supported_course_objectives:
+  value: |
+    1. 掌握三维场景中灯光的基本原理和类型，理解光影在塑造氛围、引导视觉中的作用。支持课程知识目标(3)，对应毕业要求2、3。
+    2. 熟练掌握Maya中Arnold灯光的基本创建方法和核心参数调整。支撑课程能力目标(3)，对应毕业要求4。
+    3. 培养学生通过光影进行艺术表达的审美能力，提升作品的视觉表现力和感染力。支撑课程素质目标(1)，对应毕业要求3。
+    4. 养成严谨细致调整参数的工作习惯，理解技术与艺术相结合的重要性。支撑课程素质目标(4)，对应毕业要求1。
+teaching_aims:
+  knowledge_aim: "了解光影在三维视觉中的作用；掌握三点布光法的基础理论；认识并区分Maya中常用的Arnold灯光类型及其基本属性。"
+  ability_aim: "能够独立在场景中创建并调整点光源、方向光、聚光灯等；能够运用三点布光法为简单模型进行基础照明设置。"
+  quality_aim: "培养对光影美学的感知力，理解灯光如何服务于情感表达和氛围营造；在参数调整中培养耐心细致、精益求精的工匠精神。"
+  process_and_method_aim:
+    value: '1. 采用理论与实践相结合，课堂讲授、案例分析与课堂点评相结合；2. 通过"讲解-示范-实操-评改"四步法，强化学生对灯光原理的理解与应用能力；3. 鼓励学生观察生活和优秀影视作品中的光影运用，培养自主学习和审美分析能力。'
+key_and_difficult_points:
+  key_points: "三点布光法（主光、辅光、轮廓光）的原理与应用；Arnold灯光的创建、类型选择及关键参数（如强度、曝光、颜色、衰减）的调整。"
+  difficult_points: "理解不同灯光参数对场景氛围和模型质感的微妙影响；如何协调多个光源，使其在场景中形成和谐统一、富有层次感的光影效果。"
+
+# --- 课前准备 ---
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 周京.《Maya Arnold材质灯光渲染技术从入门到实践》[M].北京：清华大学出版社,2025.01. (相关灯光基础章节)。"
+  recommended_reading_list:
+    value: "[2] 来阳.《中文版Maya 2024基础培训教程》[M].北京：人民邮电出版社,2025.08. (灯光技术相关章节)。"
+  pre_class_reflection_questions:
+    value: '[3] ①观察一部你喜欢的电影或动画，选一个场景，分析它的光线主要来自哪里？营造了什么样的氛围？②为什么说"灯光是三维动画的灵魂"？'
+  other_pre_class_preparation:
+    value: "[4] 准备好上周完成的建模作业文件，用于本周的灯光实践环节。"
+
+# --- 教学方法与过程设计 ---
+teaching_methods:
+  value: "讲授法+案例分析法+任务驱动法+实践指导法"
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师展示多组同一模型在不同灯光下的渲染对比图（如温馨、恐怖、科幻），以及经典影视作品（如《银翼杀手2049》、《心灵奇旅》）中的灯光运用片段，引导学生直观感受灯光对画面氛围、故事叙述的决定性作用。"
+    design_details:
+      organization: "教师展示案例，提出启发性问题；学生观察、感受并回答。"
+      methods: "情境导入+案例演示+提问互动"
+      time_arrangement: "15分钟"
+      in_class_thinking: "为什么仅仅改变灯光，就能让同一个场景传达出完全不同的情绪？"
+      ideological_integration: '引导学生认识到技术工具背后的艺术表达价值，培养用光影讲故事的创作意识，并结合传统美学中的"虚实相生"，理解光影的艺术辩证关系。'
+  - segment_title: "上次课复习"
+    segment_type: "review"
+    process_description: '回顾第七周建模实例的要点，对学生的作业进行简要点评。提问学生："一个结构精细的模型，如果放在全黑的环境里，它的价值能体现吗？"从而自然地过渡到本周的学习主题——如何用光"点亮"我们的创作。'
+    design_details:
+      organization: "教师提问，学生回答并讨论。"
+      methods: "问答法+点评+承上启下"
+      time_arrangement: "10分钟"
+      in_class_thinking: "我们精心制作的模型，需要什么样的外部条件才能最好地展示其细节和质感？"
+      ideological_integration: "强调创作的完整性，任何一个环节都至关重要，培养学生的系统性思维和对作品负责的严谨态度。"
+  - segment_title: "新课讲授"
+    segment_type: "lecture"
+    process_description: "1. 讲解灯光基础理论：介绍三点布光法（主光 Key Light、辅光 Fill Light、轮廓光 Rim Light）的定义、作用和基本布局。 2. 介绍Arnold灯光：在Maya中逐一演示Arnold灯光面板中的主要类型（Area Light, Skydome Light, Point Light等），并讲解其核心参数，如Intensity, Exposure, Color Temperature, Decay等。"
+    design_details:
+      organization: "教师结合PPT图示进行理论讲解，并在Maya软件中进行同步操作演示。"
+      methods: "讲授法+软件演示+理论与实践结合"
+      time_arrangement: "80分钟"
+      in_class_thinking: "主光、辅光和轮廓光，如果去掉其中一个，会对画面产生什么影响？"
+      ideological_integration: "通过讲解灯光参数的精确控制，培养学生的科学精神和严谨态度。结合灯光营造的氛围，引导学生思考如何用技术传递人文关怀和正向情感。"
+  - segment_title: "讨论与反馈"
+    segment_type: "discussion"
+    process_description: "展示一张经典油画（如伦勃朗的画作），让学生分组讨论，尝试用三点布光法的理论去分析画中的光影布局，并思考如何在三维软件中模拟类似的效果。各组派代表分享观点。"
+    design_details:
+      organization: "学生分组讨论，代表发言，教师引导并总结。"
+      methods: "小组讨论+案例分析+跨学科联想"
+      time_arrangement: "20分钟"
+      in_class_thinking: "古典绘画大师的用光技巧，对我们的三维创作有什么启发？"
+      ideological_integration: "引导学生从传统艺术中汲取养分，打破学科壁垒，增强文化自信和艺术修养，培养传承与创新的意识。"
+  - segment_title: "实践环节"
+    segment_type: "practice"
+    process_description: "学生打开自己上周的建模作业文件，在教师的步骤指导下，完成一个基础的三点布光设置。任务要求：1. 创建一个主光源、一个辅光源和一个轮廓光。2. 调整它们的位置和强度，使模型呈现出清晰的立体感。3. 尝试改变光源颜色，观察对模型情绪表达的影响。"
+    design_details:
+      organization: "学生独立操作，教师巡回进行个性化指导，解答疑问。"
+      methods: "任务驱动法+实践指导"
+      time_arrangement: "45分钟"
+      in_class_thinking: "我的主光源角度是否最好地突出了模型的主要特征？辅光源是否有效地减弱了阴影？"
+      ideological_integration: '在实践中培养学生解决问题的能力和动手能力，通过不断调试参数追求最佳效果，践行"精益求精"的工匠精神。'
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "教师带领学生共同回顾本节课的核心知识点：三点布光法的概念和Arnold灯光的核心参数。展示几份学生课堂实践的优秀布光效果，进行表扬和点评，并预告下节课将学习更复杂的灯光技巧。"
+    design_details:
+      organization: "教师总结，学生回顾，优秀作品展示。"
+      methods: "归纳总结法+成果展示+点评激励"
+      time_arrangement: "10分钟"
+      in_class_thinking: "今天学习的布光知识，如何能帮助我提升未来作品的专业度？"
+      ideological_integration: "通过对学生成果的肯定，增强其学习自信心和成就感。强调持续学习的重要性，鼓励学生在课后继续探索光影的奥秘。"
+
+# --- 课后作业 ---
+after_class_assignments:
+  value: |
+    1. 复习总结三点布光法中三种灯光的作用，并绘制一张标准的布光位置示意图。
+    2. 为自己上周的建模作品创建三种不同的灯光氛围（如明亮、悬疑、柔和），并渲染出三张静帧图。
+
+# --- 页脚签名信息 ---
+signature_info:
+  author_name:
+    value: "林昕"
+  author_date:
+    value: "2025年10月"
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

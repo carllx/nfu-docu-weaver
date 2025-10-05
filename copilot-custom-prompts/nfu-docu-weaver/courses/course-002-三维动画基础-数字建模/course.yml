@@ -1,0 +1,175 @@
+# ===================================================================
+# 课程元数据 - 三维动画基础-数字建模
+# ===================================================================
+# 版本: v2.0
+# Schema: ../../schemas/course_schema.yml
+# 最后更新: 2025-10-05
+# ===================================================================
+
+# ============================================================
+# 课程基本信息
+# ============================================================
+course_id: course-002
+course_name: 三维动画基础-数字建模
+course_code: CNFU800009
+instructor: SHIU LUO SARA(肖咏兰), 林昕
+semester: 2025-2026学年第一学期
+total_weeks: 15
+total_hours: 60
+credits: 3
+
+# ============================================================
+# 配置信息 (相对于项目根目录)
+# ============================================================
+config:
+  # Schema 文件路径
+  schemas:
+    course: schemas/course_schema.yml
+    lesson: schemas/lesson_schema.yml
+    cover: schemas/cover_schema.yml
+    outline: schemas/outline_schema.yml
+  
+  # Word 模板文件路径
+  templates:
+    lesson: templates/lesson/lesson.docx
+    cover: templates/cover/cover.docx
+    outline: templates/outline/outline.docx
+  
+  # 课程数据目录 (相对于课程目录)
+  data_dirs:
+    lessons: lessons/
+    cover: cover/
+    outline: outline/
+    output: output/
+
+# ============================================================
+# 课程状态
+# ============================================================
+status:
+  outline_completed: false
+  cover_completed: false
+  lessons_completed: 7
+  lessons_total: 15
+  lessons_to_create: "8-15"  # 需要创建第8-15周的教案
+  last_updated: '2025-10-05'
+
+# ============================================================
+# 课程描述
+# ============================================================
+description: '本课程以Maya三维软件作为核心教学平台，系统讲授角色与场景建模、材质贴图、灯光设计、镜头构图及渲染输出等关键技术。课程采用理论与实践相结合的教学方法，旨在引导学生深入理解三维动画制作的完整流程，掌握模型构建的核心原理与操作技能，为后续高级三维创作奠定坚实基础。'
+course_type: 专业必修课
+target_major: 数字媒体艺术（专升本）
+prerequisite: 无
+
+objectives:
+  knowledge:
+    - '熟练掌握Maya软件的核心功能模块及其操作规范'
+    - '深入理解三维建模的基础原理与关键技术要点'
+    - '精通材质系统的应用方法及其视觉表现技巧'
+    - '全面了解主流渲染器的工作原理与参数优化设置'
+  
+  ability:
+    - '掌握基础模型创建能力，熟练运用多边形与NURBS建模核心技术，能够高效构建并优化几何体'
+    - '精通材质表现技能，根据项目需求精准配置材质，实现模型质感的真实呈现'
+    - '具备基础渲染能力，深入理解光影原理与渲染流程，能够完成高质量的场景渲染输出'
+    - '培养项目实践能力，具备独立完成简单三维作品创作的能力'
+  
+  quality:
+    - '艺术表现素养：培养三维造型的审美能力，熟练掌握传统艺术元素在现代三维设计中的创新应用'
+    - '问题解决能力：构建系统化的分析与解决问题的思维框架'
+    - '职业发展能力：养成持续学习技术的习惯，建立规范化的工作流程'
+    - '严谨的工作习惯：在建模与渲染过程中，注重细节处理，秉持严谨的工作态度'
+    - '文化传承能力：精通传统建筑元素的数字化表达方法，创作具有鲜明文化特色的三维场景'
+
+# ============================================================
+# 课程内容结构
+# ============================================================
+chapters:
+  - chapter_number: 1
+    chapter_title: 认识MAYA
+    hours: 4
+    theory_hours: 2
+    practice_hours: 2
+    description: '了解MAYA的应用领域、界面布局及个性化设置'
+  
+  - chapter_number: 2
+    chapter_title: MAYA建模技术
+    hours: 24
+    theory_hours: 8
+    practice_hours: 16
+    description: '探讨建模原理，学习NURBS建模技术和多边形建模技术，并通过实例进行练习'
+  
+  - chapter_number: 3
+    chapter_title: 灯光技术
+    hours: 8
+    theory_hours: 4
+    practice_hours: 4
+    description: '学习灯光概述、Arnold灯光及灯光的实际运用'
+  
+  - chapter_number: 4
+    chapter_title: 摄影机技术
+    hours: 4
+    theory_hours: 1
+    practice_hours: 3
+    description: '学习摄影机的类型、参数设置及项目实践'
+  
+  - chapter_number: 5
+    chapter_title: 材质与纹理
+    hours: 6
+    theory_hours: 2
+    practice_hours: 4
+    description: '学习材质概述、材质制作、纹理与UV'
+  
+  - chapter_number: 6
+    chapter_title: 渲染与输出
+    hours: 5
+    theory_hours: 2
+    practice_hours: 3
+    description: '了解软件渲染器，掌握Arnold Renderer，并进行渲染项目实践'
+  
+  - chapter_number: 7
+    chapter_title: 综合实践
+    hours: 9
+    theory_hours: 1
+    practice_hours: 8
+    description: '将所学知识综合运用，通过实际案例制作提升综合创作和制作能力'
+
+# ============================================================
+# 课程资源
+# ============================================================
+resources:
+  textbook:
+    - '来阳.《中文版Maya 2024基础培训教程》[M].北京：人民邮电出版社,2025.08'
+    - '周京.《Maya Arnold材质灯光渲染技术从入门到实践》[M].北京：清华大学出版社,2025.01'
+  
+  reference_books:
+    - '周哲言.《AI+Maya2025从新手到高手（微课版）》[M].北京：清华大学出版社，2025.05'
+  
+  software:
+    - name: 'MAYA 2024'
+      description: '三维建模、动画和渲染软件'
+
+# ============================================================
+# 评分标准
+# ============================================================
+grading:
+  formative_assessment: 30  # 平时成绩
+  final_assessment: 70      # 课程考核成绩
+  
+  formative_breakdown:
+    attendance: 10           # 考勤
+    assignment_test: 10      # 命题测试：用多边形建模创建一个室内场景
+    chapter_test: 10         # 章节测试：任务一为制作玻璃酒瓶材质；任务二为汽车渲染
+  
+  final_assessment_description: '考查，重点检测学生对软件基础、建模工具的独立灵活运用能力以及综合分析模型结构的能力'
+
+# ============================================================
+# 元数据
+# ============================================================
+metadata:
+  created_at: '2025-10-05'
+  updated_at: '2025-10-05'
+  version: '2.0'
+  created_by: 'lesson-weaver-agent'
+  notes: '课程已有前7周教案内容，需要创建第8-15周教案'
+

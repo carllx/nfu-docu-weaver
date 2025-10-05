@@ -1,0 +1,129 @@
+# ===================================================================
+#           第14周教案 - 综合实践（中）
+# ===================================================================
+# 课程: 三维动画基础-数字建模
+# 章节: 第7章 综合实践（续）
+# 学时: 4学时（理论0，实践4）
+# ===================================================================
+
+# --- 课程与课次基本信息 ---
+lesson_number: "14"
+lesson_title: "第14次课教案"
+course_name: "三维动画基础-数字建模"
+
+# --- 课次核心内容定义 ---
+chapter_info:
+  value: "第7章 综合实践（续）"
+lesson_content:
+  value: "综合实践项目制作推进；中期检查与指导"
+class_schedule:
+  value: "第 14周，星期 二、四、五 ，第12-15、2-5、8-11节；"
+class_hours:
+  total: "4"
+  breakdown: "（实践4学时）"
+
+# --- 教学目标体系 ---
+supported_course_objectives:
+  value: |
+    1. 综合运用所学的建模、材质、灯光、摄影机等技术，推进综合实践项目的制作。支持课程知识目标全部，对应毕业要求2、3、4。
+    2. 通过项目实践提升独立解决问题的能力和创作的完整性。支撑课程能力目标全部，对应毕业要求4。
+    3. 在项目推进中培养时间管理、质量控制和持续改进的能力。支撑课程素质目标(2)(3)(4)，对应毕业要求1、3。
+    4. 通过中期检查发现问题并及时调整，确保项目顺利完成。支撑课程素质目标(4)，对应毕业要求1。
+teaching_aims:
+  knowledge_aim: "巩固和深化前期所学的所有技术知识；在实践中理解各技术环节的协同关系。"
+  ability_aim: "能够独立完成综合性三维场景项目的建模、材质、灯光、摄影机设置和渲染全流程；能够发现并解决制作过程中的技术问题；能够根据反馈优化和改进作品。"
+  quality_aim: "培养独立创作和项目管理能力；建立对作品质量的高标准要求；在实践中形成规范化的工作流程和问题解决思维。"
+  process_and_method_aim:
+    value: '1. 采用工作坊式教学法，学生独立制作，教师巡回指导；2. 运用中期检查机制，及时发现问题并调整方向；3. 鼓励学生之间互相学习和交流经验。'
+key_and_difficult_points:
+  key_points: "综合技术的协调应用；项目进度的把控；质量与效率的平衡；问题的快速诊断和解决。"
+  difficult_points: "如何在有限时间内完成高质量作品；如何处理复杂场景中出现的各种技术问题；如何根据反馈快速迭代和优化。"
+
+# --- 课前准备 ---
+pre_class_preparation:
+  required_reading_list:
+    value: "[1] 回顾所有章节的核心技术要点，为项目制作提供技术支持。"
+  recommended_reading_list:
+    value: "[2] 观看优秀三维作品案例，学习创作思路和表现手法。"
+  pre_class_reflection_questions:
+    value: "[3] ①我的项目目前进展如何？遇到了哪些困难？②我需要在哪些方面寻求帮助或改进？"
+  other_pre_class_preparation:
+    value: "[4] 准备好项目当前阶段的工作文件，整理遇到的问题清单，准备在课堂上寻求指导。"
+
+# --- 教学方法与过程设计 ---
+teaching_methods:
+  value: "工作坊式教学+个性化指导+同伴互助+问题解决法"
+main_teaching_segments:
+  - segment_title: "课程导入"
+    segment_type: "introduction"
+    process_description: "教师简要回顾综合实践项目的要求和评分标准，强调本周是项目推进的关键周，要求学生在本周完成主要制作工作。展示部分学生项目的当前进度，给予肯定和鼓励，同时指出普遍存在的问题和改进方向。"
+    design_details:
+      organization: "教师讲解本周重点，展示进度案例，学生明确本周目标。"
+      methods: "任务强调+进度展示+目标明确"
+      time_arrangement: "10分钟"
+      in_class_thinking: "我的项目进度是否符合预期？本周必须完成哪些关键任务？"
+      ideological_integration: "通过进度对比激发学生的紧迫感和动力；强调坚持不懈和全力以赴的重要性。"
+  - segment_title: "中期检查"
+    segment_type: "review"
+    process_description: "中期检查环节：每位学生展示项目当前进度（5分钟/人），包括已完成的内容、遇到的问题、下周计划。教师和同学提供反馈和建议。教师重点检查：1. 项目是否符合要求；2. 技术实现是否存在重大问题；3. 时间安排是否合理；4. 需要重点指导的环节。"
+    design_details:
+      organization: "学生逐一展示项目进度，教师和同学提供反馈，记录关键问题。"
+      methods: "进度汇报+同伴反馈+教师点评"
+      time_arrangement: "60分钟"
+      in_class_thinking: "从其他同学的项目中，我能学到什么？他们的问题对我有什么启发？"
+      ideological_integration: "通过同伴学习培养团队协作精神和互助意识；通过公开展示培养学生的表达能力和抗压能力。"
+  - segment_title: "集中答疑"
+    segment_type: "lecture"
+    process_description: "教师根据中期检查中发现的共性问题，进行集中讲解和演示。例如：复杂场景的灯光优化、大型场景的渲染策略、常见技术问题的快速解决方案等。针对个别学生的特殊问题，提供针对性建议。"
+    design_details:
+      organization: "教师针对共性问题进行集中讲解和演示，学生记录要点。"
+      methods: "问题导向讲解+软件演示+经验分享"
+      time_arrangement: "30分钟"
+      in_class_thinking: "这些共性问题中，哪些在我的项目中也存在？我应该如何应用解决方案？"
+      ideological_integration: "通过问题解决培养学生的实践智慧和应变能力；强调在困难中成长的价值。"
+  - segment_title: "项目制作（一）"
+    segment_type: "practice"
+    process_description: "项目制作时间（一）：学生根据中期检查的反馈和集中答疑的指导，继续推进项目制作。本阶段重点任务：1. 完成所有建模工作；2. 完善材质和纹理；3. 初步设置灯光和摄影机。教师巡回指导，解答个别问题，提供技术支持和创意建议。"
+    design_details:
+      organization: "学生独立制作，教师巡回提供一对一指导。"
+      methods: "独立实践+个性化指导+问题即时解决"
+      time_arrangement: "60分钟"
+      in_class_thinking: "根据反馈，我需要在哪些方面重点改进？如何在有限时间内高效完成任务？"
+      ideological_integration: "在独立制作中培养学生的自主性和责任感；通过持续工作培养专注力和耐心。"
+  - segment_title: "项目制作（二）"
+    segment_type: "practice"
+    process_description: "项目制作时间（二）：继续推进项目。本阶段重点任务：1. 优化灯光效果，营造场景氛围；2. 调整摄影机视角，设计最佳呈现方式；3. 进行测试渲染，检查整体效果；4. 根据测试结果进行优化调整。教师继续巡回指导，重点帮助学生解决灯光和渲染方面的问题。"
+    design_details:
+      organization: "学生继续制作，教师重点指导灯光和渲染环节。"
+      methods: "持续实践+重点指导+效果优化"
+      time_arrangement: "60分钟"
+      in_class_thinking: "我的场景氛围是否达到预期效果？测试渲染的质量如何？还需要哪些优化？"
+      ideological_integration: "在反复调试中培养精益求精的态度；通过追求细节品质体会工匠精神的内涵。"
+  - segment_title: "课堂小结"
+    segment_type: "summary"
+    process_description: "教师总结本周项目推进情况，肯定学生的努力和进步，指出普遍需要改进的方面。强调下周是最后冲刺周，要求学生完成所有制作和渲染工作，准备最终提交。布置下周任务：完成最终渲染、准备项目展示和答辩。"
+    design_details:
+      organization: "教师总结本周进展，布置下周任务，学生明确最后冲刺目标。"
+      methods: "总结点评+任务布置+动员激励"
+      time_arrangement: "10分钟"
+      in_class_thinking: "下周我需要完成哪些最后的工作？如何确保按时高质量提交？"
+      ideological_integration: "在关键时刻给予学生信心和动力；强调坚持到底和全力冲刺的重要性。"
+
+# --- 课后作业 ---
+after_class_assignments:
+  value: |
+    1. 根据中期检查反馈，完成项目的所有建模、材质、灯光、摄影机设置工作。
+    2. 进行多次测试渲染，不断优化调整，确保最终效果达到要求。
+    3. 准备下周的最终渲染和项目展示材料。
+
+# --- 页脚签名信息 ---
+signature_info:
+  author_name:
+    value: "林昕"
+  author_date:
+    value: "2025年10月"
+  approver_name:
+    value: ""
+  approver_date:
+    value: ""
+

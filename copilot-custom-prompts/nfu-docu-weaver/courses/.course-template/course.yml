@@ -1,36 +1,66 @@
-# 课程元数据模板
-# 
-# 此文件在创建新课程时会被复制并填充实际数据
-# 请勿直接修改此模板文件
+# ===================================================================
+# 课程元数据模板 (Course Metadata Template)
+# ===================================================================
+# 版本: v2.0
+# 用途: 创建新课程时的模板文件
+# 说明: 此文件不应直接修改，由 course_manager.py 自动填充
+# Schema: ../../schemas/course_schema.yml
+# ===================================================================
 
+# ============================================================
 # 课程基本信息
-course_id: "{{COURSE_ID}}"                 # 将被替换为实际的课程 ID
-course_name: "{{COURSE_NAME}}"             # 将被替换为实际的课程名称
-course_code: "{{COURSE_CODE}}"             # 将被替换为实际的课程代码
-instructor: "{{INSTRUCTOR}}"               # 将被替换为实际的授课教师
-semester: "{{SEMESTER}}"                   # 将被替换为实际的学期
-total_weeks: 16                            # 将被替换为实际的总周次
+# ============================================================
+course_id: "{{COURSE_ID}}"
+course_name: "{{COURSE_NAME}}"
+course_code: "{{COURSE_CODE}}"
+instructor: "{{INSTRUCTOR}}"
+semester: "{{SEMESTER}}"
+total_weeks: 16
 
-# 课程描述
-description: ""
-objectives:
-  - ""
+# ============================================================
+# 配置信息 (相对于项目根目录)
+# ============================================================
+config:
+  # Schema 文件路径
+  schemas:
+    course: "schemas/course_schema.yml"
+    lesson: "schemas/lesson_schema.yml"
+    cover: "schemas/cover_schema.yml"
+    outline: "schemas/outline_schema.yml"
+  
+  # Word 模板文件路径
+  templates:
+    lesson: "templates/lesson/lesson.docx"
+    cover: "templates/cover/cover.docx"
+    outline: "templates/outline/outline.docx"
+  
+  # 课程数据目录 (相对于课程目录)
+  data_dirs:
+    lessons: "lessons/"
+    cover: "cover/"
+    outline: "outline/"
+    output: "output/"
 
+# ============================================================
 # 课程状态
+# ============================================================
 status:
   outline_completed: false
   cover_completed: false
   lessons_completed: 0
-  lessons_total: 15
+  lessons_total: 16
   last_updated: "{{CREATED_AT}}"
 
-# 模板配置
-templates:
-  outline: "templates/outline/default-outline.docx"
-  cover: "templates/cover/default-cover.docx"
-  lesson: "templates/lesson/default-lesson.docx"
+# ============================================================
+# 课程描述
+# ============================================================
+description: ""
+objectives:
+  - ""
 
+# ============================================================
 # 课程资源
+# ============================================================
 resources:
   textbook: ""
   reference_books:
@@ -39,16 +69,20 @@ resources:
     - url: ""
       description: ""
 
+# ============================================================
 # 评分标准
+# ============================================================
 grading:
   attendance: 10
   homework: 30
   midterm: 20
   final: 40
 
+# ============================================================
 # 元数据
+# ============================================================
 metadata:
   created_at: "{{CREATED_AT}}"
   updated_at: "{{CREATED_AT}}"
-  version: "1.0"
+  version: "2.0"
   created_by: "course_manager"

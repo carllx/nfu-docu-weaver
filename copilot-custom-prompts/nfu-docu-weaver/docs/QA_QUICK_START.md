@@ -1,6 +1,19 @@
-# 🧪 QA Quick Start Guide - Story 2.7
+# 🧪 QA Quick Start Guide
 
-**Quick Reference for Testing SchemaValidator**
+**Quick Reference for Testing Docu-Weaver v2.0**
+
+**Last Updated**: 2025-10-05  
+**Current Version**: v2.0.0
+
+---
+
+## 📌 v2.0 Update
+
+### 新增测试重点
+- ✅ **架构验证**: course.yml v2.0 格式
+- ✅ **Agent 行为**: 主动引导和教育性互动
+- ✅ **路径解析**: Schema/Template/Data 路径正确性
+- ✅ **向后兼容**: v1.x 数据仍然可用
 
 ---
 
@@ -120,12 +133,36 @@ ValidationResult/ValidationError  → 100%
 
 ## 📞 Contact
 
-- **Full Documentation**: `docs/QA_TEST_PREP_STORY_2.7.md`
-- **Design Reference**: `docs/architecture/schema-validator-design.md`
-- **Help**: Ask QA Engineer
+- **Architecture Guide**: `ARCHITECTURE_V2_QUICK_START.md`
+- **Agent Instructions**: `agents/lesson-weaver.md`
+- **Design Reference**: `docs/architecture/ADR-001-clean-architecture-refactoring.md`
+- **Help**: Ask QA Engineer or @po.mdc
 
 ---
 
-**Last Updated**: 2025-10-04  
+## 🆕 v2.0 Additional Tests
+
+### Architecture Tests
+```bash
+# 验证 course.yml v2.0 格式
+python tools/course_manager.py list
+
+# 验证路径解析
+python tools/generate_docs.py validate <course_path>
+
+# 测试向后兼容
+python tools/generate_docs.py generate <old_format_yaml>
+```
+
+### Agent Behavior Tests
+- 测试主动引导（是否提供清晰建议）
+- 测试预防性诊断（是否识别潜在问题）
+- 测试教育性互动（是否解释"为什么"）
+- 测试中文界面（是否全中文）
+
+---
+
+**Last Updated**: 2025-10-05  
+**Version**: v2.0.0  
 **Status**: ✅ Ready for Testing
 
