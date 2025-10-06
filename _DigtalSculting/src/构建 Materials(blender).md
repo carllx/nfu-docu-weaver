@@ -49,7 +49,7 @@ Material 's node  属性 && 属性的参数构成
 ### photorealistic Materials (Blender)
 IOR index of Refraction(折射率),  [wiki List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices)  e.g. Material `Christensen-Burley` on blender.
 
-首先参考  [[构建 Materials#Single 参数]]
+首先参考  [[构建 Materials(blender)#Single 参数]]
 --`|REALTIME MATERIALS FOR BLENDER - Blender Market` [blendermarket](https://blendermarket.com/products/realtime-materials-for-blender)
 ![|200](https://d1231c29xbpffx.cloudfront.net/store/product/166835/image/14ad20333d2ef17023596e4210014b80.png?Expires=1669593988&Signature=PLoqvS7vtLtfFoYj1nnsoS1pfZVdderqeKKz~QbE9QVu-irvKyG00vqiFfh6bi5VFwe5sUxbq72DGQ6XeKodXaVSHSUj0dEZnbz~3K8vSG6GtP5zI-hnvtKO7sLdsTLbP5EzveZjjhePFSo0A7pQy5x0TGqPrOuES1dQdrFOtd-nyxW0hUgHydkH6qjGpld9oUE~J-G-fqq93Rfj7466brB4kyZb87gZ3oVPqm2Ag1M~2DLTzhj~uTSfBtorfHKjiFCTFdbSq1IgL3pldp4XIKiIlUF8QO3ondVAKyuKfjXcEgQzEPt9O7N~d9xm7lnxCv2cP-vxGvcVCEdyR0OFag__&Key-Pair-Id=APKAIN6COYBF3ZQW7OQQ)
 
