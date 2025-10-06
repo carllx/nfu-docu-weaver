@@ -4,21 +4,30 @@ theme: NFUPPT
 class:
 ---
 
-## 4. Maya Low-Poly 风格化渲 染-60s 古办公室
+# 4. Maya Low-Poly 风格化渲 染-60s 古办公室
 
 ![bg fit left:50% vertical](https://i.imgur.com/cxuHNwR.webp)
 
 
 
 参考 [ 🔍 google Google Gemini](@https://gemini.google.com/u/2/app/9badde305ee0410b)
+**参考案例：** [60's Office Props by G.G.](https://sketchfab.com/3d-models/60s-office-props-dc00ea320cfa4aad90811080270672db "null")
 
 
 ---
 
 
-**参考案例：** [60's Office Props by G.G.](https://sketchfab.com/3d-models/60s-office-props-dc00ea320cfa4aad90811080270672db "null")
 
-### **一、 课程目标与概述**
+## 一、 课程目标与概述
+
+- 先拆解后重建
+    
+- 简化PBR
+    
+- 玩具模型感
+    
+- Arnold渲染器
+
 
 ![bg fit left:50% vertical](https://i.imgur.com/CofTco6.webp)
 
@@ -38,6 +47,36 @@ class:
 [V-Prompt]: A minimalist line drawing illustration on a white background of a disassembled vintage toy car, with its parts neatly arranged, conveying a sense of analytical precision and creative potential. square aspect ratio. -->
 ---
 
+### 通过这门课，你将解锁哪些核心技能？
+
+- **风格特征分析**
+    
+- 用 PBR 着色模型
+    
+- 灯光组合创造 **氛围**
+    
+- 用摄像机强化**形式感**
+    
+![bg fit left:50% vertical](https://i.imgur.com/5IkNsdG.webp)
+
+<!-- [Opener]: 明确了我们的大目标后，具体来说，这趟旅程会带我们抵达哪些站点呢？
+
+[Expansion]:
+
+- 风格特征分析: 你将学会如何用专业的眼光去看待一个作品，能准确说出它的建模、材质和灯光好在哪里。
+    
+- 风格化材质创建: 你会掌握在Maya中，用PBR参数调出哑光、涂漆、皮革甚至半透明塑料这些非写实质感的方法。
+    
+- 商业级布光: 我们将学习如何用最简单的灯光组合，创造出柔和、干净、能突出主体的高级感光照。
+    
+- 强化模型感: 通过调整摄像机，让你的场景看起来更像一个精致的微缩景观。
+    
+
+[V-Prompt]: A line drawing illustration on a white background, depicting four interconnected icons: a magnifying glass over a 3D cube, a painter's palette, a studio light, and a camera lens, symbolizing the four learning objectives. The style is clean and informative. square aspect ratio. -->
+
+
+---
+
 
 ### **二、 理论篇：艺术风格深度解构**
 
@@ -45,11 +84,9 @@ class:
 
 #### **1. 建模特征 (Modeling)**
 
-- **低多边形 (Low-Poly)：** 模型由数量有限的面构成，刻意保留了简洁的几何轮廓。
-    
-- **硬边与倒角 (Hard Edges & Bevels)：** 大量使用硬边来强调几何体的块状结构。在关键的边缘处有细微的倒角，用于捕捉高光，避免模型过于锐利。
-    
-- **简化的形态 (Simplified Forms)：** 所有物件都经过了外形简化，省略了复杂的细节，只保留了最具辨识度的核心特征，呈现出玩具或模型般的质感。
+- **低多边形 (Low-Poly)：** 模型由数量有限的面构成，刻意保留了简洁的几何轮廓。大量使用硬边来强调几何体的块状结构。省略了复杂的细节，只**保留了最具辨识度的核心**特征，
+
+
     
 
 ---
