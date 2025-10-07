@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "c6d34715560f66e8",
+        "id": "894e534975c9d0d5",
         "type": "tabs",
         "children": [
           {
-            "id": "56065d169c8c2a62",
+            "id": "26352ef65f7717c9",
             "type": "leaf",
             "state": {
               "type": "marp-preview-view",
@@ -284,7 +284,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "56065d169c8c2a62",
+  "active": "26352ef65f7717c9",
   "lastOpenFiles": [
     "_交互产品综合创作/content/slides/3.5_核心技术：构建响应式布局.marpit.md",
     "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
