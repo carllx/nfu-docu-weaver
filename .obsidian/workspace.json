@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "不是像旁观者一样客观地讲故事，而是想让观众真正进入角色的内心世界，感受他们的体验。",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -268,7 +269,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fc81ad13981d2a79",
+  "active": "605e25a0d0cb4453",
   "lastOpenFiles": [
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3 maya-materials-basic.marpit.md",
