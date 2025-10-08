@@ -35,8 +35,7 @@
               "title": "Untitled 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "894e534975c9d0d5",
@@ -172,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled 1"
+              "title": "Outline of 3.6_Figma 设计系统到 AI 开发赋能课程.marpit"
             }
           },
           {
@@ -215,7 +214,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,7 +242,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Untitled 1"
+              "title": "Graph of 3.6_Figma 设计系统到 AI 开发赋能课程.marpit"
             }
           },
           {
@@ -300,8 +299,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ee3eba95b819dffa",
+  "active": "4becda05f1b7529f",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/5.prompt-library.md",
     "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/4.advanced-tips.md",
     "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/README.md",
@@ -314,7 +314,6 @@
     "copilot-custom-prompts/nfu-talk-to-figma/utils",
     "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
     "copilot-custom-prompts/nfu-talk-to-figma/agents",
-    "Untitled 1.md",
     "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
     "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/figma-usage-examples.md",
     "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/figma-button-variants-generator.md",
