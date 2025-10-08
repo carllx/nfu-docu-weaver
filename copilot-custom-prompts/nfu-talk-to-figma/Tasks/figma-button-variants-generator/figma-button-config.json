@@ -128,7 +128,7 @@
       "mergeSteps": [
         "1️⃣ 使用斜杠命名法：所有按钮已按 Button/Type/Size/State/Icon 格式命名",
         "2️⃣ 选中所有按钮：使用 Shift 或框选，选择上方所有 20 个按钮组件",
-        "3️⃣ 右键点击 → 选择"合并为变体"（Combine as Variants）",
+        "3️⃣ 右键点击 → 选择\"合并为变体\"（Combine as Variants）",
         "4️⃣ Figma 会自动识别斜杠结构，生成 5 个属性：Type, Size, State, Icon",
         "5️⃣ 在右侧面板重命名属性名称（如将 Property 1 改为 Type）"
       ],
