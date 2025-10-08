@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "talk",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -105,7 +105,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -299,7 +300,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ee3eba95b819dffa",
+  "active": "605e25a0d0cb4453",
   "lastOpenFiles": [
     "copilot-custom-prompts/nfu-talk-to-figma/utils/vs-script-auto-agree.js",
     "copilot-custom-prompts/nfu-talk-to-figma/utils",
