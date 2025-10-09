@@ -35,23 +35,6 @@
               "title": "为什么选择 maya  FBX activate Embed Media?"
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "894e534975c9d0d5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "26352ef65f7717c9",
-            "type": "leaf",
-            "state": {
-              "type": "marp-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Deck Preview"
-            }
-          }
         ]
       }
     ],
@@ -84,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "talk",
+                "query": "60s",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -172,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "为什么选择 maya  FBX activate Embed Media?.md",
+                "file": "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 为什么选择 maya  FBX activate Embed Media?"
+              "title": "Outline of 3.6_Figma 设计系统到 AI 开发赋能课程.marpit"
             }
           },
           {
@@ -215,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "为什么选择 maya  FBX activate Embed Media?.md",
+                "file": "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 为什么选择 maya  FBX activate Embed Media?"
+              "title": "Graph of 3.6_Figma 设计系统到 AI 开发赋能课程.marpit"
             }
           },
           {
@@ -300,8 +283,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ee3eba95b819dffa",
+  "active": "4becda05f1b7529f",
   "lastOpenFiles": [
+    "copilot-custom-prompts/nfu-docu-weaver/courses/course-002-三维动画基础-数字建模/output/93-设计学院-林昕&SHIU LUO SARA(肖咏兰)-2025-2026-1《三维动画基础-数字建模》教案-v3.docx",
+    "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/82-数字媒体艺术（专升本）-林昕-2025-2026-1《交互产品综合创作》教案.docx",
+    "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/82-数字媒体艺术（专升本）-林昕-2025-2026-1《交互产品综合创作》教案 v1.docx",
+    "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/~$互产品综合创作》教案1-15.docx",
+    "为什么选择 maya  FBX activate Embed Media?.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-embed-screenshot.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/extract-sketchfab-lite.js",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-embed-params.md",
@@ -321,13 +310,10 @@
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/QUICK_START.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/提取结果总结.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/vs-script-auto-agree.js",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/sketchfab-render-params.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/sketchfab-page-screenshot.png",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/get-webgl-params.js",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/README.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/QUICK_START.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/文档索引-INDEX.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/教学架构总结-SUMMARY.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/00-START-HERE.md",
@@ -339,15 +325,12 @@
     "copilot-custom-prompts/nfu-talk-to-figma/utils/00-教学大纲-SYLLABUS.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/maya-to-sketchfab-guide.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/maya-sketchfab-exporter.png",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-upload-guide.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-upload-page.png",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-free-plan-limitations.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-free-plan-limits.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-page-screenshot.png",
     "Pasted image 20251007185007.png",
     "Pasted image 20251007184951.png",
     "Pasted image 20251007181609.png",
-    "Pasted image 20251003152052.png",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",
