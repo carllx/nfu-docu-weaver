@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "为什么选择 maya  FBX activate Embed Media?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "为什么选择 maya  FBX activate Embed Media?"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "894e534975c9d0d5",
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
+                "file": "为什么选择 maya  FBX activate Embed Media?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.6_Figma 设计系统到 AI 开发赋能课程.marpit"
+              "title": "Outline of 为什么选择 maya  FBX activate Embed Media?"
             }
           },
           {
@@ -214,7 +215,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
+                "file": "为什么选择 maya  FBX activate Embed Media?.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -242,7 +243,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 3.6_Figma 设计系统到 AI 开发赋能课程.marpit"
+              "title": "Graph of 为什么选择 maya  FBX activate Embed Media?"
             }
           },
           {
@@ -299,54 +300,54 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "4becda05f1b7529f",
+  "active": "ee3eba95b819dffa",
   "lastOpenFiles": [
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/提取结果总结.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/QUICK_START.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/README.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-page-screenshot.png",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/get-webgl-params.js",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params.md",
-    "Untitled 1.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/5.prompt-library.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/4.advanced-tips.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/README.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/USAGE.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/advanced_button_generator.py",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/button_config.json",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/figma_button_variants_generator.py",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/requirements.txt",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/vs-script-auto-agree.js",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils",
-    "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/agents",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-embed-screenshot.png",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/extract-sketchfab-lite.js",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-embed-params.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/使用指南-完整版.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/快速参考.md",
     "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/figma-usage-examples.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/figma-button-variants-generator.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/figma-button-config.json",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/README-FIGMA-BUTTONS.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/FIGMA-GENERATOR-INDEX.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/FIGMA-CHEATSHEET.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator/0.figma-quick-prompt.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/Tasks/figma-button-variants-generator",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/Tasks/figma-button-variants-generator/figma-usage-examples.md",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/Tasks/figma-button-variants-generator/figma-button-variants-generator.md",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/Tasks/figma-button-variants-generator/README-FIGMA-BUTTONS.md",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/Tasks/figma-button-variants-generator/FIGMA-GENERATOR-INDEX.md",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/Tasks/figma-button-variants-generator/FIGMA-CHEATSHEET.md",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/Tasks/figma-button-variants-generator/0.figma-quick-prompt.md",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/figma-button-variants-generator/README-FIGMA-BUTTONS.md",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/figma-button-variants-generator/figma-usage-examples.md",
-    "copilot-custom-prompts/nfu-docu-weaver/agents/figma-button-variants-generator/FIGMA-GENERATOR-INDEX.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/提取指南.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/auto-extract.js",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/extract-network-resources.js",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/extract-core-params.js",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/提取结果总结.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/vs-script-auto-agree.js",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-render-params.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-page-screenshot.png",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/get-webgl-params.js",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/README.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/QUICK_START.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/提取结果总结.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/vs-script-auto-agree.js",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/sketchfab-render-params.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/sketchfab-page-screenshot.png",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/get-webgl-params.js",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/README.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/QUICK_START.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/文档索引-INDEX.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/教学架构总结-SUMMARY.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/00-START-HERE.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/检查清单-CHECKLIST.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/快速参考-QUICK-REFERENCE.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/README-教学架构.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/学生手册-STUDENT-HANDBOOK.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/01-平台介绍-PLATFORM.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/00-教学大纲-SYLLABUS.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/maya-to-sketchfab-guide.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/maya-sketchfab-exporter.png",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-upload-guide.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-upload-page.png",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-free-plan-limitations.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-free-plan-limits.png",
+    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-page-screenshot.png",
     "Pasted image 20251007185007.png",
     "Pasted image 20251007184951.png",
     "Pasted image 20251007181609.png",
     "Pasted image 20251003152052.png",
-    "Pasted image 20251003144550.png",
-    "Pasted image 20251002111040.png",
-    "Pasted image 20250928181216.png",
-    "Pasted image 20250919211411.png",
-    "Pasted image 20250919211251.png",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",
