@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
+                "file": "Untitled 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.6_Figma 设计系统到 AI 开发赋能课程.marpit"
+              "title": "Untitled 2"
             }
           },
           {
@@ -34,37 +34,8 @@
               "icon": "lucide-file",
               "title": "为什么选择 maya  FBX activate Embed Media?"
             }
-          },
-          {
-            "id": "f409ef87208e0d71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025 教师资格证.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025 教师资格证"
-            }
-          },
-          {
-            "id": "107a595c590ed9a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 2"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "教师资格",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -312,13 +283,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "107a595c590ed9a6",
+  "active": "4becda05f1b7529f",
   "lastOpenFiles": [
+    "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
+    "为什么选择 maya  FBX activate Embed Media?.md",
+    "_22毕设/docs/GUIDE_TEACHER_legacy.md",
+    "w1.1-交互艺术创作要素解析.md",
+    "Parole_mots_word_wörter - Maurizio Nannucci - 1975.md",
     "Untitled 2.md",
     "2025 教师资格证.md",
-    "为什么选择 maya  FBX activate Embed Media?.md",
     "Untitled 1.md",
-    "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/README-材质分析.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/material_comparison.csv",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/material_intent_summary.md",
@@ -350,9 +324,6 @@
     "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/QUICK_START.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/文档索引-INDEX.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/教学架构总结-SUMMARY.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/00-START-HERE.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/检查清单-CHECKLIST.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/快速参考-QUICK-REFERENCE.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/maya-sketchfab-exporter.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-upload-page.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-free-plan-limits.png",
