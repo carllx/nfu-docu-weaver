@@ -91,7 +91,7 @@ architecture/
 
 ### 📋 辅助文档
 
-#### [Brief - 项目简报](brief.md)
+#### [Brief - 项目简报](copilot-custom-prompts/nfu-docu-weaver/docs/brief.md)
 **目的**: 快速概览项目背景和核心价值  
 **适合**: 新成员入职、快速介绍
 
