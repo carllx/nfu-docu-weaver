@@ -386,7 +386,7 @@ SchemaValidationError (基类)
 - [SchemaValidator 技术设计文档](architecture/schema-validator-design.md)
 - [实现示例代码](architecture/schema-validator-implementation-example.py)
 - [技术评审会议文档](TECH_REVIEW_SCHEMA_VALIDATOR.md)
-- [PRD - Story 2.7](prd.md#story-27)
+- [PRD - Story 2.7](_22毕设/docs/prd.md#story-27)
 - [Sprint Progress](SPRINT_PROGRESS.md)
 
 ### B. 参考资料

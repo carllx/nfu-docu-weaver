@@ -274,7 +274,7 @@ nfu-docu-weaver/
 ## 📝 项目文档
 
 ### 核心文档
-- 📋 [PRD - 产品需求文档](docs/prd.md)
+- 📋 [PRD - 产品需求文档](copilot-custom-prompts/nfu-docu-weaver/docs/prd.md)
 - 🏗️ [Architecture - 架构文档](docs/architecture/index.md)
 - 📊 [Sprint Progress - 进度跟踪](docs/SPRINT_PROGRESS.md)
 - 📝 [CHANGELOG - 版本历史](CHANGELOG.md)

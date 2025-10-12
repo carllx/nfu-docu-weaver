@@ -10,7 +10,7 @@
 
 ### 🎯 核心文档（必读）
 
-#### 1. [PRD - 产品需求文档](prd.md)
+#### 1. [PRD - 产品需求文档](copilot-custom-prompts/nfu-docu-weaver/docs/prd.md)
 **目的**: 定义产品目标、需求和功能规格  
 **维护者**: PM (John)  
 **何时使用**: 
