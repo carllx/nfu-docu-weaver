@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
+                "file": "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1_原子设计原则.marpit"
+              "title": "3.7 Figma 样式在设计中标准化哪些基本属性.marpit"
             }
           },
           {
@@ -47,6 +47,22 @@
               },
               "icon": "lucide-file",
               "title": "version3"
+            }
+          }
+        ]
+      },
+      {
+        "id": "90194c42d0057bea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd28b5a9da0e323d",
+            "type": "leaf",
+            "state": {
+              "type": "marp-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Deck Preview"
             }
           }
         ]
@@ -168,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
+                "file": "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.1_原子设计原则.marpit"
+              "title": "Outline of 3.7 Figma 样式在设计中标准化哪些基本属性.marpit"
             }
           },
           {
@@ -211,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
+                "file": "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -239,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 3.1_原子设计原则.marpit"
+              "title": "Graph of 3.7 Figma 样式在设计中标准化哪些基本属性.marpit"
             }
           },
           {
@@ -298,35 +314,38 @@
   },
   "active": "ee3eba95b819dffa",
   "lastOpenFiles": [
+    "Pasted image 20251012151732.png",
+    "_交互产品综合创作/content/slides/3.5_核心技术：构建响应式布局.marpit.md",
+    "_交互产品综合创作/content/slides/3.5_核心技术：构建响应式布局.md",
+    "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
+    "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.md",
+    "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
+    "_交互产品综合创作/content/slides/3.5_vid_Figma Auto Layout_Fixed_Fill_Hug.md",
+    "_交互产品综合创作/content/slides/3.4 视觉基石 Foundations.marpit.md",
+    "_交互产品综合创作/content/slides/3.4 视觉基石 Foundations.md",
+    "_交互产品综合创作/content/slides/3.3 Figma 协作环境与文件架构.marpit.md",
+    "_交互产品综合创作/content/slides/3.3 Figma 协作环境与文件架构.md",
+    "_交互产品综合创作/content/slides/3.2_语言与法则.marpit.md",
+    "Pasted image 20251012143026.png",
+    "Pasted image 20251012140719.png",
+    "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
+    "Pasted image 20251012131834.png",
     "copilot-custom-prompts/ada-ppt/version3.md",
     "copilot-custom-prompts/ada-ppt/版本 2.md",
     "copilot-custom-prompts/ada-ppt/版本 1.md",
     "copilot-custom-prompts/ada-ppt/docs/prd.md",
     "copilot-custom-prompts/ada-ppt/docs/brief.md",
     "copilot-custom-prompts/ada-ppt/版本1.md",
-    "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
     "Pasted image 20251012105401.png",
     "_交互产品综合创作/content/slides/3.2_语言与法则.md",
-    "_交互产品综合创作/content/slides/3.2_语言与法则.marpit.md",
-    "_交互产品综合创作/content/slides/3.4 视觉基石 Foundations.md",
-    "_交互产品综合创作/content/slides/3.7.md",
     "3.Design and Methods (VPCCRP).md",
     "3.2 组件的数据流与层级关系.md",
     "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
     "_DigtalSculting/src/tooo-maya/为什么选择 maya  FBX activate Embed Media?.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/optimization_complete.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/README-色彩系统.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/color_system_quick_ref.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/apply_color_system.py",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/color_palette_preview.html",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/color_system_proposal.md",
-    "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
-    "_22毕设/docs/GUIDE_TEACHER_legacy.md",
-    "w1.1-交互艺术创作要素解析.md",
-    "Parole_mots_word_wörter - Maurizio Nannucci - 1975.md",
-    "2025 教师资格证.md",
-    "Untitled 1.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/README-材质分析.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/material_comparison.csv",
     "copilot-custom-prompts/nfu-docu-weaver/courses/course-002-三维动画基础-数字建模/output/93-设计学院-林昕&SHIU LUO SARA(肖咏兰)-2025-2026-1《三维动画基础-数字建模》教案-v3.docx",
     "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/82-数字媒体艺术（专升本）-林昕-2025-2026-1《交互产品综合创作》教案.docx",
@@ -341,9 +360,6 @@
     "copilot-custom-prompts/nfu-talk-to-figma/utils/maya-sketchfab-exporter.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-upload-page.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-free-plan-limits.png",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-page-screenshot.png",
-    "Pasted image 20251007185007.png",
-    "Pasted image 20251007184951.png",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",
