@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "copilot-custom-prompts/ada-ppt/版本 2.md",
+                "file": "copilot-custom-prompts/ada-ppt/version3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "版本 2"
+              "title": "version3"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "copilot-custom-prompts/ada-ppt/版本 2.md",
+                "file": "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 版本 2"
+              "title": "Outline of 3.1_原子设计原则.marpit"
             }
           },
           {
@@ -212,7 +211,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "copilot-custom-prompts/ada-ppt/版本 2.md",
+                "file": "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -240,7 +239,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 版本 2"
+              "title": "Graph of 3.1_原子设计原则.marpit"
             }
           },
           {
@@ -297,12 +296,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "263986d43202e1ae",
+  "active": "ee3eba95b819dffa",
   "lastOpenFiles": [
+    "copilot-custom-prompts/ada-ppt/version3.md",
+    "copilot-custom-prompts/ada-ppt/版本 2.md",
     "copilot-custom-prompts/ada-ppt/版本 1.md",
     "copilot-custom-prompts/ada-ppt/docs/prd.md",
     "copilot-custom-prompts/ada-ppt/docs/brief.md",
-    "copilot-custom-prompts/ada-ppt/版本 2.md",
     "copilot-custom-prompts/ada-ppt/版本1.md",
     "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
     "Pasted image 20251012105401.png",
@@ -328,7 +328,6 @@
     "Untitled 1.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/README-材质分析.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/material_comparison.csv",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/material_intent_summary.md",
     "copilot-custom-prompts/nfu-docu-weaver/courses/course-002-三维动画基础-数字建模/output/93-设计学院-林昕&SHIU LUO SARA(肖咏兰)-2025-2026-1《三维动画基础-数字建模》教案-v3.docx",
     "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/82-数字媒体艺术（专升本）-林昕-2025-2026-1《交互产品综合创作》教案.docx",
     "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/82-数字媒体艺术（专升本）-林昕-2025-2026-1《交互产品综合创作》教案 v1.docx",

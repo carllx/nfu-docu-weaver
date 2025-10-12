@@ -1,6 +1,6 @@
 {
   "alfredsnippet" : {
-    "snippet" : "Explanatory line drawing of [1:SUBJECT], minimalist infographic style. Clean single-weight lines on a stark white background, focusing on clarity and simplicity. The composition is uncluttered, with a clear visual hierarchy to guide the viewer. Conveys a professional, informative, and accessible mood. square aspect ratio.",
+    "snippet" : "1. A line drawing illustration of [SUBJECT] in the iconic 1930s rubber hose animation style, reminiscent of classic black-and-white cartoons.\n\n\t\t\tThe character is built from simple, round geometric forms and features expressive pie-cut eyes and classic white gloves. Its limbs are fluid and bendy, without joints, conveying a sense of bouncy, exaggerated, and rhythmic motion.\n\t\t\t\n\t\t\tThe artwork uses bold, heavy \"inkblot\" style black lines on a stark white background, creating strong contrast. The composition is clean and uncluttered.\n\t\t\t\n\t\t\tThe atmosphere is playful, mischievous, and filled with a charming, nostalgic energy. Square aspect ratio.",
     "uid" : "B4DB21E1-F875-41F8-9FD1-CB5AD2112AA1",
     "name" : "LDW v-line-draw-explain",
     "keyword" : "LDW"
