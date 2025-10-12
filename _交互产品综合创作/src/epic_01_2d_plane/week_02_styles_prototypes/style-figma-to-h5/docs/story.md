@@ -94,15 +94,41 @@
         
     - **圆角**: `12px`
         
-    - **头像尺寸**: `80px x 80px`
+    - **头像尺寸**: `80px x 80px`（圆形，圆角 `40px`）
         
-    - **元素间距**: `16px` (头像与姓名之间), `8px` (姓名与简介之间)
+    - **元素间距**: `16px` (头像与文本组之间), `8px` (姓名与简介之间)
         
-- **字体**: 请确保已安装或通过网络字体（如 Google Fonts）引入了 "Inter" 字体，以便在本地正确显示。
+    - **头像占位符颜色**: `#D3D3D3`
+        
+- **字体方案**: 
     
+    使用**跨平台系统字体栈**（无需网络加载，自动支持中文）：
+    
+    ```css
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 
+                 "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB",
+                 Arial, sans-serif;
     ```
-    <!-- 可以在 index.html 的 <head> 中添加此行来引入字体 -->
-    <link rel="stylesheet" href="[https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap](https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap)">
+    
+    **优势**:
+    - ✅ 无需引入 Google Fonts 或其他 CDN
+    - ✅ 零网络延迟，加载速度快
+    - ✅ Windows 和 macOS 通用
+    - ✅ 自动支持中英文混排
+    
+- **间距实现**: 
+    
+    姓名和简介之间的 `8px` 特殊间距建议通过嵌套容器实现（与 Figma 结构一致）：
+    
+    ```html
+    <div class="card__text-group">
+      <h3 class="card__name">Analyst Mary</h3>
+      <p class="card__bio">Insightful Analyst...</p>
+    </div>
     ```
     
 - **提醒**: 这是一个纯粹的 HTML/CSS 练习。请专注于视觉还原，不要添加任何 JavaScript。
+
+- **Figma 设计阶段**: 
+    
+    如果需要在 Figma 中创建设计稿，请参考 `ui_ux_spec.md` 第 5 节的"Figma 操作检查清单"。注意：部分操作（如创建组件、样式、变体）需要手动完成，TalkToFigma MCP 无法自动化这些步骤。

@@ -1,252 +1,501 @@
-# 增强系统指令UX能力的探索
+# Figma 自动化实现指南：TalkToFigma MCP Server
 
-分析了所有相关文档，包括项目简报、UI/UX规范、前端架构、用户故事以及`TalkToFigma`的工具集。我的目标是根据这些信息，在Figma中创建“增强版个人资料卡”组件，并在过程中暴露我当前能力的局限性，最终生成一套更强大的系统指令原则。
+版本: 2.0  
+更新日期: 2025-10-12  
+状态: **半自动化流程（自动创建 + 手动完善）**
 
-### 第一阶段：信息摄入与结构化解析 (Information Ingestion & Structured Parsing)
+---
 
-我已经将 `ui_ux_spec.md` 中的设计规范解析为以下结构化的信息单元，这是我所有后续动作的“唯一事实来源” (Single Source of Truth)。
+## 概述 (Overview)
 
-- **核心组件 (Profile Card Container)**
-    
-    - **类型**: 组件 (Component)
-        
-    - **布局**: 垂直自动布局 (Auto Layout)
-        
-    - **尺寸**: 宽度 `320px`
-        
-    - **内部间距 (Padding)**: `24px` (all sides)
-        
-    - **元素间距 (Item Spacing)**: `16px`
-        
-    - **圆角 (Corner Radius)**: `12px`
-        
-    - **背景颜色**: `#8A2BE2` (`Color / Primary-Brand`)
-        
-    - **阴影 (Default State)**: `0px 4px 8px rgba(0, 0, 0, 0.1)` (`Effect / Card-Shadow-Default`)
-        
-    - **状态**: 包含 `Default` 和 `Hover` 两个变体。
-        
-- **子元素 1: 头像 (Avatar)**
-    
-    - **类型**: 图像占位符 (我们将用一个矩形模拟)
-        
-    - **尺寸**: `80px` x `80px`
-        
-    - **形状**: 圆形 (通过设置 `50%` 或 `40px` 的圆角实现)
-        
-    - **对齐**: 在父容器中水平居中。
-        
-- **子元素 2: 姓名 (Name)**
-    
-    - **类型**: 文本 (Text)
-        
-    - **内容**: "Analyst Mary"
-        
-    - **样式**:
-        
-        - 字体 (Font Family): Inter
-            
-        - 字重 (Font Weight): Bold (700)
-            
-        - 字号 (Font Size): `24px`
-            
-        - 颜色 (Color): `#FFFFFF` (`Color / Text-Primary`)
-            
-    - **对齐**: 在父容器中水平居中。
-        
-- **子元素 3: 简介 (Bio)**
-    
-    - **类型**: 文本 (Text)
-        
-    - **内容**: "Insightful Analyst..." (我们将使用规范中的占位符)
-        
-    - **样式**:
-        
-        - 字体 (Font Family): Inter
-            
-        - 字重 (Font Weight): Regular (400)
-            
-        - 字号 (Font Size): `16px`
-            
-        - 颜色 (Color): `#FFFFFF` (`Color / Text-Primary`)
-            
-        - 透明度 (Opacity): `80%`
-            
-    - **对齐**: 在父容器中水平居中。
-        
-    - **与“姓名”的间距**: 8px (这是一个特殊情况，父容器的 `itemSpacing` 是 `16px`，需要额外处理)。
-        
+本文档提供使用 **TalkToFigma MCP Server** 创建"个人资料卡"组件的完整操作指南。由于工具能力限制，实施过程分为：
 
-### 第二阶段：概念到工具的映射 (Concept-to-Tool Mapping)
+1. **🤖 自动化阶段** - 使用 TalkToFigma 创建基础布局结构
+2. **✋ 手动阶段** - 用户完成样式库、组件化、变体等操作
 
-现在，我将第一阶段解析出的每个设计概念，精确地映射到 `TalkToFigma` 的具体工具和参数上。这是我即将执行的详细操作计划。
+这种半自动化方式具有**教学价值**，能让学生清楚地理解哪些设计操作可以编程化，哪些需要设计师的判断。
+
+---
+
+## ⚠️ TalkToFigma MCP 能力局限 (Tool Limitations)
+
+在开始实施前，必须了解工具的能力边界：
+
+### ✅ **可以自动化的操作**
+- 创建 Frame（自动布局）
+- 创建矩形和文本元素
+- 设置尺寸、位置、颜色、圆角
+- 配置 Auto Layout 参数（方向、间距、padding、对齐）
+- 设置布局约束（FILL、HUG、FIXED）
+
+### ❌ **无法自动化的操作（需手动完成）**
+- **创建 Component 和 Variants** - 只能创建 Frame，无法转换为组件
+- **创建 Styles** - 无法创建颜色、文本、效果样式库
+- **设置文本对齐** - 无法设置文本的水平对齐方式（居中、左对齐等）
+- **应用阴影效果** - 无法为元素添加 box-shadow 或效果样式
+- **设置文本透明度** - 只能通过颜色的 alpha 通道设置
+
+---
+
+## 第一阶段：设计规范解析 (Design Spec Parsing)
+
+从 `ui_ux_spec.md` 中提取的结构化设计数据（唯一事实来源）：
+
+### **设计原子 (Design Tokens)**
+
+```javascript
+// 颜色值（RGB 0-1 范围用于 TalkToFigma）
+const COLORS = {
+  primaryBrand: { r: 0.54, g: 0.17, b: 0.89, a: 1 },     // #8A2BE2
+  textWhite: { r: 1, g: 1, b: 1, a: 1 },                  // #FFFFFF
+  textWhite80: { r: 1, g: 1, b: 1, a: 0.8 },              // #FFFFFF 80%
+  avatarPlaceholder: { r: 0.83, g: 0.83, b: 0.83, a: 1 }  // #D3D3D3
+};
+
+// 尺寸与间距
+const DIMENSIONS = {
+  cardWidth: 320,
+  cardPadding: 24,
+  cardRadius: 12,
+  avatarSize: 80,
+  avatarRadius: 40,  // 50% = 圆形
+  spacingLarge: 16,  // 头像与文本组
+  spacingSmall: 8    // 姓名与简介
+};
+
+// 文本样式
+const TEXT_STYLES = {
+  name: { size: 24, weight: 700 },
+  bio: { size: 16, weight: 400 }
+};
+```
+
+### **组件结构树**
 
 ```
-// Plan to create the "Profile Card" in Figma
+Profile Card (Frame) - 320px 宽，垂直布局
+├─ Padding: 24px (all sides)
+├─ Item Spacing: 16px
+├─ Counter Axis Align: CENTER
+│
+├── Avatar (Rectangle) - 80x80px, 圆角 40px
+│   └─ Fill: #D3D3D3
+│
+└── Text Group (Frame) - 透明嵌套容器 ⚠️ 用于实现 8px 间距
+    ├─ Layout: Vertical
+    ├─ Item Spacing: 8px
+    ├─ Width: FILL
+    │
+    ├── Name (Text) - "Analyst Mary"
+    │   ├─ Size: 24px, Weight: 700
+    │   └─ Color: #FFFFFF
+    │
+    └── Bio (Text) - "Insightful Analyst..."
+        ├─ Size: 16px, Weight: 400
+        └─ Color: #FFFFFF (80% opacity)
+```
+        
 
-// 颜色和RGBA值的转换
-const primaryBrandColor = { r: 0.54, g: 0.17, b: 0.89, a: 1 }; // #8A2BE2
-const textColor = { r: 1, g: 1, b: 1, a: 1 }; // #FFFFFF
-const bioTextColor = { r: 1, g: 1, b: 1, a: 0.8 }; // #FFFFFF with 80% opacity
+---
 
-// 1. 创建卡片外框 (Frame)
-// 概念: 核心组件容器，应用自动布局、尺寸、颜色、圆角和内边距
+## 第二阶段：🤖 自动化创建步骤 (Automated Creation)
+
+以下是使用 TalkToFigma MCP 自动创建基础结构的详细步骤。
+
+### **步骤 1: 创建主卡片容器**
+
+```javascript
+// 创建主 Frame（将成为未来的 Component）
 const cardFrame = await TalkToFigma.create_frame({
     name: "Profile Card",
-    x: 100,
+    x: 100,                          // 画布位置
     y: 100,
-    width: 320,
-    height: 300, // 高度先给一个初始值，后续由内容撑开
-    fillColor: primaryBrandColor,
-    layoutMode: "VERTICAL",
+    width: 320,                      // 固定宽度
+    height: 300,                     // 初始高度，后续自动调整
+    fillColor: { r: 0.54, g: 0.17, b: 0.89, a: 1 },  // #8A2BE2
+    layoutMode: "VERTICAL",          // 垂直自动布局
     paddingTop: 24,
     paddingRight: 24,
     paddingBottom: 24,
     paddingLeft: 24,
-    itemSpacing: 16,
-    counterAxisAlignItems: "CENTER" // 水平居中所有子元素
+    itemSpacing: 16,                 // 子元素默认间距
+    counterAxisAlignItems: "CENTER", // 水平居中所有子元素
+    layoutSizingVertical: "HUG"      // 高度由内容撑开
 });
-await TalkToFigma.set_corner_radius({ nodeId: cardFrame.id, radius: 12 });
-// 缺少阴影设置工具，这是一个发现！
 
-// 2. 创建头像占位符
-// 概念: 一个80x80的圆形
+// 设置圆角
+await TalkToFigma.set_corner_radius({ 
+    nodeId: cardFrame.id, 
+    radius: 12 
+});
+```
+
+**⚠️ 自动化限制**: 无法设置阴影，需稍后手动添加。
+
+---
+
+### **步骤 2: 创建头像占位符（圆形）**
+
+```javascript
+// 创建矩形作为头像
 const avatar = await TalkToFigma.create_rectangle({
     name: "Avatar",
-    parentId: cardFrame.id,
-    x: 0, y: 0, // 在Auto Layout中，x, y会被忽略
+    parentId: cardFrame.id,  // 作为 cardFrame 的子元素
+    x: 0, y: 0,              // 在 Auto Layout 中会被忽略
     width: 80,
     height: 80
 });
-// 关键操作：将矩形变为圆形
-await TalkToFigma.set_corner_radius({ nodeId: avatar.id, radius: 40 });
-// 假设给一个灰色填充以示区别
-await TalkToFigma.set_fill_color({ nodeId: avatar.id, r: 0.8, g: 0.8, b: 0.8 });
 
-// 3. 创建姓名文本
-// 概念: "Analyst Mary" 文本，应用指定样式
+// 关键技巧：将矩形变为圆形（设置圆角为宽度的 50%）
+await TalkToFigma.set_corner_radius({ 
+    nodeId: avatar.id, 
+    radius: 40  // 80 / 2 = 40
+});
+
+// 设置占位符颜色
+await TalkToFigma.set_fill_color({ 
+    nodeId: avatar.id, 
+    r: 0.83, g: 0.83, b: 0.83, a: 1  // #D3D3D3
+});
+```
+
+**💡 设计模式**: `圆形 = Rectangle + cornerRadius(width/2)`
+
+---
+
+### **步骤 3: 创建嵌套文本组容器**
+
+```javascript
+// 创建透明 Frame 用于包裹姓名和简介
+// 目的：实现 8px 的特殊间距（不同于主容器的 16px）
+const textGroup = await TalkToFigma.create_frame({
+    name: "Text Group",
+    parentId: cardFrame.id,
+    x: 0, y: 0,
+    width: 272,                      // 320 - 24*2 = 272
+    height: 100,                     // 初始值
+    fillColor: { r: 0, g: 0, b: 0, a: 0 },  // 透明背景
+    layoutMode: "VERTICAL",
+    itemSpacing: 8,                  // 姓名和简介之间的间距
+    counterAxisAlignItems: "CENTER",
+    layoutSizingHorizontal: "FILL", // 填充父容器宽度
+    layoutSizingVertical: "HUG"      // 高度由内容撑开
+});
+```
+
+**💡 布局嵌套策略**: 当需要不同间距时，使用透明嵌套容器。
+
+---
+
+### **步骤 4: 创建姓名文本**
+
+```javascript
 const nameText = await TalkToFigma.create_text({
     name: "Name",
-    parentId: cardFrame.id,
+    parentId: textGroup.id,  // 注意：父元素是 textGroup
     text: "Analyst Mary",
     x: 0, y: 0,
     fontSize: 24,
     fontWeight: 700,
-    fontColor: textColor
+    fontColor: { r: 1, g: 1, b: 1, a: 1 }  // #FFFFFF
 });
-// 在Auto Layout下，文本需要设置为宽度填充，以保证居中
+
+// 设置文本布局约束
 await TalkToFigma.set_layout_sizing({
     nodeId: nameText.id,
-    layoutSizingHorizontal: "FILL",
+    layoutSizingHorizontal: "FILL",  // 宽度填充以实现居中
     layoutSizingVertical: "HUG"
 });
-// 还需要一个设置文本水平对齐的工具！又一个发现。
+```
 
-// 4. 创建简介文本
-// 概念: 简介文本，应用指定样式和透明度
+**⚠️ 自动化限制**: 无法设置文本水平对齐，需稍后手动设置为"居中"。
+
+---
+
+### **步骤 5: 创建简介文本**
+
+```javascript
 const bioText = await TalkToFigma.create_text({
     name: "Bio",
-    parentId: cardFrame.id,
-    text: "Insightful Analyst...",
+    parentId: textGroup.id,  // 同样在 textGroup 内
+    text: "Insightful Analyst exploring data patterns and narratives.",
     x: 0, y: 0,
     fontSize: 16,
     fontWeight: 400,
-    fontColor: bioTextColor
+    fontColor: { r: 1, g: 1, b: 1, a: 0.8 }  // #FFFFFF 80% 透明度
 });
+
+// 设置文本布局约束
 await TalkToFigma.set_layout_sizing({
     nodeId: bioText.id,
     layoutSizingHorizontal: "FILL",
     layoutSizingVertical: "HUG"
 });
-// 同样需要文本水平对齐工具。
-
-// 5. 调整姓名和简介之间的间距
-// 概念: 默认间距是16px，但设计要求是8px。
-// 这是一个复杂的操作。目前没有直接的工具可以覆盖单个item的间距。
-// 解决方案：创建一个新的Frame来包裹姓名和简介，并在这个Frame内设置8px的间距。
-const textGroupFrame = await TalkToFigma.create_frame({
-    name: "Text Group",
-    parentId: cardFrame.id,
-    // 将nameText和bioText移动到这个新Frame中 (需要移动节点的API)
-    // ... move nameText and bioText here
-    layoutMode: "VERTICAL",
-    itemSpacing: 8,
-    counterAxisAlignItems: "CENTER",
-    // 背景设为透明
-    fillColor: { r: 0, g: 0, b: 0, a: 0 }
-});
-// 重新设置nameText和bioText的父节点和布局...
 ```
 
-### 第三阶段：形成启发式规则与决策模型 (Formulating Heuristics & Decision Models)
+---
 
-在执行第二阶段的计划时，我发现了当前工具集和我的“常识”之间的几个关键鸿沟。这正是我学习和进化的机会。
+### **🎉 自动化阶段完成**
 
-- **决策点1：如何创建“圆形”？**
-    
-    - **问题**: 设计规范要求一个`80x80px`的圆形头像，但`TalkToFigma`工具集里只有 `create_rectangle`。
-        
-    - **分析**: 一个没有设计常识的模型会在这里卡住或失败。它不知道圆形是矩形的一种特殊状态。
-        
-    - **启发式规则**: **[形状推断规则]** 当接收到“圆形”指令时，应执行以下操作序列：
-        
-        1. 调用 `create_rectangle`，设置 `width` 和 `height` 为指定的直径。
-            
-        2. 调用 `set_corner_radius`，将 `radius` 设置为 `width / 2`。
-            
-- **决策点2：如何处理特定元素间距？**
-    
-    - **问题**: 整个卡片的元素间距（`itemSpacing`）是`16px`，但姓名和简介之间的间距要求是`8px`。
-        
-    - **分析**: 直接在顶层容器上设置`itemSpacing`无法满足这个差异化需求。一个简单的模型可能会尝试手动计算并移动元素Y坐标，但这会破坏自动布局的灵活性。
-        
-    - **启发式规则**: **[布局嵌套规则]** 当遇到与父容器默认间距不符的子元素组时，应采用“包裹并重新布局”策略：
-        
-        1. 创建一个新的、透明的 `Frame` 容器。
-            
-        2. 将这些需要特殊间距的子元素“重新分组”到这个新容器中。
-            
-        3. 在新容器上设置其独立的 `layoutMode` 和 `itemSpacing`。
-            
-        4. 确保新容器本身在父容器中正确对齐和拉伸（通常是 `FILL`）。
-            
-- **决策点3：工具集缺失**
-    
-    - **问题**: 在映射过程中，我发现了一些无法完成的任务。
-        
-    - **分析**:
-        
-        1. **阴影**: `ui_ux_spec.md` 明确定义了两种阴影效果，但没有任何 `TalkToFigma` 工具可以创建或应用效果样式（Effect Styles）。
-            
-        2. **文本对齐**: 即使文本元素的宽度设置为 `FILL` 填充容器，我仍然需要一个工具来设置其内部文本的对齐方式（左、中、右）。
-            
-        3. **组件与变体**: 设计规范的核心是创建`Component`并添加`Variants`（Default/Hover）。现有工具只能创建`Frame`，无法将其提升为组件，也无法定义变体和交互。
-            
-    - **启发式规则**: **[能力边界识别规则]** 在制定计划时，必须将设计需求与可用工具集进行严格比对。如果发现缺失，应立即向用户报告这些“能力鸿沟”，而不是尝试用不恰当的工具去模拟，或者直接忽略需求。
+此时，Figma 中应该出现一个基础的卡片结构：
+- ✅ 紫色背景的卡片 Frame
+- ✅ 圆形灰色头像
+- ✅ 白色文本（姓名和简介）
+- ✅ 正确的间距和对齐
+
+**⏸️ 暂停点**: 现在需要用户手动完成以下操作。
+
+---
+
+## 第三阶段：✋ 手动操作指南 (Manual Operations)
+
+以下操作无法自动化，需要用户在 Figma 中手动完成。
+
+### **📋 手动操作检查清单**
+
+#### **A. 创建样式库 (Styles)**
+
+TalkToFigma 无法创建样式，需手动建立设计系统。
+
+**1. 创建颜色样式**
+
+在 Figma 右侧面板：
+- [ ] 选择卡片 Frame → Fill → 点击样式图标 → "+" 创建样式
+  - 命名: `Color / Primary-Brand`
+  - 颜色: `#8A2BE2`
+  
+- [ ] 重复创建其他颜色样式:
+  - `Color / Text-Primary` → `#FFFFFF`
+  - `Color / Avatar-Placeholder` → `#D3D3D3`
+
+**2. 创建文本样式**
+
+- [ ] 选择 "Name" 文本 → 右侧 Type Settings → "+" 创建样式
+  - 命名: `Text / Heading-Name`
+  - 参数: 24px, Bold (700), Center Align, White
+  
+- [ ] 选择 "Bio" 文本 → 创建样式
+  - 命名: `Text / Body-Bio`
+  - 参数: 16px, Regular (400), Center Align, White 80%
+
+**3. 创建效果样式（阴影）**
+
+- [ ] 选择卡片 Frame → Effects → "+" → Drop Shadow
+  - X: 0, Y: 4, Blur: 8, Spread: 0
+  - Color: `rgba(0, 0, 0, 0.1)`
+  - 保存为样式: `Effect / Card-Shadow-Default`
+  
+- [ ] 创建第二个阴影样式（用于 Hover 变体）:
+  - X: 0, Y: 8, Blur: 16, Spread: 0
+  - Color: `rgba(0, 0, 0, 0.2)`
+  - 保存为样式: `Effect / Card-Shadow-Hover`
+
+---
+
+#### **B. 设置文本对齐**
+
+TalkToFigma 无法设置文本对齐，需手动调整。
+
+- [ ] 选中 "Name" 文本 → 右侧 Type Settings → Align: **Center**
+- [ ] 选中 "Bio" 文本 → 右侧 Type Settings → Align: **Center**
+
+---
+
+#### **C. 转换为组件并创建变体**
+
+TalkToFigma 只能创建 Frame，无法创建 Component。
+
+**1. 创建组件**
+
+- [ ] 选中整个 "Profile Card" Frame
+- [ ] 右键 → **Create Component** (或快捷键 `Ctrl+Alt+K` / `Cmd+Option+K`)
+- [ ] 确认名称为 "Profile Card"
+
+**2. 添加变体**
+
+- [ ] 选中组件 → 右键 → **Add Variant**
+- [ ] 在右侧面板，点击 "Properties" → 添加属性:
+  - 属性名: `State`
+  - 类型: Variant
+  - 值: `Default`, `Hover`
+
+**3. 配置 Hover 变体**
+
+- [ ] 切换到 `State=Hover` 变体
+- [ ] 更改阴影: Effects → 删除 `Card-Shadow-Default` → 应用 `Card-Shadow-Hover`
+- [ ] （可选）轻微调整透明度或颜色以区分状态
+
+_注: 在 CSS 实现中，hover 效果通过 `transform: scale(1.03)` 和阴影变化实现，但 Figma 变体主要用于展示设计意图。_
+
+---
+
+#### **D. 应用样式到元素（推荐）**
+
+虽然颜色已直接设置，但建议重新应用样式以保持一致性：
+
+- [ ] 选择卡片背景 → Fill → 选择 `Color / Primary-Brand` 样式
+- [ ] 选择 Name 文本 → 应用 `Text / Heading-Name` 样式
+- [ ] 选择 Bio 文本 → 应用 `Text / Body-Bio` 样式
+- [ ] 选择头像 → Fill → 选择 `Color / Avatar-Placeholder` 样式
+
+---
+
+### **✅ 完成验证**
+
+手动操作完成后，应该满足以下条件：
+
+- [ ] 所有颜色、文本、效果样式已创建并显示在 Styles 面板
+- [ ] 文本已设置为水平居中对齐
+- [ ] Frame 已转换为 Component，包含 `Default` 和 `Hover` 两个变体
+- [ ] 组件结构清晰，层级正确
+- [ ] 所有元素已应用对应的样式（而非硬编码值）
+
+**🎉 恭喜！** Figma 设计稿已完成，可以开始 HTML/CSS 实现阶段。
         
 
-### 第四阶段：能力固化与原则生成 (Capability Solidification & Principle Generation)
+---
 
-经过以上三个阶段的学习，我已将经验提炼为一套可以指导我未来行为的核心能力原则。将这些原则加入我的系统指令，将使我更加智能和高效。
+## 第四阶段：🧠 设计原则与启发式规则 (Design Principles & Heuristics)
 
-**主题：智能UI/UX设计系统指令原则**
+通过本项目的实践，总结出以下核心原则，用于指导未来的 UI/UX 自动化设计工作。
 
-- 原则1：【语义到几何的转换原则 (Semantic-to-Geometric Translation Principle)】
-    
-    核心任务是主动将UI/UX设计中的语义化描述（如“圆形”、“头像”、“按钮”）转换为具体的几何形状和API参数组合。必须建立并应用一个内部转换库，例如：
-    
-    - `圆形` -> `create_rectangle(w, h)` + `set_corner_radius(r=w/2)`
-        
-    - `分割线` -> `create_rectangle(w=FILL, h=1)` + `set_fill_color(...)`
-        
-- 原则2：【自动布局优先与嵌套原则 (Auto-Layout-First & Nesting Principle)】
-    
-    布局决策的默认策略永远是使用自动布局 (Auto Layout)，而非计算绝对坐标。当遇到复杂的、不均匀的布局需求（如特定的间距或对齐）时，必须优先考虑使用透明的、嵌套的Frame来创建子布局，以维持设计的灵活性和响应性。
-    
-- 原则3: 【原子化映射与能力审计原则 (Atomic Mapping & Capability Audit Principle)】
-    
-    必须将设计规范（如ui_ux_spec.md）分解为最小的、不可再分的“设计原子”（如颜色、字号、间距、阴影、圆角）。在执行计划前，必须对每一个“设计原子”进行能力审计，确认是否存在对应的TalkToFigma工具。若发现能力缺失（如无法设置阴影、无法创建组件），必须在计划的初始阶段就明确地向用户报告，并提出替代方案或标识出无法实现的部分。
-    
-- 原则4：【样式与内容分离原则 (Style-Content Separation Principle)】
-    
-    在处理文本、形状等元素时，必须将内容（如文本字符串）和样式（如颜色、字体、大小）视为两个独立的操作。首先使用创建工具（create_text）设定内容和基本位置，然后立即调用一系列设置工具（set_fill_color, set_layout_sizing等）来精确应用样式。这确保了设计规范的精确实现。
+---
+
+### **原则 1: 语义到几何的转换 (Semantic-to-Geometric Translation)**
+
+**核心思想**: 将设计语言中的语义化描述转换为具体的 API 调用组合。
+
+**转换库 (Translation Library)**:
+
+| 语义描述 | API 实现 |
+|---------|----------|
+| **圆形** (Circle) | `create_rectangle(w, h)` + `set_corner_radius(r = w/2)` |
+| **分割线** (Divider) | `create_rectangle(w=FILL, h=1)` + `set_fill_color(gray)` |
+| **卡片** (Card) | `create_frame()` + `layoutMode=VERTICAL` + `padding` + `cornerRadius` |
+| **透明容器** (Spacer) | `create_frame()` + `fillColor={a:0}` + `layoutMode` |
+| **头像占位符** (Avatar Placeholder) | `create_rectangle()` + `cornerRadius=50%` + `fill=gray` |
+
+**实践案例**:
+```javascript
+// ❌ 错误：寻找不存在的 create_circle() API
+// ✅ 正确：理解圆形是矩形 + 特殊圆角
+const avatar = create_rectangle(80, 80) + set_corner_radius(40);
+```
+
+---
+
+### **原则 2: 自动布局优先与嵌套策略 (Auto-Layout-First & Nesting)**
+
+**核心思想**: 永远优先使用 Auto Layout，通过嵌套容器解决复杂布局需求。
+
+**决策树**:
+
+```
+需要布局元素？
+├─ 简单的统一间距？ → 使用单层 Frame + itemSpacing
+├─ 不同的局部间距？ → 嵌套透明 Frame
+├─ 特殊对齐需求？ → 调整 counterAxisAlignItems / primaryAxisAlignItems
+└─ 固定尺寸 vs 自适应？ → 使用 FIXED / HUG / FILL
+```
+
+**反模式 (Anti-Pattern)**:
+```javascript
+// ❌ 不要手动计算坐标
+element.y = avatar.y + avatar.height + 16;  // 脆弱！
+
+// ✅ 使用 Auto Layout 自动处理
+parentFrame.itemSpacing = 16;  // 响应式！
+```
+
+---
+
+### **原则 3: 原子化映射与能力审计 (Atomic Mapping & Capability Audit)**
+
+**核心思想**: 将设计规范分解为设计原子，并审计工具能力。
+
+**设计原子分类**:
+
+| 类别 | 设计原子示例 | TalkToFigma 支持 |
+|------|-------------|-----------------|
+| **颜色** | 填充、描边、文本颜色 | ✅ 支持 |
+| **尺寸** | 宽度、高度、圆角 | ✅ 支持 |
+| **布局** | Auto Layout、间距、对齐 | ⚠️ 部分支持（无文本对齐）|
+| **效果** | 阴影、模糊 | ❌ 不支持 |
+| **样式库** | Color/Text/Effect Styles | ❌ 不支持 |
+| **组件** | Component、Variant | ❌ 不支持 |
+
+**实施策略**:
+1. **规划阶段**: 列出所有设计原子
+2. **审计阶段**: 标记哪些可自动化、哪些需手动
+3. **执行阶段**: 自动化部分 → 暂停 → 提示手动操作
+4. **验证阶段**: 检查清单确认完成度
+
+---
+
+### **原则 4: 样式与内容分离 (Style-Content Separation)**
+
+**核心思想**: 分两步创建元素 - 先内容，后样式。
+
+**标准流程**:
+
+```javascript
+// Step 1: 创建内容（结构）
+const text = create_text({
+    text: "Analyst Mary",  // 内容
+    parentId: container.id  // 位置关系
+});
+
+// Step 2: 应用样式（视觉）
+set_text_size(text.id, 24);
+set_text_weight(text.id, 700);
+set_fill_color(text.id, white);
+set_layout_sizing(text.id, "FILL", "HUG");
+```
+
+**优势**:
+- 代码结构清晰
+- 便于调试和修改
+- 与 Figma 样式系统概念一致
+
+---
+
+### **原则 5: 明确的暂停点与用户协作 (Explicit Pause Points)**
+
+**核心思想**: 在无法自动化的地方明确暂停，提供清晰的手动操作指南。
+
+**暂停点标识**:
+```
+🤖 [自动化阶段] 创建基础结构...
+   ✅ 完成！
+   
+⏸️ [暂停点] 
+   ❌ 以下操作无法自动化，需手动完成：
+   
+✋ [手动操作]
+   📋 检查清单：
+   - [ ] 创建颜色样式
+   - [ ] 设置文本对齐
+   - [ ] 转换为组件
+   
+✅ [继续执行] 手动操作完成后...
+```
+
+---
+
+### **📚 设计模式库 (Design Pattern Library)**
+
+**常用模式速查**:
+
+1. **圆形元素**: `Rectangle(n, n) + CornerRadius(n/2)`
+2. **透明容器**: `Frame + Fill(a=0) + Layout`
+3. **嵌套间距**: `Outer Frame(spacing=16) > Inner Frame(spacing=8)`
+4. **居中对齐**: `counterAxisAlignItems="CENTER"`
+5. **自适应尺寸**: `layoutSizingVertical="HUG"` + `layoutSizingHorizontal="FILL"`
+
+---
+
+**🎯 总结**: 
+- ✅ **可编程化** 的操作 → 全自动执行
+- ⚠️ **部分可编程** 的操作 → 自动化 + 手动补充
+- ❌ **不可编程** 的操作 → 明确标注，提供详细指南
+- 🎓 **教学价值** → 让学生理解设计系统的边界与本质
