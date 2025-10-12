@@ -1,0 +1,230 @@
+/* ========================================
+   个人资料卡样式 - 基础版（无变量）
+   适合初学者学习 - 直接使用具体数值
+   
+   📐 本文件对应 Figma 设计中的所有属性设置
+   帮助学生理解 Figma → CSS 的转换关系
+   ======================================== */
+
+/* ========================================
+   基础样式重置
+   ======================================== */
+* {
+  box-sizing: border-box;  /* 让宽度和高度包含 padding 和 border */
+  margin: 0;               /* 移除所有默认外边距 */
+  padding: 0;              /* 移除所有默认内边距 */
+}
+
+/* ========================================
+   页面主体样式
+   ======================================== */
+body {
+  /* 字体设置 - 使用系统字体，支持中英文 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 
+               "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB",
+               Arial, sans-serif;
+  
+  /* 让 body 占据整个视口高度 */
+  min-height: 100vh;
+  
+  /* 使用 Flexbox 让卡片居中显示 */
+  display: flex;
+  justify-content: center;  /* 水平居中 */
+  align-items: center;      /* 垂直居中 */
+  
+  /* 页面背景色 */
+  background: #f5f5f5;
+}
+
+/* ========================================
+   卡片主容器 .card
+   
+   📐 对应 Figma: Frame "Profile Card"
+   ======================================== */
+.card {
+  /* 【布局方式】Figma: Auto Layout → CSS: Flexbox */
+  display: flex;
+  flex-direction: column;  /* 📐 Figma: Layout Direction = Vertical */
+  align-items: center;     /* 📐 Figma: Counter Axis Align = Center */
+  gap: 16px;               /* 📐 Figma: Item Spacing = 16px */
+  
+  /* 【尺寸】*/
+  width: 320px;            /* 📐 Figma: Width = 320px (Fixed) */
+  padding: 24px;           /* 📐 Figma: Padding = 24px (all sides) */
+  
+  /* 【视觉样式】*/
+  background: #8A2BE2;     /* 📐 Figma: Fill = Color/Primary-Brand (#8A2BE2) */
+  border-radius: 12px;     /* 📐 Figma: Corner Radius = 12px */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  
+  /* 📐 Figma: Effect = Card-Shadow-Default
+     ├─ Type: Drop Shadow
+     ├─ X: 0px, Y: 4px
+     ├─ Blur: 8px, Spread: 0px
+     └─ Color: rgba(0, 0, 0, 0.1) */
+  
+  /* 【过渡动画】让状态变化更平滑 */
+  transition: transform 0.3s ease-in-out,
+              box-shadow 0.3s ease-in-out;
+  /* 📐 Figma: 对应 Variant "state=Hover" 的过渡效果 */
+}
+
+/* 【鼠标悬停状态】
+   📐 Figma: Component Variant "state=Hover" */
+.card:hover {
+  transform: scale(1.03);  /* 放大到 103% */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  /* 📐 Figma: Effect = Card-Shadow-Hover
+     ├─ Type: Drop Shadow
+     ├─ X: 0px, Y: 8px
+     ├─ Blur: 16px, Spread: 0px
+     └─ Color: rgba(0, 0, 0, 0.2) */
+}
+
+/* ========================================
+   头像 .card__avatar
+   
+   📐 对应 Figma: Rectangle "Avatar"
+   ======================================== */
+.card__avatar {
+  /* 【尺寸】*/
+  width: 80px;             /* 📐 Figma: Width = 80px */
+  height: 80px;            /* 📐 Figma: Height = 80px */
+  
+  /* 【圆形效果】*/
+  border-radius: 50%;      /* 📐 Figma: Corner Radius = 40px (50% = 圆形)
+                              💡 提示：当 border-radius = 50% 时，
+                                 正方形会变成完美的圆形 */
+  
+  /* 【图片适配】*/
+  object-fit: cover;       /* 图片填充容器，保持比例裁剪 */
+  
+  /* 【占位符背景】*/
+  background: #D3D3D3;     /* 📐 Figma: Fill = Color/Avatar-Placeholder (#D3D3D3)
+                              💡 作用：当图片未加载时显示灰色占位 */
+}
+
+/* ========================================
+   文本组容器 .card__text-group
+   
+   📐 对应 Figma: Frame "Text Group" (嵌套容器)
+   
+   💡 为什么需要这个嵌套容器？
+   因为 Figma 中姓名和简介之间的间距是 8px，
+   而头像与文本组之间的间距是 16px。
+   使用嵌套容器可以实现不同的间距控制。
+   ======================================== */
+.card__text-group {
+  /* 【布局方式】Figma: Auto Layout → CSS: Flexbox */
+  display: flex;
+  flex-direction: column;  /* 📐 Figma: Layout Direction = Vertical */
+  align-items: center;     /* 📐 Figma: Counter Axis Align = Center */
+  gap: 8px;                /* 📐 Figma: Item Spacing = 8px
+                              ⚠️ 注意：这里是 8px，不是主容器的 16px */
+  
+  /* 【尺寸】*/
+  width: 100%;             /* 📐 Figma: Layout Sizing Horizontal = FILL
+                              💡 填充父容器宽度 */
+  
+  /* 【背景】*/
+  /* 📐 Figma: Fill = Transparent (无背景色)
+     💡 这是一个透明容器，只用于布局 */
+}
+
+/* ========================================
+   姓名 .card__name
+   
+   📐 对应 Figma: Text "Name"
+   📐 对应 Figma Style: Text/Heading-Name
+   ======================================== */
+.card__name {
+  /* 【字体样式】*/
+  font-size: 24px;         /* 📐 Figma: Font Size = 24px */
+  font-weight: 700;        /* 📐 Figma: Font Weight = Bold (700)
+                              💡 字重对照：
+                                 - Regular = 400
+                                 - Medium = 500
+                                 - Semibold = 600
+                                 - Bold = 700 */
+  color: #FFFFFF;          /* 📐 Figma: Fill = Color/Text-Primary (#FFFFFF) */
+  
+  /* 【文本对齐】*/
+  text-align: center;      /* 📐 Figma: Text Align = Center
+                              💡 Figma 中的文本对齐选项：
+                                 - Left = text-align: left;
+                                 - Center = text-align: center;
+                                 - Right = text-align: right; */
+  
+  /* 【行高】*/
+  line-height: 1.2;        /* 📐 Figma: Line Height = Auto (约 1.2)
+                              💡 行高 1.2 表示：
+                                 实际行高 = 字号 × 1.2 = 24px × 1.2 = 28.8px */
+}
+
+/* ========================================
+   简介 .card__bio
+   
+   📐 对应 Figma: Text "Bio"
+   📐 对应 Figma Style: Text/Body-Bio
+   ======================================== */
+.card__bio {
+  /* 【字体样式】*/
+  font-size: 16px;         /* 📐 Figma: Font Size = 16px */
+  font-weight: 400;        /* 📐 Figma: Font Weight = Regular (400) */
+  color: #FFFFFF;          /* 📐 Figma: Fill = Color/Text-Primary (#FFFFFF) */
+  opacity: 0.8;            /* 📐 Figma: Layer Opacity = 80%
+                              💡 透明度对照：
+                                 - Figma: 80% = CSS: 0.8
+                                 - Figma: 50% = CSS: 0.5
+                                 - Figma: 100% = CSS: 1.0 */
+  
+  /* 【文本对齐】*/
+  text-align: center;      /* 📐 Figma: Text Align = Center */
+  
+  /* 【行高】*/
+  line-height: 1.5;        /* 📐 Figma: Line Height = Auto (约 1.5)
+                              💡 行高 1.5 让多行文本更易读 */
+}
+
+/* ========================================
+   📚 Figma → CSS 完整映射表
+   ======================================== 
+   
+   【Frame 属性映射】
+   Figma Property              → CSS Property
+   ─────────────────────────────────────────────
+   Auto Layout (Vertical)      → display: flex; 
+                                 flex-direction: column;
+   Auto Layout (Horizontal)    → display: flex; 
+                                 flex-direction: row;
+   Item Spacing                → gap
+   Padding                     → padding
+   Width (Fixed)               → width
+   Height (Fixed)              → height
+   Layout Sizing (FILL)        → width: 100%; 或 height: 100%;
+   Layout Sizing (HUG)         → width: auto; 或 height: auto;
+   Counter Axis Align (Center) → align-items: center;
+   Primary Axis Align (Center) → justify-content: center;
+   
+   【视觉属性映射】
+   Figma Property              → CSS Property
+   ─────────────────────────────────────────────
+   Fill (Color)                → background
+   Corner Radius               → border-radius
+   Drop Shadow                 → box-shadow
+   Layer Opacity               → opacity
+   
+   【文本属性映射】
+   Figma Property              → CSS Property
+   ─────────────────────────────────────────────
+   Font Size                   → font-size
+   Font Weight (Bold)          → font-weight: 700;
+   Font Weight (Regular)       → font-weight: 400;
+   Fill (Text Color)           → color
+   Text Align (Center)         → text-align: center;
+   Line Height                 → line-height
+   
+   【动画属性映射】
+   Figma Variant (state=Hover) → :hover 伪类
+   Transition Duration         → transition
+   
+   ======================================== */

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人资料卡 - 进阶版</title>
+  <!-- 引入进阶版 CSS（使用变量，展示最佳实践） -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 
+    BEM 命名规范说明：
+    - Block（块）：.card - 独立的组件
+    - Element（元素）：.card__avatar - 块的组成部分，用双下划线连接
+    - Modifier（修饰符）：.card--highlighted - 块的不同状态，用双连字符连接
+  -->
+  
+  <div class="card">
+    <img class="card__avatar" src="images/avatar.png" alt="Analyst Mary 的头像">
+    <div class="card__text-group">
+      <h3 class="card__name">Analyst Mary</h3>
+      <p class="card__bio">Insightful Analyst exploring data patterns and narratives.</p>
+    </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人资料卡 - 基础版</title>
+  <!-- 引入基础版 CSS（无变量，适合初学者） -->
+  <!-- <link rel="stylesheet" href="css/style-basic.css"> -->
+  <link rel="stylesheet" href="css/style-basic-copy.css">
+</head>
+<body>
+  <!-- 
+    【Figma → HTML 映射说明】
+    
+    卡片主容器 <div class="card">
+    ├─ 对应 Figma: "Profile Card" Frame
+    │  └─ 设置: Auto Layout (Vertical)
+    │
+    ├─ 头像 <img class="card__avatar">
+    │  ├─ 对应 Figma: "Avatar" Rectangle
+    │  └─ 设置: 80x80px, Corner Radius 40px (圆形)
+    │
+    └─ 文本组 <div class="card__text-group">
+       ├─ 对应 Figma: "Text Group" Frame (嵌套)
+       │  └─ 设置: Auto Layout (Vertical), Item Spacing 8px
+       │
+       ├─ 姓名 <h3 class="card__name">
+       │  ├─ 对应 Figma: "Name" Text
+       │  └─ 样式: Text/Heading-Name (24px, Bold)
+       │
+       └─ 简介 <p class="card__bio">
+          ├─ 对应 Figma: "Bio" Text  
+          └─ 样式: Text/Body-Bio (16px, Regular, 80% opacity)
+  -->
+  
+  <!-- 
+    【BEM 命名规范】
+    Block（块）：.card - 整个卡片组件
+    Element（元素）：.card__avatar - 卡片的头像部分（用 __ 连接）
+    Element（元素）：.card__text-group - 卡片的文本组部分
+    Element（元素）：.card__name - 卡片的姓名部分
+    Element（元素）：.card__bio - 卡片的简介部分
+  -->
+  
+  <!-- 卡片主容器 - Block -->
+  <!-- 📐 Figma: Frame "Profile Card" → HTML: <div> -->
+  <div class="card">
+    
+    <!-- 头像 - Element -->
+    <!-- 📐 Figma: Rectangle "Avatar" → HTML: <img> -->
+    <img class="card__avatar" 
+         src="images/avatar.png" 
+         alt="Mary 的头像">
+    
+    <!-- 文本组容器 - Element -->
+    <!-- 📐 Figma: Frame "Text Group" (嵌套容器) → HTML: <div> -->
+    <!-- 💡 作用：实现 8px 的特殊间距（不同于主容器的 16px） -->
+    <div class="card__text-group">
+      
+      <!-- 姓名 - Element -->
+      <!-- 📐 Figma: Text "Name" → HTML: <h3> -->
+      <h3 class="card__name">Analyst Mary</h3>
+      
+      <!-- 简介 - Element -->
+      <!-- 📐 Figma: Text "Bio" → HTML: <p> -->
+      <p class="card__bio">Insightful Analyst exploring data patterns and narratives.</p>
+      
+    </div>
+    
+  </div>
+</body>
+</html>
+

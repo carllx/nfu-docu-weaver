@@ -1,5 +1,16 @@
 /* ========================================
+   个人资料卡样式 - 进阶版（使用 CSS 变量）
+   展示最佳实践 - 可维护、可复用的设计系统
+   ======================================== */
+
+/* ========================================
    CSS 变量定义 - 对应 Figma Design Tokens
+   
+   为什么使用 CSS 变量？
+   1. 集中管理设计令牌，修改一处即可全局更新
+   2. 与 Figma 的 Styles 系统概念一致
+   3. 提高代码的可维护性和可读性
+   4. 便于实现主题切换（如深色模式）
    ======================================== */
 :root {
   /* 颜色系统 - 对应 Figma Color Styles */
@@ -83,12 +94,18 @@ body {
   background: var(--color-avatar-placeholder);
 }
 
-/* Element: 文本组容器 */
+/* Element: 文本组容器 
+   
+   为什么需要这个容器？
+   - 实现姓名和简介之间的 8px 特殊间距
+   - 与 Figma 的嵌套 Frame 结构保持一致
+   - 保持布局的灵活性和可维护性
+*/
 .card__text-group {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--spacing-small);
+  gap: var(--spacing-small);  /* 使用变量而不是硬编码 8px */
   width: 100%;
 }
 

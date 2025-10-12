@@ -1,0 +1,152 @@
+/* ========================================
+   个人资料卡样式 - 基础版（无变量）
+   适合初学者学习 - 直接使用具体数值
+   
+   📐 本文件对应 Figma 设计中的所有属性设置
+   帮助学生理解 Figma → CSS 的转换关系
+   ======================================== */
+
+/* ========================================
+   基础样式重置
+   ======================================== */
+* {
+  box-sizing: border-box;  /* 让宽度和高度包含 padding 和 border */
+  margin: 0;               /* 移除所有默认外边距 */
+  padding: 0;              /* 移除所有默认内边距 */
+}
+
+/* ========================================
+   页面主体样式
+   ======================================== */
+body {
+  /* 字体设置 - 使用系统字体，支持中英文 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 
+               "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB",
+               Arial, sans-serif;
+  
+  /* 让 body 占据整个视口高度 */
+  min-height: 100vh;
+  
+  /* 使用 Flexbox 让卡片居中显示 */
+  display: flex;
+  justify-content: center;  /* 水平居中 */
+  align-items: center;      /* 垂直居中 */
+  
+  /* 页面背景色 */
+  background: #f5f5f5;
+}
+
+/* ========================================
+   卡片主容器 .card
+   
+   📐 对应 Figma: Frame "Profile Card"
+   ======================================== */
+.card {
+   border-radius: 12px;
+   background: var(--Color-Primary-Brand, #8A2BE2);
+   
+   /* Effect/Card-Shadow-Default */
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+   display: flex;
+   width: 320px;
+   padding: 24px;
+   flex-direction: column;
+   align-items: center;
+   gap: 16px;
+}
+
+/* 【鼠标悬停状态】
+   📐 Figma: Component Variant "state=Hover" */
+.card:hover {
+  
+}
+
+/* ========================================
+   头像 .card__avatar
+   
+   📐 对应 Figma: Rectangle "Avatar"
+   ======================================== */
+.card__avatar {
+   border-radius: 40px;
+   background: var(--Color-Avatar-Placeholder, #D3D3D3);
+   width: 80px;
+   height: 80px;
+}
+
+/* ========================================
+   文本组容器 .card__text-group
+   
+   📐 对应 Figma: Frame "Text Group" (嵌套容器)
+   
+   💡 为什么需要这个嵌套容器？
+   因为 Figma 中姓名和简介之间的间距是 8px，
+   而头像与文本组之间的间距是 16px。
+   使用嵌套容器可以实现不同的间距控制。
+   ======================================== */
+.card__text-group {
+  
+}
+
+/* ========================================
+   姓名 .card__name
+   
+   📐 对应 Figma: Text "Name"
+   📐 对应 Figma Style: Text/Heading-Name
+   ======================================== */
+.card__name {
+  
+}
+
+/* ========================================
+   简介 .card__bio
+   
+   📐 对应 Figma: Text "Bio"
+   📐 对应 Figma Style: Text/Body-Bio
+   ======================================== */
+.card__bio {
+  
+}
+
+/* ========================================
+   📚 Figma → CSS 完整映射表
+   ======================================== 
+   
+   【Frame 属性映射】
+   Figma Property              → CSS Property
+   ─────────────────────────────────────────────
+   Auto Layout (Vertical)      → display: flex; 
+                                 flex-direction: column;
+   Auto Layout (Horizontal)    → display: flex; 
+                                 flex-direction: row;
+   Item Spacing                → gap
+   Padding                     → padding
+   Width (Fixed)               → width
+   Height (Fixed)              → height
+   Layout Sizing (FILL)        → width: 100%; 或 height: 100%;
+   Layout Sizing (HUG)         → width: auto; 或 height: auto;
+   Counter Axis Align (Center) → align-items: center;
+   Primary Axis Align (Center) → justify-content: center;
+   
+   【视觉属性映射】
+   Figma Property              → CSS Property
+   ─────────────────────────────────────────────
+   Fill (Color)                → background
+   Corner Radius               → border-radius
+   Drop Shadow                 → box-shadow
+   Layer Opacity               → opacity
+   
+   【文本属性映射】
+   Figma Property              → CSS Property
+   ─────────────────────────────────────────────
+   Font Size                   → font-size
+   Font Weight (Bold)          → font-weight: 700;
+   Font Weight (Regular)       → font-weight: 400;
+   Fill (Text Color)           → color
+   Text Align (Center)         → text-align: center;
+   Line Height                 → line-height
+   
+   【动画属性映射】
+   Figma Variant (state=Hover) → :hover 伪类
+   Transition Duration         → transition
+   
+   ======================================== */
