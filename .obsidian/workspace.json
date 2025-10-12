@@ -88,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -283,14 +282,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "605e25a0d0cb4453",
+  "active": "ee3eba95b819dffa",
   "lastOpenFiles": [
+    "_交互产品综合创作/content/slides/3.2_语言与法则.md",
+    "_交互产品综合创作/content/slides/3.2_语言与法则.marpit.md",
+    "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
     "_交互产品综合创作/content/slides/3.4 视觉基石 Foundations.md",
     "_交互产品综合创作/content/slides/3.7.md",
     "3.Design and Methods (VPCCRP).md",
     "3.2 组件的数据流与层级关系.md",
     "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
-    "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
     "_DigtalSculting/src/tooo-maya/为什么选择 maya  FBX activate Embed Media?.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/optimization_complete.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/README-色彩系统.md",
@@ -318,10 +319,8 @@
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-embed-params.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/使用指南-完整版.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/快速参考.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/提取指南.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/auto-extract.js",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/extract-network-resources.js",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/提取结果总结.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-page-screenshot.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/sketchfab-page-screenshot.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/maya-sketchfab-exporter.png",
