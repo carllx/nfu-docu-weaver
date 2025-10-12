@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.md",
+                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.7 Figma 样式在设计中标准化哪些基本属性"
+              "title": "Untitled"
             }
           },
           {
@@ -48,23 +48,8 @@
               "icon": "lucide-file",
               "title": "vid- A Guide to Auto Layout - Best Practices - Tips Tricks"
             }
-          },
-          {
-            "id": "263986d43202e1ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "copilot-custom-prompts/ada-ppt/version3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "version3"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/task-talk-to-figma-mcp.md",
+                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of task-talk-to-figma-mcp"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -226,7 +211,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/task-talk-to-figma-mcp.md",
+                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -254,7 +239,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of task-talk-to-figma-mcp"
+              "title": "Graph of Untitled"
             }
           },
           {
@@ -311,19 +296,30 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "69d146aa2c78f5f9",
+  "active": "ee3eba95b819dffa",
   "lastOpenFiles": [
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/brief.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/PROJECT_SUMMARY.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/README.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/README.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/css/style.css",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/index.html",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/css",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/story.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled.md",
+    "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.md",
+    "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
+    "copilot-custom-prompts/ada-ppt/version3.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/task-talk-to-figma-mcp.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/brief.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/frontend_architecture.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/ui_ux_spec.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/story.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs",
     "_交互产品综合创作/src/epic_01_2d_plane/Figma 教程 - 使用样式.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5",
     "_交互产品综合创作/src/epic_01_2d_plane/Figma 教程 - 创建可复用的样式.md",
-    "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.md",
     "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
     "Pasted image 20251012151732.png",
     "_交互产品综合创作/content/slides/3.5_核心技术：构建响应式布局.marpit.md",
@@ -339,21 +335,10 @@
     "Pasted image 20251012140719.png",
     "_交互产品综合创作/content/slides/3.1_原子设计原则.marpit.md",
     "Pasted image 20251012131834.png",
-    "copilot-custom-prompts/ada-ppt/version3.md",
     "copilot-custom-prompts/ada-ppt/版本 2.md",
-    "copilot-custom-prompts/ada-ppt/版本 1.md",
-    "copilot-custom-prompts/ada-ppt/docs/prd.md",
-    "copilot-custom-prompts/ada-ppt/docs/brief.md",
-    "copilot-custom-prompts/ada-ppt/版本1.md",
     "Pasted image 20251012105401.png",
-    "_交互产品综合创作/content/slides/3.2_语言与法则.md",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/apply_color_system.py",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/color_palette_preview.html",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/material_comparison.csv",
-    "copilot-custom-prompts/nfu-docu-weaver/courses/course-002-三维动画基础-数字建模/output/93-设计学院-林昕&SHIU LUO SARA(肖咏兰)-2025-2026-1《三维动画基础-数字建模》教案-v3.docx",
-    "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/82-数字媒体艺术（专升本）-林昕-2025-2026-1《交互产品综合创作》教案.docx",
-    "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/82-数字媒体艺术（专升本）-林昕-2025-2026-1《交互产品综合创作》教案 v1.docx",
-    "copilot-custom-prompts/nfu-docu-weaver/courses/course-003-交互产品综合创作/output/~$互产品综合创作》教案1-15.docx",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-embed-screenshot.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-page-screenshot.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/New Folder With Items/sketchfab-page-screenshot.png",
