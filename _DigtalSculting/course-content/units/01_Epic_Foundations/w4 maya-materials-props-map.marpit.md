@@ -10,7 +10,7 @@ class:
 
 
 
-参考 [ 🔍 google Google Gemini](@https://gemini.google.com/u/2/app/9badde305ee0410b)
+参考 [ 🔍 google Google Gemini](https://gemini.google.com/u/2/app/9badde305ee0410b)
 **参考案例：** [60's Office Props by G.G.](https://sketchfab.com/3d-models/60s-office-props-dc00ea320cfa4aad90811080270672db "null")
 
 
@@ -29,7 +29,6 @@ class:
 - Arnold渲染器
 
 
-![bg fit left:50% vertical](https://i.imgur.com/CofTco6.webp)
 
 <!-- [Opener]: 大家好，欢迎来到今天的课程。在我们开始动手制作之前，我们首先要思考一个问题：一个看似简单的Low-Poly场景，它的魅力究竟从何而来？
 
@@ -47,7 +46,7 @@ class:
 [V-Prompt]: A minimalist line drawing illustration on a white background of a disassembled vintage toy car, with its parts neatly arranged, conveying a sense of analytical precision and creative potential. square aspect ratio. -->
 ---
 
-### 通过这门课，你将解锁哪些核心技能？
+### 这门课我们解锁哪些核心技能？
 
 - **风格特征分析**
     

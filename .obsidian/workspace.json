@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.8.2 style-layout-h5.marpit"
+              "title": "w4 maya-materials-props-map.marpit"
             }
           },
           {
@@ -52,11 +52,11 @@
         ]
       },
       {
-        "id": "7269c71c6236e12c",
+        "id": "12abb68395a15d42",
         "type": "tabs",
         "children": [
           {
-            "id": "790e7afdb574d52b",
+            "id": "6392d91944637acf",
             "type": "leaf",
             "state": {
               "type": "marp-preview-view",
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.8.2 style-layout-h5.marpit"
+              "title": "Outline of w4 maya-materials-props-map.marpit"
             }
           },
           {
@@ -227,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 3.8.2 style-layout-h5.marpit"
+              "title": "Graph of w4 maya-materials-props-map.marpit"
             }
           },
           {
@@ -312,12 +312,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eae2f802ee203782",
+  "active": "6392d91944637acf",
   "lastOpenFiles": [
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.1 gothic-rose-window.marpit.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.0 数字建模 - 课程简介.md",
+    "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
     "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.pptx",
     "_交互产品综合创作/content/slides/3.8.1 style-layout-figma.marpit.md",
     "_交互产品综合创作/content/slides/3.8.1 style-layout-figma.marpit.pptx",
-    "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
     "Pasted image 20251013081422.png",
     "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8 style-figma-h5.md",
@@ -342,7 +346,6 @@
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/css/style.css",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/index.html",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/css",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/story.md",
     "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.md",
     "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
@@ -351,10 +354,7 @@
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/brief.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/frontend_architecture.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/ui_ux_spec.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/Figma 教程 - 使用样式.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/Figma 教程 - 创建可复用的样式.md",
     "Pasted image 20251012151732.png",
-    "_交互产品综合创作/content/slides/3.5_核心技术：构建响应式布局.marpit.md",
     "Pasted image 20251012143026.png",
     "Pasted image 20251012140719.png",
     "Pasted image 20251012131834.png",
