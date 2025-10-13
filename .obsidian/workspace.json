@@ -52,11 +52,11 @@
         ]
       },
       {
-        "id": "12abb68395a15d42",
+        "id": "b60d5fd9094bf675",
         "type": "tabs",
         "children": [
           {
-            "id": "6392d91944637acf",
+            "id": "c75177730489f784",
             "type": "leaf",
             "state": {
               "type": "marp-preview-view",
@@ -312,7 +312,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6392d91944637acf",
+  "active": "c75177730489f784",
   "lastOpenFiles": [
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
