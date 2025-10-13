@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8.2 style-figma-h5-cn.marpit.md",
+                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.8.2 style-figma-h5-cn.marpit"
+              "title": "3.8.2 style-layout-h5.marpit"
             }
           },
           {
@@ -52,11 +52,11 @@
         ]
       },
       {
-        "id": "45bb2c0f5d2d4c8b",
+        "id": "7269c71c6236e12c",
         "type": "tabs",
         "children": [
           {
-            "id": "1911cd60f85042ed",
+            "id": "790e7afdb574d52b",
             "type": "leaf",
             "state": {
               "type": "marp-preview-view",
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8.2 style-figma-h5-cn.marpit.md",
+                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.8.2 style-figma-h5-cn.marpit"
+              "title": "Outline of 3.8.2 style-layout-h5.marpit"
             }
           },
           {
@@ -227,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8.2 style-figma-h5-cn.marpit.md",
+                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 3.8.2 style-figma-h5-cn.marpit"
+              "title": "Graph of 3.8.2 style-layout-h5.marpit"
             }
           },
           {
@@ -314,9 +314,11 @@
   },
   "active": "eae2f802ee203782",
   "lastOpenFiles": [
+    "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.pptx",
+    "_交互产品综合创作/content/slides/3.8.1 style-layout-figma.marpit.md",
+    "_交互产品综合创作/content/slides/3.8.1 style-layout-figma.marpit.pptx",
+    "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
     "Pasted image 20251013081422.png",
-    "_交互产品综合创作/content/slides/3.8.1 style-figma-h5-cn.marpit.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8.2 style-figma-h5-cn.marpit.md",
     "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8 style-figma-h5.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/css/style-basic copy.css",
@@ -341,7 +343,6 @@
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/index.html",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/css",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/story.md",
     "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.md",
     "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
@@ -359,7 +360,6 @@
     "Pasted image 20251012131834.png",
     "Pasted image 20251012105401.png",
     "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-embed-screenshot.png",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-page-screenshot.png",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",
