@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled.md",
+                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8.2 style-figma-h5-cn.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "3.8.2 style-figma-h5-cn.marpit"
             }
           },
           {
@@ -47,6 +47,22 @@
               },
               "icon": "lucide-file",
               "title": "vid- A Guide to Auto Layout - Best Practices - Tips Tricks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "45bb2c0f5d2d4c8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1911cd60f85042ed",
+            "type": "leaf",
+            "state": {
+              "type": "marp-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Deck Preview"
             }
           }
         ]
@@ -168,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled.md",
+                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8.2 style-figma-h5-cn.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of 3.8.2 style-figma-h5-cn.marpit"
             }
           },
           {
@@ -211,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled.md",
+                "file": "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8.2 style-figma-h5-cn.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -239,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Untitled"
+              "title": "Graph of 3.8.2 style-figma-h5-cn.marpit"
             }
           },
           {
@@ -296,8 +312,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ee3eba95b819dffa",
+  "active": "eae2f802ee203782",
   "lastOpenFiles": [
+    "Pasted image 20251013081422.png",
+    "_交互产品综合创作/content/slides/3.8.1 style-figma-h5-cn.marpit.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8.2 style-figma-h5-cn.marpit.md",
+    "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/3.8 style-figma-h5.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/css/style-basic copy.css",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/📐_Figma映射更新说明.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/FIGMA_TO_CSS_GUIDE.md",
@@ -322,7 +343,6 @@
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/css",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/story.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/Untitled.md",
     "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.md",
     "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
     "copilot-custom-prompts/ada-ppt/version3.md",
@@ -332,11 +352,8 @@
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/docs/ui_ux_spec.md",
     "_交互产品综合创作/src/epic_01_2d_plane/Figma 教程 - 使用样式.md",
     "_交互产品综合创作/src/epic_01_2d_plane/Figma 教程 - 创建可复用的样式.md",
-    "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
     "Pasted image 20251012151732.png",
     "_交互产品综合创作/content/slides/3.5_核心技术：构建响应式布局.marpit.md",
-    "_交互产品综合创作/content/slides/3.5_核心技术：构建响应式布局.md",
-    "_交互产品综合创作/content/slides/3.6_Figma 设计系统到 AI 开发赋能课程.marpit.md",
     "Pasted image 20251012143026.png",
     "Pasted image 20251012140719.png",
     "Pasted image 20251012131834.png",
