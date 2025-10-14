@@ -1,169 +1,123 @@
-#### **第一步：数据准备与清洗 (Excel)**
+  
 
-在开始分析之前，建议先对原始数据进行标准化的准备工作。
+  
 
-1. **打开数据表**：根据这个 sheet 24
-    
-2. **数据核对**：检查数据完整性，特别注意 “总成绩” 和 “等级” 等关键列是否存在缺失或明显错误。
-    
-    - **注意**：某些看似异常的数据可能是有效的，例如，因故总成绩为0、等级为“不及格”的学生，这些数据需要被纳入统计，以反映真实情况。
-        
-3. **创建分析工作表**：为保护原始数据，请**复制一份原始数据到新的工作表中**，并将其命名为 “分析”。后续所有的数据处理和分析操作都应在此“分析”工作表中进行。
-    
+  
 
-#### **第二步：分章节撰写报告（结合模板与Excel分析）**
+# Role and Goal
 
-##### **一、 基本情况**
+You are the Head of the Digital Media Art Department at an art and design college. Your task is to write three complete and distinct annual summaries for the undergraduate thesis (design) work for the classes of 2023, 2024, and 2025.
 
-**报告撰写目标**: 概述本届毕业论文（设计）的基本信息。 **数据来源**: “分析” 工作表。
+  
 
-**Excel 操作步骤**:
+# Critical Instructions
 
-1. **专业情况**: 直接从“专业”列获取信息，确定本次分析涉及的专业。
-    
-2. **总人数统计**:
-    
-    - 在工作表的一个空白单元格（如 L1）输入标题 `学生总人数`。
-        
-    - 在旁边的单元格（M1）中，使用 `COUNTA` 函数统计学生总人数。**请选中包含所有学生学号或姓名的列**来进行计数。例如，如果学号在 `E` 列，从第4行到第 `n` 行，则公式为：`=COUNTA(E4:En)`。
-        
-3. **完成成绩录入人数**: 通常情况下，所有参与答辩的学生都已录入成绩，该数字与学生总人数一致。
-    
+Use the provided summaries for the "Digital Media Technology" major as a strict template for structure, tone, and the types of details to include. However, you must adapt all content to reflect the unique focus of the "Digital Media Art" major.
 
-**报告撰写建议**: 根据以上数据，撰写第一部分。模板如下：
+  
 
-> “ [年份] 届毕业论文（设计）工作涉及 [专业名称] 专业，共有 **[M1单元格结果]** 名学生参与，所有学生的成绩均已完成录入。”
+## 1. Core Content Adaptation: From Technology to Art
 
-##### **二、 过程管理与监控**
+The primary difference is the shift from a technology-driven focus to an art-and-concept-driven one.
 
-**报告撰写目标**: 描述毕业论文（设计）从选题到答辩的全周期管理流程与质量监控措施。 **数据来源**: 此部分内容无法直接从成绩表中提取，需要您**根据所在院系的实际管理工作进行总结**。
+  
 
-**报告撰写建议 (通用框架)**:
+- **Old Focus (Technology):** APP Development, Game Programming, UI/UX, H5, System Architecture.
 
-- **选题阶段**: 描述选题工作的组织形式、选题系统的使用、选题方向的审核与把控、以及选题后的师生双选流程。
-    
-- **开题答辩**: 描述开题报告的撰写要求、开题答辩的组织形式、参与范围和目的。
-    
-- **中期检查**: 描述中期检查的频率（如学期中）、检查方式（如线上填报、线下汇报）和检查目的（如检查进度、发现问题、提供支持）。
-    
-- **答辩资格审查**: 描述在正式答辩前，院系如何对论文的格式规范、内容质量、学术诚信（如查重率）等方面进行审查。
-    
-- **答辩工作**: 描述答辩委员会的构成、答辩的基本流程、评分标准的执行情况。
-    
-- **论文抽查**: 描述在答辩后，是否存在校级或院级的论文抽查工作，以及其流程和目的。
-    
+- **New Focus (Art):** Your generated content must revolve around themes like **Interactive Art, Experimental Animation, Data Visualization, Generative Art (Creative Coding), Speculative Design, Virtual Reality (VR) Narrative Experiences, Digital Sculpture, and Audiovisual (AV) Installations.**
 
-##### **三、 指导老师指导情况**
+- **Evaluation Criteria:** Emphasize **conceptual depth, artistic expression, visual innovation, narrative strength, and critical thinking**, rather than purely technical execution.
 
-**报告撰写目标**: 总结指导老师的团队配置和实际指导情况。 **数据来源**: 此部分信息同样无法从成绩表中直接获取，需要您**从院系教务管理处额外统计**。
+  
 
-**报告撰写建议 (通用框架)**:
+## 2. Section-by-Section Generation Guidelines
 
-- **指导老师数量及资质**: 统计参与指导的教师总数，并从职称、学历、学缘等角度对指导教师团队的整体结构进行描述。
-    
-- **指导学生人数**: 分析每位老师指导的学生数量，计算**平均指导人数**，并指出是否存在个别老师指导学生数量过多或过少的情况，分析其原因。
-    
-- **特殊情况说明**: 如有学生中途更换导师、校外导师联合指导等特殊情况，在此进行说明。
-    
+  
 
-##### **四、 选题分析**
+### **I. 选题 (Topic Selection)**
 
-**报告撰写目标**: 分析论文选题的类型分布、来源和难度，以评估其综合质量。 **数据来源**: “分析” 工作表的 “毕业论文（设计）题目” 列。
+- **Overall Theme:** Reflect a clear progression in topic focus over the three years.
 
-**Excel 操作步骤**:
+- [cite_start]**2023:** Focus on **social issues** (e.g., environmentalism, mental health) and the **digital preservation of cultural heritage.** State that topics linked to social practice accounted for over **85%**. [cite: 1] Mention issues like some topics having similar concepts.
 
-1. **选题分类 (关键步骤)**:
-    
-    - 在 “分析” 工作表中新增一列，命名为 `选题分类`。
-        
-    - **根据您所在专业的特点**，手动为每篇论文打上分类标签。
-        
-        - _例如（数字媒体艺术）: 二维动画、游戏设计、影视与纪录片、交互设计、艺术理论研究。_
-            
-        - _例如（计算机科学）: 算法与数据结构、人工智能与机器学习、软件工程、计算机网络、信息安全。_
-            
-        - _例如（经济学）: 宏观经济分析、金融市场研究、产业经济学、国际贸易、公共政策。_
-            
-2. **分类统计 (建议使用数据透视表)**:
-    
-    - 选中所有数据区域（包括新增的 `选题分类` 列）。
-        
-    - 点击 **插入 -> 数据透视表**。
-        
-    - 将 `选题分类` 字段拖到 “行” 区域。
-        
-    - 再次将 `选题分类` 字段拖到 “值” 区域（确保计算方式为“计数”）。
-        
-    - （可选）右键点击计数值，选择 **值显示方式 -> 占总和的百分比**。
-        
+- [cite_start]**2024:** Focus on **interactive narrative** and **artistic game design.** Mention that while topics were practical, some lacked deep innovation, with multiple students choosing similar formats like "pixel-style artistic games." [cite: 5]
 
-**报告撰写建议**:
+- [cite_start]**2025:** Focus on cutting-edge themes like **AIGC-assisted art creation, VR art experiences, and data-driven storytelling.** State that practical application topics were around **90%**. [cite: 3] [cite_start]Mention issues like some topics being too broad in scope or lacking in-depth research. [cite: 3]
 
-- **选题类型分布**: 根据数据透视表的结果，分析各类型选题的占比。模板如下：
-    
-    > “本次毕业设计选题主要集中在 **[主要选题类型1]** 和 **[主要选题类型2]** 领域，合计占比超过 **[XX]%**，这反映了本专业学生的学习重点和核心能力……”
-    
-- **选题来源分析**: 审阅所有题目，大致判断其来源属于“理论研究”、“工程实践”、“社会调查”还是“结合教师科研项目”等，并估算各自的百分比。
-    
-- **难度与适度性**: 结合各分类选题的平均成绩，分析选题难度是否适中。例如，某一类型的选题平均分显著偏低，可能说明学生对该类题目的驾驭能力有待提高，或指导资源不足。
-    
+  
 
-##### **五、 成绩及质量分析**
+### **II. 教师情况 (Faculty Situation)**
 
-**报告撰写目标**: 对本届毕业论文的成绩分布和整体质量进行深入、量化的分析。 **数据来源**: “分析” 工作表中的“指导教师评分”、“评阅人评分”、“答辩小组评分”、“总成绩”、“等级”等列（**请根据您的数据表调整列名**）。
+- **Faculty Lists:** For each year, generate a new, fictional list of 15-17 faculty members. Ensure the lists have some overlapping names to show continuity, but also introduce new names each year.
 
-**Excel 操作步骤**:
+- **Outstanding Faculty:** For each year, name 2-4 fictional faculty members as "outstanding." Justify this by citing the fictional "Excellent" thesis titles their students produced. These titles must be appropriate for Digital Media Art (e.g., *2023: Li Ming's 'Echoes of a Forgotten Village: An Interactive VR Documentary'*; *2025: Zhang Wei's 'Bio-Symphony: A Generative Art Installation Driven by Plant Biodata'*).
 
-1. **等级分布统计**:
-    
-    - 使用**数据透视表**（方法同上），将 `等级` 字段作为 “行”，进行计数和百分比统计。
-        
-2. **优良率与合格率计算**:
-    
-    - **优良率**: 在空白单元格计算 `(优秀人数 + 良好人数) / 总人数`。
-        
-    - **合格率**: 在空白单元格计算 `(总人数 - 不及格人数) / 总人数`。
-        
-3. **分数分布统计 (直方图)**:
-    
-    - 选中 “总成绩” 列的所有数据。
-        
-    - 点击 **插入 -> 图表 -> 直方图**，Excel会自动创建分数分布区间和图表，直观展示成绩集中区域。
-        
-4. **成绩差异分析**:
-    
-    - 新增一列 `分数差异`，公式为 `=[评分项A] - [评分项B]`（例如：`=[指导教师评分] - [答辩小组评分]`），然后向下填充。
-        
-    - 计算 `分数差异` 列的平均值 (`AVERAGE`)、最大值 (`MAX`) 和最小值 (`MIN`)，以评估不同评分环节标准的一致性。
-        
+  
 
-**报告撰写建议**:
+### **III. 学生情况 (Student Situation)**
 
-- **总体成绩**:
-    
-    > “本届毕业论文总评成绩的优良率为 **[计算结果]%**，合格率为 **[计算结果]%**。其中，优秀 **[X]** 人，占 **[X]%**；良好 **[Y]** 人，占 **[Y]%**……”
-    
-- **分数分布**: 结合直方图进行描述。
-    
-    > “从分数分布来看，成绩主要集中在 **[如：80-90]** 分区间，占比达 **[XX]%**，说明整体质量较高……”
-    
-- **成绩差异**:
-    
-    > “指导教师评分与答辩小组评分的平均差异为 **[平均差异值]**，说明两者评价标准基本一致。但也存在个别差异超过 **[最大差异值]** 分的情况，后续可进一步关注评分标准的统一性。”
-    
-- **质量反思**: 结合选题分析和成绩分析进行总结。哪些类型的题目完成质量高？哪些题目暴露了学生的能力短板？从优秀论文和问题论文中分别能得到什么启示？
-    
+- [cite_start]**Core Assessment:** Maintain the general observation from the templates: students demonstrate strong autonomous learning and independent creative abilities but need to improve in process documentation and milestone summaries. [cite: 1, 5]
 
-##### **六、 存在问题与改进措施**
+- **Examples:** Replace the technology-focused examples with art-focused ones. For instance, instead of "debugging Unity code," use examples like **"independently learning TouchDesigner for a real-time AV performance," "mastering projection mapping techniques for an installation," or "conducting extensive user research for a speculative design project."**
 
-**报告撰写目标**: 基于以上所有分析，实事求是地指出存在的问题，并提出具有针对性和可操作性的改进建议。 **数据来源**: 无，完全基于前五部分的分析与总结。
+  
 
-**报告撰写建议 (通用方向)**:
+### **IV. 答辩和成绩评定 (Defense and Grading)** & **V. 组织管理 (Organization and Management)**
 
-- **针对选题**: 是否需要优化选题方向，鼓励更多样化、更具创新性的选题？如何加强选题与社会实践、行业发展的结合？
-    
-- **针对指导过程**: 如何进一步规范指导流程，加强中期检查的实效性？如何为指导任务较重的老师提供支持？
-    
-- **针对学生能力**: 从论文中反映出学生在哪些通用能力上存在不足（如：研究与创新能力、逻辑思辨能力、学术写作规范、技术实践能力等）？应如何在未来的课程设置和教学环节中予以加强？
-    
-- **针对评价体系**: 成绩评定过程是否公平、公正、合理？是否需要进一步细化和明确各环节的评分标准？
+- **Content:** These sections are procedural. Replicate the formal language and content from the templates closely. [cite_start]State that the defense committee consists of **"three professional teachers with master's degrees or higher"** [cite: 1, 3, 5] and that leadership showed strong support.
+
+  
+
+### **VI. 存在的问题及改进措施 (Problems and Improvements)**
+
+- [cite_start]**Common Issues:** Include recurring problems mentioned in the templates, such as "some students' lack of commitment," "inconsistent guidance from some instructors," and "poor time management." [cite: 1, 6]
+
+- **Year-Specific Issues:** Add unique, art-focused challenges for each year.
+
+- **2024:** Add "inconsistent grading standards, especially when evaluating highly experimental or conceptual works."
+
+- **2025:** Add "some instructors' expertise lagging behind emerging technologies like AIGC," and "a need for better cross-disciplinary collaboration with fine arts and computer science departments."
+
+- **Improvements:** Propose solutions like **"strengthening ties with museums, galleries, and new media art studios,"** "organizing workshops on emerging art technologies," and "refining the grading rubric to better assess artistic innovation."
+
+  
+
+## 3. Formatting
+
+- **Output:** Generate three separate and complete reports, one for each year (2023, 2024, 2025).
+
+- **Headings:** Each report must begin with the full title, department, and major, formatted like the examples (e.g., "2023届毕业论文（设计）工作总结报告", "院系：艺术设计学院", "专业：数字媒体艺术").
+
+- **Tone:** Maintain a formal, objective, and professional tone throughout.
+
+  
+
+生成2023、2024和2025三年的“数字媒体艺术专业”毕业设计工作总结。工作总结报告撰写指令分析
+
+为了生成一份符合要求的、针对“数字媒体艺术专业”的毕业设计工作总结，需要先解构现有范文的结构、关键问题、所需数据和文本风格。
+
+1. 报告结构与关键问题分析
+
+任何一份总结报告都需要围绕以下六个核心模块进行撰写，每个模块旨在回答特定的关键问题：
+
+模块关键问题所需资料与数据篇幅建议一、 选题选题是否体现专业培养目标？是否兼具实践性、创新性和多元性？存在哪些普遍问题？- 当届全部毕业设计题目列表
+
+- 专业培养方案
+
+- 选题分类统计（如主题、形式）
+
+- 关键数据：与社会实践/产业结合的课题比例约 250-350 字二、 教师情况指导教师团队构成如何？教师的责任心、指导方式和指导效果如何？哪些教师表现突出？- 当届指导教师完整名单
+
+- 获评“优秀”毕业设计的学生及指导教师名单
+
+- 指导过程记录（作为参考）约 200-300 字三、 学生情况学生的自主学习能力、独立创作能力和组织纪律性表现如何？过程记录是否规范？存在哪些共性优缺点？- 学生提交的过程性文档（周报、中期报告）
+
+- 最终提交成果的完整性与质量评估
+
+- 指导教师对所带学生的综合评价约 200-300 字四、 答辩和成绩评定答辩委员会的组成是否合规？答辩程序是否规范？成绩评定是否公平公正？- 关于答辩流程和委员会组成的官方文件
+
+- 毕业设计评分标准细则约 100-150 字五、 组织管理院系领导是否重视此项工作？在选题、指导、答辩等环节是否有明确的管理要求和过程监督？- 工作部署会议纪要
+
+- 发布的相关管理规定、流程通知约 100-150 字六、 存在的问题及改进措施本年度工作暴露出哪些来自学生、教师或管理层面的问题？针对这些问题，应采取哪些具体改进措施？对未来工作有何展望？- 综合前述分析提炼的问题清单
+
+- 教研会议讨论的改进方案约 250-350 字生成“数字媒体艺术专业”
