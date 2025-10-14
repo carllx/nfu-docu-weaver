@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w3 maya-materials-basic.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "w4 maya-materials-props-map.marpit"
+              "title": "w3 maya-materials-basic.marpit"
             }
           },
           {
@@ -35,23 +35,8 @@
               "title": "vid- A Guide to Auto Layout - Best Practices - Tips Tricks"
             }
           }
-        ]
-      },
-      {
-        "id": "b60d5fd9094bf675",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c75177730489f784",
-            "type": "leaf",
-            "state": {
-              "type": "marp-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Deck Preview"
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ada ppt",
+                "query": "tokens",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -104,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
+                "file": "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of w4 maya-materials-props-map.marpit"
+              "title": "Outline of vid- A Guide to Auto Layout - Best Practices - Tips Tricks"
             }
           },
           {
@@ -213,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
+                "file": "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -241,7 +227,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of w4 maya-materials-props-map.marpit"
+              "title": "Graph of vid- A Guide to Auto Layout - Best Practices - Tips Tricks"
             }
           },
           {
@@ -298,8 +284,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ee3eba95b819dffa",
+  "active": "605e25a0d0cb4453",
   "lastOpenFiles": [
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w3 maya-materials-basic.marpit.md",
+    "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/images/avatar.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/images/README.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/docs/ui_ux_spec.md",
@@ -333,9 +323,6 @@
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/docs/task-talk-to-figma-mcp.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/docs/story.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/docs/frontend_architecture.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/docs/brief.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/docs/3.8 style-figma-h5.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
     "Pasted image 20251013081422.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/avatar.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/Untitled (1).png",
@@ -345,7 +332,6 @@
     "Pasted image 20251012140719.png",
     "Pasted image 20251012131834.png",
     "Pasted image 20251012105401.png",
-    "copilot-custom-prompts/nfu-talk-to-figma/utils/sketchfab-render-params/sketchfab-embed-screenshot.png",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",
