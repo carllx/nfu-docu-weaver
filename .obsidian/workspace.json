@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/00_RESOURCE_DASHBOARD.md",
+                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_RESOURCE_DASHBOARD"
+              "title": "3.8.2 style-layout-h5.marpit"
+            }
+          },
+          {
+            "id": "249650ffad9b42b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "spotify",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -74,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/00_RESOURCE_DASHBOARD.md",
+                "file": "Untitled 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00_RESOURCE_DASHBOARD"
+              "title": "Outline of Untitled 1"
             }
           },
           {
@@ -183,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/00_RESOURCE_DASHBOARD.md",
+                "file": "Untitled 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -211,7 +227,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 00_RESOURCE_DASHBOARD"
+              "title": "Graph of Untitled 1"
             }
           },
           {
@@ -268,8 +284,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8c54efd1cf7fbc38",
+  "active": "249650ffad9b42b6",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
+    "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
+    "_交互产品综合创作/00_RESOURCE_DASHBOARD.md",
     "_交互产品综合创作/videospeaker.md",
     "数字媒体艺术系2023届本科毕业论文（设计）质量分析报告.md",
     "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs/brief.md",
@@ -303,10 +323,6 @@
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/docs",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/css",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/VERSION_COMPARISON.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/START_HERE.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/README.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/LEARNING_GUIDE.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/FIGMA_TO_CSS_GUIDE.md",
     "Pasted image 20251013081422.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/avatar.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/Untitled (1).png",
