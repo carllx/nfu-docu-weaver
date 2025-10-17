@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intensity 与  Exposure  的关系.md",
+                "file": "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs/技术实现笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intensity 与  Exposure  的关系"
+              "title": "技术实现笔记"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intensity 与  Exposure  的关系.md",
+                "file": "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs/技术实现笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intensity 与  Exposure  的关系"
+              "title": "Outline of 技术实现笔记"
             }
           },
           {
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Intensity 与  Exposure  的关系.md",
+                "file": "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs/技术实现笔记.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Intensity 与  Exposure  的关系"
+              "title": "Graph of 技术实现笔记"
             }
           },
           {
@@ -283,10 +283,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eae2f802ee203782",
+  "active": "7638e97b4e903250",
   "lastOpenFiles": [
-    "2025 教师资格证.md",
+    "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs/brief.md",
+    "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs/技术实现笔记.md",
     "Intensity 与  Exposure  的关系.md",
+    "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs",
+    "2025 教师资格证.md",
     "数字媒体艺术系2023届本科毕业论文（设计）质量分析报告.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3 maya-materials-basic.marpit.md",
     "vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
@@ -318,10 +321,7 @@
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/README.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/LEARNING_GUIDE.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/FIGMA_TO_CSS_GUIDE.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/docs/UPDATES.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/docs/PROJECT_SUMMARY.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/docs/ui_ux_spec.md",
     "Pasted image 20251013081422.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/avatar.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/Untitled (1).png",
