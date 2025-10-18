@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/practice-guide.md",
+                "file": "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "practice-guide"
+              "title": "talk-to-figma-better"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "talk to figma better",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/practice-guide.md",
+                "file": "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of practice-guide"
+              "title": "Outline of talk-to-figma-better"
             }
           },
           {
@@ -212,7 +213,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/practice-guide.md",
+                "file": "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -240,7 +241,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of practice-guide"
+              "title": "Graph of talk-to-figma-better"
             }
           },
           {
@@ -299,8 +300,8 @@
   },
   "active": "249650ffad9b42b6",
   "lastOpenFiles": [
-    "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/practice-guide.md",
+    "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/plan.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/agents/mcp-talk-to-figma.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/agents",
