@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual.md",
+                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "teaching-manual"
+              "title": "Untitled"
             }
           },
           {
@@ -89,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "talk to figma better",
+                "query": "tag:#2563EB",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -110,7 +110,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual.md",
+                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of teaching-manual"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -219,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual.md",
+                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -247,7 +248,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of teaching-manual"
+              "title": "Graph of Untitled"
             }
           },
           {
@@ -304,12 +305,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8c54efd1cf7fbc38",
+  "active": "605e25a0d0cb4453",
   "lastOpenFiles": [
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual.md",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/figma-courseware-plan.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/part2-vulnerability-analysis.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual-v2-critical.md",
-    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual.md",
     "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
     "GOV.UK.md",
     "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
@@ -336,7 +338,6 @@
     "_交互产品综合创作/00_RESOURCE_DASHBOARD.md",
     "_交互产品综合创作/videospeaker.md",
     "数字媒体艺术系2023届本科毕业论文（设计）质量分析报告.md",
-    "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs/brief.md",
     "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/images/avatar.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/css/style.css",
