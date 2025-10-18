@@ -389,22 +389,71 @@ function transformToW3CFormat(variables) {
 
 **方案 B：Figma Tokens 插件（推荐用于教学）**
 
+> **💡 Figma Variables 命名规范核心指南**
+>
+> **在 Figma 中创建时：使用斜杠 `/`（推荐）**
+> - ✅ `color/text/primary` → 创建层级文件夹
+> - ✅ `spacing/xs` → 清晰的组织结构
+> - ✅ `brand/primary` → 支持多层嵌套
+>
+> **导出到代码后：自动转换为合适格式**
+> - JSON: `color.text.primary`
+> - CSS: `--color-text-primary`
+> - Swift: `colorTextPrimary`
+>
+> **为什么推荐斜杠？**
+> 1. 自动创建可视化文件夹层级
+> 2. 当代币数量超过 50+ 时易于管理
+> 3. 符合 Figma 官方设计系统最佳实践
+> 4. 支持多层语义嵌套（color/text/primary/hover）
+>
+> **什么时候可以用连字符？**
+> - 小型项目（代币少于 30 个）
+> - 不需要层级管理的场景
+> - 但需要注意：所有代币在同一层级，难以扩展
+
 **步骤 1: 安装插件（3分钟）**
 1. 打开 Figma，按 `Cmd/Ctrl + /` 搜索插件
 2. 搜索 "Figma Tokens"，选择 **Jan Six** 开发的版本（蓝色图标）
 3. 点击 "Save" 保存到插件列表
 
 **步骤 2: 在 Figma 中创建 Variables（5分钟）**
+
+> **🔤 重要：Figma Variables 命名规范**  
+> 在 Figma 中创建 Variables 时，**推荐使用斜杠 `/`** 而不是连字符 `-`。  
+> - ✅ 推荐：`color/primitive/green/400` → 在 Figma 中创建**层级文件夹结构**  
+> - ⚠️ 不推荐：`color-primitive-green-400` → 扁平列表，难以管理  
+> 
+> **导出后自动转换**：  
+> - Figma 中: `color/text/primary`  
+> - JSON 导出: `color.text.primary`  
+> - CSS 生成: `--color-text-primary`
+
 1. 打开或创建一个 Figma 文件
 2. 右侧面板点击 "Local Variables" 图标
 3. 创建第一个 Color Collection: `Primitives`
-   - 添加变量: `green-400` = `#1ED760`
-   - 添加变量: `gray-800` = `#121212`
+   - 添加变量: `green/400` = `#1ED760` （使用斜杠创建层级）
+   - 添加变量: `gray/800` = `#121212`
    - 添加变量: `white` = `#FFFFFF`
    - 添加变量: `black` = `#000000`
 4. 创建第二个 Color Collection: `Semantics`
-   - 添加变量: `interactive-primary` = `{Primitives/green-400}` (使用 Alias)
-   - 添加变量: `background-base` = `{Primitives/white}`
+   - 添加变量: `interactive/primary` = `{Primitives/green/400}` (使用 Alias)
+   - 添加变量: `background/base` = `{Primitives/white}`
+   - 添加变量: `text/primary` = `{Primitives/black}`
+
+**Figma 中的显示效果**：
+```
+Semantics Collection
+📁 interactive/
+   ├─ primary
+   └─ hover
+📁 background/
+   ├─ base
+   └─ elevated
+📁 text/
+   ├─ primary
+   └─ secondary
+```
 
 **步骤 3: 运行 Figma Tokens 插件（7分钟）**
 1. 按 `Cmd/Ctrl + /`，运行 "Figma Tokens"
@@ -483,6 +532,7 @@ cat tokens/tokens.json | jq '.color.primitive."green-400"'
 - [ ] 包含至少 4 个 primitive 代币
 - [ ] 包含至少 2 个 semantic 代币
 - [ ] 所有代币都有 `$type` 和 `$value` 字段
+- [ ] **确认在 Figma 中使用了斜杠 `/` 创建层级结构**（检查 Variables 面板是否有文件夹）
 
 ---
 

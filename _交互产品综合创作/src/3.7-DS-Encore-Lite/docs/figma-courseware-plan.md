@@ -78,6 +78,8 @@
 
 **令牌定义**（记录在文档根节点 annotation）：
 
+> **📌 命名规范说明**：此处展示的是**导出后的 JSON 格式**（使用连字符）。但在 **Figma Variables 中创建时**，应使用**斜杠 `/`** 创建层级结构，例如 `color/primitive/blue/600`，导出后会自动转换为 `color.primitive.blue-600`。
+
 ```json
 {
   "color": {

@@ -1,5 +1,44 @@
 📐 Design Token Registry (课件设计令牌注册表)  
-  
+
+⚠️ **重要命名规范说明** ⚠️
+
+此文档展示的是**导出后的代码格式**（使用连字符 `-`）。
+
+但在 **Figma Variables 中实际创建时**，应使用**斜杠 `/`** 创建层级结构：
+- ✅ 推荐: `brand/primary` → 在 Figma 中自动创建文件夹
+- ❌ 不推荐: `brand-primary` → 扁平列表，难以管理
+
+**导出后自动转换：**
+- Figma: `color/text/primary`
+- JSON: `color.text.primary`
+- CSS: `--color-text-primary`
+
+详见已更新的文档：
+- `docs/teaching-manual-v2-critical.md` (第 392-433 行)
+- `docs/figma-courseware-plan.md` (第 81 行)
+
+---
+
+## 🚀 快速导入方式：使用 CSV 批量创建
+
+已创建 **CSV 文件**用于批量导入：
+- 📄 文件位置：`design-tokens-simple.csv` （25 个基础令牌）
+- 📖 快速指南：`CSV-导入说明.md`
+
+**导入步骤：**
+1. 安装 **Sheet to Variables** 插件
+2. 在 Figma 中运行插件
+3. 上传 `design-tokens-simple.csv` 文件
+4. 自动创建 25 个变量，包含完整层级结构
+
+**优势：**
+- ✅ 一次性创建所有代币（节省 90% 时间）
+- ✅ 使用斜杠 `/` 自动创建文件夹层级
+- ✅ CSV 文件可版本控制
+- ✅ 精简实用，只包含必需的令牌
+
+---
+
 颜色令牌 (Color Tokens)  
 
 - brand-primary: #2563EB (科技蓝)
