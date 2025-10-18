@@ -49,8 +49,7 @@
               "title": "GOV.UK"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/prd.md",
+                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of prd"
+              "title": "Outline of 3.8.2 style-layout-h5.marpit"
             }
           },
           {
@@ -212,7 +211,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/prd.md",
+                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -240,7 +239,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of prd"
+              "title": "Graph of 3.8.2 style-layout-h5.marpit"
             }
           },
           {
@@ -297,10 +296,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "249650ffad9b42b6",
+  "active": "8c54efd1cf7fbc38",
   "lastOpenFiles": [
-    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/brief.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/prd.md",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/brief.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite",
     "Actor-Network Theory (ANT) in relation to Figma.md",
