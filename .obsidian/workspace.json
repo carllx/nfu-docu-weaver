@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/prd.md",
+                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/practice-guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prd"
+              "title": "practice-guide"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "GOV.UK"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spotify",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -168,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
+                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/practice-guide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.8.2 style-layout-h5.marpit"
+              "title": "Outline of practice-guide"
             }
           },
           {
@@ -211,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
+                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/practice-guide.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -239,7 +240,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 3.8.2 style-layout-h5.marpit"
+              "title": "Graph of practice-guide"
             }
           },
           {
@@ -296,9 +297,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8c54efd1cf7fbc38",
+  "active": "249650ffad9b42b6",
   "lastOpenFiles": [
+    "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/practice-guide.md",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/plan.md",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/agents/mcp-talk-to-figma.md",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/agents",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/utils",
+    "Scripts/Alfred.alfredpreferences/snippets/Codding/mcp-talk-to-figma-better [700B8208-7A50-4AE3-933D-C4DFB49813B4].json",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/prd.md",
+    "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/brief.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite",
@@ -309,7 +318,6 @@
     "Figma × H5 GOV_UK  组件概念最佳学习路径.md",
     "vid - Design System Day 2024  Future of the GOV_UK Design System.md",
     "Design systerm - GOV_UK - why.md",
-    "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
     "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
     "_交互产品综合创作/00_RESOURCE_DASHBOARD.md",
     "_交互产品综合创作/videospeaker.md",
@@ -324,17 +332,10 @@
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/images/avatar.png",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/images/README.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/docs/ui_ux_spec.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/docs/task-talk-to-figma-mcp.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/docs/story.md",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/css/style.css",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/css/style-basic.css",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/css/style-basic-copy.css",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/index.html",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/index-basic.html",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/index-advanced.html",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/images",
     "Pasted image 20251013081422.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/avatar.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/Untitled (1).png",
