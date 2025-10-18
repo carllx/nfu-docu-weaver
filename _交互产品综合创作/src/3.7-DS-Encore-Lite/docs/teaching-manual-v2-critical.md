@@ -162,9 +162,43 @@ Figma Variables (设计工具)
 
 ---
 
-## 第二部分：单一真源的技术实现 (90分钟)
+## 第二部分：单一真源的技术实现 (120分钟)
 
-### 2.1 W3C Design Tokens 规范解读 (20分钟)
+### 📋 课前准备检查清单（必须在第1天开始前完成）
+
+**Figma 账号要求：**
+- [ ] 已开通 Figma Education Plan（教师需提前批量申请）
+- [ ] 已安装 "Figma Tokens" 插件（by Jan Six - 蓝色图标版本）
+- [ ] 确认可以创建 Variables（在任意文件中测试创建一个 color variable）
+- [ ] 已准备 Figma Access Token（在 Settings > Personal Access Tokens 生成）
+
+**本地开发环境：**
+- [ ] Node.js >= 18.0.0（运行 `node --version` 检查）
+- [ ] npm >= 9.0.0（运行 `npm --version` 检查）
+- [ ] Git 已配置用户名和邮箱（运行 `git config user.name` 检查）
+- [ ] 代码编辑器已安装（推荐 VS Code）
+
+**项目初始化：**
+```bash
+# 克隆课程模板仓库
+git clone https://github.com/your-org/encore-lite-template
+cd encore-lite-template
+
+# 安装依赖
+npm install
+
+# 验证工具链
+npm run validate:env
+```
+
+**备选方案（如果 Figma 插件不可用）：**
+- 讲师将提供预导出的 `tokens.json` 模板
+- 学生可以手动编辑 JSON 文件完成练习
+- 重点转移到构建流程和 CI/CD 实践
+
+---
+
+### 2.1 W3C Design Tokens 规范解读 (15分钟)
 
 **规范核心字段：**
 
@@ -275,9 +309,45 @@ Figma Variables (设计工具)
 }
 ```
 
+**📁 标准项目结构（重要：请在开始前理解这个结构）**
+
+```
+encore-lite-tokens/
+├── tokens/
+│   ├── tokens.json                # 【唯一真源】W3C Design Tokens
+│   ├── tokens.json.old            # 用于破坏性变更检测
+│   └── tokens.schema.json         # JSON Schema 验证规则
+├── scripts/
+│   ├── export-tokens.js           # 从 Figma API 导出
+│   ├── build-tokens.js            # Style Dictionary 构建
+│   ├── check-contrast.js          # 对比度检查（新增）
+│   ├── detect-breaking.js         # 破坏性变更检测
+│   └── generate-changelog.js      # 生成变更日志
+├── dist/                          # 自动生成的产物（勿手动编辑）
+│   ├── css/
+│   │   ├── tokens.css
+│   │   ├── tokens-light.css
+│   │   └── tokens-dark.css
+│   ├── ios/
+│   │   └── DesignTokens.swift
+│   ├── android/
+│   │   └── colors.xml
+│   └── json/
+│       └── tokens-flat.json
+├── style-dictionary.config.json   # Style Dictionary 配置
+├── package.json                   # npm 脚本与依赖
+└── README.md                      # 使用文档
+```
+
+**⚠️ 关键规则：**
+1. **禁止直接编辑 `dist/` 目录下的任何文件**
+2. **所有代币变更必须在 `tokens/tokens.json` 中进行**
+3. **修改后必须运行 `npm run build:tokens` 生成产物**
+4. **提交前必须运行 `npm run validate:schema` 验证**
+
 ---
 
-### 2.2 从 Figma 导出到 tokens.json (20分钟)
+### 2.2 从 Figma 导出到 tokens.json (30分钟)
 
 **工具链选择：**
 
@@ -318,19 +388,105 @@ function transformToW3CFormat(variables) {
 ```
 
 **方案 B：Figma Tokens 插件（推荐用于教学）**
-1. 安装 "Design Tokens" 插件
-2. 配置导出格式为 W3C DTCG
-3. 设置 GitHub Sync（可选）
-4. 导出到 `tokens/tokens.json`
 
-**课堂实操（15分钟）：**
-- 学生使用插件导出 v1.0 课程的 Figma 变量
-- 检查生成的 JSON 是否符合 W3C 规范
-- 手动添加 `$description` 和 `$extensions` 字段
+**步骤 1: 安装插件（3分钟）**
+1. 打开 Figma，按 `Cmd/Ctrl + /` 搜索插件
+2. 搜索 "Figma Tokens"，选择 **Jan Six** 开发的版本（蓝色图标）
+3. 点击 "Save" 保存到插件列表
+
+**步骤 2: 在 Figma 中创建 Variables（5分钟）**
+1. 打开或创建一个 Figma 文件
+2. 右侧面板点击 "Local Variables" 图标
+3. 创建第一个 Color Collection: `Primitives`
+   - 添加变量: `green-400` = `#1ED760`
+   - 添加变量: `gray-800` = `#121212`
+   - 添加变量: `white` = `#FFFFFF`
+   - 添加变量: `black` = `#000000`
+4. 创建第二个 Color Collection: `Semantics`
+   - 添加变量: `interactive-primary` = `{Primitives/green-400}` (使用 Alias)
+   - 添加变量: `background-base` = `{Primitives/white}`
+
+**步骤 3: 运行 Figma Tokens 插件（7分钟）**
+1. 按 `Cmd/Ctrl + /`，运行 "Figma Tokens"
+2. 在插件面板中点击 "Settings" 图标
+3. 配置导出格式：
+   - Format: **W3C Design Tokens (DTCG)**
+   - Include: ✅ Variables, ✅ Styles
+   - Naming: **Use variable names as-is**
+4. 点击 "Export" 标签
+5. 点击 "Export Tokens" 按钮
+6. 选择保存位置: `tokens/tokens.json`
+
+**步骤 4: 验证导出结果（5分钟）**
+```bash
+# 检查文件是否生成
+ls -la tokens/tokens.json
+
+# 检查 JSON 格式是否正确
+cat tokens/tokens.json | jq '.'
+
+# 检查是否包含必需字段
+cat tokens/tokens.json | jq '.meta.version'
+# 应输出: "1.0.0" (或类似版本号)
+
+# 检查 color.primitive 是否存在
+cat tokens/tokens.json | jq '.color.primitive."green-400"'
+# 应输出代币定义
+```
+
+**步骤 5: 手动补充字段（10分钟）**
+
+导出的 JSON 可能缺少一些字段，需要手动添加：
+
+```json
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2025-10-18T10:30:00Z",    // 手动添加
+    "author": "Design Systems Team",      // 手动添加
+    "license": "MIT"                      // 手动添加
+  },
+  "color": {
+    "primitive": {
+      "green-400": {
+        "$type": "color",
+        "$value": "#1ED760",
+        "$description": "Spotify brand green - primary brand color"  // 手动添加
+      }
+    },
+    "semantic": {
+      "interactive": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.primitive.green-400}",
+          "$description": "主要交互元素色",    // 手动添加
+          "$extensions": {                    // 手动添加整个扩展块
+            "wcag": {
+              "contrast-ratio": 4.8,
+              "level": "AA"
+            },
+            "platforms": {
+              "ios": "UIColor.systemGreen",
+              "android": "@color/green_400"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+**🎯 检查点（所有学生必须通过）：**
+- [ ] `tokens/tokens.json` 文件存在
+- [ ] JSON 格式验证通过（运行 `npm run validate:schema`）
+- [ ] 包含至少 4 个 primitive 代币
+- [ ] 包含至少 2 个 semantic 代币
+- [ ] 所有代币都有 `$type` 和 `$value` 字段
 
 ---
 
-### 2.3 构建自动化生成流水线 (30分钟)
+### 2.3 构建自动化生成流水线 (45分钟)
 
 **安装 Style Dictionary：**
 
@@ -601,6 +757,449 @@ function detectBreakingChanges() {
 
 detectBreakingChanges();
 ```
+
+**完整的 package.json（包含所有必需脚本）：**
+
+```json
+{
+  "name": "encore-lite-tokens",
+  "version": "1.0.0",
+  "description": "Design Tokens for Encore-Lite v2.0",
+  "scripts": {
+    "build:tokens": "node scripts/build-tokens.js",
+    "test:contrast": "node scripts/check-contrast.js",
+    "detect:breaking": "node scripts/detect-breaking.js",
+    "report:changes": "node scripts/generate-changelog.js",
+    "validate:schema": "ajv validate -s tokens/tokens.schema.json -d tokens/tokens.json",
+    "validate:env": "node scripts/validate-environment.js",
+    "prepare:old": "cp tokens/tokens.json tokens/tokens.json.old"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.9.0",
+    "jsondiffpatch": "^0.5.0",
+    "ajv-cli": "^5.0.0",
+    "axios": "^1.6.0"
+  }
+}
+```
+
+**新增脚本：`scripts/check-contrast.js`**
+
+```javascript
+const fs = require('fs');
+
+// 简化的对比度计算函数
+function hexToRgb(hex) {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+}
+
+function luminance(r, g, b) {
+  const a = [r, g, b].map(v => {
+    v /= 255;
+    return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+  });
+  return a[0] * 0.2126 + a[1] * 0.7152 + a[2] * 0.0722;
+}
+
+function contrastRatio(hex1, hex2) {
+  const rgb1 = hexToRgb(hex1);
+  const rgb2 = hexToRgb(hex2);
+  
+  const lum1 = luminance(rgb1.r, rgb1.g, rgb1.b);
+  const lum2 = luminance(rgb2.r, rgb2.g, rgb2.b);
+  
+  const brightest = Math.max(lum1, lum2);
+  const darkest = Math.min(lum1, lum2);
+  
+  return (brightest + 0.05) / (darkest + 0.05);
+}
+
+function extractColors(obj, pattern = '', prefix = '') {
+  let results = [];
+  for (let key in obj) {
+    if (typeof obj[key] === 'object') {
+      if (obj[key].$type === 'color') {
+        if (pattern === '' || key.includes(pattern)) {
+          results.push({
+            name: prefix + key,
+            value: obj[key].$value
+          });
+        }
+      } else if (!obj[key].$type) {
+        results = results.concat(
+          extractColors(obj[key], pattern, prefix + key + '.')
+        );
+      }
+    }
+  }
+  return results;
+}
+
+function checkContrast() {
+  const tokens = JSON.parse(fs.readFileSync('tokens/tokens.json', 'utf8'));
+  const failures = [];
+  
+  // 检查文本色与背景色的对比度
+  const textColors = extractColors(tokens.color, 'text');
+  const bgColors = extractColors(tokens.color, 'background');
+  
+  console.log('🔍 Checking contrast ratios...\n');
+  
+  textColors.forEach(text => {
+    bgColors.forEach(bg => {
+      // 跳过别名引用，只检查实际颜色值
+      if (text.value.startsWith('{') || bg.value.startsWith('{')) {
+        return;
+      }
+      
+      const ratio = contrastRatio(text.value, bg.value);
+      const status = ratio >= 4.5 ? '✅' : '❌';
+      
+      console.log(`${status} ${text.name} on ${bg.name}`);
+      console.log(`   Ratio: ${ratio.toFixed(2)}:1 (${ratio >= 7 ? 'AAA' : ratio >= 4.5 ? 'AA' : 'FAIL'})`);
+      
+      if (ratio < 4.5) {
+        failures.push({
+          text: text.name,
+          textColor: text.value,
+          background: bg.name,
+          backgroundColor: bg.value,
+          ratio: ratio.toFixed(2),
+          required: 4.5
+        });
+      }
+    });
+  });
+  
+  if (failures.length > 0) {
+    console.error('\n❌ Contrast check failed:');
+    console.error(JSON.stringify(failures, null, 2));
+    console.error('\n💡 Tip: Use https://webaim.org/resources/contrastchecker/ to find compliant colors');
+    process.exit(1);
+  }
+  
+  console.log('\n✅ All contrast checks passed (WCAG AA compliant)');
+}
+
+checkContrast();
+```
+
+**新增脚本：`scripts/generate-changelog.js`**
+
+```javascript
+const fs = require('fs');
+const jsondiffpatch = require('jsondiffpatch');
+
+function generateChangelog() {
+  if (!fs.existsSync('tokens/tokens.json.old')) {
+    console.log('No previous version found. Skipping changelog generation.');
+    return;
+  }
+  
+  const oldTokens = JSON.parse(fs.readFileSync('tokens/tokens.json.old', 'utf8'));
+  const newTokens = JSON.parse(fs.readFileSync('tokens/tokens.json', 'utf8'));
+  
+  const delta = jsondiffpatch.diff(oldTokens, newTokens);
+  
+  if (!delta) {
+    console.log('No changes detected.');
+    return;
+  }
+  
+  const added = [];
+  const modified = [];
+  const deleted = [];
+  
+  // 简化的变更分析
+  console.log('# Design Tokens Changelog\n');
+  console.log(`## Version ${newTokens.meta.version}`);
+  console.log(`Date: ${newTokens.meta.updated || new Date().toISOString()}\n`);
+  
+  console.log('### Changes\n');
+  console.log('- See detailed diff for complete changes');
+  console.log('\n### Migration Guide\n');
+  console.log('Run `npm run build:tokens` to regenerate platform-specific tokens.\n');
+}
+
+generateChangelog();
+```
+
+**新增脚本：`scripts/validate-environment.js`**
+
+```javascript
+const { execSync } = require('child_process');
+const fs = require('fs');
+
+function checkCommand(cmd, requiredVersion = null) {
+  try {
+    const version = execSync(cmd, { encoding: 'utf8' }).trim();
+    console.log(`✅ ${cmd}: ${version}`);
+    return true;
+  } catch (error) {
+    console.error(`❌ ${cmd}: Not found`);
+    return false;
+  }
+}
+
+function validateEnvironment() {
+  console.log('🔍 Validating development environment...\n');
+  
+  let allValid = true;
+  
+  // Check Node.js
+  if (!checkCommand('node --version')) {
+    console.error('   Please install Node.js >= 18.0.0');
+    allValid = false;
+  }
+  
+  // Check npm
+  if (!checkCommand('npm --version')) {
+    console.error('   Please install npm >= 9.0.0');
+    allValid = false;
+  }
+  
+  // Check Git
+  if (!checkCommand('git --version')) {
+    console.error('   Please install Git');
+    allValid = false;
+  }
+  
+  // Check required directories
+  console.log('\n📁 Checking project structure...');
+  const requiredDirs = ['tokens', 'scripts', 'dist'];
+  requiredDirs.forEach(dir => {
+    if (fs.existsSync(dir)) {
+      console.log(`✅ ${dir}/ exists`);
+    } else {
+      console.log(`⚠️  ${dir}/ missing (will be created)`);
+      fs.mkdirSync(dir, { recursive: true });
+    }
+  });
+  
+  if (allValid) {
+    console.log('\n✅ Environment validation passed!');
+  } else {
+    console.error('\n❌ Environment validation failed. Please fix the issues above.');
+    process.exit(1);
+  }
+}
+
+validateEnvironment();
+```
+
+---
+
+### 2.5 JSON Schema 定义（新增内容）
+
+**创建 `tokens/tokens.schema.json`：**
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "W3C Design Tokens Schema",
+  "description": "Schema for validating W3C Design Tokens Community Group format",
+  "type": "object",
+  "required": ["meta"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["version"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "description": "Semantic version number"
+        },
+        "updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "author": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        }
+      }
+    },
+    "color": {
+      "$ref": "#/definitions/tokenGroup"
+    },
+    "spacing": {
+      "$ref": "#/definitions/tokenGroup"
+    },
+    "typography": {
+      "$ref": "#/definitions/tokenGroup"
+    },
+    "radius": {
+      "$ref": "#/definitions/tokenGroup"
+    }
+  },
+  "definitions": {
+    "tokenGroup": {
+      "type": "object",
+      "additionalProperties": {
+        "oneOf": [
+          { "$ref": "#/definitions/token" },
+          { "$ref": "#/definitions/tokenGroup" }
+        ]
+      }
+    },
+    "token": {
+      "type": "object",
+      "required": ["$type", "$value"],
+      "properties": {
+        "$type": {
+          "enum": [
+            "color",
+            "dimension",
+            "fontFamily",
+            "fontWeight",
+            "duration",
+            "cubicBezier",
+            "number"
+          ]
+        },
+        "$value": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "number" },
+            { "type": "array" }
+          ]
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
+```
+
+---
+
+### 2.6 常见问题排查（新增内容 - 10分钟）
+
+**Q1: Schema 验证报错 `required property '$type' is missing`**
+
+**原因：** tokens.json 中某个代币对象缺少 `$type` 字段
+
+**解决步骤：**
+1. 查看错误信息中的路径，例如：`color.primitive.green-400`
+2. 打开 `tokens/tokens.json`，定位到该路径
+3. 添加 `"$type": "color"` 字段
+
+**错误示例：**
+```json
+{
+  "color": {
+    "primitive": {
+      "green-400": {
+        "$value": "#1ED760"  // ❌ 缺少 $type
+      }
+    }
+  }
+}
+```
+
+**正确示例：**
+```json
+{
+  "color": {
+    "primitive": {
+      "green-400": {
+        "$type": "color",    // ✅ 添加 $type
+        "$value": "#1ED760"
+      }
+    }
+  }
+}
+```
+
+---
+
+**Q2: Style Dictionary 构建报错 `Cannot read property 'value' of undefined`**
+
+**原因：** 引用了不存在的代币，如 `"{color.primitive.green-500}"`
+
+**解决步骤：**
+1. 检查所有 `$value` 中使用 `{}` 的引用
+2. 确保被引用的代币已定义
+3. 检查拼写是否正确（注意大小写）
+4. 使用 `jq` 查找所有引用：
+   ```bash
+   cat tokens/tokens.json | jq '.. | select(type == "string" and startswith("{"))'
+   ```
+
+---
+
+**Q3: CI 检查失败 `Contrast ratio 3.8 < 4.5`**
+
+**原因：** 某些文本色与背景色的对比度不满足 WCAG AA 标准
+
+**解决步骤：**
+1. 查看 CI 输出的具体失败项
+2. 使用在线工具验证：https://webaim.org/resources/contrastchecker/
+3. 调整颜色值，或选择以下策略之一：
+   - **策略 A：** 调深文本色或调亮背景色
+   - **策略 B：** 添加 `$extensions.wcag-override` 字段并提交 RFC 说明原因
+
+**示例修复：**
+```json
+{
+  "color": {
+    "semantic": {
+      "text": {
+        "primary": {
+          "$type": "color",
+          "$value": "#000000",  // 从 #333333 改为 #000000 以提高对比度
+          "$extensions": {
+            "wcag": {
+              "tested-against": "#FFFFFF",
+              "ratio": 21.0,
+              "level": "AAA"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+---
+
+**Q4: `npm run build:tokens` 报错 `Cannot find module 'style-dictionary'`**
+
+**原因：** 依赖未安装
+
+**解决：**
+```bash
+npm install
+# 或强制重新安装
+rm -rf node_modules package-lock.json
+npm install
+```
+
+---
+
+**Q5: Figma 插件导出的 JSON 结构不符合 W3C 规范**
+
+**原因：** 插件版本或配置不正确
+
+**解决：**
+1. 确认使用的是 **Jan Six** 开发的 Figma Tokens 插件
+2. 在插件设置中选择 **W3C Design Tokens (DTCG)** 格式
+3. 如果仍有问题，使用讲师提供的模板手动编辑
 
 ---
 
