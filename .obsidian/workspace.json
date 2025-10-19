@@ -6,7 +6,7 @@
       {
         "id": "82944f32c42f9a1a",
         "type": "tabs",
-        "dimension": 53.4957627118644,
+        "dimension": 46.699875466998755,
         "children": [
           {
             "id": "8c54efd1cf7fbc38",
@@ -41,7 +41,7 @@
       {
         "id": "50f8a964a9f590ae",
         "type": "tabs",
-        "dimension": 46.50423728813559,
+        "dimension": 53.300124533001245,
         "children": [
           {
             "id": "249650ffad9b42b6",
@@ -56,8 +56,37 @@
               "icon": "lucide-file",
               "title": "teaching-manual-v2-critical"
             }
+          },
+          {
+            "id": "fe3ab51b155fdf9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "7861c936cd42fa64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,7 +118,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#2563EB",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -177,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
+                "file": "Untitled 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Untitled 2"
             }
           },
           {
@@ -220,7 +249,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
+                "file": "Untitled 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -248,7 +277,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Untitled"
+              "title": "Graph of Untitled 2"
             }
           },
           {
@@ -305,18 +334,20 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8c54efd1cf7fbc38",
+  "active": "7861c936cd42fa64",
   "lastOpenFiles": [
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual-v2-critical.md",
+    "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/figma-naming-convention.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/CSV-导入说明.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens-simple.csv",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/sheet-to-variables-guide.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens.csv",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual.md",
-    "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/figma-courseware-plan.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/part2-vulnerability-analysis.md",
-    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual-v2-critical.md",
     "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
     "GOV.UK.md",
     "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
@@ -338,8 +369,6 @@
     "vid - Bruno Latour -  Actor-Network Theory - Rethinking Social Connections.md",
     "Figma × H5 GOV_UK  组件概念最佳学习路径.md",
     "vid - Design System Day 2024  Future of the GOV_UK Design System.md",
-    "Design systerm - GOV_UK - why.md",
-    "_交互产品综合创作/content/slides/3.7 Figma 样式在设计中标准化哪些基本属性.marpit.md",
     "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/images/avatar.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/css/style.css",
