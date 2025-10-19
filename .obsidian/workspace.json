@@ -6,7 +6,7 @@
       {
         "id": "82944f32c42f9a1a",
         "type": "tabs",
-        "dimension": 50.93676814988291,
+        "dimension": 38.095238095238095,
         "children": [
           {
             "id": "8c54efd1cf7fbc38",
@@ -41,7 +41,7 @@
       {
         "id": "50f8a964a9f590ae",
         "type": "tabs",
-        "dimension": 49.06323185011709,
+        "dimension": 61.904761904761905,
         "children": [
           {
             "id": "249650ffad9b42b6",
@@ -171,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 200
   },
   "right": {
     "id": "de10f002fde45117",
@@ -361,7 +361,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eae2f802ee203782",
+  "active": "7861c936cd42fa64",
   "lastOpenFiles": [
     "Class1.4-Rendering - 光与表面的交互.md",
     "COURSE/20 - 数字雕塑2 - 课程总结(公众号).md",
