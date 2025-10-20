@@ -383,6 +383,52 @@ The 60-30-10 rule should be treated as a flexible guideline, not a strict law.
 它通过使用 60%、30% 和 10% 的色彩比例来实现这一目标。  
 该法则被广泛应用于室内设计、平面设计和用户界面 (UI) 设计等领域。
 
+---
+
+柔和宁静风客厅：以柔和灰色墙面为主体，搭配白色家具与蓝色软装点缀，营造舒适氛围。
+![bg fit left:50% vertical](https://i.imgur.com/zTN3rII.webp)
+
+
+---
+
+大胆现代风厨房：米色橱柜作为基底，黑色台面提升质感，金色五金件增添精致细节。
+![bg fit left:50% vertical](https://i.imgur.com/vPbEc8p.webp)
+
+---
+
+纹理延伸应用：大面积花纹为视觉焦点，小面积花纹呼应层次，单一质感元素平衡整体。
+
+![bg fit left:50% vertical](https://i.imgur.com/m2oWiwA.webp)
+
+---
+浅色模式 UI：以纯白色为背景基调，搭配品牌淡色卡片承载内容，亮色按钮突出交互功能。
+![bg fit left:50% vertical](https://i.imgur.com/3PAnB2C.webp)
+
+---
+深色模式 UI（Spotify 风格）：黑色主背景奠定氛围，深灰色元素构建层次，亮绿色交互元素提升辨识度。
+![bg fit left:50% vertical](https://i.imgur.com/Co428Jl.webp)
+
+
+
+
+---
+
+职场着装：以米色风衣为主体，内搭黑色西装裤套装，蓝色条纹衬衫作为细节点缀，展现专业干练形象。
+
+![bg fit left:50% vertical](https://i.imgur.com/6vYJKQb.webp)
+
+---
+
+晚装搭配：黑色上衣与西装外套作为基底，酒红色半身裙增添优雅，金属金色手包提升整体精致感。
+
+![bg fit left:50% vertical](https://i.imgur.com/gRuqVKa.webp)
+
+
+
+---
+
+
+
 ### 法则构成：三色比例的角色与应用
 
 **60% - 主导色 (Dominant Color)**  
