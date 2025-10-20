@@ -68,7 +68,24 @@
 4. **【Maya 演示】构建一个物理可信的场景**
     
     - 步骤一 **(建立基线):** 场景赋予中性灰材质。载入一个HDRI，设定一个基础的渲染相机曝光值。
-        
+
+	
+---
+
+1. **Maya 单位与场景尺度设定：**
+    
+    - **指令：** 确认 Maya 工作单位为** 米 ( m)** (Windows > Settings/Preferences > Preferences > Settings > Working Units > Linear)。所有建模尺寸应符合真实世界。例如，一个房间的尺寸设为 4 x3 x2.5 m。
+
+---
+
+
+
+![bg fit left:50% vertical](https://i.imgur.com/b3YIzUi.webp)
+
+---
+
+
+
     - 步骤二 **(动机化Key light):** 在窗户位置创建一个`aiAreaLight`，开启色温模式设为6500K，调节Exposure，使其成为场景的主导光源。
         
     - 步骤三 **(观察Fill light):** 启用GI，观察墙壁和地面如何自然地反弹光线，形成“动机化Fill light”。解释反照率高的白色墙壁如何成为一个巨大的柔光板。
