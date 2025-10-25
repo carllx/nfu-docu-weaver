@@ -1,3 +1,46 @@
+# w8 Maya Arnold渲染基础 - 颜色系统 Color Systerm
+
+我们前面的课程是针对对 60年代的道具的现场里面的模型，使用 arnold 渲染的三点曝光，我们分别对灯光分类分成三个，一个是主光 key light，一个是辅光 fill light。一个是 rim light 轮廓光。
+
+那么这节课是  maya  材质上色并且渲染的一个课程， 我们这节课上的是使用的是 arnold 渲染器对该场景的所有模型定义材质  , 
+
+从一个色卡在我们的课程里面会对我们的一那个目前我们都是没有上颜色或者材质的，所以我们现在会在场景里面制作三个色卡，
+
+我目前的对于这个课程里面，我觉得在第一部分就是在比较靠前的部分，我要让学生们知道就是我们定义材质的时候，不是说每一个颜色、每一个部件的每一个颜色都上一个材质球，而是用材质球统一管理我们的场景，就像我们的灯光一样。我们仅仅用三个颜色如何去科学的管理整个场景？所以我们才智球是要有一个比较科学的定义的方式。我们会对颜色和材质的进行划分，然后我们会按照类似于可以参考 UIUX 产品设计里面的这种颜色的命名规范来管理我们的场景材质。
+
+也因此我提出了一个60%、30%、10%的这种对比比例的一个系统的尝试实验，作为课程的一个。小技巧，但这个技巧是存在于实在实践以及实验阶段的。日后我会找更多的理论进行修正我的这个想法。总的来说是使得同学们能够结合一些。跨领域的方式去学习颜色系统，因为目前在这个场景设计里面，颜色管理我觉得是比较少参考的。为了这一个目标，我希望能够。得到一些专业的建议和批判性的思考。然后来完善我的这个课程，面向 maya 初学者。
+
+以下是目前课程已准备的内容
+
+
+**创建校准片与物理反照率设定：**
+
+- **指令：** 在场景中放置三块标准校准片：
+    
+    - **18% 中灰卡：** 创建 aiStandardSurface 材质，将 Base Color 的 RGB 值设为 0.18 (线性)。Specular Weight=0, Metalness=0, Roughness=0.8。
+        
+    - **高白卡：** 创建 aiStandardSurface 材质，将 Base Color 的 RGB 值设为 0.8。Specular Weight=0, Metalness=0, Roughness=0.8。
+        
+    - **低黑卡：** 创建 aiStandardSurface 材质，将 Base Color 的 RGB 值设为 0.03。Specular Weight=0, Metalness=0, Roughness=0.8。
+
+![bg fit left:50% vertical](https://i.imgur.com/b3YIzUi.webp)
+
+
+
+
+---
+
+![bg fit left:50% vertical](https://i.imgur.com/wtKvh91.webp)
+
+**创建校准片与物理反照率设定：**
+
+- **指令：** 在场景中放置三块标准校准片：
+    
+    - **18% 中灰卡：** 创建 aiStandardSurface 材质，将 Base Color 的 RGB 值设为 0.18 (线性)。Specular Weight=0, Metalness=0, Roughness=0.8。
+        
+    - **高白卡：** 创建 aiStandardSurface 材质，将 Base Color 的 RGB 值设为 0.8。Specular Weight=0, Metalness=0, Roughness=0.8。
+        
+    - **低黑卡：** 创建 aiStandardSurface 材质，将 Base Color 的 RGB 值设为 0.03。Specular Weight=0, Metalness=0, Roughness=0.8。
 
 ## Munsell 颜色系统的理论基础
 
