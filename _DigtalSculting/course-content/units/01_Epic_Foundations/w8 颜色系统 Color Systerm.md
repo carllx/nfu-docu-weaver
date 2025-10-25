@@ -156,8 +156,6 @@
 
 ![bg fit left:50% vertical](https://i.imgur.com/R7WffPE.webp)
 
-
-
 ---
 
 
