@@ -67,11 +67,11 @@
         "currentTab": 1
       },
       {
-        "id": "cfd6a4f72f48064a",
+        "id": "8fe3f3edf8ab04a1",
         "type": "tabs",
         "children": [
           {
-            "id": "68f9458ae72b5cfe",
+            "id": "a8c6d120552aa6eb",
             "type": "leaf",
             "state": {
               "type": "marp-preview-view",
@@ -327,10 +327,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "68f9458ae72b5cfe",
+  "active": "a8c6d120552aa6eb",
   "lastOpenFiles": [
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.pptx",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_StudyNotes.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w7 Maya Arnold渲染基础 -  3点布光技巧.md",
@@ -358,8 +360,6 @@
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/figma-courseware-plan.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/part2-vulnerability-analysis.md",
     "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
-    "GOV.UK.md",
-    "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/agents",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/utils",
     "Scripts/Alfred.alfredpreferences/snippets/Codding/mcp-talk-to-figma-better [700B8208-7A50-4AE3-933D-C4DFB49813B4].json",
