@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 中期作业.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "w8_Maya_Arnold_Color_System_Presentation.marpit"
+              "title": "w8 中期作业"
+            }
+          },
+          {
+            "id": "357def0368e08c67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "w3-60s- office-props_Assets Breakdown"
             }
           },
           {
@@ -48,39 +62,9 @@
               "icon": "lucide-file",
               "title": "w3-60s- office-props_Assets Breakdown"
             }
-          },
-          {
-            "id": "c8430f2dfa6cf860",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class1.4-Rendering - 光与表面的交互.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Class1.4-Rendering - 光与表面的交互"
-            }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "8fe3f3edf8ab04a1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a8c6d120552aa6eb",
-            "type": "leaf",
-            "state": {
-              "type": "marp-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Deck Preview"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 200
   },
   "right": {
     "id": "de10f002fde45117",
@@ -199,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 中期作业.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of w8_Maya_Arnold_Color_System_Presentation.marpit"
+              "title": "Outline of w8 中期作业"
             }
           },
           {
@@ -242,7 +226,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 中期作业.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -270,7 +254,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of w8_Maya_Arnold_Color_System_Presentation.marpit"
+              "title": "Graph of w8 中期作业"
             }
           },
           {
@@ -327,18 +311,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a8c6d120552aa6eb",
+  "active": "d4804d23e59ab192",
   "lastOpenFiles": [
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 中期作业.md",
+    "Class1.4-Rendering - 光与表面的交互.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.pptx",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_StudyNotes.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w7 Maya Arnold渲染基础 -  3点布光技巧.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w6 Maya Arnold渲染基础 - 材质与灯光设置.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 - Maya 光影与色彩的艺术 - 以 60s 办公室为例.md",
-    "Class1.4-Rendering - 光与表面的交互.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3 maya-materials-basic.marpit.md",
     "Untitled 1.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/teaching-manual-v2-critical.md",
@@ -367,7 +352,6 @@
     "_交互产品综合创作/src/3.7-DS-Encore-Lite",
     "_22毕设/cohort_data/students/S_2026_08_黄锶晴/docs",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/images/avatar.png",
-    "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/3.8-project-user-profile-card/css/style.css",
     "Pasted image 20251013081422.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/avatar.png",
     "_交互产品综合创作/src/epic_01_2d_plane/week_02_styles_prototypes/style-figma-to-h5/user-profile-card-project/images/Untitled (1).png",
