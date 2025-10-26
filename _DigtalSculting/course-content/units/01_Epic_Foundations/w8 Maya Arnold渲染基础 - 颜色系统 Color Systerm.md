@@ -30,7 +30,11 @@
         
     - **低黑卡：** 创建 aiStandardSurface 材质，将 Base Color 的 RGB 值设为 0.03。Specular Weight=0, Metalness=0, Roughness=0.8。
 
+---
 
+
+Kodak Color Separation Guide and Gray Scale
+![bg fit left:50% vertical](https://i.imgur.com/7vDNUmT.webp)
 
 ---
 
