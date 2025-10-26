@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "w8 Maya Arnold渲染基础  颜色系统 Color Systerm"
+              "title": "w8_Maya_Arnold_Color_System_Presentation.marpit"
             }
           },
           {
@@ -65,6 +65,22 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "cfd6a4f72f48064a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68f9458ae72b5cfe",
+            "type": "leaf",
+            "state": {
+              "type": "marp-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Deck Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of w8 Maya Arnold渲染基础  颜色系统 Color Systerm"
+              "title": "Outline of w8_Maya_Arnold_Color_System_Presentation.marpit"
             }
           },
           {
@@ -226,7 +242,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -254,7 +270,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of w8 Maya Arnold渲染基础  颜色系统 Color Systerm"
+              "title": "Graph of w8_Maya_Arnold_Color_System_Presentation.marpit"
             }
           },
           {
@@ -311,11 +327,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "d4804d23e59ab192",
+  "active": "68f9458ae72b5cfe",
   "lastOpenFiles": [
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w7 Maya Arnold渲染基础 -  3点布光技巧.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w6 Maya Arnold渲染基础 - 材质与灯光设置.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 - Maya 光影与色彩的艺术 - 以 60s 办公室为例.md",
@@ -343,7 +360,6 @@
     "_交互产品综合创作/content/slides/3.8.2 style-layout-h5.marpit.md",
     "GOV.UK.md",
     "copilot-custom-prompts/nfu-talk-to-figma/agents/talk-to-figma-better.md",
-    "_交互产品综合创作/src/3.7-DS-Encore-Lite/docs/quick-reference.md",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/agents",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/utils",
     "Scripts/Alfred.alfredpreferences/snippets/Codding/mcp-talk-to-figma-better [700B8208-7A50-4AE3-933D-C4DFB49813B4].json",
