@@ -172,9 +172,6 @@ https://andrewwerth.com/color/#hue10GY
 
 
 
----
-
-
 ## 指导法则
 ### 60-30-10 配色法则的核心定义
 
