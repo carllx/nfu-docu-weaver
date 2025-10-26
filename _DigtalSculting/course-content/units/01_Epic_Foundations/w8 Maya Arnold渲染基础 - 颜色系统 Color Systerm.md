@@ -114,6 +114,20 @@ Kodak Color Separation Guide and Gray Scale
 
 ---
 
+上材质前准备
+
+maya 打开平光模式, 线框模式
+
+
+![bg fit left:50% vertical](https://i.imgur.com/fXY2UqR.webp)
+
+
+
+
+
+
+---
+
 
 ## Munsell 颜色系统的理论基础
 
