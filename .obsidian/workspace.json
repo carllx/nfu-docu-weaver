@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_StudyNotes.md",
-                "mode": "source",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 中期作业.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "w8_Maya_Arnold_Color_System_StudyNotes"
+              "title": "w8 中期作业"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_补充.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 中期作业.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of w8_补充"
+              "title": "Outline of w8 中期作业"
             }
           },
           {
@@ -212,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_补充.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 中期作业.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -240,7 +240,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of w8_补充"
+              "title": "Graph of w8 中期作业"
             }
           },
           {
@@ -297,11 +297,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "d4804d23e59ab192",
+  "active": "1de0a1af1a4aec71",
   "lastOpenFiles": [
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_StudyNotes.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w7 Maya Arnold渲染基础 -  3点布光技巧.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_补充.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
     "_DigtalSculting/src/tooo-maya/Units 统一.md",
     "_交互产品综合创作/content/weekly-units/w8.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 中期作业.md",
@@ -310,7 +311,6 @@
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.pptx",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w4 maya-materials-props-map.marpit.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w7 Maya Arnold渲染基础 -  3点布光技巧.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w6 Maya Arnold渲染基础 - 材质与灯光设置.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 - Maya 光影与色彩的艺术 - 以 60s 办公室为例.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3 maya-materials-basic.marpit.md",
