@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "w8_Maya_Arnold_Color_System_Presentation.marpit"
+              "title": "w9 用双手\"触摸\" 数字.marpit"
             }
           },
           {
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 218.5
   },
   "right": {
     "id": "de10f002fde45117",
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of w8_Maya_Arnold_Color_System_Presentation.marpit"
+              "title": "Outline of w9 用双手\"触摸\" 数字.marpit"
             }
           },
           {
@@ -211,7 +211,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -239,7 +239,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of w8_Maya_Arnold_Color_System_Presentation.marpit"
+              "title": "Graph of w9 用双手\"触摸\" 数字.marpit"
             }
           },
           {
@@ -298,6 +298,7 @@
   },
   "active": "b5492e4bda4b6afc",
   "lastOpenFiles": [
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w7 Maya Arnold渲染基础 -  3点布光技巧.md",
@@ -305,7 +306,6 @@
     "Untitled 1.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_StudyNotes.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_补充.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
     "_DigtalSculting/src/tooo-maya/Units 统一.md",
     "_交互产品综合创作/content/weekly-units/w8.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w3-60s- office-props_Assets Breakdown.md",
