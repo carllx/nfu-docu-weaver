@@ -34,8 +34,19 @@
               "icon": "lucide-file",
               "title": "w8 中期作业"
             }
+          },
+          {
+            "id": "7a7bb9e29d4c071b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,13 +165,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/weekly-units/w9-plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of w9-plan"
+              "title": "Outline"
             }
           },
           {
@@ -197,7 +207,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/weekly-units/w9-plan.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -225,7 +234,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of w9-plan"
+              "title": "Graph view"
             }
           },
           {
@@ -282,10 +291,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "d4804d23e59ab192",
+  "active": "7a7bb9e29d4c071b",
   "lastOpenFiles": [
-    "_交互产品综合创作/content/weekly-units/w9c2.md",
     "_交互产品综合创作/content/weekly-units/w9-plan.md",
+    "_交互产品综合创作/content/weekly-units/w9c2.md",
     "_交互产品综合创作/content/weekly-units/w9c2-recording.md",
     "_交互产品综合创作/content/weekly-units/w9c1-recording.md",
     "_交互产品综合创作/content/weekly-units/w9c1.md",
