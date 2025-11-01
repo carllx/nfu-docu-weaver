@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DMA_Thesis_Task_Book_Assistant",
+                "query": "第一次答辩 尹思祺",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -298,8 +298,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "605e25a0d0cb4453",
+  "active": "7a7bb9e29d4c071b",
   "lastOpenFiles": [
+    "_22毕设/src/尹思祺/第一次答辩 尹思祺.md",
     "Untitled 1.md",
     "_交互产品综合创作/content/weekly-units/w9-plan.md",
     "_交互产品综合创作/content/weekly-units/w9c2.md",
@@ -326,7 +327,6 @@
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/Untitled.md",
     "2024 广东科技学院.md",
     "Personal Resume 个人简历.md",
-    "COURSE/20 - 数字雕塑2 - 课程总结(公众号).md",
     "w7 颜色系统 Color Systerm.pptx",
     "Pasted image 20251020115711.png",
     "Pasted image 20251020084426.png",
