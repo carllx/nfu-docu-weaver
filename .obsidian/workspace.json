@@ -13,12 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/weekly-units/w9-plan.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "w9-plan"
+              "title": "w9 用双手\"触摸\" 数字.marpit"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d6e7f4fdd205151e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3aceced659bb73f8",
+            "type": "leaf",
+            "state": {
+              "type": "marp-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Deck Preview"
             }
           }
         ]
@@ -140,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/weekly-units/w9-plan.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of w9-plan"
+              "title": "Outline of w9 用双手\"触摸\" 数字.marpit"
             }
           },
           {
@@ -183,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/weekly-units/w9-plan.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -211,7 +227,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of w9-plan"
+              "title": "Graph of w9 用双手\"触摸\" 数字.marpit"
             }
           },
           {
@@ -270,12 +286,15 @@
   },
   "active": "a839a159d7dadfdd",
   "lastOpenFiles": [
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.3-shape-deconstruction-analysis.md",
+    "_交互产品综合创作/content/weekly-units/w9-plan.md",
+    "_DigtalSculting/通用课程项目说明与策略指南.md",
     "_交互产品综合创作/content/weekly-units/vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
     "Untitled.base",
     "Untitled.md",
     "Pasted image 20251002111040.png",
     "B-mad 文档拆分与变更管理.md",
-    "_交互产品综合创作/content/weekly-units/w9-plan.md",
     "Pasted image 20251020084426.png",
     "Pasted image 20250928181216.png",
     "Pasted image 20251012105401.png",
@@ -304,8 +323,6 @@
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w7 Maya Arnold渲染基础 -  3点布光技巧.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_StudyNotes.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_补充.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.pptx",
     "w7 颜色系统 Color Systerm.pptx",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens-simple.csv",
