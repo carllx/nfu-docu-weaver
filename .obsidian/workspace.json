@@ -25,10 +25,14 @@
             "id": "b85e663f857e9df2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ],
@@ -151,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -193,6 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Untitled.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -220,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Untitled"
             }
           },
           {
@@ -279,6 +285,7 @@
   },
   "active": "b85e663f857e9df2",
   "lastOpenFiles": [
+    "Untitled.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/1.3-shape-deconstruction-analysis.md",
@@ -286,7 +293,6 @@
     "_DigtalSculting/通用课程项目说明与策略指南.md",
     "_交互产品综合创作/content/weekly-units/vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
     "Untitled.base",
-    "Untitled.md",
     "Pasted image 20251002111040.png",
     "B-mad 文档拆分与变更管理.md",
     "Pasted image 20251020084426.png",
