@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
+                "file": "_DigtalSculting/src/Class 1.2 肖像与石膏临摹工具.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1.2-blender-workspace-and-sculpting-intro.marpit"
+              "title": "Outline of Class 1.2 肖像与石膏临摹工具"
             }
           },
           {
@@ -255,7 +255,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
+                "file": "_DigtalSculting/src/Class 1.2 肖像与石膏临摹工具.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -283,7 +283,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 1.2-blender-workspace-and-sculpting-intro.marpit"
+              "title": "Graph of Class 1.2 肖像与石膏临摹工具"
             }
           },
           {
@@ -340,10 +340,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a4f3a0dbedd1e05a",
+  "active": "6c4329d0a05c3081",
   "lastOpenFiles": [
-    "_DigtalSculting/src/Class 1.2 肖像与石膏临摹工具.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
+    "_DigtalSculting/src/Class 1.2 肖像与石膏临摹工具.md",
     "python blender 插件临摹 工具.md",
     "_DigtalSculting/src/造型/数字雕刻.md",
     "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",

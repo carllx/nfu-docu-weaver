@@ -20,6 +20,11 @@ notionID: 4933231a-dc44-4f2f-a1fd-06da1e3d84cf
 --`|3D Printable Pseudo-Seneca, Portrait of Hesiod (?) by Scan The World` [myminifactory](https://www.myminifactory.com/object/3d-print-pseudo-seneca-portrait-of-hesiod-103026)
 ![|200](https://cdn.myminifactory.com/assets/object-assets/5da5d10418a05/images/720X720-untitled1.jpg)
 
+![bg fit left:50% vertical](https://i.imgur.com/RwnAId1.webp)
+[ 🌐 myminifactory 3D Printable Carl Jacobsen by SMK - Statens Museum for Kunst](@https://www.myminifactory.com/object/3d-print-carl-jacobsen-109626)
+
+
+
 ###  Tips 修复 Giacometti Viwer 透视
 [[Alberto Giacometti]]
 焦距问题
