@@ -23,6 +23,8 @@ notionID: 4933231a-dc44-4f2f-a1fd-06da1e3d84cf
 ![bg fit left:50% vertical](https://i.imgur.com/RwnAId1.webp)
 [ 🌐 myminifactory 3D Printable Carl Jacobsen by SMK - Statens Museum for Kunst](@https://www.myminifactory.com/object/3d-print-carl-jacobsen-109626)
 
+![bg fit left:50% vertical](https://i.imgur.com/CJ9U1yR.webp)
+[ 🌐 myminifactory 3D Printable Brutus by SMK - Statens Museum for Kunst](@https://www.myminifactory.com/object/3d-print-brutus-270779)
 
 
 ###  Tips 修复 Giacometti Viwer 透视
