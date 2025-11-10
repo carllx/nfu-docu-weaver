@@ -34,9 +34,65 @@
               "icon": "lucide-file",
               "title": "交互产品综合创作工具链"
             }
+          },
+          {
+            "id": "01b21dd3bddc0965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_DigtalSculting/src/造型/数字雕刻.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "数字雕刻"
+            }
+          },
+          {
+            "id": "6c4329d0a05c3081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_DigtalSculting/src/Class 1.2 肖像与石膏临摹工具.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Class 1.2 肖像与石膏临摹工具"
+            }
+          },
+          {
+            "id": "866c6ae04b7d55fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python blender 插件临摹 工具.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "python blender 插件临摹 工具"
+            }
+          },
+          {
+            "id": "a4f3a0dbedd1e05a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.2-blender-workspace-and-sculpting-intro.marpit"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -68,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "touchdesigner",
+                "query": "临摹",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -94,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 266.5
   },
   "right": {
     "id": "de10f002fde45117",
@@ -156,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 交互产品综合创作工具链"
+              "title": "Outline of 1.2-blender-workspace-and-sculpting-intro.marpit"
             }
           },
           {
@@ -199,7 +255,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",
+                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,7 +283,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 交互产品综合创作工具链"
+              "title": "Graph of 1.2-blender-workspace-and-sculpting-intro.marpit"
             }
           },
           {
@@ -284,8 +340,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b85e663f857e9df2",
+  "active": "a4f3a0dbedd1e05a",
   "lastOpenFiles": [
+    "_DigtalSculting/src/Class 1.2 肖像与石膏临摹工具.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
+    "python blender 插件临摹 工具.md",
+    "_DigtalSculting/src/造型/数字雕刻.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",
     "Untitled.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
@@ -319,10 +380,6 @@
     "_交互产品综合创作/content/weekly-units/w9c2.md",
     "_交互产品综合创作/content/weekly-units/w9c2-recording.md",
     "_交互产品综合创作/content/weekly-units/w9c1-recording.md",
-    "_交互产品综合创作/content/weekly-units/w9c1.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8 Maya Arnold渲染基础  颜色系统 Color Systerm.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w7 Maya Arnold渲染基础 -  3点布光技巧.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.pptx",
     "w7 颜色系统 Color Systerm.pptx",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens-simple.csv",
