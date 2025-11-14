@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "copilot-custom-prompts/tech-mentor/tech-mentor.md",
+                "file": "copilot-custom-prompts/tech-mentor/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tech-mentor"
+              "title": "README"
             }
           }
         ],
@@ -253,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "copilot-custom-prompts/tech-mentor/tech-mentor.md",
+                "file": "copilot-custom-prompts/tech-mentor/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tech-mentor"
+              "title": "Outline of README"
             }
           },
           {
@@ -296,7 +296,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "copilot-custom-prompts/tech-mentor/tech-mentor.md",
+                "file": "copilot-custom-prompts/tech-mentor/README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -324,7 +324,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of tech-mentor"
+              "title": "Graph of README"
             }
           },
           {
@@ -383,9 +383,10 @@
   },
   "active": "b6c2fb0e5040aa5e",
   "lastOpenFiles": [
+    "copilot-custom-prompts/tech-mentor/tech-mentor.md",
+    "copilot-custom-prompts/tech-mentor/README.md",
     "copilot-custom-prompts/tech-mentor/tech-path-advice-tmpl.yaml.md",
     "copilot-custom-prompts/tech-mentor/provide-tech-path.md",
-    "copilot-custom-prompts/tech-mentor/tech-mentor.md",
     "copilot-custom-prompts/鲁迅 Agents.md",
     "copilot-custom-prompts/tech-mentor",
     "中期答辩时间线与交付清单.md",
@@ -421,7 +422,6 @@
     "_22毕设/src/林庭欣/二辩依据.md",
     "_22毕设/src/林庭欣/林庭欣.md",
     "_22毕设/src/林庭欣/线上二辩补建议.md",
-    "_22毕设/src/林庭欣/第一次答辩 林庭欣 - 向死而生.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.pptx",
     "w7 颜色系统 Color Systerm.pptx",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens-simple.csv",

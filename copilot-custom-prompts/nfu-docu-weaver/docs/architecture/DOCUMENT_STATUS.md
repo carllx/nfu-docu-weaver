@@ -24,7 +24,7 @@
 
 | 文档 | 说明 | 受众 | 最后更新 | 维护者 | 优先级 |
 |------|------|------|---------|--------|--------|
-| [README.md](README.md) | 📍 主入口和导航 | 全员 | 2025-10-05 | @architect | P0 |
+| [README.md](copilot-custom-prompts/nfu-docu-weaver/docs/architecture/README.md) | 📍 主入口和导航 | 全员 | 2025-10-05 | @architect | P0 |
 | [index.md](index.md) | 详细目录索引 | 全员 | 2025-10-05 | @architect | P0 |
 | [v2.0-architecture-overview.md](v2.0-architecture-overview.md) | ⭐ v2.0架构概览 | 技术团队 | 2025-10-05 | @architect | P0 |
 | [6-schema-driven-architecture.md](6-schema-driven-architecture.md) | Schema驱动架构详解 | 开发者 | 2025-10-05 | @architect | P1 |

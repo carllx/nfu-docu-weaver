@@ -176,7 +176,7 @@ python generate_docs.py generate data/lesson1.yml template.docx output/ -o outpu
 
 ## 📞 支持与反馈
 
-- **文档**: 查看 [README.md](README.md)
+- **文档**: 查看 [README.md](Scripts/Kimi/README.md)
 - **更新日志**: 查看 [CHANGELOG.md](CHANGELOG.md)
 - **问题反馈**: 通过 GitHub Issues 提交
 

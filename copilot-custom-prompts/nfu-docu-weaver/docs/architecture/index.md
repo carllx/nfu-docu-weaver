@@ -8,7 +8,7 @@
 
 ## 📖 文档导航
 
-👉 **推荐从 [README.md](README.md) 开始** - 提供完整的导航和阅读路径
+👉 **推荐从 [README.md](copilot-custom-prompts/nfu-docu-weaver/docs/architecture/README.md) 开始** - 提供完整的导航和阅读路径
 
 ---
 
@@ -18,7 +18,7 @@
 
 | 序号 | 文档 | 说明 | 状态 |
 |------|------|------|------|
-| 0 | [README.md](README.md) | 📍 **主入口** - 完整导航和阅读路径 | ✅ v2.0 |
+| 0 | [README.md](copilot-custom-prompts/nfu-docu-weaver/docs/architecture/README.md) | 📍 **主入口** - 完整导航和阅读路径 | ✅ v2.0 |
 | 1 | [v2.0 架构概览](v2.0-architecture-overview.md) | ⭐ v2.0整体架构设计 | ✅ v2.0 |
 | 2 | [Schema-Driven 架构](6-schema-driven-architecture.md) | Schema驱动的设计理念 | ✅ v2.0 |
 | 3 | [Agent 架构 v2.0](8-agent-driven-architecture-v2.md) | Agent主动引导机制详解 | ✅ v2.0 |

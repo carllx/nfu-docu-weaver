@@ -272,7 +272,7 @@ fi
 
 ## 📞 支持与反馈
 
-- **文档**: 查看 [README.md](README.md)
+- **文档**: 查看 [README.md](Scripts/Kimi/README.md)
 - **完整变更**: 查看 [CHANGELOG.md](CHANGELOG.md)
 - **Sprint 进度**: 查看 [Sprint Progress](docs/SPRINT_PROGRESS.md)
 - **问题反馈**: 通过 GitHub Issues 提交
