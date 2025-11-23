@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《偶像工厂》游戏设计方案.md",
+                "file": "《偶像工厂》游戏设计方案_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《偶像工厂》游戏设计方案"
+              "title": "《偶像工厂》游戏设计方案_2"
             }
           }
         ],
@@ -239,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《偶像工厂》游戏设计方案.md",
+                "file": "《偶像工厂》游戏设计方案_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 《偶像工厂》游戏设计方案"
+              "title": "Outline of 《偶像工厂》游戏设计方案_2"
             }
           },
           {
@@ -282,7 +282,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "《偶像工厂》游戏设计方案.md",
+                "file": "《偶像工厂》游戏设计方案_2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -310,7 +310,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 《偶像工厂》游戏设计方案"
+              "title": "Graph of 《偶像工厂》游戏设计方案_2"
             }
           },
           {
@@ -370,7 +370,7 @@
   "active": "fe7d3a6c12b93b8f",
   "lastOpenFiles": [
     "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
-    "《偶像工厂》游戏设计方案.md",
+    "《偶像工厂》游戏设计方案_2.md",
     "01_Sources/Design as Art - Bruno Munari.md",
     "_22毕设/docs/GUIDE_TEACHER.md",
     "_22毕设/cohort_data/students/S_2026_04_康碧瑶/index.md",
