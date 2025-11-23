@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "跨学科选题评估报告.md",
+                "file": "nfu - 中期答辩现场 - 康碧瑶.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "跨学科选题评估报告"
+              "title": "nfu - 中期答辩现场 - 康碧瑶"
             }
           }
         ],
@@ -253,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "跨学科选题评估报告.md",
+                "file": "nfu - 中期答辩现场 - 康碧瑶.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 跨学科选题评估报告"
+              "title": "Outline of nfu - 中期答辩现场 - 康碧瑶"
             }
           },
           {
@@ -296,7 +296,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "跨学科选题评估报告.md",
+                "file": "nfu - 中期答辩现场 - 康碧瑶.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -324,7 +324,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 跨学科选题评估报告"
+              "title": "Graph of nfu - 中期答辩现场 - 康碧瑶"
             }
           },
           {
@@ -381,9 +381,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eae2f802ee203782",
+  "active": "7fc02c6d5dc318a4",
   "lastOpenFiles": [
-    "跨学科选题评估报告.md",
+    "nfu - 中期答辩现场 - 康碧瑶.md",
     "中期答辩时间线与交付清单.md",
     "01_Sources/Design as Art - Bruno Munari.md",
     "手动制作3D临摹模板指南_blender.md",
