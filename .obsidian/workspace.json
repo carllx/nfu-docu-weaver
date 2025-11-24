@@ -118,9 +118,23 @@
               "icon": "lucide-file",
               "title": "头戴产品设备故事化绘本使用说明书案例"
             }
+          },
+          {
+            "id": "6e789ba6f74c1e3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -239,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "头戴产品设备故事化绘本使用说明书案例.md",
+                "file": "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 头戴产品设备故事化绘本使用说明书案例"
+              "title": "Outline of vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿"
             }
           },
           {
@@ -282,7 +296,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "头戴产品设备故事化绘本使用说明书案例.md",
+                "file": "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -310,7 +324,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 头戴产品设备故事化绘本使用说明书案例"
+              "title": "Graph of vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿"
             }
           },
           {
@@ -367,16 +381,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fe7d3a6c12b93b8f",
+  "active": "6e789ba6f74c1e3e",
   "lastOpenFiles": [
-    "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
+    "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿.md",
     "头戴产品设备故事化绘本使用说明书案例.md",
+    "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
     "01_Sources/Design as Art - Bruno Munari.md",
     "_22毕设/docs/GUIDE_TEACHER.md",
     "_22毕设/cohort_data/students/S_2026_04_康碧瑶/index.md",
     "_22毕设/src/ABR 论文题目拟定.marpit.md",
     "数字媒体艺术系2023届本科毕业论文（设计）质量分析报告.md",
-    "Untitled.md",
     "nfu - 中期答辩现场 - 康碧瑶.md",
     "手动制作3D临摹模板指南_blender.md",
     "copilot-custom-prompts/tech-mentor/README.md",
