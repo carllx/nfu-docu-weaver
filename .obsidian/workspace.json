@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿.md",
+                "file": "DMA 论文写作指南(跨学科).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿"
+              "title": "DMA 论文写作指南(跨学科)"
             }
           }
         ],
@@ -253,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿.md",
+                "file": "DMA 论文写作指南(跨学科).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿"
+              "title": "Outline of DMA 论文写作指南(跨学科)"
             }
           },
           {
@@ -296,7 +296,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿.md",
+                "file": "DMA 论文写作指南(跨学科).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -324,7 +324,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿"
+              "title": "Graph of DMA 论文写作指南(跨学科)"
             }
           },
           {
@@ -383,7 +383,7 @@
   },
   "active": "6e789ba6f74c1e3e",
   "lastOpenFiles": [
-    "vid - AI儿童绘本制作全流程教学 - 完整中文逐字稿.md",
+    "DMA 论文写作指南(跨学科).md",
     "头戴产品设备故事化绘本使用说明书案例.md",
     "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
     "01_Sources/Design as Art - Bruno Munari.md",
