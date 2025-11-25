@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DMA 论文写作指南(跨学科).md",
+                "file": "安徒生文体方法论深度研究报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DMA 论文写作指南(跨学科)"
+              "title": "安徒生文体方法论深度研究报告"
             }
           }
         ],
@@ -253,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DMA 论文写作指南(跨学科).md",
+                "file": "安徒生文体方法论深度研究报告.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DMA 论文写作指南(跨学科)"
+              "title": "Outline of 安徒生文体方法论深度研究报告"
             }
           },
           {
@@ -296,7 +296,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "DMA 论文写作指南(跨学科).md",
+                "file": "安徒生文体方法论深度研究报告.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -324,7 +324,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of DMA 论文写作指南(跨学科)"
+              "title": "Graph of 安徒生文体方法论深度研究报告"
             }
           },
           {
@@ -383,7 +383,7 @@
   },
   "active": "6e789ba6f74c1e3e",
   "lastOpenFiles": [
-    "DMA 论文写作指南(跨学科).md",
+    "安徒生文体方法论深度研究报告.md",
     "头戴产品设备故事化绘本使用说明书案例.md",
     "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
     "01_Sources/Design as Art - Bruno Munari.md",
