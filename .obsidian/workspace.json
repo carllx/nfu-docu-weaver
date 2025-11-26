@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "安徒生文体方法论深度研究报告.md",
+                "file": "Retopology(拓扑重构) - maya.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "安徒生文体方法论深度研究报告"
+              "title": "Retopology(拓扑重构) - maya"
             }
           }
         ],
@@ -253,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "安徒生文体方法论深度研究报告.md",
+                "file": "Retopology(拓扑重构) - maya.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 安徒生文体方法论深度研究报告"
+              "title": "Outline of Retopology(拓扑重构) - maya"
             }
           },
           {
@@ -296,7 +296,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "安徒生文体方法论深度研究报告.md",
+                "file": "Retopology(拓扑重构) - maya.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -324,7 +324,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 安徒生文体方法论深度研究报告"
+              "title": "Graph of Retopology(拓扑重构) - maya"
             }
           },
           {
@@ -383,7 +383,7 @@
   },
   "active": "6e789ba6f74c1e3e",
   "lastOpenFiles": [
-    "安徒生文体方法论深度研究报告.md",
+    "Retopology(拓扑重构) - maya.md",
     "头戴产品设备故事化绘本使用说明书案例.md",
     "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
     "01_Sources/Design as Art - Bruno Munari.md",
