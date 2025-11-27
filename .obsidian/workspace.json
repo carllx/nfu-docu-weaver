@@ -132,9 +132,23 @@
               "icon": "lucide-file",
               "title": "srt 如何区分说话人"
             }
+          },
+          {
+            "id": "efa79c1a1b7e1500",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -254,13 +268,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "srt 如何区分说话人.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of srt 如何区分说话人"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -297,7 +311,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "srt 如何区分说话人.md",
+                "file": "Untitled.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -325,7 +339,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of srt 如何区分说话人"
+              "title": "Graph of Untitled"
             }
           },
           {
@@ -382,8 +396,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "04f3fee0fe6d2277",
+  "active": "efa79c1a1b7e1500",
   "lastOpenFiles": [
+    "Untitled.md",
     "srt 如何区分说话人.md",
     "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
@@ -411,7 +426,6 @@
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/1.3-shape-deconstruction-analysis.md",
     "_交互产品综合创作/content/weekly-units/w9-plan.md",
-    "_DigtalSculting/通用课程项目说明与策略指南.md",
     "Untitled.base",
     "Pasted image 20251002111040.png",
     "Pasted image 20251020084426.png",
