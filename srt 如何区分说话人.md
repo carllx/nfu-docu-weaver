@@ -13,7 +13,43 @@ Structured Task State Management(结构化任务状态管理) 不要仅依赖对
 - **案例参考 (Cursor):** 极其强调 `todo_write` 工具。Cursor 要求将隐性需求转化为结构化的 Todo 列表，并在每一步操作后更新状态（pending -> in_progress -> completed）。
 - **案例参考 (Same.dev):** 使用 `.same/todos.md` 文件持久化跟踪进度，每次响应的开头和结尾都要更新它 。
 
+### 明确“大脑”与“手”的分工（防止“假装执行”）
 
+这是 Agent 最容易犯的错误（Hallucinated Execution）。**Bolt** 和 **Codex CLI** 的 Prompt 提供了极其严格的界限。
+
+#### 1. 职责边界定义
+
+- **大脑 (LLM)**：负责**意图识别、参数构造、流程编排、错误分析**。
+    
+    - _原则_：LLM 只能生成 JSON/XML 格式的工具调用请求，决不能自己在对话框里打印“Result: 42” (除非它是纯闲聊) 。
+        
+- **手 (Script/Tool)**：负责**确定性计算、副作用操作、数据处理**。
+    
+    - _原则_：凡是涉及正则匹配、数学运算 (>3位数)、文件修改、外部 API 请求，**必须**调用工具。
+        
+
+#### 2. 强制约束机制（Anti-Laziness Rules）
+
+参考 **Bolt** 和 **Gemini CLI** 的防御性 Prompt 设计：
+
+- **禁止手动计算**：明确指示“Do NOT use mental calculation. Use the `execute_python` tool” 。
+    
+- **禁止伪代码**：在修改文件时，必须提供完整内容或精确的搜索/替换块，禁止使用 `// ... rest of code` 占位符（除非工具支持 Lazy Apply） 。
+    
+- **验证闭环**：参考 **Qoder**，在每次修改代码后，**强制**自动调用 `get_problems` (Linter) 或测试工具进行验证，而不是假设修改成功 。
+    
+
+#### 3. 混合任务处理 (Hybrid Tasks)
+
+- **Routing (路由模式)**：参考 **Kiro** 的 `Mode_Classifier` 。
+    
+    - 当用户输入进来时，先经过一个轻量级分类器：
+        
+        - **Chat Mode**: 纯语义任务（改写邮件、解释概念） -> 直接由 LLM 处理。
+            
+        - **Do/Act Mode**: 需要执行任务 -> 路由给 Tool-Use Agent。
+            
+        - **Plan Mode**: 复杂需求 -> 路由给 Architect Agent 生成 SOP。
 
 
 ### 分离创造与执行
@@ -24,6 +60,11 @@ Structured Task State Management(结构化任务状态管理) 不要仅依赖对
 ## Tool - 手（工具）
 工具不是散乱的文件的文件?
 
+负责**确定性计算、副作用操作、数据处理**。_原则_：凡是涉及正则匹配、数学运算 (>3位数)、文件修改、外部 API 请求，**必须**调用工具。
+参考 **Bolt** 和 **Gemini CLI** 的防御性 Prompt 设计：
+- **禁止手动计算**, 明确指示“Do NOT use mental calculation. Use the `execute_python` tool” 。
+- **禁止伪代码**：在修改文件时，必须提供完整内容或精确的搜索/替换块，禁止使用 `// ... rest of code` 占位符（除非工具支持 Lazy Apply） 。
+- **验证闭环**：参考 **Qoder**，在每次修改代码后，**强制**自动调用 `get_problems` (Linter) 或测试工具进行验证，而不是假设修改成功 。
 ### Server
 不要把脚本看作文件，而要看作**Server（服务）**
 例如使用 MCP (Model Context Protocol) 思想，将脚本包装成标准服务 可以 让Agent 查询 list_tools 获得能力. 
