@@ -351,6 +351,6 @@ NYU ITP将自身定义为“近期可能中心”（Center for the Recently Poss
 34. Multidisciplinary Capstone Senior Design Projects: A Comparative Analysis of Industry–Sponsored and Faculty–Sponsored Projects Using Comprehensive Performance Metrics \- MDPI, accessed November 29, 2025, [https://www.mdpi.com/2227-7102/14/3/314](https://www.mdpi.com/2227-7102/14/3/314)  
 35. Improve Digital Artist Productivity With Generative AI | GCU Blog, accessed November 29, 2025, [https://www.gcu.edu/blog/performing-arts-digital-arts/improve-digital-artist-productivity-generative-ai](https://www.gcu.edu/blog/performing-arts-digital-arts/improve-digital-artist-productivity-generative-ai)  
 36. Assessment categories for research degrees \- Generative AI \- University of Leeds, accessed November 29, 2025, [https://generative-ai.leeds.ac.uk/ai-use-in-research/postgraduate-researcher-guidance/assessment-categories-for-research-degrees/](https://generative-ai.leeds.ac.uk/ai-use-in-research/postgraduate-researcher-guidance/assessment-categories-for-research-degrees/)
-37. 参考 [[毕业设计（创作）及毕业论文内容]]
+37. 参考 [[设计学类国标-DMA毕设作品相关事项]]
 38. [ 🔍 google Google Gemini](@https://gemini.google.com/u/1/app/4ca54564778e778f)
 
