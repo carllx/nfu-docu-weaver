@@ -1,5 +1,6 @@
 # 广州南方学院设计学院数字媒体技术专业毕业设计要求
 
+![bg fit left:50% vertical](https://i.imgur.com/XxfRKNo.webp)
 
 ## 一、互动影像 要求&标准
 
