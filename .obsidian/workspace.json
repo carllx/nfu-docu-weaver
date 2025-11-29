@@ -181,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "修订方案.md",
+                "file": "DMA 交互媒体修订建议.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "修订方案"
+              "title": "DMA 交互媒体修订建议"
             }
           },
           {
@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -337,13 +337,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nfu-DMT-毕业设计要求.md",
+                "file": "DMA 交互媒体修订建议.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of nfu-DMT-毕业设计要求"
+              "title": "Outline of DMA 交互媒体修订建议"
             }
           },
           {
@@ -380,7 +380,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "nfu-DMT-毕业设计要求.md",
+                "file": "DMA 交互媒体修订建议.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -408,7 +408,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of nfu-DMT-毕业设计要求"
+              "title": "Graph of DMA 交互媒体修订建议"
             }
           },
           {
@@ -465,13 +465,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "682043a97e4f2f34",
+  "active": "eae2f802ee203782",
   "lastOpenFiles": [
     "nfu-DMT-毕业设计要求.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
     "python blender 插件临摹 工具.md",
     "设计学类国标-DMA毕设作品相关事项.md",
-    "修订方案.md",
+    "DMA 交互媒体修订建议.md",
     "DMA交互装置工作量测算与评估标准的实证研究报告.md",
     "交互媒体艺术作品规范文档编写最佳实践指南.md",
     "康碧瑶 - 剧本细节参考建议.md",
