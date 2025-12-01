@@ -134,20 +134,6 @@
             }
           },
           {
-            "id": "5b1e6f9b3740b893",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2018 普通高等学校本科专业类 教学质量国家标准（设计学类）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2018 普通高等学校本科专业类 教学质量国家标准（设计学类）"
-            }
-          },
-          {
             "id": "62682f564fd4ea6d",
             "type": "leaf",
             "state": {
@@ -176,20 +162,6 @@
             }
           },
           {
-            "id": "8c04f0bda1213c5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maya 单位.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "maya 单位"
-            }
-          },
-          {
             "id": "d8a875970de0a634",
             "type": "leaf",
             "state": {
@@ -215,6 +187,20 @@
               },
               "icon": "lucide-file",
               "title": "nfu-DMT-毕业设计要求"
+            }
+          },
+          {
+            "id": "ae708f6b37a8bca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maya 部拓扑重建 (Retopology) 技术指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Maya 部拓扑重建 (Retopology) 技术指南"
             }
           }
         ],
@@ -250,7 +236,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"## \"",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -271,8 +257,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -338,13 +323,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Netlify 网站发布指南.md",
+                "file": "Maya 部拓扑重建 (Retopology) 技术指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Netlify 网站发布指南"
+              "title": "Outline of Maya 部拓扑重建 (Retopology) 技术指南"
             }
           },
           {
@@ -381,7 +366,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Netlify 网站发布指南.md",
+                "file": "Maya 部拓扑重建 (Retopology) 技术指南.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -409,7 +394,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Netlify 网站发布指南"
+              "title": "Graph of Maya 部拓扑重建 (Retopology) 技术指南"
             }
           },
           {
@@ -466,17 +451,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "605e25a0d0cb4453",
+  "active": "ae708f6b37a8bca6",
   "lastOpenFiles": [
-    "maya 单位.md",
-    "nfu-DMT-毕业设计要求.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
-    "python blender 插件临摹 工具.md",
-    "设计学类国标-DMA毕设作品相关事项.md",
-    "DMA交互装置工作量测算与评估标准的实证研究报告.md",
+    "Maya 部拓扑重建 (Retopology) 技术指南.md",
     "Netlify 网站发布指南.md",
+    "nfu-DMT-毕业设计要求.md",
+    "设计学类国标-DMA毕设作品相关事项.md",
     "康碧瑶 - 剧本细节参考建议.md",
     "2018 普通高等学校本科专业类 教学质量国家标准（设计学类）.md",
+    "_DigtalSculting/src/tooo-maya/maya 单位.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
+    "python blender 插件临摹 工具.md",
+    "DMA交互装置工作量测算与评估标准的实证研究报告.md",
     "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",
     "srt 如何区分说话人.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
@@ -493,7 +479,6 @@
     "copilot-custom-prompts/tech-mentor/README.md",
     "copilot-custom-prompts/tech-mentor/tech-mentor.md",
     "copilot-custom-prompts/tech-mentor/tech-path-advice-tmpl.yaml.md",
-    "copilot-custom-prompts/tech-mentor/provide-tech-path.md",
     "copilot-custom-prompts/tech-mentor",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
     "Untitled.base",
