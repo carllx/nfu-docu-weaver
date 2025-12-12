@@ -250,7 +250,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "论⽂写作指南",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -271,7 +271,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -465,7 +466,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "43bbe75b6a141af9",
+  "active": "605e25a0d0cb4453",
   "lastOpenFiles": [
     "nfu 2025 关于设计学院林昕老师教学事故的情况说明.md",
     "Untitled 1.md",

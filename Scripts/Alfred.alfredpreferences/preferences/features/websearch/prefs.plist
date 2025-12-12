@@ -24,7 +24,7 @@
 			<key>text</key>
 			<string>Google NotebookLM</string>
 			<key>url</key>
-			<string>https://notebooklm.google.com/?_gl=1*1dgxitr*_up*MQ..*_ga*MzIxNzM4MDcuMTc0OTE5MzQ5Mg..*_ga_W0LDH41ZCB*czE3NTcyMDU4MzUkbzI0JGcwJHQxNzU3MjA1ODM1JGo2MCRsMCRoMA..&amp;gclid=CjwKCAjwt-_FBhBzEiwA7QEqyG3jz6QaTZ9JjojI8clmeGUW5iGxBCegsDyGOLIiYaoHcMo0_TQ3HRoCBrAQAvD_BwE&amp;gbraid=0AAAAA-fwSsc510vlEg2w8bGwsF9bcG3hz&amp;authuser=1&amp;pageId=none</string>
+			<string>https://notebooklm.google.com/?_gl=1*1dgxitr*_up*MQ..*_ga*MzIxNzM4MDcuMTc0OTE5MzQ5Mg..*_ga_W0LDH41ZCB*czE3NTcyMDU4MzUkbzI0JGcwJHQxNzU3MjA1ODM1JGo2MCRsMCRoMA..&amp;gclid=CjwKCAjwt-_FBhBzEiwA7QEqyG3jz6QaTZ9JjojI8clmeGUW5iGxBCegsDyGOLIiYaoHcMo0_TQ3HRoCBrAQAvD_BwE&amp;gbraid=0AAAAA-fwSsc510vlEg2w8bGwsF9bcG3hz&amp;authuser=3&amp;pageId=none&amp;pli=1</string>
 		</dict>
 		<key>E006DD0D-9279-4967-AEFE-18D2DAC43F79</key>
 		<dict>
@@ -35,7 +35,7 @@
 			<key>text</key>
 			<string>Google Gemini</string>
 			<key>url</key>
-			<string>https://gemini.google.com/u/1/app</string>
+			<string>https://gemini.google.com/u/3/app</string>
 		</dict>
 	</dict>
 </dict>
