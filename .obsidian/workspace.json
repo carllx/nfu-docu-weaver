@@ -8,160 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b85e663f857e9df2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "交互产品综合创作工具链"
-            }
-          },
-          {
-            "id": "01b21dd3bddc0965",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_DigtalSculting/src/造型/数字雕刻.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "数字雕刻"
-            }
-          },
-          {
-            "id": "6c4329d0a05c3081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_DigtalSculting/src/Class 1.2 肖像与石膏临摹工具.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Class 1.2 肖像与石膏临摹工具"
-            }
-          },
-          {
-            "id": "a4f3a0dbedd1e05a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.2-blender-workspace-and-sculpting-intro.marpit"
-            }
-          },
-          {
-            "id": "82020624e8ea92ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "毕设开题指导 - 从构思到答辩"
-            }
-          },
-          {
-            "id": "fe7d3a6c12b93b8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "头戴产品设备故事化绘本使用说明书案例.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "头戴产品设备故事化绘本使用说明书案例"
-            }
-          },
-          {
-            "id": "6e789ba6f74c1e3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grease Pencil 表面绘制 - blender.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Grease Pencil 表面绘制 - blender"
-            }
-          },
-          {
-            "id": "04f3fee0fe6d2277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "srt 如何区分说话人.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "srt 如何区分说话人"
-            }
-          },
-          {
-            "id": "efa79c1a1b7e1500",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "康碧瑶 - 剧本细节参考建议.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "康碧瑶 - 剧本细节参考建议"
-            }
-          },
-          {
-            "id": "62682f564fd4ea6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "设计学类国标-DMA毕设作品相关事项.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "设计学类国标-DMA毕设作品相关事项"
-            }
-          },
-          {
-            "id": "f01432b6f61a3084",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DMA交互装置工作量测算与评估标准的实证研究报告.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DMA交互装置工作量测算与评估标准的实证研究报告"
-            }
-          },
-          {
             "id": "d8a875970de0a634",
             "type": "leaf",
             "state": {
@@ -173,48 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Netlify 网站发布指南"
-            }
-          },
-          {
-            "id": "682043a97e4f2f34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nfu-DMT-毕业设计要求.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "nfu-DMT-毕业设计要求"
-            }
-          },
-          {
-            "id": "ae708f6b37a8bca6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maya 部拓扑重建 (Retopology) 技术指南.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Maya 部拓扑重建 (Retopology) 技术指南"
-            }
-          },
-          {
-            "id": "43bbe75b6a141af9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "小红书CG题材软文设计与流量传播策略.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "小红书CG题材软文设计与流量传播策略"
             }
           },
           {
@@ -230,9 +34,23 @@
               "icon": "lucide-file",
               "title": "2025-12-13 周日 NFU DMA教学材料的各项自查"
             }
+          },
+          {
+            "id": "248f1955122c4ae4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -264,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "论⽂写作指南",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -285,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -352,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-12-13 周日 NFU DMA教学材料的各项自查.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-12-13 周日 NFU DMA教学材料的各项自查"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -395,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2025-12-13 周日 NFU DMA教学材料的各项自查.md",
+                "file": "Untitled.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -423,7 +240,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2025-12-13 周日 NFU DMA教学材料的各项自查"
+              "title": "Graph of Untitled"
             }
           },
           {
@@ -480,34 +297,35 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "605e25a0d0cb4453",
+  "active": "248f1955122c4ae4",
   "lastOpenFiles": [
-    "小红书CG题材软文设计与流量传播策略.md",
+    "Untitled.md",
     "2025-12-13 周日 NFU DMA教学材料的各项自查.md",
+    "copilot-custom-prompts/小红书推广文案/小红书CG题材软文设计与流量传播策略.md",
+    "copilot-custom-prompts/小红书推广文案",
+    "copilot-custom-prompts/Untitled.md",
+    "Netlify 网站发布指南.md",
+    "设计学类国标-DMA毕设作品相关事项.md",
+    "_DigtalSculting/src/tooo-maya/Maya 部拓扑重建 (Retopology) 技术指南.md",
+    "nfu-DMT-毕业设计要求.md",
+    "DMA交互装置工作量测算与评估标准的实证研究报告.md",
+    "srt 如何区分说话人.md",
+    "_DigtalSculting/src/tool-blender/Grease Pencil 表面绘制 - blender.md",
+    "头戴产品设备故事化绘本使用说明书案例.md",
+    "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
+    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
+    "_DigtalSculting/src/Class 1.2 肖像与石膏临摹工具.md",
+    "_DigtalSculting/src/造型/数字雕刻.md",
+    "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",
+    "康碧瑶 - 剧本细节参考建议.md",
     "nfu - dma - 常见四种作业类型的解释说明.md",
     "nfu 2025 关于设计学院林昕老师教学事故的情况说明.md",
     "Untitled 1.md",
-    "nfu-DMT-毕业设计要求.md",
-    "Maya 部拓扑重建 (Retopology) 技术指南.md",
-    "Netlify 网站发布指南.md",
-    "设计学类国标-DMA毕设作品相关事项.md",
-    "康碧瑶 - 剧本细节参考建议.md",
     "2018 普通高等学校本科专业类 教学质量国家标准（设计学类）.md",
     "_DigtalSculting/src/tooo-maya/maya 单位.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
     "python blender 插件临摹 工具.md",
-    "DMA交互装置工作量测算与评估标准的实证研究报告.md",
-    "_交互产品综合创作/src/epic_01_2d_plane/交互产品综合创作工具链.md",
-    "srt 如何区分说话人.md",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.md",
-    "Grease Pencil 表面绘制 - blender.md",
-    "头戴产品设备故事化绘本使用说明书案例.md",
-    "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
     "01_Sources/Design as Art - Bruno Munari.md",
-    "_22毕设/docs/GUIDE_TEACHER.md",
-    "_22毕设/cohort_data/students/S_2026_04_康碧瑶/index.md",
-    "_22毕设/src/ABR 论文题目拟定.marpit.md",
-    "数字媒体艺术系2023届本科毕业论文（设计）质量分析报告.md",
     "copilot-custom-prompts/tech-mentor",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
     "Untitled.base",
@@ -527,7 +345,6 @@
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens.csv",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/agents",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/utils",
-    "Scripts/Alfred.alfredpreferences/snippets/Codding/mcp-talk-to-figma-better [700B8208-7A50-4AE3-933D-C4DFB49813B4].json",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",
