@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "2025 作业考核要求 交互产品综合创作"
             }
+          },
+          {
+            "id": "f9bb49df8e38a52b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -169,13 +183,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 考核作业要求数字建模.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025 考核作业要求数字建模"
+              "title": "Outline"
             }
           },
           {
@@ -212,7 +225,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2025 考核作业要求数字建模.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -240,7 +252,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2025 考核作业要求数字建模"
+              "title": "Graph view"
             }
           },
           {
@@ -297,17 +309,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "248f1955122c4ae4",
+  "active": "f9bb49df8e38a52b",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Netlify 网站发布指南.md",
+    "2025 考核作业要求数字建模.md",
     "2025-12-13 周日 NFU DMA教学材料的各项自查.md",
     "2025 作业考核要求 交互产品综合创作.md",
     "2024-2025学年 试卷袋材料审查清单(手写).md",
-    "2025 考核作业要求数字建模.md",
     "周日检查 2.md",
     "copilot-custom-prompts/小红书推广文案/小红书CG题材软文设计与流量传播策略.md",
     "copilot-custom-prompts/小红书推广文案",
     "copilot-custom-prompts/Untitled.md",
-    "Netlify 网站发布指南.md",
     "设计学类国标-DMA毕设作品相关事项.md",
     "_DigtalSculting/src/tooo-maya/Maya 部拓扑重建 (Retopology) 技术指南.md",
     "nfu-DMT-毕业设计要求.md",
@@ -325,7 +338,6 @@
     "nfu 2025 关于设计学院林昕老师教学事故的情况说明.md",
     "Untitled 1.md",
     "2018 普通高等学校本科专业类 教学质量国家标准（设计学类）.md",
-    "_DigtalSculting/src/tooo-maya/maya 单位.md",
     "copilot-custom-prompts/tech-mentor",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
     "Untitled.base",
