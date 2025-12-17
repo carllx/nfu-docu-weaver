@@ -183,12 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -225,6 +226,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Untitled.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -252,7 +254,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Untitled"
             }
           },
           {
