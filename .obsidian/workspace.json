@@ -193,16 +193,6 @@
             }
           },
           {
-            "id": "68673eba207962c2",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
             "id": "35e4393856d6d93b",
             "type": "leaf",
             "state": {
@@ -211,9 +201,19 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "b19f3827f581e247",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "739a5c549f1fe0de",
@@ -311,8 +311,25 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "68673eba207962c2",
+  "active": "b19f3827f581e247",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/提取艺术家特点@20251221_183957.md",
+    "copilot/copilot-conversations/提取艺术家特点@20251221_183856.md",
+    "copilot/copilot-conversations/提取艺术家@20251221_183436.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations/提取艺术家@20251221_182944.md",
     "copilot/copilot-conversations/hi@20251221_182111.md",
     "copilot/copilot-conversations/提取艺术家@20251221_181821.md",
@@ -326,23 +343,7 @@
     "copilot",
     "2025 作业考核要求 交互产品综合创作.md",
     "Refactor Roadmap.md",
-    "Netlify 网站发布指南.md",
-    "2025 考核作业要求数字建模.md",
-    "2025-12-13 周日 NFU DMA教学材料的各项自查.md",
-    "2024-2025学年 试卷袋材料审查清单(手写).md",
-    "周日检查 2.md",
-    "copilot-custom-prompts/小红书推广文案/小红书CG题材软文设计与流量传播策略.md",
     "copilot-custom-prompts/小红书推广文案",
-    "copilot-custom-prompts/Untitled.md",
-    "设计学类国标-DMA毕设作品相关事项.md",
-    "_DigtalSculting/src/tooo-maya/Maya 部拓扑重建 (Retopology) 技术指南.md",
-    "nfu-DMT-毕业设计要求.md",
-    "DMA交互装置工作量测算与评估标准的实证研究报告.md",
-    "srt 如何区分说话人.md",
-    "_DigtalSculting/src/tool-blender/Grease Pencil 表面绘制 - blender.md",
-    "头戴产品设备故事化绘本使用说明书案例.md",
-    "_22毕设/src/毕设开题指导 - 从构思到答辩.md",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/1.2-blender-workspace-and-sculpting-intro.marpit.md",
     "copilot-custom-prompts/tech-mentor",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
     "Untitled.base",
@@ -358,7 +359,6 @@
     "Pasted image 20251020115711.png",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.pptx",
     "w7 颜色系统 Color Systerm.pptx",
-    "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens-simple.csv",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",
