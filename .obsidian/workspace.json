@@ -131,7 +131,7 @@
       {
         "id": "5948187a02512026",
         "type": "tabs",
-        "dimension": 68.11428571428571,
+        "dimension": 76.98504027617952,
         "children": [
           {
             "id": "bfc2486bf4927525",
@@ -194,16 +194,6 @@
             }
           },
           {
-            "id": "9fbd441d9dae0c63",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
             "id": "68673eba207962c2",
             "type": "leaf",
             "state": {
@@ -212,14 +202,24 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "35e4393856d6d93b",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "739a5c549f1fe0de",
         "type": "tabs",
-        "dimension": 31.885714285714286,
+        "dimension": 23.014959723820485,
         "children": [
           {
             "id": "a06eec2caf28ffc2",
@@ -314,6 +314,8 @@
   },
   "active": "68673eba207962c2",
   "lastOpenFiles": [
+    "copilot/memory",
+    "copilot",
     "2025 作业考核要求 交互产品综合创作.md",
     "Refactor Roadmap.md",
     "Netlify 网站发布指南.md",
@@ -340,7 +342,6 @@
     "nfu - dma - 常见四种作业类型的解释说明.md",
     "nfu 2025 关于设计学院林昕老师教学事故的情况说明.md",
     "Untitled 1.md",
-    "2018 普通高等学校本科专业类 教学质量国家标准（设计学类）.md",
     "copilot-custom-prompts/tech-mentor",
     "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
     "Untitled.base",
@@ -359,7 +360,6 @@
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens-simple.csv",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/design-tokens.csv",
     "_交互产品综合创作/src/3.7-DS-Encore-Lite/agents",
-    "_交互产品综合创作/src/3.7-DS-Encore-Lite/utils",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",

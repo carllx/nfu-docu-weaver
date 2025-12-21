@@ -34,7 +34,7 @@
   "defaultOpenArea": "view",
   "customPromptsFolder": "copilot-custom-prompts",
   "indexVaultToVectorStore": "ON STARTUP",
-  "qaExclusions": "copilot-conversations,copilot-custom-prompts",
+  "qaExclusions": "copilot-conversations,copilot-custom-prompts,copilot",
   "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
@@ -47,10 +47,10 @@
     {
       "name": "copilot-plus-flash",
       "provider": "copilot-plus",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
-      "plusExclusive": false,
+      "plusExclusive": true,
       "projectEnabled": false,
       "capabilities": [
         "vision"
@@ -59,7 +59,7 @@
     {
       "name": "google/gemini-2.5-flash-lite",
       "provider": "openrouterai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "projectEnabled": true,
@@ -110,16 +110,6 @@
       ]
     },
     {
-      "name": "gpt-5-nano",
-      "provider": "openai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "core": true,
-      "capabilities": [
-        "vision"
-      ]
-    },
-    {
       "name": "gpt-4.1",
       "provider": "openai",
       "enabled": false,
@@ -142,27 +132,51 @@
       ]
     },
     {
-      "name": "google/gemini-2.5-flash-lite-preview-06-17",
+      "name": "openai/gpt-4.1",
       "provider": "openrouterai",
       "enabled": false,
       "isBuiltIn": true,
-      "core": true,
+      "core": false,
       "projectEnabled": true,
       "capabilities": [
         "vision"
       ]
     },
     {
-      "name": "gpt-4.1-nano",
-      "provider": "openai",
+      "name": "openai/gpt-4.1-mini",
+      "provider": "openrouterai",
       "enabled": false,
       "isBuiltIn": true,
+      "core": false,
+      "projectEnabled": true,
       "capabilities": [
         "vision"
       ]
     },
     {
-      "name": "claude-3-7-sonnet-latest",
+      "name": "grok-4-fast",
+      "provider": "xai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "x-ai/grok-4-fast",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "enabled": false,
       "isBuiltIn": true,
@@ -170,18 +184,6 @@
         "reasoning",
         "vision"
       ]
-    },
-    {
-      "name": "grok-3-beta",
-      "provider": "xai",
-      "enabled": false,
-      "isBuiltIn": true
-    },
-    {
-      "name": "grok-3-mini-beta",
-      "provider": "xai",
-      "enabled": false,
-      "isBuiltIn": true
     },
     {
       "name": "gemini-2.5-flash",
@@ -194,15 +196,62 @@
       ]
     },
     {
-      "name": "gemini-2.5-pro",
+      "name": "gemini-2.5-flash-lite",
       "provider": "google",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "projectEnabled": true,
       "capabilities": [
         "vision"
-      ],
-      "apiKey": "AIzaSyCr_yrD6Dkcgx4VdNQA-awnBkzPg0SNVJI"
+      ]
+    },
+    {
+      "name": "gemini-2.5-pro",
+      "provider": "google",
+      "enabled": false,
+      "isBuiltIn": true,
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "azure-openai",
+      "provider": "azure openai",
+      "enabled": false,
+      "isBuiltIn": true
+    },
+    {
+      "name": "deepseek-chat",
+      "provider": "deepseek",
+      "enabled": false,
+      "isBuiltIn": true
+    },
+    {
+      "name": "deepseek-reasoner",
+      "provider": "deepseek",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ]
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "provider": "siliconflow",
+      "enabled": false,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.com/v1"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-R1",
+      "provider": "siliconflow",
+      "enabled": false,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.com/v1",
+      "capabilities": [
+        "reasoning"
+      ]
     },
     {
       "name": "deepseek-ai/DeepSeek-V3",
@@ -233,25 +282,17 @@
       "enableCors": false
     },
     {
-      "name": "azure-openai",
-      "provider": "azure openai",
-      "enabled": false,
-      "isBuiltIn": true
-    },
-    {
-      "name": "deepseek-chat",
-      "provider": "deepseek",
-      "enabled": false,
-      "isBuiltIn": true
-    },
-    {
-      "name": "deepseek-reasoner",
-      "provider": "deepseek",
-      "enabled": false,
-      "isBuiltIn": true,
-      "capabilities": [
-        "reasoning"
-      ]
+      "name": "glm-4-6",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "http://localhost:8000/v1",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "displayName": "CodeGeeX",
+      "enableCors": true
     }
   ],
   "activeEmbeddingModels": [
@@ -300,6 +341,15 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-0.6B",
+      "provider": "siliconflow",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "baseUrl": "https://api.siliconflow.com/v1"
     },
     {
       "name": "text-embedding-3-large",
@@ -365,5 +415,14 @@
   ],
   "enableSemanticSearchV3": true,
   "enableAutonomousAgent": false,
-  "enableLexicalBoosts": true
+  "enableLexicalBoosts": true,
+  "generateAIChatTitleOnSave": true,
+  "enableInlineCitations": true,
+  "memoryFolderName": "copilot/memory",
+  "enableRecentConversations": true,
+  "enableSavedMemory": true,
+  "maxRecentConversations": 30,
+  "quickCommandIncludeNoteContext": true,
+  "autoIncludeTextSelection": false,
+  "defaultSendShortcut": "enter"
 }
