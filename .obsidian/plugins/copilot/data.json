@@ -1,5 +1,5 @@
 {
-  "userId": "ef2477f1-e8c9-478c-9390-1ed27b15f230",
+  "userId": "1320e7ba-2905-409e-8fd7-3c82bdf177fb",
   "isPlusUser": false,
   "plusLicenseKey": "",
   "openAIApiKey": "",
@@ -12,36 +12,36 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "AIzaSyCr_yrD6Dkcgx4VdNQA-awnBkzPg0SNVJI",
+  "googleApiKey": "",
   "openRouterAiApiKey": "",
   "xaiApiKey": "",
   "mistralApiKey": "",
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "glm-4-6|3rd party (openai-format)",
-  "embeddingModelKey": "text-embedding-004|google",
-  "temperature": 0.7,
-  "maxTokens": 512,
+  "defaultModelKey": "gpt-4|3rd party (openai-format)",
+  "embeddingModelKey": "text-embedding-3-small|openai",
+  "temperature": 0.1,
+  "maxTokens": 6000,
   "contextTurns": 15,
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,
-  "defaultSaveFolder": "copilot-conversations",
+  "defaultSaveFolder": "copilot/copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
-  "autosaveChat": false,
+  "autosaveChat": true,
   "includeActiveNoteAsContext": true,
   "defaultOpenArea": "view",
-  "customPromptsFolder": "copilot-custom-prompts",
-  "indexVaultToVectorStore": "ON STARTUP",
-  "qaExclusions": "copilot-conversations,copilot-custom-prompts,copilot",
+  "customPromptsFolder": "copilot/copilot-custom-prompts",
+  "indexVaultToVectorStore": "ON MODE SWITCH",
+  "qaExclusions": "copilot",
   "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
   "enableIndexSync": true,
   "debug": false,
   "enableEncryption": false,
-  "maxSourceChunks": 25,
+  "maxSourceChunks": 15,
   "groqApiKey": "",
   "activeModels": [
     {
@@ -254,34 +254,6 @@
       ]
     },
     {
-      "name": "deepseek-ai/DeepSeek-V3",
-      "provider": "3rd party (openai-format)",
-      "enabled": true,
-      "isBuiltIn": false,
-      "baseUrl": "https://api.siliconflow.cn/v1/",
-      "apiKey": "sk-mtsaugdmpuqseonjrrumqtxxnvwaprqqmdaxyhwyemwosork",
-      "isEmbeddingModel": false,
-      "capabilities": [],
-      "stream": true,
-      "displayName": "DeepSeek-V3",
-      "enableCors": false
-    },
-    {
-      "name": "deepseek-ai/DeepSeek-R1",
-      "provider": "3rd party (openai-format)",
-      "enabled": true,
-      "isBuiltIn": false,
-      "baseUrl": "https://api.siliconflow.cn/v1/",
-      "apiKey": "sk-mtsaugdmpuqseonjrrumqtxxnvwaprqqmdaxyhwyemwosork",
-      "isEmbeddingModel": false,
-      "capabilities": [
-        "reasoning"
-      ],
-      "stream": true,
-      "displayName": "DeepSeek-R1",
-      "enableCors": false
-    },
-    {
       "name": "gpt-4",
       "provider": "3rd party (openai-format)",
       "enabled": true,
@@ -292,8 +264,7 @@
       "capabilities": [],
       "stream": true,
       "displayName": "CodeGeeX",
-      "enableCors": true,
-      "temperature": 0.7
+      "enableCors": true
     }
   ],
   "activeEmbeddingModels": [
@@ -341,7 +312,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true,
-      "core": true
+      "core": true,
+      "enableCors": true
     },
     {
       "name": "Qwen/Qwen3-Embedding-0.6B",
@@ -371,9 +343,7 @@
       "provider": "google",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "enableCors": true,
-      "apiKey": "AIzaSyCr_yrD6Dkcgx4VdNQA-awnBkzPg0SNVJI"
+      "isEmbeddingModel": true
     },
     {
       "name": "azure-openai",
@@ -383,12 +353,12 @@
       "isEmbeddingModel": true
     }
   ],
-  "embeddingRequestsPerMin": 90,
-  "embeddingBatchSize": 24,
+  "embeddingRequestsPerMin": 60,
+  "embeddingBatchSize": 16,
   "disableIndexOnMobile": true,
-  "showSuggestedPrompts": false,
+  "showSuggestedPrompts": true,
   "showRelevantNotes": true,
-  "numPartitions": 4,
+  "numPartitions": 1,
   "promptUsageTimestamps": {},
   "promptSortStrategy": "timestamp",
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
@@ -398,24 +368,26 @@
   "autocompleteAcceptKey": "Tab",
   "allowAdditionalContext": true,
   "enableWordCompletion": true,
-  "lastDismissedVersion": "3.0.2",
+  "lastDismissedVersion": null,
   "passMarkdownImages": true,
   "enableCustomPromptTemplating": true,
-  "suggestedDefaultCommands": false,
+  "suggestedDefaultCommands": true,
   "reasoningEffort": "low",
   "verbosity": "medium",
   "lexicalSearchRamLimit": 100,
   "autonomousAgentMaxIterations": 4,
   "autonomousAgentEnabledToolIds": [
     "localSearch",
+    "readNote",
     "webSearch",
     "pomodoro",
     "youtubeTranscription",
     "writeToFile",
-    "replaceInFile"
+    "replaceInFile",
+    "updateMemory"
   ],
-  "enableSemanticSearchV3": true,
-  "enableAutonomousAgent": false,
+  "enableSemanticSearchV3": false,
+  "enableAutonomousAgent": true,
   "enableLexicalBoosts": true,
   "generateAIChatTitleOnSave": true,
   "enableInlineCitations": true,
@@ -425,5 +397,8 @@
   "maxRecentConversations": 30,
   "quickCommandIncludeNoteContext": true,
   "autoIncludeTextSelection": false,
-  "defaultSendShortcut": "enter"
+  "defaultSendShortcut": "enter",
+  "amazonBedrockApiKey": "",
+  "amazonBedrockRegion": "",
+  "siliconflowApiKey": ""
 }
