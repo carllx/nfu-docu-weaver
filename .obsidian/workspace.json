@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Cy Twombly"
             }
+          },
+          {
+            "id": "e9e413eed5089f6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实验教学过程性材料归档清单.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "实验教学过程性材料归档清单"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -226,7 +240,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Artisti/Cy Twombly.md",
+                "file": "实验教学过程性材料归档清单.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -254,7 +268,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cy Twombly"
+              "title": "Graph of 实验教学过程性材料归档清单"
             }
           },
           {
@@ -290,7 +304,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 444.5
+    "width": 308.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -311,10 +325,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "48df7f57c60defdb",
+  "active": "e9e413eed5089f6a",
   "lastOpenFiles": [
-    "设计学院毕业论文(设计)选题工作的通知.md",
     "Artisti/Cy Twombly.md",
+    "实验教学过程性材料归档清单.md",
+    "设计学院毕业论文(设计)选题工作的通知.md",
     "copilot/copilot-conversations/艺术家的名字叫什么中文@20251221_190702.md",
     "copilot/copilot-conversations/提取艺术家特点@20251221_183957.md",
     "copilot/copilot-conversations/提取艺术家特点@20251221_183856.md",
@@ -339,7 +354,6 @@
     "copilot/copilot-conversations/hi@20251221_181138.md",
     "copilot/copilot-conversations/hi@20251221_181020.md",
     "copilot/copilot-conversations/hi@20251221_180819.md",
-    "copilot/copilot-conversations/hi@20251221_175731.md",
     "copilot/copilot-conversations",
     "copilot/memory",
     "copilot",
