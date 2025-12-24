@@ -35,7 +35,7 @@
 			<key>text</key>
 			<string>Google Gemini</string>
 			<key>url</key>
-			<string>https://gemini.google.com/u/3/app</string>
+			<string>https://gemini.google.com/u/3/app?pageId=none</string>
 		</dict>
 	</dict>
 </dict>

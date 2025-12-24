@@ -253,27 +253,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>uic</string>
-				<key>subtext</key>
-				<string>Upload Clipboard Image to Imgur</string>
-				<key>text</key>
-				<string>Upload Image: Clipboard</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B2139D6E-4C6E-432D-83A1-3ACB5484F854</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -293,6 +272,27 @@
 			<string>1475DFF8-8D7B-4405-AC7B-C4668B244A38</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>uic</string>
+				<key>subtext</key>
+				<string>Upload Clipboard Image to Imgur</string>
+				<key>text</key>
+				<string>Upload Image: Clipboard</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B2139D6E-4C6E-432D-83A1-3ACB5484F854</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -693,7 +693,7 @@ echo "所有字幕文件已合并到 $output_file"</string>
 			<key>note</key>
 			<string>CSV</string>
 			<key>xpos</key>
-			<real>50</real>
+			<real>60</real>
 			<key>ypos</key>
 			<real>1135</real>
 		</dict>
@@ -721,7 +721,7 @@ echo "所有字幕文件已合并到 $output_file"</string>
 		<key>7797E4CA-4DA9-471E-BAC2-78020EACE2C2</key>
 		<dict>
 			<key>xpos</key>
-			<real>405</real>
+			<real>355</real>
 			<key>ypos</key>
 			<real>1070</real>
 		</dict>
@@ -753,7 +753,7 @@ echo "所有字幕文件已合并到 $output_file"</string>
 			<key>note</key>
 			<string>CSV</string>
 			<key>xpos</key>
-			<real>405</real>
+			<real>355</real>
 			<key>ypos</key>
 			<real>1205</real>
 		</dict>
