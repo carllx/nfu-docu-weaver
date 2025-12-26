@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Artisti/Cy Twombly.md",
+                "file": "实验设计_数字声音处理_Audition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cy Twombly"
+              "title": "实验设计_数字声音处理_Audition"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "密码",
+                "query": "声音空间",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -117,7 +117,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -226,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Artisti/Cy Twombly.md",
+                "file": "实验设计_数字声音处理_Audition.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -254,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cy Twombly"
+              "title": "Graph of 实验设计_数字声音处理_Audition"
             }
           },
           {
@@ -313,8 +314,8 @@
   },
   "active": "48df7f57c60defdb",
   "lastOpenFiles": [
-    "广州南方学院设计学院 关于规范撰写实验报告及明确相关要求的通知.md",
     "Artisti/Cy Twombly.md",
+    "广州南方学院设计学院 关于规范撰写实验报告及明确相关要求的通知.md",
     "Untitled.md",
     "实验教学过程性材料归档清单.md",
     "设计学院毕业论文(设计)选题工作的通知.md",
