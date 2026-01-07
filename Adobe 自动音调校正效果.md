@@ -1,564 +1,571 @@
-Au 音频效果参考（合集）
-原创
-于 2021-11-23 00:00:00 发布
-·
-6.9k 阅读
-·
+## How to Reduce Noise and Restore Audio in Adobe Audition
 
-4
-·
- 33
-·
-CC 4.0 BY-SA版权
-文章标签：
-#python
-#java
-#机器学习
-#人工智能
-#计算机视觉
+_Watch this video to learn how to reduce unwanted noise and restore audio to produce quality audio content._
 
+## Techniques for restoring audio
 
-2048 AI社区
-文章已被社区收录
-加入社区
-本文详细介绍了Adobe Audition中的各种音频效果器，如振幅与压缩、延迟与回声、诊断与均衡，以及特殊效果和母带处理等，涵盖了音量调整、空间模拟、噪声控制和音色定制等多个关键功能。
-Adobe Audition 包含了多种类型的效果器。相同类别组的效果器通常具有一定的类似功能。
+You can fix a wide array of audio problems by combining two powerful features. First, use Spectral Display to visually identify and select ranges of noise or individual artifacts. (See [Select spectral ranges](https://helpx.adobe.com/audition/using/selecting-audio.html#select_spectral_ranges) and [Select artifacts and repair them automatically](https://helpx.adobe.com/audition/using/selecting-audio.html#select_artifacts_and_repair_them_automatically).) Then, use either Diagnostic or Noise Reduction effects to fix problems like the following:
 
+- Crackle from wireless microphones or old vinyl records. (See [Automatic Click Remover effect](https://helpx.adobe.com/audition/using/noise-reduction-restoration-effects.html#automatic_click_remover_effect).)
+    
+- Background noise like wind rumble, tape hiss, or power-line hum. (See [Adaptive Noise Reduction effect](https://helpx.adobe.com/audition/using/noise-reduction-restoration-effects.html#adaptive_noise_reduction_effect) and [DeHummer effect](https://helpx.adobe.com/audition/using/noise-reduction-restoration-effects.html#dehummer_effect).)
+    
+- Phase cancelation from poorly placed stereo microphones or misaligned tape machines. (See [Automatic Phase Correction effect](https://helpx.adobe.com/audition/using/noise-reduction-restoration-effects.html#automatic_phase_correction_effect).)
+    
 
+Note
 
-◆  ◆  ◆
+The real-time restoration effects above, which are available in both the Waveform and Multitrack editors, quickly address common audio problems. For unusually noisy audio, however, consider using offline, process effects unique to the Waveform Editor, such as Hiss Reduction and Noise Reduction.
 
-参考文档链接
+Watch the [Audio restoration techniques video](https://creativecloud.adobe.com/en/learn/audition/web/audio-restoration-techniques) to learn best practices for fixing audio in Audition using the Amplitude Statistics panel, spectral frequency display, adaptive noise reduction, Diagnostics panel, and DeClipper and DeHummer effects.
 
-《Au 音频效果参考：振幅和压限》
+![](https://helpx-prod.scene7.com/is/image/HelpxProd/ed24?$png$&jpegSize=200&wid=734 "ed24")
 
-《Au 音频效果参考：延迟与回声》
+Selecting various types of noise in Spectral Display
 
-《Au 音频效果参考：诊断》
+**A.** Hiss **B.** Crackle **C.** Rumble 
 
-《Au 音频效果参考：滤波与均衡》
+Watch the video [How to use the Spectral Frequency Display to clean up your audio](https://creativecloud.adobe.com/en/learn/audition/web/audition-spectral-frequency-display-cc) to learn more about using Spectral Frequency Display.
 
-《Au 音频效果参考：调制》
+## Noise Reduction effect (Waveform Editor only)
 
-《Au 音频效果参考：降噪/修复》
+The Noise Reduction/Restoration > Noise Reduction effect dramatically reduces background and broadband noise with a minimal reduction in signal quality. This effect can remove a combination of noise, including tape hiss, microphone background noise, power-line hum, or any noise that is constant throughout a waveform.
 
-《Au 音频效果参考：混响》
+The proper amount of noise reduction depends upon the type of background noise and the acceptable loss in quality for the remaining signal. In general, you can increase the signal‑to‑noise ratio by 5 to 20 dB and retain high audio quality.
 
-《Au 音频效果参考：特殊效果》
+To achieve the best results with the Noise Reduction effect, apply it to audio with no DC offset. With a DC offset, this effect may introduce clicks in quiet passages. (To remove a DC offset, choose Favorites > Repair DC Offset.)
 
-《Au 音频效果参考：立体声声像》
+![](https://helpx-prod.scene7.com/is/image/HelpxProd/ef11?$png$&jpegSize=100&wid=533 "ef11")
 
-《Au 音频效果参考：时间与变调》
+Evaluating and adjusting noise with the Noise Reduction graph:
 
-《Au 音频效果参考：生成》
+**A.** Drag control points to vary reduction in different frequency ranges **B.** Low amplitude noise. **C.** High amplitude noise **D.** Threshold below which noise reduction occurs. 
 
-◆  ◆  ◆
+## Apply the Noise Reduction effect
 
-效果器功能速览
+1. In the Waveform Editor, select a range that contains only noise and is at least half a second long.
+    
+     
+    
+    Note
+    
+    To select noise in a specific frequency range, use the Marquee Selection tool. (See [Select spectral ranges](https://helpx.adobe.com/audition/using/selecting-audio.html#select_spectral_ranges).)
+    
+2. Choose Effects > Noise Reduction/Restoration > Capture Noise Print.
+    
+3. In the Editor panel, select the range from which you want to remove noise.
+    
+4. Choose Effects > Noise Reduction/Restoration > Noise Reduction.
+    
+5. Set the desired options.
+    
 
-提示：
+Note
 
-后缀带“（处理）”字样的效果器仅能应用于波形编辑器。
+When recording in noisy environments, record a few seconds of representative background noise that can be used as a noise print later on.
 
-振幅与压限
-
-Amplitude and Compression
-
-振幅与压缩类效果器主要用于改变音频的振幅、音量大小变化的速度或者应用压缩的方式。压限并不是压缩整个信号，而是压缩音频中音量较小和较大部分之间的范围。
-
-
-
-增幅 
-
-Amplify
-
-用于调整音量大小。
-
-声道混合器 
-
-Channel Mixer
-
-用于将立体声转换为单声道，或者将左右声道互换。
-
-提示：
-
-在多轨编辑器中每个轨道都有一个“合并到单声道”按钮。
-
-消除齿音 
-
-DeEsser
-
-检测某一频段（比如齿音或嘶声）的音量，大于指定阈值时，则将自动降低其增益。
-
-动态 
-
-Dynamics
-
-根据音量大小来改变输出电平与输入电平的关系。
-
-“自动门”用于限制低于阈值的电平输出。“限幅器”用于将所有输出电平限制在阈值电平以下。若想将某段起伏较大的输入电平变得平缓一些，则使用“压缩程序”，又称“压缩器”。若想将某段比较平缓的输入电平变得起伏更大一些，则使用“扩展器”，又称“拓展器”。
-
-动态处理 
-
-Dynamics Processing
-
-用图示化方式改变输出与输入的关系。当大的输入信号增加只产生小的输出信号增加时，这种变化称为“压缩”；当小的输入信号增加只产生大的输出信号增加时，这种变化称为“扩展”。
-
-淡化包络（处理）
-
-Fade Envelope(process)
-
-随着时间的推移将振幅减少成各种不同的量。
-
-增益包络（处理）
-
-Gain Envelope(process)
-
-随着时间的推移增加或减少振幅。
-
-强制限幅 
-
-Hard Limiter
-
-限制音频信号的最大输出电平。这不同于包络用来降低所有信号的电平，它只是压低峰值，不改变其它低于指定值的电平。
-
-多频段压缩器 
-
-Multiband Compressor
-
-多频段压缩器是单频段压缩器的升级版，它分成 4 个频段，每个频段都有自己的压缩器，相对来说可压缩更多的频率。
-
-标准化（处理）
-
-Normalize(process)
-
-自动将音频电平调整到指定的峰值振幅，有助于调整音频中电平不一致的部分。如果要将音频发送给母带处理工程师，应将音频标准化到 -3 到 -6 dBFS 之间，为进一步处理提供缓冲。
-
-单频段压缩器 
-
-Single-band Compressor
-
-与动态处理的方式一致，压缩会改变输出与输入的关系。其中，阈值指的是压缩开始的电平，比率指的是输出电平相对于输入电平的变化量。比如，在 5:1 的比率下，输入电平增加 5 dB，则会在输出电平增加 1 dB。比率为 1:1 时，输入输出是线性关系，比率滑块越往右，声音被压缩的量越大。
-
-语音音量级别 
-
-Speech Volume Leveler
-
-主要通过优化对话的压缩效果，从而达到平均音量和去除背景噪声效果。
-
-电子管建模压缩器 
-
-Tube-modeled Compressor
-
-电子管建模压缩器与单频段压缩器具有相同的参数，但提供了稍微不同、略微不清晰的模拟电子管的音质。
-
-延迟与回声
-
-Delay and Echo
-
-延迟，顾名思义就是人为的将原声推迟一个时间后再叠加到原声上。有些时候延迟也会被称为“回声”或“回音”。但二者是有区别的：延迟可以无限次的重复，而回声则是有限的。并且，回声是在时间上推迟得足够长的声音，以便每个回声听起来都是清晰的原始声音副本。混响与回声效果都来自声波在物体表面的反射，较直接的反射产生回声效果，而反应声波整体的反射状况，即空间感的效果称之为混响。
-
-
-
-模拟延迟 
-
-Analog Delay
-
-用于模拟数字音频之前的延迟效果。磁带，轻微失真；磁带/音频管，比磁带薄；模拟，则更闷。
-
-延迟 
-
-Delay
-
-延迟效果只是重复音频，重复的开始时间由延迟量指定。
-
-回声 
-
-Echo
-
-能够在延迟的反馈回路中插入一个滤波器来调整回声的频率响应。
-
-诊断
-
-Dignostic
-
-本效果组的工具仅限于波形编辑器。通过这些工具可快速从音频中去除咔嗒声、扭曲或静音，并可在出现静音时添加标记。
-
-杂音处理器（处理）
-
-DeClicker(process)
-
-可检测并去除无线麦克风、黑胶唱片和其他音源中的咔嗒声和爆音。
-
-爆音处理器（处理）
-
-DeClipper(process)
-
-通过在剪切部分中填充新的音频数据来修复已剪切的波形。
-
-删除静音（处理）
-
-Delete Silence(process)
-
-自动地删除静音段落可帮助收紧轨道且不影响前景音频。
-
-标记音频（处理）
-
-Mark Audio(process)
-
-自动标记静音段落可帮助快速浏览至用于编辑的音频提示。
-
-滤波与均衡
-
-Filter and EQ
-
-
-
-根据设置不同的频段的参数来增益或衰减声音，是非常重要的调节音色的效果器。比如，可以通过提高高频来增加对话的明亮度，或者通过增加低频来使细小的声音听起来更饱满。
-
-FFT 滤波器 
-
-FFT Filter
-
-FFT（快速傅立叶变换）滤波器可使用“绘制”频率响应图形的方式来控制声音的增益或衰减。
-
-图形均衡器（10段/20段/30段）
-
-Graphic Equalizer(10/20/30 Bands)
-
-可以在不同的固定频率下以固定的带宽进行增益或衰减。
-
-陷波滤波器 
-
-Notch Filter
-
-用于去除音频中特定频率的声音，比如特定的共振或交流电的嗡嗡声。
-
-参数均衡器 
-
-Prametric Equalizer
-
-有 9 个频段可供调整。其中“L”代表低频，“H”代表高频，“HP”为高通，“LP”为低通。
-
-科学滤波器 
-
-Scientific Filter
-
-常用于数据采集。在音频应用方面，也可以用来创建陡峭的斜坡、狭窄的陷波、超尖的峰值以及其他高精度的滤波器响应，还可调整相位偏移和组延迟。
-
-调制
-
-Modulation
-
-
-
-以特殊效果的形式为声音添加味道。
-
-和声 
-
-Chorus
-
-使用短时延迟在原始信号的基础上创建额外的声音，从而使声音产生合奏的感觉。
-
-和声/镶边 
-
-Chorus/Flanger
-
-是和声和镶边效果的简化版本。
-
-镶边 
-
-Flanger
-
-与和声效果器一样，只不过它使用更短的时间来创建相位抵消，从而带来生动、共鸣的感觉。
-
-移相器 
-
-Phaser
-
-使用全通滤波器而不是延迟来移相，与镶边效果器类似，但处理更微妙。
-
-降噪/恢复
-
-Noise Reduction/Restoration
-
-
-
-捕捉噪声样本
+## Noise Reduction options
 
 Capture Noise Print
 
-捕捉当前音频选区，并在下次应用“降噪（处理）”效果时作为噪声样本加载。
+Extracts a noise profile from a selected range, indicating only background noise. Adobe Audition gathers statistical information about the background noise so it can remove it from the remainder of the waveform.
 
-降噪（处理）
+_**Tip**: If the selected range is too short, Capture Noise Print is disabled. Reduce the FFT Size or select a longer range of noise. If you can’t find a longer range, copy and paste the currently selected range to create one. (You can later remove the pasted noise by using the Edit > Delete command.)_
 
-Noise Reduction(process)
+Save the Current Noise Print 
 
-可用于去除噪声组合，包括磁带嘶嘶声、麦克风背景噪声、电线嗡嗡声或波形中任何恒定的噪声。
+![](https://helpx.adobe.com/content/dam/help/icons/save.png)
 
-了解声音模型
+Saves the noise print as an .fft file, which contains information about sample type, FFT (Fast Fourier Transform) size, and three sets of FFT coefficients: one for the lowest amount of noise found, one for the highest amount, and one for the power average.
+
+Load a Noise Print from Disk 
+
+![](https://helpx.adobe.com/content/dam/help/icons/load.png)
+
+Opens any noise print previously saved from Adobe Audition in FFT format. However, you can apply noise prints only to identical sample types. (For example, you can’t apply a 22 kHz mono profile to 44kHz stereo samples.)
+
+_**note**: Because noise prints are so specific, a print for one type of noise won’t produce good results with other types. If you regularly remove similar noise, however, a saved profile can greatly increase efficiency._
+
+Graph
+
+Depicts frequency along the _x_‑axis (horizontal) and the amount of noise reduction along the _y_‑axis (vertical).
+
+The blue control curve sets the amount of noise reduction in different frequency ranges. For example, if you need noise reduction only in the higher frequencies, adjust the control curve downward to the right of the graph.
+
+If you click the Reset button ![](https://helpx.adobe.com/content/dam/help/icons/ResetPoint.png) to flatten the control curve, the amount of noise reduction is based entirely on the noise print.
+
+_**Tip**: To better focus on the noise floor, click the menu button ![](https://helpx.adobe.com/content/dam/help/icons/menu.png) to the upper right of the graph, and deselect Show Control Curve and Show Tooltip Over Graph._
+
+Noise Floor
+
+High shows the highest amplitude of detected noise at each frequency; Low shows the lowest amplitude. Threshold shows the amplitude below which noise reduction occurs.
+
+_**Tip**: The three elements of the noise floor can overlap in the graph. To better distinguish them, click the menu button ![](https://helpx.adobe.com/content/dam/help/icons/menu.png), and select options from the Show Noise Floor menu._
+
+Scale
+
+Determines how frequencies are arranged along the horizontal _x_‑axis:
+
+- For finer control over low frequencies, select Logarithmic. A logarithmic scale more closely resembles how people hear sound.
+    
+- For detailed, high‑frequency work with evenly spaced intervals in frequency, select Linear.
+    
+
+Channel
+
+Displays the selected channel in the graph. The amount of noise reduction is always the same for all channels.
+
+Select Entire File
+
+Lets you apply a captured noise print to the entire file.
+
+Noise Reduction
+
+Controls the percentage of noise reduction in the output signal. Fine-tune this setting while previewing audio to achieve maximum noise reduction with minimum artifacts. (Excessively high noise reduction levels can sometimes cause audio to sound flanged or out-of-phase.)
+
+Reduce By
+
+Determines the amplitude reduction of detected noise. Values between 6 and 30 dB work well. To reduce bubbly artifacts, enter lower values.
+
+Output Noise Only
+
+Previews only noise so you determine if the effect is removing any desirable audio.
+
+Advanced settings
+
+Click the triangle to display the following options:
+
+Spectral Decay Rate
+
+Specifies the percentage of frequencies processed when audio falls below the noise floor. Fine‑tuning this percentage allows greater noise reduction with fewer artifacts. Values of 40% to 75% work best. Below those values, bubbly‑sounding artifacts are often heard; above those values, excessive noise typically remains.
+
+Smoothing
+
+Takes into account the variance of the noise signal in each frequency band. Bands that vary greatly when analyzed (such as white noise) will be smoothed differently than constant bands (like 60-Hz hum). In general, increasing the smoothing amount (up to 2 or so) reduces burbly background artifacts at the expense of raising the overall background broadband noise level.
+
+Precision Factor
+
+Controls changes in amplitude. Values of 5-10 work best, and odd numbers are ideal for symmetrical processing. With values of 3 or less, the Fast Fourier transform is performed in giant blocks, and between them drops or spikes in volume can occur. Values beyond 10 cause no noticeable change in quality, but they increase processing time.
+
+Transition Width
+
+Determines the amplitude range between noise and desirable audio. For example, a width of zero applies a sharp, noise gate to each frequency band. Audio just above the threshold remains; audio just below is truncated to silence. Alternatively, you can specify a range over which the audio fades to silence based upon the input level. For example, if the transition width is 10 dB, and the noise level for the band is ‑60 dB, audio at ‑60 dB stays the same, audio at ‑62 dB is reduced slightly, and audio at ‑70 dB is removed entirely.
+
+FFT Size
+
+Determines how many individual frequency bands are analyzed. This option causes the most drastic changes in quality. The noise in each frequency band is treated separately, so with more bands, noise is removed with finer frequency detail. Good settings range from 4096 to 8192.
+
+Fast Fourier Transform size determines the tradeoff between frequency- and time-accuracy. Higher FFT sizes might cause swooshing or reverberant artifacts, but they very accurately remove noise frequencies. Lower FFT sizes result in better time response (less swooshing before cymbal hits, for example), but they can produce poorer frequency resolution, creating hollow or flanged sounds.
+
+Noise Print Snapshots
+
+Determines how many snapshots of noise to include in the captured profile. A value of 4000 is optimal for producing accurate data.
+
+Very small values greatly affect the quality of the various noise reduction levels. With more snapshots, a noise reduction level of 100 will likely cut out more noise, but also cut out more original signal. However, a low noise reduction level with more snapshots will also cut out more noise, but likely retain the intended signal.
+
+## Sound Remover effect  
+
+The Sound Remover effect (**Effects > Noise Reduction/Restoration**) removes unwanted audio sources from a recording. This effect analyzes a selected portion of the recording, and builds a sound model, which is used to find and remove the sound.
+
+The generated model can also be modified using parameters that indicate its complexity. A high complexity sound model requires more refinement passes to process the recording, but provides more accurate results. You can also save the sound model for later use. Several common presets are also included to remove some common noise sounds, such as sirens and ringing mobile phones.
 
 Learn Sound Model
 
-将捕捉当前的音频选区并将其加载为声音模型，以便在下次应用“声音移除（处理）”效果时使用。
+Uses the selected waveform to learn the sound model. Select an area on the waveform that only contains the sound to remove, and then press Learn Sound Model. You can also save and load sound models on disc.
 
-声音移除（处理）
+Sound Model Complexity
 
-Sound Remover(process)
+Indicates the complexity of the Sound Model. The more complex or mixed the sound is, the better results you'll get with a higher complexity setting, though the longer it will take to calculate. Settings range from 1 to 100.
 
-可从音频中移除不需要的声音。此效果可分析音频的选定部分，并且会构建一个声音模型，用于查找和移除声音。
+Sound Refinement Passes
 
-咔嗒声/爆音消除器（处理）
+Defines the number of refinement passes to make to remove the sound patterns indicated in the sound model. Higher number of passes require longer processing time, but offer more accurate results.
 
-Click/Pop Eliminator(process)
+Content Complexity
 
-可用于去除麦克风爆音、咔嗒声、轻微嘶声以及噼啪声。这种噪声在诸如老式黑胶唱片和现场录音之类的录制中比较常见。
+Indicates the complexity of the signal. The more complex or mixed the sound is, the better results you'll get with a higher complexity setting, though the longer it will take to calculate. Settings range from 5 to 100.
 
-降低嘶声（处理）
+Content Refinement Passes
 
-Hiss Reduction(process)
+Specifies the number of passes to make on the content to remove the sounds that match the sound model. A higher number of passes require more processing time, but generally provide more accurate results.
 
-可减少录音带、黑胶唱片或麦克风前置放大器等音源中的嘶声。
+Enhanced Supression
 
-降噪 
+This increases the aggressiveness of the sound removal algorithm, and can be modified on the Strength value. A higher value will remove more of the sound model from mixed signals, which can result in greater loss of desired signal, while a lower value will leave more of the overlapping signal and therefore, more of the noise may be audible (though less than the original recording.)
 
-DeNoise
+Enhance for Speech
 
-可降低或完全去除音频中的噪声。处理对象可能包括不需要的嗡嗡声、嘶嘶声、风扇噪声、空调噪声或任何其他背景噪声。
+Specifies that the audio includes speech and is careful in removing audio patterns that closely resemble speech. The end result makes sure that speech is not removed, while removing noise.
 
-自适应降噪 
+FFT Size
 
-Adaptive Noise Reduction
+Determines how many individual frequency bands are analyzed. This option causes the most drastic changes in quality. The noise in each frequency band is treated separately, so with more bands, noise is removed with finer frequency detail. Good settings range from 4096 to 8192.  
+Fast Fourier Transform size determines the tradeoff between frequency- and time-accuracy. Higher FFT sizes might cause swooshing or reverberant artifacts, but they very accurately remove noise frequencies. Lower FFT sizes result in better time response (less swooshing before cymbal hits, for example), but they can produce poorer frequency resolution, creating hollow or flanged sounds.
 
-可快速去除变化的宽频噪声，如背景声音、隆隆声和风声。此效果实时起作用。
+Watch the video [Sound removal and noise reduction strategies](https://creativecloud.adobe.com/en/learn/audition/web/remove-noise-audio-files) to see how you can reduce noise and remove unwanted sounds from your audio.
 
-自动咔嗒声移除 
+## Adaptive Noise Reduction effect
 
-Automatic Click Remover
+The Noise Reduction/Restoration > Adaptive Noise Reduction effect quickly removes variable broadband noise such as background sounds, rumble, and wind. Because this effect operates in real time, you can combine it with other effects in the Effects Rack and apply it in the Multitrack Editor. By contrast, the standard Noise Reduction effect is available only as an offline process in the Waveform Editor. That effect, however, is sometimes more effective at removing constant noise, such as hiss or hum.
 
-可以校正一大片区域的音频或单个咔嗒声或爆音。
+For best results, apply Adaptive Noise Reduction to selections that begin with noise followed by desirable audio. The effect identifies noise based on the first few seconds of audio.
 
-自动相位校正 
+Note
 
-Automatic Phase Correction
+This effect requires significant processing. If your system performs slowly, lower FFT Size and turn off High Quality Mode.
 
-处理未对准的磁头中的方位角误差、放置错误的麦克风的立体声模糊以及许多其他相位相关问题。
+Reduce Noise By
 
-消除嗡嗡声 
+Determines the level of noise reduction. Values between 6 and 30 dB work well. To reduce bubbly background effects, enter lower values.
 
-DeHummer
+Noisiness
 
-可去除窄频段及其谐波。最常见的应用可处理照明设备和电子设备的电线嗡嗡声。也可以应用陷波滤波器，以从源音频中去除过度的谐振频率。
+Indicates the percentage of original audio that contains noise.
 
-减少混响 
+Fine Tune Noise Floor
 
-DeReverb
+Manually adjusts the noise floor above or below the automatically calculated floor.
 
-可评估混响轮廓并帮助调整混响总量。
+Signal Threshold
 
-混响
+Manually adjusts the threshold of desirable audio above or below the automatically calculated threshold.
 
-Reverb
+Spectral Decay Rate
 
+Determines how quickly noise processing drops by 60 decibels. Fine‑tuning this setting allows greater noise reduction with fewer artifacts. Values that are too short create bubbly sounds; values that are too long create a reverb effect.
 
+Broadband Preservation
 
-为音频添加声学空间的特性。一般可将混响归纳为房间混响 Room、大堂混响 Hall和板式混响 Plate三大类。
+Retains desirable audio in specified frequency bands between found artifacts. A setting of 100 Hz, for example, ensures that no audio is removed 100 Hz above or below found artifacts. Lower settings remove more noise but may introduce audible processing.
 
-卷积混响 
+FFT Size
 
-Convolution Reverb
+Determines how many individual frequency bands are analyzed. Choose a high setting to increase frequency resolution; choose a low setting to increase time resolution. High settings work well for artifacts of long duration (like squeaks or power-line hum), while low settings better address transient artifacts (like clicks and pops).
 
-通过加载一个有特定声学空间特征的脉冲，利用卷积算法分析出这个混响的规律并产生效果，显得非常真实并且依然可调节。
+Watch the video [Remove noise from audio files with Audition](https://creativecloud.adobe.com/en/learn/audition/web/remove-noise-audio-files) to see how you can reduce noise and remove unwanted sounds from your audio.
 
-完全混响 
+## Automatic Click Remover effect
 
-Full Reverb
+To quickly remove crackle and static from vinyl recordings, use the Noise Reduction/Restoration > Automatic Click Remover effect. You can correct a large area of audio or a single click or pop.
 
-相对于混响效果，完全混响效果提供更多选项和更好的音频渲染，也是最复杂的一个混响效果器。
+This effect provides the same options as the DeClicker effect, which lets you choose which detected clicks to address (see [DeClicker options](https://helpx.adobe.com/audition/using/diagnostics-effects-waveform-editor-only.html#declicker_options)). However, because the Automatic Click Remover operates in real time, you can combine it with other effects in the Effects Rack and apply it in the Multitrack Editor. The Automatic Click Remover effect also applies multiple scan and repair passes automatically; to achieve the same level of click reduction with the DeClicker, you must manually apply it multiple times.
 
-混响 
+Threshold
 
-Reverb
+Determines sensitivity to noise. Lower settings detect more clicks and pops but may include audio you wish to retain. Settings range from 1 to 100; the default is 30.
 
-采用的是卷积混响方法，但它不能加载脉冲文件。
+Complexity
 
-室内混响 
+Indicates the complexity of noise. Higher settings apply more processing but can degrade audio quality. Settings range from 1 to 100; the default is 16.
 
-Studio Reverb
+## Automatic Phase Correction effect
 
-与其他混响效果一样，可模拟声学空间。相对于其他混响效果，它的速度更快。
+The Noise Reduction/Restoration > Automatic Phase Correction effect addresses azimuth errors from misaligned tape heads, stereo smearing from incorrect microphone placement, and many other phase-related problems.
 
-环绕声混响 
+Global Time Shift
 
-Surround Reverb
+Activates the Left and Right Channel Shift sliders, which let you apply a uniform phase shift to all selected audio.
 
-主要用于 5.1 音源，但也能将单声道或立体声音频放入一个虚拟的环绕声环境中。
+Auto Align Channels and Auto Center Panning
 
-特殊效果
+Align phase and panning for a series of discrete time intervals, which you specify using the following options:
 
-Special
+Time Resolution
 
+Specifies the number of milliseconds in each processed interval. Smaller values increase accuracy; larger ones increase performance.
 
+Responsiveness
 
-扭曲 
+Determines overall processing speed. Slow settings increase accuracy; fast settings increase performance.
 
-Distortion
+Channel
 
-通过对信号的峰值进行削波来产生谐波。可以为正负值创建不同量的削波，形成不对称的失真，当然也可以产生对称失真。
+Specifies the channels phase correction will be applied to.
 
-多普勒换档器（处理）
+Analysis Size
 
-Doppler Shifter(process)
+Specifies the number of samples in each analyzed unit of audio.
 
-能改变音高和振幅，使音频信号发出在周围旋转时的“三维”声音。
+Note
 
-吉他套件 
+For the most precise, effective phase correction, use the Auto Align Channels option. Enable the Global Time Shift sliders only if you are confident that a uniform adjustment is necessary, or if you want to manually animate phase correction in the Multitrack Editor.
 
-Guitar Suite
+## Click/Pop Eliminator effect
 
-用于模拟吉他信号的处理链，也可以为别的乐器添加特殊效果。
+Use the **Click/Pop Eliminator** effect (**Effects > Noise Reduction/Restoration**) to remove microphone pops, clicks, light hiss, and crackles. Such noise is common on recordings such as old vinyl records and on-location recordings. The effect dialog box stays open, and you can adjust the selection, and fix multiple clicks without reopening the effect several times.
 
-母带处理 
+Detection and correction settings are used to find clicks and pops. The detection and rejection ranges are displayed graphically.
 
-Mastering
+Detection graph
 
-一种快速对音频进行整体处理的方法。一般可以使得低频比例适当，立体声声像更宽，并整体提升主观响度。
+Shows the exact threshold levels to be used at each amplitude, with amplitude along the horizontal ruler (x-axis) and threshold level along the vertical ruler (y-axis). Adobe Audition uses values on the curve to the right (above -20 dB or so) when processing louder audio and values on the left when processing softer audio. Curves are color-coded to indicate detection and rejection.
 
-响度计
+Scan for All Levels
 
-Loudness Meter
+Scans the highlighted area for clicks based on the values for Sensitivity and Discrimination, and determines values for Threshold, Detect, and Reject. Five areas of audio are selected, starting at the quietest and moving to the loudest.
 
-响度计（2021 年 5 月版）将取代之前的响度探测计。
+Sensitivity
 
-响度计为广播、播客和流媒体内容提供基于 ITU 的行业标准响度监测，以透明方式针对所有混音、单个轨道或总音轨和子混音测量项目响度。
+Determines the level of clicks to detect. Use a lower value, such as 10, to detect lots of subtle clicks, or a value of 20 to detect a few louder clicks. (Detected levels with Scan for All Levels are always higher than with this option.)
 
-响度探测计 
+Discrimination
 
-Loudness Radar Meter
+Determines how many clicks to fix. Enter high values to fix very few clicks and leave most of the original audio intact. Enter lower values, such as 20 or 40, if the audio contains a moderate number of clicks. Enter extremely low values, such as 2 or 4, to fix constant clicks.
 
-为广播电视制作内容，其中的一个交付要求与声音的最大音量有关。使用雷达响度计，目标通常都是让响度保持在雷达的绿色区域。
+Scan for Threshold Levels
 
-人声增强 
+Automatically sets the Maximum, Average, and Minimum Threshold levels.
 
-Vocal Enhancer
+Maximum, Average, Minimum
 
-男性（低音）、女性（高音）选项能增加语音的清晰度。选择音乐选项，能减少干扰语音的频率，简单实用。
+Determine the unique detection and rejection thresholds for the maximum, average, and minimum amplitudes of the audio. For example, if audio has a maximum RMS amplitude of -10 dB, you should set Maximum Threshold to -10 dB. If the minimum RMS amplitude is -55 dB, then set Minimum Threshold to -55.
 
-立体声声像
+Set the threshold levels before you adjust the corresponding Detect and Reject values. (Set the Maximum and Minimum Threshold levels first, because once they’re in place, you shouldn’t need to adjust them much.) Set the Average Threshold level to about three quarters of the way between the Maximum and Minimum Threshold levels. For example, if Maximum Threshold is set to 30 and Minimum Threshold is set to 10, set Average Threshold to 25.
 
-Stereo Imagery
+After you audition a small piece of repaired audio, you can adjust the settings as needed. For example, if a quiet part still has a lot of clicks, lower the Minimum Threshold level a bit. If a loud piece still has clicks, lower the Average or Maximum Threshold level. In general, less correction is required for louder audio, as the audio itself masks many clicks, so repairing them isn’t necessary. Clicks are very noticeable in very quiet audio, so quiet audio tends to require lower detection and rejection thresholds.
 
+Second Level Verification (Reject Clicks)
 
+Rejects some of the potential clicks found by the click detection algorithm. In some types of audio, such as trumpets, saxophones, female vocals, and snare drum hits, normal peaks are sometimes detected as clicks. If these peaks are corrected, the resulting audio will sound muffled. Second Level Verification rejects these audio peaks and corrects only true clicks.
 
-中置声道提取器 
+Detect
 
-Center Channel Extractor
+Determines sensitivity to clicks and pops. Possible values range from 1 to 150, but recommended values range from 6 to 60. Lower values detect more clicks.
 
-提取中置声道的音频，一般来说人声、贝斯和底鼓会摆放在中置声道。卡拉 OK 常用的去除人声的方法。
+Start with a threshold of 35 for high-amplitude audio (above -15 dB), 25 for average amplitudes, and 10 for low-amplitude audio (below-50 dB). These settings allow for the most clicks to be found, and usually all of the louder ones. If a constant crackle is in the background of the source audio, try lowering the Min Threshold level or increasing the dB level to which the threshold is assigned. The level can be as low as 6, but a lower setting can cause the filter to remove sound other than clicks.
 
-图形相位调整器 
+If more clicks are detected, more repair occurs, increasing the possibility of distortion. With too much distortion of this type, audio begins to sound flat and lifeless. If this occurs, set the detection threshold rather low, and select Second Level Verification to reanalyze the detected clicks and disregard percussive transients that aren’t clicks.
 
-Graphic Phase Shifter
+Reject
 
-通过向图示中添加控制点来调整波形的相位。
+Determines how many potential clicks (found using the Detection Threshold) are rejected if Second Level Verification box is selected. Values range from 1 to 100; a setting of 30 is a good starting point. Lower settings allow for more clicks to be repaired. Higher settings can prevent clicks from being repaired, as they might not be actual clicks.
 
-立体声扩展器 
+You want to reject as many detected clicks as possible but still remove all audible clicks. If a trumpet-like sound has clicks in it, and the clicks aren’t removed, try lowering the value to reject fewer potential clicks. If a particular sound becomes distorted, then increase the setting to keep repairs at a minimum. (The fewer repairs that are needed to get good results, the better.)
 
-Stereo Expander
+FFT Size
 
-是母带处理效果器中“加宽器”的更复杂的版本。立体声扩展器的目的用于加宽或收窄立体声声像。
+Determines the FFT size used to repair clicks, pops, and crackle. In general, select Auto to let Adobe Audition determine the FFT size. For some types of audio, however, you might want to enter a specific FFT size (from 8 to 512). A good starting value is 32, but if clicks are still quite audible, increase the value to 48, and then 64, and so on. The higher the value, the slower the correction will be, but the better the potential results. If the value is too high, rumbly, low frequency distortion can occur.
 
-时间与变调
+Fill Single Click
 
-Time and Pitch
+Corrects a single click in a selected audio range. If Auto is selected next to FFT Size, then an appropriate FFT size is used for the restoration based on the size of the area being restored. Otherwise, settings of 128 to 256 work very well for filling in single clicks. Once a single click is filled, press the F3 key to repeat the action. You can also create a quick key in the Favorites menu for filling in single clicks.
 
+Pop Oversamples Width
 
+Includes surrounding samples in detected clicks. When a potential click is found, its beginning and end points are marked as closely as possible. The Pop Oversamples value (which can range from 0 to 300) expands that range, so more samples to the left and right of the click are considered part of the click.  
+If corrected clicks become quieter but are still evident, increase the Pop oversamples value. Start with a value of 8, and increase it slowly to as much as 30 or 40. Audio that doesn’t contain a click shouldn’t change very much if it’s corrected, so this buffer area should remain mostly untouched by the replacement algorithm.  
+Increasing the Pop Oversamples value also forces larger FFT sizes to be used if Auto is selected. A larger setting may remove clicks more cleanly, but if it’s too high, audio will start to distort where the clicks are removed.
 
-常用于对音频音调进行精确校正或调整。
+Run Size
 
-自动音调更正 
+Specifies the number of samples between separate clicks. Possible values range from 0 to 1000. To independently correct extremely close clicks, enter a low value; clicks that occur within the Run Size range are corrected together.
 
-Automatic Picth Correction  
+A good starting point is around 25 (or half the FFT size if Auto next to FFT Size isn’t selected). If the Run Size value is too large (over 100 or so), then the corrections may become more noticeable, as very large blocks of data are repaired at once. If you set the Run Size too small, then clicks that are very close together may not be repaired completely on the first pass.
 
-为音调稍微不准的人声而设计。通过分析人声来获取音调，计算出演唱音符与正确音调之间的差距，然后通过提高或降低音频的音调来进行补偿校正。
+Pulse Train Verification
 
-手动音调更正（处理）
+Prevents normal waveform peaks from being detected as clicks. It may also reduce detection of valid clicks, requiring more aggressive threshold settings. Select this option only if you’ve already tried to clean up the audio but stubborn clicks remain.
 
-Manual Pitch Correction(process)
+Link Channels
 
-通过在波形编辑器中调整音频更正包络，来升高或降低音高。此时，HUD 中会多出一个音高控制旋钮。
+Processes all channels equally, preserving the stereo or surround balance. For example, if a click is found in one channel, a click will most likely be detected in the other.
 
-变调器（处理）
+Detect Big Pops
 
-Pitch Bender（process）
+Removes large unwanted events (such as those more than a few hundred samples wide) that might not be detected as clicks. Values can range from 30 to 200.
 
-可以随时间改变音频的音高。
+Note that a sharp sound like a loud snare drum hit can have the same characteristic as a very large pop, so select this option only if you know the audio has very large pops (like a vinyl record with a very big scratch in it). If this option causes drum hits to sound softer, slightly increase the threshold to fix only loud, obvious pops.
 
-音高换档器 
+If loud, obvious pops aren’t fixed, select Detect Big Pops, and use settings from about 30 (to find quiet pops) to 70 (to find loud pops).
 
-Pitch Shifter
+Ignore Light Crackle
 
-对音频文件进行上下移调。
+Smooths out one-sample errors when detected, often removing more background crackle. If the resulting audio sounds thinner, flatter, or more tinny, deselect this option.
 
-伸缩与变调（处理）
+Passes
 
-Stretch and Pitch(process)
+Performs up to 32 passes automatically to catch clicks that might be too close together to be repaired effectively. Fewer passes occur if no more clicks are found and all detected clicks are repaired. In general, about half as many clicks are repaired on each successive pass. A higher detection threshold might lead to fewer repairs and increase the quality while still removing all clicks.
 
-提供高质量的时间拉伸和音高调整。
+Watch the video [Use the Click/Pop Eliminator and DeClicker effects](https://creativecloud.adobe.com/en/learn/audition/web/use-click-pop-eliminator-audition) to learn how you can remove microphone pops, clicks, light hiss, and crackles.  
 
-生成 
+## DeHummer effect
 
-Generate
+The Noise Reduction/Restoration > DeHummer effect removes narrow frequency bands and their harmonics. The most common application addresses power line hum from lighting and electronics. But the DeHummer can also apply a notch filter that removes an overly resonant frequency from source audio.
 
-生成噪声 
+Note
 
-Generate Noise
+To quickly address typical audio problems, choose an option from the Presets menu.
 
-可生成各种颜色的随机噪声。
+Frequency
 
-生成语音 
+Sets the root frequency of the hum. If you’re unsure of the precise frequency, drag this setting back and forth while previewing audio.
 
-Generate Speech
+Note
 
-在波形视图或多轨视图中生成语音。粘贴或键入文本，可生成真实的画外音或旁白轨道。
+To visually adjust root frequency and gain, drag directly in the graph.
 
-生成音调 
+Q
 
-Generate Tones  
+Sets the width of the root frequency and harmonics above. Higher values affect a narrower range of frequencies, and lower values affect a wider range.
 
-使用几个与振幅和频率相关的设置创建简单的波形。生成的音调是音响效果的极好起始点。
+Gain
 
-其它
+Determines the amount of hum attenuation.
 
-Others
+Number of Harmonics
 
-反相 
+Specifies how many harmonic frequencies to affect.
 
-Invert
+Harmonic Slope
 
-改变信号的极性（相位），不会产生声音差异。
+Changes the attenuation ratio for harmonic frequencies.
 
-反向 
+Output Hum Only
 
-Reverse
+Lets you preview removed hum to determine if it contains any desirable audio.
 
-倒转音频的选定部分。
+## DeReverb effect
 
-静音 
+The **Noise Reduction/Restoration > DeReverb** effect estimates the reverberation profile and helps adjust the reverberation amount. The values range from 0% to 100% and control the amount of processing applied to the audio signal.
 
-Mute
+![DeReverb effect controls](https://helpx-prod.scene7.com/is/image/HelpxProd/Dereverb?$png$&jpegSize=200&wid=1128 "DeReverb effect controls")
 
-将音量设置为 -∞ dB。
+DeReverb effect controls
 
-匹配响度 
+## Processing focus
 
-Match Loudness 
+There are five processing focus buttons. Each of the Processing focus buttons focuses the noise suppression process on specific parts of the signal's frequency spectrum.  
 
-能够在不同的音频片段之间对电平进行匹配。
+All frequency focus
 
-自动修复选区 
+![](https://helpx.adobe.com/content/dam/help/icons/All%20frequencies%20.png)   Use this to apply the same processing to the full frequency spectrum of the signal  
 
-Auto Heal Selection
-————————————————
-版权声明：本文为CSDN博主「MediaTea」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/qq_41176800/article/details/121484468
+Hi frequency focus
+
+![](https://helpx.adobe.com/content/dam/help/icons/Hi%20frequency.png)   Use this to focus processing on the high-end range of the frequency spectrum
+
+Hi/low frequency focus
+
+![](https://helpx.adobe.com/content/dam/help/icons/Hi%20low%20frequency.png)   Use this focus to process more on the high and low-end range of the frequency spectrum of the signal and less on the mid range  
+
+Mid frequency focus
+
+![](https://helpx.adobe.com/content/dam/help/icons/Mid%20frequency.png)   Use this option to apply focus on the mid-range of the frequency spectrum of the signal and less to the high and low-end range  
+
+Low frequency focus
+
+![](https://helpx.adobe.com/content/dam/help/icons/Lower%20frequencies.png)   This option focuses processing on the low-end range of the frequency spectrum  
+
+Applying the dereverberation effect could result in lower levels of output in comparison to the orginal audio due to reduction in dynamic range. The output gain works as a make-up gain and allows you to adjust the level of the output signal. Use the slidrer to adjust gain manually. Alternatively, you can enable automatic adjustment of gain by enablig the **Auto Gain** checkbox.  
+
+## DeNoise effect
+
+The **Noise Reduction/Restoration > DeNoise** effect reduces or completely removes noise from your audio file. This could be unwanted hum and hiss, fans, air conditioner or any other background noise. You can control the amount of noise reduced using a slider. The values range from 0% to 100% and control the amount of processing applied to the audio signal.
+
+![DeNoise effect controls](https://helpx-prod.scene7.com/is/image/HelpxProd/Denoise?$png$&jpegSize=200&wid=1220 "DeNoise effect controls")
+
+DeNoise effect controls
+
+## Adjust Gain
+
+Applying the DeNoise effect could reduce the  level of the output signal and make it lower than the level of original audio. Use the Gain slider to control the amount of output signal.   
+Enable the Output Noise Only checkbox to listen to the removed noise in isolation.
+
+The processing focus for DeNoise effect is similar to DeReverb effect. For more information, see [Processing focus](https://helpx.adobe.com/audition/using/noise-reduction-restoration-effects.html#main-pars_header_696486677).
+
+## Hiss Reduction effect (Waveform Editor only)
+
+The Noise Reduction/Restoration > Hiss Reduction effect reduces hiss from sources such as audio cassettes, vinyl records, or microphone preamps. This effect greatly lowers the amplitude of a frequency range if it falls below an amplitude threshold called the _noise floor_. Audio in frequency ranges that are louder than the threshold remain untouched. If audio has a consistent level of background hiss, that hiss can be removed completely.
+
+Note
+
+To reduce other types of noise that have a wide frequency range, try the Noise Reduction effect. (See [Noise Reduction effect (Waveform Editor only)](https://helpx.adobe.com/audition/using/noise-reduction-restoration-effects.html#noise_reduction_effect_waveform_editor_only).)
+
+![](https://helpx-prod.scene7.com/is/image/HelpxProd/ef10?$png$&jpegSize=100&wid=376 "ef10")
+
+Using the Hiss Reduction graph to adjust the noise floor
+
+Capture Noise Floor
+
+Graphs an estimate of the noise floor. The estimate is used by the Hiss Reduction effect to more effectively remove only hiss while leaving regular audio untouched. This option is the most powerful feature of Hiss Reduction.
+
+To create a graph that most accurately reflects the noise floor, click Get Noise Floor with a selection of audio that contains only hiss. Or, select an area that has the least amount of desirable audio, in addition to the least amount of high frequency information. (In the spectral display, look for an area without any activity in the top 75% of the display.)
+
+After you capture the noise floor, you might need to lower the control points on the left (representing the lower frequencies) to make the graph as flat as possible. If music is present at any frequency, the control points around that frequency will be higher than they should be.
+
+Graph
+
+Represents the estimated noise floor for each frequency in the source audio, with frequency along the horizontal ruler (_x_‑axis) and the amplitude of the noise floor along the vertical ruler (_y_‑axis). This information helps you distinguish hiss from desirable audio data.
+
+The actual value used to perform hiss reduction is a combination of the graph and the Noise Floor slider, which shifts the estimated noise floor reading up or down for fine-tuning.
+
+Note
+
+To disable tooltips for frequency and amplitude, click the menu button ![](https://helpx.adobe.com/content/dam/help/icons/menu.png) to the upper right of the graph, and deselect Show Tooltip Over Graph.
+
+Scale
+
+Determines how frequencies are arranged along the horizontal _x_‑axis:
+
+- For finer control over low frequencies, select Logarithmic. A logarithmic scale more closely resembles how people hear sound.
+    
+- For detailed, high‑frequency work with evenly spaced intervals in frequency, select Linear.
+    
+
+Channel
+
+Displays the selected audio channel in the graph.
+
+Reset 
+
+![](https://helpx.adobe.com/content/dam/help/icons/ResetPoint.png)
+
+Resets the estimated noise floor. To reset the floor higher or lower, click the menu button ![](https://helpx.adobe.com/content/dam/help/icons/menu.png) to the upper right of the graph, and choose an option from the Reset Control Curve menu.
+
+Note
+
+For quick, general‑purpose hiss reduction, a complete noise floor graph isn’t always necessary. In many cases, you can simply reset the graph to an even level and manipulate the Noise Floor slider.
+
+Noise Floor
+
+Fine‑tunes the noise floor until the appropriate level of hiss reduction and quality is achieved.
+
+Reduce By
+
+Sets the level of hiss reduction for audio below the noise floor. With higher values (especially above 20 dB) dramatic hiss reduction can be achieved, but the remaining audio might become distorted. With lower values, not as much noise is removed, and the original audio signal stays relatively undisturbed.
+
+Output Hiss Only
+
+Lets you preview only hiss to determine if the effect is removing any desirable audio.
+
+Advanced settings
+
+Click the triangle to display these options:
+
+Spectral Decay Rate
+
+When audio is encountered above the estimated noise floor, determines how much audio in surrounding frequencies is assumed to follow. With low values, less audio is assumed to follow, and hiss reduction will cut more closely to the frequencies being kept.
+
+Values of 40% to 75% work best. If the value is too high (above 90%), unnaturally long tails and reverbs might be heard. If the value is too low, background bubbly effects might be heard, and music might sound artificial.
+
+Precision Factor
+
+Determines the time-accuracy of hiss reduction. Typical values range from 7 to 14. Lower values might result in a few milliseconds of hiss before and after louder parts of audio. Larger values generally produce better results and slower processing speeds. Values over 20 don’t ordinarily improve quality any further.
+
+Transition Width
+
+Produces a slow transition in hiss reduction instead of an abrupt change. Values from 5 to 10 usually achieve good results. If the value is too high, some hiss may remain after processing. If the value is too low, background artifacts might be heard.
+
+FFT Size
+
+Specifies a Fast Fourier Transform size, which determines the tradeoff between frequency- and time-accuracy. In general, sizes from 2048 to 8192 work best.
+
+Lower FFT sizes (2048 and below) result in better time response (less swooshing before cymbal hits, for example), but they can produce poorer frequency resolution, creating hollow or flanged sounds.
+
+Higher FFT sizes (8192 and above) might cause swooshing, reverb, and drawn out background tones, but they produce very accurate frequency resolution.
+
+Control Points
+
+Specifies the number of points added to the graph when you click Capture Noise Floor.
+
+Watch the [Clean up background noise and reduce hiss](https://creativecloud.adobe.com/en/learn/audition/web/noise-hiss-reduction-audition-cc) to learn how to clean up background noises and apply hiss reduction to audio with Adobe Audition.
