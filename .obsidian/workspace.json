@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Audition 自动化智能体：Specs 文档指南 (SDD 架构).md",
+                "file": "egg dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Audition 自动化智能体：Specs 文档指南 (SDD 架构)"
+              "title": "egg dev"
             }
           }
         ],
@@ -241,7 +241,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Audition 自动化智能体：Specs 文档指南 (SDD 架构).md",
+                "file": "egg dev.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -269,7 +269,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Audition 自动化智能体：Specs 文档指南 (SDD 架构)"
+              "title": "Graph of egg dev"
             }
           },
           {
@@ -328,7 +328,7 @@
   },
   "active": "3324b119cde3200c",
   "lastOpenFiles": [
-    "Audition 自动化智能体：Specs 文档指南 (SDD 架构).md",
+    "egg dev.md",
     "《广州南方学院毕业实习手册》规则与审查项.md",
     "Adobe Audition 外置硬盘安装与配置专业指南.md",
     "@2018jagoAdobeAuditionCC.md",
