@@ -50,31 +50,19 @@
             }
           },
           {
-            "id": "beade984364aa9a0",
+            "id": "a06c782be3a66115",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "《广州南方学院毕业实习手册》规则与审查项.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.11.4"
               },
-              "icon": "lucide-file",
-              "title": "《广州南方学院毕业实习手册》规则与审查项"
-            }
-          },
-          {
-            "id": "fe57e1d544be3ea5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -237,6 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "2025 作业考核要求 交互产品综合创作.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -264,7 +253,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of 2025 作业考核要求 交互产品综合创作"
             }
           },
           {
@@ -321,9 +310,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fe57e1d544be3ea5",
+  "active": "a06c782be3a66115",
   "lastOpenFiles": [
     "《广州南方学院毕业实习手册》规则与审查项.md",
+    "Untitled 1.md",
     "修改建议.md",
     "Adobe Audition 外置硬盘安装与配置专业指南.md",
     "@2018jagoAdobeAuditionCC.md",
@@ -348,7 +338,6 @@
     "copilot/copilot-conversations/提取艺术家特点@20251221_183856.md",
     "copilot/copilot-conversations/提取艺术家@20251221_183436.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot/memory",
