@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Practical Gemini CLI- Bring your own system instruction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Practical Gemini CLI- Bring your own system instruction"
             }
           }
         ],
@@ -227,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Practical Gemini CLI- Bring your own system instruction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Untitled 1"
+              "title": "Graph of Practical Gemini CLI- Bring your own system instruction"
             }
           },
           {
@@ -314,7 +314,7 @@
   },
   "active": "2cccdf435d3f49e2",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "Practical Gemini CLI- Bring your own system instruction.md",
     "2025 作业考核要求 交互产品综合创作.md",
     "《广州南方学院毕业实习手册》规则与审查项.md",
     "修改建议.md",
