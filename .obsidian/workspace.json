@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "smart-grading-assistant-init.md",
+                "file": "Visual Grading Canvas MVP 开发文档.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "smart-grading-assistant-init"
+              "title": "Visual Grading Canvas MVP 开发文档"
             }
           }
         ],
@@ -227,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "smart-grading-assistant-init.md",
+                "file": "Visual Grading Canvas MVP 开发文档.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of smart-grading-assistant-init"
+              "title": "Graph of Visual Grading Canvas MVP 开发文档"
             }
           },
           {
@@ -314,7 +314,7 @@
   },
   "active": "2cccdf435d3f49e2",
   "lastOpenFiles": [
-    "smart-grading-assistant-init.md",
+    "Visual Grading Canvas MVP 开发文档.md",
     "2025 作业考核要求 交互产品综合创作.md",
     "《广州南方学院毕业实习手册》规则与审查项.md",
     "修改建议.md",
