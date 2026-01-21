@@ -55,12 +55,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Visual Grading Canvas MVP 开发文档.md",
+                "file": "实验与作业成绩对应关系说明.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Visual Grading Canvas MVP 开发文档"
+              "title": "实验与作业成绩对应关系说明"
+            }
+          },
+          {
+            "id": "9cdfaf9ada971b00",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
             }
           }
         ],
@@ -122,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 200
   },
   "right": {
     "id": "de10f002fde45117",
@@ -227,7 +239,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Visual Grading Canvas MVP 开发文档.md",
+                "file": "实验与作业成绩对应关系说明.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +267,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Visual Grading Canvas MVP 开发文档"
+              "title": "Graph of 实验与作业成绩对应关系说明"
             }
           },
           {
@@ -291,7 +303,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -314,7 +326,7 @@
   },
   "active": "2cccdf435d3f49e2",
   "lastOpenFiles": [
-    "Visual Grading Canvas MVP 开发文档.md",
+    "实验与作业成绩对应关系说明.md",
     "2025 作业考核要求 交互产品综合创作.md",
     "《广州南方学院毕业实习手册》规则与审查项.md",
     "修改建议.md",
