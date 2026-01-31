@@ -74,9 +74,23 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.11.5"
             }
+          },
+          {
+            "id": "c8c90a7537cad2bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -108,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "loribrancheyowh",
+                "query": "选题阶段应着重考",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -134,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 410.5
   },
   "right": {
     "id": "de10f002fde45117",
@@ -239,7 +253,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实验与作业成绩对应关系说明.md",
+                "file": "Untitled 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -267,7 +281,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 实验与作业成绩对应关系说明"
+              "title": "Graph of Untitled 1"
             }
           },
           {
@@ -324,9 +338,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "605e25a0d0cb4453",
+  "active": "c8c90a7537cad2bb",
   "lastOpenFiles": [
     "实验与作业成绩对应关系说明.md",
+    "Untitled 1.md",
     "2025 作业考核要求 交互产品综合创作.md",
     "《广州南方学院毕业实习手册》规则与审查项.md",
     "修改建议.md",
@@ -351,7 +366,6 @@
     "copilot/copilot-conversations/提取艺术家特点@20251221_183957.md",
     "copilot/copilot-conversations/提取艺术家特点@20251221_183856.md",
     "copilot/copilot-conversations/提取艺术家@20251221_183436.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot/memory",
