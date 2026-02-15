@@ -81,16 +81,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Personal Resume 个人简历.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Personal Resume 个人简历"
+            }
+          },
+          {
+            "id": "3921dd3d87953f79",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "选题阶段应着重考",
+                "query": "简历",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -148,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 280.5
   },
   "right": {
     "id": "de10f002fde45117",
@@ -253,7 +265,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Untitled 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -281,7 +292,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Untitled 1"
+              "title": "Graph view"
             }
           },
           {
@@ -338,10 +349,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c8c90a7537cad2bb",
+  "active": "3921dd3d87953f79",
   "lastOpenFiles": [
-    "实验与作业成绩对应关系说明.md",
+    "copilot-custom-prompts/src/写简历的 Agents.md",
+    "Personal Resume 个人简历.md",
     "Untitled 1.md",
+    "实验与作业成绩对应关系说明.md",
     "2025 作业考核要求 交互产品综合创作.md",
     "《广州南方学院毕业实习手册》规则与审查项.md",
     "修改建议.md",
@@ -364,8 +377,6 @@
     "设计学院毕业论文(设计)选题工作的通知.md",
     "copilot/copilot-conversations/艺术家的名字叫什么中文@20251221_190702.md",
     "copilot/copilot-conversations/提取艺术家特点@20251221_183957.md",
-    "copilot/copilot-conversations/提取艺术家特点@20251221_183856.md",
-    "copilot/copilot-conversations/提取艺术家@20251221_183436.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot/memory",
