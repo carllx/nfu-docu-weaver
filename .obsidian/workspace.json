@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "实验与作业成绩对应关系说明"
             }
+          },
+          {
+            "id": "c521ea8af94091b9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,7 +239,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实验与作业成绩对应关系说明.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +266,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 实验与作业成绩对应关系说明"
+              "title": "Graph view"
             }
           },
           {
@@ -312,7 +323,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "2cccdf435d3f49e2",
+  "active": "c521ea8af94091b9",
   "lastOpenFiles": [
     "Personal Resume 个人简历.md",
     "copilot-custom-prompts/src/写简历的 Agents.md",

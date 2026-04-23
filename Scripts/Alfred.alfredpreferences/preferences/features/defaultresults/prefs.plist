@@ -6,6 +6,8 @@
 	<integer>1</integer>
 	<key>showAppleScripts</key>
 	<true/>
+	<key>showArchives</key>
+	<true/>
 	<key>showContacts</key>
 	<false/>
 	<key>showDocuments</key>
