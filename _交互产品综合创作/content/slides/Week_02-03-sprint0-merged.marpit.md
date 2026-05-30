@@ -327,7 +327,7 @@ Sally 画出 Task Flow A，审视基础方案的交互效率。用户需要经�
 ### Step 2: 批判性评审初步方案
 
 📊 **@Mary (Analyst)**:
-> 带着新理解看版本 A 的 Task Flow。它要求 Chloe 去寻找、阅读、匹配。这个过程是**冷冰冰的**。
+> 从效率角度看版本 A 的 Task Flow：用户需要经过多个步骤完成核心任务，首页没有活动信息的直接入口，**信息可达性 (Findability) 偏低**。
 
 🎨 **@Sally (UX Expert)**:
 > 版本 A 的线框图：
