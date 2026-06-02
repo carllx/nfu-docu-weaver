@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>pedagogy-teaching-flowchart</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="教师用教学流程图">📊 教师用教学流程图</h1>
+<blockquote>
+<p>本文件包含多个 Mermaid 流程图，供教师在黑板讲解时使用。
+每个图后附有讲解提示，帮助教师快速切入核心概念。</p>
+</blockquote>
+<hr />
+<h2 id="全链路流程图从规划到交付">1. 全链路流程图：从规划到交付</h2>
+<pre class="mermaid"><code>flowchart LR
+    subgraph planning[&quot;🔵 规划层 WHY &amp; WHAT&quot;]
+        direction TB
+        A[&quot;👩 Analyst - Mary&quot;] --&gt;|产出| B[&quot;📄 brief.md&quot;]
+        B --&gt;|输入| C[&quot;👨 PM - John&quot;]
+        C --&gt;|产出| D[&quot;📄 prd.md&quot;]
+    end
+
+    subgraph implementation[&quot;🟢 实施层 HOW&quot;]
+        direction TB
+        E[&quot;👩‍🎨 UX Expert - Sally&quot;] --&gt;|产出| F[&quot;📄 front-end-spec.md&quot;]
+        F --&gt;|输入| G[&quot;👨‍💻 Architect - Winston&quot;]
+        G --&gt;|产出| H[&quot;📄 architecture.md&quot;]
+    end
+
+    subgraph delivery[&quot;🟠 交付层 BUILD&quot;]
+        direction TB
+        I[&quot;🤖 Dev Agent&quot;] --&gt;|生成| J[&quot;🌐 完整网站&quot;]
+    end
+
+    planning --&gt;|&quot;brief + prd 交接&quot;| implementation
+    implementation --&gt;|&quot;4份文档作为上下文&quot;| delivery
+
+    style planning fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style implementation fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style delivery fill:#fff3e0,stroke:#e65100,stroke-width:2px</code></pre>
+<blockquote>
+<p>🗣️
+<strong>教师讲解提示</strong>：强调三层流水线的单向流动——每层产出的文档是下一层的<strong>唯一输入</strong>。学生作为
+PO 贯穿全程，但不直接生产文档，而是<strong>监督和验收</strong>。</p>
+</blockquote>
+<hr />
+<h2 id="文档依赖关系图">2. 文档依赖关系图</h2>
+<pre class="mermaid"><code>flowchart TD
+    BRIEF[&quot;📄 brief.md&lt;br/&gt;项目愿景 &amp; 约束&quot;]
+    PRD[&quot;📄 prd.md&lt;br/&gt;需求 &amp; NFR &amp; 品牌文法&quot;]
+    FES[&quot;📄 front-end-spec.md&lt;br/&gt;Design Tokens &amp; 组件规范&lt;br/&gt;⭐ 最关键文档&quot;]
+    ARCH[&quot;📄 architecture.md&lt;br/&gt;CSS Variables 映射 &amp; 项目结构&quot;]
+    SITE[&quot;🌐 网站代码&lt;br/&gt;index / about / illustrations&lt;br/&gt;products / style.css / script.js&quot;]
+
+    BRIEF --&gt;|&quot;Mary 产出 → John 输入&quot;| PRD
+    BRIEF --&gt;|&quot;同时提供给 Sally&quot;| FES
+    PRD --&gt;|&quot;NFR + 品牌文法 → Sally 输入&quot;| FES
+    PRD --&gt;|&quot;技术约束 → Winston 参考&quot;| ARCH
+    FES --&gt;|&quot;Token 定义 → Winston 映射为 CSS Var&quot;| ARCH
+    BRIEF --&gt;|上下文| ARCH
+
+    FES -.-&gt;|&quot;驱动生成&quot;| SITE
+    ARCH -.-&gt;|&quot;驱动生成&quot;| SITE
+
+    style FES fill:#fff9c4,stroke:#f57f17,stroke-width:3px
+    style SITE fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px</code></pre>
+<blockquote>
+<p>🗣️ <strong>教师讲解提示</strong>：请学生注意
+<code>front-end-spec.md</code>
+是<strong>依赖最多、被依赖最多</strong>的核心文档（黄色高亮）。它同时接收
+brief 和 prd 的输入，又直接驱动 architecture
+和最终代码生成。这就是为什么阶段 3 是<strong>最关键</strong>的。</p>
+</blockquote>
+<hr />
+<h2 id="角色分层图">3. 角色分层图</h2>
+<pre class="mermaid"><code>flowchart TD
+    subgraph student[&quot;🎓 学生 = PO（Product Owner）&quot;]
+        PO[&quot;你自己&lt;br/&gt;Vibe CEO&lt;br/&gt;决策 &amp; 验收&quot;]
+    end
+
+    subgraph planLayer[&quot;🔵 规划层 — WHY &amp; WHAT&quot;]
+        MARY[&quot;👩 Analyst&lt;br/&gt;Mary&lt;br/&gt;愿景探索&quot;]
+        JOHN[&quot;👨 PM&lt;br/&gt;John&lt;br/&gt;需求定义&quot;]
+    end
+
+    subgraph implLayer[&quot;🟢 实施层 — HOW&quot;]
+        SALLY[&quot;👩‍🎨 UX Expert&lt;br/&gt;Sally&lt;br/&gt;设计规范&quot;]
+        WINSTON[&quot;👨‍💻 Architect&lt;br/&gt;Winston&lt;br/&gt;技术架构&quot;]
+    end
+
+    subgraph execLayer[&quot;⚙️ 执行角色（Architect 下属）&quot;]
+        SM[&quot;📋 Scrum Master&lt;br/&gt;任务拆分&quot;]
+        DEV[&quot;💻 Developer&lt;br/&gt;代码实现&quot;]
+    end
+
+    PO -.-&gt;|&quot;对话 &amp; 指令&quot;| MARY
+    PO -.-&gt;|&quot;对话 &amp; 指令&quot;| JOHN
+    PO -.-&gt;|&quot;对话 &amp; 指令&quot;| SALLY
+    PO -.-&gt;|&quot;对话 &amp; 指令&quot;| WINSTON
+
+    MARY --&gt; JOHN
+    JOHN --&gt; SALLY
+    SALLY --&gt; WINSTON
+    WINSTON --&gt; SM
+    SM --&gt; DEV
+
+    style student fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    style planLayer fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style implLayer fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style execLayer fill:#f5f5f5,stroke:#757575,stroke-width:1px,stroke-dasharray: 5 5</code></pre>
+<blockquote>
+<p>🗣️ <strong>教师讲解提示</strong>：重点说明两件事——① PO
+就是学生自己，不需要额外操作，核心职责是「精准传达意图 + 质量验收」；②
+SM 和 Dev 是 Architect 的下属执行角色，在本实践中由 Vibe Coding Agent
+统一承担，学生无需单独与他们交互。</p>
+</blockquote>
+<hr />
+<h2 id="核心叙事线图教学时序">4. 核心叙事线图（教学时序）</h2>
+<pre class="mermaid"><code>flowchart LR
+    S1[&quot;1️⃣ 角色介绍&lt;br/&gt;4个AI角色&lt;br/&gt;+ PO=学生&quot;]
+    S2[&quot;2️⃣ JTBD 理论&lt;br/&gt;Jobs to be Done&lt;br/&gt;用户需求分析&quot;]
+    S3[&quot;3️⃣ Brief 阶段&lt;br/&gt;与 Mary 对话&lt;br/&gt;→ brief.md&quot;]
+    S4[&quot;4️⃣ 低保真案例&lt;br/&gt;展示参考网站&lt;br/&gt;激发想象&quot;]
+    S5[&quot;5️⃣ PRD 阶段&lt;br/&gt;与 John 对话&lt;br/&gt;→ prd.md&quot;]
+    S6[&quot;6️⃣ Design Tokens&lt;br/&gt;与 Sally 对话&lt;br/&gt;→ front-end-spec.md&quot;]
+    S7[&quot;7️⃣ Architecture&lt;br/&gt;与 Winston 对话&lt;br/&gt;→ architecture.md&quot;]
+    S8[&quot;8️⃣ Vibe Coding&lt;br/&gt;4份文档 → Agent&lt;br/&gt;→ 完整网站 🎉&quot;]
+
+    S1 --&gt; S2 --&gt; S3 --&gt; S4 --&gt; S5 --&gt; S6 --&gt; S7 --&gt; S8
+
+    style S1 fill:#e8eaf6,stroke:#283593
+    style S2 fill:#e8eaf6,stroke:#283593
+    style S3 fill:#e3f2fd,stroke:#1565c0
+    style S4 fill:#fff8e1,stroke:#ff8f00
+    style S5 fill:#e3f2fd,stroke:#1565c0
+    style S6 fill:#fff9c4,stroke:#f57f17,stroke-width:3px
+    style S7 fill:#e8f5e9,stroke:#2e7d32
+    style S8 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px</code></pre>
+<blockquote>
+<p>🗣️
+<strong>教师讲解提示</strong>：这是一节完整课程的推荐教学节奏。步骤
+4「低保真案例」是理论与实践之间的桥梁——在学生完成 brief 后、进入 PRD
+前，展示一个参考网站帮助他们建立具象预期。步骤 6（Design
+Tokens，黄色高亮）是<strong>技术难度最高</strong>的环节，建议预留最多时间，并做现场演示。</p>
+</blockquote>
+<hr />
+<h2 id="补充token-本体论映射速查图">5. 补充：Token 本体论映射速查图</h2>
+<pre class="mermaid"><code>flowchart LR
+    subgraph primitive[&quot;Primitive 层（物理值）&quot;]
+        P1[&quot;color.primitive.black&lt;br/&gt;#000000&quot;]
+        P2[&quot;spacing.primitive.md&lt;br/&gt;16px&quot;]
+        P3[&quot;radius.primitive.lg&lt;br/&gt;24px&quot;]
+    end
+
+    subgraph semantic[&quot;Semantic 层（语义引用）&quot;]
+        S1[&quot;color.semantic.background&lt;br/&gt;.button.primary.default&lt;br/&gt;→ 引用 Primitive&quot;]
+        S2[&quot;spacing.semantic&lt;br/&gt;.card.padding&lt;br/&gt;→ 引用 Primitive&quot;]
+    end
+
+    subgraph css[&quot;CSS Variables（代码实现）&quot;]
+        C1[&quot;--color-primitive-black:&lt;br/&gt;#000000&quot;]
+        C2[&quot;--color-semantic-bg-btn:&lt;br/&gt;var(--color-primitive-black)&quot;]
+    end
+
+    P1 --&gt;|&quot;&#39;{color.primitive.black}&#39;&quot;| S1
+    P2 --&gt;|&quot;&#39;{spacing.primitive.md}&#39;&quot;| S2
+    S1 --&gt;|&quot;点号 → 连字符 + -- 前缀&quot;| C2
+    P1 --&gt;|&quot;直接赋值&quot;| C1
+
+    style primitive fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style semantic fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style css fill:#fff3e0,stroke:#e65100,stroke-width:2px</code></pre>
+<blockquote>
+<p>🗣️
+<strong>教师讲解提示</strong>：这是帮助学生理解「三层映射」的核心速查图——Primitive（原始值）→
+Semantic（语义引用）→ CSS Variable（代码实现）。强调两个关键转换规则：①
+Semantic 用 <code>'{token.name}'</code> 引用 Primitive；② Token 名到 CSS
+Variable 的转换是「点号 → 连字符 + <code>--</code> 前缀」。</p>
+</blockquote>
+</body>
+</html>

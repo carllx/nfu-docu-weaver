@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/weekly-units/Week_01.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week_01"
+              "title": "pedagogy-teaching-flowchart"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/weekly-units/Week_01.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week_01"
+              "title": "Outline of pedagogy-teaching-flowchart"
             }
           },
           {
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/weekly-units/Week_01.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Week_01"
+              "title": "Graph of pedagogy-teaching-flowchart"
             }
           },
           {
@@ -283,13 +283,26 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eae2f802ee203782",
+  "active": "5f81aac4458805da",
   "lastOpenFiles": [
+    "_交互产品综合创作/content/slides/guide/tech-tools-overview.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
+    "_交互产品综合创作/content/slides/Week_02-03-sprint0-merged.marpit.md",
+    "_交互产品综合创作/content/slides/guide/temp.html",
+    "_交互产品综合创作/content/slides/guide/tech-plan.md",
+    "_交互产品综合创作/content/slides/guide/tech-deployment-guide.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-week3.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-week2.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-course-integration.md",
+    "_交互产品综合创作/content/slides/guide",
+    "_交互产品综合创作/content/weekly-units/Week_01.md",
+    "_交互产品综合创作/content/slides/_archive/vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
     "_交互产品综合创作/content/slides/_archive/Week_03-brief-prd.marpit.md",
     "_交互产品综合创作/content/slides/_archive/Week_02- 敏捷团队任务职责.marpit.md",
     "_交互产品综合创作/content/slides/_archive",
-    "_交互产品综合创作/content/slides/Week_02-03-sprint0-merged.marpit.md",
-    "_交互产品综合创作/content/weekly-units/vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
     "_交互产品综合创作/content/weekly-units/w8.md",
     "_交互产品综合创作/00_RESOURCE_DASHBOARD.md",
     "_交互产品综合创作/videospeaker.md",
@@ -301,25 +314,12 @@
     "_交互产品综合创作/content/slides/Week_03-brief-prd.marpit.md",
     "_交互产品综合创作/content/slides/Week_02- 敏捷团队任务职责.marpit.md",
     "_交互产品综合创作/content/slides/3.8.1 style-layout-figma.marpit.md",
-    "实验与作业成绩对应关系说明.md",
-    "2025 作业考核要求 交互产品综合创作.md",
-    "2025 考核作业要求数字建模.md",
-    "Personal Resume 个人简历.md",
-    "copilot-custom-prompts/src/写简历的 Agents.md",
-    "Untitled 1.md",
-    "《广州南方学院毕业实习手册》规则与审查项.md",
-    "修改建议.md",
-    "Adobe Audition 外置硬盘安装与配置专业指南.md",
-    "@2018jagoAdobeAuditionCC.md",
-    "课程资料_数字声音处理_Audition.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot/memory",
     "copilot",
     "copilot-custom-prompts/小红书推广文案",
     "copilot-custom-prompts/tech-mentor",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w9 用双手\"触摸\" 数字.marpit.pptx",
-    "Untitled.base",
     "Pasted image 20251002111040.png",
     "Pasted image 20251020084426.png",
     "Pasted image 20250928181216.png",
@@ -330,7 +330,6 @@
     "Pasted image 20251012151732.png",
     "Pasted image 20251013081422.png",
     "Pasted image 20251020115711.png",
-    "_DigtalSculting/course-content/units/01_Epic_Foundations/w8_Maya_Arnold_Color_System_Presentation.marpit.pptx",
     "shaping-the-shapeless/0_sources_inbox/Shape the Shapless things in DigitalSpace.canvas",
     "Untitled 3.canvas",
     "Untitled.canvas",
