@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pedagogy-teaching-flowchart"
+              "title": "pedagogy-design-system-best-practices"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 299.5
   },
   "right": {
     "id": "de10f002fde45117",
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pedagogy-teaching-flowchart"
+              "title": "Outline of pedagogy-design-system-best-practices"
             }
           },
           {
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of pedagogy-teaching-flowchart"
+              "title": "Graph of pedagogy-design-system-best-practices"
             }
           },
           {
@@ -262,7 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 232.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -285,6 +285,7 @@
   },
   "active": "5f81aac4458805da",
   "lastOpenFiles": [
+    "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
     "_交互产品综合创作/content/slides/guide/tech-tools-overview.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
@@ -295,7 +296,6 @@
     "_交互产品综合创作/content/slides/guide/pedagogy-week3.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-week2.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-course-integration.md",
     "_交互产品综合创作/content/slides/guide",
     "_交互产品综合创作/content/weekly-units/Week_01.md",
