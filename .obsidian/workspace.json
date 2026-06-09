@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy01-AI Agents 驱动快速实现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pedagogy-week1"
+              "title": "pedagogy01-AI Agents 驱动快速实现"
             }
           }
         ],
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 278.5
   },
   "right": {
     "id": "de10f002fde45117",
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy01-AI Agents 驱动快速实现.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pedagogy-week1"
+              "title": "Outline of pedagogy01-AI Agents 驱动快速实现"
             }
           },
           {
@@ -212,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy01-AI Agents 驱动快速实现.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -240,7 +240,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of pedagogy-week1"
+              "title": "Graph of pedagogy01-AI Agents 驱动快速实现"
             }
           },
           {
@@ -309,7 +309,7 @@
     "_交互产品综合创作/content/slides/guide/tech-tools-overview.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-week3.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-week2.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy01-AI Agents 驱动快速实现.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
     "_交互产品综合创作/content/slides/guide/temp.html",
     "_交互产品综合创作/content/slides/guide",
