@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
+                "file": "_交互产品综合创作/content/slides/Week_02-03-sprint0-merged.marpit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pedagogy-design-system-best-practices"
+              "title": "Week_02-03-sprint0-merged.marpit"
+            }
+          },
+          {
+            "id": "bbb05351cbbc5ec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pedagogy-week1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pedagogy-design-system-best-practices"
+              "title": "Outline of pedagogy-week1"
             }
           },
           {
@@ -198,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
+                "file": "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +240,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of pedagogy-design-system-best-practices"
+              "title": "Graph of pedagogy-week1"
             }
           },
           {
@@ -283,20 +297,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5f81aac4458805da",
+  "active": "bbb05351cbbc5ec6",
   "lastOpenFiles": [
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
-    "_交互产品综合创作/content/slides/guide/tech-tools-overview.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
+    "_交互产品综合创作/content/slides/guide/pedagogy-course-integration.md",
+    "_交互产品综合创作/src/04_adv/dev - 敏捷形开发团队工作流程.md",
     "_交互产品综合创作/content/slides/Week_02-03-sprint0-merged.marpit.md",
-    "_交互产品综合创作/content/slides/guide/temp.html",
     "_交互产品综合创作/content/slides/guide/tech-plan.md",
     "_交互产品综合创作/content/slides/guide/tech-deployment-guide.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
+    "_交互产品综合创作/content/slides/guide/tech-tools-overview.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-week3.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-week2.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-week1.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy-course-integration.md",
+    "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
+    "_交互产品综合创作/content/slides/guide/temp.html",
     "_交互产品综合创作/content/slides/guide",
     "_交互产品综合创作/content/weekly-units/Week_01.md",
     "_交互产品综合创作/content/slides/_archive/vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
