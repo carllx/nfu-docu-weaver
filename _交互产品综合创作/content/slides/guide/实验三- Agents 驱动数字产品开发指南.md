@@ -127,14 +127,18 @@ flowchart TD
    - 认真回答每个问题，提供具体信息。
    - ⚠️ 每次提到技术需求时，都要重申"纯 HTML/CSS/JavaScript"。
 
-![Analyst Agent 对话示例](https://i.imgur.com/otaaPN5.webp)
-
+![bg fit left:50% vertical](https://i.imgur.com/YVnBems.webp)
 4. **最终生成指令**
    > "现在让我们创建项目简报文档 brief.md"
 
-5. **验收标准**
-   - `brief.md` 包含：项目概述、目标用户、页面结构说明、风格定位、技术约束、设计方向。在你的项目文件夹的 `docs/` 目录下创建并保存这个文件。
+5. **获取与保存文档（详见旁边截图示意）**
+   当生成完毕后，请按以下步骤将内容保存到项目中：
+   - 首先，点击回复气泡底部的“复制”或“复制以上所有的内容”按钮（确保能完整复制 Markdown 格式标记）。
+   - 然后，回到 VS Code，在项目的 `docs/` 文件夹下打开或新建 `brief.md` 文件，将刚刚复制的内容直接**粘贴并覆盖**进去。
 
+6. **验收标准**
+   - `brief.md` 包含：项目概述、目标用户、页面结构说明、风格定位、技术约束、设计方向。
+![bg fit left:50% vertical](https://i.imgur.com/4eYHWzX.webp)
 ![bg fit left:50% vertical](https://i.imgur.com/f8eyQtZ.webp)
 
 
@@ -166,9 +170,7 @@ flowchart TD
 3. **交互要点**
    - 明确告诉 PM 需要 **4个页面** 的具体功能设计。
    - 当 PM 提出生成"Epic列表"（史诗列表）时，可以直接要求："现在直接生成完整的 prd.md"。
-
-![PM Agent 对话示例](https://i.imgur.com/tH50HZU.webp)
-
+![bg fit left:50% vertical](https://i.imgur.com/yjeh2On.webp)
 4. **验收标准**
    - `prd.md` 包含：4个页面的详细功能说明、用户故事、页面间导航逻辑、交互规范。将它保存在 `docs/` 目录下。
 
@@ -196,10 +198,8 @@ flowchart TD
 3. **交互要点**
    - 重点关注颜色系统、字体、间距、组件规范。
    - 如果 Agent 建议复杂的设计工具，可以要求简化。
-
-![UX Expert Agent 对话示例](https://i.imgur.com/EdDr9aH.webp)
-
-4. **验收标准**
+![bg fit left:50% vertical](https://i.imgur.com/Xb0uvDo.webp)
+2. **验收标准**
    - 包含：Design Tokens（设计令牌颜色, 包括字体、间距）、组件规范、布局系统。将它保存在 `docs/` 目录下。
 
 ---
@@ -266,7 +266,7 @@ flowchart TD
 3. **验收标准**
    - `architecture.md` 包含：项目文件结构、基于你实际素材的简单数据组织方案。将生成的内容保存在你的 `docs/` 目录下。
 
-![Architect Agent 对话示例](https://i.imgur.com/c1tixYZ.webp)
+![bg fit left:50% vertical](https://i.imgur.com/uEJcpPO.webp)
 
 ---
 
@@ -280,8 +280,9 @@ flowchart TD
    - 在 AI IDE（如 Cursor 或装了 CodeGeeX 的 VS Code）中，打开你存放了所有文件（包括 `docs/` 和 `assets/`）的整个项目文件夹。
    - 这一步是为了让代码编辑器读取到全部上下文。在 AI 对话框中，将 `docs/` 文件夹里所有已生成的文档（简报、PRD、前端设计规范、架构文档等），以及记录了图片信息的 `assets/README.md`，统统通过引用功能（如输入 `@` 符号）添加进去，作为 AI 编程的依据。
 
-2. **下达简单指令**
-   - 附上 `agents/dev.txt` 里的开发者设定，然后给出一个极其简单的最终指令：
+2. **导入开发者指令并下达任务**
+   - 导入开发者的脚本（即将 `agents/dev.txt` 里开发者的“人格指令”发送给它），将它当作我们真正的开发者。
+   - 然后给出一个极其简单的最终指令：
    ```markdown
    请仔细阅读我提供的这些文档，并严格按照技术要求，直接帮我生成这个插画师个人网站的全部代码文件。
    ```
