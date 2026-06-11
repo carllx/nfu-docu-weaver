@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy01-AI Agents 驱动快速实现.md",
+                "file": "_交互产品综合创作/content/slides/guide/实验三- Agents 驱动数字产品开发指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pedagogy01-AI Agents 驱动快速实现"
+              "title": "实验三- Agents 驱动数字产品开发指南"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy01-AI Agents 驱动快速实现.md",
+                "file": "_交互产品综合创作/content/slides/guide/实验三- Agents 驱动数字产品开发指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pedagogy01-AI Agents 驱动快速实现"
+              "title": "Outline of 实验三- Agents 驱动数字产品开发指南"
             }
           },
           {
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/pedagogy01-AI Agents 驱动快速实现.md",
+                "file": "_交互产品综合创作/content/slides/guide/实验三- Agents 驱动数字产品开发指南.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of pedagogy01-AI Agents 驱动快速实现"
+              "title": "Graph of 实验三- Agents 驱动数字产品开发指南"
             }
           },
           {
@@ -286,7 +286,7 @@
   "active": "bbb05351cbbc5ec6",
   "lastOpenFiles": [
     "Netlify 网站发布指南.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy01-AI Agents 驱动快速实现.md",
+    "_交互产品综合创作/content/slides/guide/实验三- Agents 驱动数字产品开发指南.md",
     "_交互产品综合创作/content/slides/Week_02-03-sprint0-merged.marpit.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-course-integration.md",
