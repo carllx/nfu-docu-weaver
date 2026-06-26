@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/实验三- Agents 驱动数字产品开发指南.md",
+                "file": "Towards a Theory of Montage 蒙太奇.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "实验三- Agents 驱动数字产品开发指南"
+              "title": "Towards a Theory of Montage 蒙太奇"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Mary",
+                "query": "蒙太奇",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/实验三- Agents 驱动数字产品开发指南.md",
+                "file": "Towards a Theory of Montage 蒙太奇.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 实验三- Agents 驱动数字产品开发指南"
+              "title": "Outline of Towards a Theory of Montage 蒙太奇"
             }
           },
           {
@@ -198,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_交互产品综合创作/content/slides/guide/实验三- Agents 驱动数字产品开发指南.md",
+                "file": "Towards a Theory of Montage 蒙太奇.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +227,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 实验三- Agents 驱动数字产品开发指南"
+              "title": "Graph of Towards a Theory of Montage 蒙太奇"
             }
           },
           {
@@ -285,8 +286,8 @@
   },
   "active": "bbb05351cbbc5ec6",
   "lastOpenFiles": [
-    "Netlify 网站发布指南.md",
     "_交互产品综合创作/content/slides/guide/实验三- Agents 驱动数字产品开发指南.md",
+    "Netlify 网站发布指南.md",
     "_交互产品综合创作/content/slides/Week_02-03-sprint0-merged.marpit.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-course-integration.md",
