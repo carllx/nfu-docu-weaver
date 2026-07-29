@@ -155,3 +155,11 @@ Fig. 1. Structure of a scene in Sergein Eisenstein’ “Alexander Nevsky” (19
 ### 5. 泛音(Overtonal)
 片段组合产生超越各个片段本身的更深层次的意义。  综合使用以上几种蒙太奇手法，通过镜头组合传递情绪、动作和叙事. combines various shots to evoke emotional responses and deeper meanings beyond the surface narrative.
 
+
+
+## 腾讯文档导出测试
+### 章节 1：降级图片测试
+#### 列表项 1，带有 [内联链接](https://google.com)
+![这里还有一张独立的 YouTube 封面图：](https://i.imgur.com/6PSseFc.webp)
+![这里还有一张独立的 YouTube 封面图：](https://i.ytimg.com/vi/w3VfWLlkuRI/hqdefault.jpg)
+#### 列表项 2，带有一张行内图片  看看是否正常

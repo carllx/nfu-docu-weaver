@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Artisti/Bill Viola.md",
+                "file": "Towards a Theory of Montage 蒙太奇.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bill Viola"
+              "title": "Towards a Theory of Montage 蒙太奇"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "imgur",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Artisti/Bill Viola.md",
+                "file": "Towards a Theory of Montage 蒙太奇.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Bill Viola"
+              "title": "Outline of Towards a Theory of Montage 蒙太奇"
             }
           },
           {
@@ -183,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Artisti/Bill Viola.md",
+                "file": "Towards a Theory of Montage 蒙太奇.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -211,7 +212,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Bill Viola"
+              "title": "Graph of Towards a Theory of Montage 蒙太奇"
             }
           },
           {
@@ -270,13 +271,18 @@
   },
   "active": "60cb13de83ef9a71",
   "lastOpenFiles": [
+    "第一次答辩 未通过林庭欣.md",
+    "Untitled.md",
+    "实验与作业成绩对应关系说明.md",
+    "Artisti/Ando Tadao.md",
+    "Artisti/Azuma Makoto.md",
+    "Artisti/John Cage.md",
+    "Artisti/Bill Viola.md",
     "Artisti/Giorgio de Chirico.md",
     "Artisti/Marcel Duchamp.md",
     "Artisti/Ai Weiwei.md",
     "Artisti/Giuseppe Ragazzini.md",
     "Artisti/Mark Rothko.md",
-    "Artisti/Bill Viola.md",
-    "Artisti/John Cage.md",
     "Artisti/Stuart Lippincott.md",
     "Artisti/Hans Haacke.md",
     "Artisti/Rebecca Horn.md",
@@ -291,11 +297,6 @@
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-course-integration.md",
     "_交互产品综合创作/src/04_adv/dev - 敏捷形开发团队工作流程.md",
-    "_交互产品综合创作/content/slides/guide/tech-plan.md",
-    "_交互产品综合创作/content/slides/guide/tech-deployment-guide.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
-    "_交互产品综合创作/content/slides/guide/tech-tools-overview.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy-week3.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
     "_交互产品综合创作/content/slides/guide/temp.html",
     "_交互产品综合创作/content/slides/guide",
