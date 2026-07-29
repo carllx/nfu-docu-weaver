@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "50f8a964a9f590ae",
+        "id": "a1e21476f2d48ad3",
         "type": "tabs",
         "children": [
           {
-            "id": "d8a875970de0a634",
+            "id": "60cb13de83ef9a71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Motivation letter (套词邮件).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Motivation letter (套词邮件)"
+              "title": "New tab"
             }
           }
         ]
@@ -74,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Motivation letter (套词邮件).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Motivation letter (套词邮件)"
+              "title": "Outline"
             }
           },
           {
@@ -184,7 +178,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Motivation letter (套词邮件).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -212,7 +205,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Motivation letter (套词邮件)"
+              "title": "Graph view"
             }
           },
           {
@@ -269,8 +262,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "605e25a0d0cb4453",
+  "active": "eae2f802ee203782",
   "lastOpenFiles": [
+    "Motivation letter (套词邮件).md",
     "Personal Resume 个人简历.md",
     "Towards a Theory of Montage 蒙太奇.md",
     "Donato Sansone 实验动画.md",
@@ -300,7 +294,6 @@
     "_交互产品综合创作/课程教学大纲_legacy.md",
     "_交互产品综合创作/docs/issues.md",
     "_交互产品综合创作/docs/sop.md",
-    "_交互产品综合创作/docs/architecture.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot/memory",
