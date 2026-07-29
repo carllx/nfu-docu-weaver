@@ -9,5 +9,7 @@
 
 
 
-![|200](https://i.ytimg.com/vi/w3VfWLlkuRI/hqdefault.jpg)
+![](https://i.ytimg.com/vi/w3VfWLlkuRI/hqdefault.jpg)
 (Source:  [youtube.com: Bill Viola Interview: Cameras are Keepers of the Souls](https://youtu.be/w3VfWLlkuRI?t=47))
+
+

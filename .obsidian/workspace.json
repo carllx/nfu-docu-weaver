@@ -11,10 +11,14 @@
             "id": "60cb13de83ef9a71",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Artisti/Mark Rothko.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Mark Rothko"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Artisti/Mark Rothko.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Mark Rothko"
             }
           },
           {
@@ -178,6 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Artisti/Mark Rothko.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,7 +211,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Mark Rothko"
             }
           },
           {
@@ -262,8 +268,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eae2f802ee203782",
+  "active": "60cb13de83ef9a71",
   "lastOpenFiles": [
+    "Artisti/Giuseppe Ragazzini.md",
+    "Artisti/Ai Weiwei.md",
+    "Artisti/Marcel Duchamp.md",
+    "Artisti/Giorgio de Chirico.md",
+    "Artisti/Bill Viola.md",
+    "Artisti/John Cage.md",
+    "Artisti/Stuart Lippincott.md",
+    "Artisti/Hans Haacke.md",
+    "Artisti/Rebecca Horn.md",
+    "Artisti/László Moholy-Nagy.md",
     "Motivation letter (套词邮件).md",
     "Personal Resume 个人简历.md",
     "Towards a Theory of Montage 蒙太奇.md",
@@ -283,17 +299,7 @@
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
     "_交互产品综合创作/content/slides/guide/temp.html",
     "_交互产品综合创作/content/slides/guide",
-    "_交互产品综合创作/content/weekly-units/Week_01.md",
-    "_交互产品综合创作/content/slides/_archive/vid- A Guide to Auto Layout - Best Practices - Tips Tricks.md",
-    "_交互产品综合创作/content/slides/_archive/Week_03-brief-prd.marpit.md",
-    "_交互产品综合创作/content/slides/_archive/Week_02- 敏捷团队任务职责.marpit.md",
     "_交互产品综合创作/content/slides/_archive",
-    "_交互产品综合创作/content/weekly-units/w8.md",
-    "_交互产品综合创作/00_RESOURCE_DASHBOARD.md",
-    "_交互产品综合创作/videospeaker.md",
-    "_交互产品综合创作/课程教学大纲_legacy.md",
-    "_交互产品综合创作/docs/issues.md",
-    "_交互产品综合创作/docs/sop.md",
     "copilot/copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot/memory",
