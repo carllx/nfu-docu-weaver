@@ -1,6 +1,6 @@
 ## Mark Rothko
 
-颜色叠加, 情![](https://gips3.baidu.com/it/u=1821127123,1149655687&fm=3028&app=3028&f=JPEG&fmt=auto?w=720&h=1280)感, 人, 气场, 灵光
+颜色叠加, 情感, 人, 气场, 灵光
 unconscious
 并思考无意识的问题
 阅读一堆尼采和荣格

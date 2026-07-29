@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Artisti/Mark Rothko.md",
+                "file": "Artisti/Bill Viola.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mark Rothko"
+              "title": "Bill Viola"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Artisti/Mark Rothko.md",
+                "file": "Artisti/Bill Viola.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mark Rothko"
+              "title": "Outline of Bill Viola"
             }
           },
           {
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Artisti/Mark Rothko.md",
+                "file": "Artisti/Bill Viola.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -211,7 +211,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Mark Rothko"
+              "title": "Graph of Bill Viola"
             }
           },
           {
@@ -270,10 +270,11 @@
   },
   "active": "60cb13de83ef9a71",
   "lastOpenFiles": [
-    "Artisti/Giuseppe Ragazzini.md",
-    "Artisti/Ai Weiwei.md",
-    "Artisti/Marcel Duchamp.md",
     "Artisti/Giorgio de Chirico.md",
+    "Artisti/Marcel Duchamp.md",
+    "Artisti/Ai Weiwei.md",
+    "Artisti/Giuseppe Ragazzini.md",
+    "Artisti/Mark Rothko.md",
     "Artisti/Bill Viola.md",
     "Artisti/John Cage.md",
     "Artisti/Stuart Lippincott.md",
@@ -295,7 +296,6 @@
     "_交互产品综合创作/content/slides/guide/pedagogy-design-system-best-practices.md",
     "_交互产品综合创作/content/slides/guide/tech-tools-overview.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-week3.md",
-    "_交互产品综合创作/content/slides/guide/pedagogy-week2.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
     "_交互产品综合创作/content/slides/guide/temp.html",
     "_交互产品综合创作/content/slides/guide",
