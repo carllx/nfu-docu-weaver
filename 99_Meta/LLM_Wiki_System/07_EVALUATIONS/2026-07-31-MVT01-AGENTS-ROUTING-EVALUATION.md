@@ -14,18 +14,17 @@
 
 ### 已验证
 - IDE Agent 能读取 `AGENTS.md` 后执行一个微型状态更新任务。
-  - **证据**：[[06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR]]
-  - **证据文件**：[[04_CURRENT_STATE]]
+  - **证据文件与段落**：[[06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR#L6-L7]] (记录了修改文件动作)；[[04_CURRENT_STATE#L19-L22]] (具体的状态变更)。
 - IDE Agent 能生成面向场外指导 Agent 的审查申请。
-  - **证据**：本 Evaluation 的提交记录及主控 Agent 的回复历史。
+  - **证据文件与段落**： Vault 内正式审查包 `/tmp/handoff_obsidian_mvt01r_review.md#L38-L46` (包含下一步行动建议与裁决请求)。
 
 ### 未验证
-- 后继 Agent 能否只依据规定文件恢复任务；
-- Windows 与 macOS 之间是否可移植；
-- 不同 IDE 是否能遵守同一路由；
-- 长上下文失稳时能否主动触发 Handoff；
-- 多次执行后规则是否仍保持一致；
-- 异常或冲突情况下是否能正确停止。
+- 后继 Agent 能否只依据规定文件恢复任务；(证据：[[06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR]] 中未发现切换 Agent 并恢复任务的日志记录)
+- Windows 与 macOS 之间是否可移植；(证据：缺乏不同操作系统的执行对比日志)
+- 不同 IDE 是否能遵守同一路由；(证据：目前仅在 Google Antigravity 环境下测试)
+- 长上下文失稳时能否主动触发 Handoff；(证据：当前未触发 Context 溢出熔断)
+- 多次执行后规则是否仍保持一致；(证据：本轮仅执行单次单向测试)
+- 异常或冲突情况下是否能正确停止。(证据：本次测试流程未发生异常)
 
 ## 综合评估
 - **通过项**：文件定向读取、微型状态变更、防误改关键架构。

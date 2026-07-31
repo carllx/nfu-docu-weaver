@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -269,7 +268,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "60cb13de83ef9a71",
+  "active": "eae2f802ee203782",
   "lastOpenFiles": [
     "99_Meta/LLM_Wiki_System/07_EVALUATIONS/2026-07-31-MVT01-AGENTS-ROUTING-EVALUATION.md",
     "99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR.md",
