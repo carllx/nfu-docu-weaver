@@ -1,0 +1,21 @@
+# 2026-08-01-MVT01R2-FINAL-REVIEW
+
+- **本次目标**：完成 MVT-01R2 最小收尾修正，拆分多轮修订单的文档追踪，并准备面向场外的最终审查交接包。
+- **读取文件**：`AGENTS.md`, `99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR.md`, `99_Meta/LLM_Wiki_System/07_EVALUATIONS/2026-07-31-MVT01-AGENTS-ROUTING-EVALUATION.md`
+- **修改文件**： ^file-changes
+  - `AGENTS.md`
+  - `99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR.md`
+  - `99_Meta/LLM_Wiki_System/07_EVALUATIONS/2026-07-31-MVT01-AGENTS-ROUTING-EVALUATION.md`
+  - *创建*：`99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-08-01-MVT01R2-FINAL-REVIEW.md`
+- **三个只读 Subagent 的审查结果**：在 MVT-01R 修复过程中，状态与决策视角审查（Pass）、评估与证据视角审查（Pass）、路由纪律视角审查（Pass），均确认未越权及维持架构红线。
+- **已知限制**：系统处于纯文本路由的早期验证期，受制于单次会话环境且当前禁止越权修改 `01_ARCHITECTURE_SPEC.md`。
+- **尚未验证的能力**：
+  - 后继 Agent 的单次会话上下文恢复能力。
+  - 跨平台和跨 IDE 环境的执行可移植性。
+  - 极长文本干扰与逻辑冲突下的自动 Handoff 触发。
+  - 异常中止情况下的恢复机制。
+- **当前等待用户决定的事项**：
+  - MVT-01 状态能否升级为 Accepted（当前 Pending Review）。
+  - DEC-002 决定草案能否升级为 Accepted（当前 Proposed）。
+  - 是否启动下一阶段目标：Pilot 02 Evidence Audit。
+- **下一步**：等待用户及场外指导 Agent 的验收确认。
