@@ -13,6 +13,7 @@
 - 单来源 Flusser 原型
 - 第二次跨来源 Pilot
 - 共享概念、课程应用、教师决定三页隔离测试
+- Agent System MVT-01：重构 AGENTS.md 以支持多 Agent 状态机与路由。
 
 ## 当前结论
 
@@ -33,7 +34,7 @@
 
 ## 下一步
 
-1. 建立项目记忆系统。
+1. 建立项目记忆系统（核心路由 AGENTS.md 改造已完成，下一步需完善 Evaluation 与 Evidence Audit）。
 2. 将第二次 Pilot 保存到 Evaluations。
 3. 修正过度推论并进行一次证据审计。
 4. 确定《造物与创格》的课程边界。
