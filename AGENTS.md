@@ -2,7 +2,7 @@
 
 ## 1. 项目核心哲学
 
-本路由入口专为 MVT-01 及其延伸任务设计，只负责 Agent 状态流转与入口导向。
+本路由入口作为整个 Obsidian Vault 知识系统的长期 Agent 入口，只负责 Agent 状态流转与入口导向。
 - 有关项目架构与长期目标，请**严格参考** `00_PROJECT_CHARTER.md` 和 `01_ARCHITECTURE_SPEC.md`，本路由不重复架构定义。
 
 ## 2. 强制启动顺序
@@ -31,7 +31,7 @@ Agent 开始工作前必须回答：
 
 ## 4. 指导文件变更影响表（两级强制更新）
 
-每次重要任务必更新：`Session Log` 和 `04_CURRENT_STATE.md`。
+每次重要任务必更新 Session Log；只有项目阶段、完成状态、主要问题或下一步发生变化时才更新 `04_CURRENT_STATE.md`。
 
 | 本次发生的变化 | 必须检查或更新 |
 | --- | --- |
@@ -41,8 +41,8 @@ Agent 开始工作前必须回答：
 | 正式接受或拒绝方案 | Decision Log、Current State |
 | 当前任务完成或阻塞 | Current State、Session Log |
 | 下一阶段顺序变化 | Roadmap、Current State、Decision Log |
-| Agent 工作流程变化 | AGENTS、Agent Operating Protocol、Decision Log |
-| 指导文件联动关系变化 | Guidance Update Map、AGENTS |
+| Agent 工作流程变化 | AGENTS、Decision Log (规则复杂时可提拆分建议，但不得自行创建新协议文件) |
+| 指导文件联动关系变化 | AGENTS (规则复杂时可提拆分建议，但不得自行创建新映射文件) |
 | Pilot 或能力测试完成 | Evaluations、Session Log、Current State |
 | 即将切换 Agent 或对话 | Handoff Bundle、Current State、Session Log |
 
