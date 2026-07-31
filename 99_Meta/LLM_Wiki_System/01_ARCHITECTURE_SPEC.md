@@ -49,37 +49,42 @@ Wiki 页面不得承担具体课程的时间表、评分和项目管理。
 
 保存：
 
-- 用户观点
+- 研究判断
 - 教学取舍
 - 创作意图
-- 研究问题
-- 尚未验证的假设
+- 未验证假设
+- 个人解释
 - 对 Agent 建议的接受或拒绝
 
 ### Agent System
 
 保存：
 
-- 规则
-- 架构
-- 模板
-- Skill 设计
-- 日志
-- Pilot
-- 能力评估
-- 交接文件
+- `AGENTS.md`
+- `00_PROJECT_CHARTER.md`
+- `01_ARCHITECTURE_SPEC.md`
+- `02_EPISTEMIC_RULES.md`
+- `03_DECISION_LOG.md`
+- `04_CURRENT_STATE.md`
+- `05_ROADMAP.md`
+- `06_SESSION_LOG/`
+- `07_EVALUATIONS/`
+- `08_HANDOFF_BUNDLE.md`
+- `09_GLOSSARY.md`
 
 ## 2. 当前实施方式
 
-不移动现有笔记。
+暂不重构整个 Vault；
+暂不批量移动根目录笔记；
+暂不把旧笔记强行塞入新分类；
 
 采用覆盖层架构：
 
-现有 Vault  
+现有复杂 Vault  
 → Agent 目录地图与排除规则  
-→ 少量共享 Wiki  
-→ 项目引用 Wiki  
-→ 必要时回查 Sources
+→ 少量共享 Wiki / 主题入口 
+→ 具体 Projects 引用 Wiki  
+→ 通过链接引用旧知识/艺术家页/Sources，必要时回查 Sources
 
 ## 3. Wiki 新建判断
 

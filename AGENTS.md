@@ -9,13 +9,12 @@
 3. `99_Meta/LLM_Wiki_System/01_ARCHITECTURE_SPEC.md`
 4. `99_Meta/LLM_Wiki_System/02_EPISTEMIC_RULES.md`
 
-再读取与当前任务直接相关的项目文件和 Decision Log。
+再读取与当前任务直接相关的 Project、Decision 和 Evaluation 文件。
+注意：不要每次读取全部 Session Log。
 
 基本限制：
 
 - Sources 默认只读。
 - 不批量移动、重命名或重写文件。
-- 不将 Agent 推论表述为作者观点或用户决定。
-- 不因文件名、目录或模型记忆直接断定内容。
 - 新建、合并、拆分正式 Wiki 前必须提出计划。
 - 重要操作结束后更新 Current State、Session Log 和 Handoff Bundle。
