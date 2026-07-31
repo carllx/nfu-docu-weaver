@@ -1,6 +1,8 @@
 # Current State
 
-最后更新：
+最后更新：2026-07-31
+对应 Session：[[06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR]]
+审查状态：Pending Review
 
 ## 当前阶段
 
@@ -13,7 +15,12 @@
 - 单来源 Flusser 原型
 - 第二次跨来源 Pilot
 - 共享概念、课程应用、教师决定三页隔离测试
-- Agent System MVT-01：重构 AGENTS.md 以支持多 Agent 状态机与路由。
+
+## 已执行，待审查
+
+- Agent System MVT-01：已生成 AGENTS.md 候选版本，并完成一次微型联动任务测试。
+- 当前状态：Pending Review。
+- 尚未证明：跨 IDE 可移植性、后继 Agent 恢复能力、长期一致性和异常情况下的路由能力。
 
 ## 当前结论
 
@@ -34,8 +41,7 @@
 
 ## 下一步
 
-1. 建立项目记忆系统（核心路由 AGENTS.md 改造已完成，下一步需完善 Evaluation 与 Evidence Audit）。
-2. 将第二次 Pilot 保存到 Evaluations。
-3. 修正过度推论并进行一次证据审计。
-4. 确定《造物与创格》的课程边界。
-5. 第四优先：只处理一本书的一个章节（测试更新已有 Wiki 的能力，而非只新建页面）。
+1. 完成 MVT-01R 整改并等待负责人验收。
+2. 对 Pilot 02 进行正式 Evidence Audit。
+3. 明确《造物与创格》的课程边界。
+4. 后续处理一本书的一个章节，测试更新已有 Wiki 的能力。
