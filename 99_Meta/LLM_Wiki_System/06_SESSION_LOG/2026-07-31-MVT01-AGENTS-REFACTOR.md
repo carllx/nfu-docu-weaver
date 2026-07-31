@@ -11,3 +11,4 @@
 - 未解决问题：Evidence Audit 与《造物与创格》课程材料处理尚未启动；跨机器与后继 Agent 恢复能力尚未验证。
 - 下一步：进行 MVT-01R 整改并申请向场外指导 Agent / 用户汇报。
 - 已知错误与不确定性：之前错误地宣告系统能力完全闭环，现已通过 MVT-01R 撤回。
+- 本轮临时边界：禁止处理书籍章节，不启动 Pilot 02，禁止修改 `01_ARCHITECTURE_SPEC.md` 和 `08_HANDOFF_BUNDLE.md`，决定状态须保留 Proposed。
