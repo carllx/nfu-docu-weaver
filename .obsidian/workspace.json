@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 404.5
   },
   "right": {
     "id": "de10f002fde45117",
@@ -270,6 +270,7 @@
   },
   "active": "eae2f802ee203782",
   "lastOpenFiles": [
+    "99_Meta/LLM_Wiki_System/07_EVALUATIONS/2026-08-01-PILOT02-EVIDENCE-AUDIT.md",
     "99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-08-01-MVT01R2-FINAL-REVIEW.md",
     "99_Meta/LLM_Wiki_System/07_EVALUATIONS/2026-07-31-MVT01-AGENTS-ROUTING-EVALUATION.md",
     "99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR.md",
@@ -299,7 +300,6 @@
     "Artisti/John Cage.md",
     "Artisti/Bill Viola.md",
     "Artisti/Giorgio de Chirico.md",
-    "Artisti/Marcel Duchamp.md",
     "_交互产品综合创作/content/slides/guide/pedagogy-teaching-flowchart.pdf",
     "_交互产品综合创作/content/slides/guide/temp.html",
     "_交互产品综合创作/content/slides/guide",
