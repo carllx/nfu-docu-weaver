@@ -8,16 +8,17 @@
 - **预期行为**：Agent 只读取规定指导文件，修改 `04_CURRENT_STATE.md` 与 `AGENTS.md`，并在执行后生成面向场外指导 Agent 的审查包。
 - **实际行为**：Agent 成功修改了目标文件并创建了 Session Log，但错误地宣告了“整个记忆系统已经真正建立闭环”。后通过 MVT-01R 撤回并降级状态。
 - **原 MVT-01 读取文件**：`AGENTS.md`, `04_CURRENT_STATE.md`。
-- **原 MVT-01 修改文件**：`AGENTS.md`, `04_CURRENT_STATE.md`, `03_DECISION_LOG.md`。
+- **原 MVT-01 修改文件**：`AGENTS.md`, `04_CURRENT_STATE.md`。
 - **MVT-01R 整改读取文件**：`AGENTS.md`, `04_CURRENT_STATE.md`, `02_EPISTEMIC_RULES.md`, `03_DECISION_LOG.md`, Session Log, Evaluation。
-- **MVT-01R 整改修改文件**：`AGENTS.md`, `04_CURRENT_STATE.md`, `03_DECISION_LOG.md`, `99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR.md`, `99_Meta/LLM_Wiki_System/07_EVALUATIONS/2026-07-31-MVT01-AGENTS-ROUTING-EVALUATION.md`。
+- **MVT-01R 整改修改文件**：`04_CURRENT_STATE.md`, `03_DECISION_LOG.md`, `99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR.md`, `99_Meta/LLM_Wiki_System/07_EVALUATIONS/2026-07-31-MVT01-AGENTS-ROUTING-EVALUATION.md`。
+- **MVT-01R2 修改文件**：`AGENTS.md`, `99_Meta/LLM_Wiki_System/06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR.md`, `99_Meta/LLM_Wiki_System/07_EVALUATIONS/2026-07-31-MVT01-AGENTS-ROUTING-EVALUATION.md`。
 - **未修改文件**：`00_PROJECT_CHARTER.md`, `01_ARCHITECTURE_SPEC.md`, `02_EPISTEMIC_RULES.md`, `08_HANDOFF_BUNDLE.md`。
 
 ## 测试结论
 
 ### 已验证
 - IDE Agent 能读取 `AGENTS.md` 后执行一个微型状态更新任务。
-  - **证据文件与段落**：[[06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR#创建或修改文件]] (记录了修改文件动作)；[[04_CURRENT_STATE#已执行，待审查]] (具体的状态变更)。
+  - **证据文件与段落**：[[06_SESSION_LOG/2026-07-31-MVT01-AGENTS-REFACTOR#^file-changes]] (记录了修改文件动作)；[[04_CURRENT_STATE#已执行，待审查]] (具体的状态变更)。
 
 ### 部分验证 (Partial)
 - IDE Agent 能生成面向场外指导 Agent 的审查申请。
