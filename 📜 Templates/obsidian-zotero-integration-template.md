@@ -1,4 +1,8 @@
 ---
+type: "Source Summary"
+status: "provisional"
+sources: "{{citekey}}"
+related: ""
 Type: "{{itemType}}" 
 {%- for type, creators in creators | groupby("creatorType") -%}{% if loop.first %}
 {% endif -%}{{type | replace("interviewee", "Author") | replace("director", "Author") | replace("presenter", "Author") | replace("podcaster", "Author") | replace("programmer", "Author") | replace("cartographer", "Author") | replace("inventor", "Author") | replace("sponsor", "Author")  | replace("performer", "Author") | replace("artist", "Author")}| replace("author", "Author")}}: "{%- for creator in creators -%}{%- if creator.name -%}{{creator.name}}{%- else -%}{{creator.lastName}}, {{creator.firstName}}{%- endif -%}{% if not loop.last -%}; {% endif -%}{% endfor -%}" {% if not loop.last -%}
