@@ -22,7 +22,6 @@
 
 ## 未解决问题
 - 《Making》原著具体页码和章节的核验。
-- 确切的艺术家作品的验证与建档。
 
 ## 课程文件导航
 - [[课程总纲]]
@@ -35,3 +34,8 @@
 ## 使用中的通用 Wiki
 - [[英格尔德的制作观]]
 - [[证据递进式开放实践]]
+- [[Richard Serra]]
+- [[Giuseppe Penone]]
+- [[Robert Morris]]
+- [[Eva Hesse]]
+- [[Senga Nengudi]]

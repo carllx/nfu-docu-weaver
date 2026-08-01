@@ -6,7 +6,11 @@
 *(暂无内容)*
 
 ## Artists
-*(暂无内容)*
+- [[Richard Serra]]
+- [[Giuseppe Penone]]
+- [[Robert Morris]]
+- [[Eva Hesse]]
+- [[Senga Nengudi]]
 
 ## Concepts
 - [[英格尔德的制作观]]：反对形质说，强调在物质阻力和实践中认识世界，而非自上而下控制材料。
