@@ -6,6 +6,7 @@ sources:
 related: 
   - "[[造物与创格/HOME]]"
   - "[[证据递进式开放实践]]"
+  - "[[菜单式开放实践]]"
 ---
 # RISD 大一新生沉浸式装置协作实践 (Immersive Worlds)
 
