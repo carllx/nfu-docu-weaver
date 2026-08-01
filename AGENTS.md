@@ -5,10 +5,11 @@
 **强制要求**：Agent 开始任何任务前，必须首先读取本文件作为唯一核心 Schema。
 
 ## 2. Organization & Boundaries (组织架构与边界)
-- **Sources (`01_Sources/`)**: 逻辑证据层。原始资料（PDF、论文、书目等）默认由 Zotero 或外部资料库管理。Obsidian 默认保存 Source Summary、citekey、处理范围和定位。Vault 内已存在的原始资料保持只读，不强制迁移。
-- **Shared Wiki (`02_Concepts/`, `05_Artists/`等)**: 共享知识。跨项目复用的编译层，持续更新。
-- **Projects (`03_Projects/`, `COURSE/`等)**: 真实项目层。保存具体产出，引用Wiki，不冒充通用知识。
+- **Sources (`Source_Summaries/`)**: 逻辑证据层。原始资料（PDF、论文、书目等）默认由 Zotero 或外部资料库管理。Obsidian 默认保存 Source Summary、citekey、处理范围和定位。Vault 内已存在的原始资料保持只读，不强制迁移。
+- **Shared Wiki (`Wiki/`)**: 共享知识。跨项目复用的编译层（如 `Wiki/Concepts/`, `Wiki/Artists/`等），持续更新。
+- **Projects (`Projects/`)**: 真实项目层。保存具体产出（如 `Projects/造物与创格/HOME.md`），引用Wiki，不冒充通用知识。
 - **User Judgment / User Intent**: 知识身份，不再作为物理孤岛。用户的判断、目标和取舍必须保留，严禁被 Agent 改写成来源事实。
+- **工具目录排除**: `📜 Templates/`、`👾classFiles/`、`🧪 Script Labs/` 及 `99_Meta/MarpThemes/` 属工具目录。普通 Wiki 查询和摄入不应把它们当成知识页面处理。
 
 ## 3. Conventions & Status (规范与状态)
 - **默认基础属性**: 所有新建 Wiki 页面默认要求四个基础 YAML 属性：`type`, `status`, `sources`, `related`。除非某页面完成基本职责确实需要额外字段（如 Source Summary 增加 `citekey`），否则不得增加属性。
@@ -24,6 +25,7 @@
 
 ## 6. Linting & Maintenance (维护与清理)
 - **合并 (Merge)** 与 **拆分 (Split)**: 遇到同义页面、承担过多职责或过长文件，Agent应提出计划并待批准后执行。
+- **Legacy Notes (旧笔记触碰迁移)**: 根目录现有的大量 Markdown 文件视为 Legacy Notes。不得批量移动或重新分类。新的长期知识页面不得继续放在根目录。旧笔记只有在当前任务实际使用且边界明确时，才将其迁移到新结构（移动前需检查链接和同名文件）。
 
 ## 7. Task Workflows (任务工作流)
 1. **普通知识任务**：不读取 `STATE.md`。优先更新Wiki。仅在有持久变更时创建 Git Commit 记录。
