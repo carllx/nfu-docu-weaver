@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Towards a Theory of Montage 蒙太奇"
             }
+          },
+          {
+            "id": "8d1eab10b914ad2e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -140,13 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Towards a Theory of Montage 蒙太奇.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Towards a Theory of Montage 蒙太奇"
+              "title": "Outline"
             }
           },
           {
@@ -183,7 +197,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Towards a Theory of Montage 蒙太奇.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -211,7 +224,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Towards a Theory of Montage 蒙太奇"
+              "title": "Local graph"
             }
           },
           {
@@ -268,7 +281,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "60cb13de83ef9a71",
+  "active": "8d1eab10b914ad2e",
   "lastOpenFiles": [
     "Projects/造物与创格/第一模块-设计基线.md",
     "Source_Summaries/Making课程设计对话-2026-07-27至28.md",
